@@ -1,0 +1,101 @@
+ACCESSION: UT002215
+RECORD_TITLE: Phosphatidylinositol 16:0-18:1; LC-ESI-ITFT; MS2; [M-H]-; RT: 19.54; Exp: 2
+DATE: 2016.01.19 (Created 2010.05.07, modified 2011.08.03)
+AUTHORS: Taguchi R, Graduate School of Medicine, The University of Tokyo.
+LICENSE: CC BY-NC-SA
+PUBLICATION: Taguchi, R.; Ishikawa M.; Precise and global identification of phospholipid molecular species by an Orbitrap mass spectrometer and automated search engine Lipid Search. J Chromatogr A (2010), doi:10.1016/j.chroma.2010.04.034 (in press)
+CH$NAME: Phosphatidylinositol 16:0-18:1
+CH$COMPOUND_CLASS: Natural Product; Glycerophospholipids; Glycerophosphoinositols; Diacylglycerophosphoinositols
+CH$FORMULA: C43H81O13P
+CH$EXACT_MASS: 836.54148
+CH$SMILES: C(CCC(=O)OCC(OC(=O)CCC=CCCCCCCCCCCCCC)COP(OC(C1O)C(C(C(C1O)O)O)O)(O)=O)CCCCCCCCCCCC
+CH$IUPAC: InChI=1S/C43H81O13P/c1-3-5-7-9-11-13-15-17-18-20-22-24-26-28-30-32-37(45)55-35(34-54-57(51,52)56-43-41(49)39(47)38(46)40(48)42(43)50)33-53-36(44)31-29-27-25-23-21-19-16-14-12-10-8-6-4-2/h26,28,35,38-43,46-50H,3-25,27,29-34H2,1-2H3,(H,51,52)/b28-26-/t35?,38-,39-,40+,41-,42-,43-/m1/s1
+SP$SCIENTIFIC_NAME: Mus musculus
+SP$NAME: mouse
+SP$LINEAGE: cellular organisms; Eukaryota; Fungi/Metazoa group; Metazoa; Eumetazoa; Bilateria; Coelomata; Deuterostomia; Chordata; Craniata; Vertebrata; Gnathostomata; Teleostomi; Euteleostomi; Sarcopterygii; Tetrapoda; Amniota; Mammalia; Theria; Eutheria; Euarchontoglires; Glires; Rodentia; Sciurognathi; Muroidea; Muridae; Murinae; Mus
+SP$LINK: NCBI-TAXONOMY 10090
+SP$SAMPLE: brain
+AC$INSTRUMENT: LC-10ADVPmicro HPLC, Shimadzu; LTQ Orbitrap, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30%
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3500 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME Develosil C30, Nomura Chemical
+AC$CHROMATOGRAPHY: FLOW_GRADIENT  add 95/5 at 0 min, 70/30 at 40 min, 50/50 at 41 min, 50/50 at 90 min
+AC$CHROMATOGRAPHY: FLOW_RATE  add 100 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 19.88 min (in paper: 20 min)
+AC$CHROMATOGRAPHY: SOLVENT A acetonitrile-methanol-water (19:19:2) with 0.1% acetic acid and 0.1% ammonium hydroxide (28%)
+AC$CHROMATOGRAPHY: SOLVENT B 2-propanol with 0.1% acetic acid and 0.1% ammonium hydroxide (28%)
+MS$FOCUSED_ION: PRECURSOR_M/Z 835.53
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
+MS$DATA_PROCESSING: WHOLE Xcalibur ver-2.0
+PK$SPLASH: splash10-0ufr-0020090000-edb4eb6ae2b0217d5192
+PK$ANNOTATION: m/z num ( type mass error(ppm) formula )
+  835.26 1
+    [PI(16:0,18:1)-H]- 835.5336541653 -327 C43H80O13P-
+  817.32 1
+    [PI(16:0,18:1)-H-H2O]- 817.523089479 -247 C43H78O12P-
+  597.01 1
+    [lyso PI(-,18:1)]- 597.3039885802 -491 C27H50O12P-
+  579.15 1
+    [lyso PI(-,18:1)-H2O]- 579.2934238939 -247 C27H48O11P-
+  571.05 1
+    [lyso PI(16:0,-)]- 571.288338516 -416 C25H48O12P-
+  553.12 2
+    [lyso PI(-,18:1)-CO2]- 553.314159336 -350 C26H50O10P-
+    [lyso PI(16:0,-)-H2O]- 553.2777738297 -284 C25H46O11P-
+  281.11 1
+    [fa(18:1)-H]- 281.2480553035 -490 C18H33O2-
+  255.14 1
+    [fa(16:0)-H]- 255.2324052393 -361 C16H31O2-
+PK$NUM_PEAK: 46
+PK$PEAK: m/z int. rel.int.
+  240.91 1639.4 91
+  241.82 73.2 4
+  255.14 3215.7 178
+  256.08 395.7 22
+  257.08 55.9 3
+  258.97 226.7 13
+  281.11 3967.1 220
+  282.34 733.1 41
+  296.80 1765.3 98
+  297.76 172.1 10
+  298.83 305.0 17
+  314.89 506.6 28
+  390.98 3112.8 172
+  391.96 465.1 26
+  408.94 133.2 7
+  410.22 49.5 3
+  417.13 2923.4 162
+  418.04 419.7 23
+  420.30 29.6 2
+  428.12 75.4 4
+  435.44 62.5 3
+  497.28 22.9 1
+  523.26 24.7 1
+  525.01 1559.4 86
+  526.17 395.0 22
+  553.12 18047.6 999
+  554.16 4325.7 239
+  561.12 18.0 1
+  571.05 913.6 51
+  572.09 463.3 26
+  579.15 15092.4 835
+  580.08 3770.8 209
+  597.01 515.6 29
+  598.06 215.5 12
+  607.07 881.0 49
+  608.22 189.1 10
+  639.19 28.5 2
+  652.91 12.9 1
+  673.07 239.0 13
+  674.15 24.2 1
+  747.73 271.0 15
+  748.56 112.0 6
+  804.44 25.2 1
+  817.32 71.7 4
+  834.34 74.7 4
+  835.26 445.1 25
+//

@@ -1,0 +1,31 @@
+ACCESSION: BML81927
+RECORD_TITLE: phenyl(1,2,9,10-tetramethoxy-6-methyl-5,6-dihydro-4H-dibenzo[de,g]quinolin-7-yl)methanone; LC-APCI-QTOF; MS1; POSITIVE
+DATE: 2016.01.19 (Created 2012.10.26)
+AUTHORS: Cuthbertson DJ, Johnson SR, Lange BM, Institute of Biological Chemistry, Washington State University
+LICENSE: CC BY-SA
+COMMENT: relative retention time with respect to 9-anthracene Carboxylic Acid is 1.432
+CH$NAME: phenyl(1,2,9,10-tetramethoxy-6-methyl-5,6-dihydro-4H-dibenzo[de,g]quinolin-7-yl)methanone
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C28H27NO5
+CH$EXACT_MASS: 457.188923
+CH$SMILES: CN1CCC2=CC(=C(C3=C2C1=C(C4=CC(=C(C=C43)OC)OC)C(=O)C5=CC=CC=C5)OC)OC
+CH$IUPAC: InChI=1S/C28H27NO5/c1-29-12-11-17-13-22(33-4)28(34-5)24-18-14-20(31-2)21(32-3)15-19(18)25(26(29)23(17)24)27(30)16-9-7-6-8-10-16/h6-10,13-15H,11-12H2,1-5H3
+CH$LINK: CHEMSPIDER 5883850
+CH$LINK: PUBCHEM CID:7566702
+AC$INSTRUMENT: Agilent 1200 RRLC; Agilent 6520 QTOF
+AC$INSTRUMENT_TYPE: LC-APCI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS1
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: SCANNING m/z 100-1000
+AC$CHROMATOGRAPHY: COLUMN_NAME Agilent C8 Cartridge Column 2.1X30mm 3.5 micron (guard); Agilent SB-Aq 2.1x50mm 1.8 micron (analytical)
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE 60 C
+AC$CHROMATOGRAPHY: FLOW_GRADIENT linear from 98A/2B at 0 min to 2A/98B at 13 min, hold 6 min at 2A/98B, reequilibration 98A/2B (5 min)
+AC$CHROMATOGRAPHY: FLOW_RATE 0.6 ml/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 10.583
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.2% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.2% acetic acid
+PK$SPLASH: splash10-0a4i-0000900000-3c90c9ee487e9642e7bb
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  458.1961765 7849288 999
+//

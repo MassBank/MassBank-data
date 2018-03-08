@@ -1,0 +1,62 @@
+ACCESSION: OUF00495
+RECORD_TITLE: alpha-MethylBenzylamine; GC-EI-TOF; MS; n TMS; RT:290.670 sec
+DATE: 2016.01.19 (Created 2010.05.20, modified 2013.04.24)
+AUTHORS: Tsujimoto Y, Tsugawa H, Bamba T, Fukusaki E, engineering department, Osaka Univ.
+LICENSE: CC BY-SA
+COMMENT: The chemical compound was chemically modified with N-methyl-N-trimethylsilyl-trifluoroacetamide (MSTFA) before GC-MS analysis. When it has two or more functional groups, this modification gave a mixture of the TMS derivatives having different number of TMS groups at different functional groups.
+CH$NAME: a-MethylBenzylamine
+CH$NAME: alpha-MethylBenzylamine
+CH$COMPOUND_CLASS: Natural Product
+CH$FORMULA: C8H11N
+CH$EXACT_MASS: 121.08915
+CH$SMILES: CC(N)c(c1)cccc1
+CH$IUPAC: InChI=1S/C8H11N/c1-7(9)8-5-3-2-4-6-8/h2-7H,9H2,1H3
+CH$LINK: CAS 618-36-0
+CH$LINK: CHEBI 670
+CH$LINK: CHEMSPIDER 7130
+CH$LINK: KEGG C02455
+CH$LINK: PUBCHEM 7408
+AC$INSTRUMENT: Pegasus III TOF-MS system, Leco; GC 6890, Agilent Technologies
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: HELIUM_FLOW 1 ml/min
+AC$MASS_SPECTROMETRY: ION_SOURCE_TEMPERATURE 200 C
+AC$MASS_SPECTROMETRY: SCAN_RANGE_M/Z 85-500
+AC$CHROMATOGRAPHY: COLUMN_NAME CP-SIL 8 CB LOW BLEED/MS
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 230 C
+AC$CHROMATOGRAPHY: OVEN_TEMPERATURE 80 C (Duration 2 min)-330 C (rate: 15 C/min; Duration 6 min)
+AC$CHROMATOGRAPHY: RETENTION_INDEX 1055.927
+AC$CHROMATOGRAPHY: RETENTION_TIME 290.670  sec
+AC$CHROMATOGRAPHY: TRANSFARLINE_TEMPERATURE 250 C
+MS$DATA_PROCESSING: WHOLE ChromaTOF ver. 2.32 (LECO)
+PK$SPLASH: splash10-0a4i-0900000000-135bdaa3f3418b359765
+PK$NUM_PEAK: 26
+PK$PEAK: m/z int. rel.int.
+  85 3 3
+  86 3 3
+  87 3 3
+  88 1 1
+  89 13 13
+  90 5 5
+  91 34 34
+  92 6 6
+  93 5 5
+  94 1 1
+  100 1 1
+  102 13 13
+  103 50 50
+  104 96 96
+  105 41 41
+  106 999 999
+  107 83 83
+  108 2 2
+  117 2 2
+  118 5 5
+  119 4 4
+  120 45 45
+  121 13 13
+  147 3 3
+  221 3 3
+  389 1 1
+//

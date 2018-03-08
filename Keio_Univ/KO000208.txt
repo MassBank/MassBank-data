@@ -1,0 +1,48 @@
+ACCESSION: KO000208
+RECORD_TITLE: 5-Aminoimidazole-4-carboxamide-1-beta-D-ribofuranosyl 5'-monophosphate; LC-ESI-QQ; MS2; CE:40 V; [M-H]-
+DATE: 2016.01.19 (Created 2007.07.07, modified 2011.05.10)
+AUTHORS: Kakazu Y, Horai H, Institute for Advanced Biosciences, Keio Univ.
+LICENSE: CC BY-NC-SA
+COMMENT: KEIO_ID A133
+CH$NAME: 5-Aminoimidazole-4-carboxamide-1-ribofuranosyl 5'-monophosphate
+CH$NAME: 5-Aminoimidazole-4-carboxamide ribotide
+CH$NAME: 5'-Phosphoribosyl-5-amino-4-imidazolecarboxamide
+CH$NAME: 1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide
+CH$NAME: 5'-Phospho-ribosyl-5-amino-4-imidazole carboxamide
+CH$NAME: 5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide
+CH$NAME: 5-Phosphoribosyl-4-carbamoyl-5-aminoimidazole
+CH$NAME: AICAR
+CH$NAME: 5-Aminoimidazole-4-carboxamide-1-beta-D-ribofuranosyl 5'-monophosphate
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C9H15N4O8P
+CH$EXACT_MASS: 338.06275
+CH$SMILES: NC(=O)c(n2)c(N)n(c2)[C@H](O1)[C@H](O)[C@H](O)[C@@H](COP(O)(O)=O)1
+CH$IUPAC: InChI=1S/C9H15N4O8P/c10-7-4(8(11)16)12-2-13(7)9-6(15)5(14)3(21-9)1-20-22(17,18)19/h2-3,5-6,9,14-15H,1,10H2,(H2,11,16)(H2,17,18,19)/t3-,5-,6-,9-/m1/s1
+CH$LINK: CAS 3031-94-5
+CH$LINK: CHEBI 18406
+CH$LINK: KEGG C04677
+CH$LINK: NIKKAJI J7.665A
+CH$LINK: PUBCHEM SID:7258
+AC$INSTRUMENT: API3000, Applied Biosystems
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40 V
+MS$FOCUSED_ION: PRECURSOR_M/Z 337
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
+PK$SPLASH: splash10-004i-9200000000-70e563a806a4c3a55e97
+PK$NUM_PEAK: 12
+PK$PEAK: m/z int. rel.int.
+  59.000 148515.0 49
+  78.900 3044557.5 999
+  96.800 1217823.0 400
+  107.300 19802.0 6
+  108.100 103960.5 34
+  114.000 29703.0 10
+  125.000 752476.0 247
+  130.200 212871.5 70
+  139.400 9901.0 3
+  150.000 29703.0 10
+  150.800 168317.0 55
+  255.100 24752.5 8
+//

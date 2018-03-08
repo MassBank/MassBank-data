@@ -1,0 +1,26 @@
+ACCESSION: CO000096
+RECORD_TITLE: Buspirone; LC-ESI-QTOF; MS2; CE:10 eV; [M+H]+
+DATE: 2016.01.19 (Created 2008.07.15, modified 2012.11.20)
+AUTHORS: Dennis W. Hill, Tzipporah M. Kertesz, Robert Friedman, David F. Grant
+LICENSE: CC BY-SA
+PUBLICATION: Mass Spectral Metabonomics beyond Elemental Formula: Chemical Database Querying by Matching Experimental with Computational Fragmentation Spectra, http://pubs.acs.org/doi/abs/10.1021/ac800548g
+CH$NAME: Buspirone
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C21H31N5O2
+CH$EXACT_MASS: 385.24778
+CH$SMILES: [H]c(c([H])4)c([H])nc(n4)N(C([H])([H])1)C([H])([H])C([H])([H])N(C([H])([H])C([H])([H])C([H])([H])C([H])([H])N(C(=O)3)C(=O)C([H])([H])C(C([H])([H])3)(C([H])([H])2)C([H])([H])C([H])([H])C([H])([H])2)C([H])([H])1
+CH$IUPAC: InChI=1S/C21H31N5O2/c27-18-16-21(6-1-2-7-21)17-19(28)26(18)11-4-3-10-24-12-14-25(15-13-24)20-22-8-5-9-23-20/h5,8-9H,1-4,6-7,10-17H2
+CH$LINK: PUBCHEM CID:2477
+AC$INSTRUMENT: Micromass Q-TOF II
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10 eV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+MS$FOCUSED_ION: PRECURSOR_M/Z 386.25572
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-000i-0009000000-429c277f63eb2ab52f57
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  386.2543 10000 999
+//

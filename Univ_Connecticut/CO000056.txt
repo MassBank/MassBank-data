@@ -1,0 +1,27 @@
+ACCESSION: CO000056
+RECORD_TITLE: Anileridine; LC-ESI-QTOF; MS2; CE:10 eV; [M+H]+
+DATE: 2016.01.19 (Created 2008.07.15, modified 2012.11.20)
+AUTHORS: Dennis W. Hill, Tzipporah M. Kertesz, Robert Friedman, David F. Grant
+LICENSE: CC BY-SA
+PUBLICATION: Mass Spectral Metabonomics beyond Elemental Formula: Chemical Database Querying by Matching Experimental with Computational Fragmentation Spectra, http://pubs.acs.org/doi/abs/10.1021/ac800548g
+CH$NAME: Anileridine
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C22H28N2O2
+CH$EXACT_MASS: 352.21508
+CH$SMILES: [H]N([H])c(c([H])3)c([H])c([H])c(c([H])3)C([H])([H])C([H])([H])N(C([H])([H])1)C([H])([H])C([H])([H])C(C(=O)OC([H])([H])C([H])([H])[H])(c(c([H])2)c([H])c([H])c([H])c([H])2)C([H])([H])1
+CH$IUPAC: InChI=1S/C22H28N2O2/c1-2-26-21(25)22(19-6-4-3-5-7-19)13-16-24(17-14-22)15-12-18-8-10-20(23)11-9-18/h3-11H,2,12-17,23H2,1H3
+CH$LINK: PUBCHEM CID:8944
+AC$INSTRUMENT: Micromass Q-TOF II
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10 eV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+MS$FOCUSED_ION: PRECURSOR_M/Z 353.22302
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-0udi-0009000000-51d5aa3665f062055774
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  120.0818 123.138 12
+  353.2232 10000 999
+//

@@ -1,0 +1,32 @@
+ACCESSION: BML80650
+RECORD_TITLE: 9-{6-[(6,7-dimethoxy-2-methyl-1,2,3,4-tetrahydroisoquinolin-1-yl)methyl]-2,3-dimethoxyphenoxy}-1,2,10-trimethoxy-6-methyl-5,6,6a,7-tetrahydro-4H-dibenzo[de,g]quinoline; LC-ESI-QTOF; MS1; POSITIVE
+DATE: 2016.01.19 (Created 2012.10.26)
+AUTHORS: Cuthbertson DJ, Johnson SR, Lange BM, Institute of Biological Chemistry, Washington State University
+LICENSE: CC BY-SA
+COMMENT: relative retention time with respect to 9-anthracene Carboxylic Acid is 0.733
+CH$NAME: 9-{6-[(6,7-dimethoxy-2-methyl-1,2,3,4-tetrahydroisoquinolin-1-yl)methyl]-2,3-dimethoxyphenoxy}-1,2,10-trimethoxy-6-methyl-5,6,6a,7-tetrahydro-4H-dibenzo[de,g]quinoline
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C41H48N2O8
+CH$EXACT_MASS: 696.341067
+CH$SMILES: CN1CCC2=CC(=C(C3=C2C1CC4=CC(=C(C=C43)OC)OC5=C(C=CC(=C5OC)OC)CC6C7=CC(=C(C=C7CCN6C)OC)OC)OC)OC
+CH$IUPAC: InChI=1S/C41H48N2O8/c1-42-14-12-23-18-32(45-4)33(46-5)21-27(23)29(42)16-25-10-11-31(44-3)41(50-9)39(25)51-35-20-26-17-30-37-24(13-15-43(30)2)19-36(48-7)40(49-8)38(37)28(26)22-34(35)47-6/h10-11,18-22,29-30H,12-17H2,1-9H3
+CH$LINK: CHEMSPIDER 3568753
+CH$LINK: PUBCHEM CID:4365802
+AC$INSTRUMENT: Agilent 1200 RRLC; Agilent 6520 QTOF
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS1
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: SCANNING m/z 100-1000
+AC$CHROMATOGRAPHY: COLUMN_NAME Agilent C8 Cartridge Column 2.1X30mm 3.5 micron (guard); Agilent SB-Aq 2.1x50mm 1.8 micron (analytical)
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE 60 C
+AC$CHROMATOGRAPHY: FLOW_GRADIENT linear from 98A/2B at 0 min to 2A/98B at 13 min, hold 6 min at 2A/98B, reequilibration 98A/2B (5 min)
+AC$CHROMATOGRAPHY: FLOW_RATE 0.6 ml/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.379
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.2% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.2% acetic acid
+PK$SPLASH: splash10-00kb-0000009500-0e685e701b6d113f1c4b
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  697.3483765 66972 999
+  719.330318 41704 622
+//

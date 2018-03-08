@@ -1,0 +1,28 @@
+ACCESSION: CO000496
+RECORD_TITLE: Thonizide; LC-ESI-QTOF; MS2; CE:10 eV; [M]+
+DATE: 2016.01.19 (Created 2008.07.15, modified 2013.06.04)
+AUTHORS: Dennis W. Hill, Tzipporah M. Kertesz, Robert Friedman, David F. Grant
+LICENSE: CC BY-SA
+PUBLICATION: Mass Spectral Metabonomics beyond Elemental Formula: Chemical Database Querying by Matching Experimental with Computational Fragmentation Spectra, http://pubs.acs.org/doi/abs/10.1021/ac800548g
+CH$NAME: Thonizide
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C32H55N4O
+CH$EXACT_MASS: 511.43759
+CH$SMILES: [H]C([H])(N(C([H])([H])[H])(C([H])([H])[H])C([H])([H])C(C(C([H])([H])C(C([H])([H])C([H])([H])C([H])([H])C([H])([H])C(C([H])([H])C(C([H])([H])C([H])([H])C([H])([H])C([H])([H])[H])([H])[H])([H])[H])([H])[H])([H])[H])([H])[H])C(N(c(n2)nc([H])c([H])c([H])2)C(c(c([H])1)c([H])c(c(OC([H])([H])[H])c1[H])[H])([H])[H])([H])[H]
+CH$IUPAC: InChI=1S/C32H55N4O/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-27-36(2,3)28-26-35(32-33-24-19-25-34-32)29-30-20-22-31(37-4)23-21-30/h19-25H,5-18,26-29H2,1-4H3/q+1
+CH$LINK: PUBCHEM CID:5456
+AC$INSTRUMENT: Micromass Q-TOF II
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10 eV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+MS$FOCUSED_ION: PRECURSOR_M/Z 511.43759
+MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
+PK$SPLASH: splash10-03di-0000090000-876450f6a1ff11da7427
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  242.1293 584.585 58
+  243.133 485.254 48
+  512.4399 10000 999
+//

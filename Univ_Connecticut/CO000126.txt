@@ -1,0 +1,27 @@
+ACCESSION: CO000126
+RECORD_TITLE: Dihydroergotamine; LC-ESI-QTOF; MS2; CE:10 eV; [M+H]+
+DATE: 2016.01.19 (Created 2008.07.15, modified 2012.11.20)
+AUTHORS: Dennis W. Hill, Tzipporah M. Kertesz, Robert Friedman, David F. Grant
+LICENSE: CC BY-SA
+PUBLICATION: Mass Spectral Metabonomics beyond Elemental Formula: Chemical Database Querying by Matching Experimental with Computational Fragmentation Spectra, http://pubs.acs.org/doi/abs/10.1021/ac800548g
+CH$NAME: Dihydroergotamine
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C33H37N5O5
+CH$EXACT_MASS: 583.27947
+CH$SMILES: [H]C(N13)(C(O4)(N(C(C(N([H])C(=O)C([H])(C([H])([H])5)C(N(C([H])(C8([H])[H])C5([H])c(c([H])7)c(c86)c(c([H])c7[H])n([H])c([H])6)C([H])([H])[H])([H])[H])4C([H])([H])[H])=O)C(C3=O)([H])C([H])([H])c(c2[H])c(c(c(c([H])2)[H])[H])[H])O[H])C([H])([H])C([H])([H])C1([H])[H]
+CH$IUPAC: InChI=1S/C33H37N5O5/c1-32(35-29(39)21-15-23-22-10-6-11-24-28(22)20(17-34-24)16-25(23)36(2)18-21)31(41)38-26(14-19-8-4-3-5-9-19)30(40)37-13-7-12-27(37)33(38,42)43-32/h3-6,8-11,17,21,23,25-27,34,42H,7,12-16,18H2,1-2H3,(H,35,39)
+CH$LINK: PUBCHEM CID:3066
+AC$INSTRUMENT: Micromass Q-TOF II
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10 eV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+MS$FOCUSED_ION: PRECURSOR_M/Z 584.28741
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-001i-0000090000-5e5e8788ff52cadb0bb8
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  566.2753 180.571 18
+  584.2848 10000 999
+//

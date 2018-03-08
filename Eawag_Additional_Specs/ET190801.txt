@@ -1,0 +1,44 @@
+ACCESSION: ET190801
+RECORD_TITLE: VEN_292.1908_9.6; LC-ESI-QFT; MS2; CE: 15; R=17500; [M+H]+
+DATE: 2016.03.17 (Created 2015.09.25, modified 2016.02.03)
+AUTHORS: R. Gulde, E. Schymanski, K. Fenner, Department of Environmental Chemistry, Eawag
+LICENSE: CC BY
+COPYRIGHT: Copyright (C) 2016 Eawag, Duebendorf, Switzerland
+PUBLICATION: Gulde, Meier, Schymanski, Kohler, Helbling, Derrer, Rentsch & Fenner; ES&T 2016 50(6):2908-2920. DOI: 10.1021/acs.est.5b05186. Systematic Exploration of Biotransformation Reactions of Amine-containing Micropollutants in Activated Sludge
+COMMENT: CONFIDENCE Tentative identification: substance class known (Level 3)
+COMMENT: INTERNAL_ID 1908
+CH$NAME: VEN_292.1908_9.6
+CH$COMPOUND_CLASS: N/A; Environmental Transformation Products
+CH$FORMULA: C17H25NO3
+CH$EXACT_MASS: 291.1834
+CH$SMILES: NA
+CH$IUPAC: NA
+AC$INSTRUMENT: Q Exactive Orbitrap Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 15 (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 17500
+AC$CHROMATOGRAPHY: COLUMN_NAME Atlantis T3 3um, 3x150mm, Waters with guard column
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 5/95 at 15 min, 5/95 at 20 min, 95/5 at 20.1 min, 95/5 at 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.5 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% formic acid
+MS$FOCUSED_ION: BASE_PEAK 61.0285
+MS$FOCUSED_ION: PRECURSOR_M/Z 292.1907
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 1.99.7
+PK$SPLASH: splash10-0006-3090000000-4b940c41e956d45a15ac
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  58.0653 C3H8N+ 1 58.0651 2.49
+  292.1911 C17H26NO3+ 1 292.1907 1.3
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  58.0653 5812.2 363
+  292.1911 15967.9 999
+//

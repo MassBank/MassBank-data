@@ -1,0 +1,104 @@
+ACCESSION: OUF00200
+RECORD_TITLE: DL-Pipecolic acid; GC-EI-TOF; MS; n TMS; RT:480.339 sec
+DATE: 2016.01.19 (Created 2010.05.20, modified 2013.04.24)
+AUTHORS: Tsujimoto Y, Tsugawa H, Bamba T, Fukusaki E, engineering department, Osaka Univ.
+LICENSE: CC BY-SA
+COMMENT: The chemical compound was chemically modified with N-methyl-N-trimethylsilyl-trifluoroacetamide (MSTFA) before GC-MS analysis. When it has two or more functional groups, this modification gave a mixture of the TMS derivatives having different number of TMS groups at different functional groups.
+CH$NAME: DL-Pipecolic acid
+CH$COMPOUND_CLASS: Natural Product
+CH$FORMULA: C6H11NO2
+CH$EXACT_MASS: 129.07898
+CH$SMILES: OC(=O)C([H])(C1)NCCC1
+CH$IUPAC: InChI=1S/C6H11NO2/c8-6(9)5-3-1-2-4-7-5/h5,7H,1-4H2,(H,8,9)/t5-/m0/s1
+CH$LINK: CAS 535-75-1
+CH$LINK: CHEBI 270397 30633 30913
+CH$LINK: CHEMSPIDER 388365
+CH$LINK: KEGG C00408
+CH$LINK: PUBCHEM 439227 6931663
+AC$INSTRUMENT: Pegasus III TOF-MS system, Leco; GC 6890, Agilent Technologies
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: HELIUM_FLOW 1 ml/min
+AC$MASS_SPECTROMETRY: ION_SOURCE_TEMPERATURE 200 C
+AC$MASS_SPECTROMETRY: SCAN_RANGE_M/Z 85-500
+AC$CHROMATOGRAPHY: COLUMN_NAME CP-SIL 8 CB LOW BLEED/MS
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 230 C
+AC$CHROMATOGRAPHY: OVEN_TEMPERATURE 80 C (Duration 2 min)-330 C (rate: 15 C/min; Duration 6 min)
+AC$CHROMATOGRAPHY: RETENTION_INDEX 1363.277
+AC$CHROMATOGRAPHY: RETENTION_TIME 480.339  sec
+AC$CHROMATOGRAPHY: TRANSFARLINE_TEMPERATURE 250 C
+MS$DATA_PROCESSING: WHOLE ChromaTOF ver. 2.32 (LECO)
+PK$SPLASH: splash10-0a4i-0900000000-c7875e682dfb275cdf1e
+PK$NUM_PEAK: 69
+PK$PEAK: m/z int. rel.int.
+  85 11 11
+  86 17 17
+  87 6 6
+  88 2 2
+  89 1 1
+  94 4 4
+  95 1 1
+  96 1 1
+  97 2 2
+  98 5 5
+  99 6 6
+  100 12 12
+  101 4 4
+  102 4 4
+  103 8 8
+  104 1 1
+  105 2 2
+  108 2 2
+  110 2 2
+  111 1 1
+  112 14 14
+  113 7 7
+  114 6 6
+  115 4 4
+  116 1 1
+  117 8 8
+  118 1 1
+  119 3 3
+  122 2 2
+  124 1 1
+  126 9 9
+  127 1 1
+  128 15 15
+  129 9 9
+  130 3 3
+  131 13 13
+  132 3 3
+  133 24 24
+  134 4 4
+  135 2 2
+  138 1 1
+  140 8 8
+  141 2 2
+  142 3 3
+  143 1 1
+  147 62 62
+  148 10 10
+  149 4 4
+  152 3 3
+  154 13 13
+  155 7 7
+  156 999 999
+  157 149 149
+  158 49 49
+  159 4 4
+  168 7 7
+  170 1 1
+  175 3 3
+  184 7 7
+  185 1 1
+  186 1 1
+  230 44 44
+  231 16 16
+  232 6 6
+  233 1 1
+  244 1 1
+  258 3 3
+  259 1 1
+  273 1 1
+//

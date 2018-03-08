@@ -1,0 +1,50 @@
+ACCESSION: LIT00004
+RECORD_TITLE: NPEOx; LC-APCI-Q; MS; [M+H]+
+DATE: 2016.02.03 (Created 2013.01.31)
+AUTHORS: E. Schymanski; retrieved from M. Castillo et al. 2000
+LICENSE: Unknown
+COPYRIGHT: Copyright (C) Elsevier Ltd. 2000
+PUBLICATION: M. Castillo et al. Inter-laboratory comparison of liquid chromatographic techniques and enzyme-linked immunisorbent asssay for the determination of surfactants in wastewater. Journal of Chromatography A, 2000, 889, p195-209. DOI:10.1016/S0021-9673(00)00398-8
+COMMENT: Literature spectrum
+COMMENT: CONFIDENCE: Tentative identification: isomers possible (Level 3)
+COMMENT: Spectrum from a collection of homologues
+COMMENT: Digitised from figure: approximate intensities
+CH$NAME: NPEOx
+CH$NAME: Nonylphenol polyethoxylates
+CH$NAME: 2-(2-(4-Nonylphenoxy)ethoxy)ethanol (example)
+CH$COMPOUND_CLASS: N/A; Surfactant
+CH$FORMULA: C19H32O3
+CH$EXACT_MASS: 308.2351
+CH$SMILES: CCCCCCCCCc1ccc(OCCOCCO)cc1
+CH$IUPAC: InChI=1S/C19H32O3/c1-2-3-4-5-6-7-8-9-18-10-12-19(13-11-18)22-17-16-21-15-14-20/h10-13,20H,2-9,14-17H2,1H3
+CH$LINK: INCHIKEY BLXVTZPGEOGTGG-UHFFFAOYSA-N
+CH$LINK: CAS 9016-45-9
+CH$LINK: CHEMSPIDER 23159
+CH$LINK: PUBCHEM CID:24773
+AC$INSTRUMENT: VG Platform
+AC$INSTRUMENT_TYPE: LC-APCI-Q
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: IONIZATION APCI
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+MS$DATA_PROCESSING: Hand-digitised from figures
+PK$SPLASH: splash10-00gu-0871694300-3889128878e7d7ca616a
+PK$ANNOTATION: m/z formula putative_smiles
+  133 C10H13+ [CH2+]CCCc1ccccc1
+PK$NUM_PEAK: 15
+PK$PEAK: m/z int. rel.int.
+  133 100 999
+  177 33 330
+  227 25 250
+  271 50 500
+  291 50 500
+  397 20 200
+  441 40 400
+  485 70 700
+  529 75 750
+  573 70 700
+  617 40 400
+  662 35 350
+  706 30 300
+  750 15 150
+  794 10 100
+//

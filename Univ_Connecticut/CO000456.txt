@@ -1,0 +1,27 @@
+ACCESSION: CO000456
+RECORD_TITLE: Testosterone_Propionate; LC-ESI-QTOF; MS2; CE:10 eV; [M+H]+
+DATE: 2016.01.19 (Created 2008.07.15, modified 2012.11.20)
+AUTHORS: Dennis W. Hill, Tzipporah M. Kertesz, Robert Friedman, David F. Grant
+LICENSE: CC BY-SA
+PUBLICATION: Mass Spectral Metabonomics beyond Elemental Formula: Chemical Database Querying by Matching Experimental with Computational Fragmentation Spectra, http://pubs.acs.org/doi/abs/10.1021/ac800548g
+CH$NAME: Testosterone_Propionate
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C22H32O3
+CH$EXACT_MASS: 344.23514
+CH$SMILES: [H]C([H])([H])C([H])([H])C(=O)OC([H])(C([H])([H])4)C(C([H])([H])[H])(C([H])([H])3)C([H])(C([H])([H])4)C([H])(C([H])([H])1)C([H])(C([H])([H])3)C(C([H])([H])[H])(C([H])([H])2)C(=C([H])C(=O)C([H])([H])2)C([H])([H])1
+CH$IUPAC: InChI=1S/C22H32O3/c1-4-20(24)25-19-8-7-17-16-6-5-14-13-15(23)9-11-21(14,2)18(16)10-12-22(17,19)3/h13,16-19H,4-12H2,1-3H3/t16?,17?,18?,19-,21-,22-/m0/s1
+CH$LINK: PUBCHEM CID:5701990
+AC$INSTRUMENT: Micromass Q-TOF II
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10 eV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+MS$FOCUSED_ION: PRECURSOR_M/Z 345.24308
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-0002-0009000000-245c8aa517c06ac1762d
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  271.205 143.846 14
+  345.2411 10000 999
+//

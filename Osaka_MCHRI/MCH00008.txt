@@ -1,0 +1,46 @@
+ACCESSION: MCH00008
+RECORD_TITLE: 5-Methoxysalicylic acid; MALDI-TOF; MS; Neg
+DATE: 2016.01.19 (Created 2010.10.06, modified 2011.05.27)
+AUTHORS: Wada Y, Osaka Medical Center for Maternal and Child Health
+LICENSE: CC BY-SA
+COMMENT: Spectral data in this record was analyzed on a mixture of 2,5-Dihydroxybenzoic acid and 5-Methoxysalicylic acid.  In such a case, MassBank should create one MassBank record of an identical spectral data for each chemical component.
+COMMENT: Record of the other chemical component was created.
+COMMENT: [Mixture] MCH00016 2,5-Dihydroxybenzoic acid; MALDI-TOF; MS; Neg
+COMMENT: Profile spectrum of this record is given as a JPEG file.
+COMMENT: [Profile] MCH00008.jpg
+CH$NAME: 5-Methoxysalicylic acid
+CH$NAME: DHBs (Super DHB)
+CH$COMPOUND_CLASS: Non-Natural Product; Mixture
+CH$FORMULA: C8H8O4
+CH$EXACT_MASS: 168.04226
+CH$SMILES: COc(c1)cc(C(O)=O)c(O)c1
+CH$IUPAC: InChI=1S/C8H8O4/c1-12-5-2-3-7(9)6(4-5)8(10)11/h2-4,9H,1H3,(H,10,11)
+AC$INSTRUMENT: Voyager DE-PRO, Applied Biosystems
+AC$INSTRUMENT_TYPE: MALDI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: LASER UV 337 nm nitrogen lazer, 20 Hz, 10 nsec
+AC$MASS_SPECTROMETRY: MATRIX A:B = 9:1 (A=10 mg/mL DHB in 20% acetonitrile, B=10 mg/mL 5-methoxysalicylic acid in 50% acetonitrile)
+PK$SPLASH: splash10-0udi-0901000000-e150bf0b7d6fa4033b66
+PK$ANNOTATION: m/z ion
+  307.04 [2DHB-H]-
+  153.02 [DHB-H]-
+  152.00 [DHB-2H]-
+PK$NUM_PEAK: 15
+PK$PEAK: m/z int. rel.int.
+  108.096149 6570 28
+  152.004656 237105 999
+  153.01824 209474 883
+  153.216549 5388 23
+  154.02258 25335 107
+  167.036385 15203 64
+  289.071331 7601 32
+  307.04484 28475 120
+  321.054979 8364 35
+  325.031543 18791 79
+  329.066242 9472 40
+  341.026573 8278 35
+  359.997563 7582 32
+  409.065314 7912 33
+  491.043775 5980 25
+//
