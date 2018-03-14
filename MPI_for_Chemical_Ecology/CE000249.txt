@@ -2,24 +2,19 @@ ACCESSION: CE000249
 RECORD_TITLE: beta-D-Glucopyranose,1-thio-,1-(5-(methylsulfinyl)-N-(sulfooxy)-4-pentenimidate; LC-ESI-ITFT; MS2; HCD; CE 10.0 eV; [M-H]-
 DATE: 2016.01.19 (Created 2012.04.12)
 AUTHORS: Ales Svatos, Marco Kai, Ravi Kumar Maddula, MPI for Chemical Ecology, Jena, Germany
-PUBLICATION: F. Rasche, K. Scheubert, F. Hufsky, T. Zichner, M. Kai, A. Svatos and S. Boecker. Identifying the unknowns by aligning fragmentation trees. Anal. Chem., 2012, 84, 3417-3426
-COPYRIGHT: Copyright(C) 2011 MPI for Chemical Ecology, Jena, Germany
 LICENSE: CC BY-NC-SA
+COPYRIGHT: Copyright(C) 2011 MPI for Chemical Ecology, Jena, Germany
+PUBLICATION: F. Rasche, K. Scheubert, F. Hufsky, T. Zichner, M. Kai, A. Svatos and S. Boecker. Identifying the unknowns by aligning fragmentation trees. Anal. Chem., 2012, 84, 3417-3426
 COMMENT: Acquisition and generation of the data is financially supported by the Max-Planck-Society
 CH$NAME: beta-D-Glucopyranose,1-thio-,1-(5-(methylsulfinyl)-N-(sulfooxy)-4-pentenimidate
 CH$COMPOUND_CLASS: Natural Product; Glucosinolate
 CH$FORMULA: C12H21NO11S3
 CH$EXACT_MASS: 451.02767
-CH$IUPAC: InChI=1S/C12H21NO11S3/c1-26(19)4-2-3-6(11(18)13-24-27(20,21)22)12(25)10(17)9(16)8(15)7(5-14)23-12/h2,4,6-10,14-17,25H,3,5H2,1H3,(H,13,18)(H,20,21,22)/b4-2+/t6?,7-,8-,9+,10-,12+,26?/m1/s1
 CH$SMILES: OCC(C(O)1)OC(S)(C(O)C(O)1)C(CC=CS(C)=O)C(=O)NOS(O)(=O)=O
+CH$IUPAC: InChI=1S/C12H21NO11S3/c1-26(19)4-2-3-6(11(18)13-24-27(20,21)22)12(25)10(17)9(16)8(15)7(5-14)23-12/h2,4,6-10,14-17,25H,3,5H2,1H3,(H,13,18)(H,20,21,22)/b4-2+/t6?,7-,8-,9+,10-,12+,26?/m1/s1
 CH$LINK: PUBCHEM CID:6443008
 AC$INSTRUMENT: LTQ Orbitrap XL, Thermo Scientfic; HP-1100 HPLC, Agilent
 AC$INSTRUMENT_TYPE: LC-ESI-ITFT
-AC$CHROMATOGRAPHY: COLUMN_NAME Symmetry C18 Column, Waters
-AC$CHROMATOGRAPHY: SOLVENT CH3CN(0.1%HCOOH)/ H2O(0.1%HCOOH)
-AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min:5%, 24min:95%, 28min:95%, 28.1:5% (acetonitrile)
-AC$CHROMATOGRAPHY: FLOW_RATE 0.3 ml/min
-AC$CHROMATOGRAPHY: RETENTION_TIME 269.797 s
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
 AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
 AC$MASS_SPECTROMETRY: IONIZATION ESI
@@ -33,6 +28,11 @@ AC$MASS_SPECTROMETRY: FRAGMENTATION_METHOD HCD
 AC$MASS_SPECTROMETRY: ACTIVATION_TIME 30 ms
 AC$MASS_SPECTROMETRY: ACTIVATION_PARAMETER q=0.25
 AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10.0eV
+AC$CHROMATOGRAPHY: COLUMN_NAME Symmetry C18 Column, Waters
+AC$CHROMATOGRAPHY: SOLVENT CH3CN(0.1%HCOOH)/ H2O(0.1%HCOOH)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min:5%, 24min:95%, 28min:95%, 28.1:5% (acetonitrile)
+AC$CHROMATOGRAPHY: FLOW_RATE 0.3 ml/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 269.797 s
 MS$FOCUSED_ION: PRECURSOR_M/Z 450.02040
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
 PK$SPLASH: splash10-0udi-0000900000-2ff223fc5f051e109bed

@@ -2,24 +2,19 @@ ACCESSION: CE000316
 RECORD_TITLE: Trans-Zeatin-9-glucoside-[d5]; LC-ESI-ITFT; MS2; CE 14.0 eV; [M+H]+
 DATE: 2016.01.19 (Created 2012.04.12)
 AUTHORS: Ales Svatos, Marco Kai, Ravi Kumar Maddula, MPI for Chemical Ecology, Jena, Germany
-PUBLICATION: F. Rasche, K. Scheubert, F. Hufsky, T. Zichner, M. Kai, A. Svatos and S. Boecker. Identifying the unknowns by aligning fragmentation trees. Anal. Chem., 2012, 84, 3417-3426
-COPYRIGHT: Copyright(C) 2011 MPI for Chemical Ecology, Jena, Germany
 LICENSE: CC BY-NC-SA
+COPYRIGHT: Copyright(C) 2011 MPI for Chemical Ecology, Jena, Germany
+PUBLICATION: F. Rasche, K. Scheubert, F. Hufsky, T. Zichner, M. Kai, A. Svatos and S. Boecker. Identifying the unknowns by aligning fragmentation trees. Anal. Chem., 2012, 84, 3417-3426
 COMMENT: Acquisition and generation of the data is financially supported by the Max-Planck-Society
 CH$NAME: Trans-Zeatin-9-glucoside-[d5]
 CH$COMPOUND_CLASS: Natural Product; Zeatin
 CH$FORMULA: C16H23N5O6
 CH$EXACT_MASS: 381.16483
-CH$IUPAC: InChI=1S/C16H23N5O6/c1-8(4-22)2-3-17-14-10-15(19-6-18-14)21(7-20-10)16-13(26)12(25)11(24)9(5-23)27-16/h2,6-7,9,11-13,16,22-26H,3-5H2,1H3,(H,17,18,19)/b8-2+/t9-,11-,12+,13-,16-/m1/s1
 CH$SMILES: [H]OC([H])([H])C(C([H])([H])[H])=C([H])C([H])([H])N([H])c(n3)c(n2)c(nc([H])3)n(c([H])2)[C@]([H])(O1)[C@]([H])(O[H])[C@@]([H])(O[H])[C@]([H])(O[H])[C@@]([H])(C([H])([H])O[H])1
+CH$IUPAC: InChI=1S/C16H23N5O6/c1-8(4-22)2-3-17-14-10-15(19-6-18-14)21(7-20-10)16-13(26)12(25)11(24)9(5-23)27-16/h2,6-7,9,11-13,16,22-26H,3-5H2,1H3,(H,17,18,19)/b8-2+/t9-,11-,12+,13-,16-/m1/s1
 CH$LINK: PUBCHEM CID:9842892
 AC$INSTRUMENT: LTQ Orbitrap XL, Thermo Scientfic; HP-1100 HPLC, Agilent
 AC$INSTRUMENT_TYPE: LC-ESI-ITFT
-AC$CHROMATOGRAPHY: COLUMN_NAME Symmetry C18 Column, Waters
-AC$CHROMATOGRAPHY: SOLVENT CH3CN(0.1%HCOOH)/ H2O(0.1%HCOOH)
-AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min:5%, 24min:95%, 28min:95%, 28.1:5% (acetonitrile)
-AC$CHROMATOGRAPHY: FLOW_RATE 0.3 ml/min
-AC$CHROMATOGRAPHY: RETENTION_TIME 7.6883 s
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
 AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
 AC$MASS_SPECTROMETRY: IONIZATION ESI
@@ -33,6 +28,11 @@ AC$MASS_SPECTROMETRY: FRAGMENTATION_METHOD CID
 AC$MASS_SPECTROMETRY: ACTIVATION_TIME 30 ms
 AC$MASS_SPECTROMETRY: ACTIVATION_PARAMETER q=0.25
 AC$MASS_SPECTROMETRY: COLLISION_ENERGY 14.0eV
+AC$CHROMATOGRAPHY: COLUMN_NAME Symmetry C18 Column, Waters
+AC$CHROMATOGRAPHY: SOLVENT CH3CN(0.1%HCOOH)/ H2O(0.1%HCOOH)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min:5%, 24min:95%, 28min:95%, 28.1:5% (acetonitrile)
+AC$CHROMATOGRAPHY: FLOW_RATE 0.3 ml/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.6883 s
 MS$FOCUSED_ION: PRECURSOR_M/Z 387
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-004i-0092000000-023a49bcb881e62f41a2
