@@ -31,13 +31,10 @@ MS$FOCUSED_ION: PRECURSOR_M/Z 724.53
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
 MS$DATA_PROCESSING: WHOLE Xcalibur ver-2.0
 PK$SPLASH: splash10-0udr-0019500000-de314bfc3040af4ca3f3
-PK$ANNOTATION: m/z num ( type mass error(ppm) formula )
-  438.17 1
-    [lyso PE(alkyl-16:0,-)]- 438.2984496923 -292 C21H45NO6P-
-  420.14 1
-    [lyso PE(alkyl-16:0,-)-H2O]- 420.287885006 -351 C21H43NO5P-
-  303.08 1
-    [fa(20:4)-H]- 303.2324052393 -502 C20H31O2-
+PK$ANNOTATION: m/z num type mass error(ppm) formula
+  438.17 1 [lyso_PE(alkyl-16:0,-)]- 438.2984496923 -292 C21H45NO6P-
+  420.14 1 [lyso_PE(alkyl-16:0,-)-H2O]- 420.287885006 -351 C21H43NO5P-
+  303.08 1 [fa(20:4)-H]- 303.2324052393 -502 C20H31O2-
 PK$NUM_PEAK: 14
 PK$PEAK: m/z int. rel.int.
   217.07 7.0 3

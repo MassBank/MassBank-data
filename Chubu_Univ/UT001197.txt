@@ -31,11 +31,9 @@ MS$FOCUSED_ION: PRECURSOR_M/Z 502.29
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
 MS$DATA_PROCESSING: WHOLE Xcalibur ver-2.0
 PK$SPLASH: splash10-0a4i-0009000000-6f9b96fc04104740ef9c
-PK$ANNOTATION: m/z num ( type mass error(ppm) formula )
-  305.06 1
-    [fa(20:3)-H]- 305.2480553035 -615 C20H33O2-
-  213.88 1
-    [lyso PE(lyso,-)]- 214.0480486651 -784 C5H13NO6P-
+PK$ANNOTATION: m/z num type mass error(ppm) formula
+  305.06 1 [fa(20:3)-H]- 305.2480553035 -615 C20H33O2-
+  213.88 1 [lyso_PE(lyso,-)]- 214.0480486651 -784 C5H13NO6P-
 PK$NUM_PEAK: 10
 PK$PEAK: m/z int. rel.int.
   152.87 15.0 10
