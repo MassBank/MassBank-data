@@ -26,9 +26,8 @@ MS$FOCUSED_ION: PRECURSOR_M/Z 225
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 MS$DATA_PROCESSING: WHOLE LC/MSD Trap Control and Data Analysis
 PK$SPLASH: splash10-0a4i-0090000000-7f42d12946f3efd7305d
-PK$ANNOTATION: m/z struct. num { formula mass }*
-  208.0 0 1
-    C10H10NO4 208.06098
+PK$ANNOTATION: m/z struct. num formula mass
+  208.0 0 1 C10H10NO4 208.06098
 PK$NUM_PEAK: 83
 PK$PEAK: m/z int. rel.int.
   71.3 99.79 1
