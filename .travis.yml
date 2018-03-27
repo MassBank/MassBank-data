@@ -8,10 +8,13 @@ script:
 env:
  - TESTDIR=Athens_Univ/
  - TESTDIR=Boise_State_Univ/
+ - TESTDIR=BS/
  - TESTDIR=CASMI_2012/
+ - TESTDIR=CASMI_2016/
  - TESTDIR=Chubu_Univ/
  - TESTDIR=Eawag/
  - TESTDIR=Eawag_Additional_Specs/
+ - TESTDIR=Env_Anal_Chem_U_Tuebingen/
  - TESTDIR=Fac_Eng_Univ_Tokyo/
  - TESTDIR=Fiocruz/
  - TESTDIR=Fukuyama_Univ/
@@ -30,6 +33,7 @@ env:
  - TESTDIR=Nihon_Univ/
  - TESTDIR=Osaka_MCHRI/
  - TESTDIR=Osaka_Univ/
+ - TESTDIR=Oswaldo_Cruz_Foundation/
  - TESTDIR=PFOS_research_group/
  - TESTDIR=RIKEN/
  - TESTDIR=Tottori_Univ/
@@ -38,5 +42,6 @@ env:
  - TESTDIR=Univ_Connecticut/
  - TESTDIR=Univ_Toyama/
  - TESTDIR=UOEH/
+ - TESTDIR=UPAO/
  - TESTDIR=Washington_State_Univ/
  - TESTDIR=Waters/
