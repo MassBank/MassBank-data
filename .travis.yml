@@ -6,6 +6,7 @@ install:
 script: 
   - bash .scripts/validate.sh $TESTDIR
 env:
+ - TESTDIR=AAFC/
  - TESTDIR=Athens_Univ/
  - TESTDIR=Boise_State_Univ/
  - TESTDIR=BS/
