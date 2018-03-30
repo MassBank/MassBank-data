@@ -1,6 +1,7 @@
 language: java
 install: 
-  - git clone --depth 1 -q https://github.com/MassBank/MassBank-web.git .scripts/MassBank-web
+  - git clone -q https://github.com/MassBank/MassBank-web.git .scripts/MassBank-web
+  - ( cd .scripts/MassBank-web ; git checkout 0e47e5ec20918b7d41583e4e907a7eb1eb0878d8 )
   - mvn -q -f .scripts/MassBank-web/MassBank-Project/MassBank-lib/pom.xml install
   - tar -xvjf .scripts/libinchi.tar.bz -C ~
 script: 
