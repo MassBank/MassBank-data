@@ -1,0 +1,46 @@
+ACCESSION: NU000672
+RECORD_TITLE: 3,6-Dioxo-5b-cholan-24-oic acid; LC-ESI-TOF; MS; NEGATIVE; in source decay -60 V
+DATE: 2018.03.01
+AUTHORS: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+LICENSE: CC BY
+COPYRIGHT: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+COMMENT: BA-115-60. In-source decay
+COMMENT: 1 microL of the bile acid in MeOH solution was flow injected. Sampling interval was 1 Hz.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 17HP8021 (2017) to the MassBank database committee of the Mass Spectrometry Society of Japan.
+CH$NAME: 3,6-Dioxo-5b-cholan-24-oic acid
+CH$COMPOUND_CLASS: Natural Product; Bile acids
+CH$FORMULA: C24H36O4
+CH$EXACT_MASS: 388.26136
+CH$SMILES: C(C1(C)4)([H])(C(C)CCC(O)=O)CCC1(C(C3([H])CC4)([H])CC(C(C3(C)2)([H])CC(=O)CC2)=O)[H]
+CH$IUPAC: InChI=1S/C24H36O4/c1-14(4-7-22(27)28)17-5-6-18-16-13-21(26)20-12-15(25)8-10-24(20,3)19(16)9-11-23(17,18)2/h14,16-20H,4-13H2,1-3H3,(H,27,28)/t14-,16+,17-,18+,19+,20+,23-,24-/m1/s1
+CH$LINK: CHEMSPIDER 83996
+CH$LINK: INCHIKEY AWINBLVINXVKTE-FSILYXOFSA-N
+CH$LINK: LIPIDBANK BBA0134
+CH$LINK: PUBCHEM CID:93044
+AC$INSTRUMENT: JMS-T100LP, JEOL
+AC$INSTRUMENT_TYPE: LC-ESI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: ORIFICE_TEMPERATURE 80 C
+AC$MASS_SPECTROMETRY: ORIFICE_VOLTAGE -60 V
+AC$MASS_SPECTROMETRY: SCAN_RANGE_M/Z 100-1000
+PK$SPLASH: splash10-02t9-9201000220-643adf1eacd486ab5d28
+PK$NUM_PEAK: 15
+PK$PEAK: m/z int. rel.int.
+  61.97 26 256
+  68.98 100 999
+  96.95 4 37
+  112.97 40 396
+  387.26 21 214
+  388.25 6 61
+  419.28 7 70
+  423.24 5 46
+  455.27 3 26
+  775.53 21 206
+  776.53 11 115
+  777.53 5 51
+  807.54 14 144
+  808.56 9 86
+  809.58 7 70
+//

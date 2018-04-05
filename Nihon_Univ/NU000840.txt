@@ -1,0 +1,45 @@
+ACCESSION: NU000840
+RECORD_TITLE: N-[(3a,5b,7a,12a)-7,12-Dihydroxy-24-oxo-3-(sulfooxy)cholan-24-yl]glycine; LC-ESI-TOF; MS; NEGATIVE; In-source decay -150 V
+DATE: 2018.02.26
+AUTHORS: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+LICENSE: CC BY
+COPYRIGHT: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+COMMENT: BA-148-150. In-source decay
+COMMENT: 1 microL of the bile acid in MeOH solution was flow injected. Sampling interval was 1 Hz.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 17HP8021 (2017) to the MassBank database committee of the Mass Spectrometry Society of Japan.
+CH$NAME: N-[(3a,5b,7a,12a)-7,12-Dihydroxy-24-oxo-3-(sulfooxy)cholan-24-yl]glycine
+CH$COMPOUND_CLASS: Natural Product; Bile acids
+CH$FORMULA: C26H43NO9S
+CH$EXACT_MASS: 545.26585
+CH$SMILES: C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)O)C
+CH$IUPAC: InChI=1S/C26H43NO9S/c1-14(4-7-22(30)27-13-23(31)32)17-5-6-18-24-19(12-21(29)26(17,18)3)25(2)9-8-16(36-37(33,34)35)10-15(25)11-20(24)28/h14-21,24,28-29H,4-13H2,1-3H3,(H,27,30)(H,31,32)(H,33,34,35)/t14-,15+,16-,17-,18+,19+,20-,21+,24+,25+,26-/m1/s1
+CH$LINK: INCHIKEY ZXUWKFXQTSOVDY-FRVQLJSFSA-N
+CH$LINK: PUBCHEM CID:101602537
+AC$INSTRUMENT: JMS-T100LP, JEOL
+AC$INSTRUMENT_TYPE: LC-ESI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: ORIFICE_TEMPERATURE 80 C
+AC$MASS_SPECTROMETRY: ORIFICE_VOLTAGE -150 V
+AC$MASS_SPECTROMETRY: SCAN_RANGE_M/Z 100-1000
+PK$SPLASH: splash10-0002-9000120000-ce6535b1536f122ea722
+PK$NUM_PEAK: 16
+PK$PEAK: m/z int. rel.int.
+  74.01 50 496
+  79.94 20 199
+  87.04 2 24
+  96.95 100 999
+  98.94 6 60
+  118.93 3 28
+  400.28 3 28
+  402.30 7 65
+  464.30 15 154
+  465.30 5 49
+  544.26 9 93
+  545.27 3 31
+  566.23 19 188
+  567.24 7 65
+  568.24 2 21
+  623.26 2 20
+//

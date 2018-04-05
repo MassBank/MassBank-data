@@ -1,0 +1,56 @@
+ACCESSION: NU000860
+RECORD_TITLE: 3a-Sulfooxy-12a-hydroxy-5b-cholan-24-oyl-taurine; LC-ESI-TOF; MS; NEGATIVE; In-source decay -150 V
+DATE: 2018.02.26
+AUTHORS: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+LICENSE: CC BY
+COPYRIGHT: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+COMMENT: BA-152-150. In-source decay
+COMMENT: 1 microL of the bile acid in MeOH solution was flow injected. Sampling interval was 1 Hz.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 17HP8021 (2017) to the MassBank database committee of the Mass Spectrometry Society of Japan.
+CH$NAME: 3a-Sulfooxy-12a-hydroxy-5b-cholan-24-oyl-taurine
+CH$COMPOUND_CLASS: Natural Product; Bile acids
+CH$FORMULA: C26H45NO9S2
+CH$EXACT_MASS: 579.25357
+CH$SMILES: C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)C
+CH$IUPAC: InChI=1S/C26H45NO9S2/c1-16(4-9-24(29)27-12-13-37(30,31)32)20-7-8-21-19-6-5-17-14-18(36-38(33,34)35)10-11-25(17,2)22(19)15-23(28)26(20,21)3/h16-23,28H,4-15H2,1-3H3,(H,27,29)(H,30,31,32)(H,33,34,35)/t16-,17-,18-,19+,20-,21+,22+,23+,25+,26-/m1/s1
+CH$LINK: INCHIKEY UCVGCHGIKFWAGH-VAYUFCLWSA-N
+CH$LINK: PUBCHEM CID:21252302
+AC$INSTRUMENT: JMS-T100LP, JEOL
+AC$INSTRUMENT_TYPE: LC-ESI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: ORIFICE_TEMPERATURE 80 C
+AC$MASS_SPECTROMETRY: ORIFICE_VOLTAGE -150 V
+AC$MASS_SPECTROMETRY: SCAN_RANGE_M/Z 100-1000
+PK$SPLASH: splash10-0002-9000511000-cc88ad18d7e17940bdf7
+PK$NUM_PEAK: 27
+PK$PEAK: m/z int. rel.int.
+  80.96 7 72
+  81.94 6 62
+  96.95 100 999
+  98.95 6 59
+  102.98 3 25
+  106.97 6 58
+  124.00 4 42
+  288.61 6 64
+  296.62 3 34
+  304.61 2 20
+  322.41 2 21
+  337.20 3 27
+  344.14 2 21
+  480.27 24 239
+  481.28 8 80
+  498.28 30 303
+  499.28 9 90
+  534.26 3 31
+  535.21 3 27
+  578.25 9 86
+  600.23 10 104
+  601.22 4 39
+  616.20 3 25
+  698.19 2 21
+  841.49 2 22
+  852.46 3 27
+  857.05 3 28
+//

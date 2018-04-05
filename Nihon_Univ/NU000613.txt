@@ -1,0 +1,49 @@
+ACCESSION: NU000613
+RECORD_TITLE: 3a,7a,14a-(OH)3-5b-cholanic acid; LC-ESI-TOF; MS; NEGATIVE; In source decay -90 V
+DATE: 2018.02.20
+AUTHORS: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+LICENSE: CC BY
+COPYRIGHT: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+COMMENT: BA-103-90. In-source decay
+COMMENT: 1 microL of the bile acid in MeOH solution was flow injected. Sampling interval was 1 Hz.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 17HP8021 (2017) to the MassBank database committee of the Mass Spectrometry Society of Japan.
+CH$NAME: 3a,7a,14a-(OH)3-5b-cholanic acid
+CH$NAME: 3alpha,7alpha,14alpha-Trihydroxy-5beta-cholane-24-oic acid
+CH$COMPOUND_CLASS: Natural Product; Bile acids
+CH$FORMULA: C24H40O5
+CH$EXACT_MASS: 408.28757
+CH$SMILES: C(C3(C)4)([H])(CC(O)CC4)CC(C(C3([H])2)(C(C1(C)CC2)(O)CCC1([H])C(C)CCC(O)=O)[H])O
+CH$IUPAC: InChI=1S/C24H40O5/c1-14(4-5-20(27)28)17-8-11-24(29)21-18(7-10-23(17,24)3)22(2)9-6-16(25)12-15(22)13-19(21)26/h14-19,21,25-26,29H,4-13H2,1-3H3,(H,27,28)/t14-,15+,16-,17-,18+,19-,21+,22+,23-,24-/m1/s1
+CH$LINK: CHEMSPIDER 10363042
+CH$LINK: INCHIKEY OGSDYCPNYNWUNN-XJKBFLKTSA-N
+CH$LINK: PUBCHEM CID:12112087
+AC$INSTRUMENT: JMS-T100LP, JEOL
+AC$INSTRUMENT_TYPE: LC-ESI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: ORIFICE_TEMPERATURE 80 C
+AC$MASS_SPECTROMETRY: ORIFICE_VOLTAGE -90 V
+AC$MASS_SPECTROMETRY: SCAN_RANGE_M/Z 100-1000
+PK$SPLASH: splash10-0a4i-2001900000-30b2475694e45970328d
+PK$NUM_PEAK: 18
+PK$PEAK: m/z int. rel.int.
+  63.07 12 116
+  69.97 13 132
+  79.79 15 154
+  81.72 6 64
+  113.46 3 30
+  248.99 3 29
+  325.20 2 22
+  389.28 17 167
+  390.28 5 49
+  391.29 2 21
+  407.29 100 999
+  408.30 29 290
+  409.30 5 54
+  421.31 3 27
+  429.28 8 81
+  430.28 2 25
+  815.56 3 33
+  837.54 3 32
+//

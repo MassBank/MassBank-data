@@ -1,0 +1,57 @@
+ACCESSION: NU000641
+RECORD_TITLE: 3a,7a,16b-(OH)3-5b-cholanic acid; LC-ESI-TOF; MS; NEGATIVE; in source decay -30 V
+DATE: 2018.02.21
+AUTHORS: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+LICENSE: CC BY
+COPYRIGHT: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+COMMENT: BA-109-30. In-source decay
+COMMENT: 1 microL of the bile acid in MeOH solution was flow injected. Sampling interval was 1 Hz.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 17HP8021 (2017) to the MassBank database committee of the Mass Spectrometry Society of Japan.
+CH$NAME: 3a,7a,16b-(OH)3-5b-cholanic acid
+CH$NAME: 3a,7a,16b-Trihydroxy-5b-cholan-24-oic Acid
+CH$COMPOUND_CLASS: Natural Product; Bile acids
+CH$FORMULA: C24H40O5
+CH$EXACT_MASS: 408.28757
+CH$SMILES: C(C3(C)4)([H])(CC(O)CC4)CC(C(C3([H])2)(C(C1(C)CC2)([H])CC(C1([H])C(C)CCC(O)=O)O)[H])O
+CH$IUPAC: InChI=1S/C24H40O5/c1-13(4-5-20(28)29)22-19(27)12-17-21-16(7-9-24(17,22)3)23(2)8-6-15(25)10-14(23)11-18(21)26/h13-19,21-22,25-27H,4-12H2,1-3H3,(H,28,29)/t13-,14+,15-,16+,17+,18-,19+,21-,22+,23+,24+/m1/s1
+CH$LINK: CHEMSPIDER 9048531
+CH$LINK: INCHIKEY PFMAXGIVRQIQPX-VSYGMGLYSA-N
+CH$LINK: PUBCHEM CID:10873253
+AC$INSTRUMENT: JMS-T100LP, JEOL
+AC$INSTRUMENT_TYPE: LC-ESI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: ORIFICE_TEMPERATURE 80 C
+AC$MASS_SPECTROMETRY: ORIFICE_VOLTAGE -30 V
+AC$MASS_SPECTROMETRY: SCAN_RANGE_M/Z 100-1000
+PK$SPLASH: splash10-0a4i-6200900100-3098a87c6f281740f77a
+PK$NUM_PEAK: 26
+PK$PEAK: m/z int. rel.int.
+  59.22 69 694
+  62.19 5 48
+  69.18 19 187
+  73.21 5 45
+  75.18 18 179
+  89.17 2 21
+  91.18 3 28
+  113.09 50 499
+  255.27 3 32
+  367.28 3 32
+  389.28 2 24
+  407.29 100 999
+  408.29 28 281
+  409.29 5 52
+  425.26 2 24
+  435.28 5 51
+  449.30 6 63
+  450.31 2 21
+  465.29 3 27
+  499.32 5 47
+  503.26 5 48
+  797.53 16 161
+  798.55 9 87
+  799.55 3 29
+  815.56 7 68
+  816.55 4 39
+//

@@ -1,0 +1,35 @@
+ACCESSION: NU000775
+RECORD_TITLE: Tauro 3a,7a-(OH)2-5b-cholanic acid; LC-ESI-TOF; MS; NEGATIVE; In source decay -150 V
+DATE: 2018.02.20
+AUTHORS: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+LICENSE: CC BY
+COPYRIGHT: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+COMMENT: BA-135-150. In-source decay
+COMMENT: 1 microL of the bile acid in MeOH solution was flow injected. Sampling interval was 1 Hz.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 17HP8021 (2017) to the MassBank database committee of the Mass Spectrometry Society of Japan.
+CH$NAME: Tauro 3a,7a-(OH)2-5b-cholanic acid
+CH$NAME: 2-{[(3alpha,5beta,7alpha)-3,7-Dihydroxy-24-oxocholan-24-yl]amino}ethanesulfonic acid
+CH$COMPOUND_CLASS: Natural Product; Bile acids
+CH$FORMULA: C26H45NO6S
+CH$EXACT_MASS: 499.29675
+CH$SMILES: O=S(=O)(O)CCNC(=O)CC[C@@H](C)[C@H]1CC[C@H]2[C@H]3[C@H](CC[C@]12C)[C@@]4(C)CC[C@@H](O)C[C@H]4C[C@H]3O
+CH$IUPAC: InChI=1S/C26H45NO6S/c1-16(4-7-23(30)27-12-13-34(31,32)33)19-5-6-20-24-21(9-11-26(19,20)3)25(2)10-8-18(28)14-17(25)15-22(24)29/h16-22,24,28-29H,4-15H2,1-3H3,(H,27,30)(H,31,32,33)/t16-,17+,18-,19-,20+,21+,22-,24+,25+,26-/m1/s1
+CH$LINK: CHEMSPIDER 343282
+CH$LINK: INCHIKEY BHTRKEVKTKCXOH-BJLOMENOSA-N
+CH$LINK: PUBCHEM CID:387316
+AC$INSTRUMENT: JMS-T100LP, JEOL
+AC$INSTRUMENT_TYPE: LC-ESI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: ORIFICE_TEMPERATURE 80 C
+AC$MASS_SPECTROMETRY: ORIFICE_VOLTAGE -150 V
+AC$MASS_SPECTROMETRY: SCAN_RANGE_M/Z 100-1000
+PK$SPLASH: splash10-0002-0000900000-77f2b7a3f658898a4f0f
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  80.91 6 62
+  498.28 100 999
+  499.28 31 310
+  531.32 2 21
+//
