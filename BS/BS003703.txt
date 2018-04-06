@@ -1,0 +1,39 @@
+ACCESSION: BS003703
+RECORD_TITLE: Cauloside C (3-Glu(1-2)Ara Hederagenin) (NMR); LC-ESI-QTOF; MS2; CE:40 eV; [M-H]-
+DATE: 2017.12.01 (Created 2014.01.05)
+AUTHORS: Plant Biology, The Noble Foundation, Ardmore, OK, US/Dennis Fine, Daniel Wherritt, and Lloyd Sumner
+LICENSE: CC BY-NC-SA 4.0 International
+CH$NAME: Cauloside C (3-Glu(1-2)Ara Hederagenin) (NMR)
+CH$COMPOUND_CLASS: Natural Product; N/A
+CH$FORMULA: C41H66O13
+CH$EXACT_MASS: 766.4503
+CH$SMILES: O=C(O[H])[C@]12[C@@]([H])(C3=C(C([C@@]4([H])[C@](C([H])([H])[H])([C@]3(C([H])([H])[H])C(C1([H])[H])([H])[H])C(C(C5([C@]4(C([H])([H])[H])C(C([C@]([H])(O[C@]6([H])OC([C@]([H])(O[H])[C@]([H])(O[H])[C@@]6([H])O[C@@]7([H])O[C@]([H])(C(O[H])([H])[H])[C@@]([H])(O[H])[C@]([H])(O[H])[C@@]7([H])O[H])([H])[H])C5(C([H])([H])[H])C(O[H])([H])[H])([H])[H])([H])[H])[H])([H])[H])([H])[H])([H])[H])[H])C(C(C([H])([H])[H])(C([H])([H])[H])C(C2([H])[H])([H])[H])([H])[H]
+CH$IUPAC: not available
+CH$LINK: INCHIKEY RROGHRHLBLVQSG-UUWFFIQNSA
+CH$LINK: CAS 20853-58-1
+AC$INSTRUMENT: Bruker impact HD
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40 eV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: IsolWidth: 5
+AC$MASS_SPECTROMETRY: PeakWidth: 0.012
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH C18 1.7um x 2.1 x 150 mm
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 20/80 at 35 min; 5/95 at 35 min, 5/95 at 38 min; 95/5 at 38.1 min, 95/5 at 45 min
+AC$CHROMATOGRAPHY: FLOW_RATE FLOW_RATE 560 uL / min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.05% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile with 0.05 % formic acid
+AC$CHROMATOGRAPHY: RETENTION_TIME 1099.2 sec
+AC$MASS_SPECTROMETRY: Mass 94.8795-1505.21
+MS$FOCUSED_ION: PRECURSOR_M/Z 811.4
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
+MS$DATA_PROCESSING: CONVERT from Bruker Library Editor (https://github.com/MassBank/MassBank2NIST)
+PK$SPLASH: splash10-0000-0000000000-e3b0c44298fc1c149afb
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  603.3900 59 59
+  765.4507 999 999
+  766.4527 356 356
+  767.4562 53 53
+//
