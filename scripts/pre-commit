@@ -12,7 +12,10 @@ env:
 EOF
 for x in $(ls -d */)
 do
- if [ "$x" = ".scripts/" ]; then
+ if [ "$x" = "scripts/" ]; then
+  continue
+ fi
+ if [ "$x" = "figure/" ]; then
   continue
  fi
  echo " - TESTDIR=$x" >> .travis.yml
