@@ -33,11 +33,11 @@
 | Osaka_Univ                | Grad.Sch.Eng., Osaka Univ.                                              | Japan       | OUF          |
 | PFOS_research_group       | PFOS research group                                                     | Japan       | FFF          |
 | RIKEN                     | RIKEN Plant Science Center                                              | Japan       | PR           |
-| Sangyo                    | University of Occupational and Environmental Health                     | Japan       | UO           |
 | Tottori_Univ              | Tottori University                                                      | Japan       | TT           |
-| Uconn                     | University of Connecticut                                               | USA         | CO           |
+| UEOH                      | University of Occupational and Environmental Health                     | Japan       | UO           |
 | UFZ                       | Helmholtz Centre for Environmental Research  - UFZ                      | Germany     | UF, UA       |
-| Univ_Connecticut          | Universidad Privada Antenor Orrego                                      | Peru        | UPA          |
+| UPAO                      | Universidad Privada Antenor Orrego                                      | Peru        | UPA          |
+| Univ_Connecticut          | University of Connecticut                                               | USA         | CO           |
 | Univ_Toyama               | University of Toyama                                                    | Japan       | TY           |
 | Washington_State_Univ     | Washington State University                                             | USA         | BML          |
 | Waters                    | Nihon Waters K.K.                                                       | Japan       | WA           |
