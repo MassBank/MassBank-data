@@ -4,7 +4,7 @@ install:
   - mvn -q -f .scripts/MassBank-web/MassBank-Project/MassBank-lib/pom.xml install
   - tar -xvjf .scripts/libinchi.tar.bz -C ~
 script: 
-  - bash .scripts/validate.sh $TESTDIR
+  - travis_wait 30 bash .scripts/validate.sh $TESTDIR
 env:
  - TESTDIR=AAFC/
  - TESTDIR=Athens_Univ/
