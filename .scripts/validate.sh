@@ -4,13 +4,13 @@ error=0
 for x in $@; do
  if [ -d "$x" ]; then
   cd $x
-  $DIR/test.sh *
+  bash $DIR/test.sh *
   if [ $? -ne 0 ]; then
    error=1
   fi
   cd ..
  elif [ -f $x ]; then
-  $DIR/test.sh $x 
+  bash $DIR/test.sh $x 
   if [ $? -ne 0 ]; then
    error=1
   fi
