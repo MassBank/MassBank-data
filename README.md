@@ -13,7 +13,7 @@ mvn -q -f .scripts/MassBank-web/MassBank-Project/MassBank-lib/pom.xml install
 Now its possible to validate record files locally. `validate.sh` supports validation of a single record file, several files as well as one or several directories containing record files, eg. 
 ```
 ./.scripts/validate.sh <your_directory_containing_record_files>
-```.
+```
 
 ## Submit new records to MassBank-data or modify existing records
 To submit data or to change existing records:
