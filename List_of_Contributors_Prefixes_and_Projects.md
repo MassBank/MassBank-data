@@ -36,7 +36,7 @@
 | Sangyo                    | University of Occupational and Environmental Health                     | Japan       | UO           |                            |
 | Tottori_Univ              | Tottori University                                                      | Japan       | TT           |                            |
 | Uconn                     | University of Connecticut                                               | USA         | CO           |                            |
-| UFZ                       | Helmholtz Centre for Environmental Research  - UFZ                      | Germany     | UF, UA       | SOLUTIONS, NATOXAQ, HBM4EU |
+| UFZ                       | Helmholtz Centre for Environmental Research  - UFZ                      | Germany     | UF, UA, UZ   | SOLUTIONS, NATOXAQ, HBM4EU |
 | Univ_Connecticut          | Universidad Privada Antenor Orrego                                      | Peru        | UPA          |                            |
 | Univ_Toyama               | University of Toyama                                                    | Japan       | TY           |                            |
 | Washington_State_Univ     | Washington State University                                             | USA         | BML          |                            |
