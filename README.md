@@ -1,7 +1,7 @@
 # MassBank-data validation status 
 [![Validation Status](https://travis-ci.org/MassBank/MassBank-data.svg?branch=master)](https://travis-ci.org/MassBank/MassBank-data)
 
-This repo contains all MassBank records and uses the Travis CI to validate the content of all records with the new [Validator](https://github.com/MassBank/MassBank-web/blob/master/MassBank-Project/MassBank-lib/src/main/java/massbank/admin/Validator2.java) from MassBank-web.
+This repo contains all MassBank records and uses the Travis CI to validate the content of all records with the new [Validator](https://github.com/MassBank/MassBank-web/blob/master/MassBank-Project/MassBank-lib/src/main/java/massbank/Validator.java) from MassBank-web.
 
 ## Validate new record files locally (linux only)
 To validate new record files locally please clone this repo. Under the `.scripts` directory create the source tree of the [MassBank-web](https://github.com/MassBank/MassBank-web) project and compile it, because the validator program is needed.
