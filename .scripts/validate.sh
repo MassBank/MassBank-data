@@ -1,16 +1,18 @@
 #/bin/bash
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+WD="$( pwd )"
 error=0
-for x in $@; do
+for x in "$@"; do
+ echo "$x"
  if [ -d "$x" ]; then
-  cd $x
-  bash $DIR/test.sh *
+  cd "$x"
+  $DIR/test.sh *
   if [ $? -ne 0 ]; then
    error=1
   fi
-  cd ..
- elif [ -f $x ]; then
-  bash $DIR/test.sh $x 
+  cd $WD
+ elif [ -f "$x" ]; then
+  $DIR/test.sh "$x" 
   if [ $? -ne 0 ]; then
    error=1
   fi
