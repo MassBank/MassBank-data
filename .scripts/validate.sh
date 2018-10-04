@@ -3,7 +3,6 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 WD="$( pwd )"
 error=0
 for x in "$@"; do
- echo "$x"
  if [ -d "$x" ]; then
   cd "$x"
   $DIR/test.sh *
