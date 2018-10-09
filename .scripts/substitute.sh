@@ -13,9 +13,12 @@ for x in $DIR
 do
  if [ "$x" = ".scripts/" ]; then
   continue
+ elif  [ "$x" = "figures" ]; then
+  continue
  fi
  echo $x
  cd  $x
- ls | parallel -j128 -q ruby -p -i -e "gsub(ENV['FIND'], ENV['REPLACE'])" {}
+ #ls | parallel -j128 -q ruby -p -i -e "gsub(ENV['FIND'], ENV['REPLACE'])" {}
+ ruby -p -i -e "gsub(ENV['FIND'], ENV['REPLACE'])" *
  cd ..
 done
