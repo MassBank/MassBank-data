@@ -13,7 +13,7 @@ for x in $DIR
 do
  if [ "$x" = ".scripts/" ]; then
   continue
- elif  [ "$x" = "figures" ]; then
+ elif  [ "$x" = "figure/" ]; then
   continue
  fi
  echo $x
