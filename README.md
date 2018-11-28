@@ -12,13 +12,14 @@ mvn -q -f .scripts/MassBank-web/MassBank-Project/MassBank-lib/pom.xml install
 ```
 Now its possible to validate record files locally. `validate.sh` supports validation of a single record file, several files as well as one or several directories containing record files, eg. 
 ```
-./.scripts/validate.sh <your_directory_containing_record_files>
+./.scripts/validate.sh AAFC
 ```
+To validate the full date repository please use the `validate_all_local.sh` script. 
 
 ## Submit new records to MassBank-data or modify existing records
 To submit data or to change existing records:
-1. Please fork this repo and make your changes.
-2. To enable validation of records in a new subdirectory please run `./.scripts/pre-commit` or create a symlink/copy `./.scripts/pre-commit` to `.git/hooks/pre-commit` prior commiting the changes.
+1. Please fork this repo and make your changes or add new content.
+2. To enable automatic validation of records in a new subdirectory please run `./.scripts/pre-commit` or create a symlink/copy `./.scripts/pre-commit` to `.git/hooks/pre-commit` prior commiting the changes.
 3. Commit and push your changes to your repo.
 4. Create a pull request.
 
