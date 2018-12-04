@@ -1,11 +1,12 @@
 language: java
+dist: xenial
 cache:
   directories:
   - $HOME/.m2
 install: 
   - git clone --depth 1 -q https://github.com/MassBank/MassBank-web.git .scripts/MassBank-web
   - mvn -q -f .scripts/MassBank-web/MassBank-Project/MassBank-lib/pom.xml install
-  - tar -xvjf .scripts/libinchi.tar.bz -C ~
+  - tar -xjf .scripts/libinchi.tar.bz -C ~
 script: 
   - .scripts/validate.sh $TESTDIR
 env:
@@ -28,6 +29,7 @@ env:
  - TESTDIR=JEOL_Ltd/
  - TESTDIR=Kazusa/
  - TESTDIR=Keio_Univ/
+ - TESTDIR=KWR/
  - TESTDIR=Kyoto_Univ/
  - TESTDIR=Literature_Specs/
  - TESTDIR=MetaboLights/
