@@ -24,3 +24,6 @@ To submit data or to change existing records:
 4. Create a pull request.
 
 Your pull request will be validated and you will receive a report whether your records meet the [MassBank specs](https://github.com/MassBank/MassBank-web/blob/master/Documentation/MassBankRecordFormat.md).
+
+## Generation of new records for upload to MassBank-data
+The preferred software to generate MassBank records is [RMassBank](https://www.bioconductor.org/packages/release/bioc/html/RMassBank.html). RMassBank is in continous development. Hence, use the latest version available, please.
