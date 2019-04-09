@@ -3,13 +3,15 @@ RECORD_TITLE: Thiamine; LC-ESI-QQQ; MS; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
-COMMENT: Origin: Microbe, Formula(Parent): C12H17N4OS, Bottle Name:Thiamine hydrochloride, PRIME Parent Name:Thiamine, Synonyms : THD ; Vitamin B1 ; Thiamin ; Aneurine hydrochloride ; Betaxin ; Bethiazine ; Eskapen ; Thiadoxine ; Vinothiam ; Vitaneuron, CASID (Parent):59-43-8, PRIME in-house No.:0350, CSID: 5819, CASID (tmp): [59-43-8], Pyrimidines
+COMMENT: Origin: Microbe, Formula(Parent): C12H17N4OS, Bottle Name:Thiamine hydrochloride, PRIME Parent Name:Thiamine, Synonyms : THD ; Vitamin B1 ; Thiamin ; Aneurine hydrochloride ; Betaxin ; Bethiazine ; Eskapen ; Thiadoxine ; Vinothiam ; Vitaneuron, PRIME in-house No.:0350, Pyrimidines
 CH$NAME: Thiamine
 CH$COMPOUND_CLASS: Carbohydrates
 CH$FORMULA: [C12H17N4OS]+
 CH$EXACT_MASS: 265.35949
 CH$SMILES: Cc1ncc(C[n+]2csc(CCO)c2C)c(=N)[nH]1
 CH$IUPAC: InChI=1S/C12H17N4OS/c1-8-11(3-4-17)18-7-16(8)6-10-5-14-9(2)15-12(10)13/h5,7,17H,3-4,6H2,1-2H3,(H2,13,14,15)/q+1
+CH$LINK: CAS 59-43-8
+CH$LINK: PUBCHEM CID:5819
 AC$INSTRUMENT: ABSciex API3200 LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS

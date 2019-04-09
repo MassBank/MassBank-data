@@ -3,13 +3,15 @@ RECORD_TITLE: Cycloheximide; LC-ESI-QQQ; MS2; Frag=135.0V CID@25.0 ; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
-COMMENT: Origin: Microbe, CSID: 5962, SubCategory_DNP : Alkaloids derived from lysine, CASID (tmp): [66-81-9], Piperidine alkaloids
+COMMENT: Origin: Microbe, SubCategory_DNP : Alkaloids derived from lysine, Piperidine alkaloids
 CH$NAME: Cycloheximide
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C15H23NO4
 CH$EXACT_MASS: 281.35486000000003
 CH$SMILES: CC1C[C@H](C)C(=O)[C@H]([C@H](O)CC2CC(=O)N=C(O)C2)C1
 CH$IUPAC: InChI=1S/C15H23NO4/c1-8-3-9(2)15(20)11(4-8)12(17)5-10-6-13(18)16-14(19)7-10/h8-12,17H,3-7H2,1-2H3,(H,16,18,19)/t8?,9-,11-,12+/m0/s1
+CH$LINK: CAS 66-81-9
+CH$LINK: PUBCHEM CID:5962
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

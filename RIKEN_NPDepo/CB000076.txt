@@ -3,13 +3,15 @@ RECORD_TITLE: Vinblastine sulfate; LC-ESI-QQQ; MS; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
-COMMENT: Origin: Plant, CSID: 4535008, SubCategory_DNP : Alkaloids derived from tryptophan, CASID (tmp): [143-67-9], Secologanin typtamine alkaloids, Indole alkaloids
+COMMENT: Origin: Plant, SubCategory_DNP : Alkaloids derived from tryptophan, Secologanin typtamine alkaloids, Indole alkaloids
 CH$NAME: Vinblastine sulfate
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C46H60N4O13S
 CH$EXACT_MASS: 909.0741
 CH$SMILES: CC[C@]1(O)C[C@H]2CN(CCc3c([nH]c4ccccc34)[C@@](C(=O)OC)(c3cc4c(cc3OC)N(C)[C@H]3[C@@](O)(C(=O)OC)[C@H](OC(C)=O)[C@]5(CC)C=CCN6CC[C@]43[C@@H]65)C2)C1.O=S(=O)(O)O
 CH$IUPAC: InChI=1S/C46H58N4O9.H2O4S/c1-8-42(54)23-28-24-45(40(52)57-6,36-30(15-19-49(25-28)26-42)29-13-10-11-14-33(29)47-36)32-21-31-34(22-35(32)56-5)48(4)38-44(31)17-20-50-18-12-16-43(9-2,37(44)50)39(59-27(3)51)46(38,55)41(53)58-7;1-5(2,3)4/h10-14,16,21-22,28,37-39,47,54-55H,8-9,15,17-20,23-26H2,1-7H3;(H2,1,2,3,4)/t28-,37+,38-,39-,42+,43-,44-,45+,46+;/m1./s1
+CH$LINK: CAS 143-67-9
+CH$LINK: PUBCHEM CID:4535008
 AC$INSTRUMENT: ABSciex API3200 LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS

@@ -3,13 +3,15 @@ RECORD_TITLE: Oxiglutathione; LC-ESI-QQQ; MS2; Frag=135.0V CID@10.0 ; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
-COMMENT: , Formula(Parent): C20H32N6O12S2, Bottle Name:Glutathione (oxidized form), PRIME Parent Name:Glutathione Disulfide, Synonyms : GSSG ; Glutathiol ; Glutathione (oxidized form) ; Oxigluthione ; Oxidized glutathione ; (gamma-Glu-Cys-Gly) (gamma-Glu-Cys-Gly)(Disulfide bridge: 2a-2b), CASID (Parent):27025-41-8, PRIME in-house No.:0235, CSID: 58835, SubCategory_DNP : Peptides, CASID (tmp): [27025-41-8], Oligopeptides
+COMMENT: Formula(Parent): C20H32N6O12S2, Bottle Name:Glutathione (oxidized form), PRIME Parent Name:Glutathione Disulfide, Synonyms : GSSG ; Glutathiol ; Glutathione (oxidized form) ; Oxigluthione ; Oxidized glutathione ; (gamma-Glu-Cys-Gly) (gamma-Glu-Cys-Gly)(Disulfide bridge: 2a-2b), PRIME in-house No.:0235, SubCategory_DNP : Peptides, Oligopeptides
 CH$NAME: Oxiglutathione
 CH$COMPOUND_CLASS: Aminoacids and peptides
 CH$FORMULA: C20H32N6O12S2
 CH$EXACT_MASS: 612.63904
 CH$SMILES: NC(CCC(O)=NC(CSSCC(N=C(O)CCC(N)C(=O)O)C(O)=NCC(=O)O)C(O)=NCC(=O)O)C(=O)O
 CH$IUPAC: InChI=1S/C20H32N6O12S2/c21-9(19(35)36)1-3-13(27)25-11(17(33)23-5-15(29)30)7-39-40-8-12(18(34)24-6-16(31)32)26-14(28)4-2-10(22)20(37)38/h9-12H,1-8,21-22H2,(H,23,33)(H,24,34)(H,25,27)(H,26,28)(H,29,30)(H,31,32)(H,35,36)(H,37,38)
+CH$LINK: CAS 27025-41-8
+CH$LINK: PUBCHEM CID:58835
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

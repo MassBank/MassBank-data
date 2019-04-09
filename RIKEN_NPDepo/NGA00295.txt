@@ -3,13 +3,15 @@ RECORD_TITLE: Lysergol; LC-ESI-QQQ; MS2; Frag=135.0V CID@10.0 ; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
-COMMENT: Origin: Plant, CSID: 14267, SubCategory_DNP : Alkaloids derived from tryptophan, CASID (tmp): [602-85-7], Ergot alkaloids, Clavine alkaloid
+COMMENT: Origin: Plant, SubCategory_DNP : Alkaloids derived from tryptophan, Ergot alkaloids, Clavine alkaloid
 CH$NAME: Lysergol
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C16H18N2O
 CH$EXACT_MASS: 254.33466
 CH$SMILES: CN1C[C@H](CO)C=C2c3cccc4[nH]cc(c34)C[C@H]21
 CH$IUPAC: InChI=1S/C16H18N2O/c1-18-8-10(9-19)5-13-12-3-2-4-14-16(12)11(7-17-14)6-15(13)18/h2-5,7,10,15,17,19H,6,8-9H2,1H3/t10-,15-/m1/s1
+CH$LINK: CAS 602-85-7
+CH$LINK: PUBCHEM CID:14267
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

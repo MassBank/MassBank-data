@@ -3,13 +3,15 @@ RECORD_TITLE: taxifolin; LC-ESI-QQQ; MS; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
-COMMENT: Origin: Plant, Formula(Parent): C15H12O7, Bottle Name:(+-)-Taxifolin, PRIME Parent Name:Dihydroquercetin, Synonyms : Dihydro-Quer ; Taxifolin ; (2R,3R)-3,3',4',5,7-Pentahydroxyflavanone ; trans-Dihydroquercetin  ; Distylin ; Taxifoliol ; Catechin , CASID (Parent):480-18-2, PRIME in-house No.:S0088, CSID: 621332, CASID (tmp): [480-18-2], Pyrans
+COMMENT: Origin: Plant, Formula(Parent): C15H12O7, Bottle Name:(+-)-Taxifolin, PRIME Parent Name:Dihydroquercetin, Synonyms : Dihydro-Quer ; Taxifolin ; (2R,3R)-3,3',4',5,7-Pentahydroxyflavanone ; trans-Dihydroquercetin  ; Distylin ; Taxifoliol ; Catechin , PRIME in-house No.:S0088, Pyrans
 CH$NAME: taxifolin
 CH$COMPOUND_CLASS: Flavonoids
 CH$FORMULA: C15H12O7
 CH$EXACT_MASS: 304.25869
 CH$SMILES: O=C1c2c(O)cc(O)cc2OC(c2ccc(O)c(O)c2)C1O
 CH$IUPAC: InChI=1S/C15H12O7/c16-7-4-10(19)12-11(5-7)22-15(14(21)13(12)20)6-1-2-8(17)9(18)3-6/h1-5,14-19,21H
+CH$LINK: CAS 480-18-2
+CH$LINK: PUBCHEM CID:621332
 AC$INSTRUMENT: ABSciex API3200 LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS

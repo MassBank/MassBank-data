@@ -3,13 +3,15 @@ RECORD_TITLE: Emetine; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0 ; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
-COMMENT: Origin: Plant, Formula(Parent): C29H40N2O4, Bottle Name:Emetine dihydrochloride, PRIME Parent Name:Emetine, Synonyms : 6',7',10,11-Tetramethoxyemetan ; Cephaeline methyl ether ; Methyl cephaeline, CASID (Parent):483-18-1, PRIME in-house No.:V0282, CSID: 9055 9802, SubCategory_DNP : Isoquinoline alkaloids, CASID (tmp): [483-18-1], Emetine alkaloids
+COMMENT: Origin: Plant, Formula(Parent): C29H40N2O4, Bottle Name:Emetine dihydrochloride, PRIME Parent Name:Emetine, Synonyms : 6',7',10,11-Tetramethoxyemetan ; Cephaeline methyl ether ; Methyl cephaeline, PRIME in-house No.:V0282, SubCategory_DNP : Isoquinoline alkaloids, Emetine alkaloids
 CH$NAME: Emetine
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C29H40N2O4
 CH$EXACT_MASS: 480.65315
 CH$SMILES: CC[C@H]1CN2CCc3cc(OC)c(OC)cc3[C@@H]2C[C@@H]1C[C@H]1NCCc2cc(OC)c(OC)cc21
 CH$IUPAC: InChI=1S/C29H40N2O4/c1-6-18-17-31-10-8-20-14-27(33-3)29(35-5)16-23(20)25(31)12-21(18)11-24-22-15-28(34-4)26(32-2)13-19(22)7-9-30-24/h13-16,18,21,24-25,30H,6-12,17H2,1-5H3/t18-,21-,24+,25-/m0/s1
+CH$LINK: CAS 483-18-1
+CH$LINK: PUBCHEM CID:9055 9802
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
