@@ -1,0 +1,40 @@
+ACCESSION: MSJ00098
+RECORD_TITLE: (R)-3-Methylheptyl bromide; GC-FI-TOF; MS; M*+; FI voltage 10 kV
+DATE: 2018.12.05
+AUTHORS: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Mori K, Akasaka K. Pheromone synthesis. Part 256: Synthesis of the four stereoisomers of 5,11-dimethylpentacosane, a new sex pheromone component of the male Galleria mellonella (L.), with high stereochemical purities as determined by the derivatization-HPLC analysis of the eight stereoisomers of 5,11-dimethyl-8-pentacosanol. Tetrahedron. 2015 Jun 17;71(24):4102-15. doi: 10.10.1016/j.tet2015.04.107.
+COMMENT: JMS-T100GCV is a reflectron TOF (reTOF) MS. Temperature of the ion source and GC-transfer line was 250 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: Field ionization (FI) voltage, which is defined as the voltage between the emitter surface and the electrode, was 10 kV (default). Typical accuracy level expected was 10 ppm. Postrun m/z adjustment was made at a known mass, 192.05136.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 16HP2005 to the Mass Spectrometry Society of Japan.
+CH$NAME: (R)-3-Methylheptyl bromide
+CH$COMPOUND_CLASS: Synthetic compounds
+CH$FORMULA: C8H17Br
+CH$EXACT_MASS: 130.0514
+CH$SMILES: C[C@H](CCCC)CCBr
+CH$IUPAC: InChI=1S/C8H17Br/c1-3-4-5-8(2)6-7-9/h8H,3-7H2,1-2H3/t8-/m1/s1
+CH$LINK: CHEMSPIDER 61632195
+CH$LINK: INCHIKEY PYETWEQSEZLJIH-MRVPVSSYSA-N
+CH$LINK: PUBCHEM CID:101151527
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A gas chromatography.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 mL.
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091J-413 USD364547H (Agilent), length 30 m, I.D. 0.32 mm, thickness 0.25  micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Ramped at 50 C for 4 min. From 70 C to 325 C by 30 C/min and held at 0.833 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.95 min
+PK$SPLASH: splash10-0006-0900000000-f9170a1a20e8313891ee
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  85.103 9 93
+  148.997 45 451
+  150.995 47 471
+  192.051 100 999
+  193.055 10 98
+  194.049 99 989
+  195.052 9 94
+//
