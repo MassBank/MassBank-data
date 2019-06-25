@@ -6,12 +6,19 @@ LICENSE: CC BY-SA NC
 PUBLICATION: Tsugawa H., Nakabayashi R., Mori T., Yamada Y., Takahashi M., Rai A., Sugiyama R., Yamamoto H., Nakaya T., Yamazaki M., Kooke R., Bac-Molenaar JA., Oztolan-Erol N., Keurentjes JJB., Arita M., Saito K. (2019) "A cheminformatics approach to characterize metabolomes in stable-isotope-labeled organisms" Nature Methods 16(4):295-298. [doi:10.1038/s41592-019-0358-2]
 COMMENT: registered in RIKEN PlaSMA
 CH$NAME: Procyanidin B2
+CH$NAME: 4,8'-Bi((+)-epicatechin))
+CH$NAME: cis,cis'-4,8'-Bi(3,3',4',5,7-pentahydroxyflavane)
+CH$NAME: (-)-Epicatechin-(4-beta-8)-(-)-epicatechin
 CH$COMPOUND_CLASS: Biflavonoids and polyflavonoids
 CH$FORMULA: C30H26O12
-CH$EXACT_MASS: 578.526
-CH$SMILES: OC1CC2=C(OC1C1=CC(O)=C(O)C=C1)C(C1C(O)C(OC3=CC(O)=CC(O)=C13)C1=CC(O)=C(O)C=C1)=C(O)C=C2O
-CH$IUPAC: InChI=1S/C30H26O12/c31-13-7-20(37)24-23(8-13)41-29(12-2-4-16(33)19(36)6-12)27(40)26(24)25-21(38)10-17(34)14-9-22(39)28(42-30(14)25)11-1-3-15(32)18(35)5-11/h1-8,10,22,26-29,31-40H,9H2
-CH$LINK: INCHIKEY XFZJEEAOWLFHDH-UHFFFAOYSA-N
+CH$EXACT_MASS: 578.14243
+CH$SMILES: C1[C@H]([C@H](OC2=C1C(=CC(=C2[C@@H]3[C@H]([C@H](OC4=CC(=CC(=C34)O)O)C5=CC(=C(C=C5)O)O)O)O)O)C6=CC(=C(C=C6)O)O)O
+CH$IUPAC: InChI=1S/C30H26O12/c31-13-7-20(37)24-23(8-13)41-29(12-2-4-16(33)19(36)6-12)27(40)26(24)25-21(38)10-17(34)14-9-22(39)28(42-30(14)25)11-1-3-15(32)18(35)5-11/h1-8,10,22,26-29,31-40H,9H2/t22-,26-,27-,28-,29-/m1/s1
+CH$LINK: CAS 29106-49-8
+CH$LINK: CHEMSPIDER 109417
+CH$LINK: INCHIKEY XFZJEEAOWLFHDH-NFJBMHMQSA-N
+CH$LINK: KNAPSACK C00009077
+CH$LINK: PUBCHEM CID:122738
 AC$INSTRUMENT: LC, Waters Acquity UPLC System; MS, Waters Xevo G2 Q-Tof
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
