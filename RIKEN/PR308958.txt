@@ -5,13 +5,21 @@ AUTHORS: Tetsuya Mori, Center for Sustainable Resource Science, RIKEN
 LICENSE: CC BY-SA NC
 PUBLICATION: Tsugawa H., Nakabayashi R., Mori T., Yamada Y., Takahashi M., Rai A., Sugiyama R., Yamamoto H., Nakaya T., Yamazaki M., Kooke R., Bac-Molenaar JA., Oztolan-Erol N., Keurentjes JJB., Arita M., Saito K. (2019) "A cheminformatics approach to characterize metabolomes in stable-isotope-labeled organisms" Nature Methods 16(4):295-298. [doi:10.1038/s41592-019-0358-2]
 COMMENT: Annotation level-3
+CH$NAME: Lauryl sulfate
+CH$NAME: dodecyl hydrogen sulfate
+CH$NAME: (Dodecyloxy)sulfonic acid
 CH$NAME: Dodecyl sulfate
 CH$COMPOUND_CLASS: Sulfate containing metabolites
 CH$FORMULA: C12H26O4S
-CH$EXACT_MASS: 266.401
-CH$SMILES: O=S(=O)(O)OCCCCCCCCCCCC
+CH$EXACT_MASS: 266.1551803
+CH$SMILES: CCCCCCCCCCCCOS(=O)(=O)O
 CH$IUPAC: InChI=1S/C12H26O4S/c1-2-3-4-5-6-7-8-9-10-11-12-16-17(13,14)15/h2-12H2,1H3,(H,13,14,15)
+CH$LINK: CAS 151-41-7
+CH$LINK: CHEBI 45599
+CH$LINK: CHEMSPIDER 8448
+CH$LINK: COMPTOX DTXSID0042088
 CH$LINK: INCHIKEY MOTZDAYCYVMXPC-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:8778
 AC$INSTRUMENT: LC, Waters Acquity UPLC System; MS, Waters Xevo G2 Q-Tof
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
