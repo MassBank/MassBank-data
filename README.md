@@ -1,5 +1,5 @@
 # MassBank-data validation status 
-[![Validation Status](https://travis-ci.org/MassBank/MassBank-data.svg?branch=master)](https://travis-ci.org/MassBank/MassBank-data)
+[![Validation Status](https://travis-ci.org/MassBank/MassBank-data.svg)](https://travis-ci.org/MassBank/MassBank-data)
 
 This repo contains all MassBank records and uses the Travis CI to validate the content of all records with the new [Validator](https://github.com/MassBank/MassBank-web/blob/master/MassBank-Project/MassBank-lib/src/main/java/massbank/Validator.java) from MassBank-web.
 
