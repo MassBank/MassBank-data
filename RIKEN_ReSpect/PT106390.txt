@@ -1,0 +1,43 @@
+ACCESSION: PT106390
+RECORD_TITLE: 6-Hydroxynicotinate, ,6-Dihydro-6-oxo-3-pyridinecarboxylic acid, 2-Hydroxy-5-pyridinecarboxylic acid, 6-Hydroxypyridine-3-carboxylic acid, 6-Hydroxynicotinic Acid, 6-oxo-1H-pyridine-3-carboxylic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 6-Hydroxynicotinate
+CH$NAME: ,6-Dihydro-6-oxo-3-pyridinecarboxylic acid
+CH$NAME: 2-Hydroxy-5-pyridinecarboxylic acid
+CH$NAME: 6-Hydroxypyridine-3-carboxylic acid
+CH$NAME: 6-Hydroxynicotinic Acid
+CH$NAME: 6-oxo-1H-pyridine-3-carboxylic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: C6H5NO3
+CH$EXACT_MASS: 139.11
+CH$SMILES: C1=CC(=O)NC=C1C(=O)O
+CH$IUPAC: InChI=1S/C6H5NO3/c8-5-2-1-4(3-7-5)6(9)10/h1-3H,(H,7,8)(H,9,10)
+CH$LINK: CAS 5006-66-6
+CH$LINK: INCHIKEY BLHCMGRVFXRYRN-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 140.03474
+PK$SPLASH: splash10-0006-1900000000-349f5be72008a76679c5
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  66.0357 25.72 22
+  78.0348 112.3 98
+  94.0297 88.93 77
+  95.014 26.3 23
+  98.9648 35.45 31
+  112.0404 14.83 13
+  122.0249 403.1 350
+  140.0347 1150.0 999
+//

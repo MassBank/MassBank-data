@@ -1,0 +1,38 @@
+ACCESSION: PT208090
+RECORD_TITLE: 1-tetradecanoyl-2-sn-glycero-3-phosphate, 1-Myristoyllysophosphatidic acid, [(2R)-2-hydroxy-3-phosphonooxypropyl] tetradecanoate, 14:0 LysoPA, 1-Myristoyl-2-Hydroxy-sn-Glycero-3-Phosphate (Sodium Salt) Sodium Salt; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 1-tetradecanoyl-2-sn-glycero-3-phosphate
+CH$NAME: 1-Myristoyllysophosphatidic acid
+CH$NAME: [(2R)-2-hydroxy-3-phosphonooxypropyl] tetradecanoate
+CH$NAME: 14:0 LysoPA
+CH$NAME: 1-Myristoyl-2-Hydroxy-sn-Glycero-3-Phosphate (Sodium Salt) Sodium Salt
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Phospholipid CLASS3 Glycerophosphate
+CH$FORMULA: C17H35O7P
+CH$EXACT_MASS: 382.436
+CH$SMILES: CCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)O
+CH$IUPAC: InChI=1S/C17H35O7P/c1-2-3-4-5-6-7-8-9-10-11-12-13-17(19)23-14-16(18)15-24-25(20,21)22/h16,18H,2-15H2,1H3,(H2,20,21,22)
+CH$LINK: CAS 325465-45-0
+CH$LINK: INCHIKEY FAZBDRGXCKPVJU-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 381.20423
+PK$SPLASH: splash10-0ufr-5902000000-4631f2b482ca98260382
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  78.9593 75.19 510
+  96.9705 8.855 60
+  152.9947 147.3 999
+  381.2042 48.57 329
+//

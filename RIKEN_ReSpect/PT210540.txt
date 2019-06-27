@@ -1,0 +1,40 @@
+ACCESSION: PT210540
+RECORD_TITLE: Tyr(3,5-diBr), Bromotiren, 3,5-Dibromo-L-tyrosine hydrate, Dibromotirina, (2S)-2-amino-3-(3,5-dibromo-4-hydroxyphenyl)propanoic acid, Biotiren, beta-(3,5-dibromo-4-hydroxyphenyl)alanine; LC-ESI-QTOF; MS2
+DATE: 2008.07.29
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Tyr(3,5-diBr)
+CH$NAME: Bromotiren
+CH$NAME: 3,5-Dibromo-L-tyrosine hydrate
+CH$NAME: Dibromotirina
+CH$NAME: (2S)-2-amino-3-(3,5-dibromo-4-hydroxyphenyl)propanoic acid
+CH$NAME: Biotiren
+CH$NAME: beta-(3,5-dibromo-4-hydroxyphenyl)alanine
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Tyrosine
+CH$FORMULA: C9H9Br2NO3
+CH$EXACT_MASS: 338.983
+CH$SMILES: C1=C(C=C(C(=C1Br)O)Br)CC(C(=O)O)N
+CH$IUPAC: InChI=1S/C9H9Br2NO3/c10-5-1-4(2-6(11)8(5)13)3-7(12)9(14)15/h1-2,7,13H,3,12H2,(H,14,15)
+CH$LINK: CAS 300-38-9
+CH$LINK: INCHIKEY COESHZUDRKCEPA-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 335.88711
+PK$SPLASH: splash10-004i-9023000000-463da31419d417f80895
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  78.92 602.4 999
+  261.8645 56.56 94
+  274.8714 113.8 189
+  335.8871 233.0 386
+//

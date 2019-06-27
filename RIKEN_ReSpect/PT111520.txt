@@ -1,0 +1,45 @@
+ACCESSION: PT111520
+RECORD_TITLE: Abromine, Trimethylaminoacetic acid, alpha-Earleine, (Carboxymethyl)trimethylammonium inner salt, Trimethylglycocoll, Betaine, Lycine, 2-trimethylazaniumylacetate, Trimethylglycine, Glycylbetaine, Oxyneurine, Jortaine, Trimethylammonioacetate; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Abromine
+CH$NAME: Trimethylaminoacetic acid
+CH$NAME: alpha-Earleine
+CH$NAME: (Carboxymethyl)trimethylammonium inner salt
+CH$NAME: Trimethylglycocoll
+CH$NAME: Betaine
+CH$NAME: Lycine
+CH$NAME: 2-trimethylazaniumylacetate
+CH$NAME: Trimethylglycine
+CH$NAME: Glycylbetaine
+CH$NAME: Oxyneurine
+CH$NAME: Jortaine
+CH$NAME: Trimethylammonioacetate
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Glycine
+CH$FORMULA: C5H11NO2
+CH$EXACT_MASS: 117.148
+CH$SMILES: C[N+](C)(C)CC(=O)[O-]
+CH$IUPAC: InChI=1S/C5H11NO2/c1-6(2,3)4-5(7)8/h4H2,1-3H3
+CH$LINK: CAS 107-43-7
+CH$LINK: INCHIKEY KWIUHFFTVRNATP-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 118.08677
+PK$SPLASH: splash10-014i-1900000000-82a41cbb0f697910b577
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  58.067 166.9 76
+  59.0751 100.1 46
+  118.0868 2183.0 999
+//

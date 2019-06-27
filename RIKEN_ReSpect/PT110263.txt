@@ -1,0 +1,49 @@
+ACCESSION: PT110263
+RECORD_TITLE: N-Methylnicotinate, Trigenolline, Trigenelline, Trigonelline hydrochloride, N-Methylnicotinic acid betaine, Gynesine, 1-methylpyridin-1-ium-3-carboxylate, 1-Methylpyridinium-3-carboxylate, Coffearine, Betaine nicotinate, Caffearin; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: N-Methylnicotinate
+CH$NAME: Trigenolline
+CH$NAME: Trigenelline
+CH$NAME: Trigonelline hydrochloride
+CH$NAME: N-Methylnicotinic acid betaine
+CH$NAME: Gynesine
+CH$NAME: 1-methylpyridin-1-ium-3-carboxylate
+CH$NAME: 1-Methylpyridinium-3-carboxylate
+CH$NAME: Coffearine
+CH$NAME: Betaine nicotinate
+CH$NAME: Caffearin
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: C7H7NO2
+CH$EXACT_MASS: 137.138
+CH$SMILES: C[N+]1=CC=CC(=C1)C(=O)[O-]
+CH$IUPAC: InChI=1S/C7H7NO2/c1-8-4-2-3-6(5-8)7(9)10/h2-5H,1H3
+CH$LINK: CAS 535-83-1
+CH$LINK: INCHIKEY WWNNZCOKKKDOPX-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 138.05548
+PK$SPLASH: splash10-0006-9100000000-d147503f87ded3d41c26
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  65.039 93.48 357
+  67.0507 27.56 105
+  78.0342 119.8 458
+  79.0415 65.35 250
+  92.0496 261.3 999
+  93.0575 95.8 366
+  94.0654 219.2 838
+  110.0602 25.41 97
+  138.0555 89.34 342
+//

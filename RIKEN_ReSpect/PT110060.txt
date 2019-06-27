@@ -1,0 +1,47 @@
+ACCESSION: PT110060
+RECORD_TITLE: D-Pantothenic acid hemicalcium salt, 3-[[(2R)-2,4-dihydroxy-3,3-dimethylbutanoyl]amino]propanoic acid, D-Pantothenic Acid, (R)-Pantothenate, (R)-(+)-N-(2,4-Dihydroxy-3,3-dimethyl-1-oxobutyl)-beta-alanine, Vitamin B5; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: D-Pantothenic acid hemicalcium salt
+CH$NAME: 3-[[(2R)-2,4-dihydroxy-3,3-dimethylbutanoyl]amino]propanoic acid
+CH$NAME: D-Pantothenic Acid
+CH$NAME: (R)-Pantothenate
+CH$NAME: (R)-(+)-N-(2,4-Dihydroxy-3,3-dimethyl-1-oxobutyl)-beta-alanine
+CH$NAME: Vitamin B5
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: C9H17NO5
+CH$EXACT_MASS: 219.237
+CH$SMILES: CC(C)(CO)C(C(=O)NCCC(=O)O)O
+CH$IUPAC: InChI=1S/C9H17NO5/c1-9(2,5-11)7(14)8(15)10-4-3-6(12)13/h7,11,14H,3-5H2,1-2H3,(H,10,15)(H,12,13)
+CH$LINK: CAS 79-83-4
+CH$LINK: INCHIKEY GHOKWGTUZJEAQD-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 220.11847
+PK$SPLASH: splash10-006x-9450000000-f677ff82e7d7f3f58ba1
+PK$NUM_PEAK: 12
+PK$PEAK: m/z int. rel.int.
+  67.0553 127.4 101
+  70.0301 178.5 141
+  85.0659 167.4 132
+  90.0556 1265.0 999
+  95.0499 135.6 107
+  98.0251 322.5 255
+  116.0361 192.1 152
+  124.0771 323.1 255
+  142.0878 140.8 111
+  184.099 350.9 277
+  202.1093 486.3 384
+  220.1185 801.7 633
+//

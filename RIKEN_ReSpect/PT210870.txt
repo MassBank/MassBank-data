@@ -1,0 +1,41 @@
+ACCESSION: PT210870
+RECORD_TITLE: Syringic aldehyde, Gallaldehyde 3,5-dimethyl ether, Syringylaldehyde, 3,5-Dimethoxy-4-hydroxybenzene carbonal, Syringealdehyde, Syringaldehyde, 4-Hydroxy-3,5-dimethoxybenzaldehyde, 4-hydroxy-3,5-dimethoxybenzaldehyde; LC-ESI-QTOF; MS2
+DATE: 2008.09.29
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Syringic aldehyde
+CH$NAME: Gallaldehyde 3,5-dimethyl ether
+CH$NAME: Syringylaldehyde
+CH$NAME: 3,5-Dimethoxy-4-hydroxybenzene carbonal
+CH$NAME: Syringealdehyde
+CH$NAME: Syringaldehyde
+CH$NAME: 4-Hydroxy-3,5-dimethoxybenzaldehyde
+CH$NAME: 4-hydroxy-3,5-dimethoxybenzaldehyde
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid monomer CLASS3 Syringaldehyde
+CH$FORMULA: C9H10O4
+CH$EXACT_MASS: 182.175
+CH$SMILES: COC1=CC(=CC(=C1O)OC)C=O
+CH$IUPAC: InChI=1S/C9H10O4/c1-12-7-3-6(5-10)4-8(13-2)9(7)11/h3-5,11H,1-2H3
+CH$LINK: CAS 134-96-3
+CH$LINK: INCHIKEY KCDXJAYRVLXPFO-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 181.05009
+PK$SPLASH: splash10-0gb9-0900000000-371d26896933e850f066
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  123.0081 114.2 425
+  151.0027 263.3 979
+  166.0263 268.6 999
+  181.0501 100.4 373
+//

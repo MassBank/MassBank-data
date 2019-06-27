@@ -1,0 +1,34 @@
+ACCESSION: PT101380
+RECORD_TITLE: 1-Methyl-4-(beta-aminoethyl)imidazole dihydrochloride, 2-(1-methylimidazol-4-yl)ethanamine, 1-Methylhistamine dihydrochloride; LC-ESI-QTOF; MS2
+DATE: 2008.07.24
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 1-Methyl-4-(beta-aminoethyl)imidazole dihydrochloride
+CH$NAME: 2-(1-methylimidazol-4-yl)ethanamine
+CH$NAME: 1-Methylhistamine dihydrochloride
+CH$COMPOUND_CLASS: CLASS1 Alkaloid CLASS2 Imidazole CLASS3 Histamine
+CH$FORMULA: C6H11N3
+CH$EXACT_MASS: 125.175
+CH$SMILES: CN1C=C(N=C1)CCN
+CH$IUPAC: InChI=1S/C6H11N3/c1-9-4-6(2-3-7)8-5-9/h4-5H,2-3,7H2,1H3
+CH$LINK: CAS 501-75-7
+CH$LINK: INCHIKEY FHQDWPCFSJMNCT-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 126.10309
+PK$SPLASH: splash10-004i-0900000000-b9f4341a558b04495c54
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  109.0761 30.69 49
+  126.1031 623.2 999
+//

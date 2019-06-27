@@ -1,0 +1,42 @@
+ACCESSION: PT203160
+RECORD_TITLE: (2S)-2-amino-3-phosphonooxypropanoic acid, Dexfosfoserine, Ser(P), Serine phosphate, o-Phospho-L-serine, L-2-Amino-3-hydroxypropanoic acid 3-phosphate, Plasmenylserine, L-SOP, L-Serine O-phosphate, 3-phosphoserine; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: (2S)-2-amino-3-phosphonooxypropanoic acid
+CH$NAME: Dexfosfoserine
+CH$NAME: Ser(P)
+CH$NAME: Serine phosphate
+CH$NAME: o-Phospho-L-serine
+CH$NAME: L-2-Amino-3-hydroxypropanoic acid 3-phosphate
+CH$NAME: Plasmenylserine
+CH$NAME: L-SOP
+CH$NAME: L-Serine O-phosphate
+CH$NAME: 3-phosphoserine
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Serine
+CH$FORMULA: C3H8NO6P
+CH$EXACT_MASS: 185.074
+CH$SMILES: C(C(C(=O)O)N)OP(=O)(O)O
+CH$IUPAC: InChI=1S/C3H8NO6P/c4-2(3(5)6)1-10-11(7,8)9/h2H,1,4H2,(H,5,6)(H2,7,8,9)
+CH$LINK: CAS 407-41-0
+CH$LINK: INCHIKEY BZQFBWGGLXLEPQ-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 184.00112
+PK$SPLASH: splash10-0002-9000000000-f653dafdf17fa74b83a5
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  78.9598 20.81 469
+  96.9693 44.34 999
+  184.0011 3.896 88
+//

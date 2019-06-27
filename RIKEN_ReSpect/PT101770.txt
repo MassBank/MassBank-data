@@ -1,0 +1,49 @@
+ACCESSION: PT101770
+RECORD_TITLE: (E)-3-(3,4-dihydroxyphenyl)prop-2-enoic acid, trans-Caffeate, 3,4-Dihydroxybenzeneacrylic acid, Caffeic acid, 3,4-Dihydroxycinnamic acid, 3-(3,4-Dihydroxyphenyl)propenoic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: (E)-3-(3,4-dihydroxyphenyl)prop-2-enoic acid
+CH$NAME: trans-Caffeate
+CH$NAME: 3,4-Dihydroxybenzeneacrylic acid
+CH$NAME: Caffeic acid
+CH$NAME: 3,4-Dihydroxycinnamic acid
+CH$NAME: 3-(3,4-Dihydroxyphenyl)propenoic acid
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid monomer CLASS3 Caffeic acid
+CH$FORMULA: C9H8O4
+CH$EXACT_MASS: 180.159
+CH$SMILES: C1=CC(=C(C=C1C=CC(=O)O)O)O
+CH$IUPAC: InChI=1S/C9H8O4/c10-7-3-1-6(5-8(7)11)2-4-9(12)13/h1-5,10-11H,(H,12,13)
+CH$LINK: CAS 501-16-6
+CH$LINK: INCHIKEY QAIPRVGONGVQAS-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 181.05006
+PK$SPLASH: splash10-03dr-2900000000-454a31169c27631fb00c
+PK$NUM_PEAK: 14
+PK$PEAK: m/z int. rel.int.
+  63.0247 5.247 27
+  77.0375 12.98 68
+  79.0543 9.395 49
+  89.0388 97.73 509
+  98.9604 4.724 25
+  99.5108 10.03 52
+  107.0505 9.994 52
+  117.0333 67.45 351
+  133.0493 4.557 24
+  134.0342 4.847 25
+  135.0441 75.59 394
+  145.0278 67.95 354
+  163.0381 191.9 999
+  181.0501 8.352 43
+//

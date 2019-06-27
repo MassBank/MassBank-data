@@ -1,0 +1,43 @@
+ACCESSION: PT203580
+RECORD_TITLE: Thymidylate, Deoxythymidylic acid, deoxy-TMP, [(2R,3S,5R)-3-hydroxy-5-(5-methyl-2,4-dioxopyrimidin-1-yl)oxolan-2-yl]methyl dihydrogen phosphate, Thymidylic acid, Thymidine-5'-monophosphate, Deoxythymidine 5'-phosphate, dTMP; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Thymidylate
+CH$NAME: Deoxythymidylic acid
+CH$NAME: deoxy-TMP
+CH$NAME: [(2R,3S,5R)-3-hydroxy-5-(5-methyl-2,4-dioxopyrimidin-1-yl)oxolan-2-yl]methyl dihydrogen phosphate
+CH$NAME: Thymidylic acid
+CH$NAME: Thymidine-5'-monophosphate
+CH$NAME: Deoxythymidine 5'-phosphate
+CH$NAME: dTMP
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Thymidine phosphate
+CH$FORMULA: C10H15N2O8P
+CH$EXACT_MASS: 322.212
+CH$SMILES: CC1=CN(C(=O)NC1=O)C2CC(C(O2)COP(=O)(O)O)O
+CH$IUPAC: InChI=1S/C10H15N2O8P/c1-5-3-12(10(15)11-9(5)14)8-2-6(13)7(20-8)4-19-21(16,17)18/h3,6-8,13H,2,4H2,1H3,(H,11,14,15)(H2,16,17,18)
+CH$LINK: CAS 365-07-1
+CH$LINK: INCHIKEY GYOZYWVXFNDGLU-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 321.0488
+PK$SPLASH: splash10-004i-9703000000-452b674ca61adb40209b
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  78.9601 4132.0 999
+  96.9703 1110.0 268
+  125.036 1848.0 447
+  176.9962 598.9 145
+  195.0067 1747.0 422
+  321.0488 2316.0 560
+//

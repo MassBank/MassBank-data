@@ -1,0 +1,42 @@
+ACCESSION: PT102560
+RECORD_TITLE: 9-beta-D-ribofuranosylhypoxanthine, 9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-3H-purin-6-one, INO, (?)-Inosine, Oxiamin, Trophicardyl, Ribonosine, Inosine, Hypoxanthine 9-beta-D-ribofuranoside, beta-Inosine, Hypoxanthine ribonucleoside; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 9-beta-D-ribofuranosylhypoxanthine
+CH$NAME: 9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-3H-purin-6-one
+CH$NAME: INO
+CH$NAME: (?)-Inosine
+CH$NAME: Oxiamin
+CH$NAME: Trophicardyl
+CH$NAME: Ribonosine
+CH$NAME: Inosine
+CH$NAME: Hypoxanthine 9-beta-D-ribofuranoside
+CH$NAME: beta-Inosine
+CH$NAME: Hypoxanthine ribonucleoside
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleoside CLASS3 Inosine
+CH$FORMULA: C10H12N4O5
+CH$EXACT_MASS: 268.229
+CH$SMILES: C1=NC(=O)C2=C(N1)N(C=N2)C3C(C(C(O3)CO)O)O
+CH$IUPAC: InChI=1S/C10H12N4O5/c15-1-4-6(16)7(17)10(19-4)14-3-13-5-8(14)11-2-12-9(5)18/h2-4,6-7,10,15-17H,1H2,(H,11,12,18)
+CH$LINK: CAS 58-63-9
+CH$LINK: INCHIKEY UGQMRVRMYYASKQ-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 269.08857
+PK$SPLASH: splash10-000i-0900000000-a0601a44cbbc12888cc2
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  110.0362 70.09 55
+  137.0473 1271.0 999
+//

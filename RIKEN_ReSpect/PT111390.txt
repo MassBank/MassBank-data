@@ -1,0 +1,39 @@
+ACCESSION: PT111390
+RECORD_TITLE: 4-methylsulphinylbutyl glucosinolate, 1-Isothiocyanato-4-(methylsulfinyl)butane, Sulforafan, D,L-sulforaphane, 1-isothiocyanato-4-methylsulfinylbutane, Sulforaphan, 4-Methylsulfinylbutyl isothiocyanate; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 4-methylsulphinylbutyl glucosinolate
+CH$NAME: 1-Isothiocyanato-4-(methylsulfinyl)butane
+CH$NAME: Sulforafan
+CH$NAME: D,L-sulforaphane
+CH$NAME: 1-isothiocyanato-4-methylsulfinylbutane
+CH$NAME: Sulforaphan
+CH$NAME: 4-Methylsulfinylbutyl isothiocyanate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Isothiocyanate
+CH$FORMULA: C6H11NOS2
+CH$EXACT_MASS: 177.29
+CH$SMILES: CS(=O)CCCCN=C=S
+CH$IUPAC: InChI=1S/C6H11NOS2/c1-10(8)5-3-2-4-7-6-9/h2-5H2,1H3
+CH$LINK: CAS 4478-93-7
+CH$LINK: INCHIKEY SUVMJBTUFCVSAD-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 178.036
+PK$SPLASH: splash10-03k9-4900000000-742108ad95fbe3ca0e61
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  71.9899 88.01 549
+  114.0366 160.2 999
+  119.0526 22.35 139
+//

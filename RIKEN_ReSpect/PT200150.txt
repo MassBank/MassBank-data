@@ -1,0 +1,42 @@
+ACCESSION: PT200150
+RECORD_TITLE: (-)Shikimic acid, 3,4,5-Trihydroxy-1-cyclohexene-1-carboxylic acid, shikimate, (3R,4S,5R)-3,4,5-trihydroxycyclohexene-1-carboxylic acid, (3R,4S,5R)-(?)-3,4,5-Trihydroxy-1-cyclohexenecarboxylic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: (-)Shikimic acid
+CH$NAME: 3,4,5-Trihydroxy-1-cyclohexene-1-carboxylic acid
+CH$NAME: shikimate
+CH$NAME: (3R,4S,5R)-3,4,5-trihydroxycyclohexene-1-carboxylic acid
+CH$NAME: (3R,4S,5R)-(?)-3,4,5-Trihydroxy-1-cyclohexenecarboxylic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Shikimic acid
+CH$FORMULA: C7H10O5
+CH$EXACT_MASS: 174.152
+CH$SMILES: C1C(C(C(C=C1C(=O)O)O)O)O
+CH$IUPAC: InChI=1S/C7H10O5/c8-4-1-3(7(11)12)2-5(9)6(4)10/h1,4-6,8-10H,2H2,(H,11,12)
+CH$LINK: CAS 138-59-0
+CH$LINK: INCHIKEY JXOHGGNKMLTUBP-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 173.04502
+PK$SPLASH: splash10-006x-9600000000-3a5ab91754d9d837d8b4
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  73.0301 64.72 287
+  83.05 34.27 152
+  93.0348 225.3 999
+  99.045 28.41 126
+  111.0439 73.48 326
+  137.0236 57.73 256
+  155.0348 36.25 161
+  173.045 82.09 364
+//

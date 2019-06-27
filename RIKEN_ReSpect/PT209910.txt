@@ -1,0 +1,48 @@
+ACCESSION: PT209910
+RECORD_TITLE: Cysteine Sulfate Thioester, L-Cysteine-S-sulfate, cysteine-S-sulfonate, Cys(SO3H), S-Sulphocysteine, Cysteine-S-Sulfonic Acid, (R)-2-Amino-3-(sulfothio)propanoic Acid, S-Sulfo-L-cysteine, Cysteinyl-S-sulfonic acid, (2R)-2-amino-3-sulfosulfanylpropanoic acid, cysteinyl-S-sulfonate, S-Sulfocysteine; LC-ESI-QTOF; MS2
+DATE: 2008.07.29
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Cysteine Sulfate Thioester
+CH$NAME: L-Cysteine-S-sulfate
+CH$NAME: cysteine-S-sulfonate
+CH$NAME: Cys(SO3H)
+CH$NAME: S-Sulphocysteine
+CH$NAME: Cysteine-S-Sulfonic Acid
+CH$NAME: (R)-2-Amino-3-(sulfothio)propanoic Acid
+CH$NAME: S-Sulfo-L-cysteine
+CH$NAME: Cysteinyl-S-sulfonic acid
+CH$NAME: (2R)-2-amino-3-sulfosulfanylpropanoic acid
+CH$NAME: cysteinyl-S-sulfonate
+CH$NAME: S-Sulfocysteine
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Cysteine
+CH$FORMULA: C3H7NO5S2
+CH$EXACT_MASS: 201.221
+CH$SMILES: C(C(C(=O)O)N)SS(=O)(=O)O
+CH$IUPAC: InChI=1S/C3H7NO5S2/c4-2(3(5)6)1-10-11(7,8)9/h2H,1,4H2,(H,5,6)(H,7,8,9)
+CH$LINK: CAS 1637-71-4
+CH$LINK: INCHIKEY NOKPBJYHPHHWAN-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 199.96877
+PK$SPLASH: splash10-008j-7900000000-71cc4905c12f99250ba2
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  74.0082 242.2 543
+  79.9581 35.69 80
+  80.966 445.5 999
+  112.9376 113.5 255
+  120.0123 160.3 359
+  136.0072 325.2 729
+  199.9688 316.1 709
+//

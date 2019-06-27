@@ -1,0 +1,46 @@
+ACCESSION: PT204160
+RECORD_TITLE: Rutinosyl-3-cyanidine, cyaninoside, Cyanidin 3-O-rhamnosylglucoside, Cynd-Rut, Keracyanin Chloride, (2S,3R,4S,5S,6R)-2-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxychromenylium-3-yl]oxy-6-[[(2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxymethyl]oxane-3,4,5-triol, cyanidin-3-O-rutinoside, Cyanidin 3-rhamnoglucoside; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Rutinosyl-3-cyanidine
+CH$NAME: cyaninoside
+CH$NAME: Cyanidin 3-O-rhamnosylglucoside
+CH$NAME: Cynd-Rut
+CH$NAME: Keracyanin Chloride
+CH$NAME: (2S,3R,4S,5S,6R)-2-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxychromenylium-3-yl]oxy-6-[[(2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxymethyl]oxane-3,4,5-triol
+CH$NAME: cyanidin-3-O-rutinoside
+CH$NAME: Cyanidin 3-rhamnoglucoside
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Anthocyanin CLASS3 Cyanidin glycoside
+CH$FORMULA: [C27H31O15]+
+CH$EXACT_MASS: 595.53
+CH$SMILES: CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=C([O+]=C4C=C(C=C(C4=C3)O)O)C5=CC(=C(C=C5)O)O)O)O)O)O)O)O
+CH$IUPAC: InChI=1S/C27H30O15/c1-9-19(32)21(34)23(36)26(39-9)38-8-18-20(33)22(35)24(37)27(42-18)41-17-7-12-14(30)5-11(28)6-16(12)40-25(17)10-2-3-13(29)15(31)4-10/h2-7,9,18-24,26-27,32-37H,8H2,1H3,(H3-,28,29,30,31)/p+1
+CH$LINK: CAS 18719-76-1
+CH$LINK: INCHIKEY USNPULRDBDVJAO-UHFFFAOYSA-O
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-2H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 593.15066
+PK$SPLASH: splash10-000x-0090050000-edf1f099fb6afbd7bdd4
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  125.0251 86.79 54
+  147.009 105.9 66
+  255.0314 165.3 103
+  256.0382 90.24 56
+  283.0266 150.1 93
+  284.0339 1203.0 748
+  285.042 760.3 473
+  299.057 87.18 54
+  593.1506 1607.0 999
+//
