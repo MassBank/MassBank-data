@@ -1,5 +1,5 @@
 # MassBank-data validation status 
-[![Validation Status](https://travis-ci.org/MassBank/MassBank-data.svg)](https://travis-ci.org/MassBank/MassBank-data)
+![Travis (.org) branch](https://img.shields.io/travis/MassBank/MassBank-data/master.svg?label=Master%20Branch%20Validation) ![Travis (.org) branch](https://img.shields.io/travis/MassBank/MassBank-data/dev.svg?label=DevMaster%20Branch%20Validation)
 
 This repo contains all MassBank records and uses the Travis CI to validate the content of all records with the new [Validator](https://github.com/MassBank/MassBank-web/blob/master/MassBank-Project/MassBank-lib/src/main/java/massbank/Validator.java) from MassBank-web.
 
@@ -14,14 +14,14 @@ Now its possible to validate record files locally. `validate.sh` supports valida
 ```
 ./.scripts/validate.sh AAFC
 ```
-To validate the full date repository please use the `validate_all_local.sh` script. 
+To validate the full date repository use the `validate_all_local.sh` script. 
 
 ## Submit new records to MassBank-data or modify existing records
 To submit data or to change existing records:
-1. Please fork this repo and make your changes or add new content.
+1. Please fork this repo, clone it to your place and make your changes or add new content in the dev branch.
 2. To enable automatic validation of records in a new subdirectory please run `./.scripts/pre-commit` or create a symlink/copy `./.scripts/pre-commit` to `.git/hooks/pre-commit` prior commiting the changes.
-3. Commit and push your changes to your repo.
-4. Create a pull request.
+3. Commit and push your changes to the dev branch of your repo.
+4. Create a pull request against the dev branch.
 
 Your pull request will be validated and you will receive a report whether your records meet the [MassBank specs](https://github.com/MassBank/MassBank-web/blob/master/Documentation/MassBankRecordFormat.md).
 
