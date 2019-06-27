@@ -1,0 +1,38 @@
+ACCESSION: PT100560
+RECORD_TITLE: L-Tyr, (-)-alpha-Amino-p-hydroxyhydrocinnamic acid, L-2-Amino-3-p-hydroxyphenylpropanoic acid, L-Tyrosine, (S)-2-Amino-3-(4-hydroxyphenyl)propionic acid, 4-Hydroxyphenylalanine, (2S)-2-amino-3-(4-hydroxyphenyl)propanoic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.24
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: L-Tyr
+CH$NAME: (-)-alpha-Amino-p-hydroxyhydrocinnamic acid
+CH$NAME: L-2-Amino-3-p-hydroxyphenylpropanoic acid
+CH$NAME: L-Tyrosine
+CH$NAME: (S)-2-Amino-3-(4-hydroxyphenyl)propionic acid
+CH$NAME: 4-Hydroxyphenylalanine
+CH$NAME: (2S)-2-amino-3-(4-hydroxyphenyl)propanoic acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Tyrosine
+CH$FORMULA: C9H11NO3
+CH$EXACT_MASS: 181.191
+CH$SMILES: C1=CC(=CC=C1CC(C(=O)O)N)O
+CH$IUPAC: InChI=1S/C9H11NO3/c10-8(9(12)13)5-6-1-3-7(11)4-2-6/h1-4,8,11H,5,10H2,(H,12,13)
+CH$LINK: CAS 60-18-4
+CH$LINK: INCHIKEY OUYCCCASQSFEME-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 182.08169
+PK$SPLASH: splash10-001i-0900000000-e7947aa74e53285a8038
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  136.0762 135.2 132
+  182.0817 1026.0 999
+//

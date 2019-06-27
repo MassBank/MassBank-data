@@ -1,0 +1,37 @@
+ACCESSION: PT200060
+RECORD_TITLE: 4-Hydroxy-3-methoxycinnamaldehyde, Coniferaldehyde, Coniferyl aldehyde, Ferulaldehyde, (E)-3-(4-hydroxy-3-methoxyphenyl)prop-2-enal; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 4-Hydroxy-3-methoxycinnamaldehyde
+CH$NAME: Coniferaldehyde
+CH$NAME: Coniferyl aldehyde
+CH$NAME: Ferulaldehyde
+CH$NAME: (E)-3-(4-hydroxy-3-methoxyphenyl)prop-2-enal
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid monomer CLASS3 Coniferyl aldehyde
+CH$FORMULA: C10H10O3
+CH$EXACT_MASS: 178.187
+CH$SMILES: COC1=C(C=CC(=C1)C=CC=O)O
+CH$IUPAC: InChI=1S/C10H10O3/c1-13-10-7-8(3-2-6-11)4-5-9(10)12/h2-7,12H,1H3
+CH$LINK: CAS 458-36-6
+CH$LINK: INCHIKEY DKZBBWMURDFHNE-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 177.05519
+PK$SPLASH: splash10-03di-0900000000-6c2a7a0531034adf8290
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  134.0375 34.93 60
+  162.0311 580.9 999
+  177.0552 166.8 287
+//

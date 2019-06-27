@@ -1,0 +1,40 @@
+ACCESSION: PT211890
+RECORD_TITLE: delta-Ureidonorvaline, L-2-Amino-5-ureidovaleric acid, N5-Carbamoyl-L-ornithine, Sitrulline, L-Citrulline, Orn(carbamoyl), Cit, (S)-2-Amino-5-ureidopentanoic acid, (2S)-2-amino-5-(carbamoylamino)pentanoic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.29
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: delta-Ureidonorvaline
+CH$NAME: L-2-Amino-5-ureidovaleric acid
+CH$NAME: N5-Carbamoyl-L-ornithine
+CH$NAME: Sitrulline
+CH$NAME: L-Citrulline
+CH$NAME: Orn(carbamoyl)
+CH$NAME: Cit
+CH$NAME: (S)-2-Amino-5-ureidopentanoic acid
+CH$NAME: (2S)-2-amino-5-(carbamoylamino)pentanoic acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Citrulline
+CH$FORMULA: C6H13N3O3
+CH$EXACT_MASS: 175.188
+CH$SMILES: C(CC(C(=O)O)N)CNC(=O)N
+CH$IUPAC: InChI=1S/C6H13N3O3/c7-4(5(10)11)2-1-3-9-6(8)12/h4H,1-3,7H2,(H,10,11)(H3,8,9,12)
+CH$LINK: CAS 372-75-8
+CH$LINK: INCHIKEY RHGKLRLOHDJJDR-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 174.08789
+PK$SPLASH: splash10-001i-0900000000-daf5b8d935c6f60c6df7
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  131.082 321.2 999
+  174.0879 16.07 50
+//

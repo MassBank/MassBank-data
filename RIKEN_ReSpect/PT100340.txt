@@ -1,0 +1,38 @@
+ACCESSION: PT100340
+RECORD_TITLE: 5-Hydoxytryptamine hydrochloride, 5-HT, Enteramine, 3-(2-Aminoethyl)-5-hydroxyindole hydrochloride, Serotonin hydrochloride, 3-(2-aminoethyl)-1H-indol-5-ol; LC-ESI-QTOF; MS2
+DATE: 2008.07.24
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 5-Hydoxytryptamine hydrochloride
+CH$NAME: 5-HT
+CH$NAME: Enteramine
+CH$NAME: 3-(2-Aminoethyl)-5-hydroxyindole hydrochloride
+CH$NAME: Serotonin hydrochloride
+CH$NAME: 3-(2-aminoethyl)-1H-indol-5-ol
+CH$COMPOUND_CLASS: CLASS1 Alkaloid CLASS2 Indole CLASS3 Tryptamine
+CH$FORMULA: C10H12N2O
+CH$EXACT_MASS: 176.219
+CH$SMILES: C1=CC2=C(C=C1O)C(=CN2)CCN
+CH$IUPAC: InChI=1S/C10H12N2O/c11-4-3-7-6-12-10-2-1-8(13)5-9(7)10/h1-2,5-6,12-13H,3-4,11H2
+CH$LINK: CAS 50-67-9
+CH$LINK: INCHIKEY QZAYGJVTTNCVMB-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 177.10276
+PK$SPLASH: splash10-004i-0900000000-c79f0b03a8dc1da0a10a
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  160.0758 196.5 485
+  176.9541 29.58 73
+  177.1014 404.5 999
+//

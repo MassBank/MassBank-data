@@ -1,0 +1,37 @@
+ACCESSION: PT108540
+RECORD_TITLE: Lutl-4p-Glc, 3',4',5,7-Tetrahydroxyflavone-4'-glucoside, luteolin-4'-O-glucoside, 5,7-dihydroxy-2-[3-hydroxy-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]chromen-4-one; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Lutl-4p-Glc
+CH$NAME: 3',4',5,7-Tetrahydroxyflavone-4'-glucoside
+CH$NAME: luteolin-4'-O-glucoside
+CH$NAME: 5,7-dihydroxy-2-[3-hydroxy-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]chromen-4-one
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Flavone CLASS3 Luteolin glycoside
+CH$FORMULA: C21H20O11
+CH$EXACT_MASS: 448.38
+CH$SMILES: C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O)OC4C(C(C(C(O4)CO)O)O)O
+CH$IUPAC: InChI=1S/C21H20O11/c22-7-16-18(27)19(28)20(29)21(32-16)31-13-2-1-8(3-10(13)24)14-6-12(26)17-11(25)4-9(23)5-15(17)30-14/h1-6,16,18-25,27-29H,7H2
+CH$LINK: CAS 6920-38-3
+CH$LINK: INCHIKEY UHNXUSWGOJMEFO-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 449.10836
+PK$SPLASH: splash10-000i-0190100000-cc3870d6319234b007bc
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  135.046 185.4 32
+  153.0203 585.6 100
+  287.0563 5847.0 999
+  449.1084 840.4 144
+//

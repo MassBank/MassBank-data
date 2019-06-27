@@ -1,0 +1,41 @@
+ACCESSION: PT207870
+RECORD_TITLE: N-Acetylglycine, Aceturic acid, Acetaminoacetic Acid, Ac-Gly, 2-(Acetylamino)ethanoic Acid, 2-acetamidoacetic acid, Ethanoylaminoethanoic acid, Acetylglycocoll, Acetamidoacetic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: N-Acetylglycine
+CH$NAME: Aceturic acid
+CH$NAME: Acetaminoacetic Acid
+CH$NAME: Ac-Gly
+CH$NAME: 2-(Acetylamino)ethanoic Acid
+CH$NAME: 2-acetamidoacetic acid
+CH$NAME: Ethanoylaminoethanoic acid
+CH$NAME: Acetylglycocoll
+CH$NAME: Acetamidoacetic acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Glycine
+CH$FORMULA: C4H7NO3
+CH$EXACT_MASS: 117.104
+CH$SMILES: CC(=O)NCC(=O)O
+CH$IUPAC: InChI=1S/C4H7NO3/c1-3(6)5-2-4(7)8/h2H2,1H3,(H,5,6)(H,7,8)
+CH$LINK: CAS 543-24-8
+CH$LINK: INCHIKEY OKJIRPAQVSHGFK-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 116.03479
+PK$SPLASH: splash10-00di-9300000000-fa29c9711fbb33529360
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  72.0464 12.22 135
+  74.0261 90.63 999
+  116.0348 34.36 379
+//

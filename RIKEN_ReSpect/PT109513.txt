@@ -1,0 +1,37 @@
+ACCESSION: PT109513
+RECORD_TITLE: N,N-Dimethylglycine hydrochloride, N-Methylsarcosine hydrochloride, 2-dimethylaminoacetic acid, N,N-Dimethylaminoacetic acid hydrochloride, Dmg, 2-dimethylaminoacetic acid hydrochloride; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: N,N-Dimethylglycine hydrochloride
+CH$NAME: N-Methylsarcosine hydrochloride
+CH$NAME: 2-dimethylaminoacetic acid
+CH$NAME: N,N-Dimethylaminoacetic acid hydrochloride
+CH$NAME: Dmg
+CH$NAME: 2-dimethylaminoacetic acid hydrochloride
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Glycine
+CH$FORMULA: C4H9NO2
+CH$EXACT_MASS: 103.121
+CH$SMILES: CN(C)CC(=O)O
+CH$IUPAC: InChI=1S/C4H9NO2/c1-5(2)3-4(6)7/h3H2,1-2H3,(H,6,7)
+CH$LINK: CAS 1118-68-9
+CH$LINK: INCHIKEY FFDGPVCHZBVARC-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 104.07113
+PK$SPLASH: splash10-0a4i-9200000000-0e2fb3ac0a1721a846b1
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  58.0652 18.71 999
+  104.0711 4.772 255
+//

@@ -1,0 +1,36 @@
+ACCESSION: PT201190
+RECORD_TITLE: 2-amino-2-deoxy-6-O-phosphono-alpha-D-glucopyranose, D-Glucosamine-6-phosphate sodium salt, [(2R,3S,4R,5R,6S)-5-amino-3,4,6-trihydroxyoxan-2-yl]methyl dihydrogen phosphate; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 2-amino-2-deoxy-6-O-phosphono-alpha-D-glucopyranose
+CH$NAME: D-Glucosamine-6-phosphate sodium salt
+CH$NAME: [(2R,3S,4R,5R,6S)-5-amino-3,4,6-trihydroxyoxan-2-yl]methyl dihydrogen phosphate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Suger phosphate CLASS3 Glucosamine phasphate
+CH$FORMULA: C6H14NO8P
+CH$EXACT_MASS: 259.153
+CH$SMILES: C(C1C(C(C(C(O1)O)N)O)O)OP(=O)(O)O
+CH$IUPAC: InChI=1S/C6H14NO8P/c7-3-5(9)4(8)2(15-6(3)10)1-14-16(11,12)13/h2-6,8-10H,1,7H2,(H2,11,12,13)
+CH$LINK: CAS 3616-42-0
+CH$LINK: INCHIKEY XHMJOUIAFHJHBW-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 258.0379
+PK$SPLASH: splash10-002b-9010000000-8a6a96ec67621a842ce8
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  78.9596 609.0 689
+  96.9694 882.8 999
+  199.0013 100.7 114
+  258.0379 217.2 246
+//

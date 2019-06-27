@@ -1,0 +1,41 @@
+ACCESSION: PT103630
+RECORD_TITLE: N6-(trans-4-Hydroxy-3-methyl-2-buten-1-yl)adenosine, 9-(beta-D-Ribofuranosyl)-trans-zeatin, trans-ribosylzeatin, trans-Zeatin-riboside, (2R,3S,4R,5R)-2-(hydroxymethyl)-5-[6-[[(E)-4-hydroxy-3-methylbut-2-enyl]amino]purin-9-yl]oxolane-3,4-diol; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: N6-(trans-4-Hydroxy-3-methyl-2-buten-1-yl)adenosine
+CH$NAME: 9-(beta-D-Ribofuranosyl)-trans-zeatin
+CH$NAME: trans-ribosylzeatin
+CH$NAME: trans-Zeatin-riboside
+CH$NAME: (2R,3S,4R,5R)-2-(hydroxymethyl)-5-[6-[[(E)-4-hydroxy-3-methylbut-2-enyl]amino]purin-9-yl]oxolane-3,4-diol
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleoside CLASS3 Zeatin
+CH$FORMULA: C15H21N5O5
+CH$EXACT_MASS: 351.363
+CH$SMILES: CC(=CCNC1=NC=NC2=C1N=CN2C3C(C(C(O3)CO)O)O)CO
+CH$IUPAC: InChI=1S/C15H21N5O5/c1-8(4-21)2-3-16-13-10-14(18-6-17-13)20(7-19-10)15-12(24)11(23)9(5-22)25-15/h2,6-7,9,11-12,15,21-24H,3-5H2,1H3,(H,16,17,18)
+CH$LINK: CAS 6025-53-2
+CH$LINK: INCHIKEY GOSWTRUMMSCNCW-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 352.16206
+PK$SPLASH: splash10-0fe0-0962000000-0088de2e2af0ff89f0b2
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  119.0397 949.3 128
+  136.0654 7420.0 999
+  148.0669 1916.0 258
+  185.0885 731.3 98
+  202.1146 1891.0 255
+  220.1222 5716.0 770
+  352.162 3007.0 405
+//

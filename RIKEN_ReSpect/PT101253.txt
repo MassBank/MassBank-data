@@ -1,0 +1,37 @@
+ACCESSION: PT101253
+RECORD_TITLE: Harmaline hydrochloride dihydrate, 7-methoxy-1-methyl-3,4-dihydro-2H-pyrido[3,4-b]indole, 1-Methyl-7-methoxy-3,4-dihydro-beta-carboline hydrochloride, Harmidine, Harmalol methyl ether hydrochloride, Dihydroharmine; LC-ESI-QTOF; MS2
+DATE: 2008.07.24
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Harmaline hydrochloride dihydrate
+CH$NAME: 7-methoxy-1-methyl-3,4-dihydro-2H-pyrido[3,4-b]indole
+CH$NAME: 1-Methyl-7-methoxy-3,4-dihydro-beta-carboline hydrochloride
+CH$NAME: Harmidine
+CH$NAME: Harmalol methyl ether hydrochloride
+CH$NAME: Dihydroharmine
+CH$COMPOUND_CLASS: CLASS1 Alkaloid CLASS2 Halmala CLASS3 Harmalol
+CH$FORMULA: C13H14N2O
+CH$EXACT_MASS: 214.268
+CH$SMILES: CC1=C2C(=C3C=CC(=CC3=N2)OC)CCN1
+CH$IUPAC: InChI=1S/C13H14N2O/c1-8-13-11(5-6-14-8)10-4-3-9(16-2)7-12(10)15-13/h3-4,7,14H,5-6H2,1-2H3
+CH$LINK: CAS 304-21-2
+CH$LINK: INCHIKEY QJOZJXNKVMFAET-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 215.11841
+PK$SPLASH: splash10-014i-0090000000-308da873081204575921
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  200.091 109.4 60
+  215.111 1817.0 999
+//

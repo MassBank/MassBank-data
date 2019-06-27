@@ -1,0 +1,41 @@
+ACCESSION: PT210700
+RECORD_TITLE: Gluconapin, But-3-enylglucosinolate, Butenyl glucosinolate, [1-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]sulfanylpent-4-enylideneamino] hydrogen sulfate, 3-butenylglucosinolate; LC-ESI-QTOF; MS2
+DATE: 2008.07.29
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Gluconapin
+CH$NAME: But-3-enylglucosinolate
+CH$NAME: Butenyl glucosinolate
+CH$NAME: [1-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]sulfanylpent-4-enylideneamino] hydrogen sulfate
+CH$NAME: 3-butenylglucosinolate
+CH$COMPOUND_CLASS: CLASS1 Glucosinolate CLASS2 Aliphatic glucosinolate
+CH$FORMULA: C11H19NO9S2
+CH$EXACT_MASS: 373.401
+CH$SMILES: C=CCCC(=NOS(=O)(=O)O)SC1C(C(C(C(O1)CO)O)O)O
+CH$IUPAC: InChI=1S/C11H19NO9S2/c1-2-3-4-7(12-21-23(17,18)19)22-11-10(16)9(15)8(14)6(5-13)20-11/h2,6,8-11,13-16H,1,3-5H2,(H,17,18,19)
+CH$LINK: CAS 19041-09-9
+CH$LINK: INCHIKEY PLYQBXHVYUJNQB-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 409.9982
+PK$SPLASH: splash10-0002-6490100000-b2c30473f0627a51ce4e
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  63.9637 3.586 225
+  79.9599 2.746 172
+  95.9541 3.059 192
+  96.9628 2.031 127
+  134.9161 7.149 448
+  247.945 15.94 999
+  409.9982 1.852 116
+//

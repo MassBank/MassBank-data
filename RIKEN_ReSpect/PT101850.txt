@@ -1,0 +1,39 @@
+ACCESSION: PT101850
+RECORD_TITLE: 2-Imino-1-methylimidazolidin-4-one, Creatinine,anhydrous, 2-Amino-1-methylimidazolidin-4-one, 2-amino-1-methyl-5H-imidazol-4-one, 1-methylhydantoin-2-imide, 2-Imino-N-methylhydantoin, 2-amino-1-methyl-4-imidazolidinone, 1-Methylglycocyamidine; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 2-Imino-1-methylimidazolidin-4-one
+CH$NAME: Creatinine,anhydrous
+CH$NAME: 2-Amino-1-methylimidazolidin-4-one
+CH$NAME: 2-amino-1-methyl-5H-imidazol-4-one
+CH$NAME: 1-methylhydantoin-2-imide
+CH$NAME: 2-Imino-N-methylhydantoin
+CH$NAME: 2-amino-1-methyl-4-imidazolidinone
+CH$NAME: 1-Methylglycocyamidine
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Creatinine
+CH$FORMULA: C4H7N3O
+CH$EXACT_MASS: 113.12
+CH$SMILES: CN1CC(=O)N=C1N
+CH$IUPAC: InChI=1S/C4H7N3O/c1-7-2-3(8)6-4(7)5/h2H2,1H3,(H2,5,6,8)
+CH$LINK: CAS 60-27-5
+CH$LINK: INCHIKEY DDRJAANPRJIHGJ-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 114.06671
+PK$SPLASH: splash10-03di-0900000000-844659480059fd60d69f
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  114.0062 14.61 18
+  114.0667 826.5 999
+//

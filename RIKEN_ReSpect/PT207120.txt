@@ -1,0 +1,43 @@
+ACCESSION: PT207120
+RECORD_TITLE: Uromitexan, MESNA, HS-CoM, 2-Mercaptoethanesulfonic acid, Mitexan, 2-Mercaptoethansulfonate, Coenzyme M, Mesnex, 2-sulfanylethanesulfonic acid, 2-Mercaptoethanesulfonic acid solution; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Uromitexan
+CH$NAME: MESNA
+CH$NAME: HS-CoM
+CH$NAME: 2-Mercaptoethanesulfonic acid
+CH$NAME: Mitexan
+CH$NAME: 2-Mercaptoethansulfonate
+CH$NAME: Coenzyme M
+CH$NAME: Mesnex
+CH$NAME: 2-sulfanylethanesulfonic acid
+CH$NAME: 2-Mercaptoethanesulfonic acid solution
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Other
+CH$FORMULA: C2H6O3S2
+CH$EXACT_MASS: 142.197
+CH$SMILES: C(CS(=O)(=O)O)S
+CH$IUPAC: InChI=1S/C2H6O3S2/c3-7(4,5)2-1-6/h6H,1-2H2,(H,3,4,5)
+CH$LINK: CAS 3375-50-6
+CH$LINK: INCHIKEY ZNEWHQLOPFWXOF-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 140.96804
+PK$SPLASH: splash10-001i-9400000000-f69174f630c88b6e6c0b
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  79.9579 57.32 86
+  80.9661 668.9 999
+  140.9015 16.62 25
+  140.968 316.3 472
+//

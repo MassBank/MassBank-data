@@ -1,0 +1,61 @@
+ACCESSION: PT202950
+RECORD_TITLE: (Glc(alpha1-4)Glc(alpha1-4)Glc), (2R,3R,4S,5S,6R)-2-[(2R,3S,4R,5R,6R)-4,5-dihydroxy-2-(hydroxymethyl)-6-[(2R,3S,4R,5R)-4,5,6-trihydroxy-2-(hydroxymethyl)oxan-3-yl]oxyoxan-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol, Triomaltose, Amylotriose, O-alpha-D-glucopyranosyl-O-alpha-D-glucopyranosyl-D-glucose, alpha-1,4-Glucotriose, Maltotriose; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: (Glc(alpha1-4)Glc(alpha1-4)Glc)
+CH$NAME: (2R,3R,4S,5S,6R)-2-[(2R,3S,4R,5R,6R)-4,5-dihydroxy-2-(hydroxymethyl)-6-[(2R,3S,4R,5R)-4,5,6-trihydroxy-2-(hydroxymethyl)oxan-3-yl]oxyoxan-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol
+CH$NAME: Triomaltose
+CH$NAME: Amylotriose
+CH$NAME: O-alpha-D-glucopyranosyl-O-alpha-D-glucopyranosyl-D-glucose
+CH$NAME: alpha-1,4-Glucotriose
+CH$NAME: Maltotriose
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Sugar CLASS3 Oligosaccharide
+CH$FORMULA: C18H32O16
+CH$EXACT_MASS: 504.438
+CH$SMILES: C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)O)CO)CO)O)O)O)O
+CH$IUPAC: InChI=1S/C18H32O16/c19-1-4-7(22)8(23)12(27)17(31-4)34-15-6(3-21)32-18(13(28)10(15)25)33-14-5(2-20)30-16(29)11(26)9(14)24/h4-29H,1-3H2
+CH$LINK: CAS 1109-28-0
+CH$LINK: INCHIKEY FYGDTMLNYKFZSV-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 503.16123
+PK$SPLASH: splash10-0ir0-5911000000-c2aba069e7ab6ddbefa6
+PK$NUM_PEAK: 25
+PK$PEAK: m/z int. rel.int.
+  59.0152 21.1 124
+  71.0154 54.12 317
+  73.0307 55.95 328
+  81.035 7.094 42
+  83.0141 13.5 79
+  85.0294 12.29 72
+  87.0099 7.038 41
+  89.0252 34.92 205
+  97.0303 51.28 300
+  101.0247 101.2 593
+  113.0264 30.85 181
+  115.0403 14.15 83
+  119.0352 18.47 108
+  125.0227 6.403 38
+  143.0372 20.19 118
+  161.0462 170.5 999
+  179.0566 66.78 391
+  221.0674 53.86 316
+  263.0819 14.53 85
+  281.0894 11.64 68
+  341.1096 31.14 182
+  383.1235 44.45 260
+  425.1311 10.85 64
+  443.1507 7.515 44
+  503.1612 6.288 37
+//

@@ -1,0 +1,44 @@
+ACCESSION: PT103910
+RECORD_TITLE: Kerastick, Aladerm, ALA, 5-Aminolevulinate, delta-Aminolevulinic acid hydrochloride, 5-Amino-4-oxopentanoic acid, 5-Aminolaevulinic acid, 5-amino-4-oxopentanoic acid, 5-Amino-4-oxopentanoate, Levulan; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Kerastick
+CH$NAME: Aladerm
+CH$NAME: ALA
+CH$NAME: 5-Aminolevulinate
+CH$NAME: delta-Aminolevulinic acid hydrochloride
+CH$NAME: 5-Amino-4-oxopentanoic acid
+CH$NAME: 5-Aminolaevulinic acid
+CH$NAME: 5-amino-4-oxopentanoic acid
+CH$NAME: 5-Amino-4-oxopentanoate
+CH$NAME: Levulan
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Levulinic acid
+CH$FORMULA: C5H9NO3
+CH$EXACT_MASS: 131.131
+CH$SMILES: C(CC(=O)O)C(=O)CN
+CH$IUPAC: InChI=1S/C5H9NO3/c6-3-4(7)1-2-5(8)9/h1-3,6H2,(H,8,9)
+CH$LINK: CAS 106-60-5
+CH$LINK: INCHIKEY ZGXJTSGNIOSYLO-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 132.06604
+PK$SPLASH: splash10-01p9-8900000000-0b739a89ed524e47e3a2
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  68.0503 72.34 105
+  86.06 690.7 999
+  114.0548 567.5 821
+  115.9657 80.29 116
+  132.066 122.5 177
+//

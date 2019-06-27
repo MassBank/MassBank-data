@@ -1,0 +1,43 @@
+ACCESSION: PT104920
+RECORD_TITLE: Pyridoxal hydrochrolide, Vitamin B6, Pyridoxaldehyde, PL-HCl, PL, 3-hydroxy-5-(hydroxymethyl)-2-methylpyridine-4-carbaldehyde, Hydroxy-5-hydroxymethyl-2-methylisonicotinaldehyde, 3-Hydroxy-5-(hydroxymethyl)-2-methyl-4-pyridinecarboxaldehyde; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Pyridoxal hydrochrolide
+CH$NAME: Vitamin B6
+CH$NAME: Pyridoxaldehyde
+CH$NAME: PL-HCl
+CH$NAME: PL
+CH$NAME: 3-hydroxy-5-(hydroxymethyl)-2-methylpyridine-4-carbaldehyde
+CH$NAME: Hydroxy-5-hydroxymethyl-2-methylisonicotinaldehyde
+CH$NAME: 3-Hydroxy-5-(hydroxymethyl)-2-methyl-4-pyridinecarboxaldehyde
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: C8H9NO3
+CH$EXACT_MASS: 167.164
+CH$SMILES: CC1=NC=C(C(=C1O)C=O)CO
+CH$IUPAC: InChI=1S/C8H9NO3/c1-5-8(12)7(4-11)6(3-10)2-9-5/h2,4,10,12H,3H2,1H3
+CH$LINK: CAS 66-72-8
+CH$LINK: INCHIKEY RADKZDMFGJYCBB-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 168.06604
+PK$SPLASH: splash10-0udi-2900000000-63ebef5a0818d6a1ccb8
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  67.0546 125.2 73
+  94.0652 385.0 225
+  106.0655 114.1 67
+  122.0609 233.4 137
+  150.0543 1708.0 999
+  168.066 113.9 67
+//

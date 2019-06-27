@@ -1,0 +1,48 @@
+ACCESSION: PT109450
+RECORD_TITLE: HMG, Lipoglutaren, alpha-Keto-beta-oxy-beta-methylvalerate, HMGA, 3-hydroxy-3-methylpentanedioic acid, Meglutol, beta-Hydroxy-beta-methylglutaric acid, Medroglutaric acid, 3-Hydroxy-3-methylglutarate, 3-Hydroxy-3-methylglutaric Acid, 3-Hydroxy-3-methylpentanedioic acid, Dicrotalic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: HMG
+CH$NAME: Lipoglutaren
+CH$NAME: alpha-Keto-beta-oxy-beta-methylvalerate
+CH$NAME: HMGA
+CH$NAME: 3-hydroxy-3-methylpentanedioic acid
+CH$NAME: Meglutol
+CH$NAME: beta-Hydroxy-beta-methylglutaric acid
+CH$NAME: Medroglutaric acid
+CH$NAME: 3-Hydroxy-3-methylglutarate
+CH$NAME: 3-Hydroxy-3-methylglutaric Acid
+CH$NAME: 3-Hydroxy-3-methylpentanedioic acid
+CH$NAME: Dicrotalic acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Glutamic acid
+CH$FORMULA: C6H10O5
+CH$EXACT_MASS: 162.141
+CH$SMILES: CC(CC(=O)O)(CC(=O)O)O
+CH$IUPAC: InChI=1S/C6H10O5/c1-6(11,2-4(7)8)3-5(9)10/h11H,2-3H2,1H3,(H,7,8)(H,9,10)
+CH$LINK: CAS 503-49-1
+CH$LINK: INCHIKEY NPOAOTPXWNWTSH-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 163.06062
+PK$SPLASH: splash10-01qa-2900000000-182405b2867309ab7df8
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  73.0474 28.06 361
+  99.0447 20.77 267
+  103.0396 23.37 300
+  127.0376 18.88 243
+  133.0502 77.74 999
+  149.0448 45.29 582
+  163.0606 49.71 639
+//

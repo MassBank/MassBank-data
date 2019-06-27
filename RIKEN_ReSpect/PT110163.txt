@@ -1,0 +1,40 @@
+ACCESSION: PT110163
+RECORD_TITLE: 2-Hydroxyethyl trimethylammonium, Choline chloride, Bilineurin, 2-Hydroxy-N,N,N-trimethylethanaminium, 2-hydroxyethyl-trimethylazanium, Lipotril, Hepacholine, Bilineurine; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 2-Hydroxyethyl trimethylammonium
+CH$NAME: Choline chloride
+CH$NAME: Bilineurin
+CH$NAME: 2-Hydroxy-N,N,N-trimethylethanaminium
+CH$NAME: 2-hydroxyethyl-trimethylazanium
+CH$NAME: Lipotril
+CH$NAME: Hepacholine
+CH$NAME: Bilineurine
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: [C5H14NO]+
+CH$EXACT_MASS: 104.173
+CH$SMILES: C[N+](C)(C)CCO
+CH$IUPAC: InChI=1S/C5H14NO/c1-6(2,3)4-5-7/h7H,4-5H2,1-3H3/q+1
+CH$LINK: CAS 62-49-7
+CH$LINK: INCHIKEY OEYIOHPDSNJKLS-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 104.10751
+PK$SPLASH: splash10-0udi-5900000000-87fdeef5275a74e78348
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  58.0658 19.05 191
+  60.0815 38.1 381
+  104.1075 99.89 999
+//
