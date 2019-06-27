@@ -5,7 +5,7 @@ AUTHORS: Justin B. Renaud, Mark W. Sumarah, Agriculture and Agri-Food Canada
 LICENSE: CC BY-SA
 COPYRIGHT: Copyright (C) 2017
 PUBLICATION: Renaud, J. B.; Sumarah, M. W. Data Independent Acquisition-Digital Archiving Mass Spectrometry: Application to Single Kernel Mycotoxin Analysis of Fusarium Graminearum Infected Maize. Analytical and Bioanalytical Chemistry 2016, 408 (12), 3083–91. DOI:10.1007/s00216-016-9391-5
-COMMENT: CONFIDENCE commercial standard
+COMMENT: CONFIDENCE Reference Standard (Level 1)
 CH$NAME: Beauvericin
 CH$NAME: (3S,6R,9S,12R,15S,18R)-3,9,15-tribenzyl-4,10,16-trimethyl-6,12,18-tri(propan-2-yl)-1,7,13-trioxa-4,10,16-triazacyclooctadecane-2,5,8,11,14,17-hexone
 CH$COMPOUND_CLASS: Natural Product; Fungal metabolite
@@ -18,7 +18,8 @@ CH$LINK: CAS 26048-05-5
 CH$LINK: PUBCHEM CID:3007984
 CH$LINK: CHEMSPIDER 2277520
 CH$LINK: KNAPSACK C00027924
-AC$INSTRUMENT:  Q-Exactive Orbitrap Thermo Scientific
+CH$LINK: COMPTOX DTXSID00891834
+AC$INSTRUMENT: Q-Exactive Orbitrap Thermo Scientific
 AC$INSTRUMENT_TYPE: LC-ESI-ITFT
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
 AC$MASS_SPECTROMETRY: ION_MODE POSITIVE

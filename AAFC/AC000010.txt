@@ -5,7 +5,7 @@ AUTHORS: Justin B. Renaud, Mark W. Sumarah, Agriculture and Agri-Food Canada
 LICENSE: CC BY-SA
 COPYRIGHT: Copyright (C) 2017
 PUBLICATION: Renaud, J. B.; Kelman, M. J.; Qi, T. F.; Seifert, K. A.; Sumarah, M. W. Product Ion Filtering with Rapid Polarity Switching for the Detection of All Fumonisins and AAL-Toxins. Rapid Communications in Mass Spectrometry 2015, 29 (22), 2131–9. DOI:10.1002/rcm.7374
-COMMENT: CONFIDENCE commercial standard
+COMMENT: CONFIDENCE Reference Standard (Level 1)
 CH$NAME: AAL toxin TB
 CH$NAME: 2-[2-[(3R,4R,5S,7S,14R,16S)-17-amino-4,14,16-trihydroxy-3,7-dimethylheptadecan-5-yl]oxy-2-oxoethyl]butanedioic acid
 CH$COMPOUND_CLASS: Natural Product; Fungal metabolite
@@ -16,7 +16,9 @@ CH$IUPAC: InChI=1S/C25H47NO9/c1-4-17(3)24(32)21(35-23(31)13-18(25(33)34)12-22(29
 CH$LINK: INCHIKEY CTXQVLLVFBNZKL-YVEDVMJTSA-N
 CH$LINK: CAS 149849-90-1
 CH$LINK: PUBCHEM CID:102004382
-AC$INSTRUMENT:  Q-Exactive Orbitrap Thermo Scientific
+CH$LINK: COMPTOX DTXSID20891795
+CH$LINK: CHEMSPIDER 57256775
+AC$INSTRUMENT: Q-Exactive Orbitrap Thermo Scientific
 AC$INSTRUMENT_TYPE: LC-ESI-ITFT
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
 AC$MASS_SPECTROMETRY: ION_MODE POSITIVE

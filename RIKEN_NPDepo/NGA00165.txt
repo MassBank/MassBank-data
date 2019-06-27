@@ -1,5 +1,5 @@
 ACCESSION: NGA00165
-RECORD_TITLE: Phlorizin; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0 ; [M+H]+
+RECORD_TITLE: Phlorizin; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,16 +7,23 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C21H24O10
 COMMENT: Bottle Name:Phloridzin
 COMMENT: PRIME Parent Name:Phloretin-2'-O-glucoside
-COMMENT: Synonyms: Phlr-2p-Glc ; Phloridzin ; Phlorhizin ; Phlorizin ; Phlorizoside ; Phlorrhizin ; Phlorrhizen ; 2'-(beta-D-Glucopyranosyloxy)-4',6'-dihydroxy-3-(4-hydroxyphenyl)propiophenone
 COMMENT: PRIME in-house No.:S0307, Glycosides
+CH$NAME: Phlr-2p-Glc
+CH$NAME: Phloridzin
+CH$NAME: Phlorhizin
 CH$NAME: Phlorizin
+CH$NAME: Phlorizoside
+CH$NAME: Phlorrhizin
+CH$NAME: Phlorrhizen
+CH$NAME: 2'-(beta-D-Glucopyranosyloxy)-4',6'-dihydroxy-3-(4-hydroxyphenyl)propiophenone
 CH$COMPOUND_CLASS: Carbohydrates
 CH$FORMULA: C21H24O10
-CH$EXACT_MASS: 436.41943000000003
+CH$EXACT_MASS: 436.4194
 CH$SMILES: O=C(CCc1ccc(O)cc1)c1c(O)cc(O)cc1O[C@@H]1OC(CO)[C@@H](O)C(O)C1O
 CH$IUPAC: InChI=1S/C21H24O10/c22-9-16-18(27)19(28)20(29)21(31-16)30-15-8-12(24)7-14(26)17(15)13(25)6-3-10-1-4-11(23)5-2-10/h1-2,4-5,7-8,16,18-24,26-29H,3,6,9H2/t16?,18-,19?,20?,21-/m1/s1
 CH$LINK: CAS 60-81-1
-CH$LINK: PUBCHEM CID:16498836
+CH$LINK: CHEMSPIDER 16498836
+CH$LINK: INCHIKEY IOUVKUPGCMBWBT-IZUIXIRESA-N
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

@@ -4,19 +4,23 @@ DATE: 2016.01.19 (Created 2009.09.10, modified 2011.05.06)
 AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
 LICENSE: CC BY-SA
 COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
-CH$NAME: Luteolin-3',7-di-O-glucoside
-CH$NAME: Lutl-3p-Glc-7-Glc
+CH$NAME: 5-hydroxy-2-[4-hydroxy-3-[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-phenyl]-7-[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-chromen-4-one
 CH$NAME: luteolin-3',7-di-O-glucoside
+CH$NAME: Luteolin 3',7-O-diglucoside
+CH$NAME: Luteolin-7,3'-di-O-glucoside
+CH$NAME: Lutl-3p-Glc-7-Glc
 CH$COMPOUND_CLASS: Flavonoid
 CH$FORMULA: C27H30O16
 CH$EXACT_MASS: 610.15338
-CH$SMILES: O(C1CO)C(Oc(c5)cc(O2)c(c5O)C(C=C2c(c3)ccc(c(OC(O4)C(C(C(C4CO)O)O)O)3)O)=O)C(C(C1O)O)O
+CH$SMILES: C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O)O[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O)O)O
 CH$IUPAC: InChI=1S/C27H30O16/c28-7-17-20(33)22(35)24(37)26(42-17)39-10-4-12(31)19-13(32)6-14(40-16(19)5-10)9-1-2-11(30)15(3-9)41-27-25(38)23(36)21(34)18(8-29)43-27/h1-6,17-18,20-31,33-38H,7-8H2/t17-,18-,20-,21-,22+,23+,24-,25-,26-,27-/m1/s1
 CH$LINK: CAS 52187-80-1
 CH$LINK: CHEMSPIDER 4590322
-CH$LINK: KNAPSACK C00004290
-CH$LINK: PUBCHEM CID:5490298
+CH$LINK: COMPTOX DTXSID90200214
 CH$LINK: INCHIKEY BISZYPSIZGKOFA-IPOZFMEPSA-N
+CH$LINK: KNAPSACK C00004290
+CH$LINK: NIKKAJI J279.475F
+CH$LINK: PUBCHEM CID:5490298
 AC$INSTRUMENT: UPLC Q-Tof Premier, Waters
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

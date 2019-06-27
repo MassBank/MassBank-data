@@ -4,18 +4,23 @@ DATE: 2016.01.19 (Created 2010.05.20, modified 2013.04.24)
 AUTHORS: Tsujimoto Y, Tsugawa H, Bamba T, Fukusaki E, engineering department, Osaka Univ.
 LICENSE: CC BY-SA
 COMMENT: The chemical compound was chemically modified with N-methyl-N-trimethylsilyl-trifluoroacetamide (MSTFA) before GC-MS analysis. When it has two or more functional groups, this modification gave a mixture of the TMS derivatives having different number of TMS groups at different functional groups.
+CH$NAME: Epigallocatechin
+CH$NAME: (2R,3R)-2-(3,4,5-trihydroxyphenyl)-3,4-dihydro-2H-chromene-3,5,7-triol
+CH$NAME: (-)-epigallocatechin
 CH$NAME: (-)-Epigallo catechin
 CH$COMPOUND_CLASS: Natural Product
 CH$FORMULA: C15H14O7
 CH$EXACT_MASS: 306.07395
-CH$SMILES: Oc(c1)cc(O2)c(CC(O)C2c(c3)cc(O)c(O)c(O)3)c(O)1
+CH$SMILES: C1[C@H]([C@H](OC2=CC(=CC(=C21)O)O)C3=CC(=C(C(=C3)O)O)O)O
 CH$IUPAC: InChI=1S/C15H14O7/c16-7-3-9(17)8-5-12(20)15(22-13(8)4-7)6-1-10(18)14(21)11(19)2-6/h1-4,12,15-21H,5H2/t12-,15-/m1/s1
 CH$LINK: CAS 970-74-1
-CH$LINK: CHEBI 31029 42255
+CH$LINK: CHEBI 42255
 CH$LINK: CHEMSPIDER 65231
-CH$LINK: KEGG C12136
-CH$LINK: PUBCHEM 72277
+CH$LINK: COMPTOX DTXSID40891550
 CH$LINK: INCHIKEY XMOCLSLCDHWDHP-IUODEOHRSA-N
+CH$LINK: KEGG C12136
+CH$LINK: LIPIDMAPS LMPK12020004
+CH$LINK: PUBCHEM CID:72277
 AC$INSTRUMENT: Pegasus III TOF-MS system, Leco; GC 6890, Agilent Technologies
 AC$INSTRUMENT_TYPE: GC-EI-TOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS

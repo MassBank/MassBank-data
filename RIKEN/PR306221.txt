@@ -1,0 +1,111 @@
+ACCESSION: PR306221
+RECORD_TITLE: Epigallocatechin-3-gallate; LC-ESI-QTOF; MS2
+DATE: 2019.03.28
+AUTHORS: Tetsuya Mori, Center for Sustainable Resource Science, RIKEN
+LICENSE: CC BY-SA NC
+PUBLICATION: Tsugawa H., Nakabayashi R., Mori T., Yamada Y., Takahashi M., Rai A., Sugiyama R., Yamamoto H., Nakaya T., Yamazaki M., Kooke R., Bac-Molenaar JA., Oztolan-Erol N., Keurentjes JJB., Arita M., Saito K. (2019) "A cheminformatics approach to characterize metabolomes in stable-isotope-labeled organisms" Nature Methods 16(4):295-298. [doi:10.1038/s41592-019-0358-2]
+COMMENT: registered in RIKEN PlaSMA
+CH$NAME: (-)-Epigallocatechin gallate
+CH$NAME: [(2R,3R)-5,7-dihydroxy-2-(3,4,5-trihydroxyphenyl)-3,4-dihydro-2H-chromen-3-yl] 3,4,5-trihydroxybenzoate
+CH$NAME: 3-O-Galloyl-(-)-epigallocatechin
+CH$NAME: Benzoic acid, 3,4,5-trihydroxy-, (2R,3R)-3,4-dihydro-5,7-dihydroxy-2-(3,4,5-trihydroxyphenyl)-2H-1-benzopyran-3-yl ester
+CH$NAME: (-)-Epigallocatechin 3-gallate
+CH$NAME: Epigallocatechin-3-monogallate
+CH$NAME: (-)-Epigallocatechin 3-O-gallate
+CH$NAME: (-)-Epigallocatechol gallate
+CH$NAME: Gallic acid, 3-ester with epigallocatechol, (-)-
+CH$NAME: L-Epigallocatechin gallate
+CH$COMPOUND_CLASS: Catechin gallates
+CH$FORMULA: C22H18O11
+CH$EXACT_MASS: 458.08491
+CH$SMILES: C1[C@H]([C@H](OC2=CC(=CC(=C21)O)O)C3=CC(=C(C(=C3)O)O)O)OC(=O)C4=CC(=C(C(=C4)O)O)O
+CH$IUPAC: InChI=1S/C22H18O11/c23-10-5-12(24)11-7-18(33-22(31)9-3-15(27)20(30)16(28)4-9)21(32-17(11)6-10)8-1-13(25)19(29)14(26)2-8/h1-6,18,21,23-30H,7H2/t18-,21-/m1/s1
+CH$LINK: CAS 989-51-5
+CH$LINK: CHEBI 4806
+CH$LINK: CHEMSPIDER 58575
+CH$LINK: COMPTOX DTXSID1029889
+CH$LINK: INCHIKEY WMBWREPUVVBILR-WIYYLYMNSA-N
+CH$LINK: KEGG C09731
+CH$LINK: LIPIDMAPS LMPK12030005
+CH$LINK: NIKKAJI J134.058A
+CH$LINK: PUBCHEM CID:65064
+AC$INSTRUMENT: LC, Waters Acquity UPLC System; MS, Waters Xevo G2 Q-Tof
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 6V
+AC$MASS_SPECTROMETRY: DESOLVATION_GAS_FLOW 800/h
+AC$MASS_SPECTROMETRY: DESOLVATION_TEMPERATURE 450 C
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: CAPILLARY_VOLTAGE -2.75 kV
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity bridged ethyl hybrid C18 (1.7 um, 2.1 mm * 100 mm, Waters)
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE 40 C
+AC$CHROMATOGRAPHY: FLOW_GRADIENT A/B = (99.5%/0.5% at 0 min, 99.5%/0.5% at 0.1 min, 20%/80% at 10 min, 0.5%/99.5% at 10.1 min, 0.5%/99.5% at 12.0 min, 99.5%/0.5% at 12.1 min, 99.5%/0.5% at 15.0 min)
+AC$CHROMATOGRAPHY: FLOW_RATE 0.3 ml/min at 0 min, 0.3 ml/min at 10 min, 0.4 ml/min at 10.1 min, 0.4 ml/min at 14.4 min, 0.3 ml/min at 14.5 min
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.467917
+AC$CHROMATOGRAPHY: SOLVENT A water including 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile including 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 457.07763494783
+PK$SPLASH: splash10-016r-0900000000-fb760ede1f96b6b680f6
+PK$NUM_PEAK: 58
+PK$PEAK: m/z int. rel.int.
+  69.03021 11.0 11
+  79.01719 12.0 12
+  81.03283 17.0 17
+  105.03619 20.0 20
+  107.00881 8.0 8
+  120.33335 19.0 19
+  123.00854 8.0 8
+  124.97427 10.0 10
+  125.02303 587.0 586
+  126.02489 63.0 63
+  127.02934 8.0 8
+  137.0238 45.0 45
+  138.02626 12.0 12
+  139.03378 8.0 8
+  149.02187 9.0 9
+  158.03862 8.0 8
+  161.02171 83.0 83
+  161.03722 8.0 8
+  161.05417 14.0 14
+  162.02641 9.0 9
+  163.03026 13.0 13
+  165.01665 23.0 23
+  166.01993 14.0 14
+  167.02736 59.0 59
+  167.03864 51.0 51
+  168.00162 8.0 8
+  169.01328 1000.0 999
+  170.01773 96.0 96
+  171.0183 10.0 10
+  172.024 8.0 8
+  177.02145 8.0 8
+  177.0463 8.0 8
+  177.05434 10.0 10
+  178.05319 9.0 9
+  179.0302 28.0 28
+  180.03702 9.0 9
+  181.01201 8.0 8
+  187.0414 8.0 8
+  188.0049 8.0 8
+  190.02295 9.0 9
+  191.06902 8.0 8
+  193.01125 39.0 39
+  194.02188 8.0 8
+  197.07237 8.0 8
+  201.08308 8.0 8
+  203.03293 11.0 11
+  205.01541 12.0 12
+  219.06532 14.0 14
+  221.04309 25.0 25
+  225.06161 13.0 13
+  227.03758 8.0 8
+  229.004 9.0 9
+  233.04491 9.0 9
+  243.0338 9.0 9
+  245.04236 13.0 13
+  257.04425 11.0 11
+  271.02371 8.0 8
+  305.06744 27.0 27
+//

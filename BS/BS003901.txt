@@ -3,14 +3,30 @@ RECORD_TITLE: Epigallocatechin gallate; LC-ESI-QTOF; MS2; CE:30 eV; [M-H]-
 DATE: 2017.12.01 (Created 2014.08.19)
 AUTHORS: Plant Biology, The Noble Foundation, Ardmore, OK, US/Dennis Fine, Daniel Wherritt, and Lloyd Sumner
 LICENSE: CC BY-NC-SA 4.0 International
-CH$NAME: Epigallocatechin gallate
+CH$NAME: (-)-Epigallocatechin gallate
+CH$NAME: [(2R,3R)-5,7-dihydroxy-2-(3,4,5-trihydroxyphenyl)-3,4-dihydro-2H-chromen-3-yl] 3,4,5-trihydroxybenzoate
+CH$NAME: 3-O-Galloyl-(-)-epigallocatechin
+CH$NAME: Benzoic acid, 3,4,5-trihydroxy-, (2R,3R)-3,4-dihydro-5,7-dihydroxy-2-(3,4,5-trihydroxyphenyl)-2H-1-benzopyran-3-yl ester
+CH$NAME: (-)-Epigallocatechin 3-gallate
+CH$NAME: Epigallocatechin-3-monogallate
+CH$NAME: (-)-Epigallocatechin 3-O-gallate
+CH$NAME: (-)-Epigallocatechol gallate
+CH$NAME: Gallic acid, 3-ester with epigallocatechol, (-)-
+CH$NAME: L-Epigallocatechin gallate
 CH$COMPOUND_CLASS: Natural Product; N/A
 CH$FORMULA: C22H18O11
-CH$EXACT_MASS: 458.0849
-CH$SMILES: C1([C@@]([H])([C@@]([H])(OC2=C(C(=C(C(=C21)O[H])[H])O[H])[H])C3=C(C(=C(C(=C3[H])O[H])O[H])O[H])[H])OC(=O)C4=C(C(=C(C(=C4[H])O[H])O[H])O[H])[H])([H])[H]
+CH$EXACT_MASS: 458.08491
+CH$SMILES: C1[C@H]([C@H](OC2=CC(=CC(=C21)O)O)C3=CC(=C(C(=C3)O)O)O)OC(=O)C4=CC(=C(C(=C4)O)O)O
 CH$IUPAC: InChI=1S/C22H18O11/c23-10-5-12(24)11-7-18(33-22(31)9-3-15(27)20(30)16(28)4-9)21(32-17(11)6-10)8-1-13(25)19(29)14(26)2-8/h1-6,18,21,23-30H,7H2/t18-,21-/m1/s1
-CH$LINK: INCHIKEY WMBWREPUVVBILR-WIYYLYMNSA-N
 CH$LINK: CAS 989-51-5
+CH$LINK: CHEBI 4806
+CH$LINK: CHEMSPIDER 58575
+CH$LINK: COMPTOX DTXSID1029889
+CH$LINK: INCHIKEY WMBWREPUVVBILR-WIYYLYMNSA-N
+CH$LINK: KEGG C09731
+CH$LINK: LIPIDMAPS LMPK12030005
+CH$LINK: NIKKAJI J134.058A
+CH$LINK: PUBCHEM CID:65064
 AC$INSTRUMENT: Bruker impact HD
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

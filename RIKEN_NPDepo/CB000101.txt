@@ -6,18 +6,23 @@ LICENSE: BY-CC
 COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C21H22NO4
 COMMENT: Bottle Name:Palmatine chloride
-COMMENT: PRIME Parent Name:Palmatine 
-COMMENT: Synonyms: Palmatin ; Berbericine ; 2,3,9,10-Tetramethoxyprotoberberin ; O,O-Dimethyldemethyleneberberine
+COMMENT: PRIME Parent Name:Palmatine
 COMMENT: PRIME in-house No.:V0288
 COMMENT: SubCategory_DNP: Isoquinoline alkaloids, Benzylisoquinoline alkaloids
+CH$NAME: Palmatin
+CH$NAME: Berbericine
+CH$NAME: 2,3,9,10-Tetramethoxyprotoberberin
+CH$NAME: O,O-Dimethyldemethyleneberberine
 CH$NAME: Palmatine
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: [C21H22NO4]+
-CH$EXACT_MASS: 352.41379
+CH$EXACT_MASS: 352.4138
 CH$SMILES: COc1cc2c(cc1OC)-c1cc3ccc(OC)c(OC)c3c[n+]1CC2
 CH$IUPAC: InChI=1S/C21H22NO4/c1-23-18-6-5-13-9-17-15-11-20(25-3)19(24-2)10-14(15)7-8-22(17)12-16(13)21(18)26-4/h5-6,9-12H,7-8H2,1-4H3/q+1
 CH$LINK: CAS 3486-67-7
-CH$LINK: PUBCHEM CID:17947
+CH$LINK: CHEMSPIDER 17947
+CH$LINK: INCHIKEY QUCQEUCGKKTEBI-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID9048065
 AC$INSTRUMENT: ABSciex API3200 LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS

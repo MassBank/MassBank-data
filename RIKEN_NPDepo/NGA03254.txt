@@ -1,5 +1,5 @@
 ACCESSION: NGA03254
-RECORD_TITLE: liquiritigenin; LC-ESI-QQQ; MS2; Frag=135.0V CID@10.0 ; [M+H]+
+RECORD_TITLE: liquiritigenin; LC-ESI-QQQ; MS2; Frag=135.0V CID@10.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,16 +7,19 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C15H12O4
 COMMENT: Bottle Name:Liquiritigenin
 COMMENT: PRIME Parent Name:4',7-Dihydroxyflavanone
-COMMENT: Synonyms: Liquiritigenin ; (2S)-7-hydroxy-2-(4-hydroxyphenyl)-2,3-dihydrochromen-4-one
 COMMENT: PRIME in-house No.:T0084, Pyrans
+CH$NAME: Liquiritigenin
+CH$NAME: (2S)-7-hydroxy-2-(4-hydroxyphenyl)-2,3-dihydrochromen-4-one
 CH$NAME: liquiritigenin
 CH$COMPOUND_CLASS: Flavonoids
 CH$FORMULA: C15H12O4
-CH$EXACT_MASS: 256.26049
+CH$EXACT_MASS: 256.2605
 CH$SMILES: O=C1C[C@@H](c2ccc(O)cc2)Oc2cc(O)ccc21
 CH$IUPAC: InChI=1S/C15H12O4/c16-10-3-1-9(2-4-10)14-8-13(18)12-6-5-11(17)7-15(12)19-14/h1-7,14,16-17H,8H2/t14-/m0/s1
 CH$LINK: CAS 578-86-9
-CH$LINK: PUBCHEM CID:102790
+CH$LINK: CHEMSPIDER 102790
+CH$LINK: INCHIKEY FURUXTVZLHCCNA-AWEZNQCLSA-N
+CH$LINK: COMPTOX DTXSID90206493
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

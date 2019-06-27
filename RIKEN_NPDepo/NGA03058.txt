@@ -1,5 +1,5 @@
 ACCESSION: NGA03058
-RECORD_TITLE: taxifolin; LC-ESI-QQQ; MS2; Frag=135.0V CID@15.0 ; [M+H]+
+RECORD_TITLE: taxifolin; LC-ESI-QQQ; MS2; Frag=135.0V CID@15.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,16 +7,23 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C15H12O7
 COMMENT: Bottle Name:(+-)-Taxifolin
 COMMENT: PRIME Parent Name:Dihydroquercetin
-COMMENT: Synonyms: Dihydro-Quer ; Taxifolin ; (2R,3R)-3,3',4',5,7-Pentahydroxyflavanone ; trans-Dihydroquercetin  ; Distylin ; Taxifoliol ; Catechin 
 COMMENT: PRIME in-house No.:S0088, Pyrans
+CH$NAME: Dihydro-Quer
+CH$NAME: Taxifolin
+CH$NAME: (2R,3R)-3,3',4',5,7-Pentahydroxyflavanone
+CH$NAME: trans-Dihydroquercetin
+CH$NAME: Distylin
+CH$NAME: Taxifoliol
+CH$NAME: Catechin
 CH$NAME: taxifolin
 CH$COMPOUND_CLASS: Flavonoids
 CH$FORMULA: C15H12O7
-CH$EXACT_MASS: 304.25869
+CH$EXACT_MASS: 304.2587
 CH$SMILES: O=C1c2c(O)cc(O)cc2OC(c2ccc(O)c(O)c2)C1O
 CH$IUPAC: InChI=1S/C15H12O7/c16-7-4-10(19)12-11(5-7)22-15(14(21)13(12)20)6-1-2-8(17)9(18)3-6/h1-5,14-19,21H
 CH$LINK: CAS 480-18-2
-CH$LINK: PUBCHEM CID:621332
+CH$LINK: CHEMSPIDER 621332
+CH$LINK: INCHIKEY CXQWRCVTCMQVQX-UHFFFAOYSA-N
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
