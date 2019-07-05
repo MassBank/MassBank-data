@@ -6,12 +6,17 @@ LICENSE: CC BY-SA NC
 PUBLICATION: Tsugawa H., Nakabayashi R., Mori T., Yamada Y., Takahashi M., Rai A., Sugiyama R., Yamamoto H., Nakaya T., Yamazaki M., Kooke R., Bac-Molenaar JA., Oztolan-Erol N., Keurentjes JJB., Arita M., Saito K. (2019) "A cheminformatics approach to characterize metabolomes in stable-isotope-labeled organisms" Nature Methods 16(4):295-298. [doi:10.1038/s41592-019-0358-2]
 COMMENT: registered in RIKEN PlaSMA
 CH$NAME: Paeoniflorin
+CH$NAME: Peoniflorin
+CH$NAME: [1aR-(1aalpha,2beta,3aalpha,5alpha,5aalpha,5balpha)]-5b-[(Benzoyloxy)methyl]tetrahydro-5-hydroxy-2-methyl-2,5-methano-1H-3,4-dioxacyclobuta[cd]pentalen-1a(2H)-yl  beta-D-glucopyranoside
+CH$NAME: (1aR,2S,3aR,5R,5aR,5bS)-5b-[(Benzoyloxy)methyl]tetrahydro-5-hydroxy-2-methyl-2,5-methano-1H-3,4-dioxacyclobuta[cd]pentalen-1a(2H)-yl beta-D-glucopyranoside
 CH$COMPOUND_CLASS: Terpene glycosides
 CH$FORMULA: C23H28O11
-CH$EXACT_MASS: 480.466
-CH$SMILES: CC12CC3(O)OC(O1)C1(COC(=O)C4=CC=CC=C4)C3CC21OC1OC(CO)C(O)C(O)C1O
-CH$IUPAC: InChI=1S/C23H28O11/c1-20-9-22(29)13-7-23(20,32-18-16(27)15(26)14(25)12(8-24)31-18)21(13,19(33-20)34-22)10-30-17(28)11-5-3-2-4-6-11/h2-6,12-16,18-19,24-27,29H,7-10H2,1H3
-CH$LINK: INCHIKEY YKRGDOXKVOZESV-UHFFFAOYSA-N
+CH$EXACT_MASS: 480.16316
+CH$SMILES: C[C@]12C[C@@]3([C@@H]4C[C@]1([C@@]4([C@H](O2)O3)COC(=O)C5=CC=CC=C5)O[C@H]6[C@@H]([C@H]([C@@H]([C@H](O6)CO)O)O)O)O
+CH$IUPAC: InChI=1S/C23H28O11/c1-20-9-22(29)13-7-23(20,32-18-16(27)15(26)14(25)12(8-24)31-18)21(13,19(33-20)34-22)10-30-17(28)11-5-3-2-4-6-11/h2-6,12-16,18-19,24-27,29H,7-10H2,1H3/t12-,13-,14-,15+,16-,18+,19-,20+,21+,22-,23+/m1/s1
+CH$LINK: CAS 23180-57-6
+CH$LINK: INCHIKEY YKRGDOXKVOZESV-WRJNSLSBSA-N
+CH$LINK: PUBCHEM CID:442534
 AC$INSTRUMENT: LC, Waters Acquity UPLC System; MS, Waters Xevo G2 Q-Tof
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
