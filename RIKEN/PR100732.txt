@@ -4,24 +4,28 @@ DATE: 2016.01.19 (Created 2010.06.21, modified 2011.05.06)
 AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
 LICENSE: CC BY-SA
 COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
-CH$NAME: (S)-(+)-Citramailc acid
-CH$NAME: L-Citramalate
-CH$NAME: (S)-2-Hydroxy-2-methylsuccinic acid
-CH$NAME: 2-Hydroxy-2-methylbutanedioic acid
-CH$NAME: 2-Methylmalic acid
+CH$NAME: S-Citramalic acid
+CH$NAME: (2S)-2-Hydroxy-2-methylbutanedioate
 CH$NAME: L-(+)-2-Methylmalic acid
+CH$NAME: L-alpha-Hydroxypyrotartaric acid
+CH$NAME: L-Citramalic acid
+CH$NAME: (S)-2-Hydroxy-2-methylsuccinic acid
+CH$NAME: (S)-2-Methylmalate
+CH$NAME: (S)-2-Methylmalic acid
 CH$NAME: S-alpha-Hydroxypyrotartaric acid
+CH$NAME: (S)-(+)-Citramailc acid
 CH$COMPOUND_CLASS: Carboxylic acids
 CH$FORMULA: C5H8O5
 CH$EXACT_MASS: 148.03717
-CH$SMILES: OC(=O)CC(C)(O)C(O)=O
+CH$SMILES: C[C@](CC(=O)O)(C(=O)O)O
 CH$IUPAC: InChI=1S/C5H8O5/c1-5(10,4(8)9)2-3(6)7/h10H,2H2,1H3,(H,6,7)(H,8,9)/t5-/m0/s1
 CH$LINK: CAS 6236-09-5
+CH$LINK: CHEBI 29003
 CH$LINK: CHEMSPIDER 390304
+CH$LINK: INCHIKEY XFTRTWQBIOMVPK-YFKPBYRVSA-N
 CH$LINK: KEGG C02614
 CH$LINK: KNAPSACK C00001181
 CH$LINK: PUBCHEM CID:441696
-CH$LINK: INCHIKEY XFTRTWQBIOMVPK-YFKPBYRVSA-N
 AC$INSTRUMENT: UPLC Q-Tof Premier, Waters
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
