@@ -17,6 +17,7 @@
 | GL_Sciences_Inc           | GL Sciences Inc.                                                        | Japan           | GLS            |                            |
 | HBM4EU                    | HBM4EU - Science and policy for a healthy future                        |                 | HB             | HBM4EU                     |
 | IPB_Halle                 | Leibniz Institute for Plant Biochemistry Halle                          | Germany         | PB             |                            |
+| ISAS_Dortmund             | Leibniz Institut für Analytische Wissenschaften - ISAS - e.V.           | Germany         | IS             |                            |
 | JEOL_Ltd                  | JEOL Ltd.                                                               | Japan           | JEL            |                            |
 | Kazusa                    | Kazusa DNA Res. Inst.                                                   | Japan           | KZ             |                            |
 | Keio_Univ                 | Keio University                                                         | Japan           | KO             |                            |
