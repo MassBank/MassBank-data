@@ -6,7 +6,7 @@ LICENSE: CC0
 COPYRIGHT: Copyright (C) American Chemical Society 1998
 PUBLICATION: Corcia, A. D.; Crescenzi, C.; Marcomini, A.; Samperi, R. Liquid Chromatography- Electrospray-Mass Spectrometry as a Valuable Tool for Characterizing Biodegradation Intermediates of Branched Alcohol Ethoxylate Surfactants. Environmental Science & Technology 1998, 32 (5), 711–8. DOI:10.1021/es970616x
 COMMENT: Literature spectrum
-COMMENT: CONFIDENCE: Tentative identification: isomers possible (Level 3)
+COMMENT: CONFIDENCE Tentative identification: isomers possible (Level 3)
 COMMENT: Could be alkyl homologue of given structure
 COMMENT: Digitised from figure: approximate intensities
 CH$NAME: Tricarboxyl-A4EO2
@@ -17,6 +17,8 @@ CH$EXACT_MASS: 264.0845
 CH$SMILES: OC(=O)COCCOCC(CC(=O)O)CC(=O)O
 CH$IUPAC: InChI=1S/C10H16O8/c11-8(12)3-7(4-9(13)14)5-17-1-2-18-6-10(15)16/h7H,1-6H2,(H,11,12)(H,13,14)(H,15,16)
 CH$LINK: INCHIKEY MBNNMBGKEOZFHX-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID60891653
+CH$LINK: PUBCHEM CID:137628448
 AC$INSTRUMENT: Fisons VG Platform
 AC$INSTRUMENT_TYPE: LC-ESI-Q
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

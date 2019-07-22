@@ -1,5 +1,5 @@
 ACCESSION: NGA00443
-RECORD_TITLE: Kopsinine; LC-ESI-QQQ; MS2; Frag=135.0V CID@10.0 ; [M+H]+
+RECORD_TITLE: Kopsinine; LC-ESI-QQQ; MS2; Frag=135.0V CID@10.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,17 +7,19 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C21H26N2O2
 COMMENT: Bottle Name:Kopsinine
 COMMENT: PRIME Parent Name:Kopsinine
-COMMENT: Synonyms: methyl(2|A,3|A,5|A)-aspidofractinine-3-carboxylate ; Aspidofractinine-3-carboxylic acid, methyl ester, (2alpha,3beta,5alpha)- ; 
 COMMENT: PRIME in-house No.:V0259
 COMMENT: SubCategory_DNP: Monoterpenoid indole alkaloids, Aspidosperma alkaloids, Indole alkaloids
+CH$NAME: methyl(2|A,3|A,5|A)-aspidofractinine-3-carboxylate
+CH$NAME: Aspidofractinine-3-carboxylic acid, methyl ester, (2alpha,3beta,5alpha)-
 CH$NAME: Kopsinine
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C21H26N2O2
-CH$EXACT_MASS: 338.45357
+CH$EXACT_MASS: 338.4536
 CH$SMILES: COC(=O)C1CC23CCCN4CCC5(c6ccccc6NC15CC2)[C@@H]43
 CH$IUPAC: InChI=1S/C21H26N2O2/c1-25-17(24)15-13-19-7-4-11-23-12-10-20(18(19)23)14-5-2-3-6-16(14)22-21(15,20)9-8-19/h2-3,5-6,15,18,22H,4,7-13H2,1H3/t15?,18-,19?,20?,21?/m0/s1
 CH$LINK: CAS 559-51-3
-CH$LINK: PUBCHEM CID:10254846
+CH$LINK: CHEMSPIDER 10254846
+CH$LINK: INCHIKEY IYLRRIUNGGQRTN-GNONBNCHSA-N
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -26,20 +28,20 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-000i-0009000000-6a33341ab10e2683fb0d
 PK$NUM_PEAK: 16
 PK$PEAK: m/z int. rel.int.
-  338.3	0.86	0
-  338.4	2.96	2
-  338.5	6.09	6
-  338.6	9.62	9
-  338.7	14.97	14
-  338.8	25.97	25
-  338.9	44.81	44
-  339.0	68.16	68
-  339.1	88.67	88
-  339.2	100.0	99
-  339.3	98.9	98
-  339.4	84.43	84
-  339.5	58.96	58
-  339.6	30.15	30
-  339.7	7.99	7
-  339.8	0.0	0
+  338.3 0.86 0
+  338.4 2.96 2
+  338.5 6.09 6
+  338.6 9.62 9
+  338.7 14.97 14
+  338.8 25.97 25
+  338.9 44.81 44
+  339.0 68.16 68
+  339.1 88.67 88
+  339.2 100.0 99
+  339.3 98.9 98
+  339.4 84.43 84
+  339.5 58.96 58
+  339.6 30.15 30
+  339.7 7.99 7
+  339.8 0.0 0
 //

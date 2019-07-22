@@ -6,14 +6,20 @@ LICENSE: CC BY-NC-SA
 COPYRIGHT: Copyright(C) 2011 MPI for Chemical Ecology, Jena, Germany
 PUBLICATION: F. Rasche, K. Scheubert, F. Hufsky, T. Zichner, M. Kai, A. Svatos and S. Boecker. Identifying the unknowns by aligning fragmentation trees. Anal. Chem., 2012, 84, 3417-3426 doi:10.1021/ac300304u
 COMMENT: Acquisition and generation of the data is financially supported by the Max-Planck-Society
-CH$NAME: Rhamnose
+CH$NAME: L-Rhamnose
+CH$NAME: (2R,3R,4S,5S)-2,3,4,5-tetrahydroxyhexanal
 CH$COMPOUND_CLASS: Natural Product; Sugar
 CH$FORMULA: C6H12O5
 CH$EXACT_MASS: 164.06848
 CH$SMILES: C[C@@H]([C@@H]([C@H]([C@H](C=O)O)O)O)O
 CH$IUPAC: InChI=1S/C6H12O5/c1-3(8)5(10)6(11)4(9)2-7/h2-6,8-11H,1H3/t3-,4-,5-,6-/m0/s1
-CH$LINK: PUBCHEM CID:19233
+CH$LINK: CAS 3615-41-6
+CH$LINK: CHEBI 16055
+CH$LINK: CHEMSPIDER 18150
+CH$LINK: COMPTOX DTXSID7042647
 CH$LINK: INCHIKEY PNNNRSAQSRJVSB-BXKVDMCESA-N
+CH$LINK: KEGG C01684
+CH$LINK: PUBCHEM CID:19233
 AC$INSTRUMENT: LTQ Orbitrap XL, Thermo Scientfic; HP-1100 HPLC, Agilent
 AC$INSTRUMENT_TYPE: LC-ESI-ITFT
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

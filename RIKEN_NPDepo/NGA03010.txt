@@ -1,20 +1,49 @@
 ACCESSION: NGA03010
-RECORD_TITLE: Quercetin 3-glycoside, disaccharide; LC-ESI-QQQ; MS2; Frag=135.0V CID@10.0 ; [M+H]+
+RECORD_TITLE: Quercetin 3-glycoside, disaccharide; LC-ESI-QQQ; MS2; Frag=135.0V CID@10.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
 COMMENT: Formula(Parent): C27H30O16
 COMMENT: Bottle Name:Quercetin-3-O-beta-glucopyranosyl-7-O-alpha-rhamnopyranoside / Quercetin-3-rhamnoside-7-glucoside / Rutin
 COMMENT: PRIME Parent Name:Quercetin-3-O-beta-glucosyl-7-O-alpha-rhamnoside / Quercetin-3-O-rhamnoside-7-O-glucoside / Quercetin-3-O-rutinoside
-COMMENT: Synonyms: Quer-3-Glc-7-Rha ; SPECIES ; quercetin-3-glucoside-7-rhamnoside / Quer-3-Rha-7-Glc / Quer-3-Glc-6pp-Rha ; Rutin  ; rutoside ; Rutinic acid ; Vitamin P ; Quercetin, 3-(6-O-alpha-L-rhamnopyranosyl-beta-D-glucopyranoside ; 3,3',4',5,7-Pentahydroxyflavone-3-rhamnoglucoside ; 3,3',4',5,7-pentahydroxyflavone-3-rutinoside ; Bioflavonoid ; Birutan ; Eldrin ; Globulariacitrin ; Globularicitrin ; Ilixathin ; Melin ; Myrticalorin ; Myrticolorin ; Osyritin ; Osyritrin ; Oxyritin ; Paliuroside ; Phytomelin ; Rutabion ; Sophorin ; Tanrutin ; Violaquercitrin
 COMMENT: PRIME in-house No.:?R0022  T0142 T0001 V0059, Pyrans (?R0022: Quercetin-3-O-beta-glucosyl-7-O-alpha-rhamnoside, ?T0142: Quercetin-3-O-rhamnoside-7-O-glucoside, ?T0001: Quercetin-3-O-rutinoside, ?V0059: Quercetin-3-O-rutinoside)
+CH$NAME: Quer-3-Glc-7-Rha
+CH$NAME: SPECIES
+CH$NAME: quercetin-3-glucoside-7-rhamnoside / Quer-3-Rha-7-Glc / Quer-3-Glc-6pp-Rha
+CH$NAME: Rutin
+CH$NAME: rutoside
+CH$NAME: Rutinic acid
+CH$NAME: Vitamin P
+CH$NAME: Quercetin, 3-(6-O-alpha-L-rhamnopyranosyl-beta-D-glucopyranoside
+CH$NAME: 3,3',4',5,7-Pentahydroxyflavone-3-rhamnoglucoside
+CH$NAME: 3,3',4',5,7-pentahydroxyflavone-3-rutinoside
+CH$NAME: Bioflavonoid
+CH$NAME: Birutan
+CH$NAME: Eldrin
+CH$NAME: Globulariacitrin
+CH$NAME: Globularicitrin
+CH$NAME: Ilixathin
+CH$NAME: Melin
+CH$NAME: Myrticalorin
+CH$NAME: Myrticolorin
+CH$NAME: Osyritin
+CH$NAME: Osyritrin
+CH$NAME: Oxyritin
+CH$NAME: Paliuroside
+CH$NAME: Phytomelin
+CH$NAME: Rutabion
+CH$NAME: Sophorin
+CH$NAME: Tanrutin
+CH$NAME: Violaquercitrin
 CH$NAME: Quercetin 3-glycoside, disaccharide
 CH$COMPOUND_CLASS: Flavonoids
 CH$FORMULA: C27H30O16
-CH$EXACT_MASS: 610.5305500000001
+CH$EXACT_MASS: 610.5306
 CH$SMILES: C[C@H]1O[C@@H](O[C@H]2[C@@H](CO)O[C@@H](Oc3c(-c4ccc(O)c(O)c4)oc4cc(O)cc(O)c4c3=O)[C@H](O)[C@H]2O)[C@H](O)[C@H](O)[C@H]1O
 CH$IUPAC: InChI=1S/C27H30O16/c1-8-17(33)19(35)21(37)26(39-8)42-24-15(7-28)41-27(22(38)20(24)36)43-25-18(34)16-13(32)5-10(29)6-14(16)40-23(25)9-2-3-11(30)12(31)4-9/h2-6,8,15,17,19-22,24,26-33,35-38H,7H2,1H3/t8-,15-,17+,19-,20-,21-,22-,24+,26+,27+/m1/s1
 CH$LINK: CAS 18016-58-5];[17306-45-5];[153-18-4
+CH$LINK: INCHIKEY SKOCCRDVSSOREC-IFHHWCCPSA-N
+CH$LINK: PUBCHEM CID:16396012
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -23,29 +52,29 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-0udi-0009100000-6e87de69f4087c50dfd9
 PK$NUM_PEAK: 25
 PK$PEAK: m/z int. rel.int.
-  302.2	0.99	0
-  302.3	3.13	3
-  302.4	7.3	7
-  302.5	14.39	14
-  302.6	26.01	25
-  302.7	42.78	42
-  302.8	62.61	62
-  302.9	81.38	81
-  303.0	94.97	94
-  303.1	100.0	99
-  303.2	93.19	93
-  303.3	73.11	73
-  303.4	44.11	44
-  303.5	16.54	16
-  303.6	1.09	1
-  464.6	2.99	2
-  464.7	5.15	5
-  464.8	9.33	9
-  464.9	13.9	13
-  465.0	16.86	16
-  465.1	17.76	17
-  465.2	17.12	17
-  465.3	14.57	14
-  465.4	9.69	9
-  465.5	3.96	3
+  302.2 0.99 0
+  302.3 3.13 3
+  302.4 7.3 7
+  302.5 14.39 14
+  302.6 26.01 25
+  302.7 42.78 42
+  302.8 62.61 62
+  302.9 81.38 81
+  303.0 94.97 94
+  303.1 100.0 99
+  303.2 93.19 93
+  303.3 73.11 73
+  303.4 44.11 44
+  303.5 16.54 16
+  303.6 1.09 1
+  464.6 2.99 2
+  464.7 5.15 5
+  464.8 9.33 9
+  464.9 13.9 13
+  465.0 16.86 16
+  465.1 17.76 17
+  465.2 17.12 17
+  465.3 14.57 14
+  465.4 9.69 9
+  465.5 3.96 3
 //

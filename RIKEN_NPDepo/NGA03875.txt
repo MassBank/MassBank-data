@@ -1,5 +1,5 @@
 ACCESSION: NGA03875
-RECORD_TITLE: 3-Isoreserpine; LC-ESI-QQQ; MS2;  Frag=135.0V CID@15.0 ; [M+HCOO]-
+RECORD_TITLE: 3-Isoreserpine; LC-ESI-QQQ; MS2; Frag=135.0V CID@15.0; [M+HCOO]-
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,17 +7,22 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C33H40N2O9
 COMMENT: Bottle Name:Isoreserpin
 COMMENT: PRIME Parent Name:Isoreserpin
-COMMENT: Synonyms: 3-Epireserpine ; 3-Isoreserpine ; Mepireserpate ; (1S,13bS,14aS,4aS,2R,3R)-2,11-dimethoxy-1-(methoxycarbonyl)-1,2,3,4,5,8,14,13b,14a,4a-decahydrobenzo(3,4-g)indolo(2,3-a)quinolizin-3-yl 3,4,5-trimethoxybenzoate
 COMMENT: PRIME in-house No.:V0338
 COMMENT: SubCategory_DNP: Monoterpenoid indole alkaloids, Yohimbinoid alkaloids, Indole alkaloids
+CH$NAME: 3-Epireserpine
 CH$NAME: 3-Isoreserpine
+CH$NAME: Mepireserpate
+CH$NAME: (1S,13bS,14aS,4aS,2R,3R)-2,11-dimethoxy-1-(methoxycarbonyl)-1,2,3,4,5,8,14,13b,14a,4a-decahydrobenzo(3,4-g)indolo(2,3-a)quinolizin-3-yl 3,4,5-trimethoxybenzoate
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C33H40N2O9
-CH$EXACT_MASS: 608.69475
+CH$EXACT_MASS: 608.6947
 CH$SMILES: COC(=O)[C@H]1[C@H]2C[C@H]3c4[nH]c5cc(OC)ccc5c4CCN3C[C@H]2C[C@@H](OC(=O)c2cc(OC)c(OC)c(OC)c2)[C@@H]1OC
 CH$IUPAC: InChI=1S/C33H40N2O9/c1-38-19-7-8-20-21-9-10-35-16-18-13-27(44-32(36)17-11-25(39-2)30(41-4)26(12-17)40-3)31(42-5)28(33(37)43-6)22(18)15-24(35)29(21)34-23(20)14-19/h7-8,11-12,14,18,22,24,27-28,31,34H,9-10,13,15-16H2,1-6H3/t18-,22+,24+,27-,28+,31+/m1/s1
 CH$LINK: CAS 482-85-9
-CH$LINK: PUBCHEM CID:4642389
+CH$LINK: CHEMSPIDER 4642389
+CH$LINK: INCHIKEY QEVHRUUCFGRFIF-VPHNHGCZSA-N
+CH$LINK: COMPTOX DTXSID50858952
+CH$LINK: PUBCHEM CID:5701996
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -26,29 +31,29 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+HCOO]-
 PK$SPLASH: splash10-0a4i-0000009000-5d540b0dab6bca32db61
 PK$NUM_PEAK: 25
 PK$PEAK: m/z int. rel.int.
-  591.9	0.48	0
-  592.0	2.87	2
-  592.1	8.57	8
-  592.2	15.05	15
-  592.3	17.67	17
-  592.4	13.97	13
-  592.5	6.77	6
-  592.6	1.11	1
-  606.2	0.69	0
-  606.3	1.46	1
-  606.4	4.52	4
-  606.5	13.96	13
-  606.6	30.02	29
-  606.7	46.36	46
-  606.8	55.83	55
-  606.9	60.95	60
-  607.0	70.67	70
-  607.1	86.0	85
-  607.2	97.96	97
-  607.3	100.0	99
-  607.4	92.22	92
-  607.5	74.44	74
-  607.6	46.94	46
-  607.7	18.01	17
-  607.8	1.38	1
+  591.9 0.48 0
+  592.0 2.87 2
+  592.1 8.57 8
+  592.2 15.05 15
+  592.3 17.67 17
+  592.4 13.97 13
+  592.5 6.77 6
+  592.6 1.11 1
+  606.2 0.69 0
+  606.3 1.46 1
+  606.4 4.52 4
+  606.5 13.96 13
+  606.6 30.02 29
+  606.7 46.36 46
+  606.8 55.83 55
+  606.9 60.95 60
+  607.0 70.67 70
+  607.1 86.0 85
+  607.2 97.96 97
+  607.3 100.0 99
+  607.4 92.22 92
+  607.5 74.44 74
+  607.6 46.94 46
+  607.7 18.01 17
+  607.8 1.38 1
 //

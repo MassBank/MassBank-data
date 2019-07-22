@@ -4,21 +4,24 @@ DATE: 2016.01.19 (Created 2009.09.10, modified 2011.05.06)
 AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
 LICENSE: CC BY-SA
 COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
-CH$NAME: Kaempferol-3,7-O-bis-alpha-L-rhamnoside
-CH$NAME: Kaempferol-3,7-O-di-rhamnopyranoside
-CH$NAME: Kaempferol-3-Rhamnoside-7-Rhamnoside
-CH$NAME: Kaem-3-Rha-7-Rha
 CH$NAME: Kaempferitrin
+CH$NAME: 3-Rha-7-Rha Kaempferol
+CH$NAME: Kaempferol-3-O-rhamnoside-7-O-rhamnoside
+CH$NAME: 3,4',5,7-Tetrahydroxyflavone 3,7-dirhamnoside
+CH$NAME: 3,7-Bis[(6-deoxy-alpha-L-mannopyranosyl)oxy]-5-hydroxy-2-(4-hydroxyphenyl)-4H-1-benzopyran-4-one
+CH$NAME: Lespedin
+CH$NAME: Lespenephryl
 CH$COMPOUND_CLASS: Flavonoid
 CH$FORMULA: C27H30O14
 CH$EXACT_MASS: 578.16356
-CH$SMILES: C(C1O)(C)OC(Oc(c5)cc(O2)c(c5O)C(C(OC(O4)C(C(C(C4C)O)O)O)=C(c(c3)ccc(O)c3)2)=O)C(C1O)O
+CH$SMILES: C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)OC2=CC(=C3C(=C2)OC(=C(C3=O)O[C@H]4[C@@H]([C@@H]([C@H]([C@@H](O4)C)O)O)O)C5=CC=C(C=C5)O)O)O)O)O
 CH$IUPAC: InChI=1S/C27H30O14/c1-9-17(30)20(33)22(35)26(37-9)39-13-7-14(29)16-15(8-13)40-24(11-3-5-12(28)6-4-11)25(19(16)32)41-27-23(36)21(34)18(31)10(2)38-27/h3-10,17-18,20-23,26-31,33-36H,1-2H3/t9-,10-,17-,18-,20+,21+,22+,23+,26-,27-/m0/s1
 CH$LINK: CAS 482-38-2
-CH$LINK: CHEMSPIDER 4481111
-CH$LINK: KNAPSACK C00005189
-CH$LINK: PUBCHEM CID:5323562
+CH$LINK: CHEMSPIDER 4588900
+CH$LINK: COMPTOX DTXSID90197458
 CH$LINK: INCHIKEY PUPKKEQDLNREIM-QNSQPKOQSA-N
+CH$LINK: KNAPSACK C00005189
+CH$LINK: PUBCHEM CID:5486199
 AC$INSTRUMENT: UPLC Q-Tof Premier, Waters
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

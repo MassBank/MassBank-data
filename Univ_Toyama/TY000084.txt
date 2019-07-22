@@ -3,23 +3,18 @@ RECORD_TITLE: [6]-Gingerol; LC-ESI-ITTOF; MS; [M-H]-
 DATE: 2016.01.19 (Created 2008.12.13, modified 2011.05.06)
 AUTHORS: Ken TANAKA
 LICENSE: CC BY-SA
-CH$NAME: [6]-Gingerol
-CH$NAME: 3-Decanone, 5-hydroxy-1-(4-hydroxy-3-methoxyphenyl)-, (5S)-
-CH$NAME: 3-Decanone, 5-hydroxy-1-(4-hydroxy-3-methoxyphenyl)-, (S)-
-CH$NAME: 3-Decanone, 5-hydroxy-1-(4-hydroxy-3-methoxyphenyl)-, (S)-(+)-
-CH$NAME: (+)-5-Hydroxy-1-(4-hydroxy-3-methoxyphenyl)-3-decanone
-CH$NAME: (+)-[6]-Gingerol
-CH$NAME: (S)-(+)-[6]Gingerol
-CH$NAME: (S)-[6]Gingerol
+CH$NAME: 6-Gingerol
+CH$NAME: (5S)-5-Hydroxy-1-(4-hydroxy-3-methoxyphenyl)-3-decanone
 CH$COMPOUND_CLASS: Natural Product; Capsaicinoid
 CH$FORMULA: C17H26O4
 CH$EXACT_MASS: 294.18311
-CH$SMILES: CCCCCC(O)CC(=O)CCc(c1)cc(OC)c(O)c1
+CH$SMILES: CCCCC[C@@H](CC(=O)CCC1=CC(=C(C=C1)O)OC)O
 CH$IUPAC: InChI=1S/C17H26O4/c1-3-4-5-6-14(18)12-15(19)9-7-13-8-10-16(20)17(11-13)21-2/h8,10-11,14,18,20H,3-7,9,12H2,1-2H3/t14-/m0/s1
 CH$LINK: CAS 23513-14-6
+CH$LINK: COMPTOX DTXSID3041035
+CH$LINK: INCHIKEY NLDDIKRKFXEWBK-AWEZNQCLSA-N
 CH$LINK: NIKKAJI J46.683B
 CH$LINK: PUBCHEM CID:442793
-CH$LINK: INCHIKEY NLDDIKRKFXEWBK-AWEZNQCLSA-N
 AC$INSTRUMENT: Shimadzu LC20A-IT-TOFMS
 AC$INSTRUMENT_TYPE: LC-ESI-ITTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS

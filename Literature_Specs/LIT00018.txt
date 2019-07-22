@@ -6,7 +6,7 @@ LICENSE: CC0
 COPYRIGHT: Copyright (C) American Chemical Society 1999
 PUBLICATION: Corcia, A. D.; Casassa, F.; Crescenzi, C.; Marcomini, A.; Samperi, R. Investigation of the Fate of Linear Alkyl Benzenesulfonates and Coproducts in a Laboratory Biodegradation Test by Using Liquid Chromatography/Mass Spectrometry. Environmental Science & Technology 1999, 33 (22), 4112–8. DOI:10.1021/es9905952
 COMMENT: Literature spectrum
-COMMENT: CONFIDENCE: Tentative identification: isomers possible (Level 3)
+COMMENT: CONFIDENCE Tentative identification: isomers possible (Level 3)
 COMMENT: Could be alkyl homologue of given structure
 COMMENT: Digitised from figure: approximate intensities
 CH$NAME: Me-STA3C
@@ -18,6 +18,8 @@ CH$EXACT_MASS: 312.1031
 CH$SMILES: O=S(=O)(O)c1ccc2c(c1)C(CCC2CC)CC(=O)OC
 CH$IUPAC: InChI=1S/C15H20O5S/c1-3-10-4-5-11(8-15(16)20-2)14-9-12(21(17,18)19)6-7-13(10)14/h6-7,9-11H,3-5,8H2,1-2H3,(H,17,18,19)
 CH$LINK: INCHIKEY NTEVHCRIRQXHIY-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID70891644
+CH$LINK: PUBCHEM CID:100942739
 AC$INSTRUMENT: Fisons VG Platform
 AC$INSTRUMENT_TYPE: LC-ESI-Q
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

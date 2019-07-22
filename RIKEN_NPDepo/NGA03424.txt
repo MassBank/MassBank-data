@@ -1,5 +1,5 @@
 ACCESSION: NGA03424
-RECORD_TITLE: Hinokitiol; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0 ; [M+H]+
+RECORD_TITLE: Hinokitiol; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,17 +7,23 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C10H12O2
 COMMENT: Bottle Name:Hinokitiol
 COMMENT: PRIME Parent Name:Hinokitiol
-COMMENT: Synonyms: beta-Thujaplicin ; beta.-Thujaplicine ; 2-Hydroxy-4-isopropyl-2,4,6-cycloheptatrien-1-one ; 4-Isopropyltropolon
 COMMENT: PRIME in-house No.:S0323
 COMMENT: SubCategory_DNP: Monoterpenoids, Tropolone monoterpenoids
+CH$NAME: beta-Thujaplicin
+CH$NAME: beta.-Thujaplicine
+CH$NAME: 2-Hydroxy-4-isopropyl-2,4,6-cycloheptatrien-1-one
+CH$NAME: 4-Isopropyltropolon
 CH$NAME: Hinokitiol
 CH$COMPOUND_CLASS: Terpenoids
 CH$FORMULA: C10H12O2
-CH$EXACT_MASS: 164.20594
+CH$EXACT_MASS: 164.2059
 CH$SMILES: CC(C)c1cccc(O)c(=O)c1
 CH$IUPAC: InChI=1S/C10H12O2/c1-7(2)8-4-3-5-9(11)10(12)6-8/h3-7H,1-2H3,(H,11,12)
 CH$LINK: CAS 499-44-5
-CH$LINK: PUBCHEM CID:3485 72538
+CH$LINK: CHEMSPIDER 3485 72538
+CH$LINK: INCHIKEY FUWUEFKEXZQKKA-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID6043911
+CH$LINK: PUBCHEM CID:3611
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -26,20 +32,20 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-014i-0900000000-3349549e26e21986714a
 PK$NUM_PEAK: 16
 PK$PEAK: m/z int. rel.int.
-  164.2	0.56	0
-  164.3	2.08	2
-  164.4	4.68	4
-  164.5	8.03	8
-  164.6	13.71	13
-  164.7	25.7	25
-  164.8	46.11	46
-  164.9	70.6	70
-  165.0	90.51	90
-  165.1	100.0	99
-  165.2	99.13	99
-  165.3	89.31	89
-  165.4	69.85	69
-  165.5	42.55	42
-  165.6	15.97	15
-  165.7	0.35	0
+  164.2 0.56 0
+  164.3 2.08 2
+  164.4 4.68 4
+  164.5 8.03 8
+  164.6 13.71 13
+  164.7 25.7 25
+  164.8 46.11 46
+  164.9 70.6 70
+  165.0 90.51 90
+  165.1 100.0 99
+  165.2 99.13 99
+  165.3 89.31 89
+  165.4 69.85 69
+  165.5 42.55 42
+  165.6 15.97 15
+  165.7 0.35 0
 //

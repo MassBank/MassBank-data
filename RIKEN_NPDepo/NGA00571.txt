@@ -1,5 +1,5 @@
 ACCESSION: NGA00571
-RECORD_TITLE: Speciosine; LC-ESI-QQQ; MS2; Frag=135.0V CID@10.0 ; [M+H]+
+RECORD_TITLE: Speciosine; LC-ESI-QQQ; MS2; Frag=135.0V CID@10.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,17 +7,23 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C28H31NO6
 COMMENT: Bottle Name:Speciosine
 COMMENT: PRIME Parent Name:Speciosine
-COMMENT: Synonyms: Speciozine ; Speciosin ; Speciozin ; (7S)-7-(((2-hydroxyphenyl)methyl)methylamino)-1,2,3,10-tetramethoxy-5,6,7-trihydrobenzo(a)heptalen-9-one
 COMMENT: PRIME in-house No.:V0329
 COMMENT: SubCategory_DNP: Isoquinoline alkaloids, Dibenzocycloheptylamine alkaloids, Colchicine alkaloids
+CH$NAME: Speciozine
+CH$NAME: Speciosin
+CH$NAME: Speciozin
+CH$NAME: (7S)-7-(((2-hydroxyphenyl)methyl)methylamino)-1,2,3,10-tetramethoxy-5,6,7-trihydrobenzo(a)heptalen-9-one
 CH$NAME: Speciosine
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C28H31NO6
-CH$EXACT_MASS: 477.56237000000004
+CH$EXACT_MASS: 477.5624
 CH$SMILES: COc1cc2c(c(OC)c1OC)-c1ccc(OC)c(=O)cc1[C@@H](N(C)Cc1ccccc1O)CC2
 CH$IUPAC: InChI=1S/C28H31NO6/c1-29(16-18-8-6-7-9-22(18)30)21-12-10-17-14-25(33-3)27(34-4)28(35-5)26(17)19-11-13-24(32-2)23(31)15-20(19)21/h6-9,11,13-15,21,30H,10,12,16H2,1-5H3/t21-/m0/s1
 CH$LINK: CAS 16892-03-8
-CH$LINK: PUBCHEM CID:26164 292500
+CH$LINK: CHEMSPIDER 26164 292500
+CH$LINK: INCHIKEY SOFSXTKPGSIDCI-NRFANRHFSA-N
+CH$LINK: COMPTOX DTXSID60937565
+CH$LINK: PUBCHEM CID:330188
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -26,33 +32,33 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-00di-0009300000-bf14b7afc44842deaa18
 PK$NUM_PEAK: 29
 PK$PEAK: m/z int. rel.int.
-  371.3	1.71	1
-  371.4	4.04	4
-  371.5	7.03	7
-  371.6	10.55	10
-  371.7	16.92	16
-  371.8	29.99	29
-  371.9	50.75	50
-  372.0	74.3	74
-  372.1	92.65	92
-  372.2	100.0	99
-  372.3	94.42	94
-  372.4	76.6	76
-  372.5	50.36	50
-  372.6	23.62	23
-  372.7	5.43	5
-  372.8	0.0	0
-  477.5	2.17	2
-  477.6	3.44	3
-  477.7	5.98	5
-  477.8	11.01	10
-  477.9	18.52	18
-  478.0	26.5	26
-  478.1	32.36	32
-  478.2	34.87	34
-  478.3	34.02	33
-  478.4	29.63	29
-  478.5	21.65	21
-  478.6	11.85	11
-  478.7	3.67	3
+  371.3 1.71 1
+  371.4 4.04 4
+  371.5 7.03 7
+  371.6 10.55 10
+  371.7 16.92 16
+  371.8 29.99 29
+  371.9 50.75 50
+  372.0 74.3 74
+  372.1 92.65 92
+  372.2 100.0 99
+  372.3 94.42 94
+  372.4 76.6 76
+  372.5 50.36 50
+  372.6 23.62 23
+  372.7 5.43 5
+  372.8 0.0 0
+  477.5 2.17 2
+  477.6 3.44 3
+  477.7 5.98 5
+  477.8 11.01 10
+  477.9 18.52 18
+  478.0 26.5 26
+  478.1 32.36 32
+  478.2 34.87 34
+  478.3 34.02 33
+  478.4 29.63 29
+  478.5 21.65 21
+  478.6 11.85 11
+  478.7 3.67 3
 //

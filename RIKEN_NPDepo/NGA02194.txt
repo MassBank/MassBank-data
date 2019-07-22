@@ -1,5 +1,5 @@
 ACCESSION: NGA02194
-RECORD_TITLE: Ajmaline; LC-ESI-QQQ; MS2; Frag=135.0V CID@10.0 ; [M+H]+
+RECORD_TITLE: Ajmaline; LC-ESI-QQQ; MS2; Frag=135.0V CID@10.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,17 +7,24 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C20H26N2O2
 COMMENT: Bottle Name:Ajmaline
 COMMENT: PRIME Parent Name:Ajmaline
-COMMENT: Synonyms: Ajmalin ; Cardiorythmine ; Raugalline ; Rauwolfine ; Tachmalin ; Ajmalan-17,21-diol ; (13S,16S,18S,1R,14R,17R)-13-ethyl-8-methyl-8,15-diazahexacyclo(14.2.1.0(1,9).0(2,7).0(10,15).0(12,17))nonadeca-2(7),3,5-triene-14,18-diol
 COMMENT: PRIME in-house No.:V0319
 COMMENT: SubCategory_DNP: Monoterpenoid indole alkaloids, Ajmaline alkaloids, Indole alkaloids
+CH$NAME: Ajmalin
+CH$NAME: Cardiorythmine
+CH$NAME: Raugalline
+CH$NAME: Rauwolfine
+CH$NAME: Tachmalin
+CH$NAME: Ajmalan-17,21-diol
+CH$NAME: (13S,16S,18S,1R,14R,17R)-13-ethyl-8-methyl-8,15-diazahexacyclo(14.2.1.0(1,9).0(2,7).0(10,15).0(12,17))nonadeca-2(7),3,5-triene-14,18-diol
 CH$NAME: Ajmaline
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C20H26N2O2
-CH$EXACT_MASS: 326.44242
+CH$EXACT_MASS: 326.4424
 CH$SMILES: CCC1[C@@H]2CC3C4N(C)c5ccccc5C45C[C@@H](C2[C@@H]5O)N3[C@@H]1O
 CH$IUPAC: InChI=1S/C20H26N2O2/c1-3-10-11-8-14-17-20(12-6-4-5-7-13(12)21(17)2)9-15(16(11)18(20)23)22(14)19(10)24/h4-7,10-11,14-19,23-24H,3,8-9H2,1-2H3/t10?,11-,14?,15-,16?,17?,18-,19+,20?/m0/s1
 CH$LINK: CAS 4360-12-7
-CH$LINK: PUBCHEM CID:10469368
+CH$LINK: CHEMSPIDER 10469368
+CH$LINK: INCHIKEY CJDRUOGAGYHKKD-PSOGFBMNSA-N
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -26,19 +33,19 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-004i-0009000000-27d5b037cacdd7612e46
 PK$NUM_PEAK: 15
 PK$PEAK: m/z int. rel.int.
-  326.4	0.26	0
-  326.5	1.93	1
-  326.6	5.68	5
-  326.7	12.27	12
-  326.8	23.17	23
-  326.9	40.01	39
-  327.0	61.78	61
-  327.1	83.29	83
-  327.2	97.72	97
-  327.3	100.0	99
-  327.4	87.77	87
-  327.5	62.59	62
-  327.6	32.34	32
-  327.7	8.48	8
-  327.8	0.0	0
+  326.4 0.26 0
+  326.5 1.93 1
+  326.6 5.68 5
+  326.7 12.27 12
+  326.8 23.17 23
+  326.9 40.01 39
+  327.0 61.78 61
+  327.1 83.29 83
+  327.2 97.72 97
+  327.3 100.0 99
+  327.4 87.77 87
+  327.5 62.59 62
+  327.6 32.34 32
+  327.7 8.48 8
+  327.8 0.0 0
 //

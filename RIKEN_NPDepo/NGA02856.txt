@@ -1,22 +1,33 @@
 ACCESSION: NGA02856
-RECORD_TITLE: physostigmine; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0 ; [M+H]+
+RECORD_TITLE: physostigmine; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
 COMMENT: Formula(Parent): C15H21N3O2
 COMMENT: Bottle Name:Eserine
 COMMENT: PRIME Parent Name:Eserine / Physostigmine
-COMMENT: Synonyms: Physostigmine ; Physostol ; Antilirium ; Esromiotin ; Ezerin ; Calabarine ; Fysostigmin ; ((3aS,8aR)-1,8,3a-trimethylpyrrolidino(2,3-b)indolin-5-yloxy)-N-methylcarboxamide / Eserine ; Antilirium ; Physostol ; Esromiotin ; Cogmine ; Physostol 
 COMMENT: PRIME in-house No.:V0352 0226
 COMMENT: SubCategory_DNP: Alkaloids derived from tryptophan, Simple tryptamine alkaloids, Indole alkaloids
+CH$NAME: Physostigmine
+CH$NAME: Physostol
+CH$NAME: Antilirium
+CH$NAME: Esromiotin
+CH$NAME: Ezerin
+CH$NAME: Calabarine
+CH$NAME: Fysostigmin
+CH$NAME: ((3aS,8aR)-1,8,3a-trimethylpyrrolidino(2,3-b)indolin-5-yloxy)-N-methylcarboxamide / Eserine
+CH$NAME: Cogmine
 CH$NAME: physostigmine
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C15H21N3O2
-CH$EXACT_MASS: 275.35352000000006
+CH$EXACT_MASS: 275.3535
 CH$SMILES: CN=C(O)Oc1ccc2c(c1)[C@]1(C)CCN(C)[C@@H]1N2C
 CH$IUPAC: InChI=1S/C15H21N3O2/c1-15-7-8-17(3)13(15)18(4)12-6-5-10(9-11(12)15)20-14(19)16-2/h5-6,9,13H,7-8H2,1-4H3,(H,16,19)/t13-,15+/m1/s1
 CH$LINK: CAS 57-47-6
-CH$LINK: PUBCHEM CID:4646 5763 580875
+CH$LINK: CHEMSPIDER 4646 5763 580875
+CH$LINK: INCHIKEY PIJVFDBKTWXHHD-HIFRSBDPSA-N
+CH$LINK: COMPTOX DTXSID3023471
+CH$LINK: PUBCHEM CID:5983
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -25,56 +36,56 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-014i-0290000000-e231a5a290a2c8ef5537
 PK$NUM_PEAK: 52
 PK$PEAK: m/z int. rel.int.
-  161.4	1.56	1
-  161.5	3.15	3
-  161.6	5.72	5
-  161.7	9.91	9
-  161.8	16.14	16
-  161.9	23.46	23
-  162.0	29.64	29
-  162.1	32.88	32
-  162.2	33.05	33
-  162.3	30.53	30
-  162.4	24.96	24
-  162.5	16.39	16
-  162.6	7.21	7
-  162.7	0.93	0
-  218.3	0.74	0
-  218.4	3.19	3
-  218.5	8.4	8
-  218.6	16.85	16
-  218.7	29.26	29
-  218.8	46.5	46
-  218.9	67.27	67
-  219.0	86.43	86
-  219.1	98.06	97
-  219.2	100.0	99
-  219.3	93.01	92
-  219.4	76.67	76
-  219.5	51.31	51
-  219.6	23.47	23
-  219.7	3.64	3
-  232.7	1.99	1
-  232.8	3.16	3
-  232.9	4.72	4
-  233.0	6.27	6
-  233.1	7.28	7
-  233.2	7.46	7
-  233.3	6.86	6
-  233.4	5.58	5
-  233.5	3.75	3
-  233.6	1.75	1
-  275.5	1.5	1
-  275.6	3.04	3
-  275.7	5.27	5
-  275.8	8.58	8
-  275.9	13.13	13
-  276.0	18.08	18
-  276.1	21.92	21
-  276.2	23.52	23
-  276.3	22.43	22
-  276.4	18.42	18
-  276.5	12.04	12
-  276.6	5.28	5
-  276.7	0.7	0
+  161.4 1.56 1
+  161.5 3.15 3
+  161.6 5.72 5
+  161.7 9.91 9
+  161.8 16.14 16
+  161.9 23.46 23
+  162.0 29.64 29
+  162.1 32.88 32
+  162.2 33.05 33
+  162.3 30.53 30
+  162.4 24.96 24
+  162.5 16.39 16
+  162.6 7.21 7
+  162.7 0.93 0
+  218.3 0.74 0
+  218.4 3.19 3
+  218.5 8.4 8
+  218.6 16.85 16
+  218.7 29.26 29
+  218.8 46.5 46
+  218.9 67.27 67
+  219.0 86.43 86
+  219.1 98.06 97
+  219.2 100.0 99
+  219.3 93.01 92
+  219.4 76.67 76
+  219.5 51.31 51
+  219.6 23.47 23
+  219.7 3.64 3
+  232.7 1.99 1
+  232.8 3.16 3
+  232.9 4.72 4
+  233.0 6.27 6
+  233.1 7.28 7
+  233.2 7.46 7
+  233.3 6.86 6
+  233.4 5.58 5
+  233.5 3.75 3
+  233.6 1.75 1
+  275.5 1.5 1
+  275.6 3.04 3
+  275.7 5.27 5
+  275.8 8.58 8
+  275.9 13.13 13
+  276.0 18.08 18
+  276.1 21.92 21
+  276.2 23.52 23
+  276.3 22.43 22
+  276.4 18.42 18
+  276.5 12.04 12
+  276.6 5.28 5
+  276.7 0.7 0
 //

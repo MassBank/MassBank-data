@@ -1,5 +1,5 @@
 ACCESSION: NGA02637
-RECORD_TITLE: Vincanidine; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0 ; [M+H]+
+RECORD_TITLE: Vincanidine; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,16 +7,18 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C19H20N2O2
 COMMENT: Bottle Name:Vincanidine
 COMMENT: PRIME Parent Name:Vincanidine
-COMMENT: Synonyms: (11S,17S)-12-ethylidene-6-hydroxy-8,14-diazapentacyclo(9.5.2.0(1,9).0(2,7).0(14,17))octadeca-2(7),3,5,9-tetraene-10-carbaldehyde
 COMMENT: PRIME in-house No.:V0312
 COMMENT: SubCategory_DNP: Monoterpenoid indole alkaloids, Aspidosperma alkaloids, Indole alkaloids
+CH$NAME: (11S,17S)-12-ethylidene-6-hydroxy-8,14-diazapentacyclo(9.5.2.0(1,9).0(2,7).0(14,17))octadeca-2(7),3,5,9-tetraene-10-carbaldehyde
 CH$NAME: Vincanidine
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C19H20N2O2
-CH$EXACT_MASS: 308.38345000000004
+CH$EXACT_MASS: 308.3835
 CH$SMILES: C/C=C1/CN2CC[C@]34C(=C(C=O)[C@H]1C[C@H]23)Nc1c(O)cccc14
 CH$IUPAC: InChI=1S/C19H20N2O2/c1-2-11-9-21-7-6-19-14-4-3-5-15(23)17(14)20-18(19)13(10-22)12(11)8-16(19)21/h2-5,10,12,16,20,23H,6-9H2,1H3/b11-2-/t12-,16-,19+/m0/s1
 CH$LINK: CAS 1630-41-7
+CH$LINK: INCHIKEY JDOFCMASVRMYJU-JYTRXFNOSA-N
+CH$LINK: PUBCHEM CID:11870645
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -25,20 +27,20 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-0a4i-0009000000-71a66e7e667cd67a52d0
 PK$NUM_PEAK: 16
 PK$PEAK: m/z int. rel.int.
-  308.3	0.4	0
-  308.4	2.38	2
-  308.5	6.53	6
-  308.6	12.75	12
-  308.7	21.63	21
-  308.8	35.39	35
-  308.9	55.11	55
-  309.0	76.93	76
-  309.1	93.5	93
-  309.2	100.0	99
-  309.3	95.83	95
-  309.4	80.87	80
-  309.5	55.76	55
-  309.6	26.94	26
-  309.7	5.17	5
-  309.8	0.0	0
+  308.3 0.4 0
+  308.4 2.38 2
+  308.5 6.53 6
+  308.6 12.75 12
+  308.7 21.63 21
+  308.8 35.39 35
+  308.9 55.11 55
+  309.0 76.93 76
+  309.1 93.5 93
+  309.2 100.0 99
+  309.3 95.83 95
+  309.4 80.87 80
+  309.5 55.76 55
+  309.6 26.94 26
+  309.7 5.17 5
+  309.8 0.0 0
 //

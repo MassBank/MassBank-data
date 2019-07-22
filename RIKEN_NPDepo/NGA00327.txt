@@ -1,5 +1,5 @@
 ACCESSION: NGA00327
-RECORD_TITLE: Trachelanthine; LC-ESI-QQQ; MS2; Frag=135.0V CID@10.0 ; [M+H]+
+RECORD_TITLE: Trachelanthine; LC-ESI-QQQ; MS2; Frag=135.0V CID@10.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,17 +7,21 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C15H27NO5
 COMMENT: Bottle Name:Trachelanthine
 COMMENT: PRIME Parent Name:Trachelanthine
-COMMENT: Synonyms: Trachelanthamine oxide ; Trachelanthamine N-oxide ; ((7aS,1R)-4-hydroxyperhydropyrrolizinyl)methyl 2,3-dihydroxy-2-(methylethyl)butanoate
 COMMENT: PRIME in-house No.:V0316
 COMMENT: SubCategory_DNP: Alkaloids derived from ornithine, Pyrrolizidine alkaloids
+CH$NAME: Trachelanthamine oxide
+CH$NAME: Trachelanthamine N-oxide
+CH$NAME: ((7aS,1R)-4-hydroxyperhydropyrrolizinyl)methyl 2,3-dihydroxy-2-(methylethyl)butanoate
 CH$NAME: Trachelanthine
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C15H27NO5
-CH$EXACT_MASS: 301.38614
+CH$EXACT_MASS: 301.3861
 CH$SMILES: CC(C)C(O)(C(=O)OC[C@@H]1CC[N+]2([O-])CCC[C@@H]12)C(C)O
 CH$IUPAC: InChI=1S/C15H27NO5/c1-10(2)15(19,11(3)17)14(18)21-9-12-6-8-16(20)7-4-5-13(12)16/h10-13,17,19H,4-9H2,1-3H3/t11?,12-,13-,15?,16?/m0/s1
 CH$LINK: CAS 510-19-0
-CH$LINK: PUBCHEM CID:10086
+CH$LINK: CHEMSPIDER 10086
+CH$LINK: INCHIKEY DLNWZIVYKQXLTN-IKZJNQNNSA-N
+CH$LINK: PUBCHEM CID:20105825
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -26,28 +30,28 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-0udi-0009000000-b93185eace96aa1ff149
 PK$NUM_PEAK: 24
 PK$PEAK: m/z int. rel.int.
-  157.7	2.32	2
-  157.8	4.1	4
-  157.9	6.18	6
-  158.0	7.87	7
-  158.1	8.68	8
-  158.2	8.59	8
-  158.3	7.72	7
-  158.4	6.03	6
-  158.5	3.64	3
-  301.4	2.17	2
-  301.5	4.11	4
-  301.6	7.36	7
-  301.7	13.87	13
-  301.8	26.7	26
-  301.9	46.99	46
-  302.0	70.84	70
-  302.1	90.62	90
-  302.2	100.0	99
-  302.3	96.95	96
-  302.4	82.16	82
-  302.5	58.09	58
-  302.6	30.76	30
-  302.7	8.93	8
-  302.8	0.0	0
+  157.7 2.32 2
+  157.8 4.1 4
+  157.9 6.18 6
+  158.0 7.87 7
+  158.1 8.68 8
+  158.2 8.59 8
+  158.3 7.72 7
+  158.4 6.03 6
+  158.5 3.64 3
+  301.4 2.17 2
+  301.5 4.11 4
+  301.6 7.36 7
+  301.7 13.87 13
+  301.8 26.7 26
+  301.9 46.99 46
+  302.0 70.84 70
+  302.1 90.62 90
+  302.2 100.0 99
+  302.3 96.95 96
+  302.4 82.16 82
+  302.5 58.09 58
+  302.6 30.76 30
+  302.7 8.93 8
+  302.8 0.0 0
 //

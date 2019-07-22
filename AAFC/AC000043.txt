@@ -5,7 +5,7 @@ AUTHORS: Justin B. Renaud, Mark W. Sumarah, Agriculture and Agri-Food Canada
 LICENSE: CC BY-SA
 COPYRIGHT: Copyright (C) 2017
 PUBLICATION: Renaud, J. B.; Sumarah, M. W. Data Independent Acquisition-Digital Archiving Mass Spectrometry: Application to Single Kernel Mycotoxin Analysis of Fusarium Graminearum Infected Maize. Analytical and Bioanalytical Chemistry 2016, 408 (12), 3083–91. DOI:10.1007/s00216-016-9391-5
-COMMENT: CONFIDENCE commercial standard
+COMMENT: CONFIDENCE Reference Standard (Level 1)
 CH$NAME: Aflatoxin G2
 CH$NAME: (7aR,10aS)-5-Methoxy-3,4,7a,9,10,10a-hexahydro-1H,12H-furo[3',2':4,5]furo[2,3-h]pyrano[3,4-c]chromene-1,12-dione
 CH$COMPOUND_CLASS: Natural Product; Fungal metabolite
@@ -18,7 +18,8 @@ CH$LINK: CAS 7241-98-7
 CH$LINK: PUBCHEM CID:2724362
 CH$LINK: CHEMSPIDER 2006509
 CH$LINK: KNAPSACK C00023619
-AC$INSTRUMENT:  Q-Exactive Orbitrap Thermo Scientific
+CH$LINK: COMPTOX DTXSID80891796
+AC$INSTRUMENT: Q-Exactive Orbitrap Thermo Scientific
 AC$INSTRUMENT_TYPE: LC-ESI-ITFT
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
 AC$MASS_SPECTROMETRY: ION_MODE POSITIVE

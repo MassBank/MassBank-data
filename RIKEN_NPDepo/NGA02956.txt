@@ -1,5 +1,5 @@
 ACCESSION: NGA02956
-RECORD_TITLE: Iso-gamma-fagarine; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0 ; [M+H]+
+RECORD_TITLE: Iso-gamma-fagarine; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,17 +7,20 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C13H11NO3
 COMMENT: Bottle Name:Iso-gamma-fagarine
 COMMENT: PRIME Parent Name:Iso-gamma-fagarine
-COMMENT: Synonyms: 8-methoxy-9-methyl-9-hydrofurano(2,3-b)quinolin-4-one ; 8-methoxy-9-methyl-iso-gamma-fagarine
 COMMENT: PRIME in-house No.:V0305
 COMMENT: SubCategory_DNP: Alkaloids derived from anthranilic acid, Quinoline alkaloids
+CH$NAME: 8-methoxy-9-methyl-9-hydrofurano(2,3-b)quinolin-4-one
+CH$NAME: 8-methoxy-9-methyl-iso-gamma-fagarine
 CH$NAME: Iso-gamma-fagarine
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C13H11NO3
-CH$EXACT_MASS: 229.23752
+CH$EXACT_MASS: 229.2375
 CH$SMILES: COc1cccc2c(=O)c3ccoc3n(C)c12
 CH$IUPAC: InChI=1S/C13H11NO3/c1-14-11-8(4-3-5-10(11)16-2)12(15)9-6-7-17-13(9)14/h3-7H,1-2H3
 CH$LINK: CAS 569-02-8
-CH$LINK: PUBCHEM CID:808960
+CH$LINK: CHEMSPIDER 808960
+CH$LINK: INCHIKEY VNBUMBNLPGLBML-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:927945
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -26,20 +29,20 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-001i-0090000000-d6222cf89bda6f85c25a
 PK$NUM_PEAK: 16
 PK$PEAK: m/z int. rel.int.
-  229.2	0.16	0
-  229.3	1.37	1
-  229.4	4.55	4
-  229.5	10.47	10
-  229.6	20.33	20
-  229.7	35.58	35
-  229.8	55.83	55
-  229.9	76.95	76
-  230.0	92.93	92
-  230.1	100.0	99
-  230.2	97.19	97
-  230.3	83.61	83
-  230.4	59.47	59
-  230.5	30.73	30
-  230.6	7.89	7
-  230.7	0.0	0
+  229.2 0.16 0
+  229.3 1.37 1
+  229.4 4.55 4
+  229.5 10.47 10
+  229.6 20.33 20
+  229.7 35.58 35
+  229.8 55.83 55
+  229.9 76.95 76
+  230.0 92.93 92
+  230.1 100.0 99
+  230.2 97.19 97
+  230.3 83.61 83
+  230.4 59.47 59
+  230.5 30.73 30
+  230.6 7.89 7
+  230.7 0.0 0
 //

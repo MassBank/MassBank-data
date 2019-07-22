@@ -1,5 +1,5 @@
 ACCESSION: NGA03290
-RECORD_TITLE: ononin; LC-ESI-QQQ; MS2; Frag=135.0V CID@15.0 ; [M+H]+
+RECORD_TITLE: ononin; LC-ESI-QQQ; MS2; Frag=135.0V CID@15.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,16 +7,24 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C22H22O9
 COMMENT: Bottle Name:Ononin
 COMMENT: PRIME Parent Name:Formononetin-7-O-glucoside
-COMMENT: Synonyms: Fmnn-7-Glc ; formononetin-7-O-glucoside ; Formononetin-7-O-beta-D-glucopyranoside ; 4'-Methoxyisoflavone-7-O-beta-D-glucopyranoside ; Glucosyl-7-O-formononetin ; calycosin-7-O-beta-D-glucoside 
 COMMENT: PRIME in-house No.:S0305, Pyrans
+CH$NAME: Fmnn-7-Glc
+CH$NAME: formononetin-7-O-glucoside
+CH$NAME: Formononetin-7-O-beta-D-glucopyranoside
+CH$NAME: 4'-Methoxyisoflavone-7-O-beta-D-glucopyranoside
+CH$NAME: Glucosyl-7-O-formononetin
+CH$NAME: calycosin-7-O-beta-D-glucoside
 CH$NAME: ononin
 CH$COMPOUND_CLASS: Flavonoids
 CH$FORMULA: C22H22O9
-CH$EXACT_MASS: 430.41524000000004
+CH$EXACT_MASS: 430.4152
 CH$SMILES: COc1ccc(-c2coc3cc(O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)ccc3c2=O)cc1
 CH$IUPAC: InChI=1S/C22H22O9/c1-28-12-4-2-11(3-5-12)15-10-29-16-8-13(6-7-14(16)18(15)24)30-22-21(27)20(26)19(25)17(9-23)31-22/h2-8,10,17,19-23,25-27H,9H2,1H3/t17-,19-,20+,21-,22-/m1/s1
 CH$LINK: CAS 486-62-4
-CH$LINK: PUBCHEM CID:391135 2963362 21468791
+CH$LINK: CHEMSPIDER 391135 2963362 21468791
+CH$LINK: INCHIKEY MGJLSBDCWOSMHL-MIUGBVLSSA-N
+CH$LINK: COMPTOX DTXSID70964089
+CH$LINK: PUBCHEM CID:442813
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -25,20 +33,20 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-014i-0090000000-822fbbaab9ed7a984e21
 PK$NUM_PEAK: 16
 PK$PEAK: m/z int. rel.int.
-  268.2	0.25	0
-  268.3	1.52	1
-  268.4	4.74	4
-  268.5	10.27	10
-  268.6	18.57	18
-  268.7	31.2	31
-  268.8	49.71	49
-  268.9	72.03	71
-  269.0	91.31	91
-  269.1	100.0	99
-  269.2	94.77	94
-  269.3	77.07	76
-  269.4	51.51	51
-  269.5	25.29	25
-  269.6	6.16	6
-  269.7	0.0	0
+  268.2 0.25 0
+  268.3 1.52 1
+  268.4 4.74 4
+  268.5 10.27 10
+  268.6 18.57 18
+  268.7 31.2 31
+  268.8 49.71 49
+  268.9 72.03 71
+  269.0 91.31 91
+  269.1 100.0 99
+  269.2 94.77 94
+  269.3 77.07 76
+  269.4 51.51 51
+  269.5 25.29 25
+  269.6 6.16 6
+  269.7 0.0 0
 //

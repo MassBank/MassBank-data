@@ -1,5 +1,5 @@
 ACCESSION: NGA02781
-RECORD_TITLE: N-(2-Hydroxyethyl)cytisine; LC-ESI-QQQ; MS2; Frag=135.0V CID@25.0 ; [M+H]+
+RECORD_TITLE: N-(2-Hydroxyethyl)cytisine; LC-ESI-QQQ; MS2; Frag=135.0V CID@25.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,17 +7,21 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C13H18N2O2
 COMMENT: Bottle Name:12-(3-hydroxyethyl)cytisine
 COMMENT: PRIME Parent Name:12-(3-hydroxyethyl)cytisine
-COMMENT: Synonyms: N-(2-Hydroxyethyl)cytisin ; (1S,9R)-11-(2-hydroxyethyl)-7,11-diazatricyclo(7.3.1.0(2,7))trideca-2,4-dien-6-one
 COMMENT: PRIME in-house No.:V0330
 COMMENT: SubCategory_DNP: Alkaloids derived from lysine, More complex lysine-derived alkaloids, Cytisine alkaloids
+CH$NAME: N-(2-Hydroxyethyl)cytisin
+CH$NAME: (1S,9R)-11-(2-hydroxyethyl)-7,11-diazatricyclo(7.3.1.0(2,7))trideca-2,4-dien-6-one
 CH$NAME: N-(2-Hydroxyethyl)cytisine
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C13H18N2O2
-CH$EXACT_MASS: 234.30060999999998
+CH$EXACT_MASS: 234.3006
 CH$SMILES: O=c1cccc2n1CC1CC2CN(CCO)C1
 CH$IUPAC: InChI=1S/C13H18N2O2/c16-5-4-14-7-10-6-11(9-14)12-2-1-3-13(17)15(12)8-10/h1-3,10-11,16H,4-9H2
 CH$LINK: CAS 329221-11-6
-CH$LINK: PUBCHEM CID:3001532
+CH$LINK: CHEMSPIDER 3001532
+CH$LINK: INCHIKEY YACCDFQYQYSQKW-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID70396220
+CH$LINK: PUBCHEM CID:3773003
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -26,31 +30,31 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-000i-9000000000-9c65c3964ceb5fe66d9d
 PK$NUM_PEAK: 27
 PK$PEAK: m/z int. rel.int.
-  87.2	0.28	0
-  87.3	1.54	1
-  87.4	5.32	5
-  87.5	12.05	12
-  87.6	21.59	21
-  87.7	34.75	34
-  87.8	52.52	52
-  87.9	73.02	72
-  88.0	90.63	90
-  88.1	100.0	99
-  88.2	99.03	98
-  88.3	87.21	87
-  88.4	64.67	64
-  88.5	36.06	36
-  88.6	11.31	11
-  88.7	0.0	0
-  234.6	1.65	1
-  234.7	2.64	2
-  234.8	4.0	3
-  234.9	5.84	5
-  235.0	7.83	7
-  235.1	9.32	9
-  235.2	9.88	9
-  235.3	9.4	9
-  235.4	7.87	7
-  235.5	5.37	5
-  235.6	2.57	2
+  87.2 0.28 0
+  87.3 1.54 1
+  87.4 5.32 5
+  87.5 12.05 12
+  87.6 21.59 21
+  87.7 34.75 34
+  87.8 52.52 52
+  87.9 73.02 72
+  88.0 90.63 90
+  88.1 100.0 99
+  88.2 99.03 98
+  88.3 87.21 87
+  88.4 64.67 64
+  88.5 36.06 36
+  88.6 11.31 11
+  88.7 0.0 0
+  234.6 1.65 1
+  234.7 2.64 2
+  234.8 4.0 3
+  234.9 5.84 5
+  235.0 7.83 7
+  235.1 9.32 9
+  235.2 9.88 9
+  235.3 9.4 9
+  235.4 7.87 7
+  235.5 5.37 5
+  235.6 2.57 2
 //

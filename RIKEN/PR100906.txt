@@ -5,42 +5,23 @@ AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
 LICENSE: CC BY-SA
 COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
 CH$NAME: Folic acid
-CH$NAME: PteGlu
-CH$NAME: Folate
-CH$NAME: Vitamin M
-CH$NAME: Pteroyl-L-glutamic acid
-CH$NAME: Foldine
-CH$NAME: Folettes
-CH$NAME: Folicet
-CH$NAME: Folsaure
-CH$NAME: Folsav
-CH$NAME: Millafol
-CH$NAME: Acifolic
-CH$NAME: Cytofol
-CH$NAME: Folacid
-CH$NAME: Folacin
-CH$NAME: Folbal
-CH$NAME: Folcidin
-CH$NAME: Foliamin
-CH$NAME: Folipac
-CH$NAME: Folsan
-CH$NAME: Folvite
-CH$NAME: Incafolic
-CH$NAME: Mittafol
+CH$NAME: (2S)-2-[[4-[(2-amino-4-oxo-1H-pteridin-6-yl)methylamino]benzoyl]amino]pentanedioic acid
 CH$NAME: Vitamin B11
-CH$NAME: Vitamin Bc
-CH$NAME: Vitamin Be
+CH$NAME: Vitamin B9
+CH$NAME: Vitamin M
 CH$COMPOUND_CLASS: Amino acids
 CH$FORMULA: C19H19N7O6
-CH$EXACT_MASS: 441.13968
-CH$SMILES: OC(=O)CC[C@@H](C(O)=O)NC(=O)c(c1)ccc(NCc(c3)nc(C(=O)2)c(n3)N=C(N)N2)c1
+CH$EXACT_MASS: 441.139681
+CH$SMILES: C1=CC(=CC=C1C(=O)N[C@@H](CCC(=O)O)C(=O)O)NCC2=CN=C3C(=N2)C(=O)NC(=N3)N
 CH$IUPAC: InChI=1S/C19H19N7O6/c20-19-25-15-14(17(30)26-19)23-11(8-22-15)7-21-10-3-1-9(2-4-10)16(29)24-12(18(31)32)5-6-13(27)28/h1-4,8,12,21H,5-7H2,(H,24,29)(H,27,28)(H,31,32)(H3,20,22,25,26,30)/t12-/m0/s1
 CH$LINK: CAS 59-30-3
+CH$LINK: CHEBI 27470
 CH$LINK: CHEMSPIDER 5815
+CH$LINK: COMPTOX DTXSID0022519
+CH$LINK: INCHIKEY OVBPIULPVIDEAO-LBPRGKRZSA-N
 CH$LINK: KEGG C00504
 CH$LINK: KNAPSACK C00001539
-CH$LINK: PUBCHEM CID:6037
-CH$LINK: INCHIKEY OVBPIULPVIDEAO-LBPRGKRZSA-N
+CH$LINK: PUBCHEM CID:135398658
 AC$INSTRUMENT: UPLC Q-Tof Premier, Waters
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

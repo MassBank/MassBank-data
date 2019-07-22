@@ -1,21 +1,32 @@
 ACCESSION: NGA00097
-RECORD_TITLE: Inosine; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0 ; [M+H]+
+RECORD_TITLE: Inosine; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
 COMMENT: Formula(Parent): C10H12N4O5
 COMMENT: Bottle Name:Inosine
 COMMENT: PRIME Parent Name:Inosine
-COMMENT: Synonyms: INO ; (-)-Inosine ; beta-Inosine ; Hypoxanthine 9-beta-D-ribofuranoside ; 9-beta-D-ribofuranosylhypoxanthine ; Hypoxanthine ribonucleoside ; Oxiamin ; Ribonosine ; Trophicardyl
 COMMENT: PRIME in-house No.:0256, Purines
+CH$NAME: INO
+CH$NAME: (-)-Inosine
+CH$NAME: beta-Inosine
+CH$NAME: Hypoxanthine 9-beta-D-ribofuranoside
+CH$NAME: 9-beta-D-ribofuranosylhypoxanthine
+CH$NAME: Hypoxanthine ribonucleoside
+CH$NAME: Oxiamin
+CH$NAME: Ribonosine
+CH$NAME: Trophicardyl
 CH$NAME: Inosine
 CH$COMPOUND_CLASS: Carbohydrates
 CH$FORMULA: C10H12N4O5
-CH$EXACT_MASS: 268.23094000000003
+CH$EXACT_MASS: 268.2309
 CH$SMILES: OC[C@H]1O[C@@H](n2cnc3c(O)ncnc32)[C@H](O)[C@@H]1O
 CH$IUPAC: InChI=1S/C10H12N4O5/c15-1-4-6(16)7(17)10(19-4)14-3-13-5-8(14)11-2-12-9(5)18/h2-4,6-7,10,15-17H,1H2,(H,11,12,18)/t4-,6-,7-,10-/m1/s1
 CH$LINK: CAS 58-63-9
-CH$LINK: PUBCHEM CID:5799
+CH$LINK: CHEMSPIDER 5799
+CH$LINK: INCHIKEY UGQMRVRMYYASKQ-KQYNXXCUSA-N
+CH$LINK: COMPTOX DTXSID2045993
+CH$LINK: PUBCHEM CID:135398641
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -24,28 +35,28 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-000i-0900000000-f6afbeab5ace79fea344
 PK$NUM_PEAK: 24
 PK$PEAK: m/z int. rel.int.
-  136.2	1.89	1
-  136.3	4.82	4
-  136.4	8.63	8
-  136.5	13.44	13
-  136.6	22.32	22
-  136.7	38.96	38
-  136.8	62.08	62
-  136.9	83.99	83
-  137.0	97.03	96
-  137.1	100.0	99
-  137.2	95.54	95
-  137.3	83.21	83
-  137.4	60.76	60
-  137.5	32.25	32
-  137.6	8.61	8
-  137.7	0.16	0
-  268.8	5.22	5
-  268.9	6.59	6
-  269.0	8.68	8
-  269.1	11.07	11
-  269.2	11.75	11
-  269.3	9.19	9
-  269.4	4.62	4
-  269.5	0.97	0
+  136.2 1.89 1
+  136.3 4.82 4
+  136.4 8.63 8
+  136.5 13.44 13
+  136.6 22.32 22
+  136.7 38.96 38
+  136.8 62.08 62
+  136.9 83.99 83
+  137.0 97.03 96
+  137.1 100.0 99
+  137.2 95.54 95
+  137.3 83.21 83
+  137.4 60.76 60
+  137.5 32.25 32
+  137.6 8.61 8
+  137.7 0.16 0
+  268.8 5.22 5
+  268.9 6.59 6
+  269.0 8.68 8
+  269.1 11.07 11
+  269.2 11.75 11
+  269.3 9.19 9
+  269.4 4.62 4
+  269.5 0.97 0
 //

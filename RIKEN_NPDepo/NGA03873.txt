@@ -1,5 +1,5 @@
 ACCESSION: NGA03873
-RECORD_TITLE: 3-Isoreserpine; LC-ESI-QQQ; MS2;  Frag=135.0V CID@5.0 ; [M+HCOO]-
+RECORD_TITLE: 3-Isoreserpine; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0; [M+HCOO]-
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,17 +7,22 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C33H40N2O9
 COMMENT: Bottle Name:Isoreserpin
 COMMENT: PRIME Parent Name:Isoreserpin
-COMMENT: Synonyms: 3-Epireserpine ; 3-Isoreserpine ; Mepireserpate ; (1S,13bS,14aS,4aS,2R,3R)-2,11-dimethoxy-1-(methoxycarbonyl)-1,2,3,4,5,8,14,13b,14a,4a-decahydrobenzo(3,4-g)indolo(2,3-a)quinolizin-3-yl 3,4,5-trimethoxybenzoate
 COMMENT: PRIME in-house No.:V0338
 COMMENT: SubCategory_DNP: Monoterpenoid indole alkaloids, Yohimbinoid alkaloids, Indole alkaloids
+CH$NAME: 3-Epireserpine
 CH$NAME: 3-Isoreserpine
+CH$NAME: Mepireserpate
+CH$NAME: (1S,13bS,14aS,4aS,2R,3R)-2,11-dimethoxy-1-(methoxycarbonyl)-1,2,3,4,5,8,14,13b,14a,4a-decahydrobenzo(3,4-g)indolo(2,3-a)quinolizin-3-yl 3,4,5-trimethoxybenzoate
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C33H40N2O9
-CH$EXACT_MASS: 608.69475
+CH$EXACT_MASS: 608.6947
 CH$SMILES: COC(=O)[C@H]1[C@H]2C[C@H]3c4[nH]c5cc(OC)ccc5c4CCN3C[C@H]2C[C@@H](OC(=O)c2cc(OC)c(OC)c(OC)c2)[C@@H]1OC
 CH$IUPAC: InChI=1S/C33H40N2O9/c1-38-19-7-8-20-21-9-10-35-16-18-13-27(44-32(36)17-11-25(39-2)30(41-4)26(12-17)40-3)31(42-5)28(33(37)43-6)22(18)15-24(35)29(21)34-23(20)14-19/h7-8,11-12,14,18,22,24,27-28,31,34H,9-10,13,15-16H2,1-6H3/t18-,22+,24+,27-,28+,31+/m1/s1
 CH$LINK: CAS 482-85-9
-CH$LINK: PUBCHEM CID:4642389
+CH$LINK: CHEMSPIDER 4642389
+CH$LINK: INCHIKEY QEVHRUUCFGRFIF-VPHNHGCZSA-N
+CH$LINK: COMPTOX DTXSID50858952
+CH$LINK: PUBCHEM CID:5701996
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -26,20 +31,20 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+HCOO]-
 PK$SPLASH: splash10-0a4i-0000009000-c418fba5d192cd2c1be5
 PK$NUM_PEAK: 16
 PK$PEAK: m/z int. rel.int.
-  606.3	0.31	0
-  606.4	2.42	2
-  606.5	8.28	8
-  606.6	17.55	17
-  606.7	30.97	30
-  606.8	49.77	49
-  606.9	72.41	72
-  607.0	91.96	91
-  607.1	100.0	99
-  607.2	95.51	95
-  607.3	86.52	86
-  607.4	78.79	78
-  607.5	67.15	67
-  607.6	45.02	44
-  607.7	18.13	18
-  607.8	0.78	0
+  606.3 0.31 0
+  606.4 2.42 2
+  606.5 8.28 8
+  606.6 17.55 17
+  606.7 30.97 30
+  606.8 49.77 49
+  606.9 72.41 72
+  607.0 91.96 91
+  607.1 100.0 99
+  607.2 95.51 95
+  607.3 86.52 86
+  607.4 78.79 78
+  607.5 67.15 67
+  607.6 45.02 44
+  607.7 18.13 18
+  607.8 0.78 0
 //

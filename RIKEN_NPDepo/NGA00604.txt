@@ -1,5 +1,5 @@
 ACCESSION: NGA00604
-RECORD_TITLE: Guan-fu base Y; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0 ; [M+H]+
+RECORD_TITLE: Guan-fu base Y; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,17 +7,20 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C22H29NO5
 COMMENT: Bottle Name:Guan-fu base Y
 COMMENT: PRIME Parent Name:Guan-fu base Y
-COMMENT: Synonyms: Guanfu base Y ; 11,13,14-trihydroxyhetisan-2-yl acetate ; (1S,3S,16S,19S,10R,14R)-9,10,19-trihydroxy-5-methyl-12-methylene-7-azaheptacyclo(9.6.2.0(1,8).0(5,17).0(7,16).0(9,14).0(14,18))nonadec-3-yl acetate
 COMMENT: PRIME in-house No.:V0331
 COMMENT: SubCategory_DNP: Terpenoid alkaloids, Diterpene alkaloid, Aconitum alkaloid
+CH$NAME: Guanfu base Y
+CH$NAME: 11,13,14-trihydroxyhetisan-2-yl acetate
+CH$NAME: (1S,3S,16S,19S,10R,14R)-9,10,19-trihydroxy-5-methyl-12-methylene-7-azaheptacyclo(9.6.2.0(1,8).0(5,17).0(7,16).0(9,14).0(14,18))nonadec-3-yl acetate
 CH$NAME: Guan-fu base Y
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C22H29NO5
-CH$EXACT_MASS: 387.4801300000001
+CH$EXACT_MASS: 387.4801
 CH$SMILES: C=C1C[C@@]23CC4C5C6(C)C[C@H](OC(C)=O)CC57C2[C@H](O)C1[C@@H](O)[C@]3(O)[C@H]7N4C6
 CH$IUPAC: InChI=1S/C22H29NO5/c1-9-4-20-7-12-15-19(3)5-11(28-10(2)24)6-21(15)16(20)14(25)13(9)17(26)22(20,27)18(21)23(12)8-19/h11-18,25-27H,1,4-8H2,2-3H3/t11-,12?,13?,14+,15?,16?,17+,18-,19?,20+,21?,22-/m0/s1
 CH$LINK: CAS 110225-59-7
-CH$LINK: PUBCHEM CID:20181446
+CH$LINK: CHEMSPIDER 20181446
+CH$LINK: INCHIKEY XGTNTUKODZZCGL-FDLOETHHSA-N
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -26,20 +29,20 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-000i-0009000000-2ed2bbbf731a7c32c3cf
 PK$NUM_PEAK: 16
 PK$PEAK: m/z int. rel.int.
-  387.3	1.08	1
-  387.4	2.63	2
-  387.5	5.01	5
-  387.6	8.62	8
-  387.7	15.45	15
-  387.8	28.38	28
-  387.9	48.01	47
-  388.0	70.46	70
-  388.1	89.4	89
-  388.2	100.0	99
-  388.3	99.92	99
-  388.4	87.93	87
-  388.5	64.78	64
-  388.6	36.28	36
-  388.7	12.18	12
-  388.8	0.36	0
+  387.3 1.08 1
+  387.4 2.63 2
+  387.5 5.01 5
+  387.6 8.62 8
+  387.7 15.45 15
+  387.8 28.38 28
+  387.9 48.01 47
+  388.0 70.46 70
+  388.1 89.4 89
+  388.2 100.0 99
+  388.3 99.92 99
+  388.4 87.93 87
+  388.5 64.78 64
+  388.6 36.28 36
+  388.7 12.18 12
+  388.8 0.36 0
 //

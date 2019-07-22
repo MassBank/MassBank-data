@@ -1,5 +1,5 @@
 ACCESSION: NGA00301
-RECORD_TITLE: Vincanidine; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0 ; [M+H]+
+RECORD_TITLE: Vincanidine; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,16 +7,17 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C19H20N2O2
 COMMENT: Bottle Name:Vincanidine
 COMMENT: PRIME Parent Name:Vincanidine
-COMMENT: Synonyms: (11S,17S)-12-ethylidene-6-hydroxy-8,14-diazapentacyclo(9.5.2.0(1,9).0(2,7).0(14,17))octadeca-2(7),3,5,9-tetraene-10-carbaldehyde
 COMMENT: PRIME in-house No.:V0312
 COMMENT: SubCategory_DNP: Monoterpenoid indole alkaloids, Aspidosperma alkaloids, Indole alkaloids
+CH$NAME: (11S,17S)-12-ethylidene-6-hydroxy-8,14-diazapentacyclo(9.5.2.0(1,9).0(2,7).0(14,17))octadeca-2(7),3,5,9-tetraene-10-carbaldehyde
 CH$NAME: Vincanidine
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C19H20N2O2
-CH$EXACT_MASS: 308.38345000000004
+CH$EXACT_MASS: 308.3835
 CH$SMILES: C/C=C1/CN2CCC34C(=C(C=O)[C@H]1C[C@H]23)Nc1c(O)cccc14
 CH$IUPAC: InChI=1S/C19H20N2O2/c1-2-11-9-21-7-6-19-14-4-3-5-15(23)17(14)20-18(19)13(10-22)12(11)8-16(19)21/h2-5,10,12,16,20,23H,6-9H2,1H3/b11-2-/t12-,16-,19?/m0/s1
 CH$LINK: CAS 1630-41-7
+CH$LINK: INCHIKEY JDOFCMASVRMYJU-PCKYSSEZSA-N
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -25,19 +26,19 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-0a4i-0009000000-7fe432a814cc85e9b084
 PK$NUM_PEAK: 15
 PK$PEAK: m/z int. rel.int.
-  308.3	1.06	1
-  308.4	2.83	2
-  308.5	5.49	5
-  308.6	9.13	9
-  308.7	15.79	15
-  308.8	29.07	29
-  308.9	50.08	50
-  309.0	74.1	74
-  309.1	92.89	92
-  309.2	100.0	99
-  309.3	93.08	92
-  309.4	73.24	73
-  309.5	45.54	45
-  309.6	19.02	19
-  309.7	2.06	2
+  308.3 1.06 1
+  308.4 2.83 2
+  308.5 5.49 5
+  308.6 9.13 9
+  308.7 15.79 15
+  308.8 29.07 29
+  308.9 50.08 50
+  309.0 74.1 74
+  309.1 92.89 92
+  309.2 100.0 99
+  309.3 93.08 92
+  309.4 73.24 73
+  309.5 45.54 45
+  309.6 19.02 19
+  309.7 2.06 2
 //

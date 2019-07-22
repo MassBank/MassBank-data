@@ -5,16 +5,19 @@ AUTHORS: Tsujimoto Y, Tsugawa H, Bamba T, Fukusaki E, engineering department, Os
 LICENSE: CC BY-SA
 COMMENT: The chemical compound was chemically modified with N-methyl-N-trimethylsilyl-trifluoroacetamide (MSTFA) before GC-MS analysis. When it has two or more functional groups, this modification gave a mixture of the TMS derivatives having different number of TMS groups at different functional groups.
 CH$NAME: L-Rhamnose
+CH$NAME: (2R,3R,4S,5S)-2,3,4,5-tetrahydroxyhexanal
 CH$COMPOUND_CLASS: Natural Product
 CH$FORMULA: C6H12O5
-CH$EXACT_MASS: 164.06847
-CH$SMILES: O=CC(O)C(O)C(O)C(C)O
+CH$EXACT_MASS: 164.06848
+CH$SMILES: C[C@@H]([C@@H]([C@H]([C@H](C=O)O)O)O)O
 CH$IUPAC: InChI=1S/C6H12O5/c1-3(8)5(10)6(11)4(9)2-7/h2-6,8-11H,1H3/t3-,4-,5-,6-/m0/s1
-CH$LINK: CAS 10485-94-6
+CH$LINK: CAS 3615-41-6
 CH$LINK: CHEBI 16055
 CH$LINK: CHEMSPIDER 18150
-CH$LINK: PUBCHEM 19233
+CH$LINK: COMPTOX DTXSID7042647
 CH$LINK: INCHIKEY PNNNRSAQSRJVSB-BXKVDMCESA-N
+CH$LINK: KEGG C01684
+CH$LINK: PUBCHEM CID:19233
 AC$INSTRUMENT: Pegasus III TOF-MS system, Leco; GC 6890, Agilent Technologies
 AC$INSTRUMENT_TYPE: GC-EI-TOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS

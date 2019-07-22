@@ -1,5 +1,5 @@
 ACCESSION: NGA00121
-RECORD_TITLE: Isomajdine; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0 ; [M+H]+
+RECORD_TITLE: Isomajdine; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,16 +7,18 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C23H28N2O6
 COMMENT: Bottle Name:Isomajdine
 COMMENT: PRIME Parent Name:Isomajdine
-COMMENT: Synonyms: methyl (10S,15S,16S,18S,22S)-6,7-dimethoxy-22-methyl-2-oxo-21-oxa-12-azaspiro(indoline-3,6'-tricyclo(7.4.0.0(3,7))tridecane)-19-ene-19-carboxylate
 COMMENT: PRIME in-house No.:V0302
 COMMENT: SubCategory_DNP: Alkaloids derived from tryptophan, Secologanin typtamine alkaloids, Indole alkaloids
+CH$NAME: methyl (10S,15S,16S,18S,22S)-6,7-dimethoxy-22-methyl-2-oxo-21-oxa-12-azaspiro(indoline-3,6'-tricyclo(7.4.0.0(3,7))tridecane)-19-ene-19-carboxylate
 CH$NAME: Isomajdine
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C23H28N2O6
-CH$EXACT_MASS: 428.48941
+CH$EXACT_MASS: 428.4894
 CH$SMILES: COC(=O)C1=CO[C@@H](C)[C@@H]2CN3CC[C@@]4(C(O)=Nc5c4ccc(OC)c5OC)[C@@H]3C[C@H]12
 CH$IUPAC: InChI=1S/C23H28N2O6/c1-12-14-10-25-8-7-23(18(25)9-13(14)15(11-31-12)21(26)30-4)16-5-6-17(28-2)20(29-3)19(16)24-22(23)27/h5-6,11-14,18H,7-10H2,1-4H3,(H,24,27)/t12-,13-,14-,18-,23-/m0/s1
 CH$LINK: CAS 20497-41-0
+CH$LINK: INCHIKEY TTZWEOINXHJHCY-AYEVVIACSA-N
+CH$LINK: PUBCHEM CID:12309438
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -25,20 +27,20 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-004i-0000900000-97eb82806a9411d7b408
 PK$NUM_PEAK: 16
 PK$PEAK: m/z int. rel.int.
-  428.3	1.54	1
-  428.4	3.46	3
-  428.5	6.08	6
-  428.6	10.18	10
-  428.7	18.44	18
-  428.8	33.79	33
-  428.9	55.43	55
-  429.0	77.65	77
-  429.1	93.68	93
-  429.2	100.0	99
-  429.3	95.99	95
-  429.4	81.29	81
-  429.5	57.04	56
-  429.6	29.42	29
-  429.7	7.86	7
-  429.8	0.0	0
+  428.3 1.54 1
+  428.4 3.46 3
+  428.5 6.08 6
+  428.6 10.18 10
+  428.7 18.44 18
+  428.8 33.79 33
+  428.9 55.43 55
+  429.0 77.65 77
+  429.1 93.68 93
+  429.2 100.0 99
+  429.3 95.99 95
+  429.4 81.29 81
+  429.5 57.04 56
+  429.6 29.42 29
+  429.7 7.86 7
+  429.8 0.0 0
 //

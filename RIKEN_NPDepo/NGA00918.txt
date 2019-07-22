@@ -1,5 +1,5 @@
 ACCESSION: NGA00918
-RECORD_TITLE: Pseudokopsinine; LC-ESI-QQQ; MS2; Frag=135.0V CID@15.0 ; [M+H]+
+RECORD_TITLE: Pseudokopsinine; LC-ESI-QQQ; MS2; Frag=135.0V CID@15.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,16 +7,17 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C21H26N2O2
 COMMENT: Bottle Name:Pseudocopsinine
 COMMENT: PRIME Parent Name:Pseudocopsinine
-COMMENT: Synonyms: methyl (4S,19S,1R,20R)-20-methyl-5,15-diazahexacyclo(10.6.1.1(1,4).0(4,12).0(6,11).0(5,19))icosa-6(11),7,9-triene-3-carboxylate
 COMMENT: PRIME in-house No.:V0356
 COMMENT: SubCategory_DNP: Monoterpenoid indole alkaloids, Aspidosperma alkaloids, Indole alkaloids
+CH$NAME: methyl (4S,19S,1R,20R)-20-methyl-5,15-diazahexacyclo(10.6.1.1(1,4).0(4,12).0(6,11).0(5,19))icosa-6(11),7,9-triene-3-carboxylate
 CH$NAME: Pseudokopsinine
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C21H26N2O2
-CH$EXACT_MASS: 338.45357
+CH$EXACT_MASS: 338.4536
 CH$SMILES: COC(=O)C1C[C@]23CCCN4CCC5(c6ccccc6N[C@@]15C2C)[C@@H]43
 CH$IUPAC: InChI=1S/C21H26N2O2/c1-13-19-8-5-10-23-11-9-20(18(19)23)14-6-3-4-7-16(14)22-21(13,20)15(12-19)17(24)25-2/h3-4,6-7,13,15,18,22H,5,8-12H2,1-2H3/t13?,15?,18-,19+,20?,21-/m0/s1
 CH$LINK: CAS 17172-16-6
+CH$LINK: INCHIKEY CZLWGXKWXLVFJU-ZTNIHGJBSA-N
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -25,19 +26,19 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-000i-0009000000-db1ec0b705d950f3c25a
 PK$NUM_PEAK: 15
 PK$PEAK: m/z int. rel.int.
-  338.4	1.21	1
-  338.5	3.4	3
-  338.6	6.74	6
-  338.7	12.36	12
-  338.8	23.01	22
-  338.9	40.69	40
-  339.0	63.24	63
-  339.1	84.61	84
-  339.2	98.41	98
-  339.3	100.0	99
-  339.4	86.68	86
-  339.5	60.16	60
-  339.6	29.37	29
-  339.7	6.3	6
-  339.8	0.0	0
+  338.4 1.21 1
+  338.5 3.4 3
+  338.6 6.74 6
+  338.7 12.36 12
+  338.8 23.01 22
+  338.9 40.69 40
+  339.0 63.24 63
+  339.1 84.61 84
+  339.2 98.41 98
+  339.3 100.0 99
+  339.4 86.68 86
+  339.5 60.16 60
+  339.6 29.37 29
+  339.7 6.3 6
+  339.8 0.0 0
 //

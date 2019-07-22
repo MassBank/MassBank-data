@@ -5,7 +5,7 @@ AUTHORS: Justin B. Renaud, Mark W. Sumarah, Agriculture and Agri-Food Canada
 LICENSE: CC BY-SA
 COPYRIGHT: Copyright (C) 2017
 PUBLICATION: Renaud, J. B.; Kelman, M. J.; McMullin, D. R.; Yeung, K. K.-C.; Sumarah, M. W. Application of C8 Liquid Chromatography-Tandem Mass Spectrometry for the Analysis of Enniatins and Bassianolides. Journal of Chromatography A 2017, 1508, 65–72. DOI:10.1016/j.chroma.2017.05.070
-COMMENT: CONFIDENCE commercial standard
+COMMENT: CONFIDENCE Reference Standard (Level 1)
 CH$NAME: Bassanolide
 CH$NAME: (3S,6R,9S,12R,15S,18R,21S,24R)-4,10,16,22-tetramethyl-3,9,15,21-tetrakis(2-methylpropyl)-6,12,18,24-tetra(propan-2-yl)-1,7,13,19-tetraoxa-4,10,16,22-tetrazacyclotetracosane-2,5,8,11,14,17,20,23-octone
 CH$COMPOUND_CLASS: Natural Product; Fungal metabolite
@@ -17,7 +17,8 @@ CH$LINK: INCHIKEY QVZZPLDJERFENQ-NKTUOASPSA-N
 CH$LINK: CAS 64763-82-2
 CH$LINK: PUBCHEM CID:89254632
 CH$LINK: CHEMSPIDER 52084768
-AC$INSTRUMENT:  Q-Exactive Orbitrap Thermo Scientific
+CH$LINK: COMPTOX DTXSID40891833
+AC$INSTRUMENT: Q-Exactive Orbitrap Thermo Scientific
 AC$INSTRUMENT_TYPE: LC-ESI-ITFT
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
 AC$MASS_SPECTROMETRY: ION_MODE POSITIVE

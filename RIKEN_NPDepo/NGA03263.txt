@@ -1,5 +1,5 @@
 ACCESSION: NGA03263
-RECORD_TITLE: laudanosine; LC-ESI-QQQ; MS2; Frag=135.0V CID@10.0 ; [M+H]+
+RECORD_TITLE: laudanosine; LC-ESI-QQQ; MS2; Frag=135.0V CID@10.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,17 +7,22 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C21H27NO4
 COMMENT: Bottle Name:Laudanosine
 COMMENT: PRIME Parent Name:Laudanosine
-COMMENT: Synonyms: Laudanoside ; N-Methyltetrahydropapaverine ; 6,7-Dimethoxy-2-methyl-1-veratryl-1,2,3,4-tetrahydroisoquinoline ; 1-((3,4-dimethoxyphenyl)methyl)-6,7-dimethoxy-2-methyl-1,2,3,4-tetrahydroisoquinoline
 COMMENT: PRIME in-house No.:V0357
 COMMENT: SubCategory_DNP: Isoquinoline alkaloids, Morphine alkaloids
+CH$NAME: Laudanoside
+CH$NAME: N-Methyltetrahydropapaverine
+CH$NAME: 6,7-Dimethoxy-2-methyl-1-veratryl-1,2,3,4-tetrahydroisoquinoline
+CH$NAME: 1-((3,4-dimethoxyphenyl)methyl)-6,7-dimethoxy-2-methyl-1,2,3,4-tetrahydroisoquinoline
 CH$NAME: laudanosine
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C21H27NO4
-CH$EXACT_MASS: 357.45364
+CH$EXACT_MASS: 357.4536
 CH$SMILES: COc1ccc(CC2c3cc(OC)c(OC)cc3CCN2C)cc1OC
 CH$IUPAC: InChI=1S/C21H27NO4/c1-22-9-8-15-12-20(25-4)21(26-5)13-16(15)17(22)10-14-6-7-18(23-2)19(11-14)24-3/h6-7,11-13,17H,8-10H2,1-5H3
 CH$LINK: CAS 2688-77-9
-CH$LINK: PUBCHEM CID:66114
+CH$LINK: CHEMSPIDER 66114
+CH$LINK: INCHIKEY KGPAYJZAMGEDIQ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:15548
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -26,51 +31,51 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-0a4i-0089000000-b0a6f396c088787cda59
 PK$NUM_PEAK: 47
 PK$PEAK: m/z int. rel.int.
-  188.7	1.78	1
-  188.8	2.91	2
-  188.9	4.19	4
-  189.0	5.32	5
-  189.1	5.96	5
-  189.2	5.93	5
-  189.3	5.19	5
-  189.4	3.86	3
-  189.5	2.23	2
-  205.3	0.53	0
-  205.4	2.44	2
-  205.5	6.48	6
-  205.6	13.7	13
-  205.7	25.5	25
-  205.8	42.23	42
-  205.9	61.34	61
-  206.0	77.8	77
-  206.1	87.53	87
-  206.2	89.49	89
-  206.3	83.55	83
-  206.4	68.41	68
-  206.5	44.94	44
-  206.6	20.03	20
-  206.7	2.82	2
-  326.8	2.44	2
-  326.9	3.56	3
-  327.0	4.7	4
-  327.1	5.6	5
-  327.2	6.05	6
-  327.3	5.86	5
-  327.4	4.86	4
-  327.5	3.15	3
-  357.4	1.15	1
-  357.5	3.68	3
-  357.6	8.3	8
-  357.7	16.12	16
-  357.8	28.52	28
-  357.9	45.75	45
-  358.0	65.67	65
-  358.1	84.23	84
-  358.2	97.11	97
-  358.3	100.0	99
-  358.4	88.84	88
-  358.5	63.56	63
-  358.6	32.35	32
-  358.7	7.8	7
-  358.8	0.0	0
+  188.7 1.78 1
+  188.8 2.91 2
+  188.9 4.19 4
+  189.0 5.32 5
+  189.1 5.96 5
+  189.2 5.93 5
+  189.3 5.19 5
+  189.4 3.86 3
+  189.5 2.23 2
+  205.3 0.53 0
+  205.4 2.44 2
+  205.5 6.48 6
+  205.6 13.7 13
+  205.7 25.5 25
+  205.8 42.23 42
+  205.9 61.34 61
+  206.0 77.8 77
+  206.1 87.53 87
+  206.2 89.49 89
+  206.3 83.55 83
+  206.4 68.41 68
+  206.5 44.94 44
+  206.6 20.03 20
+  206.7 2.82 2
+  326.8 2.44 2
+  326.9 3.56 3
+  327.0 4.7 4
+  327.1 5.6 5
+  327.2 6.05 6
+  327.3 5.86 5
+  327.4 4.86 4
+  327.5 3.15 3
+  357.4 1.15 1
+  357.5 3.68 3
+  357.6 8.3 8
+  357.7 16.12 16
+  357.8 28.52 28
+  357.9 45.75 45
+  358.0 65.67 65
+  358.1 84.23 84
+  358.2 97.11 97
+  358.3 100.0 99
+  358.4 88.84 88
+  358.5 63.56 63
+  358.6 32.35 32
+  358.7 7.8 7
+  358.8 0.0 0
 //

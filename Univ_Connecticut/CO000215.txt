@@ -4,14 +4,18 @@ DATE: 2016.01.19 (Created 2008.07.15, modified 2012.11.20)
 AUTHORS: Dennis W. Hill, Tzipporah M. Kertesz, Robert Friedman, David F. Grant
 LICENSE: CC BY-SA
 PUBLICATION: Mass Spectral Metabonomics beyond Elemental Formula: Chemical Database Querying by Matching Experimental with Computational Fragmentation Spectra, http://pubs.acs.org/doi/abs/10.1021/ac800548g
-CH$NAME: Gingerol
+CH$NAME: 6-Gingerol
+CH$NAME: (5S)-5-Hydroxy-1-(4-hydroxy-3-methoxyphenyl)-3-decanone
 CH$COMPOUND_CLASS: N/A
 CH$FORMULA: C17H26O4
 CH$EXACT_MASS: 294.18311
-CH$SMILES: [H]Oc(c([H])1)c(OC([H])([H])[H])c([H])c(c([H])1)C([H])([H])C([H])([H])C(=O)C([H])([H])C([H])(O[H])C([H])([H])C([H])([H])C([H])([H])C([H])([H])C([H])([H])[H]
-CH$IUPAC: InChI=1S/C17H26O4/c1-3-4-5-6-14(18)12-15(19)9-7-13-8-10-16(20)17(11-13)21-2/h8,10-11,14,18,20H,3-7,9,12H2,1-2H3
-CH$LINK: PUBCHEM CID:3473
-CH$LINK: INCHIKEY NLDDIKRKFXEWBK-UHFFFAOYSA-N
+CH$SMILES: CCCCC[C@@H](CC(=O)CCC1=CC(=C(C=C1)O)OC)O
+CH$IUPAC: InChI=1S/C17H26O4/c1-3-4-5-6-14(18)12-15(19)9-7-13-8-10-16(20)17(11-13)21-2/h8,10-11,14,18,20H,3-7,9,12H2,1-2H3/t14-/m0/s1
+CH$LINK: CAS 23513-14-6
+CH$LINK: COMPTOX DTXSID3041035
+CH$LINK: INCHIKEY NLDDIKRKFXEWBK-AWEZNQCLSA-N
+CH$LINK: NIKKAJI J46.683B
+CH$LINK: PUBCHEM CID:442793
 AC$INSTRUMENT: Micromass Q-TOF II
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

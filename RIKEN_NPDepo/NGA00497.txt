@@ -1,5 +1,5 @@
 ACCESSION: NGA00497
-RECORD_TITLE: Cinchonine; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0 ; [M+H]+
+RECORD_TITLE: Cinchonine; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,17 +7,21 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C19H22N2O
 COMMENT: Bottle Name:Cinchonine
 COMMENT: PRIME Parent Name:Cinchonine
-COMMENT: Synonyms: (1R)((5R)-5-vinylquinuclidin-2-yl)-4-quinolylmethan-1-ol ; Cinchonan-9-ol ; alpha-4-Quinolyl(5-vinyl-1-azabicyclo(2.2.2)oct-2-yl)methanol
 COMMENT: PRIME in-house No.:V0325
 COMMENT: SubCategory_DNP: Alkaloids derived from anthranilic acid, Quinoline alkaloids
+CH$NAME: (1R)((5R)-5-vinylquinuclidin-2-yl)-4-quinolylmethan-1-ol
+CH$NAME: Cinchonan-9-ol
+CH$NAME: alpha-4-Quinolyl(5-vinyl-1-azabicyclo(2.2.2)oct-2-yl)methanol
 CH$NAME: Cinchonine
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C19H22N2O
-CH$EXACT_MASS: 294.39999
+CH$EXACT_MASS: 294.4
 CH$SMILES: C=C[C@H]1CN2CCC1CC2[C@H](O)c1ccnc2ccccc12
 CH$IUPAC: InChI=1S/C19H22N2O/c1-2-13-12-21-10-8-14(13)11-18(21)19(22)16-7-9-20-17-6-4-3-5-15(16)17/h2-7,9,13-14,18-19,22H,1,8,10-12H2/t13-,14?,18?,19+/m0/s1
 CH$LINK: CAS 118-10-5
-CH$LINK: PUBCHEM CID:746392
+CH$LINK: CHEMSPIDER 746392
+CH$LINK: INCHIKEY KMPWYEUPVWOPIM-KAGGUIQQSA-N
+CH$LINK: PUBCHEM CID:16394527
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -26,20 +30,20 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-0002-0090000000-cb62deced89aec34a0fb
 PK$NUM_PEAK: 16
 PK$PEAK: m/z int. rel.int.
-  294.3	1.76	1
-  294.4	3.71	3
-  294.5	6.78	6
-  294.6	12.16	12
-  294.7	22.64	22
-  294.8	40.34	40
-  294.9	63.14	63
-  295.0	84.49	84
-  295.1	97.68	97
-  295.2	100.0	99
-  295.3	92.19	92
-  295.4	75.56	75
-  295.5	51.99	51
-  295.6	26.61	26
-  295.7	7.51	7
-  295.8	0.0	0
+  294.3 1.76 1
+  294.4 3.71 3
+  294.5 6.78 6
+  294.6 12.16 12
+  294.7 22.64 22
+  294.8 40.34 40
+  294.9 63.14 63
+  295.0 84.49 84
+  295.1 97.68 97
+  295.2 100.0 99
+  295.3 92.19 92
+  295.4 75.56 75
+  295.5 51.99 51
+  295.6 26.61 26
+  295.7 7.51 7
+  295.8 0.0 0
 //

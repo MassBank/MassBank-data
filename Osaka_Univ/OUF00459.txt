@@ -4,19 +4,24 @@ DATE: 2016.01.19 (Created 2010.05.20, modified 2013.04.24)
 AUTHORS: Tsujimoto Y, Tsugawa H, Bamba T, Fukusaki E, engineering department, Osaka Univ.
 LICENSE: CC BY-SA
 COMMENT: The chemical compound was chemically modified with N-methyl-N-trimethylsilyl-trifluoroacetamide (MSTFA) before GC-MS analysis. When it has two or more functional groups, this modification gave a mixture of the TMS derivatives having different number of TMS groups at different functional groups.
-CH$NAME: Sinapinic acid
 CH$NAME: Sinapic acid
+CH$NAME: 3,5-dimethoxy-4-hydroxycinnamic acid
+CH$NAME: 3-(4-hydroxy-3,5-dimethoxy-phenyl)prop-2-enoic acid
 CH$COMPOUND_CLASS: Natural Product
 CH$FORMULA: C11H12O5
 CH$EXACT_MASS: 224.06847
-CH$SMILES: COc(c1)c(O)c(OC)cc(C=CC(O)=O)1
+CH$SMILES: COC1=CC(=CC(=C1O)OC)/C=C/C(=O)O
 CH$IUPAC: InChI=1S/C11H12O5/c1-15-8-5-7(3-4-10(12)13)6-9(16-2)11(8)14/h3-6,14H,1-2H3,(H,12,13)/b4-3+
 CH$LINK: CAS 530-59-6
-CH$LINK: CHEBI 15714 30023
+CH$LINK: CHEBI 15714
 CH$LINK: CHEMSPIDER 553361
-CH$LINK: KEGG C00482
-CH$LINK: PUBCHEM 637775
+CH$LINK: COMPTOX DTXSID40862129
 CH$LINK: INCHIKEY PCMORTLOPMLEFB-ONEGZZNKSA-N
+CH$LINK: KAPPAVIEW KPC00975
+CH$LINK: KEGG C00482
+CH$LINK: KNAPSACK C00002776
+CH$LINK: NIKKAJI J11.713G
+CH$LINK: PUBCHEM CID:637775
 AC$INSTRUMENT: Pegasus III TOF-MS system, Leco; GC 6890, Agilent Technologies
 AC$INSTRUMENT_TYPE: GC-EI-TOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS

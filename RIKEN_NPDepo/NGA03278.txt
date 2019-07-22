@@ -1,5 +1,5 @@
 ACCESSION: NGA03278
-RECORD_TITLE: glucoluteolin; LC-ESI-QQQ; MS2; Frag=135.0V CID@15.0 ; [M+H]+
+RECORD_TITLE: glucoluteolin; LC-ESI-QQQ; MS2; Frag=135.0V CID@15.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,15 +7,35 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C21H20O11
 COMMENT: Bottle Name:Homoorientin / luteolin-7-O-glucoside / Orientin
 COMMENT: PRIME Parent Name:Luteolin-6-C-glucoside / Luteolin-7-O-glucoside / Luteolin-8-C-glucoside
-COMMENT: Synonyms: Lutl-6-C-Glc ; Homoorientin ; Isoorientin ; luteolin-6-C-glucoside ; luteolin- 6-C-beta-D-glucopyranoside / Lutl-7-Glc ; Cynaroside ; Cinaroside ; Glucoluteolin ; 7-Glucosylluteolin ; Luteoloside ; Luteolin 7-O-beta-D-glucoside ; Luteolin 7-O-glucopyranoside ; 7-O-beta-D-Glucosyl-5,7,3',4'-tetrahydroxyflavone ; 2-(3,4-Dihydroxyphenyl)-7-(beta-D-glucopyranosyloxy)-5-hydroxy-4H-1-benzopyran-4-one / Lutl-8-C-Glc ; Orientin ; Lutexin ;  8-beta-D-glucosylluteolin ; luteolin-8-c-beta-d-glucopyranoside
 COMMENT: PRIME in-house No.:?H0033 H0034 S0306, Pyrans (?H0033: Luteolin-6-C-glucoside, ?H0034: Luteolin-7-O-glucoside, ?S0306: Luteolin-8-C-glucoside)
+CH$NAME: Lutl-6-C-Glc
+CH$NAME: Homoorientin
+CH$NAME: Isoorientin
+CH$NAME: luteolin-6-C-glucoside
+CH$NAME: luteolin- 6-C-beta-D-glucopyranoside / Lutl-7-Glc
+CH$NAME: Cynaroside
+CH$NAME: Cinaroside
+CH$NAME: Glucoluteolin
+CH$NAME: 7-Glucosylluteolin
+CH$NAME: Luteoloside
+CH$NAME: Luteolin 7-O-beta-D-glucoside
+CH$NAME: Luteolin 7-O-glucopyranoside
+CH$NAME: 7-O-beta-D-Glucosyl-5,7,3',4'-tetrahydroxyflavone
+CH$NAME: 2-(3,4-Dihydroxyphenyl)-7-(beta-D-glucopyranosyloxy)-5-hydroxy-4H-1-benzopyran-4-one / Lutl-8-C-Glc
+CH$NAME: Orientin
+CH$NAME: Lutexin
+CH$NAME: 8-beta-D-glucosylluteolin
+CH$NAME: luteolin-8-c-beta-d-glucopyranoside
 CH$NAME: glucoluteolin
 CH$COMPOUND_CLASS: Flavonoids
 CH$FORMULA: C21H20O11
-CH$EXACT_MASS: 448.38695
+CH$EXACT_MASS: 448.387
 CH$SMILES: O=c1cc(-c2ccc(O)c(O)c2)oc2cc(O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)c12
 CH$IUPAC: InChI=1S/C21H20O11/c22-7-16-18(27)19(28)20(29)21(32-16)30-9-4-12(25)17-13(26)6-14(31-15(17)5-9)8-1-2-10(23)11(24)3-8/h1-6,16,18-25,27-29H,7H2/t16-,18-,19+,20-,21-/m1/s1
 CH$LINK: CAS 4261-42-1];[26811-41-6];[28608-75-5
+CH$LINK: INCHIKEY PEFNSGRTCBGNAN-QNDFHXLGSA-N
+CH$LINK: COMPTOX DTXSID50949617
+CH$LINK: PUBCHEM CID:5280637
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -24,18 +44,18 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-000i-0090000000-a8e3ec23c6686799d1ae
 PK$NUM_PEAK: 14
 PK$PEAK: m/z int. rel.int.
-  286.3	1.32	1
-  286.4	3.74	3
-  286.5	10.17	10
-  286.6	22.4	22
-  286.7	40.4	40
-  286.8	61.76	61
-  286.9	82.08	81
-  287.0	96.19	96
-  287.1	100.0	99
-  287.2	91.69	91
-  287.3	72.13	72
-  287.4	45.58	45
-  287.5	19.84	19
-  287.6	2.81	2
+  286.3 1.32 1
+  286.4 3.74 3
+  286.5 10.17 10
+  286.6 22.4 22
+  286.7 40.4 40
+  286.8 61.76 61
+  286.9 82.08 81
+  287.0 96.19 96
+  287.1 100.0 99
+  287.2 91.69 91
+  287.3 72.13 72
+  287.4 45.58 45
+  287.5 19.84 19
+  287.6 2.81 2
 //

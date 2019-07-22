@@ -6,7 +6,7 @@ LICENSE: CC0
 COPYRIGHT: Copyright (C) American Chemical Society 1998
 PUBLICATION: Corcia, A. D.; Costantino, A.; Crescenzi, C.; Marinoni, E.; Samperi, R. Characterization of Recalcitrant Intermediates from Biotransformation of the Branched Alkyl Side Chain of Nonylphenol Ethoxylate Surfactants. Environmental Science & Technology 1998, 32 (16), 2401–9. DOI:10.1021/es9801285
 COMMENT: Literature spectrum
-COMMENT: CONFIDENCE: Tentative identification: isomers possible (Level 3)
+COMMENT: CONFIDENCE Tentative identification: isomers possible (Level 3)
 COMMENT: "The position of the carboxylic group was assigned arbitrarily; locations of branching points are undetermined"
 COMMENT: Digitised from figure: approximate intensities
 CH$NAME: CA6PE2
@@ -16,6 +16,8 @@ CH$EXACT_MASS: 324.1937
 CH$SMILES: O=C(OC)CCCCCCc1ccc(OCCOCCO)cc1
 CH$IUPAC: InChI=1S/C18H28O5/c1-21-18(20)7-5-3-2-4-6-16-8-10-17(11-9-16)23-15-14-22-13-12-19/h8-11,19H,2-7,12-15H2,1H3
 CH$LINK: INCHIKEY RRPVDZMCSBPRCV-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID20891659
+CH$LINK: PUBCHEM CID:137628522
 AC$INSTRUMENT: Fisons VG Platform
 AC$INSTRUMENT_TYPE: LC-ESI-Q
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

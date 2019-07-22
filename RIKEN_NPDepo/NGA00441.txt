@@ -1,5 +1,5 @@
 ACCESSION: NGA00441
-RECORD_TITLE: Kopsinine; LC-ESI-QQQ; MS2; Frag=135.0V CID@25.0 ; [M+H]+
+RECORD_TITLE: Kopsinine; LC-ESI-QQQ; MS2; Frag=135.0V CID@25.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,17 +7,19 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C21H26N2O2
 COMMENT: Bottle Name:Kopsinine
 COMMENT: PRIME Parent Name:Kopsinine
-COMMENT: Synonyms: methyl(2|A,3|A,5|A)-aspidofractinine-3-carboxylate ; Aspidofractinine-3-carboxylic acid, methyl ester, (2alpha,3beta,5alpha)- ; 
 COMMENT: PRIME in-house No.:V0259
 COMMENT: SubCategory_DNP: Monoterpenoid indole alkaloids, Aspidosperma alkaloids, Indole alkaloids
+CH$NAME: methyl(2|A,3|A,5|A)-aspidofractinine-3-carboxylate
+CH$NAME: Aspidofractinine-3-carboxylic acid, methyl ester, (2alpha,3beta,5alpha)-
 CH$NAME: Kopsinine
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C21H26N2O2
-CH$EXACT_MASS: 338.45357
+CH$EXACT_MASS: 338.4536
 CH$SMILES: COC(=O)C1CC23CCCN4CCC5(c6ccccc6NC15CC2)[C@@H]43
 CH$IUPAC: InChI=1S/C21H26N2O2/c1-25-17(24)15-13-19-7-4-11-23-12-10-20(18(19)23)14-5-2-3-6-16(14)22-21(15,20)9-8-19/h2-3,5-6,15,18,22H,4,7-13H2,1H3/t15?,18-,19?,20?,21?/m0/s1
 CH$LINK: CAS 559-51-3
-CH$LINK: PUBCHEM CID:10254846
+CH$LINK: CHEMSPIDER 10254846
+CH$LINK: INCHIKEY IYLRRIUNGGQRTN-GNONBNCHSA-N
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -26,28 +28,28 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-000i-0009000000-710e81d97b27fd3a192d
 PK$NUM_PEAK: 24
 PK$PEAK: m/z int. rel.int.
-  224.8	2.69	2
-  224.9	4.35	4
-  225.0	6.02	6
-  225.1	7.1	7
-  225.2	7.3	7
-  225.3	6.63	6
-  225.4	5.15	5
-  225.5	3.14	3
-  338.3	1.42	1
-  338.4	3.59	3
-  338.5	6.65	6
-  338.6	9.97	9
-  338.7	14.77	14
-  338.8	24.77	24
-  338.9	42.73	42
-  339.0	65.98	65
-  339.1	87.06	86
-  339.2	99.31	99
-  339.3	100.0	99
-  339.4	88.37	88
-  339.5	65.17	65
-  339.6	36.07	36
-  339.7	11.38	11
-  339.8	0.0	0
+  224.8 2.69 2
+  224.9 4.35 4
+  225.0 6.02 6
+  225.1 7.1 7
+  225.2 7.3 7
+  225.3 6.63 6
+  225.4 5.15 5
+  225.5 3.14 3
+  338.3 1.42 1
+  338.4 3.59 3
+  338.5 6.65 6
+  338.6 9.97 9
+  338.7 14.77 14
+  338.8 24.77 24
+  338.9 42.73 42
+  339.0 65.98 65
+  339.1 87.06 86
+  339.2 99.31 99
+  339.3 100.0 99
+  339.4 88.37 88
+  339.5 65.17 65
+  339.6 36.07 36
+  339.7 11.38 11
+  339.8 0.0 0
 //

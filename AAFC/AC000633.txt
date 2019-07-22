@@ -5,7 +5,7 @@ AUTHORS: Justin B. Renaud, Mark W. Sumarah, Agriculture and Agri-Food Canada
 LICENSE: CC BY-SA
 COPYRIGHT: Copyright (C) 2017
 PUBLICATION: Kelman, M. J.; Renaud, J. B.; Seifert, K. A.; Mack, J.; Sivagnanam, K.; Yeung, K. K.-C.; Sumarah, M. W. Identification of Six newAlternariasulfoconjugated Metabolites by High-Resolution Neutral Loss Filtering. Rapid Communications in Mass Spectrometry 2015, 29 (19), 1805–10. DOI:10.1002/rcm.7286
-COMMENT: CONFIDENCE commercial standard
+COMMENT: CONFIDENCE Reference Standard (Level 1)
 CH$NAME: Tentoxin
 CH$NAME: cycloleucyl-N-methylalanylglycyl-N-methyl dehydrophenylalanine
 CH$NAME: (3S,6S,12Z)-12-benzylidene-1,6,7-trimethyl-3-(2-methylpropyl)-1,4,7,10-tetrazacyclododecane-2,5,8,11-tetrone
@@ -19,7 +19,8 @@ CH$LINK: CAS 28540-82-1
 CH$LINK: PUBCHEM CID:5281143
 CH$LINK: CHEMSPIDER 4444584
 CH$LINK: KNAPSACK C00001521
-AC$INSTRUMENT:  Q-Exactive Orbitrap Thermo Scientific
+CH$LINK: COMPTOX DTXSID70893264
+AC$INSTRUMENT: Q-Exactive Orbitrap Thermo Scientific
 AC$INSTRUMENT_TYPE: LC-ESI-ITFT
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
 AC$MASS_SPECTROMETRY: ION_MODE POSITIVE

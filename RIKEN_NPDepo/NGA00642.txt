@@ -1,5 +1,5 @@
 ACCESSION: NGA00642
-RECORD_TITLE: O-Acetylsolasodine; LC-ESI-QQQ; MS2; Frag=135.0V CID@15.0 ; [M+H]+
+RECORD_TITLE: O-Acetylsolasodine; LC-ESI-QQQ; MS2; Frag=135.0V CID@15.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,17 +7,19 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C29H45NO3
 COMMENT: Bottle Name:O-Acetylsolasodine
 COMMENT: PRIME Parent Name:O-Acetylsolasodine
-COMMENT: Synonyms: Spirosol-5-en-3-yl acetate ; (9S,13R,26R)-7,9,13,23-tetramethyl-5-oxaspiro(pentacyclo(10.8.0.0(2,9).0(4,8).0(13,18))icosane-6,6'-piperidine)-18-en-16-yl acetate
 COMMENT: PRIME in-house No.:V0335
 COMMENT: SubCategory_DNP: Steroidal alkaloids, Solanaceous alkaloids
+CH$NAME: Spirosol-5-en-3-yl acetate
+CH$NAME: (9S,13R,26R)-7,9,13,23-tetramethyl-5-oxaspiro(pentacyclo(10.8.0.0(2,9).0(4,8).0(13,18))icosane-6,6'-piperidine)-18-en-16-yl acetate
 CH$NAME: O-Acetylsolasodine
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C29H45NO3
-CH$EXACT_MASS: 455.68690000000004
+CH$EXACT_MASS: 455.6869
 CH$SMILES: CC(=O)OC1CC[C@@]2(C)C(=CCC3C4CC5O[C@]6(CCC(C)CN6)C(C)C5[C@@]4(C)CCC32)C1
 CH$IUPAC: InChI=1S/C29H45NO3/c1-17-8-13-29(30-16-17)18(2)26-25(33-29)15-24-22-7-6-20-14-21(32-19(3)31)9-11-27(20,4)23(22)10-12-28(24,26)5/h6,17-18,21-26,30H,7-16H2,1-5H3/t17?,18?,21?,22?,23?,24?,25?,26?,27-,28-,29+/m0/s1
 CH$LINK: CAS 6159-99-5
-CH$LINK: PUBCHEM CID:230521
+CH$LINK: CHEMSPIDER 230521
+CH$LINK: INCHIKEY MCQNPWNREVNWDQ-YYQHPOQZSA-N
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -26,20 +28,20 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-0a4i-0000900000-1ac6ab1e15ea9efe6eb7
 PK$NUM_PEAK: 16
 PK$PEAK: m/z int. rel.int.
-  455.4	1.4	1
-  455.5	3.4	3
-  455.6	6.1	6
-  455.7	9.47	9
-  455.8	15.18	15
-  455.9	26.4	26
-  456.0	44.77	44
-  456.1	67.43	67
-  456.2	87.81	87
-  456.3	99.66	99
-  456.4	100.0	99
-  456.5	88.42	88
-  456.6	66.31	66
-  456.7	38.59	38
-  456.8	13.98	13
-  456.9	0.38	0
+  455.4 1.4 1
+  455.5 3.4 3
+  455.6 6.1 6
+  455.7 9.47 9
+  455.8 15.18 15
+  455.9 26.4 26
+  456.0 44.77 44
+  456.1 67.43 67
+  456.2 87.81 87
+  456.3 99.66 99
+  456.4 100.0 99
+  456.5 88.42 88
+  456.6 66.31 66
+  456.7 38.59 38
+  456.8 13.98 13
+  456.9 0.38 0
 //

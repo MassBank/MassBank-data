@@ -1,22 +1,28 @@
 ACCESSION: NGA00980
-RECORD_TITLE: Raffinose; LC-ESI-QQQ; MS2;  Frag=135.0V CID@5.0 ; [M+Na]+
+RECORD_TITLE: Raffinose; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0; [M+Na]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
 COMMENT: Origin: Plant
-COMMENT: Formula(Parent): C18H32O16 
-COMMENT: Bottle Name:D-(+)-Raffinose pentahydrate 
+COMMENT: Formula(Parent): C18H32O16
+COMMENT: Bottle Name:D-(+)-Raffinose pentahydrate
 COMMENT: PRIME Parent Name:D-Raffinose
-COMMENT: Synonyms: Gal(alpha1-6)Glc(alpha1-2beta)Fruf ; 6G-alpha-D-galactosylsucrose ; Raffinose ; Gossypose ; Melitose ; Melitriose
 COMMENT: PRIME in-house No.:V0044, Polysaccharides
+CH$NAME: Gal(alpha1-6)Glc(alpha1-2beta)Fruf
+CH$NAME: 6G-alpha-D-galactosylsucrose
 CH$NAME: Raffinose
+CH$NAME: Gossypose
+CH$NAME: Melitose
+CH$NAME: Melitriose
 CH$COMPOUND_CLASS: Carbohydrates
 CH$FORMULA: C18H32O16
-CH$EXACT_MASS: 504.44614
+CH$EXACT_MASS: 504.4461
 CH$SMILES: OC[C@@H]1O[C@](CO)(O[C@H]2O[C@H](CO[C@H]3O[C@H](CO)[C@H](O)[C@H](O)[C@H]3O)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O
 CH$IUPAC: InChI=1S/C18H32O16/c19-1-5-8(22)11(25)13(27)16(31-5)30-3-7-9(23)12(26)14(28)17(32-7)34-18(4-21)15(29)10(24)6(2-20)33-18/h5-17,19-29H,1-4H2/t5-,6+,7-,8+,9-,10+,11+,12+,13-,14-,15-,16+,17-,18-/m1/s1
 CH$LINK: CAS 512-69-6
-CH$LINK: PUBCHEM CID:10102
+CH$LINK: CHEMSPIDER 10102
+CH$LINK: INCHIKEY MUPFEKGTMRGPLJ-OARNWLFOSA-N
+CH$LINK: PUBCHEM CID:44655806
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -25,21 +31,21 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+Na]+
 PK$SPLASH: splash10-004i-0000090000-f32a8eb0fcaaa1baeb7f
 PK$NUM_PEAK: 17
 PK$PEAK: m/z int. rel.int.
-  526.1	1.4	1
-  526.2	3.43	3
-  526.3	5.42	5
-  526.4	6.51	6
-  526.5	9.52	9
-  526.6	20.7	20
-  526.7	42.8	42
-  526.8	68.42	68
-  526.9	86.56	86
-  527.0	94.87	94
-  527.1	99.05	98
-  527.2	99.97	99
-  527.3	89.51	89
-  527.4	63.14	63
-  527.5	30.13	30
-  527.6	5.93	5
-  527.7	0.0	0
+  526.1 1.4 1
+  526.2 3.43 3
+  526.3 5.42 5
+  526.4 6.51 6
+  526.5 9.52 9
+  526.6 20.7 20
+  526.7 42.8 42
+  526.8 68.42 68
+  526.9 86.56 86
+  527.0 94.87 94
+  527.1 99.05 98
+  527.2 99.97 99
+  527.3 89.51 89
+  527.4 63.14 63
+  527.5 30.13 30
+  527.6 5.93 5
+  527.7 0.0 0
 //

@@ -7,18 +7,21 @@ COPYRIGHT: Copyright (C) 2015 Department of Chemistry, University of Athens
 PUBLICATION: Alygizakis, N. A.; Gago-Ferrero, P.; Hollender, J.; Thomaidis, N. S. Untargeted Time-Pattern Analysis of LC-HRMS Data to Detect Spills and Compounds with High Fluctuation in Influent Wastewater. Journal of Hazardous Materials 2019, 361, 19–29. DOI:10.1016/j.jhazmat.2018.08.073
 COMMENT: CONFIDENCE standard compound
 COMMENT: INTERNAL_ID 4066
-CH$NAME: lauryl sulfate
-CH$NAME: dodecyl sulfate
+CH$NAME: Lauryl sulfate
+CH$NAME: dodecyl hydrogen sulfate
+CH$NAME: (Dodecyloxy)sulfonic acid
+CH$NAME: Dodecyl sulfate
 CH$COMPOUND_CLASS: N/A; Environmental Standard
 CH$FORMULA: C12H26O4S
 CH$EXACT_MASS: 266.1551803
 CH$SMILES: CCCCCCCCCCCCOS(=O)(=O)O
 CH$IUPAC: InChI=1S/C12H26O4S/c1-2-3-4-5-6-7-8-9-10-11-12-16-17(13,14)15/h2-12H2,1H3,(H,13,14,15)
-CH$LINK: CAS 151-21-3
+CH$LINK: CAS 151-41-7
 CH$LINK: CHEBI 45599
-CH$LINK: PUBCHEM CID:57468502
-CH$LINK: INCHIKEY MOTZDAYCYVMXPC-UHFFFAOYSA-N
 CH$LINK: CHEMSPIDER 8448
+CH$LINK: COMPTOX DTXSID0042088
+CH$LINK: INCHIKEY MOTZDAYCYVMXPC-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:8778
 AC$INSTRUMENT: Bruker maXis Impact
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

@@ -6,7 +6,7 @@ LICENSE: CC0
 COPYRIGHT: Copyright (C) Elsevier Ltd. 2011
 PUBLICATION: Gonsior, M.; Zwartjes, M.; Cooper, W. J.; Song, W.; Ishida, K. P.; Tseng, L. Y.; Jeung, M. K.; Rosso, D.; Hertkorn, N.; Schmitt-Kopplin, P. Molecular Characterization of Effluent Organic Matter Identified by Ultrahigh Resolution Mass Spectrometry. Water Research 2011, 45 (9), 2943–53. DOI:10.1016/j.watres.2011.03.016
 COMMENT: Literature spectrum
-COMMENT: CONFIDENCE: Tentative identification: isomers possible (Level 3)
+COMMENT: CONFIDENCE Tentative identification: isomers possible (Level 3)
 COMMENT: Could be alkyl homologue of given structure
 COMMENT: Base peak comes from co-eluting surfactant (see annotation)
 COMMENT: Digitised from figure: approximate intensities
@@ -20,6 +20,8 @@ CH$SMILES: OS(=O)(=O)c1ccc(cc1)C(CCC)CCCCCCCC
 CH$IUPAC: InChI=1S/C18H30O3S/c1-3-5-6-7-8-9-11-16(10-4-2)17-12-14-18(15-13-17)22(19,20)21/h12-16H,3-11H2,1-2H3,(H,19,20,21)
 CH$LINK: INCHIKEY YNJLGQRDQAQAHR-UHFFFAOYSA-N
 CH$LINK: CHEMSPIDER 10309197
+CH$LINK: COMPTOX DTXSID30862870
+CH$LINK: PUBCHEM CID:14921169
 AC$INSTRUMENT: Bruker Apex QE 12T FT-ICR
 AC$INSTRUMENT_TYPE: ESI-ITFT
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

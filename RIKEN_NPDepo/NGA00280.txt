@@ -1,5 +1,5 @@
 ACCESSION: NGA00280
-RECORD_TITLE: Puberanidine; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0 ; [M+H]+
+RECORD_TITLE: Puberanidine; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,17 +7,20 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C30H42N2O7
 COMMENT: Bottle Name:Puberanidine
 COMMENT: PRIME Parent Name:Puberanidine
-COMMENT: Synonyms: N-Deacetyllappaconitine ; 4-Anthraniloyllappaconine ; (1S,2S,3S,4S,6S,8S,9S,13S,16S,17S,5R)-11-ethyl-3,8-dihydroxy-4,6,16-trimethoxy-11-azahexacyclo(7.7.2.1(2,5).0(1,10).0(3,8).0(13,17))nonadec-13-yl 2-aminobenzoate
 COMMENT: PRIME in-house No.:V0310
 COMMENT: SubCategory_DNP: Terpenoid alkaloids, Diterpene alkaloid, Aconitum alkaloid
+CH$NAME: N-Deacetyllappaconitine
+CH$NAME: 4-Anthraniloyllappaconine
+CH$NAME: (1S,2S,3S,4S,6S,8S,9S,13S,16S,17S,5R)-11-ethyl-3,8-dihydroxy-4,6,16-trimethoxy-11-azahexacyclo(7.7.2.1(2,5).0(1,10).0(3,8).0(13,17))nonadec-13-yl 2-aminobenzoate
 CH$NAME: Puberanidine
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C30H42N2O7
-CH$EXACT_MASS: 542.67844
+CH$EXACT_MASS: 542.6784
 CH$SMILES: CCN1C[C@]2(OC(=O)c3ccccc3N)CC[C@H](OC)[C@]34C1[C@H](CC23)[C@@]1(O)C[C@H](OC)[C@H]2CC4[C@]1(O)[C@H]2OC
 CH$IUPAC: InChI=1S/C30H42N2O7/c1-5-32-15-27(39-26(33)16-8-6-7-9-19(16)31)11-10-23(37-3)29-21(27)13-18(24(29)32)28(34)14-20(36-2)17-12-22(29)30(28,35)25(17)38-4/h6-9,17-18,20-25,34-35H,5,10-15,31H2,1-4H3/t17-,18+,20+,21?,22?,23+,24?,25+,27-,28+,29+,30+/m1/s1
 CH$LINK: CAS 11033-64-0
-CH$LINK: PUBCHEM CID:140130
+CH$LINK: CHEMSPIDER 140130
+CH$LINK: INCHIKEY VSUODASNSRJNCP-WUOZJDCCSA-N
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -26,21 +29,21 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-0006-0000090000-2ca33f05f26ff627917a
 PK$NUM_PEAK: 17
 PK$PEAK: m/z int. rel.int.
-  542.3	0.83	0
-  542.4	2.16	2
-  542.5	4.25	4
-  542.6	7.13	7
-  542.7	11.8	11
-  542.8	20.91	20
-  542.9	36.8	36
-  543.0	57.96	57
-  543.1	78.57	78
-  543.2	93.06	92
-  543.3	100.0	99
-  543.4	99.73	99
-  543.5	89.99	89
-  543.6	68.3	68
-  543.7	39.0	38
-  543.8	13.08	13
-  543.9	0.02	0
+  542.3 0.83 0
+  542.4 2.16 2
+  542.5 4.25 4
+  542.6 7.13 7
+  542.7 11.8 11
+  542.8 20.91 20
+  542.9 36.8 36
+  543.0 57.96 57
+  543.1 78.57 78
+  543.2 93.06 92
+  543.3 100.0 99
+  543.4 99.73 99
+  543.5 89.99 89
+  543.6 68.3 68
+  543.7 39.0 38
+  543.8 13.08 13
+  543.9 0.02 0
 //

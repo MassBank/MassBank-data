@@ -1,0 +1,121 @@
+ACCESSION: MSJ00101
+RECORD_TITLE: (R)-4-methyloctadecanal; GC-EI-TOF; MS; positive; EI; M+*.
+DATE: 2019.02.08
+AUTHORS: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Mori K, Akasaka K. Pheromone synthesis. Part 256: Synthesis of the four stereoisomers of 5,11-dimethylpentacosane, a new sex pheromone component of the male Galleria mellonella (L.), with high stereochemical purities as determined by the derivatization-HPLC analysis of the eight stereoisomers of 5,11-dimethyl-8-pentacosanol. Tetrahedron. 2015 Jun 17;71(24):4102-15. doi: 10.10.1016/j.tet2015.04.107
+COMMENT: JMS-T100GCV is a reflectron TOF MS. Temperature of the ion source and GC-transfer line was 250 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. Postrun m/z adjustment with known mass was 238.2661.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 16HP2005 to the Mass Spectrometry Society of Japan.
+CH$NAME: (R)-4-methyloctadecanal
+CH$COMPOUND_CLASS: Synthetic compound
+CH$FORMULA: C19H38O
+CH$EXACT_MASS: 282.2923
+CH$SMILES: CCCCCCCCCCCCCC[C@@H](C)CCC=O
+CH$IUPAC: InChI=1S/C19H38O/c1-3-4-5-6-7-8-9-10-11-12-13-14-16-19(2)17-15-18-20/h18-19H,3-17H2,1-2H3/t19-/m1/s1
+CH$LINK: INCHIKEY JBGJNZXYIIAYDM-LJQANCHMSA-N
+CH$LINK: PUBCHEM CID:132560103
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A gas chromatography.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 mL/min
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091J-413 USD364547H (Agilent), length 30 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Ramped at 50 C for 4 min. From 70 C to 325 C at 30 C/min and held at 0.833 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 11.13 min
+PK$SPLASH: splash10-0a4l-9000000000-67940339a3a9e1c6388a
+PK$NUM_PEAK: 89
+PK$PEAK: m/z int. rel.int.
+  27.024 11 113
+  28.007 1 12
+  28.032 3 34
+  29.004 3 33
+  29.040 45 445
+  30.044 1 12
+  31.019 1 8
+  31.991 1 5
+  39.025 8 84
+  40.032 2 19
+  41.040 87 869
+  41.093 1 8
+  42.047 14 145
+  43.019 8 78
+  43.056 100 999
+  43.110 1 10
+  44.028 12 124
+  44.059 3 34
+  45.035 2 17
+  53.040 5 45
+  54.048 5 51
+  55.020 1 10
+  55.056 64 640
+  55.117 1 6
+  56.063 70 704
+  56.125 1 6
+  57.035 14 137
+  57.071 88 884
+  58.043 7 67
+  58.075 4 38
+  59.049 1 6
+  65.040 1 9
+  66.048 1 7
+  67.056 19 185
+  68.063 8 83
+  69.071 38 381
+  70.079 14 143
+  71.051 2 18
+  71.087 23 232
+  72.059 3 32
+  72.091 1 13
+  77.040 1 6
+  79.056 2 20
+  80.064 2 18
+  81.072 21 210
+  82.079 26 261
+  83.051 1 9
+  83.087 19 187
+  84.094 6 64
+  85.067 15 145
+  85.103 13 130
+  86.071 1 11
+  86.106 1 9
+  87.082 1 8
+  93.072 1 9
+  94.079 1 9
+  95.087 18 181
+  96.095 10 104
+  97.103 13 130
+  98.110 3 29
+  99.082 1 6
+  99.119 2 23
+  100.090 1 11
+  101.097 1 5
+  109.103 4 43
+  110.111 4 38
+  111.119 7 68
+  112.125 2 19
+  113.134 1 12
+  123.119 2 19
+  124.126 1 13
+  125.135 2 22
+  126.142 1 9
+  127.150 1 7
+  137.135 1 7
+  138.142 1 8
+  139.151 1 9
+  140.158 1 5
+  152.159 1 5
+  153.167 1 5
+  154.174 1 6
+  180.190 1 5
+  182.206 2 20
+  210.237 2 24
+  223.245 1 13
+  236.251 1 7
+  238.268 3 31
+  239.272 1 8
+  264.283 1 6
+//

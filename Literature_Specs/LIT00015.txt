@@ -6,7 +6,7 @@ LICENSE: CC0
 COPYRIGHT: Copyright (C) Elsevier Ltd. 2000
 PUBLICATION: Castillo, M.; Riu, J.; Ventura, F.; Boleda, R.; Scheding, R.; Schröder, H. F.; Nistor, C.; Émneus, J.; Eichhorn, P.; Knepper, T. .; et al. Inter-Laboratory Comparison of Liquid Chromatographic Techniques and Enzyme-Linked Immunosorbent Assay for the Determination of Surfactants in Wastewaters. Journal of Chromatography A 2000, 889 (1–2), 195–209. DOI:10.1016/s0021-9673(00)00398-8
 COMMENT: Literature spectrum
-COMMENT: CONFIDENCE: Tentative identification: isomers possible (Level 3)
+COMMENT: CONFIDENCE Tentative identification: isomers possible (Level 3)
 COMMENT: Structure is NPEO2-SO4 - spectrum includes x>2
 COMMENT: Digitised from figure: approximate intensities
 CH$NAME: NPEOx-SO4
@@ -19,6 +19,8 @@ CH$EXACT_MASS: 388.1920
 CH$SMILES: O=S(=O)(O)OCCOCCOc1ccc(cc1)CCCCCCCCC
 CH$IUPAC: InChI=1S/C19H32O6S/c1-2-3-4-5-6-7-8-9-18-10-12-19(13-11-18)24-16-14-23-15-17-25-26(20,21)22/h10-13H,2-9,14-17H2,1H3,(H,20,21,22)
 CH$LINK: INCHIKEY LTPRIPYCXJPJLM-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID20891639
+CH$LINK: PUBCHEM CID:137628446
 AC$INSTRUMENT: VG Platform
 AC$INSTRUMENT_TYPE: LC-APCI-Q
 AC$MASS_SPECTROMETRY: MS_TYPE MS

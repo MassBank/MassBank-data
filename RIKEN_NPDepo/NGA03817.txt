@@ -1,5 +1,5 @@
 ACCESSION: NGA03817
-RECORD_TITLE: Guan-fu base Y; LC-ESI-QQQ; MS2;  Frag=135.0V CID@5.0 ; [M+HCOO]-
+RECORD_TITLE: Guan-fu base Y; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0; [M+HCOO]-
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,17 +7,20 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C22H29NO5
 COMMENT: Bottle Name:Guan-fu base Y
 COMMENT: PRIME Parent Name:Guan-fu base Y
-COMMENT: Synonyms: Guanfu base Y ; 11,13,14-trihydroxyhetisan-2-yl acetate ; (1S,3S,16S,19S,10R,14R)-9,10,19-trihydroxy-5-methyl-12-methylene-7-azaheptacyclo(9.6.2.0(1,8).0(5,17).0(7,16).0(9,14).0(14,18))nonadec-3-yl acetate
 COMMENT: PRIME in-house No.:V0331
 COMMENT: SubCategory_DNP: Terpenoid alkaloids, Diterpene alkaloid, Aconitum alkaloid
+CH$NAME: Guanfu base Y
+CH$NAME: 11,13,14-trihydroxyhetisan-2-yl acetate
+CH$NAME: (1S,3S,16S,19S,10R,14R)-9,10,19-trihydroxy-5-methyl-12-methylene-7-azaheptacyclo(9.6.2.0(1,8).0(5,17).0(7,16).0(9,14).0(14,18))nonadec-3-yl acetate
 CH$NAME: Guan-fu base Y
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C22H29NO5
-CH$EXACT_MASS: 387.4801300000001
+CH$EXACT_MASS: 387.4801
 CH$SMILES: C=C1C[C@@]23CC4C5C6(C)C[C@H](OC(C)=O)CC57C2[C@H](O)C1[C@@H](O)[C@]3(O)[C@H]7N4C6
 CH$IUPAC: InChI=1S/C22H29NO5/c1-9-4-20-7-12-15-19(3)5-11(28-10(2)24)6-21(15)16(20)14(25)13(9)17(26)22(20,27)18(21)23(12)8-19/h11-18,25-27H,1,4-8H2,2-3H3/t11-,12?,13?,14+,15?,16?,17+,18-,19?,20+,21?,22-/m0/s1
 CH$LINK: CAS 110225-59-7
-CH$LINK: PUBCHEM CID:20181446
+CH$LINK: CHEMSPIDER 20181446
+CH$LINK: INCHIKEY XGTNTUKODZZCGL-FDLOETHHSA-N
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -26,19 +29,19 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+HCOO]-
 PK$SPLASH: splash10-001i-0000900000-7b2a1fce342d1efc0997
 PK$NUM_PEAK: 15
 PK$PEAK: m/z int. rel.int.
-  431.2	2.37	2
-  431.3	4.95	4
-  431.4	11.52	11
-  431.5	20.43	20
-  431.6	26.2	26
-  431.7	25.95	25
-  431.8	24.28	24
-  431.9	29.7	29
-  432.0	47.05	47
-  432.1	73.02	72
-  432.2	96.04	95
-  432.3	99.59	99
-  432.4	75.91	75
-  432.5	37.39	37
-  432.6	6.92	6
+  431.2 2.37 2
+  431.3 4.95 4
+  431.4 11.52 11
+  431.5 20.43 20
+  431.6 26.2 26
+  431.7 25.95 25
+  431.8 24.28 24
+  431.9 29.7 29
+  432.0 47.05 47
+  432.1 73.02 72
+  432.2 96.04 95
+  432.3 99.59 99
+  432.4 75.91 75
+  432.5 37.39 37
+  432.6 6.92 6
 //

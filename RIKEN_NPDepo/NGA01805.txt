@@ -1,22 +1,29 @@
 ACCESSION: NGA01805
-RECORD_TITLE: Oxiglutathione; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0 ; [M+H]+
+RECORD_TITLE: Oxiglutathione; LC-ESI-QQQ; MS2; Frag=135.0V CID@5.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
 COMMENT: Formula(Parent): C20H32N6O12S2
 COMMENT: Bottle Name:Glutathione (oxidized form)
 COMMENT: PRIME Parent Name:Glutathione Disulfide
-COMMENT: Synonyms: GSSG ; Glutathiol ; Glutathione (oxidized form) ; Oxigluthione ; Oxidized glutathione ; (gamma-Glu-Cys-Gly) (gamma-Glu-Cys-Gly)(Disulfide bridge: 2a-2b)
 COMMENT: PRIME in-house No.:0235
 COMMENT: SubCategory_DNP: Peptides, Oligopeptides
+CH$NAME: GSSG
+CH$NAME: Glutathiol
+CH$NAME: Glutathione (oxidized form)
+CH$NAME: Oxigluthione
+CH$NAME: Oxidized glutathione
+CH$NAME: (gamma-Glu-Cys-Gly) (gamma-Glu-Cys-Gly)(Disulfide bridge: 2a-2b)
 CH$NAME: Oxiglutathione
 CH$COMPOUND_CLASS: Aminoacids and peptides
 CH$FORMULA: C20H32N6O12S2
-CH$EXACT_MASS: 612.63904
+CH$EXACT_MASS: 612.639
 CH$SMILES: NC(CCC(O)=NC(CSSCC(N=C(O)CCC(N)C(=O)O)C(O)=NCC(=O)O)C(O)=NCC(=O)O)C(=O)O
 CH$IUPAC: InChI=1S/C20H32N6O12S2/c21-9(19(35)36)1-3-13(27)25-11(17(33)23-5-15(29)30)7-39-40-8-12(18(34)24-6-16(31)32)26-14(28)4-2-10(22)20(37)38/h9-12H,1-8,21-22H2,(H,23,33)(H,24,34)(H,25,27)(H,26,28)(H,29,30)(H,31,32)(H,35,36)(H,37,38)
 CH$LINK: CAS 27025-41-8
-CH$LINK: PUBCHEM CID:58835
+CH$LINK: CHEMSPIDER 58835
+CH$LINK: INCHIKEY YPZRWBKMTBYPTK-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:975
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -25,31 +32,31 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-03di-0000109000-7844201a8575d55ca523
 PK$NUM_PEAK: 27
 PK$PEAK: m/z int. rel.int.
-  483.6	1.24	1
-  483.7	2.4	2
-  483.8	5.45	5
-  483.9	9.56	9
-  484.0	13.0	12
-  484.1	14.34	14
-  484.2	13.1	13
-  484.3	9.82	9
-  484.4	5.77	5
-  484.5	2.72	2
-  612.1	0.45	0
-  612.2	1.53	1
-  612.3	4.05	4
-  612.4	8.46	8
-  612.5	14.75	14
-  612.6	22.76	22
-  612.7	32.8	32
-  612.8	45.81	45
-  612.9	62.52	62
-  613.0	81.24	81
-  613.1	96.18	96
-  613.2	100.0	99
-  613.3	89.13	89
-  613.4	66.07	66
-  613.5	37.9	37
-  613.6	13.44	13
-  613.7	0.33	0
+  483.6 1.24 1
+  483.7 2.4 2
+  483.8 5.45 5
+  483.9 9.56 9
+  484.0 13.0 12
+  484.1 14.34 14
+  484.2 13.1 13
+  484.3 9.82 9
+  484.4 5.77 5
+  484.5 2.72 2
+  612.1 0.45 0
+  612.2 1.53 1
+  612.3 4.05 4
+  612.4 8.46 8
+  612.5 14.75 14
+  612.6 22.76 22
+  612.7 32.8 32
+  612.8 45.81 45
+  612.9 62.52 62
+  613.0 81.24 81
+  613.1 96.18 96
+  613.2 100.0 99
+  613.3 89.13 89
+  613.4 66.07 66
+  613.5 37.9 37
+  613.6 13.44 13
+  613.7 0.33 0
 //

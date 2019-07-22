@@ -6,18 +6,27 @@ LICENSE: CC BY-NC
 COPYRIGHT: (c) Research Center Rene Rachou (FIOCRUZ, Brazil)
 COMMENT: [Raw Data] CB217_Hesperidin_pos_20eV_CB000076.txt
 CH$NAME: Hesperidin
+CH$NAME: Cirantin
+CH$NAME: Hesperidoside
+CH$NAME: (2S)-7-[[6-O-(6-Deoxy-alpha-L-mannopyranosyl)-beta-D-glucopyranosyl]oxy]-2,3-dihydro-5-hydroxy-2-(3-hydroxy-4-methoxyphenyl)-4H-1-benzopyran-4-one
+CH$NAME: (2S)-5-hydroxy-2-(3-hydroxy-4-methoxy-phenyl)-7-[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4R,5S,6S)-3,4,5-trihydroxy-6-methyl-oxan-2-yl]oxymethyl]oxan-2-yl]oxy-chroman-4-one
+CH$NAME: Hesp-7-Glc-6pp-Rha
+CH$NAME: Hesperetin 7-O-rutinoside
+CH$NAME: Hesperetin 7-rhamnoglucoside
 CH$COMPOUND_CLASS: Natural Product; Flavonoid
 CH$FORMULA: C28H34O15
 CH$EXACT_MASS: 610.18977
-CH$SMILES: c(O)(c3)c(C(=O)2)c(cc3OC(O4)C(O)C(O)C(O)C(COC(O5)C(O)C(C(C5C)O)O)4)OC(C2)c(c1)ccc(c1O)OC
+CH$SMILES: C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)OC[C@@H]2[C@H]([C@@H]([C@H]([C@@H](O2)OC3=CC(=C4C(=O)C[C@H](OC4=C3)C5=CC(=C(C=C5)OC)O)O)O)O)O)O)O)O
 CH$IUPAC: InChI=1S/C28H34O15/c1-10-21(32)23(34)25(36)27(40-10)39-9-19-22(33)24(35)26(37)28(43-19)41-12-6-14(30)20-15(31)8-17(42-18(20)7-12)11-3-4-16(38-2)13(29)5-11/h3-7,10,17,19,21-30,32-37H,8-9H2,1-2H3/t10-,17-,19+,21-,22+,23+,24-,25+,26+,27+,28+/m0/s1
 CH$LINK: CAS 520-26-3
 CH$LINK: CHEBI 28775
+CH$LINK: CHEMSPIDER 10176
+CH$LINK: COMPTOX DTXSID9044328
+CH$LINK: INCHIKEY QUQPHWDTPGMPEX-QJBIFVCTSA-N
 CH$LINK: KEGG C09755
 CH$LINK: KNAPSACK C00000970
 CH$LINK: NIKKAJI J4.480F
-CH$LINK: PUBCHEM 11943
-CH$LINK: INCHIKEY QUQPHWDTPGMPEX-QJBIFVCTSA-N
+CH$LINK: PUBCHEM CID:10621
 AC$INSTRUMENT: maXis (Bruker Daltonics)
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

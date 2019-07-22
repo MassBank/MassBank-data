@@ -1,0 +1,38 @@
+ACCESSION: MSJ00073
+RECORD_TITLE: L-gamma-Glutamyl-S-3-(1-hydroxybutyl)-L-cysteinyl-glycine; ESI-QQ; MS2; CE 10 eV; [M+H]+
+DATE: 2018.12.26
+AUTHORS: Horiyama S., Hatai M., Takahashi Y., Date S., Masujima T., Honda C., Ichikawa A., Yoshikawa N., Nakamura K., Kunitomo M., Takayama M., Mukogawa Women's University, Riken Quantitative Biology Center, OLABB, Yokohama City University.
+LICENSE: CC BY
+COPYRIGHT: Horiyama S., Hatai M., Takahashi Y., Date S., Masujima T., Honda C., Ichikawa A., Yoshikawa N., Nakamura K., Kunitomo M., Takayama M., Mukogawa Women's University, Riken Quantitative Biology Center, OLABB, Yokohama City University.
+PUBLICATION: Chem. Pharm. Bull, 2016, 64 (6), pp 585-593. DOI: 10.1248/cpb.c15-00986p
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 16HP2005 to the Mass Spectrometry Society of Japan.
+CH$NAME: L-gamma-Glutamyl-S-3-(1-hydroxybutyl)-L-cysteinyl-glycine
+CH$COMPOUND_CLASS: Synthetic compound; Peptide
+CH$FORMULA: C14H25N3O7S
+CH$EXACT_MASS: 379.1413
+CH$SMILES: O=C(N[C@@H](CSC(C)CCO)C(=O)NCC(=O)O)CC[C@H](N)C(=O)O
+CH$IUPAC: InChI=1S/C14H25N3O7S/c1-8(4-5-18)25-7-10(13(22)16-6-12(20)21)17-11(19)3-2-9(15)14(23)24/h8-10,18H,2-7,15H2,1H3,(H,16,22)(H,17,19)(H,20,21)(H,23,24)/t8?,9-,10-/m0/s1
+CH$LINK: INCHIKEY SLDQURKLQRTWJV-AGROOBSYSA-N
+AC$INSTRUMENT: Quattro Premier, Micromass (USA) coupled to Alliance HT 2795, Waters (USA).
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_GAS Ar
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10 eV
+AC$CHROMATOGRAPHY: COLUMN_NAME C18(ODS), Cosmosil 5C18-AR-II, 4.6 x 150 mm, 4.4 micrometer
+AC$CHROMATOGRAPHY: FLOW_GRADIENT A 0.05%HCOOH, B CH3OH, linear gradient 5% B-40% B-95% B-5% B
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 380.1486
+PK$SPLASH: splash10-004i-0159000000-c5fbcf07e5fb791e3bd0
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  130.7 112400 21
+  147.7 311000 58
+  161.7 346600 64
+  234.0 980200 181
+  251.0 2644000 489
+  305.0 251900 47
+  361.9 31610 6
+  379.9 5403000 999
+//

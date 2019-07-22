@@ -1,5 +1,5 @@
 ACCESSION: NGA02954
-RECORD_TITLE: Iso-gamma-fagarine; LC-ESI-QQQ; MS2; Frag=135.0V CID@15.0 ; [M+H]+
+RECORD_TITLE: Iso-gamma-fagarine; LC-ESI-QQQ; MS2; Frag=135.0V CID@15.0; [M+H]+
 DATE: 2018.04.04
 AUTHORS: Nogawa T, Okano A, CSRS, RIKEN
 LICENSE: BY-CC
@@ -7,17 +7,20 @@ COMMENT: Origin: Plant
 COMMENT: Formula(Parent): C13H11NO3
 COMMENT: Bottle Name:Iso-gamma-fagarine
 COMMENT: PRIME Parent Name:Iso-gamma-fagarine
-COMMENT: Synonyms: 8-methoxy-9-methyl-9-hydrofurano(2,3-b)quinolin-4-one ; 8-methoxy-9-methyl-iso-gamma-fagarine
 COMMENT: PRIME in-house No.:V0305
 COMMENT: SubCategory_DNP: Alkaloids derived from anthranilic acid, Quinoline alkaloids
+CH$NAME: 8-methoxy-9-methyl-9-hydrofurano(2,3-b)quinolin-4-one
+CH$NAME: 8-methoxy-9-methyl-iso-gamma-fagarine
 CH$NAME: Iso-gamma-fagarine
 CH$COMPOUND_CLASS: Alkaloids
 CH$FORMULA: C13H11NO3
-CH$EXACT_MASS: 229.23752
+CH$EXACT_MASS: 229.2375
 CH$SMILES: COc1cccc2c(=O)c3ccoc3n(C)c12
 CH$IUPAC: InChI=1S/C13H11NO3/c1-14-11-8(4-3-5-10(11)16-2)12(15)9-6-7-17-13(9)14/h3-7H,1-2H3
 CH$LINK: CAS 569-02-8
-CH$LINK: PUBCHEM CID:808960
+CH$LINK: CHEMSPIDER 808960
+CH$LINK: INCHIKEY VNBUMBNLPGLBML-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:927945
 AC$INSTRUMENT: Agilent 6410 Triple Quadrupole LC/MS system
 AC$INSTRUMENT_TYPE: LC-ESI-QQQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -26,34 +29,34 @@ MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-001i-0090000000-e6372a35fcdcc9a6262f
 PK$NUM_PEAK: 30
 PK$PEAK: m/z int. rel.int.
-  214.3	3.26	3
-  214.4	5.17	5
-  214.5	8.93	8
-  214.6	15.18	15
-  214.7	24.38	24
-  214.8	36.05	36
-  214.9	48.12	48
-  215.0	57.56	57
-  215.1	61.72	61
-  215.2	58.86	58
-  215.3	48.3	48
-  215.4	31.8	31
-  215.5	14.6	14
-  215.6	2.66	2
-  229.2	0.29	0
-  229.3	1.58	1
-  229.4	4.69	4
-  229.5	10.64	10
-  229.6	20.92	20
-  229.7	36.3	36
-  229.8	55.47	55
-  229.9	75.07	74
-  230.0	91.09	90
-  230.1	100.0	99
-  230.2	98.95	98
-  230.3	85.78	85
-  230.4	61.25	61
-  230.5	32.07	32
-  230.6	8.73	8
-  230.7	0.0	0
+  214.3 3.26 3
+  214.4 5.17 5
+  214.5 8.93 8
+  214.6 15.18 15
+  214.7 24.38 24
+  214.8 36.05 36
+  214.9 48.12 48
+  215.0 57.56 57
+  215.1 61.72 61
+  215.2 58.86 58
+  215.3 48.3 48
+  215.4 31.8 31
+  215.5 14.6 14
+  215.6 2.66 2
+  229.2 0.29 0
+  229.3 1.58 1
+  229.4 4.69 4
+  229.5 10.64 10
+  229.6 20.92 20
+  229.7 36.3 36
+  229.8 55.47 55
+  229.9 75.07 74
+  230.0 91.09 90
+  230.1 100.0 99
+  230.2 98.95 98
+  230.3 85.78 85
+  230.4 61.25 61
+  230.5 32.07 32
+  230.6 8.73 8
+  230.7 0.0 0
 //
