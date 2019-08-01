@@ -5,19 +5,19 @@
 | BGC_Munich                | BGC, Helmholtz-Zentrum Muenchen                                         | Germany         | RP             |                            |
 | Boise_State_Univ          | Boise State University                                                  | USA             | BSU            |                            |
 | BS                        | Plant Biology, The Noble Foundation                                     |                 | BS             |                            |
-| CASMI2012                 | CASMI 2012 Contest                                                      |                 | SM             |                            |
+| CASMI2012                 | CASMI 2012 Contest                                                      |                 | SMI            |                            |
 | CASMI2016                 | CASMI 2016 Contest                                                      |                 | SM             |                            |
 | Chubu_Univ                | College of Life and Health Sciences Chubu University                    | Japan           | UT             |                            |
 | Eawag                     | Eawag - Swiss Federal Institute of Aquatic Science and Technology       | Switzerland     | EA, EQ         | SOLUTIONS                  |
 | Eawag_Additional_Specs    | Eawag - Swiss Federal Institute of Aquatic Science and Technology       | Switzerland     | ET             |                            |
 | Env_Anal_Chem_U_Tuebingen | Environmental Analytical Chemistry, University of Tuebingen             | Germany         | TUE            |                            |
-| Fac_Eng_Univ_Tokyo        | Faculty of Engineering ďż˝ The University of Tokyo                      | Japan           | JP             |                            |
+| Fac_Eng_Univ_Tokyo        | Faculty of Engineering, The University of Tokyo                         | Japan           | JP             |                            |
 | Fiocruz                   | Oswaldo Cruz Foundation, Minas Gerais                                   | Brazil          | FIO            |                            |
 | Fukuyama_Univ             | Fukuyama University                                                     | Japan           | FU             |                            |
 | GL_Sciences_Inc           | GL Sciences Inc.                                                        | Japan           | GLS            |                            |
 | HBM4EU                    | HBM4EU - Science and policy for a healthy future                        |                 | HB             | HBM4EU                     |
-| IPB_Halle                 | Leibniz Institute for Plant Biochemistry Halle                          | Germany         | PB             |                            |
-| ISAS_Dortmund             | Leibniz Institut für Analytische Wissenschaften - ISAS - e.V.           | Germany         | IS             |                            |
+| IPB_Halle                 | Leibniz Institute for Plant Biochemistry Halle                          | Germany         | PB, PN             |                            |
+| ISAS_Dortmund             | Leibniz Institut für Analytische Wissenschaften - ISAS - e.V.           | Germany         | IA             |                            |
 | JEOL_Ltd                  | JEOL Ltd.                                                               | Japan           | JEL            |                            |
 | Kazusa                    | Kazusa DNA Res. Inst.                                                   | Japan           | KZ             |                            |
 | Keio_Univ                 | Keio University                                                         | Japan           | KO             |                            |
@@ -35,11 +35,13 @@
 | Osaka_Univ                | Grad.Sch.Eng., Osaka Univ.                                              | Japan           | OUF            |                            |
 | PFOS_research_group       | PFOS research group                                                     | Japan           | FFF            |                            |
 | RIKEN                     | RIKEN Plant Science Center                                              | Japan           | PR             |                            |
-| Sangyo                    | University of Occupational and Environmental Health                     | Japan           | UO             |                            |
+| RIKEN_IMS                 | RIKEN Center for Integrative Medical Sciences                           | Japan             | LQA, LQB       |                            |
+| RIKEN_NPDepo              | RIKEN Center for Sustainable Resource Science                           | Japan             | NGA, CB        |                            |
 | Tottori_Univ              | Tottori University                                                      | Japan           | TT             |                            |
-| Uconn                     | University of Connecticut                                               | USA             | CO             |                            |
-| UFZ                       | Helmholtz Centre for Environmental Research  - UFZ                      | Germany         | UF, UA, UP, UN | SOLUTIONS, NATOXAQ, HBM4EU |
-| Univ_Connecticut          | Universidad Privada Antenor Orrego                                      | Peru            | UPA            |                            |
+| UFZ                       | Helmholtz Centre for Environmental Research  - UFZ                      | Germany         | UF, UA         | SOLUTIONS, NATOXAQ, HBM4EU |
+| Univ_Connecticut          | University of Connecticut                                               | USA             | CO             |                            |
 | Univ_Toyama               | University of Toyama                                                    | Japan           | TY             |                            |
+| UOEH                      | University of Occupational and Environmental Health                     | Japan           | UO             |                            |
+| UPAO                      | Universidad Privada Antenor Orrego                                      | Peru            | UPA            |                            |
 | Washington_State_Univ     | Washington State University                                             | USA             | BML            |                            |
 | Waters                    | Nihon Waters K.K.                                                       | Japan           | WA             |                            |
