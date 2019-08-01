@@ -1,0 +1,49 @@
+ACCESSION: PT103313
+RECORD_TITLE: 2-PAM, Protopam chloride, 2-Formyl-1-methylpyridinium chloride oxime, 1-Methyl-2-aldoximinopyridinium chloride, [(E)-(1-methylpyridin-2-ylidene)methyl]-oxoazanium, Pyridine-2-carbaldoxime Methochloride, Pralidoxime chloride, Pyridine-2-aldoxime methochloride; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 2-PAM
+CH$NAME: Protopam chloride
+CH$NAME: 2-Formyl-1-methylpyridinium chloride oxime
+CH$NAME: 1-Methyl-2-aldoximinopyridinium chloride
+CH$NAME: [(E)-(1-methylpyridin-2-ylidene)methyl]-oxoazanium
+CH$NAME: Pyridine-2-carbaldoxime Methochloride
+CH$NAME: Pralidoxime chloride
+CH$NAME: Pyridine-2-aldoxime methochloride
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Other
+CH$FORMULA: [C7H9N2O]+
+CH$EXACT_MASS: 137.162
+CH$SMILES: CN1C=CC=CC1=C[NH+]=O
+CH$IUPAC: InChI=1S/C7H8N2O/c1-9-5-3-2-4-7(9)6-8-10/h2-6H,1H3/p+1
+CH$LINK: CAS 6735-59-7
+CH$LINK: INCHIKEY JBKPUQTUERUYQE-UHFFFAOYSA-O
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 137.07146
+PK$SPLASH: splash10-00kf-9200000000-7ee2419716b3f943ce85
+PK$NUM_PEAK: 12
+PK$PEAK: m/z int. rel.int.
+  65.0385 107.1 101
+  66.0465 156.8 148
+  67.0419 63.44 60
+  78.0336 156.0 147
+  79.0409 17.42 16
+  92.0491 360.4 341
+  93.0568 1057.0 999
+  96.0438 31.29 30
+  110.0587 69.83 66
+  119.06 476.1 450
+  120.0673 22.01 21
+  137.0715 16.44 16
+//

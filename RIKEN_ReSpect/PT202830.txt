@@ -1,0 +1,42 @@
+ACCESSION: PT202830
+RECORD_TITLE: L-Norleucine, Nle, (2S)-2-aminohexanoic acid, alpha-Aminocaproic acid, (S)-(+)-2-Aminohexanoic acid, (S)-2-Aminocaproic acid, Norleucine, Glycoleucine, Caprine, L-2-Aminohexanoate; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: L-Norleucine
+CH$NAME: Nle
+CH$NAME: (2S)-2-aminohexanoic acid
+CH$NAME: alpha-Aminocaproic acid
+CH$NAME: (S)-(+)-2-Aminohexanoic acid
+CH$NAME: (S)-2-Aminocaproic acid
+CH$NAME: Norleucine
+CH$NAME: Glycoleucine
+CH$NAME: Caprine
+CH$NAME: L-2-Aminohexanoate
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Leucine
+CH$FORMULA: C6H13NO2
+CH$EXACT_MASS: 131.175
+CH$SMILES: CCCCC(C(=O)O)N
+CH$IUPAC: InChI=1S/C6H13NO2/c1-2-3-4-5(7)6(8)9/h5H,2-4,7H2,1H3,(H,8,9)
+CH$LINK: CAS 327-57-1
+CH$LINK: INCHIKEY LRQKBLKVPFOOQJ-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 130.08682
+PK$SPLASH: splash10-001i-0900000000-bc56a19fa8c09e226543
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  84.0828 3.929 13
+  130.0868 297.7 999
+  130.2671 3.527 12
+//

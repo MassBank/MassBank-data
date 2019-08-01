@@ -1,0 +1,41 @@
+ACCESSION: PT108360
+RECORD_TITLE: (2S,3R,4S,5S,6R)-2-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxychromenylium-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol, Asterin, Glucocyanidin, cyanidin-3-glucoside chloride, Cyanidin 3-beta-glucopyranoside, 3,3',4',5,7-Pentahydroxyflavylium chloride, 3-glucoside, Chrysontemin, Kuromanin, Cynd-3-Glc, Chrysanthemin; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: (2S,3R,4S,5S,6R)-2-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxychromenylium-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol
+CH$NAME: Asterin
+CH$NAME: Glucocyanidin
+CH$NAME: cyanidin-3-glucoside chloride
+CH$NAME: Cyanidin 3-beta-glucopyranoside
+CH$NAME: 3,3',4',5,7-Pentahydroxyflavylium chloride, 3-glucoside
+CH$NAME: Chrysontemin
+CH$NAME: Kuromanin
+CH$NAME: Cynd-3-Glc
+CH$NAME: Chrysanthemin
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Anthocyanin CLASS3 Cyanidin glycoside
+CH$FORMULA: [C21H21O11]+
+CH$EXACT_MASS: 449.388
+CH$SMILES: C1=CC(=C(C=C1C2=C(C=C3C(=CC(=CC3=[O+]2)O)O)OC4C(C(C(C(O4)CO)O)O)O)O)O
+CH$IUPAC: InChI=1S/C21H20O11/c22-7-16-17(27)18(28)19(29)21(32-16)31-15-6-10-12(25)4-9(23)5-14(10)30-20(15)8-1-2-11(24)13(26)3-8/h1-6,16-19,21-22,27-29H,7H2,(H3-,23,24,25,26)/p+1
+CH$LINK: CAS 7084-24-4
+CH$LINK: INCHIKEY RKWHWFONKJEUEF-UHFFFAOYSA-O
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 449.10836
+PK$SPLASH: splash10-000i-0090100000-1dc5f0ee658f46d936df
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  287.0566 6237.0 999
+  449.1084 780.0 125
+//

@@ -1,0 +1,40 @@
+ACCESSION: PT103330
+RECORD_TITLE: Quisqualic acid, Quisqualate, (2S)-2-amino-3-(3,5-dioxo-1,2,4-oxadiazolidin-2-yl)propanoic acid, L-(+)-a-Amino-3,5-dioxo-1,2,4-oxadiazolidine-2-propanoic Acid, 3-(3,5-Dioxo-1,2,4-oxadiazolidin-2-yl)-L-alanine; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Quisqualic acid
+CH$NAME: Quisqualate
+CH$NAME: (2S)-2-amino-3-(3,5-dioxo-1,2,4-oxadiazolidin-2-yl)propanoic acid
+CH$NAME: L-(+)-a-Amino-3,5-dioxo-1,2,4-oxadiazolidine-2-propanoic Acid
+CH$NAME: 3-(3,5-Dioxo-1,2,4-oxadiazolidin-2-yl)-L-alanine
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Quisqualic acid
+CH$FORMULA: C5H7N3O5
+CH$EXACT_MASS: 189.127
+CH$SMILES: C(C(C(=O)O)N)N1C(=O)NC(=O)O1
+CH$IUPAC: InChI=1S/C5H7N3O5/c6-2(3(9)10)1-8-4(11)7-5(12)13-8/h2H,1,6H2,(H,9,10)(H,7,11,12)
+CH$LINK: CAS 52809-07-1
+CH$LINK: INCHIKEY ASNFTDCKZKHJSW-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 190.04637
+PK$SPLASH: splash10-0006-1900000000-52642d4aa31305121e49
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  57.0458 13.81 437
+  133.0176 11.43 362
+  144.0412 31.54 999
+  149.0433 12.73 403
+  151.0212 5.133 163
+  190.0464 25.7 814
+//

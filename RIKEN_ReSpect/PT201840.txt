@@ -1,0 +1,38 @@
+ACCESSION: PT201840
+RECORD_TITLE: Creatine,anhydrous, Krebiozon, alpha-Methylguanidinoacetic Acid, Methyl Glycocyamine, (alpha-Methylguanido)acetic acid, 2-(carbamimidoyl-methylamino)acetic acid, N-Amidinosarcosine; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Creatine,anhydrous
+CH$NAME: Krebiozon
+CH$NAME: alpha-Methylguanidinoacetic Acid
+CH$NAME: Methyl Glycocyamine
+CH$NAME: (alpha-Methylguanido)acetic acid
+CH$NAME: 2-(carbamimidoyl-methylamino)acetic acid
+CH$NAME: N-Amidinosarcosine
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Creatine
+CH$FORMULA: C4H9N3O2
+CH$EXACT_MASS: 131.135
+CH$SMILES: CN(CC(=O)O)C(=N)N
+CH$IUPAC: InChI=1S/C4H9N3O2/c1-7(4(5)6)2-3(8)9/h2H2,1H3,(H3,5,6)(H,8,9)
+CH$LINK: CAS 57-00-1
+CH$LINK: INCHIKEY CVSVTCORWBXHQV-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 130.06167
+PK$SPLASH: splash10-000i-9000000000-d1ec8777bb4c780ed68b
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  88.0423 75.28 999
+  130.0617 3.819 51
+//

@@ -1,0 +1,36 @@
+ACCESSION: PT101660
+RECORD_TITLE: Adenosine-5'-diphospho-glucose disodium salt, ADP-Glucose, ADP-glc, [[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] hydrogen phosphate, ADPG; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Adenosine-5'-diphospho-glucose disodium salt
+CH$NAME: ADP-Glucose
+CH$NAME: ADP-glc
+CH$NAME: [[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] hydrogen phosphate
+CH$NAME: ADPG
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Adenosine phosphate
+CH$FORMULA: C16H25N5O15P2
+CH$EXACT_MASS: 589.348
+CH$SMILES: C1=NC2=C(C(=N1)N)N=CN2C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OC4C(C(C(C(O4)CO)O)O)O)O)O
+CH$IUPAC: InChI=1S/C16H25N5O15P2/c17-13-7-14(19-3-18-13)21(4-20-7)15-11(26)9(24)6(33-15)2-32-37(28,29)36-38(30,31)35-16-12(27)10(25)8(23)5(1-22)34-16/h3-6,8-12,15-16,22-27H,1-2H2,(H,28,29)(H,30,31)(H2,17,18,19)
+CH$LINK: CAS 2140-58-1
+CH$LINK: INCHIKEY WFPZSXYXPSUOPY-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 590.09004
+PK$SPLASH: splash10-0006-0000290000-7f66f6e8af24e4839d36
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  428.0426 13.83 321
+  590.09 43.06 999
+//

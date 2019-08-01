@@ -1,0 +1,40 @@
+ACCESSION: PT207010
+RECORD_TITLE: methyl 2-[(1R,2R)-3-oxo-2-[(Z)-pent-2-enyl]cyclopentyl]acetate, Jasmonic acid methyl ester, 3-Oxo-2-(2-pentenyl)cyclopentaneacetic Acid Methyl Ester, Zeppin, Methyl 3-oxo-2-(2-pentenyl)cyclopentaneacetate, JA-Me, Methyl Jasmonate; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: methyl 2-[(1R,2R)-3-oxo-2-[(Z)-pent-2-enyl]cyclopentyl]acetate
+CH$NAME: Jasmonic acid methyl ester
+CH$NAME: 3-Oxo-2-(2-pentenyl)cyclopentaneacetic Acid Methyl Ester
+CH$NAME: Zeppin
+CH$NAME: Methyl 3-oxo-2-(2-pentenyl)cyclopentaneacetate
+CH$NAME: JA-Me
+CH$NAME: Methyl Jasmonate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Jasmonic acid
+CH$FORMULA: C13H20O3
+CH$EXACT_MASS: 224.3
+CH$SMILES: CCC=CCC1C(CCC1=O)CC(=O)OC
+CH$IUPAC: InChI=1S/C13H20O3/c1-3-4-5-6-11-10(7-8-12(11)14)9-13(15)16-2/h4-5,10-11H,3,6-9H2,1-2H3
+CH$LINK: CAS 1211-29-6
+CH$LINK: INCHIKEY GEWDNTWNSAZUDX-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 223.13344
+PK$SPLASH: splash10-00di-1190000000-943fc4cad10af285a2be
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  74.9733 132.0 237
+  148.9725 111.3 199
+  206.9468 37.71 68
+  222.973 557.4 999
+//

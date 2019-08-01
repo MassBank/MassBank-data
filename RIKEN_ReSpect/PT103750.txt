@@ -1,0 +1,41 @@
+ACCESSION: PT103750
+RECORD_TITLE: alpha,alpha-Dimethylglycine, 2-amino-2-methylpropanoic acid, 2-Methylalanine, alpha-Aminoisobutyric acid, 2-Amino-2-methylpropanoate, Aib, 2-Aminoisobutyric acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: alpha,alpha-Dimethylglycine
+CH$NAME: 2-amino-2-methylpropanoic acid
+CH$NAME: 2-Methylalanine
+CH$NAME: alpha-Aminoisobutyric acid
+CH$NAME: 2-Amino-2-methylpropanoate
+CH$NAME: Aib
+CH$NAME: 2-Aminoisobutyric acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Alanine
+CH$FORMULA: C4H9NO2
+CH$EXACT_MASS: 103.121
+CH$SMILES: CC(C)(C(=O)O)N
+CH$IUPAC: InChI=1S/C4H9NO2/c1-4(2,5)3(6)7/h5H2,1-2H3,(H,6,7)
+CH$LINK: CAS 62-57-7
+CH$LINK: INCHIKEY FUOOLUPWFVMBKG-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 104.07113
+PK$SPLASH: splash10-0pb9-9500000000-2f9ed721c06843a9df2b
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  58.0656 177.8 999
+  59.0503 17.96 101
+  87.0447 10.77 61
+  99.5117 4.289 24
+  104.0711 126.4 710
+//

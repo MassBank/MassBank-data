@@ -1,0 +1,38 @@
+ACCESSION: PT208803
+RECORD_TITLE: 2-hydroxy-6-propan-2-ylcyclohepta-2,4,6-trien-1-one, 4-Isopropyltropolon, 2-Hydroxy-4-isopropyl-2,4,6-cycloheptatrien-1-one, Hinokitiol, beta-Thujaplicin, beta.-Thujaplicine; LC-ESI-QTOF; MS2
+DATE: 2008.07.29
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 2-hydroxy-6-propan-2-ylcyclohepta-2,4,6-trien-1-one
+CH$NAME: 4-Isopropyltropolon
+CH$NAME: 2-Hydroxy-4-isopropyl-2,4,6-cycloheptatrien-1-one
+CH$NAME: Hinokitiol
+CH$NAME: beta-Thujaplicin
+CH$NAME: beta.-Thujaplicine
+CH$COMPOUND_CLASS: CLASS1 Terpenoid CLASS2 Monoterpenoid CLASS3 Hinokitiol
+CH$FORMULA: C10H12O2
+CH$EXACT_MASS: 164.204
+CH$SMILES: CC(C)C1=CC(=O)C(=CC=C1)O
+CH$IUPAC: InChI=1S/C10H12O2/c1-7(2)8-4-3-5-9(11)10(12)6-8/h3-7H,1-2H3,(H,11,12)
+CH$LINK: CAS 499-44-5
+CH$LINK: INCHIKEY FUWUEFKEXZQKKA-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 163.07593
+PK$SPLASH: splash10-0002-0900000000-fb7ac03eae1dde57ce15
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  119.0682 4.781 52
+  145.9132 92.36 999
+  162.9191 8.99 97
+//

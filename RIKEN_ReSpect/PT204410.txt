@@ -1,0 +1,35 @@
+ACCESSION: PT204410
+RECORD_TITLE: (E)-N-[(4-hydroxy-3-methoxyphenyl)methyl]-8-methylnon-6-enamide, 8-(4-hydroxy-3-methoxybenzyl)carbamoyl-8-methyl-5-octane, 8-methyl-N-vanillyl-6-nonenamide, Capsaicin; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: (E)-N-[(4-hydroxy-3-methoxyphenyl)methyl]-8-methylnon-6-enamide
+CH$NAME: 8-(4-hydroxy-3-methoxybenzyl)carbamoyl-8-methyl-5-octane
+CH$NAME: 8-methyl-N-vanillyl-6-nonenamide
+CH$NAME: Capsaicin
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Capsaicin
+CH$FORMULA: C18H27NO3
+CH$EXACT_MASS: 305.418
+CH$SMILES: CC(C)C=CCCCCC(=O)NCC1=CC(=C(C=C1)O)OC
+CH$IUPAC: InChI=1S/C18H27NO3/c1-14(2)8-6-4-5-7-9-18(21)19-13-15-10-11-16(20)17(12-15)22-3/h6,8,10-12,14,20H,4-5,7,9,13H2,1-3H3,(H,19,21)
+CH$LINK: CAS 404-86-4
+CH$LINK: INCHIKEY YKPUWZUDDOIDPM-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 304.19128
+PK$SPLASH: splash10-014i-0901000000-adba1bb6f254087febe8
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  168.1418 113.0 999
+  304.1913 15.26 135
+//

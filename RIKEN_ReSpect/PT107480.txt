@@ -1,0 +1,46 @@
+ACCESSION: PT107480
+RECORD_TITLE: (2S)-2-amino-5-[[(2R)-1-hydroxy-1-oxo-3-sulfanylpropan-2-yl]amino]-5-oxopentanoic acid, L-gamma-Glutamyl-L-cysteine, L-gamma-Glutamylcysteine, gamma-Glu-Cys, Des-Gly-glutathione Reduced Form, 5-L-Glutamyl-L-cysteine; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: (2S)-2-amino-5-[[(2R)-1-hydroxy-1-oxo-3-sulfanylpropan-2-yl]amino]-5-oxopentanoic acid
+CH$NAME: L-gamma-Glutamyl-L-cysteine
+CH$NAME: L-gamma-Glutamylcysteine
+CH$NAME: gamma-Glu-Cys
+CH$NAME: Des-Gly-glutathione Reduced Form
+CH$NAME: 5-L-Glutamyl-L-cysteine
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Cysteine
+CH$FORMULA: C8H14N2O5S
+CH$EXACT_MASS: 250.274
+CH$SMILES: C(CC(=O)NC(CS)C(=O)O)C(C(=O)O)N
+CH$IUPAC: InChI=1S/C8H14N2O5S/c9-4(7(12)13)1-2-6(11)10-5(3-16)8(14)15/h4-5,16H,1-3,9H2,(H,10,11)(H,12,13)(H,14,15)
+CH$LINK: CAS 636-58-8
+CH$LINK: INCHIKEY RITKHVBHSGLULN-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 251.07014
+PK$SPLASH: splash10-001i-9510000000-5f29ca903abe05256c83
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  74.0229 7.429 90
+  84.0455 82.42 999
+  85.0449 6.891 84
+  120.0135 6.746 82
+  122.029 9.162 111
+  130.0507 19.48 236
+  151.986 9.318 113
+  186.0245 9.09 110
+  188.0435 4.171 51
+  241.0334 10.08 122
+  251.0701 4.29 52
+//

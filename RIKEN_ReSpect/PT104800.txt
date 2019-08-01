@@ -1,0 +1,40 @@
+ACCESSION: PT104800
+RECORD_TITLE: dGMP, [(2R,3S,5R)-5-(2-amino-6-oxo-3H-purin-9-yl)-3-hydroxyoxolan-2-yl]methyl dihydrogen phosphate, Deoxy-GMP, 5'-Deoxyguanylic acid, 2'-deoxyguanosine 5'-monophosphate sodium salt hydrate, vernine; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: dGMP
+CH$NAME: [(2R,3S,5R)-5-(2-amino-6-oxo-3H-purin-9-yl)-3-hydroxyoxolan-2-yl]methyl dihydrogen phosphate
+CH$NAME: Deoxy-GMP
+CH$NAME: 5'-Deoxyguanylic acid
+CH$NAME: 2'-deoxyguanosine 5'-monophosphate sodium salt hydrate
+CH$NAME: vernine
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleoside CLASS3 Guanosine phosphate
+CH$FORMULA: C10H14N5O7P
+CH$EXACT_MASS: 347.226
+CH$SMILES: C1C(C(OC1N2C=NC3=C2NC(=NC3=O)N)COP(=O)(O)O)O
+CH$IUPAC: InChI=1S/C10H14N5O7P/c11-10-13-8-7(9(17)14-10)12-3-15(8)6-1-4(16)5(22-6)2-21-23(18,19)20/h3-6,16H,1-2H2,(H2,18,19,20)(H3,11,13,14,17)
+CH$LINK: CAS 902-04-5
+CH$LINK: INCHIKEY LTFMZDNNPPEQNG-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 348.07088
+PK$SPLASH: splash10-0udi-0900000000-dab30b9a6de3477fa70e
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  81.0342 710.8 118
+  110.0361 378.6 63
+  135.0319 1260.0 210
+  152.0584 6004.0 999
+  348.0727 99.82 17
+//

@@ -1,0 +1,39 @@
+ACCESSION: PT207180
+RECORD_TITLE: (2S)-2-amino-3-(3H-imidazol-4-yl)propanoic acid, L-Histidine, Glyoxaline-5-alanine, L-alpha-Amino-beta-imidazolepropionic Acid, (S)-2-Amino-3-(4-imidazolyl)propionic acid, L-His; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: (2S)-2-amino-3-(3H-imidazol-4-yl)propanoic acid
+CH$NAME: L-Histidine
+CH$NAME: Glyoxaline-5-alanine
+CH$NAME: L-alpha-Amino-beta-imidazolepropionic Acid
+CH$NAME: (S)-2-Amino-3-(4-imidazolyl)propionic acid
+CH$NAME: L-His
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Histidine
+CH$FORMULA: C6H9N3O2
+CH$EXACT_MASS: 155.157
+CH$SMILES: C1=C(NC=N1)CC(C(=O)O)N
+CH$IUPAC: InChI=1S/C6H9N3O2/c7-5(6(10)11)1-4-2-8-3-9-4/h2-3,5H,1,7H2,(H,8,9)(H,10,11)
+CH$LINK: CAS 71-00-1
+CH$LINK: INCHIKEY HNDVDQJCIGZPNO-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 154.06167
+PK$SPLASH: splash10-0udi-2900000000-fe149448da604682a5a4
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  93.0466 87.38 413
+  110.0721 23.23 110
+  137.0345 54.39 257
+  154.0617 211.2 999
+//

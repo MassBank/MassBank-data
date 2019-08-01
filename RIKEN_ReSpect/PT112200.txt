@@ -1,0 +1,39 @@
+ACCESSION: PT112200
+RECORD_TITLE: Cy 3-Samb, Sambicyanin, 3,5,7,3',4'-pentahydroxyflavylium-3-O-beta-D-xylopyranosyl-(1-2)-beta-D-glucopyranoside, Gossypicyanin, cyanidine-3-sambubioside, cyanidin-3-xyloglucoside, (2S,3R,4S,5R)-2-[(2S,3R,4S,5S,6R)-2-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxychromenylium-3-yl]oxy-4,5-dihydroxy-6-(hydroxymethyl)oxan-3-yl]oxyoxane-3,4,5-triol, Cyanidin-3-O-(2''-O-beta-xylopyranosyl-beta-glucopyranoside); LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Cy 3-Samb
+CH$NAME: Sambicyanin
+CH$NAME: 3,5,7,3',4'-pentahydroxyflavylium-3-O-beta-D-xylopyranosyl-(1-2)-beta-D-glucopyranoside
+CH$NAME: Gossypicyanin
+CH$NAME: cyanidine-3-sambubioside
+CH$NAME: cyanidin-3-xyloglucoside
+CH$NAME: (2S,3R,4S,5R)-2-[(2S,3R,4S,5S,6R)-2-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxychromenylium-3-yl]oxy-4,5-dihydroxy-6-(hydroxymethyl)oxan-3-yl]oxyoxane-3,4,5-triol
+CH$NAME: Cyanidin-3-O-(2''-O-beta-xylopyranosyl-beta-glucopyranoside)
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Anthocyanin CLASS3 Cyanidin glycoside
+CH$FORMULA: [C26H29O15]+
+CH$EXACT_MASS: 581.503
+CH$SMILES: C1C(C(C(C(O1)OC2C(C(C(OC2OC3=C([O+]=C4C=C(C=C(C4=C3)O)O)C5=CC(=C(C=C5)O)O)CO)O)O)O)O)O
+CH$IUPAC: InChI=1S/C26H28O15/c27-7-18-20(34)21(35)24(41-25-22(36)19(33)15(32)8-37-25)26(40-18)39-17-6-11-13(30)4-10(28)5-16(11)38-23(17)9-1-2-12(29)14(31)3-9/h1-6,15,18-22,24-27,32-36H,7-8H2,(H3-,28,29,30,31)/p+1
+CH$LINK: CAS 33012-73-6
+CH$LINK: INCHIKEY ZPPQIOUITZSYAO-UHFFFAOYSA-O
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 581.15061
+PK$SPLASH: splash10-000i-0090010000-080bf30b69192191a816
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  287.0562 3747.0 999
+  581.1506 748.6 200
+//

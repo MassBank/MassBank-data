@@ -1,0 +1,48 @@
+ACCESSION: PT104090
+RECORD_TITLE: Meletin, Quercitin, Quertine, Quercetol, Quercetin, Kvercetin, Quer, 2-(3,4-dihydroxyphenyl)-3,5,7-trihydroxychromen-4-one, Flavin meletin, 2-(3,4-Dihydroxyphenyl)-3,5,7-trihydroxy-4H-1-benzopyran-4-one, 3,3',4',5,7-pentahydroxyflavone, Quercetine, Xanthaurine, Sophoretin, 3',4',5,7-Tetrahydroxyflavan-3-ol; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Meletin
+CH$NAME: Quercitin
+CH$NAME: Quertine
+CH$NAME: Quercetol
+CH$NAME: Quercetin
+CH$NAME: Kvercetin
+CH$NAME: Quer
+CH$NAME: 2-(3,4-dihydroxyphenyl)-3,5,7-trihydroxychromen-4-one
+CH$NAME: Flavin meletin
+CH$NAME: 2-(3,4-Dihydroxyphenyl)-3,5,7-trihydroxy-4H-1-benzopyran-4-one
+CH$NAME: 3,3',4',5,7-pentahydroxyflavone
+CH$NAME: Quercetine
+CH$NAME: Xanthaurine
+CH$NAME: Sophoretin
+CH$NAME: 3',4',5,7-Tetrahydroxyflavan-3-ol
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Flavonol CLASS3 Quercetin
+CH$FORMULA: C15H10O7
+CH$EXACT_MASS: 302.238
+CH$SMILES: C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O
+CH$IUPAC: InChI=1S/C15H10O7/c16-7-4-10(19)12-11(5-7)22-15(14(21)13(12)20)6-1-2-8(17)9(18)3-6/h1-5,16-19,21H
+CH$LINK: CAS 117-39-5
+CH$LINK: INCHIKEY REFJWTPEDVJJIY-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 303.05045
+PK$SPLASH: splash10-0udi-0219000000-547c83bb70e7da007d6c
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  137.0241 9.99 96
+  153.0195 14.62 141
+  229.0485 12.37 119
+  303.0504 103.6 999
+//

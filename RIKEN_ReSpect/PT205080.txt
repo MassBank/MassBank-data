@@ -1,0 +1,40 @@
+ACCESSION: PT205080
+RECORD_TITLE: 4-(Methylthio)butylglucosinolate, Glucoerucin, [[5-methylsulfanyl-1-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]sulfanylpentylidene]amino] hydrogen sulfate, 4-methylthiobutyl glucosinolate, 4MTB; LC-ESI-QTOF; MS2
+DATE: 2008.09.26
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 4-(Methylthio)butylglucosinolate
+CH$NAME: Glucoerucin
+CH$NAME: [[5-methylsulfanyl-1-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]sulfanylpentylidene]amino] hydrogen sulfate
+CH$NAME: 4-methylthiobutyl glucosinolate
+CH$NAME: 4MTB
+CH$COMPOUND_CLASS: CLASS1 Glucosinolate CLASS2 Aliphatic glucosinolate
+CH$FORMULA: C12H23NO9S3
+CH$EXACT_MASS: 421.509
+CH$SMILES: CSCCCCC(=NOS(=O)(=O)O)SC1C(C(C(C(O1)CO)O)O)O
+CH$IUPAC: InChI=1S/C12H23NO9S3/c1-23-5-3-2-4-8(13-22-25(18,19)20)24-12-11(17)10(16)9(15)7(6-14)21-12/h7,9-12,14-17H,2-6H2,1H3,(H,18,19,20)
+CH$LINK: CAS 21973-56-8
+CH$LINK: INCHIKEY GKUMMDFLKGFCKH-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 420.04567
+PK$SPLASH: splash10-006t-9000300000-6361a4779bc242e39c80
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  74.9939 3662.0 560
+  79.9601 968.0 148
+  95.9546 4188.0 640
+  96.9622 6537.0 999
+  420.0457 5328.0 814
+  420.561 515.9 79
+//

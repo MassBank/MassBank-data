@@ -1,0 +1,39 @@
+ACCESSION: PT110740
+RECORD_TITLE: 3-Methylsulfinylpropyl glucosinolate, beta-D-Glucopyranose,1-thio-,1-(4-(methylsulfinyl)-N-(sulfooxy)butanimidate), [[4-methylsulfinyl-1-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]sulfanylbutylidene]amino] hydrogen sulfate, 3-(Methylsulfinyl)propylglucosinolate, Glucoiberin; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 3-Methylsulfinylpropyl glucosinolate
+CH$NAME: beta-D-Glucopyranose,1-thio-,1-(4-(methylsulfinyl)-N-(sulfooxy)butanimidate)
+CH$NAME: [[4-methylsulfinyl-1-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]sulfanylbutylidene]amino] hydrogen sulfate
+CH$NAME: 3-(Methylsulfinyl)propylglucosinolate
+CH$NAME: Glucoiberin
+CH$COMPOUND_CLASS: CLASS1 Glucosinolate CLASS2 Aliphatic glucosinolate
+CH$FORMULA: C11H21NO10S3
+CH$EXACT_MASS: 423.481
+CH$SMILES: CS(=O)CCCC(=NOS(=O)(=O)O)SC1C(C(C(C(O1)CO)O)O)O
+CH$IUPAC: InChI=1S/C11H21NO10S3/c1-24(17)4-2-3-7(12-22-25(18,19)20)23-11-10(16)9(15)8(14)6(5-13)21-11/h6,8-11,13-16H,2-5H2,1H3,(H,18,19,20)
+CH$LINK: CAS 554-88-1
+CH$LINK: INCHIKEY PHYYADMVYQURSX-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 461.99644
+PK$SPLASH: splash10-001i-0139200000-0d7d6b48054acde76a14
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  170.0009 11.06 144
+  219.9893 19.85 258
+  246.0134 13.33 173
+  382.0433 76.78 999
+  461.9964 18.13 236
+//

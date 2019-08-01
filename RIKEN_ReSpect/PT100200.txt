@@ -1,0 +1,43 @@
+ACCESSION: PT100200
+RECORD_TITLE: (R)-(-)-Phenylephrine hydrochloride, Mesaton, Neo-Synephrine, 3-[(1R)-1-hydroxy-2-methylaminoethyl]phenol, L-(3-Hydroxyphenyl)-N-methylethanolamine hydrochloride, Visadron, Metasympatol, (R)-(?)-1-(3-Hydroxyphenyl)-2-methylaminoethanol hydrochloride, m-Sympatol, m-Oxedrine, Metaoxedrine, Mezaton; LC-ESI-QTOF; MS2
+DATE: 2008.07.24
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: (R)-(-)-Phenylephrine hydrochloride
+CH$NAME: Mesaton
+CH$NAME: Neo-Synephrine
+CH$NAME: 3-[(1R)-1-hydroxy-2-methylaminoethyl]phenol
+CH$NAME: L-(3-Hydroxyphenyl)-N-methylethanolamine hydrochloride
+CH$NAME: Visadron
+CH$NAME: Metasympatol
+CH$NAME: (R)-(?)-1-(3-Hydroxyphenyl)-2-methylaminoethanol hydrochloride
+CH$NAME: m-Sympatol
+CH$NAME: m-Oxedrine
+CH$NAME: Metaoxedrine
+CH$NAME: Mezaton
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Phenylephrine
+CH$FORMULA: C9H13NO2
+CH$EXACT_MASS: 167.208
+CH$SMILES: CNCC(C1=CC(=CC=C1)O)O
+CH$IUPAC: InChI=1S/C9H13NO2/c1-10-6-9(12)7-3-2-4-8(11)5-7/h2-5,9-12H,6H2,1H3
+CH$LINK: CAS 59-42-7
+CH$LINK: INCHIKEY SONNWYBIRXJNDC-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 168.10242
+PK$SPLASH: splash10-014i-0900000000-4a910a2109ba191b96e7
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  150.0875 512.0 278
+  168.096 1841.0 999
+//

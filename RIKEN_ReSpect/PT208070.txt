@@ -1,0 +1,41 @@
+ACCESSION: PT208070
+RECORD_TITLE: [(2R)-1-dodecanoyloxy-3-phosphonooxypropan-2-yl] dodecanoate, 12:0/12:0PA, 1,2-Dilauroyl-sn-Glycero-3-Phosphate Monosodium Salt, Dilauroylphosphatidic acid, DLPA, 1,2-Didodecanoyl phosphatidyl 1'-sn-glycerol; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: [(2R)-1-dodecanoyloxy-3-phosphonooxypropan-2-yl] dodecanoate
+CH$NAME: 12:0/12:0PA
+CH$NAME: 1,2-Dilauroyl-sn-Glycero-3-Phosphate Monosodium Salt
+CH$NAME: Dilauroylphosphatidic acid
+CH$NAME: DLPA
+CH$NAME: 1,2-Didodecanoyl phosphatidyl 1'-sn-glycerol
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Phospholipid CLASS3 Phosphatidylglycerol
+CH$FORMULA: C27H53O8P
+CH$EXACT_MASS: 536.689
+CH$SMILES: CCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)OC(=O)CCCCCCCCCCC
+CH$IUPAC: InChI=1S/C27H53O8P/c1-3-5-7-9-11-13-15-17-19-21-26(28)33-23-25(24-34-36(30,31)32)35-27(29)22-20-18-16-14-12-10-8-6-4-2/h25H,3-24H2,1-2H3,(H2,30,31,32)
+CH$LINK: CAS 108321-06-8
+CH$LINK: INCHIKEY OKLASJZQBDJAPH-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 535.33999
+PK$SPLASH: splash10-000b-0902030000-d8990bf455527424fbdf
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  78.9609 9.583 105
+  152.9967 30.72 336
+  199.1703 91.46 999
+  335.1658 19.35 211
+  353.1725 8.713 95
+  535.34 45.42 496
+//

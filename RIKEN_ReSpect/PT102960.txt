@@ -1,0 +1,44 @@
+ACCESSION: PT102960
+RECORD_TITLE: Inversine hydrochloride, N,5,6,6-tetramethylbicyclo[2.2.1]heptan-5-amine, 3-Methylaminoisocamphane hydrochloride, 2-(Methylamino)isocamphane hydrochloride, N,2,3,3-Tetramethyl-2-norbornanamine hydrochloride, Mecamine hydrochloride, N,2,3,3-Tetramethylbicyclo(2.2.1)heptan-2-amine hydrochloride, Mecamylamine hydrochloride, Mevasin hydrochloride; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Inversine hydrochloride
+CH$NAME: N,5,6,6-tetramethylbicyclo[2.2.1]heptan-5-amine
+CH$NAME: 3-Methylaminoisocamphane hydrochloride
+CH$NAME: 2-(Methylamino)isocamphane hydrochloride
+CH$NAME: N,2,3,3-Tetramethyl-2-norbornanamine hydrochloride
+CH$NAME: Mecamine hydrochloride
+CH$NAME: N,2,3,3-Tetramethylbicyclo(2.2.1)heptan-2-amine hydrochloride
+CH$NAME: Mecamylamine hydrochloride
+CH$NAME: Mevasin hydrochloride
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Other
+CH$FORMULA: C11H21N
+CH$EXACT_MASS: 167.296
+CH$SMILES: CC1(C2CCC(C2)C1(C)NC)C
+CH$IUPAC: InChI=1S/C11H21N/c1-10(2)8-5-6-9(7-8)11(10,3)12-4/h8-9,12H,5-7H2,1-4H3
+CH$LINK: CAS 60-40-2
+CH$LINK: INCHIKEY IMYZQPCYWPFTAG-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 168.17519
+PK$SPLASH: splash10-001r-9500000000-4e031bcaa41c1a77d136
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  67.0552 246.5 53
+  79.0547 282.9 61
+  81.0698 4639.0 999
+  95.0862 744.3 160
+  137.1317 2717.0 585
+  168.1752 580.4 125
+//

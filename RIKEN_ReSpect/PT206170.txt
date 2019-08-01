@@ -1,0 +1,37 @@
+ACCESSION: PT206170
+RECORD_TITLE: (R)-3-Amino-4-methylvaleric acid, L-beta-Leucine hydrochloride, (3R)-3-amino-4-methylpentanoic acid, (R)-3-Amino-4-methylpentanoic acid hydrochloride, L-beta-homovaline-HCl; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: (R)-3-Amino-4-methylvaleric acid
+CH$NAME: L-beta-Leucine hydrochloride
+CH$NAME: (3R)-3-amino-4-methylpentanoic acid
+CH$NAME: (R)-3-Amino-4-methylpentanoic acid hydrochloride
+CH$NAME: L-beta-homovaline-HCl
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Valine
+CH$FORMULA: C6H13NO2
+CH$EXACT_MASS: 131.175
+CH$SMILES: CC(C)C(CC(=O)O)N
+CH$IUPAC: InChI=1S/C6H13NO2/c1-4(2)5(7)3-6(8)9/h4-5H,3,7H2,1-2H3,(H,8,9)
+CH$LINK: CAS 219310-09-5
+CH$LINK: INCHIKEY GLUJNGJDHCTUJY-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 130.08682
+PK$SPLASH: splash10-001i-0900000000-abe163982643c78421a8
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  59.0152 1.754 32
+  129.8702 3.847 71
+  130.0868 53.94 999
+//
