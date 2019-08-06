@@ -1,0 +1,39 @@
+ACCESSION: PS001607
+RECORD_TITLE: (+-)-3-Methyl-2-oxovaleric acid sodium salt; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 4
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, K7125.
+COMMENT: PRIMe compound in-house ID 16
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: (+-)-3-Methyl-2-oxovaleric acid sodium salt
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Valeric acid
+CH$FORMULA: C6H10O3
+CH$EXACT_MASS: 130.143
+CH$SMILES: CCC(C)C(=O)C(=O)O
+CH$IUPAC: InChI=1S/C6H10O3/c1-3-4(2)5(7)6(8)9/h4H,3H2,1-2H3,(H,8,9)
+CH$LINK: CAS 1460-34-0
+CH$LINK: KEGG C03465
+CH$LINK: PUBCHEM CID:47
+CH$LINK: INCHIKEY JVQYSWDUAOAHFM-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID50862670
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 129.1
+PK$SPLASH: splash10-004i-0900000000-ae7390071cc9d09fcc1e
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  128.0 25372.0 145
+  129.0 174676.0 999
+//

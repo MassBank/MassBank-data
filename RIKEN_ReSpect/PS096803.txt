@@ -1,0 +1,47 @@
+ACCESSION: PS096803
+RECORD_TITLE: 5-Hydroxyindole-3-acetate , 5-HIAA, 5-Oxyindoleacetic acid, 5-Hydroxyindol-3-ylacetic acid, 5-Hydroxyindolylacetic Acid, 5-Hydroxy-IAA, 5-Hydroxyindole-3-acetic acid, 5-Hydroxyheteroauxin; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, H8876.
+COMMENT: PRIMe compound in-house ID N0026
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 5-Hydroxyindole-3-acetate
+CH$NAME: 5-HIAA
+CH$NAME: 5-Oxyindoleacetic acid
+CH$NAME: 5-Hydroxyindol-3-ylacetic acid
+CH$NAME: 5-Hydroxyindolylacetic Acid
+CH$NAME: 5-Hydroxy-IAA
+CH$NAME: 5-Hydroxyindole-3-acetic acid
+CH$NAME: 5-Hydroxyheteroauxin
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Acetic acid
+CH$FORMULA: C10H9NO3
+CH$EXACT_MASS: 191.186
+CH$SMILES: C1=CC2=C(C=C1O)C(=CN2)CC(=O)O
+CH$IUPAC: InChI=1S/C10H9NO3/c12-7-1-2-9-8(4-7)6(5-11-9)3-10(13)14/h1-2,4-5,11-12H,3H2,(H,13,14)
+CH$LINK: CAS 54-16-0
+CH$LINK: KEGG C05635
+CH$LINK: PUBCHEM CID:1826
+CH$LINK: INCHIKEY DUUGKQCEGZLZNO-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 192.19
+PK$SPLASH: splash10-0002-0900000000-f8c9b88340c996d60777
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  144.0 12812.0 103
+  145.0 32798.0 264
+  146.0 124042.0 999
+  192.0 6892.0 56
+//

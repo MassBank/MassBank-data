@@ -1,0 +1,34 @@
+ACCESSION: PM000415
+RECORD_TITLE: Quercitrin; LC-ESI-QQ; MS2
+DATE: 2006.04.20
+AUTHORS: Sanchez-Rabaneda F, et al.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2012 Plant Science Center, RIKEN
+PUBLICATION: Sánchez-Rabaneda, F.; Jáuregui, O.; Casals, I.; Andrés-Lacueva, C.; Izquierdo-Pulido, M.; Lamuela-Raventós, R. M. Liquid Chromatographic/Electrospray Ionization Tandem Mass Spectrometric Study of the Phenolic Composition of Cocoa (Theobroma Cacao). Journal of Mass Spectrometry 2003, 38 (1), 35–42. DOI:10.1002/jms.395
+COMMENT: 726
+CH$NAME: Quercitrin
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Flavonol CLASS3 Quercetin glycoside
+CH$FORMULA: C21H20O11
+CH$EXACT_MASS: 448.38
+CH$SMILES: C[C@@H]1O[C@@H](Oc2c(-c3ccc(O)c(O)c3)oc3cc(O)cc(O)c3c2=O)[C@H](O)[C@H](O)[C@H]1O
+CH$IUPAC: InChI=1S/C21H20O11/c1-7-15(26)17(28)18(29)21(30-7)32-20-16(27)14-12(25)5-9(22)6-13(14)31-19(20)8-2-3-10(23)11(24)4-8/h2-7,15,17-18,21-26,28-29H,1H3/t7-,15-,17+,18+,21-/m0/s1
+CH$LINK: CAS 522-12-3
+CH$LINK: INCHIKEY OXGUCUVFOIWWQJ-HQBVPOQASA-N
+CH$LINK: PUBCHEM CID:5280459
+CH$LINK: COMPTOX DTXSID50200230
+SP$SAMPLE: Theobroma cacao
+AC$INSTRUMENT: Agilent (Waldbronn, Germany) Model 1100; API 3000 triple-quadrupole mass spectrometer (Perkin-Elmer Sciex, Concord, ON, Canada)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY -30
+AC$CHROMATOGRAPHY: SOLVENT H2O/NH3CN/HCOOH
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 447
+PK$SPLASH: splash10-0udi-0009200000-37860fca29517e699b82
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  301.0 100.0 999
+  447.0 25.0 250
+//

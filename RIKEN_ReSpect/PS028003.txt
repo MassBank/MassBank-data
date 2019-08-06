@@ -1,0 +1,53 @@
+ACCESSION: PS028003
+RECORD_TITLE: (2S,3S)-2-Amino-3-methylpentanoic acid, L-Isoleucine, iLe, alpha-Amino-beta-methylvaleric acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, I2752.
+COMMENT: PRIMe compound in-house ID 280
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: (2S,3S)-2-Amino-3-methylpentanoic acid
+CH$NAME: L-Isoleucine
+CH$NAME: iLe
+CH$NAME: alpha-Amino-beta-methylvaleric acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Isoleucine
+CH$FORMULA: C6H13NO2
+CH$EXACT_MASS: 131.175
+CH$SMILES: CCC(C)C(C(=O)O)N
+CH$IUPAC: InChI=1S/C6H13NO2/c1-3-4(2)5(7)6(8)9/h4-5H,3,7H2,1-2H3,(H,8,9)
+CH$LINK: CAS 73-32-5
+CH$LINK: KEGG C00407
+CH$LINK: PUBCHEM CID:6306
+CH$LINK: INCHIKEY AGPKZVBTJJNPAG-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 132.14
+PK$SPLASH: splash10-00ku-9000000000-5b8cfe92d8ae000699cd
+PK$NUM_PEAK: 14
+PK$PEAK: m/z int. rel.int.
+  29.0 6482.0 110
+  30.0 28933.0 489
+  40.0 3519.0 59
+  41.0 19839.0 335
+  43.0 12191.0 206
+  44.0 37902.0 640
+  45.0 4625.0 78
+  57.0 4060.0 69
+  58.0 2190.0 37
+  68.0 7627.0 129
+  69.0 33614.0 568
+  85.0 17355.0 293
+  86.0 59132.0 999
+  132.0 2526.0 43
+//

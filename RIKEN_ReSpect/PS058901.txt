@@ -1,0 +1,43 @@
+ACCESSION: PS058901
+RECORD_TITLE: DL-Glyceraldehyde 3-phosphate solution, Glyceraldehyde-3P; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, G5251.
+COMMENT: PRIMe compound in-house ID T0097
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: DL-Glyceraldehyde 3-phosphate solution
+CH$NAME: Glyceraldehyde-3P
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Suger phosphate CLASS3 Glyceraldehyde phosphate
+CH$FORMULA: C3H7O6P
+CH$EXACT_MASS: 170.059
+CH$SMILES: C(C(C=O)O)OP(=O)(O)O
+CH$IUPAC: InChI=1S/C3H7O6P/c4-1-3(5)2-9-10(6,7)8/h1,3,5H,2H2,(H2,6,7,8)
+CH$LINK: CAS 591-59-3
+CH$LINK: KEGG C00118
+CH$LINK: PUBCHEM CID:729
+CH$LINK: INCHIKEY LXJXRIRHZLFYRP-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 171.15
+PK$SPLASH: splash10-006t-9400000000-099b9031c848816232fc
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  73.0 5688.0 103
+  98.0 35409.0 641
+  99.0 55200.0 999
+  130.0 3225.0 58
+  170.0 4423.0 80
+  171.0 44275.0 801
+//

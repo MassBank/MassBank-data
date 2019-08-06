@@ -1,0 +1,44 @@
+ACCESSION: PS095104
+RECORD_TITLE: N,N-Dimethylglycine hydrochloride, N-Methylsarcosine hydrochloride, N,N-Dimethylaminoacetic acid hydrochloride, Dmg, 2-dimethylaminoacetic acid hydrochloride; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, D6382.
+COMMENT: PRIMe compound in-house ID N0009
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: N,N-Dimethylglycine hydrochloride
+CH$NAME: N-Methylsarcosine hydrochloride
+CH$NAME: N,N-Dimethylaminoacetic acid hydrochloride
+CH$NAME: Dmg
+CH$NAME: 2-dimethylaminoacetic acid hydrochloride
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Glycine
+CH$FORMULA: C4H9NO2
+CH$EXACT_MASS: 103.121
+CH$SMILES: CN(C)CC(=O)O
+CH$IUPAC: InChI=1S/C4H9NO2/c1-5(2)3-4(6)7/h3H2,1-2H3,(H,6,7)
+CH$LINK: CAS 1118-68-9
+CH$LINK: KEGG C01026
+CH$LINK: PUBCHEM CID:673
+CH$LINK: INCHIKEY FFDGPVCHZBVARC-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 104.08
+PK$SPLASH: splash10-0a4i-9000000000-1b52c8ee0fe648347ed7
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  29.0 5214.0 52
+  44.0 4217.0 42
+  57.0 7855.0 79
+  58.0 99354.0 999
+//

@@ -1,0 +1,40 @@
+ACCESSION: PS080201
+RECORD_TITLE: 5,22-Cholestadien-24beta-methyl-3beta-ol, Ergosta-5,22-dien-3-ol, Ergosta-5,22(E)-dien-3beta-ol, Brassicasterol; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Larodan, 60-1004.
+COMMENT: PRIMe compound in-house ID S0235
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 5,22-Cholestadien-24beta-methyl-3beta-ol
+CH$NAME: Ergosta-5,22-dien-3-ol
+CH$NAME: Ergosta-5,22(E)-dien-3beta-ol
+CH$NAME: Brassicasterol
+CH$COMPOUND_CLASS: CLASS1 Terpenoid CLASS2 Triterpenoid CLASS3 Brassicasterol
+CH$FORMULA: C28H46O
+CH$EXACT_MASS: 398.675
+CH$SMILES: CC(C)C(C)C=CC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C
+CH$IUPAC: InChI=1S/C28H46O/c1-18(2)19(3)7-8-20(4)24-11-12-25-23-10-9-21-17-22(29)13-15-27(21,5)26(23)14-16-28(24,25)6/h7-9,18-20,22-26,29H,10-17H2,1-6H3
+CH$LINK: CAS 474-67-9
+CH$LINK: KEGG C08813
+CH$LINK: PUBCHEM CID:5281327
+CH$LINK: INCHIKEY OILXMJHPFNGGTO-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 398.5
+PK$SPLASH: splash10-0002-0009000000-b98e81d9579cad362c47
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  398.0 124726.0 999
+//

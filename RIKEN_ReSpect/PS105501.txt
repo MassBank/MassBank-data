@@ -1,0 +1,41 @@
+ACCESSION: PS105501
+RECORD_TITLE: 3-Chloro-L-tyrosine hydrochloride, Tyr(3-Cl) ; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, C5897.
+COMMENT: PRIMe compound in-house ID N0113
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 3-Chloro-L-tyrosine hydrochloride
+CH$NAME: Tyr(3-Cl)
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Tyrosine
+CH$FORMULA: C9H10ClNO3
+CH$EXACT_MASS: 215.636
+CH$SMILES: C1=CC(=C(C=C1CC(C(=O)O)N)Cl)O
+CH$IUPAC: InChI=1S/C9H10ClNO3/c10-6-3-5(1-2-8(6)12)4-7(11)9(13)14/h1-3,7,12H,4,11H2,(H,13,14)
+CH$LINK: CAS 7423-93-0
+CH$LINK: PUBCHEM CID:110992
+CH$LINK: INCHIKEY ACWBBAGYTKWBCD-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 216.21
+PK$SPLASH: splash10-014i-0090000000-5b1604c026edd80731f0
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  170.0 11331.0 75
+  199.0 6732.0 45
+  215.0 15121.0 100
+  216.0 150603.0 999
+  217.0 5054.0 34
+//

@@ -1,0 +1,41 @@
+ACCESSION: PT108390
+RECORD_TITLE: Cyclamin, Oenin, Enin, 3-(beta-D-glucopyranosyloxy)-5,7-dihydroxy-2-(4-hydroxy-3,5-dimethoxyphenyl)-1-benzopyrylium , Malv-3-Glc, (2S,3R,4S,5S,6R)-2-[5,7-dihydroxy-2-(4-hydroxy-3,5-dimethoxyphenyl)chromenylium-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol, malvidin-3-O-glucoside, malvidin-3-o-beta-d-glucopyranoside; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Cyclamin
+CH$NAME: Oenin
+CH$NAME: Enin
+CH$NAME: 3-(beta-D-glucopyranosyloxy)-5,7-dihydroxy-2-(4-hydroxy-3,5-dimethoxyphenyl)-1-benzopyrylium
+CH$NAME: Malv-3-Glc
+CH$NAME: (2S,3R,4S,5S,6R)-2-[5,7-dihydroxy-2-(4-hydroxy-3,5-dimethoxyphenyl)chromenylium-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol
+CH$NAME: malvidin-3-O-glucoside
+CH$NAME: malvidin-3-o-beta-d-glucopyranoside
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Anthocyanin CLASS3 Malvidin glycoside
+CH$FORMULA: [C23H25O12]+
+CH$EXACT_MASS: 493.441
+CH$SMILES: COC1=CC(=CC(=C1O)OC)C2=C(C=C3C(=CC(=CC3=[O+]2)O)O)OC4C(C(C(C(O4)CO)O)O)O
+CH$IUPAC: InChI=1S/C23H24O12/c1-31-14-3-9(4-15(32-2)18(14)27)22-16(7-11-12(26)5-10(25)6-13(11)33-22)34-23-21(30)20(29)19(28)17(8-24)35-23/h3-7,17,19-21,23-24,28-30H,8H2,1-2H3,(H2-,25,26,27)/p+1
+CH$LINK: CAS 7228-78-6
+CH$LINK: INCHIKEY PXUQTDZNOHRWLI-UHFFFAOYSA-O
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 493.13457
+PK$SPLASH: splash10-001i-0009100000-bbda7893855eb8d30b35
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  287.0582 821.5 122
+  315.0533 1374.0 204
+  331.0827 6741.0 999
+  493.1346 1305.0 193
+//

@@ -1,0 +1,47 @@
+ACCESSION: PS073102
+RECORD_TITLE: trans-Zeatin, 6-(4-Hydroxy-3-methylbut-2-enylamino)purine, ZEE, N6-(4-Hydroxy-3-methyl-2-buten-1-yl)adenine ; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 261-00951.
+COMMENT: PRIMe compound in-house ID S0128
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: trans-Zeatin
+CH$NAME: 6-(4-Hydroxy-3-methylbut-2-enylamino)purine
+CH$NAME: ZEE
+CH$NAME: N6-(4-Hydroxy-3-methyl-2-buten-1-yl)adenine
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleoside CLASS3 Zeatin
+CH$FORMULA: C10H13N5O
+CH$EXACT_MASS: 219.248
+CH$SMILES: CC(=CCNC1=NC=NC2=C1NC=N2)CO
+CH$IUPAC: InChI=1S/C10H13N5O/c1-7(4-16)2-3-11-9-8-10(13-5-12-8)15-6-14-9/h2,5-6,16H,3-4H2,1H3,(H2,11,12,13,14,15)
+CH$LINK: CAS 1637-39-4
+CH$LINK: KEGG C00371
+CH$LINK: PUBCHEM CID:449093
+CH$LINK: INCHIKEY UZKQTCBAMSWPJD-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 220.28
+PK$SPLASH: splash10-0079-2970000000-98954d33bc8e20588f7f
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  42.0 5181.0 53
+  43.0 32225.0 330
+  135.0 20841.0 213
+  136.0 97701.0 999
+  148.0 20002.0 205
+  202.0 16308.0 167
+  219.0 10483.0 107
+  220.0 80997.0 828
+//

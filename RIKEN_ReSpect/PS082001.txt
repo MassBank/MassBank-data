@@ -1,0 +1,40 @@
+ACCESSION: PS082001
+RECORD_TITLE: D-Glucosyl-beta1-1'-D-erythoro-Sphingosine, D-Glucosylsphingosine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Avanti, 860535P.
+COMMENT: PRIMe compound in-house ID S0257
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: D-Glucosyl-beta1-1'-D-erythoro-Sphingosine
+CH$NAME: D-Glucosylsphingosine
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Sphingosine
+CH$FORMULA: C24H47NO7
+CH$EXACT_MASS: 461.64
+CH$SMILES: CCCCCCCCCCCCCC=CC(C(COC1C(C(C(C(O1)CO)O)O)O)N)O
+CH$IUPAC: InChI=1S/C24H47NO7/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-19(27)18(25)17-31-24-23(30)22(29)21(28)20(16-26)32-24/h14-15,18-24,26-30H,2-13,16-17,25H2,1H3
+CH$LINK: CAS 52050-17-6
+CH$LINK: KEGG C03108
+CH$LINK: PUBCHEM CID:5280570
+CH$LINK: INCHIKEY HHJTWTPUPVQKNA-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 462.62
+PK$SPLASH: splash10-03di-0000900000-adfbc016df55c8c7aba5
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  462.0 4133484.0 999
+  463.0 1722007.0 416
+  464.0 176475.0 43
+//

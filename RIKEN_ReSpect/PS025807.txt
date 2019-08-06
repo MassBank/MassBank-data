@@ -1,0 +1,44 @@
+ACCESSION: PS025807
+RECORD_TITLE: 5'-inosinate, I-5'-P, Inosinic Acid, IMP, 5'-IMP, Inosine-5'-monophosphate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, I2879.
+COMMENT: PRIMe compound in-house ID 258
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 5'-inosinate
+CH$NAME: I-5'-P
+CH$NAME: Inosinic Acid
+CH$NAME: IMP
+CH$NAME: 5'-IMP
+CH$NAME: Inosine-5'-monophosphate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Inosine phosphate
+CH$FORMULA: C10H13N4O8P
+CH$EXACT_MASS: 348.21
+CH$SMILES: C1=NC(=O)C2=C(N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)O)O)O
+CH$IUPAC: InChI=1S/C10H13N4O8P/c15-6-4(1-21-23(18,19)20)22-10(7(6)16)14-3-13-5-8(14)11-2-12-9(5)17/h2-4,6-7,10,15-16H,1H2,(H,11,12,17)(H2,18,19,20)
+CH$LINK: CAS 131-99-7
+CH$LINK: KEGG C00130
+CH$LINK: PUBCHEM CID:8582
+CH$LINK: INCHIKEY GRSZFWQUAKGDAV-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 347.27
+PK$SPLASH: splash10-0002-0009000000-e885eb28cbdd85058766
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  346.0 60715.0 135
+  347.0 450886.0 999
+  348.0 32487.0 72
+//

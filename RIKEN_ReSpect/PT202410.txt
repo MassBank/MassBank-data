@@ -1,0 +1,41 @@
+ACCESSION: PT202410
+RECORD_TITLE: 9-(beta-D-Ribofuranosyl)guanine, Guanine Riboside, GR, Vernine, 2-amino-9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-3H-purin-6-one, Guanidine, Guanosine, Guanine-9-beta-D-ribofuranoside; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 9-(beta-D-Ribofuranosyl)guanine
+CH$NAME: Guanine Riboside
+CH$NAME: GR
+CH$NAME: Vernine
+CH$NAME: 2-amino-9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-3H-purin-6-one
+CH$NAME: Guanidine
+CH$NAME: Guanosine
+CH$NAME: Guanine-9-beta-D-ribofuranoside
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleoside CLASS3 Guanosine
+CH$FORMULA: C10H13N5O5
+CH$EXACT_MASS: 283.244
+CH$SMILES: C1=NC2=C(N1C3C(C(C(O3)CO)O)O)NC(=NC2=O)N
+CH$IUPAC: InChI=1S/C10H13N5O5/c11-10-13-7-4(8(19)14-10)12-2-15(7)9-6(18)5(17)3(1-16)20-9/h2-3,5-6,9,16-18H,1H2,(H3,11,13,14,19)
+CH$LINK: CAS 118-00-3
+CH$LINK: INCHIKEY NYHBQMYGNKIUIF-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 282.08386
+PK$SPLASH: splash10-0ue9-0910000000-bd6d397c6e5507b168b0
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  108.0201 538.9 208
+  133.0154 966.8 372
+  150.0415 2594.0 999
+  282.0839 885.1 341
+//

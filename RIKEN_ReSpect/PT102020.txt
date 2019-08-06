@@ -1,0 +1,43 @@
+ACCESSION: PT102020
+RECORD_TITLE: alpha-D-Glucopyranosyl-alpha-D-glucopyranoside dihydrate , D-(+)-Trehalose dihydrate,from Saccharomyces cerevisiae, (2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxane-3,4,5-triol, alpha-alpha-Trehalose, Mycose, Glc(alpha1-1alpha)Glc; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: alpha-D-Glucopyranosyl-alpha-D-glucopyranoside dihydrate
+CH$NAME: D-(+)-Trehalose dihydrate,from Saccharomyces cerevisiae
+CH$NAME: (2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxane-3,4,5-triol
+CH$NAME: alpha-alpha-Trehalose
+CH$NAME: Mycose
+CH$NAME: Glc(alpha1-1alpha)Glc
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Sugar CLASS3 Disaccharide
+CH$FORMULA: C12H22O11
+CH$EXACT_MASS: 342.297
+CH$SMILES: C(C1C(C(C(C(O1)OC2C(C(C(C(O2)CO)O)O)O)O)O)O)O
+CH$IUPAC: InChI=1S/C12H22O11/c13-1-3-5(15)7(17)9(19)11(21-3)23-12-10(20)8(18)6(16)4(2-14)22-12/h3-20H,1-2H2
+CH$LINK: CAS 99-20-7
+CH$LINK: INCHIKEY HDTRYLNUVZCQOY-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 343.12401
+PK$SPLASH: splash10-0006-0019000000-3b4e276ff5686c841bdd
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  163.0857 2.92 172
+  297.041 5.013 295
+  325.1602 2.091 123
+  342.9413 2.107 124
+  343.0549 16.98 999
+  343.124 5.655 333
+  343.1771 4.766 280
+  343.6185 1.713 101
+//

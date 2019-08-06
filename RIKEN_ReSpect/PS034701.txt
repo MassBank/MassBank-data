@@ -1,0 +1,42 @@
+ACCESSION: PS034701
+RECORD_TITLE: Taurine, 2-Aminoethanesulfonic Acid, O-Due, 2-Sulfoethylamine, Tauphon; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, T0625.
+COMMENT: PRIMe compound in-house ID 347
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Taurine
+CH$NAME: 2-Aminoethanesulfonic Acid
+CH$NAME: O-Due
+CH$NAME: 2-Sulfoethylamine
+CH$NAME: Tauphon
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Taurine
+CH$FORMULA: C2H7NO3S
+CH$EXACT_MASS: 125.147
+CH$SMILES: C(CS(=O)(=O)O)N
+CH$IUPAC: InChI=1S/C2H7NO3S/c3-1-2-7(4,5)6/h1-3H2,(H,4,5,6)
+CH$LINK: CAS 107-35-7
+CH$LINK: KEGG C00245
+CH$LINK: PUBCHEM CID:1123
+CH$LINK: INCHIKEY XOAAWQZATWQOTB-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 126.05
+PK$SPLASH: splash10-004i-0900000000-bdd2caf2179a4aa3e7e4
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  125.0 123048.0 259
+  126.0 474037.0 999
+//

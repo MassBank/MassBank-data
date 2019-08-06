@@ -1,0 +1,40 @@
+ACCESSION: PS114707
+RECORD_TITLE: D-Glucuronic acid, D-Glucopyranuronic acid, Glucosiduronic Acid, Glucuronate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound TCI, G0302.
+COMMENT: PRIMe compound in-house ID V0052
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: D-Glucuronic acid
+CH$NAME: D-Glucopyranuronic acid
+CH$NAME: Glucosiduronic Acid
+CH$NAME: Glucuronate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Sugar CLASS3 Glucuronic acid
+CH$FORMULA: C6H10O7
+CH$EXACT_MASS: 194.139
+CH$SMILES: C1(C(C(OC(C1O)O)C(=O)O)O)O
+CH$IUPAC: InChI=1S/C6H10O7/c7-1-2(8)4(5(10)11)13-6(12)3(1)9/h1-4,6-9,12H,(H,10,11)
+CH$LINK: KEGG C00191
+CH$LINK: PUBCHEM CID:94715
+CH$LINK: INCHIKEY AEMOLEFTQBMNLQ-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 193.16
+PK$SPLASH: splash10-0006-0900000000-b090521e988291519062
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  192.0 12156.0 96
+  193.0 126212.0 999
+//

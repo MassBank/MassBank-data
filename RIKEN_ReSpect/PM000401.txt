@@ -1,0 +1,34 @@
+ACCESSION: PM000401
+RECORD_TITLE: Gallic acid; LC-ESI-QQ; MS2
+DATE: 2006.04.20
+AUTHORS: Sanchez-Rabaneda F, et al.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2012 Plant Science Center, RIKEN
+PUBLICATION: Sánchez-Rabaneda, F.; Jáuregui, O.; Casals, I.; Andrés-Lacueva, C.; Izquierdo-Pulido, M.; Lamuela-Raventós, R. M. Liquid Chromatographic/Electrospray Ionization Tandem Mass Spectrometric Study of the Phenolic Composition of Cocoa (Theobroma Cacao). Journal of Mass Spectrometry 2003, 38 (1), 35–42. DOI:10.1002/jms.395
+COMMENT: 726
+CH$NAME: Gallic acid
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid monomer CLASS3 Gallic acid
+CH$FORMULA: C7H6O5
+CH$EXACT_MASS: 170.12
+CH$SMILES: O=C(O)c1cc(O)c(O)c(O)c1
+CH$IUPAC: InChI=1S/C7H6O5/c8-4-1-3(7(11)12)2-5(9)6(4)10/h1-2,8-10H,(H,11,12)
+CH$LINK: CAS 149-91-7
+CH$LINK: INCHIKEY LNTHITQWFMADLM-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:370
+CH$LINK: COMPTOX DTXSID0020650
+SP$SAMPLE: Theobroma cacao
+AC$INSTRUMENT: Agilent (Waldbronn, Germany) Model 1100; API 3000 triple-quadrupole mass spectrometer (Perkin-Elmer Sciex, Concord, ON, Canada)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY -20
+AC$CHROMATOGRAPHY: SOLVENT H2O/NH3CN/HCOOH
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 169
+PK$SPLASH: splash10-016r-0900000000-77ddea1978f113d3b56e
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  125.0 80.0 799
+  169.0 100.0 999
+//

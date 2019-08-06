@@ -1,0 +1,43 @@
+ACCESSION: PT209730
+RECORD_TITLE: 2-Hydroxy-3-(4-hydroxyphenyl)propanoate, 4-Hydroxyphenyllactate, DL-p-Hydroxyphenyllactic acid, p-Hydroxyphenyllactate, 3-(4-Hydroxyphenyl)-2-hydroxypropanoic acid, HPLA, 2-hydroxy-3-(4-hydroxyphenyl)propanoic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.29
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 2-Hydroxy-3-(4-hydroxyphenyl)propanoate
+CH$NAME: 4-Hydroxyphenyllactate
+CH$NAME: DL-p-Hydroxyphenyllactic acid
+CH$NAME: p-Hydroxyphenyllactate
+CH$NAME: 3-(4-Hydroxyphenyl)-2-hydroxypropanoic acid
+CH$NAME: HPLA
+CH$NAME: 2-hydroxy-3-(4-hydroxyphenyl)propanoic acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Other CLASS3 BAIB
+CH$FORMULA: C9H10O4
+CH$EXACT_MASS: 182.175
+CH$SMILES: C1=CC(=CC=C1CC(C(=O)O)O)O
+CH$IUPAC: InChI=1S/C9H10O4/c10-7-3-1-6(2-4-7)5-8(11)9(12)13/h1-4,8,10-11H,5H2,(H,12,13)
+CH$LINK: CAS 306-23-0
+CH$LINK: INCHIKEY JVGVDSSUAVXRDY-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 181.05011
+PK$SPLASH: splash10-01qi-0900000000-640a5a477752571a1443
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  72.994 58.64 159
+  119.0507 179.3 486
+  134.037 80.54 218
+  135.0452 277.6 753
+  163.0398 305.4 828
+  180.8585 33.67 91
+  181.0501 368.3 999
+//

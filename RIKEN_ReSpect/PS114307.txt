@@ -1,0 +1,40 @@
+ACCESSION: PS114307
+RECORD_TITLE: trans-4-Hydroxycinnamic acid, p-Coumaric acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, C9008.
+COMMENT: PRIMe compound in-house ID V0048
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: trans-4-Hydroxycinnamic acid
+CH$NAME: p-Coumaric acid
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid monomer CLASS3 p-Coumaric acid
+CH$FORMULA: C9H8O3
+CH$EXACT_MASS: 164.16
+CH$SMILES: C1=CC(=CC=C1C=CC(=O)O)O
+CH$IUPAC: InChI=1S/C9H8O3/c10-8-4-1-7(2-5-8)3-6-9(11)12/h1-6,10H,(H,11,12)
+CH$LINK: CAS 501-98-4
+CH$LINK: KEGG C00811
+CH$LINK: PUBCHEM CID:637542
+CH$LINK: INCHIKEY NGSWKAQJJWESNS-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 163.13
+PK$SPLASH: splash10-03di-0900000000-118b03c2cbad1e08abde
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  119.0 23583.0 92
+  162.0 38784.0 152
+  163.0 255514.0 999
+//

@@ -1,0 +1,34 @@
+ACCESSION: PM000328
+RECORD_TITLE: Isorhamnetin-3-O-glucoside; LC-ESI-QQ; MS2
+DATE: 2006.04.19
+AUTHORS: Parejo I, et al.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2012 Plant Science Center, RIKEN
+PUBLICATION: Parejo, I.; Jauregui, O.; Sánchez-Rabaneda, F.; Viladomat, F.; Bastida, J.; Codina, C. Separation and Characterization of Phenolic Compounds in Fennel (Foeniculum Vulgare) Using Liquid Chromatography-Negative Electrospray Ionization Tandem Mass Spectrometry. Journal of Agricultural and Food Chemistry 2004, 52 (12), 3679–87. DOI:10.1021/jf030813h
+COMMENT: 725
+CH$NAME: Isorhamnetin-3-O-glucoside
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Flavonol CLASS3 Isorhamnetin glycoside
+CH$FORMULA: C22H22O12
+CH$EXACT_MASS: 478.406
+CH$SMILES: COc1cc(-c2oc3cc(O)cc(O)c3c(=O)c2O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)ccc1O
+CH$IUPAC: InChI=1S/C22H22O12/c1-31-12-4-8(2-3-10(12)25)20-21(17(28)15-11(26)5-9(24)6-13(15)32-20)34-22-19(30)18(29)16(27)14(7-23)33-22/h2-6,14,16,18-19,22-27,29-30H,7H2,1H3/t14-,16-,18+,19-,22+/m1/s1
+CH$LINK: CAS 5041-82-7
+CH$LINK: INCHIKEY CQLRUIIRRZYHHS-LFXZADKFSA-N
+CH$LINK: PUBCHEM CID:5318645
+SP$SAMPLE: Foeniculum vulgare
+AC$INSTRUMENT: API 3000 triple-quadrupole mass spectrometer (PerkinElmer Sciex, Concord, ON, Canada)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 35
+AC$CHROMATOGRAPHY: SOLVENT H2O/NH3CN/HCOOH
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 477
+PK$SPLASH: splash10-0vvi-0049000000-3d8383f37c4da364e214
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  271.0 100.0 999
+  300.0 100.0 999
+  315.0 100.0 999
+//

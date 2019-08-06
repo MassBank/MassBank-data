@@ -1,0 +1,46 @@
+ACCESSION: PS073302
+RECORD_TITLE: (3R,3'R)-beta,beta-Carotene-3,3'-diol, Zeaxanthin; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound ChromaDex, ASB-00026504-005.
+COMMENT: PRIMe compound in-house ID S0130
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: (3R,3'R)-beta,beta-Carotene-3,3'-diol
+CH$NAME: Zeaxanthin
+CH$COMPOUND_CLASS: CLASS1 Terpenoid CLASS2 Carotenoid CLASS3 Zeaxanthin
+CH$FORMULA: C40H56O2
+CH$EXACT_MASS: 568.886
+CH$SMILES: CC1=C(C(CC(C1)O)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CC(CC2(C)C)O)C)C)C
+CH$IUPAC: InChI=1S/C40H56O2/c1-29(17-13-19-31(3)21-23-37-33(5)25-35(41)27-39(37,7)8)15-11-12-16-30(2)18-14-20-32(4)22-24-38-34(6)26-36(42)28-40(38,9)10/h11-24,35-36,41-42H,25-28H2,1-10H3
+CH$LINK: CAS 144-68-3
+CH$LINK: KEGG C06098
+CH$LINK: PUBCHEM CID:5280899
+CH$LINK: INCHIKEY JKQXZKUSFCKOGQ-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 569.76
+PK$SPLASH: splash10-00xr-0000090000-a2f3a5a2ede5265be566
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  94.0 2702.0 56
+  162.0 2557.0 53
+  272.0 4242.0 87
+  285.0 2626.0 54
+  360.0 3525.0 73
+  476.0 2965.0 61
+  478.0 6449.0 133
+  569.0 43251.0 891
+  570.0 48506.0 999
+//

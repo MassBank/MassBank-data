@@ -1,0 +1,51 @@
+ACCESSION: PS105302
+RECORD_TITLE: 3-Hydroxy-p-cymene, 5-Methyl-2-(1-methylethyl)phenol, 2-Isopropyl-5-methylphenol, m-Thymol, 2-Hydroxy-4-methylcumene, 4-Isopropyl-m-cresol, Thymic acid, Thymol, 1-Hydroxy-5-methyl-2-isopropylbenzene, 6-Isopropyl-m-cresol, 3-Hydroxy-4-isopropyltoluene, 1-Methylethyl-4-methylphenol, Thyme camphor, 5-Methyl-2-isopropylphenol; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA-Aldrich, T0501.
+COMMENT: PRIMe compound in-house ID N0111
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 3-Hydroxy-p-cymene
+CH$NAME: 5-Methyl-2-(1-methylethyl)phenol
+CH$NAME: 2-Isopropyl-5-methylphenol
+CH$NAME: m-Thymol
+CH$NAME: 2-Hydroxy-4-methylcumene
+CH$NAME: 4-Isopropyl-m-cresol
+CH$NAME: Thymic acid
+CH$NAME: Thymol
+CH$NAME: 1-Hydroxy-5-methyl-2-isopropylbenzene
+CH$NAME: 6-Isopropyl-m-cresol
+CH$NAME: 3-Hydroxy-4-isopropyltoluene
+CH$NAME: 1-Methylethyl-4-methylphenol
+CH$NAME: Thyme camphor
+CH$NAME: 5-Methyl-2-isopropylphenol
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Thymol
+CH$FORMULA: C10H14O
+CH$EXACT_MASS: 150.221
+CH$SMILES: CC1=CC(=C(C=C1)C(C)C)O
+CH$IUPAC: InChI=1S/C10H14O/c1-7(2)9-5-4-8(3)6-10(9)11/h4-7,11H,1-3H3
+CH$LINK: CAS 89-83-8
+CH$LINK: KEGG C09908
+CH$LINK: PUBCHEM CID:6989
+CH$LINK: INCHIKEY MGSRCZKZVOBKFT-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 151.15
+PK$SPLASH: splash10-014i-9000000000-c635e7a9c75602670537
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  68.0 75502.0 999
+  69.0 27545.0 364
+//

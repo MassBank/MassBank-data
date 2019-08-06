@@ -1,0 +1,43 @@
+ACCESSION: PS114401
+RECORD_TITLE: (R)-2-Amino-3-methylmercaptopropionic acid, (R)-2-Amino-3-(methylthio)propanoic Acid, S-Methyl-L-cysteine, L-3-(Methylthio)alanine, Me-Cys; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, M6626.
+COMMENT: PRIMe compound in-house ID V0049
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: (R)-2-Amino-3-methylmercaptopropionic acid
+CH$NAME: (R)-2-Amino-3-(methylthio)propanoic Acid
+CH$NAME: S-Methyl-L-cysteine
+CH$NAME: L-3-(Methylthio)alanine
+CH$NAME: Me-Cys
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Cysteine
+CH$FORMULA: C4H9NO2S
+CH$EXACT_MASS: 135.186
+CH$SMILES: CSCC(C(=O)O)N
+CH$IUPAC: InChI=1S/C4H9NO2S/c1-8-2-3(5)4(6)7/h3H,2,5H2,1H3,(H,6,7)
+CH$LINK: CAS 1187-84-4
+CH$LINK: PUBCHEM CID:24417
+CH$LINK: INCHIKEY IDIDJDIHTAOVLG-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 136.11
+PK$SPLASH: splash10-014r-0900000000-a26b2486fafafd2f058e
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  118.0 92802.0 152
+  119.0 610121.0 999
+  135.0 79881.0 131
+  136.0 273325.0 448
+//

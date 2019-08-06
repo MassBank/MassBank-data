@@ -1,0 +1,47 @@
+ACCESSION: PS109807
+RECORD_TITLE: maleate, Toxilic acid, Malenic acid, (Z)-1,2-Ethenedicarboxylic Acid, Maleic acid, cis-butenedioic acid, 2-Butenedioic acid, Maleinic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 134-00495.
+COMMENT: PRIMe compound in-house ID V0043
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: maleate
+CH$NAME: Toxilic acid
+CH$NAME: Malenic acid
+CH$NAME: (Z)-1,2-Ethenedicarboxylic Acid
+CH$NAME: Maleic acid
+CH$NAME: cis-butenedioic acid
+CH$NAME: 2-Butenedioic acid
+CH$NAME: Maleinic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Maleic acid
+CH$FORMULA: C4H4O4
+CH$EXACT_MASS: 116.072
+CH$SMILES: C(=CC(=O)O)C(=O)O
+CH$IUPAC: InChI=1S/C4H4O4/c5-3(6)1-2-4(7)8/h1-2H,(H,5,6)(H,7,8)
+CH$LINK: CAS 110-16-7
+CH$LINK: KEGG C01384
+CH$LINK: PUBCHEM CID:444266
+CH$LINK: INCHIKEY VZCYOOQTPOCHFL-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 115.03
+PK$SPLASH: splash10-01b9-4900000000-f9db9655431b4a3ad4f0
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  70.0 9697.0 100
+  71.0 47897.0 494
+  114.0 30794.0 317
+  115.0 96901.0 999
+//

@@ -1,0 +1,37 @@
+ACCESSION: PT112170
+RECORD_TITLE: Dp 3-Glc, Delphinidin-3-glucoside, Myrtillin, Delphinidin-3-O-beta-glucopyranoside, (2S,3R,4S,5S,6R)-2-[5,7-dihydroxy-2-(3,4,5-trihydroxyphenyl)chromenylium-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Dp 3-Glc
+CH$NAME: Delphinidin-3-glucoside
+CH$NAME: Myrtillin
+CH$NAME: Delphinidin-3-O-beta-glucopyranoside
+CH$NAME: (2S,3R,4S,5S,6R)-2-[5,7-dihydroxy-2-(3,4,5-trihydroxyphenyl)chromenylium-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Anthocyanin CLASS3 Delphinidin glycoside
+CH$FORMULA: [C21H21O12]+
+CH$EXACT_MASS: 465.387
+CH$SMILES: C1=C(C=C(C(=C1O)O)O)C2=C(C=C3C(=CC(=CC3=[O+]2)O)O)OC4C(C(C(C(O4)CO)O)O)O
+CH$IUPAC: InChI=1S/C21H20O12/c22-6-15-17(28)18(29)19(30)21(33-15)32-14-5-9-10(24)3-8(23)4-13(9)31-20(14)7-1-11(25)16(27)12(26)2-7/h1-5,15,17-19,21-22,28-30H,6H2,(H4-,23,24,25,26,27)/p+1
+CH$LINK: CAS 6906-38-3
+CH$LINK: INCHIKEY XENHPQQLDPAYIJ-UHFFFAOYSA-O
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 465.10327
+PK$SPLASH: splash10-0udi-0009100000-900e146ee03a33c5e31c
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  229.0512 57.28 58
+  303.0506 989.9 999
+  465.1033 133.3 135
+//

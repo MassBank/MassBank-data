@@ -1,0 +1,35 @@
+ACCESSION: PM000322
+RECORD_TITLE: Kaempferol-3-O-rutinoside; LC-ESI-QQ; MS2
+DATE: 2006.04.19
+AUTHORS: Parejo I, et al.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2012 Plant Science Center, RIKEN
+PUBLICATION: Parejo, I.; Jauregui, O.; Sánchez-Rabaneda, F.; Viladomat, F.; Bastida, J.; Codina, C. Separation and Characterization of Phenolic Compounds in Fennel (Foeniculum Vulgare) Using Liquid Chromatography-Negative Electrospray Ionization Tandem Mass Spectrometry. Journal of Agricultural and Food Chemistry 2004, 52 (12), 3679–87. DOI:10.1021/jf030813h
+COMMENT: 725
+CH$NAME: Kaempferol-3-O-rutinoside
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Flavonol CLASS3 Kaempferol glycoside
+CH$FORMULA: C27H30O15
+CH$EXACT_MASS: 594.522
+CH$SMILES: C[C@@H]1O[C@@H](OC[C@H]2O[C@@H](Oc3c(-c4ccc(O)cc4)oc4cc(O)cc(O)c4c3=O)[C@H](O)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O
+CH$IUPAC: InChI=1S/C27H30O15/c1-9-17(31)20(34)22(36)26(39-9)38-8-15-18(32)21(35)23(37)27(41-15)42-25-19(33)16-13(30)6-12(29)7-14(16)40-24(25)10-2-4-11(28)5-3-10/h2-7,9,15,17-18,20-23,26-32,34-37H,8H2,1H3/t9-,15+,17-,18+,20+,21-,22+,23+,26+,27-/m0/s1
+CH$LINK: CAS 17650-84-9
+CH$LINK: INCHIKEY RTATXGUCZHCSNG-QHWHWDPRSA-N
+CH$LINK: PUBCHEM CID:5318767
+CH$LINK: COMPTOX DTXSID50938804
+SP$SAMPLE: Foeniculum vulgare
+AC$INSTRUMENT: API 3000 triple-quadrupole mass spectrometer (PerkinElmer Sciex, Concord, ON, Canada)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 35
+AC$CHROMATOGRAPHY: SOLVENT H2O/NH3CN/HCOOH
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 593
+PK$SPLASH: splash10-0a9i-0090000000-95294c61a7cea46cfa00
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  227.0 100.0 999
+  255.0 100.0 999
+  285.0 100.0 999
+//

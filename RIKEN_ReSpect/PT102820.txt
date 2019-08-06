@@ -1,0 +1,40 @@
+ACCESSION: PT102820
+RECORD_TITLE: (2S)-2-amino-4-methylsulfonylbutanoic acid, OMT, L-Lobamine Sulfone, L-Methionine S-dioxide, Met(O2), L-Methionine sulfone, L-2-Amino-4-(methylsulfonyl)butanoic acid, L-Banthionine Sulfone; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: (2S)-2-amino-4-methylsulfonylbutanoic acid
+CH$NAME: OMT
+CH$NAME: L-Lobamine Sulfone
+CH$NAME: L-Methionine S-dioxide
+CH$NAME: Met(O2)
+CH$NAME: L-Methionine sulfone
+CH$NAME: L-2-Amino-4-(methylsulfonyl)butanoic acid
+CH$NAME: L-Banthionine Sulfone
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Methionine
+CH$FORMULA: C5H11NO4S
+CH$EXACT_MASS: 181.211
+CH$SMILES: CS(=O)(=O)CCC(C(=O)O)N
+CH$IUPAC: InChI=1S/C5H11NO4S/c1-11(9,10)3-2-4(6)5(7)8/h4H,2-3,6H2,1H3,(H,7,8)
+CH$LINK: CAS 7314-32-1
+CH$LINK: INCHIKEY UCUNFLYVYCGDHP-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 182.04868
+PK$SPLASH: splash10-053i-2900000000-86df25eea3b31b87c864
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  56.0507 256.0 536
+  136.0432 476.7 999
+  182.0487 404.8 848
+//

@@ -1,0 +1,41 @@
+ACCESSION: PS025702
+RECORD_TITLE: 5'-IDP, IDP, Inosine-5'-diphosphate sodium salt; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, I4375.
+COMMENT: PRIMe compound in-house ID 257
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 5'-IDP
+CH$NAME: IDP
+CH$NAME: Inosine-5'-diphosphate sodium salt
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Inosine phosphate
+CH$FORMULA: C10H14N4O11P2
+CH$EXACT_MASS: 428.191
+CH$SMILES: C1=NC(=O)C2=C(N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)O)O)O
+CH$IUPAC: InChI=1S/C10H14N4O11P2/c15-6-4(1-23-27(21,22)25-26(18,19)20)24-10(7(6)16)14-3-13-5-8(14)11-2-12-9(5)17/h2-4,6-7,10,15-16H,1H2,(H,21,22)(H,11,12,17)(H2,18,19,20)
+CH$LINK: KEGG C00104
+CH$LINK: PUBCHEM CID:6831
+CH$LINK: INCHIKEY JPXZQMKKFWMMGK-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 429.31
+PK$SPLASH: splash10-000i-1900000000-bc04f07f0245260bd75f
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  73.0 4408.0 56
+  97.0 12494.0 159
+  136.0 4563.0 58
+  137.0 78729.0 999
+//

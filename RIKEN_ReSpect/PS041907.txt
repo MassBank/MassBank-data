@@ -1,0 +1,40 @@
+ACCESSION: PS041907
+RECORD_TITLE: Isor-3-Glc, isorhamnetin-3-O-glucoside, Isorhamnetin-3-beta-D-galactopyranoside; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound EXTRASYNTHESE S.A, 1228.
+COMMENT: PRIMe compound in-house ID H0027
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Isor-3-Glc
+CH$NAME: isorhamnetin-3-O-glucoside
+CH$NAME: Isorhamnetin-3-beta-D-galactopyranoside
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Flavonol CLASS3 Isorhamnetin glycoside
+CH$FORMULA: C22H22O12
+CH$EXACT_MASS: 478.406
+CH$SMILES: COC1=C(C=CC(=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)CO)O)O)O)O
+CH$IUPAC: InChI=1S/C22H22O12/c1-31-12-4-8(2-3-10(12)25)20-21(17(28)15-11(26)5-9(24)6-13(15)32-20)34-22-19(30)18(29)16(27)14(7-23)33-22/h2-6,14,16,18-19,22-27,29-30H,7H2,1H3
+CH$LINK: CAS 5041-82-7
+CH$LINK: PUBCHEM CID:5318645
+CH$LINK: INCHIKEY CQLRUIIRRZYHHS-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 477.43
+PK$SPLASH: splash10-004i-0000900000-8cb67afdc221e5f1b09e
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  476.0 176787.0 139
+  477.0 1267595.0 999
+  478.0 346214.0 273
+//

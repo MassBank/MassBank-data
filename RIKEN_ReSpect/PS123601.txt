@@ -1,0 +1,49 @@
+ACCESSION: PS123601
+RECORD_TITLE: Gaultheria oil, Wintergreen oil, Pyrola, Methyl Salicylate, Methyl 2-hydroxybenzoate, Gaultheriaoel, Panalgesic, 2-Hydroxybenzoic acid methyl ester, Oil of wintergreen; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA-Aldrich, M6752 .
+COMMENT: PRIMe compound in-house ID V0110
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Gaultheria oil
+CH$NAME: Wintergreen oil
+CH$NAME: Pyrola
+CH$NAME: Methyl Salicylate
+CH$NAME: Methyl 2-hydroxybenzoate
+CH$NAME: Gaultheriaoel
+CH$NAME: Panalgesic
+CH$NAME: 2-Hydroxybenzoic acid methyl ester
+CH$NAME: Oil of wintergreen
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Phenol CLASS3 Salicylic acid
+CH$FORMULA: C8H8O3
+CH$EXACT_MASS: 152.149
+CH$SMILES: COC(=O)C1=CC=CC=C1O
+CH$IUPAC: InChI=1S/C8H8O3/c1-11-8(10)6-4-2-3-5-7(6)9/h2-5,9H,1H3
+CH$LINK: CAS 119-36-8
+CH$LINK: KEGG C12305
+CH$LINK: PUBCHEM CID:4133
+CH$LINK: INCHIKEY OSWPMRLSEDHDFF-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 152.16
+PK$SPLASH: splash10-03di-4900000000-3719f2d1a61af0add1c2
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  89.0 2490.0 35
+  90.0 34860.0 496
+  91.0 2467.0 35
+  110.0 8179.0 116
+  111.0 70222.0 999
+//

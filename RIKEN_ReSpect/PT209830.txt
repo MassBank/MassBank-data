@@ -1,0 +1,38 @@
+ACCESSION: PT209830
+RECORD_TITLE: leucic acid, 2-Hydroxyisocaproic acid, alpha-hydroxyisocaproic acid , (2R)-2-hydroxy-4-methylpentanoic acid, 2-Hydroxyisocaproate, 2-Hydroxy-4-methylvaleric acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.29
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: leucic acid
+CH$NAME: 2-Hydroxyisocaproic acid
+CH$NAME: alpha-hydroxyisocaproic acid
+CH$NAME: (2R)-2-hydroxy-4-methylpentanoic acid
+CH$NAME: 2-Hydroxyisocaproate
+CH$NAME: 2-Hydroxy-4-methylvaleric acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Leucic acid
+CH$FORMULA: C6H12O3
+CH$EXACT_MASS: 132.159
+CH$SMILES: CC(C)CC(C(=O)O)O
+CH$IUPAC: InChI=1S/C6H12O3/c1-4(2)3-5(7)6(8)9/h4-5,7H,3H2,1-2H3,(H,8,9)
+CH$LINK: CAS 498-36-2
+CH$LINK: INCHIKEY LVRFTAZAXQPQHI-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 131.07084
+PK$SPLASH: splash10-001r-7900000000-7ab0c9dc80e61fa580c9
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  69.0359 51.9 65
+  85.0667 639.0 801
+  131.0708 796.8 999
+//

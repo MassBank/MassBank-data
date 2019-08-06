@@ -1,0 +1,35 @@
+ACCESSION: PM000953
+RECORD_TITLE: Ne-acetyl-L-lysine; LC-ESI-QQ; MS2
+DATE: 2006.04.27
+AUTHORS: Piraud M, et al.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2012 Plant Science Center, RIKEN
+PUBLICATION: Piraud, M.; Vianey-Saban, C.; Petritis, K.; Elfakir, C.; Steghens, J.-P.; Morla, A.; Bouchu, D. ESI-MS/MS Analysis of Underivatised Amino Acids: A New Tool for the Diagnosis of Inherited Disorders of Amino Acid Metabolism. Fragmentation Study of 79 Molecules of Biological Interest in Positive and Negative Ionisation Mode. Rapid Communications in Mass Spectrometry 2003, 17 (12), 1297–311. DOI:10.1002/rcm.1054
+COMMENT: 732
+CH$NAME: Ne-acetyl-L-lysine
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Lysine
+CH$FORMULA: C8H16N2O3
+CH$EXACT_MASS: 188.227
+CH$SMILES: CC(O)=NCCCC[C@H](N)C(=O)O
+CH$IUPAC: InChI=1S/C8H16N2O3/c1-6(11)10-5-3-2-4-7(9)8(12)13/h7H,2-5,9H2,1H3,(H,10,11)(H,12,13)/t7-/m0/s1
+CH$LINK: INCHIKEY DTERQYGMUDWYAZ-ZETCQYMHSA-N
+CH$LINK: PUBCHEM CID:92832
+SP$SAMPLE: authentic sample
+AC$INSTRUMENT: API 2000 ESI-MS/MS system triple quadrupole mass spectrometer (Sciex Applied Biosystems, Toronto, Canada)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+AC$CHROMATOGRAPHY: SOLVENT MeOH/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 189
+PK$SPLASH: splash10-001i-9600000000-06f6918c839f2eb1a24e
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  56.0 15.0 150
+  84.0 100.0 999
+  129.0 57.0 569
+  130.0 20.0 200
+  147.0 12.0 120
+//

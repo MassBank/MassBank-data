@@ -1,0 +1,54 @@
+ACCESSION: PS096704
+RECORD_TITLE: 3-Methyl-L-histidine, N-pros-Methyl-L-histidine, 3-(1-Methylimidazol-5-yl)-L-alanine, 3-Me-His; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, M9005.
+COMMENT: PRIMe compound in-house ID N0025
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 3-Methyl-L-histidine
+CH$NAME: N-pros-Methyl-L-histidine
+CH$NAME: 3-(1-Methylimidazol-5-yl)-L-alanine
+CH$NAME: 3-Me-His
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Histidine
+CH$FORMULA: C7H11N3O2
+CH$EXACT_MASS: 169.184
+CH$SMILES: CN1C=NC=C1CC(C(=O)O)N
+CH$IUPAC: InChI=1S/C7H11N3O2/c1-10-4-9-3-5(10)2-6(8)7(11)12/h3-4,6H,2,8H2,1H3,(H,11,12)
+CH$LINK: CAS 368-16-1
+CH$LINK: KEGG C01152
+CH$LINK: PUBCHEM CID:64969
+CH$LINK: INCHIKEY JDHILDINMRGULE-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 170.2
+PK$SPLASH: splash10-0002-9000000000-6ece66e5ef77c98e8233
+PK$NUM_PEAK: 15
+PK$PEAK: m/z int. rel.int.
+  41.0 6349.0 75
+  42.0 6506.0 77
+  55.0 5959.0 70
+  67.0 3959.0 47
+  68.0 12902.0 152
+  81.0 2864.0 34
+  83.0 4739.0 56
+  93.0 3412.0 40
+  94.0 13254.0 156
+  95.0 58641.0 691
+  96.0 84754.0 999
+  97.0 8420.0 99
+  109.0 7439.0 88
+  169.0 4181.0 49
+  170.0 3094.0 36
+//

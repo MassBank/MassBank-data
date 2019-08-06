@@ -1,0 +1,52 @@
+ACCESSION: PS010702
+RECORD_TITLE: Amben, gamma-Aminobenzoic acid, Vitamin Bx, 4-Aminobenzoic acid, 4-Aminobenzoate, PABA, 1-Amino-4-carboxybenzene, Vitamin H1, Paraminol, 4-Carboxyaniline, ABEE; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A9878.
+COMMENT: PRIMe compound in-house ID 107
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Amben
+CH$NAME: gamma-Aminobenzoic acid
+CH$NAME: Vitamin Bx
+CH$NAME: 4-Aminobenzoic acid
+CH$NAME: 4-Aminobenzoate
+CH$NAME: PABA
+CH$NAME: 1-Amino-4-carboxybenzene
+CH$NAME: Vitamin H1
+CH$NAME: Paraminol
+CH$NAME: 4-Carboxyaniline
+CH$NAME: ABEE
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Benzoic acid CLASS3 Amben
+CH$FORMULA: C7H7NO2
+CH$EXACT_MASS: 137.138
+CH$SMILES: C1=CC(=CC=C1C(=O)O)N
+CH$IUPAC: InChI=1S/C7H7NO2/c8-6-3-1-5(2-4-6)7(9)10/h1-4H,8H2,(H,9,10)
+CH$LINK: CAS 150-13-0
+CH$LINK: KEGG C00568
+CH$LINK: PUBCHEM CID:978
+CH$LINK: INCHIKEY ALYNCZNDIQEVRV-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID6024466
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 138.11
+PK$SPLASH: splash10-000i-3900000000-979279aaa789d4a7aa5c
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  77.0 83223.0 173
+  93.0 27318.0 57
+  94.0 109660.0 227
+  137.0 97445.0 202
+  138.0 481564.0 999
+//

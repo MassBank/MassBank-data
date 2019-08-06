@@ -1,0 +1,46 @@
+ACCESSION: PS005301
+RECORD_TITLE: L-Methionine, L-Met, L-Lobamine, (S)-2-Amino-4-(methylmercapto)butyric acid, L-2-Amino-4-methylmercaptobutyric Acid, L-a-Amino-g-methylthiobutyric acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound WAKO, 135-01601.
+COMMENT: PRIMe compound in-house ID 53
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-Methionine
+CH$NAME: L-Met
+CH$NAME: L-Lobamine
+CH$NAME: (S)-2-Amino-4-(methylmercapto)butyric acid
+CH$NAME: L-2-Amino-4-methylmercaptobutyric Acid
+CH$NAME: L-a-Amino-g-methylthiobutyric acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Methionine
+CH$FORMULA: C5H11NO2S
+CH$EXACT_MASS: 149.213
+CH$SMILES: CSCCC(C(=O)O)N
+CH$IUPAC: InChI=1S/C5H11NO2S/c1-9-3-2-4(6)5(7)8/h4H,2-3,6H2,1H3,(H,7,8)
+CH$LINK: CAS 63-68-3
+CH$LINK: KEGG C00073
+CH$LINK: PUBCHEM CID:6137
+CH$LINK: INCHIKEY FFEARJCKVFRZRR-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID9020821
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 150.14
+PK$SPLASH: splash10-0udi-0900000000-2ea191319fdfa5cf8ac9
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  104.0 244054.0 227
+  133.0 159435.0 149
+  149.0 74842.0 70
+  150.0 1071743.0 999
+//

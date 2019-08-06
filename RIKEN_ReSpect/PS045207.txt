@@ -1,0 +1,42 @@
+ACCESSION: PS045207
+RECORD_TITLE: Rosemary acid, rosmarinic acid, Rosmarinate, (R)-O-(3,4-Dihydroxycinnamoyl)-3-(3,4- dihydroxyphenyl)lactic acid, 7-Hydroxy-PIPAT; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound EXTRASYNTHESE S.A, 4957 S.
+COMMENT: PRIMe compound in-house ID H0060
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Rosemary acid
+CH$NAME: rosmarinic acid
+CH$NAME: Rosmarinate
+CH$NAME: (R)-O-(3,4-Dihydroxycinnamoyl)-3-(3,4- dihydroxyphenyl)lactic acid
+CH$NAME: 7-Hydroxy-PIPAT
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid ester CLASS3 Rosmarinic acid
+CH$FORMULA: C18H16O8
+CH$EXACT_MASS: 360.318
+CH$SMILES: C1=CC(=C(C=C1CC(C(=O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)O)O
+CH$IUPAC: InChI=1S/C18H16O8/c19-12-4-1-10(7-14(12)21)3-6-17(23)26-16(18(24)25)9-11-2-5-13(20)15(22)8-11/h1-8,16,19-22H,9H2,(H,24,25)
+CH$LINK: CAS 537-15-5
+CH$LINK: KEGG C10489
+CH$LINK: PUBCHEM CID:639655
+CH$LINK: INCHIKEY DOUMFZQKYFQNTF-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 359.32
+PK$SPLASH: splash10-0a4i-0009000000-1da0834b6a9fe32728bf
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  358.0 37192.0 83
+  359.0 445018.0 999
+//

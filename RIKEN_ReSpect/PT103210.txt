@@ -1,0 +1,37 @@
+ACCESSION: PT103210
+RECORD_TITLE: Sodium 4-hydroxy-benzoate, p-Hydroxybenzoic acid sodium salt, Hydroxybenzenecarboxylic acid, 4-hydroxybenzoic acid, 4-Hydroxybenzoic acid sodium salt; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Sodium 4-hydroxy-benzoate
+CH$NAME: p-Hydroxybenzoic acid sodium salt
+CH$NAME: Hydroxybenzenecarboxylic acid
+CH$NAME: 4-hydroxybenzoic acid
+CH$NAME: 4-Hydroxybenzoic acid sodium salt
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Benzoic acid CLASS3 Hydroxybenzoic acid
+CH$FORMULA: C7H6O3
+CH$EXACT_MASS: 138.122
+CH$SMILES: C1=CC(=CC=C1C(=O)O)O
+CH$IUPAC: InChI=1S/C7H6O3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H,(H,9,10)
+CH$LINK: CAS 99-96-7
+CH$LINK: INCHIKEY FJKROLUGYXJWQN-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 139.03949
+PK$SPLASH: splash10-0072-6900000000-ba06f5c422d59cd10cea
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  95.0503 33.43 999
+  121.0293 30.91 924
+  139.0395 17.06 510
+//

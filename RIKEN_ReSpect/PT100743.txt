@@ -1,0 +1,38 @@
+ACCESSION: PT100743
+RECORD_TITLE: 2-Amino-3-deoxy-D-galactose Hydrochloride, D(+)-Galactosamine hydrochloride, D-Chondrosamine hydrochloride, (3R,4R,5R,6R)-3-amino-6-(hydroxymethyl)oxane-2,4,5-triol; LC-ESI-QTOF; MS2
+DATE: 2008.07.24
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 2-Amino-3-deoxy-D-galactose Hydrochloride
+CH$NAME: D(+)-Galactosamine hydrochloride
+CH$NAME: D-Chondrosamine hydrochloride
+CH$NAME: (3R,4R,5R,6R)-3-amino-6-(hydroxymethyl)oxane-2,4,5-triol
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Sugar CLASS3 Monosaccharide
+CH$FORMULA: C6H13NO5
+CH$EXACT_MASS: 179.172
+CH$SMILES: C(C1C(C(C(C(O1)O)N)O)O)O
+CH$IUPAC: InChI=1S/C6H13NO5/c7-3-5(10)4(9)2(1-8)12-6(3)11/h2-6,8-11H,1,7H2
+CH$LINK: CAS 7535-00-4
+CH$LINK: INCHIKEY MSWZFWKMSRAUBD-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 180.08717
+PK$SPLASH: splash10-001i-2900000000-9c0c74d59af96dac59b4
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  72.0449 12.66 434
+  162.0742 5.946 204
+  179.9693 3.015 103
+  180.0022 3.062 105
+  180.0817 29.11 999
+//

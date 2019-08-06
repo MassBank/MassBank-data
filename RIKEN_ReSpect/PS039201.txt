@@ -1,0 +1,53 @@
+ACCESSION: PS039201
+RECORD_TITLE: Acepramine, Epsilcapramine, Caprolisin, epsilon-Amino-n-caproic acid, Respramin, 6-Aminohexanoate, epsilon-Leucin, 6-Aminohexanoic acid, Epsilcapramin, Hemocaprol, 6-Ahx, EACA, 6-Aminocaproic acid, ACS, 6-Aca; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A2504.
+COMMENT: PRIMe compound in-house ID 392
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Acepramine
+CH$NAME: Epsilcapramine
+CH$NAME: Caprolisin
+CH$NAME: epsilon-Amino-n-caproic acid
+CH$NAME: Respramin
+CH$NAME: 6-Aminohexanoate
+CH$NAME: epsilon-Leucin
+CH$NAME: 6-Aminohexanoic acid
+CH$NAME: Epsilcapramin
+CH$NAME: Hemocaprol
+CH$NAME: 6-Ahx
+CH$NAME: EACA
+CH$NAME: 6-Aminocaproic acid
+CH$NAME: ACS
+CH$NAME: 6-Aca
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Caproic acid
+CH$FORMULA: C6H13NO2
+CH$EXACT_MASS: 131.175
+CH$SMILES: C(CCC(=O)O)CCN
+CH$IUPAC: InChI=1S/C6H13NO2/c7-5-3-1-2-4-6(8)9/h1-5,7H2,(H,8,9)
+CH$LINK: CAS 60-32-2
+CH$LINK: KEGG C02378
+CH$LINK: PUBCHEM CID:564
+CH$LINK: INCHIKEY SLXKOJJOQWFEFD-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 132.14
+PK$SPLASH: splash10-001i-0900000000-7d47ce229c46e69a73d5
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  114.0 191640.0 140
+  131.0 105303.0 77
+  132.0 1365536.0 999
+//

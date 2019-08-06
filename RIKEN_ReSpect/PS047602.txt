@@ -1,0 +1,50 @@
+ACCESSION: PS047602
+RECORD_TITLE: 2-Acetamido-2-deoxy-D-mannopyranose, ManNAc, N-Acetyl-D-mannosaminide, N-acetyl-D-mannosamine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A8176.
+COMMENT: PRIMe compound in-house ID H0073
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 2-Acetamido-2-deoxy-D-mannopyranose
+CH$NAME: ManNAc
+CH$NAME: N-Acetyl-D-mannosaminide
+CH$NAME: N-acetyl-D-mannosamine
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Sugar CLASS3 Monosaccharide
+CH$FORMULA: C8H15NO6
+CH$EXACT_MASS: 221.209
+CH$SMILES: CC(=O)NC1C(C(C(OC1O)CO)O)O
+CH$IUPAC: InChI=1S/C8H15NO6/c1-3(11)9-5-7(13)6(12)4(2-10)15-8(5)14/h4-8,10,12-14H,2H2,1H3,(H,9,11)
+CH$LINK: CAS 3615-17-6
+CH$LINK: KEGG C00645
+CH$LINK: PUBCHEM CID:439281
+CH$LINK: INCHIKEY OVRNDRQMDRJTHS-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 222.27
+PK$SPLASH: splash10-004r-0900000000-537a6a67bb374e47de41
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  84.0 1959.0 38
+  98.0 2227.0 43
+  125.0 5799.0 111
+  126.0 52095.0 999
+  137.0 4068.0 78
+  138.0 28356.0 544
+  144.0 9960.0 191
+  168.0 5514.0 106
+  185.0 2123.0 41
+  186.0 11748.0 225
+  204.0 6255.0 120
+//

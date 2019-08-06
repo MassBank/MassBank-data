@@ -1,0 +1,40 @@
+ACCESSION: PT203930
+RECORD_TITLE: Apigenol, 5,7-Dihydroxy-2-(4-hydroxyphenyl)-4-benzopyrone, 4',5,7-trihydroxyflavone, Apigenin, Naringenin Chalcone, 5,7-dihydroxy-2-(4-hydroxyphenyl)chromen-4-one, Chamomile, Apig; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Apigenol
+CH$NAME: 5,7-Dihydroxy-2-(4-hydroxyphenyl)-4-benzopyrone
+CH$NAME: 4',5,7-trihydroxyflavone
+CH$NAME: Apigenin
+CH$NAME: Naringenin Chalcone
+CH$NAME: 5,7-dihydroxy-2-(4-hydroxyphenyl)chromen-4-one
+CH$NAME: Chamomile
+CH$NAME: Apig
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Flavone CLASS3 Apigenin
+CH$FORMULA: C15H10O5
+CH$EXACT_MASS: 270.24
+CH$SMILES: C1=CC(=CC=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O
+CH$IUPAC: InChI=1S/C15H10O5/c16-9-3-1-8(2-4-9)13-7-12(19)15-11(18)5-10(17)6-14(15)20-13/h1-7,16-18H
+CH$LINK: CAS 520-36-5
+CH$LINK: INCHIKEY KZNIFHPLKGYRTM-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 269.04502
+PK$SPLASH: splash10-014i-0490000000-413a7da79773bc92a112
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  117.0346 262.6 411
+  151.0032 78.0 122
+  269.045 638.6 999
+//

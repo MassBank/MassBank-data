@@ -1,0 +1,54 @@
+ACCESSION: PS100902
+RECORD_TITLE: Vitamin PP, Pelonin amide, Endobion, Vitamin B3, Amnicotin, 3-Pyridinecarboxamide, Nicotinic acid amide, Nicobion, Nicotinamide, Amide PP, Delonin amide, Benicot, Pyridine-3-carboxylic acid amide, Niacinamide, NAM; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, N5535.
+COMMENT: PRIMe compound in-house ID N0067
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Vitamin PP
+CH$NAME: Pelonin amide
+CH$NAME: Endobion
+CH$NAME: Vitamin B3
+CH$NAME: Amnicotin
+CH$NAME: 3-Pyridinecarboxamide
+CH$NAME: Nicotinic acid amide
+CH$NAME: Nicobion
+CH$NAME: Nicotinamide
+CH$NAME: Amide PP
+CH$NAME: Delonin amide
+CH$NAME: Benicot
+CH$NAME: Pyridine-3-carboxylic acid amide
+CH$NAME: Niacinamide
+CH$NAME: NAM
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: C6H6N2O
+CH$EXACT_MASS: 122.127
+CH$SMILES: C1=CC(=CN=C1)C(=O)N
+CH$IUPAC: InChI=1S/C6H6N2O/c7-6(9)5-2-1-3-8-4-5/h1-4H,(H2,7,9)
+CH$LINK: CAS 98-92-0
+CH$LINK: KEGG C00153
+CH$LINK: PUBCHEM CID:936
+CH$LINK: INCHIKEY DFPAKSUCGFBDDF-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 123.08
+PK$SPLASH: splash10-00di-1900000000-14cb5fef233c87f0face
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  79.0 24548.0 40
+  80.0 120182.0 194
+  122.0 136463.0 220
+  123.0 619709.0 999
+//

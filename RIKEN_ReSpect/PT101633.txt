@@ -1,0 +1,41 @@
+ACCESSION: PT101633
+RECORD_TITLE: Arterocholine, Acetylcholine chloride, Miochol, Aceolinc, 2-acetyloxyethyl-trimethylazanium, 2-Acetoxyethyltrimethylammonium chloride, Ovisot, Ach, Acetylcholinium chloride; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Arterocholine
+CH$NAME: Acetylcholine chloride
+CH$NAME: Miochol
+CH$NAME: Aceolinc
+CH$NAME: 2-acetyloxyethyl-trimethylazanium
+CH$NAME: 2-Acetoxyethyltrimethylammonium chloride
+CH$NAME: Ovisot
+CH$NAME: Ach
+CH$NAME: Acetylcholinium chloride
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Acetyl choline
+CH$FORMULA: [C7H16NO2]+
+CH$EXACT_MASS: 146.21
+CH$SMILES: CC(=O)OCC[N+](C)(C)C
+CH$IUPAC: InChI=1S/C7H16NO2/c1-7(9)10-6-5-8(2,3)4/h5-6H2,1-4H3/q+1
+CH$LINK: CAS 51-84-3
+CH$LINK: INCHIKEY OIPILFWXSMYKGL-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 146.11807
+PK$SPLASH: splash10-000j-9800000000-b0f987ebcb0179a2c5ab
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  87.0442 20.17 999
+  146.0648 1.217 60
+  146.1181 18.29 906
+//

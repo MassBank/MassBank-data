@@ -1,0 +1,44 @@
+ACCESSION: PS045307
+RECORD_TITLE: 4-Hydroxy-3,5-dimethoxy-cinnamic acid, SA, Sinapate, Sinapic acid, Sin, 3,5-dimethoxy-4-hydroxycinnamic acid, Sinapinic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound EXTRASYNTHESE S.A, 6173.
+COMMENT: PRIMe compound in-house ID H0061
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 4-Hydroxy-3,5-dimethoxy-cinnamic acid
+CH$NAME: SA
+CH$NAME: Sinapate
+CH$NAME: Sinapic acid
+CH$NAME: Sin
+CH$NAME: 3,5-dimethoxy-4-hydroxycinnamic acid
+CH$NAME: Sinapinic acid
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid monomer CLASS3 Sinapic acid
+CH$FORMULA: C11H12O5
+CH$EXACT_MASS: 224.212
+CH$SMILES: COC1=CC(=CC(=C1O)OC)C=CC(=O)O
+CH$IUPAC: InChI=1S/C11H12O5/c1-15-8-5-7(3-4-10(12)13)6-9(16-2)11(8)14/h3-6,14H,1-2H3,(H,12,13)
+CH$LINK: CAS 530-59-6
+CH$LINK: KEGG C00482
+CH$LINK: PUBCHEM CID:637775
+CH$LINK: INCHIKEY PCMORTLOPMLEFB-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 223.23
+PK$SPLASH: splash10-00di-0090000000-47e0880adf5d7d168853
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  222.0 16915.0 58
+  223.0 289614.0 999
+//

@@ -1,0 +1,51 @@
+ACCESSION: PS039401
+RECORD_TITLE: 1,2-Benzenediol, o-Benzenediol, o-Diphenol, 1,2-dihydroxybenzen, Catechol, Pyrocatechinic acid, Brenzcatechin, Oxyphenic acid, o-Phenylenediol, Pyrocatechuic Acid, Phthalhydroquinone, Pyrocatechol; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound EXTRASYNTHESE S.A, 970.
+COMMENT: PRIMe compound in-house ID H0002
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 1,2-Benzenediol
+CH$NAME: o-Benzenediol
+CH$NAME: o-Diphenol
+CH$NAME: 1,2-dihydroxybenzen
+CH$NAME: Catechol
+CH$NAME: Pyrocatechinic acid
+CH$NAME: Brenzcatechin
+CH$NAME: Oxyphenic acid
+CH$NAME: o-Phenylenediol
+CH$NAME: Pyrocatechuic Acid
+CH$NAME: Phthalhydroquinone
+CH$NAME: Pyrocatechol
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Catechol
+CH$FORMULA: C6H6O2
+CH$EXACT_MASS: 110.112
+CH$SMILES: C1=CC=C(C(=C1)O)O
+CH$IUPAC: InChI=1S/C6H6O2/c7-5-3-1-2-4-6(5)8/h1-4,7-8H
+CH$LINK: CAS 120-80-9
+CH$LINK: KEGG C00090
+CH$LINK: PUBCHEM CID:289
+CH$LINK: INCHIKEY YCIMNLLNPGFGHC-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 110.07
+PK$SPLASH: splash10-00kr-9000000000-df14f05fc9928a308d83
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  68.0 10620.0 207
+  69.0 18595.0 363
+  89.0 51189.0 999
+  90.0 20709.0 404
+//

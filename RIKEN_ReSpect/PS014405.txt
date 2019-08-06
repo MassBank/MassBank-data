@@ -1,0 +1,51 @@
+ACCESSION: PS014405
+RECORD_TITLE: 2'-Deoxycytidine, dC, dCYD, 2'-Deoxy-CYD, Cytosine deoxyriboside; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, D3897.
+COMMENT: PRIMe compound in-house ID 144
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 2'-Deoxycytidine
+CH$NAME: dC
+CH$NAME: dCYD
+CH$NAME: 2'-Deoxy-CYD
+CH$NAME: Cytosine deoxyriboside
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleoside CLASS3 Cytidine
+CH$FORMULA: C9H13N3O4
+CH$EXACT_MASS: 227.22
+CH$SMILES: C1C(C(OC1N2C=CC(=NC2=O)N)CO)O
+CH$IUPAC: InChI=1S/C9H13N3O4/c10-7-1-2-12(9(15)11-7)8-3-5(14)6(4-13)16-8/h1-2,5-6,8,13-14H,3-4H2,(H2,10,11,15)
+CH$LINK: CAS 951-77-9
+CH$LINK: KEGG C00881
+CH$LINK: PUBCHEM CID:13711
+CH$LINK: INCHIKEY CKTSBUTUHBMZGZ-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 50
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 228.25
+PK$SPLASH: splash10-03di-4900000000-4d66b0a9f0ea69359f04
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  42.0 3403.0 45
+  43.0 3256.0 43
+  45.0 4036.0 53
+  67.0 2588.0 34
+  69.0 6978.0 92
+  94.0 8640.0 114
+  95.0 23969.0 316
+  109.0 2521.0 33
+  110.0 4682.0 62
+  111.0 22926.0 303
+  112.0 75666.0 999
+//

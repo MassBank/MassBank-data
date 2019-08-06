@@ -1,0 +1,41 @@
+ACCESSION: PT109760
+RECORD_TITLE: L-alpha-Aminobutyric acid, (S)-2-Aminobutyric acid, (S)-2-Aminobutanoate, L-2-Aminobutyric acid, (2S)-2-aminobutanoic acid, L-2-Aminobutyrate, L-Butyrine, AABA, 2-ABU; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: L-alpha-Aminobutyric acid
+CH$NAME: (S)-2-Aminobutyric acid
+CH$NAME: (S)-2-Aminobutanoate
+CH$NAME: L-2-Aminobutyric acid
+CH$NAME: (2S)-2-aminobutanoic acid
+CH$NAME: L-2-Aminobutyrate
+CH$NAME: L-Butyrine
+CH$NAME: AABA
+CH$NAME: 2-ABU
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Butyric acid
+CH$FORMULA: C4H9NO2
+CH$EXACT_MASS: 103.121
+CH$SMILES: CCC(C(=O)O)N
+CH$IUPAC: InChI=1S/C4H9NO2/c1-2-3(5)4(6)7/h3H,2,5H2,1H3,(H,6,7)
+CH$LINK: CAS 1492-24-6
+CH$LINK: INCHIKEY QWCKQJZIFLGMSD-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 104.07113
+PK$SPLASH: splash10-0a4i-9200000000-c71bee21cc5879ab61bb
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  58.0662 108.2 999
+  99.5102 6.89 64
+  104.0711 31.9 295
+//

@@ -1,0 +1,42 @@
+ACCESSION: PS089501
+RECORD_TITLE: (25R)-5beta-Spirostan-3beta-ol, Isosarsasapogenin, 16,22:22,26-Bis(epoxy)cholestan-3beta-ol, 5beta,20alpha,22alpha,25D-Spiranostan-3beta-ol, Smilagenin; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound MP Bio, 152060.
+COMMENT: PRIMe compound in-house ID S0345
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: (25R)-5beta-Spirostan-3beta-ol
+CH$NAME: Isosarsasapogenin
+CH$NAME: 16,22:22,26-Bis(epoxy)cholestan-3beta-ol
+CH$NAME: 5beta,20alpha,22alpha,25D-Spiranostan-3beta-ol
+CH$NAME: Smilagenin
+CH$COMPOUND_CLASS: CLASS1 Terpenoid CLASS2 Triterpenoid CLASS3 Smilagenin
+CH$FORMULA: C27H44O3
+CH$EXACT_MASS: 416.646
+CH$SMILES: CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)O)C)C)C)OC1
+CH$IUPAC: InChI=1S/C27H44O3/c1-16-7-12-27(29-15-16)17(2)24-23(30-27)14-22-20-6-5-18-13-19(28)8-10-25(18,3)21(20)9-11-26(22,24)4/h16-24,28H,5-15H2,1-4H3
+CH$LINK: CAS 126-18-1
+CH$LINK: KEGG C08913
+CH$LINK: PUBCHEM CID:91439
+CH$LINK: INCHIKEY GMBQZIIUCVWOCD-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 417.58
+PK$SPLASH: splash10-014i-0000900000-6c7cda34f703989e808e
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  417.0 1286514.0 999
+  418.0 546281.0 424
+//

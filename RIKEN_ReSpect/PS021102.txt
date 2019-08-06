@@ -1,0 +1,48 @@
+ACCESSION: PS021102
+RECORD_TITLE: Hydrouracil, 5,6-Dihydro-2,4-dihydroxypyrimidine, Dihydrouracil, 2,4-Dioxotetrahydropyrimidine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, D7628.
+COMMENT: PRIMe compound in-house ID 211
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Hydrouracil
+CH$NAME: 5,6-Dihydro-2,4-dihydroxypyrimidine
+CH$NAME: Dihydrouracil
+CH$NAME: 2,4-Dioxotetrahydropyrimidine
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Uracil
+CH$FORMULA: C4H6N2O2
+CH$EXACT_MASS: 114.104
+CH$SMILES: C1CNC(=O)NC1=O
+CH$IUPAC: InChI=1S/C4H6N2O2/c7-3-1-2-5-4(8)6-3/h1-2H2,(H2,5,6,7,8)
+CH$LINK: CAS 504-07-4
+CH$LINK: KEGG C00429
+CH$LINK: PUBCHEM CID:649
+CH$LINK: INCHIKEY OIVLITBTBDPEFK-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 115.1
+PK$SPLASH: splash10-000x-9000000000-eb4394511280a150d35d
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  29.0 2036.0 42
+  30.0 5826.0 119
+  32.0 5269.0 108
+  33.0 33496.0 685
+  41.0 27012.0 552
+  42.0 48872.0 999
+  73.0 5031.0 103
+  74.0 2663.0 54
+  115.0 2592.0 53
+//

@@ -1,0 +1,51 @@
+ACCESSION: PS007802
+RECORD_TITLE: Sodium pyruvate, Pyruvic acid sodium salt, Acetylformic acid, 2-Oxopropanoic acid sodium salt, alpha-Ketopropionic acid sodium salt; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound WAKO, 199-03062.
+COMMENT: PRIMe compound in-house ID 78
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Sodium pyruvate
+CH$NAME: Pyruvic acid sodium salt
+CH$NAME: Acetylformic acid
+CH$NAME: 2-Oxopropanoic acid sodium salt
+CH$NAME: alpha-Ketopropionic acid sodium salt
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Formic acid
+CH$FORMULA: C3H4O3
+CH$EXACT_MASS: 88.062
+CH$SMILES: CC(=O)C(=O)O
+CH$IUPAC: InChI=1S/C3H4O3/c1-2(4)3(5)6/h1H3,(H,5,6)
+CH$LINK: CAS 127-17-3
+CH$LINK: KEGG C00022
+CH$LINK: PUBCHEM CID:1060
+CH$LINK: INCHIKEY LCTONWCANYUPML-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID2021650
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 88.06
+PK$SPLASH: splash10-03di-9000000000-ebb05a12a951be6512b1
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  29.0 12985.0 260
+  42.0 2920.0 59
+  43.0 6405.0 128
+  53.0 3126.0 63
+  56.0 5030.0 101
+  58.0 3067.0 62
+  59.0 10027.0 201
+  60.0 49812.0 999
+  88.0 3850.0 77
+  92.0 3298.0 66
+//

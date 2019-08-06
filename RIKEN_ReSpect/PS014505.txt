@@ -1,0 +1,42 @@
+ACCESSION: PS014505
+RECORD_TITLE: 2'-Deoxycytidine-5'-diphosphate sodium salt, 2'-Deoxy-CDP, dCDP; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, D7250.
+COMMENT: PRIMe compound in-house ID 145
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 2'-Deoxycytidine-5'-diphosphate sodium salt
+CH$NAME: 2'-Deoxy-CDP
+CH$NAME: dCDP
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Cytidine phosphate
+CH$FORMULA: C9H15N3O10P2
+CH$EXACT_MASS: 387.182
+CH$SMILES: C1C(C(OC1N2C=CC(=NC2=O)N)COP(=O)(O)OP(=O)(O)O)O
+CH$IUPAC: InChI=1S/C9H15N3O10P2/c10-7-1-2-12(9(14)11-7)8-3-5(13)6(21-8)4-20-24(18,19)22-23(15,16)17/h1-2,5-6,8,13H,3-4H2,(H,18,19)(H2,10,11,14)(H2,15,16,17)
+CH$LINK: CAS 800-73-7
+CH$LINK: KEGG C00705
+CH$LINK: PUBCHEM CID:150855
+CH$LINK: INCHIKEY FTDHDKPUHBLBTL-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 50
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 388.3
+PK$SPLASH: splash10-03di-1900000000-c2bf49c43af157b1f31c
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  81.0 11611.0 169
+  105.0 11020.0 160
+  111.0 18299.0 266
+  112.0 68624.0 999
+//

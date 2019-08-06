@@ -1,0 +1,38 @@
+ACCESSION: PT102463
+RECORD_TITLE: Guanosine monophosphate, 5'-GMP, Guanosine-5'-monophosphate disodium salt hydrate from Yeast, G-5'-P, GMP, Guanylic acid, [(2R,3S,4R,5R)-5-(2-amino-6-oxo-3H-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl dihydrogen phosphate; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Guanosine monophosphate
+CH$NAME: 5'-GMP
+CH$NAME: Guanosine-5'-monophosphate disodium salt hydrate from Yeast
+CH$NAME: G-5'-P
+CH$NAME: GMP
+CH$NAME: Guanylic acid
+CH$NAME: [(2R,3S,4R,5R)-5-(2-amino-6-oxo-3H-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl dihydrogen phosphate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Guanosine phosphate
+CH$FORMULA: C10H14N5O8P
+CH$EXACT_MASS: 363.225
+CH$SMILES: C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)O)O)O)NC(=NC2=O)N
+CH$IUPAC: InChI=1S/C10H14N5O8P/c11-10-13-7-4(8(18)14-10)12-2-15(7)9-6(17)5(16)3(23-9)1-22-24(19,20)21/h2-3,5-6,9,16-17H,1H2,(H2,19,20,21)(H3,11,13,14,18)
+CH$LINK: CAS 85-32-5
+CH$LINK: INCHIKEY RQFCJASXJCIDSX-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 364.0658
+PK$SPLASH: splash10-0udi-0904000000-cf72d0459316801b014e
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  152.063 120.5 999
+  364.0658 57.81 479
+//

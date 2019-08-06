@@ -1,0 +1,41 @@
+ACCESSION: PS122909
+RECORD_TITLE: E-Astringin, E-3,4,5'-trihydroxy-3'-glucopyranosylstilbene; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound polyphenols, 11100-1.
+COMMENT: PRIMe compound in-house ID V0103
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: E-Astringin
+CH$NAME: E-3,4,5'-trihydroxy-3'-glucopyranosylstilbene
+CH$COMPOUND_CLASS: CLASS1 Stilbenoid CLASS2 Stilben CLASS3 Stilbene glycoside
+CH$FORMULA: C20H22O9
+CH$EXACT_MASS: 406.387
+CH$SMILES: C1=CC(=C(C=C1C=CC2=CC(=CC(=C2)OC3C(C(C(C(O3)CO)O)O)O)O)O)O
+CH$IUPAC: InChI=1S/C20H22O9/c21-9-16-17(25)18(26)19(27)20(29-16)28-13-6-11(5-12(22)8-13)2-1-10-3-4-14(23)15(24)7-10/h1-8,16-27H,9H2
+CH$LINK: CAS 29884-49-9
+CH$LINK: KEGG C10245
+CH$LINK: PUBCHEM CID:5281712
+CH$LINK: INCHIKEY PERPNFLGJXUDDW-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 405.42
+PK$SPLASH: splash10-0006-0090000000-9cd0e1640ac009777c35
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  242.0 22357.0 136
+  243.0 164540.0 999
+  244.0 7590.0 46
+  405.0 14565.0 88
+//

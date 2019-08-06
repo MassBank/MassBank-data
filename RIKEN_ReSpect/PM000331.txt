@@ -1,0 +1,38 @@
+ACCESSION: PM000331
+RECORD_TITLE: Rosmarinic acid; LC-ESI-QQ; MS2
+DATE: 2006.04.19
+AUTHORS: Parejo I, et al.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2012 Plant Science Center, RIKEN
+PUBLICATION: Parejo, I.; Jauregui, O.; Sánchez-Rabaneda, F.; Viladomat, F.; Bastida, J.; Codina, C. Separation and Characterization of Phenolic Compounds in Fennel (Foeniculum Vulgare) Using Liquid Chromatography-Negative Electrospray Ionization Tandem Mass Spectrometry. Journal of Agricultural and Food Chemistry 2004, 52 (12), 3679–87. DOI:10.1021/jf030813h
+COMMENT: 725
+CH$NAME: Rosmarinic acid
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid ester CLASS3 Rosmarinic acid
+CH$FORMULA: C18H16O8
+CH$EXACT_MASS: 360.318
+CH$SMILES: O=C(/C=C/c1ccc(O)c(O)c1)O[C@H](Cc1ccc(O)c(O)c1)C(=O)O
+CH$IUPAC: InChI=1S/C18H16O8/c19-12-4-1-10(7-14(12)21)3-6-17(23)26-16(18(24)25)9-11-2-5-13(20)15(22)8-11/h1-8,16,19-22H,9H2,(H,24,25)/b6-3+/t16-/m1/s1
+CH$LINK: CAS 20283-92-5
+CH$LINK: INCHIKEY DOUMFZQKYFQNTF-WUTVXBCWSA-N
+CH$LINK: PUBCHEM CID:5281792
+CH$LINK: COMPTOX DTXSID20896987
+SP$SAMPLE: Foeniculum vulgare
+AC$INSTRUMENT: API 3000 triple-quadrupole mass spectrometer (PerkinElmer Sciex, Concord, ON, Canada)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 35
+AC$CHROMATOGRAPHY: SOLVENT H2O/NH3CN/HCOOH
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 359
+PK$SPLASH: splash10-03dj-0901000000-1eba6db7b8dabb681bf6
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  135.0 3.0 30
+  161.0 100.0 999
+  197.0 50.0 500
+  223.0 2.0 20
+  315.0 2.0 20
+  359.0 22.0 220
+//

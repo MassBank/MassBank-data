@@ -1,0 +1,46 @@
+ACCESSION: PS035609
+RECORD_TITLE: 3',5'-Cyclic deoxy-TMP, cdTMP, Deoxythymidine-3',5'-cyclic monophosphate, Thymidine-3',5'-cyclic monophosphate  sodium salt ; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, T6754.
+COMMENT: PRIMe compound in-house ID 356
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 3',5'-Cyclic deoxy-TMP
+CH$NAME: cdTMP
+CH$NAME: Deoxythymidine-3',5'-cyclic monophosphate
+CH$NAME: Thymidine-3',5'-cyclic monophosphate  sodium salt
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Thymidine phosphate
+CH$FORMULA: C10H13N2O7P
+CH$EXACT_MASS: 304.197
+CH$SMILES: CC1=CN(C(=O)NC1=O)C2CC3C(O2)COP(=O)(O3)O
+CH$IUPAC: InChI=1S/C10H13N2O7P/c1-5-3-12(10(14)11-9(5)13)8-2-6-7(18-8)4-17-20(15,16)19-6/h3,6-8H,2,4H2,1H3,(H,15,16)(H,11,13,14)
+CH$LINK: CAS 76567-90-3
+CH$LINK: PUBCHEM CID:5464
+CH$LINK: INCHIKEY QSJFDOVQWZVUQG-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 303.23
+PK$SPLASH: splash10-0fb9-0905000000-941b9b4e56f2e6fc9ad2
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  79.0 7828.0 187
+  124.0 8234.0 196
+  125.0 41888.0 999
+  135.0 3758.0 90
+  176.0 2219.0 53
+  177.0 15279.0 364
+  302.0 7732.0 184
+  303.0 32129.0 766
+//

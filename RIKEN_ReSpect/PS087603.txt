@@ -1,0 +1,41 @@
+ACCESSION: PS087603
+RECORD_TITLE: cis-3,7,11-Trimethyldodeca-1,6,10-trien-3-ol, (6Z)-3,7,11-trimethyl-1,6,10-dodecatrien-3-ol, cis-Nerolidol; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound ChromaDex, ASB-00014291-001 .
+COMMENT: PRIMe compound in-house ID S0318
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: cis-3,7,11-Trimethyldodeca-1,6,10-trien-3-ol
+CH$NAME: (6Z)-3,7,11-trimethyl-1,6,10-dodecatrien-3-ol
+CH$NAME: cis-Nerolidol
+CH$COMPOUND_CLASS: CLASS1 Terpenoid CLASS2 Sesquiterpenoid CLASS3 Nerolidol
+CH$FORMULA: C15H26O
+CH$EXACT_MASS: 222.372
+CH$SMILES: CC(=CCCC(=CCCC(C)(C=C)O)C)C
+CH$IUPAC: InChI=1S/C15H26O/c1-6-15(5,16)12-8-11-14(4)10-7-9-13(2)3/h6,9,11,16H,1,7-8,10,12H2,2-5H3
+CH$LINK: CAS 3790-78-1
+CH$LINK: PUBCHEM CID:5356544
+CH$LINK: INCHIKEY FQTLCLSUCSAZDY-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 223.23
+PK$SPLASH: splash10-0a4i-0090000000-e6ec92e97c97cfd84f30
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  73.0 19924.0 122
+  191.0 16992.0 104
+  206.0 31276.0 192
+  207.0 162532.0 999
+//

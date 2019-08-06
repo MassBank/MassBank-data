@@ -1,0 +1,46 @@
+ACCESSION: PS102801
+RECORD_TITLE: Phenylacetylglycine, Phenyl-Ac-Gly, Phenaceturic acid, Phenylacetoamidoacetic Acid, N-Phenacetylglycine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 163-00821.
+COMMENT: PRIMe compound in-house ID N0086
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Phenylacetylglycine
+CH$NAME: Phenyl-Ac-Gly
+CH$NAME: Phenaceturic acid
+CH$NAME: Phenylacetoamidoacetic Acid
+CH$NAME: N-Phenacetylglycine
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Glycine
+CH$FORMULA: C10H11NO3
+CH$EXACT_MASS: 193.202
+CH$SMILES: C1=CC=C(C=C1)CC(=O)NCC(=O)O
+CH$IUPAC: InChI=1S/C10H11NO3/c12-9(11-7-10(13)14)6-8-4-2-1-3-5-8/h1-5H,6-7H2,(H,11,12)(H,13,14)
+CH$LINK: CAS 500-98-1
+CH$LINK: KEGG C05598
+CH$LINK: PUBCHEM CID:68144
+CH$LINK: INCHIKEY UTYVDVLMYQPLQB-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 194.21
+PK$SPLASH: splash10-002f-7900000000-657f7f5dd8c99f6eed2b
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  75.0 43751.0 130
+  76.0 269421.0 798
+  91.0 18641.0 55
+  119.0 12481.0 37
+  193.0 55541.0 164
+  194.0 337356.0 999
+//

@@ -1,0 +1,54 @@
+ACCESSION: PS028303
+RECORD_TITLE: L-Norleucine, Nle, alpha-Aminocaproic acid, (S)-(+)-2-Aminohexanoic acid, (S)-2-Aminocaproic acid, Norleucine, Glycoleucine, Caprine, L-2-Aminohexanoate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, N6877.
+COMMENT: PRIMe compound in-house ID 283
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-Norleucine
+CH$NAME: Nle
+CH$NAME: alpha-Aminocaproic acid
+CH$NAME: (S)-(+)-2-Aminohexanoic acid
+CH$NAME: (S)-2-Aminocaproic acid
+CH$NAME: Norleucine
+CH$NAME: Glycoleucine
+CH$NAME: Caprine
+CH$NAME: L-2-Aminohexanoate
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Leucine
+CH$FORMULA: C6H13NO2
+CH$EXACT_MASS: 131.175
+CH$SMILES: CCCCC(C(=O)O)N
+CH$IUPAC: InChI=1S/C6H13NO2/c1-2-3-4-5(7)6(8)9/h5H,2-4,7H2,1H3,(H,8,9)
+CH$LINK: CAS 327-57-1
+CH$LINK: KEGG C01933
+CH$LINK: PUBCHEM CID:21236
+CH$LINK: INCHIKEY LRQKBLKVPFOOQJ-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 132.14
+PK$SPLASH: splash10-0019-9000000000-0389b4868cf6dab77af4
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  29.0 30220.0 386
+  30.0 78161.0 999
+  40.0 4668.0 60
+  41.0 13550.0 173
+  42.0 4156.0 53
+  43.0 16586.0 212
+  69.0 11844.0 151
+  84.0 3996.0 51
+  85.0 23029.0 294
+  86.0 67584.0 864
+//

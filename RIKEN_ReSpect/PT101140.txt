@@ -1,0 +1,36 @@
+ACCESSION: PT101140
+RECORD_TITLE: Agmatine sulfate salt, 2-(4-aminobutyl)guanidine, 4-Guanidinobutylamine sulfate salt, N-(4-Aminobutyl)guanidine sulfate salt, 1-Amino-4-guanidinobutane sulfate salt; LC-ESI-QTOF; MS2
+DATE: 2008.07.24
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Agmatine sulfate salt
+CH$NAME: 2-(4-aminobutyl)guanidine
+CH$NAME: 4-Guanidinobutylamine sulfate salt
+CH$NAME: N-(4-Aminobutyl)guanidine sulfate salt
+CH$NAME: 1-Amino-4-guanidinobutane sulfate salt
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Agmatine
+CH$FORMULA: C5H14N4
+CH$EXACT_MASS: 130.195
+CH$SMILES: C(CCN=C(N)N)CN
+CH$IUPAC: InChI=1S/C5H14N4/c6-3-1-2-4-9-5(7)8/h1-4,6H2,(H4,7,8,9)
+CH$LINK: CAS 306-60-5
+CH$LINK: INCHIKEY QYPPJABKJHAVHS-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 131.12964
+PK$SPLASH: splash10-001i-0900000000-075bad34dbbb7544e053
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  72.0798 10.97 34
+  131.1256 323.7 999
+//

@@ -1,0 +1,46 @@
+ACCESSION: PS050901
+RECORD_TITLE: 4MSOB, 4-(Methylsulfinyl)butylglucosinolate, 4-methylsulfinylbutyl glucosinolate, glucoraphanin; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Dr. Jonathan Gershenzon, -.
+COMMENT: PRIMe compound in-house ID T0017
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 4MSOB
+CH$NAME: 4-(Methylsulfinyl)butylglucosinolate
+CH$NAME: 4-methylsulfinylbutyl glucosinolate
+CH$NAME: glucoraphanin
+CH$COMPOUND_CLASS: CLASS1 Glucosinolate CLASS2 Aliphatic glucosinolate
+CH$FORMULA: C12H23NO10S3
+CH$EXACT_MASS: 437.508
+CH$SMILES: CS(=O)CCCCC(=NOS(=O)(=O)O)SC1C(C(C(C(O1)CO)O)O)O
+CH$IUPAC: InChI=1S/C12H23NO10S3/c1-25(18)5-3-2-4-8(13-23-26(19,20)21)24-12-11(17)10(16)9(15)7(6-14)22-12/h7,9-12,14-17H,2-6H2,1H3,(H,19,20,21)
+CH$LINK: CAS 21414-41-5
+CH$LINK: KEGG C08419
+CH$LINK: PUBCHEM CID:9548634
+CH$LINK: INCHIKEY GMMLNKINDDUDCF-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 438.37
+PK$SPLASH: splash10-0a6r-0149300000-8524373fe0a895498ce4
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  196.0 8481.0 140
+  276.0 32626.0 537
+  357.0 3603.0 59
+  358.0 60723.0 999
+  437.0 7887.0 130
+  438.0 12611.0 207
+  439.0 2822.0 46
+//

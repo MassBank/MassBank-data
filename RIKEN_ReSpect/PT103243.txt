@@ -1,0 +1,43 @@
+ACCESSION: PT103243
+RECORD_TITLE: 1,4-Piperazinediethanesulfonic acid, Piperazine-N,N'-bis(2-ethanesulfonic acid), Piperazine-1,4-bis(2-ethanesulfonic acid), 2-[4-(2-sulfoethyl)piperazin-1-yl]ethanesulfonic acid, PIPES; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 1,4-Piperazinediethanesulfonic acid
+CH$NAME: Piperazine-N,N'-bis(2-ethanesulfonic acid)
+CH$NAME: Piperazine-1,4-bis(2-ethanesulfonic acid)
+CH$NAME: 2-[4-(2-sulfoethyl)piperazin-1-yl]ethanesulfonic acid
+CH$NAME: PIPES
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Other
+CH$FORMULA: C8H18N2O6S2
+CH$EXACT_MASS: 302.37
+CH$SMILES: C1CN(CCN1CCS(=O)(=O)O)CCS(=O)(=O)O
+CH$IUPAC: InChI=1S/C8H18N2O6S2/c11-17(12,13)7-5-9-1-2-10(4-3-9)6-8-18(14,15)16/h1-8H2,(H,11,12,13)(H,14,15,16)
+CH$LINK: CAS 5625-37-6
+CH$LINK: INCHIKEY IHPYMWDTONKSCO-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 303.06842
+PK$SPLASH: splash10-0h2b-9800000000-f010c9478ca6bbf12d1a
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  70.0658 279.7 999
+  84.0808 100.6 359
+  97.0772 105.4 376
+  98.0848 181.2 647
+  112.1011 65.23 233
+  113.1082 82.1 293
+  127.1239 104.7 374
+  152.0387 270.4 966
+  192.058 83.37 298
+//

@@ -1,0 +1,42 @@
+ACCESSION: PS084806
+RECORD_TITLE: 3,5,7,8,3',4'-Hexahydroxyflavone-8-glucoside, Gosp-8-Glc, gossypetin-8-glucoside, 3,5,7,3',4'-Pentahydroxy-8-O-glucosylflavone, Gossypin; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound EXTRASYNTHESE S.A, 1178.
+COMMENT: PRIMe compound in-house ID S0290
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 3,5,7,8,3',4'-Hexahydroxyflavone-8-glucoside
+CH$NAME: Gosp-8-Glc
+CH$NAME: gossypetin-8-glucoside
+CH$NAME: 3,5,7,3',4'-Pentahydroxy-8-O-glucosylflavone
+CH$NAME: Gossypin
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Flavonol CLASS3 Gossypetin glycoside
+CH$FORMULA: C21H20O13
+CH$EXACT_MASS: 480.378
+CH$SMILES: C1=CC(=C(C=C1C2=C(C(=O)C3=C(O2)C(=C(C=C3O)O)OC4C(C(C(C(O4)CO)O)O)O)O)O)O
+CH$IUPAC: InChI=1S/C21H20O13/c22-5-11-13(27)15(29)17(31)21(32-11)34-19-10(26)4-9(25)12-14(28)16(30)18(33-20(12)19)6-1-2-7(23)8(24)3-6/h1-4,11,13,15,17,21-27,29-31H,5H2
+CH$LINK: CAS 652-78-8
+CH$LINK: KEGG C10051
+CH$LINK: PUBCHEM CID:5281621
+CH$LINK: INCHIKEY SJRXVLUZMMDCNG-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 60
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 481.39
+PK$SPLASH: splash10-014i-0009000000-8848dbd276d28832b244
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  317.0 6683.0 61
+  319.0 110043.0 999
+//

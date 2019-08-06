@@ -1,0 +1,48 @@
+ACCESSION: PS005502
+RECORD_TITLE: (S)-2-Amino-3-(3-indolyl)propionic acid, L-Trp, 3-beta-Indolylalanine, L-Tryptophane, L-alpha-Amino-3-indolepropionic Acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound WAKO, 204-03382.
+COMMENT: PRIMe compound in-house ID 55
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: (S)-2-Amino-3-(3-indolyl)propionic acid
+CH$NAME: L-Trp
+CH$NAME: 3-beta-Indolylalanine
+CH$NAME: L-Tryptophane
+CH$NAME: L-alpha-Amino-3-indolepropionic Acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Tryptophan
+CH$FORMULA: C11H12N2O2
+CH$EXACT_MASS: 204.229
+CH$SMILES: C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N
+CH$IUPAC: InChI=1S/C11H12N2O2/c12-9(11(14)15)5-7-6-13-10-4-2-1-3-8(7)10/h1-4,6,9,13H,5,12H2,(H,14,15)
+CH$LINK: CAS 73-22-3
+CH$LINK: KEGG C00078
+CH$LINK: PUBCHEM CID:6305
+CH$LINK: INCHIKEY QIVBCDIJIAJPQS-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID0021418
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 205.24
+PK$SPLASH: splash10-000i-0900000000-ea74c502662d47d234c8
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  144.0 19736.0 54
+  146.0 123838.0 341
+  159.0 19788.0 54
+  187.0 40908.0 113
+  188.0 362851.0 999
+  204.0 12004.0 33
+  205.0 20633.0 57
+//

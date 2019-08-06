@@ -1,0 +1,54 @@
+ACCESSION: PT103920
+RECORD_TITLE: Acepramine, Epsilcapramine, Caprolisin, epsilon-Amino-n-caproic acid, Respramin, 6-Aminohexanoate, epsilon-Leucin, 6-Aminohexanoic acid, Epsilcapramin, Hemocaprol, 6-Ahx, EACA, 6-Aminocaproic acid, ACS, 6-aminohexanoic acid, 6-Aca; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Acepramine
+CH$NAME: Epsilcapramine
+CH$NAME: Caprolisin
+CH$NAME: epsilon-Amino-n-caproic acid
+CH$NAME: Respramin
+CH$NAME: 6-Aminohexanoate
+CH$NAME: epsilon-Leucin
+CH$NAME: 6-Aminohexanoic acid
+CH$NAME: Epsilcapramin
+CH$NAME: Hemocaprol
+CH$NAME: 6-Ahx
+CH$NAME: EACA
+CH$NAME: 6-Aminocaproic acid
+CH$NAME: ACS
+CH$NAME: 6-aminohexanoic acid
+CH$NAME: 6-Aca
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Caproic acid
+CH$FORMULA: C6H13NO2
+CH$EXACT_MASS: 131.175
+CH$SMILES: C(CCC(=O)O)CCN
+CH$IUPAC: InChI=1S/C6H13NO2/c7-5-3-1-2-4-6(8)9/h1-5,7H2,(H,8,9)
+CH$LINK: CAS 60-32-2
+CH$LINK: INCHIKEY SLXKOJJOQWFEFD-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 132.10242
+PK$SPLASH: splash10-02t9-8900000000-bf129c99e91c701b7637
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  69.0708 1063.0 859
+  73.0656 183.3 148
+  79.0552 436.6 353
+  96.0819 308.5 249
+  97.0662 158.3 128
+  114.0916 1236.0 999
+  115.0771 169.0 137
+  115.966 155.2 125
+  132.1024 626.7 507
+//

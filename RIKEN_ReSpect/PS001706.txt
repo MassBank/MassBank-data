@@ -1,0 +1,52 @@
+ACCESSION: PS001706
+RECORD_TITLE: Baclon, Kemstro, (+-)-Baclofen, beta-(Aminomethyl)-p-chlorohydrocinnamic acid, Lioresal, (+/-)-beta-(Aminomethyl)-4-chlorobenzenepropanoic acid, gamma-amino-beta-(p-chlorophenyl)butyric acid, Gabalon; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, B5399.
+COMMENT: PRIMe compound in-house ID 17
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Baclon
+CH$NAME: Kemstro
+CH$NAME: (+-)-Baclofen
+CH$NAME: beta-(Aminomethyl)-p-chlorohydrocinnamic acid
+CH$NAME: Lioresal
+CH$NAME: (+/-)-beta-(Aminomethyl)-4-chlorobenzenepropanoic acid
+CH$NAME: gamma-amino-beta-(p-chlorophenyl)butyric acid
+CH$NAME: Gabalon
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Baclofen
+CH$FORMULA: C10H12ClNO2
+CH$EXACT_MASS: 213.664
+CH$SMILES: C1=CC(=CC=C1C(CC(=O)O)CN)Cl
+CH$IUPAC: InChI=1S/C10H12ClNO2/c11-9-3-1-7(2-4-9)8(6-12)5-10(13)14/h1-4,8H,5-6,12H2,(H,13,14)
+CH$LINK: CAS 1134-47-0
+CH$LINK: KEGG D00241
+CH$LINK: PUBCHEM CID:2284
+CH$LINK: INCHIKEY KPYSYYIEGFHWSV-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID5022641
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 60
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 214.22
+PK$SPLASH: splash10-014i-0900000000-58e38bf92576bd4a5c88
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  112.0 3583.0 63
+  114.0 3761.0 66
+  115.0 56543.0 999
+  116.0 22015.0 389
+  118.0 5495.0 97
+  125.0 4527.0 80
+  148.0 3324.0 59
+  151.0 4639.0 82
+//

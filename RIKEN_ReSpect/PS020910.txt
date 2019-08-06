@@ -1,0 +1,43 @@
+ACCESSION: PS020910
+RECORD_TITLE: Robison ester, D(+)-Glucopyranose 6-phosphate sodium salt, G6P, Glc-6P, D-Glucose-6-phosphate sodium salt ; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, G7879.
+COMMENT: PRIMe compound in-house ID 209
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Robison ester
+CH$NAME: D(+)-Glucopyranose 6-phosphate sodium salt
+CH$NAME: G6P
+CH$NAME: Glc-6P
+CH$NAME: D-Glucose-6-phosphate sodium salt
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Suger phosphate CLASS3 Glucose phosphate
+CH$FORMULA: C6H13O9P
+CH$EXACT_MASS: 260.137
+CH$SMILES: C(C1C(C(C(C(O1)O)O)O)O)OP(=O)(O)O
+CH$IUPAC: InChI=1S/C6H13O9P/c7-3-2(1-14-16(11,12)13)15-6(10)5(9)4(3)8/h2-10H,1H2,(H2,11,12,13)
+CH$LINK: CAS 56-73-5
+CH$LINK: KEGG C00092
+CH$LINK: PUBCHEM CID:5958
+CH$LINK: INCHIKEY NBSCHQHZLSJFNQ-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 259.2
+PK$SPLASH: splash10-0002-9000000000-2ed85f7527af3cf80edf
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  79.0 39661.0 818
+  96.0 31748.0 655
+  97.0 48424.0 999
+//

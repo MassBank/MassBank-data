@@ -1,0 +1,43 @@
+ACCESSION: PS007401
+RECORD_TITLE: 2-Amino-3-deoxy-D-galactose Hydrochloride, D(+)-Galactosamine hydrochloride, D-Chondrosamine hydrochloride; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound WAKO, 075-02051.
+COMMENT: PRIMe compound in-house ID 74
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 2-Amino-3-deoxy-D-galactose Hydrochloride
+CH$NAME: D(+)-Galactosamine hydrochloride
+CH$NAME: D-Chondrosamine hydrochloride
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Sugar CLASS3 Monosaccharide
+CH$FORMULA: C6H13NO5
+CH$EXACT_MASS: 179.172
+CH$SMILES: C(C1C(C(C(C(O1)O)N)O)O)O
+CH$IUPAC: InChI=1S/C6H13NO5/c7-3-5(10)4(9)2(1-8)12-6(3)11/h2-6,8-11H,1,7H2
+CH$LINK: CAS 7535-00-4
+CH$LINK: KEGG C02262
+CH$LINK: PUBCHEM CID:24154
+CH$LINK: INCHIKEY MSWZFWKMSRAUBD-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 180.2
+PK$SPLASH: splash10-03e9-0900000000-9d55ac36f2fdbb1452e7
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  72.0 11837.0 40
+  161.0 43751.0 149
+  162.0 293185.0 999
+  179.0 20789.0 71
+  180.0 223278.0 761
+//

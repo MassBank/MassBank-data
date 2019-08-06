@@ -1,0 +1,37 @@
+ACCESSION: PT210340
+RECORD_TITLE: 3,4-Dihydroxyphenylglycolic acid, 2-(3,4-dihydroxyphenyl)-2-hydroxyacetic acid, DL-3,4-Dihydroxymandelic acid , alpha,3,4-Trihydroxyphenylacetic Acid, 3,4-Dihydroxymandelate; LC-ESI-QTOF; MS2
+DATE: 2008.07.29
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 3,4-Dihydroxyphenylglycolic acid
+CH$NAME: 2-(3,4-dihydroxyphenyl)-2-hydroxyacetic acid
+CH$NAME: DL-3,4-Dihydroxymandelic acid
+CH$NAME: alpha,3,4-Trihydroxyphenylacetic Acid
+CH$NAME: 3,4-Dihydroxymandelate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Mandelic acid
+CH$FORMULA: C8H8O5
+CH$EXACT_MASS: 184.147
+CH$SMILES: C1=CC(=C(C=C1C(C(=O)O)O)O)O
+CH$IUPAC: InChI=1S/C8H8O5/c9-5-2-1-4(3-6(5)10)7(11)8(12)13/h1-3,7,9-11H,(H,12,13)
+CH$LINK: CAS 775-01-9
+CH$LINK: INCHIKEY RGHMISIYKIHAJW-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 183.02937
+PK$SPLASH: splash10-000i-0900000000-e0e14e382ffa485ebcfc
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  137.0242 243.2 999
+  139.04 16.06 66
+  183.0294 74.27 305
+//

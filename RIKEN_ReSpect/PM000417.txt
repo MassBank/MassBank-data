@@ -1,0 +1,34 @@
+ACCESSION: PM000417
+RECORD_TITLE: Kaempferol-7-O-neohesperidoside; LC-ESI-QQ; MS2
+DATE: 2006.04.20
+AUTHORS: Sanchez-Rabaneda F, et al.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2012 Plant Science Center, RIKEN
+PUBLICATION: Sánchez-Rabaneda, F.; Jáuregui, O.; Casals, I.; Andrés-Lacueva, C.; Izquierdo-Pulido, M.; Lamuela-Raventós, R. M. Liquid Chromatographic/Electrospray Ionization Tandem Mass Spectrometric Study of the Phenolic Composition of Cocoa (Theobroma Cacao). Journal of Mass Spectrometry 2003, 38 (1), 35–42. DOI:10.1002/jms.395
+COMMENT: 726
+CH$NAME: Kaempferol-7-O-neohesperidoside
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Flavonol CLASS3 Kaempferol glycoside
+CH$FORMULA: C27H30O15
+CH$EXACT_MASS: 594.522
+CH$SMILES: C[C@@H]1O[C@@H](O[C@H]2C(Oc3cc(O)c4c(=O)c(O)c(-c5ccc(O)cc5)oc4c3)O[C@H](CO)[C@@H](O)[C@@H]2O)[C@H](O)C(O)[C@H]1O
+CH$IUPAC: InChI=1S/C27H30O15/c1-9-17(31)20(34)23(37)26(38-9)42-25-21(35)18(32)15(8-28)41-27(25)39-12-6-13(30)16-14(7-12)40-24(22(36)19(16)33)10-2-4-11(29)5-3-10/h2-7,9,15,17-18,20-21,23,25-32,34-37H,8H2,1H3/t9-,15+,17-,18+,20?,21-,23+,25+,26-,27?/m0/s1
+CH$LINK: CAS 17353-03-6
+CH$LINK: INCHIKEY ZEJXENDZTYVXDP-ICERRTQUSA-N
+CH$LINK: PUBCHEM CID:129710622
+SP$SAMPLE: Theobroma cacao
+AC$INSTRUMENT: Agilent (Waldbronn, Germany) Model 1100; API 3000 triple-quadrupole mass spectrometer (Perkin-Elmer Sciex, Concord, ON, Canada)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY -40
+AC$CHROMATOGRAPHY: SOLVENT H2O/NH3CN/HCOOH
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 593
+PK$SPLASH: splash10-000i-0090010000-99e7a8bc22923b1c29ea
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  285.0 100.0 999
+  327.0 5.0 50
+  593.0 20.0 200
+//

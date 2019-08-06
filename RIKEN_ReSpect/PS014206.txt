@@ -1,0 +1,49 @@
+ACCESSION: PS014206
+RECORD_TITLE: 2'-Deoxy-AMP, 2'-Deoxyadenylic acid, dAMP, 2'-Deoxyadenosine-5'-monophosphate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, D6375.
+COMMENT: PRIMe compound in-house ID 142
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 2'-Deoxy-AMP
+CH$NAME: 2'-Deoxyadenylic acid
+CH$NAME: dAMP
+CH$NAME: 2'-Deoxyadenosine-5'-monophosphate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Adenosine phosphate
+CH$FORMULA: C10H14N5O6P
+CH$EXACT_MASS: 331.227
+CH$SMILES: C1C(C(OC1N2C=NC3=C2N=CN=C3N)COP(=O)(O)O)O
+CH$IUPAC: InChI=1S/C10H14N5O6P/c11-9-8-10(13-3-12-9)15(4-14-8)7-1-5(16)6(21-7)2-20-22(17,18)19/h3-7,16H,1-2H2,(H2,11,12,13)(H2,17,18,19)
+CH$LINK: CAS 653-63-4
+CH$LINK: KEGG C00360
+CH$LINK: PUBCHEM CID:12599
+CH$LINK: INCHIKEY KHWCHTKSEGGWEX-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 60
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 332.26
+PK$SPLASH: splash10-0019-4900000000-887c334520925351163d
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  53.0 4731.0 46
+  79.0 4347.0 42
+  80.0 9712.0 94
+  81.0 57473.0 555
+  119.0 5620.0 54
+  133.0 4799.0 46
+  134.0 14448.0 139
+  135.0 38094.0 368
+  136.0 103507.0 999
+  137.0 3974.0 38
+//

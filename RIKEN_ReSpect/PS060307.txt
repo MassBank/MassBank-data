@@ -1,0 +1,40 @@
+ACCESSION: PS060307
+RECORD_TITLE: UDP-beta-L-rhamnose, UDP-Rha; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Fujimoto ktpc, -.
+COMMENT: PRIMe compound in-house ID T0125
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: UDP-beta-L-rhamnose
+CH$NAME: UDP-Rha
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Uridine phosphate
+CH$FORMULA: C15H24N2O16P2
+CH$EXACT_MASS: 550.307
+CH$SMILES: CC1C(C(C(C(O1)OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)O)O)O
+CH$IUPAC: InChI=1S/C15H24N2O16P2/c1-5-8(19)10(21)12(23)14(30-5)32-35(27,28)33-34(25,26)29-4-6-9(20)11(22)13(31-6)17-3-2-7(18)16-15(17)24/h2-3,5-6,8-14,19-23H,4H2,1H3,(H,25,26)(H,27,28)(H,16,18,24)
+CH$LINK: CAS 1955-26-6
+CH$LINK: KEGG C02199
+CH$LINK: PUBCHEM CID:23724469
+CH$LINK: INCHIKEY DRDCJEIZVLVWNC-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 549.45
+PK$SPLASH: splash10-0002-0000090000-4ac86458961bf11c6b8e
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  548.0 14705.0 152
+  549.0 96608.0 999
+  550.0 35708.0 369
+//

@@ -1,0 +1,36 @@
+ACCESSION: PM000305
+RECORD_TITLE: 1,3-Dicaffeoylquinic acid; LC-ESI-QQ; MS2
+DATE: 2006.04.19
+AUTHORS: Parejo I, et al.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2012 Plant Science Center, RIKEN
+PUBLICATION: Parejo, I.; Jauregui, O.; Sánchez-Rabaneda, F.; Viladomat, F.; Bastida, J.; Codina, C. Separation and Characterization of Phenolic Compounds in Fennel (Foeniculum Vulgare) Using Liquid Chromatography-Negative Electrospray Ionization Tandem Mass Spectrometry. Journal of Agricultural and Food Chemistry 2004, 52 (12), 3679–87. DOI:10.1021/jf030813h
+COMMENT: 725
+CH$NAME: 1,3-Dicaffeoylquinic acid
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid ester CLASS3 Quinic acid
+CH$FORMULA: C25H24O12
+CH$EXACT_MASS: 516.455
+CH$SMILES: O=C(/C=C/c1ccc(O)c(O)c1)O[C@@H]1C[C@@](OC(=O)/C=C/c2ccc(O)c(O)c2)(C(=O)O)C[C@@H](O)[C@@H]1O
+CH$IUPAC: InChI=1S/C25H24O12/c26-15-5-1-13(9-17(15)28)3-7-21(31)36-20-12-25(24(34)35,11-19(30)23(20)33)37-22(32)8-4-14-2-6-16(27)18(29)10-14/h1-10,19-20,23,26-30,33H,11-12H2,(H,34,35)/b7-3+,8-4+/t19-,20-,23+,25-/m1/s1
+CH$LINK: CAS 19870-46-3
+CH$LINK: INCHIKEY YDDUMTOHNYZQPO-RVXRWRFUSA-N
+CH$LINK: PUBCHEM CID:5281769
+SP$SAMPLE: Foeniculum vulgare
+AC$INSTRUMENT: API 3000 triple-quadrupole mass spectrometer (PerkinElmer Sciex, Concord, ON, Canada)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 35
+AC$CHROMATOGRAPHY: SOLVENT H2O/NH3CN/HCOOH
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 515
+PK$SPLASH: splash10-0ufr-0709000000-d243d562bc47fda8d64c
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  179.0 56.0 559
+  191.0 36.0 360
+  335.0 13.0 130
+  353.0 100.0 999
+  515.0 7.0 70
+//

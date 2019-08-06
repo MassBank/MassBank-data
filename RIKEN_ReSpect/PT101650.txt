@@ -1,0 +1,38 @@
+ACCESSION: PT101650
+RECORD_TITLE: Cyclic AMP, Cyclic-3',5'-adenylic acid, Adenosine 3',5'-cyclophosphate, cAMP, Adenosine-3',5'-cyclicmonophosphate, (1S,6R,8R,9R)-8-(6-aminopurin-9-yl)-3-hydroxy-3-oxo-2,4,7-trioxa-3$l^{5}-phosphabicyclo[4.3.0]nonan-9-ol; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Cyclic AMP
+CH$NAME: Cyclic-3',5'-adenylic acid
+CH$NAME: Adenosine 3',5'-cyclophosphate
+CH$NAME: cAMP
+CH$NAME: Adenosine-3',5'-cyclicmonophosphate
+CH$NAME: (1S,6R,8R,9R)-8-(6-aminopurin-9-yl)-3-hydroxy-3-oxo-2,4,7-trioxa-3$l^{5}-phosphabicyclo[4.3.0]nonan-9-ol
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Adenosine phosphate
+CH$FORMULA: C10H12N5O6P
+CH$EXACT_MASS: 329.211
+CH$SMILES: C1C2C(C(C(O2)N3C=NC4=C3N=CN=C4N)O)OP(=O)(O1)O
+CH$IUPAC: InChI=1S/C10H12N5O6P/c11-8-5-9(13-2-12-8)15(3-14-5)10-6(16)7-4(20-10)1-19-22(17,18)21-7/h2-4,6-7,10,16H,1H2,(H,17,18)(H2,11,12,13)
+CH$LINK: CAS 60-92-4
+CH$LINK: INCHIKEY IVOMOUWHDPKRLL-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 330.06032
+PK$SPLASH: splash10-001i-0009000000-c527aad341e122fc9bea
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  136.0632 90.97 95
+  329.8911 25.19 26
+  330.0603 960.5 999
+//

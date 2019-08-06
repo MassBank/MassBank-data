@@ -1,0 +1,48 @@
+ACCESSION: PS067102
+RECORD_TITLE: Dihydrocodehydrogenase I, Coenzyme I reduced, Cozymase, Reduced Form, Codehydrase I Reduced Form, beta-Diphosphopyridine nucleotide, disodium salt, reduced form, beta-NADH, beta-Diphosphopyridine Nucleotide Reduced Form, beta-DPNH, beta-nicotinamide adenine Dl-nucleotide, NAD-reduced; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 046-16231 .
+COMMENT: PRIMe compound in-house ID S0059
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Dihydrocodehydrogenase I
+CH$NAME: Coenzyme I reduced
+CH$NAME: Cozymase, Reduced Form
+CH$NAME: Codehydrase I Reduced Form
+CH$NAME: beta-Diphosphopyridine nucleotide, disodium salt, reduced form
+CH$NAME: beta-NADH
+CH$NAME: beta-Diphosphopyridine Nucleotide Reduced Form
+CH$NAME: beta-DPNH
+CH$NAME: beta-nicotinamide adenine Dl-nucleotide
+CH$NAME: NAD-reduced
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 NADH
+CH$FORMULA: C21H29N7O14P2
+CH$EXACT_MASS: 665.45
+CH$SMILES: C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C4N=CN=C5N)O)O)O)O
+CH$IUPAC: InChI=1S/C21H29N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1,3-4,7-8,10-11,13-16,20-21,29-32H,2,5-6H2,(H2,23,33)(H,34,35)(H,36,37)(H2,22,24,25)
+CH$LINK: CAS 58-68-4
+CH$LINK: KEGG C00004
+CH$LINK: PUBCHEM CID:439153
+CH$LINK: INCHIKEY BOPGDPNILDQYTO-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 666.55
+PK$SPLASH: splash10-014i-0000009000-8c678204ef85bb255c15
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  665.0 19110.0 305
+  666.0 62548.0 999
+  667.0 34731.0 555
+//

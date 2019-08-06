@@ -1,0 +1,35 @@
+ACCESSION: PT102050
+RECORD_TITLE: D-Vitamin BT, (3S)-3-hydroxy-4-trimethylazaniumylbutanoate, beta-Hydroxy-gamma-trimethylaminobutyric Acid Hydrochloride, D-Carnitine hydrochloride salt; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: D-Vitamin BT
+CH$NAME: (3S)-3-hydroxy-4-trimethylazaniumylbutanoate
+CH$NAME: beta-Hydroxy-gamma-trimethylaminobutyric Acid Hydrochloride
+CH$NAME: D-Carnitine hydrochloride salt
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: C7H15NO3
+CH$EXACT_MASS: 161.201
+CH$SMILES: C[N+](C)(C)CC(CC(=O)[O-])O
+CH$IUPAC: InChI=1S/C7H15NO3/c1-8(2,3)5-6(9)4-7(10)11/h6,9H,4-5H2,1-3H3
+CH$LINK: CAS 541-14-0
+CH$LINK: INCHIKEY PHIQHXFUZVPYII-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 162.11299
+PK$SPLASH: splash10-03di-0900000000-c58323e2e9eb0d43afd4
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  103.0409 48.95 17
+  162.113 2838.0 999
+//

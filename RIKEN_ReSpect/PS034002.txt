@@ -1,0 +1,48 @@
+ACCESSION: PS034002
+RECORD_TITLE: 2-Oxoisocaproate, Ketoleucine sodium salt, ketoleucine, Sodium-4-methyl-2-oxovalerate, 4-Methyl-2-oxovaleric acid sodium salt, alpha-Ketoisocaproic acid sodium salt, 4-Methyl-2-oxopentanoate, 4-Methyl-2-oxopentanoic acid sodium salt; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, K0629.
+COMMENT: PRIMe compound in-house ID 340
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 2-Oxoisocaproate
+CH$NAME: Ketoleucine sodium salt
+CH$NAME: ketoleucine
+CH$NAME: Sodium-4-methyl-2-oxovalerate
+CH$NAME: 4-Methyl-2-oxovaleric acid sodium salt
+CH$NAME: alpha-Ketoisocaproic acid sodium salt
+CH$NAME: 4-Methyl-2-oxopentanoate
+CH$NAME: 4-Methyl-2-oxopentanoic acid sodium salt
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Valeric acid
+CH$FORMULA: C6H10O3
+CH$EXACT_MASS: 130.143
+CH$SMILES: CC(C)CC(=O)C(=O)O
+CH$IUPAC: InChI=1S/C6H10O3/c1-4(2)3-5(7)6(8)9/h4H,3H2,1-2H3,(H,8,9)
+CH$LINK: CAS 816-66-0
+CH$LINK: KEGG C00233
+CH$LINK: PUBCHEM CID:70
+CH$LINK: INCHIKEY BKAJNAXTPSGJCU-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 130.57
+PK$SPLASH: splash10-014i-9000000000-edaae54f3a3d035dfcb0
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  67.0 6959.0 39
+  68.0 58631.0 325
+  69.0 180244.0 999
+  89.0 10455.0 58
+  90.0 7416.0 41
+//

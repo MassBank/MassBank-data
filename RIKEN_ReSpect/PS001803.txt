@@ -1,0 +1,55 @@
+ACCESSION: PS001803
+RECORD_TITLE: (+-)-alpha-Tocopherol, DL-all-rac-alpha-Tocopherol, Phytogermine, Profecundin, Denamone, Emipherol, Vitamin E, Almefrol, Waynecomycin, Syntopherol; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, T3251.
+COMMENT: PRIMe compound in-house ID 18
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: (+-)-alpha-Tocopherol
+CH$NAME: DL-all-rac-alpha-Tocopherol
+CH$NAME: Phytogermine
+CH$NAME: Profecundin
+CH$NAME: Denamone
+CH$NAME: Emipherol
+CH$NAME: Vitamin E
+CH$NAME: Almefrol
+CH$NAME: Waynecomycin
+CH$NAME: Syntopherol
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: C29H50O2
+CH$EXACT_MASS: 430.717
+CH$SMILES: CC1=C(C(=C2CCC(OC2=C1C)(C)CCCC(C)CCCC(C)CCCC(C)C)C)O
+CH$IUPAC: InChI=1S/C29H50O2/c1-20(2)12-9-13-21(3)14-10-15-22(4)16-11-18-29(8)19-17-26-25(7)27(30)23(5)24(6)28(26)31-29/h20-22,30H,9-19H2,1-8H3
+CH$LINK: KEGG C02477
+CH$LINK: PUBCHEM CID:14985
+CH$LINK: INCHIKEY GVJHHUAWPYXKBD-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID8021355
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 430.64
+PK$SPLASH: splash10-0159-0900400000-5eddc3df4cfdb8b63c55
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  70.0 1971.0 35
+  83.0 1774.0 32
+  163.0 3224.0 58
+  164.0 11063.0 197
+  165.0 55996.0 999
+  166.0 2859.0 51
+  191.0 1910.0 34
+  429.0 4089.0 73
+  430.0 21322.0 380
+  431.0 11603.0 207
+//

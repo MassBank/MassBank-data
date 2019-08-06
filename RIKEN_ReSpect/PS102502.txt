@@ -1,0 +1,59 @@
+ACCESSION: PS102502
+RECORD_TITLE: Guanidineacetic acid, N-Guanylglycine, Guanidinoacetate, Betacyamine, Glykocyamin, Glycocyamine, Guanidoacetate, N-Amidinoglycine, Betasyamine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound TCI, G0167.
+COMMENT: PRIMe compound in-house ID N0083
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Guanidineacetic acid
+CH$NAME: N-Guanylglycine
+CH$NAME: Guanidinoacetate
+CH$NAME: Betacyamine
+CH$NAME: Glykocyamin
+CH$NAME: Glycocyamine
+CH$NAME: Guanidoacetate
+CH$NAME: N-Amidinoglycine
+CH$NAME: Betasyamine
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Glycocyamine
+CH$FORMULA: C3H7N3O2
+CH$EXACT_MASS: 117.108
+CH$SMILES: C(C(=O)O)N=C(N)N
+CH$IUPAC: InChI=1S/C3H7N3O2/c4-3(5)6-1-2(7)8/h1H2,(H,7,8)(H4,4,5,6)
+CH$LINK: CAS 352-97-6
+CH$LINK: KEGG C00581
+CH$LINK: PUBCHEM CID:763
+CH$LINK: INCHIKEY BPMFZUMJYQTVII-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 118.08
+PK$SPLASH: splash10-0100-9400000000-15b6ea325f5960592b3e
+PK$NUM_PEAK: 15
+PK$PEAK: m/z int. rel.int.
+  29.0 7705.0 117
+  30.0 30786.0 465
+  42.0 6714.0 102
+  43.0 17525.0 265
+  55.0 2774.0 42
+  71.0 7541.0 114
+  72.0 66071.0 999
+  73.0 12419.0 188
+  75.0 8268.0 125
+  76.0 46173.0 698
+  100.0 7309.0 111
+  101.0 23303.0 352
+  116.0 4563.0 69
+  117.0 16086.0 243
+  118.0 50234.0 760
+//

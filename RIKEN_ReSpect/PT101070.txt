@@ -1,0 +1,44 @@
+ACCESSION: PT101070
+RECORD_TITLE: Amben, gamma-Aminobenzoic acid, Vitamin Bx, 4-Aminobenzoic acid, 4-Aminobenzoate, PABA, 1-Amino-4-carboxybenzene, Vitamin H1, Paraminol, 4-Carboxyaniline, ABEE, 4-aminobenzoic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.24
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Amben
+CH$NAME: gamma-Aminobenzoic acid
+CH$NAME: Vitamin Bx
+CH$NAME: 4-Aminobenzoic acid
+CH$NAME: 4-Aminobenzoate
+CH$NAME: PABA
+CH$NAME: 1-Amino-4-carboxybenzene
+CH$NAME: Vitamin H1
+CH$NAME: Paraminol
+CH$NAME: 4-Carboxyaniline
+CH$NAME: ABEE
+CH$NAME: 4-aminobenzoic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Benzoic acid CLASS3 Amben
+CH$FORMULA: C7H7NO2
+CH$EXACT_MASS: 137.138
+CH$SMILES: C1=CC(=CC=C1C(=O)O)N
+CH$IUPAC: InChI=1S/C7H7NO2/c8-6-3-1-5(2-4-6)7(9)10/h1-4H,8H2,(H,9,10)
+CH$LINK: CAS 150-13-0
+CH$LINK: INCHIKEY ALYNCZNDIQEVRV-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 138.05548
+PK$SPLASH: splash10-000i-7900000000-225973eab49386396fa9
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  77.0404 1073.0 406
+  94.067 1077.0 407
+  138.0555 2643.0 999
+//

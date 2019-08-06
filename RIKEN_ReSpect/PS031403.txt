@@ -1,0 +1,55 @@
+ACCESSION: PS031403
+RECORD_TITLE: 2-Coumarate, (E)-3-(2-Hydroxyphenyl)-2-propenoic acid, 2-Hydroxycinnamic acid, predominantly trans , o-Coumaric acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, H22809.
+COMMENT: PRIMe compound in-house ID 314
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 2-Coumarate
+CH$NAME: (E)-3-(2-Hydroxyphenyl)-2-propenoic acid
+CH$NAME: 2-Hydroxycinnamic acid, predominantly trans
+CH$NAME: o-Coumaric acid
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid monomer CLASS3 Coumaric acid
+CH$FORMULA: C9H8O3
+CH$EXACT_MASS: 164.16
+CH$SMILES: C1=CC=C(C(=C1)C=CC(=O)O)O
+CH$IUPAC: InChI=1S/C9H8O3/c10-8-4-2-1-3-7(8)5-6-9(11)12/h1-6,10H,(H,11,12)
+CH$LINK: CAS 614-60-8
+CH$LINK: KEGG C01772
+CH$LINK: PUBCHEM CID:637540
+CH$LINK: INCHIKEY PMOWTIHVNWZYFI-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 165.16
+PK$SPLASH: splash10-0udl-8900000000-37229228b669d6593fe8
+PK$NUM_PEAK: 16
+PK$PEAK: m/z int. rel.int.
+  26.0 1876.0 44
+  73.0 1559.0 36
+  77.0 16769.0 389
+  90.0 3446.0 80
+  91.0 26640.0 618
+  94.0 3764.0 87
+  95.0 8095.0 188
+  102.0 1728.0 40
+  103.0 43053.0 999
+  105.0 1557.0 36
+  121.0 1540.0 36
+  122.0 3446.0 80
+  123.0 10093.0 234
+  146.0 1395.0 32
+  162.0 1690.0 39
+  165.0 2427.0 56
+//

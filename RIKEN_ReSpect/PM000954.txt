@@ -1,0 +1,36 @@
+ACCESSION: PM000954
+RECORD_TITLE: L-Homocitrulline; LC-ESI-QQ; MS2
+DATE: 2006.04.27
+AUTHORS: Piraud M, et al.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2012 Plant Science Center, RIKEN
+PUBLICATION: Piraud, M.; Vianey-Saban, C.; Petritis, K.; Elfakir, C.; Steghens, J.-P.; Morla, A.; Bouchu, D. ESI-MS/MS Analysis of Underivatised Amino Acids: A New Tool for the Diagnosis of Inherited Disorders of Amino Acid Metabolism. Fragmentation Study of 79 Molecules of Biological Interest in Positive and Negative Ionisation Mode. Rapid Communications in Mass Spectrometry 2003, 17 (12), 1297–311. DOI:10.1002/rcm.1054
+COMMENT: 732
+CH$NAME: L-Homocitrulline
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Homocitrulline
+CH$FORMULA: C7H15N3O3
+CH$EXACT_MASS: 189.215
+CH$SMILES: N=C(O)NCCCC[C@H](N)C(=O)O
+CH$IUPAC: InChI=1S/C7H15N3O3/c8-5(6(11)12)3-1-2-4-10-7(9)13/h5H,1-4,8H2,(H,11,12)(H3,9,10,13)/t5-/m0/s1
+CH$LINK: CAS 1190-49-4
+CH$LINK: INCHIKEY XIGSAGMEBXLVJJ-YFKPBYRVSA-N
+CH$LINK: PUBCHEM CID:65072
+SP$SAMPLE: authentic sample
+AC$INSTRUMENT: API 2000 ESI-MS/MS system triple quadrupole mass spectrometer (Sciex Applied Biosystems, Toronto, Canada)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 16
+AC$CHROMATOGRAPHY: SOLVENT MeOH/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 190
+PK$SPLASH: splash10-00gi-3900000000-de8bfbc0d5a64c1945a5
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  56.0 21.0 210
+  84.0 53.0 529
+  100.0 21.0 210
+  127.0 75.0 749
+  173.0 100.0 999
+//

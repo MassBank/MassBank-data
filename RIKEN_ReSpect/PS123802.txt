@@ -1,0 +1,54 @@
+ACCESSION: PS123802
+RECORD_TITLE: L-Ethionine, Eth, L-2-Amino-4-(ethylthio)butyric acid, S-ethyl-L-homocysteine, Et-homoCys; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 050-00321.
+COMMENT: PRIMe compound in-house ID V0112
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-Ethionine
+CH$NAME: Eth
+CH$NAME: L-2-Amino-4-(ethylthio)butyric acid
+CH$NAME: S-ethyl-L-homocysteine
+CH$NAME: Et-homoCys
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Ethionine
+CH$FORMULA: C6H13NO2S
+CH$EXACT_MASS: 163.24
+CH$SMILES: CCSCCC(C(=O)O)N
+CH$IUPAC: InChI=1S/C6H13NO2S/c1-2-10-4-3-5(7)6(8)9/h5H,2-4,7H2,1H3,(H,8,9)
+CH$LINK: CAS 13073-35-3
+CH$LINK: KEGG C11227
+CH$LINK: PUBCHEM CID:25674
+CH$LINK: INCHIKEY GGLZPLKKBSSKCX-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 164.17
+PK$SPLASH: splash10-0pvi-7900000000-6eb2c45204e9dcb711dd
+PK$NUM_PEAK: 14
+PK$PEAK: m/z int. rel.int.
+  55.0 22364.0 156
+  56.0 142785.0 999
+  73.0 7310.0 51
+  74.0 35060.0 245
+  75.0 64166.0 449
+  84.0 6566.0 46
+  101.0 26455.0 185
+  102.0 68672.0 480
+  117.0 21064.0 147
+  118.0 100933.0 706
+  146.0 14981.0 105
+  147.0 74758.0 523
+  163.0 10722.0 75
+  164.0 29421.0 206
+//

@@ -1,0 +1,44 @@
+ACCESSION: PT210520
+RECORD_TITLE: D-tartaric acid, (2S,3S)-2,3-dihydroxybutanedioic acid, 2,3-Dihydroxybutanedioic Acid, D-Tartrate, D-Threaric acid, (2S,3S)-(?)-Tartaric acid, D(-)-2,3-Dihydroxysuccinic Acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.29
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: D-tartaric acid
+CH$NAME: (2S,3S)-2,3-dihydroxybutanedioic acid
+CH$NAME: 2,3-Dihydroxybutanedioic Acid
+CH$NAME: D-Tartrate
+CH$NAME: D-Threaric acid
+CH$NAME: (2S,3S)-(?)-Tartaric acid
+CH$NAME: D(-)-2,3-Dihydroxysuccinic Acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Tartalic acid
+CH$FORMULA: C4H6O6
+CH$EXACT_MASS: 150.086
+CH$SMILES: C(C(C(=O)O)O)(C(=O)O)O
+CH$IUPAC: InChI=1S/C4H6O6/c5-1(3(7)8)2(6)4(9)10/h1-2,5-6H,(H,7,8)(H,9,10)
+CH$LINK: CAS 147-71-7
+CH$LINK: INCHIKEY FEWJPZIEWOKRBE-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 149.00864
+PK$SPLASH: splash10-000b-7900000000-726ac5a26ac0040576be
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  59.0158 2.849 85
+  72.9935 10.11 302
+  74.9899 1.987 59
+  87.0094 21.79 651
+  103.0044 2.898 87
+  104.9287 2.48 74
+  148.903 5.961 178
+  149.0086 33.43 999
+//

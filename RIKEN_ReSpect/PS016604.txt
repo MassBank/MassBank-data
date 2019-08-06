@@ -1,0 +1,46 @@
+ACCESSION: PS016604
+RECORD_TITLE: ADP-glc, Adenosine-5'-diphospho-glucose disodium salt, ADP-Glucose, ADPG; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A0627.
+COMMENT: PRIMe compound in-house ID 166
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: ADP-glc
+CH$NAME: Adenosine-5'-diphospho-glucose disodium salt
+CH$NAME: ADP-Glucose
+CH$NAME: ADPG
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Adenosine phosphate
+CH$FORMULA: C16H25N5O15P2
+CH$EXACT_MASS: 589.348
+CH$SMILES: C1=NC2=C(C(=N1)N)N=CN2C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OC4C(C(C(C(O4)CO)O)O)O)O)O
+CH$IUPAC: InChI=1S/C16H25N5O15P2/c17-13-7-14(19-3-18-13)21(4-20-7)15-11(26)9(24)6(33-15)2-32-37(28,29)36-38(30,31)35-16-12(27)10(25)8(23)5(1-22)34-16/h3-6,8-12,15-16,22-27H,1-2H2,(H,28,29)(H,30,31)(H2,17,18,19)
+CH$LINK: CAS 2140-58-1
+CH$LINK: KEGG C00498
+CH$LINK: PUBCHEM CID:16500
+CH$LINK: INCHIKEY WFPZSXYXPSUOPY-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 590.43
+PK$SPLASH: splash10-000i-0900400000-bb04b92cf2558e9cb03f
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  135.0 13291.0 170
+  136.0 78096.0 999
+  348.0 7111.0 91
+  426.0 2363.0 30
+  427.0 11688.0 150
+  428.0 28329.0 362
+  429.0 3553.0 45
+//

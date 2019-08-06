@@ -1,0 +1,45 @@
+ACCESSION: PS014610
+RECORD_TITLE: dG, 2'-Deoxy-G, 2'-Deoxyguanosine monohydrate , 9-(2-Deoxy-beta-D-ribofuranosyl)guanine, Guanine-2'-deoxyriboside; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, D7145.
+COMMENT: PRIMe compound in-house ID 146
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: dG
+CH$NAME: 2'-Deoxy-G
+CH$NAME: 2'-Deoxyguanosine monohydrate
+CH$NAME: 9-(2-Deoxy-beta-D-ribofuranosyl)guanine
+CH$NAME: Guanine-2'-deoxyriboside
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleoside CLASS3 Cytidine
+CH$FORMULA: C10H13N5O4
+CH$EXACT_MASS: 267.245
+CH$SMILES: C1C(C(OC1N2C=NC3=C2NC(=NC3=O)N)CO)O
+CH$IUPAC: InChI=1S/C10H13N5O4/c11-10-13-8-7(9(18)14-10)12-3-15(8)6-1-4(17)5(2-16)19-6/h3-6,16-17H,1-2H2,(H3,11,13,14,18)
+CH$LINK: CAS 961-07-9
+CH$LINK: KEGG C00330
+CH$LINK: PUBCHEM CID:187790
+CH$LINK: INCHIKEY YKBGVTZYEHREMT-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 266.26
+PK$SPLASH: splash10-0udi-0900000000-183ff99b30014648be03
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  107.0 5144.0 59
+  108.0 6441.0 74
+  133.0 9860.0 113
+  150.0 87289.0 999
+  175.0 3962.0 45
+//

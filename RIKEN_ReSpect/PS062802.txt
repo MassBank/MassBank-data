@@ -1,0 +1,47 @@
+ACCESSION: PS062802
+RECORD_TITLE: L-Homoserine, HoSer, (S)-2-Amino-4-hydroxybutyric acid, Hse, 2-Amino-4-hydroxybutanoic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 080-04121.
+COMMENT: PRIMe compound in-house ID S0010
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-Homoserine
+CH$NAME: HoSer
+CH$NAME: (S)-2-Amino-4-hydroxybutyric acid
+CH$NAME: Hse
+CH$NAME: 2-Amino-4-hydroxybutanoic acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Serine
+CH$FORMULA: C4H9NO3
+CH$EXACT_MASS: 119.12
+CH$SMILES: C(CO)C(C(=O)O)N
+CH$IUPAC: InChI=1S/C4H9NO3/c5-3(1-2-6)4(7)8/h3,6H,1-2,5H2,(H,7,8)
+CH$LINK: CAS 672-15-1
+CH$LINK: KEGG C00263
+CH$LINK: PUBCHEM CID:12647
+CH$LINK: INCHIKEY UKAUYVFTDYCKQA-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 120.09
+PK$SPLASH: splash10-00di-9000000000-41fed3b1d97e51c0b15e
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  44.0 23087.0 98
+  55.0 14786.0 63
+  56.0 50149.0 213
+  73.0 48472.0 206
+  74.0 235219.0 999
+  119.0 7908.0 34
+  120.0 27681.0 118
+//

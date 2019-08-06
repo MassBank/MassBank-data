@@ -1,0 +1,37 @@
+ACCESSION: PT210350
+RECORD_TITLE: 2-hydroxy-2-(3-hydroxyphenyl)acetic acid, 3-Hydroxymandelic acid , 3-Hydroxymandelate, m-Hydroxymandelic Acid, 3-Hydroxyphenylglycolic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.29
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 2-hydroxy-2-(3-hydroxyphenyl)acetic acid
+CH$NAME: 3-Hydroxymandelic acid
+CH$NAME: 3-Hydroxymandelate
+CH$NAME: m-Hydroxymandelic Acid
+CH$NAME: 3-Hydroxyphenylglycolic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Mandelic acid
+CH$FORMULA: C8H8O4
+CH$EXACT_MASS: 168.148
+CH$SMILES: C1=CC(=CC(=C1)O)C(C(=O)O)O
+CH$IUPAC: InChI=1S/C8H8O4/c9-6-3-1-2-5(4-6)7(10)8(11)12/h1-4,7,9-10H,(H,11,12)
+CH$LINK: CAS 17119-15-2
+CH$LINK: INCHIKEY OLSDAJRAVOVKLG-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 167.03446
+PK$SPLASH: splash10-00di-0900000000-72199f89fe731fcb25d0
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  121.0287 561.4 999
+  123.0441 132.0 235
+  167.0345 68.49 122
+//

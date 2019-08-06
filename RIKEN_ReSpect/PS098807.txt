@@ -1,0 +1,46 @@
+ACCESSION: PS098807
+RECORD_TITLE: 4-Hydroxy-3-methoxybenzeneacetic acid, HVA, Homovanillic acid , 4-hydroxy-3-methoxy-alpha-toluic acid, HMPA, 4-Hydroxy-3-methoxyphenylacetic acid, 4-Hydroxy-3-methoxybenzoic Acid, Homovanillate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, H1252.
+COMMENT: PRIMe compound in-house ID N0046
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 4-Hydroxy-3-methoxybenzeneacetic acid
+CH$NAME: HVA
+CH$NAME: Homovanillic acid
+CH$NAME: 4-hydroxy-3-methoxy-alpha-toluic acid
+CH$NAME: HMPA
+CH$NAME: 4-Hydroxy-3-methoxyphenylacetic acid
+CH$NAME: 4-Hydroxy-3-methoxybenzoic Acid
+CH$NAME: Homovanillate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Homovanillic acid
+CH$FORMULA: C9H10O4
+CH$EXACT_MASS: 182.175
+CH$SMILES: COC1=C(C=CC(=C1)CC(=O)O)O
+CH$IUPAC: InChI=1S/C9H10O4/c1-13-8-4-6(5-9(11)12)2-3-7(8)10/h2-4,10H,5H2,1H3,(H,11,12)
+CH$LINK: CAS 306-08-1
+CH$LINK: KEGG C05582
+CH$LINK: PUBCHEM CID:1738
+CH$LINK: INCHIKEY QRMZSPFSDQBLIX-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 181.14
+PK$SPLASH: splash10-001i-0900000000-9c1f44003b3b4d1a225c
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  137.0 19796.0 268
+  180.0 7382.0 100
+  181.0 73808.0 999
+//

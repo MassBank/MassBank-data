@@ -1,0 +1,46 @@
+ACCESSION: PS097805
+RECORD_TITLE: L-Carnosine, beta-Ala-His, L-Ignotine, beta-Alanyl-L-histidine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, C9625.
+COMMENT: PRIMe compound in-house ID N0036
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-Carnosine
+CH$NAME: beta-Ala-His
+CH$NAME: L-Ignotine
+CH$NAME: beta-Alanyl-L-histidine
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Peptide CLASS3 Carnosine
+CH$FORMULA: C9H14N4O3
+CH$EXACT_MASS: 226.236
+CH$SMILES: C1=C(NC=N1)CC(C(=O)O)NC(=O)CCN
+CH$IUPAC: InChI=1S/C9H14N4O3/c10-2-1-8(14)13-7(9(15)16)3-6-4-11-5-12-6/h4-5,7H,1-3,10H2,(H,11,12)(H,13,14)(H,15,16)
+CH$LINK: CAS 305-84-0
+CH$LINK: KEGG C00386
+CH$LINK: PUBCHEM CID:439224
+CH$LINK: INCHIKEY CQOVPNPJLQNMDC-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 50
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 227.29
+PK$SPLASH: splash10-03di-2900000000-40649b56f6887def467c
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  82.0 2606.0 39
+  83.0 11907.0 179
+  93.0 4143.0 62
+  95.0 3088.0 46
+  109.0 13998.0 210
+  110.0 66514.0 999
+  111.0 2103.0 32
+//

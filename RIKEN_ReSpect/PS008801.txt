@@ -1,0 +1,42 @@
+ACCESSION: PS008801
+RECORD_TITLE: 2,5-Dihydroxy-1,4-dioxane, Glycolaldehyde dimer,mixture of stereoisomers, Hydroxyacetaldehyde dimer, 1,4-Dioxane-2,5-diol; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, G6805.
+COMMENT: PRIMe compound in-house ID 88
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 2,5-Dihydroxy-1,4-dioxane
+CH$NAME: Glycolaldehyde dimer,mixture of stereoisomers
+CH$NAME: Hydroxyacetaldehyde dimer
+CH$NAME: 1,4-Dioxane-2,5-diol
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Other
+CH$FORMULA: C4H8O4
+CH$EXACT_MASS: 120.104
+CH$SMILES: C1C(OCC(O1)O)O
+CH$IUPAC: InChI=1S/C4H8O4/c5-3-1-7-4(6)2-8-3/h3-6H,1-2H2
+CH$LINK: CAS 23147-58-2
+CH$LINK: PUBCHEM CID:186078
+CH$LINK: INCHIKEY ATFVTAOSZBVGHC-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID60945822
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 121.11
+PK$SPLASH: splash10-00di-0900000000-c20916506309d53c634f
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  93.0 11936.0 96
+  120.0 7079.0 57
+  121.0 124679.0 999
+//

@@ -1,0 +1,39 @@
+ACCESSION: PT207540
+RECORD_TITLE: Citraconic Acid, Mesaconic Acid, 2-Methylmaleate, 2-Methyl-2-butenedioic acid, Methylmaleic acid, Citraconate, cis-Methylbutenedioic acid, (Z)-2-methylbut-2-enedioic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Citraconic Acid
+CH$NAME: Mesaconic Acid
+CH$NAME: 2-Methylmaleate
+CH$NAME: 2-Methyl-2-butenedioic acid
+CH$NAME: Methylmaleic acid
+CH$NAME: Citraconate
+CH$NAME: cis-Methylbutenedioic acid
+CH$NAME: (Z)-2-methylbut-2-enedioic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Citraconic acid
+CH$FORMULA: C5H6O4
+CH$EXACT_MASS: 130.099
+CH$SMILES: CC(=CC(=O)O)C(=O)O
+CH$IUPAC: InChI=1S/C5H6O4/c1-3(5(8)9)2-4(6)7/h2H,1H3,(H,6,7)(H,8,9)
+CH$LINK: CAS 498-23-7
+CH$LINK: INCHIKEY HNEGQIOMVPPMNR-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 129.01881
+PK$SPLASH: splash10-000i-9200000000-ddad81eb9311ec64a8c7
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  85.0293 102.7 999
+  129.0188 28.76 280
+//

@@ -1,0 +1,43 @@
+ACCESSION: PS026801
+RECORD_TITLE: (S)-(+)-Aminosuccinic acid, Asp, (S)-Aminobutanedioic acid, L-Aspartic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A9256.
+COMMENT: PRIMe compound in-house ID 268
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: (S)-(+)-Aminosuccinic acid
+CH$NAME: Asp
+CH$NAME: (S)-Aminobutanedioic acid
+CH$NAME: L-Aspartic acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Aspartic acid
+CH$FORMULA: C4H7NO4
+CH$EXACT_MASS: 133.103
+CH$SMILES: C(C(C(=O)O)N)C(=O)O
+CH$IUPAC: InChI=1S/C4H7NO4/c5-2(4(8)9)1-3(6)7/h2H,1,5H2,(H,6,7)(H,8,9)
+CH$LINK: CAS 56-84-8
+CH$LINK: KEGG C00049
+CH$LINK: PUBCHEM CID:5960
+CH$LINK: INCHIKEY CKLJMWTZIZZHCS-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 134.11
+PK$SPLASH: splash10-001i-0900000000-9b6cec5d7099d57d4fdb
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  88.0 5774.0 63
+  115.0 9293.0 101
+  133.0 10943.0 119
+  134.0 92070.0 999
+//

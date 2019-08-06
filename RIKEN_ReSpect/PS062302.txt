@@ -1,0 +1,43 @@
+ACCESSION: PS062302
+RECORD_TITLE: 2-Oxobutyrate, Propionylformic acid, 3-Methylpyruvic acid, alpha-ketobutyrate, 2-Oxobutanoic acid, 2-Oxobutyric Acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 155-02041.
+COMMENT: PRIMe compound in-house ID S0005
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 2-Oxobutyrate
+CH$NAME: Propionylformic acid
+CH$NAME: 3-Methylpyruvic acid
+CH$NAME: alpha-ketobutyrate
+CH$NAME: 2-Oxobutanoic acid
+CH$NAME: 2-Oxobutyric Acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Butyric acid
+CH$FORMULA: C4H6O3
+CH$EXACT_MASS: 102.089
+CH$SMILES: CCC(=O)C(=O)O
+CH$IUPAC: InChI=1S/C4H6O3/c1-2-3(5)4(6)7/h2H2,1H3,(H,6,7)
+CH$LINK: CAS 600-18-0
+CH$LINK: KEGG C00109
+CH$LINK: PUBCHEM CID:58
+CH$LINK: INCHIKEY TYEYBOSBBBHJIV-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 102.09
+PK$SPLASH: splash10-03dl-9000000000-585b7e21e297664ac625
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  43.0 42826.0 581
+  60.0 73673.0 999
+//

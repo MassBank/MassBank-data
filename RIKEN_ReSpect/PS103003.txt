@@ -1,0 +1,51 @@
+ACCESSION: PS103003
+RECORD_TITLE: 1,7-Dimethyl-1H-purine-2,6-dione, Paraxanthine, 2,6-Dihydroxy-1,7-dimethylpurine, 1,7-Dimethylxanthine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, D5385.
+COMMENT: PRIMe compound in-house ID N0088
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 1,7-Dimethyl-1H-purine-2,6-dione
+CH$NAME: Paraxanthine
+CH$NAME: 2,6-Dihydroxy-1,7-dimethylpurine
+CH$NAME: 1,7-Dimethylxanthine
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Xanthine
+CH$FORMULA: C7H8N4O2
+CH$EXACT_MASS: 180.167
+CH$SMILES: CN1C=NC2=C1C(=O)N(C(=O)N2)C
+CH$IUPAC: InChI=1S/C7H8N4O2/c1-10-3-8-5-4(10)6(12)11(2)7(13)9-5/h3H,1-2H3,(H,9,13)
+CH$LINK: CAS 611-59-6
+CH$LINK: KEGG C13747
+CH$LINK: PUBCHEM CID:4687
+CH$LINK: INCHIKEY QUNWUDVFRNGTCO-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 181.2
+PK$SPLASH: splash10-00di-1900000000-0a612e7260de11db0702
+PK$NUM_PEAK: 12
+PK$PEAK: m/z int. rel.int.
+  41.0 6662.0 30
+  42.0 14989.0 68
+  55.0 13291.0 60
+  69.0 9947.0 45
+  96.0 15895.0 72
+  122.0 7378.0 34
+  123.0 47476.0 216
+  124.0 219954.0 999
+  179.0 18682.0 85
+  180.0 41905.0 190
+  181.0 81461.0 370
+  182.0 12327.0 56
+//

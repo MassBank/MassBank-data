@@ -1,0 +1,44 @@
+ACCESSION: PS038703
+RECORD_TITLE: Nicotinamide ribotide, beta-Nicotinamide mononucleotide, Nicotinamide-1-ium-1-beta-D-ribofuranoside 5'-phosphate, beta-Nicotinamide ribose monophosphate, beta-NMN; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, N3501.
+COMMENT: PRIMe compound in-house ID 387
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Nicotinamide ribotide
+CH$NAME: beta-Nicotinamide mononucleotide
+CH$NAME: Nicotinamide-1-ium-1-beta-D-ribofuranoside 5'-phosphate
+CH$NAME: beta-Nicotinamide ribose monophosphate
+CH$NAME: beta-NMN
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: C11H15N2O8P
+CH$EXACT_MASS: 334.223
+CH$SMILES: C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)[O-])O)O)C(=O)N
+CH$IUPAC: InChI=1S/C11H15N2O8P/c12-10(16)6-2-1-3-13(4-6)11-9(15)8(14)7(21-11)5-20-22(17,18)19/h1-4,7-9,11,14-15H,5H2,(H3-,12,16,17,18,19)
+CH$LINK: CAS 1094-61-7
+CH$LINK: KEGG C00455
+CH$LINK: PUBCHEM CID:14180
+CH$LINK: INCHIKEY DAYLJWODMCOQEW-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 335.26
+PK$SPLASH: splash10-00di-3900000000-fc552c8a385b79d437e2
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  96.0 53730.0 91
+  97.0 192481.0 326
+  122.0 91338.0 155
+  123.0 589938.0 999
+//

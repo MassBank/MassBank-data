@@ -1,0 +1,41 @@
+ACCESSION: PS033901
+RECORD_TITLE: Decanedioic acid, Sebacic acid, 1,10-Decanedioic acid, 1,8-Octanedicarboxylic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA(Aldrich), S1752(84809).
+COMMENT: PRIMe compound in-house ID 339
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Decanedioic acid
+CH$NAME: Sebacic acid
+CH$NAME: 1,10-Decanedioic acid
+CH$NAME: 1,8-Octanedicarboxylic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Sebacic acid
+CH$FORMULA: C10H18O4
+CH$EXACT_MASS: 202.25
+CH$SMILES: C(CCCCC(=O)O)CCCC(=O)O
+CH$IUPAC: InChI=1S/C10H18O4/c11-9(12)7-5-3-1-2-4-6-8-10(13)14/h1-8H2,(H,11,12)(H,13,14)
+CH$LINK: CAS 111-20-6
+CH$LINK: KEGG C08277
+CH$LINK: PUBCHEM CID:5192
+CH$LINK: INCHIKEY CXMXRPHRNRROMY-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 203.29
+PK$SPLASH: splash10-000i-0900000000-5716b73e9a39635615e7
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  184.0 30623.0 116
+  185.0 262822.0 999
+//

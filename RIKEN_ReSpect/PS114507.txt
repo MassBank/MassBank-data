@@ -1,0 +1,44 @@
+ACCESSION: PS114507
+RECORD_TITLE: Urate, 8-Hydroxyxanthine, 7,9-Dihydro-1H-purine-2,6,8(3H)-trione, Triketopurine, Lithic acid, Uric acid, 2,6,8-Trihydroxypurine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, U0881.
+COMMENT: PRIMe compound in-house ID V0050
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Urate
+CH$NAME: 8-Hydroxyxanthine
+CH$NAME: 7,9-Dihydro-1H-purine-2,6,8(3H)-trione
+CH$NAME: Triketopurine
+CH$NAME: Lithic acid
+CH$NAME: Uric acid
+CH$NAME: 2,6,8-Trihydroxypurine
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Uric acid
+CH$FORMULA: C5H4N4O3
+CH$EXACT_MASS: 168.112
+CH$SMILES: C12=C(NC(=O)N1)NC(=O)NC2=O
+CH$IUPAC: InChI=1S/C5H4N4O3/c10-3-1-2(7-4(11)6-1)8-5(12)9-3/h(H4,6,7,8,9,10,11,12)
+CH$LINK: CAS 69-93-2
+CH$LINK: KEGG C00366
+CH$LINK: PUBCHEM CID:1175
+CH$LINK: INCHIKEY LEHOTFFKMJEONL-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 167.12
+PK$SPLASH: splash10-014i-0900000000-ee785e80c568886500ab
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  166.0 27636.0 182
+  167.0 151908.0 999
+//

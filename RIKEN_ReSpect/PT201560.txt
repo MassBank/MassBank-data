@@ -1,0 +1,50 @@
+ACCESSION: PT201560
+RECORD_TITLE: 4-Hydroxy-3,5-dimethoxy-cinnamic acid, (E)-3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoic acid, SA, Sinapate, Sinapic acid, Sin, 3,5-dimethoxy-4-hydroxycinnamic acid, Sinapinic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 4-Hydroxy-3,5-dimethoxy-cinnamic acid
+CH$NAME: (E)-3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoic acid
+CH$NAME: SA
+CH$NAME: Sinapate
+CH$NAME: Sinapic acid
+CH$NAME: Sin
+CH$NAME: 3,5-dimethoxy-4-hydroxycinnamic acid
+CH$NAME: Sinapinic acid
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid monomer CLASS3 Sinapic acid
+CH$FORMULA: C11H12O5
+CH$EXACT_MASS: 224.212
+CH$SMILES: COC1=CC(=CC(=C1O)OC)C=CC(=O)O
+CH$IUPAC: InChI=1S/C11H12O5/c1-15-8-5-7(3-4-10(12)13)6-9(16-2)11(8)14/h3-6,14H,1-2H3,(H,12,13)
+CH$LINK: CAS 530-59-6
+CH$LINK: INCHIKEY PCMORTLOPMLEFB-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 223.06067
+PK$SPLASH: splash10-00di-1950000000-845dcc12144449b6b8c5
+PK$NUM_PEAK: 13
+PK$PEAK: m/z int. rel.int.
+  75.0022 128.2 223
+  93.048 298.6 520
+  121.0467 382.5 665
+  135.0633 55.93 97
+  149.0435 565.9 985
+  163.0625 76.74 134
+  164.0708 464.1 807
+  165.0419 71.42 124
+  179.0961 71.05 124
+  193.0406 300.3 522
+  208.0669 369.2 642
+  223.0607 574.2 999
+  223.0901 381.7 664
+//

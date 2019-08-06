@@ -1,0 +1,45 @@
+ACCESSION: PS002501
+RECORD_TITLE: 1-Aminocyclopropanecarboxylic acid, 1-Aminocyclopropane-1-carboxylic acid, ACPC; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A3903.
+COMMENT: PRIMe compound in-house ID 25
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 1-Aminocyclopropanecarboxylic acid
+CH$NAME: 1-Aminocyclopropane-1-carboxylic acid
+CH$NAME: ACPC
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Cyclopropanecarboxylic acid
+CH$FORMULA: C4H7NO2
+CH$EXACT_MASS: 101.105
+CH$SMILES: C1CC1(C(=O)O)N
+CH$IUPAC: InChI=1S/C4H7NO2/c5-4(1-2-4)3(6)7/h1-2,5H2,(H,6,7)
+CH$LINK: CAS 22059-21-8
+CH$LINK: KEGG C01234
+CH$LINK: PUBCHEM CID:535
+CH$LINK: INCHIKEY PAJPWUMXBYXFCZ-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID9039577
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 102.06
+PK$SPLASH: splash10-0zfr-9800000000-90ac1d3dd4128a57ce2a
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  55.0 88336.0 115
+  56.0 572951.0 749
+  83.0 23188.0 30
+  84.0 151819.0 198
+  101.0 62602.0 82
+  102.0 764273.0 999
+//

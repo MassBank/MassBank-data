@@ -1,0 +1,39 @@
+ACCESSION: PS082203
+RECORD_TITLE: Sphingosine-1-Phosphate, Sphing-4-enine-1-phosphate, D-erythro-Sphingosine-1-phosphate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Cayman chemical company, 62570.
+COMMENT: PRIMe compound in-house ID S0259
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Sphingosine-1-Phosphate
+CH$NAME: Sphing-4-enine-1-phosphate
+CH$NAME: D-erythro-Sphingosine-1-phosphate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Sphingosine
+CH$FORMULA: C18H38NO5P
+CH$EXACT_MASS: 379.48
+CH$SMILES: CCCCCCCCCCCCCC=CC(C(COP(=O)(O)O)N)O
+CH$IUPAC: InChI=1S/C18H38NO5P/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-18(20)17(19)16-24-25(21,22)23/h14-15,17-18,20H,2-13,16,19H2,1H3,(H2,21,22,23)
+CH$LINK: CAS 26993-30-6
+CH$LINK: KEGG C06124
+CH$LINK: PUBCHEM CID:5283560
+CH$LINK: INCHIKEY DUYSYHSSBDVJSM-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 379.53
+PK$SPLASH: splash10-0002-9000000000-b74cf4499a634c9ffb73
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  95.0 180540.0 999
+//

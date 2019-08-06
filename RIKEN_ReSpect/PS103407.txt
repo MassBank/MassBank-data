@@ -1,0 +1,41 @@
+ACCESSION: PS103407
+RECORD_TITLE: alpha,3,4-Trihydroxyphenylacetic Acid, DL-3,4-Dihydroxymandelic acid , 3,4-Dihydroxyphenylglycolic acid, 3,4-Dihydroxymandelate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, 151610.
+COMMENT: PRIMe compound in-house ID N0092
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: alpha,3,4-Trihydroxyphenylacetic Acid
+CH$NAME: DL-3,4-Dihydroxymandelic acid
+CH$NAME: 3,4-Dihydroxyphenylglycolic acid
+CH$NAME: 3,4-Dihydroxymandelate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Mandelic acid
+CH$FORMULA: C8H8O5
+CH$EXACT_MASS: 184.147
+CH$SMILES: C1=CC(=C(C=C1C(C(=O)O)O)O)O
+CH$IUPAC: InChI=1S/C8H8O5/c9-5-2-1-4(3-6(5)10)7(11)8(12)13/h1-3,7,9-11H,(H,12,13)
+CH$LINK: CAS 775-01-9
+CH$LINK: KEGG C05580
+CH$LINK: PUBCHEM CID:85782
+CH$LINK: INCHIKEY RGHMISIYKIHAJW-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 183.15
+PK$SPLASH: splash10-001i-0900000000-46ce514cf6de9fb1439b
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  182.0 9153.0 46
+  183.0 200562.0 999
+//

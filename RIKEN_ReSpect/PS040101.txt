@@ -1,0 +1,47 @@
+ACCESSION: PS040101
+RECORD_TITLE: 3,4',5,7-tetrahydroxy-3'-methoxy flavone, Isorhamnetol, Tamarixetin, 3'-O-Methylquercetin, 3'-Methoxy-3,4',5,7-tetrahydroxyflavone, 3'-Methoxyquercetin, Isorhamnetin, 3-Methylquercetin, Isor; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound EXTRASYNTHESE S.A, 1120 S.
+COMMENT: PRIMe compound in-house ID H0009
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 3,4',5,7-tetrahydroxy-3'-methoxy flavone
+CH$NAME: Isorhamnetol
+CH$NAME: Tamarixetin
+CH$NAME: 3'-O-Methylquercetin
+CH$NAME: 3'-Methoxy-3,4',5,7-tetrahydroxyflavone
+CH$NAME: 3'-Methoxyquercetin
+CH$NAME: Isorhamnetin
+CH$NAME: 3-Methylquercetin
+CH$NAME: Isor
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Flavonol CLASS3 Isorhamnetin
+CH$FORMULA: C16H12O7
+CH$EXACT_MASS: 316.265
+CH$SMILES: COC1=C(C=CC(=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O
+CH$IUPAC: InChI=1S/C16H12O7/c1-22-11-4-7(2-3-9(11)18)16-15(21)14(20)13-10(19)5-8(17)6-12(13)23-16/h2-6,17-19,21H,1H3
+CH$LINK: CAS 480-19-3
+CH$LINK: KEGG C10084
+CH$LINK: PUBCHEM CID:5281654
+CH$LINK: INCHIKEY IZQSVPBOUDKVDZ-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 317.26
+PK$SPLASH: splash10-014i-0009000000-f2a35d858a4c7258f58e
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  316.0 31879.0 286
+  317.0 111418.0 999
+  318.0 3998.0 36
+//

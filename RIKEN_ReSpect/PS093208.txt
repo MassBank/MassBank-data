@@ -1,0 +1,42 @@
+ACCESSION: PS093208
+RECORD_TITLE: Quercetin-3-Arabinoside, Quer-3-Ara, Guajavarin; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound AnalytiCon, NP-000688.
+COMMENT: PRIMe compound in-house ID T0164
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Quercetin-3-Arabinoside
+CH$NAME: Quer-3-Ara
+CH$NAME: Guajavarin
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Flavonol CLASS3 Quercetin glycoside
+CH$FORMULA: C20H18O11
+CH$EXACT_MASS: 434.353
+CH$SMILES: C1C(C(C(C(O1)OC2=C(OC3=CC(=CC(=C3C2=O)O)O)C4=CC(=C(C=C4)O)O)O)O)O
+CH$IUPAC: InChI=1S/C20H18O11/c21-8-4-11(24)14-13(5-8)30-18(7-1-2-9(22)10(23)3-7)19(16(14)27)31-20-17(28)15(26)12(25)6-29-20/h1-5,12,15,17,20-26,28H,6H2
+CH$LINK: CAS 22255-13-6
+CH$LINK: PUBCHEM CID:5481224
+CH$LINK: INCHIKEY PZZRDJXEMZMZFD-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 433.39
+PK$SPLASH: splash10-001i-0000900000-58935ac3fe1747410dfe
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  300.0 20618.0 89
+  301.0 7240.0 31
+  432.0 68543.0 297
+  433.0 230259.0 999
+  434.0 49232.0 214
+//

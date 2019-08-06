@@ -1,0 +1,37 @@
+ACCESSION: PT200520
+RECORD_TITLE: (2S)-2-amino-4-methylpentanoic acid, (S)-2-Amino-4-methylpentanoic acid, L-alpha-Aminoisocaproic acid, L-Leu, L-Leucine, (Cell Culture Reagent, Crystalline), L-2-Amino-4-methylvaleric Acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: (2S)-2-amino-4-methylpentanoic acid
+CH$NAME: (S)-2-Amino-4-methylpentanoic acid
+CH$NAME: L-alpha-Aminoisocaproic acid
+CH$NAME: L-Leu
+CH$NAME: L-Leucine, (Cell Culture Reagent, Crystalline)
+CH$NAME: L-2-Amino-4-methylvaleric Acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Leucine
+CH$FORMULA: C6H13NO2
+CH$EXACT_MASS: 131.175
+CH$SMILES: CC(C)CC(C(=O)O)N
+CH$IUPAC: InChI=1S/C6H13NO2/c1-4(2)3-5(7)6(8)9/h4-5H,3,7H2,1-2H3,(H,8,9)
+CH$LINK: CAS 61-90-5
+CH$LINK: INCHIKEY ROHFNLRQFUQHCH-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 130.08682
+PK$SPLASH: splash10-001i-0900000000-ed843252a559d532dc5e
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  84.083 3.648 11
+  130.0868 322.9 999
+//

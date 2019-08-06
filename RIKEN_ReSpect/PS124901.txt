@@ -1,0 +1,40 @@
+ACCESSION: PS124901
+RECORD_TITLE: Daphnetin, Daphnetol, 7,8-Dihydroxycoumarin; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, D5564.
+COMMENT: PRIMe compound in-house ID V0123
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Daphnetin
+CH$NAME: Daphnetol
+CH$NAME: 7,8-Dihydroxycoumarin
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Coumarin CLASS3 Daphnetol
+CH$FORMULA: C9H6O4
+CH$EXACT_MASS: 178.143
+CH$SMILES: C1=CC(=C(C2=C1C=CC(=O)O2)O)O
+CH$IUPAC: InChI=1S/C9H6O4/c10-6-3-1-5-2-4-7(11)13-9(5)8(6)12/h1-4,10,12H
+CH$LINK: CAS 486-35-1
+CH$LINK: KEGG C03093
+CH$LINK: PUBCHEM CID:5280569
+CH$LINK: INCHIKEY ATEFPOUAMCWAQS-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 179.16
+PK$SPLASH: splash10-004i-0900000000-58048ad9623f66e6eeff
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  178.0 159904.0 165
+  179.0 970259.0 999
+//

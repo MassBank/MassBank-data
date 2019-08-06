@@ -1,0 +1,43 @@
+ACCESSION: PS034101
+RECORD_TITLE: 4-Azaoctamethylenediamine, Spermidine, N-(3-Aminopropyl)-1,4-diaminobutane, 1,8-Diamino-4-azaoctane, 1,5,10-Triazadecane; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, S0266.
+COMMENT: PRIMe compound in-house ID 341
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 4-Azaoctamethylenediamine
+CH$NAME: Spermidine
+CH$NAME: N-(3-Aminopropyl)-1,4-diaminobutane
+CH$NAME: 1,8-Diamino-4-azaoctane
+CH$NAME: 1,5,10-Triazadecane
+CH$COMPOUND_CLASS: CLASS1 Alkaloid CLASS2 Polyamine CLASS3 Spermidine
+CH$FORMULA: C7H19N3
+CH$EXACT_MASS: 145.25
+CH$SMILES: C(CCNCCCN)CN
+CH$IUPAC: InChI=1S/C7H19N3/c8-4-1-2-6-10-7-3-5-9/h10H,1-9H2
+CH$LINK: CAS 124-20-9
+CH$LINK: KEGG C00315
+CH$LINK: PUBCHEM CID:1102
+CH$LINK: INCHIKEY ATHGHQPFGPMSJY-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 146.25
+PK$SPLASH: splash10-0002-0900000000-7bb6985eed5e618ec697
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  72.0 32218.0 59
+  145.0 21139.0 39
+  146.0 543376.0 999
+//

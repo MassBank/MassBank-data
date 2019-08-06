@@ -1,0 +1,40 @@
+ACCESSION: PS076101
+RECORD_TITLE: 3,5-Dimethoxycinnamic acid , 3,5-Dimethoxyphenyl-2-propenoic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, D134007.
+COMMENT: PRIMe compound in-house ID S0168
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 3,5-Dimethoxycinnamic acid
+CH$NAME: 3,5-Dimethoxyphenyl-2-propenoic acid
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid monomer CLASS3 Cinnamic acid
+CH$FORMULA: C11H12O4
+CH$EXACT_MASS: 208.213
+CH$SMILES: COC1=CC(=CC(=C1)C=CC(=O)O)OC
+CH$IUPAC: InChI=1S/C11H12O4/c1-14-9-5-8(3-4-11(12)13)6-10(7-9)15-2/h3-7H,1-2H3,(H,12,13)
+CH$LINK: CAS 16909-11-8
+CH$LINK: PUBCHEM CID:5324677
+CH$LINK: INCHIKEY VLSRUFWCGBMYDJ-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 209.23
+PK$SPLASH: splash10-0a4l-0890000000-99af9cd1d0e77d87ea28
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  190.0 14333.0 128
+  191.0 111800.0 999
+  208.0 28989.0 259
+  209.0 97653.0 873
+//

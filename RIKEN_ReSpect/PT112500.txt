@@ -1,0 +1,50 @@
+ACCESSION: PT112500
+RECORD_TITLE: Esculetin, Esculin aglycon, Cichorigenin, 6,7-Dihydroxy-2H-1-benzopyran-2-one, Cichoriin aglycon, 6,7-Dihydroxycoumarin , 6,7-dihydroxy-2-benzopyrone, Aesculetin, 6,7-dihydroxychromen-2-one, Esculetol; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Esculetin
+CH$NAME: Esculin aglycon
+CH$NAME: Cichorigenin
+CH$NAME: 6,7-Dihydroxy-2H-1-benzopyran-2-one
+CH$NAME: Cichoriin aglycon
+CH$NAME: 6,7-Dihydroxycoumarin
+CH$NAME: 6,7-dihydroxy-2-benzopyrone
+CH$NAME: Aesculetin
+CH$NAME: 6,7-dihydroxychromen-2-one
+CH$NAME: Esculetol
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Coumarin CLASS3 Esculin
+CH$FORMULA: C9H6O4
+CH$EXACT_MASS: 178.143
+CH$SMILES: C1=CC(=O)OC2=CC(=C(C=C21)O)O
+CH$IUPAC: InChI=1S/C9H6O4/c10-6-3-5-1-2-9(12)13-8(5)4-7(6)11/h1-4,10-11H
+CH$LINK: CAS 305-01-1
+CH$LINK: INCHIKEY ILEDWLMCKZNDJK-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 179.03441
+PK$SPLASH: splash10-004i-1900000000-55cc4447de7427b3e5e0
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  67.0558 17.88 16
+  77.0398 217.8 197
+  89.0406 41.6 38
+  95.0499 23.76 21
+  105.0349 117.0 106
+  117.0358 18.4 17
+  123.0456 604.3 546
+  133.0298 409.6 370
+  135.0451 53.17 48
+  151.0402 105.9 96
+  179.0344 1105.0 999
+//

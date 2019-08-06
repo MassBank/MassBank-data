@@ -1,0 +1,47 @@
+ACCESSION: PS028206
+RECORD_TITLE: OMT, L-Lobamine Sulfone, L-Methionine S-dioxide, Met(O2), L-Methionine sulfone, L-2-Amino-4-(methylsulfonyl)butanoic acid, L-Banthionine Sulfone; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, M0876.
+COMMENT: PRIMe compound in-house ID 282
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: OMT
+CH$NAME: L-Lobamine Sulfone
+CH$NAME: L-Methionine S-dioxide
+CH$NAME: Met(O2)
+CH$NAME: L-Methionine sulfone
+CH$NAME: L-2-Amino-4-(methylsulfonyl)butanoic acid
+CH$NAME: L-Banthionine Sulfone
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Methionine
+CH$FORMULA: C5H11NO4S
+CH$EXACT_MASS: 181.211
+CH$SMILES: CS(=O)(=O)CCC(C(=O)O)N
+CH$IUPAC: InChI=1S/C5H11NO4S/c1-11(9,10)3-2-4(6)5(7)8/h4H,2-3,6H2,1H3,(H,7,8)
+CH$LINK: CAS 7314-32-1
+CH$LINK: PUBCHEM CID:445282
+CH$LINK: INCHIKEY UCUNFLYVYCGDHP-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 60
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 182.16
+PK$SPLASH: splash10-0a4i-9000000000-98556512d63a21e34d14
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  28.0 5882.0 127
+  29.0 3041.0 66
+  30.0 8522.0 184
+  55.0 26350.0 569
+  56.0 46296.0 999
+  57.0 11530.0 249
+//

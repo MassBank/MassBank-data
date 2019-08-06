@@ -1,0 +1,41 @@
+ACCESSION: PT206370
+RECORD_TITLE: 3-[[(2R)-2,4-dihydroxy-3,3-dimethylbutanoyl]amino]propanoic acid, D-Pantothenic Acid, (R)-Pantothenate, (R)-(+)-N-(2,4-Dihydroxy-3,3-dimethyl-1-oxobutyl)-beta-alanine, Vitamin B5, Sodium pantothenate; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 3-[[(2R)-2,4-dihydroxy-3,3-dimethylbutanoyl]amino]propanoic acid
+CH$NAME: D-Pantothenic Acid
+CH$NAME: (R)-Pantothenate
+CH$NAME: (R)-(+)-N-(2,4-Dihydroxy-3,3-dimethyl-1-oxobutyl)-beta-alanine
+CH$NAME: Vitamin B5
+CH$NAME: Sodium pantothenate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: C9H17NO5
+CH$EXACT_MASS: 219.237
+CH$SMILES: CC(C)(CO)C(C(=O)NCCC(=O)O)O
+CH$IUPAC: InChI=1S/C9H17NO5/c1-9(2,5-11)7(14)8(15)10-4-3-6(12)13/h7,11,14H,3-5H2,1-2H3,(H,10,15)(H,12,13)
+CH$LINK: CAS 79-83-4
+CH$LINK: INCHIKEY GHOKWGTUZJEAQD-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 218.10287
+PK$SPLASH: splash10-00ks-9330000000-5220625c440a0e4d0e1a
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  71.0153 104.3 94
+  71.0514 305.4 275
+  88.041 1108.0 999
+  99.0458 105.8 95
+  146.0824 694.2 626
+  218.1029 575.3 519
+//

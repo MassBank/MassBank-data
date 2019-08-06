@@ -1,0 +1,47 @@
+ACCESSION: PS013803
+RECORD_TITLE: 1-Methyl-4-(beta-aminoethyl)imidazole dihydrochloride, 1-Methylhistamine dihydrochloride; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, M4910.
+COMMENT: PRIMe compound in-house ID 138
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 1-Methyl-4-(beta-aminoethyl)imidazole dihydrochloride
+CH$NAME: 1-Methylhistamine dihydrochloride
+CH$COMPOUND_CLASS: CLASS1 Alkaloid CLASS2 Imidazole CLASS3 Histamine
+CH$FORMULA: C6H11N3
+CH$EXACT_MASS: 125.175
+CH$SMILES: CN1C=C(N=C1)CCN
+CH$IUPAC: InChI=1S/C6H11N3/c1-9-4-6(2-3-7)8-5-9/h4-5H,2-3,7H2,1H3
+CH$LINK: CAS 501-75-7
+CH$LINK: KEGG C05127
+CH$LINK: PUBCHEM CID:3614
+CH$LINK: INCHIKEY FHQDWPCFSJMNCT-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID30198207
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 126.13
+PK$SPLASH: splash10-0a4i-7900000000-2afbcead88b5dd3c10c6
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  40.0 4938.0 85
+  41.0 19719.0 340
+  42.0 3244.0 56
+  67.0 6148.0 106
+  68.0 18059.0 312
+  96.0 2680.0 46
+  97.0 4359.0 75
+  108.0 13641.0 235
+  109.0 57880.0 999
+//

@@ -1,0 +1,45 @@
+ACCESSION: PT101700
+RECORD_TITLE: 1-Adamantylamine hydrochloride, adamantan-1-amine, Tricyclodecane Hydrochloride, Virasol, Amantadine hydrochloride, Amazolon, 1-Aminoadamantane hydrochloride, Symmetrel, Mantadine, Midantan, Mantadix, Virofral, 1-Adamantanamine hydrochloride, Symadine; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 1-Adamantylamine hydrochloride
+CH$NAME: adamantan-1-amine
+CH$NAME: Tricyclodecane Hydrochloride
+CH$NAME: Virasol
+CH$NAME: Amantadine hydrochloride
+CH$NAME: Amazolon
+CH$NAME: 1-Aminoadamantane hydrochloride
+CH$NAME: Symmetrel
+CH$NAME: Mantadine
+CH$NAME: Midantan
+CH$NAME: Mantadix
+CH$NAME: Virofral
+CH$NAME: 1-Adamantanamine hydrochloride
+CH$NAME: Symadine
+CH$COMPOUND_CLASS: CLASS1 Alkaloid CLASS2 Other CLASS3 Amantadine
+CH$FORMULA: C10H17N
+CH$EXACT_MASS: 151.253
+CH$SMILES: C1C2CC3CC1CC(C2)(C3)N
+CH$IUPAC: InChI=1S/C10H17N/c11-10-4-7-1-8(5-10)3-9(2-7)6-10/h7-9H,1-6,11H2
+CH$LINK: CAS 768-94-5
+CH$LINK: INCHIKEY DKNWSYNQZKUICI-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 152.14389
+PK$SPLASH: splash10-0udi-0900000000-4aa7b04aaac47d693e8d
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  135.1194 544.8 141
+  152.1439 3860.0 999
+//
