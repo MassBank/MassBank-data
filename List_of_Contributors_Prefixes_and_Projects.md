@@ -37,6 +37,7 @@
 | RIKEN                     | RIKEN Plant Science Center                                              | Japan           | PR             |                            |
 | RIKEN_IMS                 | RIKEN Center for Integrative Medical Sciences                           | Japan             | LQA, LQB       |                            |
 | RIKEN_NPDepo              | RIKEN Center for Sustainable Resource Science                           | Japan             | NGA, CB        |                            |
+| RIKEN_ReSpect             | RIKEN Plant Science Center                                              | Japan             | PT, PS, PM     |                            |
 | Tottori_Univ              | Tottori University                                                      | Japan           | TT             |                            |
 | UFZ                       | Helmholtz Centre for Environmental Research  - UFZ                      | Germany         | UF, UA         | SOLUTIONS, NATOXAQ, HBM4EU |
 | Univ_Connecticut          | University of Connecticut                                               | USA             | CO             |                            |
