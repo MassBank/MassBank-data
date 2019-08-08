@@ -1,0 +1,51 @@
+ACCESSION: PS013902
+RECORD_TITLE: Phosphonoethylamine, Ciliatine, 2-AEP, 2-Aminoethylphosphonic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, 268674.
+COMMENT: PRIMe compound in-house ID 139
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Phosphonoethylamine
+CH$NAME: Ciliatine
+CH$NAME: 2-AEP
+CH$NAME: 2-Aminoethylphosphonic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Phosphate CLASS3 Phosphonic acid
+CH$FORMULA: C2H8NO3P
+CH$EXACT_MASS: 125.066
+CH$SMILES: C(CP(=O)(O)O)N
+CH$IUPAC: InChI=1S/C2H8NO3P/c3-1-2-7(4,5)6/h1-3H2,(H2,4,5,6)
+CH$LINK: CAS 2041-14-7
+CH$LINK: KEGG C03557
+CH$LINK: PUBCHEM CID:339
+CH$LINK: INCHIKEY QQVDJLLNRSOCEL-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID10174362
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 126.06
+PK$SPLASH: splash10-0a6r-1900000000-a77e343065d411ec25ae
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  30.0 2521.0 40
+  80.0 6688.0 106
+  81.0 5187.0 82
+  96.0 2639.0 42
+  97.0 12925.0 205
+  107.0 2021.0 32
+  108.0 26145.0 415
+  109.0 62915.0 999
+  124.0 2968.0 47
+  125.0 14948.0 237
+  126.0 42711.0 678
+//

@@ -1,0 +1,39 @@
+ACCESSION: PT206210
+RECORD_TITLE: Phosphoenolpyruvic Acid Trisodium Salt monohydrate, 2-phosphonatoacrylate, Phosphoenolpyruvic acid, PEP, Phosphoenolpyruvate, 2-phosphonooxyprop-2-enoic acid, 2-Phosphonooxyprop-2-enoic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Phosphoenolpyruvic Acid Trisodium Salt monohydrate
+CH$NAME: 2-phosphonatoacrylate
+CH$NAME: Phosphoenolpyruvic acid
+CH$NAME: PEP
+CH$NAME: Phosphoenolpyruvate
+CH$NAME: 2-phosphonooxyprop-2-enoic acid
+CH$NAME: 2-Phosphonooxyprop-2-enoic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Phosphoenolpyruvic acid
+CH$FORMULA: C3H5O6P
+CH$EXACT_MASS: 168.043
+CH$SMILES: C=C(C(=O)O)OP(=O)(O)O
+CH$IUPAC: InChI=1S/C3H5O6P/c1-2(3(4)5)9-10(6,7)8/h1H2,(H,4,5)(H2,6,7,8)
+CH$LINK: CAS 138-08-9
+CH$LINK: INCHIKEY DTBNBXWJWCWCIK-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 166.97458
+PK$SPLASH: splash10-004i-9100000000-33b795aea615bc3ef7fc
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  78.9339 19.25 999
+  148.9588 1.861 97
+  166.9746 1.89 98
+//

@@ -1,0 +1,43 @@
+ACCESSION: PT203440
+RECORD_TITLE: butanedioic acid, Succinic acid, Asuccin, Dicarboxylic Acid C4, 1,2-Ethanedicarboxylic acid, Ethylene Dicarboxylic Acid, Butanedioic acid, Succinate, Dihydrofumaric acid, Amber acid, Wormwood acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: butanedioic acid
+CH$NAME: Succinic acid
+CH$NAME: Asuccin
+CH$NAME: Dicarboxylic Acid C4
+CH$NAME: 1,2-Ethanedicarboxylic acid
+CH$NAME: Ethylene Dicarboxylic Acid
+CH$NAME: Butanedioic acid
+CH$NAME: Succinate
+CH$NAME: Dihydrofumaric acid
+CH$NAME: Amber acid
+CH$NAME: Wormwood acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Succinic acid
+CH$FORMULA: C4H6O4
+CH$EXACT_MASS: 118.088
+CH$SMILES: C(CC(=O)O)C(=O)O
+CH$IUPAC: InChI=1S/C4H6O4/c5-3(6)1-2-4(7)8/h1-2H2,(H,5,6)(H,7,8)
+CH$LINK: CAS 110-15-6
+CH$LINK: INCHIKEY KDYFGRWQOYBRFD-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 117.01881
+PK$SPLASH: splash10-00xr-9400000000-e50afc90e20cd420ba9b
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  73.0296 120.5 999
+  99.0086 13.68 113
+  117.0188 67.58 560
+//

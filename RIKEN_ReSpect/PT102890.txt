@@ -1,0 +1,41 @@
+ACCESSION: PT102890
+RECORD_TITLE: (2S,3R)-2-Amino-3-hydroxybutyric acid, L-2-Amino-3-hydroxybutyric acid, Thr, beta-Methylserine, (2S,3R)-2-Amino-3-hydroxybutanoic Acid, (2S,3R)-2-amino-3-hydroxybutanoic acid, L-Threonine; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: (2S,3R)-2-Amino-3-hydroxybutyric acid
+CH$NAME: L-2-Amino-3-hydroxybutyric acid
+CH$NAME: Thr
+CH$NAME: beta-Methylserine
+CH$NAME: (2S,3R)-2-Amino-3-hydroxybutanoic Acid
+CH$NAME: (2S,3R)-2-amino-3-hydroxybutanoic acid
+CH$NAME: L-Threonine
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Threonine
+CH$FORMULA: C4H9NO3
+CH$EXACT_MASS: 119.12
+CH$SMILES: CC(C(C(=O)O)N)O
+CH$IUPAC: InChI=1S/C4H9NO3/c1-2(6)3(5)4(7)8/h2-3,6H,5H2,1H3,(H,7,8)
+CH$LINK: CAS 72-19-5
+CH$LINK: INCHIKEY AYFVYJQAPQTCCC-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 120.06604
+PK$SPLASH: splash10-00di-9400000000-c73aeffbd76d76ccd312
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  56.0511 27.39 90
+  74.061 303.6 999
+  84.0457 30.53 100
+  102.0565 103.8 342
+  120.066 71.07 234
+//

@@ -1,0 +1,38 @@
+ACCESSION: PT209993
+RECORD_TITLE: Methyl glutaryl chloride, Methyl 5-chloro-5-oxovalerate, methyl 5-chloro-5-oxopentanoate, Carbomethoxybutyryl Chloride, Glutaric acid monomethyl ester chloride, Methyl 4-(chloroformyl)butyrate, methyl 5-chloro-5-oxovalerate; LC-ESI-QTOF; MS2
+DATE: 2008.07.29
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Methyl glutaryl chloride
+CH$NAME: Methyl 5-chloro-5-oxovalerate
+CH$NAME: methyl 5-chloro-5-oxopentanoate
+CH$NAME: Carbomethoxybutyryl Chloride
+CH$NAME: Glutaric acid monomethyl ester chloride
+CH$NAME: Methyl 4-(chloroformyl)butyrate
+CH$NAME: methyl 5-chloro-5-oxovalerate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Pentanoic acid
+CH$FORMULA: C6H9ClO3
+CH$EXACT_MASS: 164.588
+CH$SMILES: COC(=O)CCCC(=O)Cl
+CH$IUPAC: InChI=1S/C6H9ClO3/c1-10-6(9)4-2-3-5(7)8/h2-4H2,1H3
+CH$LINK: CAS 1501-26-4
+CH$LINK: INCHIKEY JCAZSWWHFJVFPP-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 163.01622
+PK$SPLASH: splash10-0002-0900000000-062175f9880dcefe8de5
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  145.8305 101.8 999
+  162.8287 10.24 100
+//

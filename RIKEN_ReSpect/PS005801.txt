@@ -1,0 +1,49 @@
+ACCESSION: PS005801
+RECORD_TITLE: Meat sugar, meso-Inositol, Phaseomannitol, cis-1,2,3,5-trans-4,6-Cyclohexanehexol, 1,2,3,4,5,6-Hexahydroxycyclohexane, myo-Inositol, i-Inositol, Cyclohexitol, Cyclohexanehexol; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound WAKO, 094-00281.
+COMMENT: PRIMe compound in-house ID 58
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Meat sugar
+CH$NAME: meso-Inositol
+CH$NAME: Phaseomannitol
+CH$NAME: cis-1,2,3,5-trans-4,6-Cyclohexanehexol
+CH$NAME: 1,2,3,4,5,6-Hexahydroxycyclohexane
+CH$NAME: myo-Inositol
+CH$NAME: i-Inositol
+CH$NAME: Cyclohexitol
+CH$NAME: Cyclohexanehexol
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Sugar CLASS3 Monosaccharide
+CH$FORMULA: C6H12O6
+CH$EXACT_MASS: 180.156
+CH$SMILES: C1(C(C(C(C(C1O)O)O)O)O)O
+CH$IUPAC: InChI=1S/C6H12O6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-12H
+CH$LINK: CAS 87-89-8
+CH$LINK: KEGG C00137
+CH$LINK: PUBCHEM CID:892
+CH$LINK: INCHIKEY CDAISMWEOUEBRE-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID30110000
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 179.67
+PK$SPLASH: splash10-0a4r-0900000000-0fc08225089b1a5ce091
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  138.0 50726.0 856
+  139.0 20206.0 341
+  158.0 19877.0 335
+  159.0 59187.0 999
+//

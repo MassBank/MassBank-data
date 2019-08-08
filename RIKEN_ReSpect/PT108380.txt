@@ -1,0 +1,39 @@
+ACCESSION: PT108380
+RECORD_TITLE: Malv-3-Glc-5-Glc, Malvoside, Malvin chloride, malvidin-3,5-di-O-glucoside, 3,5-Bis(beta-D-glucopyranosyloxy)-7-hydroxy-2-(4-hydroxy-3,5-dimethoxyphenyl)-1-benzopyrylium, (2S,3R,4S,5S,6R)-2-[7-hydroxy-2-(4-hydroxy-3,5-dimethoxyphenyl)-5-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromenylium-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Malv-3-Glc-5-Glc
+CH$NAME: Malvoside
+CH$NAME: Malvin chloride
+CH$NAME: malvidin-3,5-di-O-glucoside
+CH$NAME: 3,5-Bis(beta-D-glucopyranosyloxy)-7-hydroxy-2-(4-hydroxy-3,5-dimethoxyphenyl)-1-benzopyrylium
+CH$NAME: (2S,3R,4S,5S,6R)-2-[7-hydroxy-2-(4-hydroxy-3,5-dimethoxyphenyl)-5-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromenylium-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Anthocyanin CLASS3 Malvidin glycoside
+CH$FORMULA: [C29H35O17]+
+CH$EXACT_MASS: 655.582
+CH$SMILES: COC1=CC(=CC(=C1O)OC)C2=C(C=C3C(=CC(=CC3=[O+]2)O)OC4C(C(C(C(O4)CO)O)O)O)OC5C(C(C(C(O5)CO)O)O)O
+CH$IUPAC: InChI=1S/C29H34O17/c1-40-15-3-10(4-16(41-2)20(15)33)27-17(44-29-26(39)24(37)22(35)19(9-31)46-29)7-12-13(42-27)5-11(32)6-14(12)43-28-25(38)23(36)21(34)18(8-30)45-28/h3-7,18-19,21-26,28-31,34-39H,8-9H2,1-2H3,(H-,32,33)/p+1
+CH$LINK: CAS 16727-30-3
+CH$LINK: INCHIKEY CILLXFBAACIQNS-UHFFFAOYSA-O
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 655.18739
+PK$SPLASH: splash10-001i-0009102000-add8999adcd9e4407cd3
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  315.0507 216.6 53
+  331.0823 4111.0 999
+  493.1358 723.9 176
+  655.1874 1143.0 278
+//

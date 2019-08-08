@@ -1,0 +1,36 @@
+ACCESSION: PT207630
+RECORD_TITLE: 3-Hydroxycinnamic acid, m-Hydroxycinnamic acid, m-Coumaric Acid, 3-Coumaric Acid, (E)-3-(3-hydroxyphenyl)prop-2-enoic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 3-Hydroxycinnamic acid
+CH$NAME: m-Hydroxycinnamic acid
+CH$NAME: m-Coumaric Acid
+CH$NAME: 3-Coumaric Acid
+CH$NAME: (E)-3-(3-hydroxyphenyl)prop-2-enoic acid
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid monomer CLASS3 Cinnamic acid
+CH$FORMULA: C9H8O3
+CH$EXACT_MASS: 164.16
+CH$SMILES: C1=CC(=CC(=C1)O)C=CC(=O)O
+CH$IUPAC: InChI=1S/C9H8O3/c10-8-3-1-2-7(6-8)4-5-9(11)12/h1-6,10H,(H,11,12)
+CH$LINK: CAS 588-30-7
+CH$LINK: INCHIKEY KKSDGJDHHZEWEP-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 163.03954
+PK$SPLASH: splash10-03di-0900000000-be33d196fbb525019f07
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  145.8744 219.9 469
+  162.8748 468.2 999
+//

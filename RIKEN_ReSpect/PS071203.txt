@@ -1,0 +1,48 @@
+ACCESSION: PS071203
+RECORD_TITLE: Uromitexan, MESNA, HS-CoM, 2-Mercaptoethanesulfonic acid, Mitexan, 2-Mercaptoethansulfonate, Coenzyme M, Mesnex, 2-Mercaptoethanesulfonic acid solution; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Fluka, 63707.
+COMMENT: PRIMe compound in-house ID S0107
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Uromitexan
+CH$NAME: MESNA
+CH$NAME: HS-CoM
+CH$NAME: 2-Mercaptoethanesulfonic acid
+CH$NAME: Mitexan
+CH$NAME: 2-Mercaptoethansulfonate
+CH$NAME: Coenzyme M
+CH$NAME: Mesnex
+CH$NAME: 2-Mercaptoethanesulfonic acid solution
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Other
+CH$FORMULA: C2H6O3S2
+CH$EXACT_MASS: 142.197
+CH$SMILES: C(CS(=O)(=O)O)S
+CH$IUPAC: InChI=1S/C2H6O3S2/c3-7(4,5)2-1-6/h6H,1-2H2,(H,3,4,5)
+CH$LINK: CAS 3375-50-6
+CH$LINK: KEGG C03576
+CH$LINK: PUBCHEM CID:598
+CH$LINK: INCHIKEY ZNEWHQLOPFWXOF-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 143.18
+PK$SPLASH: splash10-0006-9000000000-7dd303a6aeda6c55d3cf
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  40.0 73961.0 999
+  41.0 14807.0 200
+  60.0 3869.0 52
+  61.0 13907.0 188
+//

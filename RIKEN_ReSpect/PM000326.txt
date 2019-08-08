@@ -1,0 +1,33 @@
+ACCESSION: PM000326
+RECORD_TITLE: Luteolin-7-O-glucuronide; LC-ESI-QQ; MS2
+DATE: 2006.04.19
+AUTHORS: Parejo I, et al.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2012 Plant Science Center, RIKEN
+PUBLICATION: Parejo, I.; Jauregui, O.; Sánchez-Rabaneda, F.; Viladomat, F.; Bastida, J.; Codina, C. Separation and Characterization of Phenolic Compounds in Fennel (Foeniculum Vulgare) Using Liquid Chromatography-Negative Electrospray Ionization Tandem Mass Spectrometry. Journal of Agricultural and Food Chemistry 2004, 52 (12), 3679–87. DOI:10.1021/jf030813h
+COMMENT: 725
+CH$NAME: Luteolin-7-O-glucuronide
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Flavone CLASS3 Luteolin glycoside
+CH$FORMULA: C21H18O12
+CH$EXACT_MASS: 462.363
+CH$SMILES: O=C(O)C1OC(Oc2cc(O)c3c(=O)cc(-c4ccc(O)c(O)c4)oc3c2)C(O)C(O)C1O
+CH$IUPAC: InChI=1S/C21H18O12/c22-9-2-1-7(3-10(9)23)13-6-12(25)15-11(24)4-8(5-14(15)32-13)31-21-18(28)16(26)17(27)19(33-21)20(29)30/h1-6,16-19,21-24,26-28H,(H,29,30)
+CH$LINK: CAS 29741-10-4
+CH$LINK: INCHIKEY VSUOKLTVXQRUSG-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:13607752
+SP$SAMPLE: Foeniculum vulgare
+AC$INSTRUMENT: API 3000 triple-quadrupole mass spectrometer (PerkinElmer Sciex, Concord, ON, Canada)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 35
+AC$CHROMATOGRAPHY: SOLVENT H2O/NH3CN/HCOOH
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 461
+PK$SPLASH: splash10-0150-0090000000-57b128ab4376c1e9face
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  216.0 100.0 999
+  285.0 100.0 999
+//

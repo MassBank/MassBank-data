@@ -1,0 +1,51 @@
+ACCESSION: PS071905
+RECORD_TITLE: Lysine acid, L-(+)-Lysine, Lys, 2,6-diaminohexanoic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 126-01451 .
+COMMENT: PRIMe compound in-house ID S0116
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Lysine acid
+CH$NAME: L-(+)-Lysine
+CH$NAME: Lys
+CH$NAME: 2,6-diaminohexanoic acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Lysine
+CH$FORMULA: C6H14N2O2
+CH$EXACT_MASS: 146.19
+CH$SMILES: C(CCN)CC(C(=O)O)N
+CH$IUPAC: InChI=1S/C6H14N2O2/c7-4-2-1-3-5(8)6(9)10/h5H,1-4,7-8H2,(H,9,10)
+CH$LINK: CAS 56-87-1
+CH$LINK: KEGG C00047
+CH$LINK: PUBCHEM CID:5962
+CH$LINK: INCHIKEY KDXKERNSBIXSRK-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 50
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 147.18
+PK$SPLASH: splash10-053r-9000000000-e59a9386f07bb07dfce7
+PK$NUM_PEAK: 12
+PK$PEAK: m/z int. rel.int.
+  28.0 7438.0 147
+  29.0 2846.0 56
+  30.0 5493.0 108
+  41.0 12037.0 237
+  42.0 3588.0 71
+  55.0 12585.0 248
+  56.0 31627.0 623
+  67.0 5542.0 109
+  69.0 4266.0 84
+  74.0 2446.0 48
+  83.0 8881.0 175
+  84.0 50693.0 999
+//

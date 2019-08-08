@@ -1,0 +1,54 @@
+ACCESSION: PS126403
+RECORD_TITLE: L-Canavanine , O-((Aminoiminomethyl)amino)-L-homoserine, L-alpha-Amino-gamma-(guanidinooxy)-n-butyric acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, C1625.
+COMMENT: PRIMe compound in-house ID V0138
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-Canavanine
+CH$NAME: O-((Aminoiminomethyl)amino)-L-homoserine
+CH$NAME: L-alpha-Amino-gamma-(guanidinooxy)-n-butyric acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Peptide CLASS3 Oligopeptide
+CH$FORMULA: C5H12N4O3
+CH$EXACT_MASS: 176.176
+CH$SMILES: C(CON=C(N)N)C(C(=O)O)N
+CH$IUPAC: InChI=1S/C5H12N4O3/c6-3(4(10)11)1-2-12-9-5(7)8/h3H,1-2,6H2,(H,10,11)(H4,7,8,9)
+CH$LINK: CAS 543-38-4
+CH$LINK: KEGG C00308
+CH$LINK: PUBCHEM CID:439202
+CH$LINK: INCHIKEY FSBIGDSBMBYOPN-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 177.21
+PK$SPLASH: splash10-004i-9100000000-957261338ab4ea32bd15
+PK$NUM_PEAK: 16
+PK$PEAK: m/z int. rel.int.
+  43.0 3131.0 35
+  56.0 24485.0 273
+  57.0 3034.0 34
+  58.0 8800.0 98
+  71.0 7509.0 84
+  72.0 26845.0 300
+  73.0 6713.0 75
+  74.0 19088.0 213
+  75.0 19906.0 222
+  76.0 89494.0 999
+  84.0 3381.0 38
+  101.0 3888.0 43
+  102.0 12085.0 135
+  118.0 5016.0 56
+  176.0 4515.0 50
+  177.0 8437.0 94
+//

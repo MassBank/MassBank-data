@@ -1,0 +1,57 @@
+ACCESSION: PS100401
+RECORD_TITLE: Ribovel, Ribosyn, Ribotone, Beflavine, Riboflavinequinone, Flavaxin, Vitamin B2, Vitaflavine, Hyflavin, Lactoflavin, 6,7-Dimethyl-9-D-ribitylisoalloxazine, 7,8-Dimethyl-10-ribitylisoalloxazine, Lactobene, Ribipca, Riboderm, Vitamin G, Flaxain, Ovoflavin, (-)-Riboflavin; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA-Aldrich, R4500.
+COMMENT: PRIMe compound in-house ID N0062
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Ribovel
+CH$NAME: Ribosyn
+CH$NAME: Ribotone
+CH$NAME: Beflavine
+CH$NAME: Riboflavinequinone
+CH$NAME: Flavaxin
+CH$NAME: Vitamin B2
+CH$NAME: Vitaflavine
+CH$NAME: Hyflavin
+CH$NAME: Lactoflavin
+CH$NAME: 6,7-Dimethyl-9-D-ribitylisoalloxazine
+CH$NAME: 7,8-Dimethyl-10-ribitylisoalloxazine
+CH$NAME: Lactobene
+CH$NAME: Ribipca
+CH$NAME: Riboderm
+CH$NAME: Vitamin G
+CH$NAME: Flaxain
+CH$NAME: Ovoflavin
+CH$NAME: (-)-Riboflavin
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: C17H20N4O6
+CH$EXACT_MASS: 376.369
+CH$SMILES: CC1=CC2=C(C=C1C)N(C3=NC(=O)NC(=O)C3=N2)CC(C(C(CO)O)O)O
+CH$IUPAC: InChI=1S/C17H20N4O6/c1-7-3-9-10(4-8(7)2)21(5-11(23)14(25)12(24)6-22)15-13(18-9)16(26)20-17(27)19-15/h3-4,11-12,14,22-25H,5-6H2,1-2H3,(H,20,26,27)
+CH$LINK: CAS 83-88-5
+CH$LINK: KEGG C00255
+CH$LINK: PUBCHEM CID:493570
+CH$LINK: INCHIKEY AUNGANRZJHBGPY-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 377.39
+PK$SPLASH: splash10-004i-0009000000-cc46143cabc8970c0758
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  376.0 236108.0 105
+  377.0 2256476.0 999
+  378.0 239733.0 106
+//

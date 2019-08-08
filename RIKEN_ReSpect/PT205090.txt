@@ -1,0 +1,41 @@
+ACCESSION: PT205090
+RECORD_TITLE: 4-(Methylsulfinyl)butylglucosinolate, 4-methylsulfinylbutyl glucosinolate, glucoraphanin, [[5-methylsulfinyl-1-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]sulfanylpentylidene]amino] hydrogen sulfate, 4MSOB; LC-ESI-QTOF; MS2
+DATE: 2008.09.26
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 4-(Methylsulfinyl)butylglucosinolate
+CH$NAME: 4-methylsulfinylbutyl glucosinolate
+CH$NAME: glucoraphanin
+CH$NAME: [[5-methylsulfinyl-1-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]sulfanylpentylidene]amino] hydrogen sulfate
+CH$NAME: 4MSOB
+CH$COMPOUND_CLASS: CLASS1 Glucosinolate CLASS2 Aliphatic glucosinolate
+CH$FORMULA: C12H23NO10S3
+CH$EXACT_MASS: 437.508
+CH$SMILES: CS(=O)CCCCC(=NOS(=O)(=O)O)SC1C(C(C(C(O1)CO)O)O)O
+CH$IUPAC: InChI=1S/C12H23NO10S3/c1-25(18)5-3-2-4-8(13-23-26(19,20)21)24-12-11(17)10(16)9(15)7(6-14)22-12/h7,9-12,14-17H,2-6H2,1H3,(H,19,20,21)
+CH$LINK: CAS 21414-41-5
+CH$LINK: INCHIKEY GMMLNKINDDUDCF-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 436.04059
+PK$SPLASH: splash10-000b-9101400000-9fbf724dfa81f247e52b
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  74.9931 1222.0 336
+  79.959 386.9 106
+  95.9534 2871.0 789
+  96.9612 2979.0 818
+  178.0188 987.6 271
+  372.046 930.5 256
+  436.0406 3637.0 999
+//

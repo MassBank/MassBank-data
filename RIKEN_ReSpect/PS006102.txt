@@ -1,0 +1,49 @@
+ACCESSION: PS006102
+RECORD_TITLE: 2,4-Dihydroxypyrimidine, Uracil, 2,4-Pyrimidinediol, 2,4(1H,3H)-Pyrimidinedione; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound WAKO, 212-00062.
+COMMENT: PRIMe compound in-house ID 61
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 2,4-Dihydroxypyrimidine
+CH$NAME: Uracil
+CH$NAME: 2,4-Pyrimidinediol
+CH$NAME: 2,4(1H,3H)-Pyrimidinedione
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Uracil
+CH$FORMULA: C4H4N2O2
+CH$EXACT_MASS: 112.088
+CH$SMILES: C1=CNC(=O)NC1=O
+CH$IUPAC: InChI=1S/C4H4N2O2/c7-3-1-2-5-4(8)6-3/h1-2H,(H2,5,6,7,8)
+CH$LINK: CAS 66-22-8
+CH$LINK: KEGG C00106
+CH$LINK: PUBCHEM CID:1174
+CH$LINK: INCHIKEY ISAKRJDGNUQOIC-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID4021424
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 113.06
+PK$SPLASH: splash10-03di-6900000000-cb61fa5fde57a0693b89
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  69.0 4907.0 75
+  70.0 35891.0 547
+  95.0 6624.0 101
+  96.0 15116.0 230
+  110.0 2901.0 44
+  111.0 3269.0 50
+  112.0 13204.0 201
+  113.0 65577.0 999
+  114.0 2585.0 39
+//

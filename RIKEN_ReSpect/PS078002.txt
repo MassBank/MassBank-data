@@ -1,0 +1,44 @@
+ACCESSION: PS078002
+RECORD_TITLE: 3',5,7-Trihydroxy-4'-methoxy flavanone, Hesperetin; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound LKT, H1672.
+COMMENT: PRIMe compound in-house ID S0200
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 3',5,7-Trihydroxy-4'-methoxy flavanone
+CH$NAME: Hesperetin
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Flavanone CLASS3 Hesperetin
+CH$FORMULA: C16H14O6
+CH$EXACT_MASS: 302.282
+CH$SMILES: COC1=C(C=C(C=C1)C2CC(=O)C3=C(C=C(C=C3O2)O)O)O
+CH$IUPAC: InChI=1S/C16H14O6/c1-21-13-3-2-8(4-10(13)18)14-7-12(20)16-11(19)5-9(17)6-15(16)22-14/h2-6,14,17-19H,7H2,1H3
+CH$LINK: CAS 520-33-2
+CH$LINK: KEGG C01709
+CH$LINK: PUBCHEM CID:72281
+CH$LINK: INCHIKEY AIONOLUJZLIMTK-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 303.28
+PK$SPLASH: splash10-0udi-0209000000-79c1655a5e8f027e2681
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  153.0 24099.0 73
+  176.0 12207.0 37
+  177.0 62449.0 189
+  301.0 12931.0 39
+  302.0 65077.0 197
+  303.0 330603.0 999
+  304.0 13435.0 41
+//

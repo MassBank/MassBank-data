@@ -1,0 +1,44 @@
+ACCESSION: PS039302
+RECORD_TITLE: Apigenol, 5,7-Dihydroxy-2-(4-hydroxyphenyl)-4-benzopyrone, 4',5,7-trihydroxyflavone, Apigenin, Naringenin Chalcone, Chamomile, Apig; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound EXTRASYNTHESE S.A, 1102 S.
+COMMENT: PRIMe compound in-house ID H0001
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Apigenol
+CH$NAME: 5,7-Dihydroxy-2-(4-hydroxyphenyl)-4-benzopyrone
+CH$NAME: 4',5,7-trihydroxyflavone
+CH$NAME: Apigenin
+CH$NAME: Naringenin Chalcone
+CH$NAME: Chamomile
+CH$NAME: Apig
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Flavone CLASS3 Apigenin
+CH$FORMULA: C15H10O5
+CH$EXACT_MASS: 270.24
+CH$SMILES: C1=CC(=CC=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O
+CH$IUPAC: InChI=1S/C15H10O5/c16-9-3-1-8(2-4-9)13-7-12(19)15-11(18)5-10(17)6-14(15)20-13/h1-7,16-18H
+CH$LINK: CAS 520-36-5
+CH$LINK: KEGG C01477
+CH$LINK: PUBCHEM CID:5280443
+CH$LINK: INCHIKEY KZNIFHPLKGYRTM-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 271.27
+PK$SPLASH: splash10-00di-0090000000-325b73e303deb1bba5ba
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  270.0 155457.0 608
+  271.0 255375.0 999
+//

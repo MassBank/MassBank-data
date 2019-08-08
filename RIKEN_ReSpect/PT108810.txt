@@ -1,0 +1,43 @@
+ACCESSION: PT108810
+RECORD_TITLE: Farnesol (mixture of isomers), (2E,6E)-3,7,11-trimethyldodeca-2,6,10-trien-1-ol, Dihydrofarnesol, 3,7,11-Trimethyl-2,6,10-dodecatrien-1-ol, 3,7,11-Trimethyldodeca-2,6,10-trien-1-ol, Polyprenol, Stirrup, Farnesyl alcohol; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Farnesol (mixture of isomers)
+CH$NAME: (2E,6E)-3,7,11-trimethyldodeca-2,6,10-trien-1-ol
+CH$NAME: Dihydrofarnesol
+CH$NAME: 3,7,11-Trimethyl-2,6,10-dodecatrien-1-ol
+CH$NAME: 3,7,11-Trimethyldodeca-2,6,10-trien-1-ol
+CH$NAME: Polyprenol
+CH$NAME: Stirrup
+CH$NAME: Farnesyl alcohol
+CH$COMPOUND_CLASS: CLASS1 Terpenoid CLASS2 Sesquiterpenoid CLASS3 Farnesol
+CH$FORMULA: C15H26O
+CH$EXACT_MASS: 222.372
+CH$SMILES: CC(=CCCC(=CCCC(=CCO)C)C)C
+CH$IUPAC: InChI=1S/C15H26O/c1-13(2)7-5-8-14(3)9-6-10-15(4)11-12-16/h7,9,11,16H,5-6,8,10,12H2,1-4H3
+CH$LINK: CAS 4602-84-0
+CH$LINK: INCHIKEY CRDAMVZIKSXKFV-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 223.20615
+PK$SPLASH: splash10-0a4i-0390000000-28f6b81583cd34ae7ae1
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  73.0697 240.0 104
+  191.0585 1196.0 519
+  207.0933 2301.0 999
+  209.0748 253.6 110
+  223.13 430.2 187
+  225.1103 286.2 124
+//

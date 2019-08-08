@@ -1,0 +1,41 @@
+ACCESSION: PT103890
+RECORD_TITLE: 4-aminobutanoic acid, Piperidinic acid, 4-Aminobutanoic acid, Piperidic acid, 4-Aminobutylate, 4-Aminobutyric acid, Aminalon, GABA, gamma-Amino-n-butyric acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 4-aminobutanoic acid
+CH$NAME: Piperidinic acid
+CH$NAME: 4-Aminobutanoic acid
+CH$NAME: Piperidic acid
+CH$NAME: 4-Aminobutylate
+CH$NAME: 4-Aminobutyric acid
+CH$NAME: Aminalon
+CH$NAME: GABA
+CH$NAME: gamma-Amino-n-butyric acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Other CLASS3 GABA
+CH$FORMULA: C4H9NO2
+CH$EXACT_MASS: 103.121
+CH$SMILES: C(CC(=O)O)CN
+CH$IUPAC: InChI=1S/C4H9NO2/c5-3-1-2-4(6)7/h1-3,5H2,(H,6,7)
+CH$LINK: INCHIKEY BTCSSZJGUNDROE-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 104.07113
+PK$SPLASH: splash10-000i-9000000000-7d4636efbc4e5d75872e
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  69.0348 60.77 195
+  86.0609 73.8 237
+  87.045 311.5 999
+  104.0711 46.37 149
+//

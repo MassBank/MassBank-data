@@ -1,0 +1,42 @@
+ACCESSION: PS118106
+RECORD_TITLE: 1-O-Sinapoyl-beta-D-glucose, 1-O-b-D-glucopyranosyl sinapate, 1-O-Sinapoyl beta-D-glucoside; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Nakabayashi_Chiba_Univ, -.
+COMMENT: PRIMe compound in-house ID R0028
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 1-O-Sinapoyl-beta-D-glucose
+CH$NAME: 1-O-b-D-glucopyranosyl sinapate
+CH$NAME: 1-O-Sinapoyl beta-D-glucoside
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid glycoside CLASS3 Sinapoyl glycoside
+CH$FORMULA: C17H22O10
+CH$EXACT_MASS: 386.353
+CH$SMILES: COC1=CC(=CC(=C1O)OC)C=CC(=O)OC2C(C(C(C(O2)CO)O)O)O
+CH$IUPAC: InChI=1S/C17H22O10/c1-24-9-5-8(6-10(25-2)13(9)20)3-4-12(19)27-17-16(23)15(22)14(21)11(7-18)26-17/h3-6,11,14-18,20-23H,7H2,1-2H3
+CH$LINK: CAS 14364-09-1
+CH$LINK: KEGG C01175
+CH$LINK: PUBCHEM CID:5280406
+CH$LINK: INCHIKEY XRKBRPFTFKKHEF-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 60
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 387.41
+PK$SPLASH: splash10-0a4i-0900000000-7da0fbf72bfd353aad67
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  57.0 3416.0 30
+  104.0 39109.0 344
+  105.0 113507.0 999
+  119.0 6763.0 60
+//

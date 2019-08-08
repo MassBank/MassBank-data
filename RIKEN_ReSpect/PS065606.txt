@@ -1,0 +1,53 @@
+ACCESSION: PS065606
+RECORD_TITLE: Argamine, 2-Amino-5-guanidinovaleric Acid, L(+)-Arginine, Levargin, Argivene, Detoxargin, Arg, (S)-2-Amino-5-guanidinopentanoic Acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 019-04611.
+COMMENT: PRIMe compound in-house ID S0043
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Argamine
+CH$NAME: 2-Amino-5-guanidinovaleric Acid
+CH$NAME: L(+)-Arginine
+CH$NAME: Levargin
+CH$NAME: Argivene
+CH$NAME: Detoxargin
+CH$NAME: Arg
+CH$NAME: (S)-2-Amino-5-guanidinopentanoic Acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Arginine
+CH$FORMULA: C6H14N4O2
+CH$EXACT_MASS: 174.204
+CH$SMILES: C(CC(C(=O)O)N)CN=C(N)N
+CH$IUPAC: InChI=1S/C6H14N4O2/c7-4(5(11)12)2-1-3-10-6(8)9/h4H,1-3,7H2,(H,11,12)(H4,8,9,10)
+CH$LINK: CAS 74-79-3
+CH$LINK: KEGG C00062
+CH$LINK: PUBCHEM CID:6322
+CH$LINK: INCHIKEY ODKSFYDXXFIFQN-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 60
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 175.22
+PK$SPLASH: splash10-00di-9000000000-fcc58f690d9ba53a6bbc
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  28.0 2362.0 37
+  37.0 2570.0 40
+  43.0 14053.0 221
+  44.0 4009.0 63
+  56.0 2777.0 44
+  60.0 6609.0 104
+  69.0 6899.0 108
+  70.0 63668.0 999
+  72.0 2426.0 38
+  120.0 2580.0 40
+//

@@ -1,0 +1,40 @@
+ACCESSION: PS060507
+RECORD_TITLE: L-beta-homoglutamine-HCl, (S)-3-Aminoadipic acid 6-amide hydrochloride; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Peptech, BL862.
+COMMENT: PRIMe compound in-house ID T0127
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-beta-homoglutamine-HCl
+CH$NAME: (S)-3-Aminoadipic acid 6-amide hydrochloride
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Glutamine
+CH$FORMULA: C6H12N2O3
+CH$EXACT_MASS: 160.173
+CH$SMILES: C(CC(=O)N)C(CC(=O)O)N
+CH$IUPAC: InChI=1S/C6H12N2O3/c7-4(3-6(10)11)1-2-5(8)9/h4H,1-3,7H2,(H2,8,9)(H,10,11)
+CH$LINK: CAS 34218-76-3
+CH$LINK: PUBCHEM CID:2761809
+CH$LINK: INCHIKEY IDNSGZOFDGAHTI-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 160.15
+PK$SPLASH: splash10-03di-0900000000-578e1e22f86fd30fad73
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  99.0 22383.0 114
+  143.0 12549.0 64
+  159.0 17078.0 87
+  160.0 196102.0 999
+//

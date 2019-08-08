@@ -1,0 +1,41 @@
+ACCESSION: PS015907
+RECORD_TITLE: dephospho CoA, 3'-Dephosphocoenzyme A; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, D3385.
+COMMENT: PRIMe compound in-house ID 159
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: dephospho CoA
+CH$NAME: 3'-Dephosphocoenzyme A
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 CoA
+CH$FORMULA: C21H35N7O13P2S
+CH$EXACT_MASS: 687.564
+CH$SMILES: CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C2N=CN=C3N)O)O)C(C(=O)NCCC(=O)NCCS)O
+CH$IUPAC: InChI=1S/C21H35N7O13P2S/c1-21(2,16(32)19(33)24-4-3-12(29)23-5-6-44)8-39-43(36,37)41-42(34,35)38-7-11-14(30)15(31)20(40-11)28-10-27-13-17(22)25-9-26-18(13)28/h9-11,14-16,20,30-32,44H,3-8H2,1-2H3,(H,23,29)(H,24,33)(H,34,35)(H,36,37)(H2,22,25,26)
+CH$LINK: CAS 3633-59-8
+CH$LINK: KEGG C00882
+CH$LINK: PUBCHEM CID:439335
+CH$LINK: INCHIKEY KDTSHFARGAKYJN-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 686.58
+PK$SPLASH: splash10-000i-0000009000-0d4f49acef9de5124265
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  685.0 206890.0 321
+  686.0 642947.0 999
+  687.0 416860.0 648
+  688.0 82794.0 129
+//

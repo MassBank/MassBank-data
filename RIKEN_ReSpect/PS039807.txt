@@ -1,0 +1,42 @@
+ACCESSION: PS039807
+RECORD_TITLE: 3',4',5,7-tetrahydroxyflavanone, Eriodictiol, Eriodictyol, Erid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound EXTRASYNTHESE S.A, 1111 S.
+COMMENT: PRIMe compound in-house ID H0006
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 3',4',5,7-tetrahydroxyflavanone
+CH$NAME: Eriodictiol
+CH$NAME: Eriodictyol
+CH$NAME: Erid
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Flavanone CLASS3 Eriodictyol
+CH$FORMULA: C15H12O6
+CH$EXACT_MASS: 288.255
+CH$SMILES: C1C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC(=C(C=C3)O)O
+CH$IUPAC: InChI=1S/C15H12O6/c16-8-4-11(19)15-12(20)6-13(21-14(15)5-8)7-1-2-9(17)10(18)3-7/h1-5,13,16-19H,6H2
+CH$LINK: CAS 552-58-9
+CH$LINK: KEGG C05631
+CH$LINK: PUBCHEM CID:440735
+CH$LINK: INCHIKEY SBHXYTNGIZCORC-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 287.25
+PK$SPLASH: splash10-000i-0090000000-2b794ccb1be3fc997ee1
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  151.0 29241.0 58
+  286.0 81565.0 161
+  287.0 505941.0 999
+//

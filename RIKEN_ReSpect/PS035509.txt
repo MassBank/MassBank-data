@@ -1,0 +1,47 @@
+ACCESSION: PS035509
+RECORD_TITLE: Dthyd, 5-Methyldeoxyurindine, Thymine-2'-deoxyriboside, 1-(2-Deoxy-beta-D-ribofuranosyl)-5-methyluracil, Thymidine, 5-Methyldeoxyuridine, 2'-Deoxythymidine, 1-(2-Deoxy-beta-D-ribofuranosyl)thymine, dT, dThd; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, T1895.
+COMMENT: PRIMe compound in-house ID 355
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Dthyd
+CH$NAME: 5-Methyldeoxyurindine
+CH$NAME: Thymine-2'-deoxyriboside
+CH$NAME: 1-(2-Deoxy-beta-D-ribofuranosyl)-5-methyluracil
+CH$NAME: Thymidine
+CH$NAME: 5-Methyldeoxyuridine
+CH$NAME: 2'-Deoxythymidine
+CH$NAME: 1-(2-Deoxy-beta-D-ribofuranosyl)thymine
+CH$NAME: dT
+CH$NAME: dThd
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleoside CLASS3 Thymidine
+CH$FORMULA: C10H14N2O5
+CH$EXACT_MASS: 242.231
+CH$SMILES: CC1=CN(C(=O)NC1=O)C2CC(C(O2)CO)O
+CH$IUPAC: InChI=1S/C10H14N2O5/c1-5-3-12(10(16)11-9(5)15)8-2-6(14)7(4-13)17-8/h3,6-8,13-14H,2,4H2,1H3,(H,11,15,16)
+CH$LINK: CAS 50-89-5
+CH$LINK: KEGG C00214
+CH$LINK: PUBCHEM CID:5789
+CH$LINK: INCHIKEY IQFYYKKMVGJFEH-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 241.24
+PK$SPLASH: splash10-0006-9000000000-881ccb454373ef3b451c
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  41.0 41003.0 687
+  42.0 59633.0 999
+//

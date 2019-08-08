@@ -1,0 +1,38 @@
+ACCESSION: PS015301
+RECORD_TITLE: 2-Deoxy-alpha-D-ribose-1-phosphate bis(cyclohexylammonium)salt, d-ribose-1P; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, D6539.
+COMMENT: PRIMe compound in-house ID 153
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 2-Deoxy-alpha-D-ribose-1-phosphate bis(cyclohexylammonium)salt
+CH$NAME: d-ribose-1P
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Suger phosphate CLASS3 Ribose phosphate
+CH$FORMULA: C5H11O7P
+CH$EXACT_MASS: 214.112
+CH$SMILES: C1C(C(OC1OP(=O)(O)O)CO)O
+CH$IUPAC: InChI=1S/C5H11O7P/c6-2-4-3(7)1-5(11-4)12-13(8,9)10/h3-7H,1-2H2,(H2,8,9,10)
+CH$LINK: CAS 17210-42-3
+CH$LINK: KEGG C00672
+CH$LINK: PUBCHEM CID:439287
+CH$LINK: INCHIKEY KBDKAJNTYKVSEK-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 214.12
+PK$SPLASH: splash10-000i-0900000000-674b0510fe11bc2cc972
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  186.0 165303.0 999
+//

@@ -1,0 +1,52 @@
+ACCESSION: PS008906
+RECORD_TITLE: 1-Hexanamine, 1-Aminohexane, Hexylamine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, 219703.
+COMMENT: PRIMe compound in-house ID 89
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 1-Hexanamine
+CH$NAME: 1-Aminohexane
+CH$NAME: Hexylamine
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Hexylamine
+CH$FORMULA: C6H15N
+CH$EXACT_MASS: 101.193
+CH$SMILES: CCCCCCN
+CH$IUPAC: InChI=1S/C6H15N/c1-2-3-4-5-6-7/h2-7H2,1H3
+CH$LINK: CAS 111-26-2
+CH$LINK: KEGG C08306
+CH$LINK: PUBCHEM CID:8102
+CH$LINK: INCHIKEY BMVXCPBXGZKUPN-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID3021930
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 60
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 102.13
+PK$SPLASH: splash10-0006-9200000000-13e03f45aae91abf4850
+PK$NUM_PEAK: 13
+PK$PEAK: m/z int. rel.int.
+  27.0 7256.0 144
+  29.0 2345.0 46
+  38.0 2269.0 45
+  39.0 2079.0 41
+  41.0 13914.0 275
+  42.0 10707.0 212
+  43.0 50471.0 999
+  99.0 2075.0 41
+  100.0 4583.0 91
+  101.0 7978.0 158
+  102.0 4909.0 97
+  103.0 1965.0 39
+  104.0 2028.0 40
+//

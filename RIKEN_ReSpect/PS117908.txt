@@ -1,0 +1,41 @@
+ACCESSION: PS117908
+RECORD_TITLE: 2-O-sinapoylmalate , Sinapoyl malate, Sinapoyl-(S)-malate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Nakabayashi_Chiba_Univ, -.
+COMMENT: PRIMe compound in-house ID R0026
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 2-O-sinapoylmalate
+CH$NAME: Sinapoyl malate
+CH$NAME: Sinapoyl-(S)-malate
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid ester CLASS3 Sinapoyl malate
+CH$FORMULA: C15H16O9
+CH$EXACT_MASS: 340.284
+CH$SMILES: COC1=CC(=CC(=C1O)OC)C=CC(=O)OC(CC(=O)O)C(=O)O
+CH$IUPAC: InChI=1S/C15H16O9/c1-22-9-5-8(6-10(23-2)14(9)19)3-4-13(18)24-11(15(20)21)7-12(16)17/h3-6,11,19H,7H2,1-2H3,(H,16,17)(H,20,21)
+CH$LINK: CAS 92344-58-6
+CH$LINK: KEGG C02887
+CH$LINK: PUBCHEM CID:11953815
+CH$LINK: INCHIKEY DUDGAPSRYCQPBG-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 339.31
+PK$SPLASH: splash10-00di-0090000000-590442b3c8c36311627b
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  115.0 6087.0 33
+  133.0 14288.0 77
+  223.0 186436.0 999
+//

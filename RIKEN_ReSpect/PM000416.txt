@@ -1,0 +1,34 @@
+ACCESSION: PM000416
+RECORD_TITLE: Naringenin-7-O-neohesperidoside; LC-ESI-QQ; MS2
+DATE: 2006.04.20
+AUTHORS: Sanchez-Rabaneda F, et al.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2012 Plant Science Center, RIKEN
+PUBLICATION: Sánchez-Rabaneda, F.; Jáuregui, O.; Casals, I.; Andrés-Lacueva, C.; Izquierdo-Pulido, M.; Lamuela-Raventós, R. M. Liquid Chromatographic/Electrospray Ionization Tandem Mass Spectrometric Study of the Phenolic Composition of Cocoa (Theobroma Cacao). Journal of Mass Spectrometry 2003, 38 (1), 35–42. DOI:10.1002/jms.395
+COMMENT: 726
+CH$NAME: Naringenin-7-O-neohesperidoside
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Chalcone CLASS3 Naringenin glycoside
+CH$FORMULA: C27H32O14
+CH$EXACT_MASS: 580.539
+CH$SMILES: C[C@@H]1O[C@@H](O[C@H]2[C@H](Oc3cc(O)c4c(c3)O[C@H](c3ccc(O)cc3)CC4=O)O[C@H](CO)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O
+CH$IUPAC: InChI=1S/C27H32O14/c1-10-20(32)22(34)24(36)26(37-10)41-25-23(35)21(33)18(9-28)40-27(25)38-13-6-14(30)19-15(31)8-16(39-17(19)7-13)11-2-4-12(29)5-3-11/h2-7,10,16,18,20-30,32-36H,8-9H2,1H3/t10-,16-,18+,20-,21+,22+,23-,24+,25+,26-,27+/m0/s1
+CH$LINK: INCHIKEY DFPMSGMNTNDNHN-ZPHOTFPESA-N
+CH$LINK: PUBCHEM CID:442428
+CH$LINK: COMPTOX DTXSID6022478
+SP$SAMPLE: Theobroma cacao
+AC$INSTRUMENT: Agilent (Waldbronn, Germany) Model 1100; API 3000 triple-quadrupole mass spectrometer (Perkin-Elmer Sciex, Concord, ON, Canada)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY -35
+AC$CHROMATOGRAPHY: SOLVENT H2O/NH3CN/HCOOH
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 579
+PK$SPLASH: splash10-004i-0030190000-c1265a290c4e5be92670
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  271.0 40.0 400
+  459.0 20.0 200
+  579.0 100.0 999
+//

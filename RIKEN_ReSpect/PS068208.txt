@@ -1,0 +1,50 @@
+ACCESSION: PS068208
+RECORD_TITLE: 3-Carboxy-3-hydroxy-4-methylpentanoate, 3-Carboxy-3-hydroxyisocaproate, 2-Hydroxy-2-isopropylsuccinic acid, 3-Hydroxy-4-methyl-3-carboxypentanoate, 2-Isopropylmalic acid , 2-Isopropylmalate, 3-Carboxy-3-hydroxy-isocaproate, 2-Hydroxy-2-isopropylbutanedioate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, 333115.
+COMMENT: PRIMe compound in-house ID S0072
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 3-Carboxy-3-hydroxy-4-methylpentanoate
+CH$NAME: 3-Carboxy-3-hydroxyisocaproate
+CH$NAME: 2-Hydroxy-2-isopropylsuccinic acid
+CH$NAME: 3-Hydroxy-4-methyl-3-carboxypentanoate
+CH$NAME: 2-Isopropylmalic acid
+CH$NAME: 2-Isopropylmalate
+CH$NAME: 3-Carboxy-3-hydroxy-isocaproate
+CH$NAME: 2-Hydroxy-2-isopropylbutanedioate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Propylmalic acid
+CH$FORMULA: C7H12O5
+CH$EXACT_MASS: 176.168
+CH$SMILES: CC(C)C(CC(=O)O)(C(=O)O)O
+CH$IUPAC: InChI=1S/C7H12O5/c1-4(2)7(12,6(10)11)3-5(8)9/h4,12H,3H2,1-2H3,(H,8,9)(H,10,11)
+CH$LINK: CAS 3237-44-3
+CH$LINK: KEGG C02504
+CH$LINK: PUBCHEM CID:5280523
+CH$LINK: INCHIKEY BITYXLXUCSKTJS-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 175.15
+PK$SPLASH: splash10-016r-1900000000-fd7d1111f0f06dc2353f
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  85.0 14241.0 301
+  112.0 1964.0 42
+  113.0 6269.0 133
+  115.0 47238.0 999
+  157.0 2856.0 60
+  174.0 3026.0 64
+  175.0 29638.0 627
+//

@@ -1,0 +1,40 @@
+ACCESSION: PS046802
+RECORD_TITLE: (S)-(+)-2-(anilinomethyl)pyrrolidine, (S)-(+)-N-(2-Pyrrolidinomethyl)aniline, (2S)-Phenylpyrrolidin-2-ylmethylamine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, 374911.
+COMMENT: PRIMe compound in-house ID H0065
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: (S)-(+)-2-(anilinomethyl)pyrrolidine
+CH$NAME: (S)-(+)-N-(2-Pyrrolidinomethyl)aniline
+CH$NAME: (2S)-Phenylpyrrolidin-2-ylmethylamine
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Pyrrolidine
+CH$FORMULA: C11H16N2
+CH$EXACT_MASS: 176.263
+CH$SMILES: C1CC(NC1)CNC2=CC=CC=C2
+CH$IUPAC: InChI=1S/C11H16N2/c1-2-5-10(6-3-1)13-9-11-7-4-8-12-11/h1-3,5-6,11-13H,4,7-9H2
+CH$LINK: CAS 64030-44-0
+CH$LINK: PUBCHEM CID:6950385
+CH$LINK: INCHIKEY MCHWKJRTMPIHRA-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 177.25
+PK$SPLASH: splash10-001i-9000000000-6f23c5ffcf16aa975b9f
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  83.0 141139.0 70
+  84.0 2013421.0 999
+  177.0 140094.0 70
+//

@@ -1,0 +1,42 @@
+ACCESSION: PS053807
+RECORD_TITLE: D-xylo-Hexulose, Sor, D-(+)-Sorbose; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, S4887.
+COMMENT: PRIMe compound in-house ID T0046
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: D-xylo-Hexulose
+CH$NAME: Sor
+CH$NAME: D-(+)-Sorbose
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Sugar CLASS3 Monosaccharide
+CH$FORMULA: C6H12O6
+CH$EXACT_MASS: 180.156
+CH$SMILES: C1C(C(C(C(O1)(CO)O)O)O)O
+CH$IUPAC: InChI=1S/C6H12O6/c7-2-6(11)5(10)4(9)3(8)1-12-6/h3-5,7-11H,1-2H2
+CH$LINK: CAS 3615-56-3
+CH$LINK: KEGG C00764
+CH$LINK: PUBCHEM CID:439304
+CH$LINK: INCHIKEY LKDRXBCSQODPBY-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 179.16
+PK$SPLASH: splash10-000i-9000000000-de2ddcfcfea26997d963
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  71.0 4544.0 52
+  88.0 9030.0 103
+  89.0 87917.0 999
+  179.0 7130.0 81
+//

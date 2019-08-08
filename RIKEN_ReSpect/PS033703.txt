@@ -1,0 +1,45 @@
+ACCESSION: PS033703
+RECORD_TITLE: Methylaminoacetic Acid, Sarcosine, Sar, N-Methylglycocoll, Sarcosinic acid, Methylaminoethanoic acid, N-Methylglycine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, S7672.
+COMMENT: PRIMe compound in-house ID 337
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Methylaminoacetic Acid
+CH$NAME: Sarcosine
+CH$NAME: Sar
+CH$NAME: N-Methylglycocoll
+CH$NAME: Sarcosinic acid
+CH$NAME: Methylaminoethanoic acid
+CH$NAME: N-Methylglycine
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Sarcosine
+CH$FORMULA: C3H7NO2
+CH$EXACT_MASS: 89.094
+CH$SMILES: CNCC(=O)O
+CH$IUPAC: InChI=1S/C3H7NO2/c1-4-2-3(5)6/h4H,2H2,1H3,(H,5,6)
+CH$LINK: CAS 107-97-1
+CH$LINK: KEGG C00213
+CH$LINK: PUBCHEM CID:1088
+CH$LINK: INCHIKEY FSYKKLYZXJSNPZ-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 90.06
+PK$SPLASH: splash10-0006-9000000000-1c3660f1db4921037833
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  43.0 18059.0 159
+  44.0 113649.0 999
+  89.0 4291.0 38
+//

@@ -1,0 +1,49 @@
+ACCESSION: PS007602
+RECORD_TITLE: Nicotinic Acid, 3-Picolinic acid, Pellagra preventive factor, Nicotinate, Niacin, Pyridine-3-carbonic acid, Vitamin B3; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound WAKO, 142-01232.
+COMMENT: PRIMe compound in-house ID 76
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Nicotinic Acid
+CH$NAME: 3-Picolinic acid
+CH$NAME: Pellagra preventive factor
+CH$NAME: Nicotinate
+CH$NAME: Niacin
+CH$NAME: Pyridine-3-carbonic acid
+CH$NAME: Vitamin B3
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: C6H5NO2
+CH$EXACT_MASS: 123.111
+CH$SMILES: C1=CC(=CN=C1)C(=O)O
+CH$IUPAC: InChI=1S/C6H5NO2/c8-6(9)5-2-1-3-7-4-5/h1-4H,(H,8,9)
+CH$LINK: CAS 59-67-6
+CH$LINK: KEGG C00253
+CH$LINK: PUBCHEM CID:938
+CH$LINK: INCHIKEY PVNIIMVLHYAWGP-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID1020932
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 124.08
+PK$SPLASH: splash10-00di-0900000000-2176be1df368b1aba729
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  78.0 22793.0 57
+  80.0 35780.0 90
+  106.0 14046.0 35
+  122.0 22283.0 56
+  123.0 147204.0 369
+  124.0 398705.0 999
+//

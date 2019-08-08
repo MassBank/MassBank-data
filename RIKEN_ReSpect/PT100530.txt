@@ -1,0 +1,38 @@
+ACCESSION: PT100530
+RECORD_TITLE: L-Methionine, L-Met, L-Lobamine, (S)-2-Amino-4-(methylmercapto)butyric acid, L-2-Amino-4-methylmercaptobutyric Acid, L-a-Amino-g-methylthiobutyric acid, (2S)-2-amino-4-methylsulfanylbutanoic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.24
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: L-Methionine
+CH$NAME: L-Met
+CH$NAME: L-Lobamine
+CH$NAME: (S)-2-Amino-4-(methylmercapto)butyric acid
+CH$NAME: L-2-Amino-4-methylmercaptobutyric Acid
+CH$NAME: L-a-Amino-g-methylthiobutyric acid
+CH$NAME: (2S)-2-amino-4-methylsulfanylbutanoic acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Methionine
+CH$FORMULA: C5H11NO2S
+CH$EXACT_MASS: 149.213
+CH$SMILES: CSCCC(C(=O)O)N
+CH$IUPAC: InChI=1S/C5H11NO2S/c1-9-3-2-4(6)5(7)8/h4H,2-3,6H2,1H3,(H,7,8)
+CH$LINK: CAS 63-68-3
+CH$LINK: INCHIKEY FFEARJCKVFRZRR-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 150.05885
+PK$SPLASH: splash10-0udi-0900000000-e0dd5ff44b7962f6a2d2
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  104.0509 55.27 61
+  150.0545 903.0 999
+//

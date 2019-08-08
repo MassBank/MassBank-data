@@ -1,0 +1,54 @@
+ACCESSION: PS095201
+RECORD_TITLE: DHB, Gensigen, 5-Hydroxysalicylic acid, Gentisic acid, Gentalpin, Gentidol, 2,5-Dihydroxybenzoate, 2,5-Dioxybenzoic acid, Gentisate, 2,5-dihydroxy benzoic acid, Gentinatre, Gentasol, 2,5-DHBA, Gentisan, Hydroquinonecarboxylic acid, Gentisod; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, 149357.
+COMMENT: PRIMe compound in-house ID N0010
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: DHB
+CH$NAME: Gensigen
+CH$NAME: 5-Hydroxysalicylic acid
+CH$NAME: Gentisic acid
+CH$NAME: Gentalpin
+CH$NAME: Gentidol
+CH$NAME: 2,5-Dihydroxybenzoate
+CH$NAME: 2,5-Dioxybenzoic acid
+CH$NAME: Gentisate
+CH$NAME: 2,5-dihydroxy benzoic acid
+CH$NAME: Gentinatre
+CH$NAME: Gentasol
+CH$NAME: 2,5-DHBA
+CH$NAME: Gentisan
+CH$NAME: Hydroquinonecarboxylic acid
+CH$NAME: Gentisod
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Benzoic acid CLASS3 Gentisic acid
+CH$FORMULA: C7H6O4
+CH$EXACT_MASS: 154.121
+CH$SMILES: C1=CC(=C(C=C1O)C(=O)O)O
+CH$IUPAC: InChI=1S/C7H6O4/c8-4-1-2-6(9)5(3-4)7(10)11/h1-3,8-9H,(H,10,11)
+CH$LINK: CAS 490-79-9
+CH$LINK: KEGG C00628
+CH$LINK: PUBCHEM CID:3469
+CH$LINK: INCHIKEY WXTMDXOMEHJXQO-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 155.04
+PK$SPLASH: splash10-03di-0900000000-c7e33588f6d0e14b3ec4
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  113.0 23248.0 295
+  114.0 78607.0 999
+  137.0 3484.0 44
+//

@@ -1,0 +1,42 @@
+ACCESSION: PS048007
+RECORD_TITLE: dGMP, Deoxy-GMP, 5'-Deoxyguanylic acid, 2'-deoxyguanosine 5'-monophosphate sodium salt hydrate, vernine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, D9500.
+COMMENT: PRIMe compound in-house ID H0077
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: dGMP
+CH$NAME: Deoxy-GMP
+CH$NAME: 5'-Deoxyguanylic acid
+CH$NAME: 2'-deoxyguanosine 5'-monophosphate sodium salt hydrate
+CH$NAME: vernine
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleoside CLASS3 Guanosine phosphate
+CH$FORMULA: C10H14N5O7P
+CH$EXACT_MASS: 347.226
+CH$SMILES: C1C(C(OC1N2C=NC3=C2NC(=NC3=O)N)COP(=O)(O)O)O
+CH$IUPAC: InChI=1S/C10H14N5O7P/c11-10-13-8-7(9(17)14-10)12-3-15(8)6-1-4(16)5(22-6)2-21-23(18,19)20/h3-6,16H,1-2H2,(H2,18,19,20)(H3,11,13,14,17)
+CH$LINK: CAS 902-04-5
+CH$LINK: KEGG C00362
+CH$LINK: PUBCHEM CID:65059
+CH$LINK: INCHIKEY LTFMZDNNPPEQNG-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 346.29
+PK$SPLASH: splash10-0002-0009000000-b3e6f33f0506fc1089c6
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  345.0 20524.0 111
+  346.0 184229.0 999
+//

@@ -1,0 +1,44 @@
+ACCESSION: PS006007
+RECORD_TITLE: Fru(beta2-1alpha)Glc, alpha-D-Glucopyranosyl beta-D-fructofuranoside, Suc, Microse , Cane sugar, Sucrose, D-(+)-Saccharose; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound WAKO, 196-00015.
+COMMENT: PRIMe compound in-house ID 60
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Fru(beta2-1alpha)Glc
+CH$NAME: alpha-D-Glucopyranosyl beta-D-fructofuranoside
+CH$NAME: Suc
+CH$NAME: Microse
+CH$NAME: Cane sugar
+CH$NAME: Sucrose
+CH$NAME: D-(+)-Saccharose
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Sugar CLASS3 Disaccharide
+CH$FORMULA: C12H22O11
+CH$EXACT_MASS: 342.297
+CH$SMILES: C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O
+CH$IUPAC: InChI=1S/C12H22O11/c13-1-4-6(16)8(18)9(19)11(21-4)23-12(3-15)10(20)7(17)5(2-14)22-12/h4-11,13-20H,1-3H2
+CH$LINK: CAS 57-50-1
+CH$LINK: KEGG C00089
+CH$LINK: PUBCHEM CID:5988
+CH$LINK: INCHIKEY CZMRCDWAGMRECN-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 341.33
+PK$SPLASH: splash10-0006-0009000000-b97890f5cd7f04743ba0
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  340.0 53728.0 143
+  341.0 374691.0 999
+//

@@ -1,0 +1,44 @@
+ACCESSION: PS013802
+RECORD_TITLE: 1-Methyl-4-(beta-aminoethyl)imidazole dihydrochloride, 1-Methylhistamine dihydrochloride; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, M4910.
+COMMENT: PRIMe compound in-house ID 138
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 1-Methyl-4-(beta-aminoethyl)imidazole dihydrochloride
+CH$NAME: 1-Methylhistamine dihydrochloride
+CH$COMPOUND_CLASS: CLASS1 Alkaloid CLASS2 Imidazole CLASS3 Histamine
+CH$FORMULA: C6H11N3
+CH$EXACT_MASS: 125.175
+CH$SMILES: CN1C=C(N=C1)CCN
+CH$IUPAC: InChI=1S/C6H11N3/c1-9-4-6(2-3-7)8-5-9/h4-5H,2-3,7H2,1H3
+CH$LINK: CAS 501-75-7
+CH$LINK: KEGG C05127
+CH$LINK: PUBCHEM CID:3614
+CH$LINK: INCHIKEY FHQDWPCFSJMNCT-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID30198207
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 126.13
+PK$SPLASH: splash10-0a4i-0900000000-8233edd4e8888df21751
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  68.0 14537.0 62
+  97.0 8923.0 38
+  108.0 63220.0 268
+  109.0 235427.0 999
+  125.0 28337.0 120
+  126.0 48714.0 207
+//

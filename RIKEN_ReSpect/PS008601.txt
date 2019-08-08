@@ -1,0 +1,48 @@
+ACCESSION: PS008601
+RECORD_TITLE: Butyric acid, butyrate, 1-Propanecarboxylic acid, Tetranoic Acid, Ethylacetic acid, n-Propylformic Acid, 1-Butyric acid, n-Butanic Acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, B103500.
+COMMENT: PRIMe compound in-house ID 86
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Butyric acid
+CH$NAME: butyrate
+CH$NAME: 1-Propanecarboxylic acid
+CH$NAME: Tetranoic Acid
+CH$NAME: Ethylacetic acid
+CH$NAME: n-Propylformic Acid
+CH$NAME: 1-Butyric acid
+CH$NAME: n-Butanic Acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Tetranoic acid
+CH$FORMULA: C4H8O2
+CH$EXACT_MASS: 88.106
+CH$SMILES: CCCC(=O)O
+CH$IUPAC: InChI=1S/C4H8O2/c1-2-3-4(5)6/h2-3H2,1H3,(H,5,6)
+CH$LINK: CAS 107-92-6
+CH$LINK: KEGG C00246
+CH$LINK: PUBCHEM CID:264
+CH$LINK: INCHIKEY FERIUCNNQQJTOY-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID8021515
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 88.07
+PK$SPLASH: splash10-01p9-9000000000-6bf516cb79c1e8f6bc3c
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  59.0 27730.0 172
+  60.0 103022.0 639
+  87.0 26438.0 164
+  88.0 161183.0 999
+//

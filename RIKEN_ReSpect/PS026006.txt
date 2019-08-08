@@ -1,0 +1,46 @@
+ACCESSION: PS026006
+RECORD_TITLE: Isobutyryl coenzyme A (C4:0) lithium salt, Isobutyryl-CoA, 2-Methylpropanoyl-CoA; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, I0383.
+COMMENT: PRIMe compound in-house ID 260
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Isobutyryl coenzyme A (C4:0) lithium salt
+CH$NAME: Isobutyryl-CoA
+CH$NAME: 2-Methylpropanoyl-CoA
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 CoA
+CH$FORMULA: C25H42N7O17P3S
+CH$EXACT_MASS: 837.636
+CH$SMILES: CC(C)C(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C2N=CN=C3N)O)OP(=O)(O)O)O
+CH$IUPAC: InChI=1S/C25H42N7O17P3S/c1-13(2)24(37)53-8-7-27-15(33)5-6-28-22(36)19(35)25(3,4)10-46-52(43,44)49-51(41,42)45-9-14-18(48-50(38,39)40)17(34)23(47-14)32-12-31-16-20(26)29-11-30-21(16)32/h11-14,17-19,23,34-35H,5-10H2,1-4H3,(H,27,33)(H,28,36)(H,41,42)(H,43,44)(H2,26,29,30)(H2,38,39,40)
+CH$LINK: CAS 15621-60-0
+CH$LINK: KEGG C00630
+CH$LINK: PUBCHEM CID:439277
+CH$LINK: INCHIKEY AEWHYWSPVRZHCT-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 60
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 838.64
+PK$SPLASH: splash10-001i-0109000000-33a993287b035658e376
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  135.0 7188.0 82
+  136.0 8205.0 93
+  159.0 12268.0 139
+  229.0 11889.0 135
+  330.0 22870.0 260
+  331.0 87900.0 999
+  332.0 13821.0 157
+  429.0 3684.0 42
+//

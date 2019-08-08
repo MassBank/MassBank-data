@@ -1,0 +1,41 @@
+ACCESSION: PS057409
+RECORD_TITLE: (1R,2R)-3-Oxo-2-(2Z)-2-pentenylcyclopentanacetic Acid, (+-)-Jasmonic acid, JA, Jasmonate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound TCI, J0004.
+COMMENT: PRIMe compound in-house ID T0082
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: (1R,2R)-3-Oxo-2-(2Z)-2-pentenylcyclopentanacetic Acid
+CH$NAME: (+-)-Jasmonic acid
+CH$NAME: JA
+CH$NAME: Jasmonate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Jasmonic acid
+CH$FORMULA: C12H18O3
+CH$EXACT_MASS: 210.273
+CH$SMILES: CCC=CCC1C(CCC1=O)CC(=O)O
+CH$IUPAC: InChI=1S/C12H18O3/c1-2-3-4-5-10-9(8-12(14)15)6-7-11(10)13/h3-4,9-10H,2,5-8H2,1H3,(H,14,15)
+CH$LINK: CAS 6894-38-8
+CH$LINK: KEGG C08491
+CH$LINK: PUBCHEM CID:5281166
+CH$LINK: INCHIKEY ZNJFBWYDHIGLCU-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 209.25
+PK$SPLASH: splash10-0a4i-9000000000-dc5dd73bc5c9b74ebc3c
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  58.0 18223.0 140
+  59.0 130114.0 999
+//

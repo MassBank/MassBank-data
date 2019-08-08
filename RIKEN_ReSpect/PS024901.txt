@@ -1,0 +1,40 @@
+ACCESSION: PS024901
+RECORD_TITLE: Caproic acid, Carboxylic Acid C6, Pentane-1-carboxylic Acid, Hexanoic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, C2250(H12137).
+COMMENT: PRIMe compound in-house ID 249
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Caproic acid
+CH$NAME: Carboxylic Acid C6
+CH$NAME: Pentane-1-carboxylic Acid
+CH$NAME: Hexanoic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Hexanoic acid
+CH$FORMULA: C6H12O2
+CH$EXACT_MASS: 116.16
+CH$SMILES: CCCCCC(=O)O
+CH$IUPAC: InChI=1S/C6H12O2/c1-2-3-4-5-6(7)8/h2-5H2,1H3,(H,7,8)
+CH$LINK: CAS 142-62-1
+CH$LINK: KEGG C01585
+CH$LINK: PUBCHEM CID:8892
+CH$LINK: INCHIKEY FUZZWVXGSFPDMH-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 115.92
+PK$SPLASH: splash10-014i-0900000000-5e5ee374be357b4e26a4
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  116.0 105480.0 999
+//

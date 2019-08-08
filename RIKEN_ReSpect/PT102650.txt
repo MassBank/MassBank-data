@@ -1,0 +1,43 @@
+ACCESSION: PT102650
+RECORD_TITLE: L-Arginine monohydrochloride, Argamine, 2-Amino-5-guanidinovaleric Acid, Levargin, (2S)-2-amino-5-(diaminomethylideneamino)pentanoic acid, Argivene, Detoxargin, Arg, (S)-2-Amino-5-guanidinopentanoic Acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: L-Arginine monohydrochloride
+CH$NAME: Argamine
+CH$NAME: 2-Amino-5-guanidinovaleric Acid
+CH$NAME: Levargin
+CH$NAME: (2S)-2-amino-5-(diaminomethylideneamino)pentanoic acid
+CH$NAME: Argivene
+CH$NAME: Detoxargin
+CH$NAME: Arg
+CH$NAME: (S)-2-Amino-5-guanidinopentanoic Acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Arginine
+CH$FORMULA: C6H14N4O2
+CH$EXACT_MASS: 174.204
+CH$SMILES: C(CC(C(=O)O)N)CN=C(N)N
+CH$IUPAC: InChI=1S/C6H14N4O2/c7-4(5(11)12)2-1-3-10-6(8)9/h4H,1-3,7H2,(H,11,12)(H4,8,9,10)
+CH$LINK: CAS 74-79-3
+CH$LINK: INCHIKEY ODKSFYDXXFIFQN-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 175.11947
+PK$SPLASH: splash10-00fr-7900000000-b7cd48e0aca6a6256968
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  70.066 965.2 999
+  116.0717 342.1 354
+  130.0993 157.3 163
+  158.0939 121.9 126
+  175.1195 590.5 611
+//

@@ -1,0 +1,46 @@
+ACCESSION: PS058408
+RECORD_TITLE: Abscisic acid, Abscisate, (S)-5-(1-Hydroxy-2,6,6-trimethyl-4-oxo-2-cyclohexen-1-yl)-3-methyl-(2Z,4E)-pentadienoic acid, ABA, Dormin; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound TCI, A0792.
+COMMENT: PRIMe compound in-house ID T0092
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Abscisic acid
+CH$NAME: Abscisate
+CH$NAME: (S)-5-(1-Hydroxy-2,6,6-trimethyl-4-oxo-2-cyclohexen-1-yl)-3-methyl-(2Z,4E)-pentadienoic acid
+CH$NAME: ABA
+CH$NAME: Dormin
+CH$COMPOUND_CLASS: CLASS1 Terpenoid CLASS2 Sesquiterpenoid CLASS3 Abscisic acid
+CH$FORMULA: C15H20O4
+CH$EXACT_MASS: 264.321
+CH$SMILES: CC1=CC(=O)CC(C1(C=CC(=CC(=O)O)C)O)(C)C
+CH$IUPAC: InChI=1S/C15H20O4/c1-10(7-13(17)18)5-6-15(19)11(2)8-12(16)9-14(15,3)4/h5-8,19H,9H2,1-4H3,(H,17,18)
+CH$LINK: CAS 21293-29-8
+CH$LINK: KEGG C06082
+CH$LINK: PUBCHEM CID:5280896
+CH$LINK: INCHIKEY JLIDBLDQVAYHNE-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 263.32
+PK$SPLASH: splash10-0udi-0920000000-1a72c9e80d8df9697176
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  152.0 32445.0 302
+  153.0 107439.0 999
+  163.0 3349.0 31
+  204.0 5918.0 55
+  219.0 27853.0 259
+  263.0 8863.0 82
+//

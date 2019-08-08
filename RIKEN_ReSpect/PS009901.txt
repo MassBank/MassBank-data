@@ -1,0 +1,43 @@
+ACCESSION: PS009901
+RECORD_TITLE: 4-(Aminomethyl)-5-hydroxy-6-methyl-3-pyridinemethanol dihydrochloride, Pyridoxylamine dihydrochloride, Pyridoxamine dihydrochloride  ; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich(SIGMA), 287091(P9380).
+COMMENT: PRIMe compound in-house ID 99
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 4-(Aminomethyl)-5-hydroxy-6-methyl-3-pyridinemethanol dihydrochloride
+CH$NAME: Pyridoxylamine dihydrochloride
+CH$NAME: Pyridoxamine dihydrochloride
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Pyridoxamine
+CH$FORMULA: C8H12N2O2
+CH$EXACT_MASS: 168.196
+CH$SMILES: CC1=NC=C(C(=C1O)CN)CO
+CH$IUPAC: InChI=1S/C8H12N2O2/c1-5-8(12)7(2-9)6(4-11)3-10-5/h3,11-12H,2,4,9H2,1H3
+CH$LINK: CAS 85-87-0
+CH$LINK: KEGG C00534
+CH$LINK: PUBCHEM CID:1052
+CH$LINK: INCHIKEY NHZMQXZHNVQTQA-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID6046929
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 169.19
+PK$SPLASH: splash10-014i-0900000000-a1c53e6d51cef942a23c
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  151.0 21283.0 36
+  152.0 112169.0 190
+  168.0 82919.0 140
+  169.0 590681.0 999
+//

@@ -1,0 +1,41 @@
+ACCESSION: PS126008
+RECORD_TITLE: O-beta-D-Fructofuranosyl-(2-1)-beta-D-fructofuranosyl-alpha-D-glucopyranoside, 1-Kestose, 1F-beta-D-Fructosylsucrose; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 116-00431 .
+COMMENT: PRIMe compound in-house ID V0134
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: O-beta-D-Fructofuranosyl-(2-1)-beta-D-fructofuranosyl-alpha-D-glucopyranoside
+CH$NAME: 1-Kestose
+CH$NAME: 1F-beta-D-Fructosylsucrose
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Sugar CLASS3 Oligosaccharide
+CH$FORMULA: C18H32O16
+CH$EXACT_MASS: 504.438
+CH$SMILES: C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)COC3(C(C(C(O3)CO)O)O)CO)O)O)O)O
+CH$IUPAC: InChI=1S/C18H32O16/c19-1-6-9(23)12(26)13(27)16(31-6)34-18(15(29)11(25)8(3-21)33-18)5-30-17(4-22)14(28)10(24)7(2-20)32-17/h6-16,19-29H,1-5H2
+CH$LINK: CAS 470-69-9
+CH$LINK: KEGG C03661
+CH$LINK: PUBCHEM CID:440080
+CH$LINK: INCHIKEY VAWYEUIPHLMNNF-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 503.51
+PK$SPLASH: splash10-0udi-0000090000-0893e2dbfc759de6660c
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  502.0 59398.0 362
+  503.0 164005.0 999
+  504.0 73605.0 448
+//

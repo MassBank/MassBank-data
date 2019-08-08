@@ -1,0 +1,43 @@
+ACCESSION: PS081501
+RECORD_TITLE: 1-Myristoyl-2-Hydroxy-sn-Glycero-3-Phosphoethanolamine, Phosphoethanolamine,1-Myristoyl-2-Hydroxy-sn-Glycero-3-, 1-tetradecanoyl-sn-glycero-3-phosphoethanolamine, 14:0 LysoPE; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Avanti, 856735P.
+COMMENT: PRIMe compound in-house ID S0252
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 1-Myristoyl-2-Hydroxy-sn-Glycero-3-Phosphoethanolamine
+CH$NAME: Phosphoethanolamine,1-Myristoyl-2-Hydroxy-sn-Glycero-3-
+CH$NAME: 1-tetradecanoyl-sn-glycero-3-phosphoethanolamine
+CH$NAME: 14:0 LysoPE
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Phospholipid CLASS3 Phosphoethanolamine
+CH$FORMULA: C19H40NO7P
+CH$EXACT_MASS: 425.505
+CH$SMILES: CCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OCCN)O
+CH$IUPAC: InChI=1S/C19H40NO7P/c1-2-3-4-5-6-7-8-9-10-11-12-13-19(22)25-16-18(21)17-27-28(23,24)26-15-14-20/h18,21H,2-17,20H2,1H3,(H,23,24)
+CH$LINK: CAS 123060-40-2
+CH$LINK: PUBCHEM CID:9547070
+CH$LINK: INCHIKEY RPXHXZNGZBHSMJ-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 426.52
+PK$SPLASH: splash10-004i-0000900000-009541d8522d96402d23
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  285.0 38839.0 86
+  408.0 21103.0 47
+  425.0 21012.0 47
+  426.0 450667.0 999
+  427.0 208920.0 463
+//

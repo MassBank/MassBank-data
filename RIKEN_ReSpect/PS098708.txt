@@ -1,0 +1,48 @@
+ACCESSION: PS098708
+RECORD_TITLE: alpha-Hydroxyhydrocinnamic acid, DL-3-Phenyllactic acid  , beta-Phenyllactic acid, 2-Hydroxy-3-phenylpropanoic Acid, 2-Hydroxy-3-phenylpropionic acid, 3-Phenyllactate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, P7251.
+COMMENT: PRIMe compound in-house ID N0045
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: alpha-Hydroxyhydrocinnamic acid
+CH$NAME: DL-3-Phenyllactic acid
+CH$NAME: beta-Phenyllactic acid
+CH$NAME: 2-Hydroxy-3-phenylpropanoic Acid
+CH$NAME: 2-Hydroxy-3-phenylpropionic acid
+CH$NAME: 3-Phenyllactate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Lactic acid
+CH$FORMULA: C9H10O3
+CH$EXACT_MASS: 166.176
+CH$SMILES: C1=CC=C(C=C1)CC(C(=O)O)O
+CH$IUPAC: InChI=1S/C9H10O3/c10-8(9(11)12)6-7-4-2-1-3-5-7/h1-5,8,10H,6H2,(H,11,12)
+CH$LINK: CAS 828-01-3
+CH$LINK: KEGG C05607
+CH$LINK: PUBCHEM CID:643327
+CH$LINK: INCHIKEY VOXXWSYKYCBWHO-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 165.13
+PK$SPLASH: splash10-00kb-0900000000-45cee70679c64790424d
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  103.0 25014.0 514
+  118.0 2645.0 54
+  119.0 11403.0 234
+  146.0 7482.0 154
+  147.0 48656.0 999
+  164.0 1590.0 33
+  165.0 19676.0 404
+//

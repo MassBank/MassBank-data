@@ -1,0 +1,44 @@
+ACCESSION: PS042009
+RECORD_TITLE: isorhamnetin-3-O-rutinoside, Narcissoside, Narcissin, Isorhamnetin-3-rhamnoglucoside , Isor-3-Glc-6pp-Rha; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound EXTRASYNTHESE S.A, 1229(1333 S).
+COMMENT: PRIMe compound in-house ID H0028
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: isorhamnetin-3-O-rutinoside
+CH$NAME: Narcissoside
+CH$NAME: Narcissin
+CH$NAME: Isorhamnetin-3-rhamnoglucoside
+CH$NAME: Isor-3-Glc-6pp-Rha
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Flavonol CLASS3 Isorhamnetin glycoside
+CH$FORMULA: C28H32O16
+CH$EXACT_MASS: 624.548
+CH$SMILES: CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC(=C(C=C5)O)OC)O)O)O)O)O)O
+CH$IUPAC: InChI=1S/C28H32O16/c1-9-18(32)21(35)23(37)27(41-9)40-8-16-19(33)22(36)24(38)28(43-16)44-26-20(34)17-13(31)6-11(29)7-15(17)42-25(26)10-3-4-12(30)14(5-10)39-2/h3-7,9,16,18-19,21-24,27-33,35-38H,8H2,1-2H3
+CH$LINK: CAS 604-80-8
+CH$LINK: PUBCHEM CID:5481663
+CH$LINK: INCHIKEY UIDGLYUNOUKLBM-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 623.59
+PK$SPLASH: splash10-00di-0000009000-4eebffcfe0425009d7da
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  315.0 26232.0 100
+  622.0 65092.0 248
+  623.0 261848.0 999
+  624.0 184622.0 704
+  625.0 28741.0 110
+//

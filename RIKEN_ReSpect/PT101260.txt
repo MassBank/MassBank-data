@@ -1,0 +1,44 @@
+ACCESSION: PT101260
+RECORD_TITLE: Histamine, beta-Aminoethylglyoxaline, 2-Imidazol-4-ylethylamine, Ergamine, beta.-Imidazolyl-4-ethylamine, 2-(3H-imidazol-4-yl)ethanamine, 1H-Imidazole-4-ethanamine, Eramin, Ergotidine, Theramine, Eramine, 2-(4-Imidazolyl)ethylamine; LC-ESI-QTOF; MS2
+DATE: 2008.07.24
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Histamine
+CH$NAME: beta-Aminoethylglyoxaline
+CH$NAME: 2-Imidazol-4-ylethylamine
+CH$NAME: Ergamine
+CH$NAME: beta.-Imidazolyl-4-ethylamine
+CH$NAME: 2-(3H-imidazol-4-yl)ethanamine
+CH$NAME: 1H-Imidazole-4-ethanamine
+CH$NAME: Eramin
+CH$NAME: Ergotidine
+CH$NAME: Theramine
+CH$NAME: Eramine
+CH$NAME: 2-(4-Imidazolyl)ethylamine
+CH$COMPOUND_CLASS: CLASS1 Alkaloid CLASS2 Imidazole CLASS3 Histamine
+CH$FORMULA: C5H9N3
+CH$EXACT_MASS: 111.148
+CH$SMILES: C1=C(NC=N1)CCN
+CH$IUPAC: InChI=1S/C5H9N3/c6-2-1-5-3-7-4-8-5/h3-4H,1-2,6H2,(H,7,8)
+CH$LINK: CAS 51-45-6
+CH$LINK: INCHIKEY NTYJJOPFIAHURM-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 112.08744
+PK$SPLASH: splash10-03di-0900000000-046407320168835599f0
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  95.0597 12.64 43
+  112.0269 10.53 36
+  112.0874 296.3 999
+//

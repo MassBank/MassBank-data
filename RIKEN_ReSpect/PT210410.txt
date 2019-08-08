@@ -1,0 +1,42 @@
+ACCESSION: PT210410
+RECORD_TITLE: 4-Pyridoxylic acid, 2-Methyl-3-hydroxy-4-carboxy-5-hydroxymethylpyridine, 3-hydroxy-5-(hydroxymethyl)-2-methylpyridine-4-carboxylic acid, 4-Pyridoxinsaeure, 4-PA, 4-Pyridoxic acid, 4-Pyridoxinic acid, 3-Hydroxy-5-(hydroxymethyl)-2-methylisonicotinic acid , 4-Pyridoxate, 3-Hydroxy-5-(hydroxymethyl)-2-methyl-4-pyridinecarboxylic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.29
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 4-Pyridoxylic acid
+CH$NAME: 2-Methyl-3-hydroxy-4-carboxy-5-hydroxymethylpyridine
+CH$NAME: 3-hydroxy-5-(hydroxymethyl)-2-methylpyridine-4-carboxylic acid
+CH$NAME: 4-Pyridoxinsaeure
+CH$NAME: 4-PA
+CH$NAME: 4-Pyridoxic acid
+CH$NAME: 4-Pyridoxinic acid
+CH$NAME: 3-Hydroxy-5-(hydroxymethyl)-2-methylisonicotinic acid
+CH$NAME: 4-Pyridoxate
+CH$NAME: 3-Hydroxy-5-(hydroxymethyl)-2-methyl-4-pyridinecarboxylic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: C8H9NO4
+CH$EXACT_MASS: 183.163
+CH$SMILES: CC1=NC=C(C(=C1O)C(=O)O)CO
+CH$IUPAC: InChI=1S/C8H9NO4/c1-4-7(11)6(8(12)13)5(3-10)2-9-4/h2,10-11H,3H2,1H3,(H,12,13)
+CH$LINK: CAS 82-82-6
+CH$LINK: INCHIKEY HXACOUQIXZGNBF-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 182.04536
+PK$SPLASH: splash10-052r-0900000000-725f61f22b0bc1a28b93
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  108.0458 1205.0 725
+  138.0558 1661.0 999
+  182.0454 808.5 486
+//

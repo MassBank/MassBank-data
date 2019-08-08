@@ -5,15 +5,19 @@ AUTHORS: Tsujimoto Y, Tsugawa H, Bamba T, Fukusaki E, engineering department, Os
 LICENSE: CC BY-SA
 COMMENT: The chemical compound was chemically modified with N-methyl-N-trimethylsilyl-trifluoroacetamide (MSTFA) before GC-MS analysis. When it has two or more functional groups, this modification gave a mixture of the TMS derivatives having different number of TMS groups at different functional groups.
 CH$NAME: Ribitol
+CH$NAME: Adonitol
 CH$COMPOUND_CLASS: Natural Product
 CH$FORMULA: C5H12O5
 CH$EXACT_MASS: 152.06847
-CH$SMILES: OCC([H])(O)C([H])(O)C([H])(O)CO
+CH$SMILES: OC([C@H]([C@H]([C@H](CO)O)O)O)
 CH$IUPAC: InChI=1S/C5H12O5/c6-1-3(8)5(10)4(9)2-7/h3-10H,1-2H2/t3-,4+,5-
 CH$LINK: CAS 488-81-3
 CH$LINK: CHEBI 15963
 CH$LINK: CHEMSPIDER 10254628
 CH$LINK: INCHIKEY HEBKCHPVOIAQTA-ZXFHETKHSA-N
+CH$LINK: KEGG C00474
+CH$LINK: KNAPSACK C00001171
+CH$LINK: NIKKAJI J6.033J
 AC$INSTRUMENT: Pegasus III TOF-MS system, Leco; GC 6890, Agilent Technologies
 AC$INSTRUMENT_TYPE: GC-EI-TOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS

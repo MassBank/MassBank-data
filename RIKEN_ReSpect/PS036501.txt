@@ -1,0 +1,43 @@
+ACCESSION: PS036501
+RECORD_TITLE: araU, Uridine, Uracilriboside, 1-beta-D-Ribofuranosyluracil, Uracil-1-beta-D-ribofuranoside; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, U3750.
+COMMENT: PRIMe compound in-house ID 365
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: araU
+CH$NAME: Uridine
+CH$NAME: Uracilriboside
+CH$NAME: 1-beta-D-Ribofuranosyluracil
+CH$NAME: Uracil-1-beta-D-ribofuranoside
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleoside CLASS3 Uridine
+CH$FORMULA: C9H12N2O6
+CH$EXACT_MASS: 244.203
+CH$SMILES: C1=CN(C(=O)NC1=O)C2C(C(C(O2)CO)O)O
+CH$IUPAC: InChI=1S/C9H12N2O6/c12-3-4-6(14)7(15)8(17-4)11-2-1-5(13)10-9(11)16/h1-2,4,6-8,12,14-15H,3H2,(H,10,13,16)
+CH$LINK: CAS 58-96-8
+CH$LINK: KEGG C00299
+CH$LINK: PUBCHEM CID:6029
+CH$LINK: INCHIKEY DRTQHJPVMGBUCF-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 245.27
+PK$SPLASH: splash10-03di-0900000000-bdb01c26026f25a9485c
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  112.0 23469.0 58
+  113.0 406182.0 999
+  245.0 28410.0 70
+//

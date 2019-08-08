@@ -1,0 +1,39 @@
+ACCESSION: PS094307
+RECORD_TITLE: alpha-Me-His, alpha-Methyl-DL-histidine dihydrochloride, N-alpha-Methylhistidine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, M8628.
+COMMENT: PRIMe compound in-house ID N0001
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: alpha-Me-His
+CH$NAME: alpha-Methyl-DL-histidine dihydrochloride
+CH$NAME: N-alpha-Methylhistidine
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Histidine
+CH$FORMULA: C7H11N3O2
+CH$EXACT_MASS: 169.184
+CH$SMILES: CC(CC1=CN=CN1)(C(=O)O)N
+CH$IUPAC: InChI=1S/C7H11N3O2/c1-7(8,6(11)12)2-5-3-9-4-10-5/h3-4H,2,8H2,1H3,(H,9,10)(H,11,12)
+CH$LINK: CAS 587-20-2
+CH$LINK: PUBCHEM CID:4396761
+CH$LINK: INCHIKEY HRRYYCWYCMJNGA-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 168.15
+PK$SPLASH: splash10-014i-0900000000-6d167d4399d517264166
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  167.0 6668.0 48
+  168.0 138155.0 999
+//

@@ -1,0 +1,48 @@
+ACCESSION: PS062002
+RECORD_TITLE: Pidopidon, Pyridoxal-5P, PLP, Codecarboxylase, 3-Hydroxy-2-methyl-5-((phosphonooxy)methyl)-4-pyridinecarboxaldehyde, Hairoxal, Pyridoxal 5-phosphate, Pyromijin, Pyridoxal-5'-phosphate monohydrate ; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako/Alexis, 575-31811/460-011-G005.
+COMMENT: PRIMe compound in-house ID S0002
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Pidopidon
+CH$NAME: Pyridoxal-5P
+CH$NAME: PLP
+CH$NAME: Codecarboxylase
+CH$NAME: 3-Hydroxy-2-methyl-5-((phosphonooxy)methyl)-4-pyridinecarboxaldehyde
+CH$NAME: Hairoxal
+CH$NAME: Pyridoxal 5-phosphate
+CH$NAME: Pyromijin
+CH$NAME: Pyridoxal-5'-phosphate monohydrate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: C8H10NO6P
+CH$EXACT_MASS: 247.145
+CH$SMILES: CC1=NC=C(C(=C1O)C=O)COP(=O)(O)O
+CH$IUPAC: InChI=1S/C8H10NO6P/c1-5-8(11)7(3-10)6(2-9-5)4-15-16(12,13)14/h2-3,11H,4H2,1H3,(H2,12,13,14)
+CH$LINK: CAS 54-47-7
+CH$LINK: KEGG C00018
+CH$LINK: PUBCHEM CID:1051
+CH$LINK: INCHIKEY NGVDGCNFYWLIFO-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 248.22
+PK$SPLASH: splash10-0f6t-0890000000-40a10edcdfcf3fee8cd8
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  149.0 3215.0 44
+  150.0 72884.0 999
+  247.0 20446.0 280
+  248.0 55841.0 765
+//

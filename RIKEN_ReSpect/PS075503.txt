@@ -1,0 +1,50 @@
+ACCESSION: PS075503
+RECORD_TITLE: Homopiperidinic acid, 5-Aminopentanoic acid, 5-Aminovaleric acid, delta-Aminovalerate, 5-Aminopentanoate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 019-16941 .
+COMMENT: PRIMe compound in-house ID S0157
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Homopiperidinic acid
+CH$NAME: 5-Aminopentanoic acid
+CH$NAME: 5-Aminovaleric acid
+CH$NAME: delta-Aminovalerate
+CH$NAME: 5-Aminopentanoate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Valeric acid
+CH$FORMULA: C5H11NO2
+CH$EXACT_MASS: 117.148
+CH$SMILES: C(CCN)CC(=O)O
+CH$IUPAC: InChI=1S/C5H11NO2/c6-4-2-1-3-5(7)8/h1-4,6H2,(H,7,8)
+CH$LINK: CAS 660-88-8
+CH$LINK: KEGG C00431
+CH$LINK: PUBCHEM CID:138
+CH$LINK: INCHIKEY JJMDCOVWQOJGCB-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 118.1
+PK$SPLASH: splash10-0a4i-9000000000-686a622080f993393d4c
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  28.0 3149.0 48
+  29.0 4169.0 63
+  30.0 2138.0 32
+  54.0 24238.0 367
+  55.0 65929.0 999
+  56.0 31551.0 478
+  59.0 13152.0 199
+  83.0 5591.0 85
+  100.0 3207.0 49
+  101.0 3229.0 49
+//

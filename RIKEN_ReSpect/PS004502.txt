@@ -1,0 +1,44 @@
+ACCESSION: PS004502
+RECORD_TITLE: 1,3,7-Trimethyl-2,6-dioxopurine, Methyltheobromine, Caffeine,Anhydrous, 1,3,7-Trimethylxanthine, Guaranine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Nacalai-T, 06712-42.
+COMMENT: PRIMe compound in-house ID 45
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 1,3,7-Trimethyl-2,6-dioxopurine
+CH$NAME: Methyltheobromine
+CH$NAME: Caffeine,Anhydrous
+CH$NAME: 1,3,7-Trimethylxanthine
+CH$NAME: Guaranine
+CH$COMPOUND_CLASS: CLASS1 Alkaloid CLASS2 Xanthine CLASS3 Caffeine
+CH$FORMULA: C8H10N4O2
+CH$EXACT_MASS: 194.194
+CH$SMILES: CN1C=NC2=C1C(=O)N(C(=O)N2C)C
+CH$IUPAC: InChI=1S/C8H10N4O2/c1-10-4-9-6-5(10)7(13)12(3)8(14)11(6)2/h4H,1-3H3
+CH$LINK: KEGG C07481
+CH$LINK: PUBCHEM CID:2519
+CH$LINK: INCHIKEY RYYVLZVUVIJVGH-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID0020232
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 195.21
+PK$SPLASH: splash10-0002-0900000000-bf84b83d85a9d7665947
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  138.0 182760.0 172
+  193.0 45725.0 43
+  194.0 196708.0 185
+  195.0 1060599.0 999
+//

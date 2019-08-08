@@ -1,0 +1,52 @@
+ACCESSION: PS066205
+RECORD_TITLE: AICAR monophosphate, ZMP, Z-nucleotide, 5'-Phospho-ribosyl-5-amino-4-imidazole carboxamide, 1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide, 5'-Phosphoribosyl-5-amino-4-imidazolecarboxamide, AICAR, AICAriboside 5'-monophosphate, 5-Aminoimidazole-4-carboxamide-1-beta-D-ribofuranosyl 5'-monophosphate, N1-(beta-D-5'-Phosphoribofuranosyl)-5-aminoimidazole-4-carboxamide, 5-Phosphoribosyl-4-carbamoyl-5-aminoimidazole; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A1393.
+COMMENT: PRIMe compound in-house ID S0050
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: AICAR monophosphate
+CH$NAME: ZMP
+CH$NAME: Z-nucleotide
+CH$NAME: 5'-Phospho-ribosyl-5-amino-4-imidazole carboxamide
+CH$NAME: 1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide
+CH$NAME: 5'-Phosphoribosyl-5-amino-4-imidazolecarboxamide
+CH$NAME: AICAR
+CH$NAME: AICAriboside 5'-monophosphate
+CH$NAME: 5-Aminoimidazole-4-carboxamide-1-beta-D-ribofuranosyl 5'-monophosphate
+CH$NAME: N1-(beta-D-5'-Phosphoribofuranosyl)-5-aminoimidazole-4-carboxamide
+CH$NAME: 5-Phosphoribosyl-4-carbamoyl-5-aminoimidazole
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Ribonucleotide
+CH$FORMULA: C9H15N4O8P
+CH$EXACT_MASS: 338.215
+CH$SMILES: C1=NC(=C(N1C2C(C(C(O2)COP(=O)(O)O)O)O)N)C(=O)N
+CH$IUPAC: InChI=1S/C9H15N4O8P/c10-7-4(8(11)16)12-2-13(7)9-6(15)5(14)3(21-9)1-20-22(17,18)19/h2-3,5-6,9,14-15H,1,10H2,(H2,11,16)(H2,17,18,19)
+CH$LINK: CAS 3031-94-5
+CH$LINK: KEGG C04677
+CH$LINK: PUBCHEM CID:65110
+CH$LINK: INCHIKEY NOTGFIUVDGNKRI-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 50
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 339.29
+PK$SPLASH: splash10-03dj-4900000000-c77e25e53a9873f9fe62
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  41.0 3249.0 30
+  96.0 25163.0 234
+  97.0 48748.0 453
+  109.0 41243.0 384
+  110.0 107425.0 999
+  127.0 12621.0 117
+//

@@ -1,0 +1,45 @@
+ACCESSION: PS125102
+RECORD_TITLE: 6,7-Dihydroxycoumarin-6-glucoside, Aesculinum, Esculetin-6-beta-D-glucopyranoside, Aesculin, Esculin sesquihydrate , Esculoside; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Fluka, 2350.
+COMMENT: PRIMe compound in-house ID V0125
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 6,7-Dihydroxycoumarin-6-glucoside
+CH$NAME: Aesculinum
+CH$NAME: Esculetin-6-beta-D-glucopyranoside
+CH$NAME: Aesculin
+CH$NAME: Esculin sesquihydrate
+CH$NAME: Esculoside
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Suger phosphate CLASS3 Glucose phosphate
+CH$FORMULA: C15H16O9
+CH$EXACT_MASS: 340.284
+CH$SMILES: C1=CC(=O)OC2=CC(=C(C=C21)OC3C(C(C(C(O3)CO)O)O)O)O
+CH$IUPAC: InChI=1S/C15H16O9/c16-5-10-12(19)13(20)14(21)15(24-10)23-9-3-6-1-2-11(18)22-8(6)4-7(9)17/h1-4,10,12-17,19-21H,5H2
+CH$LINK: CAS 531-75-9
+CH$LINK: KEGG C09264
+CH$LINK: PUBCHEM CID:5281417
+CH$LINK: INCHIKEY XHCADAYNFIFUHF-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 341.32
+PK$SPLASH: splash10-004i-0901000000-35cbf74c537f2bda77ce
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  178.0 124609.0 247
+  179.0 504128.0 999
+  340.0 22204.0 44
+  341.0 69806.0 138
+//

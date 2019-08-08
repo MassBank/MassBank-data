@@ -1,0 +1,41 @@
+ACCESSION: PS074001
+RECORD_TITLE: 1,3-Propanediamine, 1,3-Diaminopropane; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 160-14143.
+COMMENT: PRIMe compound in-house ID S0138
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 1,3-Propanediamine
+CH$NAME: 1,3-Diaminopropane
+CH$COMPOUND_CLASS: CLASS1 Alkaloid CLASS2 Other CLASS3 Pilocarpine
+CH$FORMULA: C3H10N2
+CH$EXACT_MASS: 74.127
+CH$SMILES: C(CN)CN
+CH$IUPAC: InChI=1S/C3H10N2/c4-2-1-3-5/h1-5H2
+CH$LINK: CAS 109-76-2
+CH$LINK: KEGG C00986
+CH$LINK: PUBCHEM CID:428
+CH$LINK: INCHIKEY XFNJVJPLKCPIBV-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 75.09
+PK$SPLASH: splash10-056r-9000000000-b5f49a81e3ebf43b6cba
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  57.0 24935.0 63
+  58.0 226410.0 575
+  74.0 43713.0 111
+  75.0 393453.0 999
+//

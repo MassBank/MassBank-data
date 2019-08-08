@@ -1,0 +1,34 @@
+ACCESSION: PM000421
+RECORD_TITLE: Apigenin; LC-ESI-QQ; MS2
+DATE: 2006.04.20
+AUTHORS: Sanchez-Rabaneda F, et al.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2012 Plant Science Center, RIKEN
+PUBLICATION: Sánchez-Rabaneda, F.; Jáuregui, O.; Casals, I.; Andrés-Lacueva, C.; Izquierdo-Pulido, M.; Lamuela-Raventós, R. M. Liquid Chromatographic/Electrospray Ionization Tandem Mass Spectrometric Study of the Phenolic Composition of Cocoa (Theobroma Cacao). Journal of Mass Spectrometry 2003, 38 (1), 35–42. DOI:10.1002/jms.395
+COMMENT: 726
+CH$NAME: Apigenin
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Flavone CLASS3 Apigenin glycoside
+CH$FORMULA: C15H10O5
+CH$EXACT_MASS: 270.24
+CH$SMILES: O=c1cc(-c2ccc(O)cc2)oc2cc(O)cc(O)c12
+CH$IUPAC: InChI=1S/C15H10O5/c16-9-3-1-8(2-4-9)13-7-12(19)15-11(18)5-10(17)6-14(15)20-13/h1-7,16-18H
+CH$LINK: CAS 520-36-5
+CH$LINK: INCHIKEY KZNIFHPLKGYRTM-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:5280443
+CH$LINK: COMPTOX DTXSID6022391
+SP$SAMPLE: Theobroma cacao
+AC$INSTRUMENT: Agilent (Waldbronn, Germany) Model 1100; API 3000 triple-quadrupole mass spectrometer (Perkin-Elmer Sciex, Concord, ON, Canada)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY -35
+AC$CHROMATOGRAPHY: SOLVENT H2O/NH3CN/HCOOH
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 269
+PK$SPLASH: splash10-0uxr-0950000000-869ee83da1b75633c009
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  151.0 100.0 999
+  269.0 60.0 599
+//

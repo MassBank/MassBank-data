@@ -1,0 +1,55 @@
+ACCESSION: PS021502
+RECORD_TITLE: DL-6,8-Epidithiooctanamide, Thioctamide, DL-Thioctamide, (+/-)-alpha-Lipoamide, 1,2-Dithiolane-3-valeramide, DL-6,8-Thioctic acid amide; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, T5875.
+COMMENT: PRIMe compound in-house ID 215
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: DL-6,8-Epidithiooctanamide
+CH$NAME: Thioctamide
+CH$NAME: DL-Thioctamide
+CH$NAME: (+/-)-alpha-Lipoamide
+CH$NAME: 1,2-Dithiolane-3-valeramide
+CH$NAME: DL-6,8-Thioctic acid amide
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Thioctic amide
+CH$FORMULA: C8H15NOS2
+CH$EXACT_MASS: 205.344
+CH$SMILES: C1CSSC1CCCCC(=O)N
+CH$IUPAC: InChI=1S/C8H15NOS2/c9-8(10)4-2-1-3-7-5-6-11-12-7/h7H,1-6H2,(H2,9,10)
+CH$LINK: CAS 3206-73-3
+CH$LINK: KEGG C00248
+CH$LINK: PUBCHEM CID:863
+CH$LINK: INCHIKEY FCCDDURTIIUXBY-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 206.21
+PK$SPLASH: splash10-03dr-0900000000-e2ed2ab46f5cc6ebf24f
+PK$NUM_PEAK: 14
+PK$PEAK: m/z int. rel.int.
+  95.0 3480.0 50
+  100.0 6231.0 90
+  101.0 32283.0 468
+  105.0 3123.0 45
+  123.0 3472.0 50
+  127.0 4927.0 71
+  160.0 15784.0 229
+  161.0 68843.0 999
+  171.0 7336.0 106
+  187.0 2368.0 34
+  188.0 10703.0 155
+  189.0 55578.0 807
+  205.0 5030.0 73
+  206.0 9533.0 138
+//

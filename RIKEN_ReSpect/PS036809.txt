@@ -1,0 +1,49 @@
+ACCESSION: PS036809
+RECORD_TITLE: Uridine-5'-diphospho-glucose, UDP-glucose, UDPG, UDP-Glc, Uridine-5'-diphospho-glucose disodium salt, UDP-glucopyranoside; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, U4625.
+COMMENT: PRIMe compound in-house ID 368
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Uridine-5'-diphospho-glucose
+CH$NAME: UDP-glucose
+CH$NAME: UDPG
+CH$NAME: UDP-Glc
+CH$NAME: Uridine-5'-diphospho-glucose disodium salt
+CH$NAME: UDP-glucopyranoside
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Uridine phosphate
+CH$FORMULA: C15H24N2O17P2
+CH$EXACT_MASS: 566.306
+CH$SMILES: C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OC3C(C(C(C(O3)CO)O)O)O)O)O
+CH$IUPAC: InChI=1S/C15H24N2O17P2/c18-3-5-8(20)10(22)12(24)14(32-5)33-36(28,29)34-35(26,27)30-4-6-9(21)11(23)13(31-6)17-2-1-7(19)16-15(17)25/h1-2,5-6,8-14,18,20-24H,3-4H2,(H,26,27)(H,28,29)(H,16,19,25)
+CH$LINK: CAS 133-89-1
+CH$LINK: KEGG C00029
+CH$LINK: PUBCHEM CID:8629
+CH$LINK: INCHIKEY HSCJRCZFDFQWRP-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 565.43
+PK$SPLASH: splash10-01b9-0004090000-3cea9a6c1bec8edd0e68
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  241.0 1888.0 36
+  321.0 1633.0 31
+  322.0 10050.0 192
+  323.0 38187.0 731
+  563.0 2300.0 44
+  564.0 20050.0 384
+  565.0 52220.0 999
+  566.0 17501.0 335
+//

@@ -1,0 +1,40 @@
+ACCESSION: PT201510
+RECORD_TITLE: dUMP, [(2R,3S,5R)-5-(2,4-dioxopyrimidin-1-yl)-3-hydroxyoxolan-2-yl]methyl dihydrogen phosphate, 2'-deoxyuridylic acid, 2'-Deoxy-UMP, 2'-Deoxyuridine-5'-monophosphate disodium salt; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: dUMP
+CH$NAME: [(2R,3S,5R)-5-(2,4-dioxopyrimidin-1-yl)-3-hydroxyoxolan-2-yl]methyl dihydrogen phosphate
+CH$NAME: 2'-deoxyuridylic acid
+CH$NAME: 2'-Deoxy-UMP
+CH$NAME: 2'-Deoxyuridine-5'-monophosphate disodium salt
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Uridine phosphate
+CH$FORMULA: C9H13N2O8P
+CH$EXACT_MASS: 308.185
+CH$SMILES: C1C(C(OC1N2C=CC(=O)NC2=O)COP(=O)(O)O)O
+CH$IUPAC: InChI=1S/C9H13N2O8P/c12-5-3-8(11-2-1-7(13)10-9(11)14)19-6(5)4-18-20(15,16)17/h1-2,5-6,8,12H,3-4H2,(H,10,13,14)(H2,15,16,17)
+CH$LINK: CAS 964-26-1
+CH$LINK: INCHIKEY JSRLJPSBLDHEIO-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 307.03315
+PK$SPLASH: splash10-01ta-9803000000-f0e26cbfb75f3fb7b36e
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  78.9598 1813.0 999
+  96.9696 591.4 326
+  111.0199 1139.0 628
+  176.9954 288.2 159
+  195.0059 953.0 525
+  307.0331 1022.0 563
+//

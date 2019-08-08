@@ -1,0 +1,40 @@
+ACCESSION: PT108130
+RECORD_TITLE: 12:0 LysoPC, Phosphocholine,1-Lauroyl-2-Hydroxy-sn-Glycero-3- , [(2R)-3-dodecanoyloxy-2-hydroxypropyl] 2-trimethylazaniumylethyl phosphate, 1-Dodecanoyllysolecithin, 1-Lauroyl-2-Hydroxy-sn-Glycero-3-Phosphocholine; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 12:0 LysoPC
+CH$NAME: Phosphocholine,1-Lauroyl-2-Hydroxy-sn-Glycero-3-
+CH$NAME: [(2R)-3-dodecanoyloxy-2-hydroxypropyl] 2-trimethylazaniumylethyl phosphate
+CH$NAME: 1-Dodecanoyllysolecithin
+CH$NAME: 1-Lauroyl-2-Hydroxy-sn-Glycero-3-Phosphocholine
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Phospholipid CLASS3 Phosphocholine
+CH$FORMULA: C20H42NO7P
+CH$EXACT_MASS: 439.532
+CH$SMILES: CCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)O
+CH$IUPAC: InChI=1S/C20H42NO7P/c1-5-6-7-8-9-10-11-12-13-14-20(23)26-17-19(22)18-28-29(24,25)27-16-15-21(2,3)4/h19,22H,5-18H2,1-4H3
+CH$LINK: CAS 20559-18-6
+CH$LINK: INCHIKEY BWKILASWCLJPBO-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 440.27768
+PK$SPLASH: splash10-0f8i-2900200000-a118845e398dfd908a5c
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  86.0998 3846.0 519
+  104.1109 5732.0 773
+  125.0051 2685.0 362
+  184.078 7408.0 999
+  422.2807 961.9 130
+  440.2777 3357.0 453
+//

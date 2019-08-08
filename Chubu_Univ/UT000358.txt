@@ -1,41 +1,27 @@
 ACCESSION: UT000358
 RECORD_TITLE: PGF2a; LC-ESI-QIT; MS2; CE:50 V; [M-H]-
 DATE: 2016.01.19 (Created 2007.10.19, modified 2011.08.03)
-AUTHORS: Nakanishi H, Taguchi R, Graduate School of Medicine, The University of Tokyo.
+AUTHORS: Nakanishi H, Taguchi R, Graduate School of Medicine, The University of Tokyo
 LICENSE: CC BY-NC-SA
-CH$NAME: PGF2a
-CH$NAME: 7-[3R,5S-dihydroxy-2R-(3S-hydroxy-1E-octenyl)cyclopentan-1R-yl]-5Z-heptenoic acid
-CH$NAME: (5Z,13E,15S)-9alpha,11alpha,15-Trihydroxyprosta-5,13-diene-1-oic acid
-CH$NAME: PGF2alpha
-CH$NAME: (+)-Prostaglandin F2a
-CH$NAME: (5Z,13E)-(15S)-9alpha,11alpha,15-Trihydroxyprosta-5,13-dienoate
-CH$NAME: 7-[3,5-Dihydroxy-2-(3-hydroxy-1-octenyl)cyclopentyl]-5-heptenoic
-CH$NAME: 9,11,15-Trihydroxy-(5Z,9a,11a,13E,15S)-prosta-5,13-dien-1-oic acid
-CH$NAME: 9a,11a-PGF2
-CH$NAME: Amoglandin
-CH$NAME: Cyclosin
-CH$NAME: Dinoprost
-CH$NAME: Enzaprost
-CH$NAME: Enzaprost F
-CH$NAME: Panacelan
 CH$NAME: Prostaglandin F2a
-CH$NAME: Prostaglandin F2alpha
-CH$NAME: Prostin F 2 alpha
-CH$NAME: Protamodin
-CH$NAME: U 14583
+CH$NAME: Dinoprost
+CH$NAME: PGF2a
+CH$NAME: (5Z,13E,15S)-9alpha,11alpha,15-Trihydroxyprosta-5,13-diene-1-oic acid
+CH$NAME: 9a,11a-PGF2
 CH$COMPOUND_CLASS: Natural Product; Lipid; Eicosanoid
 CH$FORMULA: C20H34O5
 CH$EXACT_MASS: 354.24062
-CH$SMILES: CCCCCC(O)C=CC(C(O)1)C(CC=CCCCC(O)=O)C(O)C1
-CH$IUPAC: InChI=1S/C20H34O5/c1-2-3-6-9-15(21)12-13-17-16(18(22)14-19(17)23)10-7-4-5-8-11-20(24)25/h4,7,12-13,15-19,21-23H,2-3,5-6,8-11,14H2,1H3,(H,24,25)/b7-4-,13-12+/t15-,16-,17-,18+,19-/m0/s1
+CH$SMILES: CCCCC[C@@H](/C=C/[C@H]1[C@@H](C[C@@H]([C@@H]1C/C=C\CCCC(=O)O)O)O)O
+CH$IUPAC: InChI=1S/C20H34O5/c1-2-3-6-9-15(21)12-13-17-16(18(22)14-19(17)23)10-7-4-5-8-11-20(24)25/h4,7,12-13,15-19,21-23H,2-3,5-6,8-11,14H2,1H3,(H,24,25)/b7-4-,13-12+/t15-,16+,17+,18-,19+/m0/s1
 CH$LINK: CAS 551-11-1
 CH$LINK: CAYMAN 16010
 CH$LINK: CHEBI 15553
+CH$LINK: COMPTOX DTXSID9022946
+CH$LINK: INCHIKEY PXGPLTODNUVGFL-YNNPMVKQSA-N
 CH$LINK: KEGG C00639
 CH$LINK: LIPIDBANK XPR1501
 CH$LINK: NIKKAJI J9.246K
-CH$LINK: PUBCHEM 3912
-CH$LINK: INCHIKEY PXGPLTODNUVGFL-GTXDYMSZSA-N
+CH$LINK: PUBCHEM CID:5280363
 AC$INSTRUMENT: 4000Q TRAP, Applied Biosystems
 AC$INSTRUMENT_TYPE: LC-ESI-QIT
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

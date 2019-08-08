@@ -1,0 +1,53 @@
+ACCESSION: PS104502
+RECORD_TITLE: 2-Methylpropionic acid, Isopropylformic acid, Isobutyrate, 2-Methylpropanoate, Isobutanoic acid, Isobutyric acid, Dimethylacetic acid, alpha-Methylpropanoic Acid, IBA; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, I1754.
+COMMENT: PRIMe compound in-house ID N0103
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 2-Methylpropionic acid
+CH$NAME: Isopropylformic acid
+CH$NAME: Isobutyrate
+CH$NAME: 2-Methylpropanoate
+CH$NAME: Isobutanoic acid
+CH$NAME: Isobutyric acid
+CH$NAME: Dimethylacetic acid
+CH$NAME: alpha-Methylpropanoic Acid
+CH$NAME: IBA
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Isobutyric acid
+CH$FORMULA: C4H8O2
+CH$EXACT_MASS: 88.106
+CH$SMILES: CC(C)C(=O)O
+CH$IUPAC: InChI=1S/C4H8O2/c1-3(2)4(5)6/h3H,1-2H3,(H,5,6)
+CH$LINK: CAS 79-31-2
+CH$LINK: KEGG C02632
+CH$LINK: PUBCHEM CID:6590
+CH$LINK: INCHIKEY KQNPFQTWMSNSAP-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 88.08
+PK$SPLASH: splash10-03di-9000000000-14867298c3ad8ca9d8b8
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  29.0 4952.0 63
+  42.0 3084.0 39
+  43.0 7978.0 102
+  55.0 2528.0 32
+  56.0 4078.0 52
+  59.0 4482.0 57
+  60.0 78376.0 999
+  87.0 2386.0 30
+  88.0 2664.0 34
+//

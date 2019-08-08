@@ -1,0 +1,45 @@
+ACCESSION: PS019209
+RECORD_TITLE: 5'-CMP, C-5'-P, CMP, Cytidine-5'-monophosphate disodium salt,from Saccharomyces cerevisiae, crystalline , cytidylate, Cytidylic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, C1006.
+COMMENT: PRIMe compound in-house ID 192
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 5'-CMP
+CH$NAME: C-5'-P
+CH$NAME: CMP
+CH$NAME: Cytidine-5'-monophosphate disodium salt,from Saccharomyces cerevisiae, crystalline
+CH$NAME: cytidylate
+CH$NAME: Cytidylic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Cytidine phosphate
+CH$FORMULA: C9H14N3O8P
+CH$EXACT_MASS: 323.2
+CH$SMILES: C1=CN(C(=O)N=C1N)C2C(C(C(O2)COP(=O)(O)O)O)O
+CH$IUPAC: InChI=1S/C9H14N3O8P/c10-5-1-2-12(9(15)11-5)8-7(14)6(13)4(20-8)3-19-21(16,17)18/h1-2,4,6-8,13-14H,3H2,(H2,10,11,15)(H2,16,17,18)
+CH$LINK: CAS 63-37-6
+CH$LINK: KEGG C00055
+CH$LINK: PUBCHEM CID:6131
+CH$LINK: INCHIKEY IERHLVCPSMICTF-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 322.25
+PK$SPLASH: splash10-00b9-9005000000-1f6e3a96e4abe27cb969
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  79.0 47294.0 999
+  97.0 13603.0 287
+  321.0 6751.0 143
+  322.0 33501.0 708
+//

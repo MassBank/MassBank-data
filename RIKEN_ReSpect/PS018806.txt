@@ -1,0 +1,51 @@
+ACCESSION: PS018806
+RECORD_TITLE: Cytidine,cell culture tested, Cyd, 1-beta-D-Ribofuranoside cytosine, rC, 4-Amino-1-beta-D-ribofuranosyl-2(1H)-pyrimidinone, Cytosine beta-D-riboside; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, C4654.
+COMMENT: PRIMe compound in-house ID 188
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Cytidine,cell culture tested
+CH$NAME: Cyd
+CH$NAME: 1-beta-D-Ribofuranoside cytosine
+CH$NAME: rC
+CH$NAME: 4-Amino-1-beta-D-ribofuranosyl-2(1H)-pyrimidinone
+CH$NAME: Cytosine beta-D-riboside
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleoside CLASS3 Cytidine
+CH$FORMULA: C9H13N3O5
+CH$EXACT_MASS: 243.219
+CH$SMILES: C1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)O)O
+CH$IUPAC: InChI=1S/C9H13N3O5/c10-5-1-2-12(9(16)11-5)8-7(15)6(14)4(3-13)17-8/h1-2,4,6-8,13-15H,3H2,(H2,10,11,16)
+CH$LINK: CAS 65-46-3
+CH$LINK: KEGG C00475
+CH$LINK: PUBCHEM CID:6175
+CH$LINK: INCHIKEY UHDGCWIWMRVCDJ-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 60
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 244.25
+PK$SPLASH: splash10-03di-4900000000-67d2a5cc9454228a6c2e
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  42.0 2795.0 51
+  69.0 8205.0 150
+  93.0 2290.0 42
+  94.0 6924.0 126
+  95.0 27633.0 505
+  107.0 2671.0 49
+  110.0 2237.0 41
+  111.0 24522.0 448
+  112.0 54687.0 999
+  113.0 5780.0 106
+//

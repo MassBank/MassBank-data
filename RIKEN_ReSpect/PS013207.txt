@@ -1,0 +1,42 @@
+ACCESSION: PS013207
+RECORD_TITLE: Pterine, Pteridoxamine, 2-Amino-4-hydroxypteridine, 2-Amino-4-oxodihydropteridine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, P1132.
+COMMENT: PRIMe compound in-house ID 132
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Pterine
+CH$NAME: Pteridoxamine
+CH$NAME: 2-Amino-4-hydroxypteridine
+CH$NAME: 2-Amino-4-oxodihydropteridine
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Pteridine
+CH$FORMULA: C6H5N5O
+CH$EXACT_MASS: 163.14
+CH$SMILES: C1=CN=C2C(=N1)C(=O)N=C(N2)N
+CH$IUPAC: InChI=1S/C6H5N5O/c7-6-10-4-3(5(12)11-6)8-1-2-9-4/h1-2H,(H3,7,9,10,11,12)
+CH$LINK: CAS 2236-60-4
+CH$LINK: KEGG C00715
+CH$LINK: PUBCHEM CID:73000
+CH$LINK: INCHIKEY HNXQXTQTPAJEJL-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID40176894
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 162.91
+PK$SPLASH: splash10-03di-0900000000-45982aa36f02ed33d830
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  162.0 151637.0 671
+  163.0 225659.0 999
+//

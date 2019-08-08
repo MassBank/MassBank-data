@@ -1,0 +1,40 @@
+ACCESSION: PS025907
+RECORD_TITLE: 5'-ITP, Inosine-5'-triphosphate trisodium salt, ITP; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, I0879.
+COMMENT: PRIMe compound in-house ID 259
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 5'-ITP
+CH$NAME: Inosine-5'-triphosphate trisodium salt
+CH$NAME: ITP
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Inosine phosphate
+CH$FORMULA: C10H15N4O14P3
+CH$EXACT_MASS: 508.172
+CH$SMILES: C1=NC(=O)C2=C(N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O
+CH$IUPAC: InChI=1S/C10H15N4O14P3/c15-6-4(1-25-30(21,22)28-31(23,24)27-29(18,19)20)26-10(7(6)16)14-3-13-5-8(14)11-2-12-9(5)17/h2-4,6-7,10,15-16H,1H2,(H,21,22)(H,23,24)(H,11,12,17)(H2,18,19,20)
+CH$LINK: CAS 132-06-9
+CH$LINK: KEGG C00081
+CH$LINK: PUBCHEM CID:8583
+CH$LINK: INCHIKEY HAEJPQIATWHALX-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 507.3
+PK$SPLASH: splash10-0a4i-0000090000-2a1fb4d791955c5e5891
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  506.0 49575.0 727
+  507.0 68088.0 999
+//

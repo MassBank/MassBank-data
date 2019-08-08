@@ -1,0 +1,49 @@
+ACCESSION: PS103601
+RECORD_TITLE: Uromaline, DL-mandelate, DL-alpha-Hydroxyphenylacetic acid, Paramandelic acid, DL-mandelic acid, DL-alpha-Hydroxybenzeneacetic acid, Phenylglycollic acid, Almond acid, Amygdalinic acid, DL-alpha-Oxybenzeneacetic acid, alpha-Hydroxy-alpha-toluic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, M2625.
+COMMENT: PRIMe compound in-house ID N0094
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Uromaline
+CH$NAME: DL-mandelate
+CH$NAME: DL-alpha-Hydroxyphenylacetic acid
+CH$NAME: Paramandelic acid
+CH$NAME: DL-mandelic acid
+CH$NAME: DL-alpha-Hydroxybenzeneacetic acid
+CH$NAME: Phenylglycollic acid
+CH$NAME: Almond acid
+CH$NAME: Amygdalinic acid
+CH$NAME: DL-alpha-Oxybenzeneacetic acid
+CH$NAME: alpha-Hydroxy-alpha-toluic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Mandelic acid
+CH$FORMULA: C8H8O3
+CH$EXACT_MASS: 152.149
+CH$SMILES: C1=CC=C(C=C1)C(C(=O)O)O
+CH$IUPAC: InChI=1S/C8H8O3/c9-7(8(10)11)6-4-2-1-3-5-6/h1-5,7,9H,(H,10,11)
+CH$LINK: CAS 90-64-2
+CH$LINK: KEGG C01984
+CH$LINK: PUBCHEM CID:1292
+CH$LINK: INCHIKEY IWYDHOAUDWTVEP-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 152.16
+PK$SPLASH: splash10-03di-1900000000-de15a856063ba8ac2897
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  90.0 17547.0 221
+  110.0 13284.0 167
+  111.0 79251.0 999
+//

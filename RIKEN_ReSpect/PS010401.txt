@@ -1,0 +1,42 @@
+ACCESSION: PS010401
+RECORD_TITLE: trans-Cinnamaldehyde, trans-3-Phenyl-2-propenal, trans-Phenylacrolein, trans-Phenylacrylaldehyde; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, C80687.
+COMMENT: PRIMe compound in-house ID 104
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: trans-Cinnamaldehyde
+CH$NAME: trans-3-Phenyl-2-propenal
+CH$NAME: trans-Phenylacrolein
+CH$NAME: trans-Phenylacrylaldehyde
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid monomer CLASS3 Cinnamaldehyde
+CH$FORMULA: C9H8O
+CH$EXACT_MASS: 132.162
+CH$SMILES: C1=CC=C(C=C1)C=CC=O
+CH$IUPAC: InChI=1S/C9H8O/c10-8-4-7-9-5-2-1-3-6-9/h1-8H
+CH$LINK: CAS 104-55-2
+CH$LINK: KEGG C00903
+CH$LINK: PUBCHEM CID:637511
+CH$LINK: INCHIKEY KJPRLNWUNMBNBZ-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID1024835
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 133.07
+PK$SPLASH: splash10-000f-9000000000-1f1780c664d76621d665
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  89.0 37194.0 564
+  90.0 65882.0 999
+//

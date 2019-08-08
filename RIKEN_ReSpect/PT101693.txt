@@ -1,0 +1,44 @@
+ACCESSION: PT101693
+RECORD_TITLE: Allantoin, Alantan, Sebical, (2,5-dioxoimidazolidin-4-yl)urea, cordanine, 5-Ureidohydantoin, (2,5-Dioxo-4-imidazolidinyl)urea, Hemocane, Cordianine, Glyoxylidiureide, Glyoxylic Acid Diureide, Allantol; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Allantoin
+CH$NAME: Alantan
+CH$NAME: Sebical
+CH$NAME: (2,5-dioxoimidazolidin-4-yl)urea
+CH$NAME: cordanine
+CH$NAME: 5-Ureidohydantoin
+CH$NAME: (2,5-Dioxo-4-imidazolidinyl)urea
+CH$NAME: Hemocane
+CH$NAME: Cordianine
+CH$NAME: Glyoxylidiureide
+CH$NAME: Glyoxylic Acid Diureide
+CH$NAME: Allantol
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Allantoin
+CH$FORMULA: C4H6N4O3
+CH$EXACT_MASS: 158.117
+CH$SMILES: C1(C(=O)NC(=O)N1)NC(=O)N
+CH$IUPAC: InChI=1S/C4H6N4O3/c5-3(10)6-1-2(9)8-4(11)7-1/h1H,(H3,5,6,10)(H2,7,8,9,11)
+CH$LINK: CAS 97-59-6
+CH$LINK: INCHIKEY POJWUDADGALRAB-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 159.05179
+PK$SPLASH: splash10-0a4i-0900000000-dcef4d739b248d53f38b
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  116.0457 6.399 103
+  158.9885 7.01 113
+  159.0518 62.04 999
+//

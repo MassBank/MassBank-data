@@ -1,0 +1,42 @@
+ACCESSION: PS024504
+RECORD_TITLE: GDP-fucose, GDP-Fuc, Guanosine-5'-diphospho-beta-L-fucose, 6-Deoxy-beta-L-galactopyranosylguanosine 5'-diphosphate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, G4401.
+COMMENT: PRIMe compound in-house ID 245
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: GDP-fucose
+CH$NAME: GDP-Fuc
+CH$NAME: Guanosine-5'-diphospho-beta-L-fucose
+CH$NAME: 6-Deoxy-beta-L-galactopyranosylguanosine 5'-diphosphate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Guanosine phosphate
+CH$FORMULA: C16H25N5O15P2
+CH$EXACT_MASS: 589.348
+CH$SMILES: CC1C(C(C(C(O1)OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=NC4=C3NC(=NC4=O)N)O)O)O)O)O
+CH$IUPAC: InChI=1S/C16H25N5O15P2/c1-4-7(22)9(24)11(26)15(33-4)35-38(30,31)36-37(28,29)32-2-5-8(23)10(25)14(34-5)21-3-18-6-12(21)19-16(17)20-13(6)27/h3-5,7-11,14-15,22-26H,2H2,1H3,(H,28,29)(H,30,31)(H3,17,19,20,27)
+CH$LINK: CAS 15839-70-0
+CH$LINK: KEGG C00325
+CH$LINK: PUBCHEM CID:10918995
+CH$LINK: INCHIKEY LQEBEXMHBLQMDB-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 590.45
+PK$SPLASH: splash10-0udi-0900000000-99199d0dd0b010fe6543
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  151.0 22501.0 152
+  152.0 148083.0 999
+  444.0 11383.0 77
+//

@@ -1,0 +1,44 @@
+ACCESSION: PT110250
+RECORD_TITLE: Guanidineacetic acid, N-Guanylglycine, Guanidinoacetate, Betacyamine, 2-(diaminomethylideneamino)acetic acid, Glykocyamin, Glycocyamine, Guanidoacetate, N-Amidinoglycine, Betasyamine; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Guanidineacetic acid
+CH$NAME: N-Guanylglycine
+CH$NAME: Guanidinoacetate
+CH$NAME: Betacyamine
+CH$NAME: 2-(diaminomethylideneamino)acetic acid
+CH$NAME: Glykocyamin
+CH$NAME: Glycocyamine
+CH$NAME: Guanidoacetate
+CH$NAME: N-Amidinoglycine
+CH$NAME: Betasyamine
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Glycocyamine
+CH$FORMULA: C3H7N3O2
+CH$EXACT_MASS: 117.108
+CH$SMILES: C(C(=O)O)N=C(N)N
+CH$IUPAC: InChI=1S/C3H7N3O2/c4-3(5)6-1-2(7)8/h1H2,(H,7,8)(H4,4,5,6)
+CH$LINK: CAS 352-97-6
+CH$LINK: INCHIKEY BPMFZUMJYQTVII-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 118.06162
+PK$SPLASH: splash10-0gk9-7900000000-5ba298286886c1fabdf5
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  72.0568 291.9 546
+  73.0406 61.76 116
+  76.0402 282.6 529
+  101.0358 267.1 500
+  118.0616 533.6 999
+//

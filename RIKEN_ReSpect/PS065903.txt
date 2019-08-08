@@ -1,0 +1,53 @@
+ACCESSION: PS065903
+RECORD_TITLE: Ac-HSer, (2S)-4-(acetyloxy)-2-aminobutanoic acid, O-Acetyl-L-homoserine hydrochloride; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound WAKO / Toronto, 571-78151 / A178300 .
+COMMENT: PRIMe compound in-house ID S0046
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Ac-HSer
+CH$NAME: (2S)-4-(acetyloxy)-2-aminobutanoic acid
+CH$NAME: O-Acetyl-L-homoserine hydrochloride
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Serine
+CH$FORMULA: C6H11NO4
+CH$EXACT_MASS: 161.157
+CH$SMILES: CC(=O)OCCC(C(=O)O)N
+CH$IUPAC: InChI=1S/C6H11NO4/c1-4(8)11-3-2-5(7)6(9)10/h5H,2-3,7H2,1H3,(H,9,10)
+CH$LINK: CAS 7540-67-2
+CH$LINK: KEGG C01077
+CH$LINK: PUBCHEM CID:439389
+CH$LINK: INCHIKEY FCXZBWSIAGGPCB-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 162.17
+PK$SPLASH: splash10-05fr-9100000000-3235a7812faa5165c169
+PK$NUM_PEAK: 15
+PK$PEAK: m/z int. rel.int.
+  28.0 2301.0 37
+  42.0 4038.0 65
+  43.0 17233.0 279
+  44.0 5183.0 84
+  55.0 9112.0 148
+  56.0 54818.0 888
+  73.0 15174.0 246
+  74.0 61675.0 999
+  83.0 3788.0 61
+  84.0 7862.0 127
+  101.0 8690.0 141
+  102.0 17402.0 282
+  119.0 2928.0 47
+  120.0 4182.0 68
+  162.0 3597.0 58
+//

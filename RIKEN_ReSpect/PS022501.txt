@@ -1,0 +1,43 @@
+ACCESSION: PS022501
+RECORD_TITLE: D-threo-Pentulose, Xul, D-Xylulose, D-Lyxulose; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, X4625.
+COMMENT: PRIMe compound in-house ID 225
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: D-threo-Pentulose
+CH$NAME: Xul
+CH$NAME: D-Xylulose
+CH$NAME: D-Lyxulose
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Sugar CLASS3 Monosaccharide
+CH$FORMULA: C5H10O5
+CH$EXACT_MASS: 150.13
+CH$SMILES: C1C(C(C(O1)(CO)O)O)O
+CH$IUPAC: InChI=1S/C5H10O5/c6-2-5(9)4(8)3(7)1-10-5/h3-4,6-9H,1-2H2
+CH$LINK: CAS 551-84-8
+CH$LINK: KEGG C00310
+CH$LINK: PUBCHEM CID:439204
+CH$LINK: INCHIKEY LQXVFWRQNMEDEE-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 151.16
+PK$SPLASH: splash10-01p9-9500000000-54796ac55d6602caf449
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  89.0 79926.0 999
+  90.0 20835.0 260
+  109.0 17754.0 222
+  110.0 46117.0 576
+//

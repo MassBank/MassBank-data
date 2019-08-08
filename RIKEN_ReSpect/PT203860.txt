@@ -1,0 +1,48 @@
+ACCESSION: PT203860
+RECORD_TITLE: Coenzyme1, Diphosphopyridine nucleotide, Cozymase, Nadide, [(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl [[(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] hydrogen phosphate, beta-Nicotinamide adenine dinucleotide hydrate , beta-NAD, beta-DPN; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Coenzyme1
+CH$NAME: Diphosphopyridine nucleotide
+CH$NAME: Cozymase
+CH$NAME: Nadide
+CH$NAME: [(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl [[(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] hydrogen phosphate
+CH$NAME: beta-Nicotinamide adenine dinucleotide hydrate
+CH$NAME: beta-NAD
+CH$NAME: beta-DPN
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: [C21H28N7O14P2]+
+CH$EXACT_MASS: 664.442
+CH$SMILES: C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C4N=CN=C5N)O)O)O)O)C(=O)N
+CH$IUPAC: InChI=1S/C21H27N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1-4,7-8,10-11,13-16,20-21,29-32H,5-6H2,(H5-,22,23,24,25,33,34,35,36,37)/p+1
+CH$LINK: CAS 53-84-9
+CH$LINK: INCHIKEY BAWFJGJZGIEFAR-UHFFFAOYSA-O
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 662.10132
+PK$SPLASH: splash10-002f-3311290000-7b717e20fbb69f53b48c
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  78.9601 175.9 296
+  96.9702 38.04 64
+  134.0472 86.73 146
+  158.9254 138.2 232
+  272.958 120.9 203
+  328.0471 84.11 141
+  346.0551 47.9 81
+  408.013 71.62 120
+  426.0234 60.75 102
+  540.0526 594.4 999
+  662.1013 41.88 70
+//

@@ -1,0 +1,42 @@
+ACCESSION: PS044105
+RECORD_TITLE: 8-(4-hydroxy-3-methoxybenzyl)carbamoyl-8-methyl-5-octane, 8-methyl-N-vanillyl-6-nonenamide, Capsaicin; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Nacalai-T, 05081-84.
+COMMENT: PRIMe compound in-house ID H0049
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 8-(4-hydroxy-3-methoxybenzyl)carbamoyl-8-methyl-5-octane
+CH$NAME: 8-methyl-N-vanillyl-6-nonenamide
+CH$NAME: Capsaicin
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Capsaicin
+CH$FORMULA: C18H27NO3
+CH$EXACT_MASS: 305.418
+CH$SMILES: CC(C)C=CCCCCC(=O)NCC1=CC(=C(C=C1)O)OC
+CH$IUPAC: InChI=1S/C18H27NO3/c1-14(2)8-6-4-5-7-9-18(21)19-13-15-10-11-16(20)17(12-15)22-3/h6,8,10-12,14,20H,4-5,7,9,13H2,1-3H3,(H,19,21)
+CH$LINK: CAS 404-86-4
+CH$LINK: KEGG C06866
+CH$LINK: PUBCHEM CID:1548943
+CH$LINK: INCHIKEY YKPUWZUDDOIDPM-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 50
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 306.44
+PK$SPLASH: splash10-000i-0900000000-dac36d844f2a4dff5098
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  122.0 20072.0 142
+  135.0 6156.0 44
+  136.0 36729.0 260
+  137.0 140952.0 999
+//

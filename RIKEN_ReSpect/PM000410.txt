@@ -1,0 +1,36 @@
+ACCESSION: PM000410
+RECORD_TITLE: Vitexin; LC-ESI-QQ; MS2
+DATE: 2006.04.20
+AUTHORS: Sanchez-Rabaneda F, et al.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2012 Plant Science Center, RIKEN
+PUBLICATION: Sánchez-Rabaneda, F.; Jáuregui, O.; Casals, I.; Andrés-Lacueva, C.; Izquierdo-Pulido, M.; Lamuela-Raventós, R. M. Liquid Chromatographic/Electrospray Ionization Tandem Mass Spectrometric Study of the Phenolic Composition of Cocoa (Theobroma Cacao). Journal of Mass Spectrometry 2003, 38 (1), 35–42. DOI:10.1002/jms.395
+COMMENT: 726
+CH$NAME: Vitexin
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Flavone CLASS3 Apigenin glycoside
+CH$FORMULA: C21H20O10
+CH$EXACT_MASS: 432.381
+CH$SMILES: O=c1cc(-c2ccc(O)cc2)oc2c([C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)c(O)cc(O)c12
+CH$IUPAC: InChI=1S/C21H20O10/c22-7-14-17(27)18(28)19(29)21(31-14)16-11(25)5-10(24)15-12(26)6-13(30-20(15)16)8-1-3-9(23)4-2-8/h1-6,14,17-19,21-25,27-29H,7H2/t14-,17-,18+,19-,21+/m1/s1
+CH$LINK: CAS 3681-93-4
+CH$LINK: INCHIKEY SGEWCQFRYRRZDC-VPRICQMDSA-N
+CH$LINK: PUBCHEM CID:5280441
+CH$LINK: COMPTOX DTXSID90190287
+SP$SAMPLE: Theobroma cacao
+AC$INSTRUMENT: Agilent (Waldbronn, Germany) Model 1100; API 3000 triple-quadrupole mass spectrometer (Perkin-Elmer Sciex, Concord, ON, Canada)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY -30
+AC$CHROMATOGRAPHY: SOLVENT H2O/NH3CN/HCOOH
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 431
+PK$SPLASH: splash10-03di-0009200000-8cbe0074f42c98929d84
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  269.0 5.0 50
+  311.0 100.0 999
+  341.0 30.0 300
+  431.0 35.0 350
+//

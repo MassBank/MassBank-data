@@ -1,0 +1,44 @@
+ACCESSION: PT206820
+RECORD_TITLE: 3-Carboxy-3-hydroxy-4-methylpentanoate, 3-Carboxy-3-hydroxyisocaproate, 2-Hydroxy-2-isopropylsuccinic acid, 3-Hydroxy-4-methyl-3-carboxypentanoate, 2-Isopropylmalic acid , 2-Isopropylmalate, 3-Carboxy-3-hydroxy-isocaproate, (2S)-2-hydroxy-2-propan-2-ylbutanedioic acid, 2-Hydroxy-2-isopropylbutanedioate; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 3-Carboxy-3-hydroxy-4-methylpentanoate
+CH$NAME: 3-Carboxy-3-hydroxyisocaproate
+CH$NAME: 2-Hydroxy-2-isopropylsuccinic acid
+CH$NAME: 3-Hydroxy-4-methyl-3-carboxypentanoate
+CH$NAME: 2-Isopropylmalic acid
+CH$NAME: 2-Isopropylmalate
+CH$NAME: 3-Carboxy-3-hydroxy-isocaproate
+CH$NAME: (2S)-2-hydroxy-2-propan-2-ylbutanedioic acid
+CH$NAME: 2-Hydroxy-2-isopropylbutanedioate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Propylmalic acid
+CH$FORMULA: C7H12O5
+CH$EXACT_MASS: 176.168
+CH$SMILES: CC(C)C(CC(=O)O)(C(=O)O)O
+CH$IUPAC: InChI=1S/C7H12O5/c1-4(2)7(12,6(10)11)3-5(8)9/h4,12H,3H2,1-2H3,(H,8,9)(H,10,11)
+CH$LINK: CAS 3237-44-3
+CH$LINK: INCHIKEY BITYXLXUCSKTJS-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 175.06067
+PK$SPLASH: splash10-016r-1900000000-ab3bc6c5a0be79e943a6
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  85.0663 212.2 431
+  113.0605 194.7 395
+  115.0399 492.0 999
+  131.0718 42.6 86
+  157.051 47.22 96
+  175.0607 446.2 906
+//

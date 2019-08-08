@@ -1,0 +1,38 @@
+ACCESSION: PT200110
+RECORD_TITLE: Ferulic acid, 4-Hydroxy-3-methoxycinnamic acid, 3-Methoxy-4-hydroxy-trans-cinnamate, (E)-3-(4-hydroxy-3-methoxyphenyl)prop-2-enoic acid, trans-ferulate; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Ferulic acid
+CH$NAME: 4-Hydroxy-3-methoxycinnamic acid
+CH$NAME: 3-Methoxy-4-hydroxy-trans-cinnamate
+CH$NAME: (E)-3-(4-hydroxy-3-methoxyphenyl)prop-2-enoic acid
+CH$NAME: trans-ferulate
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid monomer CLASS3 Ferulic acid
+CH$FORMULA: C10H10O4
+CH$EXACT_MASS: 194.186
+CH$SMILES: COC1=C(C=CC(=C1)C=CC(=O)O)O
+CH$IUPAC: InChI=1S/C10H10O4/c1-14-9-6-7(2-4-8(9)11)3-5-10(12)13/h2-6,11H,1H3,(H,12,13)
+CH$LINK: CAS 1135-24-6
+CH$LINK: INCHIKEY KSEBMYQBYZTDHS-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 193.05011
+PK$SPLASH: splash10-001i-0900000000-a7cded21e6010eb8bce2
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  134.0369 1318.0 999
+  149.061 159.4 121
+  178.0264 354.7 269
+  193.0501 445.7 338
+//

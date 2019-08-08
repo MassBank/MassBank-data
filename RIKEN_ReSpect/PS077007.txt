@@ -1,0 +1,44 @@
+ACCESSION: PS077007
+RECORD_TITLE: AOA, AOAA, Aminooxyacetic acid Hemihydrochloride, CMO, Aminooxyacetic acid, Carboxymethoxylamine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 037-06191 .
+COMMENT: PRIMe compound in-house ID S0180
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: AOA
+CH$NAME: AOAA
+CH$NAME: Aminooxyacetic acid Hemihydrochloride
+CH$NAME: CMO
+CH$NAME: Aminooxyacetic acid
+CH$NAME: Carboxymethoxylamine
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Acetic acid
+CH$FORMULA: C2H5NO3
+CH$EXACT_MASS: 91.066
+CH$SMILES: C(C(=O)O)ON
+CH$IUPAC: InChI=1S/C2H5NO3/c3-6-1-2(4)5/h1,3H2,(H,4,5)
+CH$LINK: CAS 645-88-5
+CH$LINK: PUBCHEM CID:286
+CH$LINK: INCHIKEY NQRKYASMKDDGHT-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 90.98
+PK$SPLASH: splash10-0002-9000000000-034a76dac3812898d9c4
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  44.0 99672.0 252
+  45.0 395826.0 999
+  90.0 18492.0 47
+  91.0 51927.0 131
+//

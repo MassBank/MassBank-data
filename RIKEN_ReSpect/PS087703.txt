@@ -1,0 +1,44 @@
+ACCESSION: PS087703
+RECORD_TITLE: dragosantol, Levomenol, 6-methyl-2-(4-methyl-3-cyclohexen-1-yl)-5-hepten-2-ol, Bisabola-1,12-dien-8-ol, alpha-bisabolol; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako/Avocado , 521-98791/B21457 .
+COMMENT: PRIMe compound in-house ID S0319
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: dragosantol
+CH$NAME: Levomenol
+CH$NAME: 6-methyl-2-(4-methyl-3-cyclohexen-1-yl)-5-hepten-2-ol
+CH$NAME: Bisabola-1,12-dien-8-ol
+CH$NAME: alpha-bisabolol
+CH$COMPOUND_CLASS: CLASS1 Terpenoid CLASS2 Sesquiterpenoid CLASS3 Bisabolol
+CH$FORMULA: C15H26O
+CH$EXACT_MASS: 222.372
+CH$SMILES: CC1=CCC(CC1)C(C)(CCC=C(C)C)O
+CH$IUPAC: InChI=1S/C15H26O/c1-12(2)6-5-11-15(4,16)14-9-7-13(3)8-10-14/h6-7,14,16H,5,8-11H2,1-4H3
+CH$LINK: CAS 515-69-5
+CH$LINK: KEGG C09621
+CH$LINK: PUBCHEM CID:442343
+CH$LINK: INCHIKEY RGZSQWQPBWRIAQ-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 223.22
+PK$SPLASH: splash10-0a4i-0090000000-55352fed050794b616a0
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  73.0 18916.0 111
+  191.0 18181.0 106
+  206.0 51238.0 299
+  207.0 170927.0 999
+//

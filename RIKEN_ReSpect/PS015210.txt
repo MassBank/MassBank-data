@@ -1,0 +1,41 @@
+ACCESSION: PS015210
+RECORD_TITLE: 2'-Deoxyuridine-5'-triphosphate sodium salt, 2'-deoxy-UTP, dUTP; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, D4001.
+COMMENT: PRIMe compound in-house ID 152
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 2'-Deoxyuridine-5'-triphosphate sodium salt
+CH$NAME: 2'-deoxy-UTP
+CH$NAME: dUTP
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Uridine phosphate
+CH$FORMULA: C9H15N2O14P3
+CH$EXACT_MASS: 468.147
+CH$SMILES: C1C(C(OC1N2C=CC(=O)NC2=O)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O
+CH$IUPAC: InChI=1S/C9H15N2O14P3/c12-5-3-8(11-2-1-7(13)10-9(11)14)23-6(5)4-22-27(18,19)25-28(20,21)24-26(15,16)17/h1-2,5-6,8,12H,3-4H2,(H,18,19)(H,20,21)(H,10,13,14)(H2,15,16,17)
+CH$LINK: CAS 1173-82-6
+CH$LINK: KEGG C00460
+CH$LINK: PUBCHEM CID:65070
+CH$LINK: INCHIKEY AHCYMLUZIRLXAA-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 467.27
+PK$SPLASH: splash10-0a4i-0901100000-64388a014baecd498b16
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  159.0 79091.0 999
+  386.0 10843.0 137
+  467.0 12865.0 162
+//

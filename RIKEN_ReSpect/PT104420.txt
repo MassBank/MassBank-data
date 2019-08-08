@@ -1,0 +1,39 @@
+ACCESSION: PT104420
+RECORD_TITLE: Dihydrocapsacine, 8-Methyl-N-vanillylnonanamide, Dihydrocapsaicin, N-((4-hydroxy-3-methoxyphenyl)methyl)-8-methyl-nonanamide, N-[(4-hydroxy-3-methoxyphenyl)methyl]-8-methylnonanamide; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Dihydrocapsacine
+CH$NAME: 8-Methyl-N-vanillylnonanamide
+CH$NAME: Dihydrocapsaicin
+CH$NAME: N-((4-hydroxy-3-methoxyphenyl)methyl)-8-methyl-nonanamide
+CH$NAME: N-[(4-hydroxy-3-methoxyphenyl)methyl]-8-methylnonanamide
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Capsaicin
+CH$FORMULA: C18H29NO3
+CH$EXACT_MASS: 307.434
+CH$SMILES: CC(C)CCCCCCC(=O)NCC1=CC(=C(C=C1)O)OC
+CH$IUPAC: InChI=1S/C18H29NO3/c1-14(2)8-6-4-5-7-9-18(21)19-13-15-10-11-16(20)17(12-15)22-3/h10-12,14,20H,4-9,13H2,1-3H3,(H,19,21)
+CH$LINK: CAS 19408-84-5
+CH$LINK: INCHIKEY XJQPQKLURWNAAH-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 308.22253
+PK$SPLASH: splash10-000i-0900000000-4daa3f6ecd5e6c49d89a
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  94.0418 208.5 97
+  122.0365 303.0 140
+  137.0598 2158.0 999
+  184.1702 74.78 35
+  308.2225 58.76 27
+//

@@ -1,0 +1,56 @@
+ACCESSION: PS019601
+RECORD_TITLE: 3-Mercapto-D-valine, Cupripen, beta-Thiovaline, (2S)-2-Amino-3-methyl-3-sulfanylbutanoic acid, 3,3-Dimethyl-D-cysteine, alpha-Amino-beta-methyl-beta-mercaptobutylic Acid, Kuprenil, Perdolat, Depen, DPA, D-(?)-2-Amino-3-mercapto-3-methylbutanoic acid, D-(-)-Penicillamine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, P4875.
+COMMENT: PRIMe compound in-house ID 196
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 3-Mercapto-D-valine
+CH$NAME: Cupripen
+CH$NAME: beta-Thiovaline
+CH$NAME: (2S)-2-Amino-3-methyl-3-sulfanylbutanoic acid
+CH$NAME: 3,3-Dimethyl-D-cysteine
+CH$NAME: alpha-Amino-beta-methyl-beta-mercaptobutylic Acid
+CH$NAME: Kuprenil
+CH$NAME: Perdolat
+CH$NAME: Depen
+CH$NAME: DPA
+CH$NAME: D-(?)-2-Amino-3-mercapto-3-methylbutanoic acid
+CH$NAME: D-(-)-Penicillamine
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Penicillamine
+CH$FORMULA: C5H11NO2S
+CH$EXACT_MASS: 149.213
+CH$SMILES: CC(C)(C(C(=O)O)N)S
+CH$IUPAC: InChI=1S/C5H11NO2S/c1-5(2,9)3(6)4(7)8/h3,9H,6H2,1-2H3,(H,7,8)
+CH$LINK: CAS 52-67-5
+CH$LINK: KEGG C07418
+CH$LINK: PUBCHEM CID:5852
+CH$LINK: INCHIKEY VVNCNSJFMMFHPL-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 149.11
+PK$SPLASH: splash10-0002-3900000000-172426a3f1810c43b674
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  70.0 24426.0 434
+  71.0 6829.0 121
+  100.0 2740.0 49
+  107.0 4092.0 73
+  115.0 2998.0 53
+  117.0 4942.0 88
+  125.0 6485.0 115
+  148.0 7719.0 137
+  149.0 56191.0 999
+//

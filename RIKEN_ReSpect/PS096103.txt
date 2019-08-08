@@ -1,0 +1,43 @@
+ACCESSION: PS096103
+RECORD_TITLE: TMANO, Trimethylamine N-oxide dihydrate, N,N-Dimethylmethanamine oxide, TMAO; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, T0514.
+COMMENT: PRIMe compound in-house ID N0019
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: TMANO
+CH$NAME: Trimethylamine N-oxide dihydrate
+CH$NAME: N,N-Dimethylmethanamine oxide
+CH$NAME: TMAO
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Other
+CH$FORMULA: C3H9NO
+CH$EXACT_MASS: 75.111
+CH$SMILES: C[N+](C)(C)[O-]
+CH$IUPAC: InChI=1S/C3H9NO/c1-4(2,3)5/h1-3H3
+CH$LINK: CAS 1184-78-7
+CH$LINK: KEGG C01104
+CH$LINK: PUBCHEM CID:1145
+CH$LINK: INCHIKEY UYPYRKYUKCHHIB-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 76.07
+PK$SPLASH: splash10-0a4i-9000000000-2c4f2b9a19ebe42bfef1
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  57.0 7399.0 62
+  58.0 119194.0 999
+  59.0 51251.0 430
+  60.0 4185.0 35
+//

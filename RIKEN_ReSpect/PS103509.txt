@@ -1,0 +1,40 @@
+ACCESSION: PS103509
+RECORD_TITLE: 3-Hydroxymandelic acid , 3-Hydroxyphenylglycolic acid, 3-Hydroxymandelate, m-Hydroxymandelic Acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Fluka, 55520.
+COMMENT: PRIMe compound in-house ID N0093
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 3-Hydroxymandelic acid
+CH$NAME: 3-Hydroxyphenylglycolic acid
+CH$NAME: 3-Hydroxymandelate
+CH$NAME: m-Hydroxymandelic Acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Mandelic acid
+CH$FORMULA: C8H8O4
+CH$EXACT_MASS: 168.148
+CH$SMILES: C1=CC(=CC(=C1)O)C(C(=O)O)O
+CH$IUPAC: InChI=1S/C8H8O4/c9-6-3-1-2-5(4-6)7(10)8(11)12/h1-4,7,9-10H,(H,11,12)
+CH$LINK: CAS 17119-15-2
+CH$LINK: PUBCHEM CID:86957
+CH$LINK: INCHIKEY OLSDAJRAVOVKLG-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 167.11
+PK$SPLASH: splash10-00di-0900000000-bc624b23da256b2e0a11
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  120.0 23507.0 272
+  121.0 86471.0 999
+//

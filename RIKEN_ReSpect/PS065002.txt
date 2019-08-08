@@ -1,0 +1,44 @@
+ACCESSION: PS065002
+RECORD_TITLE: Dimethylphenylamine, Dimethylaminobenzene, N,N-Dimethylbenzenamine, N,N-Dimethylphenylamine, N,N-Dimethylaniline; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 044-02763.
+COMMENT: PRIMe compound in-house ID S0037
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Dimethylphenylamine
+CH$NAME: Dimethylaminobenzene
+CH$NAME: N,N-Dimethylbenzenamine
+CH$NAME: N,N-Dimethylphenylamine
+CH$NAME: N,N-Dimethylaniline
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Aniline
+CH$FORMULA: C8H11N
+CH$EXACT_MASS: 121.183
+CH$SMILES: CN(C)C1=CC=CC=C1
+CH$IUPAC: InChI=1S/C8H11N/c1-9(2)8-6-4-3-5-7-8/h3-7H,1-2H3
+CH$LINK: CAS 121-69-7
+CH$LINK: KEGG C02846
+CH$LINK: PUBCHEM CID:949
+CH$LINK: INCHIKEY JLTDJTHDQAWBAV-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 122.13
+PK$SPLASH: splash10-0ab9-0900000000-e9df54bba135cdc03b11
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  106.0 33825.0 204
+  107.0 165373.0 999
+  121.0 42464.0 257
+  122.0 122998.0 743
+//

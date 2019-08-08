@@ -1,0 +1,34 @@
+ACCESSION: PM000944
+RECORD_TITLE: Glycyl-L-proline; LC-ESI-QQ; MS2
+DATE: 2006.04.27
+AUTHORS: Piraud M, et al.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2012 Plant Science Center, RIKEN
+PUBLICATION: Piraud, M.; Vianey-Saban, C.; Petritis, K.; Elfakir, C.; Steghens, J.-P.; Morla, A.; Bouchu, D. ESI-MS/MS Analysis of Underivatised Amino Acids: A New Tool for the Diagnosis of Inherited Disorders of Amino Acid Metabolism. Fragmentation Study of 79 Molecules of Biological Interest in Positive and Negative Ionisation Mode. Rapid Communications in Mass Spectrometry 2003, 17 (12), 1297–311. DOI:10.1002/rcm.1054
+COMMENT: 732
+CH$NAME: Glycyl-L-proline
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Proline
+CH$FORMULA: C7H12N2O3
+CH$EXACT_MASS: 172.184
+CH$SMILES: NCC(=O)N1CCC[C@H]1C(=O)O
+CH$IUPAC: InChI=1S/C7H12N2O3/c8-4-6(10)9-3-1-2-5(9)7(11)12/h5H,1-4,8H2,(H,11,12)/t5-/m0/s1
+CH$LINK: CAS 704-15-4
+CH$LINK: INCHIKEY KZNQNBZMBZJQJO-YFKPBYRVSA-N
+CH$LINK: PUBCHEM CID:3013625
+SP$SAMPLE: authentic sample
+AC$INSTRUMENT: API 2000 ESI-MS/MS system triple quadrupole mass spectrometer (Sciex Applied Biosystems, Toronto, Canada)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 16
+AC$CHROMATOGRAPHY: SOLVENT MeOH/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 173
+PK$SPLASH: splash10-01b9-5900000000-3496c7b5f134d257e57f
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  70.0 65.0 649
+  116.0 100.0 999
+  127.0 9.0 90
+//

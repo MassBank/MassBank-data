@@ -1,0 +1,46 @@
+ACCESSION: PS095305
+RECORD_TITLE: Hippuric Acid, Benzoylaminoacetic acid, Hippurate, N-Benzoylglycine, Benzamidoacetic acid, Phenylcarbonylaminoacetic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, 112003.
+COMMENT: PRIMe compound in-house ID N0011
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Hippuric Acid
+CH$NAME: Benzoylaminoacetic acid
+CH$NAME: Hippurate
+CH$NAME: N-Benzoylglycine
+CH$NAME: Benzamidoacetic acid
+CH$NAME: Phenylcarbonylaminoacetic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Hippuric acid
+CH$FORMULA: C9H9NO3
+CH$EXACT_MASS: 179.175
+CH$SMILES: C1=CC=C(C=C1)C(=O)NCC(=O)O
+CH$IUPAC: InChI=1S/C9H9NO3/c11-8(12)6-10-9(13)7-4-2-1-3-5-7/h1-5H,6H2,(H,10,13)(H,11,12)
+CH$LINK: CAS 495-69-2
+CH$LINK: KEGG C01586
+CH$LINK: PUBCHEM CID:464
+CH$LINK: INCHIKEY QIAFMBKCNZACKA-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 50
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 180.18
+PK$SPLASH: splash10-004i-9100000000-4ce2a080c66f5220d31d
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  76.0 26427.0 340
+  77.0 77743.0 999
+  93.0 3919.0 50
+  104.0 9791.0 126
+  105.0 11488.0 148
+//

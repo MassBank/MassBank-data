@@ -1,0 +1,51 @@
+ACCESSION: PS036304
+RECORD_TITLE: trans-ribosylzeatin, N6-(trans-4-Hydroxy-3-methyl-2-buten-1-yl)adenosine, trans-Zeatin-riboside, 9-(beta-D-Ribofuranosyl)-trans-zeatin; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, Z3541.
+COMMENT: PRIMe compound in-house ID 363
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: trans-ribosylzeatin
+CH$NAME: N6-(trans-4-Hydroxy-3-methyl-2-buten-1-yl)adenosine
+CH$NAME: trans-Zeatin-riboside
+CH$NAME: 9-(beta-D-Ribofuranosyl)-trans-zeatin
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleoside CLASS3 Zeatin
+CH$FORMULA: C15H21N5O5
+CH$EXACT_MASS: 351.363
+CH$SMILES: CC(=CCNC1=NC=NC2=C1N=CN2C3C(C(C(O3)CO)O)O)CO
+CH$IUPAC: InChI=1S/C15H21N5O5/c1-8(4-21)2-3-16-13-10-14(18-6-17-13)20(7-19-10)15-12(24)11(23)9(5-22)25-15/h2,6-7,9,11-12,15,21-24H,3-5H2,1H3,(H,16,17,18)
+CH$LINK: CAS 6025-53-2
+CH$LINK: KEGG C16431
+CH$LINK: PUBCHEM CID:6440982
+CH$LINK: INCHIKEY GOSWTRUMMSCNCW-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 352.37
+PK$SPLASH: splash10-0079-0960000000-4ca3ccd8a53b678ffaa6
+PK$NUM_PEAK: 12
+PK$PEAK: m/z int. rel.int.
+  43.0 27560.0 146
+  57.0 6077.0 32
+  135.0 51083.0 271
+  136.0 188616.0 999
+  147.0 9577.0 51
+  148.0 73719.0 390
+  185.0 5735.0 30
+  201.0 11157.0 59
+  202.0 45244.0 240
+  218.0 6318.0 33
+  219.0 50833.0 269
+  220.0 130782.0 693
+//

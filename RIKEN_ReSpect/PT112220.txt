@@ -1,0 +1,38 @@
+ACCESSION: PT112220
+RECORD_TITLE: Peonin, Pn 3,5-di-Glc, (2S,3R,4S,5S,6R)-2-[7-hydroxy-2-(4-hydroxy-3-methoxyphenyl)-5-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromenylium-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol, Peonidin-3,5-O-di-beta-glucopyranoside, Paeonin; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Peonin
+CH$NAME: Pn 3,5-di-Glc
+CH$NAME: (2S,3R,4S,5S,6R)-2-[7-hydroxy-2-(4-hydroxy-3-methoxyphenyl)-5-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromenylium-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol
+CH$NAME: Peonidin-3,5-O-di-beta-glucopyranoside
+CH$NAME: Paeonin
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Anthocyanin CLASS3 Peonidin glycoside
+CH$FORMULA: [C28H33O16]+
+CH$EXACT_MASS: 625.556
+CH$SMILES: COC1=C(C=CC(=C1)C2=C(C=C3C(=CC(=CC3=[O+]2)O)OC4C(C(C(C(O4)CO)O)O)O)OC5C(C(C(C(O5)CO)O)O)O)O
+CH$IUPAC: InChI=1S/C28H32O16/c1-39-16-4-10(2-3-13(16)32)26-17(42-28-25(38)23(36)21(34)19(9-30)44-28)7-12-14(40-26)5-11(31)6-15(12)41-27-24(37)22(35)20(33)18(8-29)43-27/h2-7,18-25,27-30,33-38H,8-9H2,1H3,(H-,31,32)/p+1
+CH$LINK: CAS 132-37-6
+CH$LINK: INCHIKEY IPVSUYLZIAYTOK-UHFFFAOYSA-O
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 625.17683
+PK$SPLASH: splash10-0udi-0019102000-092e360f72fc80a51624
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  286.0489 599.8 134
+  301.0717 4488.0 999
+  463.1255 797.0 177
+  625.1768 1182.0 263
+//

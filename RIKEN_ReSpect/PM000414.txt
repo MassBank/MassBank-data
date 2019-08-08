@@ -1,0 +1,33 @@
+ACCESSION: PM000414
+RECORD_TITLE: Prunin; LC-ESI-QQ; MS2
+DATE: 2006.04.20
+AUTHORS: Sanchez-Rabaneda F, et al.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2012 Plant Science Center, RIKEN
+PUBLICATION: Sánchez-Rabaneda, F.; Jáuregui, O.; Casals, I.; Andrés-Lacueva, C.; Izquierdo-Pulido, M.; Lamuela-Raventós, R. M. Liquid Chromatographic/Electrospray Ionization Tandem Mass Spectrometric Study of the Phenolic Composition of Cocoa (Theobroma Cacao). Journal of Mass Spectrometry 2003, 38 (1), 35–42. DOI:10.1002/jms.395
+COMMENT: 726
+CH$NAME: Prunin
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Chalcone CLASS3 Naringenin glycoside
+CH$FORMULA: C21H22O10
+CH$EXACT_MASS: 434.397
+CH$SMILES: O=C1C[C@@H](c2ccc(O)cc2)Oc2cc(O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)c21
+CH$IUPAC: InChI=1S/C21H22O10/c22-8-16-18(26)19(27)20(28)21(31-16)29-11-5-12(24)17-13(25)7-14(30-15(17)6-11)9-1-3-10(23)4-2-9/h1-6,14,16,18-24,26-28H,7-8H2/t14-,16+,18+,19-,20+,21+/m0/s1
+CH$LINK: CAS 529-55-5
+CH$LINK: INCHIKEY DLIKSSGEMUFQOK-SFTVRKLSSA-N
+CH$LINK: PUBCHEM CID:92794
+SP$SAMPLE: Theobroma cacao
+AC$INSTRUMENT: Agilent (Waldbronn, Germany) Model 1100; API 3000 triple-quadrupole mass spectrometer (Perkin-Elmer Sciex, Concord, ON, Canada)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY -20
+AC$CHROMATOGRAPHY: SOLVENT H2O/NH3CN/HCOOH
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 433
+PK$SPLASH: splash10-00e9-0090600000-5594c386d7230c06bd74
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  271.0 100.0 999
+  433.0 70.0 699
+//

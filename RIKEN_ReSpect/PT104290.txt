@@ -1,0 +1,39 @@
+ACCESSION: PT104290
+RECORD_TITLE: Pelargonidin-3-O-glucoside, pelargonidin 3-O-beta-d-glucopyranoside, 3-(Glucosyloxy)-4',5,7-trihydroxyflavylium , Callistephin Chloride, Pelg-Glc, (2S,3R,4S,5S,6R)-2-[5,7-dihydroxy-2-(4-hydroxyphenyl)chromenylium-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Pelargonidin-3-O-glucoside
+CH$NAME: pelargonidin 3-O-beta-d-glucopyranoside
+CH$NAME: 3-(Glucosyloxy)-4',5,7-trihydroxyflavylium
+CH$NAME: Callistephin Chloride
+CH$NAME: Pelg-Glc
+CH$NAME: (2S,3R,4S,5S,6R)-2-[5,7-dihydroxy-2-(4-hydroxyphenyl)chromenylium-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Anthocyanin CLASS3 Pelargonidin glycoside
+CH$FORMULA: [C21H21O10]+
+CH$EXACT_MASS: 433.389
+CH$SMILES: C1=CC(=CC=C1C2=C(C=C3C(=CC(=CC3=[O+]2)O)O)OC4C(C(C(C(O4)CO)O)O)O)O
+CH$IUPAC: InChI=1S/C21H20O10/c22-8-16-17(26)18(27)19(28)21(31-16)30-15-7-12-13(25)5-11(24)6-14(12)29-20(15)9-1-3-10(23)4-2-9/h1-7,16-19,21-22,26-28H,8H2,(H2-,23,24,25)/p+1
+CH$LINK: CAS 18466-51-8
+CH$LINK: INCHIKEY ABVCUBUIXWJYSE-UHFFFAOYSA-O
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 433.11344
+PK$SPLASH: splash10-00di-0090100000-bac3e73111b9504ef070
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  121.0305 689.3 80
+  197.0629 218.7 25
+  271.0618 8614.0 999
+  433.1134 1012.0 117
+//

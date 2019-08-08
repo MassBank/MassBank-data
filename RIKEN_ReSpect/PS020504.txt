@@ -1,0 +1,54 @@
+ACCESSION: PS020504
+RECORD_TITLE: D-Vitamin BT, beta-Hydroxy-gamma-trimethylaminobutyric Acid Hydrochloride, D-Carnitine hydrochloride salt; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA(Aldrich), C8835(544361).
+COMMENT: PRIMe compound in-house ID 205
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: D-Vitamin BT
+CH$NAME: beta-Hydroxy-gamma-trimethylaminobutyric Acid Hydrochloride
+CH$NAME: D-Carnitine hydrochloride salt
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: C7H15NO3
+CH$EXACT_MASS: 161.201
+CH$SMILES: C[N+](C)(C)CC(CC(=O)[O-])O
+CH$IUPAC: InChI=1S/C7H15NO3/c1-8(2,3)5-6(9)4-7(10)11/h6,9H,4-5H2,1-3H3
+CH$LINK: CAS 541-14-0
+CH$LINK: KEGG C15025
+CH$LINK: PUBCHEM CID:2724480
+CH$LINK: INCHIKEY PHIQHXFUZVPYII-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 162.18
+PK$SPLASH: splash10-052f-9100000000-8628720dfc2516513cc6
+PK$NUM_PEAK: 16
+PK$PEAK: m/z int. rel.int.
+  29.0 15728.0 233
+  41.0 2063.0 31
+  42.0 18687.0 276
+  43.0 67546.0 999
+  45.0 4981.0 74
+  57.0 9234.0 137
+  58.0 13797.0 204
+  59.0 21520.0 318
+  60.0 24713.0 366
+  84.0 5910.0 87
+  85.0 16249.0 240
+  101.0 2461.0 36
+  102.0 7703.0 114
+  103.0 9246.0 137
+  161.0 3286.0 49
+  162.0 2254.0 33
+//

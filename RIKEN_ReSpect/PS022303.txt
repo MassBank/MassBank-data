@@ -1,0 +1,41 @@
+ACCESSION: PS022303
+RECORD_TITLE: R-5-P, Rib-5P, D-Ribofuranose 5-phosphate disodium salt, D-Ribose-5-phosphate disodium salt hydrate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, R7750.
+COMMENT: PRIMe compound in-house ID 223
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: R-5-P
+CH$NAME: Rib-5P
+CH$NAME: D-Ribofuranose 5-phosphate disodium salt
+CH$NAME: D-Ribose-5-phosphate disodium salt hydrate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Suger phosphate CLASS3 Ribose phosphate
+CH$FORMULA: C5H11O8P
+CH$EXACT_MASS: 230.111
+CH$SMILES: C(C1C(C(C(O1)O)O)O)OP(=O)(O)O
+CH$IUPAC: InChI=1S/C5H11O8P/c6-3-2(1-12-14(9,10)11)13-5(8)4(3)7/h2-8H,1H2,(H2,9,10,11)
+CH$LINK: CAS 4300-28-1
+CH$LINK: KEGG C00117
+CH$LINK: PUBCHEM CID:439167
+CH$LINK: INCHIKEY KTVPXOYAKDPRHY-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 231.19
+PK$SPLASH: splash10-0002-9000000000-cd2f66747d5b1f95fc79
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  96.0 25702.0 174
+  97.0 147462.0 999
+//

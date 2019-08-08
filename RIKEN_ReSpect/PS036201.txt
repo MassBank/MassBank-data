@@ -1,0 +1,43 @@
+ACCESSION: PS036201
+RECORD_TITLE: Hyp, Hypro, trans-4-Hydroxy-L-proline, (2S,4R)-4-Hydroxypyrrolidine-2-carboxylic acid, Oxaceprol; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, H6002(H5534).
+COMMENT: PRIMe compound in-house ID 362
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Hyp
+CH$NAME: Hypro
+CH$NAME: trans-4-Hydroxy-L-proline
+CH$NAME: (2S,4R)-4-Hydroxypyrrolidine-2-carboxylic acid
+CH$NAME: Oxaceprol
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Proline
+CH$FORMULA: C5H9NO3
+CH$EXACT_MASS: 131.131
+CH$SMILES: C1C(CNC1C(=O)O)O
+CH$IUPAC: InChI=1S/C5H9NO3/c7-3-1-4(5(8)9)6-2-3/h3-4,6-7H,1-2H2,(H,8,9)
+CH$LINK: CAS 51-35-4
+CH$LINK: KEGG C01157
+CH$LINK: PUBCHEM CID:5810
+CH$LINK: INCHIKEY PMMYEEVYMWASQN-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 132.11
+PK$SPLASH: splash10-001i-0900000000-0943aeed1990a5a1406e
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  86.0 104310.0 78
+  131.0 224078.0 168
+  132.0 1329153.0 999
+//

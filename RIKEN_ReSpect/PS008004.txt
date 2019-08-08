@@ -1,0 +1,45 @@
+ACCESSION: PS008004
+RECORD_TITLE: 2-Oxopyridine, 2-Pyridinol, 2-Hydroxypyridine, 2(1H)-Pyridone; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, H56800.
+COMMENT: PRIMe compound in-house ID 80
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 2-Oxopyridine
+CH$NAME: 2-Pyridinol
+CH$NAME: 2-Hydroxypyridine
+CH$NAME: 2(1H)-Pyridone
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Pyridine
+CH$FORMULA: C5H5NO
+CH$EXACT_MASS: 95.101
+CH$SMILES: C1=CC(=O)NC=C1
+CH$IUPAC: InChI=1S/C5H5NO/c7-5-3-1-2-4-6-5/h1-4H,(H,6,7)
+CH$LINK: CAS 142-08-5
+CH$LINK: KEGG C02502
+CH$LINK: PUBCHEM CID:8871
+CH$LINK: INCHIKEY UBQKCCHYAOITMY-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID2051716
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 96.05
+PK$SPLASH: splash10-004i-9000000000-0f37ce5babea0331104c
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  50.0 9693.0 98
+  51.0 24322.0 246
+  77.0 16165.0 163
+  78.0 98815.0 999
+  96.0 10945.0 111
+//

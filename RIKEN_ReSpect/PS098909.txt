@@ -1,0 +1,44 @@
+ACCESSION: PS098909
+RECORD_TITLE: VMA, Vanilmandelic acid, Vanilinmandelic Acid, alpha,4-Dihydroxy-3-methoxybenzeneacetic acid, Vanillomandelic acid, DL-4-Hydroxy-3-methoxymandelic acid , 4-Hydroxy-3-methoxymandelate, Vanillylmandelic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, H0131.
+COMMENT: PRIMe compound in-house ID N0047
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: VMA
+CH$NAME: Vanilmandelic acid
+CH$NAME: Vanilinmandelic Acid
+CH$NAME: alpha,4-Dihydroxy-3-methoxybenzeneacetic acid
+CH$NAME: Vanillomandelic acid
+CH$NAME: DL-4-Hydroxy-3-methoxymandelic acid
+CH$NAME: 4-Hydroxy-3-methoxymandelate
+CH$NAME: Vanillylmandelic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Mandelic acid
+CH$FORMULA: C9H10O5
+CH$EXACT_MASS: 198.174
+CH$SMILES: COC1=C(C=CC(=C1)C(C(=O)O)O)O
+CH$IUPAC: InChI=1S/C9H10O5/c1-14-7-4-5(2-3-6(7)10)8(11)9(12)13/h2-4,8,10-11H,1H3,(H,12,13)
+CH$LINK: KEGG C05584
+CH$LINK: PUBCHEM CID:1245
+CH$LINK: INCHIKEY CGQCWMIAEPEHNQ-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 197.17
+PK$SPLASH: splash10-000i-0900000000-ef943b3b15e1e003e244
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  137.0 88968.0 999
+  138.0 14078.0 158
+//

@@ -1,0 +1,40 @@
+ACCESSION: PS014911
+RECORD_TITLE: dITP, 2'-Deoxy-ITP, 2'-Deoxyinosine-5'-triphosphate trisodium salt ; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, D0758.
+COMMENT: PRIMe compound in-house ID 149
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: dITP
+CH$NAME: 2'-Deoxy-ITP
+CH$NAME: 2'-Deoxyinosine-5'-triphosphate trisodium salt
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Inosine phosphate
+CH$FORMULA: C10H15N4O13P3
+CH$EXACT_MASS: 492.173
+CH$SMILES: C1C(C(OC1N2C=NC3=C2NC=NC3=O)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O
+CH$IUPAC: InChI=1S/C10H15N4O13P3/c15-5-1-7(14-4-13-8-9(14)11-3-12-10(8)16)25-6(5)2-24-29(20,21)27-30(22,23)26-28(17,18)19/h3-7,15H,1-2H2,(H,20,21)(H,22,23)(H,11,12,16)(H2,17,18,19)
+CH$LINK: CAS 16595-02-1
+CH$LINK: KEGG C01345
+CH$LINK: PUBCHEM CID:146302
+CH$LINK: INCHIKEY UFJPAQSLHAGEBL-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 50
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 491.28
+PK$SPLASH: splash10-0a4i-0900000000-680e11bf649886d7336b
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  159.0 95681.0 999
+  177.0 19605.0 205
+//

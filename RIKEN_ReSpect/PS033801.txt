@@ -1,0 +1,44 @@
+ACCESSION: PS033801
+RECORD_TITLE: L-Carbocisteine, S-Carboxymethyl-L-cysteine, PSCMC, L-Carboxymethylcysteine, Mucodyne; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, C7757.
+COMMENT: PRIMe compound in-house ID 338
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-Carbocisteine
+CH$NAME: S-Carboxymethyl-L-cysteine
+CH$NAME: PSCMC
+CH$NAME: L-Carboxymethylcysteine
+CH$NAME: Mucodyne
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Cysteine
+CH$FORMULA: C5H9NO4S
+CH$EXACT_MASS: 179.195
+CH$SMILES: C(C(C(=O)O)N)SCC(=O)O
+CH$IUPAC: InChI=1S/C5H9NO4S/c6-3(5(9)10)1-11-2-4(7)8/h3H,1-2,6H2,(H,7,8)(H,9,10)
+CH$LINK: CAS 638-23-3
+CH$LINK: KEGG C03727
+CH$LINK: PUBCHEM CID:193653
+CH$LINK: INCHIKEY GBFLZEXEOZUWRN-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 180.16
+PK$SPLASH: splash10-001i-0900000000-8d6799c1d7bf150f02b8
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  162.0 5204.0 35
+  163.0 14220.0 96
+  179.0 25899.0 175
+  180.0 148029.0 999
+//

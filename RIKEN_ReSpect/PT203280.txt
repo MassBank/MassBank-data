@@ -1,0 +1,39 @@
+ACCESSION: PT203280
+RECORD_TITLE: 3,4-Dihydroxybenzoate, Protocatechuic acid, 3,4-Dihydroxybenzoic acid, 4-Carboxy-1,2-dihydroxybenzene, Protocatechuate, Catechol-4-carboxylic Acid, 3,4-dihydroxybenzoic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 3,4-Dihydroxybenzoate
+CH$NAME: Protocatechuic acid
+CH$NAME: 3,4-Dihydroxybenzoic acid
+CH$NAME: 4-Carboxy-1,2-dihydroxybenzene
+CH$NAME: Protocatechuate
+CH$NAME: Catechol-4-carboxylic Acid
+CH$NAME: 3,4-dihydroxybenzoic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Benzoic acid CLASS3 Protocatechuic acid
+CH$FORMULA: C7H6O4
+CH$EXACT_MASS: 154.121
+CH$SMILES: C1=CC(=C(C=C1C(=O)O)O)O
+CH$IUPAC: InChI=1S/C7H6O4/c8-5-2-1-4(7(10)11)3-6(5)9/h1-3,8-9H,(H,10,11)
+CH$LINK: CAS 99-50-3
+CH$LINK: INCHIKEY YQUVCSBJEUQKSH-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 153.01881
+PK$SPLASH: splash10-0a4i-0900000000-58c9b8232fbc187217d4
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  108.0218 124.4 146
+  109.0297 851.7 999
+  153.0188 293.7 344
+//

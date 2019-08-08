@@ -1,0 +1,52 @@
+ACCESSION: PS015702
+RECORD_TITLE: Emisol, Amitrol, Cytrole, Herbizole, 3-AT, aminotriazole, 1,2,4-Triazol-3-amine, ATA, 3-Amino-1,2,4-triazole; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A8056.
+COMMENT: PRIMe compound in-house ID 157
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Emisol
+CH$NAME: Amitrol
+CH$NAME: Cytrole
+CH$NAME: Herbizole
+CH$NAME: 3-AT
+CH$NAME: aminotriazole
+CH$NAME: 1,2,4-Triazol-3-amine
+CH$NAME: ATA
+CH$NAME: 3-Amino-1,2,4-triazole
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Triazole
+CH$FORMULA: C2H4N4
+CH$EXACT_MASS: 84.082
+CH$SMILES: C1=NNC(=N1)N
+CH$IUPAC: InChI=1S/C2H4N4/c3-2-4-1-5-6-2/h1H,(H3,3,4,5,6)
+CH$LINK: CAS 61-82-5
+CH$LINK: KEGG C11261
+CH$LINK: PUBCHEM CID:1639
+CH$LINK: INCHIKEY KLSJWNVTNUYHDU-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID0020076
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 85.05
+PK$SPLASH: splash10-000i-9000000000-78493884f7486e311541
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  42.0 8756.0 44
+  43.0 30620.0 155
+  57.0 17840.0 90
+  58.0 7754.0 39
+  83.0 7777.0 39
+  84.0 43214.0 218
+  85.0 197886.0 999
+//

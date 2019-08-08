@@ -1,0 +1,45 @@
+ACCESSION: PT203940
+RECORD_TITLE: 1,2-Benzenediol, o-Benzenediol, o-Diphenol, 1,2-dihydroxybenzen, Catechol, Pyrocatechinic acid, Brenzcatechin, Oxyphenic acid, o-Phenylenediol, Pyrocatechuic Acid, Phthalhydroquinone, Pyrocatechol, benzene-1,2-diol; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 1,2-Benzenediol
+CH$NAME: o-Benzenediol
+CH$NAME: o-Diphenol
+CH$NAME: 1,2-dihydroxybenzen
+CH$NAME: Catechol
+CH$NAME: Pyrocatechinic acid
+CH$NAME: Brenzcatechin
+CH$NAME: Oxyphenic acid
+CH$NAME: o-Phenylenediol
+CH$NAME: Pyrocatechuic Acid
+CH$NAME: Phthalhydroquinone
+CH$NAME: Pyrocatechol
+CH$NAME: benzene-1,2-diol
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Catechol
+CH$FORMULA: C6H6O2
+CH$EXACT_MASS: 110.112
+CH$SMILES: C1=CC=C(C(=C1)O)O
+CH$IUPAC: InChI=1S/C6H6O2/c7-5-3-1-2-4-6(5)8/h1-4,7-8H
+CH$LINK: CAS 120-80-9
+CH$LINK: INCHIKEY YCIMNLLNPGFGHC-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 109.02898
+PK$SPLASH: splash10-0a4i-0900000000-c94dab4d218dbb3bb108
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  91.0189 13.98 30
+  108.0217 72.49 156
+  109.029 465.7 999
+//

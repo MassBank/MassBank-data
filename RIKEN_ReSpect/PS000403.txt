@@ -1,0 +1,46 @@
+ACCESSION: PS000403
+RECORD_TITLE: Cycloleucine, Cycloleucin, 1-Amino-1-cyclopentanecarboxylic acid, acpc; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, A48105.
+COMMENT: PRIMe compound in-house ID 4
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Cycloleucine
+CH$NAME: Cycloleucin
+CH$NAME: 1-Amino-1-cyclopentanecarboxylic acid
+CH$NAME: acpc
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Leucine
+CH$FORMULA: C6H11NO2
+CH$EXACT_MASS: 129.159
+CH$SMILES: C1CCC(C1)(C(=O)O)N
+CH$IUPAC: InChI=1S/C6H11NO2/c7-6(5(8)9)3-1-2-4-6/h1-4,7H2,(H,8,9)
+CH$LINK: CAS 52-52-8
+CH$LINK: KEGG C03969
+CH$LINK: PUBCHEM CID:2901
+CH$LINK: INCHIKEY NILQLFBWTXNUOE-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID5024475
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 130.15
+PK$SPLASH: splash10-001i-9000000000-f10ede3ba6bbdbb12122
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  41.0 15181.0 78
+  66.0 6930.0 36
+  67.0 50767.0 262
+  69.0 12660.0 65
+  83.0 36910.0 191
+  84.0 193455.0 999
+//
