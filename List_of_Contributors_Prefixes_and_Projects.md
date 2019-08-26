@@ -39,7 +39,7 @@
 | RIKEN_NPDepo              | RIKEN Center for Sustainable Resource Science                           | Japan             | NGA, CB        |                            |
 | RIKEN_ReSpect             | RIKEN Plant Science Center                                              | Japan             | PT, PS, PM     |                            |
 | Tottori_Univ              | Tottori University                                                      | Japan           | TT             |                            |
-| UFZ                       | Helmholtz Centre for Environmental Research  - UFZ                      | Germany         | UF, UA         | SOLUTIONS, NATOXAQ, HBM4EU |
+| UFZ                       | Helmholtz Centre for Environmental Research  - UFZ                      | Germany         | UF, UA, UN, UP | SOLUTIONS, NATOXAQ, HBM4EU |
 | Univ_Connecticut          | University of Connecticut                                               | USA             | CO             |                            |
 | Univ_Toyama               | University of Toyama                                                    | Japan           | TY             |                            |
 | UOEH                      | University of Occupational and Environmental Health                     | Japan           | UO             |                            |
