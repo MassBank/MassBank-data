@@ -36,7 +36,7 @@ The preferred software to generate MassBank records is [RMassBank](https://www.b
 The release strategy of MassBank-data is similar to the one of MassBank-web and is described below. Additionaly it needs to be taken care of the validation and the codebase for the validation.
 
 ## Main branches
-We use two main branches, `master` and `dev`. All development should happen in `dev` and we define every commit to `master` to be a release. When new data in the `dev` branch has reached a stable point and is ready to be released, all of the changes should be merged back into `master` somehow and then tagged with a release number. The data of `master` should be validated with the `master` of MassBank-web and the data of `dev` should be validated with `dev` of MassBank-web. If the data contains incompatible changes MassBank-web needs to be released first. Before a merge to `master` is possible a validation needs to be succesfull. The code base for the validation is defined in travis.yml. Depending on the given version the `bump-version.sh` adjusts the content of travis.yml to choose the corresponding branch from MassBank-web. If the version tag contains `SNAPSHOT` like in `2019.09-SNAPSHOT` then its defined es `dev` data branch and travis will pull the `dev` branch of MassBank-web for validation. If `SNAPSHOT` is missing its defined to be a release version and travis will pull the `master` branch of MassBank-web for validation. All versions which get a release tag in github are used by a webhook from zenodo and get a DOI attached. The authors list of the record at zenodo needs to be manually edited to contain `MassBank-consortium and its contributors`.
+We use two main branches, `master` and `dev`. All development should happen in `dev` and we define every commit to `master` to be a release. When new data in the `dev` branch has reached a stable point and is ready to be released, all of the changes should be merged back into `master` somehow and then tagged with a release number. The data of `master` should be validated with the `master` of MassBank-web and the data of `dev` should be validated with `dev` of MassBank-web. If the data contains incompatible changes MassBank-web needs to be released first. Before a merge to `master` is possible a validation needs to be succesfull. The code base for the validation is defined in travis.yml. Depending on the given version the `bump-version.sh` adjusts the content of travis.yml to choose the corresponding branch from MassBank-web. If the version tag contains `SNAPSHOT` like in `2019.09-SNAPSHOT` then its identified as `dev` data branch and travis will pull the `dev` branch of MassBank-web for validation. If `SNAPSHOT` is missing its identified to be a release version and travis will pull the `master` branch of MassBank-web for validation. All versions which get a release tag in github are used by a webhook from zenodo and get a DOI attached. The authors list of the record at zenodo needs to be manually edited to contain `MassBank-consortium and its contributors`.
 
 The release process is discussed in detail below. To use all of the command lines below the [github/hub](https://docs.docker.com/install/linux/docker-ce/ubuntu/) tool is required.
 
@@ -46,11 +46,11 @@ Release branches are created in preparation of a release.
 
 Branch off from: `dev`
 
-Must merge back into: `dev` and `master`
+Must merge back into: `master`
 
 Branch naming: `release-*`
 
-Release branches support preparation of a new production release. They allow for minor bug fixes and preparing the version number for a release. It is exactly at the start of a release branch that the upcoming release gets assigned a version number.
+Release branches support preparation of a new production release. They allow for preparing the version number for a release.
 
 #### Creating a release branch
 ```
