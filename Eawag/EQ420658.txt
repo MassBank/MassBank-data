@@ -1,0 +1,48 @@
+ACCESSION: EQ420658
+RECORD_TITLE: Azole-TP 1,2,4 triazole acetic acid; LC-ESI-QFT; MS2; CE: 150%; R=17500; [M-H]-
+DATE: 2019.12.03
+AUTHORS: K. Kiefer [dtc], J. Hollender [dtc], H. Singer [dtc], M. Stravs [com]
+LICENSE: CC BY SA
+COPYRIGHT: Copyright (C) Eawag 2019
+PUBLICATION: Kiefer, K.; Mueller, A.; Singer, H.; Hollender, J. New relevant pesticide transformation products in groundwater detected using target and suspect screening for agricultural and urban micropollutants with LC-HRMS. Water Research 2019, 165. DOI: https://doi.org/10.1016/j.watres.2019.114972
+COMMENT: CONFIDENCE standard compound
+COMMENT: UCHEM_ID 4206
+CH$NAME: Azole-TP 1,2,4 triazole acetic acid
+CH$NAME: 1,2,4-Triazole-1-acetic acid
+CH$NAME: 2-(1,2,4-triazol-1-yl)acetic acid
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C4H5N3O2
+CH$EXACT_MASS: 127.0382
+CH$SMILES: OC(=O)CN1C=NC=N1
+CH$IUPAC: InChI=1S/C4H5N3O2/c8-4(9)1-7-3-5-2-6-7/h2-3H,1H2,(H,8,9)
+CH$LINK: CAS 28711-29-7
+CH$LINK: PUBCHEM CID:1810180
+CH$LINK: INCHIKEY RXDBSQXFIWBJSR-UHFFFAOYSA-N
+CH$LINK: CHEMSPIDER 1414891
+AC$INSTRUMENT: Q Exactive Orbitrap Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 150 % (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 17500
+AC$CHROMATOGRAPHY: COLUMN_NAME XBridge C18 3.5um, 2.1x50mm, Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 90/10 at 0 min, 50/50 at 4 min, 5/95 at 17 min, 5/95 at 25 min, 90/10 at 25.1 min, 90/10 at 30 min
+AC$CHROMATOGRAPHY: FLOW_RATE 200 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.929 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B MeOH with 0.1% formic acid
+MS$FOCUSED_ION: BASE_PEAK 126.0308
+MS$FOCUSED_ION: PRECURSOR_M/Z 126.0309
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 2.99.1
+PK$SPLASH: splash10-014i-9000000000-ca986724293c4c5dd291
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  68.0255 C2H2N3- 1 68.0254 0.95
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  68.0255 149637.9 999
+//
