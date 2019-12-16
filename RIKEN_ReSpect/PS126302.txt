@@ -1,0 +1,41 @@
+ACCESSION: PS126302
+RECORD_TITLE: N-Acetyl-5-methoxytryptamine, 5-Methoxy-N-acetyltryptamine, Melatonin; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, M5250.
+COMMENT: PRIMe compound in-house ID V0137
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: N-Acetyl-5-methoxytryptamine
+CH$NAME: 5-Methoxy-N-acetyltryptamine
+CH$NAME: Melatonin
+CH$COMPOUND_CLASS: CLASS1 Alkaloid CLASS2 Indole CLASS3 Tryptamine
+CH$FORMULA: C13H16N2O2
+CH$EXACT_MASS: 232.283
+CH$SMILES: CC(=O)NCCC1=CNC2=C1C=C(C=C2)OC
+CH$IUPAC: InChI=1S/C13H16N2O2/c1-9(16)14-6-5-10-8-15-13-4-3-11(17-2)7-12(10)13/h3-4,7-8,15H,5-6H2,1-2H3,(H,14,16)
+CH$LINK: CAS 73-31-4
+CH$LINK: KEGG C01598
+CH$LINK: PUBCHEM CID:896
+CH$LINK: INCHIKEY DRLFMBDRBRZALE-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 233.3
+PK$SPLASH: splash10-00di-0900000000-5a0b30791d5c7f049923
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  173.0 139698.0 119
+  174.0 1171068.0 999
+  233.0 37292.0 32
+//

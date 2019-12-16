@@ -1,0 +1,42 @@
+ACCESSION: PS011308
+RECORD_TITLE: Adenosine-3',5'-diphosphate Sodium salt, adenosine 3',5'-bisphosphate, 3'-Phosphoadenylate, PAP, 3'-Phosphoadenosine-5'-phosphate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A5763.
+COMMENT: PRIMe compound in-house ID 113
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Adenosine-3',5'-diphosphate Sodium salt
+CH$NAME: adenosine 3',5'-bisphosphate
+CH$NAME: 3'-Phosphoadenylate
+CH$NAME: PAP
+CH$NAME: 3'-Phosphoadenosine-5'-phosphate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Adenosine phosphate
+CH$FORMULA: C10H15N5O10P2
+CH$EXACT_MASS: 427.207
+CH$SMILES: C1=NC2=C(C(=N1)N)N=CN2C3C(C(C(O3)COP(=O)(O)O)OP(=O)(O)O)O
+CH$IUPAC: InChI=1S/C10H15N5O10P2/c11-8-5-9(13-2-12-8)15(3-14-5)10-6(16)7(25-27(20,21)22)4(24-10)1-23-26(17,18)19/h2-4,6-7,10,16H,1H2,(H2,11,12,13)(H2,17,18,19)(H2,20,21,22)
+CH$LINK: CAS 1053-73-2
+CH$LINK: KEGG C00054
+CH$LINK: PUBCHEM CID:159296
+CH$LINK: INCHIKEY WHTCPDAXWFLDIH-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 426.29
+PK$SPLASH: splash10-004i-0000900000-33014eebb1bdde0f2969
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  425.0 31781.0 414
+  426.0 76664.0 999
+//

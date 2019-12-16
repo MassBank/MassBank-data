@@ -1,0 +1,46 @@
+ACCESSION: PS123301
+RECORD_TITLE: Gal-1P, alpha-D-Galactopyranosyl 1-phosphate dipotassium salt, alpha-D-Galactose-1-phosphate Dipotassium Salt, Galactose-1P; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako/Calbiochem Novabiochem Novagen , 577-72891/345646.
+COMMENT: PRIMe compound in-house ID V0107
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Gal-1P
+CH$NAME: alpha-D-Galactopyranosyl 1-phosphate dipotassium salt
+CH$NAME: alpha-D-Galactose-1-phosphate Dipotassium Salt
+CH$NAME: Galactose-1P
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Suger phosphate CLASS3 Mannose phosphate
+CH$FORMULA: C6H13O9P
+CH$EXACT_MASS: 260.137
+CH$SMILES: C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)O
+CH$IUPAC: InChI=1S/C6H13O9P/c7-1-2-3(8)4(9)5(10)6(14-2)15-16(11,12)13/h2-10H,1H2,(H2,11,12,13)
+CH$LINK: CAS 2255-14-3
+CH$LINK: KEGG C00446
+CH$LINK: PUBCHEM CID:123912
+CH$LINK: INCHIKEY HXXFSFRBOHSIMQ-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 261.24
+PK$SPLASH: splash10-03di-0910000000-96b64797d84c524938f1
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  99.0 3107.0 45
+  145.0 2411.0 35
+  162.0 12804.0 184
+  163.0 69652.0 999
+  225.0 2645.0 38
+  260.0 2625.0 38
+  261.0 13084.0 188
+//

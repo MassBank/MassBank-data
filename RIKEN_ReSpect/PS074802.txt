@@ -1,0 +1,58 @@
+ACCESSION: PS074802
+RECORD_TITLE: L-gamma-Glutamyl-L-cysteine, L-gamma-Glutamylcysteine, gamma-Glu-Cys, Des-Gly-glutathione Reduced Form, 5-L-Glutamyl-L-cysteine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, G0903.
+COMMENT: PRIMe compound in-house ID S0146
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-gamma-Glutamyl-L-cysteine
+CH$NAME: L-gamma-Glutamylcysteine
+CH$NAME: gamma-Glu-Cys
+CH$NAME: Des-Gly-glutathione Reduced Form
+CH$NAME: 5-L-Glutamyl-L-cysteine
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Cysteine
+CH$FORMULA: C8H14N2O5S
+CH$EXACT_MASS: 250.274
+CH$SMILES: C(CC(=O)NC(CS)C(=O)O)C(C(=O)O)N
+CH$IUPAC: InChI=1S/C8H14N2O5S/c9-4(7(12)13)1-2-6(11)10-5(3-16)8(14)15/h4-5,16H,1-3,9H2,(H,10,11)(H,12,13)(H,14,15)
+CH$LINK: CAS 636-58-8
+CH$LINK: KEGG C00669
+CH$LINK: PUBCHEM CID:123938
+CH$LINK: INCHIKEY RITKHVBHSGLULN-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 250.29
+PK$SPLASH: splash10-001i-9450000000-d079f77c281ab292ba93
+PK$NUM_PEAK: 18
+PK$PEAK: m/z int. rel.int.
+  83.0 16209.0 363
+  84.0 44550.0 999
+  85.0 2541.0 57
+  102.0 2132.0 48
+  129.0 4343.0 97
+  130.0 19125.0 429
+  152.0 8219.0 184
+  204.0 1984.0 44
+  218.0 6574.0 147
+  219.0 3446.0 77
+  226.0 3001.0 67
+  227.0 1528.0 34
+  232.0 1454.0 33
+  233.0 2155.0 48
+  240.0 3469.0 78
+  241.0 7863.0 176
+  249.0 3155.0 71
+  250.0 5733.0 129
+//

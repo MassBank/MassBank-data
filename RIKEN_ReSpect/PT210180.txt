@@ -1,0 +1,37 @@
+ACCESSION: PT210180
+RECORD_TITLE: Propionylformic acid, 3-Methylpyruvic acid, Sodium 2-Oxobutyrate, alpha-ketobutyrate, 2-Oxobutanoic acid, 2-oxobutanoic acid, 2-Oxobutyric Acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.29
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Propionylformic acid
+CH$NAME: 3-Methylpyruvic acid
+CH$NAME: Sodium 2-Oxobutyrate
+CH$NAME: alpha-ketobutyrate
+CH$NAME: 2-Oxobutanoic acid
+CH$NAME: 2-oxobutanoic acid
+CH$NAME: 2-Oxobutyric Acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Butyric acid
+CH$FORMULA: C4H6O3
+CH$EXACT_MASS: 102.089
+CH$SMILES: CCC(=O)C(=O)O
+CH$IUPAC: InChI=1S/C4H6O3/c1-2-3(5)4(6)7/h2H2,1H3,(H,6,7)
+CH$LINK: CAS 600-18-0
+CH$LINK: INCHIKEY TYEYBOSBBBHJIV-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 101.02389
+PK$SPLASH: splash10-0udi-0900000000-bfdcad5bc3ed586bdede
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  101.0239 25.57 999
+//

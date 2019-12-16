@@ -1,0 +1,49 @@
+ACCESSION: PS015502
+RECORD_TITLE: L-DOPA, 3-(3,4-Dihydroxyphenyl)-L-alanine, L-3-Hydroxytyrosine, Levodopa, 3,4-Dihydroxy-L-phenylalanine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, D9628.
+COMMENT: PRIMe compound in-house ID 155
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-DOPA
+CH$NAME: 3-(3,4-Dihydroxyphenyl)-L-alanine
+CH$NAME: L-3-Hydroxytyrosine
+CH$NAME: Levodopa
+CH$NAME: 3,4-Dihydroxy-L-phenylalanine
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Phenylalanine
+CH$FORMULA: C9H11NO4
+CH$EXACT_MASS: 197.19
+CH$SMILES: C1=CC(=C(C=C1CC(C(=O)O)N)O)O
+CH$IUPAC: InChI=1S/C9H11NO4/c10-6(9(13)14)3-5-1-2-7(11)8(12)4-5/h1-2,4,6,11-12H,3,10H2,(H,13,14)
+CH$LINK: CAS 59-92-7
+CH$LINK: KEGG C00355
+CH$LINK: PUBCHEM CID:6047
+CH$LINK: INCHIKEY WTDRDQBEARUVNC-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID8020549
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 198.22
+PK$SPLASH: splash10-0udi-0900000000-d11c32cf4edd5c61cbc1
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  134.0 5038.0 78
+  135.0 11962.0 185
+  138.0 2460.0 38
+  139.0 7201.0 111
+  151.0 4856.0 75
+  152.0 64632.0 999
+  181.0 10183.0 157
+  198.0 5623.0 87
+//

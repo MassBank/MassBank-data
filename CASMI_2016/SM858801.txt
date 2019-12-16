@@ -1,25 +1,26 @@
 ACCESSION: SM858801
-RECORD_TITLE: Finasteride; LC-ESI-QFT; MS2; CE: 35 NCE; R=35000; [M+H]+
-DATE: 2016.12.12
+RECORD_TITLE: Diphenhydramine; LC-ESI-QFT; MS2; CE: 35 NCE; R=35000; [M+H]+
+DATE: 2019.11.20 (Created 2016.12.12)
 AUTHORS: Krauss M, Schymanski EL, Weidauer C, Schupke H, UFZ and Eawag
 LICENSE: CC BY
 COPYRIGHT: Copyright (C) 2016 UFZ/Eawag
-PUBLICATION: Schymanski, EL et al. Critical Assessment of Small Molecule Identification 2016 - Automated Methods. Submitted.
+PUBLICATION: Schymanski, E. L.; Ruttkies, C.; Krauss, M.; Brouard, C.; Kind, T.; Dührkop, K.; Allen, F.; Vaniya, A.; Verdegem, D.; Böcker, S.; et al. Critical Assessment of Small Molecule Identification 2016: Automated Methods. Journal of Cheminformatics 2017, 9 (1). DOI:10.1186/s13321-017-0207-1
 COMMENT: CONFIDENCE standard compound
 COMMENT: INTERNAL_ID 8588
-CH$NAME: Finasteride
-CH$NAME: (1S,3aS,3bS,5aR,9aR,9bS,11aS)-N-tert-butyl-9a,11a-dimethyl-7-oxo-1,2,3,3a,3b,4,5,5a,6,9b,10,11-dodecahydroindeno[5,4-f]quinoline-1-carboxamide
+CH$NAME: Diphenhydramine
+CH$NAME: 2-benzhydryloxy-N,N-dimethylethanamine
 CH$COMPOUND_CLASS: N/A; Environmental Standard
-CH$FORMULA: C23H36N2O2
-CH$EXACT_MASS: 372.27768
-CH$SMILES: C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2/C(=N/C(C)(C)C)/O)CC[C@@H]4[C@@]3(C=CC(=N4)O)C
-CH$IUPAC: InChI=1S/C23H36N2O2/c1-21(2,3)25-20(27)17-8-7-15-14-6-9-18-23(5,13-11-19(26)24-18)16(14)10-12-22(15,17)4/h11,13-18H,6-10,12H2,1-5H3,(H,24,26)(H,25,27)/t14-,15-,16-,17+,18+,22-,23+/m0/s1
-CH$LINK: CAS 98319-26-7
-CH$LINK: CHEBI 5062
-CH$LINK: KEGG D00321
-CH$LINK: PUBCHEM CID:57363
-CH$LINK: INCHIKEY DBEPLOCGEIEOCV-WSBQPABSSA-N
-CH$LINK: CHEMSPIDER 51714
+CH$FORMULA: C17H21NO
+CH$EXACT_MASS: 255.16231
+CH$SMILES: CN(C)CCOC(c1ccccc1)c1ccccc1
+CH$IUPAC: InChI=1S/C17H21NO/c1-18(2)13-14-19-17(15-9-5-3-6-10-15)16-11-7-4-8-12-16/h3-12,17H,13-14H2,1-2H3
+CH$LINK: CAS 58-73-1
+CH$LINK: CHEBI 4636
+CH$LINK: KEGG D00300
+CH$LINK: PUBCHEM CID:3100
+CH$LINK: INCHIKEY ZZVUWRFHKOJYTH-UHFFFAOYSA-N
+CH$LINK: CHEMSPIDER 2989
+CH$LINK: COMPTOX DTXSID4022949
 AC$INSTRUMENT: Q Exactive Plus Orbitrap Thermo Scientific
 AC$INSTRUMENT_TYPE: LC-ESI-QFT
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

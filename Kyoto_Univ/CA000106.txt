@@ -3,7 +3,7 @@ RECORD_TITLE: Cycloviolaxanthin; FAB-EBEB; MS2; m/z: 600.42; [M]+*
 DATE: 2016.01.19 (Created 2010.04.01, modified 2011.05.10)
 AUTHORS: Akimoto N, Graduate School of Pharmaceutical Sciences, Kyoto University and Maoka T, Research Institute for Production Development
 LICENSE: CC BY-SA
-PUBLICATION: Akimoto, N.; Takashi, M.; Fujiwara, Y.; Hashimoto, K.; Analysis of carotenoids by FAB CID-MS2 (in Japanese). J. Mass Spectrom. Soc. Jpn. 2000, 48, 32-41.  Maoka, T.; Fujiwara, Y.; Hashimoto, K.; Akimoto, N. Characterization of epoxy carotenoids by fast atom bombardment collision-induced dissociation MS2. Lipids 2004, 39,179-183.
+PUBLICATION: Akimoto, N.; Takashi, M.; Fujiwara, Y.; Hashimoto, K.; Analysis of carotenoids by FAB CID-MS2 (in Japanese). J. Mass Spectrom. Soc. Jpn. 2000, 48, 32-41. doi:10.5702/massspec.48.32  Maoka, T.; Fujiwara, Y.; Hashimoto, K.; Akimoto, N. Characterization of epoxy carotenoids by fast atom bombardment collision-induced dissociation MS2. Lipids 2004, 39,179-183. doi:10.1007/s11745-004-1217-3
 COMMENT: Profile spectrum of this record is given as a JPEG file.
 COMMENT: [Profile] CA000106.jpg
 CH$NAME: Cycloviolaxanthin
@@ -13,6 +13,7 @@ CH$EXACT_MASS: 600.41786
 CH$SMILES: C(C1(C=CC(=CC=CC(=CC=CC=C(C=CC=C(C)C=CC(C(C)(O)3)(C(C)(C)4)OC(C4)C3)C)C)C)2)(C)(O)CC(O2)CC(C)(C)1
 CH$IUPAC: InChI=1S/C40H56O4/c1-29(17-13-19-31(3)21-23-39-35(5,6)25-33(43-39)27-37(39,9)41)15-11-12-16-30(2)18-14-20-32(4)22-24-40-36(7,8)26-34(44-40)28-38(40,10)42/h11-24,33-34,41-42H,25-28H2,1-10H3/b12-11+,17-13+,18-14+,23-21+,24-22+,29-15+,30-16+,31-19+,32-20+/t33-,34-,37+,38+,39+,40+/m0/s1
 CH$LINK: LIPIDBANK VCA0061
+CH$LINK: INCHIKEY RZEVGLVRLUDYEA-AOXVFRMFSA-N
 AC$INSTRUMENT: JMS-HX/HX 110A, JEOL
 AC$INSTRUMENT_TYPE: FAB-EBEB
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

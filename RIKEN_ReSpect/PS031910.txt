@@ -1,0 +1,43 @@
+ACCESSION: PS031910
+RECORD_TITLE: n-Hexadecanoyl Coenzyme A, Hexadecanoyl coenzyme A, Palmitoyl coenzyme A lithium salt, Palmitoyl-CoA; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, P9716.
+COMMENT: PRIMe compound in-house ID 319
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: n-Hexadecanoyl Coenzyme A
+CH$NAME: Hexadecanoyl coenzyme A
+CH$NAME: Palmitoyl coenzyme A lithium salt
+CH$NAME: Palmitoyl-CoA
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 CoA
+CH$FORMULA: C37H66N7O17P3S
+CH$EXACT_MASS: 1005.96
+CH$SMILES: CCCCCCCCCCCCCCCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C2N=CN=C3N)O)OP(=O)(O)O)O
+CH$IUPAC: InChI=1S/C37H66N7O17P3S/c1-4-5-6-7-8-9-10-11-12-13-14-15-16-17-28(46)65-21-20-39-27(45)18-19-40-35(49)32(48)37(2,3)23-58-64(55,56)61-63(53,54)57-22-26-31(60-62(50,51)52)30(47)36(59-26)44-25-43-29-33(38)41-24-42-34(29)44/h24-26,30-32,36,47-48H,4-23H2,1-3H3,(H,39,45)(H,40,49)(H,53,54)(H,55,56)(H2,38,41,42)(H2,50,51,52)
+CH$LINK: CAS 1763-10-6
+CH$LINK: KEGG C00154
+CH$LINK: PUBCHEM CID:15667
+CH$LINK: INCHIKEY MNBKLUUYKPBKDU-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 1005.04
+PK$SPLASH: splash10-0pb9-9000000000-6dff876c944a3a2834da
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  1003.0 37405.0 401
+  1004.0 68166.0 731
+  1005.0 93176.0 999
+  1006.0 20405.0 219
+//

@@ -16,7 +16,7 @@ if [ -e $1 ]; then
   grep '^CH$EXACT_MASS: ' $1 >> /tmp/$$sorted.txt
   grep '^CH$SMILES: ' $1 >> /tmp/$$sorted.txt
   grep '^CH$IUPAC: ' $1 >> /tmp/$$sorted.txt
-  grep '^CH$LINK: ' $1 >> /tmp/$$sorted.txt
+  grep '^CH$LINK: ' $1 | sort >> /tmp/$$sorted.txt
   grep '^SP$SCIENTIFIC_NAME: ' $1 >> /tmp/$$sorted.txt
   grep '^SP$LINEAGE: ' $1 >> /tmp/$$sorted.txt
   grep '^SP$LINK: ' $1 >> /tmp/$$sorted.txt

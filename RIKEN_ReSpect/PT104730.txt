@@ -1,0 +1,42 @@
+ACCESSION: PT104730
+RECORD_TITLE: 3-(1H-Imidazol-4-yl)-2-propenoic acid, 3-(4-Imidazolyl)acrylic acid, 4-Imidazoleacrylic acid, urocanic acid, (E)-3-(3H-imidazol-4-yl)prop-2-enoic acid, Urocanate, Urocaninic acid, 3-Imidazol-4-ylacrylic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 3-(1H-Imidazol-4-yl)-2-propenoic acid
+CH$NAME: 3-(4-Imidazolyl)acrylic acid
+CH$NAME: 4-Imidazoleacrylic acid
+CH$NAME: urocanic acid
+CH$NAME: (E)-3-(3H-imidazol-4-yl)prop-2-enoic acid
+CH$NAME: Urocanate
+CH$NAME: Urocaninic acid
+CH$NAME: 3-Imidazol-4-ylacrylic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Urocanic acid
+CH$FORMULA: C6H6N2O2
+CH$EXACT_MASS: 138.126
+CH$SMILES: C1=C(NC=N1)C=CC(=O)O
+CH$IUPAC: InChI=1S/C6H6N2O2/c9-6(10)2-1-5-3-7-4-8-5/h1-4H,(H,7,8)(H,9,10)
+CH$LINK: CAS 104-98-3
+CH$LINK: INCHIKEY LOIYMIARKYCTBW-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 139.05073
+PK$SPLASH: splash10-00du-5900000000-29dc15087c785a19c0ee
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  66.0357 286.7 111
+  93.0463 1794.0 692
+  95.0623 665.7 257
+  121.041 2590.0 999
+  139.0507 2267.0 874
+//

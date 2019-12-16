@@ -1,0 +1,40 @@
+ACCESSION: PT107100
+RECORD_TITLE: [(2R,3S,4R,5R)-5-(4-amino-2-oxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl dihydrogen phosphate, 5'-CMP, Cytidine-5'-monophosphate monohydrate, cytidylate, CMP, C-5'-P, Cytidylic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: [(2R,3S,4R,5R)-5-(4-amino-2-oxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl dihydrogen phosphate
+CH$NAME: 5'-CMP
+CH$NAME: Cytidine-5'-monophosphate monohydrate
+CH$NAME: cytidylate
+CH$NAME: CMP
+CH$NAME: C-5'-P
+CH$NAME: Cytidylic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Guanosine phosphate
+CH$FORMULA: C9H14N3O8P
+CH$EXACT_MASS: 323.2
+CH$SMILES: C1=CN(C(=O)N=C1N)C2C(C(C(O2)COP(=O)(O)O)O)O
+CH$IUPAC: InChI=1S/C9H14N3O8P/c10-5-1-2-12(9(15)11-5)8-7(14)6(13)4(20-8)3-19-21(16,17)18/h1-2,4,6-8,13-14H,3H2,(H2,10,11,15)(H2,16,17,18)
+CH$LINK: CAS 63-37-6
+CH$LINK: INCHIKEY IERHLVCPSMICTF-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 324.05965
+PK$SPLASH: splash10-03di-1900000000-25254e2c3fbbfd5e145b
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  95.0246 64.1 60
+  97.0284 62.72 58
+  112.0506 1074.0 999
+  324.0597 25.42 24
+//

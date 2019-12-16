@@ -1,0 +1,40 @@
+ACCESSION: PS109001
+RECORD_TITLE: 1-Methoxy-3-formylindole, 3-Formyl-1-methoxyindole, 1-Methoxy-3-carbaldehyde, 1-methoxyindole-3-carbaldehyde; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Nakabayashi_Chiba_Univ, -.
+COMMENT: PRIMe compound in-house ID R0007
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 1-Methoxy-3-formylindole
+CH$NAME: 3-Formyl-1-methoxyindole
+CH$NAME: 1-Methoxy-3-carbaldehyde
+CH$NAME: 1-methoxyindole-3-carbaldehyde
+CH$COMPOUND_CLASS: CLASS1 Alkaloid CLASS2 Indole CLASS3 Indole
+CH$FORMULA: C10H9NO2
+CH$EXACT_MASS: 175.187
+CH$SMILES: CON1C=C(C2=CC=CC=C21)C=O
+CH$IUPAC: InChI=1S/C10H9NO2/c1-13-11-6-8(7-12)9-4-2-3-5-10(9)11/h2-7H,1H3
+CH$LINK: CAS 67282-55-7
+CH$LINK: PUBCHEM CID:398554
+CH$LINK: INCHIKEY NFGIENSPALNOON-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 176.18
+PK$SPLASH: splash10-004i-0900000000-ae53feb610dbd42db510
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  175.0 94030.0 88
+  176.0 1064982.0 999
+//

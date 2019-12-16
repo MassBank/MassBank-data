@@ -1,0 +1,48 @@
+ACCESSION: PS069702
+RECORD_TITLE: Vitamin E(gamma), (+)-gamma-Tocopherol, 7,8-Dimethyltocol, (R,R,R)-gamma-Tocopherol; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, T1782.
+COMMENT: PRIMe compound in-house ID S0090
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Vitamin E(gamma)
+CH$NAME: (+)-gamma-Tocopherol
+CH$NAME: 7,8-Dimethyltocol
+CH$NAME: (R,R,R)-gamma-Tocopherol
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: C28H48O2
+CH$EXACT_MASS: 416.69
+CH$SMILES: CC1=C(C=C2CCC(OC2=C1C)(C)CCCC(C)CCCC(C)CCCC(C)C)O
+CH$IUPAC: InChI=1S/C28H48O2/c1-20(2)11-8-12-21(3)13-9-14-22(4)15-10-17-28(7)18-16-25-19-26(29)23(5)24(6)27(25)30-28/h19-22,29H,8-18H2,1-7H3
+CH$LINK: CAS 54-28-4
+CH$LINK: KEGG C02483
+CH$LINK: PUBCHEM CID:92729
+CH$LINK: INCHIKEY QUEDXNHFTDJVIY-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 417.66
+PK$SPLASH: splash10-0udi-0900100000-bf7aee1c3cc613457a13
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  56.0 2812.0 32
+  105.0 2769.0 31
+  121.0 2896.0 33
+  150.0 16562.0 187
+  151.0 88707.0 999
+  153.0 3404.0 38
+  387.0 3393.0 38
+  417.0 6580.0 74
+  418.0 6719.0 76
+//

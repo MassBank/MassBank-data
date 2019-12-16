@@ -1,0 +1,40 @@
+ACCESSION: PT110240
+RECORD_TITLE: Choline phosphate, trimethyl-(2-phosphonooxyethyl)azanium, Phosphorylcholine, O-Phosphocholine, Phosphocholine chloride calcium salt tetrahydrate, N-Trimethyl-2-aminoethylphosphonate; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Choline phosphate
+CH$NAME: trimethyl-(2-phosphonooxyethyl)azanium
+CH$NAME: Phosphorylcholine
+CH$NAME: O-Phosphocholine
+CH$NAME: Phosphocholine chloride calcium salt tetrahydrate
+CH$NAME: N-Trimethyl-2-aminoethylphosphonate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Coline CLASS3 Phosphorylcholine
+CH$FORMULA: [C5H15NO4P]+
+CH$EXACT_MASS: 184.154
+CH$SMILES: C[N+](C)(C)CCOP(=O)(O)O
+CH$IUPAC: InChI=1S/C5H14NO4P/c1-6(2,3)4-5-10-11(7,8)9/h4-5H2,1-3H3,(H-,7,8,9)/p+1
+CH$LINK: CAS 107-73-3
+CH$LINK: INCHIKEY YHHSONZFOIEMCP-UHFFFAOYSA-O
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 184.07384
+PK$SPLASH: splash10-0040-6900000000-8bbb64f5a93a59787a0d
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  71.0742 90.79 109
+  86.097 579.7 698
+  98.9852 291.5 351
+  125.001 572.5 689
+  184.0738 830.0 999
+//

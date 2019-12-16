@@ -1,0 +1,40 @@
+ACCESSION: PT106810
+RECORD_TITLE: L-alpha-Glycerophosphorylcholine, sn-Glycero-3-phosphocholine 1:1 cadmium chloride adduct , 2-[[(2R)-2,3-dihydroxypropoxy]-hydroxyphosphoryl]oxyethyl-trimethylazanium, L-alpha-Glycerol Phosphorylcholine, Choline Alphoscerate; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: L-alpha-Glycerophosphorylcholine
+CH$NAME: sn-Glycero-3-phosphocholine 1:1 cadmium chloride adduct
+CH$NAME: 2-[[(2R)-2,3-dihydroxypropoxy]-hydroxyphosphoryl]oxyethyl-trimethylazanium
+CH$NAME: L-alpha-Glycerol Phosphorylcholine
+CH$NAME: Choline Alphoscerate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Phospholipid CLASS3 Phosphocholine
+CH$FORMULA: [C8H21NO6P]+
+CH$EXACT_MASS: 258.233
+CH$SMILES: C[N+](C)(C)CCOP(=O)(O)OCC(CO)O
+CH$IUPAC: InChI=1S/C8H20NO6P/c1-9(2,3)4-5-14-16(12,13)15-7-8(11)6-10/h8,10-11H,4-7H2,1-3H3/p+1
+CH$LINK: CAS 563-24-6
+CH$LINK: INCHIKEY SUHOQUVVVLNYQR-UHFFFAOYSA-O
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 258.11062
+PK$SPLASH: splash10-0udi-2910000000-f2ad69d1705832c0b931
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  86.0971 464.2 269
+  98.9853 233.8 136
+  104.1076 1723.0 999
+  125.0012 626.7 363
+  184.0748 157.7 91
+  258.1106 504.5 293
+//

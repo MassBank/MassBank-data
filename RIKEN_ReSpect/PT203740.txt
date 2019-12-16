@@ -1,0 +1,41 @@
+ACCESSION: PT203740
+RECORD_TITLE: Xanthosine-5'-monophosphate disodium salt , Xanthylic acid, (9-D-Ribosylxanthine)-5'-phosphate, [(2R,3S,4R,5R)-5-(2,6-dioxo-3H-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl dihydrogen phosphate, XMP; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Xanthosine-5'-monophosphate disodium salt
+CH$NAME: Xanthylic acid
+CH$NAME: (9-D-Ribosylxanthine)-5'-phosphate
+CH$NAME: [(2R,3S,4R,5R)-5-(2,6-dioxo-3H-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl dihydrogen phosphate
+CH$NAME: XMP
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Xanthosine phosphate
+CH$FORMULA: C10H13N4O9P
+CH$EXACT_MASS: 364.209
+CH$SMILES: C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)O)O)O)NC(=O)NC2=O
+CH$IUPAC: InChI=1S/C10H13N4O9P/c15-5-3(1-22-24(19,20)21)23-9(6(5)16)14-2-11-4-7(14)12-10(18)13-8(4)17/h2-3,5-6,9,15-16H,1H2,(H2,19,20,21)(H2,12,13,17,18)
+CH$LINK: CAS 523-98-8
+CH$LINK: INCHIKEY DCTLYFZHFGENCW-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 363.03421
+PK$SPLASH: splash10-0ik9-7964000000-bce7ee60221f82790f35
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  78.9602 731.2 691
+  96.97 470.2 444
+  108.0205 274.0 259
+  120.9695 54.23 51
+  151.026 1057.0 999
+  211.0015 975.2 922
+  363.0342 703.4 665
+//

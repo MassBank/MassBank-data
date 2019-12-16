@@ -1,0 +1,51 @@
+ACCESSION: PS007009
+RECORD_TITLE: 4-Methylumbelliferone, Cholestil, beta-Methylumbelliferone, 7-Hydroxy-4-methylcoumarin, 4-MU, Hymecromone; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound WAKO/LAMBDA, A-020.
+COMMENT: PRIMe compound in-house ID 70
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 4-Methylumbelliferone
+CH$NAME: Cholestil
+CH$NAME: beta-Methylumbelliferone
+CH$NAME: 7-Hydroxy-4-methylcoumarin
+CH$NAME: 4-MU
+CH$NAME: Hymecromone
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Coumarin CLASS3 Cholestil
+CH$FORMULA: C10H8O3
+CH$EXACT_MASS: 176.171
+CH$SMILES: CC1=CC(=O)OC2=C1C=CC(=C2)O
+CH$IUPAC: InChI=1S/C10H8O3/c1-6-4-10(12)13-9-5-7(11)2-3-8(6)9/h2-5,11H,1H3
+CH$LINK: CAS 90-33-5
+CH$LINK: KEGG C03081
+CH$LINK: PUBCHEM CID:5280567
+CH$LINK: INCHIKEY HSHNITRMYYLLCV-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID8025670
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 175.13
+PK$SPLASH: splash10-004i-0900000000-9c3e6461791c3eeee3d6
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  119.0 2428.0 31
+  131.0 2781.0 36
+  132.0 2591.0 33
+  133.0 10908.0 140
+  147.0 5120.0 66
+  173.0 4154.0 53
+  174.0 18572.0 238
+  175.0 77865.0 999
+  176.0 2883.0 37
+//

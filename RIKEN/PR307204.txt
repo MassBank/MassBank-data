@@ -1,0 +1,45 @@
+ACCESSION: PR307204
+RECORD_TITLE: 1-Methylsulfinylbutenyl isothiocyante; LC-ESI-QTOF; MS2
+DATE: 2019.03.28
+AUTHORS: Tetsuya Mori, Center for Sustainable Resource Science, RIKEN
+LICENSE: CC BY-SA NC
+PUBLICATION: Tsugawa H., Nakabayashi R., Mori T., Yamada Y., Takahashi M., Rai A., Sugiyama R., Yamamoto H., Nakaya T., Yamazaki M., Kooke R., Bac-Molenaar JA., Oztolan-Erol N., Keurentjes JJB., Arita M., Saito K. (2019) "A cheminformatics approach to characterize metabolomes in stable-isotope-labeled organisms" Nature Methods 16(4):295-298. [doi:10.1038/s41592-019-0358-2]
+COMMENT: registered in RIKEN PlaSMA
+CH$NAME: 1-Methylsulfinylbutenyl isothiocyante
+CH$COMPOUND_CLASS: Sulfoxides
+CH$FORMULA: C6H9NOS2
+CH$EXACT_MASS: 175.274
+CH$SMILES: CS(=O)C=CCCN=C=S
+CH$IUPAC: InChI=1S/C6H9NOS2/c1-10(8)5-3-2-4-7-6-9/h3,5H,2,4H2,1H3
+CH$LINK: INCHIKEY QKGJFQMGPDVOQE-UHFFFAOYSA-N
+AC$INSTRUMENT: LC, Waters Acquity UPLC System; MS, Waters Xevo G2 Q-Tof
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 6V
+AC$MASS_SPECTROMETRY: DESOLVATION_GAS_FLOW 800/h
+AC$MASS_SPECTROMETRY: DESOLVATION_TEMPERATURE 450 C
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: CAPILLARY_VOLTAGE -2.75 kV
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity bridged ethyl hybrid C18 (1.7 um, 2.1 mm * 100 mm, Waters)
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE 40 C
+AC$CHROMATOGRAPHY: FLOW_GRADIENT A/B = (99.5%/0.5% at 0 min, 99.5%/0.5% at 0.1 min, 20%/80% at 10 min, 0.5%/99.5% at 10.1 min, 0.5%/99.5% at 12.0 min, 99.5%/0.5% at 12.1 min, 99.5%/0.5% at 15.0 min)
+AC$CHROMATOGRAPHY: FLOW_RATE 0.3 ml/min at 0 min, 0.3 ml/min at 10 min, 0.4 ml/min at 10.1 min, 0.4 ml/min at 14.4 min, 0.3 ml/min at 14.5 min
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.786567
+AC$CHROMATOGRAPHY: SOLVENT A water including 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile including 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 174.00527984783
+PK$SPLASH: splash10-0a4i-0900000000-81ed3e1f31fafe0159f8
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  110.00953 174.0 174
+  111.98757 75.0 75
+  112.98891 68.0 68
+  112.9961 196.0 196
+  128.02026 100.0 100
+  151.67325 93.0 93
+  158.96996 100.0 100
+  158.98105 1000.0 999
+  174.00255 327.0 327
+//

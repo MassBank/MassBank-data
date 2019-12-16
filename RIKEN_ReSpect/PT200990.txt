@@ -1,0 +1,45 @@
+ACCESSION: PT200990
+RECORD_TITLE: 4-(Aminomethyl)-5-hydroxy-6-methyl-3-pyridinemethanol dihydrochloride, 4-(aminomethyl)-5-(hydroxymethyl)-2-methylpyridin-3-ol, Pyridoxylamine dihydrochloride, Pyridoxamine dihydrochloride  ; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 4-(Aminomethyl)-5-hydroxy-6-methyl-3-pyridinemethanol dihydrochloride
+CH$NAME: 4-(aminomethyl)-5-(hydroxymethyl)-2-methylpyridin-3-ol
+CH$NAME: Pyridoxylamine dihydrochloride
+CH$NAME: Pyridoxamine dihydrochloride
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Pyridoxamine
+CH$FORMULA: C8H12N2O2
+CH$EXACT_MASS: 168.196
+CH$SMILES: CC1=NC=C(C(=C1O)CN)CO
+CH$IUPAC: InChI=1S/C8H12N2O2/c1-5-8(12)7(2-9)6(4-11)3-10-5/h3,11-12H,2,4,9H2,1H3
+CH$LINK: CAS 85-87-0
+CH$LINK: INCHIKEY NHZMQXZHNVQTQA-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 167.08207
+PK$SPLASH: splash10-01b9-0900000000-f0cc74a9651686c1610c
+PK$NUM_PEAK: 12
+PK$PEAK: m/z int. rel.int.
+  107.0363 5.022 70
+  108.0441 20.38 283
+  121.0527 24.82 344
+  122.0598 23.67 329
+  135.0582 6.073 84
+  137.0712 17.19 239
+  138.056 9.121 127
+  147.0544 7.951 110
+  150.0559 13.1 182
+  151.0086 4.467 62
+  166.8352 17.6 244
+  167.0821 71.98 999
+//

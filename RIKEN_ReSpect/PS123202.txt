@@ -1,0 +1,47 @@
+ACCESSION: PS123202
+RECORD_TITLE: 6-Deoxy-alpha-L-galactose phosphate, alpha-L-(-)-Fucose 1-phosphate bis(cyclohexylammonium) salt , alpha-Fuc-1P, alpha-Fucopyranosyl phosphate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, F1759.
+COMMENT: PRIMe compound in-house ID V0106
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 6-Deoxy-alpha-L-galactose phosphate
+CH$NAME: alpha-L-(-)-Fucose 1-phosphate bis(cyclohexylammonium) salt
+CH$NAME: alpha-Fuc-1P
+CH$NAME: alpha-Fucopyranosyl phosphate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Suger phosphate CLASS3 Galactose phosphate
+CH$FORMULA: C6H13O8P
+CH$EXACT_MASS: 244.138
+CH$SMILES: CC1C(C(C(C(O1)OP(=O)(O)O)O)O)O
+CH$IUPAC: InChI=1S/C6H13O8P/c1-2-3(7)4(8)5(9)6(13-2)14-15(10,11)12/h2-9H,1H3,(H2,10,11,12)
+CH$LINK: CAS 24333-03-7
+CH$LINK: PUBCHEM CID:439397
+CH$LINK: INCHIKEY PTVXQARCLQPGIR-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 245.24
+PK$SPLASH: splash10-0002-9100000000-6ca026d33b6999bf4f76
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  71.0 1710.0 32
+  74.0 1853.0 34
+  75.0 20379.0 377
+  85.0 3481.0 64
+  98.0 8257.0 153
+  99.0 53990.0 999
+  101.0 3012.0 56
+  129.0 7818.0 145
+  241.0 1707.0 32
+//

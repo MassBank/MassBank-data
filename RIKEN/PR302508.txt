@@ -1,0 +1,41 @@
+ACCESSION: PR302508
+RECORD_TITLE: Apigenin-8-C-glucoside-2'-rhamnoside; LC-ESI-QTOF; MS2
+DATE: 2019.03.28
+AUTHORS: Tetsuya Mori, Center for Sustainable Resource Science, RIKEN
+LICENSE: CC BY-SA NC
+PUBLICATION: Tsugawa H., Nakabayashi R., Mori T., Yamada Y., Takahashi M., Rai A., Sugiyama R., Yamamoto H., Nakaya T., Yamazaki M., Kooke R., Bac-Molenaar JA., Oztolan-Erol N., Keurentjes JJB., Arita M., Saito K. (2019) "A cheminformatics approach to characterize metabolomes in stable-isotope-labeled organisms" Nature Methods 16(4):295-298. [doi:10.1038/s41592-019-0358-2]
+COMMENT: registered in RIKEN PlaSMA
+CH$NAME: Apigenin-8-C-glucoside-2'-rhamnoside
+CH$COMPOUND_CLASS: Flavonoid 8-C-glycosides
+CH$FORMULA: C27H30O14
+CH$EXACT_MASS: 578.523
+CH$SMILES: C[C@@H]1O[C@@H](O[C@@H]2[C@@H](O)[C@H](O)[C@@H](CO)O[C@H]2C2=C(O)C=C(O)C3=C2OC(=CC3=O)C2=CC=C(O)C=C2)[C@H](O)[C@H](O)[C@H]1O
+CH$IUPAC: InChI=1S/C27H30O14/c1-9-19(33)21(35)23(37)27(38-9)41-26-22(36)20(34)16(8-28)40-25(26)18-13(31)6-12(30)17-14(32)7-15(39-24(17)18)10-2-4-11(29)5-3-10/h2-7,9,16,19-23,25-31,33-37H,8H2,1H3/t9-,16+,19-,20+,21+,22-,23+,25-,26+,27-/m0/s1
+CH$LINK: INCHIKEY LYGPBZVKGHHTIE-HUBYJIGHSA-N
+AC$INSTRUMENT: LC, Waters Acquity UPLC System; MS, Waters Xevo G2 Q-Tof
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 6V
+AC$MASS_SPECTROMETRY: DESOLVATION_GAS_FLOW 800/h
+AC$MASS_SPECTROMETRY: DESOLVATION_TEMPERATURE 450 C
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: CAPILLARY_VOLTAGE +3.00 kV
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity bridged ethyl hybrid C18 (1.7 um, 2.1 mm * 100 mm, Waters)
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE 40 C
+AC$CHROMATOGRAPHY: FLOW_GRADIENT A/B = (99.5%/0.5% at 0 min, 99.5%/0.5% at 0.1 min, 20%/80% at 10 min, 0.5%/99.5% at 10.1 min, 0.5%/99.5% at 12.0 min, 99.5%/0.5% at 12.1 min, 99.5%/0.5% at 15.0 min)
+AC$CHROMATOGRAPHY: FLOW_RATE 0.3 ml/min at 0 min, 0.3 ml/min at 10 min, 0.4 ml/min at 10.1 min, 0.4 ml/min at 14.4 min, 0.3 ml/min at 14.5 min
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.8372
+AC$CHROMATOGRAPHY: SOLVENT A water including 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile including 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 579.1708321
+PK$SPLASH: splash10-004i-0000090000-a9a7b100bc9f5cc3750f
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  433.10983 51.0 51
+  433.1268 15.0 15
+  434.12164 9.0 9
+  579.10773 28.0 28
+  579.17358 1000.0 999
+//

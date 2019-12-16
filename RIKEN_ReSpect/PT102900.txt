@@ -1,0 +1,38 @@
+ACCESSION: PT102900
+RECORD_TITLE: Val, L-alpha-Aminoisovalerianic Acid, L-2-Amino-3-methylbutanoic acid, L-Valine, (S)-alpha-Aminoisovaleric acid, (2S)-2-amino-3-methylbutanoic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Val
+CH$NAME: L-alpha-Aminoisovalerianic Acid
+CH$NAME: L-2-Amino-3-methylbutanoic acid
+CH$NAME: L-Valine
+CH$NAME: (S)-alpha-Aminoisovaleric acid
+CH$NAME: (2S)-2-amino-3-methylbutanoic acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Valine
+CH$FORMULA: C5H11NO2
+CH$EXACT_MASS: 117.148
+CH$SMILES: CC(C)C(C(=O)O)N
+CH$IUPAC: InChI=1S/C5H11NO2/c1-3(2)4(6)5(7)8/h3-4H,6H2,1-2H3,(H,7,8)
+CH$LINK: CAS 72-18-4
+CH$LINK: INCHIKEY KZSNJWFQEVHDMF-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 118.08677
+PK$SPLASH: splash10-00di-9000000000-430332b13b8c6368136b
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  55.0552 21.99 21
+  72.0809 1035.0 999
+  118.0868 81.11 78
+//

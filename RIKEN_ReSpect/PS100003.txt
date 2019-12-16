@@ -1,0 +1,46 @@
+ACCESSION: PS100003
+RECORD_TITLE: Glycylproline, GP-OH, Glycyl-L-proline, Gly-Pro; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound TCI, G0137.
+COMMENT: PRIMe compound in-house ID N0058
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Glycylproline
+CH$NAME: GP-OH
+CH$NAME: Glycyl-L-proline
+CH$NAME: Gly-Pro
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Proline
+CH$FORMULA: C7H12N2O3
+CH$EXACT_MASS: 172.184
+CH$SMILES: C1CC(N(C1)C(=O)CN)C(=O)O
+CH$IUPAC: InChI=1S/C7H12N2O3/c8-4-6(10)9-3-1-2-5(9)7(11)12/h5H,1-4,8H2,(H,11,12)
+CH$LINK: CAS 704-15-4
+CH$LINK: PUBCHEM CID:3013625
+CH$LINK: INCHIKEY KZNQNBZMBZJQJO-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 173.2
+PK$SPLASH: splash10-01b9-9600000000-7c655392730a3bfd6935
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  29.0 25013.0 132
+  30.0 78274.0 412
+  69.0 25534.0 134
+  70.0 189984.0 999
+  115.0 49149.0 258
+  116.0 151628.0 797
+  172.0 7308.0 38
+  173.0 16307.0 86
+//

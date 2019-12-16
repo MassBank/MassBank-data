@@ -1,0 +1,49 @@
+ACCESSION: PS038002
+RECORD_TITLE: DL-2-Amino-3-hydroxy-2-methylpropionic Acid, DL-2-Methylserine, alpha-Methyl-DL-serine, DL-alpha-(Hydroxymethyl)alanine, 2-Amino-3-hydroxy-2-methylpropanoic Acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, M6877.
+COMMENT: PRIMe compound in-house ID 380
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: DL-2-Amino-3-hydroxy-2-methylpropionic Acid
+CH$NAME: DL-2-Methylserine
+CH$NAME: alpha-Methyl-DL-serine
+CH$NAME: DL-alpha-(Hydroxymethyl)alanine
+CH$NAME: 2-Amino-3-hydroxy-2-methylpropanoic Acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Serine
+CH$FORMULA: C4H9NO3
+CH$EXACT_MASS: 119.12
+CH$SMILES: CC(CO)(C(=O)O)N
+CH$IUPAC: InChI=1S/C4H9NO3/c1-4(5,2-6)3(7)8/h6H,2,5H2,1H3,(H,7,8)
+CH$LINK: CAS 5424-29-3
+CH$LINK: KEGG C02115
+CH$LINK: PUBCHEM CID:439656
+CH$LINK: INCHIKEY CDUUKBXTEOFITR-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 120.09
+PK$SPLASH: splash10-00di-9100000000-ce85978b63b5e4993187
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  55.0 7572.0 35
+  56.0 38020.0 173
+  57.0 11138.0 51
+  73.0 40927.0 187
+  74.0 218968.0 999
+  84.0 18006.0 82
+  102.0 16214.0 74
+  119.0 13235.0 60
+  120.0 17033.0 78
+//

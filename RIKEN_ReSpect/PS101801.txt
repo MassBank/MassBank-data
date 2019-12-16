@@ -1,0 +1,46 @@
+ACCESSION: PS101801
+RECORD_TITLE: Propionylformic acid, 3-Methylpyruvic acid, Sodium 2-Oxobutyrate, alpha-ketobutyrate, 2-Oxobutanoic acid, 2-Oxobutyric Acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, K0875.
+COMMENT: PRIMe compound in-house ID N0076
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Propionylformic acid
+CH$NAME: 3-Methylpyruvic acid
+CH$NAME: Sodium 2-Oxobutyrate
+CH$NAME: alpha-ketobutyrate
+CH$NAME: 2-Oxobutanoic acid
+CH$NAME: 2-Oxobutyric Acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Butyric acid
+CH$FORMULA: C4H6O3
+CH$EXACT_MASS: 102.089
+CH$SMILES: CCC(=O)C(=O)O
+CH$IUPAC: InChI=1S/C4H6O3/c1-2-3(5)4(6)7/h2H2,1H3,(H,6,7)
+CH$LINK: CAS 600-18-0
+CH$LINK: KEGG C00109
+CH$LINK: PUBCHEM CID:58
+CH$LINK: INCHIKEY TYEYBOSBBBHJIV-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 102.11
+PK$SPLASH: splash10-03di-9000000000-dd299350461888d2e680
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  42.0 6062.0 49
+  43.0 6924.0 56
+  59.0 12026.0 98
+  60.0 122804.0 999
+  102.0 8976.0 73
+//

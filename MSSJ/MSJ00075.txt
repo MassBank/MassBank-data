@@ -1,0 +1,43 @@
+ACCESSION: MSJ00075
+RECORD_TITLE: L-gamma-Glutamyl-S-3-(1-hydroxypropyl)-L-cysteinyl-glycine; ESI-QQ; MS2; CE 10 eV; [M+H]+
+DATE: 2018.12.26
+AUTHORS: Horiyama S., Hatai M., Takahashi Y., Date S., Masujima T., Honda C., Ichikawa A., Yoshikawa N., Nakamura K., Kunitomo M., Takayama M., Mukogawa Women's University, Riken Quantitative Biology Center, OLABB, Yokohama City University.
+LICENSE: CC BY
+COPYRIGHT: Horiyama S., Hatai M., Takahashi Y., Date S., Masujima T., Honda C., Ichikawa A., Yoshikawa N., Nakamura K., Kunitomo M., Takayama M., Mukogawa Women's University, Riken Quantitative Biology Center, OLABB, Yokohama City University.
+PUBLICATION: Chem. Pharm. Bull, 2016, 64 (6), pp 585-593. DOI: 10.1248/cpb.c15-00986p
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 16HP2005 to the Mass Spectrometry Society of Japan.
+CH$NAME: L-gamma-Glutamyl-S-3-(1-hydroxypropyl)-L-cysteinyl-glycine
+CH$COMPOUND_CLASS: Synthetic compound; Peptide
+CH$FORMULA: C13H23N3O7S
+CH$EXACT_MASS: 365.1257
+CH$SMILES: O=C(N[C@@H](CSCCCO)C(=O)NCC(=O)O)CC[C@H](N)C(=O)O
+CH$IUPAC: InChI=1S/C13H23N3O7S/c14-8(13(22)23)2-3-10(18)16-9(7-24-5-1-4-17)12(21)15-6-11(19)20/h8-9,17H,1-7,14H2,(H,15,21)(H,16,18)(H,19,20)(H,22,23)/t8-,9-/m0/s1
+CH$LINK: INCHIKEY PWWFPJVDCXEMMZ-IUCAKERBSA-N
+CH$LINK: PUBCHEM CID:101685593
+AC$INSTRUMENT: Quattro Premier, Micromass (USA) coupled to Alliance HT 2795, Waters (USA).
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_GAS Ar
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10 eV
+AC$CHROMATOGRAPHY: COLUMN_NAME C18(ODS), Cosmosil 5C18-AR-II, 4.6 x 150 mm, 4.4 micrometer
+AC$CHROMATOGRAPHY: FLOW_GRADIENT A 0.05%HCOOH, B CH3OH, linear gradient 5% B-40% B-95% B-5% B
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 366.1329
+PK$SPLASH: splash10-014r-0197000000-157b7b7514ab3b8a7123
+PK$NUM_PEAK: 12
+PK$PEAK: m/z int. rel.int.
+  116.1 27850 8
+  116.7 101000 28
+  129.7 101500 28
+  133.6 358300 98
+  201.7 38070 10
+  219.9 1260000 346
+  236.9 2794000 768
+  273.0 17200 5
+  291.0 236900 65
+  303.0 19280 5
+  347.8 24400 7
+  365.9 3635000 999
+//

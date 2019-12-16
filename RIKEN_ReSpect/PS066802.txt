@@ -1,0 +1,47 @@
+ACCESSION: PS066802
+RECORD_TITLE: 3alpha,7alpha,12alpha-Trihydroxy-5beta-cholan-24-oic acid sodium salt, Cholalin, ursocholic acid, Chenodiol, Cholsaeure, Cholalic acid, Colalin, chenodeoxycholic acid, Sodium Cholate Hydrate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, C1254.
+COMMENT: PRIMe compound in-house ID S0056
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 3alpha,7alpha,12alpha-Trihydroxy-5beta-cholan-24-oic acid sodium salt
+CH$NAME: Cholalin
+CH$NAME: ursocholic acid
+CH$NAME: Chenodiol
+CH$NAME: Cholsaeure
+CH$NAME: Cholalic acid
+CH$NAME: Colalin
+CH$NAME: chenodeoxycholic acid
+CH$NAME: Sodium Cholate Hydrate
+CH$COMPOUND_CLASS: CLASS1 Terpenoid CLASS2 Triterpenoid CLASS3 Cholic acid
+CH$FORMULA: C24H40O5
+CH$EXACT_MASS: 408.579
+CH$SMILES: CC(CCC(=O)O)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C
+CH$IUPAC: InChI=1S/C24H40O5/c1-13(4-7-21(28)29)16-5-6-17-22-18(12-20(27)24(16,17)3)23(2)9-8-15(25)10-14(23)11-19(22)26/h13-20,22,25-27H,4-12H2,1-3H3,(H,28,29)
+CH$LINK: CAS 81-25-4
+CH$LINK: KEGG C00695
+CH$LINK: PUBCHEM CID:221493
+CH$LINK: INCHIKEY BHQCQFFYRZLCQQ-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 409.45
+PK$SPLASH: splash10-0a4i-0000900000-64108402e10a3b7405b8
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  408.0 55903.0 166
+  409.0 335607.0 999
+  410.0 40916.0 122
+//

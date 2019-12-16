@@ -1,0 +1,52 @@
+ACCESSION: PS075106
+RECORD_TITLE: 9-(beta-D-Glucopyranosyl)-trans-zeatin, Zeatin-9-glucoside, trans-Zeatinglucoside; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, Z0537.
+COMMENT: PRIMe compound in-house ID S0149
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 9-(beta-D-Glucopyranosyl)-trans-zeatin
+CH$NAME: Zeatin-9-glucoside
+CH$NAME: trans-Zeatinglucoside
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleoside CLASS3 Zeatin
+CH$FORMULA: C16H23N5O6
+CH$EXACT_MASS: 381.389
+CH$SMILES: CC(=CCNC1=NC=NC2=C1N=CN2C3C(C(C(C(O3)CO)O)O)O)CO
+CH$IUPAC: InChI=1S/C16H23N5O6/c1-8(4-22)2-3-17-14-10-15(19-6-18-14)21(7-20-10)16-13(26)12(25)11(24)9(5-23)27-16/h2,6-7,9,11-13,16,22-26H,3-5H2,1H3,(H,17,18,19)
+CH$LINK: CAS 51255-96-0
+CH$LINK: PUBCHEM CID:9842892
+CH$LINK: INCHIKEY VYRAJOITMBSQSE-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 60
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 382.41
+PK$SPLASH: splash10-000i-2900000000-229ce37da8238b08e8a7
+PK$NUM_PEAK: 15
+PK$PEAK: m/z int. rel.int.
+  42.0 9766.0 48
+  43.0 71723.0 354
+  57.0 9416.0 46
+  67.0 12720.0 63
+  85.0 7959.0 39
+  119.0 8912.0 44
+  134.0 8428.0 42
+  135.0 65251.0 322
+  136.0 202391.0 999
+  147.0 11245.0 56
+  148.0 43598.0 215
+  185.0 6617.0 33
+  202.0 13119.0 65
+  219.0 8188.0 40
+  220.0 13490.0 67
+//

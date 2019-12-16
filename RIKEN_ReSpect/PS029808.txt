@@ -1,0 +1,45 @@
+ACCESSION: PS029808
+RECORD_TITLE: Mesic Acid, MSA, Sulfomethane, Methanesulfonic acid solution, Methylsulfonic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, M4141.
+COMMENT: PRIMe compound in-house ID 298
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Mesic Acid
+CH$NAME: MSA
+CH$NAME: Sulfomethane
+CH$NAME: Methanesulfonic acid solution
+CH$NAME: Methylsulfonic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Other
+CH$FORMULA: CH4O3S
+CH$EXACT_MASS: 96.105
+CH$SMILES: CS(=O)(=O)O
+CH$IUPAC: InChI=1S/CH4O3S/c1-5(2,3)4/h1H3,(H,2,3,4)
+CH$LINK: CAS 75-75-2
+CH$LINK: KEGG C11145
+CH$LINK: PUBCHEM CID:6395
+CH$LINK: INCHIKEY AFVFQIVMOAPDHO-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 94.97
+PK$SPLASH: splash10-001j-9000000000-5c03866365e1e4aa73d3
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  79.0 9089.0 172
+  80.0 52707.0 999
+  93.0 3731.0 71
+  94.0 12423.0 235
+  95.0 26480.0 502
+//

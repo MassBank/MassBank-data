@@ -1,0 +1,44 @@
+ACCESSION: PS063007
+RECORD_TITLE: L-Dihydroorotate, L-Hydroorotic acid, (S)-4,5-Dihydroorotic Acid, 2,6-Dioxohexahydro-4-pyrimidinecarboxylic acid, Dihydro-L-orotic Acid ; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako/MP Bio, 592-21411/102507.
+COMMENT: PRIMe compound in-house ID S0013
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-Dihydroorotate
+CH$NAME: L-Hydroorotic acid
+CH$NAME: (S)-4,5-Dihydroorotic Acid
+CH$NAME: 2,6-Dioxohexahydro-4-pyrimidinecarboxylic acid
+CH$NAME: Dihydro-L-orotic Acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: C5H6N2O4
+CH$EXACT_MASS: 158.113
+CH$SMILES: C1C(NC(=O)NC1=O)C(=O)O
+CH$IUPAC: InChI=1S/C5H6N2O4/c8-3-1-2(4(9)10)6-5(11)7-3/h2H,1H2,(H,9,10)(H2,6,7,8,11)
+CH$LINK: CAS 5988-19-2
+CH$LINK: KEGG C00337
+CH$LINK: PUBCHEM CID:439216
+CH$LINK: INCHIKEY UFIVEPVSAGBUSI-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 157.1
+PK$SPLASH: splash10-0a4i-0900000000-74efdefe2e5c97d80bbf
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  112.0 4573.0 47
+  113.0 38813.0 395
+  156.0 18363.0 187
+  157.0 98194.0 999
+//

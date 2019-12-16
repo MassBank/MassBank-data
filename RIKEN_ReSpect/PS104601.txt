@@ -1,0 +1,46 @@
+ACCESSION: PS104601
+RECORD_TITLE: Ac-Glu, N-Acetyl-DL-glutamic acid, N-Acetylglutamate, 2-(Acetylamino)pentanedioic Acid, N-Acetyl-DL-glutamate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A8875.
+COMMENT: PRIMe compound in-house ID N0104
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Ac-Glu
+CH$NAME: N-Acetyl-DL-glutamic acid
+CH$NAME: N-Acetylglutamate
+CH$NAME: 2-(Acetylamino)pentanedioic Acid
+CH$NAME: N-Acetyl-DL-glutamate
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Glutamic acid
+CH$FORMULA: C7H11NO5
+CH$EXACT_MASS: 189.167
+CH$SMILES: CC(=O)NC(CCC(=O)O)C(=O)O
+CH$IUPAC: InChI=1S/C7H11NO5/c1-4(9)8-5(7(12)13)2-3-6(10)11/h5H,2-3H2,1H3,(H,8,9)(H,10,11)(H,12,13)
+CH$LINK: KEGG C00624
+CH$LINK: PUBCHEM CID:70914
+CH$LINK: INCHIKEY RFMMMVDNIPUKGG-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 190.21
+PK$SPLASH: splash10-0006-0900000000-904e36481fb34933c090
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  129.0 13129.0 76
+  130.0 64100.0 371
+  148.0 11289.0 65
+  171.0 5545.0 32
+  172.0 57434.0 333
+  189.0 17003.0 99
+  190.0 172385.0 999
+//

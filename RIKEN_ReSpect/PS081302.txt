@@ -1,0 +1,46 @@
+ACCESSION: PS081302
+RECORD_TITLE: 1-Dodecanoyllysolecithin, 12:0 LysoPC, Phosphocholine,1-Lauroyl-2-Hydroxy-sn-Glycero-3- , 1-Lauroyl-2-Hydroxy-sn-Glycero-3-Phosphocholine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Avanti, 855475P.
+COMMENT: PRIMe compound in-house ID S0250
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 1-Dodecanoyllysolecithin
+CH$NAME: 12:0 LysoPC
+CH$NAME: Phosphocholine,1-Lauroyl-2-Hydroxy-sn-Glycero-3-
+CH$NAME: 1-Lauroyl-2-Hydroxy-sn-Glycero-3-Phosphocholine
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Phospholipid CLASS3 Phosphocholine
+CH$FORMULA: C20H42NO7P
+CH$EXACT_MASS: 439.532
+CH$SMILES: CCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)O
+CH$IUPAC: InChI=1S/C20H42NO7P/c1-5-6-7-8-9-10-11-12-13-14-20(23)26-17-19(22)18-28-29(24,25)27-16-15-21(2,3)4/h19,22H,5-18H2,1-4H3
+CH$LINK: CAS 20559-18-6
+CH$LINK: PUBCHEM CID:460605
+CH$LINK: INCHIKEY BWKILASWCLJPBO-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 440.55
+PK$SPLASH: splash10-0006-0300900000-404931f3e056612d7f8b
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  104.0 190189.0 242
+  183.0 36983.0 47
+  184.0 271671.0 346
+  422.0 49560.0 63
+  439.0 76626.0 97
+  440.0 785139.0 999
+  441.0 374925.0 477
+  442.0 25771.0 33
+//

@@ -1,0 +1,45 @@
+ACCESSION: PR309359
+RECORD_TITLE: Coumaroyl Hexoside (isomer of 690, 691); LC-ESI-QTOF; MS2
+DATE: 2019.03.28
+AUTHORS: Tetsuya Mori, Center for Sustainable Resource Science, RIKEN
+LICENSE: CC BY-SA NC
+PUBLICATION: Tsugawa H., Nakabayashi R., Mori T., Yamada Y., Takahashi M., Rai A., Sugiyama R., Yamamoto H., Nakaya T., Yamazaki M., Kooke R., Bac-Molenaar JA., Oztolan-Erol N., Keurentjes JJB., Arita M., Saito K. (2019) "A cheminformatics approach to characterize metabolomes in stable-isotope-labeled organisms" Nature Methods 16(4):295-298. [doi:10.1038/s41592-019-0358-2]
+COMMENT: Annotation level-3
+CH$NAME: Coumaroyl Hexoside (isomer of 690, 691)
+CH$COMPOUND_CLASS: Coumaric acid and derivatives
+CH$FORMULA: C15H18O8
+CH$EXACT_MASS: 326.301
+CH$SMILES: O=C(O)C=CC2=CC=C(OC1OC(CO)C(O)C(O)C1(O))C=C2
+CH$IUPAC: InChI=1S/C15H18O8/c16-7-10-12(19)13(20)14(21)15(23-10)22-9-4-1-8(2-5-9)3-6-11(17)18/h1-6,10,12-16,19-21H,7H2,(H,17,18)
+CH$LINK: INCHIKEY LJFYQZQUAULRDF-UHFFFAOYSA-N
+AC$INSTRUMENT: LC, Waters Acquity UPLC System; MS, Waters Xevo G2 Q-Tof
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 6V
+AC$MASS_SPECTROMETRY: DESOLVATION_GAS_FLOW 800/h
+AC$MASS_SPECTROMETRY: DESOLVATION_TEMPERATURE 450 C
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: CAPILLARY_VOLTAGE +3.00 kV
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity bridged ethyl hybrid C18 (1.7 um, 2.1 mm * 100 mm, Waters)
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE 40 C
+AC$CHROMATOGRAPHY: FLOW_GRADIENT A/B = (99.5%/0.5% at 0 min, 99.5%/0.5% at 0.1 min, 20%/80% at 10 min, 0.5%/99.5% at 10.1 min, 0.5%/99.5% at 12.0 min, 99.5%/0.5% at 12.1 min, 99.5%/0.5% at 15.0 min)
+AC$CHROMATOGRAPHY: FLOW_RATE 0.3 ml/min at 0 min, 0.3 ml/min at 10 min, 0.4 ml/min at 10.1 min, 0.4 ml/min at 14.4 min, 0.3 ml/min at 14.5 min
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.31
+AC$CHROMATOGRAPHY: SOLVENT A water including 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile including 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 325.093
+PK$SPLASH: splash10-0002-0901000000-8e0bcff9b9d35d14d0c5
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  117.02815 24.0 57
+  117.04037 110.0 263
+  119.05016 20.0 48
+  130.04027 18.0 43
+  145.02907 418.0 999
+  145.04443 18.0 43
+  205.04483 23.0 55
+  267.0704 23.0 55
+  325.09555 103.0 246
+//

@@ -1,0 +1,48 @@
+ACCESSION: PR311018
+RECORD_TITLE: Feruloyl dehydrotyramine (isomer of 1654); LC-ESI-QTOF; MS2
+DATE: 2019.03.28
+AUTHORS: Tetsuya Mori, Center for Sustainable Resource Science, RIKEN
+LICENSE: CC BY-SA NC
+PUBLICATION: Tsugawa H., Nakabayashi R., Mori T., Yamada Y., Takahashi M., Rai A., Sugiyama R., Yamamoto H., Nakaya T., Yamazaki M., Kooke R., Bac-Molenaar JA., Oztolan-Erol N., Keurentjes JJB., Arita M., Saito K. (2019) "A cheminformatics approach to characterize metabolomes in stable-isotope-labeled organisms" Nature Methods 16(4):295-298. [doi:10.1038/s41592-019-0358-2]
+COMMENT: Annotation level-3
+CH$NAME: Feruloyl dehydrotyramine (isomer of 1654)
+CH$COMPOUND_CLASS: Ferulic acid and derivatives
+CH$FORMULA: C18H17NO4
+CH$EXACT_MASS: 311.337
+CH$SMILES: COC1=CC(\C=C\C(=O)N\C=C\C2=CC=C(O)C=C2)=CC=C1O
+CH$IUPAC: InChI=1S/C18H17NO4/c1-23-17-12-14(4-8-16(17)21)5-9-18(22)19-11-10-13-2-6-15(20)7-3-13/h2-12,20-21H,1H3,(H,19,22)/b9-5+,11-10+
+CH$LINK: INCHIKEY PMRDPCAGHFQFMZ-NJNCEADSSA-N
+AC$INSTRUMENT: LC, Waters Acquity UPLC System; MS, Waters Xevo G2 Q-Tof
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 6V
+AC$MASS_SPECTROMETRY: DESOLVATION_GAS_FLOW 800/h
+AC$MASS_SPECTROMETRY: DESOLVATION_TEMPERATURE 450 C
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: CAPILLARY_VOLTAGE +3.00 kV
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity bridged ethyl hybrid C18 (1.7 um, 2.1 mm * 100 mm, Waters)
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE 40 C
+AC$CHROMATOGRAPHY: FLOW_GRADIENT A/B = (99.5%/0.5% at 0 min, 99.5%/0.5% at 0.1 min, 20%/80% at 10 min, 0.5%/99.5% at 10.1 min, 0.5%/99.5% at 12.0 min, 99.5%/0.5% at 12.1 min, 99.5%/0.5% at 15.0 min)
+AC$CHROMATOGRAPHY: FLOW_RATE 0.3 ml/min at 0 min, 0.3 ml/min at 10 min, 0.4 ml/min at 10.1 min, 0.4 ml/min at 14.4 min, 0.3 ml/min at 14.5 min
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.28
+AC$CHROMATOGRAPHY: SOLVENT A water including 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile including 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 312.1248
+PK$SPLASH: splash10-004i-0901000000-deb6d2c571bbdaf6336c
+PK$NUM_PEAK: 12
+PK$PEAK: m/z int. rel.int.
+  50.3588 23.0 49
+  117.02879 57.0 121
+  124.95348 23.0 49
+  145.02563 94.0 199
+  145.03317 119.0 252
+  149.10443 17.0 36
+  177.05246 472.0 999
+  234.1378 19.0 40
+  248.03987 20.0 42
+  275.16415 20.0 42
+  312.10501 28.0 59
+  312.12308 130.0 275
+//

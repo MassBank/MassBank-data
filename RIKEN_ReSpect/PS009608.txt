@@ -1,0 +1,43 @@
+ACCESSION: PS009608
+RECORD_TITLE: Pentachlorophenol, Permacide, Fungifen, PCP, Chlorophen; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, P2604.
+COMMENT: PRIMe compound in-house ID 96
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Pentachlorophenol
+CH$NAME: Permacide
+CH$NAME: Fungifen
+CH$NAME: PCP
+CH$NAME: Chlorophen
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Other
+CH$FORMULA: C6HCl5O
+CH$EXACT_MASS: 266.338
+CH$SMILES: C1(=C(C(=C(C(=C1Cl)Cl)Cl)Cl)Cl)O
+CH$IUPAC: InChI=1S/C6HCl5O/c7-1-2(8)4(10)6(12)5(11)3(1)9/h12H
+CH$LINK: CAS 87-86-5
+CH$LINK: KEGG C02575
+CH$LINK: PUBCHEM CID:992
+CH$LINK: INCHIKEY IZUPBVBPLAPZRR-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID7021106
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 263.01
+PK$SPLASH: splash10-03di-0090000000-67d56b9f847621b27035
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  262.0 158459.0 999
+  263.0 140153.0 884
+//

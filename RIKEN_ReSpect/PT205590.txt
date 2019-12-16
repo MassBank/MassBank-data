@@ -1,0 +1,42 @@
+ACCESSION: PT205590
+RECORD_TITLE: 2,5-Dihydroxyphenylacetate, 2,5-Dihydroxyphenylacetic acid, 2-(2,5-dihydroxyphenyl)acetic acid, Homogentisate, 2,5-Dihydroxybenzeneacetic acid, 2,5-DHPOP, Alcapton, Homogentisinic acid, Homogentisic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 2,5-Dihydroxyphenylacetate
+CH$NAME: 2,5-Dihydroxyphenylacetic acid
+CH$NAME: 2-(2,5-dihydroxyphenyl)acetic acid
+CH$NAME: Homogentisate
+CH$NAME: 2,5-Dihydroxybenzeneacetic acid
+CH$NAME: 2,5-DHPOP
+CH$NAME: Alcapton
+CH$NAME: Homogentisinic acid
+CH$NAME: Homogentisic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Homogentisic acid
+CH$FORMULA: C8H8O4
+CH$EXACT_MASS: 168.148
+CH$SMILES: C1=CC(=C(C=C1O)CC(=O)O)O
+CH$IUPAC: InChI=1S/C8H8O4/c9-6-1-2-7(10)5(3-6)4-8(11)12/h1-3,9-10H,4H2,(H,11,12)
+CH$LINK: CAS 451-13-8
+CH$LINK: INCHIKEY IGMNYECMUMZDDF-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 167.03446
+PK$SPLASH: splash10-00di-0900000000-9c85164306514c6d4c4b
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  108.0212 94.37 196
+  122.0368 283.2 589
+  123.0444 480.4 999
+  167.0345 43.06 90
+//

@@ -1,0 +1,44 @@
+ACCESSION: PT207720
+RECORD_TITLE: Citramalate, 2-Methylmalate, 2-Methylmalic acid, (-)-Citramalic acid, (2R)-2-hydroxy-2-methylbutanedioic acid, D-2-Methylmalic acid, 2-Hydroxy-2-methylsuccinic Acid, alpha-Hydroxypyrotartaric Acid, 2-Hydroxy-2-methylbutanedioic Acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Citramalate
+CH$NAME: 2-Methylmalate
+CH$NAME: 2-Methylmalic acid
+CH$NAME: (-)-Citramalic acid
+CH$NAME: (2R)-2-hydroxy-2-methylbutanedioic acid
+CH$NAME: D-2-Methylmalic acid
+CH$NAME: 2-Hydroxy-2-methylsuccinic Acid
+CH$NAME: alpha-Hydroxypyrotartaric Acid
+CH$NAME: 2-Hydroxy-2-methylbutanedioic Acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Citramailc acid
+CH$FORMULA: C5H8O5
+CH$EXACT_MASS: 148.114
+CH$SMILES: CC(CC(=O)O)(C(=O)O)O
+CH$IUPAC: InChI=1S/C5H8O5/c1-5(10,4(8)9)2-3(6)7/h10H,2H2,1H3,(H,6,7)(H,8,9)
+CH$LINK: INCHIKEY XFTRTWQBIOMVPK-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 147.02937
+PK$SPLASH: splash10-000j-7900000000-956f75319dc7d165242e
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  85.0298 62.56 500
+  87.0088 114.9 918
+  103.0395 9.647 77
+  129.0193 25.04 200
+  145.8903 7.609 61
+  146.8985 45.54 364
+  147.0294 125.0 999
+//

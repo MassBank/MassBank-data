@@ -1,0 +1,35 @@
+ACCESSION: PT200250
+RECORD_TITLE: 1-Aminocyclopropanecarboxylic acid, 1-Aminocyclopropane-1-carboxylic acid, ACPC, 1-aminocyclopropane-1-carboxylic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 1-Aminocyclopropanecarboxylic acid
+CH$NAME: 1-Aminocyclopropane-1-carboxylic acid
+CH$NAME: ACPC
+CH$NAME: 1-aminocyclopropane-1-carboxylic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Cyclopropanecarboxylic acid
+CH$FORMULA: C4H7NO2
+CH$EXACT_MASS: 101.105
+CH$SMILES: C1CC1(C(=O)O)N
+CH$IUPAC: InChI=1S/C4H7NO2/c5-4(1-2-4)3(6)7/h1-2,5H2,(H,6,7)
+CH$LINK: CAS 22059-21-8
+CH$LINK: INCHIKEY PAJPWUMXBYXFCZ-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 100.03988
+PK$SPLASH: splash10-0udi-1900000000-a1d7dde23e88cd41768a
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  99.9251 4.714 131
+  100.0399 36.04 999
+//

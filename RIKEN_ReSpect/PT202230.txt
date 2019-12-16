@@ -1,0 +1,38 @@
+ACCESSION: PT202230
+RECORD_TITLE: Rib-5P, [(2R,3S,4R)-3,4,5-trihydroxyoxolan-2-yl]methyl dihydrogen phosphate, D-Ribose-5-phosphate disodium salt hydrate, R-5-P, D-Ribofuranose 5-phosphate disodium salt; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Rib-5P
+CH$NAME: [(2R,3S,4R)-3,4,5-trihydroxyoxolan-2-yl]methyl dihydrogen phosphate
+CH$NAME: D-Ribose-5-phosphate disodium salt hydrate
+CH$NAME: R-5-P
+CH$NAME: D-Ribofuranose 5-phosphate disodium salt
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Suger phosphate CLASS3 Ribose phosphate
+CH$FORMULA: C5H11O8P
+CH$EXACT_MASS: 230.111
+CH$SMILES: C(C1C(C(C(O1)O)O)O)OP(=O)(O)O
+CH$IUPAC: InChI=1S/C5H11O8P/c6-3-2(1-12-14(9,10)11)13-5(8)4(3)7/h2-8H,1H2,(H2,9,10,11)
+CH$LINK: CAS 4300-28-1
+CH$LINK: INCHIKEY KTVPXOYAKDPRHY-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 229.01135
+PK$SPLASH: splash10-002b-9000000000-340deaecb0169ce2acd3
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  78.9596 594.2 677
+  96.9695 876.8 999
+  138.9801 113.9 130
+  229.0114 122.0 139
+//

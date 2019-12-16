@@ -1,0 +1,44 @@
+ACCESSION: PS107404
+RECORD_TITLE: 3-Methylsulfinylpropyl glucosinolate, beta-D-Glucopyranose,1-thio-,1-(4-(methylsulfinyl)-N-(sulfooxy)butanimidate), Glucoiberin, 3-(Methylsulfinyl)propylglucosinolate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound KVL/C2 BIOENGNEERING, 10-JS 12-05-02.
+COMMENT: PRIMe compound in-house ID T0116
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 3-Methylsulfinylpropyl glucosinolate
+CH$NAME: beta-D-Glucopyranose,1-thio-,1-(4-(methylsulfinyl)-N-(sulfooxy)butanimidate)
+CH$NAME: Glucoiberin
+CH$NAME: 3-(Methylsulfinyl)propylglucosinolate
+CH$COMPOUND_CLASS: CLASS1 Glucosinolate CLASS2 Aliphatic glucosinolate
+CH$FORMULA: C11H21NO10S3
+CH$EXACT_MASS: 423.481
+CH$SMILES: CS(=O)CCCC(=NOS(=O)(=O)O)SC1C(C(C(C(O1)CO)O)O)O
+CH$IUPAC: InChI=1S/C11H21NO10S3/c1-24(17)4-2-3-7(12-22-25(18,19)20)23-11-10(16)9(15)8(14)6(5-13)21-11/h6,8-11,13-16H,2-5H2,1H3,(H,18,19,20)
+CH$LINK: CAS 554-88-1
+CH$LINK: KEGG C08411
+CH$LINK: PUBCHEM CID:9548622
+CH$LINK: INCHIKEY PHYYADMVYQURSX-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 424.35
+PK$SPLASH: splash10-014i-0900000000-493c04b17c7b9ce9e949
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  75.0 4391.0 68
+  117.0 18583.0 287
+  118.0 64789.0 999
+  144.0 8426.0 130
+  182.0 6259.0 97
+//

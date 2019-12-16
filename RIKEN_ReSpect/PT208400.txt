@@ -1,0 +1,42 @@
+ACCESSION: PT208400
+RECORD_TITLE: Pend-3-Glc, (2S,3R,4S,5S,6R)-2-[5,7-dihydroxy-2-(4-hydroxy-3-methoxyphenyl)chromenylium-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol, oxycoccicyanin, peonidin-3-o-beta-d-glucopyranoside, 3-(Glucosyloxy)-4',5,7-trihydroxy-3'-methoxyflavylium ; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Pend-3-Glc
+CH$NAME: (2S,3R,4S,5S,6R)-2-[5,7-dihydroxy-2-(4-hydroxy-3-methoxyphenyl)chromenylium-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol
+CH$NAME: oxycoccicyanin
+CH$NAME: peonidin-3-o-beta-d-glucopyranoside
+CH$NAME: 3-(Glucosyloxy)-4',5,7-trihydroxy-3'-methoxyflavylium
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Anthocyanin CLASS3 Peonidin glycoside
+CH$FORMULA: [C22H23O11]+
+CH$EXACT_MASS: 463.415
+CH$SMILES: COC1=C(C=CC(=C1)C2=C(C=C3C(=CC(=CC3=[O+]2)O)O)OC4C(C(C(C(O4)CO)O)O)O)O
+CH$IUPAC: InChI=1S/C22H22O11/c1-30-15-4-9(2-3-12(15)25)21-16(7-11-13(26)5-10(24)6-14(11)31-21)32-22-20(29)19(28)18(27)17(8-23)33-22/h2-7,17-20,22-23,27-29H,8H2,1H3,(H2-,24,25,26)/p+1
+CH$LINK: CAS 6906-39-4
+CH$LINK: INCHIKEY ZZWPMFROUHHAKY-UHFFFAOYSA-O
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-2H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 461.10841
+PK$SPLASH: splash10-0002-0090100000-0807279ecd58dbe38f4e
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  211.0415 105.3 118
+  227.0354 199.8 223
+  255.0306 222.5 249
+  283.025 400.7 448
+  284.033 240.5 269
+  298.0484 462.9 517
+  299.0562 894.1 999
+  461.1084 356.3 398
+//

@@ -1,0 +1,43 @@
+ACCESSION: PS038507
+RECORD_TITLE: beta-Methylcrotonyl coenzyme A lithium salt , 3-Methylcrotonyl-CoA, beta-Methylcrotonyl-CoA, trans-3-Methyl-2-butenoyl Coenzyme A, 3-methylbut-2-enoyl-CoA, Dimethylacryloyl-CoA; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, M3013.
+COMMENT: PRIMe compound in-house ID 385
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: beta-Methylcrotonyl coenzyme A lithium salt
+CH$NAME: 3-Methylcrotonyl-CoA
+CH$NAME: beta-Methylcrotonyl-CoA
+CH$NAME: trans-3-Methyl-2-butenoyl Coenzyme A
+CH$NAME: 3-methylbut-2-enoyl-CoA
+CH$NAME: Dimethylacryloyl-CoA
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 CoA
+CH$FORMULA: C26H42N7O17P3S
+CH$EXACT_MASS: 849.647
+CH$SMILES: CC(=CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C2N=CN=C3N)O)OP(=O)(O)O)O)C
+CH$IUPAC: InChI=1S/C26H42N7O17P3S/c1-14(2)9-17(35)54-8-7-28-16(34)5-6-29-24(38)21(37)26(3,4)11-47-53(44,45)50-52(42,43)46-10-15-20(49-51(39,40)41)19(36)25(48-15)33-13-32-18-22(27)30-12-31-23(18)33/h9,12-13,15,19-21,25,36-37H,5-8,10-11H2,1-4H3,(H,28,34)(H,29,38)(H,42,43)(H,44,45)(H2,27,30,31)(H2,39,40,41)
+CH$LINK: KEGG C03069
+CH$LINK: PUBCHEM CID:439869
+CH$LINK: INCHIKEY BXIPALATIYNHJN-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 848.71
+PK$SPLASH: splash10-0002-0000000090-5ca1e071476d8834b607
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  848.0 81662.0 999
+  849.0 12654.0 155
+  850.0 10009.0 122
+//

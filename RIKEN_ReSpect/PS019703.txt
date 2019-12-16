@@ -1,0 +1,45 @@
+ACCESSION: PS019703
+RECORD_TITLE: D-Ribofuranose, D-(-)-Ribose, Rib; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, R7500.
+COMMENT: PRIMe compound in-house ID 197
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: D-Ribofuranose
+CH$NAME: D-(-)-Ribose
+CH$NAME: Rib
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Sugar CLASS3 Monosaccharide
+CH$FORMULA: C5H10O5
+CH$EXACT_MASS: 150.13
+CH$SMILES: C(C1C(C(C(O1)O)O)O)O
+CH$IUPAC: InChI=1S/C5H10O5/c6-1-2-3(7)4(8)5(9)10-2/h2-9H,1H2
+CH$LINK: CAS 50-69-1
+CH$LINK: KEGG C00121
+CH$LINK: PUBCHEM CID:5779
+CH$LINK: INCHIKEY HMFHBZSHGGEWLO-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 151.16
+PK$SPLASH: splash10-014i-9000000000-8d0036b1ee3fbc3567de
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  68.0 20848.0 317
+  69.0 65654.0 999
+  70.0 2161.0 33
+  86.0 2101.0 32
+  87.0 2048.0 31
+  89.0 6239.0 95
+  90.0 2238.0 34
+//

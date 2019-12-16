@@ -4,7 +4,7 @@ DATE: 2016.02.03 (Created 2014.06.26)
 AUTHORS: E. Schymanski, Dept. of Environmental Chemistry, Eawag, Switzerland
 LICENSE: CC BY
 COPYRIGHT: Copyright (C) 2016 Eawag, Duebendorf, Switzerland
-PUBLICATION: EL Schymanski, HP Singer, P Longree, M Loos, M Ruff, M Stravs, C Ripolles Vidal, J Hollender (2014) Environ. Sci. Technol. 48:1811-1818. DOI:10.1021/es4044374. Strategies to Characterize Polar Organic Contamination in Wastewater: Exploring the Capability of High Resolution Mass Spectrometry
+PUBLICATION: Schymanski, E. L.; Singer, H. P.; Longrée, P.; Loos, M.; Ruff, M.; Stravs, M. A.; Vidal, C. R.; Hollender, J. Strategies to Characterize Polar Organic Contamination in Wastewater: Exploring the Capability of High Resolution Mass Spectrometry. Environmental Science & Technology 2014, 48 (3), 1811–8. DOI:10.1021/es4044374
 COMMENT: TENTATIVELY IDENTIFIED SPECTRUM ONLY!!!!!!!!!
 COMMENT: Extracted (without noise removal) from ZUG_N: mz311_10_rt9_61_HCD60_STA-4C
 COMMENT: CONFIDENCE Tentative identification: isomers possible (Level 3)
@@ -16,6 +16,8 @@ CH$EXACT_MASS: 312.1031
 CH$SMILES: O=S(=O)(O)c1ccc2c(c1)C(CCC2CCC(=O)O)CC
 CH$IUPAC: InChI=1S/C15H20O5S/c1-2-10-3-4-11(5-8-15(16)17)13-7-6-12(9-14(10)13)21(18,19)20/h6-7,9-11H,2-5,8H2,1H3,(H,16,17)(H,18,19,20)
 CH$LINK: INCHIKEY OXVZPANHCLMUFY-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID40891338
+CH$LINK: PUBCHEM CID:133052794
 SP$SAMPLE: LOCATION GAZ:00012936 GAZ:00113609 GAZ:00020260 GAZ:00112808 GAZ:00111676 GAZ:00020435 GAZ:00113773 GAZ:00012931 GAZ:00020374 GAZ:00020378
 SP$SAMPLE: COMMENT Wastewater samples collected 10 different locations in Switzerland; details in SI of article.
 AC$INSTRUMENT: LTQ Orbitrap XL Thermo Scientific

@@ -1,0 +1,40 @@
+ACCESSION: PS029901
+RECORD_TITLE: 1-Methylguanidine hydrochloride, 1-Methylguanidinium Hydrochloride; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich , 222402.
+COMMENT: PRIMe compound in-house ID 299
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 1-Methylguanidine hydrochloride
+CH$NAME: 1-Methylguanidinium Hydrochloride
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Guanidine
+CH$FORMULA: C2H7N3
+CH$EXACT_MASS: 73.099
+CH$SMILES: CN=C(N)N
+CH$IUPAC: InChI=1S/C2H7N3/c1-5-2(3)4/h1H3,(H4,3,4,5)
+CH$LINK: CAS 471-29-4
+CH$LINK: KEGG C02294
+CH$LINK: PUBCHEM CID:10111
+CH$LINK: INCHIKEY CHJJGSNFBQVOTG-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 74.06
+PK$SPLASH: splash10-00di-9000000000-9afdd0c0785b45a05c11
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  57.0 99927.0 60
+  73.0 80610.0 49
+  74.0 1650302.0 999
+//

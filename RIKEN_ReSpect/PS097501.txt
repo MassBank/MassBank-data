@@ -1,0 +1,42 @@
+ACCESSION: PS097501
+RECORD_TITLE: (2R,3S)-2-Amino-3-methylpentanoic acid, allo-Ile, D-Alloisoleucine, (2R,3S)-2-Amino-3-methylvaleric acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, I0380.
+COMMENT: PRIMe compound in-house ID N0033
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: (2R,3S)-2-Amino-3-methylpentanoic acid
+CH$NAME: allo-Ile
+CH$NAME: D-Alloisoleucine
+CH$NAME: (2R,3S)-2-Amino-3-methylvaleric acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Isoleucine
+CH$FORMULA: C6H13NO2
+CH$EXACT_MASS: 131.175
+CH$SMILES: CCC(C)C(C(=O)O)N
+CH$IUPAC: InChI=1S/C6H13NO2/c1-3-4(2)5(7)6(8)9/h4-5H,3,7H2,1-2H3,(H,8,9)
+CH$LINK: CAS 1509-35-9
+CH$LINK: KEGG C06418
+CH$LINK: PUBCHEM CID:94206
+CH$LINK: INCHIKEY AGPKZVBTJJNPAG-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 132.16
+PK$SPLASH: splash10-0019-9700000000-8a714ebf126f933ff66f
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  85.0 230663.0 84
+  86.0 2727680.0 999
+  132.0 2594578.0 950
+//

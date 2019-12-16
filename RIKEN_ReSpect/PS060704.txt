@@ -1,0 +1,50 @@
+ACCESSION: PS060704
+RECORD_TITLE: L-beta-homoleucine-HCl, (S)-3-Amino-5-methylhexanoic acid hydrochloride; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Peptech, BL722.
+COMMENT: PRIMe compound in-house ID T0129
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-beta-homoleucine-HCl
+CH$NAME: (S)-3-Amino-5-methylhexanoic acid hydrochloride
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Leucine
+CH$FORMULA: C7H15NO2
+CH$EXACT_MASS: 145.202
+CH$SMILES: CC(C)CC(CC(=O)O)N
+CH$IUPAC: InChI=1S/C7H15NO2/c1-5(2)3-6(8)4-7(9)10/h5-6H,3-4,8H2,1-2H3,(H,9,10)
+CH$LINK: CAS 96386-92-4
+CH$LINK: PUBCHEM CID:2761525
+CH$LINK: INCHIKEY MLYMSIKVLAPCAK-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 146.2
+PK$SPLASH: splash10-0006-9000000000-c092e9780f4569ad3590
+PK$NUM_PEAK: 14
+PK$PEAK: m/z int. rel.int.
+  29.0 5661.0 137
+  30.0 11932.0 289
+  40.0 8341.0 202
+  41.0 30358.0 736
+  42.0 6596.0 160
+  43.0 41191.0 999
+  44.0 20495.0 497
+  45.0 2121.0 51
+  54.0 3427.0 83
+  55.0 16885.0 410
+  69.0 14548.0 353
+  85.0 5880.0 143
+  86.0 15141.0 367
+  146.0 1639.0 40
+//

@@ -1,0 +1,48 @@
+ACCESSION: PS027301
+RECORD_TITLE: L-Glutamic acid 5-amide, Levoglutamide, Cebrogen, L-2-Aminoglutaramic acid, Q, Glumin, (S)-2,5-Diamino-5-oxopentanoic acid, L-Glutamine, Gln; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, G3126.
+COMMENT: PRIMe compound in-house ID 273
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-Glutamic acid 5-amide
+CH$NAME: Levoglutamide
+CH$NAME: Cebrogen
+CH$NAME: L-2-Aminoglutaramic acid
+CH$NAME: Q
+CH$NAME: Glumin
+CH$NAME: (S)-2,5-Diamino-5-oxopentanoic acid
+CH$NAME: L-Glutamine
+CH$NAME: Gln
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Glutamine
+CH$FORMULA: C5H10N2O3
+CH$EXACT_MASS: 146.146
+CH$SMILES: C(CC(=O)N)C(C(=O)O)N
+CH$IUPAC: InChI=1S/C5H10N2O3/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H2,7,8)(H,9,10)
+CH$LINK: CAS 56-85-9
+CH$LINK: KEGG C00064
+CH$LINK: PUBCHEM CID:5961
+CH$LINK: INCHIKEY ZDXPYRJPNDTMRX-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 147.14
+PK$SPLASH: splash10-0002-0900000000-55407dfad396f3aaad80
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  129.0 24763.0 39
+  130.0 213106.0 338
+  146.0 46006.0 73
+  147.0 629377.0 999
+//

@@ -1,0 +1,33 @@
+ACCESSION: MSJ00086
+RECORD_TITLE: Cyclohexane; CI-Q; MS; Positive; Reactant ion NO+
+DATE: 2018.12.19
+AUTHORS: Satoshi Inomata, Hiroyuki Yamada, Hiroshi Tanimoto, Center for Environmental Measurement and Analysis and Center for Global Environmental Research, National Institute for Environmental Studies, and Department of Mechanical Engineering, Tokyo Denki University
+LICENSE: CC BY
+COPYRIGHT: Satoshi Inomata, Hiroyuki Yamada, Hiroshi Tanimoto, Center for Environmental Measurement and Analysis and Center for Global Environmental Research, National Institute for Environmental Studies, and Department of Mechanical Engineering, Tokyo Denki University.
+PUBLICATION: Satoshi Inomata, Hiroyuki Yamada, Hiroshi Tanimoto, J. Mass Spectrom. Soc. Jpn., 66(3), 123-128 (2018).
+COMMENT: Sample concentration was 1.73 ppm (v/v), produced by using a Permeator.
+COMMENT: The reactant ion, NO+, was generated from the air at the hollow cathode discharge 2.0 mA by using Proton Transfer Reaction plus Switchable Reagent Ion Mass Spectrometry, PTR+SRI-MS.
+COMMENT: Pressure inside of the drift tube was 2.1 mbar. Temperature of the drift tube was 105 C. Electric field of the drift tube was E/N = 67 Td (U_drift = 250 V). Temperature of inlet tube was 105 C.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 16HP2005 to the Mass Spectrometry Society of Japan.
+CH$NAME: Cyclohexane
+CH$COMPOUND_CLASS: Synthetic compound; alkanes
+CH$FORMULA: C6H12
+CH$EXACT_MASS: 84.0939
+CH$SMILES: C1CCCCC1
+CH$IUPAC: InChI=1S/C6H12/c1-2-4-6-5-3-1/h1-6H2
+CH$LINK: CHEMSPIDER 7787
+CH$LINK: INCHIKEY XDTMQSROBMDMFD-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:8078
+CH$LINK: COMPTOX DTXSID4021923
+AC$INSTRUMENT: PTR-QMS 500 (IONICON Analytik GmbH, Innsbruck, Austria)
+AC$INSTRUMENT_TYPE: CI-Q
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION CI
+AC$MASS_SPECTROMETRY: REACTANT_ION NO+
+PK$SPLASH: splash10-001i-9000000000-209e825a6eb5e5f3ad08
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  83 0.3001 999
+  114 0.0165 55
+//

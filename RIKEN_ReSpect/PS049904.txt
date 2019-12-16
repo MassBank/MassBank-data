@@ -1,0 +1,48 @@
+ACCESSION: PS049904
+RECORD_TITLE: Acetylputrescine, N-(4-aminobutyl)acetamide, N-acetyl putrescine hydrochloride; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A8784.
+COMMENT: PRIMe compound in-house ID H0096
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Acetylputrescine
+CH$NAME: N-(4-aminobutyl)acetamide
+CH$NAME: N-acetyl putrescine hydrochloride
+CH$COMPOUND_CLASS: CLASS1 Alkaloid CLASS2 Polyamine CLASS3 Putrescine
+CH$FORMULA: C6H14N2O
+CH$EXACT_MASS: 130.191
+CH$SMILES: CC(=O)NCCCCN
+CH$IUPAC: InChI=1S/C6H14N2O/c1-6(9)8-5-3-2-4-7/h2-5,7H2,1H3,(H,8,9)
+CH$LINK: CAS 18233-70-0
+CH$LINK: KEGG C02714
+CH$LINK: PUBCHEM CID:122356
+CH$LINK: INCHIKEY KLZGKIDSEJWEDW-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 131.16
+PK$SPLASH: splash10-0089-9000000000-029f4f0c063c1764803d
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  29.0 7556.0 164
+  30.0 46097.0 999
+  42.0 4001.0 87
+  43.0 11792.0 256
+  44.0 1603.0 35
+  55.0 2180.0 47
+  71.0 3097.0 67
+  72.0 42245.0 916
+  113.0 1799.0 39
+  126.0 1769.0 38
+//

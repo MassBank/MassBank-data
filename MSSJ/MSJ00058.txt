@@ -1,0 +1,66 @@
+ACCESSION: MSJ00058
+RECORD_TITLE: L-gamma-glutamyl-S-3-(1-oxobutyl)-L-cysteinyl-glycine; ESI-QQ; MS2; CE 10 eV; [M+H]+
+DATE: 2018.12.26
+AUTHORS: Horiyama S., Hatai M., Takahashi Y., Date S., Masujima T., Honda C., Ichikawa A., Yoshikawa N., Nakamura K., Kunitomo M., Takayama M., Mukogawa Women's University, Riken Quantitative Biology Center, OLABB, Yokohama City University.
+LICENSE: CC BY
+COPYRIGHT: S., Hatai M., Takahashi Y., Date S., Masujima T., Honda C., Ichikawa A., Yoshikawa N., Nakamura K., Kunitomo M., Takayama M., Mukogawa Women's University, Riken Quantitative Biology Center, OLABB, Yokohama City University.
+PUBLICATION: Chem. Pharm. Bull, 2016, 64 (6), pp 585-593. DOI: 10.1248/cpb.c15-00986p
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 16HP2005 to the Mass Spectrometry Society of Japan.
+CH$NAME: L-gamma-glutamyl-S-3-(1-oxobutyl)-L-cysteinyl-glycine
+CH$COMPOUND_CLASS: Synthetic compound; Peptide
+CH$FORMULA: C14H23N3O7S
+CH$EXACT_MASS: 377.1257
+CH$SMILES: O=C(N[C@@H](CSC(C)CC=O)C(=O)NCC(=O)O)CC[C@H](N)C(=O)O
+CH$IUPAC: InChI=1S/C14H23N3O7S/c1-8(4-5-18)25-7-10(13(22)16-6-12(20)21)17-11(19)3-2-9(15)14(23)24/h5,8-10H,2-4,6-7,15H2,1H3,(H,16,22)(H,17,19)(H,20,21)(H,23,24)/t8?,9-,10-/m0/s1
+CH$LINK: CHEMSPIDER 58827519
+CH$LINK: INCHIKEY KEQTTYRWDJQWAB-AGROOBSYSA-N
+CH$LINK: PUBCHEM CID:122391324
+AC$INSTRUMENT: Quattro Premier, Micromass (USA) coupled to Alliance HT 2795, Waters (USA).
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_GAS Ar
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10 eV
+AC$CHROMATOGRAPHY: COLUMN_NAME C18(ODS), Cosmosil 5C18-AR-II, 4.6 x 150 mm, 4.4 micrometer
+AC$CHROMATOGRAPHY: FLOW_GRADIENT A 0.05%HCOOH, B CH3OH, linear gradient 5% B-40% B-95% B-5% B
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 378.1330
+PK$SPLASH: splash10-0059-0179000000-a3e13766e619a3aa5ed1
+PK$NUM_PEAK: 34
+PK$PEAK: m/z int. rel.int.
+  102.3 10410 5
+  127.5 45750 23
+  127.9 45710 23
+  128.3 28020 14
+  129.9 9854 5
+  130.2 9942 5
+  145.4 13720 7
+  145.7 35040 18
+  146.0 42280 21
+  161.2 11190 6
+  161.5 19490 10
+  161.9 21690 11
+  162.3 16380 8
+  178.4 11730 6
+  178.9 35950 18
+  181.9 20030 10
+  182.2 22670 12
+  231.1 1659000 843
+  231.9 10260 5
+  232.1 14280 7
+  249.1 167200 85
+  256.7 20670 11
+  257.1 36890 19
+  284.6 10010 5
+  285.1 37670 19
+  302.6 10200 5
+  303.1 89000 45
+  303.4 32060 16
+  307.7 10040 5
+  315.2 9562 5
+  332.0 20620 10
+  359.8 35780 18
+  360.1 62540 32
+  378.1 1965000 999
+//

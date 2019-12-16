@@ -1,0 +1,39 @@
+ACCESSION: PM000420
+RECORD_TITLE: Luteolin; LC-ESI-QQ; MS2
+DATE: 2006.04.20
+AUTHORS: Sanchez-Rabaneda F, et al.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2012 Plant Science Center, RIKEN
+PUBLICATION: Sánchez-Rabaneda, F.; Jáuregui, O.; Casals, I.; Andrés-Lacueva, C.; Izquierdo-Pulido, M.; Lamuela-Raventós, R. M. Liquid Chromatographic/Electrospray Ionization Tandem Mass Spectrometric Study of the Phenolic Composition of Cocoa (Theobroma Cacao). Journal of Mass Spectrometry 2003, 38 (1), 35–42. DOI:10.1002/jms.395
+COMMENT: 726
+CH$NAME: Luteolin
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Flavone CLASS3 Luteolin
+CH$FORMULA: C15H10O6
+CH$EXACT_MASS: 286.239
+CH$SMILES: O=c1cc(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12
+CH$IUPAC: InChI=1S/C15H10O6/c16-8-4-11(19)15-12(20)6-13(21-14(15)5-8)7-1-2-9(17)10(18)3-7/h1-6,16-19H
+CH$LINK: CAS 491-70-3
+CH$LINK: INCHIKEY IQPNAANSBPBGFQ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:5280445
+CH$LINK: COMPTOX DTXSID4074988
+SP$SAMPLE: Theobroma cacao
+AC$INSTRUMENT: Agilent (Waldbronn, Germany) Model 1100; API 3000 triple-quadrupole mass spectrometer (Perkin-Elmer Sciex, Concord, ON, Canada)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY -35
+AC$CHROMATOGRAPHY: SOLVENT H2O/NH3CN/HCOOH
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 285
+PK$SPLASH: splash10-0f80-0950000000-d339ea07900fe4d012e5
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  107.0 10.0 100
+  133.0 50.0 500
+  151.0 85.0 849
+  175.0 20.0 200
+  199.0 20.0 200
+  217.0 10.0 100
+  285.0 100.0 999
+//

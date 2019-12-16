@@ -1,0 +1,43 @@
+ACCESSION: PS024205
+RECORD_TITLE: Guanosine-3',5'-cyclic monophosphate, cGMP, cyclic GMP; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, G7504.
+COMMENT: PRIMe compound in-house ID 242
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Guanosine-3',5'-cyclic monophosphate
+CH$NAME: cGMP
+CH$NAME: cyclic GMP
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Guanosine phosphate
+CH$FORMULA: C10H12N5O7P
+CH$EXACT_MASS: 345.21
+CH$SMILES: C1C2C(C(C(O2)N3C=NC4=C3NC(=NC4=O)N)O)OP(=O)(O1)O
+CH$IUPAC: InChI=1S/C10H12N5O7P/c11-10-13-7-4(8(17)14-10)12-2-15(7)9-5(16)6-3(21-9)1-20-23(18,19)22-6/h2-3,5-6,9,16H,1H2,(H,18,19)(H3,11,13,14,17)
+CH$LINK: CAS 7665-99-8
+CH$LINK: KEGG C00942
+CH$LINK: PUBCHEM CID:24316
+CH$LINK: INCHIKEY ZOOGRGPOEVQQDX-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 50
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 346.27
+PK$SPLASH: splash10-0udi-0900000000-9c5bfcb769c4e5119bf9
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  134.0 9333.0 42
+  135.0 22713.0 103
+  150.0 16830.0 76
+  151.0 83192.0 377
+  152.0 220713.0 999
+//

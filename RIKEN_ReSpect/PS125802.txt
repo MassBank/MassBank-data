@@ -1,0 +1,47 @@
+ACCESSION: PS125802
+RECORD_TITLE: 8-Methyltocotrienol, (R)-delta-Tocotrienol, delta-Tocotrienol; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako/Cayman Chemical Co, 10008513.
+COMMENT: PRIMe compound in-house ID V0132
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 8-Methyltocotrienol
+CH$NAME: (R)-delta-Tocotrienol
+CH$NAME: delta-Tocotrienol
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: C27H40O2
+CH$EXACT_MASS: 396.615
+CH$SMILES: CC1=C2C(=CC(=C1)O)CCC(O2)(C)CCC=C(C)CCC=C(C)CCC=C(C)C
+CH$IUPAC: InChI=1S/C27H40O2/c1-20(2)10-7-11-21(3)12-8-13-22(4)14-9-16-27(6)17-15-24-19-25(28)18-23(5)26(24)29-27/h10,12,14,18-19,28H,7-9,11,13,15-17H2,1-6H3
+CH$LINK: CAS 25612-59-3
+CH$LINK: KEGG C14156
+CH$LINK: PUBCHEM CID:5282350
+CH$LINK: INCHIKEY ODADKLYLWWCHNB-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 397.58
+PK$SPLASH: splash10-0002-0209000000-9334d5f0291fd98169df
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  107.0 3445.0 61
+  137.0 8001.0 143
+  175.0 3666.0 65
+  190.0 4452.0 79
+  191.0 3582.0 64
+  247.0 4369.0 78
+  396.0 6003.0 107
+  397.0 56075.0 999
+  398.0 11716.0 209
+//

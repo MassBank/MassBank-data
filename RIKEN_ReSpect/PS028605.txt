@@ -1,0 +1,44 @@
+ACCESSION: PS028605
+RECORD_TITLE: L-Proline, (S)-Pyrrolidine-2-carboxylic acid, Pro, 2-Pyrrolidinecarboxylic acid, Pyrrolidine-2-carboxylic acid, L-alpha-Pyrrolidinecarboxylic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, P0380.
+COMMENT: PRIMe compound in-house ID 286
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-Proline
+CH$NAME: (S)-Pyrrolidine-2-carboxylic acid
+CH$NAME: Pro
+CH$NAME: 2-Pyrrolidinecarboxylic acid
+CH$NAME: Pyrrolidine-2-carboxylic acid
+CH$NAME: L-alpha-Pyrrolidinecarboxylic acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Proline
+CH$FORMULA: C5H9NO2
+CH$EXACT_MASS: 115.132
+CH$SMILES: C1CC(NC1)C(=O)O
+CH$IUPAC: InChI=1S/C5H9NO2/c7-5(8)4-2-1-3-6-4/h4,6H,1-3H2,(H,7,8)
+CH$LINK: CAS 147-85-3
+CH$LINK: KEGG C00148
+CH$LINK: PUBCHEM CID:145742
+CH$LINK: INCHIKEY ONIBWKKTOPOVIA-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 50
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 116.08
+PK$SPLASH: splash10-00di-9000000000-9df17977f0d431ca547d
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  28.0 5401.0 42
+  69.0 16190.0 126
+  70.0 128863.0 999
+//

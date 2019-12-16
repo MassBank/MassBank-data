@@ -1,0 +1,51 @@
+ACCESSION: PR310816
+RECORD_TITLE: Hydroxypyridin + C5H10NO or 6-Hydroxypseudooxynicotine (not validated); LC-ESI-QTOF; MS2
+DATE: 2019.03.28
+AUTHORS: Tetsuya Mori, Center for Sustainable Resource Science, RIKEN
+LICENSE: CC BY-SA NC
+PUBLICATION: Tsugawa H., Nakabayashi R., Mori T., Yamada Y., Takahashi M., Rai A., Sugiyama R., Yamamoto H., Nakaya T., Yamazaki M., Kooke R., Bac-Molenaar JA., Oztolan-Erol N., Keurentjes JJB., Arita M., Saito K. (2019) "A cheminformatics approach to characterize metabolomes in stable-isotope-labeled organisms" Nature Methods 16(4):295-298. [doi:10.1038/s41592-019-0358-2]
+COMMENT: Annotation level-3
+CH$NAME: Hydroxypyridin + C5H10NO or 6-Hydroxypseudooxynicotine (not validated)
+CH$COMPOUND_CLASS: Nicotine and derivatives
+CH$FORMULA: C10H14N2O2
+CH$EXACT_MASS: 194.234
+CH$SMILES: O=C(C=1C=NC(O)=CC=1)CCCNC
+CH$IUPAC: InChI=1S/C10H14N2O2/c1-11-6-2-3-9(13)8-4-5-10(14)12-7-8/h4-5,7,11H,2-3,6H2,1H3,(H,12,14)
+CH$LINK: INCHIKEY UMLOUOBDBGOHHR-UHFFFAOYSA-N
+AC$INSTRUMENT: LC, Waters Acquity UPLC System; MS, Waters Xevo G2 Q-Tof
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 6V
+AC$MASS_SPECTROMETRY: DESOLVATION_GAS_FLOW 800/h
+AC$MASS_SPECTROMETRY: DESOLVATION_TEMPERATURE 450 C
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: CAPILLARY_VOLTAGE +3.00 kV
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity bridged ethyl hybrid C18 (1.7 um, 2.1 mm * 100 mm, Waters)
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE 40 C
+AC$CHROMATOGRAPHY: FLOW_GRADIENT A/B = (99.5%/0.5% at 0 min, 99.5%/0.5% at 0.1 min, 20%/80% at 10 min, 0.5%/99.5% at 10.1 min, 0.5%/99.5% at 12.0 min, 99.5%/0.5% at 12.1 min, 99.5%/0.5% at 15.0 min)
+AC$CHROMATOGRAPHY: FLOW_RATE 0.3 ml/min at 0 min, 0.3 ml/min at 10 min, 0.4 ml/min at 10.1 min, 0.4 ml/min at 14.4 min, 0.3 ml/min at 14.5 min
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.8
+AC$CHROMATOGRAPHY: SOLVENT A water including 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile including 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 195.1137
+PK$SPLASH: splash10-03di-0900000000-17c757ba576bf33e294d
+PK$NUM_PEAK: 15
+PK$PEAK: m/z int. rel.int.
+  94.02503 18.0 108
+  119.46591 16.0 96
+  122.01906 34.0 203
+  122.0248 57.0 341
+  148.07587 28.0 167
+  149.09756 20.0 120
+  152.14864 16.0 96
+  164.06842 167.0 999
+  164.07724 109.0 652
+  165.07454 20.0 120
+  165.08751 36.0 215
+  166.09245 19.0 114
+  167.08456 18.0 108
+  179.10257 21.0 126
+  195.11497 47.0 281
+//

@@ -1,0 +1,39 @@
+ACCESSION: PT109980
+RECORD_TITLE: O-Acety-L-carnitine hydrochloride, ALCAR, Levacecarnine , [(2R)-2-acetyloxy-4-hydroxy-4-oxobutyl]-trimethylazanium, (R)-3-Acetoxy-4-(trimethylammonio)butyrate, ALC, L-Carnitine acetyl ester; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: O-Acety-L-carnitine hydrochloride
+CH$NAME: ALCAR
+CH$NAME: Levacecarnine
+CH$NAME: [(2R)-2-acetyloxy-4-hydroxy-4-oxobutyl]-trimethylazanium
+CH$NAME: (R)-3-Acetoxy-4-(trimethylammonio)butyrate
+CH$NAME: ALC
+CH$NAME: L-Carnitine acetyl ester
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Carnitine
+CH$FORMULA: [C9H18NO4]+
+CH$EXACT_MASS: 204.246
+CH$SMILES: CC(=O)OC(CC(=O)O)C[N+](C)(C)C
+CH$IUPAC: InChI=1S/C9H17NO4/c1-7(11)14-8(5-9(12)13)6-10(2,3)4/h8H,5-6H2,1-4H3/p+1
+CH$LINK: CAS 14992-62-2
+CH$LINK: INCHIKEY RDHQFKQIGNGIED-UHFFFAOYSA-O
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 204.12355
+PK$SPLASH: splash10-000i-9130000000-e1b9918cf899fd3baa37
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  85.0299 7488.0 999
+  145.0539 1061.0 142
+  204.1236 2527.0 337
+//

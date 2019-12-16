@@ -1,0 +1,53 @@
+ACCESSION: PS098603
+RECORD_TITLE: beta-Alanyl-3-methyl-L-histidine, L-Anserine nitrate salt, beta-Ala-3-Me-His; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A1131.
+COMMENT: PRIMe compound in-house ID N0044
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: beta-Alanyl-3-methyl-L-histidine
+CH$NAME: L-Anserine nitrate salt
+CH$NAME: beta-Ala-3-Me-His
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Serine
+CH$FORMULA: C10H16N4O3
+CH$EXACT_MASS: 240.263
+CH$SMILES: CN1C=NC=C1CC(C(=O)O)NC(=O)CCN
+CH$IUPAC: InChI=1S/C10H16N4O3/c1-14-6-12-5-7(14)4-8(10(16)17)13-9(15)2-3-11/h5-6,8H,2-4,11H2,1H3,(H,13,15)(H,16,17)
+CH$LINK: CAS 584-85-0
+CH$LINK: KEGG C01262
+CH$LINK: PUBCHEM CID:112072
+CH$LINK: INCHIKEY MYYIAHXIVFADCU-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 241.31
+PK$SPLASH: splash10-0a4i-3900000000-1e61e5bec21fb6e5e93f
+PK$NUM_PEAK: 15
+PK$PEAK: m/z int. rel.int.
+  30.0 11838.0 291
+  72.0 3284.0 81
+  95.0 6690.0 164
+  96.0 12015.0 295
+  97.0 2257.0 55
+  108.0 6824.0 168
+  109.0 40681.0 999
+  125.0 2448.0 60
+  126.0 13690.0 336
+  153.0 6220.0 153
+  168.0 1552.0 38
+  169.0 4683.0 115
+  170.0 15024.0 369
+  240.0 2509.0 62
+  241.0 7418.0 182
+//

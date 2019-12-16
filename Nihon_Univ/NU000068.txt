@@ -3,7 +3,7 @@ RECORD_TITLE: 3alpha,4beta-Dihydroxy-5beta-cholan-24-oic acid Methyl ester; EI-B
 DATE: 2016.01.19 (Created 2008.12.03, modified 2011.05.06)
 AUTHORS: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University. Koichi Metori, Chemical Analytical Center, College of Pharmacy, Nihon Univercity.
 LICENSE: CC BY-NC-SA
-PUBLICATION: Iida, T., Momose, T., Chang, F. C., Goto, J., and Nambara, T. 1989. Potential bile acid metabolites. XV. Synthesis of 4 beta-hydroxylated bile acids; unique bile acids in human fetal bile [PMID: 2632079]. Chem Pharm Bull. 37: 3323-3329.
+PUBLICATION: Iida, T., Momose, T., Chang, F. C., Goto, J., and Nambara, T. 1989. Potential bile acid metabolites. XV. Synthesis of 4 beta-hydroxylated bile acids; unique bile acids in human fetal bile [PMID: 2632079]. Chem Pharm Bull. 37: 3323-3329. doi:10.1248/cpb.37.3323
 COMMENT: Mass spectral data were collected from the publications cited in LipidBank
 COMMENT: Because the base peak (m/z=388.0) observed was scaled out, its relative intensity was adjusted so that other peaks could be shown in an appropriate range.
 CH$NAME: 3alpha,4beta-Dihydroxy-5beta-cholan-24-oic acid Methyl ester
@@ -13,6 +13,7 @@ CH$EXACT_MASS: 406.30831
 CH$SMILES: C(C1(C)4)([H])(C(C)CCC(=O)OC)CCC1(C(C3([H])CC4)([H])CCC(C3(C)2)([H])C(O)C(O)CC2)[H]
 CH$IUPAC: InChI=1S/C25H42O4/c1-15(5-10-22(27)29-4)17-8-9-18-16-6-7-20-23(28)21(26)12-14-25(20,3)19(16)11-13-24(17,18)2/h15-21,23,26,28H,5-14H2,1-4H3/t15-,16+,17-,18+,19+,20-,21-,23-,24-,25-/m1/s1
 CH$LINK: LIPIDBANK BBA0022
+CH$LINK: INCHIKEY BJTZAKSSYSISDQ-NTMHHKLKSA-N
 AC$INSTRUMENT: JEOL JMS-01SG-2
 AC$INSTRUMENT_TYPE: EI-B
 AC$MASS_SPECTROMETRY: MS_TYPE MS

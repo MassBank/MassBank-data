@@ -1,0 +1,46 @@
+ACCESSION: PS000801
+RECORD_TITLE: Phenylmethanal, Benzoic aldehyde, Benzaldehyde, Benzenecarbonal, Almond artificial essential oil, Benzoyl hydride, Formylbenzene; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Nacalai-T, 04006-62.
+COMMENT: PRIMe compound in-house ID 8
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Phenylmethanal
+CH$NAME: Benzoic aldehyde
+CH$NAME: Benzaldehyde
+CH$NAME: Benzenecarbonal
+CH$NAME: Almond artificial essential oil
+CH$NAME: Benzoyl hydride
+CH$NAME: Formylbenzene
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Other
+CH$FORMULA: C7H6O
+CH$EXACT_MASS: 106.124
+CH$SMILES: C1=CC=C(C=C1)C=O
+CH$IUPAC: InChI=1S/C7H6O/c8-6-7-4-2-1-3-5-7/h1-6H
+CH$LINK: CAS 100-52-7
+CH$LINK: KEGG C00261
+CH$LINK: PUBCHEM CID:240
+CH$LINK: INCHIKEY HUMNYLRZRPPJDN-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID8039241
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 107.1
+PK$SPLASH: splash10-0a4i-0900000000-ae1e0ddb2c355ea94682
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  79.0 8646.0 95
+  106.0 12607.0 138
+  107.0 91361.0 999
+//

@@ -1,0 +1,48 @@
+ACCESSION: PS124011
+RECORD_TITLE: 3alpha,12alpha-Dihydroxy-5beta-cholanate, Deoxycholic Acid, Sodium Deoxycholate, 3alpha,12alpha-Dihydroxy-5beta-cholanic acid, desoxycholate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 192-08312.
+COMMENT: PRIMe compound in-house ID V0114
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 3alpha,12alpha-Dihydroxy-5beta-cholanate
+CH$NAME: Deoxycholic Acid
+CH$NAME: Sodium Deoxycholate
+CH$NAME: 3alpha,12alpha-Dihydroxy-5beta-cholanic acid
+CH$NAME: desoxycholate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: C24H40O4
+CH$EXACT_MASS: 392.58
+CH$SMILES: CC(CCC(=O)O)C1CCC2C1(C(CC3C2CCC4C3(CCC(C4)O)C)O)C
+CH$IUPAC: InChI=1S/C24H40O4/c1-14(4-9-22(27)28)18-7-8-19-17-6-5-15-12-16(25)10-11-23(15,2)20(17)13-21(26)24(18,19)3/h14-21,25-26H,4-13H2,1-3H3,(H,27,28)
+CH$LINK: CAS 83-44-3
+CH$LINK: KEGG C04483
+CH$LINK: PUBCHEM CID:440355
+CH$LINK: INCHIKEY KXGVEGMKQFWNSR-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 50
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 391.58
+PK$SPLASH: splash10-0006-0009000000-7ef77a28655d9fe34f17
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  343.0 5629.0 74
+  345.0 19056.0 251
+  387.0 2329.0 31
+  388.0 3139.0 41
+  389.0 4661.0 61
+  390.0 31199.0 411
+  391.0 75751.0 999
+  392.0 16455.0 217
+//

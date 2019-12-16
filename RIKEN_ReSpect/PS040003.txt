@@ -1,0 +1,48 @@
+ACCESSION: PS040003
+RECORD_TITLE: 4',5,7-trihydroxyisoflavone, 5,7-Dihydroxy-3-(4-hydroxyphenyl)-4-benzopyrone, Genisterin, Genisteol, Gens, 5,7-Dihydroxy-3-(4-hydroxyphenyl)-4H-1-benzopyran-4-one, Genistein, Sophoricol; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound EXTRASYNTHESE S.A, 1097.
+COMMENT: PRIMe compound in-house ID H0008
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 4',5,7-trihydroxyisoflavone
+CH$NAME: 5,7-Dihydroxy-3-(4-hydroxyphenyl)-4-benzopyrone
+CH$NAME: Genisterin
+CH$NAME: Genisteol
+CH$NAME: Gens
+CH$NAME: 5,7-Dihydroxy-3-(4-hydroxyphenyl)-4H-1-benzopyran-4-one
+CH$NAME: Genistein
+CH$NAME: Sophoricol
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Isoflavone CLASS3 Genistein
+CH$FORMULA: C15H10O5
+CH$EXACT_MASS: 270.24
+CH$SMILES: C1=CC(=CC=C1C2=COC3=CC(=CC(=C3C2=O)O)O)O
+CH$IUPAC: InChI=1S/C15H10O5/c16-9-3-1-8(2-4-9)11-7-20-13-6-10(17)5-12(18)14(13)15(11)19/h1-7,16-18H
+CH$LINK: CAS 446-72-0
+CH$LINK: KEGG C06563
+CH$LINK: PUBCHEM CID:5280961
+CH$LINK: INCHIKEY TZBJGXHYKVUXJN-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 271.27
+PK$SPLASH: splash10-00di-0090000000-f1126bd6d175c968787e
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  153.0 10402.0 30
+  269.0 17896.0 52
+  270.0 128550.0 374
+  271.0 343271.0 999
+  272.0 12154.0 35
+//

@@ -1,0 +1,59 @@
+ACCESSION: PR307390
+RECORD_TITLE: Paeoniflorin; LC-ESI-QTOF; MS2
+DATE: 2019.03.28
+AUTHORS: Tetsuya Mori, Center for Sustainable Resource Science, RIKEN
+LICENSE: CC BY-SA NC
+PUBLICATION: Tsugawa H., Nakabayashi R., Mori T., Yamada Y., Takahashi M., Rai A., Sugiyama R., Yamamoto H., Nakaya T., Yamazaki M., Kooke R., Bac-Molenaar JA., Oztolan-Erol N., Keurentjes JJB., Arita M., Saito K. (2019) "A cheminformatics approach to characterize metabolomes in stable-isotope-labeled organisms" Nature Methods 16(4):295-298. [doi:10.1038/s41592-019-0358-2]
+COMMENT: registered in RIKEN PlaSMA
+CH$NAME: Paeoniflorin
+CH$NAME: Peoniflorin
+CH$NAME: [1aR-(1aalpha,2beta,3aalpha,5alpha,5aalpha,5balpha)]-5b-[(Benzoyloxy)methyl]tetrahydro-5-hydroxy-2-methyl-2,5-methano-1H-3,4-dioxacyclobuta[cd]pentalen-1a(2H)-yl  beta-D-glucopyranoside
+CH$NAME: (1aR,2S,3aR,5R,5aR,5bS)-5b-[(Benzoyloxy)methyl]tetrahydro-5-hydroxy-2-methyl-2,5-methano-1H-3,4-dioxacyclobuta[cd]pentalen-1a(2H)-yl beta-D-glucopyranoside
+CH$COMPOUND_CLASS: Terpene glycosides
+CH$FORMULA: C23H28O11
+CH$EXACT_MASS: 480.16316
+CH$SMILES: C[C@]12C[C@@]3([C@@H]4C[C@]1([C@@]4([C@H](O2)O3)COC(=O)C5=CC=CC=C5)O[C@H]6[C@@H]([C@H]([C@@H]([C@H](O6)CO)O)O)O)O
+CH$IUPAC: InChI=1S/C23H28O11/c1-20-9-22(29)13-7-23(20,32-18-16(27)15(26)14(25)12(8-24)31-18)21(13,19(33-20)34-22)10-30-17(28)11-5-3-2-4-6-11/h2-6,12-16,18-19,24-27,29H,7-10H2,1H3/t12-,13-,14-,15+,16-,18+,19-,20+,21+,22-,23+/m1/s1
+CH$LINK: CAS 23180-57-6
+CH$LINK: INCHIKEY YKRGDOXKVOZESV-WRJNSLSBSA-N
+CH$LINK: PUBCHEM CID:442534
+AC$INSTRUMENT: LC, Waters Acquity UPLC System; MS, Waters Xevo G2 Q-Tof
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 6V
+AC$MASS_SPECTROMETRY: DESOLVATION_GAS_FLOW 800/h
+AC$MASS_SPECTROMETRY: DESOLVATION_TEMPERATURE 450 C
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: CAPILLARY_VOLTAGE -2.75 kV
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity bridged ethyl hybrid C18 (1.7 um, 2.1 mm * 100 mm, Waters)
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE 40 C
+AC$CHROMATOGRAPHY: FLOW_GRADIENT A/B = (99.5%/0.5% at 0 min, 99.5%/0.5% at 0.1 min, 20%/80% at 10 min, 0.5%/99.5% at 10.1 min, 0.5%/99.5% at 12.0 min, 99.5%/0.5% at 12.1 min, 99.5%/0.5% at 15.0 min)
+AC$CHROMATOGRAPHY: FLOW_RATE 0.3 ml/min at 0 min, 0.3 ml/min at 10 min, 0.4 ml/min at 10.1 min, 0.4 ml/min at 14.4 min, 0.3 ml/min at 14.5 min
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.779183
+AC$CHROMATOGRAPHY: SOLVENT A water including 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile including 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 479.15588524783
+PK$SPLASH: splash10-0002-0001900000-bd8467b4a86d5ef74146
+PK$NUM_PEAK: 18
+PK$PEAK: m/z int. rel.int.
+  121.02716 66.0 66
+  165.05061 10.0 10
+  165.05649 22.0 22
+  283.07977 18.0 18
+  309.09747 16.0 16
+  310.10556 8.0 8
+  327.10611 119.0 119
+  327.12857 8.0 8
+  357.1153 11.0 11
+  357.12778 7.0 7
+  358.1243 9.0 9
+  431.14325 21.0 21
+  431.15329 9.0 9
+  449.14194 1000.0 999
+  450.14563 104.0 104
+  451.14221 8.0 8
+  479.14676 55.0 55
+  479.16153 46.0 46
+//

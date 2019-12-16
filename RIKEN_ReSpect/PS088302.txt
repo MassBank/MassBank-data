@@ -1,0 +1,40 @@
+ACCESSION: PS088302
+RECORD_TITLE: (1R,5R)-2,6,6-Trimethylbicyclo(3.1.1)hept-2-ene, (1R,5R)-2-Pinene, (1R)-Pin-2-ene, (1R)-(+)-alpha-Pinene; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, 268070.
+COMMENT: PRIMe compound in-house ID S0330
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: (1R,5R)-2,6,6-Trimethylbicyclo(3.1.1)hept-2-ene
+CH$NAME: (1R,5R)-2-Pinene
+CH$NAME: (1R)-Pin-2-ene
+CH$NAME: (1R)-(+)-alpha-Pinene
+CH$COMPOUND_CLASS: CLASS1 Terpenoid CLASS2 Monoterpenoid CLASS3 Pinene
+CH$FORMULA: C10H16
+CH$EXACT_MASS: 136.238
+CH$SMILES: CC1=CCC2CC1C2(C)C
+CH$IUPAC: InChI=1S/C10H16/c1-7-4-5-8-6-9(7)10(8,2)3/h4,8-9H,5-6H2,1-3H3
+CH$LINK: CAS 7785-70-8
+CH$LINK: KEGG C06306
+CH$LINK: PUBCHEM CID:82227
+CH$LINK: INCHIKEY GRWFGVWFFZKLTI-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 137.15
+PK$SPLASH: splash10-0002-9000000000-b74cf4499a634c9ffb73
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  95.0 187899.0 999
+//

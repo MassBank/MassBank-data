@@ -1,0 +1,43 @@
+ACCESSION: PS018610
+RECORD_TITLE: Crotonoyl-CoA, 2-Butenoyl coenzyme A lithium salt  , Crotonoyl coenzyme A lithium salt; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, C6146.
+COMMENT: PRIMe compound in-house ID 186
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Crotonoyl-CoA
+CH$NAME: 2-Butenoyl coenzyme A lithium salt
+CH$NAME: Crotonoyl coenzyme A lithium salt
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 CoA
+CH$FORMULA: C25H40N7O17P3S
+CH$EXACT_MASS: 835.62
+CH$SMILES: CC=CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C2N=CN=C3N)O)OP(=O)(O)O)O
+CH$IUPAC: InChI=1S/C25H40N7O17P3S/c1-4-5-16(34)53-9-8-27-15(33)6-7-28-23(37)20(36)25(2,3)11-46-52(43,44)49-51(41,42)45-10-14-19(48-50(38,39)40)18(35)24(47-14)32-13-31-17-21(26)29-12-30-22(17)32/h4-5,12-14,18-20,24,35-36H,6-11H2,1-3H3,(H,27,33)(H,28,37)(H,41,42)(H,43,44)(H2,26,29,30)(H2,38,39,40)
+CH$LINK: CAS 102680-35-3
+CH$LINK: KEGG C00877
+CH$LINK: PUBCHEM CID:5280381
+CH$LINK: INCHIKEY KFWWCMJSYSSPSK-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 834.65
+PK$SPLASH: splash10-001i-0000000090-477e73bbe489fe727148
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  832.0 3872.0 51
+  833.0 42832.0 567
+  834.0 75506.0 999
+  835.0 45774.0 606
+  836.0 11997.0 159
+//

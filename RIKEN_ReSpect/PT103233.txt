@@ -1,0 +1,43 @@
+ACCESSION: PT103233
+RECORD_TITLE: Azacyclohexane, Pentamethyleneimine, Hexazane, piperidine, Hexahydropyridine, Piperidine, Cypentil, Perhydroazine, Perhydropyridine, Cyclopentimine, Pentamethylenimine; LC-ESI-QTOF; MS2
+DATE: 2008.07.25
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Azacyclohexane
+CH$NAME: Pentamethyleneimine
+CH$NAME: Hexazane
+CH$NAME: piperidine
+CH$NAME: Hexahydropyridine
+CH$NAME: Piperidine
+CH$NAME: Cypentil
+CH$NAME: Perhydroazine
+CH$NAME: Perhydropyridine
+CH$NAME: Cyclopentimine
+CH$NAME: Pentamethylenimine
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Piperidine
+CH$FORMULA: C5H11N
+CH$EXACT_MASS: 85.15
+CH$SMILES: C1CCNCC1
+CH$IUPAC: InChI=1S/C5H11N/c1-2-4-6-5-3-1/h6H,1-5H2
+CH$LINK: CAS 110-89-4
+CH$LINK: INCHIKEY NQRYJNQNLNOLGT-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 86.09694
+PK$SPLASH: splash10-000i-9000000000-155786c0621c522e75a7
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  69.071 9.169 79
+  86.066 1.183 10
+  86.0969 115.8 999
+//

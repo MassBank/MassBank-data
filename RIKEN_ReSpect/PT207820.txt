@@ -1,0 +1,41 @@
+ACCESSION: PT207820
+RECORD_TITLE: 1-Hydroxyethanecarboxylic acid, alpha-Hydroxypropanoic acid, 2-Hydroxypropionic acid, Lactate, 2-Hydroxy-2-methylacetic acid, Ethylidenelactic acid, Propel, Milk acid, DL-Lactic acid, (2S)-2-hydroxypropanoic acid, Milchsaeure; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 1-Hydroxyethanecarboxylic acid
+CH$NAME: alpha-Hydroxypropanoic acid
+CH$NAME: 2-Hydroxypropionic acid
+CH$NAME: Lactate
+CH$NAME: 2-Hydroxy-2-methylacetic acid
+CH$NAME: Ethylidenelactic acid
+CH$NAME: Propel
+CH$NAME: Milk acid
+CH$NAME: DL-Lactic acid
+CH$NAME: (2S)-2-hydroxypropanoic acid
+CH$NAME: Milchsaeure
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Lactic acid
+CH$FORMULA: C3H6O3
+CH$EXACT_MASS: 90.078
+CH$SMILES: CC(C(=O)O)O
+CH$IUPAC: InChI=1S/C3H6O3/c1-2(4)3(5)6/h2,4H,1H3,(H,5,6)
+CH$LINK: CAS 50-21-5
+CH$LINK: INCHIKEY JVTAAEKCZFNVCJ-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 89.02389
+PK$SPLASH: splash10-000i-9000000000-32a7c59ca2c276cf73a6
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  89.0239 31.74 999
+//

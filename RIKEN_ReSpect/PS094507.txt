@@ -1,0 +1,49 @@
+ACCESSION: PS094507
+RECORD_TITLE: HMG, Lipoglutaren, alpha-Keto-beta-oxy-beta-methylvalerate, HMGA, Meglutol, beta-Hydroxy-beta-methylglutaric acid, Medroglutaric acid, 3-Hydroxy-3-methylglutarate, 3-Hydroxy-3-methylglutaric Acid, 3-Hydroxy-3-methylpentanedioic acid, Dicrotalic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, H4392.
+COMMENT: PRIMe compound in-house ID N0003
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: HMG
+CH$NAME: Lipoglutaren
+CH$NAME: alpha-Keto-beta-oxy-beta-methylvalerate
+CH$NAME: HMGA
+CH$NAME: Meglutol
+CH$NAME: beta-Hydroxy-beta-methylglutaric acid
+CH$NAME: Medroglutaric acid
+CH$NAME: 3-Hydroxy-3-methylglutarate
+CH$NAME: 3-Hydroxy-3-methylglutaric Acid
+CH$NAME: 3-Hydroxy-3-methylpentanedioic acid
+CH$NAME: Dicrotalic acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Glutamic acid
+CH$FORMULA: C6H10O5
+CH$EXACT_MASS: 162.141
+CH$SMILES: CC(CC(=O)O)(CC(=O)O)O
+CH$IUPAC: InChI=1S/C6H10O5/c1-6(11,2-4(7)8)3-5(9)10/h11H,2-3H2,1H3,(H,7,8)(H,9,10)
+CH$LINK: CAS 503-49-1
+CH$LINK: KEGG C03761
+CH$LINK: PUBCHEM CID:1662
+CH$LINK: INCHIKEY NPOAOTPXWNWTSH-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 161.11
+PK$SPLASH: splash10-03di-0900000000-9aacf2357977d8a21b5a
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  99.0 21108.0 98
+  160.0 27455.0 128
+  161.0 214115.0 999
+//

@@ -1,0 +1,40 @@
+ACCESSION: PR300898
+RECORD_TITLE: Anthranoyllycoctonine; LC-ESI-QTOF; MS2
+DATE: 2019.03.28
+AUTHORS: Tetsuya Mori, Center for Sustainable Resource Science, RIKEN
+LICENSE: CC BY-SA NC
+PUBLICATION: Tsugawa H., Nakabayashi R., Mori T., Yamada Y., Takahashi M., Rai A., Sugiyama R., Yamamoto H., Nakaya T., Yamazaki M., Kooke R., Bac-Molenaar JA., Oztolan-Erol N., Keurentjes JJB., Arita M., Saito K. (2019) "A cheminformatics approach to characterize metabolomes in stable-isotope-labeled organisms" Nature Methods 16(4):295-298. [doi:10.1038/s41592-019-0358-2]
+COMMENT: registered in RIKEN PlaSMA
+CH$NAME: Anthranoyllycoctonine
+CH$COMPOUND_CLASS: Aconitane-type diterpenoid alkaloids
+CH$FORMULA: C32H46N2O8
+CH$EXACT_MASS: 586.726
+CH$SMILES: CCN1C[C@]2(COC(=O)C3=CC=CC=C3N)CC[C@H](OC)[C@@]34[C@@H]5C[C@H]6[C@H](OC)[C@@H]5[C@](O)(C[C@@H]6OC)[C@@](O)([C@@H](OC)[C@H]23)C14
+CH$IUPAC: InChI=1S/C32H46N2O8/c1-6-34-15-29(16-42-27(35)17-9-7-8-10-20(17)33)12-11-22(39-3)31-19-13-18-21(38-2)14-30(36,23(19)24(18)40-4)32(37,28(31)34)26(41-5)25(29)31/h7-10,18-19,21-26,28,36-37H,6,11-16,33H2,1-5H3/t18-,19-,21+,22+,23-,24+,25-,26+,28?,29+,30-,31+,32-/m1/s1
+CH$LINK: INCHIKEY NNDHDYDFEDRMGH-CAEIVAEBSA-N
+AC$INSTRUMENT: LC, Waters Acquity UPLC System; MS, Waters Xevo G2 Q-Tof
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 6V
+AC$MASS_SPECTROMETRY: DESOLVATION_GAS_FLOW 800/h
+AC$MASS_SPECTROMETRY: DESOLVATION_TEMPERATURE 450 C
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: CAPILLARY_VOLTAGE +3.00 kV
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity bridged ethyl hybrid C18 (1.7 um, 2.1 mm * 100 mm, Waters)
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE 40 C
+AC$CHROMATOGRAPHY: FLOW_GRADIENT A/B = (99.5%/0.5% at 0 min, 99.5%/0.5% at 0.1 min, 20%/80% at 10 min, 0.5%/99.5% at 10.1 min, 0.5%/99.5% at 12.0 min, 99.5%/0.5% at 12.1 min, 99.5%/0.5% at 15.0 min)
+AC$CHROMATOGRAPHY: FLOW_RATE 0.3 ml/min at 0 min, 0.3 ml/min at 10 min, 0.4 ml/min at 10.1 min, 0.4 ml/min at 14.4 min, 0.3 ml/min at 14.5 min
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.499933
+AC$CHROMATOGRAPHY: SOLVENT A water including 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile including 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 587.3326929
+PK$SPLASH: splash10-000i-0000090000-65064453ed5e90b7f735
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  586.31494 6.0 6
+  587.26318 8.0 8
+  587.33246 1000.0 999
+  587.40247 20.0 20
+//

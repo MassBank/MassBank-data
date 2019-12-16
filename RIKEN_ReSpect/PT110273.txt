@@ -1,0 +1,43 @@
+ACCESSION: PT110273
+RECORD_TITLE: 3-Carbamoyl-1-methylpyridinium, Nicotinamide methiodide, 1-Methylnicotinamide chloride, N-Methylnicotinic acid amide, 1-methylpyridin-1-ium-3-carboxamide; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 3-Carbamoyl-1-methylpyridinium
+CH$NAME: Nicotinamide methiodide
+CH$NAME: 1-Methylnicotinamide chloride
+CH$NAME: N-Methylnicotinic acid amide
+CH$NAME: 1-methylpyridin-1-ium-3-carboxamide
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: [C7H9N2O]+
+CH$EXACT_MASS: 137.162
+CH$SMILES: C[N+]1=CC=CC(=C1)C(=O)N
+CH$IUPAC: InChI=1S/C7H8N2O/c1-9-4-2-3-6(5-9)7(8)10/h2-5H,1H3,(H-,8,10)/p+1
+CH$LINK: CAS 3106-60-3
+CH$LINK: INCHIKEY LDHMAVIPBRSVRG-UHFFFAOYSA-O
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 137.07146
+PK$SPLASH: splash10-0006-9000000000-babd4e89db309a5c74cf
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  65.0396 101.7 213
+  67.0538 54.25 113
+  78.0349 220.3 460
+  79.0422 140.0 293
+  92.0505 244.2 510
+  93.0583 134.9 282
+  94.0662 478.0 999
+  96.0446 52.23 109
+  137.0715 124.8 261
+//

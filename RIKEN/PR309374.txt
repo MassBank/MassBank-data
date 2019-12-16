@@ -1,0 +1,44 @@
+ACCESSION: PR309374
+RECORD_TITLE: Caffeoyl putrescin (isomer of 391); LC-ESI-QTOF; MS2
+DATE: 2019.03.28
+AUTHORS: Tetsuya Mori, Center for Sustainable Resource Science, RIKEN
+LICENSE: CC BY-SA NC
+PUBLICATION: Tsugawa H., Nakabayashi R., Mori T., Yamada Y., Takahashi M., Rai A., Sugiyama R., Yamamoto H., Nakaya T., Yamazaki M., Kooke R., Bac-Molenaar JA., Oztolan-Erol N., Keurentjes JJB., Arita M., Saito K. (2019) "A cheminformatics approach to characterize metabolomes in stable-isotope-labeled organisms" Nature Methods 16(4):295-298. [doi:10.1038/s41592-019-0358-2]
+COMMENT: Annotation level-3
+CH$NAME: Caffeoyl putrescin (isomer of 391)
+CH$COMPOUND_CLASS: Caffeic acid and derivatives
+CH$FORMULA: C13H18N2O3
+CH$EXACT_MASS: 250.298
+CH$SMILES: O=C(C=CC=1C=CC(O)=C(O)C=1)NCCCCN
+CH$IUPAC: InChI=1S/C13H18N2O3/c14-7-1-2-8-15-13(18)6-4-10-3-5-11(16)12(17)9-10/h3-6,9,16-17H,1-2,7-8,14H2,(H,15,18)
+CH$LINK: INCHIKEY KTZNZCYTXQYEHT-UHFFFAOYSA-N
+AC$INSTRUMENT: LC, Waters Acquity UPLC System; MS, Waters Xevo G2 Q-Tof
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 6V
+AC$MASS_SPECTROMETRY: DESOLVATION_GAS_FLOW 800/h
+AC$MASS_SPECTROMETRY: DESOLVATION_TEMPERATURE 450 C
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: CAPILLARY_VOLTAGE +3.00 kV
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity bridged ethyl hybrid C18 (1.7 um, 2.1 mm * 100 mm, Waters)
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE 40 C
+AC$CHROMATOGRAPHY: FLOW_GRADIENT A/B = (99.5%/0.5% at 0 min, 99.5%/0.5% at 0.1 min, 20%/80% at 10 min, 0.5%/99.5% at 10.1 min, 0.5%/99.5% at 12.0 min, 99.5%/0.5% at 12.1 min, 99.5%/0.5% at 15.0 min)
+AC$CHROMATOGRAPHY: FLOW_RATE 0.3 ml/min at 0 min, 0.3 ml/min at 10 min, 0.4 ml/min at 10.1 min, 0.4 ml/min at 14.4 min, 0.3 ml/min at 14.5 min
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.42
+AC$CHROMATOGRAPHY: SOLVENT A water including 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile including 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 249.1228
+PK$SPLASH: splash10-0002-0590000000-1c86e06f80c532568051
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  135.04417 240.0 376
+  135.08476 20.0 31
+  136.04494 35.0 55
+  136.05138 35.0 55
+  161.06357 30.0 47
+  175.03102 21.0 33
+  207.10402 16.0 25
+  249.12363 638.0 999
+//

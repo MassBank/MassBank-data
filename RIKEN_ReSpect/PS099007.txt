@@ -1,0 +1,41 @@
+ACCESSION: PS099007
+RECORD_TITLE: alpha-Methylglutaric Acid, 2-Methylpentanedioic Acid, 2-Methylglutarate, 2-Methylglutaric Acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 322-66291.
+COMMENT: PRIMe compound in-house ID N0048
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: alpha-Methylglutaric Acid
+CH$NAME: 2-Methylpentanedioic Acid
+CH$NAME: 2-Methylglutarate
+CH$NAME: 2-Methylglutaric Acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Glutaric acid
+CH$FORMULA: C6H10O4
+CH$EXACT_MASS: 146.142
+CH$SMILES: CC(CCC(=O)O)C(=O)O
+CH$IUPAC: InChI=1S/C6H10O4/c1-4(6(9)10)2-3-5(7)8/h4H,2-3H2,1H3,(H,7,8)(H,9,10)
+CH$LINK: CAS 617-62-9
+CH$LINK: PUBCHEM CID:12046
+CH$LINK: INCHIKEY AQYCMVICBNBXNA-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 145.12
+PK$SPLASH: splash10-0002-0900000000-75066189fefa4371eb27
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  101.0 23784.0 108
+  144.0 31676.0 144
+  145.0 220325.0 999
+//

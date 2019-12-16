@@ -1,0 +1,45 @@
+ACCESSION: PT109060
+RECORD_TITLE: S-Glycyl-L-cysteine, 2-[[(2R)-2-amino-3-sulfanylpropanoyl]amino]acetic acid, Cys-Gly, cysteinylglycine, (R)-2-Amino-3-(aminoacetyl)thiopropanoic Acid, S-(2-Amino-1-oxoethyl)cysteine, Glycine Cysteine Thioester, L-Cysteinylglycine; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: S-Glycyl-L-cysteine
+CH$NAME: 2-[[(2R)-2-amino-3-sulfanylpropanoyl]amino]acetic acid
+CH$NAME: Cys-Gly
+CH$NAME: cysteinylglycine
+CH$NAME: (R)-2-Amino-3-(aminoacetyl)thiopropanoic Acid
+CH$NAME: S-(2-Amino-1-oxoethyl)cysteine
+CH$NAME: Glycine Cysteine Thioester
+CH$NAME: L-Cysteinylglycine
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Glycine
+CH$FORMULA: C5H10N2O3S
+CH$EXACT_MASS: 178.211
+CH$SMILES: C(C(C(=O)NCC(=O)O)N)S
+CH$IUPAC: InChI=1S/C5H10N2O3S/c6-3(2-11)5(10)7-1-4(8)9/h3,11H,1-2,6H2,(H,7,10)(H,8,9)
+CH$LINK: CAS 19246-18-5
+CH$LINK: INCHIKEY ZUKPVRWZDMRIEO-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 179.04901
+PK$SPLASH: splash10-004i-9700000000-6fba6043a24b724b037e
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  58.9947 13.14 94
+  76.0217 139.0 999
+  96.8967 22.7 163
+  116.0155 29.37 211
+  137.9226 40.34 290
+  144.0106 17.36 125
+  162.0198 38.54 277
+  179.049 10.66 77
+//

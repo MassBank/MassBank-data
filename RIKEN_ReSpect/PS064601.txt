@@ -1,0 +1,44 @@
+ACCESSION: PS064601
+RECORD_TITLE: cis,cis-Muconate, cis,cis-Muconic acid, cis,cis-Hexadienedioate, cis,cis-2,4-Hexadienedioic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Fluka, 15992.
+COMMENT: PRIMe compound in-house ID S0033
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: cis,cis-Muconate
+CH$NAME: cis,cis-Muconic acid
+CH$NAME: cis,cis-Hexadienedioate
+CH$NAME: cis,cis-2,4-Hexadienedioic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Muconic acid
+CH$FORMULA: C6H6O4
+CH$EXACT_MASS: 142.11
+CH$SMILES: C(=CC(=O)O)C=CC(=O)O
+CH$IUPAC: InChI=1S/C6H6O4/c7-5(8)3-1-2-4-6(9)10/h1-4H,(H,7,8)(H,9,10)
+CH$LINK: CAS 1119-72-8
+CH$LINK: KEGG C02480
+CH$LINK: PUBCHEM CID:5280518
+CH$LINK: INCHIKEY TXXHDPDFNKHHGW-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 143.11
+PK$SPLASH: splash10-001i-9100000000-7a6337ec28b893f29313
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  61.0 4252.0 43
+  81.0 99806.0 999
+  82.0 23640.0 237
+  101.0 3297.0 33
+  102.0 22750.0 228
+//

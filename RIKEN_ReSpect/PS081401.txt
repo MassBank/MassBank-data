@@ -1,0 +1,43 @@
+ACCESSION: PS081401
+RECORD_TITLE: Phosphocholine,1-Decanoyl-2-Hydroxy-sn-Glycero-3- , 1-decanoyl-sn-glycero-3-phosphocholine, 1-Decanoyl-2-Hydroxy-sn-Glycero-3-Phosphocholine, 10:0 LysoPC, 1-Decanoyllysolecithin, 1-Capryl-2-lysophosphatidylcholine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Avanti, 855375P.
+COMMENT: PRIMe compound in-house ID S0251
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Phosphocholine,1-Decanoyl-2-Hydroxy-sn-Glycero-3-
+CH$NAME: 1-decanoyl-sn-glycero-3-phosphocholine
+CH$NAME: 1-Decanoyl-2-Hydroxy-sn-Glycero-3-Phosphocholine
+CH$NAME: 10:0 LysoPC
+CH$NAME: 1-Decanoyllysolecithin
+CH$NAME: 1-Capryl-2-lysophosphatidylcholine
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Phospholipid CLASS3 Phosphocholine
+CH$FORMULA: C18H38NO7P
+CH$EXACT_MASS: 411.478
+CH$SMILES: CCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)O
+CH$IUPAC: InChI=1S/C18H38NO7P/c1-5-6-7-8-9-10-11-12-18(21)24-15-17(20)16-26-27(22,23)25-14-13-19(2,3)4/h17,20H,5-16H2,1-4H3
+CH$LINK: CAS 22248-63-1
+CH$LINK: PUBCHEM CID:22851442
+CH$LINK: INCHIKEY SECPDKKEUKDCPG-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 412.5
+PK$SPLASH: splash10-03di-0000900000-9889118281e189c5c508
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  411.0 128401.0 42
+  412.0 3029196.0 999
+  413.0 439854.0 145
+//

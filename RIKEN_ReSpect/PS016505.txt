@@ -1,0 +1,43 @@
+ACCESSION: PS016505
+RECORD_TITLE: Cyclic AMP, Cyclic-3',5'-adenylic acid, Adenosine 3',5'-cyclophosphate, cAMP, Adenosine-3',5'-cyclicmonophosphate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A9501.
+COMMENT: PRIMe compound in-house ID 165
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Cyclic AMP
+CH$NAME: Cyclic-3',5'-adenylic acid
+CH$NAME: Adenosine 3',5'-cyclophosphate
+CH$NAME: cAMP
+CH$NAME: Adenosine-3',5'-cyclicmonophosphate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Adenosine phosphate
+CH$FORMULA: C10H12N5O6P
+CH$EXACT_MASS: 329.211
+CH$SMILES: C1C2C(C(C(O2)N3C=NC4=C3N=CN=C4N)O)OP(=O)(O1)O
+CH$IUPAC: InChI=1S/C10H12N5O6P/c11-8-5-9(13-2-12-8)15(3-14-5)10-6(16)7-4(20-10)1-19-22(17,18)21-7/h2-4,6-7,10,16H,1H2,(H,17,18)(H2,11,12,13)
+CH$LINK: CAS 60-92-4
+CH$LINK: KEGG C00575
+CH$LINK: PUBCHEM CID:6076
+CH$LINK: INCHIKEY IVOMOUWHDPKRLL-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 50
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 330.25
+PK$SPLASH: splash10-000i-0900000000-2ef29397767c59c34366
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  134.0 18506.0 55
+  135.0 94453.0 282
+  136.0 334350.0 999
+//

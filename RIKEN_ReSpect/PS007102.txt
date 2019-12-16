@@ -1,0 +1,56 @@
+ACCESSION: PS007102
+RECORD_TITLE: Calcium (+)-pantothenate, D-Pantothenic Acid, (R)-Pantothenate, (R)-(+)-N-(2,4-Dihydroxy-3,3-dimethyl-1-oxobutyl)-beta-alanine, Vitamin B5; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound WAKO, 031-14161.
+COMMENT: PRIMe compound in-house ID 71
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Calcium (+)-pantothenate
+CH$NAME: D-Pantothenic Acid
+CH$NAME: (R)-Pantothenate
+CH$NAME: (R)-(+)-N-(2,4-Dihydroxy-3,3-dimethyl-1-oxobutyl)-beta-alanine
+CH$NAME: Vitamin B5
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: C9H17NO5
+CH$EXACT_MASS: 219.237
+CH$SMILES: CC(C)(CO)C(C(=O)NCCC(=O)O)O
+CH$IUPAC: InChI=1S/C9H17NO5/c1-9(2,5-11)7(14)8(15)10-4-3-6(12)13/h7,11,14H,3-5H2,1-2H3,(H,10,15)(H,12,13)
+CH$LINK: CAS 79-83-4
+CH$LINK: KEGG C00864
+CH$LINK: PUBCHEM CID:6613
+CH$LINK: INCHIKEY GHOKWGTUZJEAQD-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID7047229
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 220.27
+PK$SPLASH: splash10-006x-9240000000-00727eed83b4e047d599
+PK$NUM_PEAK: 15
+PK$PEAK: m/z int. rel.int.
+  72.0 15102.0 146
+  85.0 6709.0 65
+  87.0 3757.0 36
+  89.0 23822.0 231
+  90.0 103107.0 999
+  98.0 4557.0 44
+  103.0 14941.0 145
+  115.0 4616.0 45
+  116.0 11576.0 112
+  124.0 4850.0 47
+  184.0 12979.0 126
+  201.0 4855.0 47
+  202.0 18439.0 179
+  219.0 10773.0 104
+  220.0 50396.0 488
+//

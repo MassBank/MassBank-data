@@ -1,0 +1,46 @@
+ACCESSION: PS103703
+RECORD_TITLE: (R)-2-Hydroxy-2-phenylacetate, (R)-2-Hydroxy-2-phenylacetic acid, D-2-Phenylglycolic acid, (R)-(-)-mandelic acid, (R)-Mandelate, D-(-)-Amygdalic Acid, D(-)-Mandelic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, M2209.
+COMMENT: PRIMe compound in-house ID N0095
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: (R)-2-Hydroxy-2-phenylacetate
+CH$NAME: (R)-2-Hydroxy-2-phenylacetic acid
+CH$NAME: D-2-Phenylglycolic acid
+CH$NAME: (R)-(-)-mandelic acid
+CH$NAME: (R)-Mandelate
+CH$NAME: D-(-)-Amygdalic Acid
+CH$NAME: D(-)-Mandelic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Mandelic acid
+CH$FORMULA: C8H8O3
+CH$EXACT_MASS: 152.149
+CH$SMILES: C1=CC=C(C=C1)C(C(=O)O)O
+CH$IUPAC: InChI=1S/C8H8O3/c9-7(8(10)11)6-4-2-1-3-5-6/h1-5,7,9H,(H,10,11)
+CH$LINK: CAS 611-71-2
+CH$LINK: KEGG C01983
+CH$LINK: PUBCHEM CID:11914
+CH$LINK: INCHIKEY IWYDHOAUDWTVEP-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 152.18
+PK$SPLASH: splash10-00di-9000000000-6b367697a5b56d93b576
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  70.0 94255.0 999
+  71.0 4838.0 51
+  89.0 9194.0 97
+  112.0 4374.0 46
+//

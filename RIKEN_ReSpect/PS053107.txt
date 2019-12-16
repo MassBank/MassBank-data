@@ -1,0 +1,41 @@
+ACCESSION: PS053107
+RECORD_TITLE: 2d-Glc, 2-Deoxy-D-arabinohexose, 2-Deoxyhexose, 2-Deoxy-D-arabino-hexose, 2-Deoxy-D-glucose; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, D3179.
+COMMENT: PRIMe compound in-house ID T0039
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 2d-Glc
+CH$NAME: 2-Deoxy-D-arabinohexose
+CH$NAME: 2-Deoxyhexose
+CH$NAME: 2-Deoxy-D-arabino-hexose
+CH$NAME: 2-Deoxy-D-glucose
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Sugar CLASS3 Monosaccharide
+CH$FORMULA: C6H12O5
+CH$EXACT_MASS: 164.157
+CH$SMILES: C1C(C(C(OC1O)CO)O)O
+CH$IUPAC: InChI=1S/C6H12O5/c7-2-4-6(10)3(8)1-5(9)11-4/h3-10H,1-2H2
+CH$LINK: CAS 154-17-6
+CH$LINK: KEGG C00586
+CH$LINK: PUBCHEM CID:439268
+CH$LINK: INCHIKEY PMMURAAUARKVCB-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 163.17
+PK$SPLASH: splash10-000i-9000000000-d20abbd36cc5de696c69
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  85.0 235468.0 999
+//

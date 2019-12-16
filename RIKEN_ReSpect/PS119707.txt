@@ -1,0 +1,42 @@
+ACCESSION: PS119707
+RECORD_TITLE: Gla+myo-inositol, Galactinol Dihydrate, 1-O-alpha-D-Galactosyl-D-myo-inositol, 6beta-Galactinol; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound TCI, G0298.
+COMMENT: PRIMe compound in-house ID V0071
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Gla+myo-inositol
+CH$NAME: Galactinol Dihydrate
+CH$NAME: 1-O-alpha-D-Galactosyl-D-myo-inositol
+CH$NAME: 6beta-Galactinol
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Sugar CLASS3 Disaccharide
+CH$FORMULA: C12H22O11
+CH$EXACT_MASS: 342.297
+CH$SMILES: C(C1C(C(C(C(O1)OC2C(C(C(C(C2O)O)O)O)O)O)O)O)O
+CH$IUPAC: InChI=1S/C12H22O11/c13-1-2-3(14)4(15)10(21)12(22-2)23-11-8(19)6(17)5(16)7(18)9(11)20/h2-21H,1H2
+CH$LINK: CAS 3687-64-7
+CH$LINK: KEGG C01235
+CH$LINK: PUBCHEM CID:439451
+CH$LINK: INCHIKEY VCWMRQDBPZKXKG-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 341.36
+PK$SPLASH: splash10-0006-0009000000-b9a5baecca7d61ccadd4
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  340.0 36990.0 85
+  341.0 433539.0 999
+  342.0 34673.0 80
+//

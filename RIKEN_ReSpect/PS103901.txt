@@ -1,0 +1,43 @@
+ACCESSION: PS103901
+RECORD_TITLE: Ferulic acid, 4-Hydroxy-3-methoxycinnamic acid, trans-ferulate, 3-Methoxy-4-hydroxy-trans-cinnamate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Fluka, 46278.
+COMMENT: PRIMe compound in-house ID N0097
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Ferulic acid
+CH$NAME: 4-Hydroxy-3-methoxycinnamic acid
+CH$NAME: trans-ferulate
+CH$NAME: 3-Methoxy-4-hydroxy-trans-cinnamate
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid monomer CLASS3 Ferulic acid
+CH$FORMULA: C10H10O4
+CH$EXACT_MASS: 194.186
+CH$SMILES: COC1=C(C=CC(=C1)C=CC(=O)O)O
+CH$IUPAC: InChI=1S/C10H10O4/c1-14-9-6-7(2-4-8(9)11)3-5-10(12)13/h2-6,11H,1H3,(H,12,13)
+CH$LINK: CAS 1135-24-6
+CH$LINK: KEGG C01494
+CH$LINK: PUBCHEM CID:445858
+CH$LINK: INCHIKEY KSEBMYQBYZTDHS-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 195.19
+PK$SPLASH: splash10-002b-0900000000-56f43600b4f60330ec2f
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  176.0 17927.0 82
+  177.0 157272.0 723
+  194.0 18857.0 87
+  195.0 217382.0 999
+//

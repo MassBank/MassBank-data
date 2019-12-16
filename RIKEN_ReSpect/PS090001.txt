@@ -1,0 +1,46 @@
+ACCESSION: PS090001
+RECORD_TITLE: Ser(Ac), 2-Acetylamino-3-hydroxy-propionic acid, N-acetyl-DL-serine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A2638.
+COMMENT: PRIMe compound in-house ID C0002
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Ser(Ac)
+CH$NAME: 2-Acetylamino-3-hydroxy-propionic acid
+CH$NAME: N-acetyl-DL-serine
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Serine
+CH$FORMULA: C5H9NO4
+CH$EXACT_MASS: 147.13
+CH$SMILES: CC(=O)NC(CO)C(=O)O
+CH$IUPAC: InChI=1S/C5H9NO4/c1-3(8)6-4(2-7)5(9)10/h4,7H,2H2,1H3,(H,6,8)(H,9,10)
+CH$LINK: CAS 97-14-3
+CH$LINK: PUBCHEM CID:352294
+CH$LINK: INCHIKEY JJIHLJJYMXLCOY-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 148.12
+PK$SPLASH: splash10-052b-0900000000-8ad48c6bbd8896b6aa4a
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  87.0 3275.0 60
+  88.0 6260.0 115
+  105.0 3297.0 61
+  106.0 43835.0 805
+  129.0 2878.0 53
+  130.0 6430.0 118
+  146.0 1970.0 36
+  147.0 15773.0 290
+  148.0 54401.0 999
+//

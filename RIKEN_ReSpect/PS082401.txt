@@ -1,0 +1,44 @@
+ACCESSION: PS082401
+RECORD_TITLE: 12-Oxo-10,15(Z)-Phytodienoic Acid, 8-(2-(cis-2'-pentenyl)-3-oxo-cis-4-cyclopentenyl)octanoic acid, 12-oxophytodienoate, 12-oxo-phytodienoic acid, 12-oxo-PDA, o-Phytodienoic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Larodan, 14-1803-4a-39.
+COMMENT: PRIMe compound in-house ID S0261
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 12-Oxo-10,15(Z)-Phytodienoic Acid
+CH$NAME: 8-(2-(cis-2'-pentenyl)-3-oxo-cis-4-cyclopentenyl)octanoic acid
+CH$NAME: 12-oxophytodienoate
+CH$NAME: 12-oxo-phytodienoic acid
+CH$NAME: 12-oxo-PDA
+CH$NAME: o-Phytodienoic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Phytodienoic acid
+CH$FORMULA: C18H28O3
+CH$EXACT_MASS: 292.419
+CH$SMILES: CCC=CCC1C(C=CC1=O)CCCCCCCC(=O)O
+CH$IUPAC: InChI=1S/C18H28O3/c1-2-3-7-11-16-15(13-14-17(16)19)10-8-5-4-6-9-12-18(20)21/h3,7,13-16H,2,4-6,8-12H2,1H3,(H,20,21)
+CH$LINK: CAS 67204-66-4
+CH$LINK: KEGG C13816
+CH$LINK: PUBCHEM CID:5282268
+CH$LINK: INCHIKEY PMTMAFAPLCGXGK-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 293.49
+PK$SPLASH: splash10-0007-4090000000-e6b574970dc839f6b29d
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  45.0 34830.0 679
+  252.0 16746.0 327
+  293.0 51230.0 999
+//

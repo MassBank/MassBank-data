@@ -1,0 +1,55 @@
+ACCESSION: PS103103
+RECORD_TITLE: 3-Methylxanthine, 2,6-Dihydroxy-3-methylpurine, 3-MX, 3,7-dihydro-3-methyl-1H-purine-2,6-dione; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, M2509.
+COMMENT: PRIMe compound in-house ID N0089
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 3-Methylxanthine
+CH$NAME: 2,6-Dihydroxy-3-methylpurine
+CH$NAME: 3-MX
+CH$NAME: 3,7-dihydro-3-methyl-1H-purine-2,6-dione
+CH$COMPOUND_CLASS: CLASS1 Alkaloid CLASS2 Xanthine CLASS3 Xanthine
+CH$FORMULA: C6H6N4O2
+CH$EXACT_MASS: 166.14
+CH$SMILES: CN1C2=C(C(=O)NC1=O)NC=N2
+CH$IUPAC: InChI=1S/C6H6N4O2/c1-10-4-3(7-2-8-4)5(11)9-6(10)12/h2H,1H3,(H,7,8)(H,9,11,12)
+CH$LINK: CAS 1076-22-8
+CH$LINK: KEGG C16357
+CH$LINK: PUBCHEM CID:70639
+CH$LINK: INCHIKEY GMSNIKWWOQHZGF-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 167.17
+PK$SPLASH: splash10-00xr-3900000000-63dc6639f893606a7c8c
+PK$NUM_PEAK: 16
+PK$PEAK: m/z int. rel.int.
+  41.0 4242.0 87
+  42.0 18163.0 374
+  55.0 2178.0 45
+  68.0 2365.0 49
+  69.0 6907.0 142
+  95.0 3974.0 82
+  96.0 10190.0 210
+  99.0 3373.0 69
+  122.0 3953.0 81
+  123.0 13942.0 287
+  124.0 48537.0 999
+  125.0 1884.0 39
+  149.0 4114.0 85
+  165.0 4369.0 90
+  166.0 15332.0 316
+  167.0 32255.0 664
+//

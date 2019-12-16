@@ -1,0 +1,39 @@
+ACCESSION: PS032001
+RECORD_TITLE: Phenyldiazane, Phenylhydrazine, Hydrazinobenzene; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, P26252.
+COMMENT: PRIMe compound in-house ID 320
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Phenyldiazane
+CH$NAME: Phenylhydrazine
+CH$NAME: Hydrazinobenzene
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Phenylhydrazine
+CH$FORMULA: C6H8N2
+CH$EXACT_MASS: 108.144
+CH$SMILES: C1=CC=C(C=C1)NN
+CH$IUPAC: InChI=1S/C6H8N2/c7-8-6-4-2-1-3-5-6/h1-5,8H,7H2
+CH$LINK: CAS 100-63-0
+CH$LINK: KEGG C02304
+CH$LINK: PUBCHEM CID:7516
+CH$LINK: INCHIKEY HKOOXMFOFWEVGF-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 109.1
+PK$SPLASH: splash10-000i-9000000000-0208d54ffc8d82dd363e
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  88.0 125484.0 999
+//

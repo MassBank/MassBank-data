@@ -1,0 +1,48 @@
+ACCESSION: PS101307
+RECORD_TITLE: Galactitol, Melampyrin, 1,2,3,4,5,6-Hexanehexol, Melampyrum, Dulcitol, Melampyrite, Dulcite, Dulcin, Galactit, Dulcose, Euonymit; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 040-19132.
+COMMENT: PRIMe compound in-house ID N0071
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Galactitol
+CH$NAME: Melampyrin
+CH$NAME: 1,2,3,4,5,6-Hexanehexol
+CH$NAME: Melampyrum
+CH$NAME: Dulcitol
+CH$NAME: Melampyrite
+CH$NAME: Dulcite
+CH$NAME: Dulcin
+CH$NAME: Galactit
+CH$NAME: Dulcose
+CH$NAME: Euonymit
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Sugar CLASS3 Monosaccharide
+CH$FORMULA: C6H14O6
+CH$EXACT_MASS: 182.172
+CH$SMILES: C(C(C(C(C(CO)O)O)O)O)O
+CH$IUPAC: InChI=1S/C6H14O6/c7-1-3(9)5(11)6(12)4(10)2-8/h3-12H,1-2H2
+CH$LINK: CAS 608-66-2
+CH$LINK: KEGG C01697
+CH$LINK: PUBCHEM CID:11850
+CH$LINK: INCHIKEY FBPFZTCFMRRESA-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 181.19
+PK$SPLASH: splash10-001i-0900000000-f339f4ab298f287adc8c
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  180.0 17765.0 59
+  181.0 302217.0 999
+//

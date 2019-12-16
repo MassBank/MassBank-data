@@ -1,0 +1,42 @@
+ACCESSION: PS061302
+RECORD_TITLE: L-beta-homoserine, (R)-3-Amino-4-hydroxybutyric acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Peptech, BL792.
+COMMENT: PRIMe compound in-house ID T0135
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-beta-homoserine
+CH$NAME: (R)-3-Amino-4-hydroxybutyric acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Serine
+CH$FORMULA: C4H9NO3
+CH$EXACT_MASS: 119.12
+CH$SMILES: C(C(CO)N)C(=O)O
+CH$IUPAC: InChI=1S/C4H9NO3/c5-3(2-6)1-4(7)8/h3,6H,1-2,5H2,(H,7,8)
+CH$LINK: CAS 16504-56-6
+CH$LINK: PUBCHEM CID:1502076
+CH$LINK: INCHIKEY BUZICZZQJDLXJN-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 120.11
+PK$SPLASH: splash10-03di-9100000000-685b2add5ae076ab8c72
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  59.0 54722.0 184
+  60.0 297149.0 999
+  84.0 12626.0 42
+  102.0 21719.0 73
+  119.0 12569.0 42
+  120.0 44953.0 151
+//

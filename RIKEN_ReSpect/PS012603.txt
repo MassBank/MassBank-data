@@ -1,0 +1,55 @@
+ACCESSION: PS012603
+RECORD_TITLE: Histamine, beta-Aminoethylglyoxaline, 2-Imidazol-4-ylethylamine, Ergamine, beta.-Imidazolyl-4-ethylamine, 1H-Imidazole-4-ethanamine, Eramin, Ergotidine, Theramine, Eramine, 2-(4-Imidazolyl)ethylamine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, H7125.
+COMMENT: PRIMe compound in-house ID 126
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Histamine
+CH$NAME: beta-Aminoethylglyoxaline
+CH$NAME: 2-Imidazol-4-ylethylamine
+CH$NAME: Ergamine
+CH$NAME: beta.-Imidazolyl-4-ethylamine
+CH$NAME: 1H-Imidazole-4-ethanamine
+CH$NAME: Eramin
+CH$NAME: Ergotidine
+CH$NAME: Theramine
+CH$NAME: Eramine
+CH$NAME: 2-(4-Imidazolyl)ethylamine
+CH$COMPOUND_CLASS: CLASS1 Alkaloid CLASS2 Imidazole CLASS3 Histamine
+CH$FORMULA: C5H9N3
+CH$EXACT_MASS: 111.148
+CH$SMILES: C1=C(NC=N1)CCN
+CH$IUPAC: InChI=1S/C5H9N3/c6-2-1-5-3-7-4-8-5/h3-4H,1-2,6H2,(H,7,8)
+CH$LINK: CAS 51-45-6
+CH$LINK: KEGG C00388
+CH$LINK: PUBCHEM CID:774
+CH$LINK: INCHIKEY NTYJJOPFIAHURM-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID4023125
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 112.11
+PK$SPLASH: splash10-0002-9000000000-557776402059e09feea9
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  40.0 7154.0 100
+  41.0 18271.0 255
+  67.0 4937.0 69
+  68.0 17399.0 242
+  82.0 3365.0 47
+  83.0 6100.0 85
+  94.0 15290.0 213
+  95.0 71703.0 999
+//

@@ -1,0 +1,51 @@
+ACCESSION: PS125501
+RECORD_TITLE: Deparal, Devaron, 7-Dehydrocholesterol activated, oleovitamin D3, (3beta,5Z,7E)-9,10-Secocholesta-5,7,10(19)-trien-3-ol, Calciol, Arachitol, Colecalciferol, Activated 7-dehydrocholesterol, CC, Cholecalciferol, FeraCol, Vitamin D3, Videkhol; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 224-00361 .
+COMMENT: PRIMe compound in-house ID V0129
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Deparal
+CH$NAME: Devaron
+CH$NAME: 7-Dehydrocholesterol activated
+CH$NAME: oleovitamin D3
+CH$NAME: (3beta,5Z,7E)-9,10-Secocholesta-5,7,10(19)-trien-3-ol
+CH$NAME: Calciol
+CH$NAME: Arachitol
+CH$NAME: Colecalciferol
+CH$NAME: Activated 7-dehydrocholesterol
+CH$NAME: CC
+CH$NAME: Cholecalciferol
+CH$NAME: FeraCol
+CH$NAME: Vitamin D3
+CH$NAME: Videkhol
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: C27H44O
+CH$EXACT_MASS: 384.648
+CH$SMILES: CC(C)CCCC(C)C1CCC2C1(CCCC2=CC=C3CC(CCC3=C)O)C
+CH$IUPAC: InChI=1S/C27H44O/c1-19(2)8-6-9-21(4)25-15-16-26-22(10-7-17-27(25,26)5)12-13-23-18-24(28)14-11-20(23)3/h12-13,19,21,24-26,28H,3,6-11,14-18H2,1-2,4-5H3
+CH$LINK: CAS 67-97-0
+CH$LINK: KEGG C05443
+CH$LINK: PUBCHEM CID:5280795
+CH$LINK: INCHIKEY QYSXJUFSXHHAJI-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 385.6
+PK$SPLASH: splash10-000i-0009000000-b2da7b9edc4f80a16861
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  385.0 407473.0 999
+  386.0 122201.0 300
+//

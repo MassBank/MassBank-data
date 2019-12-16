@@ -1,0 +1,42 @@
+ACCESSION: PS036101
+RECORD_TITLE: 2,4-Dihydroxy-5-methylpyrimidine, T, 5-Methyluracil, Thymine, 5-Methylpyrimidine-2,4-diol; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, T0376.
+COMMENT: PRIMe compound in-house ID 361
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 2,4-Dihydroxy-5-methylpyrimidine
+CH$NAME: T
+CH$NAME: 5-Methyluracil
+CH$NAME: Thymine
+CH$NAME: 5-Methylpyrimidine-2,4-diol
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Thymine
+CH$FORMULA: C5H6N2O2
+CH$EXACT_MASS: 126.115
+CH$SMILES: CC1=CNC(=O)NC1=O
+CH$IUPAC: InChI=1S/C5H6N2O2/c1-3-2-6-5(9)7-4(3)8/h2H,1H3,(H2,6,7,8,9)
+CH$LINK: CAS 65-71-4
+CH$LINK: KEGG C00178
+CH$LINK: PUBCHEM CID:1135
+CH$LINK: INCHIKEY RWQNBRDOKXIBIV-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 127.09
+PK$SPLASH: splash10-004i-0900000000-7284647426b5cf3ccb37
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  126.0 217656.0 157
+  127.0 1381945.0 999
+//

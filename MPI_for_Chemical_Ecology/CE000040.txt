@@ -4,7 +4,7 @@ DATE: 2016.01.19 (Created 2012.04.11)
 AUTHORS: Ales Svatos, Ravi Kumar Maddula, MPI for Chemical Ecology, Jena, Germany
 LICENSE: CC BY-NC-SA
 COPYRIGHT: Copyright(C) 2011 MPI for Chemical Ecology, Jena, Germany
-PUBLICATION: F. Rasche, A. Svatos, R.K. Maddula, C. Boettcher and S. Boecker. Computing fragmentation trees from tandem mass spectrometry data. Anal. Chem., 2011, 83, 1243-1251
+PUBLICATION: F. Rasche, A. Svatos, R.K. Maddula, C. Boettcher and S. Boecker. Computing fragmentation trees from tandem mass spectrometry data. Anal. Chem., 2011, 83, 1243-1251 doi:10.1021/ac101825k
 COMMENT: Acquisition and generation of the data is financially supported by the Max-Planck-Society
 CH$NAME: Phenylalanine
 CH$COMPOUND_CLASS: Natural Product; Amino acid
@@ -13,6 +13,8 @@ CH$EXACT_MASS: 165.07898
 CH$SMILES: C1=CC=C(C=C1)C[C@@H](C(=O)O)N
 CH$IUPAC: InChI=1S/C9H11NO2/c10-8(9(11)12)6-7-4-2-1-3-5-7/h1-5,8H,6,10H2,(H,11,12)/t8-/m0/s1
 CH$LINK: PUBCHEM CID:6140
+CH$LINK: INCHIKEY COLNVLDHVKWLRT-QMMMGPOBSA-N
+CH$LINK: COMPTOX DTXSID4040763
 AC$INSTRUMENT: LTQ Orbitrap XL, Thermo Scientfic; HP-1100 HPLC, Agilent
 AC$INSTRUMENT_TYPE: LC-ESI-ITFT
 AC$MASS_SPECTROMETRY: MS_TYPE MS

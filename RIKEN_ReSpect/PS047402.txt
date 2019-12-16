@@ -1,0 +1,66 @@
+ACCESSION: PS047402
+RECORD_TITLE: Neuraminic acid N-acetate, Lactaminic acid, 5-Acetamido-3,5-dideoxy-D-glycero-D-galactononulosonic acid, 5-Acetylamino-3,5-dideoxy-D-glycero-D-galacto-2-nonulosonic Acid, N-acetylneuraminic acid, NANA, N-Acetylneuraminate, NAN, Sialic acid, Aceneuramic Acid, Neu5Ac; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A0812.
+COMMENT: PRIMe compound in-house ID H0071
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Neuraminic acid N-acetate
+CH$NAME: Lactaminic acid
+CH$NAME: 5-Acetamido-3,5-dideoxy-D-glycero-D-galactononulosonic acid
+CH$NAME: 5-Acetylamino-3,5-dideoxy-D-glycero-D-galacto-2-nonulosonic Acid
+CH$NAME: N-acetylneuraminic acid
+CH$NAME: NANA
+CH$NAME: N-Acetylneuraminate
+CH$NAME: NAN
+CH$NAME: Sialic acid
+CH$NAME: Aceneuramic Acid
+CH$NAME: Neu5Ac
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Neuraminic acid
+CH$FORMULA: C11H19NO9
+CH$EXACT_MASS: 309.271
+CH$SMILES: CC(=O)NC1C(CC(OC1C(C(CO)O)O)(C(=O)O)O)O
+CH$IUPAC: InChI=1S/C11H19NO9/c1-4(14)12-7-5(15)2-11(20,10(18)19)21-9(7)8(17)6(16)3-13/h5-9,13,15-17,20H,2-3H2,1H3,(H,12,14)(H,18,19)
+CH$LINK: CAS 131-48-6
+CH$LINK: KEGG C00270
+CH$LINK: PUBCHEM CID:439197
+CH$LINK: INCHIKEY SQVRNKJHWKZAKO-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 310.32
+PK$SPLASH: splash10-00di-0291000000-d3fcefac0c79064b6e6d
+PK$NUM_PEAK: 20
+PK$PEAK: m/z int. rel.int.
+  60.0 2798.0 58
+  103.0 2019.0 42
+  126.0 2414.0 50
+  154.0 1995.0 41
+  166.0 2442.0 51
+  167.0 7824.0 162
+  172.0 2560.0 53
+  179.0 1953.0 40
+  195.0 1680.0 35
+  197.0 2143.0 44
+  214.0 1623.0 34
+  215.0 3639.0 75
+  232.0 3360.0 70
+  273.0 8926.0 185
+  274.0 48184.0 999
+  275.0 3525.0 73
+  291.0 1803.0 37
+  292.0 11651.0 242
+  309.0 4923.0 102
+  310.0 6871.0 142
+//

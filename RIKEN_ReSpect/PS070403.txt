@@ -1,0 +1,47 @@
+ACCESSION: PS070403
+RECORD_TITLE: Disodium 4-nitrophenyl phosphate hexahydrate, 4-Nitrophenyl phosphate disodium salt hexahydrate, pNPP disodium hexahydrate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, N4645.
+COMMENT: PRIMe compound in-house ID S0098
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Disodium 4-nitrophenyl phosphate hexahydrate
+CH$NAME: 4-Nitrophenyl phosphate disodium salt hexahydrate
+CH$NAME: pNPP disodium hexahydrate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Phosphate CLASS3 Nitrophenyl phosphate
+CH$FORMULA: C6H6NO6P
+CH$EXACT_MASS: 219.091
+CH$SMILES: C1=CC(=CC=C1[N+](=O)[O-])OP(=O)(O)O
+CH$IUPAC: InChI=1S/C6H6NO6P/c8-7(9)5-1-3-6(4-2-5)13-14(10,11)12/h1-4H,(H2,10,11,12)
+CH$LINK: CAS 330-13-2
+CH$LINK: KEGG C03360
+CH$LINK: PUBCHEM CID:378
+CH$LINK: INCHIKEY XZKIHKMTEMTJQX-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 220.18
+PK$SPLASH: splash10-006x-9620000000-f33e28e927a3dcbf52f7
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  93.0 15673.0 381
+  94.0 41107.0 999
+  111.0 3206.0 78
+  122.0 11212.0 272
+  172.0 4683.0 114
+  173.0 4416.0 107
+  174.0 15140.0 368
+  202.0 3694.0 90
+  220.0 10474.0 255
+//

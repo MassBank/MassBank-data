@@ -1,0 +1,52 @@
+ACCESSION: PS063303
+RECORD_TITLE: dURD, dU, Deoxyribose uracil, (+)-2'-Deoxyuridine, 1-(2-Deoxy-beta-D-ribofuranosyl)uracil, Uracil deoxyriboside; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 327-69541.
+COMMENT: PRIMe compound in-house ID S0016
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: dURD
+CH$NAME: dU
+CH$NAME: Deoxyribose uracil
+CH$NAME: (+)-2'-Deoxyuridine
+CH$NAME: 1-(2-Deoxy-beta-D-ribofuranosyl)uracil
+CH$NAME: Uracil deoxyriboside
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleoside CLASS3 Uridine
+CH$FORMULA: C9H12N2O5
+CH$EXACT_MASS: 228.204
+CH$SMILES: C1C(C(OC1N2C=CC(=O)NC2=O)CO)O
+CH$IUPAC: InChI=1S/C9H12N2O5/c12-4-6-5(13)3-8(16-6)11-2-1-7(14)10-9(11)15/h1-2,5-6,8,12-13H,3-4H2,(H,10,14,15)
+CH$LINK: CAS 951-78-0
+CH$LINK: KEGG C00526
+CH$LINK: PUBCHEM CID:13712
+CH$LINK: INCHIKEY MXHRCPNRJAMMIM-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 229.25
+PK$SPLASH: splash10-03di-4900000000-8d53be6ab7606b2a2568
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  43.0 3822.0 75
+  45.0 5073.0 99
+  69.0 2959.0 58
+  71.0 2773.0 54
+  73.0 4892.0 96
+  81.0 3327.0 65
+  98.0 2369.0 46
+  99.0 12083.0 237
+  112.0 12989.0 255
+  113.0 50983.0 999
+  117.0 14530.0 285
+//

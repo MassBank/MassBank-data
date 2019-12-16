@@ -1,0 +1,49 @@
+ACCESSION: PS071409
+RECORD_TITLE: Guanosine monophosphate, 5'-GMP, G-5'-P, GMP, Guanosine-5'-monophosphate, Guanylic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 070-01141.
+COMMENT: PRIMe compound in-house ID S0111
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Guanosine monophosphate
+CH$NAME: 5'-GMP
+CH$NAME: G-5'-P
+CH$NAME: GMP
+CH$NAME: Guanosine-5'-monophosphate
+CH$NAME: Guanylic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Guanosine phosphate
+CH$FORMULA: C10H14N5O8P
+CH$EXACT_MASS: 363.225
+CH$SMILES: C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)O)O)O)NC(=NC2=O)N
+CH$IUPAC: InChI=1S/C10H14N5O8P/c11-10-13-7-4(8(18)14-10)12-2-15(7)9-6(17)5(16)3(23-9)1-22-24(19,20)21/h2-3,5-6,9,16-17H,1H2,(H2,19,20,21)(H3,11,13,14,18)
+CH$LINK: CAS 85-32-5
+CH$LINK: KEGG C00144
+CH$LINK: PUBCHEM CID:6804
+CH$LINK: INCHIKEY RQFCJASXJCIDSX-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 362.29
+PK$SPLASH: splash10-03fr-9036000000-06a3ab1fc7b315539e72
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  78.0 3067.0 49
+  79.0 62264.0 999
+  97.0 6015.0 97
+  150.0 2391.0 38
+  210.0 6345.0 102
+  211.0 17835.0 286
+  361.0 15573.0 250
+  362.0 32578.0 523
+//

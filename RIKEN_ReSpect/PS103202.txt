@@ -1,0 +1,46 @@
+ACCESSION: PS103202
+RECORD_TITLE: p-Aminohippuric acid, N-(4-Aminobenzoyl)glycine, PAH, N-(p-Aminobenzoyl)aminoacetic Acid, 4-Aminohippurate, Nefrotest; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A1422.
+COMMENT: PRIMe compound in-house ID N0090
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: p-Aminohippuric acid
+CH$NAME: N-(4-Aminobenzoyl)glycine
+CH$NAME: PAH
+CH$NAME: N-(p-Aminobenzoyl)aminoacetic Acid
+CH$NAME: 4-Aminohippurate
+CH$NAME: Nefrotest
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Glycine
+CH$FORMULA: C9H10N2O3
+CH$EXACT_MASS: 194.19
+CH$SMILES: C1=CC(=CC=C1C(=O)NCC(=O)O)N
+CH$IUPAC: InChI=1S/C9H10N2O3/c10-7-3-1-6(2-4-7)9(14)11-5-8(12)13/h1-4H,5,10H2,(H,11,14)(H,12,13)
+CH$LINK: CAS 61-78-9
+CH$LINK: KEGG D06890
+CH$LINK: PUBCHEM CID:2148
+CH$LINK: INCHIKEY HSMNQINEKMPTIC-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 195.21
+PK$SPLASH: splash10-00di-0900000000-447d69f96444d8422bdb
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  119.0 58651.0 114
+  120.0 515510.0 999
+  149.0 26221.0 51
+  194.0 38009.0 74
+  195.0 129147.0 250
+//

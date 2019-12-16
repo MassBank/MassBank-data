@@ -1,0 +1,47 @@
+ACCESSION: PT201600
+RECORD_TITLE: 3-(3-hydroxyanthraniloyl)alanine, DL-3-Hydroxykynurenine, alpha,2-Diamino-3-hydroxy-gamma-oxobenzenebutanoic acid, 2-amino-4-(2-amino-3-hydroxyphenyl)-4-oxobutanoic acid, 3-Hydroxy-DL-kynurenine; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 3-(3-hydroxyanthraniloyl)alanine
+CH$NAME: DL-3-Hydroxykynurenine
+CH$NAME: alpha,2-Diamino-3-hydroxy-gamma-oxobenzenebutanoic acid
+CH$NAME: 2-amino-4-(2-amino-3-hydroxyphenyl)-4-oxobutanoic acid
+CH$NAME: 3-Hydroxy-DL-kynurenine
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Kynurenine
+CH$FORMULA: C10H12N2O4
+CH$EXACT_MASS: 224.216
+CH$SMILES: C1=CC(=C(C(=C1)O)N)C(=O)CC(C(=O)O)N
+CH$IUPAC: InChI=1S/C10H12N2O4/c11-6(10(15)16)4-8(14)5-2-1-3-7(13)9(5)12/h1-3,6,13H,4,11-12H2,(H,15,16)
+CH$LINK: CAS 2147-61-7
+CH$LINK: INCHIKEY VCKPUUFAIGNJHC-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 223.0719
+PK$SPLASH: splash10-03di-0910000000-d216d77a1ba053893773
+PK$NUM_PEAK: 13
+PK$PEAK: m/z int. rel.int.
+  108.0652 3.588 143
+  134.0891 6.048 240
+  144.073 6.092 242
+  147.0609 18.65 741
+  160.0722 8.628 343
+  160.8744 5.848 232
+  162.0872 25.13 999
+  162.8725 7.974 317
+  164.8728 4.788 190
+  188.0709 6.224 247
+  197.8502 3.933 156
+  206.0879 15.98 635
+  223.0719 5.043 200
+//

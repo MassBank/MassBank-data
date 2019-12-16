@@ -1,0 +1,48 @@
+ACCESSION: PS020208
+RECORD_TITLE: alpha-D-Glucopyranosyl-alpha-D-glucopyranoside dihydrate , D-(+)-Trehalose dihydrate,from Saccharomyces cerevisiae, alpha-alpha-Trehalose, Mycose, Glc(alpha1-1alpha)Glc; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, T9531.
+COMMENT: PRIMe compound in-house ID 202
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: alpha-D-Glucopyranosyl-alpha-D-glucopyranoside dihydrate
+CH$NAME: D-(+)-Trehalose dihydrate,from Saccharomyces cerevisiae
+CH$NAME: alpha-alpha-Trehalose
+CH$NAME: Mycose
+CH$NAME: Glc(alpha1-1alpha)Glc
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Sugar CLASS3 Disaccharide
+CH$FORMULA: C12H22O11
+CH$EXACT_MASS: 342.297
+CH$SMILES: C(C1C(C(C(C(O1)OC2C(C(C(C(O2)CO)O)O)O)O)O)O)O
+CH$IUPAC: InChI=1S/C12H22O11/c13-1-3-5(15)7(17)9(19)11(21-3)23-12-10(20)8(18)6(16)4(2-14)22-12/h3-20H,1-2H2
+CH$LINK: CAS 99-20-7
+CH$LINK: KEGG C01083
+CH$LINK: PUBCHEM CID:7427
+CH$LINK: INCHIKEY HDTRYLNUVZCQOY-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 341.32
+PK$SPLASH: splash10-0006-0109000000-3ef2260a2d9a00459582
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  71.0 2266.0 37
+  89.0 3235.0 53
+  119.0 12455.0 203
+  178.0 3377.0 55
+  179.0 2235.0 36
+  340.0 28544.0 465
+  341.0 61387.0 999
+  342.0 2523.0 41
+//

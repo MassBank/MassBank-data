@@ -1,0 +1,46 @@
+ACCESSION: PS067504
+RECORD_TITLE: Vitamin L2, MTA, 5'-Deoxy-5'-Methylthioadenosine, Thiomethyladenosine, 5-Methylthioadenosine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, D5011.
+COMMENT: PRIMe compound in-house ID S0063
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Vitamin L2
+CH$NAME: MTA
+CH$NAME: 5'-Deoxy-5'-Methylthioadenosine
+CH$NAME: Thiomethyladenosine
+CH$NAME: 5-Methylthioadenosine
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleoside CLASS3 Adenosine
+CH$FORMULA: C11H15N5O3S
+CH$EXACT_MASS: 297.338
+CH$SMILES: CSCC1C(C(C(O1)N2C=NC3=C2N=CN=C3N)O)O
+CH$IUPAC: InChI=1S/C11H15N5O3S/c1-20-2-5-7(17)8(18)11(19-5)16-4-15-6-9(12)13-3-14-10(6)16/h3-5,7-8,11,17-18H,2H2,1H3,(H2,12,13,14)
+CH$LINK: CAS 2457-80-9
+CH$LINK: KEGG C00170
+CH$LINK: PUBCHEM CID:439176
+CH$LINK: INCHIKEY WUUGFSXJNOTRMR-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 298.3
+PK$SPLASH: splash10-000i-1900000000-234ab49c6125226e684a
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  60.0 14906.0 30
+  61.0 59868.0 121
+  75.0 18403.0 37
+  134.0 20999.0 43
+  135.0 159275.0 323
+  136.0 492741.0 999
+//

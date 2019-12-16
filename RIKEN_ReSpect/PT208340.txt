@@ -1,0 +1,44 @@
+ACCESSION: PT208340
+RECORD_TITLE: Cyanin, Cynd-3-Glc-5-Glc, (2S,3R,4S,5S,6R)-2-[2-(3,4-dihydroxyphenyl)-7-hydroxy-5-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromenylium-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol, 2-(3,4-Dihydroxyphenyl)-3,5-bis(beta-D-glucopyranosyloxy)-7-hydroxy-1-benzopyrylium , cyanidin-3,5-di-O-glucoside chloride; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Cyanin
+CH$NAME: Cynd-3-Glc-5-Glc
+CH$NAME: (2S,3R,4S,5S,6R)-2-[2-(3,4-dihydroxyphenyl)-7-hydroxy-5-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromenylium-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol
+CH$NAME: 2-(3,4-Dihydroxyphenyl)-3,5-bis(beta-D-glucopyranosyloxy)-7-hydroxy-1-benzopyrylium
+CH$NAME: cyanidin-3,5-di-O-glucoside chloride
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Anthocyanin CLASS3 Cyanidin glycoside
+CH$FORMULA: [C27H31O16]+
+CH$EXACT_MASS: 611.529
+CH$SMILES: C1=CC(=C(C=C1C2=C(C=C3C(=CC(=CC3=[O+]2)O)OC4C(C(C(C(O4)CO)O)O)O)OC5C(C(C(C(O5)CO)O)O)O)O)O
+CH$IUPAC: InChI=1S/C27H30O16/c28-7-17-19(33)21(35)23(37)26(42-17)40-15-5-10(30)4-14-11(15)6-16(25(39-14)9-1-2-12(31)13(32)3-9)41-27-24(38)22(36)20(34)18(8-29)43-27/h1-6,17-24,26-29,33-38H,7-8H2,(H2-,30,31,32)/p+1
+CH$LINK: CAS 2611-67-8
+CH$LINK: INCHIKEY RDFLLVCQYHQOBU-UHFFFAOYSA-O
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-2H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 609.14558
+PK$SPLASH: splash10-053b-0090403000-8313af5e396c859f027f
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  125.0234 35.47 123
+  147.0094 30.83 107
+  227.0353 32.48 113
+  255.0302 53.52 186
+  283.0253 230.8 800
+  284.0337 106.4 369
+  285.0411 278.7 966
+  446.086 101.7 353
+  447.0934 288.2 999
+  609.1456 252.7 876
+//

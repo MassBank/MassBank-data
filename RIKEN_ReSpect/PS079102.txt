@@ -1,0 +1,55 @@
+ACCESSION: PS079102
+RECORD_TITLE: Sinapinaldehyde, Sinapaldehyde, trans-3,5-Dimethoxy-alpha-hydroxy-cinnamaldehyde, 3-4-Hydroxy-3,5-dimethoxyphenylprop-2-enal, trans-3,5-Dimethoxy-4-hydroxycinnamaldehyde, Sinapyl aldehyde, 4-Hydroxy-3,5-dimethoxycinnamaldehyde, Sinapoyl aldehyde; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 044-25681 .
+COMMENT: PRIMe compound in-house ID S0221
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Sinapinaldehyde
+CH$NAME: Sinapaldehyde
+CH$NAME: trans-3,5-Dimethoxy-alpha-hydroxy-cinnamaldehyde
+CH$NAME: 3-4-Hydroxy-3,5-dimethoxyphenylprop-2-enal
+CH$NAME: trans-3,5-Dimethoxy-4-hydroxycinnamaldehyde
+CH$NAME: Sinapyl aldehyde
+CH$NAME: 4-Hydroxy-3,5-dimethoxycinnamaldehyde
+CH$NAME: Sinapoyl aldehyde
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid monomer CLASS3 Syringaldehyde
+CH$FORMULA: C11H12O4
+CH$EXACT_MASS: 208.213
+CH$SMILES: COC1=CC(=CC(=C1O)OC)C=CC=O
+CH$IUPAC: InChI=1S/C11H12O4/c1-14-9-6-8(4-3-5-12)7-10(15-2)11(9)13/h3-7,13H,1-2H3
+CH$LINK: CAS 4206-58-0
+CH$LINK: KEGG C05610
+CH$LINK: PUBCHEM CID:5280802
+CH$LINK: INCHIKEY CDICDSOGTRCHMG-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 209.21
+PK$SPLASH: splash10-0a4i-7690000000-dc1a891c240233f36c64
+PK$NUM_PEAK: 12
+PK$PEAK: m/z int. rel.int.
+  54.0 12647.0 214
+  55.0 54173.0 916
+  103.0 3520.0 60
+  121.0 4389.0 74
+  131.0 2850.0 48
+  145.0 5935.0 100
+  149.0 5482.0 93
+  177.0 18952.0 320
+  181.0 2226.0 38
+  191.0 10732.0 181
+  208.0 19888.0 336
+  209.0 59091.0 999
+//

@@ -1,0 +1,47 @@
+ACCESSION: PS037807
+RECORD_TITLE: 2-Oxopentanedioic acid, alpha-ketoglutarate, 2-Ketoglutaric Acid, 2-oxoglutarate, 2-Oxoglutaric acid, alpha-Ketoglutaric acid disodium salt, 2-Oxo-1,5-pentanedioic Acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, K3752.
+COMMENT: PRIMe compound in-house ID 378
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 2-Oxopentanedioic acid
+CH$NAME: alpha-ketoglutarate
+CH$NAME: 2-Ketoglutaric Acid
+CH$NAME: 2-oxoglutarate
+CH$NAME: 2-Oxoglutaric acid
+CH$NAME: alpha-Ketoglutaric acid disodium salt
+CH$NAME: 2-Oxo-1,5-pentanedioic Acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Glutaric acid
+CH$FORMULA: C5H6O5
+CH$EXACT_MASS: 146.098
+CH$SMILES: C(CC(=O)O)C(=O)C(=O)O
+CH$IUPAC: InChI=1S/C5H6O5/c6-3(5(9)10)1-2-4(7)8/h1-2H2,(H,7,8)(H,9,10)
+CH$LINK: CAS 328-50-7
+CH$LINK: KEGG C00026
+CH$LINK: PUBCHEM CID:51
+CH$LINK: INCHIKEY KPGXRSRHYNQIFN-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 145.08
+PK$SPLASH: splash10-0002-0900000000-ac1341c26718f471f281
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  99.0 3743.0 60
+  100.0 4815.0 78
+  101.0 21614.0 348
+  144.0 8549.0 138
+  145.0 62040.0 999
+//

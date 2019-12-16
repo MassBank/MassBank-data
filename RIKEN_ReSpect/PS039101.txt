@@ -1,0 +1,49 @@
+ACCESSION: PS039101
+RECORD_TITLE: Kerastick, Aladerm, ALA, 5-Aminolevulinate, delta-Aminolevulinic acid hydrochloride, 5-Amino-4-oxopentanoic acid, 5-Aminolaevulinic acid, 5-Amino-4-oxopentanoate, Levulan; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A3785.
+COMMENT: PRIMe compound in-house ID 391
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Kerastick
+CH$NAME: Aladerm
+CH$NAME: ALA
+CH$NAME: 5-Aminolevulinate
+CH$NAME: delta-Aminolevulinic acid hydrochloride
+CH$NAME: 5-Amino-4-oxopentanoic acid
+CH$NAME: 5-Aminolaevulinic acid
+CH$NAME: 5-Amino-4-oxopentanoate
+CH$NAME: Levulan
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Levulinic acid
+CH$FORMULA: C5H9NO3
+CH$EXACT_MASS: 131.131
+CH$SMILES: C(CC(=O)O)C(=O)CN
+CH$IUPAC: InChI=1S/C5H9NO3/c6-3-4(7)1-2-5(8)9/h1-3,6H2,(H,8,9)
+CH$LINK: CAS 106-60-5
+CH$LINK: KEGG C00430
+CH$LINK: PUBCHEM CID:137
+CH$LINK: INCHIKEY ZGXJTSGNIOSYLO-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 132.1
+PK$SPLASH: splash10-01q9-0900000000-53f6cdbd0c35214dc5c3
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  86.0 39895.0 69
+  113.0 18034.0 31
+  114.0 306737.0 527
+  131.0 40047.0 69
+  132.0 581377.0 999
+//

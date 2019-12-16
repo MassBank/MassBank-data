@@ -1,0 +1,48 @@
+ACCESSION: PS064002
+RECORD_TITLE: O-Succinylhomoserine, O-Succinyl-L-homoserine, (2S)-2-amino-4-(3-carboxypropanoyloxy)butanoic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, S7129.
+COMMENT: PRIMe compound in-house ID S0027
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: O-Succinylhomoserine
+CH$NAME: O-Succinyl-L-homoserine
+CH$NAME: (2S)-2-amino-4-(3-carboxypropanoyloxy)butanoic acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Serine
+CH$FORMULA: C8H13NO6
+CH$EXACT_MASS: 219.193
+CH$SMILES: C(COC(=O)CCC(=O)O)C(C(=O)O)N
+CH$IUPAC: InChI=1S/C8H13NO6/c9-5(8(13)14)3-4-15-7(12)2-1-6(10)11/h5H,1-4,9H2,(H,10,11)(H,13,14)
+CH$LINK: CAS 1492-23-5
+CH$LINK: KEGG C01118
+CH$LINK: PUBCHEM CID:439406
+CH$LINK: INCHIKEY GNISQJGXJIDKDJ-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 220.24
+PK$SPLASH: splash10-0udi-1910000000-02d232577d6088d1658b
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  56.0 23738.0 88
+  73.0 9826.0 37
+  74.0 56510.0 210
+  100.0 11189.0 42
+  101.0 82404.0 306
+  102.0 268588.0 999
+  119.0 13982.0 52
+  120.0 62720.0 233
+  219.0 10293.0 38
+  220.0 40964.0 152
+//

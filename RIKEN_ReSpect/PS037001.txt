@@ -1,0 +1,43 @@
+ACCESSION: PS037001
+RECORD_TITLE: Uridine-5'-diphospho-N-acetylglucosamine  sodium salt , UDP-GlcNAc, UDP-N-acetylglucosamine, UDPAG; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, U4375.
+COMMENT: PRIMe compound in-house ID 370
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Uridine-5'-diphospho-N-acetylglucosamine  sodium salt
+CH$NAME: UDP-GlcNAc
+CH$NAME: UDP-N-acetylglucosamine
+CH$NAME: UDPAG
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Uridine phosphate
+CH$FORMULA: C17H27N3O17P2
+CH$EXACT_MASS: 607.359
+CH$SMILES: CC(=O)NC1C(C(C(OC1OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)CO)O)O
+CH$IUPAC: InChI=1S/C17H27N3O17P2/c1-6(22)18-10-13(26)11(24)7(4-21)35-16(10)36-39(31,32)37-38(29,30)33-5-8-12(25)14(27)15(34-8)20-3-2-9(23)19-17(20)28/h2-3,7-8,10-16,21,24-27H,4-5H2,1H3,(H,18,22)(H,29,30)(H,31,32)(H,19,23,28)
+CH$LINK: CAS 528-04-1
+CH$LINK: KEGG C00043
+CH$LINK: PUBCHEM CID:445675
+CH$LINK: INCHIKEY LFTYTUAZOPRMMI-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 608.45
+PK$SPLASH: splash10-0a4i-0020009000-640b3772c4f64e0a64ac
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  204.0 36829.0 541
+  607.0 54722.0 804
+  608.0 67953.0 999
+  609.0 26567.0 391
+//

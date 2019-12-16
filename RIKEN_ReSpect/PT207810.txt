@@ -1,0 +1,39 @@
+ACCESSION: PT207810
+RECORD_TITLE: 2-Propene-1,2-dicarboxylic acid, Itaconic acid, Methylenebutanedioic acid, 2-methylidenebutanedioic acid, Propylenedicarboxylic acid, Itaconate, 3-Carboxy-3-butenoic Acid, Methylenesuccinic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: 2-Propene-1,2-dicarboxylic acid
+CH$NAME: Itaconic acid
+CH$NAME: Methylenebutanedioic acid
+CH$NAME: 2-methylidenebutanedioic acid
+CH$NAME: Propylenedicarboxylic acid
+CH$NAME: Itaconate
+CH$NAME: 3-Carboxy-3-butenoic Acid
+CH$NAME: Methylenesuccinic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Itaconic acid
+CH$FORMULA: C5H6O4
+CH$EXACT_MASS: 130.099
+CH$SMILES: C=C(CC(=O)O)C(=O)O
+CH$IUPAC: InChI=1S/C5H6O4/c1-3(5(8)9)2-4(6)7/h1-2H2,(H,6,7)(H,8,9)
+CH$LINK: CAS 97-65-4
+CH$LINK: INCHIKEY LVHBHZANLOWSRM-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 129.01881
+PK$SPLASH: splash10-000i-9100000000-dac578cf4d95b2206d4b
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  85.0296 77.88 999
+  129.0188 13.84 178
+//

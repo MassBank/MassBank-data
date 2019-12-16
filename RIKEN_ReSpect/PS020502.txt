@@ -1,0 +1,46 @@
+ACCESSION: PS020502
+RECORD_TITLE: D-Vitamin BT, beta-Hydroxy-gamma-trimethylaminobutyric Acid Hydrochloride, D-Carnitine hydrochloride salt; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA(Aldrich), C8835(544361).
+COMMENT: PRIMe compound in-house ID 205
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: D-Vitamin BT
+CH$NAME: beta-Hydroxy-gamma-trimethylaminobutyric Acid Hydrochloride
+CH$NAME: D-Carnitine hydrochloride salt
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Vitamin
+CH$FORMULA: C7H15NO3
+CH$EXACT_MASS: 161.201
+CH$SMILES: C[N+](C)(C)CC(CC(=O)[O-])O
+CH$IUPAC: InChI=1S/C7H15NO3/c1-8(2,3)5-6(9)4-7(10)11/h6,9H,4-5H2,1-3H3
+CH$LINK: CAS 541-14-0
+CH$LINK: KEGG C15025
+CH$LINK: PUBCHEM CID:2724480
+CH$LINK: INCHIKEY PHIQHXFUZVPYII-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 162.18
+PK$SPLASH: splash10-03di-2900000000-2ba67cda24b783118053
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  43.0 27003.0 65
+  59.0 17454.0 42
+  60.0 96164.0 232
+  85.0 43593.0 105
+  102.0 84569.0 204
+  103.0 121986.0 294
+  161.0 84849.0 205
+  162.0 414335.0 999
+//

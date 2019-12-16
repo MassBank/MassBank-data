@@ -1,0 +1,41 @@
+ACCESSION: PS044202
+RECORD_TITLE: 8-Methyl-N-vanillylnonanamide, N-((4-hydroxy-3-methoxyphenyl)methyl)-8-methyl-nonanamide, Dihydrocapsacine, Dihydrocapsaicin; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Nacalai-T, 05083-64.
+COMMENT: PRIMe compound in-house ID H0050
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 8-Methyl-N-vanillylnonanamide
+CH$NAME: N-((4-hydroxy-3-methoxyphenyl)methyl)-8-methyl-nonanamide
+CH$NAME: Dihydrocapsacine
+CH$NAME: Dihydrocapsaicin
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Capsaicin
+CH$FORMULA: C18H29NO3
+CH$EXACT_MASS: 307.434
+CH$SMILES: CC(C)CCCCCCC(=O)NCC1=CC(=C(C=C1)O)OC
+CH$IUPAC: InChI=1S/C18H29NO3/c1-14(2)8-6-4-5-7-9-18(21)19-13-15-10-11-16(20)17(12-15)22-3/h10-12,14,20H,4-9,13H2,1-3H3,(H,19,21)
+CH$LINK: CAS 19408-84-5
+CH$LINK: PUBCHEM CID:107982
+CH$LINK: INCHIKEY XJQPQKLURWNAAH-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 308.44
+PK$SPLASH: splash10-000i-0900000000-01ba73688ed01d56e854
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  136.0 80204.0 256
+  137.0 313474.0 999
+  184.0 19594.0 62
+//

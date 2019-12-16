@@ -1,0 +1,49 @@
+ACCESSION: PS002205
+RECORD_TITLE: 1,1-Dimethylbiguanide hydrochloride, Dimethylguanylguanidine, Metformin hydrochloride, Glucophage; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, D5035.
+COMMENT: PRIMe compound in-house ID 22
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 1,1-Dimethylbiguanide hydrochloride
+CH$NAME: Dimethylguanylguanidine
+CH$NAME: Metformin hydrochloride
+CH$NAME: Glucophage
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Metformin
+CH$FORMULA: C4H11N5
+CH$EXACT_MASS: 129.167
+CH$SMILES: CN(C)C(=N)N=C(N)N
+CH$IUPAC: InChI=1S/C4H11N5/c1-9(2)4(7)8-3(5)6/h1-2H3,(H5,5,6,7,8)
+CH$LINK: CAS 657-24-9
+CH$LINK: KEGG C07151
+CH$LINK: PUBCHEM CID:4091
+CH$LINK: INCHIKEY XZWYZXLIPXDOLR-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID2023270
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 50
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 130.17
+PK$SPLASH: splash10-00di-9000000000-da8c7750d89533e64879
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  27.0 2455.0 49
+  42.0 5017.0 99
+  43.0 21991.0 435
+  46.0 14929.0 295
+  60.0 7147.0 141
+  71.0 50542.0 999
+  112.0 2588.0 51
+  129.0 2164.0 43
+  131.0 4019.0 79
+//

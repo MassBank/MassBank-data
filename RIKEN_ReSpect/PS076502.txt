@@ -1,0 +1,41 @@
+ACCESSION: PS076502
+RECORD_TITLE: 3-(3-Methoxyphenyl)acrylic acid, m-Methoxycinnamic acid, 3-Methoxycinnamic acid, o-Methyl-m-coumaric Acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako/Avocado , 507-74491/A10723.
+COMMENT: PRIMe compound in-house ID S0172
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 3-(3-Methoxyphenyl)acrylic acid
+CH$NAME: m-Methoxycinnamic acid
+CH$NAME: 3-Methoxycinnamic acid
+CH$NAME: o-Methyl-m-coumaric Acid
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid monomer CLASS3 Cinnamic acid
+CH$FORMULA: C10H10O3
+CH$EXACT_MASS: 178.187
+CH$SMILES: COC1=CC=CC(=C1)C=CC(=O)O
+CH$IUPAC: InChI=1S/C10H10O3/c1-13-9-4-2-3-8(7-9)5-6-10(11)12/h2-7H,1H3,(H,11,12)
+CH$LINK: PUBCHEM CID:637668
+CH$LINK: INCHIKEY LZPNXAULYJPXEH-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 179.19
+PK$SPLASH: splash10-03di-0900000000-f3dda8f80a7a2fe83190
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  133.0 9368.0 112
+  160.0 21285.0 254
+  161.0 83738.0 999
+  176.0 4574.0 55
+//

@@ -1,0 +1,75 @@
+ACCESSION: PR302556
+RECORD_TITLE: Epigallocatechin-3-gallate; LC-ESI-QTOF; MS2
+DATE: 2019.03.28
+AUTHORS: Tetsuya Mori, Center for Sustainable Resource Science, RIKEN
+LICENSE: CC BY-SA NC
+PUBLICATION: Tsugawa H., Nakabayashi R., Mori T., Yamada Y., Takahashi M., Rai A., Sugiyama R., Yamamoto H., Nakaya T., Yamazaki M., Kooke R., Bac-Molenaar JA., Oztolan-Erol N., Keurentjes JJB., Arita M., Saito K. (2019) "A cheminformatics approach to characterize metabolomes in stable-isotope-labeled organisms" Nature Methods 16(4):295-298. [doi:10.1038/s41592-019-0358-2]
+COMMENT: registered in RIKEN PlaSMA
+CH$NAME: (-)-Epigallocatechin gallate
+CH$NAME: [(2R,3R)-5,7-dihydroxy-2-(3,4,5-trihydroxyphenyl)-3,4-dihydro-2H-chromen-3-yl] 3,4,5-trihydroxybenzoate
+CH$NAME: 3-O-Galloyl-(-)-epigallocatechin
+CH$NAME: Benzoic acid, 3,4,5-trihydroxy-, (2R,3R)-3,4-dihydro-5,7-dihydroxy-2-(3,4,5-trihydroxyphenyl)-2H-1-benzopyran-3-yl ester
+CH$NAME: (-)-Epigallocatechin 3-gallate
+CH$NAME: Epigallocatechin-3-monogallate
+CH$NAME: (-)-Epigallocatechin 3-O-gallate
+CH$NAME: (-)-Epigallocatechol gallate
+CH$NAME: Gallic acid, 3-ester with epigallocatechol, (-)-
+CH$NAME: L-Epigallocatechin gallate
+CH$COMPOUND_CLASS: Catechin gallates
+CH$FORMULA: C22H18O11
+CH$EXACT_MASS: 458.08491
+CH$SMILES: C1[C@H]([C@H](OC2=CC(=CC(=C21)O)O)C3=CC(=C(C(=C3)O)O)O)OC(=O)C4=CC(=C(C(=C4)O)O)O
+CH$IUPAC: InChI=1S/C22H18O11/c23-10-5-12(24)11-7-18(33-22(31)9-3-15(27)20(30)16(28)4-9)21(32-17(11)6-10)8-1-13(25)19(29)14(26)2-8/h1-6,18,21,23-30H,7H2/t18-,21-/m1/s1
+CH$LINK: CAS 989-51-5
+CH$LINK: CHEBI 4806
+CH$LINK: CHEMSPIDER 58575
+CH$LINK: COMPTOX DTXSID1029889
+CH$LINK: INCHIKEY WMBWREPUVVBILR-WIYYLYMNSA-N
+CH$LINK: KEGG C09731
+CH$LINK: LIPIDMAPS LMPK12030005
+CH$LINK: NIKKAJI J134.058A
+CH$LINK: PUBCHEM CID:65064
+AC$INSTRUMENT: LC, Waters Acquity UPLC System; MS, Waters Xevo G2 Q-Tof
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 6V
+AC$MASS_SPECTROMETRY: DESOLVATION_GAS_FLOW 800/h
+AC$MASS_SPECTROMETRY: DESOLVATION_TEMPERATURE 450 C
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: CAPILLARY_VOLTAGE +3.00 kV
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity bridged ethyl hybrid C18 (1.7 um, 2.1 mm * 100 mm, Waters)
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE 40 C
+AC$CHROMATOGRAPHY: FLOW_GRADIENT A/B = (99.5%/0.5% at 0 min, 99.5%/0.5% at 0.1 min, 20%/80% at 10 min, 0.5%/99.5% at 10.1 min, 0.5%/99.5% at 12.0 min, 99.5%/0.5% at 12.1 min, 99.5%/0.5% at 15.0 min)
+AC$CHROMATOGRAPHY: FLOW_RATE 0.3 ml/min at 0 min, 0.3 ml/min at 10 min, 0.4 ml/min at 10.1 min, 0.4 ml/min at 14.4 min, 0.3 ml/min at 14.5 min
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.464
+AC$CHROMATOGRAPHY: SOLVENT A water including 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile including 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 459.0921879
+PK$SPLASH: splash10-052r-0951700000-6d592d54458014c4b6ab
+PK$NUM_PEAK: 22
+PK$PEAK: m/z int. rel.int.
+  139.03725 972.0 971
+  140.59235 25.0 25
+  141.04869 39.0 39
+  151.04146 207.0 207
+  152.04065 43.0 43
+  153.01659 69.0 69
+  154.01883 35.0 35
+  271.05508 45.0 45
+  289.03937 31.0 31
+  289.06842 567.0 566
+  290.07199 109.0 109
+  290.08395 50.0 50
+  291.04767 29.0 29
+  291.06241 28.0 28
+  307.06961 45.0 45
+  307.08939 24.0 24
+  308.0835 24.0 24
+  315.05228 28.0 28
+  334.06592 60.0 60
+  421.01172 34.0 34
+  459.08304 1000.0 999
+  459.10898 125.0 125
+//

@@ -1,0 +1,33 @@
+ACCESSION: PM000304
+RECORD_TITLE: 1-O-Caffeoylquinic acid; LC-ESI-QQ; MS2
+DATE: 2006.04.19
+AUTHORS: Parejo I, et al.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2012 Plant Science Center, RIKEN
+PUBLICATION: Parejo, I.; Jauregui, O.; Sánchez-Rabaneda, F.; Viladomat, F.; Bastida, J.; Codina, C. Separation and Characterization of Phenolic Compounds in Fennel (Foeniculum Vulgare) Using Liquid Chromatography-Negative Electrospray Ionization Tandem Mass Spectrometry. Journal of Agricultural and Food Chemistry 2004, 52 (12), 3679–87. DOI:10.1021/jf030813h
+COMMENT: 725
+CH$NAME: 1-O-Caffeoylquinic acid
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid ester CLASS3 Quinic acid
+CH$FORMULA: C16H18O9
+CH$EXACT_MASS: 354.311
+CH$SMILES: O=C(/C=C/c1ccc(O)c(O)c1)OC1(C(=O)O)C[C@H](O)C(O)[C@@H](O)C1
+CH$IUPAC: InChI=1S/C16H18O9/c17-9-3-1-8(5-10(9)18)2-4-13(21)25-16(15(23)24)6-11(19)14(22)12(20)7-16/h1-5,11-12,14,17-20,22H,6-7H2,(H,23,24)/b4-2+/t11-,12-,14?,16?/m0/s1
+CH$LINK: CAS 1241-87-8
+CH$LINK: INCHIKEY GWTUHAXUUFROTF-YMQLDNTMSA-N
+CH$LINK: PUBCHEM CID:53393476
+SP$SAMPLE: Foeniculum vulgare
+AC$INSTRUMENT: API 3000 triple-quadrupole mass spectrometer (PerkinElmer Sciex, Concord, ON, Canada)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 35
+AC$CHROMATOGRAPHY: SOLVENT H2O/NH3CN/HCOOH
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 353
+PK$SPLASH: splash10-002f-0900000000-b3639c70767bc9ea26f8
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  179.0 65.0 649
+  191.0 100.0 999
+//

@@ -1,0 +1,43 @@
+ACCESSION: PS106901
+RECORD_TITLE: S-Sulforaphene, (-)4-Isothiocyanato-4R-(methylsulfinyl)-1-butene, Sulforaphen, Raphanin, Sativin, Sulphoraphen; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound LKT, S8049.
+COMMENT: PRIMe compound in-house ID V0011
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: S-Sulforaphene
+CH$NAME: (-)4-Isothiocyanato-4R-(methylsulfinyl)-1-butene
+CH$NAME: Sulforaphen
+CH$NAME: Raphanin
+CH$NAME: Sativin
+CH$NAME: Sulphoraphen
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Isothiocyanate
+CH$FORMULA: C6H9NOS2
+CH$EXACT_MASS: 175.274
+CH$SMILES: CS(=O)C=CCCN=C=S
+CH$IUPAC: InChI=1S/C6H9NOS2/c1-10(8)5-3-2-4-7-6-9/h3,5H,2,4H2,1H3
+CH$LINK: CAS 592-95-0
+CH$LINK: PUBCHEM CID:6433206
+CH$LINK: INCHIKEY QKGJFQMGPDVOQE-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 176.14
+PK$SPLASH: splash10-004i-0900000000-a7fe3b9ebedaadb27136
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  112.0 64150.0 50
+  175.0 188402.0 146
+  176.0 1292520.0 999
+//

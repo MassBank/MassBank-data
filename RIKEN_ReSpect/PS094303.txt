@@ -1,0 +1,49 @@
+ACCESSION: PS094303
+RECORD_TITLE: alpha-Me-His, alpha-Methyl-DL-histidine dihydrochloride, N-alpha-Methylhistidine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, M8628.
+COMMENT: PRIMe compound in-house ID N0001
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: alpha-Me-His
+CH$NAME: alpha-Methyl-DL-histidine dihydrochloride
+CH$NAME: N-alpha-Methylhistidine
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Histidine
+CH$FORMULA: C7H11N3O2
+CH$EXACT_MASS: 169.184
+CH$SMILES: CC(CC1=CN=CN1)(C(=O)O)N
+CH$IUPAC: InChI=1S/C7H11N3O2/c1-7(8,6(11)12)2-5-3-9-4-10-5/h3-4H,2,8H2,1H3,(H,9,10)(H,11,12)
+CH$LINK: CAS 587-20-2
+CH$LINK: PUBCHEM CID:4396761
+CH$LINK: INCHIKEY HRRYYCWYCMJNGA-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 170.2
+PK$SPLASH: splash10-00di-2900000000-cfe4bce1abd370ae98a3
+PK$NUM_PEAK: 12
+PK$PEAK: m/z int. rel.int.
+  80.0 7158.0 56
+  81.0 4220.0 33
+  82.0 16355.0 127
+  83.0 5800.0 45
+  97.0 15981.0 124
+  106.0 4761.0 37
+  107.0 25759.0 201
+  109.0 5273.0 41
+  123.0 24358.0 190
+  124.0 128263.0 999
+  169.0 7200.0 56
+  170.0 10559.0 82
+//

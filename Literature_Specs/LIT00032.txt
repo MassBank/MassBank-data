@@ -2,11 +2,11 @@ ACCESSION: LIT00032
 RECORD_TITLE: CA6PE2C; LC-ESI-Q; MS2; 40 V; [M+H]+
 DATE: 2016.02.03 (Created 2013.04.16)
 AUTHORS: E. Schymanski; retrieved from A. Di Corcia et al. 1998
-LICENSE: Unknown
+LICENSE: CC0
 COPYRIGHT: Copyright (C) American Chemical Society 1998
-PUBLICATION: A. Di Corcia et al. Environ. Sci. Technol., 1998, 32(16), p2401-2409. DOI: 10.1021/es9801285
+PUBLICATION: Corcia, A. D.; Costantino, A.; Crescenzi, C.; Marinoni, E.; Samperi, R. Characterization of Recalcitrant Intermediates from Biotransformation of the Branched Alkyl Side Chain of Nonylphenol Ethoxylate Surfactants. Environmental Science & Technology 1998, 32 (16), 2401–9. DOI:10.1021/es9801285
 COMMENT: Literature spectrum
-COMMENT: CONFIDENCE: Tentative identification: isomers possible (Level 3)
+COMMENT: CONFIDENCE Tentative identification: isomers possible (Level 3)
 COMMENT: "The position of the carboxylic group was assigned arbitrarily; locations of branching points are undetermined"
 COMMENT: Digitised from figure: approximate intensities
 CH$NAME: CA6PE2C
@@ -16,6 +16,8 @@ CH$EXACT_MASS: 352.1886
 CH$SMILES: O=C(OC)CCCCCCc1ccc(OCCOCC(=O)OC)cc1
 CH$IUPAC: InChI=1S/C19H28O6/c1-22-18(20)8-6-4-3-5-7-16-9-11-17(12-10-16)25-14-13-24-15-19(21)23-2/h9-12H,3-8,13-15H2,1-2H3
 CH$LINK: INCHIKEY AWCKHGHJGUQVSR-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID60891658
+CH$LINK: PUBCHEM CID:137628338
 AC$INSTRUMENT: Fisons VG Platform
 AC$INSTRUMENT_TYPE: LC-ESI-Q
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

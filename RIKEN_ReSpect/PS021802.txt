@@ -1,0 +1,48 @@
+ACCESSION: PS021802
+RECORD_TITLE: DL-threo-beta-Methylaspartic acid, 2-Amino-3-methylsuccinic acid, beta-methylaspartate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, M6126.
+COMMENT: PRIMe compound in-house ID 218
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: DL-threo-beta-Methylaspartic acid
+CH$NAME: 2-Amino-3-methylsuccinic acid
+CH$NAME: beta-methylaspartate
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Aspartic acid
+CH$FORMULA: C5H9NO4
+CH$EXACT_MASS: 147.13
+CH$SMILES: CC(C(C(=O)O)N)C(=O)O
+CH$IUPAC: InChI=1S/C5H9NO4/c1-2(4(7)8)3(6)5(9)10/h2-3H,6H2,1H3,(H,7,8)(H,9,10)
+CH$LINK: CAS 6667-60-3
+CH$LINK: KEGG C03618
+CH$LINK: PUBCHEM CID:852
+CH$LINK: INCHIKEY LXRUAYBIUSUULX-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 148.15
+PK$SPLASH: splash10-00di-9300000000-4d22def377e944a1ae48
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  56.0 1806.0 38
+  57.0 19947.0 416
+  73.0 5160.0 108
+  74.0 47907.0 999
+  83.0 1947.0 41
+  84.0 4967.0 104
+  101.0 2980.0 62
+  102.0 18660.0 389
+  130.0 2849.0 59
+  148.0 3692.0 77
+//

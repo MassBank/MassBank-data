@@ -1,0 +1,41 @@
+ACCESSION: PS113001
+RECORD_TITLE: Helicocerin, cerulenin, (2R,3S,E,E)-2,3-Epoxy-4-oxo-7,10-dodecadienamide; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound ICN, 195098.
+COMMENT: PRIMe compound in-house ID V0032
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Helicocerin
+CH$NAME: cerulenin
+CH$NAME: (2R,3S,E,E)-2,3-Epoxy-4-oxo-7,10-dodecadienamide
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Cerulenin
+CH$FORMULA: C12H17NO3
+CH$EXACT_MASS: 223.272
+CH$SMILES: CC=CCC=CCCC(=O)C1C(O1)C(=O)N
+CH$IUPAC: InChI=1S/C12H17NO3/c1-2-3-4-5-6-7-8-9(14)10-11(16-10)12(13)15/h2-3,5-6,10-11H,4,7-8H2,1H3,(H2,13,15)
+CH$LINK: CAS 17397-89-6
+CH$LINK: KEGG C12058
+CH$LINK: PUBCHEM CID:5282054
+CH$LINK: INCHIKEY GVEZIHKRYBHEFX-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 224.29
+PK$SPLASH: splash10-00di-0090000000-599e761aee3619d50ac2
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  207.0 29941.0 64
+  222.0 86810.0 185
+  223.0 469959.0 999
+//

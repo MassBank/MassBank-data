@@ -1,0 +1,44 @@
+ACCESSION: PS079407
+RECORD_TITLE: Suberic acid, Octanedioic acid, Suberate, Cork Acid, 1,6-Hexanedicarboxylic Acid, Hexamethylenedicarboxylic acid, Hexane-1,6-dicarboxylic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 196-04312 .
+COMMENT: PRIMe compound in-house ID S0224
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Suberic acid
+CH$NAME: Octanedioic acid
+CH$NAME: Suberate
+CH$NAME: Cork Acid
+CH$NAME: 1,6-Hexanedicarboxylic Acid
+CH$NAME: Hexamethylenedicarboxylic acid
+CH$NAME: Hexane-1,6-dicarboxylic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Suberic acid
+CH$FORMULA: C8H14O4
+CH$EXACT_MASS: 174.196
+CH$SMILES: C(CCCC(=O)O)CCC(=O)O
+CH$IUPAC: InChI=1S/C8H14O4/c9-7(10)5-3-1-2-4-6-8(11)12/h1-6H2,(H,9,10)(H,11,12)
+CH$LINK: CAS 505-48-6
+CH$LINK: KEGG C08278
+CH$LINK: PUBCHEM CID:10457
+CH$LINK: INCHIKEY TYFQFVWCELRYAO-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 173.17
+PK$SPLASH: splash10-00di-0900000000-6f26d46b1abd1ae44e1a
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  172.0 58417.0 120
+  173.0 485582.0 999
+//

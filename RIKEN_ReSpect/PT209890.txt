@@ -1,0 +1,40 @@
+ACCESSION: PT209890
+RECORD_TITLE: VMA, Vanilmandelic acid, Vanilinmandelic Acid, alpha,4-Dihydroxy-3-methoxybenzeneacetic acid, Vanillomandelic acid, DL-4-Hydroxy-3-methoxymandelic acid , 2-hydroxy-2-(4-hydroxy-3-methoxyphenyl)acetic acid, 4-Hydroxy-3-methoxymandelate, Vanillylmandelic acid; LC-ESI-QTOF; MS2
+DATE: 2008.07.29
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: VMA
+CH$NAME: Vanilmandelic acid
+CH$NAME: Vanilinmandelic Acid
+CH$NAME: alpha,4-Dihydroxy-3-methoxybenzeneacetic acid
+CH$NAME: Vanillomandelic acid
+CH$NAME: DL-4-Hydroxy-3-methoxymandelic acid
+CH$NAME: 2-hydroxy-2-(4-hydroxy-3-methoxyphenyl)acetic acid
+CH$NAME: 4-Hydroxy-3-methoxymandelate
+CH$NAME: Vanillylmandelic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Mandelic acid
+CH$FORMULA: C9H10O5
+CH$EXACT_MASS: 198.174
+CH$SMILES: COC1=C(C=CC(=C1)C(C(=O)O)O)O
+CH$IUPAC: InChI=1S/C9H10O5/c1-14-7-4-5(2-3-6(7)10)8(11)9(12)13/h2-4,8,10-11H,1H3,(H,12,13)
+CH$LINK: INCHIKEY CGQCWMIAEPEHNQ-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 197.04502
+PK$SPLASH: splash10-000i-0900000000-5edd48e492ac7aceebcf
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  137.0244 820.4 999
+  138.0318 360.5 439
+  197.045 359.1 437
+//

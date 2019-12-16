@@ -1,0 +1,39 @@
+ACCESSION: PS036607
+RECORD_TITLE: Uridine-5'-diphosphate sodium salt, UDP; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, U4125.
+COMMENT: PRIMe compound in-house ID 366
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Uridine-5'-diphosphate sodium salt
+CH$NAME: UDP
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Uridine phosphate
+CH$FORMULA: C9H14N2O12P2
+CH$EXACT_MASS: 404.165
+CH$SMILES: C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)O)O)O
+CH$IUPAC: InChI=1S/C9H14N2O12P2/c12-5-1-2-11(9(15)10-5)8-7(14)6(13)4(22-8)3-21-25(19,20)23-24(16,17)18/h1-2,4,6-8,13-14H,3H2,(H,19,20)(H,10,12,15)(H2,16,17,18)
+CH$LINK: CAS 58-98-0
+CH$LINK: KEGG C00015
+CH$LINK: PUBCHEM CID:6031
+CH$LINK: INCHIKEY XCCTYIAWTASOJW-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 403.29
+PK$SPLASH: splash10-0udi-0000900000-abec2a8226f1b593cc69
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  402.0 61390.0 195
+  403.0 315021.0 999
+//

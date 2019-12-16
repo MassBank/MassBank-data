@@ -1,0 +1,47 @@
+ACCESSION: PS101107
+RECORD_TITLE: trans-Aconitate, trans-Aconitic acid, Citridic Acid, trans-1,2,3-Propenetricarboxylic acid, (E)-2-Carboxyglutaconic Acid, trans-Propene-1,2,3-tricarboxylic acid, Achilleic Acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, 122750.
+COMMENT: PRIMe compound in-house ID N0069
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: trans-Aconitate
+CH$NAME: trans-Aconitic acid
+CH$NAME: Citridic Acid
+CH$NAME: trans-1,2,3-Propenetricarboxylic acid
+CH$NAME: (E)-2-Carboxyglutaconic Acid
+CH$NAME: trans-Propene-1,2,3-tricarboxylic acid
+CH$NAME: Achilleic Acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Aconitic acid
+CH$FORMULA: C6H6O6
+CH$EXACT_MASS: 174.108
+CH$SMILES: C(C(=CC(=O)O)C(=O)O)C(=O)O
+CH$IUPAC: InChI=1S/C6H6O6/c7-4(8)1-3(6(11)12)2-5(9)10/h1H,2H2,(H,7,8)(H,9,10)(H,11,12)
+CH$LINK: CAS 4023-65-8
+CH$LINK: KEGG C02341
+CH$LINK: PUBCHEM CID:444212
+CH$LINK: INCHIKEY GTZCVFVGUGFEME-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 173.11
+PK$SPLASH: splash10-00fr-0900000000-d24dc14cab7abf6c9af8
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  85.0 6668.0 121
+  128.0 1754.0 32
+  129.0 33452.0 607
+  172.0 7051.0 128
+  173.0 55069.0 999
+//

@@ -1,0 +1,46 @@
+ACCESSION: PS024412
+RECORD_TITLE: Guanosine-5'-diphosphoglucose sodium salt, GDPG, GDP-Glc, GDP-glucose; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, G7502.
+COMMENT: PRIMe compound in-house ID 244
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Guanosine-5'-diphosphoglucose sodium salt
+CH$NAME: GDPG
+CH$NAME: GDP-Glc
+CH$NAME: GDP-glucose
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Guanosine phosphate
+CH$FORMULA: C16H25N5O16P2
+CH$EXACT_MASS: 605.347
+CH$SMILES: C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OC4C(C(C(C(O4)CO)O)O)O)O)O)NC(=NC2=O)N
+CH$IUPAC: InChI=1S/C16H25N5O16P2/c17-16-19-12-6(13(28)20-16)18-3-21(12)14-10(26)8(24)5(34-14)2-33-38(29,30)37-39(31,32)36-15-11(27)9(25)7(23)4(1-22)35-15/h3-5,7-11,14-15,22-27H,1-2H2,(H,29,30)(H,31,32)(H3,17,19,20,28)
+CH$LINK: CAS 5750-57-2
+CH$LINK: KEGG C00394
+CH$LINK: PUBCHEM CID:439225
+CH$LINK: INCHIKEY MVMSCBBUIHUTGJ-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 60
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 604.45
+PK$SPLASH: splash10-004i-9024000000-1c25a35233b2cdf5a69a
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  78.0 5707.0 94
+  79.0 60547.0 999
+  150.0 4718.0 78
+  211.0 4744.0 78
+  241.0 14622.0 241
+  361.0 5450.0 90
+  362.0 25259.0 417
+//

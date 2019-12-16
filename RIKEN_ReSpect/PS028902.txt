@@ -1,0 +1,52 @@
+ACCESSION: PS028902
+RECORD_TITLE: (2S,3R)-2-Amino-3-hydroxybutyric acid, L-2-Amino-3-hydroxybutyric acid, Thr, beta-Methylserine, (2S,3R)-2-Amino-3-hydroxybutanoic Acid, L-Threonine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, T8625.
+COMMENT: PRIMe compound in-house ID 289
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: (2S,3R)-2-Amino-3-hydroxybutyric acid
+CH$NAME: L-2-Amino-3-hydroxybutyric acid
+CH$NAME: Thr
+CH$NAME: beta-Methylserine
+CH$NAME: (2S,3R)-2-Amino-3-hydroxybutanoic Acid
+CH$NAME: L-Threonine
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Threonine
+CH$FORMULA: C4H9NO3
+CH$EXACT_MASS: 119.12
+CH$SMILES: CC(C(C(=O)O)N)O
+CH$IUPAC: InChI=1S/C4H9NO3/c1-2(6)3(5)4(7)8/h2-3,6H,5H2,1H3,(H,7,8)
+CH$LINK: CAS 72-19-5
+CH$LINK: KEGG C00188
+CH$LINK: PUBCHEM CID:6288
+CH$LINK: INCHIKEY AYFVYJQAPQTCCC-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 120.08
+PK$SPLASH: splash10-05fr-9100000000-23bd443fd3b392907235
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  55.0 26935.0 263
+  56.0 102129.0 998
+  57.0 6914.0 68
+  73.0 38224.0 373
+  74.0 102250.0 999
+  84.0 9323.0 91
+  101.0 3972.0 39
+  102.0 14497.0 142
+  118.0 4137.0 40
+  119.0 7820.0 76
+  120.0 21456.0 210
+//

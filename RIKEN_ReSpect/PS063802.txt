@@ -1,0 +1,49 @@
+ACCESSION: PS063802
+RECORD_TITLE: L-Aad, L-Homoglutamic acid, L-2-Aminoadipic Acid , L-2-Aminohexanedioate, L-alpha-Aminoadipic Acid, L-Ho-Glu, (S)-2-Aminohexanedioic acid, L-2-Aminoadipate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 325-42861.
+COMMENT: PRIMe compound in-house ID S0023
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-Aad
+CH$NAME: L-Homoglutamic acid
+CH$NAME: L-2-Aminoadipic Acid
+CH$NAME: L-2-Aminohexanedioate
+CH$NAME: L-alpha-Aminoadipic Acid
+CH$NAME: L-Ho-Glu
+CH$NAME: (S)-2-Aminohexanedioic acid
+CH$NAME: L-2-Aminoadipate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Carboxylic acid CLASS3 Adipic acid
+CH$FORMULA: C6H11NO4
+CH$EXACT_MASS: 161.157
+CH$SMILES: C(CC(C(=O)O)N)CC(=O)O
+CH$IUPAC: InChI=1S/C6H11NO4/c7-4(6(10)11)2-1-3-5(8)9/h4H,1-3,7H2,(H,8,9)(H,10,11)
+CH$LINK: CAS 1118-90-7
+CH$LINK: KEGG C00956
+CH$LINK: PUBCHEM CID:92136
+CH$LINK: INCHIKEY OYIFNHCXNCRBQI-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 162.18
+PK$SPLASH: splash10-0002-9200000000-784e2d163f9066e5ba6f
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  97.0 13848.0 142
+  98.0 97730.0 999
+  115.0 4174.0 43
+  116.0 11601.0 119
+  144.0 10842.0 111
+  162.0 3618.0 37
+//

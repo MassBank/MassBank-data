@@ -1,0 +1,45 @@
+ACCESSION: PS098001
+RECORD_TITLE: O-Phosphorylethanolamine, Ethanolamine phospha, Colaminephosphoric acid, O-Phosphoethanolamine, 2-Aminoethyl Dihydrogenphosphate, Colamine phosphate; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound TCI, P0279.
+COMMENT: PRIMe compound in-house ID N0038
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: O-Phosphorylethanolamine
+CH$NAME: Ethanolamine phospha
+CH$NAME: Colaminephosphoric acid
+CH$NAME: O-Phosphoethanolamine
+CH$NAME: 2-Aminoethyl Dihydrogenphosphate
+CH$NAME: Colamine phosphate
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Phosphate CLASS3 Ethanolamine phosphate
+CH$FORMULA: C2H8NO4P
+CH$EXACT_MASS: 141.065
+CH$SMILES: C(COP(=O)(O)O)N
+CH$IUPAC: InChI=1S/C2H8NO4P/c3-1-2-7-8(4,5)6/h1-3H2,(H2,4,5,6)
+CH$LINK: CAS 1071-23-4
+CH$LINK: KEGG C00346
+CH$LINK: PUBCHEM CID:1015
+CH$LINK: INCHIKEY SUHOOTKUPISOBE-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 142.11
+PK$SPLASH: splash10-0006-9700000000-8ef9b5bb4a5dfd33b853
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  43.0 44476.0 213
+  44.0 208344.0 999
+  141.0 46323.0 222
+  142.0 150809.0 723
+//

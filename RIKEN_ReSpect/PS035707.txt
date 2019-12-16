@@ -1,0 +1,42 @@
+ACCESSION: PS035707
+RECORD_TITLE: dTDP, Thymidine-5'-diphosphate sodium salt, Deoxythymidine 5'-diphosphate, deoxy-TDP; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, T9375.
+COMMENT: PRIMe compound in-house ID 357
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: dTDP
+CH$NAME: Thymidine-5'-diphosphate sodium salt
+CH$NAME: Deoxythymidine 5'-diphosphate
+CH$NAME: deoxy-TDP
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Thymidine phosphate
+CH$FORMULA: C10H16N2O11P2
+CH$EXACT_MASS: 402.193
+CH$SMILES: CC1=CN(C(=O)NC1=O)C2CC(C(O2)COP(=O)(O)OP(=O)(O)O)O
+CH$IUPAC: InChI=1S/C10H16N2O11P2/c1-5-3-12(10(15)11-9(5)14)8-2-6(13)7(22-8)4-21-25(19,20)23-24(16,17)18/h3,6-8,13H,2,4H2,1H3,(H,19,20)(H,11,14,15)(H2,16,17,18)
+CH$LINK: CAS 491-97-4
+CH$LINK: KEGG C00363
+CH$LINK: PUBCHEM CID:164628
+CH$LINK: INCHIKEY UJLXYODCHAELLY-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 401.3
+PK$SPLASH: splash10-0udi-0000900000-37425db99053fcb42126
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  400.0 46614.0 217
+  401.0 214109.0 999
+  402.0 8614.0 40
+//

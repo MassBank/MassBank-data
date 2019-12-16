@@ -1,0 +1,51 @@
+ACCESSION: PS065803
+RECORD_TITLE: Ac-Orn, N-alpha-Acetyl-L-ornithine, AOR, (2S)-2-acetamido-5-aminopentanoic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A3626.
+COMMENT: PRIMe compound in-house ID S0045
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Ac-Orn
+CH$NAME: N-alpha-Acetyl-L-ornithine
+CH$NAME: AOR
+CH$NAME: (2S)-2-acetamido-5-aminopentanoic acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Ornithine
+CH$FORMULA: C7H14N2O3
+CH$EXACT_MASS: 174.2
+CH$SMILES: CC(=O)NC(CCCN)C(=O)O
+CH$IUPAC: InChI=1S/C7H14N2O3/c1-5(10)9-6(7(11)12)3-2-4-8/h6H,2-4,8H2,1H3,(H,9,10)(H,11,12)
+CH$LINK: CAS 2185-16-2
+CH$LINK: KEGG C00437
+CH$LINK: PUBCHEM CID:439232
+CH$LINK: INCHIKEY JRLGPAXAGHMNOL-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 175.22
+PK$SPLASH: splash10-00xr-9300000000-b3feb71859c589156c7d
+PK$NUM_PEAK: 12
+PK$PEAK: m/z int. rel.int.
+  42.0 4887.0 38
+  43.0 10277.0 81
+  69.0 22466.0 177
+  70.0 126962.0 999
+  71.0 5668.0 45
+  74.0 6436.0 51
+  88.0 6681.0 53
+  112.0 6156.0 48
+  114.0 7333.0 58
+  115.0 41496.0 327
+  116.0 20690.0 163
+  175.0 4323.0 34
+//

@@ -1,0 +1,39 @@
+ACCESSION: PT201900
+RECORD_TITLE: Cytidine-5'-diphosphate sodium salt hydrate,from yeast, Cytidine 5'-Diphosphoric Acid , [(2R,3S,4R,5R)-5-(4-amino-2-oxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl phosphono hydrogen phosphate, CDP Sodium Salt; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: Cytidine-5'-diphosphate sodium salt hydrate,from yeast
+CH$NAME: Cytidine 5'-Diphosphoric Acid
+CH$NAME: [(2R,3S,4R,5R)-5-(4-amino-2-oxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl phosphono hydrogen phosphate
+CH$NAME: CDP Sodium Salt
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Cytidine phosphate
+CH$FORMULA: C9H15N3O11P2
+CH$EXACT_MASS: 403.181
+CH$SMILES: C1=CN(C(=O)N=C1N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)O)O)O
+CH$IUPAC: InChI=1S/C9H15N3O11P2/c10-5-1-2-12(9(15)11-5)8-7(14)6(13)4(22-8)3-21-25(19,20)23-24(16,17)18/h1-2,4,6-8,13-14H,3H2,(H,19,20)(H2,10,11,15)(H2,16,17,18)
+CH$LINK: CAS 63-38-7
+CH$LINK: INCHIKEY ZWIADYZPOWUWEW-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 402.01038
+PK$SPLASH: splash10-0kdi-9602700000-4b46ddc9506634a02dc5
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  78.9594 149.0 999
+  110.0355 24.18 162
+  158.9241 84.32 565
+  304.0305 16.15 108
+  383.9996 23.19 155
+  402.0104 122.4 821
+//

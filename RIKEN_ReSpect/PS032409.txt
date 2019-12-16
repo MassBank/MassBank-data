@@ -1,0 +1,45 @@
+ACCESSION: PS032409
+RECORD_TITLE: PIPES, Piperazine-1,4-bis(2-ethanesulfonic acid), Piperazine-N,N'-bis(2-ethanesulfonic acid), 1,4-Piperazinediethanesulfonic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, P6757.
+COMMENT: PRIMe compound in-house ID 324
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: PIPES
+CH$NAME: Piperazine-1,4-bis(2-ethanesulfonic acid)
+CH$NAME: Piperazine-N,N'-bis(2-ethanesulfonic acid)
+CH$NAME: 1,4-Piperazinediethanesulfonic acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Other CLASS3 Other
+CH$FORMULA: C8H18N2O6S2
+CH$EXACT_MASS: 302.37
+CH$SMILES: C1CN(CCN1CCS(=O)(=O)O)CCS(=O)(=O)O
+CH$IUPAC: InChI=1S/C8H18N2O6S2/c11-17(12,13)7-5-9-1-2-10(4-3-9)6-8-18(14,15)16/h1-8H2,(H,11,12,13)(H,14,15,16)
+CH$LINK: CAS 5625-37-6
+CH$LINK: PUBCHEM CID:79723
+CH$LINK: INCHIKEY IHPYMWDTONKSCO-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 301.25
+PK$SPLASH: splash10-0udl-0819000000-72df43e6143382eda826
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  150.0 2559.0 44
+  192.0 7513.0 131
+  193.0 57496.0 999
+  221.0 3264.0 57
+  299.0 6334.0 110
+  300.0 24285.0 422
+  301.0 47512.0 826
+//

@@ -1,0 +1,57 @@
+ACCESSION: PS027403
+RECORD_TITLE: L-Glutathione (reduced form), gamma-Glu-Cys-Gly, GSH, gamma-L-Glutamyl-L-cysteinyl-glycine; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, G4251.
+COMMENT: PRIMe compound in-house ID 274
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-Glutathione (reduced form)
+CH$NAME: gamma-Glu-Cys-Gly
+CH$NAME: GSH
+CH$NAME: gamma-L-Glutamyl-L-cysteinyl-glycine
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Peptide CLASS3 Oligopeptide
+CH$FORMULA: C10H17N3O6S
+CH$EXACT_MASS: 307.326
+CH$SMILES: C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N
+CH$IUPAC: InChI=1S/C10H17N3O6S/c11-5(10(18)19)1-2-7(14)13-6(4-20)9(17)12-3-8(15)16/h5-6,20H,1-4,11H2,(H,12,17)(H,13,14)(H,15,16)(H,18,19)
+CH$LINK: CAS 70-18-8
+CH$LINK: KEGG C00051
+CH$LINK: PUBCHEM CID:124886
+CH$LINK: INCHIKEY RWSXRVCMGQZWBV-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 307.35
+PK$SPLASH: splash10-001i-9610000000-34bf75ebd234567021fe
+PK$NUM_PEAK: 18
+PK$PEAK: m/z int. rel.int.
+  75.0 3192.0 55
+  76.0 13560.0 232
+  83.0 16990.0 291
+  84.0 58376.0 999
+  129.0 8598.0 147
+  130.0 23280.0 398
+  131.0 7958.0 136
+  162.0 1830.0 31
+  176.0 4220.0 72
+  177.0 15539.0 266
+  178.0 3586.0 61
+  179.0 6551.0 112
+  211.0 2075.0 36
+  230.0 3191.0 55
+  231.0 9977.0 171
+  235.0 2575.0 44
+  257.0 2166.0 37
+  308.0 2454.0 42
+//

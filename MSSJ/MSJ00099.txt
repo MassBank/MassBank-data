@@ -1,0 +1,86 @@
+ACCESSION: MSJ00099
+RECORD_TITLE: (S)-3-methylheptyl bromide; GC-EI-TOF; MS; positive; EI; M+*.
+DATE: 2019.02.08
+AUTHORS: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Mori K, Akasaka K. Pheromone synthesis. Part 256: Synthesis of the four stereoisomers of 5,11-dimethylpentacosane, a new sex pheromone component of the male Galleria mellonella (L.), with high stereochemical purities as determined by the derivatization-HPLC analysis of the eight stereoisomers of 5,11-dimethyl-8-pentacosanol. Tetrahedron. 2015 Jun 17;71(24):4102-15. doi: 10.10.1016/j.tet2015.04.107
+COMMENT: JMS-T100GCV is a reflectron TOF MS. Temperature of the ion source and GC-transfer line was 250 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. Postrun m/z adjustment with known mass was 148.9966.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 16HP2005 to the Mass Spectrometry Society of Japan.
+CH$NAME: (S)-3-methylheptyl bromide
+CH$COMPOUND_CLASS: Synthetic compound
+CH$FORMULA: C8H17Br
+CH$EXACT_MASS: 192.0514
+CH$SMILES: CCCC[C@H](C)CCBr
+CH$IUPAC: InChI=1S/C8H17Br/c1-3-4-5-8(2)6-7-9/h8H,3-7H2,1-2H3/t8-/m0/s1
+CH$LINK: CHEMSPIDER 61686166
+CH$LINK: INCHIKEY PYETWEQSEZLJIH-QMMMGPOBSA-N
+CH$LINK: PUBCHEM CID:71584495
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A gas chromatography.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 mL/min
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091J-413 USD364547H (Agilent), length 30 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Ramped at 50 C for 4 min. From 70 C to 325 C at 30 C/min and held at 0.833 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.92 min
+PK$SPLASH: splash10-054x-9000000000-a70f131c0d982aaa4460
+PK$NUM_PEAK: 53
+PK$PEAK: m/z int. rel.int.
+  26.016 3 28
+  27.024 48 483
+  28.006 1 15
+  28.032 11 109
+  29.040 54 538
+  30.043 1 12
+  31.990 1 6
+  38.016 1 9
+  39.024 34 338
+  40.031 5 53
+  41.040 82 817
+  41.092 1 8
+  42.047 12 120
+  43.055 100 999
+  43.109 1 9
+  44.059 3 33
+  50.017 1 9
+  51.024 3 26
+  52.032 1 12
+  53.040 10 105
+  54.047 4 36
+  55.055 72 715
+  55.116 1 7
+  56.062 18 184
+  57.071 30 302
+  58.074 1 13
+  65.040 1 13
+  67.055 3 32
+  68.063 1 8
+  69.071 12 123
+  70.078 14 137
+  71.086 10 96
+  77.040 1 7
+  79.055 1 7
+  81.071 1 5
+  83.087 3 30
+  84.094 3 34
+  85.102 60 601
+  86.105 4 37
+  92.935 2 21
+  94.933 2 20
+  97.102 1 10
+  106.950 4 37
+  108.948 4 35
+  112.126 1 9
+  113.133 1 6
+  134.981 1 14
+  136.979 1 13
+  148.997 8 76
+  150.995 7 74
+  164.020 1 10
+  165.011 1 5
+  166.018 1 10
+//

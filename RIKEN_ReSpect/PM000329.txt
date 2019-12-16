@@ -1,0 +1,35 @@
+ACCESSION: PM000329
+RECORD_TITLE: Kaempferol-3-O-glucuronide; LC-ESI-QQ; MS2
+DATE: 2006.04.19
+AUTHORS: Parejo I, et al.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2012 Plant Science Center, RIKEN
+PUBLICATION: Parejo, I.; Jauregui, O.; Sánchez-Rabaneda, F.; Viladomat, F.; Bastida, J.; Codina, C. Separation and Characterization of Phenolic Compounds in Fennel (Foeniculum Vulgare) Using Liquid Chromatography-Negative Electrospray Ionization Tandem Mass Spectrometry. Journal of Agricultural and Food Chemistry 2004, 52 (12), 3679–87. DOI:10.1021/jf030813h
+COMMENT: 725
+CH$NAME: Kaempferol-3-O-glucuronide
+CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Flavonol CLASS3 Kaempferol glycoside
+CH$FORMULA: C21H18O12
+CH$EXACT_MASS: 462.363
+CH$SMILES: O=C(O)C1OC(Oc2c(-c3ccc(O)cc3)oc3cc(O)cc(O)c3c2=O)C(O)C(O)C1O
+CH$IUPAC: InChI=1S/C21H18O12/c22-8-3-1-7(2-4-8)17-18(13(25)12-10(24)5-9(23)6-11(12)31-17)32-21-16(28)14(26)15(27)19(33-21)20(29)30/h1-6,14-16,19,21-24,26-28H,(H,29,30)
+CH$LINK: CAS 22688-78-4
+CH$LINK: INCHIKEY FNTJVYCFNVUBOL-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:14185731
+SP$SAMPLE: Foeniculum vulgare
+AC$INSTRUMENT: API 3000 triple-quadrupole mass spectrometer (PerkinElmer Sciex, Concord, ON, Canada)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 35
+AC$CHROMATOGRAPHY: SOLVENT H2O/NH3CN/HCOOH
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 461
+PK$SPLASH: splash10-0550-0390000000-8ab79dc5fcb515f81fc5
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  135.0 100.0 999
+  229.0 100.0 999
+  257.0 100.0 999
+  285.0 100.0 999
+//

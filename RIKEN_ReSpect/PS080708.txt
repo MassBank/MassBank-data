@@ -1,0 +1,44 @@
+ACCESSION: PS080708
+RECORD_TITLE: 12:0/12:0PA, 1,2-Dilauroyl-sn-Glycero-3-Phosphate Monosodium Salt, Dilauroylphosphatidic acid, DLPA, 1,2-Didodecanoyl phosphatidyl 1'-sn-glycerol; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Avanti, 840635P.
+COMMENT: PRIMe compound in-house ID S0243
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 12:0/12:0PA
+CH$NAME: 1,2-Dilauroyl-sn-Glycero-3-Phosphate Monosodium Salt
+CH$NAME: Dilauroylphosphatidic acid
+CH$NAME: DLPA
+CH$NAME: 1,2-Didodecanoyl phosphatidyl 1'-sn-glycerol
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Phospholipid CLASS3 Phosphatidylglycerol
+CH$FORMULA: C27H53O8P
+CH$EXACT_MASS: 536.689
+CH$SMILES: CCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)OC(=O)CCCCCCCCCCC
+CH$IUPAC: InChI=1S/C27H53O8P/c1-3-5-7-9-11-13-15-17-19-21-26(28)33-23-25(24-34-36(30,31)32)35-27(29)22-20-18-16-14-12-10-8-6-4-2/h25H,3-24H2,1-2H3,(H2,30,31,32)
+CH$LINK: CAS 108321-06-8
+CH$LINK: PUBCHEM CID:9547171
+CH$LINK: INCHIKEY OKLASJZQBDJAPH-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 535.68
+PK$SPLASH: splash10-000i-0000090000-3b1582b8efe972e0203e
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  335.0 26829.0 84
+  534.0 33570.0 105
+  535.0 317981.0 999
+  536.0 204473.0 642
+  537.0 35889.0 113
+//

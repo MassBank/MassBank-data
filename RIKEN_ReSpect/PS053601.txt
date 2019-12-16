@@ -1,0 +1,45 @@
+ACCESSION: PS053601
+RECORD_TITLE: Glc(beta1-4)Glc(beta1-4)Glc, D-(+)-Cellotriose, O-beta-D-Glucopyranosyl-(1-4)-O-beta-D-Glucopyranosyl-(1-4)-D-Glucose; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, C1167.
+COMMENT: PRIMe compound in-house ID T0044
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Glc(beta1-4)Glc(beta1-4)Glc
+CH$NAME: D-(+)-Cellotriose
+CH$NAME: O-beta-D-Glucopyranosyl-(1-4)-O-beta-D-Glucopyranosyl-(1-4)-D-Glucose
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Sugar CLASS3 Oligosaccharide
+CH$FORMULA: C18H32O16
+CH$EXACT_MASS: 504.438
+CH$SMILES: C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)O)CO)CO)O)O)O)O
+CH$IUPAC: InChI=1S/C18H32O16/c19-1-4-7(22)8(23)12(27)17(31-4)34-15-6(3-21)32-18(13(28)10(15)25)33-14-5(2-20)30-16(29)11(26)9(14)24/h4-29H,1-3H2
+CH$LINK: CAS 33404-34-1
+CH$LINK: KEGG C06219
+CH$LINK: PUBCHEM CID:440950
+CH$LINK: INCHIKEY FYGDTMLNYKFZSV-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 505.51
+PK$SPLASH: splash10-0a6r-0008290000-da98e8a9061c0a4f02e5
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  324.0 2251.0 52
+  325.0 33582.0 772
+  343.0 12096.0 278
+  487.0 14888.0 342
+  504.0 7417.0 171
+  505.0 43453.0 999
+  506.0 1942.0 45
+//

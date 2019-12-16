@@ -1,0 +1,43 @@
+ACCESSION: PS037102
+RECORD_TITLE: Uridine-diphosphate-glucuronic acid, Uridine-5'-diphosphoglucuronic acid trisodium salt , UDP-GlcA, UDP-Glucuronate, UDPGA, UDP-Glucopyranosuronic Acid ; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, U6751.
+COMMENT: PRIMe compound in-house ID 371
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Uridine-diphosphate-glucuronic acid
+CH$NAME: Uridine-5'-diphosphoglucuronic acid trisodium salt
+CH$NAME: UDP-GlcA
+CH$NAME: UDP-Glucuronate
+CH$NAME: UDPGA
+CH$NAME: UDP-Glucopyranosuronic Acid
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Uridine phosphate
+CH$FORMULA: C15H22N2O18P2
+CH$EXACT_MASS: 580.289
+CH$SMILES: C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OC3C(C(C(C(O3)C(=O)O)O)O)O)O)O
+CH$IUPAC: InChI=1S/C15H22N2O18P2/c18-5-1-2-17(15(26)16-5)12-9(22)6(19)4(32-12)3-31-36(27,28)35-37(29,30)34-14-10(23)7(20)8(21)11(33-14)13(24)25/h1-2,4,6-12,14,19-23H,3H2,(H,24,25)(H,27,28)(H,29,30)(H,16,18,26)
+CH$LINK: CAS 2616-64-0
+CH$LINK: KEGG C00167
+CH$LINK: PUBCHEM CID:17473
+CH$LINK: INCHIKEY HDYANYHVCAPMJV-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 581.35
+PK$SPLASH: splash10-0a4i-0002900000-08cd98a102db9b92ed8d
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  325.0 24824.0 274
+  405.0 90665.0 999
+//

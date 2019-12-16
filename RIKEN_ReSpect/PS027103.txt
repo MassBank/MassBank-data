@@ -1,0 +1,44 @@
+ACCESSION: PS027103
+RECORD_TITLE: Leucylleucyltyrosine, Leucyl-leucyl-tyrosine, Leu-Leu-Tyr, LLY; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, L9890.
+COMMENT: PRIMe compound in-house ID 271
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Leucylleucyltyrosine
+CH$NAME: Leucyl-leucyl-tyrosine
+CH$NAME: Leu-Leu-Tyr
+CH$NAME: LLY
+CH$COMPOUND_CLASS: CLASS1 Amino acid CLASS2 Tyrosine
+CH$FORMULA: C21H33N3O5
+CH$EXACT_MASS: 407.511
+CH$SMILES: CC(C)CC(C(=O)NC(CC(C)C)C(=O)NC(CC1=CC=C(C=C1)O)C(=O)O)N
+CH$IUPAC: InChI=1S/C21H33N3O5/c1-12(2)9-16(22)19(26)23-17(10-13(3)4)20(27)24-18(21(28)29)11-14-5-7-15(25)8-6-14/h5-8,12-13,16-18,25H,9-11,22H2,1-4H3,(H,23,26)(H,24,27)(H,28,29)
+CH$LINK: CAS 20368-24-5
+CH$LINK: KEGG C11331
+CH$LINK: PUBCHEM CID:88513
+CH$LINK: INCHIKEY UCNNZELZXFXXJQ-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 408.51
+PK$SPLASH: splash10-000j-9510000000-44a5d345a817425ff44c
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  86.0 227465.0 999
+  182.0 13400.0 59
+  198.0 11317.0 50
+  199.0 125862.0 553
+  227.0 31087.0 137
+//

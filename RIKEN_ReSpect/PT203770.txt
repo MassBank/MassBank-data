@@ -1,0 +1,42 @@
+ACCESSION: PT203770
+RECORD_TITLE: alpha-D-Glucose-1,6-diphosphate  potassium salt hydrate, alpha-D-Glucose 1,6-diphosphate potassium salt hydrate, [(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(phosphonooxymethyl)oxan-2-yl] dihydrogen phosphate, Glc-1,6P; LC-ESI-QTOF; MS2
+DATE: 2008.07.28
+AUTHORS: Matsuda F, Suzuki M, Sawada Y, Plant Science Center, RIKEN.
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2009 Plant Science Center, RIKEN
+COMMENT: Build 1 2009/06/24
+COMMENT: Acquisition and generation of the data is financially supported in part by CREST/JST.
+CH$NAME: alpha-D-Glucose-1,6-diphosphate  potassium salt hydrate
+CH$NAME: alpha-D-Glucose 1,6-diphosphate potassium salt hydrate
+CH$NAME: [(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(phosphonooxymethyl)oxan-2-yl] dihydrogen phosphate
+CH$NAME: Glc-1,6P
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Suger phosphate CLASS3 Glucose phosphate
+CH$FORMULA: C6H14O12P2
+CH$EXACT_MASS: 340.118
+CH$SMILES: C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)OP(=O)(O)O
+CH$IUPAC: InChI=1S/C6H14O12P2/c7-3-2(1-16-19(10,11)12)17-6(5(9)4(3)8)18-20(13,14)15/h2-9H,1H2,(H2,10,11,12)(H2,13,14,15)
+CH$LINK: CAS 10139-18-1
+CH$LINK: INCHIKEY RWHOZGRAXYWRNX-UHFFFAOYSA-N
+AC$INSTRUMENT:  Q-Tof Premier, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramp 5-45 V
+AC$MASS_SPECTROMETRY: CAPILLARY_VOLTAGE 3.0 kV
+AC$CHROMATOGRAPHY: SOLVENT CH3CN/H2O
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 338.98825
+PK$SPLASH: splash10-002f-9182000000-23bca820b90a45f17acb
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  78.9603 54.4 847
+  96.9701 28.6 445
+  138.9821 4.206 65
+  158.9291 7.406 115
+  205.8559 3.539 55
+  241.0126 64.2 999
+  294.8416 3.248 51
+  294.9989 5.616 87
+  338.9883 20.95 326
+//

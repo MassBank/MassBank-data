@@ -1,0 +1,49 @@
+ACCESSION: PS095907
+RECORD_TITLE: o-Hydroxybenzoic acid, 2-Carboxyphenol, Verrugon, SA, Phenol-2-carboxylic acid, 2-Hydroxybenzenecarboxylic acid, Salicylate, Salonil, Salicylic Acid, 2-Hydroxybenzoic acid, Rutranex; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, S5922.
+COMMENT: PRIMe compound in-house ID N0017
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: o-Hydroxybenzoic acid
+CH$NAME: 2-Carboxyphenol
+CH$NAME: Verrugon
+CH$NAME: SA
+CH$NAME: Phenol-2-carboxylic acid
+CH$NAME: 2-Hydroxybenzenecarboxylic acid
+CH$NAME: Salicylate
+CH$NAME: Salonil
+CH$NAME: Salicylic Acid
+CH$NAME: 2-Hydroxybenzoic acid
+CH$NAME: Rutranex
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Benzoic acid CLASS3 Verrugon
+CH$FORMULA: C7H6O3
+CH$EXACT_MASS: 138.122
+CH$SMILES: C1=CC=C(C(=C1)C(=O)O)O
+CH$IUPAC: InChI=1S/C7H6O3/c8-6-4-2-1-3-5(6)7(9)10/h1-4,8H,(H,9,10)
+CH$LINK: CAS 69-72-7
+CH$LINK: KEGG C00805
+CH$LINK: PUBCHEM CID:338
+CH$LINK: INCHIKEY YGSDEFSMJLZEOE-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 137.07
+PK$SPLASH: splash10-000i-0900000000-1587b5dc8fd79561fefa
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  93.0 26410.0 95
+  136.0 44804.0 161
+  137.0 278746.0 999
+//

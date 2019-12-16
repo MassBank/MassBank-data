@@ -1,0 +1,49 @@
+ACCESSION: PS102905
+RECORD_TITLE: 1,3-Dimethylurate, Oxytheophylline, 1,3-Dimethyl-2,6,8-trihydroxypurine, 1,3-Dimethyluric acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, D2889.
+COMMENT: PRIMe compound in-house ID N0087
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 1,3-Dimethylurate
+CH$NAME: Oxytheophylline
+CH$NAME: 1,3-Dimethyl-2,6,8-trihydroxypurine
+CH$NAME: 1,3-Dimethyluric acid
+CH$COMPOUND_CLASS: CLASS1 Alkaloid CLASS2 Xanthine CLASS3 Luric acid
+CH$FORMULA: C7H8N4O3
+CH$EXACT_MASS: 196.166
+CH$SMILES: CN1C2=C(C(=O)N(C1=O)C)NC(=O)N2
+CH$IUPAC: InChI=1S/C7H8N4O3/c1-10-4-3(8-6(13)9-4)5(12)11(2)7(10)14/h1-2H3,(H2,8,9,13)
+CH$LINK: CAS 944-73-0
+CH$LINK: PUBCHEM CID:70346
+CH$LINK: INCHIKEY OTSBKHHWSQYEHK-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 50
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 197.22
+PK$SPLASH: splash10-0a4i-9000000000-94944f4d453ebc992571
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  38.0 1827.0 40
+  41.0 5809.0 128
+  42.0 14862.0 326
+  56.0 19625.0 431
+  57.0 45490.0 999
+  69.0 2292.0 50
+  84.0 2353.0 52
+  136.0 1429.0 31
+  169.0 2540.0 56
+  194.0 2534.0 56
+  197.0 1476.0 32
+//

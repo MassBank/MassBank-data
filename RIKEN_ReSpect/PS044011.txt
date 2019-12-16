@@ -1,0 +1,46 @@
+ACCESSION: PS044011
+RECORD_TITLE: Glycyrrhizin, glycyrrhizic Acid, 3-O-(2-O-beta-D-Glucopyranuronosyl-alpha-D-glucopyranuronosyl)-18beta-glycyrrhetinic acid; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Nacalai-T, 17239-06.
+COMMENT: PRIMe compound in-house ID H0048
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Glycyrrhizin
+CH$NAME: glycyrrhizic Acid
+CH$NAME: 3-O-(2-O-beta-D-Glucopyranuronosyl-alpha-D-glucopyranuronosyl)-18beta-glycyrrhetinic acid
+CH$COMPOUND_CLASS: CLASS1 Terpenoid CLASS2 Triterpenoid CLASS3 Glycyrrhetinic acid
+CH$FORMULA: C42H62O16
+CH$EXACT_MASS: 822.942
+CH$SMILES: CC1(C2CCC3(C(C2(CCC1OC4C(C(C(C(O4)C(=O)O)O)O)OC5C(C(C(C(O5)C(=O)O)O)O)O)C)C(=O)C=C6C3(CCC7(C6CC(CC7)(C)C(=O)O)C)C)C)C
+CH$IUPAC: InChI=1S/C42H62O16/c1-37(2)21-8-11-42(7)31(20(43)16-18-19-17-39(4,36(53)54)13-12-38(19,3)14-15-41(18,42)6)40(21,5)10-9-22(37)55-35-30(26(47)25(46)29(57-35)33(51)52)58-34-27(48)23(44)24(45)28(56-34)32(49)50/h16,19,21-31,34-35,44-48H,8-15,17H2,1-7H3,(H,49,50)(H,51,52)(H,53,54)
+CH$LINK: CAS 1405-86-3
+CH$LINK: KEGG C02284
+CH$LINK: PUBCHEM CID:14982
+CH$LINK: INCHIKEY LPLVUJXQOOQHMX-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 50
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 821.97
+PK$SPLASH: splash10-00di-0000000090-963c86ab17ea1ec0c1b9
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  351.0 8498.0 39
+  818.0 9044.0 41
+  819.0 19918.0 91
+  820.0 113372.0 517
+  821.0 218505.0 997
+  822.0 218974.0 999
+  823.0 100857.0 460
+  824.0 12159.0 55
+//

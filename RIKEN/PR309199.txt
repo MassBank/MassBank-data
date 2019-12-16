@@ -1,0 +1,51 @@
+ACCESSION: PR309199
+RECORD_TITLE: Hydroxyferulic acid ; LC-ESI-QTOF; MS2
+DATE: 2019.03.28
+AUTHORS: Tetsuya Mori, Center for Sustainable Resource Science, RIKEN
+LICENSE: CC BY-SA NC
+PUBLICATION: Tsugawa H., Nakabayashi R., Mori T., Yamada Y., Takahashi M., Rai A., Sugiyama R., Yamamoto H., Nakaya T., Yamazaki M., Kooke R., Bac-Molenaar JA., Oztolan-Erol N., Keurentjes JJB., Arita M., Saito K. (2019) "A cheminformatics approach to characterize metabolomes in stable-isotope-labeled organisms" Nature Methods 16(4):295-298. [doi:10.1038/s41592-019-0358-2]
+COMMENT: Annotation level-3
+CH$NAME: Hydroxyferulic acid 
+CH$COMPOUND_CLASS: Hydroxyferulic acid and derivatives
+CH$FORMULA: C10H10O5
+CH$EXACT_MASS: 210.185
+CH$SMILES: O=C(O)C=CC1=CC(O)=C(O)C(OC)=C1
+CH$IUPAC: InChI=1S/C10H10O5/c1-15-8-5-6(2-3-9(12)13)4-7(11)10(8)14/h2-5,11,14H,1H3,(H,12,13)
+CH$LINK: INCHIKEY YFXWTVLDSKSYLW-UHFFFAOYSA-N
+AC$INSTRUMENT: LC, Waters Acquity UPLC System; MS, Waters Xevo G2 Q-Tof
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 6V
+AC$MASS_SPECTROMETRY: DESOLVATION_GAS_FLOW 800/h
+AC$MASS_SPECTROMETRY: DESOLVATION_TEMPERATURE 450 C
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: CAPILLARY_VOLTAGE +3.00 kV
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity bridged ethyl hybrid C18 (1.7 um, 2.1 mm * 100 mm, Waters)
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE 40 C
+AC$CHROMATOGRAPHY: FLOW_GRADIENT A/B = (99.5%/0.5% at 0 min, 99.5%/0.5% at 0.1 min, 20%/80% at 10 min, 0.5%/99.5% at 10.1 min, 0.5%/99.5% at 12.0 min, 99.5%/0.5% at 12.1 min, 99.5%/0.5% at 15.0 min)
+AC$CHROMATOGRAPHY: FLOW_RATE 0.3 ml/min at 0 min, 0.3 ml/min at 10 min, 0.4 ml/min at 10.1 min, 0.4 ml/min at 14.4 min, 0.3 ml/min at 14.5 min
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.07
+AC$CHROMATOGRAPHY: SOLVENT A water including 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile including 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 209.0447
+PK$SPLASH: splash10-014i-0900000000-4a2e9314985f2427ca35
+PK$NUM_PEAK: 15
+PK$PEAK: m/z int. rel.int.
+  50.67607 19.0 2
+  59.01213 74.0 9
+  93.03177 133.0 17
+  119.04739 103.0 13
+  119.05391 28.0 3
+  121.06382 894.0 112
+  122.07042 27.0 3
+  147.03993 38.0 5
+  147.0518 19.0 2
+  147.56569 21.0 3
+  165.05441 7993.0 999
+  166.05759 807.0 101
+  167.06035 39.0 5
+  182.0481 19.0 2
+  209.04343 155.0 19
+//

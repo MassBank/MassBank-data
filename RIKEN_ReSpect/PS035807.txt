@@ -1,0 +1,44 @@
+ACCESSION: PS035807
+RECORD_TITLE: Thymidylate, Deoxythymidylic acid, deoxy-TMP, Thymidylic acid, Thymidine-5'-monophosphate, Deoxythymidine 5'-phosphate, dTMP; LC-ESI-QQ; MS2
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC-BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, T9758.
+COMMENT: PRIMe compound in-house ID 358
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Thymidylate
+CH$NAME: Deoxythymidylic acid
+CH$NAME: deoxy-TMP
+CH$NAME: Thymidylic acid
+CH$NAME: Thymidine-5'-monophosphate
+CH$NAME: Deoxythymidine 5'-phosphate
+CH$NAME: dTMP
+CH$COMPOUND_CLASS: CLASS1 Other CLASS2 Nucleotide CLASS3 Thymidine phosphate
+CH$FORMULA: C10H15N2O8P
+CH$EXACT_MASS: 322.212
+CH$SMILES: CC1=CN(C(=O)NC1=O)C2CC(C(O2)COP(=O)(O)O)O
+CH$IUPAC: InChI=1S/C10H15N2O8P/c1-5-3-12(10(15)11-9(5)14)8-2-6(13)7(20-8)4-19-21(16,17)18/h3,6-8,13H,2,4H2,1H3,(H,11,14,15)(H2,16,17,18)
+CH$LINK: CAS 365-07-1
+CH$LINK: KEGG C00364
+CH$LINK: PUBCHEM CID:9700
+CH$LINK: INCHIKEY GYOZYWVXFNDGLU-UHFFFAOYSA-N
+AC$INSTRUMENT:  TQD, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 321.27
+PK$SPLASH: splash10-00di-0009000000-af96cd21cff5017e7ac8
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  320.0 99259.0 147
+  321.0 674418.0 999
+//
