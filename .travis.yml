@@ -9,6 +9,7 @@ script:
   - .scripts/validate.sh $TESTDIR
 env:
  - TESTDIR=AAFC/
+ - TESTDIR=ACES_SU/
  - TESTDIR=Athens_Univ/
  - TESTDIR=BGC_Munich/
  - TESTDIR=Boise_State_Univ/
