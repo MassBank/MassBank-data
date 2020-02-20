@@ -16,7 +16,7 @@
 | Fiocruz                   | Oswaldo Cruz Foundation, Minas Gerais                                   | Brazil          | FIO            |                            |
 | Fukuyama_Univ             | Fukuyama University                                                     | Japan           | FU             |                            |
 | GL_Sciences_Inc           | GL Sciences Inc.                                                        | Japan           | GLS            |                            |
-| HBM4EU                    | HBM4EU - Science and policy for a healthy future                        |                 | HB             | HBM4EU                     |
+| HBM4EU                    | HBM4EU - Science and policy for a healthy future                        | Europe          | HB             | HBM4EU                     |
 | IPB_Halle                 | Leibniz Institute for Plant Biochemistry Halle                          | Germany         | PB, PN         |                            |
 | ISAS_Dortmund             | Leibniz Institut für Analytische Wissenschaften - ISAS - e.V.           | Germany         | IA             |                            |
 | JEOL_Ltd                  | JEOL Ltd.                                                               | Japan           | JEL            |                            |
@@ -24,7 +24,7 @@
 | Keio_Univ                 | Keio University                                                         | Japan           | KO             |                            |
 | KWR                       | KWR watercycle research institute                                       | The Netherlands | KW             |                            |
 | Kyoto_Univ                | Kyoto University                                                        | Japan           | CA             |                            |
-| LCSB                      | University of Luxembourg - Environmental Chemistry                      | Luxembourg      | LU             |                            |
+| LCSB                      | University of Luxembourg - Environmental Cheminformatics                | Luxembourg      | LU             |                            |
 | Literature_Specs          | Literature Spectra from different sources                               |                 | LIT            |                            |
 | MetaboLights              | Mass spectra from MetaboLights                                          |                 | ML             |                            |
 | Metabolon                 | Metabolon, Inc.                                                         | USA             | MT             |                            |
