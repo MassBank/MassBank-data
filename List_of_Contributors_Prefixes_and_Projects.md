@@ -2,7 +2,7 @@
 |---------------------------|-------------------------------------------------------------------------|-----------------|----------------|----------------------------|
 | AAFC                      | Agriculture and Agri-Food Canada                                        | Canada          | AC             |                            |
 | Athens_Univ               | University of Athens - Analytical Chemistry                             | Greece          | AU             |                            |
-| BGC_Munich                | BGC, Helmholtz-Zentrum Muenchen                                         | Germany         | RP             |                            |
+| BGC_Munich                | BGC, Helmholtz-Zentrum Muenchen                                         | Germany         | BRP, BHI, BLI, ARP, AHI, ALI, SRP, SHI, SLI             |                            |
 | Boise_State_Univ          | Boise State University                                                  | USA             | BSU            |                            |
 | BS                        | Plant Biology, The Noble Foundation                                     |                 | BS             |                            |
 | CASMI2012                 | CASMI 2012 Contest                                                      |                 | SMI            |                            |
