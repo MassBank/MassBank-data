@@ -18,14 +18,13 @@ Now its possible to validate record files locally. `validate.sh` supports valida
 ```
 ./.scripts/validate.sh AAFC
 ```
-To validate the full date repository use the `validate_all_local.sh` script. 
+To validate the full date repository use the `validate_all.sh` script. 
 
 ## Submit new records to MassBank-data or modify existing records
 To submit data or to change existing records:
 1. Please fork this repo, clone it to your place and make your changes or add new content in the dev branch.
-2. To enable automatic validation of records in a new subdirectory please run `./.scripts/pre-commit` or create a symlink/copy `./.scripts/pre-commit` to `.git/hooks/pre-commit` prior commiting the changes.
-3. Commit and push your changes to the dev branch of your repo.
-4. Create a pull request against the dev branch.
+2. Commit and push your changes to the dev branch of your repo.
+3. Create a pull request against the dev branch.
 
 Your pull request will be validated and you will receive a report whether your records meet the [MassBank specs](https://github.com/MassBank/MassBank-web/blob/master/Documentation/MassBankRecordFormat.md).
 
@@ -79,7 +78,7 @@ $ git push origin 2019.09
 Now we are done and the release branch may be removed
 ```
 $ git branch -d release-2.1
-Deleted branch release-2.1 (was ff452fe).
+Deleted branch release-2019.09 (was ff452fe).
 ```
 and the version of the `dev` branch should be incremented.
 ```
