@@ -1,0 +1,44 @@
+ACCESSION: HB002740
+RECORD_TITLE: Phentermine; ESI-QTOF; MS2; CE: 15eV; R=15000; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Herbert Oberacher, Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Phentermine
+CH$NAME: 2-Methyl-1-phenylpropan-2-amine
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C10H15N
+CH$EXACT_MASS: 149.1204
+CH$SMILES: CC(C)(N)CC1=CC=CC=C1
+CH$IUPAC: InChI=1S/C10H15N/c1-10(2,11)8-9-6-4-3-5-7-9/h3-7H,8,11H2,1-2H3
+CH$LINK: CAS 0122-09-08
+CH$LINK: COMPTOX DTXSID9023461
+CH$LINK: INCHIKEY DHHVAGZRUROJKS-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4771
+AC$INSTRUMENT: TripleTOF 5600+SCIEX
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 15 eV
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: FLOW_RATE 20 uL/min
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 50/50
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 150.1278
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-000x-8900000000-e18877c3ea68ccf829a5
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  55.0563 25.9 1
+  65.0399 73.4 4
+  91.0547 17992.5 999
+  105.0696 649.9 36
+  133.1006 15769.9 876
+  150.1278 2349.9 130
+//

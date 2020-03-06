@@ -1,0 +1,49 @@
+ACCESSION: HB002545
+RECORD_TITLE: Etofylline; LC-ESI-QTOF; MS2; CE: 35 eV; R=3600; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Noelia Caballero-Casero, Adrian Covaci, Toxicological Center, University of Antwerp, Wilrijk, Belgium
+LICENSE: CC0
+COPYRIGHT: Copyright (c) by Toxicological Center, University of Antwerp, Wilrijk, Belgium
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+COMMENT: Flow Injection
+CH$NAME: Etofylline
+CH$NAME: 7-(2-Hydroxyethyl)-1,3-dimethyl-3,7-dihydro-1H-purine-2,6-dione
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C9H12N4O3
+CH$EXACT_MASS: 224.0909
+CH$SMILES: CN1C2=C(N(CCO)C=N2)C(=O)N(C)C1=O
+CH$IUPAC: InChI=1S/C9H12N4O3/c1-11-7-6(8(15)12(2)9(11)16)13(3-4-14)5-10-7/h5,14H,3-4H2,1-2H3
+CH$LINK: CAS 519-37-9
+CH$LINK: COMPTOX DTXSID5023031
+CH$LINK: INCHIKEY NWPRCRWQMGIBOT-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:1892
+AC$INSTRUMENT: 6606 QTOF Agilent
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 35 eV
+AC$MASS_SPECTROMETRY: RESOLUTION 3600
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 50/50
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water
+AC$CHROMATOGRAPHY: SOLVENT B methanol
+MS$FOCUSED_ION: PRECURSOR_M/Z 225.0983
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-00xr-9700000000-82a6604b37962ecc1ccb
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  54.0345 515.6 68
+  69.0448 5898.5 781
+  72.0447 1234.3 164
+  94.0403 444.3 59
+  95.0591 380.5 50
+  96.055 3917.3 519
+  109.0253 625.4 83
+  120.0555 423.6 56
+  124.049 7541.4 999
+  181.0703 1185.9 157
+//

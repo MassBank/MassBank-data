@@ -1,0 +1,55 @@
+ACCESSION: HB001034
+RECORD_TITLE: Etofylline; LC-ESI-ITFT; MS2; CE: 85%; R=15000; [M+H]+
+DATE: 2018.09.08
+AUTHORS: Tobias Schulze, Carolin Huber, Martin Krauss, Department of Effect-Directed Analysis, Helmholtz Centre for Environmental Research GmbH - UFZ, Leipzig, Germany
+LICENSE: CC0
+COPYRIGHT: Copyright (C) 2018
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Etofylline
+CH$NAME: 7-(2-hydroxyethyl)-1,3-dimethylpurine-2,6-dione
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C9H12N4O3
+CH$EXACT_MASS: 224.0909
+CH$SMILES: CN1C2=C(C(=O)N(C1=O)C)N(C=N2)CCO
+CH$IUPAC: InChI=1S/C9H12N4O3/c1-11-7-6(8(15)12(2)9(11)16)13(3-4-14)5-10-7/h5,14H,3-4H2,1-2H3
+CH$LINK: CAS 519-37-9
+CH$LINK: CHEBI 94764
+CH$LINK: KEGG D07933
+CH$LINK: PUBCHEM CID:1892
+CH$LINK: INCHIKEY NWPRCRWQMGIBOT-UHFFFAOYSA-N
+CH$LINK: CHEMSPIDER 1820
+AC$INSTRUMENT: LTQ Orbitrap XL Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 85% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: COLUMN_NAME Kinetex Evo C18 2.6 um 50 x 2.1 mm
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 1 min, 0/100 at 13 min, 0/100 at 24 min, 95/5 at 24.3 min, 95/5 at 32 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.682 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% formic acid
+MS$FOCUSED_ION: BASE_PEAK 300.1474
+MS$FOCUSED_ION: PRECURSOR_M/Z 225.0982
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 2.9.1
+PK$SPLASH: splash10-001i-0900000000-f2b49668a5122404a2e3
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  124.0506 C5H6N3O+ 1 124.0505 0.47
+  168.0768 C7H10N3O2+ 1 168.0768 0.22
+  181.0721 C7H9N4O2+ 1 181.072 0.53
+  207.0879 C9H11N4O2+ 1 207.0877 1.33
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  124.0506 4943.7 2
+  168.0768 3577.1 2
+  181.0721 1679909.1 999
+  207.0879 5500.5 3
+//

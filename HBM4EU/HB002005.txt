@@ -1,0 +1,46 @@
+ACCESSION: HB002005
+RECORD_TITLE: Phenazone; LC-ESI-QFT; MS2; CE: 10%; R=30000; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Annelaure Damont, Kathleen Rousseau, Laboratoire d Etude du Metabolisme des Medicaments, CEA, Universite Paris Saclay, Paris, France
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by Laboratoire d Etude du Metabolisme des Medicaments, CEA, Universite Paris Saclay, Paris, France
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+COMMENT: Flow Injection
+CH$NAME: Phenazone
+CH$NAME: 1,5-Dimethyl-2-phenyl-1,2-dihydro-3H-pyrazol-3-one
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C11H12N2O
+CH$EXACT_MASS: 188.095
+CH$SMILES: CN1N(C(=O)C=C1C)C1=CC=CC=C1
+CH$IUPAC: InChI=1S/C11H12N2O/c1-9-8-11(14)13(12(9)2)10-6-4-3-5-7-10/h3-8H,1-2H3
+CH$LINK: CAS 60-80-0
+CH$LINK: COMPTOX DTXSID6021117
+CH$LINK: INCHIKEY VEQOALNAAJBPNY-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:2206
+AC$INSTRUMENT: Orbitrap Fusion Tribrid Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 30000
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5
+AC$CHROMATOGRAPHY: FLOW_RATE 100 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile with 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 189.1023
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-000i-0900000000-233c7560f103df0e9dfa
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  56.05 321693.9 2
+  58.0655 234082.2 1
+  131.0735 96406.7 1
+  146.0844 89133.9 1
+  147.0926 198733.1 1
+  161.1084 296323.7 2
+  189.1023 169134528 999
+//

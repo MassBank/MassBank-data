@@ -1,0 +1,48 @@
+ACCESSION: HB002598
+RECORD_TITLE: Phentermine; LC-ESI-QTOF; MS2; CE: 50 eV; R=3600; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Noelia Caballero-Casero, Adrian Covaci, Toxicological Center, University of Antwerp, Wilrijk, Belgium
+LICENSE: CC0
+COPYRIGHT: Copyright (c) by Toxicological Center, University of Antwerp, Wilrijk, Belgium
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+COMMENT: Flow Injection
+CH$NAME: Phentermine
+CH$NAME: 2-Methyl-1-phenylpropan-2-amine
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C10H15N
+CH$EXACT_MASS: 149.1204
+CH$SMILES: CC(C)(N)CC1=CC=CC=C1
+CH$IUPAC: InChI=1S/C10H15N/c1-10(2,11)8-9-6-4-3-5-7-9/h3-7H,8,11H2,1-2H3
+CH$LINK: CAS 0122-09-08
+CH$LINK: COMPTOX DTXSID9023461
+CH$LINK: INCHIKEY DHHVAGZRUROJKS-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4771
+AC$INSTRUMENT: 6659 QTOF Agilent
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 50 eV
+AC$MASS_SPECTROMETRY: RESOLUTION 3600
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 50/50
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water
+AC$CHROMATOGRAPHY: SOLVENT B methanol
+MS$FOCUSED_ION: PRECURSOR_M/Z 150.1278
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-0uxu-9000000000-942c29cca8d0f50893ef
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  50.0157 29738.6 847
+  51.0246 10143.5 289
+  65.0374 31053.2 884
+  66.0482 8326.3 237
+  68.836 3259.2 93
+  78.4537 2255.8 64
+  86.002 3097.2 88
+  91.0516 35074.6 999
+  103.0566 3508.1 100
+//

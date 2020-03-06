@@ -1,0 +1,58 @@
+ACCESSION: HB002791
+RECORD_TITLE: Phentermine; LC-ESI-QFT; MS2; CE: CE15; R=17500; [M+H]+
+DATE: 2019.09.23
+AUTHORS: Kondic T, Singh R, Elapavalore A, Krier J, Mohammed Taha H, Narayanan M, Schymanski E
+LICENSE: CC0
+COPYRIGHT: Copyright (c) by Environmental Cheminformatics, LCSB, University of Luxembourg, Luxembourg
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE standard compound
+COMMENT: INTERNAL_ID 7
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Phentermine
+CH$NAME: 2-methyl-1-phenylpropan-2-amine
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C10H15N
+CH$EXACT_MASS: 149.1204
+CH$SMILES: CC(C)(N)CC1=CC=CC=C1
+CH$IUPAC: InChI=1S/C10H15N/c1-10(2,11)8-9-6-4-3-5-7-9/h3-7H,8,11H2,1-2H3
+CH$LINK: CAS 122-09-8
+CH$LINK: CHEBI 8080
+CH$LINK: KEGG C07438
+CH$LINK: PUBCHEM CID:4771
+CH$LINK: INCHIKEY DHHVAGZRUROJKS-UHFFFAOYSA-N
+CH$LINK: CHEMSPIDER 4607
+AC$INSTRUMENT: Q Exactive Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY CE15
+AC$MASS_SPECTROMETRY: RESOLUTION 17500
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC BEH C18 1.7 um, 2.1 x 150 mm, Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 90/10 at 0 min, 90/10 at 2 min, 0/100 at 15 min, 0/100 at 20 min, 90/10 at 21 min, 90/10 at 30 min
+AC$CHROMATOGRAPHY: FLOW_RATE 200 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 15.505 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol
+MS$FOCUSED_ION: BASE_PEAK 223.0628
+MS$FOCUSED_ION: PRECURSOR_M/Z 150.1277
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 2.11.3.1
+PK$SPLASH: splash10-0006-9000000000-d5cc268e81c53c1db691
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  55.0545 C4H7+ 1 55.0542 4.75
+  65.0387 C5H5+ 1 65.0386 1.51
+  91.0543 C7H7+ 1 91.0542 1.31
+  97.0076 C8H+ 1 97.0073 2.97
+  105.0704 C8H9+ 1 105.0699 4.87
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  55.0545 5527.1 10
+  65.0387 5827.7 10
+  91.0543 533607.1 999
+  97.0076 12092.4 22
+  105.0704 21012.4 39
+//

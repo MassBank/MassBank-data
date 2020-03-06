@@ -1,0 +1,67 @@
+ACCESSION: HB002643
+RECORD_TITLE: Desipramine; ESI-QTOF; MS2; CE: 25eV; R=15000; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Herbert Oberacher, Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Desipramine
+CH$NAME: 3-(10,11-Dihydro-5H-dibenzo[b,f]azepin-5-yl)-N-methylpropan-1-amine
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C18H22N2
+CH$EXACT_MASS: 266.1783
+CH$SMILES: CNCCCN1C2=C(CCC3=C1C=CC=C3)C=CC=C2
+CH$IUPAC: InChI=1S/C18H22N2/c1-19-13-6-14-20-17-9-4-2-7-15(17)11-12-16-8-3-5-10-18(16)20/h2-5,7-10,19H,6,11-14H2,1H3
+CH$LINK: CAS 50-47-5
+CH$LINK: COMPTOX DTXSID6022896
+CH$LINK: INCHIKEY HCYAFALTSJYZDH-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:2995
+AC$INSTRUMENT: TripleTOF 5600+SCIEX
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 25 eV
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: FLOW_RATE 20 uL/min
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 50/50
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 267.1856
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-00di-9020000000-1fa9d7d4d2092891073a
+PK$NUM_PEAK: 29
+PK$PEAK: m/z int. rel.int.
+  55.0568 14.2 1
+  56.052 27.7 2
+  57.0718 75.3 5
+  67.056 27.6 2
+  69.0716 19.9 1
+  70.0668 8.7 1
+  71.0872 57.1 3
+  72.083 16703.1 999
+  81.0712 41.1 2
+  83.0868 20 1
+  85.1024 34.1 2
+  91.0552 8.7 1
+  95.0863 77 5
+  97.1021 20 1
+  105.0704 15.5 1
+  107.0858 11.4 1
+  109.1016 45.8 3
+  111.1172 9.2 1
+  123.1169 16.9 1
+  130.0653 9.5 1
+  158.0963 27.2 2
+  167.0728 11.2 1
+  193.0884 499.9 30
+  195.1041 130.6 8
+  196.1119 195.4 12
+  208.112 3139.2 188
+  210.1275 9.4 1
+  236.1432 1009.5 60
+  267.1856 1532.8 92
+//

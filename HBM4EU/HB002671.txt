@@ -1,0 +1,51 @@
+ACCESSION: HB002671
+RECORD_TITLE: Dothiepin; ESI-QTOF; MS2; CE: 15eV; R=15000; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Herbert Oberacher, Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Dothiepin
+CH$NAME: 3-(Dibenzo[b,e]thiepin-11(6H)-ylidene)-N,N-dimethylpropan-1-amine
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C19H21NS
+CH$EXACT_MASS: 295.1395
+CH$SMILES: CN(C)CCC=C1C2=CC=CC=C2CSC2=C1C=CC=C2
+CH$IUPAC: InChI=1S/C19H21NS/c1-20(2)13-7-11-17-16-9-4-3-8-15(16)14-21-19-12-6-5-10-18(17)19/h3-6,8-12H,7,13-14H2,1-2H3
+CH$LINK: CAS 113-53-1
+CH$LINK: COMPTOX DTXSID2022961
+CH$LINK: INCHIKEY PHTUQLWOUWZIMZ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:3155
+AC$INSTRUMENT: TripleTOF 5600+SCIEX
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 15 eV
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: FLOW_RATE 20 uL/min
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 50/50
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 296.1468
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-0002-0090000000-810d89ad2ba45a37c58d
+PK$NUM_PEAK: 13
+PK$PEAK: m/z int. rel.int.
+  58.0674 33.7 2
+  117.0704 27.4 2
+  123.0267 12.3 1
+  147.0267 33.2 2
+  178.0781 10.3 1
+  191.0861 18.7 1
+  202.0783 12.1 1
+  203.086 16.5 1
+  217.1019 33.8 2
+  218.1097 99.1 6
+  225.074 182.4 11
+  251.0898 242.4 14
+  296.1468 16830.6 999
+//

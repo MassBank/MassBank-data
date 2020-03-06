@@ -1,0 +1,58 @@
+ACCESSION: HB002409
+RECORD_TITLE: Nylidrin; LC-ESI-ITFT; MS2; CE: 80%; R=7500; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Laurent Debrauwer, Emilien L. Jamin, Research Centre in Food Toxicology (TOXALIM), INRAE, MetaboHUB-Metatoul platform, Toulouse, France
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2000 by Research Centre in Food Toxicology (TOXALIM), INRAE, MetaboHUB-Metatoul platform, Toulouse, France
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Nylidrin
+CH$NAME: 4-{1-Hydroxy-2-[(4-phenylbutan-2-yl)amino]propyl}phenol
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C19H25NO2
+CH$EXACT_MASS: 299.1885
+CH$SMILES: CC(CCC1=CC=CC=C1)NC(C)C(O)C1=CC=C(O)C=C1
+CH$IUPAC: InChI=1S/C19H25NO2/c1-14(8-9-16-6-4-3-5-7-16)20-15(2)19(22)17-10-12-18(21)13-11-17/h3-7,10-15,19-22H,8-9H2,1-2H3
+CH$LINK: CAS 447-41-6
+CH$LINK: COMPTOX DTXSID4023387
+CH$LINK: INCHIKEY PTGXAUBQBSGPKF-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4567
+AC$INSTRUMENT: LTQ Orbitrap XL Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 80% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 7500
+AC$CHROMATOGRAPHY: COLUMN_NAME Hypersil GOLD C18 1.9 um 100 x 2.1 mm Thermo Fisher Scientific
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 100/0 at 0 min, 0/100 at 30 min, 0/100 at 35 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water with 5% methanol and 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% acetic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 300.1959
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-0006-9800000000-82d51ad48b7047acdca1
+PK$NUM_PEAK: 19
+PK$PEAK: m/z int. rel.int.
+  56.0493 58764.3 12
+  57.0008 9973.3 2
+  79.0541 113285.5 23
+  81.0698 14994.7 3
+  89.0217 14538.7 3
+  91.0541 4956921.5 999
+  95.049 37429.7 8
+  103.0543 105527.9 21
+  107.0491 237183.7 48
+  109.0648 158547.1 32
+  115.0542 100585.9 20
+  117.0568 8337.5 2
+  131.0489 44057.1 9
+  132.0807 28760.1 6
+  133.0648 2412816.2 486
+  135.0678 293311 59
+  136.2088 6949.6 1
+  150.0914 1226937.2 247
+  151.0753 9358.7 2
+//

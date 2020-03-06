@@ -1,0 +1,42 @@
+ACCESSION: HB002423
+RECORD_TITLE: Phentermine; LC-ESI-ITFT; MS2; CE: 20%; R=7500; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Laurent Debrauwer, Emilien L. Jamin, Research Centre in Food Toxicology (TOXALIM), INRAE, MetaboHUB-Metatoul platform, Toulouse, France
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2000 by Research Centre in Food Toxicology (TOXALIM), INRAE, MetaboHUB-Metatoul platform, Toulouse, France
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Phentermine
+CH$NAME: 2-Methyl-1-phenylpropan-2-amine
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C10H15N
+CH$EXACT_MASS: 149.1204
+CH$SMILES: CC(C)(N)CC1=CC=CC=C1
+CH$IUPAC: InChI=1S/C10H15N/c1-10(2,11)8-9-6-4-3-5-7-9/h3-7H,8,11H2,1-2H3
+CH$LINK: CAS 122-09-8
+CH$LINK: COMPTOX DTXSID9023461
+CH$LINK: INCHIKEY DHHVAGZRUROJKS-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4771
+AC$INSTRUMENT: LTQ Orbitrap XL Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 7500
+AC$CHROMATOGRAPHY: COLUMN_NAME Hypersil GOLD C18 1.9 um 100 x 2.1 mm Thermo Fisher Scientific
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 100/0 at 0 min, 0/100 at 30 min, 0/100 at 35 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water with 5% methanol and 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% acetic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 150.1278
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-0uec-2900000000-5b0c2c59b86dfccc950a
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  91.054 280177.2 515
+  133.1009 481316.7 885
+  150.1278 543498.4 999
+//
