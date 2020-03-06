@@ -1,0 +1,53 @@
+ACCESSION: HB001244
+RECORD_TITLE: Metoclopramide; LC-ESI-ITFT; MS2; CE: 105%; R=15000; [M+H]+
+DATE: 2018.09.08
+AUTHORS: Tobias Schulze, Carolin Huber, Martin Krauss, Department of Effect-Directed Analysis, Helmholtz Centre for Environmental Research GmbH - UFZ, Leipzig, Germany
+LICENSE: CC0
+COPYRIGHT: Copyright (C) 2018
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Metoclopramide
+CH$NAME: 4-amino-5-chloro-N-[2-(diethylamino)ethyl]-2-methoxybenzamide
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C14H22ClN3O2
+CH$EXACT_MASS: 299.1401
+CH$SMILES: CCN(CC)CCNC(=O)C1=CC(=C(C=C1OC)N)Cl
+CH$IUPAC: InChI=1S/C14H22ClN3O2/c1-4-18(5-2)7-6-17-14(19)10-8-11(15)12(16)9-13(10)20-3/h8-9H,4-7,16H2,1-3H3,(H,17,19)
+CH$LINK: CAS 364-62-5
+CH$LINK: CHEBI 107736
+CH$LINK: KEGG D00726
+CH$LINK: PUBCHEM CID:4168
+CH$LINK: INCHIKEY TTWJBBZEZQICBI-UHFFFAOYSA-N
+CH$LINK: CHEMSPIDER 4024
+AC$INSTRUMENT: LTQ Orbitrap XL Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 105% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: COLUMN_NAME Kinetex Evo C18 2.6 um 50 x 2.1 mm
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 1 min, 0/100 at 13 min, 0/100 at 24 min, 95/5 at 24.3 min, 95/5 at 32 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.844 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% formic acid
+MS$FOCUSED_ION: BASE_PEAK 300.1474
+MS$FOCUSED_ION: PRECURSOR_M/Z 300.1473
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 2.9.1
+PK$SPLASH: splash10-004i-0090000000-ac5f95745fd097e4ea24
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  184.0161 C8H7ClNO2+ 1 184.016 0.78
+  212.0339 C9H9ClN2O2+ 1 212.0347 -4.03
+  227.0582 C10H12ClN2O2+ 1 227.0582 0.27
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  184.0161 70296.2 13
+  212.0339 5244.9 1
+  227.0582 5215303 999
+//

@@ -1,0 +1,57 @@
+ACCESSION: HB002013
+RECORD_TITLE: Sulfamethoxazole; LC-ESI-QFT; MS2; CE: 10%; R=30000; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Annelaure Damont, Kathleen Rousseau, Laboratoire d Etude du Metabolisme des Medicaments, CEA, Universite Paris Saclay, Paris, France
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by Laboratoire d Etude du Metabolisme des Medicaments, CEA, Universite Paris Saclay, Paris, France
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+COMMENT: Flow Injection
+CH$NAME: Sulfamethoxazole
+CH$NAME: 4-Amino-N-(5-methyl-1,2-oxazol-3-yl)benzene-1-sulfonamide
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C10H11N3O3S
+CH$EXACT_MASS: 253.0521
+CH$SMILES: CC1=CC(NS(=O)(=O)C2=CC=C(N)C=C2)=NO1
+CH$IUPAC: InChI=1S/C10H11N3O3S/c1-7-6-10(12-16-7)13-17(14,15)9-4-2-8(11)3-5-9/h2-6H,11H2,1H3,(H,12,13)
+CH$LINK: CAS 723-46-6
+CH$LINK: COMPTOX DTXSID8026064
+CH$LINK: INCHIKEY JLKIGFTWXXRPMT-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:5329
+AC$INSTRUMENT: Orbitrap Fusion Tribrid Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 30000
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5
+AC$CHROMATOGRAPHY: FLOW_RATE 100 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile with 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 254.0594
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-0udi-0290000000-cafb698f5fd454c6bb65
+PK$NUM_PEAK: 18
+PK$PEAK: m/z int. rel.int.
+  92.0496 181149.4 7
+  93.0575 359373.4 14
+  94.0653 174123.4 7
+  99.0555 378275.9 15
+  107.0606 108714.6 4
+  108.0445 234931.6 9
+  110.0603 18552.5 1
+  146.0714 127817.2 5
+  147.0792 713746.1 29
+  148.087 244657.9 10
+  156.0115 4198315.2 168
+  160.087 155545.9 6
+  161.0017 24778.3 1
+  176.0278 34579.7 1
+  188.082 1399488.4 56
+  190.0976 684667.2 27
+  194.0383 346646.7 14
+  254.0594 25003366 999
+//

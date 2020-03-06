@@ -1,0 +1,48 @@
+ACCESSION: HB002001
+RECORD_TITLE: Nylidrin; LC-ESI-QFT; MS2; CE: 10%; R=30000; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Annelaure Damont, Kathleen Rousseau, Laboratoire d Etude du Metabolisme des Medicaments, CEA, Universite Paris Saclay, Paris, France
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by Laboratoire d Etude du Metabolisme des Medicaments, CEA, Universite Paris Saclay, Paris, France
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+COMMENT: Flow Injection
+CH$NAME: Nylidrin
+CH$NAME: 4-{1-Hydroxy-2-[(4-phenylbutan-2-yl)amino]propyl}phenol
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C19H25NO2
+CH$EXACT_MASS: 299.1885
+CH$SMILES: CC(CCC1=CC=CC=C1)NC(C)C(O)C1=CC=C(O)C=C1
+CH$IUPAC: InChI=1S/C19H25NO2/c1-14(8-9-16-6-4-3-5-7-16)20-15(2)19(22)17-10-12-18(21)13-11-17/h3-7,10-15,19-22H,8-9H2,1-2H3
+CH$LINK: CAS 447-41-6
+CH$LINK: COMPTOX DTXSID4023387
+CH$LINK: INCHIKEY PTGXAUBQBSGPKF-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4567
+AC$INSTRUMENT: Orbitrap Fusion Tribrid Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 30000
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5
+AC$CHROMATOGRAPHY: FLOW_RATE 100 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile with 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 300.1959
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-0udi-0039000000-37f04243337e6c66837c
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  91.0545 1372932.7 6
+  105.07 191020.7 1
+  133.0649 384776.8 2
+  135.0805 290406.2 1
+  150.0914 4084605.9 18
+  151.0754 361070.1 2
+  178.1226 1272635.5 6
+  282.185 88810945 389
+  300.1959 227948320 999
+//

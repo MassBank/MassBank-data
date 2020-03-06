@@ -1,0 +1,61 @@
+ACCESSION: HB002654
+RECORD_TITLE: Dibucaine; ESI-QTOF; MS2; CE: 30eV; R=15000; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Herbert Oberacher, Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Dibucaine
+CH$NAME: 2-Butoxy-N-[2-(diethylamino)ethyl]quinoline-4-carboxamide
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C20H29N3O2
+CH$EXACT_MASS: 343.226
+CH$SMILES: CCCCOC1=CC(C(=O)NCCN(CC)CC)=C2C=CC=CC2=N1
+CH$IUPAC: InChI=1S/C20H29N3O2/c1-4-7-14-25-19-15-17(16-10-8-9-11-18(16)22-19)20(24)21-12-13-23(5-2)6-3/h8-11,15H,4-7,12-14H2,1-3H3,(H,21,24)
+CH$LINK: CAS 85-79-0
+CH$LINK: COMPTOX DTXSID3045271
+CH$LINK: INCHIKEY PUFQVTATUTYEAL-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:3025
+AC$INSTRUMENT: TripleTOF 5600+SCIEX
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 eV
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: FLOW_RATE 20 uL/min
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 50/50
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 344.2333
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-00di-0090000000-9c5c3ff47c214f7a2d1c
+PK$NUM_PEAK: 23
+PK$PEAK: m/z int. rel.int.
+  57.0726 2.3 1
+  72.0828 2.2 1
+  74.0983 50.1 13
+  100.1132 42.8 11
+  116.0504 69.7 18
+  130.0659 2.7 1
+  144.0453 77.1 20
+  146.0611 7.5 2
+  153.0457 4.1 1
+  158.0609 6.7 2
+  160.0765 2 1
+  172.0404 120.2 31
+  182.0977 3.5 1
+  187.0877 8.3 2
+  200.1081 10 3
+  202.1238 7.3 2
+  215.083 960.4 248
+  225.1402 2.4 1
+  228.1034 72.4 19
+  243.1507 7.5 2
+  271.1465 3868.4 999
+  288.1727 12.5 3
+  344.2333 440.6 114
+//

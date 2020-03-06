@@ -1,0 +1,52 @@
+ACCESSION: HB001975
+RECORD_TITLE: Dibucaine; LC-ESI-QFT; MS2; CE: 40%; R=30000; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Annelaure Damont, Kathleen Rousseau, Laboratoire d Etude du Metabolisme des Medicaments, CEA, Universite Paris Saclay, Paris, France
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by Laboratoire d Etude du Metabolisme des Medicaments, CEA, Universite Paris Saclay, Paris, France
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+COMMENT: Flow Injection
+CH$NAME: Dibucaine
+CH$NAME: 2-Butoxy-N-[2-(diethylamino)ethyl]quinoline-4-carboxamide
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C20H29N3O2
+CH$EXACT_MASS: 343.226
+CH$SMILES: CCCCOC1=CC(C(=O)NCCN(CC)CC)=C2C=CC=CC2=N1
+CH$IUPAC: InChI=1S/C20H29N3O2/c1-4-7-14-25-19-15-17(16-10-8-9-11-18(16)22-19)20(24)21-12-13-23(5-2)6-3/h8-11,15H,4-7,12-14H2,1-3H3,(H,21,24)
+CH$LINK: CAS 85-79-0
+CH$LINK: COMPTOX DTXSID3045271
+CH$LINK: INCHIKEY PUFQVTATUTYEAL-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:3025
+AC$INSTRUMENT: Orbitrap Fusion Tribrid Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 30000
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5
+AC$CHROMATOGRAPHY: FLOW_RATE 100 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile with 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 344.2333
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-00xr-0190000000-4fd832714d1c62eb6abd
+PK$NUM_PEAK: 13
+PK$PEAK: m/z int. rel.int.
+  74.0967 9858492 57
+  100.1124 9485798.6 55
+  116.0497 2468553.8 14
+  130.0655 207512.6 1
+  144.0446 8883476.3 51
+  171.0556 3570046.8 21
+  172.0396 18426984.4 107
+  200.1073 1735953 10
+  215.0817 125174528.7 724
+  227.1182 4646140.7 27
+  228.1021 11724032.3 68
+  271.1442 172783216 999
+  344.2333 571912.4 3
+//

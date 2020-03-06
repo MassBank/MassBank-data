@@ -1,0 +1,65 @@
+ACCESSION: HB001753
+RECORD_TITLE: Sulfamoxole; LC-ESI-ITFT; MS2; CE: 170%; R=15000; [M+H]+
+DATE: 2018.09.08
+AUTHORS: Tobias Schulze, Carolin Huber, Martin Krauss, Department of Effect-Directed Analysis, Helmholtz Centre for Environmental Research GmbH - UFZ, Leipzig, Germany
+LICENSE: CC0
+COPYRIGHT: Copyright (C) 2018
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Sulfamoxole
+CH$NAME: 4-amino-N-(4,5-dimethyl-1,3-oxazol-2-yl)benzenesulfonamide
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C11H13N3O3S
+CH$EXACT_MASS: 267.0678
+CH$SMILES: CC1=C(OC(=N1)NS(=O)(=O)C2=CC=C(C=C2)N)C
+CH$IUPAC: InChI=1S/C11H13N3O3S/c1-7-8(2)17-11(13-7)14-18(15,16)10-5-3-9(12)4-6-10/h3-6H,12H2,1-2H3,(H,13,14)
+CH$LINK: CAS 729-99-7
+CH$LINK: CHEBI 55548
+CH$LINK: KEGG D02516
+CH$LINK: PUBCHEM CID:12894
+CH$LINK: INCHIKEY CYFLXLSBHQBMFT-UHFFFAOYSA-N
+CH$LINK: CHEMSPIDER 12361
+AC$INSTRUMENT: LTQ Orbitrap XL Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 170% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: COLUMN_NAME Kinetex Evo C18 2.6 um 50 x 2.1 mm
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 1 min, 0/100 at 13 min, 0/100 at 24 min, 95/5 at 24.3 min, 95/5 at 32 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.923 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% formic acid
+MS$FOCUSED_ION: BASE_PEAK 268.0753
+MS$FOCUSED_ION: PRECURSOR_M/Z 268.075
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 2.9.1
+PK$SPLASH: splash10-014i-9000000000-5ab6a9e4c6790094d6fb
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  54.0336 C3H4N+ 1 54.0338 -4.5
+  65.0384 C5H5+ 1 65.0386 -2.08
+  66.0337 C4H4N+ 1 66.0338 -1.4
+  68.0493 C4H6N+ 1 68.0495 -3.12
+  70.065 C4H8N+ 1 70.0651 -2.02
+  80.0495 C5H6N+ 1 80.0495 0.27
+  92.0496 C6H6N+ 1 92.0495 1.1
+  108.0445 C6H6NO+ 1 108.0444 1.11
+  111.0552 C5H7N2O+ 1 111.0553 -0.96
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  54.0336 3764.8 26
+  65.0384 142167.4 999
+  66.0337 5221.8 36
+  68.0493 1345.1 9
+  70.065 4923.1 34
+  80.0495 47124.2 331
+  92.0496 7630.6 53
+  108.0445 4598.7 32
+  111.0552 2112.2 14
+//

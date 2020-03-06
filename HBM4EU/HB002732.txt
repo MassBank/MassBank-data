@@ -1,0 +1,63 @@
+ACCESSION: HB002732
+RECORD_TITLE: Phenazone; ESI-QTOF; MS2; CE: 20eV; R=15000; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Herbert Oberacher, Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Phenazone
+CH$NAME: 1,5-Dimethyl-2-phenyl-1,2-dihydro-3H-pyrazol-3-one
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C11H12N2O
+CH$EXACT_MASS: 188.095
+CH$SMILES: CN1N(C(=O)C=C1C)C1=CC=CC=C1
+CH$IUPAC: InChI=1S/C11H12N2O/c1-9-8-11(14)13(12(9)2)10-6-4-3-5-7-10/h3-8H,1-2H3
+CH$LINK: CAS 60-80-0
+CH$LINK: COMPTOX DTXSID6021117
+CH$LINK: INCHIKEY VEQOALNAAJBPNY-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:2206
+AC$INSTRUMENT: TripleTOF 5600+SCIEX
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 eV
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: FLOW_RATE 20 uL/min
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 50/50
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 189.1023
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-000i-0900000000-76507223878f263e43fa
+PK$NUM_PEAK: 25
+PK$PEAK: m/z int. rel.int.
+  56.0516 414.3 2
+  58.0671 385.5 2
+  77.0393 163 1
+  91.0543 128.5 1
+  96.0681 239.7 1
+  104.0492 772.9 4
+  106.0648 448.8 2
+  115.0535 122.7 1
+  117.0688 235.9 1
+  118.0644 567.7 3
+  120.08 514 3
+  130.0642 958.9 5
+  131.0717 1334.8 7
+  132.0796 491 3
+  133.075 136.2 1
+  134.0953 101.6 1
+  144.0796 1246.6 6
+  145.065 337.5 2
+  146.0831 1237 6
+  147.0905 1956.2 10
+  148.0742 138.1 1
+  149.0697 99.7 1
+  161.106 1599.5 8
+  174.0773 999.2 5
+  189.1023 191783.8 999
+//

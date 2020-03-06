@@ -1,0 +1,50 @@
+ACCESSION: HB001961
+RECORD_TITLE: Amiloride; LC-ESI-QFT; MS2; CE: 10%; R=30000; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Annelaure Damont, Kathleen Rousseau, Laboratoire d Etude du Metabolisme des Medicaments, CEA, Universite Paris Saclay, Paris, France
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by Laboratoire d Etude du Metabolisme des Medicaments, CEA, Universite Paris Saclay, Paris, France
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+COMMENT: Flow Injection
+CH$NAME: Amiloride
+CH$NAME: 3,5-Diamino-N-carbamimidoyl-6-chloropyrazine-2-carboxamide
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C6H8ClN7O
+CH$EXACT_MASS: 229.0479
+CH$SMILES: NC(=N)NC(=O)C1=NC(Cl)=C(N)N=C1N
+CH$IUPAC: InChI=1S/C6H8ClN7O/c7-2-4(9)13-3(8)1(12-2)5(15)14-6(10)11/h(H4,8,9,13)(H4,10,11,14,15)
+CH$LINK: CAS 2609-46-3
+CH$LINK: COMPTOX DTXSID9043853
+CH$LINK: INCHIKEY XSDQTOBWRPYKKA-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:16231
+AC$INSTRUMENT: Orbitrap Fusion Tribrid Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 30000
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5
+AC$CHROMATOGRAPHY: FLOW_RATE 100 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile with 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 230.0552
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-001i-0090000000-db0d92848dc88eaaa856
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  60.056 2784280 35
+  61.04 91666.5 1
+  86.0351 628896.5 8
+  116.002 48237.2 1
+  145.0286 58089.6 1
+  161.0235 52729.9 1
+  171.0071 1678371.1 21
+  188.0335 648286 8
+  189.0175 4727167.6 60
+  213.0288 941098.5 12
+  230.0552 78818968 999
+//

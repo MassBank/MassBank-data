@@ -1,0 +1,71 @@
+ACCESSION: HB002687
+RECORD_TITLE: Ethambutol; ESI-QTOF; MS2; CE: 45eV; R=15000; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Herbert Oberacher, Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Ethambutol
+CH$NAME: (2S,2'S)-2,2'-(Ethane-1,2-diyldiazanediyl)di(butan-1-ol)
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C10H24N2O2
+CH$EXACT_MASS: 204.1838
+CH$SMILES: CC[C@@H](CO)NCCN[C@@H](CC)CO
+CH$IUPAC: InChI=1S/C10H24N2O2/c1-3-9(7-13)11-5-6-12-10(4-2)8-14/h9-14H,3-8H2,1-2H3/t9-,10-/m0/s1
+CH$LINK: CAS 74-55-5
+CH$LINK: COMPTOX DTXSID8023006
+CH$LINK: INCHIKEY AEUTYOVWOVBAKS-UWVGGRQHSA-N
+CH$LINK: PUBCHEM CID:14052
+AC$INSTRUMENT: TripleTOF 5600+SCIEX
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 45 eV
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: FLOW_RATE 20 uL/min
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 50/50
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 205.1911
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-066r-8900000000-1f492edd6689e248667d
+PK$NUM_PEAK: 33
+PK$PEAK: m/z int. rel.int.
+  51.0253 0.2 1
+  53.0415 7.9 23
+  55.0571 210.4 610
+  56.0522 27.8 80
+  56.1129 0.2 1
+  56.1301 0.2 1
+  57.0721 0.8 2
+  62.0624 4.3 12
+  63.9307 3.7 11
+  65.0405 1 3
+  67.0556 0.6 2
+  68.0514 0.6 2
+  69.0716 3.8 11
+  70.067 5.4 16
+  71.0744 0.3 1
+  72.0826 6.8 20
+  74.0617 5.9 17
+  77.0402 0.8 2
+  79.0557 2 6
+  81.0716 2 6
+  82.0663 0.3 1
+  83.0749 0.3 1
+  86.0975 0.3 1
+  90.0924 1.8 5
+  91.0555 1.2 3
+  93.0709 0.3 1
+  95.0866 0.2 1
+  96.0814 0.6 2
+  98.0973 17.4 50
+  105.0707 0.3 1
+  116.1074 344.5 999
+  117.1077 0.2 1
+  118.1101 0.2 1
+//

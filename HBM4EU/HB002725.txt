@@ -1,0 +1,74 @@
+ACCESSION: HB002725
+RECORD_TITLE: Nylidrin; ESI-QTOF; MS2; CE: 35eV; R=15000; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Herbert Oberacher, Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Nylidrin
+CH$NAME: 4-{1-Hydroxy-2-[(4-phenylbutan-2-yl)amino]propyl}phenol
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C19H25NO2
+CH$EXACT_MASS: 299.1885
+CH$SMILES: CC(CCC1=CC=CC=C1)NC(C)C(O)C1=CC=C(O)C=C1
+CH$IUPAC: InChI=1S/C19H25NO2/c1-14(8-9-16-6-4-3-5-7-16)20-15(2)19(22)17-10-12-18(21)13-11-17/h3-7,10-15,19-22H,8-9H2,1-2H3
+CH$LINK: CAS 447-41-6
+CH$LINK: COMPTOX DTXSID4023387
+CH$LINK: INCHIKEY PTGXAUBQBSGPKF-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4567
+AC$INSTRUMENT: TripleTOF 5600+SCIEX
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 35 eV
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: FLOW_RATE 20 uL/min
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 50/50
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 300.1959
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-0ue9-2900000000-42dca2e2be16bf8872aa
+PK$NUM_PEAK: 36
+PK$PEAK: m/z int. rel.int.
+  51.0254 1.4 1
+  55.0199 4 2
+  56.0515 18.9 8
+  57.0355 7.7 3
+  65.04 17.8 8
+  77.0395 13.7 6
+  79.055 20.6 9
+  81.0704 2.3 1
+  91.0547 1112.1 488
+  94.0416 1.7 1
+  95.0494 6.2 3
+  103.0541 46.6 20
+  105.0699 588.5 258
+  107.0489 76.7 34
+  108.0805 4.2 2
+  109.0647 32.2 14
+  115.0539 27.4 12
+  117.0569 4.9 2
+  120.0443 3.1 1
+  121.0642 2.3 1
+  122.0597 1.6 1
+  131.0486 10.7 5
+  132.0801 10.6 5
+  133.0643 1016.3 446
+  134.0595 6.2 3
+  135.0678 48.1 21
+  135.0797 113.9 50
+  148.1114 7.9 3
+  149.0829 2.7 1
+  150.0908 2278.8 999
+  150.1258 15.1 7
+  151.0746 38.1 17
+  162.0903 2.8 1
+  178.1218 40.2 18
+  282.1845 299.9 131
+  300.1959 5.8 3
+//

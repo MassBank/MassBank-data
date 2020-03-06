@@ -1,0 +1,52 @@
+ACCESSION: HB002120
+RECORD_TITLE: Ethambutol; LC-ESI-QFT; MS2; CE: 55%; R=17500; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Jean-Philippe Antignac, Yann Guitoon, LABERCA, Oniris, INRAE, UMR 1329, 44307, Nantes, France
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by LABERCA, Oniris, INRAE, UMR 1329, 44307, Nantes, France
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin EL, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Ethambutol
+CH$NAME: (2S,2'S)-2,2'-(Ethane-1,2-diyldiazanediyl)di(butan-1-ol)
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C10H24N2O2
+CH$EXACT_MASS: 204.1838
+CH$SMILES: CC[C@@H](CO)NCCN[C@@H](CC)CO
+CH$IUPAC: InChI=1S/C10H24N2O2/c1-3-9(7-13)11-5-6-12-10(4-2)8-14/h9-14H,3-8H2,1-2H3/t9-,10-/m0/s1
+CH$LINK: CAS 74-55-5
+CH$LINK: COMPTOX DTXSID8023006
+CH$LINK: INCHIKEY AEUTYOVWOVBAKS-UWVGGRQHSA-N
+CH$LINK: PUBCHEM CID:14052
+AC$INSTRUMENT: Q Exactive Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 55% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 17500
+AC$CHROMATOGRAPHY: COLUMN_NAME Hypersil GOLD 1.9 um 2.1 x 100 mm Thermo Fisher Scientific
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 2.4 min, 75/25 at 4.5 min, 30/70 at 11 min, 0/100 at 14 min, 0/100 at 16.5 min, 95/5 at 19 min, 95/5 at 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 400 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile with 0.1% acetic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 205.1911
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-014i-1900000000-c1c3b1152d1924bcf41c
+PK$NUM_PEAK: 13
+PK$PEAK: m/z int. rel.int.
+  53.0395 1004713.5 3
+  55.0551 7420766.7 22
+  62.0609 5323973.4 16
+  69.0707 1884761.8 6
+  70.0659 2466084.4 7
+  72.0816 3724160.4 11
+  74.0608 4901254.5 15
+  79.0549 271507.9 1
+  81.0707 1354179 4
+  90.092 2235907.5 7
+  98.097 13332783.1 40
+  116.1074 336024576 999
+  205.1911 43011.1 0
+//

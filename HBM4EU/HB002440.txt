@@ -1,0 +1,58 @@
+ACCESSION: HB002440
+RECORD_TITLE: Sulfamethoxazole; LC-ESI-ITFT; MS2; CE: 25%; R=7500; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Laurent Debrauwer, Emilien L. Jamin, Research Centre in Food Toxicology (TOXALIM), INRAE, MetaboHUB-Metatoul platform, Toulouse, France
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2000 by Research Centre in Food Toxicology (TOXALIM), INRAE, MetaboHUB-Metatoul platform, Toulouse, France
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Sulfamethoxazole
+CH$NAME: 4-Amino-N-(5-methyl-1,2-oxazol-3-yl)benzene-1-sulfonamide
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C10H11N3O3S
+CH$EXACT_MASS: 253.0521
+CH$SMILES: CC1=CC(NS(=O)(=O)C2=CC=C(N)C=C2)=NO1
+CH$IUPAC: InChI=1S/C10H11N3O3S/c1-7-6-10(12-16-7)13-17(14,15)9-4-2-8(11)3-5-9/h2-6H,11H2,1H3,(H,12,13)
+CH$LINK: CAS 723-46-6
+CH$LINK: COMPTOX DTXSID8026064
+CH$LINK: INCHIKEY JLKIGFTWXXRPMT-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:5329
+AC$INSTRUMENT: LTQ Orbitrap XL Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 25% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 7500
+AC$CHROMATOGRAPHY: COLUMN_NAME Hypersil GOLD C18 1.9 um 100 x 2.1 mm Thermo Fisher Scientific
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 100/0 at 0 min, 0/100 at 30 min, 0/100 at 35 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water with 5% methanol and 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% acetic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 254.0594
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-0udi-0590000000-10f56c4a0067c573920a
+PK$NUM_PEAK: 19
+PK$PEAK: m/z int. rel.int.
+  92.0494 152315.2 24
+  93.0573 131636.7 21
+  94.0651 43188.8 7
+  99.0554 135896.7 22
+  107.0606 35691.6 6
+  108.0445 273060.6 43
+  146.0715 54061.3 9
+  147.0793 263380.1 42
+  148.0871 96672.9 15
+  156.0115 1770596.4 282
+  160.087 211916.2 34
+  161.0014 12980.5 2
+  163.0874 5771.9 1
+  172.0874 8187.3 1
+  176.0279 10947.8 2
+  188.0821 424026.9 68
+  190.0977 254402.3 41
+  194.0385 118581 19
+  254.0594 6273794 999
+//

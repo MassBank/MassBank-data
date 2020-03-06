@@ -1,0 +1,50 @@
+ACCESSION: HB000858
+RECORD_TITLE: Ethambutol; LC-ESI-ITFT; MS2; CE: 175%; R=15000; [M+H]+
+DATE: 2018.09.08
+AUTHORS: Tobias Schulze, Carolin Huber, Martin Krauss, Department of Effect-Directed Analysis, Helmholtz Centre for Environmental Research GmbH - UFZ, Leipzig, Germany
+LICENSE: CC0
+COPYRIGHT: Copyright (C) 2018
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Ethambutol
+CH$NAME: 2-[2-(1-hydroxybutan-2-ylamino)ethylamino]butan-1-ol
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C10H24N2O2
+CH$EXACT_MASS: 204.1838
+CH$SMILES: CCC(CO)NCCNC(CC)CO
+CH$IUPAC: InChI=1S/C10H24N2O2/c1-3-9(7-13)11-5-6-12-10(4-2)8-14/h9-14H,3-8H2,1-2H3
+CH$LINK: CAS 74-55-5
+CH$LINK: CHEBI 94436
+CH$LINK: PUBCHEM CID:3279
+CH$LINK: INCHIKEY AEUTYOVWOVBAKS-UHFFFAOYSA-N
+CH$LINK: CHEMSPIDER 3164
+AC$INSTRUMENT: LTQ Orbitrap XL Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 175% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: COLUMN_NAME Kinetex Evo C18 2.6 um 50 x 2.1 mm
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 1 min, 0/100 at 13 min, 0/100 at 24 min, 95/5 at 24.3 min, 95/5 at 32 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.525 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% formic acid
+MS$FOCUSED_ION: BASE_PEAK 182.1176
+MS$FOCUSED_ION: PRECURSOR_M/Z 205.1911
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 2.9.1
+PK$SPLASH: splash10-0a4i-9000000000-c9ed56275c8a78ca937d
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  55.054 C4H7+ 1 55.0542 -4.63
+  56.0492 C3H6N+ 1 56.0495 -4.27
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  55.054 9605.1 999
+  56.0492 1766 183
+//

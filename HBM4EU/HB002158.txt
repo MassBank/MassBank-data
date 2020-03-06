@@ -1,0 +1,45 @@
+ACCESSION: HB002158
+RECORD_TITLE: Metoclopramide; LC-ESI-QFT; MS2; CE: 20%; R=17500; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Jean-Philippe Antignac, Yann Guitoon, LABERCA, Oniris, INRAE, UMR 1329, 44307, Nantes, France
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by LABERCA, Oniris, INRAE, UMR 1329, 44307, Nantes, France
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin EL, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Metoclopramide
+CH$NAME: 4-Amino-5-chloro-N-[2-(diethylamino)ethyl]-2-methoxybenzamide
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C14H22ClN3O2
+CH$EXACT_MASS: 299.1401
+CH$SMILES: CCN(CC)CCNC(=O)C1=CC(Cl)=C(N)C=C1OC
+CH$IUPAC: InChI=1S/C14H22ClN3O2/c1-4-18(5-2)7-6-17-14(19)10-8-11(15)12(16)9-13(10)20-3/h8-9H,4-7,16H2,1-3H3,(H,17,19)
+CH$LINK: CAS 364-62-5
+CH$LINK: COMPTOX DTXSID6045169
+CH$LINK: INCHIKEY TTWJBBZEZQICBI-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4168
+AC$INSTRUMENT: Q Exactive Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 17500
+AC$CHROMATOGRAPHY: COLUMN_NAME Hypersil GOLD 1.9 um 2.1 x 100 mm Thermo Fisher Scientific
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 2.4 min, 75/25 at 4.5 min, 30/70 at 11 min, 0/100 at 14 min, 0/100 at 16.5 min, 95/5 at 19 min, 95/5 at 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 400 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile with 0.1% acetic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 300.1474
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-0fb9-0095000000-905b240923b4cf557852
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  100.1126 3827434.2 7
+  140.9977 370434.7 1
+  143.1181 435495.2 1
+  184.016 41017434.5 70
+  227.0582 586130816 999
+  300.1474 360030853.7 614
+//

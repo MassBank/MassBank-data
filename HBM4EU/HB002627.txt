@@ -1,0 +1,66 @@
+ACCESSION: HB002627
+RECORD_TITLE: Amiloride; ESI-QTOF; MS2; CE: 45eV; R=15000; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Herbert Oberacher, Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Amiloride
+CH$NAME: 3,5-Diamino-N-carbamimidoyl-6-chloropyrazine-2-carboxamide
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C6H8ClN7O
+CH$EXACT_MASS: 229.0479
+CH$SMILES: NC(=N)NC(=O)C1=NC(Cl)=C(N)N=C1N
+CH$IUPAC: InChI=1S/C6H8ClN7O/c7-2-4(9)13-3(8)1(12-2)5(15)14-6(10)11/h(H4,8,9,13)(H4,10,11,14,15)
+CH$LINK: CAS 2609-46-3
+CH$LINK: COMPTOX DTXSID9043853
+CH$LINK: INCHIKEY XSDQTOBWRPYKKA-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:16231
+AC$INSTRUMENT: TripleTOF 5600+SCIEX
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 45 eV
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: FLOW_RATE 20 uL/min
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 50/50
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 230.0552
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-014i-1900000000-52cd5ff070fa921c8f88
+PK$NUM_PEAK: 28
+PK$PEAK: m/z int. rel.int.
+  53.0157 4.6 8
+  54.0226 0.3 1
+  55.031 3.7 6
+  56.0388 0.9 2
+  60.0573 91.6 151
+  61.9807 14.3 24
+  63.9962 32.4 54
+  66.0226 4.4 7
+  69.0095 0.7 1
+  73.98 6.9 11
+  80.0249 2 3
+  81.0325 0.8 1
+  82.0404 0.7 1
+  86.0352 1.4 2
+  88.9904 35.5 59
+  91.0058 2.8 5
+  100.9898 38.4 63
+  107.0348 3.1 5
+  108.0427 80.6 133
+  116.0005 604.4 999
+  125.0453 0.9 1
+  140.9958 1 2
+  143.0108 201.1 332
+  145.0263 0.4 1
+  161.0212 17.4 29
+  170.0205 0.3 1
+  171.0054 112.8 186
+  189.016 0.9 2
+//

@@ -1,0 +1,53 @@
+ACCESSION: HB002308
+RECORD_TITLE: Dixyrazine ; LC-ESI-ITFT; MS2; CE: 25%; R=7500; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Laurent Debrauwer, Emilien L. Jamin, Research Centre in Food Toxicology (TOXALIM), INRAE, MetaboHUB-Metatoul platform, Toulouse, France
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2000 by Research Centre in Food Toxicology (TOXALIM), INRAE, MetaboHUB-Metatoul platform, Toulouse, France
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Dixyrazine 
+CH$NAME: 2-(2-{4-[2-Methyl-3-(10H-phenothiazin-10-yl)propyl]piperazin-1-yl}ethoxy)ethan-1-ol
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C24H33N3O2S
+CH$EXACT_MASS: 427.2293
+CH$SMILES: CC(CN1CCN(CCOCCO)CC1)CN1C2=CC=CC=C2SC2=CC=CC=C12
+CH$IUPAC: InChI=1S/C24H33N3O2S/c1-20(18-26-12-10-25(11-13-26)14-16-29-17-15-28)19-27-21-6-2-4-8-23(21)30-24-9-5-3-7-22(24)27/h2-9,20,28H,10-19H2,1H3
+CH$LINK: CAS 2470-73-7 
+CH$LINK: COMPTOX DTXSID10947639
+CH$LINK: INCHIKEY MSYUMPGNGDNTIQ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:17182
+AC$INSTRUMENT: LTQ Orbitrap XL Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 25% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 7500
+AC$CHROMATOGRAPHY: COLUMN_NAME Hypersil GOLD C18 1.9 um 100 x 2.1 mm Thermo Fisher Scientific
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 100/0 at 0 min, 0/100 at 30 min, 0/100 at 35 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water with 5% methanol and 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% acetic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 428.2367
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-004i-0010900000-40e4f8df2c27924e4ba1
+PK$NUM_PEAK: 14
+PK$PEAK: m/z int. rel.int.
+  57.0865 6295.8 1
+  57.0991 5750.6 1
+  57.106 5012.7 1
+  57.1113 6402.1 1
+  57.118 7984.4 1
+  57.1328 8536.2 1
+  57.1398 6794.4 1
+  57.1467 5777.2 1
+  57.163 4374.5 1
+  187.1441 185150 28
+  212.0525 27217.4 4
+  229.1914 850945.6 128
+  254.1003 22045.2 3
+  428.2367 6648116 999
+//
