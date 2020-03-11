@@ -1,0 +1,43 @@
+ACCESSION: HB002593
+RECORD_TITLE: Phentermine; LC-ESI-QTOF; MS2; CE: 25 eV; R=3600; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Noelia Caballero-Casero, Adrian Covaci, Toxicological Center, University of Antwerp, Wilrijk, Belgium
+LICENSE: CC0
+COPYRIGHT: Copyright (c) by Toxicological Center, University of Antwerp, Wilrijk, Belgium
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+COMMENT: Flow Injection
+CH$NAME: Phentermine
+CH$NAME: 2-Methyl-1-phenylpropan-2-amine
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C10H15N
+CH$EXACT_MASS: 149.1204
+CH$SMILES: CC(C)(N)CC1=CC=CC=C1
+CH$IUPAC: InChI=1S/C10H15N/c1-10(2,11)8-9-6-4-3-5-7-9/h3-7H,8,11H2,1-2H3
+CH$LINK: CAS 0122-09-08
+CH$LINK: COMPTOX DTXSID9023461
+CH$LINK: INCHIKEY DHHVAGZRUROJKS-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4771
+AC$INSTRUMENT: 6654 QTOF Agilent
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 25 eV
+AC$MASS_SPECTROMETRY: RESOLUTION 3600
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 50/50
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water
+AC$CHROMATOGRAPHY: SOLVENT B methanol
+MS$FOCUSED_ION: PRECURSOR_M/Z 150.1278
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-0006-9000000000-2edf07337f14f6bb795a
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  51.0222 9637.7 84
+  65.0374 53321.2 465
+  77.037 6262.3 55
+  91.0523 114630.8 999
+//

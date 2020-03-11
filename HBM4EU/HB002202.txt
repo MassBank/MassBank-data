@@ -1,0 +1,45 @@
+ACCESSION: HB002202
+RECORD_TITLE: Phentermine; LC-ESI-QFT; MS2; CE: 15%; R=17500; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Jean-Philippe Antignac, Yann Guitoon, LABERCA, Oniris, INRAE, UMR 1329, 44307, Nantes, France
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by LABERCA, Oniris, INRAE, UMR 1329, 44307, Nantes, France
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin EL, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Phentermine
+CH$NAME: 2-Methyl-1-phenylpropan-2-amine
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C10H15N
+CH$EXACT_MASS: 149.1204
+CH$SMILES: CC(C)(N)CC1=CC=CC=C1
+CH$IUPAC: InChI=1S/C10H15N/c1-10(2,11)8-9-6-4-3-5-7-9/h3-7H,8,11H2,1-2H3
+CH$LINK: CAS 122-09-8
+CH$LINK: COMPTOX DTXSID9023461
+CH$LINK: INCHIKEY DHHVAGZRUROJKS-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4771
+AC$INSTRUMENT: Q Exactive Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 15% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 17500
+AC$CHROMATOGRAPHY: COLUMN_NAME Hypersil GOLD 1.9 um 2.1 x 100 mm Thermo Fisher Scientific
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 2.4 min, 75/25 at 4.5 min, 30/70 at 11 min, 0/100 at 14 min, 0/100 at 16.5 min, 95/5 at 19 min, 95/5 at 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 400 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile with 0.1% acetic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 150.1278
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-0006-9300000000-9f5536e6ff5e419571af
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  55.0551 349477.7 3
+  65.0394 284882.3 3
+  91.0548 110419504 999
+  105.0704 6422660.9 58
+  133.1013 41420564.3 375
+  150.1278 900250.2 8
+//

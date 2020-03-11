@@ -1,0 +1,45 @@
+ACCESSION: HB002608
+RECORD_TITLE: Sulfamethoxazole; LC-ESI-QTOF; MS2; CE: 50 eV; R=3600; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Noelia Caballero-Casero, Adrian Covaci, Toxicological Center, University of Antwerp, Wilrijk, Belgium
+LICENSE: CC0
+COPYRIGHT: Copyright (c) by Toxicological Center, University of Antwerp, Wilrijk, Belgium
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+COMMENT: Flow Injection
+CH$NAME: Sulfamethoxazole
+CH$NAME: 4-Amino-N-(5-methyl-1,2-oxazol-3-yl)benzene-1-sulfonamide
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C10H11N3O3S
+CH$EXACT_MASS: 253.0521
+CH$SMILES: CC1=CC(NS(=O)(=O)C2=CC=C(N)C=C2)=NO1
+CH$IUPAC: InChI=1S/C10H11N3O3S/c1-7-6-10(12-16-7)13-17(14,15)9-4-2-8(11)3-5-9/h2-6H,11H2,1H3,(H,12,13)
+CH$LINK: CAS 723-46-6
+CH$LINK: COMPTOX DTXSID8026064
+CH$LINK: INCHIKEY JLKIGFTWXXRPMT-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:5329
+AC$INSTRUMENT: 6669 QTOF Agilent
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 50 eV
+AC$MASS_SPECTROMETRY: RESOLUTION 3600
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 50/50
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water
+AC$CHROMATOGRAPHY: SOLVENT B methanol
+MS$FOCUSED_ION: PRECURSOR_M/Z 254.0594
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-014i-9000000000-d0994901e1a7f0fd049a
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  53.0383 1260.8 84
+  65.0383 15010.7 999
+  80.0485 5006.9 333
+  92.048 3558.9 237
+  93.0566 1207.7 80
+  108.0435 2003.1 133
+//

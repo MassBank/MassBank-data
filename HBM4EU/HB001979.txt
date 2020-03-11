@@ -1,0 +1,57 @@
+ACCESSION: HB001979
+RECORD_TITLE: Dixyrazine ; LC-ESI-QFT; MS2; CE: 40%; R=30000; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Annelaure Damont, Kathleen Rousseau, Laboratoire d Etude du Metabolisme des Medicaments, CEA, Universite Paris Saclay, Paris, France
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by Laboratoire d Etude du Metabolisme des Medicaments, CEA, Universite Paris Saclay, Paris, France
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+COMMENT: Flow Injection
+CH$NAME: Dixyrazine 
+CH$NAME: 2-(2-{4-[2-Methyl-3-(10H-phenothiazin-10-yl)propyl]piperazin-1-yl}ethoxy)ethan-1-ol
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C24H33N3O2S
+CH$EXACT_MASS: 427.2293
+CH$SMILES: CC(CN1CCN(CCOCCO)CC1)CN1C2=CC=CC=C2SC2=CC=CC=C12
+CH$IUPAC: InChI=1S/C24H33N3O2S/c1-20(18-26-12-10-25(11-13-26)14-16-29-17-15-28)19-27-21-6-2-4-8-23(21)30-24-9-5-3-7-22(24)27/h2-9,20,28H,10-19H2,1H3
+CH$LINK: CAS 2470-73-7 
+CH$LINK: COMPTOX DTXSID10947639
+CH$LINK: INCHIKEY MSYUMPGNGDNTIQ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:17182
+AC$INSTRUMENT: Orbitrap Fusion Tribrid Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 30000
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5
+AC$CHROMATOGRAPHY: FLOW_RATE 100 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile with 0.1% formic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 428.2367
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-004r-1890000000-5df7a754398639cf4590
+PK$NUM_PEAK: 18
+PK$PEAK: m/z int. rel.int.
+  97.0762 4829761.2 46
+  98.084 18559013.8 176
+  99.0918 2210568.4 21
+  101.1075 29491740.2 280
+  125.1074 10300910 98
+  140.1309 2482669.1 24
+  144.1019 3583798.7 34
+  155.1543 1150353.8 11
+  172.1206 8195626.8 78
+  180.0808 4697655.1 45
+  187.1442 69308266.4 658
+  199.045 1091873.7 10
+  206.0961 103076.4 1
+  212.0527 34283215.9 326
+  221.1198 1480934.6 14
+  229.1909 105180016 999
+  254.0996 5386689.3 51
+  428.2367 8792313.1 84
+//

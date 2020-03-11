@@ -1,0 +1,48 @@
+ACCESSION: HB002692
+RECORD_TITLE: Etofylline; ESI-QTOF; MS2; CE: 20eV; R=15000; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Herbert Oberacher, Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Etofylline
+CH$NAME: 7-(2-Hydroxyethyl)-1,3-dimethyl-3,7-dihydro-1H-purine-2,6-dione
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C9H12N4O3
+CH$EXACT_MASS: 224.0909
+CH$SMILES: CN1C2=C(N(CCO)C=N2)C(=O)N(C)C1=O
+CH$IUPAC: InChI=1S/C9H12N4O3/c1-11-7-6(8(15)12(2)9(11)16)13(3-4-14)5-10-7/h5,14H,3-4H2,1-2H3
+CH$LINK: CAS 519-37-9
+CH$LINK: COMPTOX DTXSID5023031
+CH$LINK: INCHIKEY NWPRCRWQMGIBOT-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:1892
+AC$INSTRUMENT: TripleTOF 5600+SCIEX
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 eV
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: FLOW_RATE 20 uL/min
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 50/50
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 225.0983
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-003r-0960000000-5b6ad0a9a78fb190fc6f
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  69.0464 18.7 1
+  96.0562 69.9 3
+  113.0712 28.7 1
+  124.0507 1680 63
+  137.0822 26.5 1
+  140.0818 72.3 3
+  143.0187 14.7 1
+  168.0766 211.6 8
+  181.0723 26781.4 999
+  225.0983 20380.6 760
+//

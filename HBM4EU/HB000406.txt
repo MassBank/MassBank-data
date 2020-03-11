@@ -1,0 +1,55 @@
+ACCESSION: HB000406
+RECORD_TITLE: Cyclizine; LC-ESI-ITFT; MS2; CE: 15%; R=15000; [M+H]+
+DATE: 2018.09.08
+AUTHORS: Tobias Schulze, Carolin Huber, Martin Krauss, Department of Effect-Directed Analysis, Helmholtz Centre for Environmental Research GmbH - UFZ, Leipzig, Germany
+LICENSE: CC0
+COPYRIGHT: Copyright (C) 2018
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Cyclizine
+CH$NAME: 1-benzhydryl-4-methylpiperazine
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C18H22N2
+CH$EXACT_MASS: 266.1783
+CH$SMILES: CN1CCN(CC1)C(C2=CC=CC=C2)C3=CC=CC=C3
+CH$IUPAC: InChI=1S/C18H22N2/c1-19-12-14-20(15-13-19)18(16-8-4-2-5-9-16)17-10-6-3-7-11-17/h2-11,18H,12-15H2,1H3
+CH$LINK: CAS 82-92-8
+CH$LINK: CHEBI 3994
+CH$LINK: KEGG C06930
+CH$LINK: PUBCHEM CID:6726
+CH$LINK: INCHIKEY UVKZSORBKUEBAZ-UHFFFAOYSA-N
+CH$LINK: CHEMSPIDER 6470
+AC$INSTRUMENT: LTQ Orbitrap XL Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 15% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: COLUMN_NAME Kinetex Evo C18 2.6 um 50 x 2.1 mm
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 1 min, 0/100 at 13 min, 0/100 at 24 min, 95/5 at 24.3 min, 95/5 at 32 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.626 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% formic acid
+MS$FOCUSED_ION: BASE_PEAK 267.1854
+MS$FOCUSED_ION: PRECURSOR_M/Z 267.1856
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 2.9.1
+PK$SPLASH: splash10-014i-0920000000-f2a81c5b4f7148dd0616
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  99.0917 C5H11N2+ 1 99.0917 -0.14
+  165.0704 C13H9+ 1 165.0699 3.22
+  167.0855 C13H11+ 1 167.0855 -0.21
+  267.1856 C18H23N2+ 1 267.1856 -0.05
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  99.0917 13950.5 18
+  165.0704 1158.4 1
+  167.0855 773597.4 999
+  267.1856 236080.2 304
+//

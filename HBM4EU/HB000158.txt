@@ -1,0 +1,65 @@
+ACCESSION: HB000158
+RECORD_TITLE: Amiloride; LC-ESI-ITFT; MS2; CE: 175%; R=15000; [M+H]+
+DATE: 2018.09.08
+AUTHORS: Tobias Schulze, Carolin Huber, Martin Krauss, Department of Effect-Directed Analysis, Helmholtz Centre for Environmental Research GmbH - UFZ, Leipzig, Germany
+LICENSE: CC0
+COPYRIGHT: Copyright (C) 2018
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Amiloride
+CH$NAME: 3,5-diamino-6-chloro-N-(diaminomethylidene)pyrazine-2-carboxamide
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C6H8ClN7O
+CH$EXACT_MASS: 229.0479
+CH$SMILES: C1(=C(N=C(C(=N1)Cl)N)N)C(=O)N=C(N)N
+CH$IUPAC: InChI=1S/C6H8ClN7O/c7-2-4(9)13-3(8)1(12-2)5(15)14-6(10)11/h(H4,8,9,13)(H4,10,11,14,15)
+CH$LINK: CAS 2016-88-8
+CH$LINK: CHEBI 2639
+CH$LINK: KEGG D07447
+CH$LINK: PUBCHEM CID:16231
+CH$LINK: INCHIKEY XSDQTOBWRPYKKA-UHFFFAOYSA-N
+CH$LINK: CHEMSPIDER 15403
+AC$INSTRUMENT: LTQ Orbitrap XL Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 175% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: COLUMN_NAME Kinetex Evo C18 2.6 um 50 x 2.1 mm
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 1 min, 0/100 at 13 min, 0/100 at 24 min, 95/5 at 24.3 min, 95/5 at 32 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.923 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% formic acid
+MS$FOCUSED_ION: BASE_PEAK 150.1277
+MS$FOCUSED_ION: PRECURSOR_M/Z 230.0552
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 2.9.1
+PK$SPLASH: splash10-0300-9000000000-484e8cb1385ebe6ebe42
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  60.0554 CH6N3+ 1 60.0556 -4.07
+  61.979 CHClN+ 1 61.9792 -3.7
+  63.9946 CH3ClN+ 2 63.9949 -3.46
+  66.0211 C3H2N2+ 1 66.0212 -2.55
+  73.9791 C2HClN+ 1 73.9792 -1.26
+  88.9901 C2H2ClN2+ 1 88.9901 0.1
+  100.9901 C3H2ClN2+ 1 100.9901 -0.47
+  108.0431 C4H4N4+ 1 108.043 0.91
+  116.0009 C3H3ClN3+ 2 116.001 -0.51
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  60.0554 5341.4 178
+  61.979 8928.9 297
+  63.9946 10924.8 364
+  66.0211 29966.7 999
+  73.9791 25379.2 846
+  88.9901 13606.4 453
+  100.9901 6123.1 204
+  108.0431 1634.2 54
+  116.0009 2049.6 68
+//

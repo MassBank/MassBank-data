@@ -1,0 +1,42 @@
+ACCESSION: HB002530
+RECORD_TITLE: Ethambutol; LC-ESI-QTOF; MS2; CE: 10 eV; R=3600; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Noelia Caballero-Casero, Adrian Covaci, Toxicological Center, University of Antwerp, Wilrijk, Belgium
+LICENSE: CC0
+COPYRIGHT: Copyright (c) by Toxicological Center, University of Antwerp, Wilrijk, Belgium
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+COMMENT: Flow Injection
+CH$NAME: Ethambutol
+CH$NAME: (2S,2'S)-2,2'-(Ethane-1,2-diyldiazanediyl)di(butan-1-ol)
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C10H24N2O2
+CH$EXACT_MASS: 204.1838
+CH$SMILES: CC[C@@H](CO)NCCN[C@@H](CC)CO
+CH$IUPAC: InChI=1S/C10H24N2O2/c1-3-9(7-13)11-5-6-12-10(4-2)8-14/h9-14H,3-8H2,1-2H3/t9-,10-/m0/s1
+CH$LINK: CAS 74-55-5
+CH$LINK: COMPTOX DTXSID8023006
+CH$LINK: INCHIKEY AEUTYOVWOVBAKS-UWVGGRQHSA-N
+CH$LINK: PUBCHEM CID:14052
+AC$INSTRUMENT: 6591 QTOF Agilent
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10 eV
+AC$MASS_SPECTROMETRY: RESOLUTION 3600
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 50/50
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water
+AC$CHROMATOGRAPHY: SOLVENT B methanol
+MS$FOCUSED_ION: PRECURSOR_M/Z 205.1911
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-014i-1920000000-9e3493ee255f54f383d7
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  55.0534 17595.3 186
+  116.1044 94378.9 999
+  205.1911 27053.4 286
+//
