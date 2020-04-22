@@ -3,54 +3,7 @@ cache:
   directories:
   - $HOME/.m2
 install:
-  - git clone --depth 1 -q https://github.com/MassBank/MassBank-web.git .scripts/MassBank-web
+  - git clone --branch dev --depth 1 -q https://github.com/MassBank/MassBank-web.git .scripts/MassBank-web
   - mvn -q -f .scripts/MassBank-web/MassBank-Project/MassBank-lib/pom.xml package
 script: 
-  - .scripts/validate.sh $TESTDIR
-env:
- - TESTDIR=AAFC/
- - TESTDIR=Athens_Univ/
- - TESTDIR=BGC_Munich/
- - TESTDIR=Boise_State_Univ/
- - TESTDIR=BS/
- - TESTDIR=CASMI_2012/
- - TESTDIR=CASMI_2016/
- - TESTDIR=Chubu_Univ/
- - TESTDIR=Eawag/
- - TESTDIR=Eawag_Additional_Specs/
- - TESTDIR=Env_Anal_Chem_U_Tuebingen/
- - TESTDIR=Fac_Eng_Univ_Tokyo/
- - TESTDIR=Fiocruz/
- - TESTDIR=Fukuyama_Univ/
- - TESTDIR=GL_Sciences_Inc/
- - TESTDIR=HBM4EU/
- - TESTDIR=IPB_Halle/
- - TESTDIR=ISAS_Dortmund/
- - TESTDIR=JEOL_Ltd/
- - TESTDIR=Kazusa/
- - TESTDIR=Keio_Univ/
- - TESTDIR=KWR/
- - TESTDIR=Kyoto_Univ/
- - TESTDIR=Literature_Specs/
- - TESTDIR=MetaboLights/
- - TESTDIR=Metabolon/
- - TESTDIR=MPI_for_Chemical_Ecology/
- - TESTDIR=MSSJ/
- - TESTDIR=NAIST/
- - TESTDIR=NaToxAq/
- - TESTDIR=Nihon_Univ/
- - TESTDIR=Osaka_MCHRI/
- - TESTDIR=Osaka_Univ/
- - TESTDIR=PFOS_research_group/
- - TESTDIR=RIKEN/
- - TESTDIR=RIKEN_IMS/
- - TESTDIR=RIKEN_NPDepo/
- - TESTDIR=RIKEN_ReSpect/
- - TESTDIR=Tottori_Univ/
- - TESTDIR=UFZ/
- - TESTDIR=Univ_Connecticut/
- - TESTDIR=Univ_Toyama/
- - TESTDIR=UOEH/
- - TESTDIR=UPAO/
- - TESTDIR=Washington_State_Univ/
- - TESTDIR=Waters/
+  - .scripts/MassBank-web/MassBank-Project/MassBank-lib/target/MassBank-lib/MassBank-lib/bin/Validator ./*

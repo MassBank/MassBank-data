@@ -67,13 +67,12 @@ When the state of the release branch is ready to become a real release, the rele
 ```
 $ hub pull-request -m 'Release version 2019.09'
 ```
-Wait for all checks to finish. Now the release can be merged to `master`. 
+Wait for all checks to finish. Now the release can be merged to `master` and tagged as release. 
 ```
 $ git checkout master
 $ git merge --no-ff release-2019.09
 $ git push origin master
-$ git tag -a 2019.09 -m 'Release version 2019.09'
-$ git push origin 2019.09
+$ hub release create -m 'Release version 2019.09' 2019.09
 ```
 Now we are done and the release branch may be removed
 ```
