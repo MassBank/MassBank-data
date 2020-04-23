@@ -1,0 +1,53 @@
+ACCESSION: UP000507
+RECORD_TITLE: Decaethylene glycol; LC-ESI-ITFT; MS2; CE: 70%; R=15000; [M+Na]+
+DATE: 2019.07.31
+AUTHORS: Liza-Marie Beckers, Werner Brack, Janek-Paul Dann, Martin Krauss, Erik Mueller, Tobias Schulze, Helmholtz Centre for Environmental Research GmbH - UFZ, Leipzig, Germany
+LICENSE: CC0
+COPYRIGHT: Copyright (C) 2019
+PUBLICATION: Beckers L-M, Brack W, Dann JP, Krauss M, Mueller E, Schulze T, 2020. Unraveling longitudinal pollution patterns of organic micropollutants in a river by non-target screening and cluster analysis. Science of The Total Environment, https://doi.org/10.1016/j.scitotenv.2020.138388
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: INTERNAL_ID 9
+CH$NAME: Decaethylene glycol
+CH$NAME: 3,6,9,12,15,18,21,24,27-Nonaoxanonacosane-1,29-diol
+CH$NAME: 2-[2-[2-[2-[2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethanol
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C20H42O11
+CH$EXACT_MASS: 458.2727
+CH$SMILES: OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO
+CH$IUPAC: InChI=1S/C20H42O11/c21-1-3-23-5-7-25-9-11-27-13-15-29-17-19-31-20-18-30-16-14-28-12-10-26-8-6-24-4-2-22/h21-22H,1-20H2
+CH$LINK: CAS 5579-66-8
+CH$LINK: CHEBI 46550
+CH$LINK: PUBCHEM CID:79689
+CH$LINK: INCHIKEY DTPCFIHYWYONMD-UHFFFAOYSA-N
+CH$LINK: CHEMSPIDER 71989
+AC$INSTRUMENT: LTQ Orbitrap XL Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 70 % (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: COLUMN_NAME Kinetex Evo C18 2.6 um 50 x 2.1 mm
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 1 min, 0/100 at 13 min, 0/100 at 24 min, 95/5 at 24.3 min, 95/5/0 at 32 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.722 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% formic acid
+MS$FOCUSED_ION: BASE_PEAK 162.9886
+MS$FOCUSED_ION: PRECURSOR_M/Z 481.2619
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+Na]+
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 2.12.0
+PK$SPLASH: splash10-0a4i-0900000000-a1119b3e572d4cb55c55
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  158.2222 C6H31NaO2+ 1 158.2216 3.82
+  158.2576 C7H35NaO+ 1 158.258 -2.4
+  158.2785 C4H39NaO3+ 1 158.2791 -3.94
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  158.2222 1153 619
+  158.2576 1197.5 643
+  158.2785 1859.5 999
+//
