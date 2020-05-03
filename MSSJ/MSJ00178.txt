@@ -1,0 +1,45 @@
+ACCESSION: MSJ00178
+RECORD_TITLE: 1-(9Z-Octadecenoyl)-sn-glycero-3-phosphocholine; MALDI-QITTOF; MS; POSITIVE
+DATE: 2020.02.21
+AUTHORS: Hidenori Takahashi, Mass Spectrometry Research Laboratory, Shimadzu Corporation, 1 Nishinokyo-Kuwabaracho Nakagyo-ku, Kyoto, 604-8511, Japan.
+LICENSE: CC BY
+COPYRIGHT: Hidenori Takahashi, Mass Spectrometry Research Laboratory, Shimadzu Corporation, 1 Nishinokyo-Kuwabaracho Nakagyo-ku, Kyoto, 604-8511, Japan.
+PUBLICATION: Hidenori Takahashi, Yuji Shimabukuro, Daiki Asakawa, Shosei Yamauchi, Sadanori Sekiya, Shinichi Iwamoto, Motoi Wada, Koichi Tanaka, "Structural Analysis of Phospholipid Using Hydrogen Abstraction Dissociation and Oxygen Attachment Dissociation in Tandem Mass Spectrometry", Anal. Chem., 90 (12), 7230-7238 (2018). DOI:10.1021/acs.analchem.8b00322.
+COMMENT: This mass spectral data is shown in Figure 1(A) Inset of the publication.
+COMMENT: The sample was injected by direct infusion of methanol solution.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 19HP8024 to the Mass Spectrometry Society of Japan.
+COMMENT: The lipid standard was purchased from Avanti Polar Lipids (Alabaster, AL).
+CH$NAME: Lyso-PC 18:1(9Z)
+CH$NAME: 1-(9Z-Octadecenoyl)-sn-glycero-3-phosphocholine
+CH$COMPOUND_CLASS: Natural product; Phospholipid
+CH$FORMULA: C26H52NO7P
+CH$EXACT_MASS: 521.3481
+CH$SMILES: CCCCCCCC/C=C\CCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)O
+CH$IUPAC: InChI=1S/C26H52NO7P/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-26(29)32-23-25(28)24-34-35(30,31)33-22-21-27(2,3)4/h12-13,25,28H,5-11,14-24H2,1-4H3/b13-12-/t25-/m1/s1
+CH$LINK: CHEMSPIDER 17240641
+CH$LINK: INCHIKEY YAMUFBLWGFFICM-PTGWMXDISA-N
+CH$LINK: PUBCHEM CID: 16081932
+AC$INSTRUMENT: MALDI-QITTOF noncommercial prototype model (Shimadzu Corporation, Kyoto, Japan)
+AC$INSTRUMENT_TYPE: MALDI-QITTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION MALDI
+AC$MASS_SPECTROMETRY: MATRIX 2,5-Dihydroxybenzoic acid
+PK$SPLASH: splash10-00di-0000090000-06880dc0decc892991e9
+PK$NUM_PEAK: 14
+PK$PEAK: m/z int. rel.int.
+  502.329 3.143 19
+  503.353 6.251 37
+  504.345 6.926 41
+  518.223 1.163 7
+  520.33 9.166 54
+  521.355 43.778 260
+  521.587 1.466 9
+  521.957 1.173 7
+  522.355 168.417 999
+  522.627 7.084 42
+  522.802 7.046 42
+  522.974 6.455 38
+  523.236 8.844 52
+  526.138 1.2 7
+//

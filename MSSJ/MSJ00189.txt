@@ -1,0 +1,105 @@
+ACCESSION: MSJ00189
+RECORD_TITLE: 1-hexadecanoyl-2-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-3-phosphocholine; MALDI-QITTOF; MS2; POSITIVE; [M+H]+; RID
+DATE: 2020.01.25
+AUTHORS: Hidenori Takahashi, Mass Spectrometry Research Laboratory, Shimadzu Corporation, 1 Nishinokyo-Kuwabaracho Nakagyo-ku, Kyoto, 604-8511, Japan.
+LICENSE: CC BY
+COPYRIGHT: Hidenori Takahashi, Mass Spectrometry Research Laboratory, Shimadzu Corporation, 1 Nishinokyo-Kuwabaracho Nakagyo-ku, Kyoto, 604-8511, Japan.
+PUBLICATION: Hidenori Takahashi, Yuji Shimabukuro, Daiki Asakawa, Shosei Yamauchi, Sadanori Sekiya, Shinichi Iwamoto, Motoi Wada, Koichi Tanaka, "Structural Analysis of Phospholipid Using Hydrogen Abstraction Dissociation and Oxygen Attachment Dissociation in Tandem Mass Spectrometry", Anal. Chem., 90 (12), 7230-7238 (2018). DOI:10.1021/acs.analchem.8b00322.
+COMMENT: What is "Radical Induced Dissociation" (RID)?  Microwave discharge of H2O generates OH*, H* and 3O (triplet O) radicals. These radicals and [M+H]+ ion react to produce the [M+H+O]+ ion by forming a stable epoxide group at a C=C bond. Then the [M+H+O]+ ion is dissociated into product ions.
+COMMENT: The instrument consists of QIT-TOF where Q selects [M+H]+ ion, IT is an ion trap chamber for the reaction of RID, and TOF analyzes the product ions.
+COMMENT: This mass spectral data and fragment ions are shown in Figure 6 of the publication.
+COMMENT: Rel.Int. of ions from m/z 400 to 750 are magnified by x100.
+COMMENT: The sample was injected by direct infusion of methanol solution.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 19HP8024 to the Mass Spectrometry Society of Japan.
+COMMENT: The lipid standard was purchased from Avanti Polar Lipids (Alabaster, AL).
+CH$NAME: PC 16:0/24:4(5Z,8Z,11Z,14Z)
+CH$NAME: 1-hexadecanoyl-2-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-3-phosphocholine
+CH$COMPOUND_CLASS: Natural product; Phospholipid
+CH$FORMULA: C44H80NO8P
+CH$EXACT_MASS: 781.5622
+CH$SMILES: CCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCC/C=C\C/C=C\C/C=C\C/C=C\CCCCC
+CH$IUPAC: InChI=1S/C44H80NO8P/c1-6-8-10-12-14-16-18-20-21-22-23-25-27-29-31-33-35-37-44(47)53-42(41-52-54(48,49)51-39-38-45(3,4)5)40-50-43(46)36-34-32-30-28-26-24-19-17-15-13-11-9-7-2/h14,16,20-21,23,25,29,31,42H,6-13,15,17-19,22,24,26-28,30,32-41H2,1-5H3/b16-14-,21-20-,25-23-,31-29-/t42-/m1/s1
+CH$LINK: CHEMSPIDER 8923140
+CH$LINK: INCHIKEY IIZPXYDJLKNOIY-JXPKJXOSSA-N
+CH$LINK: PUBCHEM CID:10747814
+AC$INSTRUMENT: MALDI-QITTOF noncommercial prototype model (Shimadzu Corporation, Kyoto, Japan)
+AC$INSTRUMENT_TYPE: MALDI-QITTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE RID
+AC$MASS_SPECTROMETRY: IONIZATION MALDI
+AC$MASS_SPECTROMETRY: MATRIX 2,5-Dihydroxybenzoic acid
+AC$MASS_SPECTROMETRY: REAGENT_GAS H2O microwave discharge
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 782.5694
+PK$SPLASH: splash10-001i-0000000900-30ae28b4e4f18476885c
+PK$NUM_PEAK: 67
+PK$PEAK: m/z int. rel.int.
+  401.14 0.01 9
+  418.035 0.033 28
+  431.092 0.014 12
+  444.021 0.015 13
+  459.031 0.014 12
+  478.346 0.125 108
+  479.344 0.035 30
+  494.344 0.013 11
+  496.355 0.353 305
+  524.338 0.031 27
+  528.363 0.014 12
+  542.324 0.053 46
+  544.355 0.082 71
+  550.357 0.012 10
+  551.088 0.011 9
+  569.902 0.018 16
+  586.59 0.01 9
+  592.398 0.02 17
+  594.395 0.042 36
+  599.499 0.067 58
+  606.415 0.208 179
+  607.389 0.085 73
+  608.392 0.272 235
+  634.911 0.01 9
+  646.429 0.167 144
+  647.413 0.124 107
+  648.411 0.058 50
+  649.419 0.018 16
+  662.418 0.012 10
+  685.453 0.06 52
+  686.466 0.28 242
+  687.457 0.148 128
+  718.464 0.013 11
+  728.476 0.041 35
+  776.423 0.277 2
+  777.444 0.939 8
+  778.458 0.733 6
+  779.457 1.221 11
+  780.537 6.766 58
+  780.811 0.207 2
+  781.553 10.633 92
+  781.795 0.365 3
+  782.562 115.795 999
+  782.804 4.703 41
+  783.24 1.826 16
+  783.563 72.88 629
+  783.806 2.671 23
+  784.161 0.946 8
+  784.565 31.263 270
+  784.792 1.539 13
+  785.139 0.837 7
+  785.56 7.215 62
+  785.794 0.641 6
+  786.15 0.513 4
+  786.547 1.602 14
+  786.814 0.19 2
+  787.154 0.164 1
+  787.478 0.619 5
+  788.45 0.137 1
+  789.487 0.061 1
+  796.549 0.912 8
+  797.543 0.697 6
+  798.545 6.532 56
+  799.549 3.891 34
+  800.561 3.252 28
+  801.565 1.004 9
+  802.579 0.145 1
+//
