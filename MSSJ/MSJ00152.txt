@@ -1,0 +1,55 @@
+ACCESSION: MSJ00152
+RECORD_TITLE: Amarouciaxanthin A; LC-ESI-QTOF; MS; POSITIVE; ESI
+DATE: 2019.01.09
+AUTHORS: Takashi Maoka, Research Institute for Production Development, Kyoto 606-0805, Japan.
+LICENSE: CC BY
+COPYRIGHT: Takashi Maoka, Research Institute for Production Development, Kyoto 606-0805, Japan.
+PUBLICATION: Takashi Maoka, Structural studies of carotenoids in plants, animals, and food products, in Chapter 7, Carotenoids Nutrition, Analysis and Technology, Edited by Agnieska Kaezor and Malgorzata Baranska, Wiley Blackwell, UK, pp. 103-129, (2016).
+COMMENT: Window width to select the precursor ion was 3 Da.
+COMMENT: CONE_VOLTAGE was 10 V.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 19HP8024 to the Mass Spectrometry Society of Japan.
+CH$NAME: Amarouciaxanthin A
+CH$COMPOUND_CLASS: Natural product; carotenoids; xanthophyll
+CH$FORMULA: C40H54O5
+CH$EXACT_MASS: 614.39713
+CH$SMILES: CC1=CC(=O)CC([C@]1(CC(=O)/C(=C/C=C/C(=C/C=C/C=C(\C)/C=C/C=C(\C)/C=C=C2[C@](C[C@H](CC2(C)C)O)(C)O)/C)/C)O)(C)C
+CH$IUPAC: InChI=1S/C40H54O5/c1-28(17-13-18-30(3)21-22-36-37(6,7)24-34(42)26-39(36,10)44)15-11-12-16-29(2)19-14-20-31(4)35(43)27-40(45)32(5)23-33(41)25-38(40,8)9/h11-21,23,34,42,44-45H,24-27H2,1-10H3/b12-11+,17-13+,19-14+,28-15+,29-16+,30-18+,31-20+/t22?,34-,39+,40+/m0/s1
+CH$LINK: CHEMSPIDER 10470395
+CH$LINK: INCHIKEY NBAOGGCOLYTLDU-MEPQDIAVSA-N
+CH$LINK: LIPIDBANK VCA0076
+CH$LINK: PUBCHEM CID:16061220
+AC$INSTRUMENT: Xevo G2-S QtOF, Waters (USA) coupled to ACQUITY UPLC, Waters (USA).
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME BEH C18, I.D. 2.1 mm, length 100 mm, thickness 1.7 micrometer.
+AC$CHROMATOGRAPHY: FLOW_GRADIENT A CH3CN:H2O (85:15) and B CH3CN:CH3OH (65:35). A 100% for 8 min, then B 100% at the 9.4 mL/min linear gradient.
+PK$SPLASH: splash10-000i-0113269000-da4ccd6925497f1629c9
+PK$NUM_PEAK: 24
+PK$PEAK: m/z int. rel.int.
+  133.087 4958 71
+  149.082 9939 142
+  153.077 3309 47
+  173.118 2979 43
+  205.084 4076 58
+  278.101 8006 114
+  279.158 5850 84
+  397.179 28450 406
+  398.182 4856 69
+  411.261 3757 54
+  425.176 9990 143
+  425.275 3842 55
+  427.291 8806 126
+  556.276 25160 359
+  557.280 6006 86
+  578.260 15930 227
+  579.262 4070 58
+  579.381 8401 120
+  580.385 2993 43
+  594.229 8299 119
+  637.390 69970 999
+  638.393 21720 310
+  639.394 3368 48
+  653.365 4312 62
+//

@@ -1,0 +1,49 @@
+ACCESSION: MSJ00151
+RECORD_TITLE: Amarouciaxanthin A; LC-ESI-QTOF; MS2; POSITIVE; ESI; [M+Na]+; COLLISION_ENERGY 20 eV.
+DATE: 2019.01.09
+AUTHORS: Takashi Maoka, Research Institute for Production Development, Kyoto 606-0805, Japan.
+LICENSE: CC BY
+COPYRIGHT: Takashi Maoka, Research Institute for Production Development, Kyoto 606-0805, Japan.
+PUBLICATION: Takashi Maoka, Structural studies of carotenoids in plants, animals, and food products, in Chapter 7, Carotenoids Nutrition, Analysis and Technology, Edited by Agnieska Kaezor and Malgorzata Baranska, Wiley Blackwell, UK, pp. 103-129, (2016).
+COMMENT: Window width to select the precursor ion was 3 Da.
+COMMENT: CONE_VOLTAGE was 20 V.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 19HP8024 to the Mass Spectrometry Society of Japan.
+CH$NAME: Amarouciaxanthin A
+CH$COMPOUND_CLASS: Natural product; carotenoids; xanthophyll
+CH$FORMULA: C40H54O5
+CH$EXACT_MASS: 614.39713
+CH$SMILES: CC1=CC(=O)CC([C@]1(CC(=O)/C(=C/C=C/C(=C/C=C/C=C(\C)/C=C/C=C(\C)/C=C=C2[C@](C[C@H](CC2(C)C)O)(C)O)/C)/C)O)(C)C
+CH$IUPAC: InChI=1S/C40H54O5/c1-28(17-13-18-30(3)21-22-36-37(6,7)24-34(42)26-39(36,10)44)15-11-12-16-29(2)19-14-20-31(4)35(43)27-40(45)32(5)23-33(41)25-38(40,8)9/h11-21,23,34,42,44-45H,24-27H2,1-10H3/b12-11+,17-13+,19-14+,28-15+,29-16+,30-18+,31-20+/t22?,34-,39+,40+/m0/s1
+CH$LINK: CHEMSPIDER 10470395
+CH$LINK: INCHIKEY NBAOGGCOLYTLDU-MEPQDIAVSA-N
+CH$LINK: LIPIDBANK VCA0076
+CH$LINK: PUBCHEM CID:16061220
+AC$INSTRUMENT: Xevo G2-S QtOF, Waters (USA) coupled to ACQUITY UPLC, Waters (USA).
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 eV
+AC$MASS_SPECTROMETRY: COLLISION_GAS Ar
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME BEH C18, I.D. 2.1 mm, length 100 mm, thickness 1.7 micrometer.
+AC$CHROMATOGRAPHY: FLOW_GRADIENT A CH3CN:H2O (85:15) and B CH3CN:CH3OH (65:35). A 100% for 8 min, then B 100% at the 9.4 mL/min linear gradient.
+MS$FOCUSED_ION: ION_TYPE [M+Na]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 637.38635
+PK$SPLASH: splash10-000i-0000009000-76dc66501c01bfbb7bdb
+PK$NUM_PEAK: 14
+PK$PEAK: m/z int. rel.int.
+  175.115 48 41
+  233.163 56 48
+  485.295 109 93
+  485.314 53 46
+  486.291 50 42
+  596.199 55 47
+  637.390 1172 999
+  637.429 83 71
+  638.388 365 311
+  638.419 75 64
+  639.392 106 90
+  639.408 69 58
+  640.419 110 94
+  651.430 58 49
+//
