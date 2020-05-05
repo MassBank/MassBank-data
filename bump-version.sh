@@ -12,18 +12,8 @@ install:
   - git clone --branch dev --depth 1 -q https://github.com/MassBank/MassBank-web.git .scripts/MassBank-web
   - mvn -q -f .scripts/MassBank-web/MassBank-Project/MassBank-lib/pom.xml package
 script: 
-  - .scripts/validate.sh $TESTDIR
-env:
+  - .scripts/MassBank-web/MassBank-Project/MassBank-lib/target/MassBank-lib/MassBank-lib/bin/Validator ./*
 EOF
-  for x in $(ls -d */);do
-    if [ "$x" = ".scripts/" ]; then
-      continue
-    fi
-    if [ "$x" = "figure/" ]; then
-      continue
-    fi
-    echo " - TESTDIR=$x" >> .travis.yml
-  done
 else
   echo Set version of release to $1. This version will validate against the master branch of MassBank-web.
 cat << 'EOF' > .travis.yml
@@ -35,16 +25,6 @@ install:
   - git clone --depth 1 -q https://github.com/MassBank/MassBank-web.git .scripts/MassBank-web
   - mvn -q -f .scripts/MassBank-web/MassBank-Project/MassBank-lib/pom.xml package
 script: 
-  - .scripts/validate.sh $TESTDIR
-env:
+  - .scripts/MassBank-web/MassBank-Project/MassBank-lib/target/MassBank-lib/MassBank-lib/bin/Validator ./*
 EOF
-  for x in $(ls -d */);do
-    if [ "$x" = ".scripts/" ]; then
-      continue
-    fi
-    if [ "$x" = "figure/" ]; then
-      continue
-    fi
-    echo " - TESTDIR=$x" >> .travis.yml
-  done
 fi

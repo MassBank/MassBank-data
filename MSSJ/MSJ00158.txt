@@ -1,0 +1,39 @@
+ACCESSION: MSJ00158
+RECORD_TITLE: Crassostreaxanthin B; LC-ESI-QTOF; MS2; POSITIVE; ESI; [M+Na]+; COLLISION_ENERGY 20 V.
+DATE: 2019.05.13
+AUTHORS: Takashi Maoka, Research Institute for Production Development, Kyoto 606-0805, Japan.
+LICENSE: CC BY
+COPYRIGHT: Takashi Maoka, Research Institute for Production Development, Kyoto 606-0805, Japan.
+PUBLICATION: Takashi Maoka, Structural studies of carotenoids in plants, animals, and food products, in Chapter 7, Carotenoids Nutrition, Analysis and Technology, Edited by Agnieska Kaezor and Malgorzata Baranska, Wiley Blackwell, UK, pp. 103-129, (2016).
+COMMENT: Window width to select the precursor ion was 3 Da.
+COMMENT: CONE_VOLTAGE was 20 V.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 19HP8024 to the Mass Spectrometry Society of Japan.
+CH$NAME: Crassostreaxanthin B
+CH$COMPOUND_CLASS: Natural products; Carotenoids, Xanthophyll
+CH$FORMULA: C40H54O4
+CH$EXACT_MASS: 598.4022
+CH$SMILES: CC1=C(C(C[C@@H](C1)O)(C)C)C#C/C(=C/C=C/C(=C/C=C/C=C(\C)/C=C/C=C(\C)/C(=O)C/C(=C(\C)/C[C@@H](CC(=O)C)O)/C)/C)/C
+CH$IUPAC: InChI=1S/C40H54O4/c1-28(17-13-18-30(3)21-22-38-34(7)24-37(43)27-40(38,9)10)15-11-12-16-29(2)19-14-20-31(4)39(44)25-33(6)32(5)23-36(42)26-35(8)41/h11-20,36-37,42-43H,23-27H2,1-10H3/b12-11+,17-13+,19-14+,28-15+,29-16+,30-18+,31-20+,33-32+/t36-,37+/m0/s1
+CH$LINK: CHEMSPIDER 8778997
+CH$LINK: INCHIKEY LGLPDUBVWXHHHU-ZCJJJFIZSA-N
+CH$LINK: PUBCHEM CID:10603629
+AC$INSTRUMENT: Xevo G2-S QtOF, Waters (USA) coupled to ACQUITY UPLC, Waters (USA).
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 V
+AC$MASS_SPECTROMETRY: COLLISION_GAS Ar
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME BEH C18, I.D. 2.1 mm, length 100 mm, thickness 1.7 micrometer.
+AC$CHROMATOGRAPHY: FLOW_GRADIENT A CH3CN:H2O (85:15) and B CH3CN:CH3OH (65:35). A 100% for 8 min, then B 100% at the 9.4 mL/min linear gradient.
+MS$FOCUSED_ION: ION_TYPE [M+Na]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 621.3914
+PK$SPLASH: splash10-00di-0000009000-dafb8ede831e9a3b6b9b
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  563.351 984 29
+  620.377 1136 33
+  621.392 34230 999
+  622.395 11920 348
+  623.392 1001 29
+//

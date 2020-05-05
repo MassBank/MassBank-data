@@ -1,0 +1,98 @@
+ACCESSION: MSJ00180
+RECORD_TITLE: 1-(9Z-Octadecenoyl)-sn-glycero-3-phosphocholine; MALDI-QITTOF; MS2; POSITIVE; [M+H]+; Low-energy CID
+DATE: 2020.02.21
+AUTHORS: Hidenori Takahashi, Mass Spectrometry Research Laboratory, Shimadzu Corporation, 1 Nishinokyo-Kuwabaracho Nakagyo-ku, Kyoto, 604-8511, Japan.
+LICENSE: CC BY
+COPYRIGHT: Hidenori Takahashi, Mass Spectrometry Research Laboratory, Shimadzu Corporation, 1 Nishinokyo-Kuwabaracho Nakagyo-ku, Kyoto, 604-8511, Japan.
+PUBLICATION: Hidenori Takahashi, Yuji Shimabukuro, Daiki Asakawa, Shosei Yamauchi, Sadanori Sekiya, Shinichi Iwamoto, Motoi Wada, Koichi Tanaka, "Structural Analysis of Phospholipid Using Hydrogen Abstraction Dissociation and Oxygen Attachment Dissociation in Tandem Mass Spectrometry", Anal. Chem., 90 (12), 7230-7238 (2018). DOI:10.1021/acs.analchem.8b00322.
+COMMENT: This is an experiment to compare with MSJ00179 that uses Hydrogen Abstraction Dissociation (HAD) instead of CID for the dissociation of [M+H]+.
+COMMENT: This mass spectral data is shown in Figure S3 of the publication.
+COMMENT: The instrument consists of QIT-TOF where Q selects [M+H]+ ion, IT is an ion trap chamber for the reaction of HAD, and TOF analyzes the product ions.
+COMMENT: MS data of the substance is MSJ00178; Figure 1(A) Inset in the publication.
+COMMENT: The sample was injected by direct infusion.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 19HP8024 to the Mass Spectrometry Society of Japan.
+COMMENT: The lipid standard was purchased from Avanti Polar Lipids (Alabaster, AL).
+CH$NAME: Lyso-PC 18:1(9Z)
+CH$NAME: 1-(9Z-Octadecenoyl)-sn-glycero-3-phosphocholine
+CH$COMPOUND_CLASS: Natural product; Phospholipid
+CH$FORMULA: C26H52NO7P
+CH$EXACT_MASS: 521.3481
+CH$SMILES: CCCCCCCC/C=C\CCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)O
+CH$IUPAC: InChI=1S/C26H52NO7P/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-26(29)32-23-25(28)24-34-35(30,31)33-22-21-27(2,3)4/h12-13,25,28H,5-11,14-24H2,1-4H3/b13-12-/t25-/m1/s1
+CH$LINK: CHEMSPIDER 17240641
+CH$LINK: INCHIKEY YAMUFBLWGFFICM-PTGWMXDISA-N
+CH$LINK: PUBCHEM CID:16081932
+AC$INSTRUMENT: MALDI-QITTOF noncommercial prototype model (Shimadzu Corporation, Kyoto, Japan)
+AC$INSTRUMENT_TYPE: MALDI-QITTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION MALDI
+AC$MASS_SPECTROMETRY: MATRIX 2,5-Dihydroxybenzoic acid
+AC$MASS_SPECTROMETRY: REAGENT_GAS Ar
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 522.3554
+PK$SPLASH: splash10-0f89-0900060000-412c13b0af459619342e
+PK$NUM_PEAK: 60
+PK$PEAK: m/z int. rel.int.
+  163.013 1.136 2
+  166.055 2.225 3
+  181.017 0.802 1
+  183.855 0.376 1
+  184.073 722.023 999
+  184.399 22.457 31
+  184.614 7.164 10
+  184.757 5.927 8
+  185.069 57.769 80
+  185.255 4.266 6
+  185.514 1.494 2
+  185.746 0.864 1
+  186.073 7.37 10
+  186.207 0.366 1
+  198.081 9.544 13
+  199.082 0.809 1
+  240.096 0.841 1
+  258.107 9.365 13
+  259.112 0.671 1
+  265.246 0.579 1
+  309.275 0.663 1
+  310.284 0.401 1
+  328.14 1.679 2
+  335.173 0.45 1
+  337.177 1.174 2
+  338.201 0.438 1
+  339.287 9.123 13
+  340.291 1.65 2
+  345.172 0.377 1
+  445.273 18.239 25
+  445.832 0.362 1
+  446.275 6.352 9
+  447.278 1.456 2
+  457.182 0.378 1
+  461.168 0.494 1
+  489.622 0.363 1
+  502.344 0.855 1
+  503.365 1.83 3
+  504.349 436.611 604
+  504.891 13.881 19
+  505.352 123.434 171
+  505.899 6.871 10
+  506.35 20.612 29
+  506.618 0.813 1
+  506.828 1.177 2
+  507.081 0.509 1
+  507.344 1.925 3
+  522.355 13.855 19
+  522.605 0.51 1
+  522.822 0.435 1
+  523.355 4.215 6
+  523.846 0.37 1
+  523.955 0.428 1
+  524.376 0.735 1
+  536.384 1.945 3
+  537.384 1.569 2
+  538.383 0.409 1
+  544.348 8.897 12
+  545.356 2.073 3
+  546.357 0.622 1
+//

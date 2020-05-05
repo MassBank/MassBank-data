@@ -1,0 +1,56 @@
+ACCESSION: UP000288
+RECORD_TITLE: Lauramidopropyl betaine; LC-ESI-ITFT; MS2; CE: 80%; R=15000; [M]+
+DATE: 2019.07.31
+AUTHORS: Liza-Marie Beckers, Werner Brack, Janek-Paul Dann, Martin Krauss, Erik Mueller, Tobias Schulze, Helmholtz Centre for Environmental Research GmbH - UFZ, Leipzig, Germany
+LICENSE: CC0
+COPYRIGHT: Copyright (C) 2019
+PUBLICATION: Beckers L-M, Brack W, Dann JP, Krauss M, Mueller E, Schulze T, 2020. Unraveling longitudinal pollution patterns of organic micropollutants in a river by non-target screening and cluster analysis. Science of The Total Environment, https://doi.org/10.1016/j.scitotenv.2020.138388
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: INTERNAL_ID 15
+CH$NAME: Lauramidopropyl betaine
+CH$NAME: 3-(Dodecanoylamino)propyl(carboxymethyl)dimethylammonium
+CH$NAME: carboxymethyl-[3-(dodecanoylamino)propyl]-dimethylazanium
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: [C19H39N2O3]+
+CH$EXACT_MASS: 343.2961
+CH$SMILES: CCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC(O)=O
+CH$IUPAC: InChI=1S/C19H38N2O3/c1-4-5-6-7-8-9-10-11-12-14-18(22)20-15-13-16-21(2,3)17-19(23)24/h4-17H2,1-3H3,(H-,20,22,23,24)/p+1
+CH$LINK: CAS 4292-10-8
+CH$LINK: PUBCHEM CID:20281
+CH$LINK: INCHIKEY MRUAUOIMASANKQ-UHFFFAOYSA-O
+CH$LINK: CHEMSPIDER 19107
+AC$INSTRUMENT: LTQ Orbitrap XL Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 80 % (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: COLUMN_NAME Kinetex Evo C18 2.6 um 50 x 2.1 mm
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 1 min, 0/100 at 13 min, 0/100 at 24 min, 95/5 at 24.3 min, 95/5/0 at 32 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 12.522 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% formic acid
+MS$FOCUSED_ION: BASE_PEAK 343.2955
+MS$FOCUSED_ION: PRECURSOR_M/Z 343.2955
+MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 2.12.0
+PK$SPLASH: splash10-0002-9100000000-3e6cf0b8b74b0ff03be3
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  67.0542 C5H7+ 1 67.0542 -1.1
+  71.0854 C5H11+ 1 71.0855 -1.47
+  81.0698 C6H9+ 1 81.0699 -0.89
+  95.0854 C7H11+ 1 95.0855 -1.08
+  109.1008 C8H13+ 1 109.1012 -3.48
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  67.0542 1874.4 239
+  71.0854 3808.9 486
+  81.0698 3467.4 443
+  95.0854 7816.9 999
+  109.1008 2511.4 320
+//

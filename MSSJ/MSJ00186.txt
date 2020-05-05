@@ -1,0 +1,100 @@
+ACCESSION: MSJ00186
+RECORD_TITLE: 1-Octadecanoyl-sn-glycero-3-phosphocholine; MALDI-QITTOF; MS2; POSITIVE; [M+H]+; RID
+DATE: 2020.02.24
+AUTHORS: Hidenori Takahashi, Mass Spectrometry Research Laboratory, Shimadzu Corporation, 1 Nishinokyo-Kuwabaracho Nakagyo-ku, Kyoto, 604-8511, Japan.
+LICENSE: CC BY
+COPYRIGHT: Hidenori Takahashi, Mass Spectrometry Research Laboratory, Shimadzu Corporation, 1 Nishinokyo-Kuwabaracho Nakagyo-ku, Kyoto, 604-8511, Japan.
+PUBLICATION: Hidenori Takahashi, Yuji Shimabukuro, Daiki Asakawa, Shosei Yamauchi, Sadanori Sekiya, Shinichi Iwamoto, Motoi Wada, Koichi Tanaka, "Structural Analysis of Phospholipid Using Hydrogen Abstraction Dissociation and Oxygen Attachment Dissociation in Tandem Mass Spectrometry", Anal. Chem., 90 (12), 7230-7238 (2018). DOI:10.1021/acs.analchem.8b00322.
+COMMENT: MALDI generates a stable [M+H]+ ion. Microwave discharge of H2O generates OH*, H* and 3O (triplet O) radicals. These radicals react with the stable [M+H]+ ion and give a mixture of [M+H+H*], [M+H+O]+ and [M+H+OH*]+ ions. These are dissociated to give product ions, which are detected as RID product ions.
+COMMENT: The instrument consists of QIT-TOF where Q selects [M+H]+ ion, IT is an ion trap chamber for the reaction of RID, and TOF analyzes the product ions.
+COMMENT: This mass spectral data is shown in Figure S5 of the publication. Fragment ions produced are annotated in Scheme 2 of the publication.
+COMMENT: Relative Intensity is magnified; m/z 166-190 by x5, m/z 200-510 by x100.
+COMMENT: The sample was injected by direct infusion of methanol solution.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 19HP8024 to the Mass Spectrometry Society of Japan.
+COMMENT: The lipid standard was purchased from Avanti Polar Lipids (Alabaster, AL).
+CH$NAME: Lyso-PC 18:0
+CH$NAME: 1-Octadecanoyl-sn-glycero-3-phosphocholine
+CH$COMPOUND_CLASS: Natural product; Phospholipid
+CH$FORMULA: C26H54NO7P
+CH$EXACT_MASS: 523.3638
+CH$SMILES: CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)O
+CH$IUPAC: InChI=1S/C26H54NO7P/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-26(29)32-23-25(28)24-34-35(30,31)33-22-21-27(2,3)4/h25,28H,5-24H2,1-4H3/t25-/m1/s1
+CH$LINK: INCHIKEY IHNKQIMGVNPMTC-RUZDIDTESA-N
+CH$LINK: PUBCHEM CID:497299
+AC$INSTRUMENT: MALDI-QITTOF noncommercial prototype model (Shimadzu Corporation, Kyoto, Japan)
+AC$INSTRUMENT_TYPE: MALDI-QITTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE RID
+AC$MASS_SPECTROMETRY: IONIZATION MALDI
+AC$MASS_SPECTROMETRY: MATRIX 2,5-Dihydroxybenzoic acid
+AC$MASS_SPECTROMETRY: REAGENT_GAS H2O microwave discharge
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 524.3711
+PK$SPLASH: splash10-00di-0000090000-c71d0ddcb01e4e40a76f
+PK$NUM_PEAK: 63
+PK$PEAK: m/z int. rel.int.
+  184.073 8.46 232
+  184.195 0.156 4
+  185.085 0.264 7
+  200.068 0.02 11
+  202.09 0.017 9
+  224.086 0.035 19
+  226.091 0.169 93
+  238.084 0.011 6
+  239.096 0.034 19
+  240.096 0.038 21
+  241.113 0.03 16
+  256.095 0.305 167
+  258.113 0.257 141
+  265.999 0.032 18
+  266.993 0.008 4
+  267.998 0.071 39
+  270 0.089 49
+  271.111 0.019 10
+  273.111 0.008 4
+  286.11 0.194 106
+  299.118 0.011 6
+  307.001 0.008 4
+  310.017 0.013 7
+  311.996 0.018 10
+  312.109 0.01 5
+  326.921 0.009 5
+  331.116 0.011 6
+  341.308 0.221 121
+  397.196 0.01 5
+  426.946 0.009 5
+  463.176 0.008 4
+  467.079 0.01 5
+  468.29 0.016 9
+  474.807 0.008 4
+  505.342 0.03 16
+  506.361 0.25 137
+  507.355 0.025 14
+  508.637 0.015 8
+  520.341 0.154 1
+  522.351 4.083 22
+  523.123 0.163 1
+  523.36 11.143 61
+  523.572 0.305 2
+  523.869 0.216 1
+  524.371 182.396 999
+  524.569 7.773 43
+  524.893 2.265 12
+  525.131 2.656 15
+  525.369 69.954 383
+  525.588 2.704 15
+  525.899 1.969 11
+  526.17 1.897 10
+  526.375 14.598 80
+  527.091 0.189 1
+  527.369 1.473 8
+  527.548 0.1 1
+  536.04 0.22 1
+  538.361 4.121 23
+  539.353 1.253 7
+  540.358 1.865 10
+  541.365 0.275 2
+  546.345 1.447 8
+  547.344 0.117 1
+//
