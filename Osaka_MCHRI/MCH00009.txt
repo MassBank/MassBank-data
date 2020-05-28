@@ -26,13 +26,13 @@ AC$MASS_SPECTROMETRY: LASER UV 337 nm nitrogen lazer, 20 Hz, 10 nsec
 AC$MASS_SPECTROMETRY: MATRIX A:B = 9:1 (A=10 mg/mL DHB in 20% acetonitrile, B=10 mg/mL 5-methoxysalicylic acid in 50% acetonitrile)
 PK$SPLASH: splash10-0fri-0930000000-0abd6a4f153851a6d444
 PK$ANNOTATION: m/z ion
-  287.05 [DHB+5-methoxysalicylic_acid+H-2H2O]+
-  273.04 [2DHB+H-2H2O]+
-  168.03 [5-methoxysalicylic_acid]*+
-  155.02 [DHB+H]+
-  154.02 [DHB]*+
-  151.04 [5-methoxysalicylic_acid_+H-H2O]+
   137.02 [DHB+H-H2O]+
+  151.04 [5-methoxysalicylic_acid_+H-H2O]+
+  154.02 [DHB]*+
+  155.02 [DHB+H]+
+  168.03 [5-methoxysalicylic_acid]*+
+  273.04 [2DHB+H-2H2O]+
+  287.05 [DHB+5-methoxysalicylic_acid+H-2H2O]+
 PK$NUM_PEAK: 31
 PK$PEAK: m/z int. rel.int.
   137.0227 157703 999

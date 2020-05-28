@@ -25,10 +25,10 @@ AC$MASS_SPECTROMETRY: SAMPLE_DRIPPING 10 mg/mL
 AC$CHROMATOGRAPHY: SOLVENT 30% acetonitrile / 0.1% trifloroacetic acid
 PK$SPLASH: splash10-0k9i-0930000000-74fe4a48aee9f8ddfe28
 PK$ANNOTATION: m/z ion
-  273.04 [2M+H-2H2O]+
-  177.02 [M+Na]+
-  155.02 [M+H-H2O]+
   154.02 [M]*+
+  155.02 [M+H-H2O]+
+  177.02 [M+Na]+
+  273.04 [2M+H-2H2O]+
 PK$NUM_PEAK: 18
 PK$PEAK: m/z int. rel.int.
   137.025554 47242 999
