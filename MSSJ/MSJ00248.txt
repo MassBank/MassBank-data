@@ -1,10 +1,10 @@
 ACCESSION: MSJ00248
-RECORD_TITLE: Imazosulfuron; ESI-QTOF; MS2; NEGATIVE; Isotopomer; [M-H]-; CID; 30 V
+RECORD_TITLE: Imazosulfuron; ESI-QTOF; MS2; NEGATIVE; [M-H]-; 37Cl-isotopolog ion; CID; 30 V
 DATE: 2020.03.18
 AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
 LICENSE: CC BY
 COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
-COMMENT: Precursor ion is [M-H]- of 37Cl-containing molecule.
+COMMENT: Precursor ion, [M-H]-, is a 37Cl-isotopolog ion.
 COMMENT: The sample was injected by direct infusion.
 COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 19HP8024 to the Mass Spectrometry Society of Japan.
 CH$NAME: Imazosulfuron
@@ -17,15 +17,15 @@ CH$LINK: CAS 122548-33-8
 CH$LINK: CHEMSPIDER 83451
 CH$LINK: INCHIKEY NAGRVUXEKKZNHT-UHFFFAOYSA-N
 CH$LINK: PUBCHEM CID:92433
-AC$INSTRUMENT: X500R QTOF ( AB Sciex LLC, USA)
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, USA)
 AC$INSTRUMENT_TYPE: ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
 AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
 AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
 AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
 AC$MASS_SPECTROMETRY: IONIZATION ESI
-MS$FOCUSED_ION: ION_TYPE [M-H]-
 MS$FOCUSED_ION: PRECURSOR_M/Z 413.0254
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
 PK$SPLASH: splash10-0f89-0790000000-3994561442e6d7f435b2
 PK$NUM_PEAK: 5
 PK$PEAK: m/z int. rel.int.

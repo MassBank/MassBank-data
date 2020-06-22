@@ -1,10 +1,11 @@
 ACCESSION: MSJ00207
-RECORD_TITLE: Pyraclonil; ESI-QTOF; MS2; POSITIVE; [M+H2+H]+; CID; 30 V
+RECORD_TITLE: Pyraclonil; ESI-QTOF; MS2; POSITIVE; [M+H]+; 37Cl-isotopolog ion; CID; 30 V
 DATE: 2019.11.29
 AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
 LICENSE: CC BY
 COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
 COMMENT: The sample was injected by direct infusion.
+COMMENT: Precursor ion, [M-H]-, is a 37Cl-isotopolog ion.
 COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 19HP8024 to the Mass Spectrometry Society of Japan.
 CH$NAME: Pyraclonil
 CH$COMPOUND_CLASS: Non-natural product
@@ -24,7 +25,7 @@ AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
 AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
 AC$MASS_SPECTROMETRY: IONIZATION ESI
 MS$FOCUSED_ION: PRECURSOR_M/Z 317.1276
-MS$FOCUSED_ION: PRECURSOR_TYPE [M+H2+H]+
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
 PK$SPLASH: splash10-00di-0890000000-7c2b22c4e364fd7a9478
 PK$NUM_PEAK: 17
 PK$PEAK: m/z int. rel.int.
