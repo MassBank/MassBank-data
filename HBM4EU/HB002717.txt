@@ -1,0 +1,64 @@
+ACCESSION: HB002717
+RECORD_TITLE: Metoclopramide; ESI-QTOF; MS2; CE: 45eV; R=15000; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Herbert Oberacher, Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Metoclopramide
+CH$NAME: 4-Amino-5-chloro-N-[2-(diethylamino)ethyl]-2-methoxybenzamide
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C14H22ClN3O2
+CH$EXACT_MASS: 299.1401
+CH$SMILES: CCN(CC)CCNC(=O)C1=CC(Cl)=C(N)C=C1OC
+CH$IUPAC: InChI=1S/C14H22ClN3O2/c1-4-18(5-2)7-6-17-14(19)10-8-11(15)12(16)9-13(10)20-3/h8-9H,4-7,16H2,1-3H3,(H,17,19)
+CH$LINK: CAS 364-62-5
+CH$LINK: COMPTOX DTXSID6045169
+CH$LINK: INCHIKEY TTWJBBZEZQICBI-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4168
+AC$INSTRUMENT: TripleTOF 5600+SCIEX
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 45 eV
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: FLOW_RATE 20 uL/min
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 50/50
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 300.1474
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-001i-0920000000-83f34719274bc0360bd9
+PK$NUM_PEAK: 26
+PK$PEAK: m/z int. rel.int.
+  63.0246 35.9 1
+  78.0347 84.1 1
+  90.0342 341.8 6
+  92.0498 70.7 1
+  93.0575 246.1 4
+  98.9996 64.6 1
+  100.112 165.1 3
+  105.0446 51.2 1
+  113.0024 968 16
+  119.06 43.3 1
+  120.0438 269.9 4
+  126.0099 1167.2 19
+  127.0176 39 1
+  128.0254 482.5 8
+  129.0094 230.9 4
+  140.0128 71.3 1
+  140.9969 3712.5 61
+  147.0544 145 2
+  148.0622 901 15
+  156.0201 2176.1 36
+  168.0076 3417 56
+  168.9914 1944 32
+  183.0312 8432.7 138
+  184.0154 60920.8 999
+  212.0341 10125.6 166
+  227.0577 14748.3 242
+//

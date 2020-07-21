@@ -1,0 +1,91 @@
+ACCESSION: MSJ00183
+RECORD_TITLE: 1-(9Z-Octadecenoyl)-sn-glycero-3-phosphocholine; MALDI-QITTOF; MS2; POSITIVE; [M+H]+; RID
+DATE: 2020.01.25
+AUTHORS: Hidenori Takahashi, Mass Spectrometry Research Laboratory, Shimadzu Corporation, 1 Nishinokyo-Kuwabaracho Nakagyo-ku, Kyoto, 604-8511, Japan.
+LICENSE: CC BY
+COPYRIGHT: Hidenori Takahashi, Mass Spectrometry Research Laboratory, Shimadzu Corporation, 1 Nishinokyo-Kuwabaracho Nakagyo-ku, Kyoto, 604-8511, Japan.
+PUBLICATION: Hidenori Takahashi, Yuji Shimabukuro, Daiki Asakawa, Shosei Yamauchi, Sadanori Sekiya, Shinichi Iwamoto, Motoi Wada, Koichi Tanaka, "Structural Analysis of Phospholipid Using Hydrogen Abstraction Dissociation and Oxygen Attachment Dissociation in Tandem Mass Spectrometry", Anal. Chem., 90 (12), 7230-7238 (2018). DOI:10.1021/acs.analchem.8b00322.
+COMMENT: What is "Radical Induced Dissociation" (RID)?  Microwave discharge of H2O generates OH*, H* and 3O (triplet O) radicals. These radicals react to dissociate the stable [M+H]+ ion.
+COMMENT: The instrument consists of QIT-TOF where Q selects [M+H]+ ion, IT is an ion trap chamber for the reaction of RID, and TOF analyzes the product ions.
+COMMENT: This mass spectral data is shown in Figure 4(A) of the publication. Fragment ions produced are annotated in Scheme 2. MS data of the substance is MSJ00178; Figure 1(A) Inset in the publication.
+COMMENT: Relative intensity of the peaks from m/z 300 to 499 is magnified by x100.
+COMMENT: The sample was injected by direct infusion of methanol solution.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 19HP8024 to the Mass Spectrometry Society of Japan.
+COMMENT: The lipid standard was purchased from Avanti Polar Lipids (Alabaster, AL).
+CH$NAME: Lyso-PC 18:1(9Z)
+CH$NAME: 1-(9Z-Octadecenoyl)-sn-glycero-3-phosphocholine
+CH$COMPOUND_CLASS: Natural product; Phospholipid
+CH$FORMULA: C26H52NO7P
+CH$EXACT_MASS: 521.3481
+CH$SMILES: CCCCCCCC/C=C\CCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)O
+CH$IUPAC: InChI=1S/C26H52NO7P/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-26(29)32-23-25(28)24-34-35(30,31)33-22-21-27(2,3)4/h12-13,25,28H,5-11,14-24H2,1-4H3/b13-12-/t25-/m1/s1
+CH$LINK: CHEMSPIDER 17240641
+CH$LINK: INCHIKEY YAMUFBLWGFFICM-PTGWMXDISA-N
+CH$LINK: PUBCHEM CID:16081932
+AC$INSTRUMENT: MALDI-QITTOF noncommercial prototype model (Shimadzu Corporation, Kyoto, Japan)
+AC$INSTRUMENT_TYPE: MALDI-QITTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE RID
+AC$MASS_SPECTROMETRY: IONIZATION MALDI
+AC$MASS_SPECTROMETRY: MATRIX 2,5-Dihydroxybenzoic acid
+AC$MASS_SPECTROMETRY: REAGENT_GAS H2O microwave discharge
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 522.3554
+PK$SPLASH: splash10-00di-0000090000-644f187e43fad6f1a70a
+PK$NUM_PEAK: 53
+PK$PEAK: m/z int. rel.int.
+  303.954 0.011 22
+  306.147 0.02 40
+  316.441 0.017 34
+  322.129 0.012 24
+  335.043 0.025 50
+  336.159 0.015 30
+  341.316 0.018 36
+  353.037 0.018 36
+  383.951 0.015 30
+  396.233 0.013 26
+  402.241 0.011 22
+  409.117 0.012 24
+  419.147 0.011 22
+  423.121 0.013 26
+  424.232 0.062 123
+  426.225 0.093 185
+  438.242 0.016 32
+  449.905 0.019 38
+  456.953 0.014 28
+  458.398 0.011 22
+  465.25 0.018 36
+  468.655 0.01 20
+  484.758 0.012 24
+  515.316 0.086 2
+  516.338 0.026 1
+  517.335 0.124 2
+  518.301 0.046 1
+  519.313 0.23 5
+  520.339 2.062 41
+  521.347 1.712 34
+  522.355 50.272 999
+  522.56 1.952 39
+  522.863 0.472 9
+  523.121 0.651 13
+  523.352 16.119 320
+  523.576 0.49 10
+  523.88 0.398 8
+  524.164 0.47 9
+  524.362 3.789 75
+  525.361 0.602 12
+  526.214 0.035 1
+  526.353 0.049 1
+  527.221 0.031 1
+  528.348 0.037 1
+  529.197 0.049 1
+  529.317 0.079 2
+  533.341 0.044 1
+  535.329 0.102 2
+  536.337 0.211 4
+  537.32 0.026 1
+  538.344 1.559 31
+  539.349 0.373 7
+  540.341 0.154 3
+//

@@ -1,0 +1,47 @@
+ACCESSION: HB002130
+RECORD_TITLE: Etofylline; LC-ESI-QFT; MS2; CE: 30%; R=17500; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Jean-Philippe Antignac, Yann Guitoon, LABERCA, Oniris, INRAE, UMR 1329, 44307, Nantes, France
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by LABERCA, Oniris, INRAE, UMR 1329, 44307, Nantes, France
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin EL, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Etofylline
+CH$NAME: 7-(2-Hydroxyethyl)-1,3-dimethyl-3,7-dihydro-1H-purine-2,6-dione
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C9H12N4O3
+CH$EXACT_MASS: 224.0909
+CH$SMILES: CN1C2=C(N(CCO)C=N2)C(=O)N(C)C1=O
+CH$IUPAC: InChI=1S/C9H12N4O3/c1-11-7-6(8(15)12(2)9(11)16)13(3-4-14)5-10-7/h5,14H,3-4H2,1-2H3
+CH$LINK: CAS 519-37-9
+CH$LINK: COMPTOX DTXSID5023031
+CH$LINK: INCHIKEY NWPRCRWQMGIBOT-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:1892
+AC$INSTRUMENT: Q Exactive Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 17500
+AC$CHROMATOGRAPHY: COLUMN_NAME Hypersil GOLD 1.9 um 2.1 x 100 mm Thermo Fisher Scientific
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 2.4 min, 75/25 at 4.5 min, 30/70 at 11 min, 0/100 at 14 min, 0/100 at 16.5 min, 95/5 at 19 min, 95/5 at 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 400 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile with 0.1% acetic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 225.0983
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-003r-0940000000-c0c8b63cc19c405a521d
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  69.0457 604042.6 2
+  96.0562 1206276.7 3
+  124.0508 17227511.4 48
+  142.061 332766 1
+  168.0769 751255.4 2
+  181.072 361702144 999
+  186.0874 279957.5 1
+  225.0983 197937881.3 547
+//

@@ -1,0 +1,74 @@
+ACCESSION: HB002765
+RECORD_TITLE: Sulfamoxole; ESI-QTOF; MS2; CE: 40eV; R=15000; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Herbert Oberacher, Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Sulfamoxole
+CH$NAME: 4-Amino-N-(4,5-dimethyl-1,3-oxazol-2-yl)benzene-1-sulfonamide
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C11H13N3O3S
+CH$EXACT_MASS: 267.0678
+CH$SMILES: CC1=C(C)N=C(NS(=O)(=O)C2=CC=C(N)C=C2)O1
+CH$IUPAC: InChI=1S/C11H13N3O3S/c1-7-8(2)17-11(13-7)14-18(15,16)10-5-3-9(12)4-6-10/h3-6H,12H2,1-2H3,(H,13,14)
+CH$LINK: CAS 729-99-7
+CH$LINK: COMPTOX DTXSID5023617
+CH$LINK: INCHIKEY CYFLXLSBHQBMFT-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:12894
+AC$INSTRUMENT: TripleTOF 5600+SCIEX
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40 eV
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: FLOW_RATE 20 uL/min
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 50/50
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 268.0751
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-0btc-5900000000-58c5a85abc00d040f835
+PK$NUM_PEAK: 36
+PK$PEAK: m/z int. rel.int.
+  53.0415 2.7 4
+  54.0367 9.3 13
+  65.0408 123.9 175
+  66.0357 2 3
+  68.0514 1.5 2
+  69.0592 14.6 21
+  70.067 45.5 64
+  77.0404 0.5 1
+  79.0556 0.7 1
+  80.051 38 54
+  81.0711 0.4 1
+  83.0618 1.8 3
+  90.035 0.5 1
+  92.0507 546.3 772
+  93.0585 4.2 6
+  94.0663 1.9 3
+  97.0406 1.1 2
+  107.0862 0.5 1
+  107.9702 0.5 1
+  108.0452 706.6 999
+  110.061 1.1 2
+  111.0561 36 51
+  112.0639 86.1 122
+  113.0717 346.8 490
+  120.0563 0.6 1
+  123.0137 0.9 1
+  124.0086 1 1
+  125.0277 0.7 1
+  140.017 53.4 75
+  153.0225 0.5 1
+  156.0119 144 204
+  158.0276 1.1 2
+  167.9989 0.6 1
+  171.0336 0.4 1
+  211.0081 0.4 1
+  268.0751 0.5 1
+//

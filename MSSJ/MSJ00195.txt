@@ -1,0 +1,38 @@
+ACCESSION: MSJ00195
+RECORD_TITLE: Dicyclohexylurea; ESI-QTOF; MS2; POSITIVE; [M+H]+; CID; 35 V
+DATE: 2020.03.05
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: The sample was injected by direct infusion.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 19HP8024 to the Mass Spectrometry Society of Japan.
+CH$NAME: Dicyclohexylurea
+CH$NAME: 1,3-Dicyclohexylurea
+CH$COMPOUND_CLASS: Non-natural product; Ureas
+CH$FORMULA: C13H24N2O
+CH$EXACT_MASS: 224.1889
+CH$SMILES: C1CCC(CC1)NC(=O)NC2CCCCC2
+CH$IUPAC: InChI=1S/C13H24N2O/c16-13(14-11-7-3-1-4-8-11)15-12-9-5-2-6-10-12/h11-12H,1-10H2,(H2,14,15,16)
+CH$LINK: CAS 2387-23-7
+CH$LINK: CHEMSPIDER 4126
+CH$LINK: INCHIKEY ADFXKUOMJKEIND-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4277
+AC$INSTRUMENT: X500R QTOF (AB Sciex Pte. Ltd, USA)
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 35 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+MS$FOCUSED_ION: PRECURSOR_M/Z 225.1961
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-0bu3-9200000000-fb15d02b9e626f40ced9
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  55.0542 28.79 999
+  61.0396 27.06 939
+  83.0855 23.05 800
+  100.1121 5.57 193
+  143.1179 7.81 271
+  192.9988 7.17 249
+//

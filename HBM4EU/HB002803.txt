@@ -1,0 +1,60 @@
+ACCESSION: HB002803
+RECORD_TITLE: Amiloride; LC-ESI-QFT; MS2; CE: CE15; R=17500; [M+H]+
+DATE: 2019.09.23
+AUTHORS: Kondic T, Singh R, Elapavalore A, Krier J, Mohammed Taha H, Narayanan M, Schymanski E
+LICENSE: CC0
+COPYRIGHT: Copyright (c) by Environmental Cheminformatics, LCSB, University of Luxembourg, Luxembourg
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE standard compound
+COMMENT: INTERNAL_ID 9
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Amiloride
+CH$NAME: 3,5-diamino-6-chloro-N-(diaminomethylidene)pyrazine-2-carboxamide
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C6H8ClN7O
+CH$EXACT_MASS: 229.0479
+CH$SMILES: NC(=N)NC(=O)C1=NC(Cl)=C(N)N=C1N
+CH$IUPAC: InChI=1S/C6H8ClN7O/c7-2-4(9)13-3(8)1(12-2)5(15)14-6(10)11/h(H4,8,9,13)(H4,10,11,14,15)
+CH$LINK: CAS 2609-46-3
+CH$LINK: CHEBI 2639
+CH$LINK: KEGG D07447
+CH$LINK: PUBCHEM CID:16231
+CH$LINK: INCHIKEY XSDQTOBWRPYKKA-UHFFFAOYSA-N
+CH$LINK: CHEMSPIDER 15403
+AC$INSTRUMENT: Q Exactive Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY CE15
+AC$MASS_SPECTROMETRY: RESOLUTION 17500
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC BEH C18 1.7 um, 2.1 x 150 mm, Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 90/10 at 0 min, 90/10 at 2 min, 0/100 at 15 min, 0/100 at 20 min, 90/10 at 21 min, 90/10 at 30 min
+AC$CHROMATOGRAPHY: FLOW_RATE 200 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 12.443 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol
+MS$FOCUSED_ION: BASE_PEAK 223.0628
+MS$FOCUSED_ION: PRECURSOR_M/Z 230.0552
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 2.11.3.1
+PK$SPLASH: splash10-01p9-5900000000-a0e2af50354a6f21b2ea
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  60.0559 CH6N3+ 1 60.0556 5.2
+  86.0347 C2H4N3O+ 2 86.0349 -2.01
+  100.99 C3H2ClN2+ 1 100.9901 -0.91
+  161.0231 C4H6ClN4O+ 2 161.0225 4.08
+  171.007 C5H4ClN4O+ 2 171.0068 1.12
+  189.0168 C3H4ClN7O+ 1 189.016 3.99
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  60.0559 700972 598
+  86.0347 43004.5 36
+  100.99 3352.1 2
+  161.0231 49145 41
+  171.007 91778.5 78
+  189.0168 1169733.5 999
+//

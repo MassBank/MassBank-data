@@ -1,0 +1,42 @@
+ACCESSION: HB002509
+RECORD_TITLE: Dixyrazine ; LC-ESI-QTOF; MS2; CE: 10 eV; R=3600; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Noelia Caballero-Casero, Adrian Covaci, Toxicological Center, University of Antwerp, Wilrijk, Belgium
+LICENSE: CC0
+COPYRIGHT: Copyright (c) by Toxicological Center, University of Antwerp, Wilrijk, Belgium
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+COMMENT: Flow Injection
+CH$NAME: Dixyrazine 
+CH$NAME: 2-(2-{4-[2-Methyl-3-(10H-phenothiazin-10-yl)propyl]piperazin-1-yl}ethoxy)ethan-1-ol
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C24H33N3O2S
+CH$EXACT_MASS: 427.2293
+CH$SMILES: CC(CN1CCN(CCOCCO)CC1)CN1C2=CC=CC=C2SC2=CC=CC=C12
+CH$IUPAC: InChI=1S/C24H33N3O2S/c1-20(18-26-12-10-25(11-13-26)14-16-29-17-15-28)19-27-21-6-2-4-8-23(21)30-24-9-5-3-7-22(24)27/h2-9,20,28H,10-19H2,1H3
+CH$LINK: CAS 2470-73-7 
+CH$LINK: COMPTOX DTXSID10947639
+CH$LINK: INCHIKEY MSYUMPGNGDNTIQ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:17182
+AC$INSTRUMENT: 6570 QTOF Agilent
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10 eV
+AC$MASS_SPECTROMETRY: RESOLUTION 3600
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 50/50
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water
+AC$CHROMATOGRAPHY: SOLVENT B methanol
+MS$FOCUSED_ION: PRECURSOR_M/Z 428.2367
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-004i-0120900000-f506a1355b601d40586c
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  187.1406 69622.1 122
+  229.187 182644.1 320
+  428.2367 570902.1 999
+//

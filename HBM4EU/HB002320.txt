@@ -1,0 +1,51 @@
+ACCESSION: HB002320
+RECORD_TITLE: Dothiepin; LC-ESI-ITFT; MS2; CE: 25%; R=7500; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Laurent Debrauwer, Emilien L. Jamin, Research Centre in Food Toxicology (TOXALIM), INRAE, MetaboHUB-Metatoul platform, Toulouse, France
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2000 by Research Centre in Food Toxicology (TOXALIM), INRAE, MetaboHUB-Metatoul platform, Toulouse, France
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Dothiepin
+CH$NAME: 3-(Dibenzo[b,e]thiepin-11(6H)-ylidene)-N,N-dimethylpropan-1-amine
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C19H21NS
+CH$EXACT_MASS: 295.1395
+CH$SMILES: CN(C)CCC=C1C2=CC=CC=C2CSC2=C1C=CC=C2
+CH$IUPAC: InChI=1S/C19H21NS/c1-20(2)13-7-11-17-16-9-4-3-8-15(16)14-21-19-12-6-5-10-18(17)19/h3-6,8-12H,7,13-14H2,1-2H3
+CH$LINK: CAS 113-53-1
+CH$LINK: COMPTOX DTXSID2022961
+CH$LINK: INCHIKEY PHTUQLWOUWZIMZ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:3155
+AC$INSTRUMENT: LTQ Orbitrap XL Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 25% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 7500
+AC$CHROMATOGRAPHY: COLUMN_NAME Hypersil GOLD C18 1.9 um 100 x 2.1 mm Thermo Fisher Scientific
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 100/0 at 0 min, 0/100 at 30 min, 0/100 at 35 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water with 5% methanol and 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% acetic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 296.1468
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-0002-0090000000-b364a27962423a7f2d24
+PK$NUM_PEAK: 12
+PK$PEAK: m/z int. rel.int.
+  57.0619 13818.3 1
+  58.065 120607.6 6
+  117.0698 32523.4 2
+  123.0263 13284.5 1
+  147.0264 27020.7 1
+  191.0858 18027.5 1
+  217.1013 30716.5 1
+  218.1092 87694.1 4
+  225.0737 414878.7 20
+  251.0893 891170 43
+  253.1052 18622.9 1
+  296.1468 20532452 999
+//

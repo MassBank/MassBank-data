@@ -1,0 +1,49 @@
+ACCESSION: UP000075
+RECORD_TITLE: Gabapentin-lactam; LC-ESI-ITFT; MS2; CE: 40%; R=15000; [M+H]+
+DATE: 2019.07.31
+AUTHORS: Liza-Marie Beckers, Werner Brack, Janek-Paul Dann, Martin Krauss, Erik Mueller, Tobias Schulze, Helmholtz Centre for Environmental Research GmbH - UFZ, Leipzig, Germany
+LICENSE: CC0
+COPYRIGHT: Copyright (C) 2019
+PUBLICATION: Beckers L-M, Brack W, Dann JP, Krauss M, Mueller E, Schulze T, 2020. Unraveling longitudinal pollution patterns of organic micropollutants in a river by non-target screening and cluster analysis. Science of The Total Environment, https://doi.org/10.1016/j.scitotenv.2020.138388
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: INTERNAL_ID 7
+CH$NAME: Gabapentin-lactam
+CH$NAME: 2-azaspiro[4.5]decan-3-one
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C9H15NO
+CH$EXACT_MASS: 153.1154
+CH$SMILES: O=C1CC2(CN1)CCCCC2
+CH$IUPAC: InChI=1S/C9H15NO/c11-8-6-9(7-10-8)4-2-1-3-5-9/h1-7H2,(H,10,11)
+CH$LINK: CAS 64744-50-9
+CH$LINK: PUBCHEM CID:47457
+CH$LINK: INCHIKEY JAWPQJDOQPSNIQ-UHFFFAOYSA-N
+CH$LINK: CHEMSPIDER 43180
+AC$INSTRUMENT: LTQ Orbitrap XL Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40 % (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: COLUMN_NAME Kinetex Evo C18 2.6 um 50 x 2.1 mm
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 1 min, 0/100 at 13 min, 0/100 at 24 min, 95/5 at 24.3 min, 95/5/0 at 32 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.268 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% formic acid
+MS$FOCUSED_ION: BASE_PEAK 154.1225
+MS$FOCUSED_ION: PRECURSOR_M/Z 154.1226
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 2.12.0
+PK$SPLASH: splash10-0udi-0900000000-b210deb82eb77ea8fd03
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  95.0856 C7H11+ 1 95.0855 0.42
+  154.1225 C9H16NO+ 1 154.1226 -0.59
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  95.0856 931.7 1
+  154.1225 554888.9 999
+//

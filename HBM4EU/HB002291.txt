@@ -1,0 +1,56 @@
+ACCESSION: HB002291
+RECORD_TITLE: Desipramine; LC-ESI-ITFT; MS2; CE: 70%; R=7500; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Laurent Debrauwer, Emilien L. Jamin, Research Centre in Food Toxicology (TOXALIM), INRAE, MetaboHUB-Metatoul platform, Toulouse, France
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2000 by Research Centre in Food Toxicology (TOXALIM), INRAE, MetaboHUB-Metatoul platform, Toulouse, France
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Desipramine
+CH$NAME: 3-(10,11-Dihydro-5H-dibenzo[b,f]azepin-5-yl)-N-methylpropan-1-amine
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C18H22N2
+CH$EXACT_MASS: 266.1783
+CH$SMILES: CNCCCN1C2=C(CCC3=C1C=CC=C3)C=CC=C2
+CH$IUPAC: InChI=1S/C18H22N2/c1-19-13-6-14-20-17-9-4-2-7-15(17)11-12-16-8-3-5-10-18(16)20/h2-5,7-10,19H,6,11-14H2,1H3
+CH$LINK: CAS 50-47-5
+CH$LINK: COMPTOX DTXSID6022896
+CH$LINK: INCHIKEY HCYAFALTSJYZDH-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:2995
+AC$INSTRUMENT: LTQ Orbitrap XL Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 70% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 7500
+AC$CHROMATOGRAPHY: COLUMN_NAME Hypersil GOLD C18 1.9 um 100 x 2.1 mm Thermo Fisher Scientific
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 100/0 at 0 min, 0/100 at 30 min, 0/100 at 35 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water with 5% methanol and 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% acetic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 267.1856
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-00di-9230000000-7664ada48a25c59c9404
+PK$NUM_PEAK: 17
+PK$PEAK: m/z int. rel.int.
+  57.1293 17073.4 4
+  57.1364 16504.5 4
+  57.1487 18513.6 4
+  57.1613 10010.3 2
+  57.1629 9259 2
+  72.0806 4445049.5 999
+  91.0541 23069.8 5
+  130.0651 15499.9 3
+  158.0965 14637.5 3
+  180.081 71254.1 16
+  193.0887 910426.1 205
+  194.0966 62221.8 14
+  195.1045 189025.7 42
+  196.1123 118522.8 27
+  208.1122 1597368.5 359
+  220.1128 73618.9 17
+  236.1437 87314.1 20
+//

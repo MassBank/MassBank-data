@@ -1,0 +1,35 @@
+ACCESSION: MSJ00261
+RECORD_TITLE: Quinoclamine; ESI-QTOF; MS2; NEGATIVE; [M-H]-; CID; 60 V
+DATE: 2020.03.18
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: The sample was injected by direct infusion.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 19HP8024 to the Mass Spectrometry Society of Japan.
+CH$NAME: Quinoclamine
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C10H6ClNO2
+CH$EXACT_MASS: 207.0087
+CH$SMILES: c1ccc2c(c1)C(=O)C(=C(C2=O)Cl)N
+CH$IUPAC: InChI=1S/C10H6ClNO2/c11-7-8(12)10(14)6-4-2-1-3-5(6)9(7)13/h1-4H,12H2
+CH$LINK: CAS 2797-51-5
+CH$LINK: CHEMSPIDER 16770
+CH$LINK: INCHIKEY OBLNWSCLAYSJJR-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:17748
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, USA)
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 60 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+MS$FOCUSED_ION: PRECURSOR_M/Z 206.0014
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
+PK$SPLASH: splash10-00lr-9000000000-76be982dc0d6be164b0f
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  26.0034 0.4047 105
+  34.9691 3.843 999
+  50.0032 0.19667 51
+  65.9981 2.53096 658
+//

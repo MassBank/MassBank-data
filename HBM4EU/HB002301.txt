@@ -1,0 +1,62 @@
+ACCESSION: HB002301
+RECORD_TITLE: Dibucaine; LC-ESI-ITFT; MS2; CE: 55%; R=7500; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Laurent Debrauwer, Emilien L. Jamin, Research Centre in Food Toxicology (TOXALIM), INRAE, MetaboHUB-Metatoul platform, Toulouse, France
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2000 by Research Centre in Food Toxicology (TOXALIM), INRAE, MetaboHUB-Metatoul platform, Toulouse, France
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Dibucaine
+CH$NAME: 2-Butoxy-N-[2-(diethylamino)ethyl]quinoline-4-carboxamide
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C20H29N3O2
+CH$EXACT_MASS: 343.226
+CH$SMILES: CCCCOC1=CC(C(=O)NCCN(CC)CC)=C2C=CC=CC2=N1
+CH$IUPAC: InChI=1S/C20H29N3O2/c1-4-7-14-25-19-15-17(16-10-8-9-11-18(16)22-19)20(24)21-12-13-23(5-2)6-3/h8-11,15H,4-7,12-14H2,1-3H3,(H,21,24)
+CH$LINK: CAS 85-79-0
+CH$LINK: COMPTOX DTXSID3045271
+CH$LINK: INCHIKEY PUFQVTATUTYEAL-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:3025
+AC$INSTRUMENT: LTQ Orbitrap XL Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 55% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 7500
+AC$CHROMATOGRAPHY: COLUMN_NAME Hypersil GOLD C18 1.9 um 100 x 2.1 mm Thermo Fisher Scientific
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 100/0 at 0 min, 0/100 at 30 min, 0/100 at 35 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water with 5% methanol and 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% acetic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 344.2333
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-00xr-0190000000-57f11e88fa195298eac7
+PK$NUM_PEAK: 23
+PK$PEAK: m/z int. rel.int.
+  57.07 21768.1 2
+  57.0945 16856.5 1
+  72.0807 24189.4 2
+  74.0963 248638.5 22
+  100.1121 595936.7 52
+  116.0494 393993.7 34
+  130.0652 12844.1 1
+  144.0444 585675.3 51
+  146.0601 67010.7 6
+  158.06 96111.8 8
+  171.0553 281117.7 24
+  172.0394 1595263.9 138
+  182.0963 46487.8 4
+  187.0867 83890.3 7
+  200.107 89758.9 8
+  202.1231 73248.3 6
+  215.0816 9579826.9 830
+  225.1385 22679 2
+  227.1183 343343.6 30
+  228.1021 972336 84
+  243.1497 96330.8 8
+  269.2105 17444.5 2
+  271.1443 11529722 999
+//

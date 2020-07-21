@@ -1,0 +1,65 @@
+ACCESSION: HB002414
+RECORD_TITLE: Phenazone; LC-ESI-ITFT; MS2; CE: 50%; R=7500; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Laurent Debrauwer, Emilien L. Jamin, Research Centre in Food Toxicology (TOXALIM), INRAE, MetaboHUB-Metatoul platform, Toulouse, France
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2000 by Research Centre in Food Toxicology (TOXALIM), INRAE, MetaboHUB-Metatoul platform, Toulouse, France
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Phenazone
+CH$NAME: 1,5-Dimethyl-2-phenyl-1,2-dihydro-3H-pyrazol-3-one
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C11H12N2O
+CH$EXACT_MASS: 188.095
+CH$SMILES: CN1N(C(=O)C=C1C)C1=CC=CC=C1
+CH$IUPAC: InChI=1S/C11H12N2O/c1-9-8-11(14)13(12(9)2)10-6-4-3-5-7-10/h3-8H,1-2H3
+CH$LINK: CAS 60-80-0
+CH$LINK: COMPTOX DTXSID6021117
+CH$LINK: INCHIKEY VEQOALNAAJBPNY-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:2206
+AC$INSTRUMENT: LTQ Orbitrap XL Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 50% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 7500
+AC$CHROMATOGRAPHY: COLUMN_NAME Hypersil GOLD C18 1.9 um 100 x 2.1 mm Thermo Fisher Scientific
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 100/0 at 0 min, 0/100 at 30 min, 0/100 at 35 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: SOLVENT A water with 5% methanol and 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% acetic acid
+MS$FOCUSED_ION: PRECURSOR_M/Z 189.1023
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-000i-0900000000-4cc4bca109f7aaae3b81
+PK$NUM_PEAK: 26
+PK$PEAK: m/z int. rel.int.
+  56.0493 152907.6 4
+  58.065 171166.3 5
+  70.0648 31971.6 1
+  91.0541 84456.1 2
+  96.0682 202198.7 5
+  98.06 51695.5 1
+  104.0496 336960.2 9
+  106.0653 128975.9 3
+  111.0554 29642.3 1
+  117.0701 63905.6 2
+  118.0651 246680.9 7
+  120.0809 275121 7
+  130.0652 324637.5 9
+  131.073 550392.2 15
+  132.0808 280005 7
+  133.0759 76641.6 2
+  134.0963 52559.6 1
+  144.081 580673.1 15
+  145.0648 197314.7 5
+  146.084 561700.6 15
+  147.0917 977481.5 26
+  148.076 89603.1 2
+  149.0708 47224.8 1
+  161.1074 1280140.8 34
+  174.0789 560535.9 15
+  189.1023 37569432 999
+//

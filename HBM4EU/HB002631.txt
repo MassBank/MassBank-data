@@ -1,0 +1,55 @@
+ACCESSION: HB002631
+RECORD_TITLE: Cyclizine; ESI-QTOF; MS2; CE: 15eV; R=15000; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Herbert Oberacher, Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Cyclizine
+CH$NAME: 1-(Diphenylmethyl)-4-methylpiperazine
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C18H22N2
+CH$EXACT_MASS: 266.1783
+CH$SMILES: CN1CCN(CC1)C(C1=CC=CC=C1)C1=CC=CC=C1
+CH$IUPAC: InChI=1S/C18H22N2/c1-19-12-14-20(15-13-19)18(16-8-4-2-5-9-16)17-10-6-3-7-11-17/h2-11,18H,12-15H2,1H3
+CH$LINK: CAS 82-92-8
+CH$LINK: COMPTOX DTXSID4022864
+CH$LINK: INCHIKEY UVKZSORBKUEBAZ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:6726
+AC$INSTRUMENT: TripleTOF 5600+SCIEX
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 15 eV
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: FLOW_RATE 20 uL/min
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 50/50
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 267.1856
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-014i-0910000000-c86365c62fd161cd13a1
+PK$NUM_PEAK: 17
+PK$PEAK: m/z int. rel.int.
+  57.0723 44.5 1
+  71.0872 51.4 1
+  72.0824 21.6 1
+  81.0711 34.9 1
+  83.0867 27 1
+  85.1022 46.2 1
+  95.0863 78.7 2
+  97.1019 44.5 1
+  99.0923 67.1 2
+  109.1015 74.3 2
+  111.1171 34.2 1
+  123.1169 45.9 1
+  137.1324 27 1
+  152.062 260.2 8
+  166.0775 77.7 2
+  167.0861 34237.8 999
+  267.1856 4119.5 120
+//

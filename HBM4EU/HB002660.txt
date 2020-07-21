@@ -1,0 +1,41 @@
+ACCESSION: HB002660
+RECORD_TITLE: Dixyrazine ; ESI-QTOF; MS2; CE: 10eV; R=15000; [M+H]+
+DATE: 2020.02.20
+AUTHORS: Herbert Oberacher, Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+LICENSE: CC0
+COPYRIGHT: Copyright (c) 2020 by Institute of Legal Medicine and Core Facility Metabolomics, Medical University of Innsbruck, Innsbruck, Austria
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Dixyrazine 
+CH$NAME: 2-(2-{4-[2-Methyl-3-(10H-phenothiazin-10-yl)propyl]piperazin-1-yl}ethoxy)ethan-1-ol
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C24H33N3O2S
+CH$EXACT_MASS: 427.2293
+CH$SMILES: CC(CN1CCN(CCOCCO)CC1)CN1C2=CC=CC=C2SC2=CC=CC=C12
+CH$IUPAC: InChI=1S/C24H33N3O2S/c1-20(18-26-12-10-25(11-13-26)14-16-29-17-15-28)19-27-21-6-2-4-8-23(21)30-24-9-5-3-7-22(24)27/h2-9,20,28H,10-19H2,1H3
+CH$LINK: CAS 2470-73-7 
+CH$LINK: COMPTOX DTXSID10947639
+CH$LINK: INCHIKEY MSYUMPGNGDNTIQ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:17182
+AC$INSTRUMENT: TripleTOF 5600+SCIEX
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10 eV
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: FLOW_RATE 20 uL/min
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 50/50
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile
+MS$FOCUSED_ION: PRECURSOR_M/Z 428.2367
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-004i-0000900000-e9fc2c1e36733de0abf6
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  187.1441 183.2 1
+  229.1913 667 4
+  428.2367 172804.5 999
+//

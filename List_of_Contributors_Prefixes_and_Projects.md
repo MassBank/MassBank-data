@@ -1,5 +1,6 @@
 | Database                  | Research Group / Research Project                                       | Country         | Prefix of ID   | Project Tag                |
 |---------------------------|-------------------------------------------------------------------------|-----------------|----------------|----------------------------|
+| ACES_SU                   | University of Stockholm - Environmental Sciences                        | Sweden          | AS             |                            |
 | AAFC                      | Agriculture and Agri-Food Canada                                        | Canada          | AC             |                            |
 | Athens_Univ               | University of Athens - Analytical Chemistry                             | Greece          | AU             |                            |
 | BGC_Munich                | BGC, Helmholtz-Zentrum Muenchen                                         | Germany         | RP             |                            |
@@ -15,14 +16,15 @@
 | Fiocruz                   | Oswaldo Cruz Foundation, Minas Gerais                                   | Brazil          | FIO            |                            |
 | Fukuyama_Univ             | Fukuyama University                                                     | Japan           | FU             |                            |
 | GL_Sciences_Inc           | GL Sciences Inc.                                                        | Japan           | GLS            |                            |
-| HBM4EU                    | HBM4EU - Science and policy for a healthy future                        |                 | HB             | HBM4EU                     |
-| IPB_Halle                 | Leibniz Institute for Plant Biochemistry Halle                          | Germany         | PB, PN             |                            |
+| HBM4EU                    | HBM4EU - Science and policy for a healthy future                        | Europe          | HB             | HBM4EU                     |
+| IPB_Halle                 | Leibniz Institute for Plant Biochemistry Halle                          | Germany         | PB, PN         |                            |
 | ISAS_Dortmund             | Leibniz Institut für Analytische Wissenschaften - ISAS - e.V.           | Germany         | IA             |                            |
 | JEOL_Ltd                  | JEOL Ltd.                                                               | Japan           | JEL            |                            |
 | Kazusa                    | Kazusa DNA Res. Inst.                                                   | Japan           | KZ             |                            |
 | Keio_Univ                 | Keio University                                                         | Japan           | KO             |                            |
 | KWR                       | KWR watercycle research institute                                       | The Netherlands | KW             |                            |
 | Kyoto_Univ                | Kyoto University                                                        | Japan           | CA             |                            |
+| LCSB                      | University of Luxembourg - Environmental Cheminformatics                | Luxembourg      | LU             |                            |
 | Literature_Specs          | Literature Spectra from different sources                               |                 | LIT            |                            |
 | MetaboLights              | Mass spectra from MetaboLights                                          |                 | ML             |                            |
 | Metabolon                 | Metabolon, Inc.                                                         | USA             | MT             |                            |
@@ -35,9 +37,9 @@
 | Osaka_Univ                | Grad.Sch.Eng., Osaka Univ.                                              | Japan           | OUF            |                            |
 | PFOS_research_group       | PFOS research group                                                     | Japan           | FFF            |                            |
 | RIKEN                     | RIKEN Plant Science Center                                              | Japan           | PR             |                            |
-| RIKEN_IMS                 | RIKEN Center for Integrative Medical Sciences                           | Japan             | LQA, LQB       |                            |
-| RIKEN_NPDepo              | RIKEN Center for Sustainable Resource Science                           | Japan             | NGA, CB        |                            |
-| RIKEN_ReSpect             | RIKEN Plant Science Center                                              | Japan             | PT, PS, PM     |                            |
+| RIKEN_IMS                 | RIKEN Center for Integrative Medical Sciences                           | Japan           | LQA, LQB       |                            |
+| RIKEN_NPDepo              | RIKEN Center for Sustainable Resource Science                           | Japan           | NGA, CB        |                            |
+| RIKEN_ReSpect             | RIKEN Plant Science Center                                              | Japan           | PT, PS, PM     |                            |
 | Tottori_Univ              | Tottori University                                                      | Japan           | TT             |                            |
 | UFZ                       | Helmholtz Centre for Environmental Research  - UFZ                      | Germany         | UF, UA, UN, UP | SOLUTIONS, NATOXAQ, HBM4EU |
 | Univ_Connecticut          | University of Connecticut                                               | USA             | CO             |                            |

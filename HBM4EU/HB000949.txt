@@ -1,0 +1,49 @@
+ACCESSION: HB000949
+RECORD_TITLE: Etilefrine; LC-ESI-ITFT; MS2; CE: 110%; R=15000; [M+H]+
+DATE: 2018.09.08
+AUTHORS: Tobias Schulze, Carolin Huber, Martin Krauss, Department of Effect-Directed Analysis, Helmholtz Centre for Environmental Research GmbH - UFZ, Leipzig, Germany
+LICENSE: CC0
+COPYRIGHT: Copyright (C) 2018
+PUBLICATION: Oberacher H, Sasse M, Antignac J-P, Guitton Y, Debrauwer L, Jamin E L, Schulze T, Krauss M, Covaci A, Caballero-Casero N, Rosseau K, Damont A, Fenaille F, Lamoree M, Schymanski E, A European proposal for quality control and quality assurance of tandem mass spectral libraries, Environmental Sciences Europe, https://doi.org/10.1186/s12302-020-00314-9
+COMMENT: CONFIDENCE Reference Standard (Level 1)
+COMMENT: HBM4EU - science and policy for a healthy future (https://www.hbm4eu.eu)
+CH$NAME: Etilefrine
+CH$NAME: 3-[2-(ethylamino)-1-hydroxyethyl]phenol
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C10H15NO2
+CH$EXACT_MASS: 181.1103
+CH$SMILES: CCNCC(C1=CC(=CC=C1)O)O
+CH$IUPAC: InChI=1S/C10H15NO2/c1-2-11-7-10(13)8-4-3-5-9(12)6-8/h3-6,10-13H,2,7H2,1H3
+CH$LINK: CAS 709-55-7
+CH$LINK: CHEBI 91518
+CH$LINK: KEGG D07931
+CH$LINK: PUBCHEM CID:3306
+CH$LINK: INCHIKEY SQVIAVUSQAWMKL-UHFFFAOYSA-N
+CH$LINK: CHEMSPIDER 3190
+AC$INSTRUMENT: LTQ Orbitrap XL Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 110% (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: COLUMN_NAME Kinetex Evo C18 2.6 um 50 x 2.1 mm
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 1 min, 0/100 at 13 min, 0/100 at 24 min, 95/5 at 24.3 min, 95/5 at 32 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.619 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% formic acid
+MS$FOCUSED_ION: BASE_PEAK 182.1175
+MS$FOCUSED_ION: PRECURSOR_M/Z 182.1176
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 2.9.1
+PK$SPLASH: splash10-03di-0900000000-19c638ce939936375618
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  164.107 C10H14NO+ 1 164.107 0.17
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  164.107 1090572 999
+//

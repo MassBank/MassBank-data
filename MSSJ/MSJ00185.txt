@@ -1,0 +1,142 @@
+ACCESSION: MSJ00185
+RECORD_TITLE: 1-(9Z-Octadecenoyl)-sn-glycero-3-phosphocholine; MALDI-QITTOF; MS2; POSITIVE; [M+H]+; RID
+DATE: 2020.02.24
+AUTHORS: Hidenori Takahashi, Mass Spectrometry Research Laboratory, Shimadzu Corporation, 1 Nishinokyo-Kuwabaracho Nakagyo-ku, Kyoto, 604-8511, Japan.
+LICENSE: CC BY
+COPYRIGHT: Hidenori Takahashi, Mass Spectrometry Research Laboratory, Shimadzu Corporation, 1 Nishinokyo-Kuwabaracho Nakagyo-ku, Kyoto, 604-8511, Japan.
+PUBLICATION: Hidenori Takahashi, Yuji Shimabukuro, Daiki Asakawa, Shosei Yamauchi, Sadanori Sekiya, Shinichi Iwamoto, Motoi Wada, Koichi Tanaka, "Structural Analysis of Phospholipid Using Hydrogen Abstraction Dissociation and Oxygen Attachment Dissociation in Tandem Mass Spectrometry", Anal. Chem., 90 (12), 7230-7238 (2018). DOI:10.1021/acs.analchem.8b00322.
+COMMENT: MALDI generates a stable [M+H]+ ion. Microwave discharge of H2O generates OH*, H* and 3O (triplet O) radicals. These radicals react with the stable [M+H]+ ion and give a mixture of [M+H+H*], [M+H+O]+ and [M+H+OH*]+ ions. In the present experiment, O2 gas is introduced after the H2O discharge.
+COMMENT: The instrument consists of QIT-TOF where Q selects [M+H]+ ion, IT is an ion trap chamber for the reaction of RID, and TOF analyzes the product ions.
+COMMENT: This mass spectral data is shown in Figure 4(C) of the publication. Fragment ions produced are annotated in Scheme 2 of the publication. MS data of the substance is MSJ00178; Figure 1(A) Inset in the publication.
+COMMENT: Relative intensity of the peaks from m/z 300 to 499 is magnified by x10.
+COMMENT: The sample was injected by direct infusion of methanol solution.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 19HP8024 to the Mass Spectrometry Society of Japan.
+COMMENT: The lipid standard was purchased from Avanti Polar Lipids (Alabaster, AL).
+CH$NAME: Lyso-PC 18:1(9Z)
+CH$NAME: 1-(9Z-Octadecenoyl)-sn-glycero-3-phosphocholine
+CH$COMPOUND_CLASS: Natural product; Phospholipid
+CH$FORMULA: C26H52NO7P
+CH$EXACT_MASS: 521.3481
+CH$SMILES: CCCCCCCC/C=C\CCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)O
+CH$IUPAC: InChI=1S/C26H52NO7P/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-26(29)32-23-25(28)24-34-35(30,31)33-22-21-27(2,3)4/h12-13,25,28H,5-11,14-24H2,1-4H3/b13-12-/t25-/m1/s1
+CH$LINK: CHEMSPIDER 4033747
+CH$LINK: INCHIKEY YAMUFBLWGFFICM-PTGWMXDISA-N
+CH$LINK: PUBCHEM CID:16081932
+AC$INSTRUMENT: MALDI-QITTOF noncommercial prototype model (Shimadzu Corporation, Kyoto, Japan)
+AC$INSTRUMENT_TYPE: MALDI-QITTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE RID
+AC$MASS_SPECTROMETRY: IONIZATION MALDI
+AC$MASS_SPECTROMETRY: MATRIX 2,5-Dihydroxybenzoic acid
+AC$MASS_SPECTROMETRY: REAGENT_GAS H2O discharge followed by O2 gas injection
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 522.3554
+PK$SPLASH: splash10-00di-0000090000-be601d2bb385215a31eb
+PK$NUM_PEAK: 104
+PK$PEAK: m/z int. rel.int.
+  302.13 0.028 6
+  306.015 0.031 7
+  306.99 0.046 10
+  308.048 0.037 8
+  309.016 0.052 11
+  314.085 0.039 9
+  321.007 0.024 5
+  323.011 0.024 5
+  331.106 0.034 7
+  336.024 0.022 5
+  336.993 0.035 8
+  339.291 0.039 9
+  342.141 0.061 13
+  351.006 0.038 8
+  367.066 0.021 5
+  380.175 0.03 7
+  383.202 0.059 13
+  397.192 0.035 8
+  398.193 0.322 71
+  399.196 0.05 11
+  401.176 0.024 5
+  406.192 0.026 6
+  412.211 0.491 108
+  413.219 0.084 19
+  415.199 0.739 163
+  416.205 0.096 21
+  424.209 0.224 49
+  425.221 0.713 157
+  425.405 0.033 7
+  426.227 0.231 51
+  438.221 0.091 20
+  439.212 0.032 7
+  440.205 0.123 27
+  444.143 0.02 4
+  457.205 0.258 57
+  458.212 0.065 14
+  468.212 0.046 10
+  499.041 0.023 5
+  504.348 0.149 3
+  505.359 0.037 1
+  513.247 0.027 1
+  514.156 0.03 1
+  515.21 0.179 4
+  516.193 0.157 3
+  517.256 0.312 7
+  518.07 0.142 3
+  518.313 0.673 15
+  519.102 0.527 12
+  519.299 0.576 13
+  520.339 7.649 169
+  520.543 0.255 6
+  520.82 0.053 1
+  521.129 0.65 14
+  521.34 3.099 68
+  521.544 0.063 1
+  521.881 0.083 2
+  522.355 45.33 999
+  522.56 1.595 35
+  522.857 0.434 10
+  523.141 0.983 22
+  523.358 12.919 285
+  523.576 0.399 9
+  523.887 0.354 8
+  524.158 0.681 15
+  524.362 2.023 45
+  525.315 0.658 15
+  526.062 0.231 5
+  526.241 0.348 8
+  527.062 0.539 12
+  527.228 0.653 14
+  528.07 0.254 6
+  528.256 0.299 7
+  529.058 0.526 12
+  529.224 0.566 12
+  530.261 0.269 6
+  531.172 0.700 15
+  532.243 0.336 7
+  533.182 0.521 11
+  534.282 0.356 8
+  535.243 0.529 12
+  536.332 1.63 36
+  537.202 0.467 10
+  537.329 0.691 15
+  538.346 9.878 218
+  538.56 0.27 6
+  538.842 0.056 1
+  539.123 0.442 10
+  539.351 2.614 58
+  539.572 0.028 1
+  539.907 0.044 1
+  540.149 0.283 6
+  540.343 0.319 7
+  541.229 0.265 6
+  542.049 0.071 2
+  542.277 0.125 3
+  543.212 0.222 5
+  544.046 0.074 2
+  544.194 0.111 2
+  545.077 0.135 3
+  545.184 0.142 3
+  546.135 0.082 2
+  547.161 0.145 3
+  548.241 0.082 2
+  549.188 0.09 2
+//
