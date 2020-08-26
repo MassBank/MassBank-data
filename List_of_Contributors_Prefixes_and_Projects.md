@@ -10,7 +10,7 @@
 | CASMI2016                 | CASMI 2016 Contest                                                      |                 | SM             |                            |
 | Chubu_Univ                | College of Life and Health Sciences Chubu University                    | Japan           | UT             |                            |
 | Eawag                     | Eawag - Swiss Federal Institute of Aquatic Science and Technology       | Switzerland     | EA, EQ         | SOLUTIONS                  |
-| Eawag_Additional_Specs    | Eawag - Swiss Federal Institute of Aquatic Science and Technology       | Switzerland     | ET             |                            |
+| Eawag_Additional_Specs    | Eawag - Swiss Federal Institute of Aquatic Science and Technology       | Switzerland     | ET, ETS        |                            |
 | Env_Anal_Chem_U_Tuebingen | Environmental Analytical Chemistry, University of Tuebingen             | Germany         | TUE            |                            |
 | Fac_Eng_Univ_Tokyo        | Faculty of Engineering, The University of Tokyo                         | Japan           | JP             |                            |
 | Fiocruz                   | Oswaldo Cruz Foundation, Minas Gerais                                   | Brazil          | FIO            |                            |
