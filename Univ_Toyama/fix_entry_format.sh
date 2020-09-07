@@ -5,3 +5,5 @@ sed -i "s/AC\$CHROMATOGRAPHY: SOLVENT (A)5 mM ammonium acetate, (B)CH3CN/AC\$CHR
 sed -i -r "s/RETENTION_TIME [0-9]+.[0-9]+/& sec/" TY0000[4-9][0-9].txt
 sed -i -r "s/RETENTION_TIME [0-9]+.[0-9]+/& sec/" TY00003[89].txt
 sed -i -r "s/RETENTION_TIME [0-9]+.[0-9]+/& sec/" TY000100.txt
+
+sed -i "s/PUBCHEM CID /PUBCHEM CID:/" *.txt
