@@ -15,7 +15,7 @@ script:
   - .scripts/MassBank-web/MassBank-Project/MassBank-lib/target/MassBank-lib/MassBank-lib/bin/Validator ./*
 EOF
 else
-  echo Set version of release to $1. This version will validate against the master branch of MassBank-web.
+  echo Set version of release to $1. This version will validate against the main branch of MassBank-web.
 cat << 'EOF' > .travis.yml
 language: java
 cache:
