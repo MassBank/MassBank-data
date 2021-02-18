@@ -3,6 +3,7 @@
 | ACES_SU                   | University of Stockholm - Environmental Sciences                        | Sweden          | AS             |                            |
 | AAFC                      | Agriculture and Agri-Food Canada                                        | Canada          | AC             |                            |
 | Athens_Univ               | University of Athens - Analytical Chemistry                             | Greece          | AU             |                            |
+| BfG                       | BfG, Federal Institute of Hydrology, Koblenz                            | Germany         | BFG            |                            |
 | BGC_Munich                | BGC, Helmholtz-Zentrum Muenchen                                         | Germany         | RP             |                            |
 | Boise_State_Univ          | Boise State University                                                  | USA             | BSU            |                            |
 | BS                        | Plant Biology, The Noble Foundation                                     |                 | BS             |                            |
