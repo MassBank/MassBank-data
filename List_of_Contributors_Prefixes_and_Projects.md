@@ -24,7 +24,7 @@
 | Keio_Univ                 | Keio University                                                         | Japan           | KO             |                            |
 | KWR                       | KWR watercycle research institute                                       | The Netherlands | KW             |                            |
 | Kyoto_Univ                | Kyoto University                                                        | Japan           | CA             |                            |
-| LCSB                      | University of Luxembourg - Environmental Cheminformatics                | Luxembourg      | LU             |                            |
+| LCSB                      | University of Luxembourg - Environmental Cheminformatics                | Luxembourg      | LU, LH, LI, LW |                            |
 | Literature_Specs          | Literature Spectra from different sources                               |                 | LIT            |                            |
 | MetaboLights              | Mass spectra from MetaboLights                                          |                 | ML             |                            |
 | Metabolon                 | Metabolon, Inc.                                                         | USA             | MT             |                            |
