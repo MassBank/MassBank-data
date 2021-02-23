@@ -24,7 +24,8 @@ AC$MASS_SPECTROMETRY: IONIZATION ESI
 AC$CHROMATOGRAPHY: COLUMN_NAME L-column 2 ODS
 AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 to 5 min, a linear increase from 10% to 100% B 5 to 10 min, hold at 100% B and 10 to 15 min, equilibration at 10% B
 AC$CHROMATOGRAPHY: FLOW_RATE 0.2 mL/min
-AC$CHROMATOGRAPHY: SOLVENT methanol containing 2 mM formate (A)/water containing 2 mM formate (B)
+AC$CHROMATOGRAPHY: SOLVENT A methanol containing 2 mM formate
+AC$CHROMATOGRAPHY: SOLVENT B water containing 2 mM formate
 MS$FOCUSED_ION: PRECURSOR_M/Z 462.99852
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
 PK$SPLASH: splash10-0udi-0002900000-440e9992cf63dd8ea4c0
