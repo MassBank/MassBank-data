@@ -3,6 +3,7 @@
 | ACES_SU                   | University of Stockholm - Environmental Sciences                        | Sweden          | AS             |                            |
 | AAFC                      | Agriculture and Agri-Food Canada                                        | Canada          | AC             |                            |
 | Athens_Univ               | University of Athens - Analytical Chemistry                             | Greece          | AU             |                            |
+| BfG                       | BfG, Federal Institute of Hydrology, Koblenz                            | Germany         | BFG            |                            |
 | BGC_Munich                | BGC, Helmholtz-Zentrum Muenchen                                         | Germany         | RP             |                            |
 | Boise_State_Univ          | Boise State University                                                  | USA             | BSU            |                            |
 | BS                        | Plant Biology, The Noble Foundation                                     |                 | BS             |                            |
@@ -24,7 +25,7 @@
 | Keio_Univ                 | Keio University                                                         | Japan           | KO             |                            |
 | KWR                       | KWR watercycle research institute                                       | The Netherlands | KW             |                            |
 | Kyoto_Univ                | Kyoto University                                                        | Japan           | CA             |                            |
-| LCSB                      | University of Luxembourg - Environmental Cheminformatics                | Luxembourg      | LU             |                            |
+| LCSB                      | University of Luxembourg - Environmental Cheminformatics                | Luxembourg      | LU, LH, LI, LW |                            |
 | Literature_Specs          | Literature Spectra from different sources                               |                 | LIT            |                            |
 | MetaboLights              | Mass spectra from MetaboLights                                          |                 | ML             |                            |
 | Metabolon                 | Metabolon, Inc.                                                         | USA             | MT             |                            |
