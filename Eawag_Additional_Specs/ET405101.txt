@@ -1,0 +1,50 @@
+ACCESSION: ET405101
+RECORD_TITLE: CBZ_n_207.0409_17.6; LC-ESI-QFT; MS2; CE: 75%; R=17500; [M-H]-
+DATE: 2020.12.17
+AUTHORS: B. Clerc, R. Gulde, B. Lauper [com],  C. McArdell, Department of Environmental Chemistry, Eawag
+LICENSE: CC BY SA
+COPYRIGHT: Copyright (C) Eawag 2020
+PUBLICATION: Gulde et al. 2020, Formation of transformation products during ozonation of secondary wastewater effluent and their fate in post-treatment: From laboratory- to full-scale, Water Research
+COMMENT: CONFIDENCE standard compound
+COMMENT: UCHEM_ID 4051
+CH$NAME: CBZ_n_207.0409_17.6
+CH$NAME: Carbamazepine -C6H4 +O3
+CH$NAME: 5H-dibenzo[b,f]azepine-5-carboxamide -C6H4 +O3
+CH$COMPOUND_CLASS: identified ozonation transformation product
+CH$FORMULA: C9H8N2O4
+CH$EXACT_MASS: 208.0484
+CH$SMILES: No SMILES given since multiple possible
+CH$IUPAC: No InChI given since multiple possible
+CH$LINK: No INCHIKEY given since multiple possible
+AC$INSTRUMENT: Q Exactive Plus Orbitrap Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 75 % (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 17500
+AC$CHROMATOGRAPHY: COLUMN_NAME C18 Atlantis T3 5 um, 3x150 mm, Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 260/40 at 0 min, 260/40 at 5 min, 15/285 at 20 min, 15/285 at 29 min, 260/40 at 29.5 min, 260/40 at 35 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 17.709 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B MeOH with 0.1% formic acid
+MS$FOCUSED_ION: BASE_PEAK 91.0038
+MS$FOCUSED_ION: PRECURSOR_M/Z 207.0411
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_INTENSITY 843531.1875
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 2.99.2
+PK$SPLASH: splash10-0006-9000000000-64c067b6b3c57c92a662
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  92.0507 C6H6N- 1 92.0506 1.24
+  118.0301 C7H4NO- 1 118.0298 2.39
+  136.0403 C7H6NO2- 1 136.0404 -0.39
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  92.0507 515612.7 999
+  118.0301 7277.3 14
+  136.0403 41078.1 79
+//
