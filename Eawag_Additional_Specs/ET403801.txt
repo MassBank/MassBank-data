@@ -1,0 +1,49 @@
+ACCESSION: ET403801
+RECORD_TITLE: SIT_p_426.0996_19.1; LC-ESI-QFT; MS2; CE: 15%; R=17500; [M+H]+
+DATE: 2020.12.17
+AUTHORS: B. Clerc, R. Gulde, B. Lauper [com],  C. McArdell, Department of Environmental Chemistry, Eawag
+LICENSE: CC BY SA
+COPYRIGHT: Copyright (C) Eawag 2020
+PUBLICATION: Gulde et al. 2020, Formation of transformation products during ozonation of secondary wastewater effluent and their fate in post-treatment: From laboratory- to full-scale, Water Research
+COMMENT: CONFIDENCE Tentative structure (3)
+COMMENT: UCHEM_ID 4038
+CH$NAME: SIT_p_426.0996_19.1
+CH$NAME: Demethylated Nitrositagliptin
+CH$NAME: 3-nitro-1-(3-(trifluoromethyl)-5,6-dihydro-[1,2,4]triazolo[4,3-a]pyrazin-7(8H)-yl)-4-(2,4,5-trifluorophenyl)butan-1-one -CH2
+CH$COMPOUND_CLASS: identified ozonation transformation product
+CH$FORMULA: C15H13F6N5O3
+CH$EXACT_MASS: 425.0923
+CH$SMILES: N/A
+CH$IUPAC: N/A
+AC$INSTRUMENT: Q Exactive Plus Orbitrap Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 15 % (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 17500
+AC$CHROMATOGRAPHY: COLUMN_NAME C18 Atlantis T3 5 um, 3x150 mm, Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 260/40 at 0 min, 260/40 at 5 min, 15/285 at 20 min, 15/285 at 29 min, 260/40 at 29.5 min, 260/40 at 35 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 18.946 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B MeOH with 0.1% formic acid
+MS$FOCUSED_ION: BASE_PEAK 221.1748
+MS$FOCUSED_ION: PRECURSOR_M/Z 426.0995
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_INTENSITY 963192.1875
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 2.99.2
+PK$SPLASH: splash10-000l-0090200000-fa45fb80e329f03c04cd
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  242.0787 C12H11F3NO+ 6 242.0787 0.1
+  289.0796 C12H12F3N2O3+ 3 289.0795 0.56
+  426.0999 C15H14F6N5O3+ 1 426.0995 0.9
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  242.0787 628752.8 628
+  289.0796 999690.7 999
+  426.0999 463928.7 463
+//
