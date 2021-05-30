@@ -1,0 +1,102 @@
+ACCESSION: MSJ00641
+RECORD_TITLE: 2,5-Heptanedione; GC-EI-TOF; MS; positive; EI; 70 V
+DATE: 2021.03.01
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori and Jun Tabata, Tetrahedron 73 (2017) 6530-6541, DOI:10.1016/j.tet.2017.09.046..
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (refTOF) mass spectrometer. Temperatures of the ion source and GC-transfer line were 200 C and 250 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. Postrun m/z adjustment with known mass was 99.0446.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: 2,5-Heptanedione
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C7H12O2
+CH$EXACT_MASS: 128.08373
+CH$SMILES: CC(=O)CCC(=O)CC
+CH$IUPAC: InChI=1S/C7H12O2/c1-3-7(9)5-4-6(2)8/h3-5H2,1-2H3
+CH$LINK: CHEMSPIDER 14803
+CH$LINK: INCHIKEY HGRGPAAXHOTBAM-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:15559
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 50 C for 4 min and ramped at the rate of 30 C/min to 300 C and held at the final temp. for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.46 min.
+PK$SPLASH: splash10-054p-9000000000-dd937895bff880ff099a
+PK$NUM_PEAK: 69
+PK$PEAK: m/z int. rel.int.
+  26.016 2.87 34
+  27.024 18.15 216
+  27.048 0.20 2
+  27.095 0.14 2
+  28.006 1.05 12
+  28.031 7.87 93
+  28.071 0.14 2
+  29.003 1.24 15
+  29.039 30.67 364
+  29.082 0.35 4
+  30.043 0.69 8
+  31.019 0.68 8
+  31.990 0.61 7
+  38.016 0.48 6
+  39.024 3.60 43
+  40.031 0.45 5
+  41.004 0.26 3
+  41.039 3.08 37
+  42.011 5.40 64
+  42.046 0.35 4
+  43.018 84.10 999
+  43.055 2.03 24
+  43.311 0.25 3
+  43.341 0.28 3
+  43.553 0.20 2
+  43.781 0.12 1
+  43.807 0.12 1
+  43.827 0.14 2
+  44.022 2.09 25
+  45.034 0.50 6
+  50.017 0.42 5
+  51.024 0.59 7
+  53.003 0.42 5
+  53.039 1.35 16
+  54.011 0.31 4
+  54.046 0.22 3
+  55.019 3.99 47
+  55.055 0.75 9
+  56.026 2.48 29
+  57.034 54.53 648
+  57.184 0.14 2
+  57.366 0.16 2
+  58.038 2.14 25
+  59.045 0.17 2
+  65.039 0.25 3
+  67.055 0.75 9
+  69.034 0.23 3
+  69.071 0.16 2
+  70.042 0.62 7
+  71.050 13.87 165
+  71.152 0.11 1
+  72.055 0.88 10
+  73.064 0.21 3
+  81.034 1.24 15
+  85.065 2.84 34
+  86.072 0.62 7
+  91.056 0.23 3
+  95.050 0.98 12
+  98.037 0.76 9
+  99.045 73.54 874
+  99.474 0.20 2
+  99.536 0.25 3
+  99.797 0.13 2
+  99.921 0.16 2
+  100.048 3.83 46
+  100.220 0.13 2
+  101.048 0.40 5
+  113.061 0.92 11
+  128.084 0.99 12
+//

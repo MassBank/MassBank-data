@@ -1,0 +1,42 @@
+ACCESSION: MSJ00659
+RECORD_TITLE: Methyl [(1R)-1,2-dimethyl-2,3-epoxycyclopent-1-yl]acetate; GC-FI-TOF; MS; positive; FI; 10 kV
+DATE: 2021.03.01
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: EIyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori and Jun Tabata, Tetrahedron 73 (2017) 6530-6541, DOI:10.1016/j.tet.2017.09.046.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the GC-transfer line was 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: Field ionization (FI) voltage, which is defined as the voltage between the emitter surface and the electrode, was 10 kV (default). Typical accuracy level expected was 10 ppm. Postrun m/z adjustment was made at a known mass,184.10994.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: Methyl [(1R)-1,2-dimethyl-2,3-epoxycyclopent-1-yl]acetate
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C10H16O3
+CH$EXACT_MASS: 184.10994
+CH$SMILES: CC12OC1CC[C@]2(C)CC(=O)OC
+CH$IUPAC: InChI=1S/C10H16O3/c1-9(6-8(11)12-3)5-4-7-10(9,2)13-7/h7H,4-6H2,1-3H3/t7?,9-,10?/m1/s1
+CH$LINK: INCHIKEY HYUUYHFTHLSBQI-HDDMYIMNSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temp. for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.3 min.
+PK$SPLASH: splash10-001i-0900000000-ed4c27fc5c5ad0a4af8c
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  110.070 4.53 45
+  111.077 3.82 38
+  125.099 4.59 46
+  127.092 1.08 11
+  152.082 7.15 71
+  166.099 15.64 156
+  167.102 2.59 26
+  168.776 0.93 9
+  184.110 100.00 999
+  185.113 12.37 124
+  186.117 1.36 14
+//

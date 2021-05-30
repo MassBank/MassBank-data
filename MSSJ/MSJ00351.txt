@@ -1,0 +1,36 @@
+ACCESSION: MSJ00351
+RECORD_TITLE: Asymmetric dimethylarginine; ESI-QTOF; MS2; NEGATIVE; [M-H]-; CID; 10 V
+DATE: 2020.11.13
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: The sample was injected by direct infusion.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: Asymmetric dimethylarginine
+CH$COMPOUND_CLASS: Non-natural product; Arginine derivative
+CH$FORMULA: C8H18N4O2
+CH$EXACT_MASS: 202.14296
+CH$SMILES: CN(C)C(=NCCC[C@@H](C(=O)O)N)N
+CH$IUPAC: InChI=1S/C8H18N4O2/c1-12(2)8(10)11-5-3-4-6(9)7(13)14/h6H,3-5,9H2,1-2H3,(H2,10,11)(H,13,14)/t6-/m0/s1
+CH$LINK: CAS 30315-93-6
+CH$LINK: CHEBI 17929
+CH$LINK: CHEMSPIDER 110375
+CH$LINK: INCHIKEY YDGMGEXADBMOMJ-LURJTMIESA-N
+CH$LINK: PUBCHEM CID:123831
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, USA)
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+MS$FOCUSED_ION: PRECURSOR_M/Z 201.13568
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
+PK$SPLASH: splash10-0zfr-0890000000-9feb43938fe9d8a935f5
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  41.0144 8.3317 24
+  114.056 16.7527 49
+  156.0765 291.154 844
+  201.1337 344.473 999
+//

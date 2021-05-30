@@ -1,0 +1,35 @@
+ACCESSION: MSJ00616
+RECORD_TITLE: (E)-6,7-Epoxynon-2-enal; GC-FI-TOF; MS; positive; FI; 10 kV
+DATE: 2021.03.25
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori, Tetrahedron 74 (2018) 1444-1448, ODI:10.1016/j.tet.2018.01.052.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the GC-transfer line was 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: Field ionization (FI) voltage, which is defined as the voltage between the emitter surface and the electrode, was 10 kV (default). Typical accuracy level expected was 10 ppm. Postrun m/z adjustment was made at a known mass, 154.09938.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: (E)-6,7-Epoxynon-2-enal
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C9H14O2
+CH$EXACT_MASS: 154.09938
+CH$SMILES: CCC1C(O1)CC/C=C/C=O
+CH$IUPAC: InChI=1S/C9H14O2/c1-2-8-9(11-8)6-4-3-5-7-10/h3,5,7-9H,2,4,6H2,1H3/b5-3+
+CH$LINK: INCHIKEY ZSTYAQLLVODWMQ-HWKANZROSA-N
+CH$LINK: PUBCHEM CID:146337199
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temp. for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.6 min.
+PK$SPLASH: splash10-0udi-0900000000-079e5da6eb216488e710
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  112.053 28.86 288
+  154.099 100 999
+  155.106 37.12 371
+//

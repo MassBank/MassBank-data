@@ -1,0 +1,137 @@
+ACCESSION: MSJ00593
+RECORD_TITLE: (2R,3S)-2,3-Epoxypentanol; GC-EI-TOF; MS; positive; EI; 70 V
+DATE: 2021.02.25
+AUTHORS: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Mori K, Tetrahedron 74 (2018) 1444-1448, ODI:10.1016/j.tet.2018.01.052.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (refTOF) mass spectrometer. Temperatures of the ion source and GC-transfer line were 200 C and 250 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 10 ppm. Postrun m/z adjustment with known mass was 207.0330.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: (2R,3S)-2,3-Epoxypentanol
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C5H10O2
+CH$EXACT_MASS: 102.06808
+CH$SMILES: CC[C@H]1[C@H](O1)CO
+CH$IUPAC: InChI=1S/C5H10O2/c1-2-4-5(3-6)7-4/h4-6H,2-3H2,1H3/t4-,5+/m0/s1
+CH$LINK: CHEMSPIDER 4481715
+CH$LINK: INCHIKEY XEVKRTIYWSUXHP-CRCLSJGQSA-N
+CH$LINK: PUBCHEM CID:53241777
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temp. for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.19 min.
+PK$SPLASH: splash10-0536-9000000000-2371a7e01541b974b3c3
+PK$NUM_PEAK: 104
+PK$PEAK: m/z int. rel.int.
+  25.008 0.17 2
+  26.016 4.22 42
+  26.056 0.07 1
+  27.024 32.41 324
+  27.125 0.08 1
+  27.258 0.09 1
+  27.280 0.11 1
+  27.435 0.06 1
+  27.461 0.07 1
+  28.006 0.93 9
+  28.031 4.89 49
+  29.003 17.53 175
+  29.039 14.09 141
+  29.271 0.10 1
+  29.448 0.06 1
+  29.489 0.06 1
+  30.010 1.05 11
+  30.047 1.46 15
+  31.019 65.77 657
+  31.294 0.18 2
+  31.332 0.07 1
+  31.483 0.12 1
+  31.691 0.08 1
+  31.874 0.06 1
+  31.901 0.08 1
+  31.919 0.07 1
+  31.990 0.56 6
+  32.026 2.71 27
+  32.070 0.06 1
+  32.107 0.06 1
+  33.034 0.21 2
+  35.977 0.23 2
+  37.008 0.90 9
+  38.016 2.57 26
+  39.024 22.59 226
+  39.331 0.09 1
+  39.548 0.06 1
+  40.031 6.37 64
+  41.003 0.40 4
+  41.039 55.36 553
+  41.355 0.16 2
+  41.561 0.10 1
+  41.810 0.08 1
+  42.011 4.62 46
+  42.047 12.03 120
+  42.317 0.09 1
+  42.365 0.07 1
+  42.550 0.06 1
+  42.577 0.06 1
+  43.019 39.14 391
+  43.055 8.07 81
+  43.343 0.14 1
+  43.563 0.09 1
+  43.810 0.07 1
+  44.026 33.77 337
+  44.319 0.12 1
+  44.571 0.09 1
+  44.784 0.06 1
+  44.829 0.07 1
+  45.034 9.12 91
+  45.304 0.07 1
+  45.332 0.06 1
+  46.036 0.22 2
+  47.013 0.13 1
+  50.016 0.66 7
+  51.024 0.73 7
+  52.031 0.22 2
+  53.003 0.33 3
+  53.039 1.67 17
+  54.011 0.13 1
+  54.046 0.40 4
+  55.019 2.98 30
+  55.055 3.14 31
+  56.025 0.31 3
+  56.062 0.50 5
+  57.034 16.47 165
+  57.070 0.62 6
+  58.042 4.92 49
+  59.014 0.26 3
+  59.050 100.00 999
+  59.325 0.23 2
+  59.429 0.28 3
+  59.691 0.17 2
+  60.021 3.48 35
+  60.053 3.23 32
+  60.263 0.10 1
+  60.555 0.08 1
+  61.029 3.26 33
+  61.133 0.06 1
+  62.024 0.10 1
+  63.024 0.11 1
+  65.039 0.13 1
+  67.055 0.69 7
+  68.061 0.15 1
+  68.997 0.10 1
+  69.034 1.29 13
+  70.041 0.20 2
+  71.013 0.88 9
+  71.050 0.92 9
+  72.057 0.13 1
+  73.029 0.26 3
+  83.050 0.35 4
+  84.057 0.18 2
+  85.065 0.44 4
+//

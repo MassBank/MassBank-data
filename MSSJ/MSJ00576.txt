@@ -1,0 +1,56 @@
+ACCESSION: MSJ00576
+RECORD_TITLE: (4S)-4-Methyl-6-pivaloyloxyhexanal; GC-FI-TOF; MS; positive; FI; 10 kV
+DATE: 2021.02.23
+AUTHORS: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori and Kazuaki Akasaka, Tetrahedron 71 (2015) 4102-4115, DOI:10.1016/j.tet.2015.04.107.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the GC-transfer line was 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: Field ionization (FI) voltage, which is defined as the voltage between the emitter surface and the electrode, was 10 kV (default). Typical accuracy level expected was 10 ppm. Postrun m/z adjustment was made at a known mass, 214.15689.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: (4S)-4-Methyl-6-pivaloyloxyhexanal
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C12H22O3
+CH$EXACT_MASS: 214.15690
+CH$SMILES: O=CCC[C@H](C)CCOC(=O)C(C)(C)C
+CH$IUPAC: InChI=1S/C12H22O3/c1-10(6-5-8-13)7-9-15-11(14)12(2,3)4/h8,10H,5-7,9H2,1-4H3/t10-/m0/s1
+CH$LINK: INCHIKEY AMPHWNHWLZLCCL-JTQLQIEISA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 310 C and held at the final temp. for 2 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.03 min.
+PK$SPLASH: splash10-0aor-9070000000-86a2ecda187ad5e0089a
+PK$NUM_PEAK: 25
+PK$PEAK: m/z int. rel.int.
+  22.563 0.59 6
+  40.022 0.65 6
+  44.028 1.06 11
+  56.336 0.75 8
+  57.071 100 999
+  57.175 0.71 7
+  57.212 0.57 6
+  58.074 4.99 50
+  58.983 0.68 7
+  65.089 0.64 6
+  65.166 0.55 5
+  85.066 12.58 126
+  86.07 1.04 10
+  95.086 1.92 19
+  112.089 2.32 23
+  113.097 4.45 44
+  136.18 0.45 4
+  157.134 0.66 7
+  170.129 0.86 9
+  211.127 0.73 7
+  213.149 8.78 88
+  214.157 27.62 276
+  215.165 57.7 576
+  216.168 8.24 82
+  217.168 0.87 9
+//
