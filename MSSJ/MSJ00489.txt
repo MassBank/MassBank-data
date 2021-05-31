@@ -1,0 +1,68 @@
+ACCESSION: MSJ00489
+RECORD_TITLE: Tyramine; LC-ESI-QQ; MS2; POSITIVE; [M+H-NH3]+; CID; 20 V
+DATE: 2021.01.27
+AUTHORS: Daiki Asakawa, National Institute of Advanced Industrial Science and Technology, 1-1-1 Umezono, Tsukuba, Ibaraki 305-8568, Japan.
+LICENSE: CC BY
+COPYRIGHT: Daiki Asakawa, National Institute of Advanced Industrial Science and Technology, 1-1-1 Umezono, Tsukuba, Ibaraki 305-8568, Japan.
+PUBLICATION: Daiki Asakawa, Hajime Mizuno, Eiji Sugiyama, and Kenichiro Todoroki, Anal. Chem., 92 (17), 12033-12039 (2020). [DOI: 10.1021/acs.analchem.0c02667]
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: Tyramine
+CH$COMPOUND_CLASS: Non-natural product; Tyramine
+CH$FORMULA: C8H11NO
+CH$EXACT_MASS: 137.08406
+CH$SMILES: C1=CC(=CC=C1CCN)O
+CH$IUPAC: InChI=1S/C8H11NO/c9-6-5-7-1-3-8(10)4-2-7/h1-4,10H,5-6,9H2
+CH$LINK: CAS 51-67-2
+CH$LINK: CHEBI 15760
+CH$LINK: CHEMSPIDER 5408
+CH$LINK: INCHIKEY DZGWFCGJZKJUFP-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:5610
+AC$INSTRUMENT: Xevo TQS micro (Waters, MA, USA) coupled to ACQUITY UPLC H-Class (Waters, MA, USA)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC BEH AMIDE column (1.7 microm, 2.1 Å~ 150 mm). (Waters, MA, USA)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0-2 min, 100% MPB; 2-2.5 min, 90-70% MPB; 2.5-3 min, 70% MPB; 3-5 min, 100% MPB
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: SOLVENT A consisted of 95:5 water:acetonitrile containing either 100 mM ammonium formate buffered to pH 3.0
+AC$CHROMATOGRAPHY: SOLVENT MPB consisted of 15:85 water:acetonitrile containing 100 mM ammonium formate buffered to pH 3.0
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE 40 C
+MS$FOCUSED_ION: PRECURSOR_M/Z 121.06479
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H-NH3]+
+PK$SPLASH: splash10-004i-9100000000-0da16477809ab50042f1
+PK$NUM_PEAK: 30
+PK$PEAK: m/z int. rel.int.
+  39.1 48.25 8
+  40.7 48.79 8
+  41 37.6 6
+  41.2 53.05 8
+  50.8 215.3 34
+  51.2 142.4 22
+  52.7 41.37 6
+  53.2 42.81 7
+  54.8 83.11 13
+  55.1 44.96 7
+  64.9 318.2 50
+  65.2 225.5 35
+  76.8 3966 619
+  77 6403 999
+  77.8 39.86 6
+  78 88.55 14
+  90.9 1296 202
+  91.1 1146 179
+  92.8 227.7 36
+  93 541.2 84
+  93.9 132 21
+  94.2 67.16 10
+  101.9 96.92 15
+  102.2 42.61 7
+  102.9 1438 224
+  103.1 1083 169
+  120.7 83.15 13
+  120.9 123.1 19
+  121.2 171.3 27
+  121.4 71.65 11
+//

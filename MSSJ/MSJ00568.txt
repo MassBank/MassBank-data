@@ -1,0 +1,66 @@
+ACCESSION: MSJ00568
+RECORD_TITLE: (3R)-3-Methylheptyl benzyl ether; GC-FI-TOF; MS; positive; FI; 10 kV
+DATE: 2021.03.26
+AUTHORS: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Mori K, Akasaka K. Tetrahedron. 2015 Jun 17;71(24):4102-15, doi:10.10.1016/j.tet2015.04.107.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the GC-transfer line was 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: Field ionization (FI) voltage, which is defined as the voltage between the emitter surface and the electrode, was 10 kV (default). Typical accuracy level expected was 10 ppm. Postrun m/z adjustment was made at a known mass, 220.18271.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: (3R)-3-Methylheptyl benzyl ether
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C15H24O
+CH$EXACT_MASS: 220.18272
+CH$SMILES: C[C@H](CCCC)CCOCC1=CC=CC=C1
+CH$IUPAC: InChI=1S/C15H24O/c1-3-4-8-14(2)11-12-16-13-15-9-6-5-7-10-15/h5-7,9-10,14H,3-4,8,11-13H2,1-2H3/t14-/m1/s1
+CH$LINK: INCHIKEY RVYATVWBYKEGBZ-CQSZACIVSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temp. for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.74 min.
+PK$SPLASH: splash10-00di-0090000000-71c2626da250fab46067
+PK$NUM_PEAK: 35
+PK$PEAK: m/z int. rel.int.
+  29.038 0.29 3
+  45.361 0.16 2
+  75.731 0.12 1
+  91.058 0.44 4
+  92.067 1.65 16
+  109.416 0.16 2
+  112.129 0.35 3
+  119.411 0.13 1
+  123.253 0.16 2
+  129.889 0.13 1
+  179.011 0.16 2
+  185.697 0.12 1
+  189.168 0.18 2
+  202.177 3.81 38
+  203.177 0.57 6
+  219.183 0.48 5
+  219.973 0.16 2
+  220.188 100.00 999
+  220.775 0.35 3
+  220.852 0.42 4
+  221.104 0.27 3
+  221.192 16.72 167
+  221.541 0.27 3
+  221.840 0.21 2
+  221.946 0.28 3
+  222.028 0.27 3
+  222.074 0.17 2
+  222.195 1.59 16
+  222.411 0.21 2
+  222.505 0.21 2
+  222.997 0.16 2
+  223.154 0.21 2
+  223.566 0.15 2
+  223.678 0.17 2
+  279.502 0.14 1
+//

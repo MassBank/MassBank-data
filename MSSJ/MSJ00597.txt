@@ -1,0 +1,137 @@
+ACCESSION: MSJ00597
+RECORD_TITLE: 3-((tert-Butyldimethylsilyl)oxy)-2,2-dimethylpropanal; GC-EI-TOF; MS; positive; EI; 70 V
+DATE: 2021.02.24
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori, Tetrahedron 75 (2019) 3387-3398, DOI:10.1016/j.tet.2019.04.055.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (refTOF) mass spectrometer. Temperatures of the ion source and GC-transfer line were 200 C and 250 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. Postrun m/z adjustment with known mass was 159.08413.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: 3-((tert-Butyldimethylsilyl)oxy)-2,2-dimethylpropanal
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C11H24O2Si
+CH$EXACT_MASS: 216.15456
+CH$SMILES: CC(C)(C)[Si](C)(C)OCC(C)(C)C=O
+CH$IUPAC: InChI=1S/C11H24O2Si/c1-10(2,3)14(6,7)13-9-11(4,5)8-12/h8H,9H2,1-7H3
+CH$LINK: CAS 144681-67-4
+CH$LINK: CHEMSPIDER 8831730
+CH$LINK: INCHIKEY PLPBSUJOMPJZJF-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:10656375
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temp. for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.64 min.
+PK$SPLASH: splash10-0ar0-9800000000-a9c604714f7d6f8dad81
+PK$NUM_PEAK: 103
+PK$PEAK: m/z int. rel.int.
+  27.023 3.01 30
+  28.006 1.57 16
+  28.031 0.63 6
+  28.985 0.7 7
+  29.003 1.58 16
+  29.039 8.05 80
+  31 1.22 12
+  31.99 0.6 6
+  39.024 3.86 39
+  40.031 0.51 5
+  41.039 11.17 112
+  41.091 0.13 1
+  41.993 0.28 3
+  42.045 0.66 7
+  43 5.07 51
+  43.055 2.99 30
+  44.007 0.64 6
+  44.98 6.49 65
+  45.016 4.17 42
+  45.98 0.35 3
+  46.016 0.25 3
+  46.995 6.33 63
+  47.995 0.31 3
+  51.025 0.47 5
+  53.039 1.2 12
+  55.001 0.47 5
+  55.055 2.83 28
+  56.063 2.15 21
+  57.017 0.75 7
+  57.071 5.07 51
+  58.024 5.64 56
+  58.074 0.27 3
+  58.995 1 10
+  59.032 22.34 223
+  59.139 0.11 1
+  60.003 1.22 12
+  60.032 1.48 15
+  61.011 4.43 44
+  62.011 0.28 3
+  67.055 0.33 3
+  69.034 0.47 5
+  69.071 0.29 3
+  71.032 0.38 4
+  72.039 0.46 5
+  73.047 34.02 340
+  74.019 0.79 8
+  74.048 2.64 26
+  75.026 88.34 882
+  75.455 0.24 2
+  75.744 0.16 2
+  76.027 5.96 60
+  77.023 3.1 31
+  83.032 0.45 4
+  85.011 0.49 5
+  85.048 4.24 42
+  86.05 0.41 4
+  87.027 0.72 7
+  88.035 1.55 16
+  89.042 10.18 102
+  89.115 0.13 1
+  90.043 0.8 8
+  91.039 0.37 4
+  97.048 0.28 3
+  99.027 2.03 20
+  99.063 2.13 21
+  100.029 0.2 2
+  100.068 0.42 4
+  101.006 0.48 5
+  101.042 3.97 40
+  102.044 0.36 4
+  103.022 0.6 6
+  103.057 0.79 8
+  111.027 0.47 5
+  113.042 2.57 26
+  114.045 0.32 3
+  115.058 72.46 724
+  115.588 0.22 2
+  116.059 7.23 72
+  116.342 0.11 1
+  117.042 4.32 43
+  118.039 0.38 4
+  127.058 0.25 2
+  129.074 29.8 298
+  130.076 3.44 34
+  131.072 1.14 11
+  132.097 4.24 42
+  133.102 1.05 11
+  134.098 0.2 2
+  141.074 0.74 7
+  143.053 1.26 13
+  145.069 1.13 11
+  157.105 0.34 3
+  159.084 100 999
+  159.535 0.21 2
+  159.709 0.29 3
+  160.086 12.35 123
+  160.614 0.17 2
+  161.083 4.1 41
+  162.085 0.36 4
+  171.121 0.2 2
+  186.144 0.47 5
+  201.131 1.66 17
+  202.133 0.27 3
+//

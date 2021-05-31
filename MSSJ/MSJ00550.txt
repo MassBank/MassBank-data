@@ -1,0 +1,58 @@
+ACCESSION: MSJ00550
+RECORD_TITLE: (R)-Citronellyl benzyl ether; GC-FI-TOF; MS; positive; FI; 10 kV
+DATE: 2021.03.26
+AUTHORS: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori and Kazuaki Akasaka, Tetrahedron 71 (2015) 4102-4115, DOI:10.1016/j.tet.2015.04.107.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the GC-transfer line was 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: Field ionization (FI) voltage, which is defined as the voltage between the emitter surface and the electrode, was 10 kV (default). Typical accuracy level expected was 10 ppm. Postrun m/z adjustment was made at a known mass, 246.19836.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: (R)-Citronellyl benzyl ether
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C17H26O
+CH$EXACT_MASS: 246.19837
+CH$SMILES: C[C@H](CCC=C(C)C)CCOCC1=CC=CC=C1
+CH$IUPAC: InChI=1S/C17H26O/c1-15(2)8-7-9-16(3)12-13-18-14-17-10-5-4-6-11-17/h4-6,8,10-11,16H,7,9,12-14H2,1-3H3/t16-/m1/s1
+CH$LINK: CAS 83541-12-2
+CH$LINK: CHEMSPIDER 57568423
+CH$LINK: INCHIKEY ITLMKEZZDGLMPC-MRXNPFEDSA-N
+CH$LINK: PUBCHEM CID:15577317
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temp. for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.48 min.
+PK$SPLASH: splash10-0002-0390000000-d0a69784699e833d8d49
+PK$NUM_PEAK: 24
+PK$PEAK: m/z int. rel.int.
+  69.072 0.42 4
+  91.055 0.44 4
+  123.100 15.77 158
+  123.602 2.97 30
+  137.135 0.57 6
+  138.141 8.08 81
+  139.145 1.21 12
+  140.153 0.32 3
+  154.138 0.93 9
+  155.144 13.80 138
+  156.149 1.40 14
+  161.095 1.34 13
+  162.100 0.31 3
+  173.713 0.20 2
+  173.845 0.25 3
+  202.168 0.21 2
+  217.194 0.43 4
+  228.185 0.29 3
+  246.198 100.00 999
+  246.972 0.49 5
+  247.202 19.07 190
+  248.031 0.22 2
+  248.206 1.97 20
+  249.241 0.25 2
+//

@@ -1,0 +1,74 @@
+ACCESSION: MSJ00572
+RECORD_TITLE: (S)-Citronellyl pivalate; GC-FI-TOF; MS; positive; FI; 10 kV
+DATE: 2021.02.17
+AUTHORS: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori and Kazuaki Akasaka, Tetrahedron 71 (2015) 4102-4115, DOI:10.1016/j.tet.2015.04.107.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the GC-transfer line was 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: Field ionization (FI) voltage, which is defined as the voltage between the emitter surface and the electrode, was 10 kV (default). Typical accuracy level expected was 10 ppm. Postrun m/z adjustment was made at a known mass, 240.20893.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: (S)-Citronellyl pivalate
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C15H28O2
+CH$EXACT_MASS: 240.20893
+CH$SMILES: C\C(C)=C\CC[C@H](C)CCOC(=O)C(C)(C)C
+CH$IUPAC: InChI=1S/C15H28O2/c1-12(2)8-7-9-13(3)10-11-17-14(16)15(4,5)6/h8,13H,7,9-11H2,1-6H3/t13-/m0/s1
+CH$LINK: CAS 83541-12-2
+CH$LINK: INCHIKEY KNEHNJRRYQHTOC-ZDUSSCGKSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 310 C and held at the final temp. for 2 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.37 min.
+PK$SPLASH: splash10-000f-0590000000-8ef90d6d88cd37d39145
+PK$NUM_PEAK: 42
+PK$PEAK: m/z int. rel.int.
+  20.483 0.40 4
+  25.413 0.40 4
+  26.492 0.48 5
+  30.258 0.41 4
+  39.932 0.38 4
+  43.776 0.44 4
+  48.679 0.41 4
+  49.497 0.44 4
+  57.070 4.16 42
+  58.065 0.39 4
+  62.716 0.41 4
+  69.071 0.59 6
+  74.474 0.43 4
+  85.064 1.07 11
+  99.143 0.46 5
+  114.242 0.46 5
+  120.103 1.77 18
+  122.272 0.43 4
+  137.140 0.49 5
+  138.143 65.64 656
+  138.598 0.55 5
+  138.743 0.42 4
+  139.147 7.60 76
+  140.151 0.43 4
+  144.968 0.45 5
+  154.253 0.44 4
+  159.951 0.62 6
+  160.037 0.79 8
+  160.184 0.58 6
+  160.307 0.42 4
+  172.924 0.41 4
+  179.280 0.42 4
+  220.978 0.50 5
+  239.198 2.87 29
+  240.209 100 999
+  240.816 0.48 5
+  240.965 0.61 6
+  241.213 20.65 206
+  241.440 0.63 6
+  241.546 0.65 7
+  242.216 2.54 25
+  243.215 0.53 5
+//

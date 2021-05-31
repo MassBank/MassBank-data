@@ -1,0 +1,172 @@
+ACCESSION: MSJ00656
+RECORD_TITLE: Methyl [(1R)-1,2-dimethyl-2,3-epoxycyclopent-1-yl]acetate; GC-EI-TOF; MS; positive; EI; 70 V
+DATE: 2021.02.26
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori and Jun Tabata, Tetrahedron 73 (2017) 6530-6541, DOI:10.1016/j.tet.2017.09.046.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (refTOF) mass spectrometer. Temperatures of the ion source and GC-transfer line were 200 C and 250 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: The sample analyzed was a mixture of diastereomers.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. Postrun m/z adjustment with known mass was 153.09155.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: Methyl [(1R)-1,2-dimethyl-2,3-epoxycyclopent-1-yl]acetate
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C10H16O3
+CH$EXACT_MASS: 184.10994
+CH$SMILES: CC12OC1CC[C@]2(C)CC(=O)OC
+CH$IUPAC: InChI=1S/C10H16O3/c1-9(6-8(11)12-3)5-4-7-10(9,2)13-7/h7H,4-6H2,1-3H3/t7?,9-,10?/m1/s1
+CH$LINK: INCHIKEY HYUUYHFTHLSBQI-HDDMYIMNSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temp. for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.19 min.
+PK$SPLASH: splash10-08i3-9500000000-68d9cb591f065cf38dea
+PK$NUM_PEAK: 140
+PK$PEAK: m/z int. rel.int.
+  26.016 0.72 7
+  27.024 14.68 147
+  28.006 9.51 95
+  28.032 2.35 23
+  29.003 3.82 38
+  29.040 10.04 100
+  30.011 0.30 3
+  30.043 0.23 2
+  31.019 1.92 19
+  31.990 3.16 32
+  33.035 0.33 3
+  38.016 0.77 8
+  39.024 22.43 224
+  40.031 4.26 43
+  41.040 39.00 390
+  42.012 4.52 45
+  42.046 2.96 30
+  43.019 90.30 902
+  43.055 6.33 63
+  43.343 0.28 3
+  43.567 0.20 2
+  43.812 0.13 1
+  44.023 2.35 23
+  44.059 0.28 3
+  44.998 0.42 4
+  45.035 2.95 29
+  50.016 0.97 10
+  51.024 3.44 34
+  52.032 1.89 19
+  53.040 14.22 142
+  54.047 3.45 34
+  55.019 6.80 68
+  55.055 37.47 374
+  56.025 0.60 6
+  56.060 2.02 20
+  57.035 2.60 26
+  57.071 0.81 8
+  58.042 2.77 28
+  59.014 16.51 165
+  59.050 2.21 22
+  60.018 0.41 4
+  63.024 0.77 8
+  65.040 5.17 52
+  66.047 2.27 23
+  67.019 0.44 4
+  67.055 20.27 202
+  68.027 0.55 6
+  68.063 6.96 70
+  69.034 4.34 43
+  69.071 9.47 95
+  70.041 0.47 5
+  70.076 0.56 6
+  71.050 6.16 62
+  72.058 1.56 16
+  73.066 1.10 11
+  74.037 4.51 45
+  75.045 6.48 65
+  76.048 0.30 3
+  77.040 6.28 63
+  78.046 1.00 10
+  79.055 11.27 113
+  80.062 2.19 22
+  81.035 1.54 15
+  81.071 18.00 180
+  81.196 0.15 2
+  82.042 5.76 58
+  82.078 5.11 51
+  83.050 5.42 54
+  83.086 4.37 44
+  84.056 0.61 6
+  84.091 0.32 3
+  85.029 0.80 8
+  85.066 4.38 44
+  86.073 2.12 21
+  87.045 0.34 3
+  87.079 0.22 2
+  91.055 7.21 72
+  92.062 1.38 14
+  93.071 8.39 84
+  93.134 0.14 1
+  94.042 0.26 3
+  94.077 1.70 17
+  95.050 43.21 432
+  95.086 5.31 53
+  95.243 0.15 1
+  95.480 0.13 1
+  96.057 8.80 88
+  96.093 1.20 12
+  96.188 0.14 1
+  97.065 3.40 34
+  97.102 0.57 6
+  98.072 0.59 6
+  99.045 1.13 11
+  99.082 4.75 47
+  100.085 0.33 3
+  101.061 0.44 4
+  105.071 1.39 14
+  106.078 1.12 11
+  107.050 0.39 4
+  107.086 7.89 79
+  108.058 1.03 10
+  108.090 0.76 8
+  109.066 63.96 639
+  109.204 0.80 8
+  109.583 0.21 2
+  109.917 0.17 2
+  110.073 100 999
+  110.590 0.25 3
+  111.081 46.61 466
+  112.085 3.69 37
+  113.061 1.48 15
+  114.068 2.83 28
+  115.073 0.25 2
+  117.070 0.22 2
+  119.050 0.31 3
+  123.081 1.46 15
+  124.052 0.43 4
+  124.089 1.40 14
+  125.097 82.10 820
+  125.650 0.24 2
+  126.100 6.96 70
+  126.434 0.13 1
+  127.040 0.95 9
+  127.076 8.79 88
+  128.083 2.47 25
+  129.083 0.19 2
+  137.060 2.10 21
+  139.075 0.45 4
+  140.084 0.26 3
+  141.092 0.86 9
+  142.099 0.53 5
+  151.076 0.36 4
+  152.083 0.88 9
+  153.092 12.63 126
+  154.095 1.29 13
+  155.096 0.16 2
+  166.099 0.55 5
+  169.087 2.80 28
+  170.091 0.27 3
+  184.110 0.55 6
+//

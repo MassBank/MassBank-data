@@ -1,0 +1,138 @@
+ACCESSION: MSJ00667
+RECORD_TITLE: Methyl [(1S)-1,2-dimethyl-3-oxocyclopentyl]acetate; GC-EI-TOF; MS; positive; EI; 70 V
+DATE: 2021.03.16
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori and Jun Tabata, Tetrahedron 73 (2017) 6530-6541, DOI:10.1016/j.tet.2017.09.046.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (refTOF) mass spectrometer. Temperatures of the ion source and GC-transfer line were 200 C and 250 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. Postrun m/z adjustment with known mass was 184.10994.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: Methyl [(1S)-1,2-dimethyl-3-oxocyclopentyl]acetate
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C10H16O3
+CH$EXACT_MASS: 184.10994
+CH$SMILES: COC(=O)C[C@]1(C)CCC(=O)C1C
+CH$IUPAC: InChI=1S/C10H16O3/c1-7-8(11)4-5-10(7,2)6-9(12)13-3/h7H,4-6H2,1-3H3/t7?,10-/m0/s1
+CH$LINK: INCHIKEY DXWJVFNAUVZEKL-MHPPCMCBSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temp. for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.78 min.
+PK$SPLASH: splash10-03di-9600000000-170f55a59a05832d2979
+PK$NUM_PEAK: 107
+PK$PEAK: m/z int. rel.int.
+  26.016 0.48 5
+  27.024 6.39 64
+  28.006 3.93 39
+  28.032 5.16 52
+  29.003 0.77 8
+  29.039 4.14 41
+  31.019 0.71 7
+  31.990 1.32 13
+  38.016 0.25 2
+  39.024 7.80 78
+  39.073 0.10 1
+  40.031 1.76 18
+  41.040 20.52 205
+  42.011 2.12 21
+  42.046 1.37 14
+  43.019 8.21 82
+  43.055 1.82 18
+  44.025 0.37 4
+  45.034 0.74 7
+  50.016 0.37 4
+  51.024 1.11 11
+  52.032 0.73 7
+  53.040 5.49 55
+  54.047 1.74 17
+  55.019 3.71 37
+  55.055 12.62 126
+  56.026 4.27 43
+  56.060 0.85 8
+  57.034 1.50 15
+  57.070 0.16 2
+  59.014 5.66 57
+  59.050 0.86 9
+  63.024 0.18 2
+  65.040 1.32 13
+  66.047 0.53 5
+  67.055 8.08 81
+  67.124 0.10 1
+  68.063 9.15 91
+  68.122 0.11 1
+  69.035 0.75 8
+  69.071 17.97 179
+  69.186 0.10 1
+  70.042 0.43 4
+  70.075 1.17 12
+  71.050 1.07 11
+  72.057 0.24 2
+  73.065 0.56 6
+  74.037 10.32 103
+  75.043 0.65 6
+  77.040 0.98 10
+  78.046 0.16 2
+  79.055 1.62 16
+  80.061 0.31 3
+  81.034 0.54 5
+  81.071 3.54 35
+  82.042 0.75 8
+  82.078 3.17 32
+  83.050 0.60 6
+  83.086 6.85 68
+  83.161 0.10 1
+  84.090 0.48 5
+  85.066 2.22 22
+  86.073 0.62 6
+  87.045 0.29 3
+  87.081 2.14 21
+  88.053 0.58 6
+  91.055 1.08 11
+  93.070 0.98 10
+  95.050 3.99 40
+  95.086 0.56 6
+  96.058 5.66 56
+  96.094 0.60 6
+  96.136 0.08 1
+  97.065 3.03 30
+  97.102 1.47 15
+  98.069 0.23 2
+  99.081 0.83 8
+  107.086 0.51 5
+  109.066 3.76 38
+  110.073 9.28 93
+  110.150 0.12 1
+  111.081 100.00 999
+  111.602 0.26 3
+  112.084 7.83 78
+  112.166 0.10 1
+  112.337 0.13 1
+  112.714 0.08 1
+  112.765 0.09 1
+  113.061 0.91 9
+  114.067 0.28 3
+  123.082 0.30 3
+  124.089 0.84 8
+  125.096 1.28 13
+  127.076 4.36 44
+  128.083 1.19 12
+  129.091 0.82 8
+  137.060 0.45 5
+  141.092 0.66 7
+  151.075 0.16 2
+  152.084 0.17 2
+  153.092 6.65 66
+  154.095 0.65 6
+  155.081 0.11 1
+  169.087 4.60 46
+  170.089 0.45 4
+  184.110 2.14 21
+  185.113 0.24 2
+//
