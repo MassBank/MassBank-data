@@ -1,0 +1,70 @@
+ACCESSION: MSJ00498
+RECORD_TITLE: 2-(4-Methoxyphenyl)ethylamine; LC-ESI-QQ; MS2; POSITIVE; [M+H-NH3]+; CID; 20 V
+DATE: 2021.01.24
+AUTHORS: Daiki Asakawa, National Institute of Advanced Industrial Science and Technology, 1-1-1 Umezono, Tsukuba, Ibaraki 305-8568, Japan.
+LICENSE: CC BY
+COPYRIGHT: Daiki Asakawa, National Institute of Advanced Industrial Science and Technology, 1-1-1 Umezono, Tsukuba, Ibaraki 305-8568, Japan.
+PUBLICATION: Daiki Asakawa, Hajime Mizuno, Eiji Sugiyama, and Kenichiro Todoroki, Anal. Chem., 92 (17), 12033-12039 (2020). [DOI: 10.1021/acs.analchem.0c02667]
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: 2-(4-Methoxyphenyl)ethylamine
+CH$COMPOUND_CLASS: Non-natural product; Phenethylamine
+CH$FORMULA: C9H13NO
+CH$EXACT_MASS: 151.09971
+CH$SMILES: COC1=CC=C(C=C1)CCN
+CH$IUPAC: InChI=1S/C9H13NO/c1-11-9-4-2-8(3-5-9)6-7-10/h2-5H,6-7,10H2,1H3
+CH$LINK: CAS 55-81-2
+CH$LINK: CHEBI 266039
+CH$LINK: CHEMSPIDER 4496
+CH$LINK: INCHIKEY LTPVSOCPYWDIFU-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4657
+AC$INSTRUMENT: Xevo TQS micro (Waters, MA, USA) coupled to ACQUITY UPLC H-Class (Waters, MA, USA)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC BEH AMIDE column (1.7 µm, 2.1 x 150 mm; Waters, MA, USA)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0-2 min, 100% MPB; 2-2.5 min, 90-70% MPB; 2.5-3 min, 70% MPB; 3-5 min, 100% MPB
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: SOLVENT A consisted of 95:5 water:acetonitrile containing either 100 mM ammonium formate buffered to pH 3.0
+AC$CHROMATOGRAPHY: SOLVENT MPB consisted of 15:85 water:acetonitrile containing 100 mM ammonium formate buffered to pH 3.0
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE 40 C
+MS$FOCUSED_ION: PRECURSOR_M/Z 135.080442
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H-NH3]+
+PK$SPLASH: splash10-0fb9-9600000000-807380b22037be18b3d2
+PK$NUM_PEAK: 32
+PK$PEAK: m/z int. rel.int.
+  50.7 11.14 5
+  51.1 18.91 8
+  54.9 12.78 5
+  64.9 25.02 10
+  65.1 17.02 7
+  77.0 2323 966
+  78.1 42.13 18
+  79.0 2403 999
+  91.0 862.8 359
+  92.0 210.5 88
+  92.1 128.8 54
+  93.7 15.85 7
+  94.1 24.71 10
+  102.0 39.19 16
+  102.2 24.53 10
+  103.0 1894 787
+  103.8 18.91 8
+  104.1 17.61 7
+  104.9 636.6 265
+  105.1 831 345
+  107.1 10.98 5
+  107.9 53.34 22
+  108.1 33.37 14
+  118.7 27.55 11
+  118.9 48.6 20
+  119.1 29.67 12
+  119.3 25.62 11
+  120.0 253.2 105
+  120.2 138.8 58
+  133.2 12.8 5
+  134.8 76.05 32
+  135.1 168 70
+//

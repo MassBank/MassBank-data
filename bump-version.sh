@@ -12,7 +12,7 @@ install:
   - git clone --branch dev --depth 1 -q https://github.com/MassBank/MassBank-web.git .scripts/MassBank-web
   - mvn -q -f .scripts/MassBank-web/MassBank-Project/MassBank-lib/pom.xml package
 script: 
-  - .scripts/MassBank-web/MassBank-Project/MassBank-lib/target/MassBank-lib/MassBank-lib/bin/Validator ./*
+  - bash .scripts/run_travis.sh
 EOF
 else
   echo Set version of release to $1. This version will validate against the main branch of MassBank-web.
@@ -25,6 +25,6 @@ install:
   - git clone --depth 1 -q https://github.com/MassBank/MassBank-web.git .scripts/MassBank-web
   - mvn -q -f .scripts/MassBank-web/MassBank-Project/MassBank-lib/pom.xml package
 script: 
-  - .scripts/MassBank-web/MassBank-Project/MassBank-lib/target/MassBank-lib/MassBank-lib/bin/Validator ./*
+  - bash .scripts/run_travis.sh
 EOF
 fi

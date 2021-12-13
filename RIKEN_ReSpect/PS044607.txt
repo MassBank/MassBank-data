@@ -2,7 +2,7 @@ ACCESSION: PS044607
 RECORD_TITLE: trans-Caffeate, 3,4-Dihydroxybenzeneacrylic acid, Caffeic acid, 3,4-Dihydroxycinnamic acid, 3-(3,4-Dihydroxyphenyl)propenoic acid; LC-ESI-QQ; MS2
 DATE: 2009.02.09
 AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
-LICENSE: CC-BY-NC
+LICENSE: CC BY-NC
 COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
 PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
 COMMENT: Build 5
@@ -20,13 +20,13 @@ CH$NAME: 3-(3,4-Dihydroxyphenyl)propenoic acid
 CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid CLASS2 Phenylpropanoid monomer CLASS3 Caffeic acid
 CH$FORMULA: C9H8O4
 CH$EXACT_MASS: 180.159
-CH$SMILES: C1=CC(=C(C=C1C=CC(=O)O)O)O
-CH$IUPAC: InChI=1S/C9H8O4/c10-7-3-1-6(5-8(7)11)2-4-9(12)13/h1-5,10-11H,(H,12,13)
+CH$SMILES: C1=CC(=C(C=C1/C=C/C(=O)O)O)O
+CH$IUPAC: InChI=1S/C9H8O4/c10-7-3-1-6(5-8(7)11)2-4-9(12)13/h1-5,10-11H,(H,12,13)/b4-2+
 CH$LINK: CAS 501-16-6
 CH$LINK: KEGG C01197
 CH$LINK: PUBCHEM CID:689043
-CH$LINK: INCHIKEY QAIPRVGONGVQAS-UHFFFAOYSA-N
-AC$INSTRUMENT:  TQD, Waters
+CH$LINK: INCHIKEY QAIPRVGONGVQAS-DUXPYHPUSA-N
+AC$INSTRUMENT: TQD, Waters
 AC$INSTRUMENT_TYPE: LC-ESI-QQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
 AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE

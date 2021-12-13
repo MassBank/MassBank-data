@@ -2,16 +2,17 @@ ACCESSION: PR307114
 RECORD_TITLE: trans-Caffeic acid; LC-ESI-QTOF; MS2
 DATE: 2019.03.28
 AUTHORS: Tetsuya Mori, Center for Sustainable Resource Science, RIKEN
-LICENSE: CC BY-SA NC
+LICENSE: CC BY-NC-SA
 PUBLICATION: Tsugawa H., Nakabayashi R., Mori T., Yamada Y., Takahashi M., Rai A., Sugiyama R., Yamamoto H., Nakaya T., Yamazaki M., Kooke R., Bac-Molenaar JA., Oztolan-Erol N., Keurentjes JJB., Arita M., Saito K. (2019) "A cheminformatics approach to characterize metabolomes in stable-isotope-labeled organisms" Nature Methods 16(4):295-298. [doi:10.1038/s41592-019-0358-2]
 COMMENT: registered in RIKEN PlaSMA
 CH$NAME: trans-Caffeic acid
 CH$COMPOUND_CLASS: Hydroxycinnamic acids
 CH$FORMULA: C9H8O4
 CH$EXACT_MASS: 180.159
-CH$SMILES: OC(=O)C=CC1=CC(O)=C(O)C=C1
-CH$IUPAC: InChI=1S/C9H8O4/c10-7-3-1-6(5-8(7)11)2-4-9(12)13/h1-5,10-11H,(H,12,13)
-CH$LINK: INCHIKEY QAIPRVGONGVQAS-UHFFFAOYSA-N
+CH$SMILES: C1=CC(=C(C=C1/C=C/C(=O)O)O)O
+CH$IUPAC: InChI=1S/C9H8O4/c10-7-3-1-6(5-8(7)11)2-4-9(12)13/h1-5,10-11H,(H,12,13)/b4-2+
+CH$LINK: INCHIKEY QAIPRVGONGVQAS-DUXPYHPUSA-N
+CH$LINK: PUBCHEM CID:689043
 AC$INSTRUMENT: LC, Waters Acquity UPLC System; MS, Waters Xevo G2 Q-Tof
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

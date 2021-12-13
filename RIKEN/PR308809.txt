@@ -2,16 +2,16 @@ ACCESSION: PR308809
 RECORD_TITLE: 4-Methoxycinnamic acid; LC-ESI-QTOF; MS2
 DATE: 2019.03.28
 AUTHORS: Tetsuya Mori, Center for Sustainable Resource Science, RIKEN
-LICENSE: CC BY-SA NC
+LICENSE: CC BY-NC-SA
 PUBLICATION: Tsugawa H., Nakabayashi R., Mori T., Yamada Y., Takahashi M., Rai A., Sugiyama R., Yamamoto H., Nakaya T., Yamazaki M., Kooke R., Bac-Molenaar JA., Oztolan-Erol N., Keurentjes JJB., Arita M., Saito K. (2019) "A cheminformatics approach to characterize metabolomes in stable-isotope-labeled organisms" Nature Methods 16(4):295-298. [doi:10.1038/s41592-019-0358-2]
 COMMENT: Annotation level-1
 CH$NAME: 4-Methoxycinnamic acid
 CH$COMPOUND_CLASS: Cinnamic acid and derivatives
 CH$FORMULA: C10H10O3
 CH$EXACT_MASS: 178.187
-CH$SMILES: COC1=CC=C(C=CC(O)=O)C=C1
-CH$IUPAC: InChI=1S/C10H10O3/c1-13-9-5-2-8(3-6-9)4-7-10(11)12/h2-7H,1H3,(H,11,12)
-CH$LINK: INCHIKEY AFDXODALSZRGIH-UHFFFAOYSA-N
+CH$SMILES: COC1=CC=C(C=C1)/C=C/C(=O)O
+CH$IUPAC: InChI=1S/C10H10O3/c1-13-9-5-2-8(3-6-9)4-7-10(11)12/h2-7H,1H3,(H,11,12)/b7-4+
+CH$LINK: INCHIKEY AFDXODALSZRGIH-QPJJXVBHSA-N
 AC$INSTRUMENT: LC, Waters Acquity UPLC System; MS, Waters Xevo G2 Q-Tof
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

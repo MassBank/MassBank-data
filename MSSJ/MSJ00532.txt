@@ -1,0 +1,142 @@
+ACCESSION: MSJ00532
+RECORD_TITLE: 2-(4-Trifluoromethylphenyl)ethylamine; LC-ESI-QQ; MS2; POSITIVE; [M+H]+; CID; 50 V
+DATE: 2021.02.28
+AUTHORS: Daiki Asakawa, National Institute of Advanced Industrial Science and Technology, 1-1-1 Umezono, Tsukuba, Ibaraki 305-8568, Japan.
+LICENSE: CC BY
+COPYRIGHT: Daiki Asakawa, National Institute of Advanced Industrial Science and Technology, 1-1-1 Umezono, Tsukuba, Ibaraki 305-8568, Japan.
+PUBLICATION: Daiki Asakawa, Hajime Mizuno, Eiji Sugiyama, and Kenichiro Todoroki, Anal. Chem., 92 (17), 12033-12039 (2020). [DOI: 10.1021/acs.analchem.0c02667]
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: 2-(4-Trifluoromethylphenyl)ethylamine
+CH$COMPOUND_CLASS: Non-natural product; Phenethylamine
+CH$FORMULA: C9H10F3N
+CH$EXACT_MASS: 189.07653
+CH$SMILES: C1=CC(=CC=C1CCN)C(F)(F)F
+CH$IUPAC: InChI=1S/C9H10F3N/c10-9(11,12)8-3-1-7(2-4-8)5-6-13/h1-4H,5-6,13H2
+CH$LINK: CAS 775-00-8
+CH$LINK: CHEMSPIDER 1511057
+CH$LINK: INCHIKEY HMFOBPNVAAAACP-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:1988106
+AC$INSTRUMENT: Xevo TQS micro (Waters, MA, USA) coupled to ACQUITY UPLC H-Class (Waters, MA, USA)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 50 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC BEH AMIDE column (1.7 µm, 2.1 x 150 mm; Waters, MA, USA)
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE 40 C
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0-2 min, 100% MPB; 2-2.5 min, 90-70% MPB; 2.5-3 min, 70% MPB; 3-5 min, 100% MPB
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: SOLVENT A consisted of 95:5 water:acetonitrile containing either 100 mM ammonium formate buffered to pH 3.0
+AC$CHROMATOGRAPHY: SOLVENT MPB consisted of 15:85 water:acetonitrile containing 100 mM ammonium formate buffered to pH 3.0
+MS$FOCUSED_ION: PRECURSOR_M/Z 190.08381
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-0059-9600000000-54905c3d982ca08db056
+PK$NUM_PEAK: 105
+PK$PEAK: m/z int. rel.int.
+  26.9 162 28
+  27.1 80 14
+  27.3 88 15
+  29.6 26 4
+  29.9 40 7
+  30.4 19 3
+  38.7 127 22
+  38.9 163 28
+  39.1 135 23
+  49.7 65 11
+  49.9 32 5
+  50.1 30 5
+  51.0 1030 178
+  51.2 467 81
+  51.6 35 6
+  51.9 68 12
+  52.3 58 10
+  53.1 17 3
+  56.6 151 26
+  56.9 466 81
+  57.2 232 40
+  59.0 252 44
+  62.9 816 141
+  64.7 38 6
+  65.0 41 7
+  65.2 29 5
+  65.3 20 4
+  68.6 62 11
+  68.9 128 22
+  69.1 113 20
+  69.3 69 12
+  73.6 27 5
+  73.8 30 5
+  74.2 95 16
+  75.0 1420 246
+  76.2 230 40
+  77.0 5770 999
+  78.0 1180 204
+  78.2 926 160
+  80.6 82 14
+  80.8 126 22
+  81.0 138 24
+  81.2 113 20
+  82.2 30 5
+  83.0 2460 426
+  86.0 21 4
+  86.9 172 30
+  87.2 69 12
+  87.3 48 8
+  87.7 16 3
+  88.1 17 3
+  88.7 31 5
+  89.0 61 10
+  89.4 19 3
+  93.1 23 4
+  94.7 143 25
+  95.0 507 88
+  96.0 19 3
+  98.7 19 3
+  99.1 42 7
+  99.3 19 3
+  100.9 269 47
+  101.1 157 27
+  101.3 133 23
+  102.0 1120 194
+  102.8 504 87
+  103.0 752 130
+  103.2 717 124
+  104.0 360 62
+  104.3 149 26
+  105.0 52 9
+  106.0 28 5
+  106.3 32 5
+  107.0 1950 338
+  108.7 15 3
+  109.1 63 11
+  113.0 325 56
+  113.9 67 12
+  114.2 46 8
+  118.9 16 3
+  119.3 21 4
+  124.7 50 9
+  125.1 119 21
+  126.7 202 35
+  127.1 787 136
+  130.8 51 9
+  131.1 37 6
+  131.4 51 9
+  131.6 40 7
+  131.8 32 6
+  132.1 145 25
+  132.3 72 13
+  133.0 3990 691
+  133.8 18 3
+  144.7 24 4
+  145.1 80 14
+  150.3 17 3
+  150.8 117 20
+  151.0 142 25
+  151.3 134 23
+  152.1 17 3
+  152.5 18 3
+  152.8 51 9
+  153.1 98 17
+  153.5 15 3
+//

@@ -2,16 +2,16 @@ ACCESSION: PR306425
 RECORD_TITLE: (-)-Epicatechin; LC-ESI-QTOF; MS2
 DATE: 2019.03.28
 AUTHORS: Tetsuya Mori, Center for Sustainable Resource Science, RIKEN
-LICENSE: CC BY-SA NC
+LICENSE: CC BY-NC-SA
 PUBLICATION: Tsugawa H., Nakabayashi R., Mori T., Yamada Y., Takahashi M., Rai A., Sugiyama R., Yamamoto H., Nakaya T., Yamazaki M., Kooke R., Bac-Molenaar JA., Oztolan-Erol N., Keurentjes JJB., Arita M., Saito K. (2019) "A cheminformatics approach to characterize metabolomes in stable-isotope-labeled organisms" Nature Methods 16(4):295-298. [doi:10.1038/s41592-019-0358-2]
 COMMENT: registered in RIKEN PlaSMA
 CH$NAME: (-)-Epicatechin
 CH$COMPOUND_CLASS: Catechins
 CH$FORMULA: C15H14O6
 CH$EXACT_MASS: 290.271
-CH$SMILES: OC1CC2=C(O)C=C(O)C=C2OC1C1=CC(O)=C(O)C=C1
-CH$IUPAC: InChI=1S/C15H14O6/c16-8-4-11(18)9-6-13(20)15(21-14(9)5-8)7-1-2-10(17)12(19)3-7/h1-5,13,15-20H,6H2
-CH$LINK: INCHIKEY PFTAWBLQPZVEMU-UHFFFAOYSA-N
+CH$SMILES: C1[C@H]([C@H](OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O
+CH$IUPAC: InChI=1S/C15H14O6/c16-8-4-11(18)9-6-13(20)15(21-14(9)5-8)7-1-2-10(17)12(19)3-7/h1-5,13,15-20H,6H2/t13-,15-/m1/s1
+CH$LINK: INCHIKEY PFTAWBLQPZVEMU-UKRRQHHQSA-N
 AC$INSTRUMENT: LC, Waters Acquity UPLC System; MS, Waters Xevo G2 Q-Tof
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

@@ -1,0 +1,59 @@
+ACCESSION: MSJ00636
+RECORD_TITLE: (4R)-4-Methylnonanoic acid; GC-FI-TOF; MS; positive; FI; 10 kV
+DATE: 2021.02.28
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori and Kazuaki Akasaka, Tetrahedron: Asymmetry 27 (2016) 182-187, DOI:10.1016/j.tetasy.2016.01.014.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the GC-transfer line was 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: Field ionization (FI) voltage, which is defined as the voltage between the emitter surface and the electrode, was 10 kV (default). Typical accuracy level expected was 10 ppm. Postrun m/z adjustment was made at a known mass, 172.14633.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: (4R)-4-Methylnonanoic acid
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C10H20O2
+CH$EXACT_MASS: 172.14638
+CH$SMILES: CCCCC[C@@H](C)CCC(=O)O
+CH$IUPAC: InChI=1S/C10H20O2/c1-3-4-5-6-9(2)7-8-10(11)12/h9H,3-8H2,1-2H3,(H,11,12)/t9-/m1/s1
+CH$LINK: CAS 124918-65-6
+CH$LINK: CHEMSPIDER 5365049
+CH$LINK: INCHIKEY WQTZCQIRCYSUBQ-SECBINFHSA-N
+CH$LINK: PUBCHEM CID:6997340
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temp. for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.57 min.
+PK$SPLASH: splash10-00di-0900000000-0b75e74315733a671115
+PK$NUM_PEAK: 25
+PK$PEAK: m/z int. rel.int.
+  29.040 3.95 39
+  29.965 0.63 6
+  35.178 0.63 6
+  41.124 0.69 7
+  43.056 1.23 12
+  43.985 0.64 6
+  52.935 0.68 7
+  101.061 3.33 33
+  113.132 2.86 29
+  115.074 8.45 84
+  116.074 0.88 9
+  136.122 0.96 10
+  143.106 2.16 22
+  155.140 0.83 8
+  158.125 0.69 7
+  171.140 1.95 19
+  172.048 0.57 6
+  172.146 100 999
+  173.152 19.02 190
+  173.225 0.88 9
+  174.155 1.71 17
+  178.129 0.63 6
+  178.355 0.66 7
+  199.303 0.65 6
+  257.952 0.55 5
+//

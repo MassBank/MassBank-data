@@ -2,16 +2,16 @@ ACCESSION: PR310808
 RECORD_TITLE: Adenosine (not validated); LC-ESI-QTOF; MS2
 DATE: 2019.03.28
 AUTHORS: Tetsuya Mori, Center for Sustainable Resource Science, RIKEN
-LICENSE: CC BY-SA NC
+LICENSE: CC BY-NC-SA
 PUBLICATION: Tsugawa H., Nakabayashi R., Mori T., Yamada Y., Takahashi M., Rai A., Sugiyama R., Yamamoto H., Nakaya T., Yamazaki M., Kooke R., Bac-Molenaar JA., Oztolan-Erol N., Keurentjes JJB., Arita M., Saito K. (2019) "A cheminformatics approach to characterize metabolomes in stable-isotope-labeled organisms" Nature Methods 16(4):295-298. [doi:10.1038/s41592-019-0358-2]
 COMMENT: Annotation level-2
 CH$NAME: Adenosine (not validated)
 CH$COMPOUND_CLASS: Nucleosides
 CH$FORMULA: C10H13N5O4
 CH$EXACT_MASS: 267.245
-CH$SMILES: OCC3OC(N2C=NC1=C(N=CN=C12)N)C(O)C3(O)
-CH$IUPAC: InChI=1S/C10H13N5O4/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(18)6(17)4(1-16)19-10/h2-4,6-7,10,16-18H,1H2,(H2,11,12,13)
-CH$LINK: INCHIKEY OIRDTQYFTABQOQ-UHFFFAOYSA-N
+CH$SMILES: C1=NC(=C2C(=N1)N(C=N2)[C@H]3[C@@H]([C@@H]([C@H](O3)CO)O)O)N
+CH$IUPAC: InChI=1S/C10H13N5O4/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(18)6(17)4(1-16)19-10/h2-4,6-7,10,16-18H,1H2,(H2,11,12,13)/t4-,6-,7-,10-/m1/s1
+CH$LINK: INCHIKEY OIRDTQYFTABQOQ-KQYNXXCUSA-N
 AC$INSTRUMENT: LC, Waters Acquity UPLC System; MS, Waters Xevo G2 Q-Tof
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

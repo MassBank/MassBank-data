@@ -2,6 +2,7 @@
 |---------------------------|-------------------------------------------------------------------------|-----------------|----------------|----------------------------|
 | ACES_SU                   | University of Stockholm - Environmental Sciences                        | Sweden          | AS             |                            |
 | AAFC                      | Agriculture and Agri-Food Canada                                        | Canada          | AC             |                            |
+| Antwerp_Univ              | University of Antwerp - Toxicology Center                               | Belgium         | AN             | HBM4EU                     |
 | Athens_Univ               | University of Athens - Analytical Chemistry                             | Greece          | AU             |                            |
 | BfG                       | BfG, Federal Institute of Hydrology, Koblenz                            | Germany         | BFG            |                            |
 | BGC_Munich                | BGC, Helmholtz-Zentrum Muenchen                                         | Germany         | RP             |                            |

@@ -1,0 +1,101 @@
+ACCESSION: MSJ00654
+RECORD_TITLE: Methyl [(1R)-1,2-dimethylcyclopent-2-en-1-yl]acetate; GC-EI-TOF; MS; positive; EI; 70 V
+DATE: 2021.02.28
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori and Jun Tabata, Tetrahedron 73 (2017) 6530-6541, DOI:10.1016/j.tet.2017.09.046.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (refTOF) mass spectrometer. Temperatures of the ion source and GC-transfer line were 200 C and 250 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. Postrun m/z adjustment with known mass was 168.11503.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: Methyl [(1R)-1,2-dimethylcyclopent-2-en-1-yl]acetate
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C10H16O2
+CH$EXACT_MASS: 168.11503
+CH$SMILES: COC(=O)C[C@@]1(C)CCC=C1C
+CH$IUPAC: InChI=1S/C10H16O2/c1-8-5-4-6-10(8,2)7-9(11)12-3/h5H,4,6-7H2,1-3H3/t10-/m1/s1
+CH$LINK: INCHIKEY BRFRMHHXZCHABO-SNVBAGLBSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temp. for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.36 min.
+PK$SPLASH: splash10-0007-9000000000-e900505c56ba71e9b7c2
+PK$NUM_PEAK: 70
+PK$PEAK: m/z int. rel.int.
+  27.024 5.54 55
+  28.006 8.78 88
+  28.031 0.93 9
+  29.003 0.71 7
+  29.040 3.17 32
+  31.019 0.57 6
+  31.990 2.96 30
+  38.016 0.38 4
+  39.024 9.71 97
+  39.073 0.15 1
+  40.031 1.49 15
+  41.04 10.55 105
+  41.092 0.14 1
+  42.012 1.24 12
+  42.045 0.63 6
+  43.019 2.24 22
+  43.055 1.06 11
+  45.035 0.64 6
+  50.016 0.66 7
+  51.024 2.82 28
+  52.031 1.52 15
+  53.04 6.83 68
+  54.046 0.91 9
+  55.055 8.46 84
+  56.059 0.46 5
+  59.014 3.27 33
+  59.050 0.22 2
+  63.024 0.83 8
+  65.040 4.16 42
+  66.047 1.08 11
+  67.055 15.62 156
+  68.059 1.11 11
+  69.070 0.38 4
+  74.037 0.79 8
+  75.044 0.64 6
+  77.04 12.12 121
+  77.113 0.15 1
+  78.046 2.44 24
+  79.055 29.22 292
+  79.184 0.19 2
+  80.060 3.06 31
+  81.070 1.08 11
+  91.055 10.28 103
+  91.134 0.14 1
+  92.061 1.45 14
+  93.071 23.29 233
+  93.205 0.16 2
+  94.078 100 999
+  94.557 0.28 3
+  94.893 0.18 2
+  95.086 88.68 886
+  95.578 0.25 3
+  95.924 0.18 2
+  96.090 7.19 72
+  96.180 0.14 1
+  96.276 0.16 2
+  97.094 0.3 3
+  105.071 0.65 7
+  107.086 1.11 11
+  108.094 0.72 7
+  109.101 0.45 5
+  111.081 1.58 16
+  121.065 1.89 19
+  122.069 0.22 2
+  136.088 2.65 26
+  137.096 0.99 10
+  153.091 0.91 9
+  168.115 15.37 154
+  169.119 2 20
+  170.124 0.2 2
+//

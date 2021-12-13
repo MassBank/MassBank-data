@@ -2,16 +2,16 @@ ACCESSION: PR308215
 RECORD_TITLE: cis-resveratrol; LC-ESI-QTOF; MS2
 DATE: 2019.03.28
 AUTHORS: Tetsuya Mori, Center for Sustainable Resource Science, RIKEN
-LICENSE: CC BY-SA NC
+LICENSE: CC BY-NC-SA
 PUBLICATION: Tsugawa H., Nakabayashi R., Mori T., Yamada Y., Takahashi M., Rai A., Sugiyama R., Yamamoto H., Nakaya T., Yamazaki M., Kooke R., Bac-Molenaar JA., Oztolan-Erol N., Keurentjes JJB., Arita M., Saito K. (2019) "A cheminformatics approach to characterize metabolomes in stable-isotope-labeled organisms" Nature Methods 16(4):295-298. [doi:10.1038/s41592-019-0358-2]
 COMMENT: registered in RIKEN PlaSMA
 CH$NAME: cis-resveratrol
 CH$COMPOUND_CLASS: Stilbenes
 CH$FORMULA: C14H12O3
 CH$EXACT_MASS: 228.247
-CH$SMILES: OC1=CC=C(C=CC2=CC(O)=CC(O)=C2)C=C1
-CH$IUPAC: InChI=1S/C14H12O3/c15-12-5-3-10(4-6-12)1-2-11-7-13(16)9-14(17)8-11/h1-9,15-17H
-CH$LINK: INCHIKEY LUKBXSAWLPMMSZ-UHFFFAOYSA-N
+CH$SMILES: C1=CC(=CC=C1/C=C\C2=CC(=CC(=C2)O)O)O
+CH$IUPAC: InChI=1S/C14H12O3/c15-12-5-3-10(4-6-12)1-2-11-7-13(16)9-14(17)8-11/h1-9,15-17H/b2-1-
+CH$LINK: INCHIKEY LUKBXSAWLPMMSZ-UPHRSURJSA-N
 AC$INSTRUMENT: LC, Waters Acquity UPLC System; MS, Waters Xevo G2 Q-Tof
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2

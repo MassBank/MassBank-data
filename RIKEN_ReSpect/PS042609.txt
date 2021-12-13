@@ -2,7 +2,7 @@ ACCESSION: PS042609
 RECORD_TITLE: Glucoluteolin, Luteoloside, luteolin-7-O-glucoside, Luteolin 7-O-beta-D-glucoside, Cinaroside, Lutl-7-Glc, Luteolin 7-O-glucopyranoside, 7-O-beta-D-Glucosyl-5,7,3',4'-tetrahydroxyflavone, 7-Glucosylluteolin, 2-(3,4-Dihydroxyphenyl)-7-(beta-D-glucopyranosyloxy)-5-hydroxy-4H-1-benzopyran-4-one, Cynaroside; LC-ESI-QQ; MS2
 DATE: 2009.02.09
 AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
-LICENSE: CC-BY-NC
+LICENSE: CC BY-NC
 COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
 PUBLICATION: Sawada, Y.; Akiyama, K.; Sakata, A.; Kuwahara, A.; Otsuki, H.; Sakurai, T.; Saito, K.; Hirai, M. Y. Widely Targeted Metabolomics Based on Large-Scale MS/MS Data for Elucidating Metabolite Accumulation Patterns in Plants. Plant and Cell Physiology 2008, 50 (1), 37–47. DOI:10.1093/pcp/pcn183
 COMMENT: Build 5
@@ -26,13 +26,13 @@ CH$NAME: Cynaroside
 CH$COMPOUND_CLASS: CLASS1 Flavonoid CLASS2 Flavone CLASS3 Luteolin glycoside
 CH$FORMULA: C21H20O11
 CH$EXACT_MASS: 448.38
-CH$SMILES: C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)OC4C(C(C(C(O4)CO)O)O)O)O)O)O
-CH$IUPAC: InChI=1S/C21H20O11/c22-7-16-18(27)19(28)20(29)21(32-16)30-9-4-12(25)17-13(26)6-14(31-15(17)5-9)8-1-2-10(23)11(24)3-8/h1-6,16,18-25,27-29H,7H2
-CH$LINK: CAS 26811-41-6
+CH$SMILES: C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O)O)O
+CH$IUPAC: InChI=1S/C21H20O11/c22-7-16-18(27)19(28)20(29)21(32-16)30-9-4-12(25)17-13(26)6-14(31-15(17)5-9)8-1-2-10(23)11(24)3-8/h1-6,16,18-25,27-29H,7H2/t16-,18-,19+,20-,21-/m1/s1
+CH$LINK: CAS 5373-11-5
 CH$LINK: KEGG C03951
 CH$LINK: PUBCHEM CID:5280637
-CH$LINK: INCHIKEY PEFNSGRTCBGNAN-UHFFFAOYSA-N
-AC$INSTRUMENT:  TQD, Waters
+CH$LINK: INCHIKEY PEFNSGRTCBGNAN-QNDFHXLGSA-N
+AC$INSTRUMENT: TQD, Waters
 AC$INSTRUMENT_TYPE: LC-ESI-QQ
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
 AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE

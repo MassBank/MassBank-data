@@ -2,16 +2,16 @@ ACCESSION: PR304994
 RECORD_TITLE: Boldine; LC-ESI-QTOF; MS2
 DATE: 2019.03.28
 AUTHORS: Tetsuya Mori, Center for Sustainable Resource Science, RIKEN
-LICENSE: CC BY-SA NC
+LICENSE: CC BY-NC-SA
 PUBLICATION: Tsugawa H., Nakabayashi R., Mori T., Yamada Y., Takahashi M., Rai A., Sugiyama R., Yamamoto H., Nakaya T., Yamazaki M., Kooke R., Bac-Molenaar JA., Oztolan-Erol N., Keurentjes JJB., Arita M., Saito K. (2019) "A cheminformatics approach to characterize metabolomes in stable-isotope-labeled organisms" Nature Methods 16(4):295-298. [doi:10.1038/s41592-019-0358-2]
 COMMENT: registered in RIKEN PlaSMA
 CH$NAME: Boldine
 CH$COMPOUND_CLASS: Aporphines
 CH$FORMULA: C19H21NO4
 CH$EXACT_MASS: 327.38
-CH$SMILES: COC1=C(O)C=C2CC3N(C)CCC4=CC(O)=C(OC)C(C2=C1)=C34
-CH$IUPAC: InChI=1S/C19H21NO4/c1-20-5-4-10-7-15(22)19(24-3)18-12-9-16(23-2)14(21)8-11(12)6-13(20)17(10)18/h7-9,13,21-22H,4-6H2,1-3H3
-CH$LINK: INCHIKEY LZJRNLRASBVRRX-UHFFFAOYSA-N
+CH$SMILES: CN1CCC2=CC(=C(C3=C2[C@@H]1CC4=CC(=C(C=C43)OC)O)OC)O
+CH$IUPAC: InChI=1S/C19H21NO4/c1-20-5-4-10-7-15(22)19(24-3)18-12-9-16(23-2)14(21)8-11(12)6-13(20)17(10)18/h7-9,13,21-22H,4-6H2,1-3H3/t13-/m0/s1
+CH$LINK: INCHIKEY LZJRNLRASBVRRX-ZDUSSCGKSA-N
 AC$INSTRUMENT: LC, Waters Acquity UPLC System; MS, Waters Xevo G2 Q-Tof
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
