@@ -1,0 +1,53 @@
+ACCESSION: PS050903
+RECORD_TITLE: 4-methylsulfinylbutyl glucosinolate; ESI-QQ; MS2; positive; CE 30 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Dr. Jonathan Gershenzon, -.
+COMMENT: PRIMe compound in-house ID T0017
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 4-methylsulfinylbutyl glucosinolate
+CH$NAME: 4MSOB
+CH$NAME: glucoraphanin
+CH$NAME: 4-(Methylsulfinyl)butylglucosinolate
+CH$COMPOUND_CLASS: CLASS1 Glucosinolate
+CH$COMPOUND_CLASS: CLASS2 Aliphatic glucosinolate
+CH$FORMULA: C12H23NO10S3
+CH$EXACT_MASS: 437.048
+CH$SMILES: CS(=O)CCCCC(=NOS(=O)(=O)O)SC1C(C(C(C(O1)CO)O)O)O
+CH$IUPAC: InChI=1/C12H23NO10S3/c1-25(18)5-3-2-4-8(13-23-26(19,20)21)24-12-11(17)10(16)9(15)7(6-14)22-12/h7,9-12,14-17H,2-6H2,1H3,(H,19,20,21)/b13-8+/t7-,9-,10+,11-,12+,25u/m1/s1/f/h19H
+CH$IUPAC: [[5-methylsulfinyl-1-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]sulfanylpentylidene]amino] hydrogen sulfate
+CH$LINK: CAS 21414-41-5
+CH$LINK: KEGG C08419
+CH$LINK: PUBCHEM CID 9548634
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 438.37
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 30
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+    109 2598 32
+    128 2611 32
+    129 6450 80
+    130 3592 44
+    132 4466 55
+    195 22913 286
+    196 79979 999
+    358 2476 30
+//

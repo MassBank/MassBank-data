@@ -1,0 +1,50 @@
+ACCESSION: PS078804
+RECORD_TITLE: D-Psicose; ESI-QQ; MS2; positive; CE 40 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, P8043.
+COMMENT: PRIMe compound in-house ID S0218
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: D-Psicose
+CH$NAME: Psi
+CH$NAME: D-Altrulose
+CH$NAME: Erythrohexulose
+CH$NAME: Pseudofructose
+CH$NAME: D-ribo-2-Ketohexulose
+CH$NAME: (3R,4R,5R)-1,3,4,5,6-pentahydroxyhexan-2-one
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Sugar
+CH$COMPOUND_CLASS: CLASS3 Monosaccharide
+CH$FORMULA: C6H12O6
+CH$EXACT_MASS: 180.063
+CH$SMILES: C1C(C(C(C(O1)(CO)O)O)O)O
+CH$IUPAC: InChI=1/C6H12O6/c7-2-6(11)5(10)4(9)3(8)1-12-6/h3-5,7-11H,1-2H2/t3-,4-,5-,6?/m1/s1
+CH$IUPAC: (3R,4R,5R)-2-(hydroxymethyl)oxane-2,3,4,5-tetrol
+CH$LINK: CAS 551-68-8
+CH$LINK: KEGG C06468
+CH$LINK: PUBCHEM CID 441036
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 179.67
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 40
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+    124 105903 999
+//

@@ -1,0 +1,52 @@
+ACCESSION: PS124001
+RECORD_TITLE: Sodium Deoxycholate; ESI-QQ; MS2; positive; CE 10 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 192-08312.
+COMMENT: PRIMe compound in-house ID V0114
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Sodium Deoxycholate
+CH$NAME: Deoxycholic Acid
+CH$NAME: desoxycholate
+CH$NAME: 3alpha,12alpha-Dihydroxy-5beta-cholanic acid
+CH$NAME: 3alpha,12alpha-Dihydroxy-5beta-cholanate
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Vitamin
+CH$FORMULA: C24H40O4
+CH$EXACT_MASS: 392.292
+CH$SMILES: CC(CCC(=O)O)C1CCC2C1(C(CC3C2CCC4C3(CCC(C4)O)C)O)C
+CH$IUPAC: InChI=1/C24H40O4/c1-14(4-9-22(27)28)18-7-8-19-17-6-5-15-12-16(25)10-11-23(15,2)20(17)13-21(26)24(18,19)3/h14-21,25-26H,4-13H2,1-3H3,(H,27,28)/t14-,15-,16-,17+,18-,19+,20+,21+,23+,24u/m1/s1/f/h27H
+CH$IUPAC: (4R)-4-[(3R,5R,8R,9S,10S,12S,14S,17R)-3,12-dihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl]pentanoic acid
+CH$LINK: CAS 83-44-3
+CH$LINK: KEGG C04483
+CH$LINK: PUBCHEM CID 440355
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 393.58
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 10
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+    357 99789 999
+    358 31111 311
+    375 16480 164
+    376 8980 89
+    393 5034 50
+    394 4375 43
+//

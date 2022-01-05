@@ -1,0 +1,52 @@
+ACCESSION: PS071401
+RECORD_TITLE: Guanosine-5'-monophosphate; ESI-QQ; MS2; positive; CE 10 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 070-01141.
+COMMENT: PRIMe compound in-house ID S0111
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Guanosine-5'-monophosphate
+CH$NAME: GMP
+CH$NAME: G-5'-P
+CH$NAME: 5'-GMP
+CH$NAME: Guanosine monophosphate
+CH$NAME: Guanylic acid
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Nucleotide
+CH$COMPOUND_CLASS: CLASS3 Guanosine phosphate
+CH$FORMULA: C10H14N5O8P
+CH$EXACT_MASS: 363.057
+CH$SMILES: C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)O)O)O)NC(=NC2=O)N
+CH$IUPAC: InChI=1/C10H14N5O8P/c11-10-13-7-4(8(18)14-10)12-2-15(7)9-6(17)5(16)3(23-9)1-22-24(19,20)21/h2-3,5-6,9,16-17H,1H2,(H2,19,20,21)(H3,11,13,14,18)/t3-,5-,6-,9-/m1/s1/f/h13,19-20H,11H2
+CH$IUPAC: [(2R,3S,4R,5R)-5-(2-amino-6-oxo-3H-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl dihydrogen phosphate
+CH$LINK: CAS 85-32-5
+CH$LINK: KEGG C00144
+CH$LINK: PUBCHEM CID 6804
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 364.27
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 10
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+    151 38690 49
+    152 181576 233
+    363 199456 256
+    364 776708 999
+//

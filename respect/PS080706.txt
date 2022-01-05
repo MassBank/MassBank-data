@@ -1,0 +1,59 @@
+ACCESSION: PS080706
+RECORD_TITLE: 1,2-Dilauroyl-sn-Glycero-3-Phosphate Monosodium Salt; ESI-QQ; MS2; positive; CE 60 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Avanti, 840635P.
+COMMENT: PRIMe compound in-house ID S0243
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 1,2-Dilauroyl-sn-Glycero-3-Phosphate Monosodium Salt
+CH$NAME: DLPA
+CH$NAME: 12:0/12:0PA
+CH$NAME: Dilauroylphosphatidic acid
+CH$NAME: 1,2-Didodecanoyl phosphatidyl 1'-sn-glycerol
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Phospholipid
+CH$COMPOUND_CLASS: CLASS3 Phosphatidylglycerol
+CH$FORMULA: C27H53O8P
+CH$EXACT_MASS: 536.347
+CH$SMILES: CCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)OC(=O)CCCCCCCCCCC
+CH$IUPAC: InChI=1/C27H53O8P/c1-3-5-7-9-11-13-15-17-19-21-26(28)33-23-25(24-34-36(30,31)32)35-27(29)22-20-18-16-14-12-10-8-6-4-2/h25H,3-24H2,1-2H3,(H2,30,31,32)/t25-/m1/s1/f/h30-31H
+CH$IUPAC: [(2R)-1-dodecanoyloxy-3-phosphonooxypropan-2-yl] dodecanoate
+CH$LINK: CAS 108321-06-8
+CH$LINK: KEGG -
+CH$LINK: PUBCHEM CID 9547171
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 537.67
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 60
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 12
+PK$PEAK: m/z int. rel.int.
+    42 4825 115
+    43 24606 591
+    56 5455 131
+    57 41586 999
+    67 2614 62
+    70 1577 37
+    71 15007 360
+    82 1449 34
+    83 3919 94
+    85 5820 139
+    94 4813 115
+    95 13341 320
+//

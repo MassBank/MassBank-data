@@ -1,0 +1,51 @@
+ACCESSION: PS116403
+RECORD_TITLE: Adenosine 3'-monophosphate From Yeast; ESI-QQ; MS2; positive; CE 30 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A9272.
+COMMENT: PRIMe compound in-house ID N0129
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Adenosine 3'-monophosphate From Yeast
+CH$NAME: 3'-AMP
+CH$NAME: 3'-Adenylic acid
+CH$NAME: Synadenylic acid
+CH$NAME: 3'-Adenosine monophosphate
+CH$NAME: AMP 3'-phosphate
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Nucleotide
+CH$COMPOUND_CLASS: CLASS3 Adenosine phosphate
+CH$FORMULA: C10H14N5O7P
+CH$EXACT_MASS: 347.063
+CH$SMILES: C1=NC2=C(C(=N1)N)N=CN2C3C(C(C(O3)CO)OP(=O)(O)O)O
+CH$IUPAC: InChI=1/C10H14N5O7P/c11-8-5-9(13-2-12-8)15(3-14-5)10-6(17)7(4(1-16)21-10)22-23(18,19)20/h2-4,6-7,10,16-17H,1H2,(H2,11,12,13)(H2,18,19,20)/t4-,6-,7-,10-/m1/s1/f/h18-19H,11H2
+CH$IUPAC: [(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-4-hydroxy-2-(hydroxymethyl)oxolan-3-yl] dihydrogen phosphate
+CH$LINK: CAS 84-21-9
+CH$LINK: KEGG C01367
+CH$LINK: PUBCHEM CID 41211
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 348.3
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 30
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+    135 133448 245
+    136 542954 999
+    348 17971 33
+//

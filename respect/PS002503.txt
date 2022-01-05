@@ -1,0 +1,48 @@
+ACCESSION: PS002503
+RECORD_TITLE: 1-Aminocyclopropane-1-carboxylic acid; ESI-QQ; MS2; positive; CE 30 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A3903.
+COMMENT: PRIMe compound in-house ID 25
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 1-Aminocyclopropane-1-carboxylic acid
+CH$NAME: ACPC
+CH$NAME: 1-Aminocyclopropanecarboxylic acid
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Carboxylic acid
+CH$COMPOUND_CLASS: CLASS3 Cyclopropanecarboxylic acid
+CH$FORMULA: C4H7NO2
+CH$EXACT_MASS: 101.047
+CH$SMILES: C1CC1(C(=O)O)N
+CH$IUPAC: InChI=1/C4H7NO2/c5-4(1-2-4)3(6)7/h1-2,5H2,(H,6,7)/f/h6H
+CH$IUPAC: 1-aminocyclopropane-1-carboxylic acid
+CH$LINK: CAS 22059-21-8
+CH$LINK: KEGG C01234
+CH$LINK: PUBCHEM CID 535
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 102.06
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 30
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+    28 11342 96
+    55 25626 217
+    56 117471 999
+//

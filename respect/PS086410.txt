@@ -1,0 +1,56 @@
+ACCESSION: PS086410
+RECORD_TITLE: Phloridzin; ESI-QQ; MS2; negative; CE 40 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound EXTRASYNTHESE S.A, 1046.
+COMMENT: PRIMe compound in-house ID S0307
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Phloridzin
+CH$NAME: Phlr-2p-Glc
+CH$NAME: phloretin-2'-O-glucoside
+CH$NAME: Phlorhizin
+CH$NAME: Phlorhizin
+CH$NAME: Phlorizin
+CH$NAME: Phlorizoside
+CH$NAME: Phlorrhizin
+CH$NAME: Phlorrhizen
+CH$NAME: 2'-(beta-D-Glucopyranosyloxy)-4',6'-dihydroxy-3-(4-hydroxyphenyl)propiophenone
+CH$COMPOUND_CLASS: CLASS1 Flavonoid
+CH$COMPOUND_CLASS: CLASS2 Chalcone
+CH$COMPOUND_CLASS: CLASS3 Phloretin glycoside
+CH$FORMULA: C21H24O10
+CH$EXACT_MASS: 436.136
+CH$SMILES: C1=CC(=CC=C1CCC(=O)C2=C(C=C(C=C2OC3C(C(C(C(O3)CO)O)O)O)O)O)O
+CH$IUPAC: InChI=1/C21H24O10/c22-9-16-18(27)19(28)20(29)21(31-16)30-15-8-12(24)7-14(26)17(15)13(25)6-3-10-1-4-11(23)5-2-10/h1-2,4-5,7-8,16,18-24,26-29H,3,6,9H2/t16-,18-,19+,20-,21-/m1/s1
+CH$IUPAC: 1-[2,4-dihydroxy-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]-3-(4-hydroxyphenyl)propan-1-one
+CH$LINK: CAS 60-81-1
+CH$LINK: KEGG C01604
+CH$LINK: PUBCHEM CID 6072
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 435.42
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 40
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE NEGATIVE
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+    167 45956 542
+    272 23827 281
+    273 84683 999
+    274 5635 66
+//

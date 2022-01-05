@@ -1,0 +1,50 @@
+ACCESSION: PS123208
+RECORD_TITLE: alpha-L-(-)-Fucose 1-phosphate bis(cyclohexylammonium) salt; ESI-QQ; MS2; negative; CE 20 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, F1759.
+COMMENT: PRIMe compound in-house ID V0106
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: alpha-L-(-)-Fucose 1-phosphate bis(cyclohexylammonium) salt 
+CH$NAME: alpha-Fuc-1P
+CH$NAME: alpha-Fucopyranosyl phosphate
+CH$NAME: 6-Deoxy-alpha-L-galactose phosphate
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Suger phosphate
+CH$COMPOUND_CLASS: CLASS3 Galactose phosphate
+CH$FORMULA: C6H13O8P
+CH$EXACT_MASS: 244.034
+CH$SMILES: CC1C(C(C(C(O1)OP(=O)(O)O)O)O)O
+CH$IUPAC: InChI=1/C6H13O8P/c1-2-3(7)4(8)5(9)6(13-2)14-15(10,11)12/h2-9H,1H3,(H2,10,11,12)/t2-,3+,4+,5-,6-/m0/s1/f/h10-11H
+CH$IUPAC: [(2S,3S,4R,5S,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl] dihydrogen phosphate
+CH$LINK: CAS 24333-03-7
+CH$LINK: KEGG -
+CH$LINK: PUBCHEM CID 439397
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 243.19
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 20
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE NEGATIVE
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+    78 5458 86
+    79 40091 632
+    242 13733 216
+    243 63358 999
+//

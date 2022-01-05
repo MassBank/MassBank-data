@@ -1,0 +1,47 @@
+ACCESSION: PS045101
+RECORD_TITLE: 4-Coumaric acid; ESI-QQ; MS2; positive; CE 10 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound EXTRASYNTHESE S.A, 6031.
+COMMENT: PRIMe compound in-house ID H0059
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 4-Coumaric acid
+CH$NAME: trans-4-hydroxycinnamic acid
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid
+CH$COMPOUND_CLASS: CLASS2 Phenylpropanoid monomer
+CH$COMPOUND_CLASS: CLASS3 Coumaric acid
+CH$FORMULA: C9H8O3
+CH$EXACT_MASS: 164.047
+CH$SMILES: C1=CC(=CC=C1C=CC(=O)O)O
+CH$IUPAC: InChI=1/C9H8O3/c10-8-4-1-7(2-5-8)3-6-9(11)12/h1-6,10H,(H,11,12)/b6-3+/f/h11H
+CH$IUPAC: (E)-3-(4-hydroxyphenyl)prop-2-enoic acid
+CH$LINK: CAS 501-98-4
+CH$LINK: KEGG C00811
+CH$LINK: PUBCHEM CID 637542
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 165.13
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 10
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+    147 60633 552
+    164 11101 101
+    165 109569 999
+//

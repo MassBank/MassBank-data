@@ -1,0 +1,48 @@
+ACCESSION: PS089101
+RECORD_TITLE: (cis,trans)-Farnesyl acetate; ESI-QQ; MS2; positive; CE 10 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako/Avocado , 508-68752/A19778 .
+COMMENT: PRIMe compound in-house ID S0341
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: (cis,trans)-Farnesyl acetate 
+CH$NAME: 3,7,11-Trimethyl-2,6,10-dodecatrienyl acetate
+CH$NAME: 3,7,11-Trimethyldodeca-2,6,10-trienyl acetate
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Other
+CH$COMPOUND_CLASS: CLASS3 Farnesyl acetate
+CH$FORMULA: C17H28O2
+CH$EXACT_MASS: 264.208
+CH$SMILES: CC(=CCCC(=CCCC(=CCOC(=O)C)C)C)C
+CH$IUPAC: InChI=1/C17H28O2/c1-14(2)8-6-9-15(3)10-7-11-16(4)12-13-19-17(5)18/h8,10,12H,6-7,9,11,13H2,1-5H3/b15-10+,16-12+
+CH$IUPAC: [(2E,6E)-3,7,11-trimethyldodeca-2,6,10-trienyl] acetate
+CH$LINK: CAS 29548-30-9
+CH$LINK: KEGG -
+CH$LINK: PUBCHEM CID 638500
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 264.3
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 10
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+    222 5862 38
+    223 153523 999
+    224 8053 52
+//

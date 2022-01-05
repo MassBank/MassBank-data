@@ -1,0 +1,50 @@
+ACCESSION: PS076308
+RECORD_TITLE: m-Hydroxycinnamic acid; ESI-QQ; MS2; negative; CE 20 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound W chamical, 328-36241 .
+COMMENT: PRIMe compound in-house ID S0170
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: m-Hydroxycinnamic acid
+CH$NAME: 3-Hydroxycinnamic acid
+CH$NAME: m-Coumaric Acid
+CH$NAME: 3-Coumaric Acid
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid
+CH$COMPOUND_CLASS: CLASS2 Phenylpropanoid monomer
+CH$COMPOUND_CLASS: CLASS3 Cinnamic acid
+CH$FORMULA: C9H8O3
+CH$EXACT_MASS: 164.047
+CH$SMILES: C1=CC(=CC(=C1)O)C=CC(=O)O
+CH$IUPAC: InChI=1/C9H8O3/c10-8-3-1-2-7(6-8)4-5-9(11)12/h1-6,10H,(H,11,12)/b5-4+/f/h11H
+CH$IUPAC: (E)-3-(3-hydroxyphenyl)prop-2-enoic acid
+CH$LINK: CAS 588-30-7
+CH$LINK: KEGG C12621
+CH$LINK: PUBCHEM CID 637541
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 163.1
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 20
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE NEGATIVE
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+    118 12165 98
+    119 122914 999
+    162 4804 39
+    163 28489 231
+//

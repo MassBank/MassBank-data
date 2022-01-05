@@ -1,0 +1,78 @@
+ACCESSION: PS124102
+RECORD_TITLE: all-trans-Retinoic Acid; ESI-QQ; MS2; positive; CE 20 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 186-01114.
+COMMENT: PRIMe compound in-house ID V0115
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: all-trans-Retinoic Acid
+CH$NAME: ATRA
+CH$NAME: beta-RA
+CH$NAME: All-trans-Vitamin A acid
+CH$NAME: all-trans-Retinoate
+CH$NAME: Resinoid Acid
+CH$NAME: Aberel
+CH$NAME: Airol
+CH$NAME: Aknoten
+CH$NAME: Cordes vas
+CH$NAME: Dermairol
+CH$NAME: 3,7-Dimethyl-9-(2,6,6-trimethyl-1-cyclohexen-1-yl)-2,4,6,8-nonatetraenoic acid
+CH$NAME: Effederm
+CH$NAME: Epi-aberel
+CH$NAME: Eudyna
+CH$NAME: Retin-A
+CH$NAME: Tretinoin
+CH$NAME: Tretin M
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Vitamin
+CH$FORMULA: C20H28O2
+CH$EXACT_MASS: 300.208
+CH$SMILES: CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC(=O)O)C)C
+CH$IUPAC: InChI=1/C20H28O2/c1-15(8-6-9-16(2)14-19(21)22)11-12-18-17(3)10-7-13-20(18,4)5/h6,8-9,11-12,14H,7,10,13H2,1-5H3,(H,21,22)/b9-6+,12-11+,15-8+,16-14+/f/h21H
+CH$IUPAC: (2E,4E,6E,8E)-3,7-dimethyl-9-(2,6,6-trimethyl-1-cyclohexenyl)nona-2,4,6,8-tetraenoic acid
+CH$LINK: CAS 302-79-4
+CH$LINK: KEGG C00777
+CH$LINK: PUBCHEM CID 444795
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 301.43
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 20
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 19
+PK$PEAK: m/z int. rel.int.
+    97 1670 39
+    109 5104 121
+    123 31281 744
+    159 1346 32
+    161 6559 156
+    163 1305 31
+    175 3248 77
+    177 3068 72
+    179 4617 109
+    187 2715 64
+    191 2562 60
+    201 6833 162
+    203 2777 66
+    204 1273 30
+    205 14440 343
+    283 2201 52
+    300 6317 150
+    301 41997 999
+    302 7472 177
+//

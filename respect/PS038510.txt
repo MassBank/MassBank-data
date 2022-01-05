@@ -1,0 +1,47 @@
+ACCESSION: PS038510
+RECORD_TITLE: beta-Methylcrotonyl coenzyme A lithium salt; ESI-QQ; MS2; negative; CE 40 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, M3013.
+COMMENT: PRIMe compound in-house ID 385
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: beta-Methylcrotonyl coenzyme A lithium salt 
+CH$NAME: 3-Methylcrotonyl-CoA
+CH$NAME: beta-Methylcrotonyl-CoA
+CH$NAME: trans-3-Methyl-2-butenoyl Coenzyme A
+CH$NAME: Dimethylacryloyl-CoA
+CH$NAME: 3-methylbut-2-enoyl-CoA
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 CoA
+CH$FORMULA: C26H42N7O17P3S
+CH$EXACT_MASS: 849.157
+CH$SMILES: CC(=CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C2N=CN=C3N)O)OP(=O)(O)O)O)C
+CH$IUPAC: InChI=1/C26H42N7O17P3S/c1-14(2)9-17(35)54-8-7-28-16(34)5-6-29-24(38)21(37)26(3,4)11-47-53(44,45)50-52(42,43)46-10-15-20(49-51(39,40)41)19(36)25(48-15)33-13-32-18-22(27)30-12-31-23(18)33/h9,12-13,15,19-21,25,36-37H,5-8,10-11H2,1-4H3,(H,28,34)(H,29,38)(H,42,43)(H,44,45)(H2,27,30,31)(H2,39,40,41)/t15-,19-,20-,21?,25-/m1/s1/f/h28-29,39-40,42,44H,27H2
+CH$IUPAC: S-[2-[3-[[4-[[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-4-hydroxy-3-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl]oxy-hydroxyphosphoryl]oxy-2-hydroxy-3,3-dimethylbutanoyl]amino]propanoylamino]ethyl] 3-methylbut-2-enethioate
+CH$LINK: KEGG C03069
+CH$LINK: PUBCHEM CID 439869
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 848.71
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 40
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE NEGATIVE
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+    848 101775 999
+//

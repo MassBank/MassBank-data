@@ -1,0 +1,55 @@
+ACCESSION: PS049103
+RECORD_TITLE: Pyridoxal-5'-phosphate hydrate; ESI-QQ; MS2; positive; CE 30 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, P9255.
+COMMENT: PRIMe compound in-house ID H0088
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Pyridoxal-5'-phosphate hydrate 
+CH$NAME: PLP
+CH$NAME: Pyridoxal-5P
+CH$NAME: Codecarboxylase
+CH$NAME: Pyridoxal 5-phosphate
+CH$NAME: 3-Hydroxy-2-methyl-5-((phosphonooxy)methyl)-4-pyridinecarboxaldehyde
+CH$NAME: Pyromijin
+CH$NAME: Hairoxal
+CH$NAME: Pidopidon
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Vitamin
+CH$FORMULA: C8H10NO6P
+CH$EXACT_MASS: 247.024
+CH$SMILES: CC1=NC=C(C(=C1O)C=O)COP(=O)(O)O
+CH$IUPAC: InChI=1/C8H10NO6P/c1-5-8(11)7(3-10)6(2-9-5)4-15-16(12,13)14/h2-3,11H,4H2,1H3,(H2,12,13,14)/f/h12-13H
+CH$IUPAC: (4-formyl-5-hydroxy-6-methylpyridin-3-yl)methyl dihydrogen phosphate
+CH$LINK: CAS 54-47-7
+CH$LINK: KEGG C00018
+CH$LINK: PUBCHEM CID 1051
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 248.24
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 30
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+    94 10333 149
+    122 17816 256
+    149 21875 315
+    150 69257 999
+    248 7508 108
+//

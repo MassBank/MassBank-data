@@ -1,0 +1,62 @@
+ACCESSION: PS086004
+RECORD_TITLE: Neohesperidin; ESI-QQ; MS2; positive; CE 40 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound EXTRASYNTHESE S.A, 1132 S.
+COMMENT: PRIMe compound in-house ID S0303
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Neohesperidin
+CH$NAME: Hesp-7-Glc-2pp-Man
+CH$NAME: hesperetin-7-O-neohesperidoside
+CH$NAME: (S)-4'-Methoxy-3',5,7-trihydroxyflavone-7-(2-O-(alpha-L-rhamnopyranosyl)-beta-D-Glucopyranoside))
+CH$COMPOUND_CLASS: CLASS1 Flavonoid
+CH$COMPOUND_CLASS: CLASS2 Flavanone
+CH$COMPOUND_CLASS: CLASS3 Hesperetin glycoside
+CH$FORMULA: C28H34O15
+CH$EXACT_MASS: 610.189
+CH$SMILES: CC1C(C(C(C(O1)OC2C(C(C(OC2OC3=CC(=C4C(=O)CC(OC4=C3)C5=CC(=C(C=C5)OC)O)O)CO)O)O)O)O)O
+CH$IUPAC: InChI=1/C28H34O15/c1-10-21(33)23(35)25(37)27(39-10)43-26-24(36)22(34)19(9-29)42-28(26)40-12-6-14(31)20-15(32)8-17(41-18(20)7-12)11-3-4-16(38-2)13(30)5-11/h3-7,10,17,19,21-31,33-37H,8-9H2,1-2H3/t10-,17-,19+,21-,22+,23+,24-,25+,26+,27-,28+/m0/s1
+CH$IUPAC: (2S)-7-[(2S,3R,4S,5S,6R)-4,5-dihydroxy-6-(hydroxymethyl)-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyoxan-2-yl]oxy-5-hydroxy-2-(3-hydroxy-4-methoxyphenyl)chroman-4-one
+CH$LINK: CAS 13241-33-3
+CH$LINK: KEGG C09806
+CH$LINK: PUBCHEM CID 442439
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 611.53
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 40
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 16
+PK$PEAK: m/z int. rel.int.
+    70 2966 57
+    71 14843 285
+    84 4334 83
+    85 28406 546
+    128 2720 52
+    129 10563 203
+    147 4916 94
+    153 6744 129
+    195 2794 53
+    219 2115 40
+    263 2848 54
+    302 24895 479
+    303 51905 999
+    304 9972 191
+    315 1833 35
+    344 2114 40
+//

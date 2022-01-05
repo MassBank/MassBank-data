@@ -1,0 +1,65 @@
+ACCESSION: PS063503
+RECORD_TITLE: Tropinone; ESI-QQ; MS2; positive; CE 30 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 205-12021.
+COMMENT: PRIMe compound in-house ID S0020
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Tropinone
+CH$NAME: 3-Tropanone
+CH$NAME: Tropionone
+CH$NAME: Tropan-3-one
+CH$NAME: 8-Methyl-8-azabicyclo(3,2,1)octan-3-one
+CH$COMPOUND_CLASS: CLASS1 Alkaloid
+CH$COMPOUND_CLASS: CLASS2 Tropane
+CH$COMPOUND_CLASS: CLASS3 Tropinone
+CH$FORMULA: C8H13NO
+CH$EXACT_MASS: 139.099
+CH$SMILES: CN1C2CCC1CC(=O)C2
+CH$IUPAC: InChI=1/C8H13NO/c1-9-6-2-3-7(9)5-8(10)4-6/h6-7H,2-5H2,1H3
+CH$IUPAC: 8-methyl-8-azabicyclo[3.2.1]octan-3-one
+CH$LINK: CAS 532-24-1
+CH$LINK: KEGG C00783
+CH$LINK: PUBCHEM CID 79038
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 140.17
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 30
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 18
+PK$PEAK: m/z int. rel.int.
+    30 14126 131
+    32 3664 34
+    42 13727 128
+    43 7442 69
+    55 4804 44
+    56 6026 56
+    57 25905 241
+    67 6036 56
+    69 4065 37
+    81 5877 54
+    82 20291 189
+    83 5256 49
+    97 14190 132
+    98 107084 999
+    138 7949 74
+    139 20344 189
+    140 87822 819
+    141 4480 41
+//

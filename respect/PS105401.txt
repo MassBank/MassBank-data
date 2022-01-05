@@ -1,0 +1,51 @@
+ACCESSION: PS105401
+RECORD_TITLE: 3,5-Dibromo-L-tyrosine hydrate; ESI-QQ; MS2; positive; CE 10 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound TCI, D0213.
+COMMENT: PRIMe compound in-house ID N0112
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 3,5-Dibromo-L-tyrosine hydrate
+CH$NAME: Tyr(3,5-diBr)
+CH$NAME: Dibromotirina
+CH$NAME: Bromotiren
+CH$NAME: Biotiren
+CH$NAME: beta-(3,5-dibromo-4-hydroxyphenyl)alanine
+CH$COMPOUND_CLASS: CLASS1 Amino acid
+CH$COMPOUND_CLASS: CLASS2 Tyrosine
+CH$FORMULA: C9H9Br2NO3
+CH$EXACT_MASS: 179.058
+CH$SMILES: C1=C(C=C(C(=C1Br)O)Br)CC(C(=O)O)N
+CH$IUPAC: InChI=1/C9H9Br2NO3/c10-5-1-4(2-6(11)8(5)13)3-7(12)9(14)15/h1-2,7,13H,3,12H2,(H,14,15)/t7-/m0/s1/f/h14H
+CH$IUPAC: (2S)-2-amino-3-(3,5-dibromo-4-hydroxyphenyl)propanoic acid
+CH$LINK: CAS 300-38-9
+CH$LINK: KEGG C03224
+CH$LINK: PUBCHEM CID 67532
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 338.18
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 10
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+    297 5152 44
+    337 46946 405
+    338 115573 999
+    339 7230 62
+//

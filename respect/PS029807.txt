@@ -1,0 +1,50 @@
+ACCESSION: PS029807
+RECORD_TITLE: Methanesulfonic acid solution; ESI-QQ; MS2; negative; CE 10 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, M4141.
+COMMENT: PRIMe compound in-house ID 298
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Methanesulfonic acid solution
+CH$NAME: MSA
+CH$NAME: Methylsulfonic acid
+CH$NAME: Mesic Acid
+CH$NAME: Sulfomethane
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Other
+CH$COMPOUND_CLASS: CLASS3 Other
+CH$FORMULA: CH4O3S
+CH$EXACT_MASS: 95.988
+CH$SMILES: CS(=O)(=O)O
+CH$IUPAC: InChI=1/CH4O3S/c1-5(2,3)4/h1H3,(H,2,3,4)/f/h2H
+CH$IUPAC: methanesulfonic acid
+CH$LINK: CAS 75-75-2
+CH$LINK: KEGG C11145
+CH$LINK: PUBCHEM CID 6395
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 94.97
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 10
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE NEGATIVE
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+    80 12975 31
+    94 84479 206
+    95 407942 999
+//

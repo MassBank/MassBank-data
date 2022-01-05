@@ -1,0 +1,53 @@
+ACCESSION: PS054608
+RECORD_TITLE: Lactulose; ESI-QQ; MS2; negative; CE 20 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, L7877.
+COMMENT: PRIMe compound in-house ID T0054
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Lactulose
+CH$NAME: Gal(beta1-4)Fru
+CH$NAME: Bifiteral
+CH$NAME: Cephulac
+CH$NAME: Chronulac
+CH$NAME: Isolactose
+CH$NAME: Lactulosa
+CH$NAME: Laevolac
+CH$NAME: 4-O-beta-D-Galactopyranosyl-D-fructose
+CH$NAME: 4-O-beta-D-Galactopyranosyl-D-fructofuranose
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Sugar
+CH$COMPOUND_CLASS: CLASS3 Disaccharide
+CH$FORMULA: C12H22O11
+CH$EXACT_MASS: 342.116
+CH$SMILES: C(C1C(C(C(C(O1)OC2C(OC(C2O)(CO)O)CO)O)O)O)O
+CH$IUPAC: InChI=1/C12H22O11/c13-1-4-6(16)7(17)8(18)11(21-4)22-9-5(2-14)23-12(20,3-15)10(9)19/h4-11,13-20H,1-3H2/t4-,5-,6+,7+,8-,9-,10+,11+,12-/m1/s1
+CH$IUPAC: (2S,3R,4S,5R,6R)-2-[(2R,3S,4S,5R)-4,5-dihydroxy-2,5-bis(hydroxymethyl)oxolan-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol
+CH$LINK: CAS 576-08-9
+CH$LINK: KEGG C07064
+CH$LINK: PUBCHEM CID 11333
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 341.33
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 20
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE NEGATIVE
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+    161 119161 999
+//

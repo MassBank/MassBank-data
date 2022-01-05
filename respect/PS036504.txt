@@ -1,0 +1,58 @@
+ACCESSION: PS036504
+RECORD_TITLE: Uridine; ESI-QQ; MS2; positive; CE 40 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, U3750.
+COMMENT: PRIMe compound in-house ID 365
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Uridine
+CH$NAME: araU
+CH$NAME: Uracilriboside
+CH$NAME: 1-beta-D-Ribofuranosyluracil
+CH$NAME: Uracil-1-beta-D-ribofuranoside
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Nucleoside
+CH$COMPOUND_CLASS: CLASS3 Uridine
+CH$FORMULA: C9H12N2O6
+CH$EXACT_MASS: 244.069
+CH$SMILES: C1=CN(C(=O)NC1=O)C2C(C(C(O2)CO)O)O
+CH$IUPAC: InChI=1/C9H12N2O6/c12-3-4-6(14)7(15)8(17-4)11-2-1-5(13)10-9(11)16/h1-2,4,6-8,12,14-15H,3H2,(H,10,13,16)/t4-,6-,7-,8-/m1/s1/f/h10H
+CH$IUPAC: 1-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]pyrimidine-2,4-dione
+CH$LINK: CAS 58-96-8
+CH$LINK: KEGG C00299
+CH$LINK: PUBCHEM CID 6029
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 245.27
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 40
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+    41 3889 52
+    43 4470 59
+    55 2412 32
+    57 4650 62
+    70 8111 108
+    95 3209 42
+    96 3607 48
+    111 2266 30
+    112 26454 354
+    113 74596 999
+    244 2900 38
+//

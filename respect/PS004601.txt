@@ -1,0 +1,53 @@
+ACCESSION: PS004601
+RECORD_TITLE: cis-Aconitic acid; ESI-QQ; MS2; positive; CE 10 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Nacalai-T, 00719-81.
+COMMENT: PRIMe compound in-house ID 46
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: cis-Aconitic acid
+CH$NAME: Achilleaic acid
+CH$NAME: cis-aconitate
+CH$NAME: cis-Oxaloacetic acid
+CH$NAME: cis-1,2,3-Propenetricarboxylic Acid
+CH$NAME: cis-Propene-1,2,3-tricarboxylic acid
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Carboxylic acid
+CH$COMPOUND_CLASS: CLASS3 Tricarboxylic acid
+CH$FORMULA: C6H6O6
+CH$EXACT_MASS: 174.016
+CH$SMILES: C(C(=CC(=O)O)C(=O)O)C(=O)O
+CH$IUPAC: InChI=1/C6H6O6/c7-4(8)1-3(6(11)12)2-5(9)10/h1H,2H2,(H,7,8)(H,9,10)(H,11,12)/b3-1-/f/h7,9,11H
+CH$IUPAC: (Z)-prop-1-ene-1,2,3-tricarboxylic acid
+CH$LINK: CAS 585-84-2
+CH$LINK: KEGG C00417
+CH$LINK: PUBCHEM CID 643757
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 175.16
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 10
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+    109 5710 85
+    138 10325 154
+    139 24817 371
+    157 66806 999
+    175 5316 79
+//

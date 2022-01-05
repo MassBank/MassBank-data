@@ -1,0 +1,63 @@
+ACCESSION: PS019601
+RECORD_TITLE: D-(-)-Penicillamine; ESI-QQ; MS2; positive; CE 10 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, P4875.
+COMMENT: PRIMe compound in-house ID 196
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: D-(-)-Penicillamine
+CH$NAME: DPA
+CH$NAME: 3,3-Dimethyl-D-cysteine
+CH$NAME: 3-Mercapto-D-valine
+CH$NAME: D-(?)-2-Amino-3-mercapto-3-methylbutanoic acid
+CH$NAME: beta-Thiovaline
+CH$NAME: alpha-Amino-beta-methyl-beta-mercaptobutylic Acid
+CH$NAME: (2S)-2-Amino-3-methyl-3-sulfanylbutanoic acid
+CH$NAME: Cupripen
+CH$NAME: Kuprenil
+CH$NAME: Depen
+CH$NAME: Perdolat
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Other
+CH$COMPOUND_CLASS: CLASS3 Penicillamine
+CH$FORMULA: C5H11NO2S
+CH$EXACT_MASS: 149.051
+CH$SMILES: CC(C)(C(C(=O)O)N)S
+CH$IUPAC: InChI=1/C5H11NO2S/c1-5(2,9)3(6)4(7)8/h3,9H,6H2,1-2H3,(H,7,8)/t3-/m0/s1/f/h7H
+CH$IUPAC: (2S)-2-amino-3-methyl-3-sulfanylbutanoic acid
+CH$LINK: CAS 52-67-5
+CH$LINK: KEGG C07418
+CH$LINK: PUBCHEM CID 5852
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 149.11
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 10
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+    70 24426 434
+    71 6829 121
+    100 2740 48
+    107 4092 72
+    115 2998 53
+    117 4942 87
+    125 6485 115
+    148 7719 137
+    149 56191 999
+//

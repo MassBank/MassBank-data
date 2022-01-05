@@ -1,0 +1,56 @@
+ACCESSION: PS018402
+RECORD_TITLE: Creatine,anhydrous; ESI-QQ; MS2; positive; CE 20 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, C0780.
+COMMENT: PRIMe compound in-house ID 184
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Creatine,anhydrous
+CH$NAME: N-Amidinosarcosine
+CH$NAME: (alpha-Methylguanido)acetic acid
+CH$NAME: Krebiozon
+CH$NAME: Methyl Glycocyamine
+CH$NAME: alpha-Methylguanidinoacetic Acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid
+CH$COMPOUND_CLASS: CLASS2 Creatine
+CH$FORMULA: C4H9N3O2
+CH$EXACT_MASS: 131.069
+CH$SMILES: CN(CC(=O)O)C(=N)N
+CH$IUPAC: InChI=1/C4H9N3O2/c1-7(4(5)6)2-3(8)9/h2H2,1H3,(H3,5,6)(H,8,9)/f/h5,8H,6H2/b5-4+
+CH$IUPAC: 2-(carbamimidoyl-methylamino)acetic acid
+CH$LINK: CAS 57-00-1
+CH$LINK: KEGG C00300
+CH$LINK: PUBCHEM CID 586
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 132.11
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 20
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+    42 7097 35
+    43 37383 186
+    44 171356 855
+    87 8215 41
+    89 45399 226
+    90 199994 999
+    130 8496 42
+    131 53168 265
+    132 127648 637
+//

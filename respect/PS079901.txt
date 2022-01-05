@@ -1,0 +1,56 @@
+ACCESSION: PS079901
+RECORD_TITLE: 2,2',2''-Nitrilotriethanol; ESI-QQ; MS2; positive; CE 10 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 145-05605 .
+COMMENT: PRIMe compound in-house ID S0230
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 2,2',2''-Nitrilotriethanol
+CH$NAME: TEA
+CH$NAME: Trolamine
+CH$NAME: Triethanolamine
+CH$NAME: Tris(2-hydroxyethyl)amine
+CH$NAME: Tri-beta-hydroxyethylamine
+CH$NAME: (2-Hydroxyethyl)amine
+CH$NAME: Trihydroxyethylamine
+CH$NAME: 2,2',2''-Trihydroxytriethylamine
+CH$NAME: Daltogen
+CH$NAME: Triethylolamine
+CH$NAME: Trolamine
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Other
+CH$COMPOUND_CLASS: CLASS3 Other
+CH$FORMULA: C6H15NO3
+CH$EXACT_MASS: 149.105
+CH$SMILES: C(CO)N(CCO)CCO
+CH$IUPAC: InChI=1/C6H15NO3/c8-4-1-7(2-5-9)3-6-10/h8-10H,1-6H2
+CH$IUPAC: 2-(bis(2-hydroxyethyl)amino)ethanol
+CH$LINK: CAS 102-71-6
+CH$LINK: KEGG C06771
+CH$LINK: PUBCHEM CID 7618
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 150.17
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 10
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+    149 166544 43
+    150 3851767 999
+//

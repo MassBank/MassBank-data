@@ -1,0 +1,80 @@
+ACCESSION: PS099203
+RECORD_TITLE: Theophylline,anhydrous; ESI-QQ; MS2; positive; CE 30 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, T1633.
+COMMENT: PRIMe compound in-house ID N0050
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Theophylline,anhydrous
+CH$NAME: SR
+CH$NAME: 1,3-Dimethylxanthine
+CH$NAME: 2,6-Dihydroxy-1,3-dimethylpurine
+CH$NAME: 3,7-Dihydro-1,3-dimethyl-1H-purine-2,6-dione
+CH$NAME: 1,3-Dimethyl-2,6-dioxo-1,2,3,6-tetrahydropurine
+CH$NAME: Armophylline
+CH$NAME: Asmax
+CH$NAME: Austyn
+CH$NAME: Duraphy
+CH$NAME: Elixicon
+CH$NAME: Elixophyllin
+CH$NAME: Elixophylline
+CH$NAME: Euphylong
+CH$NAME: Lanophyllin
+CH$NAME: Liquophylline
+CH$NAME: Nuelin
+CH$NAME: Optiphyllin
+CH$NAME: Parkophyllin
+CH$NAME: Pseudotheophylline
+CH$NAME: Solosin
+CH$NAME: Teofilina
+CH$NAME: Teofyllamin
+CH$NAME: Theocin
+CH$NAME: Theofol
+CH$NAME: Theograd
+CH$NAME: Uniphyllin
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Other
+CH$COMPOUND_CLASS: CLASS3 Theophylline
+CH$FORMULA: C7H8N4O2
+CH$EXACT_MASS: 180.064
+CH$SMILES: CN1C2=C(C(=O)N(C1=O)C)NC=N2
+CH$IUPAC: InChI=1/C7H8N4O2/c1-10-5-4(8-3-9-5)6(12)11(2)7(10)13/h3H,1-2H3,(H,8,9)/f/h8H
+CH$IUPAC: 1,3-dimethyl-7H-purine-2,6-dione
+CH$LINK: CAS 58-55-9
+CH$LINK: KEGG C07130
+CH$LINK: PUBCHEM CID 2153
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 181.2
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 30
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+    42 26517 117
+    69 19458 86
+    95 10490 46
+    96 43060 191
+    123 77183 342
+    124 224963 999
+    178 7901 35
+    179 11870 52
+    180 47090 209
+    181 81846 363
+    182 7863 34
+//

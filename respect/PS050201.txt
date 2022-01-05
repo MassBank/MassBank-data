@@ -1,0 +1,47 @@
+ACCESSION: PS050201
+RECORD_TITLE: L-saccharopine; ESI-QQ; MS2; positive; CE 10 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, S1634.
+COMMENT: PRIMe compound in-house ID H0099
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-saccharopine
+CH$NAME: epsilon-N-(L-glutar-2-yl)-L-lysine
+CH$NAME: N6-(L-1,3-dicarboxylpropyl)-L-lysine
+CH$COMPOUND_CLASS: CLASS1 Amino acid
+CH$COMPOUND_CLASS: CLASS2 Saccharopine
+CH$FORMULA: C11H20N2O6
+CH$EXACT_MASS: 276.132
+CH$SMILES: C(CCNC(CCC(=O)O)C(=O)O)CC(C(=O)O)N
+CH$IUPAC: InChI=1/C11H20N2O6/c12-7(10(16)17)3-1-2-6-13-8(11(18)19)4-5-9(14)15/h7-8,13H,1-6,12H2,(H,14,15)(H,16,17)(H,18,19)/t7-,8-/m0/s1/f/h14,16,18H
+CH$IUPAC: (2S)-2-[[(5S)-5-amino-6-hydroxy-6-oxohexyl]amino]pentanedioic acid
+CH$LINK: CAS 997-68-2
+CH$LINK: KEGG C00449
+CH$LINK: PUBCHEM CID 160556
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 277.34
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 10
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+    259 29728 40
+    276 89674 122
+    277 731937 999
+//

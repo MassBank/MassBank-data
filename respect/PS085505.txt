@@ -1,0 +1,63 @@
+ACCESSION: PS085505
+RECORD_TITLE: Marein; ESI-QQ; MS2; positive; CE 50 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound EXTRASYNTHESE S.A, 0059 S.
+COMMENT: PRIMe compound in-house ID S0298
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Marein
+CH$NAME: Okan-4p-Glc
+CH$NAME: okanin-4'-O-glucoside
+CH$NAME: 2',3,3',4,4'-Pentahydroxy-4'-glucosylchalcone
+CH$COMPOUND_CLASS: CLASS1 Flavonoid
+CH$COMPOUND_CLASS: CLASS2 Chalcone
+CH$COMPOUND_CLASS: CLASS3 Okanin glycoside
+CH$FORMULA: C21H22O11
+CH$EXACT_MASS: 450.116
+CH$SMILES: C1=CC(=C(C=C1C=CC(=O)C2=C(C(=C(C=C2)OC3C(C(C(C(O3)CO)O)O)O)O)O)O)O
+CH$IUPAC: InChI=1/C21H22O11/c22-8-15-18(28)19(29)20(30)21(32-15)31-14-6-3-10(16(26)17(14)27)11(23)4-1-9-2-5-12(24)13(25)7-9/h1-7,15,18-22,24-30H,8H2/b4-1+/t15-,18-,19+,20-,21-/m1/s1
+CH$IUPAC: (E)-3-(3,4-dihydroxyphenyl)-1-[2,3-dihydroxy-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]prop-2-en-1-one
+CH$LINK: CAS 535-96-6
+CH$LINK: KEGG -
+CH$LINK: PUBCHEM CID 6441269
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 451.38
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 50
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 17
+PK$PEAK: m/z int. rel.int.
+    41 1652 38
+    57 1338 31
+    84 2627 61
+    85 6719 158
+    96 1678 39
+    117 1314 30
+    145 2001 47
+    152 6097 143
+    153 33168 780
+    162 10056 236
+    163 42453 999
+    179 3277 77
+    287 2806 66
+    288 14549 342
+    289 34022 800
+    290 4877 114
+    291 1506 35
+//

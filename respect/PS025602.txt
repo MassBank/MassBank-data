@@ -1,0 +1,54 @@
+ACCESSION: PS025602
+RECORD_TITLE: Inosine; ESI-QQ; MS2; positive; CE 20 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, I4125.
+COMMENT: PRIMe compound in-house ID 256
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Inosine
+CH$NAME: INO
+CH$NAME: (?)-Inosine
+CH$NAME: beta-Inosine
+CH$NAME: Hypoxanthine 9-beta-D-ribofuranoside
+CH$NAME: 9-beta-D-ribofuranosylhypoxanthine
+CH$NAME: Hypoxanthine ribonucleoside
+CH$NAME: Oxiamin
+CH$NAME: Ribonosine
+CH$NAME: Trophicardyl
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Nucleoside
+CH$COMPOUND_CLASS: CLASS3 Inosine
+CH$FORMULA: C10H12N4O5
+CH$EXACT_MASS: 268.08
+CH$SMILES: C1=NC(=O)C2=C(N1)N(C=N2)C3C(C(C(O3)CO)O)O
+CH$IUPAC: InChI=1/C10H12N4O5/c15-1-4-6(16)7(17)10(19-4)14-3-13-5-8(14)11-2-12-9(5)18/h2-4,6-7,10,15-17H,1H2,(H,11,12,18)/t4-,6-,7-,10-/m1/s1/f/h11H
+CH$IUPAC: 9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-3H-purin-6-one
+CH$LINK: CAS 58-63-9
+CH$LINK: KEGG C00294
+CH$LINK: PUBCHEM CID 6021
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 269.29
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 20
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+    136 187114 245
+    137 762305 999
+//

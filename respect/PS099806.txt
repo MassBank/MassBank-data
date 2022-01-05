@@ -1,0 +1,59 @@
+ACCESSION: PS099806
+RECORD_TITLE: O-Acety-L-carnitine hydrochloride; ESI-QQ; MS2; positive; CE 60 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A6706.
+COMMENT: PRIMe compound in-house ID N0056
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: O-Acety-L-carnitine hydrochloride
+CH$NAME: ALC
+CH$NAME: ALCAR
+CH$NAME: L-Carnitine acetyl ester
+CH$NAME: (R)-3-Acetoxy-4-(trimethylammonio)butyrate
+CH$NAME: Levacecarnine 
+CH$COMPOUND_CLASS: CLASS1 Amino acid
+CH$COMPOUND_CLASS: CLASS2 Carnitine
+CH$FORMULA: C9H18NO4
+CH$EXACT_MASS: 204.123
+CH$SMILES: CC(=O)OC(CC(=O)O)C[N+](C)(C)C
+CH$IUPAC: InChI=1/C9H17NO4/c1-7(11)14-8(5-9(12)13)6-10(2,3)4/h8H,5-6H2,1-4H3/p+1/t8-/m1/s1/fC9H18NO4/h12H/q+1
+CH$IUPAC: [(2R)-2-acetyloxy-4-hydroxy-4-oxobutyl]-trimethylazanium
+CH$LINK: CAS 14992-62-2
+CH$LINK: KEGG C02571
+CH$LINK: PUBCHEM CID 439756
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 204.27
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 60
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 12
+PK$PEAK: m/z int. rel.int.
+    28 5089 109
+    29 12759 274
+    42 8141 174
+    43 19610 421
+    45 1873 40
+    57 6495 139
+    58 14720 316
+    60 3882 83
+    82 1671 35
+    83 3672 78
+    84 16135 346
+    85 46475 999
+//

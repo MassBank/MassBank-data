@@ -1,0 +1,54 @@
+ACCESSION: PS038901
+RECORD_TITLE: gamma-Amino-n-butyric acid; ESI-QQ; MS2; positive; CE 10 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A5835.
+COMMENT: PRIMe compound in-house ID 389
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: gamma-Amino-n-butyric acid
+CH$NAME: GABA
+CH$NAME: 4-Aminobutyric acid
+CH$NAME: 4-Aminobutylate
+CH$NAME: 4-Aminobutanoic acid
+CH$NAME: Piperidic acid
+CH$NAME: Piperidinic acid
+CH$NAME: Aminalon
+CH$COMPOUND_CLASS: CLASS1 Amino acid
+CH$COMPOUND_CLASS: CLASS2 Other
+CH$COMPOUND_CLASS: CLASS3 GABA
+CH$FORMULA: C4H9NO2
+CH$EXACT_MASS: 103.063
+CH$SMILES: C(CC(=O)O)CN
+CH$IUPAC: InChI=1/C4H9NO2/c5-3-1-2-4(6)7/h1-3,5H2,(H,6,7)/f/h6H
+CH$IUPAC: 4-aminobutanoic acid
+CH$LINK: KEGG C00334
+CH$LINK: PUBCHEM CID 119
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 104.08
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 10
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+    85 23955 30
+    86 212963 268
+    87 397543 501
+    103 81497 102
+    104 791747 999
+//

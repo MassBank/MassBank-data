@@ -1,0 +1,53 @@
+ACCESSION: PS095304
+RECORD_TITLE: Hippuric Acid; ESI-QQ; MS2; positive; CE 40 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, 112003.
+COMMENT: PRIMe compound in-house ID N0011
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Hippuric Acid
+CH$NAME: Hippurate
+CH$NAME: N-Benzoylglycine
+CH$NAME: N-Benzoylglycine
+CH$NAME: Benzoylaminoacetic acid
+CH$NAME: Benzamidoacetic acid
+CH$NAME: Phenylcarbonylaminoacetic acid
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Carboxylic acid
+CH$COMPOUND_CLASS: CLASS3 Hippuric acid
+CH$FORMULA: C9H9NO3
+CH$EXACT_MASS: 179.058
+CH$SMILES: C1=CC=C(C=C1)C(=O)NCC(=O)O
+CH$IUPAC: InChI=1/C9H9NO3/c11-8(12)6-10-9(13)7-4-2-1-3-5-7/h1-5H,6H2,(H,10,13)(H,11,12)/f/h10-11H
+CH$IUPAC: 2-(benzoylamino)acetic acid
+CH$LINK: CAS 495-69-2
+CH$LINK: KEGG C01586
+CH$LINK: PUBCHEM CID 464
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 180.18
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 40
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+    76 23736 228
+    77 103696 999
+    104 29157 280
+    105 78080 752
+//

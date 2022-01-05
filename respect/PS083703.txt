@@ -1,0 +1,50 @@
+ACCESSION: PS083703
+RECORD_TITLE: malvidin-3-galactoside chloride; ESI-QQ; MS2; positive; CE 30 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound EXTRASYNTHESE S.A, 0931 S.
+COMMENT: PRIMe compound in-house ID S0276
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: malvidin-3-galactoside chloride
+CH$NAME: Malv-3-Gal
+CH$NAME: Primulin
+CH$NAME: malvidin-3-o-beta-d-galactopyranoside
+CH$COMPOUND_CLASS: CLASS1 Flavonoid
+CH$COMPOUND_CLASS: CLASS2 Anthocyanin
+CH$COMPOUND_CLASS: CLASS3 Malvidin glycoside
+CH$FORMULA: C23H25O12
+CH$EXACT_MASS: 493.134
+CH$SMILES: COC1=CC(=CC(=C1O)OC)C2=C(C=C3C(=CC(=CC3=[O+]2)O)O)OC4C(C(C(C(O4)CO)O)O)O
+CH$IUPAC: InChI=1/C23H24O12/c1-31-14-3-9(4-15(32-2)18(14)27)22-16(7-11-12(26)5-10(25)6-13(11)33-22)34-23-21(30)20(29)19(28)17(8-24)35-23/h3-7,17,19-21,23-24,28-30H,8H2,1-2H3,(H2-,25,26,27)/p+1/t17-,19+,20+,21-,23-/m1/s1/fC23H25O12/h25-27H/q+1
+CH$IUPAC: (2S,3R,4S,5R,6R)-2-[5,7-dihydroxy-2-(4-hydroxy-3,5-dimethoxyphenyl)chromenylium-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol
+CH$LINK: CAS 30113-37-2
+CH$LINK: KEGG -
+CH$LINK: PUBCHEM CID 5484292
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 493.42
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 30
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+    330 211856 371
+    331 569851 999
+    332 39859 69
+    493 22065 38
+//

@@ -1,0 +1,51 @@
+ACCESSION: PS024408
+RECORD_TITLE: Guanosine-5'-diphosphoglucose sodium salt; ESI-QQ; MS2; negative; CE 20 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, G7502.
+COMMENT: PRIMe compound in-house ID 244
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Guanosine-5'-diphosphoglucose sodium salt
+CH$NAME: GDPG
+CH$NAME: GDP-glucose
+CH$NAME: GDP-Glc
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Nucleotide
+CH$COMPOUND_CLASS: CLASS3 Guanosine phosphate
+CH$FORMULA: C16H25N5O16P2
+CH$EXACT_MASS: 605.077
+CH$SMILES: C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OC4C(C(C(C(O4)CO)O)O)O)O)O)NC(=NC2=O)N
+CH$IUPAC: InChI=1/C16H25N5O16P2/c17-16-19-12-6(13(28)20-16)18-3-21(12)14-10(26)8(24)5(34-14)2-33-38(29,30)37-39(31,32)36-15-11(27)9(25)7(23)4(1-22)35-15/h3-5,7-11,14-15,22-27H,1-2H2,(H,29,30)(H,31,32)(H3,17,19,20,28)/t4-,5-,7-,8-,9+,10-,11-,14?,15u/m1/s1/f/h19,29,31H,17H2
+CH$IUPAC: [(2R,3S,4R)-5-(2-amino-6-oxo-3H-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl [hydroxy-[(3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphosphoryl] hydrogen phosphate
+CH$LINK: CAS 5750-57-2
+CH$LINK: KEGG C00394
+CH$LINK: PUBCHEM CID 439225
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 604.45
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 20
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE NEGATIVE
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+    602 9373 45
+    603 202985 980
+    604 206764 999
+    605 78242 378
+    606 12957 62
+//

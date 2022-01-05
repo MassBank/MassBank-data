@@ -1,0 +1,47 @@
+ACCESSION: PS090802
+RECORD_TITLE: DL-homocystine; ESI-QQ; MS2; positive; CE 20 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound WAKO, 084-00741.
+COMMENT: PRIMe compound in-house ID C0010
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: DL-homocystine
+CH$NAME: meso-4,4'-Dithio-bis(2-aminobutanoic acid)
+CH$NAME: DL-4,4'-Dithiobis(2-aminobutyric acid)
+CH$COMPOUND_CLASS: CLASS1 Amino acid
+CH$COMPOUND_CLASS: CLASS2 Cysteine
+CH$FORMULA: C4H8NSO2
+CH$EXACT_MASS: 134.027
+CH$SMILES: C(CSSCCC(C(=O)O)N)C(C(=O)O)N
+CH$IUPAC: InChI=1/C8H16N2O4S2/c9-5(7(11)12)1-3-15-16-4-2-6(10)8(13)14/h5-6H,1-4,9-10H2,(H,11,12)(H,13,14)/f/h11,13H
+CH$IUPAC: 2-amino-4-(3-amino-4-hydroxy-4-oxobutyl)disulfanylbutanoic acid
+CH$LINK: CAS 870-93-9
+CH$LINK: KEGG C01817
+CH$LINK: PUBCHEM CID 10010
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 134.08
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 20
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+    87 19738 186
+    88 105825 999
+    134 6387 60
+//

@@ -1,0 +1,65 @@
+ACCESSION: PS103004
+RECORD_TITLE: 1,7-Dimethylxanthine; ESI-QQ; MS2; positive; CE 40 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, D5385.
+COMMENT: PRIMe compound in-house ID N0088
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 1,7-Dimethylxanthine
+CH$NAME: Paraxanthine
+CH$NAME: 2,6-Dihydroxy-1,7-dimethylpurine
+CH$NAME: 1,7-Dimethyl-1H-purine-2,6-dione
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Other
+CH$COMPOUND_CLASS: CLASS3 Xanthine
+CH$FORMULA: C7H8N4O2
+CH$EXACT_MASS: 180.064
+CH$SMILES: CN1C=NC2=C1C(=O)N(C(=O)N2)C
+CH$IUPAC: InChI=1/C7H8N4O2/c1-10-3-8-5-4(10)6(12)11(2)7(13)9-5/h3H,1-2H3,(H,9,13)/f/h9H
+CH$IUPAC: 1,7-dimethyl-3H-purine-2,6-dione
+CH$LINK: CAS 611-59-6
+CH$LINK: KEGG C13747
+CH$LINK: PUBCHEM CID 4687
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 181.2
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 40
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 19
+PK$PEAK: m/z int. rel.int.
+    28 2493 36
+    41 10309 150
+    42 31569 459
+    54 7420 108
+    55 23697 345
+    66 2098 30
+    67 13951 203
+    68 7600 110
+    69 19829 288
+    96 10135 147
+    122 6405 93
+    123 36678 534
+    124 68605 999
+    125 4287 62
+    178 2815 40
+    179 5173 75
+    180 15111 220
+    181 24089 350
+    182 4306 62
+//

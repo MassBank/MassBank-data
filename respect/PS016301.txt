@@ -1,0 +1,53 @@
+ACCESSION: PS016301
+RECORD_TITLE: Acetylcholine chloride; ESI-QQ; MS2; positive; CE 10 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA-Aldrich, A6625.
+COMMENT: PRIMe compound in-house ID 163
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Acetylcholine chloride
+CH$NAME: Ach
+CH$NAME: 2-Acetoxyethyltrimethylammonium chloride
+CH$NAME: Acetylcholinium chloride
+CH$NAME: Aceolinc
+CH$NAME: Arterocholine
+CH$NAME: Miochol
+CH$NAME: Ovisot
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Other
+CH$COMPOUND_CLASS: CLASS3 Acetyl choline
+CH$FORMULA: C7H16NO2
+CH$EXACT_MASS: 146.118
+CH$SMILES: CC(=O)OCC[N+](C)(C)C
+CH$IUPAC: InChI=1/C7H16NO2/c1-7(9)10-6-5-8(2,3)4/h5-6H2,1-4H3/q+1
+CH$IUPAC: 2-acetyloxyethyl-trimethylazanium
+CH$LINK: CAS 51-84-3
+CH$LINK: KEGG C01996
+CH$LINK: PUBCHEM CID 187
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 146.18
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 10
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+    87 365773 125
+    145 166881 57
+    146 2906953 999
+//

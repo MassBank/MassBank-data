@@ -1,0 +1,51 @@
+ACCESSION: PS062701
+RECORD_TITLE: DL-Thioctamide; ESI-QQ; MS2; positive; CE 10 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako/Alfa Aesar, 582-13421/940-69-2.
+COMMENT: PRIMe compound in-house ID S0009
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: DL-Thioctamide
+CH$NAME: DL-alpha-Lipoamide
+CH$NAME: DL-6,8-Thioctic acid amide
+CH$NAME: 1,2-Dithiolane-3-valeramide
+CH$NAME: DL-6,8-Epidithiooctanamide
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Carboxylic acid
+CH$COMPOUND_CLASS: CLASS3 Thioctic amide
+CH$FORMULA: C8H15NOS2
+CH$EXACT_MASS: 205.059
+CH$SMILES: C1CSSC1CCCCC(=O)N
+CH$IUPAC: InChI=1/C8H15NOS2/c9-8(10)4-2-1-3-7-5-6-11-12-7/h7H,1-6H2,(H2,9,10)/f/h9H2
+CH$IUPAC: 5-(dithiolan-3-yl)pentanamide
+CH$LINK: CAS 3206-73-3
+CH$LINK: KEGG C00248
+CH$LINK: PUBCHEM CID 863
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 206.21
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 10
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+    188 43683 96
+    189 453352 999
+    205 41626 91
+    206 306293 674
+//

@@ -1,0 +1,54 @@
+ACCESSION: PS040309
+RECORD_TITLE: Kaempferide; ESI-QQ; MS2; negative; CE 30 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound EXTRASYNTHESE S.A, 1123 S.
+COMMENT: PRIMe compound in-house ID H0011
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Kaempferide
+CH$NAME: Kaer
+CH$NAME: 3,5,7-trihydroxy-4'-methoxyflavone
+CH$NAME: Kaempferid
+CH$NAME: Kaempferol 4'-methyl ether
+CH$NAME: 4'-O-Methylkaempferol
+CH$NAME: 4H-1-Benzopyran-4-one, 3,5,7-trihydroxy-2-(4-methoxyphenyl)-
+CH$COMPOUND_CLASS: CLASS1 Flavonoid
+CH$COMPOUND_CLASS: CLASS2 Flavonol
+CH$COMPOUND_CLASS: CLASS3 Kaempferol
+CH$FORMULA: C16H12O6
+CH$EXACT_MASS: 300.063
+CH$SMILES: COC1=CC=C(C=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O
+CH$IUPAC: InChI=1/C16H12O6/c1-21-10-4-2-8(3-5-10)16-15(20)14(19)13-11(18)6-9(17)7-12(13)22-16/h2-7,17-18,20H,1H3
+CH$IUPAC: 3,5,7-trihydroxy-2-(4-methoxyphenyl)chromen-4-one
+CH$LINK: CAS 491-54-3
+CH$LINK: KEGG C10098
+CH$LINK: PUBCHEM CID 5281666
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 299.28
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 30
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE NEGATIVE
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+    283 18621 279
+    284 66582 999
+    298 11734 176
+    299 32134 482
+    300 2111 31
+//

@@ -1,0 +1,53 @@
+ACCESSION: PS009903
+RECORD_TITLE: Pyridoxamine dihydrochloride; ESI-QQ; MS2; positive; CE 30 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich(SIGMA), 287091(P9380).
+COMMENT: PRIMe compound in-house ID 99
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Pyridoxamine dihydrochloride  
+CH$NAME: Pyridoxylamine dihydrochloride
+CH$NAME: 4-(Aminomethyl)-5-hydroxy-6-methyl-3-pyridinemethanol dihydrochloride
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Other
+CH$COMPOUND_CLASS: CLASS3 Pyridoxamine
+CH$FORMULA: C8H12N2O2
+CH$EXACT_MASS: 168.089
+CH$SMILES: CC1=NC=C(C(=C1O)CN)CO
+CH$IUPAC: InChI=1/C8H12N2O2/c1-5-8(12)7(2-9)6(4-11)3-10-5/h3,11-12H,2,4,9H2,1H3
+CH$IUPAC: 4-(aminomethyl)-5-(hydroxymethyl)-2-methylpyridin-3-ol
+CH$LINK: CAS 85-87-0
+CH$LINK: KEGG C00534
+CH$LINK: PUBCHEM CID 1052
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 169.19
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 30
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+    124 3874 45
+    133 16061 190
+    134 84168 999
+    150 4439 52
+    151 29738 352
+    152 52595 624
+    153 2539 30
+    169 3396 40
+//
