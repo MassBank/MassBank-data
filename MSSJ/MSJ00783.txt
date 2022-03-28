@@ -1,0 +1,36 @@
+ACCESSION: MSJ00783
+RECORD_TITLE: 2,2'-Methylenebis[6-(1-methylcyclohexyl)-p-cresol]; ESI-QTOF; MS2; NEGATIVE; [M-H]-; CID; 60 V
+DATE: 2021.11.10
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: The sample was injected by direct infusion.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 21HP8020 to the Mass Spectrometry Society of Japan.
+CH$NAME: 2,2'-Methylenebis[6-(1-methylcyclohexyl)-p-cresol]
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C29H40O2
+CH$EXACT_MASS: 420.30283
+CH$SMILES: CC1=CC(=C(C(=C1)C2(CCCCC2)C)O)CC3=C(C(=CC(=C3)C)C4(CCCCC4)C)O
+CH$IUPAC: InChI=1S/C29H40O2/c1-20-15-22(26(30)24(17-20)28(3)11-7-5-8-12-28)19-23-16-21(2)18-25(27(23)31)29(4)13-9-6-10-14-29/h15-18,30-31H,5-14,19H2,1-4H3
+CH$LINK: CAS 77-62-3
+CH$LINK: CHEMSPIDER 6241
+CH$LINK: INCHIKEY PHXLONCQBNATSL-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:6486
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, USA)
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 60 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+MS$FOCUSED_ION: PRECURSOR_M/Z 419.29555
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
+PK$SPLASH: splash10-0udi-0090000000-36a1068191279993a73a
+PK$ANNOTATION: m/z formula exact_mass error(ppm) SMILES_of_ion, HR_rules
+  107.049 [C7H14O-7H]- 107.050235 11.54 O=CCCC(C)CC True
+  203.1418 [C14H24O-5H]- 203.144132 11.48 O=C1CCC2(C)CC(C)CCC2C1(C)C True
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  107.049 5.367 14
+  203.1418 382.483 999
+//

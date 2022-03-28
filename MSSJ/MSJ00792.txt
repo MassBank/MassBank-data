@@ -1,0 +1,33 @@
+ACCESSION: MSJ00792
+RECORD_TITLE: UDP-glucose; ESI-QTOF; MS; NEGATIVE
+DATE: 2021.11.16
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: The sample was injected by direct infusion.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 21HP8020 to the Mass Spectrometry Society of Japan.
+CH$NAME: UDP-glucose
+CH$COMPOUND_CLASS: UDP-sugar
+CH$FORMULA: C15H24N2O17P2
+CH$EXACT_MASS: 566.05502
+CH$SMILES: C1=CN(C(=O)NC1=O)[C@H]2[C@@H]([C@@H]([C@H](O2)COP(=O)(O)OP(=O)(O)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)O)O
+CH$IUPAC: InChI=1S/C15H24N2O17P2/c18-3-5-8(20)10(22)12(24)14(32-5)33-36(28,29)34-35(26,27)30-4-6-9(21)11(23)13(31-6)17-2-1-7(19)16-15(17)25/h1-2,5-6,8-14,18,20-24H,3-4H2,(H,26,27)(H,28,29)(H,16,19,25)/t5-,6-,8-,9-,10+,11-,12-,13-,14-/m1/s1
+CH$LINK: CAS 133-89-1
+CH$LINK: CHEBI 18066
+CH$LINK: CHEMSPIDER 8308
+CH$LINK: INCHIKEY HSCJRCZFDFQWRP-JZMIEXBBSA-N
+CH$LINK: PUBCHEM CID:8629
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, USA)
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+PK$SPLASH: splash10-00di-0000190000-a576fb192024a3c37d49
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  453.0207 176.526 272
+  522.0407 648.363 999
+  523.0458 42.071 65
+  565.0483 45.668 70
+  587.03 79.284 122
+//

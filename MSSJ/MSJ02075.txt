@@ -1,0 +1,48 @@
+ACCESSION: MSJ02075
+RECORD_TITLE: (S)-Octa-1,7-dien-4-ol; GC-FI-TOF; MS; positive; FI; 10 kV
+DATE: 2022.01.13
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Takahashi K, Satoh D, Hayashi M, Takahashi K, Yamaguchi K, Nakamura T, and Koshino H, J. Org, Chem., 2016, 81, 11222-11234; DOI:10.1021/acs.joc.6b02187.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the ion-source and GC-transfer line were 60 and 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: Field ionization (FI) voltage, which is defined as the voltage between the emitter surface and the electrode, was 10 kV (default). Typical accuracy level expected was 10 ppm. Postrun m/z adjustment was made at a known mass, 126.10447.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 21HP8020 to the Mass Spectrometry Society of Japan.
+CH$NAME: (S)-Octa-1,7-dien-4-ol
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C8H14O
+CH$EXACT_MASS: 126.10447
+CH$SMILES: C=CC[C@@H](O)CCC=C
+CH$IUPAC: InChI=1S/C8H14O/c1-3-5-7-8(9)6-4-2/h3-4,8-9H,1-2,5-7H2/t8-/m1/s1
+CH$LINK: CHEMSPIDER 61030948
+CH$LINK: INCHIKEY CSMNOWAUXWKQLC-MRVPVSSYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min.
+AC$CHROMATOGRAPHY: COLUMN_NAME ZB-1MS 7HM-G011-11 sn:313446 (Agilent, Wilmington, USA), length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temp. for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.02
+PK$SPLASH: splash10-000i-9300000000-8225d92f8904ff25bf0b
+PK$NUM_PEAK: 16
+PK$PEAK: m/z int. rel.int.
+  41.04 2.1845 22
+  67.054 1.2756 13
+  71.048 2.5004 25
+  82.076 0.9867 10
+  84.057 2.9465 29
+  85.064 100 999
+  85.195 0.7422 7
+  86.068 5.2653 53
+  93.068 4.5767 46
+  97.063 5.7813 58
+  98.07 2.2818 23
+  108.092 13.226 132
+  109.099 3.3528 33
+  111.078 4.3944 44
+  126.104 19.6021 196
+  127.109 3.0781 31
+//

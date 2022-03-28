@@ -1,0 +1,41 @@
+ACCESSION: MSJ02036
+RECORD_TITLE: (+/-)-trans-2,3-Epoxy-1-octanol; GC-FI-TOF; MS; positive; FI; 10 kV
+DATE: 2022.02.22
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Mori K, Osada K, Amaike M. Tetrahedron: Asymmetry. 2015 August 31;26(15-16):861-867. doi:10.1016/j.tetasy.2015.06.011.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the ion-source and GC-transfer line were - and 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: Field ionization (FI) voltage, which is defined as the voltage between the emitter surface and the electrode, was 10 kV (default). Typical accuracy level expected was 10 ppm. Postrun m/z adjustment was made at a known mass, 145.1229.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 21HP8020 to the Mass Spectrometry Society of Japan.
+CH$NAME: (+/-)-trans-2,3-Epoxy-1-octanol
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C8H16O2
+CH$EXACT_MASS: 144.11503
+CH$SMILES: OCC1OC1CCCCC
+CH$IUPAC: InChI=1S/C8H16O2/c1-2-3-4-5-7-8(6-9)10-7/h7-9H,2-6H2,1H3
+CH$LINK: CAS 101758-85-4
+CH$LINK: CHEMSPIDER 9655331
+CH$LINK: INCHIKEY PFEZFCUFFWFUKS-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:111480511
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min.
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temp. for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 190 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.42 min.
+PK$SPLASH: splash10-0002-0900000000-d5750a9463f89484969d
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  29.04 12.1937 122
+  101.095 8.7282 87
+  109.101 7.4867 75
+  113.095 18.4653 184
+  127.11 18.0579 180
+  145.123 100 999
+  146.125 6.8128 68
+//

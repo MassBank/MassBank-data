@@ -1,0 +1,90 @@
+ACCESSION: MSJ02070
+RECORD_TITLE: (R)-Octa-1,7-dien-4-ol; GC-EI-TOF; MS; positive; EI; 70 V
+DATE: 2022.01.11
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN.
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Takahashi K, Satoh D, Hayashi M, Takahashi K, Yamaguchi K, Nakamura T, and Koshino H, J. Org, Chem., 2016, 81, 11222-11234; DOI:10.1021/acs.joc.6b02187.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (refTOF) mass spectrometer. Temperatures of the ion-source and GC-transfer line were 250 and 250 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. Postrun m/z adjustment with known mass was 85.06534.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 21HP8020 to the Mass Spectrometry Society of Japan.
+CH$NAME: (R)-Octa-1,7-dien-4-ol
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C8H14O
+CH$EXACT_MASS: 126.10447
+CH$SMILES: C=CC[C@H](O)CCC=C
+CH$IUPAC: InChI=1S/C8H14O/c1-3-5-7-8(9)6-4-2/h3-4,8-9H,1-2,5-7H2/t8-/m0/s1
+CH$LINK: CHEMSPIDER 61031190
+CH$LINK: INCHIKEY CSMNOWAUXWKQLC-QMMMGPOBSA-N
+CH$LINK: PUBCHEM CID:12835964
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 mL/min
+AC$CHROMATOGRAPHY: COLUMN_NAME ZB-1MS 7HM-G011-11 sn:313446 (Agilent, Wilmington, USA), length 30 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temp. for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.03 min.
+PK$SPLASH: splash10-000f-9000000000-dac546fc459cac67119b
+PK$NUM_PEAK: 57
+PK$PEAK: m/z int. rel.int.
+  26.016 1.1863 12
+  27.023 19.4537 194
+  28.006 1.9531 20
+  28.031 3.4612 35
+  29.003 5.6791 57
+  29.039 32.2516 322
+  29.081 0.3476 3
+  30.043 0.6866 7
+  31.018 7.9954 80
+  31.99 1.2774 13
+  38.016 1.5271 15
+  39.024 37.4079 374
+  39.074 0.4105 4
+  40.03 4.0696 41
+  41.039 100 999
+  41.091 0.9773 10
+  41.324 0.2903 3
+  42.011 2.4118 24
+  42.045 7.6322 76
+  43.018 35.7106 357
+  43.055 14.3521 143
+  44.026 4.6938 47
+  44.058 0.5624 6
+  45.034 1.1407 11
+  50.016 1.0189 10
+  51.023 2.486 25
+  52.031 1.1936 12
+  53.039 6.6477 66
+  54.047 5.2941 53
+  55.018 5.4309 54
+  55.055 30.6621 306
+  55.112 0.3418 3
+  56.026 2.6381 26
+  56.062 5.7444 57
+  57.034 8.2671 83
+  57.07 27.578 276
+  58.04 0.487 5
+  58.074 1.1659 12
+  65.039 3.4372 34
+  66.046 1.4109 14
+  67.055 71.0701 710
+  68.058 3.9105 39
+  69.034 2.8421 28
+  70.042 0.9179 9
+  71.05 5.3844 54
+  77.039 1.2893 13
+  78.046 0.4955 5
+  79.055 2.1444 21
+  80.062 1.0706 11
+  82.078 0.6357 6
+  83.05 5.0703 51
+  84.057 4.6954 47
+  85.065 52.2355 522
+  85.195 0.3198 3
+  86.069 2.8011 28
+  91.055 0.6557 7
+  93.07 2.0373 20
+//

@@ -1,0 +1,42 @@
+ACCESSION: MSJ00870
+RECORD_TITLE: Trimethylamine oxide; ESI-QTOF; MS2; POSITIVE; [M+H]+; CID; 30 V
+DATE: 2021.12.07
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: The sample was injected by direct infusion.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 21HP8020 to the Mass Spectrometry Society of Japan.
+CH$NAME: Trimethylamine oxide
+CH$COMPOUND_CLASS: Tertiary amine oxide
+CH$FORMULA: C3H9NO
+CH$EXACT_MASS: 75.06841
+CH$SMILES: C[N+](C)(C)[O-]
+CH$IUPAC: InChI=1S/C3H9NO/c1-4(2,3)5/h1-3H3
+CH$LINK: CAS 1184-78-7
+CH$LINK: CHEBI 15724
+CH$LINK: CHEMSPIDER 1113
+CH$LINK: INCHIKEY UYPYRKYUKCHHIB-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:1145
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, USA)
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+MS$FOCUSED_ION: PRECURSOR_M/Z 76.07569
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-0a4i-9000000000-7cd98479df6e601bc5d5
+PK$ANNOTATION: m/z formula exact_mass error(ppm) SMILES_of_ion HR_rules
+  30.0334 [CH6N-2H]+ 30.033823 14.1 C[NH3+] False
+  42.0336 [C2H8N-4H]+ 42.033825 5.36 C[NH2+]C False
+  58.0649 [C3H10N-2H]+ 58.065127 3.91 C[NH+](C)C False
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  30.0334 0.1472 25
+  42.0336 0.2708 45
+  43.0414 0.218 37
+  58.0649 5.9546 999
+  59.0728 0.2454 41
+  60.0443 0.4223 71
+//
