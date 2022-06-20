@@ -2,7 +2,7 @@ haserror=0
 
 for i in  */*.txt; do 
  echo $i; 
-done | split -d --additional-suffix .list -C 500K - records
+done | sort | split -d --additional-suffix .list -C 500K - records
 
 for i in records*.list; do 
  echo Working on chunk $i
