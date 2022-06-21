@@ -1,0 +1,68 @@
+ACCESSION: MSBNK-Eawag_Additional_Specs-ETS00102
+RECORD_TITLE: Methyl-hydroxy-benzotriazole (TP6) (Tentative); LC-ESI-ITFT; MS2; 80-110; R=7500; [M+H]+
+DATE: 2016.02.03 (Created 2014.06.25)
+AUTHORS: Huntscha S, Schymanski E, Hofstetter TB, Spahr S, Hollender J, Department of Environmental Chemistry, Eawag
+LICENSE: CC BY
+COPYRIGHT: Copyright (C) 2016 Eawag, Duebendorf, Switzerland
+PUBLICATION: Huntscha, S.; Hofstetter, T. B.; Schymanski, E. L.; Spahr, S.; Hollender, J. Biotransformation of Benzotriazoles: Insights from Transformation Product Identification and Compound-Specific Isotope Analysis. Environmental Science & Technology 2014, 48 (8), 4435–43. DOI:10.1021/es405694z
+COMMENT: CONFIDENCE Tentative identification: isomers possible (Level 3)
+COMMENT: Source; 150m0655b_MSMS.txt
+COMMENT: Parent compound benzotriazole; all isomers with substituents on C6 ring equally likely
+CH$NAME: Methyl-hydroxy-benzotriazole (TP6) (Tentative)
+CH$NAME: (4,5,6or7)-hydroxy-(4,5,6or7)-methyl benzotriazole
+CH$COMPOUND_CLASS: N/A; Biotransformation Product
+CH$FORMULA: C7H7N3O
+CH$EXACT_MASS: 149.0589
+CH$SMILES: N/A
+CH$IUPAC: N/A
+SP$SAMPLE: LOCATION GAZ:00064414; GAZ:00113795
+SP$SAMPLE: COMMENT 1H-BT samples collected from Duebendorf (GAZ:00113795), 4Me- and 5-Me-BT samples from Regensdorf (GAZ:00064414)
+AC$INSTRUMENT: LTQ Orbitrap XL Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY scaled 80 (m/z=200) to 110 (m/z=120)
+AC$MASS_SPECTROMETRY: RESOLUTION 7500
+AC$CHROMATOGRAPHY: COLUMN_NAME Atlantis T3 3um, 3.0x150mm, Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 90/10 at 0-8 min, 5/95 at 18-21 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 ul/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 20.9 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% formic acid
+MS$FOCUSED_ION: BASE_PEAK 150.0655
+MS$FOCUSED_ION: PRECURSOR_M/Z 150.0655
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: WHOLE Manual Extraction
+PK$SPLASH: splash10-0pbj-8900000000-c39c9f1b0b0db793ddc3
+PK$NUM_PEAK: 27
+PK$PEAK: m/z int. rel.int.
+  51.0221 2307.1 20
+  52.0299 13734.9 121
+  53.038 3484.4 31
+  54.033 12397.5 109
+  63.0221 14716.3 130
+  63.841 2214.1 19
+  65.0378 33256.8 293
+  65.0604 3235.7 28
+  66.033 4303.5 38
+  67.0533 13098.4 115
+  77.038 3385.3 30
+  78.033 6541.6 58
+  79.0409 28335.8 249
+  80.0246 4647 41
+  82.0282 5015.2 44
+  90.0333 5127.6 45
+  92.0487 7142.6 63
+  93.0572 3249.7 29
+  94.0281 9304.3 82
+  95.0484 113507.7 999
+  106.0276 3035.9 27
+  107.0359 60541.7 533
+  107.0471 67177.6 591
+  111.0302 4421.5 39
+  122.0595 22159.3 195
+  135.0421 101900.4 897
+  150.0656 51522.8 453
+//

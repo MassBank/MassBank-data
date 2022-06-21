@@ -1,0 +1,52 @@
+ACCESSION: MSBNK-Chubu_Univ-UT001695
+RECORD_TITLE: Phosphatidylcholine alkyl 16:0-22:1 / alkyl 18:0-20:1 / alkyl 18:1-20:0; LC-ESI-ITFT; MS3; [M+CH3COO]-/[M-CH3]-; RT: 44.47; Exp: 1
+DATE: 2016.01.19 (Created 2010.05.07, modified 2011.08.03)
+AUTHORS: Taguchi R, Graduate School of Medicine, The University of Tokyo
+LICENSE: CC BY-NC-SA
+PUBLICATION: Taguchi, R.; Ishikawa, M. Precise and Global Identification of Phospholipid Molecular Species by an Orbitrap Mass Spectrometer and Automated Search Engine Lipid Search. Journal of Chromatography A 2010, 1217 (25), 4229–39. DOI:10.1016/j.chroma.2010.04.034
+CH$NAME: Phosphatidylcholine alkyl 16:0-22:1 / alkyl 18:0-20:1 / alkyl 18:1-20:0
+CH$COMPOUND_CLASS: Natural Product; Glycerophospholipids; Glycerophosphocholines; 1-alkyl,2-acylglycerophosphocholines
+CH$FORMULA: C138H276N3O21P3
+CH$EXACT_MASS: 2404.98342
+CH$SMILES: CCCCCCCCCCCCCCCCCCCC(=O)OC(COCCC/C=C\CCCCCCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C.CCCCCCCCCCCCCCCCCCOCC(COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CC/C=C\CCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCC/C=C\CCC(=O)OC(COCCCCCCCCCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C
+CH$IUPAC: InChI=1S/3C46H92NO7P/c1-6-8-10-12-14-16-18-20-22-23-24-25-26-27-29-31-33-35-37-39-46(48)54-45(44-53-55(49,50)52-42-40-47(3,4)5)43-51-41-38-36-34-32-30-28-21-19-17-15-13-11-9-7-2;2*1-6-8-10-12-14-16-18-20-22-24-25-27-29-31-33-35-37-39-46(48)54-45(44-53-55(49,50)52-42-40-47(3,4)5)43-51-41-38-36-34-32-30-28-26-23-21-19-17-15-13-11-9-7-2/h2*33,35,45H,6-32,34,36-44H2,1-5H3;32,34,45H,6-31,33,35-44H2,1-5H3/b2*35-33-;34-32-
+CH$LINK: INCHIKEY JISWWIQTNBGJKT-PJZGFHNDSA-N
+CH$LINK: PUBCHEM CID:134741072
+SP$SCIENTIFIC_NAME: Mus musculus
+SP$LINEAGE: cellular organisms; Eukaryota; Fungi/Metazoa group; Metazoa; Eumetazoa; Bilateria; Coelomata; Deuterostomia; Chordata; Craniata; Vertebrata; Gnathostomata; Teleostomi; Euteleostomi; Sarcopterygii; Tetrapoda; Amniota; Mammalia; Theria; Eutheria; Euarchontoglires; Glires; Rodentia; Sciurognathi; Muroidea; Muridae; Murinae; Mus
+SP$LINK: NCBI-TAXONOMY 10090
+SP$SAMPLE: brain
+AC$INSTRUMENT: LC-10ADVPmicro HPLC, Shimadzu; LTQ Orbitrap, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS3
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30%
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3500 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME Develosil C30, Nomura Chemical
+AC$CHROMATOGRAPHY: FLOW_GRADIENT  add 95/5 at 0 min, 70/30 at 40 min, 50/50 at 41 min, 50/50 at 90 min
+AC$CHROMATOGRAPHY: FLOW_RATE  add 100 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 44.26 min (in paper: 44.5 min)
+AC$CHROMATOGRAPHY: SOLVENT A acetonitrile-methanol-water (19:19:2) with 0.1% acetic acid and 0.1% ammonium hydroxide (28%)
+AC$CHROMATOGRAPHY: SOLVENT B 2-propanol with 0.1% acetic acid and 0.1% ammonium hydroxide (28%)
+MS$FOCUSED_ION: PRECURSOR_M/Z 860.68/786.30
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+CH3COO]-/[M-CH3]-
+MS$DATA_PROCESSING: WHOLE Xcalibur ver-2.0
+PK$SPLASH: splash10-000i-0009000000-7931129e638ded31d6b0
+PK$ANNOTATION: m/z num type mass error(ppm) formula
+  311.07 1 [fa(20:0)-H]- 311.2950054961 -722 C20H39O2-
+  337.12 1 [fa(22:1)-H]- 337.3106555603 -564 C22H41O2-
+  466.13 1 [lyso_PC(alkyl-16:0,-)]- 466.3297498207 -427 C23H49NO6P-
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  255.36 6.5 17
+  310.28 8.2 21
+  311.07 19.0 49
+  312.25 35.1 90
+  319.19 25.9 66
+  337.12 390.4 999
+  365.39 13.1 34
+  466.13 22.7 58
+  530.28 9.9 25
+  547.91 8.4 21
+//

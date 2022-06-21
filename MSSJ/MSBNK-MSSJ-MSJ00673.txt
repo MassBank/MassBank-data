@@ -1,0 +1,37 @@
+ACCESSION: MSBNK-MSSJ-MSJ00673
+RECORD_TITLE: Methyl [(1S)-1,2-Dimethyl-3-methylenecyclopentyl]acetate; GC-FI-TOF; MS; positive; FI; 10 kV
+DATE: 2021.03.25
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori and Jun Tabata, Tetrahedron 73 (2017) 6530-6541, DOI:10.1016/j.tet.2017.09.046.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the GC-transfer line was 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: Field ionization (FI) voltage, which is defined as the voltage between the emitter surface and the electrode, was 10 kV (default). Typical accuracy level expected was 10 ppm. Postrun m/z adjustment was made at a known mass, 182.13068.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: Methyl [(1S)-1,2-Dimethyl-3-methylenecyclopentyl]acetate
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C11H18O2
+CH$EXACT_MASS: 182.13068
+CH$SMILES: COC(=O)C[C@]1(C)CCC(=C)C1C
+CH$IUPAC: InChI=1S/C11H18O2/c1-8-5-6-11(3,9(8)2)7-10(12)13-4/h9H,1,5-7H2,2-4H3/t9?,11-/m0/s1
+CH$LINK: INCHIKEY PCOASPYTNKYQGN-UMJHXOGRSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temp. for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.09 min.
+PK$SPLASH: splash10-001i-0900000000-1960df9e6d2159994bbf
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  109.099 3.06 31
+  150.106 1.35 13
+  182.134 100 999
+  182.319 0.71 7
+  183.137 12.41 124
+  184.140 1.06 11
+//

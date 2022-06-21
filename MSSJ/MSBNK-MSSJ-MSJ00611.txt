@@ -1,0 +1,88 @@
+ACCESSION: MSBNK-MSSJ-MSJ00611
+RECORD_TITLE: 3-((4-Methoxybenzyl)oxy)-2,2-dimethylcycloheptan-1-one; GC-EI-TOF; MS; positive; EI; 70 V
+DATE: 2021.02.26
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Mori K, Tetrahedron 75 (2019) 3387-3398, DOI:10.1016/j.tet.2019.04.055.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (refTOF) mass spectrometer. Temperatures of the ion source and GC-transfer line were 200 C and 250 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. Postrun m/z adjustment with known mass was 276.173.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: 3-((4-Methoxybenzyl)oxy)-2,2-dimethylcycloheptan-1-one
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C17H24O3
+CH$EXACT_MASS: 276.17255
+CH$SMILES: COC1=CC=C(COC2CCCCC(=O)C2(C)C)C=C1
+CH$IUPAC: InChI=1S/C17H24O3/c1-17(2)15(18)6-4-5-7-16(17)20-12-13-8-10-14(19-3)11-9-13/h8-11,16H,4-7,12H2,1-3H3
+CH$LINK: INCHIKEY BIKYCJZSFIHCBE-UHFFFAOYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temp. for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 11.01 min.
+PK$SPLASH: splash10-00di-3900000000-e53ee650b7e7f7097aa6
+PK$NUM_PEAK: 57
+PK$PEAK: m/z int. rel.int.
+  27.024 1.14 11
+  28.006 0.43 4
+  28.031 0.52 5
+  29.039 1.09 11
+  39.024 1.52 15
+  40.031 0.30 3
+  41.040 5.28 53
+  42.047 0.82 8
+  43.019 0.81 8
+  43.055 2.34 23
+  51.024 0.89 9
+  52.032 0.81 8
+  53.040 0.89 9
+  55.019 1.14 11
+  55.055 2.17 22
+  63.024 0.40 4
+  64.032 0.33 3
+  65.040 1.06 11
+  66.047 0.32 3
+  67.056 1.17 12
+  69.071 1.71 17
+  70.043 0.47 5
+  71.050 0.28 3
+  77.040 4.77 48
+  78.048 4.49 45
+  79.054 0.72 7
+  83.050 0.41 4
+  89.040 1.18 12
+  90.047 1.01 10
+  91.056 2.42 24
+  92.027 0.45 4
+  92.060 0.25 3
+  93.071 0.26 3
+  94.043 0.62 6
+  95.087 1.03 10
+  97.066 0.38 4
+  98.074 1.03 10
+  105.035 0.25 3
+  106.043 0.68 7
+  107.051 0.83 8
+  109.067 0.68 7
+  109.102 0.27 3
+  111.082 0.27 3
+  121.066 100.00 999
+  121.610 0.27 3
+  122.070 8.68 87
+  122.397 0.14 1
+  123.072 0.51 5
+  125.097 2.13 21
+  135.047 0.71 7
+  136.053 0.26 3
+  137.061 11.56 115
+  138.066 1.39 14
+  140.121 3.87 39
+  141.124 0.39 4
+  178.100 0.27 3
+  276.173 0.22 2
+//

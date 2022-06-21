@@ -1,0 +1,51 @@
+ACCESSION: MSBNK-Literature_Specs-LIT00028
+RECORD_TITLE: Dicarboxyl-2Et-A4EO3; LC-ESI-Q; MS2; 30 V; [M+H]+
+DATE: 2016.02.03 (Created 2013.04.15)
+AUTHORS: E. Schymanski; retrieved from A. Di Corcia et al. 1998
+LICENSE: CC0
+COPYRIGHT: Copyright (C) American Chemical Society 1998
+PUBLICATION: Corcia, A. D.; Crescenzi, C.; Marcomini, A.; Samperi, R. Liquid Chromatography- Electrospray-Mass Spectrometry as a Valuable Tool for Characterizing Biodegradation Intermediates of Branched Alcohol Ethoxylate Surfactants. Environmental Science & Technology 1998, 32 (5), 711–8. DOI:10.1021/es970616x
+COMMENT: Literature spectrum
+COMMENT: CONFIDENCE Tentative identification: isomers possible (Level 3)
+COMMENT: Could be alkyl homologue of given structure
+COMMENT: Digitised from figure: approximate intensities
+CH$NAME: Dicarboxyl-2Et-A4EO3
+CH$NAME: Dicarboxyl-2Ethyl-A4EO3
+CH$NAME: 3-({2-[2-(2-hydroxyethoxy)ethoxy]ethoxy}methyl)pentanedioic acid
+CH$COMPOUND_CLASS: N/A; Surfactant
+CH$FORMULA: C12H22O8
+CH$EXACT_MASS: 294.1315
+CH$SMILES: OCCOCCOCCOCC(CC(=O)O)CC(=O)O
+CH$IUPAC: InChI=1S/C12H22O8/c13-1-2-18-3-4-19-5-6-20-9-10(7-11(14)15)8-12(16)17/h10,13H,1-9H2,(H,14,15)(H,16,17)
+CH$LINK: INCHIKEY HRIGDWRZOSHVQG-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID20891654
+CH$LINK: PUBCHEM CID:137628399
+AC$INSTRUMENT: Fisons VG Platform
+AC$INSTRUMENT_TYPE: LC-ESI-Q
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+MS$FOCUSED_ION: BASE_PEAK 295.1387
+MS$FOCUSED_ION: PRECURSOR_M/Z 295.1387
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: WHOLE Hand-digitised from figures
+PK$SPLASH: splash10-00ej-5932000000-1cdc8713cca8c952e913
+PK$ANNOTATION: m/z formula putative_smiles
+  295 C12H23O8+ [M+H]+
+  317 C12H22O8Na+ [M+Na]+
+  333 C12H22O8K+ [M+K]+
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  45 30 300
+  89 75 750
+  133 80 800
+  171 100 999
+  215 5 50
+  259 25 250
+  277 10 100
+  295 20 200
+  317 35 350
+  333 10 100
+//

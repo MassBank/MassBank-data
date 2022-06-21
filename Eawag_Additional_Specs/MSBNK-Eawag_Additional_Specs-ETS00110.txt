@@ -1,0 +1,60 @@
+ACCESSION: MSBNK-Eawag_Additional_Specs-ETS00110
+RECORD_TITLE: 1H-Benzotriazole TP20 (Tentative); LC-ESI-ITFT; MS2; 80-110; R=7500; [M+H]+
+DATE: 2016.02.03 (Created 2014.06.25)
+AUTHORS: Huntscha S, Schymanski E, Hofstetter TB, Spahr S, Hollender J, Department of Environmental Chemistry, Eawag
+LICENSE: CC BY
+COPYRIGHT: Copyright (C) 2016 Eawag, Duebendorf, Switzerland
+PUBLICATION: Huntscha, S.; Hofstetter, T. B.; Schymanski, E. L.; Spahr, S.; Hollender, J. Biotransformation of Benzotriazoles: Insights from Transformation Product Identification and Compound-Specific Isotope Analysis. Environmental Science & Technology 2014, 48 (8), 4435–43. DOI:10.1021/es405694z
+COMMENT: CONFIDENCE Tentative identification: molecular formula only (Level 4)
+COMMENT: Source; 184m0345a_MSMS.txt
+CH$NAME: 1H-Benzotriazole TP20 (Tentative)
+CH$NAME: 1H-Benzotriazole Transformation Product 20 (TP20)
+CH$COMPOUND_CLASS: N/A; Biotransformation Product
+CH$FORMULA: C6H5N3O4
+CH$EXACT_MASS: 183.0280
+CH$SMILES: N/A
+CH$IUPAC: N/A
+SP$SAMPLE: LOCATION GAZ:00064414; GAZ:00113795
+SP$SAMPLE: COMMENT 1H-BT samples collected from Duebendorf (GAZ:00113795), 4Me- and 5-Me-BT samples from Regensdorf (GAZ:00064414)
+AC$INSTRUMENT: LTQ Orbitrap XL Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY scaled 80 (m/z=200) to 110 (m/z=120)
+AC$MASS_SPECTROMETRY: RESOLUTION 7500
+AC$CHROMATOGRAPHY: COLUMN_NAME Atlantis T3 3um, 3.0x150mm, Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 90/10 at 0-8 min, 5/95 at 18-21 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 ul/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 14.8 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% formic acid
+MS$FOCUSED_ION: BASE_PEAK 184.0345
+MS$FOCUSED_ION: PRECURSOR_M/Z 184.0345
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: WHOLE Manual Extraction
+PK$SPLASH: splash10-014i-9000000000-82eea9dcfc024ec9034b
+PK$NUM_PEAK: 20
+PK$PEAK: m/z int. rel.int.
+  53.1045 1957.8 15
+  54.033 57291.6 450
+  55.0171 14250.8 112
+  59.0546 1974.7 15
+  64.0173 39939.3 313
+  65.0598 4427.8 35
+  66.033 77007.3 604
+  67.0171 37604.8 295
+  68.0123 25516.2 200
+  68.9963 127280.2 999
+  69.9916 4260.3 33
+  80.0123 18601.6 146
+  82.0278 4941.9 39
+  84.0586 1975.5 16
+  92.0124 39164.2 307
+  92.9962 5271.3 41
+  95.012 6667.4 52
+  98.0228 6283.8 49
+  110.0232 8117 64
+  120.0078 4172.5 33
+//

@@ -1,0 +1,28 @@
+ACCESSION: MSBNK-Univ_Connecticut-CO000246
+RECORD_TITLE: Leucine_Enkephalin; LC-ESI-QTOF; MS2; CE:10 eV; [M+H]+
+DATE: 2016.01.19 (Created 2008.07.15, modified 2012.11.20)
+AUTHORS: Dennis W. Hill, Tzipporah M. Kertesz, Robert Friedman, David F. Grant
+LICENSE: CC BY-SA
+PUBLICATION: Mass Spectral Metabonomics beyond Elemental Formula: Chemical Database Querying by Matching Experimental with Computational Fragmentation Spectra, http://pubs.acs.org/doi/abs/10.1021/ac800548g
+CH$NAME: Leucine_Enkephalin
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C28H37N5O7
+CH$EXACT_MASS: 555.26930
+CH$SMILES: [H]OC(C(N([H])C(=O)C(C([H])([H])c(c([H])2)c([H])c([H])c([H])c([H])2)(N([H])C(=O)C(N(C(=O)C(N(C(C(N([H])[H])(C([H])([H])c(c([H])1)c([H])c([H])c(O[H])c([H])1)[H])=O)[H])([H])[H])[H])([H])[H])[H])(C([H])([H])C([H])(C([H])([H])[H])C([H])([H])[H])[H])=O
+CH$IUPAC: InChI=1S/C28H37N5O7/c1-17(2)12-23(28(39)40)33-27(38)22(14-18-6-4-3-5-7-18)32-25(36)16-30-24(35)15-31-26(37)21(29)13-19-8-10-20(34)11-9-19/h3-11,17,21-23,34H,12-16,29H2,1-2H3,(H,30,35)(H,31,37)(H,32,36)(H,33,38)(H,39,40)
+CH$LINK: PUBCHEM CID:3903
+CH$LINK: INCHIKEY URLZCHNOLZSCCA-UHFFFAOYSA-N
+AC$INSTRUMENT: Micromass Q-TOF II
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10 eV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+MS$FOCUSED_ION: PRECURSOR_M/Z 556.27724
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-0a4i-0000090000-c5d3e600df96a13ca9be
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  425.1808 177.081 18
+  556.2671 10000 999
+//

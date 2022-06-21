@@ -1,0 +1,52 @@
+ACCESSION: MSBNK-Eawag_Additional_Specs-ET190704
+RECORD_TITLE: VEN_274.1801_10.6; LC-ESI-QFT; MS2; CE: 60; R=17500; [M+H]+
+DATE: 2016.03.17 (Created 2015.09.25, modified 2016.02.03)
+AUTHORS: R. Gulde, E. Schymanski, K. Fenner, Department of Environmental Chemistry, Eawag
+LICENSE: CC BY
+COPYRIGHT: Copyright (C) 2016 Eawag, Duebendorf, Switzerland
+PUBLICATION: Gulde, R.; Meier, U.; Schymanski, E. L.; Kohler, H.-P. E.; Helbling, D. E.; Derrer, S.; Rentsch, D.; Fenner, K. Systematic Exploration of Biotransformation Reactions of Amine-Containing Micropollutants in Activated Sludge. Environmental Science & Technology 2016, 50 (6), 2908–20. DOI:10.1021/acs.est.5b05186
+COMMENT: CONFIDENCE Tentative identification: substance class known (Level 3)
+COMMENT: INTERNAL_ID 1907
+CH$NAME: VEN_274.1801_10.6
+CH$COMPOUND_CLASS: N/A; Environmental Transformation Products
+CH$FORMULA: C17H23NO2
+CH$EXACT_MASS: 273.1729
+CH$SMILES: N/A
+CH$IUPAC: N/A
+AC$INSTRUMENT: Q Exactive Orbitrap Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 60 (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 17500
+AC$CHROMATOGRAPHY: COLUMN_NAME Atlantis T3 3um, 3.0x150mm, Waters with guard column
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 5/95 at 15 min, 5/95 at 20 min, 95/5 at 20.1 min, 95/5 at 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 10.5 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% formic acid
+MS$FOCUSED_ION: BASE_PEAK 61.0285
+MS$FOCUSED_ION: PRECURSOR_M/Z 274.1802
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 1.99.7
+PK$SPLASH: splash10-0ab9-9700000000-1741200828a0013aaa5c
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  55.018 C3H3O+ 1 55.0178 2.52
+  58.0652 C3H8N+ 1 58.0651 1.8
+  121.0649 C8H9O+ 1 121.0648 1.23
+  144.0575 C10H8O+ 1 144.057 4.05
+  171.0806 C12H11O+ 1 171.0804 0.69
+  179.0856 C14H11+ 1 179.0855 0.41
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  55.018 2082.5 72
+  58.0652 28633.3 999
+  121.0649 14643.1 510
+  144.0575 1267.6 44
+  171.0806 2309.6 80
+  179.0856 5986.3 208
+//

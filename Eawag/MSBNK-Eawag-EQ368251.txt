@@ -1,0 +1,47 @@
+ACCESSION: MSBNK-Eawag-EQ368251
+RECORD_TITLE: Nigericin; LC-ESI-QFT; MS2; CE: 15; R=35000; [M-H]-
+DATE: 2015.08.26
+AUTHORS: Stravs M, Schymanski E, Singer H, Department of Environmental Chemistry, Eawag and Thomaidis N, University of Athens
+LICENSE: CC BY
+COPYRIGHT: Copyright (C) 2015 Eawag, Duebendorf, Switzerland
+COMMENT: CONFIDENCE standard compound
+COMMENT: EAWAG_UCHEM_ID 3682
+CH$NAME: Nigericin
+CH$NAME: 2-{6-[(2-{5`-[6-hydroxy-6-(hydroxymethyl)-3,5-dimethyltetrahydro-2h-pyran-2-yl]-2,3`-dimethyloctahydro-2,2`-bifuran-5-yl}-9-methoxy-2,4,10-trimethyl-1,6-dioxaspiro[4.5]dec-7-yl)methyl]-3-methyltetrahydro-2h-pyran-2-yl}propanoic acid
+CH$NAME: 2-[6-[[2-[5-[5-[6-hydroxy-6-(hydroxymethyl)-3,5-dimethyloxan-2-yl]-3-methyloxolan-2-yl]-5-methyloxolan-2-yl]-7-methoxy-2,4,6-trimethyl-1,10-dioxaspiro[4.5]decan-9-yl]methyl]-3-methyloxan-2-yl]propanoic acid
+CH$COMPOUND_CLASS: N/A; Environmental Standard
+CH$FORMULA: C40H68O11
+CH$EXACT_MASS: 724.47616
+CH$SMILES: CC1CCC(OC1C(C)C(=O)O)CC2CC(C(C3(O2)C(CC(O3)(C)C4CCC(O4)(C)C5C(CC(O5)C6C(CC(C(O6)(CO)O)C)C)C)C)C)OC
+CH$IUPAC: InChI=1S/C40H68O11/c1-21-11-12-28(46-33(21)26(6)36(42)43)17-29-18-30(45-10)27(7)40(48-29)25(5)19-38(9,51-40)32-13-14-37(8,49-32)35-23(3)16-31(47-35)34-22(2)15-24(4)39(44,20-41)50-34/h21-35,41,44H,11-20H2,1-10H3,(H,42,43)
+CH$LINK: CAS 28380-24-7
+CH$LINK: PUBCHEM CID:4490
+CH$LINK: INCHIKEY DANUORFCFTYTSZ-UHFFFAOYSA-N
+CH$LINK: CHEMSPIDER 4335
+AC$INSTRUMENT: Q Exactive Plus Orbitrap Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 15 (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 35000
+AC$CHROMATOGRAPHY: COLUMN_NAME XBridge C18 3.5um, 2.1x50mm, Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 90/10 at 0 min, 50/50 at 4 min, 5/95 at 17 min, 5/95 at 25 min, 90/10 at 25.1 min, 90/10 at 30 min
+AC$CHROMATOGRAPHY: FLOW_RATE 200 ul/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 19.7 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% formic acid
+MS$FOCUSED_ION: BASE_PEAK 115.9207
+MS$FOCUSED_ION: PRECURSOR_M/Z 723.4689
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 1.9.6
+PK$SPLASH: splash10-00di-0000000900-895069249e970f89563e
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  723.4689 C40H67O11- 1 723.4689 -0.04
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  723.4689 4849195 999
+//

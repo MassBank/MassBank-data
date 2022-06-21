@@ -1,0 +1,44 @@
+ACCESSION: MSBNK-Nihon_Univ-NU000822
+RECORD_TITLE: Glyco 3a-sulfate-7a-OH-5b-cholanic acid; LC-ESI-TOF; MS; NEGATIVE; In-source decay -60 V
+DATE: 2018.02.26
+AUTHORS: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+LICENSE: CC BY
+COPYRIGHT: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+COMMENT: BA-145-60. In-source decay
+COMMENT: 1 microL of the bile acid in MeOH solution was flow injected. Sampling interval was 1 Hz.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 17HP8021 (2017) to the MassBank database committee of the Mass Spectrometry Society of Japan.
+CH$NAME: Glyco 3a-sulfate-7a-OH-5b-cholanic acid
+CH$NAME: Glycochenodeoxycholate-3-sulfate
+CH$COMPOUND_CLASS: Natural Product; Bile acids
+CH$FORMULA: C26H43NO8S
+CH$EXACT_MASS: 529.27094
+CH$SMILES: O=C(O)CNC(=O)CC[C@@H](C)[C@H]1CC[C@H]2[C@H]3[C@H](CC[C@]12C)[C@@]4(C)CC[C@@H](OS(=O)(=O)O)C[C@H]4C[C@H]3O
+CH$IUPAC: InChI=1S/C26H43NO8S/c1-15(4-7-22(29)27-14-23(30)31)18-5-6-19-24-20(9-11-26(18,19)3)25(2)10-8-17(35-36(32,33)34)12-16(25)13-21(24)28/h15-21,24,28H,4-14H2,1-3H3,(H,27,29)(H,30,31)(H,32,33,34)/t15-,16+,17-,18-,19+,20+,21-,24+,25+,26-/m1/s1
+CH$LINK: CHEMSPIDER 19991236
+CH$LINK: INCHIKEY DKXXSIJHWWVNMO-GYPHWSFCSA-N
+CH$LINK: PUBCHEM CID:21125002
+AC$INSTRUMENT: JMS-T100LP, JEOL
+AC$INSTRUMENT_TYPE: LC-ESI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: ORIFICE_TEMPERATURE 80 C
+AC$MASS_SPECTROMETRY: ORIFICE_VOLTAGE -60 V
+AC$MASS_SPECTROMETRY: SCAN_RANGE_M/Z 100-1000
+PK$SPLASH: splash10-004i-1010190000-732d926128034782c06d
+PK$NUM_PEAK: 13
+PK$PEAK: m/z int. rel.int.
+  61.97 3 25
+  74.01 16 156
+  96.95 4 37
+  263.62 15 151
+  264.12 4 45
+  453.23 13 131
+  454.23 4 41
+  471.24 4 39
+  528.26 100 999
+  529.26 30 303
+  530.26 10 98
+  531.28 2 20
+  550.24 5 53
+//

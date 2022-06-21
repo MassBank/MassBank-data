@@ -1,0 +1,56 @@
+ACCESSION: MSBNK-MSSJ-MSJ00584
+RECORD_TITLE: (3S)-3-Methylheptyl pivalate; GC-FI-TOF; MS; positive; FI; 10 kV
+DATE: 2021.02.17
+AUTHORS: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori and Kazuaki Akasaka, Tetrahedron 71 (2015) 4102-4115, DOI:10.1016/j.tet.2015.04.107.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the GC-transfer line was 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: Field ionization (FI) voltage, which is defined as the voltage between the emitter surface and the electrode, was 10 kV (default). Typical accuracy level expected was 10 ppm. Postrun m/z adjustment was made at a known mass, 214.19328.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: (3S)-3-Methylheptyl pivalate
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C13H26O2
+CH$EXACT_MASS: 214.19328
+CH$SMILES: CCCC[C@H](C)CCOC(=O)C(C)(C)C
+CH$IUPAC: InChI=1S/C13H26O2/c1-6-7-8-11(2)9-10-15-12(14)13(3,4)5/h11H,6-10H2,1-5H3/t11-/m0/s1
+CH$LINK: INCHIKEY YXMDGALBGDSJCH-NSHDSACASA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 310 C and held at the final temp. for 2 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.46 min.
+PK$SPLASH: splash10-08fr-8940000000-53075a7deed4281aa62f
+PK$NUM_PEAK: 25
+PK$PEAK: m/z int. rel.int.
+  29.042 4.1414 41
+  30.945 4.4768 45
+  36.95 3.9941 40
+  42.485 3.5411 35
+  43.332 3.6434 36
+  55.979 3.2343 32
+  57.071 80.8301 807
+  58.073 5.4952 55
+  63.233 3.8622 39
+  69.587 3.5922 36
+  71.158 3.447 34
+  83.094 3.9072 39
+  84.212 3.2517 32
+  85.065 12.4916 125
+  85.102 10.3882 104
+  96.674 4.7038 47
+  103.078 7.6313 76
+  112.126 100 999
+  113.131 20.0841 201
+  157.122 28.1735 281
+  197.943 3.8755 39
+  213.188 7.2111 72
+  214.193 9.4852 95
+  215.200 52.1177 521
+  216.205 6.4973 65
+//
