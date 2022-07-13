@@ -1,0 +1,34 @@
+ACCESSION: MSBNK-MSSJ-MSJ01509
+RECORD_TITLE: Ethidium; ESI-QQ; MS2; [M]+, CID, CE 25 V
+DATE: 2022.07.06
+AUTHORS: Kaori Shintani, Department of Forensic Medicine, Graduate School of Medical Science, Kyoto Prefectural University of Medicine, 465 Kajii-cho, Kamigyo-ku, Kyoto 602-8566, Japan.
+LICENSE: CC BY
+COPYRIGHT: Kaori Shintani, Department of Forensic Medicine, Graduate School of Medical Science, Kyoto Prefectural University of Medicine, 465 Kajii-cho, Kamigyo-ku, Kyoto 602-8566, Japan.
+COMMENT: Sample was analyzed by direct infusion method.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 22HP8019 to the Mass Spectrometry Society of Japan.
+CH$NAME: Ethidium
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: [C21H20N3]+
+CH$EXACT_MASS: 314.16516
+CH$SMILES: CC[n+]1c2cc(ccc2c3ccc(cc3c1c4ccccc4)N)N
+CH$IUPAC: InChI=1S/C21H19N3/c1-2-24-20-13-16(23)9-11-18(20)17-10-8-15(22)12-19(17)21(24)14-6-4-3-5-7-14/h3-13,23H,2,22H2,1H3/p+1
+CH$LINK: CAS 3546-21-2
+CH$LINK: CHEMSPIDER 3498
+CH$LINK: INCHIKEY QTANTQQOYSUMLC-UHFFFAOYSA-O
+CH$LINK: PUBCHEM CID:3624
+AC$INSTRUMENT: LCMS-8045 (Shimadzu, Kyoto, Japan)
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 25 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+MS$FOCUSED_ION: PRECURSOR_M/Z 314.16516
+MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
+PK$SPLASH: splash10-000i-0090000000-5faff0eaa20022cba81e
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  269.1 7338 92
+  285.05 71563 895
+  286.05 79827 999
+//
