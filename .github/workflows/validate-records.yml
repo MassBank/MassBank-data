@@ -19,7 +19,6 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '18'
-          cache: 'maven'
 
       - name: Checkout massbank-web
         uses: actions/checkout@v3
