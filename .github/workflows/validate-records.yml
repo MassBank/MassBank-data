@@ -35,4 +35,4 @@ jobs:
         run: mvn -q -f .scripts/MassBank-web/MassBank-Project/MassBank-lib/pom.xml package
 
       - name: Run the validating script
-        run: bash .scripts/run_travis.sh
+        run: bash -x .scripts/run_travis.sh

@@ -1,15 +1,15 @@
 haserror=0
-diff --version
-for i in  */*.txt; do   echo $i; done | sort | grep Metabolon > filelist.txt
-echo filelist.txt
-cat filelist.txt
-grep Metabolon legacy.blacklist > legacy.blacklist2
-echo legacy.blacklist
-cat legacy.blacklist2 
-diff -u filelist.txt legacy.blacklist2
-echo nur legacy
-diff --new-line-format="" --unchanged-line-format="" filelist.txt legacy.blacklist2 
-exit 0
+#diff --version
+#for i in  */*.txt; do   echo $i; done | sort | grep Metabolon > filelist.txt
+#echo filelist.txt
+#cat filelist.txt
+#grep Metabolon legacy.blacklist > legacy.blacklist2
+#echo legacy.blacklist
+#cat legacy.blacklist2 
+#diff -u filelist.txt legacy.blacklist2
+#echo nur legacy
+#diff --new-line-format="" --unchanged-line-format="" filelist.txt legacy.blacklist2 
+#exit 0
 
 
 for i in  */*.txt; do 
