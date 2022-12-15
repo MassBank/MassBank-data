@@ -19,7 +19,10 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '18'
-
+      - name: Set up Maven
+        uses: stCarolas/setup-maven@v4.5
+        with:
+          maven-version: 3.6.3
       - name: Checkout massbank-web
         uses: actions/checkout@v3
         with:
