@@ -1,7 +1,12 @@
 haserror=0
 
-for i in  */*.txt; do   echo $i; done | sort > filelist.txt
-diff -u filelist.txt legacy.blacklist | grep Metabolon
+for i in  */*.txt; do   echo $i; done | sort | grep Metabolon > filelist.txt
+echo filelist.txt
+cat filelist.txt
+grep Metabolon legacy.blacklist > legacy.blacklist2
+echo legacy.blacklist
+cat legacy.blacklist2 
+diff -u filelist.txt legacy.blacklist2
 exit 0
 
 
