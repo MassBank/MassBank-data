@@ -5,6 +5,7 @@ on:
   pull_request:
     branches:
       - 'dev'
+      - 'main'
 
 
 jobs:
@@ -30,6 +31,16 @@ jobs:
           path: .scripts/MassBank-web
           fetch-depth: 1
           ref: dev
+        if: ${{ github.ref != 'ref/heads/main' }}
+        
+      - name: Checkout massbank-web
+        uses: actions/checkout@v3
+        with:
+          repository: MassBank/MassBank-web
+          path: .scripts/MassBank-web
+          fetch-depth: 1
+          ref: main
+          if: ${{ github.ref == 'ref/heads/main' }}
 
       - name: Build with Maven
         run: mvn -q -f .scripts/MassBank-web/MassBank-Project/MassBank-lib/pom.xml package
