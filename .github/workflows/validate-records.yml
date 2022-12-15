@@ -24,7 +24,7 @@ jobs:
         uses: stCarolas/setup-maven@v4.5
         with:
           maven-version: 3.6.3
-      - name: Checkout massbank-web
+      - name: Checkout massbank-web dev
         uses: actions/checkout@v3
         with:
           repository: MassBank/MassBank-web
@@ -33,7 +33,7 @@ jobs:
           ref: dev
         if: ${{ github.ref != 'ref/heads/main' }}
         
-      - name: Checkout massbank-web
+      - name: Checkout massbank-web main
         uses: actions/checkout@v3
         with:
           repository: MassBank/MassBank-web
