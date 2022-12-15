@@ -12,7 +12,7 @@ for i in records*.list; do
  .scripts/MassBank-web/MassBank-Project/MassBank-lib/target/MassBank-lib/MassBank-lib/bin/Validator -legacy `diff --old-line-format="" --new-line-format="" $i legacy.blacklist` || haserror=1
  echo Validate nonlegacy content
  echo Files to process
- diff --new-line-format="" --unchanged-line-format="" $i legacy.blacklis
+ diff --new-line-format="" --unchanged-line-format="" $i legacy.blacklist
  .scripts/MassBank-web/MassBank-Project/MassBank-lib/target/MassBank-lib/MassBank-lib/bin/Validator `diff --new-line-format="" --unchanged-line-format="" $i legacy.blacklist` || haserror=1
 done
 rm records*.list
