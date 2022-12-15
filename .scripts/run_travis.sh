@@ -1,5 +1,10 @@
 haserror=0
 
+for i in  */*.txt; do   echo $i; done | sort > filelist.txt
+diff -u filelist.txt legacy.blacklist | grep Metabolon
+exit 0
+
+
 for i in  */*.txt; do 
  echo $i; 
 done | sort | split -d --additional-suffix .list -C 500K - records
