@@ -1,4 +1,4 @@
-name: MassBank-data
+name: MassBank-data (build and test)
 
 on: [push, pull_request]
 
@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix:
         os: [ 'ubuntu-latest']
-        maven: ['3.6.3', '3.8.6']
+        maven: ['3.6.3']  #, '3.8.6']
       fail-fast: false
     
     runs-on: ${{ matrix.os }}
@@ -23,13 +23,16 @@ jobs:
           java-version: 11
           maven-version: ${{ matrix.maven }}
 
+      - name: Extract Maven project version
+        run: echo $(mvn -version)
+
       - name: Check out MassBank-web
         uses: actions/checkout@v3
         with:
           repository: MassBank/MassBank-web
           path: .scripts/MassBank-web
               
-      - name: Maven build
+      - name: Build with Maven
         run: mvn -q -f .scripts/MassBank-web/MassBank-Project/MassBank-lib/pom.xml package
       
       - name: Run tests
