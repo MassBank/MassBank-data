@@ -1,0 +1,36 @@
+name: MassBank-data
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    
+    strategy:
+      matrix:
+        os: [ 'ubuntu-latest']
+        maven: ['3.6.3', '3.8.6']
+      fail-fast: false
+    
+    runs-on: ${{ matrix.os }}
+      
+    name: Maven ${{ matrix.maven }} on ${{ matrix.os }}
+
+    steps:
+
+      - name: Setup Maven Action
+        uses: s4u/setup-maven-action@v1.6.0
+        with:
+          java-version: 11
+          maven-version: ${{ matrix.maven }}
+
+      - name: Check out MassBank-web
+        uses: actions/checkout@v3
+        with:
+          repository: MassBank/MassBank-web
+          path: .scripts/MassBank-web
+              
+      - name: Maven build
+        run: mvn -q -f .scripts/MassBank-web/MassBank-Project/MassBank-lib/pom.xml package
+      
+      - name: Run tests
+        run: bash .scripts/run_travis.sh
