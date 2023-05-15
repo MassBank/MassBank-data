@@ -1,0 +1,35 @@
+ACCESSION: MSBNK-MSSJ-MSJ02328
+RECORD_TITLE: Silafluofen; LC-ESI-QTOF; MS; ESI; POSITIVE
+DATE: 2022.03.14
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 22HP8019 to the Mass Spectrometry Society of Japan.
+CH$NAME: Silafluofen
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C25H29FO2Si
+CH$EXACT_MASS: 408.19208
+CH$SMILES: CCOc1ccc([Si](C)(C)CCCc2ccc(F)c(Oc3ccccc3)c2)cc1
+CH$IUPAC: InChI=1S/C25H29FO2Si/c1-4-27-21-13-15-23(16-14-21)29(2,3)18-8-9-20-12-17-24(26)25(19-20)28-22-10-6-5-7-11-22/h5-7,10-17,19H,4,8-9,18H2,1-3H3
+CH$LINK: CAS 105024-66-6
+CH$LINK: CHEMSPIDER 83448
+CH$LINK: INCHIKEY HPYNBECUCCGGPA-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID: 92430
+AC$INSTRUMENT: ExionLC AD, AB Sciex LLC, USA; X500R QTOF, AB Sciex LLC, USA.
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME AQ-C18HP 3 microm, 2.1 mm × 150 mm, GL Science (Tokyo Japan)
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE 40 C
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 3 min, 0/100 at 13 min, 0/100 at 23 min, 95/5 at 23.1 min, 95/5 at 28 min
+AC$CHROMATOGRAPHY: FLOW_RATE 200 microl/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 18.3 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 2 mM Ammonium bicarbonate
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 2 mM Ammmonium bicarbonate
+PK$SPLASH: splash10-004i-0000900000-2d195d6a2d69c572a441
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  426.2269 100 999
+  427.2314 30.7406 307
+//

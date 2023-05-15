@@ -1,0 +1,46 @@
+ACCESSION: MSBNK-MSSJ-MSJ02357
+RECORD_TITLE: N-Methyl-L-alanine; GC-FI-TOF; MS; POSITIVE; FI; 10 kV; TBDMS
+DATE: 2022.09.31
+AUTHORS: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 22HP8019 to the Mass Spectrometry Society of Japan.
+COMMENT: Original ID of the mass spectral data was 2201a5T_fi.xlsx.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of GC-transfer line was 250 C. Resolving power (FWHM, nominal) was 7000.
+COMMENT: FI voltage was 10 kV. Typical accuracy level expected was 10 ppm. The m/z value was adjusted with 217.1498.
+CH$NAME: N-Methyl-L-alanine
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C4H9NO2
+CH$EXACT_MASS: 103.0633285
+CH$SMILES: C[C@@H](C(=O)O)NC
+CH$IUPAC: InChI=1S/C4H9NO2/c1-3(5-2)4(6)7/h3,5H,1-2H3,(H,6,7)/t3-/m0/s1
+CH$LINK: CHEMSPIDER 4450824
+CH$LINK: INCHIKEY GDFAOVXKHJXLEI-VKHMYHEASA-N
+CH$LINK: PUBCHEM CID:5288725
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, 1 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME DB-5MS UI 122-5532UI US0462866H (Agilent, Wilmington, USA) with the length 30 m, I.D. 0.25 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temperature for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.4 min.
+MS$FOCUSED_ION: DERIVATIVE_FORM C10H23NO2Si
+MS$FOCUSED_ION: DERIVATIVE_MASS 217.1498
+MS$FOCUSED_ION: DERIVATIVE_TYPE TBDMS
+PK$SPLASH: splash10-014i-0090000000-34fa0894e6912d5ca048
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  57.071 1.6701 17
+  58.066 4.3956 44
+  115.094 2.8658 29
+  160.079 9.1654 92
+  161.08 1.1087 11
+  216.142 1.2876 13
+  217.15 100 999
+  218.154 24.1413 241
+  219.151 5.4655 55
+  220.155 0.8707 9
+//

@@ -1,0 +1,50 @@
+ACCESSION: MSBNK-MSSJ-MSJ02377
+RECORD_TITLE: 2-Aminoisobutyric Acid; GC-FI-TOF; MS; POSITIVE; FI; 10 kV; TFA, TMS
+DATE: 2022.09.31
+AUTHORS: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 22HP8019 to the Mass Spectrometry Society of Japan.
+COMMENT: Original ID of the mass spectral data was 2207a2FM_fi.xlsx.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of GC-transfer line was 250 C. Resolving power (FWHM, nominal) was 7000.
+COMMENT: FI voltage was 10 kV. Typical accuracy level expected was 10 ppm. The m/z value was adjusted with 256.06168.
+CH$NAME: 2-Aminoisobutyric Acid
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C4H9NO2
+CH$EXACT_MASS: 103.0633285
+CH$SMILES: CC(C)(C(=O)O)N
+CH$IUPAC: InChI=1S/C4H9NO2/c1-4(2,5)3(6)7/h5H2,1-2H3,(H,6,7)
+CH$LINK: CHEMSPIDER 5891
+CH$LINK: INCHIKEY FUOOLUPWFVMBKG-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:6119
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, 1 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME DB-5MS UI 122-5532UI US0462866H (Agilent, Wilmington, USA) with the length 30 m, I.D. 0.25 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temperature for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.38 min.
+MS$FOCUSED_ION: DERIVATIVE_FORM C9H16F3NO3Si
+MS$FOCUSED_ION: DERIVATIVE_MASS 271.08515
+MS$FOCUSED_ION: DERIVATIVE_TYPE TFA, TMS
+PK$SPLASH: splash10-1000-1940000000-a40e1a3aa810c0a5dad3
+PK$NUM_PEAK: 14
+PK$PEAK: m/z int. rel.int.
+  73.048 30.2698 302
+  74.049 2.1252 21
+  75.045 1.7123 17
+  117.038 53.2917 532
+  118.039 5.0238 50
+  119.036 2.1313 21
+  154.048 100 999
+  154.227 0.8482 8
+  155.052 5.5309 55
+  227.097 1.8639 19
+  256.062 72.5136 724
+  257.063 10.1756 102
+  258.061 3.0692 31
+  272.093 2.809 28
+//

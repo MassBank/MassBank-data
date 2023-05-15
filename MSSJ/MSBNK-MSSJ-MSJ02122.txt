@@ -1,0 +1,34 @@
+ACCESSION: MSBNK-MSSJ-MSJ02122
+RECORD_TITLE: Diphenylguanidine; ESI-QTOF; MS2; ESI; POSITIVE; CE 20 V
+DATE: 2021.10.06
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 22HP8019 to the Mass Spectrometry Society of Japan.
+COMMENT: The sample was injected by direct infusion.
+CH$NAME: Diphenylguanidine
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C13H13N3
+CH$EXACT_MASS: 211.11093
+CH$SMILES: N=C(Nc1ccccc1)Nc1ccccc1
+CH$IUPAC: InChI=1S/C13H13N3/c14-13(15-11-7-3-1-4-8-11)16-12-9-5-2-6-10-12/h1-10H,(H3,14,15,16)
+CH$LINK: CAS 102-06-7
+CH$LINK: CHEMSPIDER 7313
+CH$LINK: INCHIKEY OWRCNXZUPFZXOS-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID: 7594
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, USA)
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+MS$FOCUSED_ION: PRECURSOR_M/Z 212.11821
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-0295-3950000000-6d3cb2b5901a73b96263
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  94.0644 69.8918 698
+  119.0594 77.6838 776
+  195.0904 100 999
+  212.1164 99.8947 998
+//

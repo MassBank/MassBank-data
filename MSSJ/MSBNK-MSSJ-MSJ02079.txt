@@ -1,0 +1,45 @@
+ACCESSION: MSBNK-MSSJ-MSJ02079
+RECORD_TITLE: rac-(3R,5S)-Nona-1,8-diene-3,5-diol; GC-FI-TOF; MS; POSITIVE; FI; 10 kV
+DATE: 2023.03.27
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: S. Takahashi, D. Satoh, M. Hayashi, K. Takahashi, K. Yamaguchi, T. Nakamura, H. Koshino. Total Synthesis of the Proposed Structure for Aromin and Its Structural Revision. J. Org. Chem. 2016, 81, 22, 11222-11234. doi: 10.1021/acs.joc.6b02187
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 22HP8019 to the Mass Spectrometry Society of Japan.
+COMMENT: Original ID of the mass spectral data was ST-2691A-1_fi.xlsx.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the GC-transfer line was 200 C. Resolving power (FWHM, nominal) was 7000.
+COMMENT: FI voltage was 10 kV. Typical accuracy level expected was 10 ppm. Postrun m/z adjustment with known mass was 156.11503.
+CH$NAME: rac-(3R,5S)-Nona-1,8-diene-3,5-diol
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C9H16O2
+CH$EXACT_MASS: 156.11503
+CH$SMILES: C=CCC[C@H](O)C[C@@H](O)C=C
+CH$IUPAC: InChI=1S/C9H16O2/c1-3-5-6-9(11)7-8(10)4-2/h3-4,8-11H,1-2,5-7H2/t8-,9-/m0/s1
+CH$LINK: INCHIKEY MFDQNLCCXGCDAB-IUCAKERBSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min.
+AC$CHROMATOGRAPHY: COLUMN_NAME ZB-1MS 7HM-G011-11 sn:313446, length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temp. for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.03 min.
+PK$SPLASH: splash10-0a4i-0900000000-7d7a166791e76f608a78
+PK$NUM_PEAK: 13
+PK$PEAK: m/z int. rel.int.
+  57.034 3.5373 35
+  70.06 2.3016 23
+  85.064 4.2857 43
+  101.06 3.2442 32
+  102.067 1.702 17
+  120.092 1.3599 14
+  138.102 26.9828 270
+  139.107 3.7834 38
+  156.115 100 999
+  156.29 0.6706 7
+  157.12 29.4164 294
+  157.227 0.7133 7
+  158.124 2.9757 30
+//
