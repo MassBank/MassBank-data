@@ -1,0 +1,117 @@
+ACCESSION: MSBNK-MSSJ-MSJ02115
+RECORD_TITLE: (2-methyloctyl)(3-phenylpropyl)sulfane; GC-EI-TOF; MS; POSITIVE; EI; 70 V
+DATE: 2023.03.27
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Yong Luo, Yuanhong Ma, Zhaomin Hou. alpha-C-H Alkylation of Methyl Sulfides with Alkenes by a Scandium Catalyst. J. Am. Chem. Soc. 2018, 140, 114-117. DOI: 10.1021/jacs.7b11245
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 22HP8019 to the Mass Spectrometry Society of Japan.
+COMMENT: Original ID of the mass spectral data was 3t_ei.xlsx.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the ion-source and GC-transfer line were 200 C and 250 C, respectively. Resolving power (FWHM, nominal) was 7000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. Postrun m/z adjustment with known mass was 278.20682.
+CH$NAME: (2-methyloctyl)(3-phenylpropyl)sulfane
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C18H30S
+CH$EXACT_MASS: 278.20682
+CH$SMILES: CCCCCCC(C)CSCCCc1ccccc1
+CH$IUPAC: InChI=1S/C18H30S/c1-3-4-5-7-11-17(2)16-19-15-10-14-18-12-8-6-9-13-18/h6,8-9,12-13,17H,3-5,7,10-11,14-16H2,1-2H3
+CH$LINK: INCHIKEY XDBWMEMBWMERRW-UHFFFAOYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min.
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 30x0.32 0.25um 19091J-413, length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temp. for 5.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 10.71 min.
+PK$SPLASH: splash10-014i-6910000000-40dd5f25025eb37c286d
+PK$NUM_PEAK: 85
+PK$PEAK: m/z int. rel.int.
+  27.024 1.5899 16
+  28.006 2.7436 27
+  28.031 0.2213 2
+  29.04 4.243 42
+  31.99 1.6428 16
+  39.024 1.9183 19
+  40.031 0.2094 2
+  41.04 10.6967 107
+  42.047 1.4491 14
+  43.055 10.5594 105
+  43.108 0.1318 1
+  44.059 0.4119 4
+  44.98 1.2653 13
+  45.988 0.4049 4
+  46.996 1.5649 16
+  51.024 0.6744 7
+  53.04 0.6067 6
+  55.055 6.2741 63
+  56.063 2.7802 28
+  57.071 4.8944 49
+  58.075 0.2315 2
+  58.996 0.3875 4
+  60.004 0.3522 4
+  61.012 10.5641 106
+  61.067 0.1391 1
+  62.016 0.3927 4
+  63.008 0.5008 5
+  65.04 3.0753 31
+  66.044 0.2614 3
+  67.055 0.638 6
+  69.071 4.9709 50
+  70.078 1.506 15
+  71.087 3.0702 31
+  73.012 0.363 4
+  74.019 0.5623 6
+  75.027 0.8099 8
+  77.04 1.4586 15
+  78.047 0.9271 9
+  79.055 0.8486 8
+  83.087 1.8331 18
+  84.094 1.0096 10
+  85.102 1.2593 13
+  89.041 1.0621 11
+  90.047 0.3107 3
+  91.056 23.9802 240
+  91.189 0.1469 1
+  92.061 3.3087 33
+  97.102 0.7544 8
+  98.109 0.393 4
+  101.043 0.5065 5
+  102.048 0.2504 3
+  103.056 1.259 13
+  104.063 1.8872 19
+  105.071 5.936 59
+  106.074 0.5017 5
+  115.056 1.8923 19
+  116.062 0.504 5
+  117.071 23.8524 238
+  117.208 0.9161 9
+  118.079 100 999
+  118.615 0.2702 3
+  118.906 0.1154 1
+  119.082 10.1768 102
+  119.171 0.1405 1
+  120.087 0.5344 5
+  123.028 1.3636 14
+  126.141 0.2789 3
+  129.072 0.2448 2
+  131.087 1.8725 19
+  151.059 0.4759 5
+  152.066 2.8208 28
+  153.07 0.358 4
+  158.114 0.3833 4
+  159.121 3.8898 39
+  160.126 0.489 5
+  161.124 0.2209 2
+  165.073 0.2794 3
+  173.137 0.1815 2
+  187.153 2.0305 20
+  188.155 0.2557 3
+  193.103 0.3292 3
+  278.207 16.1965 162
+  279.21 3.5148 35
+  280.206 1.0216 10
+  281.205 0.1946 2
+//

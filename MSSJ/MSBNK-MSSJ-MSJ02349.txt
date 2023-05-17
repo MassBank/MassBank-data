@@ -1,0 +1,51 @@
+ACCESSION: MSBNK-MSSJ-MSJ02349
+RECORD_TITLE: N-Ethylglycine; GC-FI-TOF; MS; POSITIVE; FI; 10 kV; TFA, TMS
+DATE: 2022.09.31
+AUTHORS: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 22HP8019 to the Mass Spectrometry Society of Japan.
+COMMENT: Original ID of the mass spectral data was 2201a4FM_fi.xlsx.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of GC-transfer line was 250 C. Resolving power (FWHM, nominal) was 7000.
+COMMENT: FI voltage was 10 kV. Typical accuracy level expected was 10 ppm. The m/z value was adjusted with 271.0852.
+CH$NAME: N-Ethylglycine
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C4H9NO2
+CH$EXACT_MASS: 103.0633285
+CH$SMILES: CCNCC(=O)O
+CH$IUPAC: InChI=1S/C4H9NO2/c1-2-5-3-4(6)7/h5H,2-3H2,1H3,(H,6,7)
+CH$LINK: CHEMSPIDER 280126
+CH$LINK: INCHIKEY YPIGGYHFMKJNKV-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:316542
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, 1 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME DB-5MS UI 122-5532UI US0462866H (Agilent, Wilmington, USA) with the length 30 m, I.D. 0.25 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temperature for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.41 min.
+MS$FOCUSED_ION: DERIVATIVE_FORM C9H16F3NO3Si
+MS$FOCUSED_ION: DERIVATIVE_MASS 271.08515
+MS$FOCUSED_ION: DERIVATIVE_TYPE TFA, TMS
+PK$SPLASH: splash10-0fk9-1960000000-39b860cbf3e13ccca841
+PK$NUM_PEAK: 15
+PK$PEAK: m/z int. rel.int.
+  73.048 30.3203 303
+  74.049 2.1359 21
+  75.047 1.1399 11
+  117.038 61.7308 617
+  118.039 5.7935 58
+  119.035 2.4576 25
+  154.049 100 999
+  155.052 6.1388 61
+  227.096 3.0881 31
+  256.062 13.5474 135
+  257.064 2.5048 25
+  258.056 0.9952 10
+  271.085 83.3515 833
+  272.087 15.2284 152
+  273.083 4.5318 45
+//

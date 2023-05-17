@@ -1,0 +1,45 @@
+ACCESSION: MSBNK-MSSJ-MSJ02111
+RECORD_TITLE: trimethyl(2-methyl-3-(pentylthio)propyl)silane; GC-FI-TOF; MS; POSITIVE; FI; 10 kV
+DATE: 2023.03.27
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Yong Luo, Yuanhong Ma, Zhaomin Hou. alpha-C-H Alkylation of Methyl Sulfides with Alkenes by a Scandium Catalyst. J. Am. Chem. Soc. 2018, 140, 114-117. DOI: 10.1021/jacs.7b11245
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 22HP8019 to the Mass Spectrometry Society of Japan.
+COMMENT: Original ID of the mass spectral data was 3i_fi.xlsx.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the GC-transfer line was 250 C. Resolving power (FWHM, nominal) was 7000.
+COMMENT: FI voltage was 10 kV. Typical accuracy level expected was 10 ppm. Postrun m/z adjustment with known mass was 232.1681.
+CH$NAME: trimethyl(2-methyl-3-(pentylthio)propyl)silane
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C12H28SSi
+CH$EXACT_MASS: 232.1681
+CH$SMILES: CCCCCSCC(C)C[Si](C)(C)C
+CH$IUPAC: InChI=1S/C12H28SSi/c1-6-7-8-9-13-10-12(2)11-14(3,4)5/h12H,6-11H2,1-5H3
+CH$LINK: INCHIKEY JVVKIQSROQARTD-UHFFFAOYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min.
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 30x0.32 0.25um 19091J-413, length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temp. for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.27 min.
+PK$SPLASH: splash10-001i-0090000000-d9410398d6f5d0b06176
+PK$NUM_PEAK: 13
+PK$PEAK: m/z int. rel.int.
+  73.047 4.7713 48
+  117.074 0.8289 8
+  159.121 1.0262 10
+  176.103 1.2838 13
+  217.145 49.0845 490
+  218.147 9.0443 90
+  219.143 4.1854 42
+  219.378 1.3352 13
+  220.146 0.583 6
+  232.168 100 999
+  233.171 18.2443 182
+  234.166 9.262 93
+  235.168 1.1551 12
+//

@@ -1,0 +1,43 @@
+ACCESSION: MSBNK-MSSJ-MSJ02381
+RECORD_TITLE: N-Methyl-beta-alanine; GC-FI-TOF; MS; POSITIVE; FI; 10 kV; 2TBDMS
+DATE: 2022.09.31
+AUTHORS: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 22HP8019 to the Mass Spectrometry Society of Japan.
+COMMENT: Original ID of the mass spectral data was 2207b3T2_fi.xlsx.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of GC-transfer line was 250 C. Resolving power (FWHM, nominal) was 7000.
+COMMENT: FI voltage was 10 kV. Typical accuracy level expected was 10 ppm. The m/z value was adjusted with 274.16586.
+CH$NAME: N-Methyl-beta-alanine
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C4H9NO2
+CH$EXACT_MASS: 103.0633285
+CH$SMILES: CNCCC(=O)O
+CH$IUPAC: InChI=1S/C4H9NO2/c1-5-3-2-4(6)7/h5H,2-3H2,1H3,(H,6,7)
+CH$LINK: CHEMSPIDER 68396
+CH$LINK: INCHIKEY VDIPNVCWMXZNFY-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:75891
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, 1 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME DB-5MS UI 122-5532UI US0462866H (Agilent, Wilmington, USA) with the length 30 m, I.D. 0.25 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temperature for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.94 min.
+MS$FOCUSED_ION: DERIVATIVE_FORM C16H37NO2Si2
+MS$FOCUSED_ION: DERIVATIVE_MASS 331.23628
+MS$FOCUSED_ION: DERIVATIVE_TYPE 2TBDMS
+PK$SPLASH: splash10-0089-0069000000-a79746b6ca2bdea126bd
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  274.166 100 999
+  275.169 24.7536 247
+  276.149 14.9676 150
+  330.227 51.4785 514
+  331.23 28.3019 283
+  332.245 73.8947 738
+  333.248 28.5272 285
+//

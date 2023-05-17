@@ -1,0 +1,88 @@
+ACCESSION: MSBNK-MSSJ-MSJ02344
+RECORD_TITLE: N,N-Dimethylglycine; GC-EI-TOF; MS; POSITIVE; EI; 70 V; TMS
+DATE: 2022.09.31
+AUTHORS: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 22HP8019 to the Mass Spectrometry Society of Japan.
+COMMENT: Original ID of the mass spectral data is 2201a3M_ei.xlsx.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the ion-source and GC-transfer line were 200 C and 250 C, respectively. Resolving power (FWHM, nominal) was 7000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. The m/z value was adjusted with 175.1029.
+CH$NAME: N,N-Dimethylglycine
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C4H9NO2
+CH$EXACT_MASS: 103.0633285
+CH$SMILES: CN(C)CC(=O)O
+CH$IUPAC: InChI=1S/C4H9NO2/c1-5(2)3-4(6)7/h3H2,1-2H3,(H,6,7)
+CH$LINK: CHEMSPIDER 653
+CH$LINK: INCHIKEY FFDGPVCHZBVARC-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:673
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, 1 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME DB-5MS UI 122-5532UI US0462866H (Agilent, Wilmington, USA) with the length 30 m, I.D. 0.25 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temperature for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.56 min.
+MS$FOCUSED_ION: DERIVATIVE_FORM C7H17NO2Si
+MS$FOCUSED_ION: DERIVATIVE_MASS 175.10285
+MS$FOCUSED_ION: DERIVATIVE_TYPE TMS
+PK$SPLASH: splash10-0a4i-9000000000-ded85006531d5ff3a79a
+PK$NUM_PEAK: 52
+PK$PEAK: m/z int. rel.int.
+  27.024 0.1967 2
+  28.006 0.2696 3
+  28.019 0.412 4
+  28.985 0.2594 3
+  29.04 0.525 5
+  30.035 1.6053 16
+  41.027 0.3276 3
+  42.035 5.0918 51
+  42.087 0.0735 1
+  43.001 1.0057 10
+  43.042 0.9161 9
+  44.008 0.2964 3
+  44.05 0.5296 5
+  44.98 1.2071 12
+  45.016 1.2554 13
+  46.996 0.6917 7
+  56.05 0.5243 5
+  57.017 0.1564 2
+  57.058 1.3487 13
+  58.024 0.7789 8
+  58.066 100 999
+  58.339 0.2192 2
+  58.441 0.2772 3
+  58.698 0.1791 2
+  58.996 0.4868 5
+  59.031 0.5274 5
+  59.069 3.6473 36
+  59.269 0.0983 1
+  59.546 0.068 1
+  59.59 0.0736 1
+  61.011 0.2575 3
+  72.04 0.217 2
+  73.048 3.2632 33
+  74.019 0.143 1
+  74.049 0.2805 3
+  75.027 2.0709 21
+  76.028 0.1628 2
+  77.023 0.4868 5
+  79.536 0.1728 2
+  80.04 0.1617 2
+  101.006 0.1496 1
+  102.073 0.1314 1
+  103.058 0.3589 4
+  117.037 0.3201 3
+  130.069 0.2372 2
+  132.084 0.1418 1
+  160.08 3.2521 32
+  161.081 0.4174 4
+  162.078 0.1514 2
+  175.103 2.1749 22
+  176.105 0.2994 3
+  177.103 0.1065 1
+//
