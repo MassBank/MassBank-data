@@ -1,0 +1,40 @@
+ACCESSION: MSBNK-MSSJ-MSJ02172
+RECORD_TITLE: Cyanoguanidine; ESI-QTOF; MS2; ESI; POSITIVE; [M+H]+; CE 30 V
+DATE: 2021.10.06
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 22HP8019 to the Mass Spectrometry Society of Japan.
+COMMENT: The sample was injected by direct infusion.
+CH$NAME: Cyanoguanidine
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C2H4N4
+CH$EXACT_MASS: 84.04358
+CH$SMILES: N#CNC(=N)N
+CH$IUPAC: InChI=1S/C2H4N4/c3-1-6-2(4)5/h(H4,4,5,6)
+CH$LINK: CAS 461-58-5
+CH$LINK: CHEMSPIDER 9611
+CH$LINK: INCHIKEY QGBSISYHAICWAH-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:10005
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, USA)
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+MS$FOCUSED_ION: PRECURSOR_M/Z 85.05086
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-00kf-9000000000-d5c887fc20956c51e537
+PK$ANNOTATION: m/z rel.int. formula exact_mass error(ppm) SMILES_of_ion HR_rules
+  28.02 21 [CHN+H]+ 28.018175 0.002(65.13) N#C True
+  41.0156 29 [CH2N2-H]+ 41.013424 0.002(53.06) N#CN True
+  43.031 999 [CH4N2-H]+ 43.029075 0.002(44.73) N=CN True
+  68.0264 936 [C2H3N3-H]+ 68.024326 0.002(30.49) N#CNC=N True
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  28.02 2.151 21
+  41.0156 2.8644 29
+  43.031 100 999
+  44.039 3.0787 31
+  68.0264 93.7236 936
+//
