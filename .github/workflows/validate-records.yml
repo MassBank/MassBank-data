@@ -15,6 +15,7 @@ jobs:
 
     steps:
       - run: echo ${{github.ref}}
+      - run: echo ${{github.base_ref}}
 
       - uses: actions/checkout@v3
       - name: Set up JDK 11
