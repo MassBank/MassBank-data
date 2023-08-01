@@ -1,0 +1,47 @@
+ACCESSION: MSBNK-UoB-XB000306
+RECORD_TITLE: amitriptyline_BTP_M11; LC-ESI-FT; MS2; CE: 25,60,100%; R=17500; [M+H]+
+DATE: 2023.04.25
+AUTHORS: Tara J. Bowen, University of Birmingham
+LICENSE: CC BY
+PUBLICATION: Bowen, T.J.; Southam, A.D.; Hall, A.R.; Weber, R.J.M.; Lloyd, G.R.; Macdonald, R.; Wilson, A.; Pointon, A.; Viant, M.R. Simultaneously discovering the fate and biochemical effects of xenobiotics through untargeted metabolomics. Nat. Commun. (under review)
+COMMENT: CONFIDENCE Tentative identification, substance class known (Level 3)
+COMMENT: INTERNAL_ID 12749
+CH$NAME: amitriptyline_BTP_M11
+CH$COMPOUND_CLASS: N/A; Biotransformation product
+CH$FORMULA: C26H31NO7
+CH$EXACT_MASS: 469.2101
+CH$SMILES: N/A
+CH$IUPAC: N/A
+AC$INSTRUMENT: Dionex Ultimate 3000 UHPLC Thermo Scientific; Q Exactive Focus Orbitrap MS Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-FT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 25,60,100% (stepped)
+AC$MASS_SPECTROMETRY: RESOLUTION 17500
+AC$CHROMATOGRAPHY: COLUMN_NAME Accucore 150 Amide, 2.6um, 2.1x100mm, Thermo Scientific
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 99/1 at 0 min, 99/1 at 1 min, 85:15 at 3 min, 50/50 at 6 min, 5/95 at 9 min, 5/95 at 10 min, 99/1 at 10.5 min, 99/1 at 15 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.103 min
+MS$FOCUSED_ION: BASE_PEAK 470.2173
+MS$FOCUSED_ION: PRECURSOR_M/Z 470.2173
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 3.4.0
+PK$SPLASH: splash10-004l-1090000000-d4aa0a532a4fb4463503
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  58.0651 C3H8N+ 1 58.0651 -0.2
+  215.0856 C17H11+ 1 215.0855 0.24
+  231.1169 C18H15+ 1 231.1168 0.14
+  276.1748 C20H22N+ 1 276.1747 0.6
+  294.1856 C20H24NO+ 1 294.1852 1.16
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  58.0651 21694.8 290
+  215.0856 35832.9 479
+  231.1169 19067.1 255
+  276.1748 74623.6 999
+  294.1856 40515.8 542
+//

@@ -1,0 +1,45 @@
+ACCESSION: MSBNK-UoB-XB000404
+RECORD_TITLE: lansoprazole_BTP_M5; LC-ESI-FT; MS2; CE: 25,60,100%; R=17500; [M+H]+
+DATE: 2023.04.25
+AUTHORS: Tara J. Bowen, University of Birmingham
+LICENSE: CC BY
+PUBLICATION: Bowen, T.J.; Southam, A.D.; Hall, A.R.; Weber, R.J.M.; Lloyd, G.R.; Macdonald, R.; Wilson, A.; Pointon, A.; Viant, M.R. Simultaneously discovering the fate and biochemical effects of xenobiotics through untargeted metabolomics. Nat. Commun. (under review)
+COMMENT: CONFIDENCE Probable structure via diagnostic evidence (Level 2b)
+COMMENT: INTERNAL_ID 4230
+CH$NAME: lansoprazole_BTP_M5
+CH$NAME: (3-Methyl-4-(2,2,2-trifluoroethoxy)pyridin-2-yl)methanol
+CH$NAME: [3-methyl-4-(2,2,2-trifluoroethoxy)pyridin-2-yl]methanol
+CH$COMPOUND_CLASS: N/A; Biotransformation product
+CH$FORMULA: C9H10F3NO2
+CH$EXACT_MASS: 221.0664
+CH$SMILES: CC1=C(C=CN=C1CO)OCC(F)(F)F
+CH$IUPAC: InChI=1S/C9H10F3NO2/c1-6-7(4-14)13-3-2-8(6)15-5-9(10,11)12/h2-3,14H,4-5H2,1H3
+CH$LINK: CAS 103577-66-8
+CH$LINK: PUBCHEM CID:11229760
+CH$LINK: INCHIKEY GNILTGRCVCMPFJ-UHFFFAOYSA-N
+CH$LINK: CHEMSPIDER 9404808
+AC$INSTRUMENT: Dionex Ultimate 3000 UHPLC Thermo Scientific; Q Exactive Focus Orbitrap MS Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-FT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 25,60,100% (stepped)
+AC$MASS_SPECTROMETRY: RESOLUTION 17500
+AC$CHROMATOGRAPHY: COLUMN_NAME Accucore 150 Amide, 2.6um, 2.1x100mm, Thermo Scientific
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 99/1 at 0 min, 99/1 at 1 min, 85:15 at 3 min, 50/50 at 6 min, 5/95 at 9 min, 5/95 at 10 min, 99/1 at 10.5 min, 99/1 at 15 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.012 min
+MS$FOCUSED_ION: BASE_PEAK 222.0735
+MS$FOCUSED_ION: PRECURSOR_M/Z 222.0736
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 3.4.0
+PK$SPLASH: splash10-0006-9000000000-f1fb6b9ea966d1fad31b
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  42.0338 C2H4N+ 1 42.0338 -0.88
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  42.0338 18299.1 999
+//
