@@ -1,0 +1,43 @@
+ACCESSION: MSBNK-UoB-XB000406
+RECORD_TITLE: lansoprazole_BTP_M9; LC-ESI-FT; MS2; CE: 25,60,100%; R=17500; [M+H]+
+DATE: 2023.04.25
+AUTHORS: Tara J. Bowen, University of Birmingham
+LICENSE: CC BY
+PUBLICATION: Bowen, T.J.; Southam, A.D.; Hall, A.R.; Weber, R.J.M.; Lloyd, G.R.; Macdonald, R.; Wilson, A.; Pointon, A.; Viant, M.R. Simultaneously discovering the fate and biochemical effects of xenobiotics through untargeted metabolomics. Nat. Commun. (under review)
+COMMENT: CONFIDENCE Tentative identification, substance class known (Level 3)
+COMMENT: INTERNAL_ID 14288
+CH$NAME: lansoprazole_BTP_M9
+CH$COMPOUND_CLASS: N/A; Biotransformation product
+CH$FORMULA: C22H22F3N3O8S
+CH$EXACT_MASS: 545.1080
+CH$SMILES: N/A
+CH$IUPAC: N/A
+AC$INSTRUMENT: Dionex Ultimate 3000 UHPLC Thermo Scientific; Q Exactive Focus Orbitrap MS Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-FT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 25,60,100% (stepped)
+AC$MASS_SPECTROMETRY: RESOLUTION 17500
+AC$CHROMATOGRAPHY: COLUMN_NAME Accucore 150 Amide, 2.6um, 2.1x100mm, Thermo Scientific
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 99/1 at 0 min, 99/1 at 1 min, 85:15 at 3 min, 50/50 at 6 min, 5/95 at 9 min, 5/95 at 10 min, 99/1 at 10.5 min, 99/1 at 15 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.093 min
+MS$FOCUSED_ION: BASE_PEAK 546.1154
+MS$FOCUSED_ION: PRECURSOR_M/Z 546.1152
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 3.4.0
+PK$SPLASH: splash10-00dr-0339000000-70fd7ccf11fc55cef593
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  135.0551 C7H7N2O+ 1 135.0553 -1.25
+  236.0352 C9H9F3NOS+ 7 236.0351 0.19
+  370.0834 C18H13FN3O5+ 10 370.0834 0.1
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  135.0551 11054.4 339
+  236.0352 11513.1 353
+  370.0834 32540.2 999
+//

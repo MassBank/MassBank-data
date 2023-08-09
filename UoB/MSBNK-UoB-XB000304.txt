@@ -1,0 +1,43 @@
+ACCESSION: MSBNK-UoB-XB000304
+RECORD_TITLE: amitriptyline_BTP_M5; LC-ESI-FT; MS2; CE: 25,60,100%; R=17500; [M+H]+
+DATE: 2023.04.25
+AUTHORS: Tara J. Bowen, University of Birmingham
+LICENSE: CC BY
+PUBLICATION: Bowen, T.J.; Southam, A.D.; Hall, A.R.; Weber, R.J.M.; Lloyd, G.R.; Macdonald, R.; Wilson, A.; Pointon, A.; Viant, M.R. Simultaneously discovering the fate and biochemical effects of xenobiotics through untargeted metabolomics. Nat. Commun. (under review)
+COMMENT: CONFIDENCE Tentative identification, substance class known (Level 3)
+COMMENT: INTERNAL_ID 9513
+CH$NAME: amitriptyline_BTP_M5
+CH$COMPOUND_CLASS: N/A; Biotransformation product
+CH$FORMULA: C19H21NO4S
+CH$EXACT_MASS: 359.1191
+CH$SMILES: N/A
+CH$IUPAC: N/A
+AC$INSTRUMENT: Dionex Ultimate 3000 UHPLC Thermo Scientific; Q Exactive Focus Orbitrap MS Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-FT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 25,60,100% (stepped)
+AC$MASS_SPECTROMETRY: RESOLUTION 17500
+AC$CHROMATOGRAPHY: COLUMN_NAME Accucore 150 Amide, 2.6um, 2.1x100mm, Thermo Scientific
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 99/1 at 0 min, 99/1 at 1 min, 85:15 at 3 min, 50/50 at 6 min, 5/95 at 9 min, 5/95 at 10 min, 99/1 at 10.5 min, 99/1 at 15 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.020 min
+MS$FOCUSED_ION: BASE_PEAK 360.1263
+MS$FOCUSED_ION: PRECURSOR_M/Z 360.1264
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 3.4.0
+PK$SPLASH: splash10-007k-3090000000-e8e0b445eb5c3da8ad34
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  73.0284 C3H5O2+ 1 73.0284 0.24
+  249.1274 C18H17O+ 1 249.1274 0.04
+  280.1693 C19H22NO+ 1 280.1696 -0.98
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  73.0284 9438.1 597
+  249.1274 15767.9 999
+  280.1693 11966.2 758
+//
