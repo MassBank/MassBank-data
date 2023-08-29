@@ -20,10 +20,6 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '11'
-      - name: Set up Maven
-        uses: stCarolas/setup-maven@v4.5
-        with:
-          maven-version: 3.6.3
       - name: Checkout massbank-web dev
         uses: actions/checkout@v3
         with:
@@ -43,7 +39,8 @@ jobs:
         if: ${{ (github.ref == 'refs/heads/main') || (github.base_ref == 'main') }}
 
       - name: Build with Maven
-        run: mvn -q -f .scripts/MassBank-web/MassBank-Project/MassBank-lib/pom.xml package
+        working-directory: .scripts/MassBank-web/MassBank-Project
+        run: mvn -q -f MassBank-lib/pom.xml package
 
       - name: Run the validating script
         run: bash .scripts/run_validation.sh
