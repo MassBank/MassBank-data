@@ -1,0 +1,51 @@
+ACCESSION: MSBNK-Chubu_Univ-UT003178
+RECORD_TITLE: Phosphatidylserine 22:6-22:6; LC-ESI-ITFT; MS3; [M-H]-/[M-C3H6NO2]-; RT: 8.76; Exp: 3
+DATE: 2016.01.19 (Created 2010.05.07, modified 2011.08.03)
+AUTHORS: Taguchi R, Graduate School of Medicine, The University of Tokyo
+LICENSE: CC BY-NC-SA
+PUBLICATION: Taguchi, R.; Ishikawa, M. Precise and Global Identification of Phospholipid Molecular Species by an Orbitrap Mass Spectrometer and Automated Search Engine Lipid Search. Journal of Chromatography A 2010, 1217 (25), 4229–39. DOI:10.1016/j.chroma.2010.04.034
+COMMENT: PRECURSOR_TYPE [M-H]-/[M-Ser]-
+CH$NAME: Phosphatidylserine 22:6-22:6
+CH$COMPOUND_CLASS: Natural Product; Glycerophospholipids; Glycerophosphoserines; Diacylglycerophosphoserines
+CH$FORMULA: C51H76NO9P
+CH$EXACT_MASS: 877.52577
+CH$SMILES: C(C=CCC=CCCC(OC(COC(=O)CCC=CCC=CCC=CCC=CCC=CCC=CCC)COP(OCC(N)C(C)=O)(O)=O)=O)C=CCC=CCC=CCC=CCC
+CH$IUPAC: InChI=1S/C51H76NO9P/c1-4-6-8-10-12-14-16-18-20-22-24-26-28-30-32-34-36-38-40-42-50(54)58-44-48(45-59-62(56,57)60-46-49(52)47(3)53)61-51(55)43-41-39-37-35-33-31-29-27-25-23-21-19-17-15-13-11-9-7-5-2/h6-9,12-15,18-21,24-27,30-33,36-39,48-49H,4-5,10-11,16-17,22-23,28-29,34-35,40-46,52H2,1-3H3,(H,56,57)/b8-6-,9-7-,14-12-,15-13-,20-18-,21-19-,26-24-,27-25-,32-30-,33-31-,38-36-,39-37-
+CH$LINK: INCHIKEY ARONXAQUMBWVBY-YVRWGPLWSA-N
+SP$SCIENTIFIC_NAME: Mus musculus
+SP$LINEAGE: cellular organisms; Eukaryota; Fungi/Metazoa group; Metazoa; Eumetazoa; Bilateria; Coelomata; Deuterostomia; Chordata; Craniata; Vertebrata; Gnathostomata; Teleostomi; Euteleostomi; Sarcopterygii; Tetrapoda; Amniota; Mammalia; Theria; Eutheria; Euarchontoglires; Glires; Rodentia; Sciurognathi; Muroidea; Muridae; Murinae; Mus
+SP$LINK: NCBI-TAXONOMY 10090
+SP$SAMPLE: brain
+AC$INSTRUMENT: LC-10ADVPmicro HPLC, Shimadzu; LTQ Orbitrap, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS3
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30%
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3500 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME Develosil C30, Nomura Chemical
+AC$CHROMATOGRAPHY: FLOW_GRADIENT  add 95/5 at 0 min, 70/30 at 40 min, 50/50 at 41 min, 50/50 at 90 min
+AC$CHROMATOGRAPHY: FLOW_RATE  add 100 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.79 min (in paper: 9.4 min)
+AC$CHROMATOGRAPHY: SOLVENT A acetonitrile-methanol-water (19:19:2) with 0.1% acetic acid and 0.1% ammonium hydroxide (28%)
+AC$CHROMATOGRAPHY: SOLVENT B 2-propanol with 0.1% acetic acid and 0.1% ammonium hydroxide (28%)
+MS$FOCUSED_ION: PRECURSOR_M/Z 878.50/791.00
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-/[M-C3H6NO2]-
+MS$DATA_PROCESSING: WHOLE Xcalibur ver-2.0
+PK$SPLASH: splash10-03di-0001900000-d8ec45a0e46f383d90b3
+PK$ANNOTATION: m/z num type mass error(ppm) formula
+  283.01 1 [fa(22:6)-H-CO2]- 283.2425759951 -820 C21H31-
+  327.11 1 [fa(22:6)-H]- 327.2324052393 -373 C22H31O2-
+  463.50 2 [lyso_PS(-,22:6)-H2O]- 463.2249503982 594 C25H36O6P-
+  463.50 2 [lyso_PS(22:6,-)-H2O]- 463.2249503982 594 C25H36O6P-
+  481.14 2 [lyso_PS(-,22:6)]- 481.2355150845 -197 C25H38O7P-
+  481.14 2 [lyso_PS(22:6,-)]- 481.2355150845 -197 C25H38O7P-
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  229.35 4.3 5
+  283.01 52.2 59
+  327.11 164.9 188
+  462.86 877.2 999
+  463.50 1.6 2
+  481.14 232.6 265
+//

@@ -1,0 +1,48 @@
+ACCESSION: MSBNK-Literature_Specs-LIT00011
+RECORD_TITLE: C18EOx; LC-APCI-Q; MS; [M+H]+
+DATE: 2016.02.03 (Created 2013.01.31)
+AUTHORS: E. Schymanski; retrieved from M. Castillo et al. 2000
+LICENSE: CC0
+COPYRIGHT: Copyright (C) Elsevier Ltd. 2000
+PUBLICATION: Castillo, M.; Riu, J.; Ventura, F.; Boleda, R.; Scheding, R.; Schröder, H. F.; Nistor, C.; Émneus, J.; Eichhorn, P.; Knepper, T. .; et al. Inter-Laboratory Comparison of Liquid Chromatographic Techniques and Enzyme-Linked Immunosorbent Assay for the Determination of Surfactants in Wastewaters. Journal of Chromatography A 2000, 889 (1–2), 195–209. DOI:10.1016/s0021-9673(00)00398-8
+COMMENT: Literature spectrum
+COMMENT: CONFIDENCE Tentative identification: isomers possible (Level 3)
+COMMENT: Structure is C18EO2 - spectrum includes x>2
+COMMENT: Digitised from figure: approximate intensities
+CH$NAME: C18EOx
+CH$NAME: C18EO2
+CH$NAME: C18-alcohol polyethoxylate
+CH$NAME: C18AEO2
+CH$NAME: 2-{2-[2-(Octadecyloxy)ethoxy]ethoxy}ethanol
+CH$COMPOUND_CLASS: N/A; Surfactant
+CH$FORMULA: C24H50O4
+CH$EXACT_MASS: 402.3709
+CH$SMILES: OCCOCCOCCOCCCCCCCCCCCCCCCCCC
+CH$IUPAC: InChI=1S/C24H50O4/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-19-26-21-23-28-24-22-27-20-18-25/h25H,2-24H2,1H3
+CH$LINK: INCHIKEY KPRFGGDCSHOVQB-UHFFFAOYSA-N
+CH$LINK: CAS 4439-32-1
+CH$LINK: CHEMSPIDER 3383667
+CH$LINK: PUBCHEM CID:4172276
+CH$LINK: COMPTOX DTXSID60891638
+AC$INSTRUMENT: VG Platform
+AC$INSTRUMENT_TYPE: LC-APCI-Q
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION APCI
+MS$DATA_PROCESSING: WHOLE Hand-digitised from figures
+PK$SPLASH: splash10-000x-6900320000-e0a2405c76423caa6a1c
+PK$NUM_PEAK: 12
+PK$PEAK: m/z int. rel.int.
+  90 100 999
+  133 60 600
+  151 35 350
+  177 15 150
+  195 30 300
+  239 10 100
+  403 10 100
+  447 20 200
+  491 25 250
+  535 20 200
+  580 15 150
+  624 5 50
+//

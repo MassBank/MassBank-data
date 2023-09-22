@@ -1,0 +1,37 @@
+ACCESSION: MSBNK-MSSJ-MSJ02113
+RECORD_TITLE: tert-butyl((4-methyl-5-(pentylthio)pentyl)oxy)diphenylsilane; GC-FI-TOF; MS; POSITIVE; FI; 10 kV
+DATE: 2023.03.27
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Yong Luo, Yuanhong Ma, Zhaomin Hou. alpha-C-H Alkylation of Methyl Sulfides with Alkenes by a Scandium Catalyst. J. Am. Chem. Soc. 2018, 140, 114-117. DOI: 10.1021/jacs.7b11245
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 22HP8019 to the Mass Spectrometry Society of Japan.
+COMMENT: Original ID of the mass spectral data was 3j_fi.xlsx.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the GC-transfer line was 250 C. Resolving power (FWHM, nominal) was 7000.
+COMMENT: FI voltage was 10 kV. Typical accuracy level expected was 10 ppm. Postrun m/z adjustment with known mass was 385.20214.
+CH$NAME: tert-butyl((4-methyl-5-(pentylthio)pentyl)oxy)diphenylsilane
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C27H42OSSi
+CH$EXACT_MASS: 442.27256
+CH$SMILES: CCCCCSCC(C)CCCO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C
+CH$IUPAC: InChI=1S/C27H42OSSi/c1-6-7-14-22-29-23-24(2)16-15-21-28-30(27(3,4)5,25-17-10-8-11-18-25)26-19-12-9-13-20-26/h8-13,17-20,24H,6-7,14-16,21-23H2,1-5H3
+CH$LINK: INCHIKEY GVEGAFJMVIOKHS-UHFFFAOYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min.
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 30x0.32 0.25um 19091J-413, length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temp. for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 13.08 min.
+PK$SPLASH: splash10-000i-0009000000-09a0e76128901457906c
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  57.072 5.0376 50
+  385.202 100 999
+  386.205 31.8705 318
+  387.202 12.0238 120
+  388.203 2.9729 30
+//

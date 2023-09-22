@@ -1,0 +1,37 @@
+ACCESSION: MSBNK-MSSJ-MSJ02164
+RECORD_TITLE: Tolylbiguanide; ESI-QTOF; MS2; ESI; POSITIVE; [M+H]+; CE 20 V
+DATE: 2021.10.06
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 22HP8019 to the Mass Spectrometry Society of Japan.
+COMMENT: The sample was injected by direct infusion.
+CH$NAME: Tolylbiguanide
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C9H13N5
+CH$EXACT_MASS: 191.11708
+CH$SMILES: Cc1ccccc1NC(=N)NC(=N)N
+CH$IUPAC: InChI=1S/C9H13N5/c1-6-4-2-3-5-7(6)13-9(12)14-8(10)11/h2-5H,1H3,(H6,10,11,12,13,14)
+CH$LINK: CAS 93-69-6
+CH$LINK: CHEMSPIDER 6888
+CH$LINK: INCHIKEY SQZCAOHYQSOZCE-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:7155
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, USA)
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+MS$FOCUSED_ION: PRECURSOR_M/Z 192.12435
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-03dl-9500000000-ac58c8a5d572baf5cd2e
+PK$ANNOTATION: m/z rel.int. formula exact_mass error(ppm) SMILES_of_ion HR_rules
+  60.0553 999 [CH5N3+H]+ 60.055624 0(5.39) N=C(N)N True
+  133.0767 121 [C8H10N2-H]+ 133.076023 0.001(5.09) N=CNC=1C=CC=CC1C True
+  192.1242 500 [C9H13N5+H]+ 192.124372 0(0.9) N=C(N)NC(=N)NC=1C=CC=CC1C True
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  60.0553 100 999
+  133.0767 12.1615 121
+  192.1242 50.0219 500
+//

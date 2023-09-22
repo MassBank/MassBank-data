@@ -1,0 +1,44 @@
+ACCESSION: MSBNK-Nihon_Univ-NU000568
+RECORD_TITLE: (5a,6b)-6-Hydroxycholan-24-oic acid; LC-ESI-TOF; MS; NEGATIVE; In source decay -90 V
+DATE: 2018.02.20
+AUTHORS: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+LICENSE: CC BY
+COPYRIGHT: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+COMMENT: BA-94-90. In-source decay
+COMMENT: 1 microL of the bile acid in MeOH solution was flow injected. Sampling interval was 1 Hz.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 17HP8021 (2017) to the MassBank database committee of the Mass Spectrometry Society of Japan.
+CH$NAME: (5a,6b)-6-Hydroxycholan-24-oic acid
+CH$COMPOUND_CLASS: Natural Product; Bile acids
+CH$FORMULA: C24H40O3
+CH$EXACT_MASS: 376.29775
+CH$SMILES: O=C(O)CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3C[C@@H](O)[C@H]4CCCC[C@]4(C)[C@H]3CC[C@]12C
+CH$IUPAC: InChI=1S/C24H40O3/c1-15(7-10-22(26)27)17-8-9-18-16-14-21(25)20-6-4-5-12-23(20,2)19(16)11-13-24(17,18)3/h15-21,25H,4-14H2,1-3H3,(H,26,27)/t15-,16+,17-,18+,19+,20-,21-,23-,24-/m1/s1
+CH$LINK: CHEMSPIDER 4446895
+CH$LINK: INCHIKEY AOZMFMMOEOBOTA-YULDWDGFSA-N
+CH$LINK: LIPIDBANK BBA0010
+CH$LINK: PUBCHEM CID:5283807
+AC$INSTRUMENT: JMS-T100LP, JEOL
+AC$INSTRUMENT_TYPE: LC-ESI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: ORIFICE_TEMPERATURE 80 C
+AC$MASS_SPECTROMETRY: ORIFICE_VOLTAGE -90 V
+AC$MASS_SPECTROMETRY: SCAN_RANGE_M/Z 100-1000
+PK$SPLASH: splash10-004i-1009000000-c801ee7bea972df2cb36
+PK$NUM_PEAK: 13
+PK$PEAK: m/z int. rel.int.
+  61.99 27 270
+  311.17 7 65
+  325.19 9 85
+  339.20 7 74
+  375.28 100 999
+  376.29 30 299
+  377.30 3 27
+  407.32 3 32
+  433.26 3 25
+  751.60 3 32
+  752.61 2 22
+  773.56 5 54
+  774.57 3 32
+//

@@ -1,0 +1,41 @@
+ACCESSION: MSBNK-MSSJ-MSJ02040
+RECORD_TITLE: (2S,3R)-(+)-Methyl syn-2,3-dihydroxyoctanoate; GC-FI-TOF; MS; positive; FI; 10 kV
+DATE: 2022.02.21
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Mori K, Osada K, Amaike M. Tetrahedron: Asymmetry. 2015 August 31; 26(15-16):861-867. doi:10.1016/j.tetasy.2015.06.011.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the ion-source and GC-transfer line were - and 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: Field ionization (FI) voltage, which is defined as the voltage between the emitter surface and the electrode, was 10 kV (default). Typical accuracy level expected was 10 ppm. Postrun m/z adjustment was made at a known mass, 191.1283.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 21HP8020 to the Mass Spectrometry Society of Japan.
+CH$NAME: (2S,3R)-(+)-Methyl syn-2,3-dihydroxyoctanoate
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C9H18O4
+CH$EXACT_MASS: 190.12051
+CH$SMILES: O[C@H](CCCCC)[C@H](O)C(=O)OC
+CH$IUPAC: InChI=1S/C9H18O4/c1-3-4-5-6-7(10)8(11)9(12)13-2/h7-8,10-11H,3-6H2,1-2H3/t7-,8+/m1/s1
+CH$LINK: CHEMSPIDER 110567630
+CH$LINK: INCHIKEY FLIBQUYKZOKSLL-SFYZADRCSA-N
+CH$LINK: PUBCHEM CID:129322515
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min.
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temp. for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 210 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.54 min.
+PK$SPLASH: splash10-0udi-2900000000-fd8dcc1788977dbf0c0c
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  83.085 4.1809 42
+  89.025 25.2138 252
+  90.031 12.0529 120
+  101.097 100 999
+  102.1 6.4141 64
+  190.122 4.1149 41
+  191.128 26.1602 261
+  192.129 3.8277 38
+//

@@ -1,0 +1,37 @@
+ACCESSION: MSBNK-MSSJ-MSJ00598
+RECORD_TITLE: 3-((tert-Butyldimethylsilyl)oxy)-2,2-dimethylpropanal; GC-FI-TOF; MS; positive; FI; 10 kV
+DATE: 2021.03.26
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori, Tetrahedron 75 (2019) 3387-3398, DOI:10.1016/j.tet.2019.04.055.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the GC-transfer line was 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: Field ionization (FI) voltage, which is defined as the voltage between the emitter surface and the electrode, was 10 kV (default). Typical accuracy level expected was 10 ppm. Postrun m/z adjustment was made at a known mass, 159.08413.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: 3-((tert-Butyldimethylsilyl)oxy)-2,2-dimethylpropanal
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C11H24O2Si
+CH$EXACT_MASS: 216.15456
+CH$SMILES: CC(C)(C)[Si](C)(C)OCC(C)(C)C=O
+CH$IUPAC: InChI=1S/C11H24O2Si/c1-10(2,3)14(6,7)13-9-11(4,5)8-12/h8H,9H2,1-7H3
+CH$LINK: CAS 144681-67-4
+CH$LINK: CHEMSPIDER 8831730
+CH$LINK: INCHIKEY PLPBSUJOMPJZJF-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:10656375
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temp. for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.64 min.
+PK$SPLASH: splash10-0a4i-0900000000-3f6d229f1a41be5992ca
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  159.084 100 999
+  160.086 12.87 129
+  161.083 4.65 46
+//

@@ -1,0 +1,44 @@
+ACCESSION: MSBNK-Nihon_Univ-NU000661
+RECORD_TITLE: 7-Oxo-5b-cholanic acid; LC-ESI-TOF; MS; NEGATIVE; in source decay -30 V
+DATE: 2018.02.21
+AUTHORS: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+LICENSE: CC BY
+COPYRIGHT: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+COMMENT: BA-113-30. In-source decay
+COMMENT: 1 microL of the bile acid in MeOH solution was flow injected. Sampling interval was 1 Hz.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 17HP8021 (2017) to the MassBank database committee of the Mass Spectrometry Society of Japan.
+CH$NAME: 7-Oxo-5b-cholanic acid
+CH$NAME: 7-Oxo-5b-cholan-24-oic Acid
+CH$COMPOUND_CLASS: Natural Product; Bile acids
+CH$FORMULA: C24H38O3
+CH$EXACT_MASS: 374.28210
+CH$SMILES: C(C1(C)4)([H])(C(C)CCC(O)=O)CCC1(C(C3([H])CC4)([H])C(=O)CC(C3(C)2)([H])CCCC2)[H]
+CH$IUPAC: InChI=1S/C24H38O3/c1-15(7-10-21(26)27)17-8-9-18-22-19(11-13-24(17,18)3)23(2)12-5-4-6-16(23)14-20(22)25/h15-19,22H,4-14H2,1-3H3,(H,26,27)/t15-,16+,17-,18+,19+,22+,23+,24-/m1/s1
+CH$LINK: CHEMSPIDER 4446998
+CH$LINK: INCHIKEY ZKGCEXPUCJDWMB-ZRDLOGARSA-N
+CH$LINK: LIPIDBANK BBA0131
+CH$LINK: PUBCHEM CID:5283910
+AC$INSTRUMENT: JMS-T100LP, JEOL
+AC$INSTRUMENT_TYPE: LC-ESI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: ORIFICE_TEMPERATURE 80 C
+AC$MASS_SPECTROMETRY: ORIFICE_VOLTAGE -30 V
+AC$MASS_SPECTROMETRY: SCAN_RANGE_M/Z 100-1000
+PK$SPLASH: splash10-03di-5900000000-7f9850d5ac7efea8156e
+PK$NUM_PEAK: 12
+PK$PEAK: m/z int. rel.int.
+  59.01 2 21
+  61.98 6 64
+  68.99 34 335
+  75.00 5 48
+  89.02 13 134
+  112.98 100 999
+  113.99 3 26
+  212.07 5 54
+  226.98 3 32
+  248.96 3 34
+  373.28 7 69
+  419.28 3 25
+//

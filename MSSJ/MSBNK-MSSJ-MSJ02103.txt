@@ -1,0 +1,91 @@
+ACCESSION: MSBNK-MSSJ-MSJ02103
+RECORD_TITLE: 2-(octan-2-yl)tetrahydrothiophene; GC-EI-TOF; MS; POSITIVE; EI; 70 V
+DATE: 2023.03.27
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Yong Luo, Yuanhong Ma, Zhaomin Hou. alpha-C-H Alkylation of Methyl Sulfides with Alkenes by a Scandium Catalyst. J. Am. Chem. Soc. 2018, 140, 114-117. DOI: 10.1021/jacs.7b11245
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 22HP8019 to the Mass Spectrometry Society of Japan.
+COMMENT: Original ID of the mass spectral data was 3ac_i1_ei.xlsx.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the ion-source and GC-transfer line were 200 C and 250 C, respectively. Resolving power (FWHM, nominal) was 7000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. Postrun m/z adjustment with known mass was 200.15987.
+CH$NAME: 2-(octan-2-yl)tetrahydrothiophene
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C12H24S
+CH$EXACT_MASS: 200.15987
+CH$SMILES: CCCCCCC(C)C1CCCS1
+CH$IUPAC: InChI=1S/C12H24S/c1-3-4-5-6-8-11(2)12-9-7-10-13-12/h11-12H,3-10H2,1-2H3
+CH$LINK: INCHIKEY UROCQDUXGMFHNO-UHFFFAOYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min.
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 30x0.32 0.25um 19091J-413, length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temp. for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.63 min.
+PK$SPLASH: splash10-000i-9000000000-15c52550f2574e5c45af
+PK$NUM_PEAK: 59
+PK$PEAK: m/z int. rel.int.
+  27.024 2.0386 20
+  28.006 1.2502 12
+  28.031 0.3042 3
+  29.039 3.4914 35
+  31.99 0.7263 7
+  39.024 1.7412 17
+  40.031 0.2462 2
+  41.04 7.6114 76
+  42.046 0.8295 8
+  43.055 3.3096 33
+  44.98 3.6252 36
+  45.987 0.237 2
+  46.996 1.5779 16
+  53.04 2.2722 23
+  54.047 0.4745 5
+  55.055 5.2055 52
+  56.062 0.6838 7
+  57.071 0.9303 9
+  57.988 0.3493 3
+  58.996 1.6664 17
+  60.004 1.0552 11
+  61.011 0.7773 8
+  65.039 0.399 4
+  67.055 1.7365 17
+  68.062 0.3637 4
+  69.071 1.521 15
+  70.078 0.3655 4
+  70.996 0.2695 3
+  71.087 0.2964 3
+  73.012 0.6496 6
+  74.019 0.3269 3
+  77.04 0.4032 4
+  79.055 0.7181 7
+  81.071 1.3895 14
+  82.077 0.2798 3
+  83.086 0.4037 4
+  85.012 2.2453 22
+  86.019 5.3705 54
+  87.027 100 999
+  87.488 0.2677 3
+  87.805 0.1652 2
+  88.033 8.8792 89
+  88.501 0.1148 1
+  89.023 4.3004 43
+  90.029 0.3626 4
+  91.055 0.7459 7
+  95.086 0.4622 5
+  101.043 0.7624 8
+  115.058 2.3924 24
+  116.063 0.3533 4
+  117.07 0.3436 3
+  129.073 0.2449 2
+  143.09 2.1501 21
+  144.094 0.2449 2
+  157.105 2.1089 21
+  158.108 0.2449 2
+  200.16 7.4117 74
+  201.163 1.0167 10
+  202.158 0.3605 4
+//

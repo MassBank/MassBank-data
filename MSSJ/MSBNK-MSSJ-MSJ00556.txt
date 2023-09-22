@@ -1,0 +1,90 @@
+ACCESSION: MSBNK-MSSJ-MSJ00556
+RECORD_TITLE: (3RS,6R)-8-Benzyloxy-2,6-dimethyloctane-2,3-diol; GC-FI-TOF; MS; positive; FI; 10 kV
+DATE: 2021.03.25
+AUTHORS: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori and Kazuaki Akasaka, Tetrahedron 71 (2015) 4102-4115, DOI:10.1016/j.tet.2015.04.107.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the GC-transfer line was 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: Field ionization (FI) voltage, which is defined as the voltage between the emitter surface and the electrode, was 10 kV (default). Typical accuracy level expected was 10 ppm. Postrun m/z adjustment was made at a known mass, 280.20384.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: (3RS,6R)-8-Benzyloxy-2,6-dimethyloctane-2,3-diol
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C17H28O3
+CH$EXACT_MASS: 280.20385
+CH$SMILES: CC(C)(O)C(O)CC[C@@H](C)CCOCC1=CC=CC=C1
+CH$IUPAC: InChI=1S/C17H28O3/c1-14(9-10-16(18)17(2,3)19)11-12-20-13-15-7-5-4-6-8-15/h4-8,14,16,18-19H,9-13H2,1-3H3/t14-,16?/m1/s1
+CH$LINK: INCHIKEY NJRDIELQHYUDCO-IURRXHLWSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temp. for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 10.5 min.
+PK$SPLASH: splash10-08fr-5190000000-2cf2246d6bc58db63a61
+PK$NUM_PEAK: 59
+PK$PEAK: m/z int. rel.int.
+  31.018 0.28 3
+  44.026 0.45 4
+  57.034 0.27 3
+  58.042 2.39 24
+  59.050 100.00 999
+  59.325 0.22 2
+  59.432 0.28 3
+  59.685 0.20 2
+  59.919 0.12 1
+  59.966 0.14 1
+  60.005 0.15 1
+  60.053 3.42 34
+  89.060 1.18 12
+  91.055 6.63 66
+  91.111 0.13 1
+  92.059 0.71 7
+  101.572 1.15 11
+  110.577 3.58 36
+  111.080 0.81 8
+  113.098 0.64 6
+  131.099 1.45 14
+  131.599 1.01 10
+  132.101 0.16 2
+  132.589 0.26 3
+  138.143 0.50 5
+  140.105 0.19 2
+  154.140 0.43 4
+  155.145 3.78 38
+  156.154 4.55 45
+  157.157 0.71 7
+  171.140 1.15 11
+  173.155 0.21 2
+  186.143 0.34 3
+  191.146 0.30 3
+  219.139 0.74 7
+  220.146 0.47 5
+  221.153 22.82 228
+  222.158 4.16 42
+  222.320 0.13 1
+  223.161 0.44 4
+  226.174 0.23 2
+  244.181 4.19 42
+  245.187 0.81 8
+  246.862 0.16 2
+  247.168 0.62 6
+  248.180 0.16 2
+  262.192 97.60 975
+  262.955 0.37 4
+  263.196 19.50 195
+  264.200 2.41 24
+  264.886 0.67 7
+  265.185 0.35 3
+  265.893 0.15 1
+  279.198 3.14 31
+  280.204 13.88 139
+  281.212 7.60 76
+  282.215 1.40 14
+  283.217 0.19 2
+  336.214 0.13 1
+//

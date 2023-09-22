@@ -1,0 +1,45 @@
+ACCESSION: MSBNK-UoB-XB000502
+RECORD_TITLE: acetaminophen_BTP_M3; LC-ESI-FT; MS2; CE: 25,60,100%; R=17500; [M+H]+
+DATE: 2023.05.03
+AUTHORS: Tara J. Bowen, University of Birmingham
+LICENSE: CC BY
+PUBLICATION: Bowen, T.J.; Southam, A.D.; Hall, A.R.; Weber, R.J.M.; Lloyd, G.R.; Macdonald, R.; Wilson, A.; Pointon, A.; Viant, M.R. Simultaneously discovering the fate and biochemical effects of xenobiotics through untargeted metabolomics. Nat. Commun. (under review)
+COMMENT: CONFIDENCE Probable structure by library spectrum match (Level 2a)
+COMMENT: INTERNAL_ID 8210
+CH$NAME: acetaminophen_BTP_M3
+CH$NAME: p-Acetamidophenylglucuronide
+CH$NAME: 6-(4-acetamidophenoxy)-3,4,5-trihydroxyoxane-2-carboxylic acid
+CH$COMPOUND_CLASS: N/A; Biotransformation product
+CH$FORMULA: C14H17NO8
+CH$EXACT_MASS: 327.0954
+CH$SMILES: CC(=O)NC1=CC=C(C=C1)OC2C(C(C(C(O2)C(=O)O)O)O)O
+CH$IUPAC: InChI=1S/C14H17NO8/c1-6(16)15-7-2-4-8(5-3-7)22-14-11(19)9(17)10(18)12(23-14)13(20)21/h2-5,9-12,14,17-19H,1H3,(H,15,16)(H,20,21)
+CH$LINK: CAS 16110-10-4
+CH$LINK: PUBCHEM CID:4022661
+CH$LINK: INCHIKEY IPROLSVTVHAQLE-UHFFFAOYSA-N
+CH$LINK: CHEMSPIDER 3239926
+AC$INSTRUMENT: Dionex Ultimate 3000 UHPLC Thermo Scientific; Q Exactive Focus Orbitrap MS Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-FT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 25,60,100% (stepped)
+AC$MASS_SPECTROMETRY: RESOLUTION 17500
+AC$CHROMATOGRAPHY: COLUMN_NAME Accucore 150 Amide, 2.6um, 2.1x100mm, Thermo Scientific
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 99/1 at 0 min, 99/1 at 1 min, 85:15 at 3 min, 50/50 at 6 min, 5/95 at 9 min, 5/95 at 10 min, 99/1 at 10.5 min, 99/1 at 15 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.117 min
+MS$FOCUSED_ION: BASE_PEAK 328.1026
+MS$FOCUSED_ION: PRECURSOR_M/Z 328.1027
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 3.4.0
+PK$SPLASH: splash10-0udi-0900000000-00ad05f28905520632a9
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  152.0706 C8H10NO2+ 1 152.0706 -0.24
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  152.0706 52745.9 999
+//

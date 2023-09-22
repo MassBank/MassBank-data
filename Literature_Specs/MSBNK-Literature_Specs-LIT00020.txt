@@ -1,0 +1,56 @@
+ACCESSION: MSBNK-Literature_Specs-LIT00020
+RECORD_TITLE: 1COOH-2But-A7EO3; LC-ESI-Q; MS2; 30 V; [M+H]+
+DATE: 2016.02.03 (Created 2013.04.15)
+AUTHORS: E. Schymanski; retrieved from A. Di Corcia et al. 1998
+LICENSE: CC0
+COPYRIGHT: Copyright (C) American Chemical Society 1998
+PUBLICATION: Corcia, A. D.; Crescenzi, C.; Marcomini, A.; Samperi, R. Liquid Chromatography- Electrospray-Mass Spectrometry as a Valuable Tool for Characterizing Biodegradation Intermediates of Branched Alcohol Ethoxylate Surfactants. Environmental Science & Technology 1998, 32 (5), 711–8. DOI:10.1021/es970616x
+COMMENT: Literature spectrum
+COMMENT: CONFIDENCE Tentative identification: isomers possible (Level 3)
+COMMENT: Could be alkyl homologue of given structure
+COMMENT: Digitised from figure: approximate intensities
+CH$NAME: 1COOH-2But-A7EO3
+CH$NAME: 1-Carboxyl-2-butyl-A7EO3
+CH$NAME: 3-({2-[2-(2-hydroxyethoxy)ethoxy]ethoxy}methyl)heptanoic acid
+CH$COMPOUND_CLASS: N/A; Surfactant
+CH$FORMULA: C14H28O6
+CH$EXACT_MASS: 292.1886
+CH$SMILES: OCCOCCOCCOCC(CC(=O)O)CCCC
+CH$IUPAC: InChI=1S/C14H28O6/c1-2-3-4-13(11-14(16)17)12-20-10-9-19-8-7-18-6-5-15/h13,15H,2-12H2,1H3,(H,16,17)
+CH$LINK: INCHIKEY JHOXVFIHEZNGJK-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID90891646
+CH$LINK: PUBCHEM CID:137628421
+AC$INSTRUMENT: Fisons VG Platform
+AC$INSTRUMENT_TYPE: LC-ESI-Q
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+MS$FOCUSED_ION: BASE_PEAK 293.1959
+MS$FOCUSED_ION: PRECURSOR_M/Z 293.1959
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: WHOLE Hand-digitised from figures
+PK$SPLASH: splash10-003i-9841000000-16cd9580e3af3d29cebc
+PK$ANNOTATION: m/z formula putative_smiles
+  45 C2H5O+ [CH2+]CO
+  45 CHO2+ O=[C+]O
+  89 C4H9O2+ [CH2+]COCCO
+  133 C6H13O3+ OCCOCCOC[CH2+]
+  275 C14H27O5+ O=C(O)CC(CCCC)COCCOCCOC[CH2+]
+  293 C14H29O6+ OCCOCCOCCOCC(CC(=[OH+])O)CCCC
+  315 C14H28O6Na+ [M+Na]+
+  331 C14H28O6K+ [M+K]+
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  45 35 350
+  89 100 999
+  125 5 50
+  133 95 950
+  143 10 100
+  169 10 100
+  275 50 500
+  293 15 150
+  315 15 150
+  331 5 50
+//

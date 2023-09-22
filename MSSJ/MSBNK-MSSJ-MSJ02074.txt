@@ -1,0 +1,89 @@
+ACCESSION: MSBNK-MSSJ-MSJ02074
+RECORD_TITLE: (S)-Octa-1,7-dien-4-ol; GC-EI-TOF; MS; positive; EI; 70 V
+DATE: 2022.01.13
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN.
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Takahashi K, Satoh D, Hayashi M, Takahashi K, Yamaguchi K, Nakamura T, and Koshino H, J. Org, Chem., 2016, 81, 11222-11234; DOI:10.1021/acs.joc.6b02187.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (refTOF) mass spectrometer. Temperatures of the ion-source and GC-transfer line were 250 and 250 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. Postrun m/z adjustment with known mass was 85.06534.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 21HP8020 to the Mass Spectrometry Society of Japan.
+CH$NAME: (S)-Octa-1,7-dien-4-ol
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C8H14O
+CH$EXACT_MASS: 126.10447
+CH$SMILES: C=CC[C@@H](O)CCC=C
+CH$IUPAC: InChI=1S/C8H14O/c1-3-5-7-8(9)6-4-2/h3-4,8-9H,1-2,5-7H2/t8-/m1/s1
+CH$LINK: CHEMSPIDER 61030948
+CH$LINK: INCHIKEY CSMNOWAUXWKQLC-MRVPVSSYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 mL/min
+AC$CHROMATOGRAPHY: COLUMN_NAME ZB-1MS 7HM-G011-11 sn:313446 (Agilent, Wilmington, USA), length 30 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temp. for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.02 min.
+PK$SPLASH: splash10-000f-9000000000-6a4bcf463a737fa4d597
+PK$NUM_PEAK: 57
+PK$PEAK: m/z int. rel.int.
+  26.016 1.1996 12
+  27.023 18.8203 188
+  28.006 1.9833 20
+  28.031 3.8056 38
+  29.003 5.7372 57
+  29.039 31.344 313
+  29.082 0.3552 4
+  30.043 0.7825 8
+  31.018 8.1761 82
+  31.99 1.178 12
+  38.016 1.5135 15
+  39.024 37.3555 373
+  39.075 0.4072 4
+  40.03 3.9352 39
+  41.039 100 999
+  41.09 0.9603 10
+  41.325 0.2658 3
+  42.011 2.4231 24
+  42.045 7.8829 79
+  43.018 35.4032 354
+  43.055 14.2878 143
+  44.026 4.5274 45
+  44.058 0.544 5
+  45.034 1.1942 12
+  50.016 0.9361 9
+  51.024 2.5527 26
+  52.031 1.0747 11
+  53.039 6.6089 66
+  54.047 5.1815 52
+  55.018 5.7592 58
+  55.055 30.5783 305
+  55.115 0.3703 4
+  56.026 2.727 27
+  56.062 5.8239 58
+  57.034 8.0982 81
+  57.07 27.5464 275
+  58.039 0.5009 5
+  58.074 1.2139 12
+  65.039 3.4045 34
+  66.046 1.4668 15
+  67.055 70.8276 708
+  67.122 0.74 7
+  68.058 3.9854 40
+  69.034 2.97 30
+  70.041 0.8973 9
+  71.05 5.4643 55
+  77.039 1.1735 12
+  79.055 2.1791 22
+  80.062 1.1091 11
+  82.078 0.641 6
+  83.05 5.2006 52
+  84.057 4.7111 47
+  85.065 51.8779 518
+  85.194 0.3303 3
+  86.069 2.8107 28
+  91.055 0.6515 7
+  93.07 1.9425 19
+//

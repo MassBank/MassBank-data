@@ -1,0 +1,127 @@
+ACCESSION: MSBNK-MSSJ-MSJ00618
+RECORD_TITLE: (6S)-2,6-Dimethyl-2-decene; GC-EI-TOF; MS; positive; EI; 70 V
+DATE: 2021.02.28
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori and Kazuaki Akasaka, Tetrahedron: Asymmetry 27 (2016) 182-187, DOI:10.1016/j.tetasy.2016.01.014.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (refTOF) mass spectrometer. Temperatures of the ion source and GC-transfer line were 200 C and 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. Postrun m/z adjustment with known mass was 168.1878.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: (6S)-2,6-Dimethyl-2-decene
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C12H24
+CH$EXACT_MASS: 168.18780
+CH$SMILES: CCCC[C@H](C)CCC=C(C)C
+CH$IUPAC: InChI=1S/C12H24/c1-5-6-9-12(4)10-7-8-11(2)3/h8,12H,5-7,9-10H2,1-4H3/t12-/m0/s1
+CH$LINK: CHEMSPIDER 9129153
+CH$LINK: INCHIKEY YRZOHUILUXHAJX-LBPRGKRZSA-N
+CH$LINK: PUBCHEM CID:10953936
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temp. for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.38 min.
+PK$SPLASH: splash10-0aou-9000000000-e5db8b52a01eb0f97e1e
+PK$NUM_PEAK: 94
+PK$PEAK: m/z int. rel.int.
+  27.023 10 100
+  27.066 0.11 1
+  28.006 1.19 12
+  28.031 1.48 15
+  29.039 16.8 168
+  29.083 0.17 2
+  30.043 0.37 4
+  31.99 0.67 7
+  39.024 10.66 107
+  39.076 0.14 1
+  40.031 2.41 24
+  41.039 73.61 735
+  41.091 0.67 7
+  41.165 0.15 2
+  41.322 0.19 2
+  41.355 0.21 2
+  41.569 0.12 1
+  42.046 7.75 77
+  43.055 49.05 490
+  43.08 0.37 4
+  43.108 0.45 5
+  43.321 0.1 1
+  43.347 0.12 1
+  44.058 1.68 17
+  51.024 0.92 9
+  52.031 0.59 6
+  53.039 8.68 87
+  54.047 3.14 31
+  55.055 43.35 433
+  55.114 0.42 4
+  55.388 0.11 1
+  56.063 70.3 702
+  56.091 0.51 5
+  56.124 0.63 6
+  56.393 0.14 1
+  56.431 0.19 2
+  56.672 0.11 1
+  57.070 44.79 447
+  57.132 0.42 4
+  57.218 0.13 1
+  58.074 1.8 18
+  65.039 1.65 16
+  66.047 0.69 7
+  67.055 12.75 127
+  67.122 0.14 1
+  68.062 7.35 73
+  69.070 100 999
+  69.138 0.92 9
+  69.436 0.22 2
+  69.48 0.27 3
+  69.757 0.18 2
+  70.078 58.37 583
+  70.143 0.61 6
+  70.378 0.19 2
+  70.432 0.19 2
+  70.490 0.18 2
+  70.749 0.14 1
+  71.084 5.72 57
+  71.124 0.11 1
+  72.088 0.24 2
+  77.039 1.34 13
+  78.046 0.24 2
+  79.055 1.65 16
+  80.061 0.33 3
+  81.070 2.38 24
+  82.078 4.01 40
+  83.086 19.34 193
+  83.160 0.24 2
+  83.214 0.11 1
+  84.094 13.73 137
+  84.163 0.18 2
+  85.101 6.04 60
+  86.105 0.31 3
+  91.055 0.67 7
+  93.070 0.41 4
+  95.086 1.77 18
+  96.092 0.3 3
+  97.102 3.39 34
+  98.109 7.6 76
+  99.116 1.85 19
+  109.102 0.45 5
+  110.109 0.65 7
+  111.117 12.18 122
+  111.195 0.16 2
+  112.124 3.47 35
+  113.129 0.27 3
+  125.133 0.49 5
+  126.141 8.03 80
+  126.224 0.12 1
+  127.145 0.91 9
+  140.156 0.46 5
+  168.188 22.93 229
+  169.191 2.88 29
+  170.194 0.22 2
+//

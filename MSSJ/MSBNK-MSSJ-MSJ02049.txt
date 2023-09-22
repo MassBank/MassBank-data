@@ -1,0 +1,109 @@
+ACCESSION: MSBNK-MSSJ-MSJ02049
+RECORD_TITLE: (2S,3R)-(-)-2,3-Epoxyoctanal; GC-EI-TOF; MS; positive; EI; 70 V
+DATE: 2022.02.23
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN.
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Mori K, Osada K, and Amaike M, Tetrahedron: Asymmetry, 26 (2015) 861-867; DOI:10.1016/j.tetasy.2015.06.011
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (refTOF) mass spectrometer. Temperatures of the ion-source and GC-transfer line were 200 and 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. Postrun m/z adjustment with known mass was 71.0133.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 21HP8020 to the Mass Spectrometry Society of Japan.
+CH$NAME: (2S,3R)-(-)-2,3-Epoxyoctanal
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C8H14O2
+CH$EXACT_MASS: 142.09938
+CH$SMILES: CCCCC[C@H]1O[C@@H]1C=O
+CH$IUPAC: InChI=1S/C8H14O2/c1-2-3-4-5-7-8(6-9)10-7/h6-8H,2-5H2,1H3/t7-,8-/m1/s1
+CH$LINK: CHEMSPIDER 4934671
+CH$LINK: INCHIKEY YWFUECKBUFORTA-HTQZYQBOSA-N
+CH$LINK: PUBCHEM CID:6429294
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 mL/min
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temp. for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 190 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.6 min.
+PK$SPLASH: splash10-00fu-9000000000-eb7010e98aa48c11f0eb
+PK$NUM_PEAK: 76
+PK$PEAK: m/z int. rel.int.
+  26.016 1.7 17
+  27.024 26.124 261
+  27.066 0.2535 3
+  27.098 0.1237 1
+  27.995 0.3954 4
+  28.031 4.7203 47
+  29.003 13.2418 132
+  29.039 24.4497 244
+  29.083 0.3019 3
+  30.01 0.8155 8
+  30.043 0.5251 5
+  31.019 3.5704 36
+  38.016 0.7277 7
+  39.024 18.5241 185
+  39.075 0.1959 2
+  40.031 2.2826 23
+  41.003 0.5338 5
+  41.039 41.7736 417
+  41.092 0.4095 4
+  41.325 0.1433 1
+  42.011 2.9222 29
+  42.046 4.5189 45
+  42.074 0.1134 1
+  43.019 4.6024 46
+  43.055 18.1454 181
+  43.108 0.2081 2
+  43.148 0.0977 1
+  44.026 0.9711 10
+  44.058 0.5556 6
+  45.034 1.054 11
+  50.016 0.4486 4
+  51.024 1.0591 11
+  52.031 0.4262 4
+  53.039 4.1933 42
+  54.046 0.8297 8
+  55.019 2.3859 24
+  55.055 15.5636 155
+  55.112 0.1776 2
+  56.026 0.3322 3
+  56.062 3.1913 32
+  57.034 12.5587 125
+  57.07 1.8485 18
+  58.04 0.7848 8
+  59.014 0.8252 8
+  59.049 0.1865 2
+  60.021 2.1026 21
+  65.04 0.5295 5
+  67.055 3.3773 34
+  68.026 0.2224 2
+  68.061 0.4317 4
+  68.998 0.4712 5
+  69.034 1.3226 13
+  69.07 6.8185 68
+  70.041 0.4417 4
+  70.075 0.5047 5
+  71.013 100 999
+  71.049 2.4279 24
+  71.429 0.2842 3
+  71.713 0.1796 2
+  72.017 3.1852 32
+  72.35 0.1122 1
+  73.021 0.4844 5
+  77.039 0.2994 3
+  79.055 0.3683 4
+  81.034 0.2092 2
+  81.07 0.5443 5
+  82.078 0.2496 2
+  83.05 0.406 4
+  83.086 0.9097 9
+  85.029 0.2078 2
+  86.037 0.5389 5
+  93.071 0.4232 4
+  95.086 3.4091 34
+  96.089 0.2594 3
+  99.045 0.4334 4
+  141.091 0.3917 4
+//

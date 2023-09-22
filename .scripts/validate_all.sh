@@ -1,3 +1,3 @@
 #!/bin/bash
-bash .scripts/validate.sh ./*
+bash .scripts/validate.sh -legacy ./*
 

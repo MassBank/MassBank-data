@@ -1,0 +1,115 @@
+ACCESSION: MSBNK-MSSJ-MSJ02037
+RECORD_TITLE: (2R,3S)-(-)-Methyl syn-2,3-dihydroxyoctanoate; GC-EI-TOF; MS; positive; EI; 70 V
+DATE: 2022.02.22
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN.
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN.
+PUBLICATION: Mori K, Osada K, Amaike M. Tetrahedron: Asymmetry. 2015 August 31;26(15-16):861-867. doi:10.1016/j.tetasy.2015.06.011
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (refTOF) mass spectrometer. Temperatures of the ion-source and GC-transfer line were 200 and 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. Postrun m/z adjustment with known mass was 131.1072;.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 21HP8020 to the Mass Spectrometry Society of Japan.
+CH$NAME: (2R,3S)-(-)-Methyl syn-2,3-dihydroxyoctanoate
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C9H18O4
+CH$EXACT_MASS: 190.12051
+CH$SMILES: O[C@@H](CCCCC)[C@@H](O)C(=O)OC
+CH$IUPAC: InChI=1S/C9H18O4/c1-3-4-5-6-7(10)8(11)9(12)13-2/h7-8,10-11H,3-6H2,1-2H3/t7-,8+/m0/s1
+CH$LINK: CHEMSPIDER 57585176
+CH$LINK: INCHIKEY FLIBQUYKZOKSLL-JGVFFNPUSA-N
+CH$LINK: PUBCHEM CID:129322496
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 mL/min
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temp. for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 190 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.55 min.
+PK$SPLASH: splash10-0006-9000000000-b77d9111588a5136aeef
+PK$NUM_PEAK: 82
+PK$PEAK: m/z int. rel.int.
+  26.016 0.2478 2
+  27.024 6.6281 66
+  27.995 0.284 3
+  28.031 1.3256 13
+  29.003 6.2332 62
+  29.04 10.2428 102
+  29.084 0.1504 2
+  30.011 1.0409 10
+  30.044 0.3034 3
+  31.019 4.9589 50
+  32.026 0.2683 3
+  33.034 10.0046 100
+  33.081 0.1332 1
+  39.024 3.8993 39
+  40.031 0.568 6
+  41.04 13.9137 139
+  41.09 0.1647 2
+  42.011 1.9795 20
+  42.046 1.1315 11
+  43.019 3.9687 40
+  43.055 6.2958 63
+  44.027 2.4106 24
+  44.059 0.2397 2
+  44.998 0.4378 4
+  45.034 2.4201 24
+  47.014 0.5122 5
+  51.024 0.1838 2
+  53.04 0.9561 10
+  54.047 0.2477 2
+  55.019 1.2578 13
+  55.055 14.4418 144
+  55.116 0.1661 2
+  56.026 0.4609 5
+  56.061 1.2188 12
+  57.034 4.0453 40
+  57.071 1.4332 14
+  58.006 2.7316 27
+  58.04 0.3252 3
+  59.014 3.5022 35
+  59.05 0.4219 4
+  60.021 3.8382 38
+  61.029 0.8095 8
+  62.037 0.7776 8
+  63.045 0.9253 9
+  65.039 0.1808 2
+  67.055 0.7643 8
+  68.062 0.1873 2
+  69.034 0.3126 3
+  69.071 1.8034 18
+  71.013 0.4234 4
+  71.05 0.4367 4
+  71.086 0.2864 3
+  73.029 1.1718 12
+  74.037 0.2599 3
+  75.008 3.1542 32
+  79.055 0.228 2
+  81.071 0.3032 3
+  83.05 0.3305 3
+  83.086 5.7897 58
+  84.09 0.396 4
+  87.045 0.265 3
+  89.025 0.276 3
+  90.032 100 999
+  90.109 0.9398 9
+  90.372 0.2268 2
+  90.499 0.2852 3
+  90.817 0.178 2
+  91.036 4.0624 41
+  91.546 0.1099 1
+  92.037 0.6045 6
+  93.07 0.2611 3
+  95.086 1.88 19
+  96.09 0.1736 2
+  97.065 0.1459 1
+  99.045 0.1683 2
+  101.06 0.1533 2
+  101.097 1.6417 16
+  113.097 0.2549 3
+  119.034 1.6645 17
+  131.107 1.9313 19
+  132.11 0.1698 2
+  146.041 0.1299 1
+//

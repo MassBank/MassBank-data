@@ -1,0 +1,153 @@
+ACCESSION: MSBNK-MSSJ-MSJ00666
+RECORD_TITLE: Methyl [(1S)-1,2-dimethyl-3-oxocyclopentyl]acetate; GC-EI-TOF; MS; positive; EI; 70 V
+DATE: 2021.02.28
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori and Jun Tabata, Tetrahedron 73 (2017) 6530-6541, DOI:10.1016/j.tet.2017.09.046.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (refTOF) mass spectrometer. Temperatures of the ion source and GC-transfer line were 200 C and 250 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. Postrun m/z adjustment with known mass was 184.10994.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: Methyl [(1S)-1,2-dimethyl-3-oxocyclopentyl]acetate
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C10H16O3
+CH$EXACT_MASS: 184.10994
+CH$SMILES: COC(=O)C[C@]1(C)CCC(=O)C1C
+CH$IUPAC: InChI=1S/C10H16O3/c1-7-8(11)4-5-10(7,2)6-9(12)13-3/h7H,4-6H2,1-3H3/t7?,10-/m0/s1
+CH$LINK: INCHIKEY DXWJVFNAUVZEKL-MHPPCMCBSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temp. for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.7 min.
+PK$SPLASH: splash10-03di-9500000000-d0e07edca5ea8ff601f5
+PK$NUM_PEAK: 122
+PK$PEAK: m/z int. rel.int.
+  26.016 0.74 7
+  27.024 9.68 97
+  27.044 0.11 1
+  27.067 0.12 1
+  28.006 3.74 37
+  28.032 7.75 77
+  29.003 1.14 11
+  29.039 6.14 61
+  29.079 0.09 1
+  31.019 0.99 10
+  31.990 1.23 12
+  38.016 0.36 4
+  39.024 11.60 116
+  40.031 2.68 27
+  41.040 30.74 307
+  42.011 3.05 31
+  42.046 2.09 21
+  43.019 9.84 98
+  43.055 2.76 28
+  43.107 0.09 1
+  44.025 0.40 4
+  44.998 0.26 3
+  45.034 1.13 11
+  50.016 0.52 5
+  51.024 1.61 16
+  52.032 0.98 10
+  53.040 8.19 82
+  53.099 0.09 1
+  54.047 2.66 27
+  55.019 5.53 55
+  55.055 19.09 191
+  56.027 7.11 71
+  56.060 1.21 12
+  57.034 2.80 28
+  57.071 0.19 2
+  58.040 0.18 2
+  59.014 8.44 84
+  59.050 1.24 12
+  60.017 0.20 2
+  63.024 0.29 3
+  65.040 1.91 19
+  66.047 0.78 8
+  67.055 11.91 119
+  68.026 0.20 2
+  68.063 14.80 148
+  69.035 0.98 10
+  69.071 30.88 308
+  70.042 0.90 9
+  70.075 1.99 20
+  71.050 1.71 17
+  72.057 0.41 4
+  73.066 1.14 11
+  74.037 14.35 143
+  75.044 1.66 17
+  77.040 1.30 13
+  78.046 0.26 3
+  79.055 2.40 24
+  80.062 0.52 5
+  81.035 0.96 10
+  81.071 5.51 55
+  82.042 1.30 13
+  82.078 6.15 61
+  82.152 0.10 1
+  83.050 0.91 9
+  83.086 13.41 134
+  84.090 0.90 9
+  85.066 3.66 37
+  86.073 1.05 10
+  87.045 0.53 5
+  87.081 3.58 36
+  88.053 1.21 12
+  88.085 0.20 2
+  91.055 1.31 13
+  92.061 0.24 2
+  93.071 1.16 12
+  94.076 0.15 1
+  95.050 7.42 74
+  95.086 0.90 9
+  96.058 9.74 97
+  96.094 1.52 15
+  97.065 5.81 58
+  97.102 1.02 10
+  98.069 0.41 4
+  99.045 0.25 2
+  99.081 1.19 12
+  100.087 0.17 2
+  105.071 0.26 3
+  106.078 0.31 3
+  107.086 0.86 9
+  109.066 5.87 59
+  110.073 34.76 347
+  110.535 0.08 1
+  111.081 100.00 999
+  111.458 0.20 2
+  111.602 0.26 3
+  112.085 7.33 73
+  112.171 0.09 1
+  112.343 0.11 1
+  113.061 1.58 16
+  114.068 0.51 5
+  115.075 0.21 2
+  123.045 0.28 3
+  123.081 0.52 5
+  124.089 3.04 30
+  125.096 0.80 8
+  127.076 9.70 97
+  128.083 2.37 24
+  129.091 1.51 15
+  137.060 0.49 5
+  141.092 1.32 13
+  142.098 0.38 4
+  151.075 0.18 2
+  152.083 0.43 4
+  153.092 11.29 113
+  154.095 1.12 11
+  155.071 0.38 4
+  156.115 1.29 13
+  169.087 4.34 43
+  170.090 0.42 4
+  184.110 13.25 132
+  185.113 1.43 14
+  186.116 0.15 1
+//

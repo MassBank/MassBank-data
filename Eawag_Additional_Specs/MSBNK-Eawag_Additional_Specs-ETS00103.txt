@@ -1,0 +1,52 @@
+ACCESSION: MSBNK-Eawag_Additional_Specs-ETS00103
+RECORD_TITLE: Dihydroxy-benzotriazole (TP7) (Tentative); LC-ESI-ITFT; MS2; 80-110; R=7500; [M+H]+
+DATE: 2016.02.03 (Created 2014.06.25)
+AUTHORS: Huntscha S, Schymanski E, Hofstetter TB, Spahr S, Hollender J, Department of Environmental Chemistry, Eawag
+LICENSE: CC BY
+COPYRIGHT: Copyright (C) 2016 Eawag, Duebendorf, Switzerland
+PUBLICATION: Huntscha, S.; Hofstetter, T. B.; Schymanski, E. L.; Spahr, S.; Hollender, J. Biotransformation of Benzotriazoles: Insights from Transformation Product Identification and Compound-Specific Isotope Analysis. Environmental Science & Technology 2014, 48 (8), 4435–43. DOI:10.1021/es405694z
+COMMENT: CONFIDENCE Tentative identification: isomers possible (Level 3)
+COMMENT: Source; 152m0447_MSMS.txt
+COMMENT: Parent is benzotriazole, location of hydroxy groups cannot be defined clearly
+COMMENT: Low intensity spectrum, most peaks likely noise.
+CH$NAME: Dihydroxy-benzotriazole (TP7) (Tentative)
+CH$NAME: (1,4,5,6and/or7)-dihydroxy-benzotriazole
+CH$COMPOUND_CLASS: N/A; Biotransformation Product
+CH$FORMULA: C6H5N3O2
+CH$EXACT_MASS: 151.0382
+CH$SMILES: N/A
+CH$IUPAC: N/A
+SP$SAMPLE: LOCATION GAZ:00064414; GAZ:00113795
+SP$SAMPLE: COMMENT 1H-BT samples collected from Duebendorf (GAZ:00113795), 4Me- and 5-Me-BT samples from Regensdorf (GAZ:00064414)
+AC$INSTRUMENT: LTQ Orbitrap XL Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY scaled 80 (m/z=200) to 110 (m/z=120)
+AC$MASS_SPECTROMETRY: RESOLUTION 7500
+AC$CHROMATOGRAPHY: COLUMN_NAME Atlantis T3 3um, 3.0x150mm, Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 90/10 at 0-8 min, 5/95 at 18-21 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 ul/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.1 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% formic acid
+MS$FOCUSED_ION: BASE_PEAK 152.0447
+MS$FOCUSED_ION: PRECURSOR_M/Z 152.0447
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: WHOLE Manual Extraction
+PK$SPLASH: splash10-014i-9100000000-4e2013ea004d733ec9ec
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  50.107 2177.8 105
+  53.0268 1734.3 84
+  56.077 1704.2 82
+  65.0599 7135.7 344
+  68.0123 20734.5 999
+  78.0331 6423.5 309
+  79.0537 2693.4 130
+  99.1511 2260.5 109
+  102.2041 2370.1 114
+  106.0649 4634.4 223
+//

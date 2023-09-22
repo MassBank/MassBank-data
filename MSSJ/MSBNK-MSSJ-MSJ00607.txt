@@ -1,0 +1,44 @@
+ACCESSION: MSBNK-MSSJ-MSJ00607
+RECORD_TITLE: 6-((4-Methoxybenzyl)oxy)-5,5-dimethylnona-1,8-dien-4-ol; GC-FI-TOF; MS; positive; FI; 10 kV
+DATE: 2021.03.08
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori, Tetrahedron 75 (2019) 3387-3398, DOI:10.1016/j.tet.2019.04.055.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the GC-transfer line was 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: Field ionization (FI) voltage, which is defined as the voltage between the emitter surface and the electrode, was 10 kV (default). Typical accuracy level expected was 10 ppm. Postrun m/z adjustment was made at a known mass, 304.20384.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: 6-((4-Methoxybenzyl)oxy)-5,5-dimethylnona-1,8-dien-4-ol
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C19H28O3
+CH$EXACT_MASS: 304.20385
+CH$SMILES: COC1=CC=C(COC(CC=C)C(C)(C)C(O)CC=C)C=C1
+CH$IUPAC: InChI=1S/C19H28O3/c1-6-8-17(20)19(3,4)18(9-7-2)22-14-15-10-12-16(21-5)13-11-15/h6-7,10-13,17-18,20H,1-2,8-9,14H2,3-5H3
+CH$LINK: INCHIKEY AMZMZUDZNFAKBJ-UHFFFAOYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temp. for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 10.9 min.
+PK$SPLASH: splash10-0udi-0039000000-ec6bc310155f799c446c
+PK$NUM_PEAK: 13
+PK$PEAK: m/z int. rel.int.
+  150.049 2.70 27
+  191.085 4.68 47
+  231.124 13.70 137
+  232.127 2.82 28
+  234.151 1.89 19
+  262.154 3.19 32
+  263.164 6.33 63
+  268.185 3.66 37
+  286.194 12.27 123
+  287.197 3.46 35
+  304.204 100 999
+  305.207 20.62 206
+  306.214 3.53 35
+//

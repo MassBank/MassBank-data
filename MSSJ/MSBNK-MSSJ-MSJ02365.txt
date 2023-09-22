@@ -1,0 +1,43 @@
+ACCESSION: MSBNK-MSSJ-MSJ02365
+RECORD_TITLE: 3-Aminoisobutyric acid; GC-FI-TOF; MS; POSITIVE; FI; 10 kV; 3TMS
+DATE: 2022.09.30
+AUTHORS: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 22HP8019 to the Mass Spectrometry Society of Japan.
+COMMENT: Original ID of the mass spectral data was 2201b2M3_fi.xlsx.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of GC-transfer line was 250 C. Resolving power (FWHM, nominal) was 7000.
+COMMENT: FI voltage was 10 kV. Typical accuracy level expected was 10 ppm. The m/z value was adjusted with 319.1819.
+CH$NAME: 3-Aminoisobutyric acid
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C4H9NO2
+CH$EXACT_MASS: 103.0633285
+CH$SMILES: CC(CN)C(=O)O
+CH$IUPAC: InChI=1S/C4H9NO2/c1-3(2-5)4(6)7/h3H,2,5H2,1H3,(H,6,7)
+CH$LINK: CHEMSPIDER 58481
+CH$LINK: INCHIKEY QCHPKSFMDHPSNR-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:64956
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, 1 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME DB-5MS UI 122-5532UI US0462866H (Agilent, Wilmington, USA) with the length 30 m, I.D. 0.25 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temperature for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.84 min.
+MS$FOCUSED_ION: DERIVATIVE_FORM C13H33NO2Si3
+MS$FOCUSED_ION: DERIVATIVE_MASS 319.18191
+MS$FOCUSED_ION: DERIVATIVE_TYPE 3TMS
+PK$SPLASH: splash10-0udi-0009000000-f94c83cd35c4d4d83a96
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  304.159 100 999
+  305.161 27.3535 273
+  306.158 14.1939 142
+  307.159 3.0317 30
+  319.182 20.1611 201
+  320.182 6.663 67
+  321.18 3.2381 32
+//

@@ -1,0 +1,50 @@
+ACCESSION: MSBNK-Literature_Specs-LIT00024
+RECORD_TITLE: 1COOH-2But-A7EO1-OCH2COOH; LC-ESI-Q; MS2; 30 V; [M+H]+
+DATE: 2016.02.03 (Created 2013.04.15)
+AUTHORS: E. Schymanski; retrieved from A. Di Corcia et al. 1998
+LICENSE: CC0
+COPYRIGHT: Copyright (C) American Chemical Society 1998
+PUBLICATION: Corcia, A. D.; Crescenzi, C.; Marcomini, A.; Samperi, R. Liquid Chromatography- Electrospray-Mass Spectrometry as a Valuable Tool for Characterizing Biodegradation Intermediates of Branched Alcohol Ethoxylate Surfactants. Environmental Science & Technology 1998, 32 (5), 711–8. DOI:10.1021/es970616x
+COMMENT: Literature spectrum
+COMMENT: CONFIDENCE Tentative identification: isomers possible (Level 3)
+COMMENT: Could be alkyl homologue of given structure
+COMMENT: Digitised from figure: approximate intensities
+CH$NAME: 1COOH-2But-A7EO1-OCH2COOH
+CH$NAME: 1-Carboxyl-2-butyl-A7EO1-OCH2COOH
+CH$NAME: 3-{[2-(carboxymethoxy)ethoxy]methyl}heptanoic acid
+CH$COMPOUND_CLASS: N/A; Surfactant
+CH$FORMULA: C12H22O6
+CH$EXACT_MASS: 262.1416
+CH$SMILES: OC(=O)COCCOCC(CC(=O)O)CCCC
+CH$IUPAC: InChI=1S/C12H22O6/c1-2-3-4-10(7-11(13)14)8-17-5-6-18-9-12(15)16/h10H,2-9H2,1H3,(H,13,14)(H,15,16)
+CH$LINK: INCHIKEY IOBWQNCIKXKHIW-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID80891650
+CH$LINK: PUBCHEM CID:137628411
+AC$INSTRUMENT: Fisons VG Platform
+AC$INSTRUMENT_TYPE: LC-ESI-Q
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+MS$FOCUSED_ION: BASE_PEAK 263.1489
+MS$FOCUSED_ION: PRECURSOR_M/Z 263.1489
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: WHOLE Hand-digitised from figures
+PK$SPLASH: splash10-0006-3910000000-eac5befb5f76cefb0ea9
+PK$ANNOTATION: m/z formula putative_smiles
+  263 C12H23O6+ [M+H]+
+  285 C12H22O6Na+ [M+Na]+
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  55 10 100
+  69 10 100
+  83 25 250
+  97 20 200
+  103 30 300
+  125 30 300
+  143 100 999
+  245 25 250
+  263 5 50
+  285 5 50
+//

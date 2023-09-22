@@ -1,0 +1,82 @@
+ACCESSION: MSBNK-Chubu_Univ-UT002704
+RECORD_TITLE: Phosphatidylinositol 18:0-18:2; LC-ESI-ITFT; MS2; [M-H]-; RT: 21.91; Exp: 3
+DATE: 2016.01.19 (Created 2010.05.07, modified 2011.08.03)
+AUTHORS: Taguchi R, Graduate School of Medicine, The University of Tokyo
+LICENSE: CC BY-NC-SA
+PUBLICATION: Taguchi, R.; Ishikawa, M. Precise and Global Identification of Phospholipid Molecular Species by an Orbitrap Mass Spectrometer and Automated Search Engine Lipid Search. Journal of Chromatography A 2010, 1217 (25), 4229–39. DOI:10.1016/j.chroma.2010.04.034
+CH$NAME: Phosphatidylinositol 18:0-18:2
+CH$COMPOUND_CLASS: Natural Product; Glycerophospholipids; Glycerophosphoinositols; Diacylglycerophosphoinositols
+CH$FORMULA: C45H83O13P
+CH$EXACT_MASS: 862.55713
+CH$SMILES: C(CCCCCC=CCC=CCCC(=O)OC(COC(=O)CCCCCCCCCCCCCCCCC)COP(O)(=O)OC(C(O)1)C(O)C(O)C(O)C(O)1)CCCC
+CH$IUPAC: InChI=1S/C45H83O13P/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-29-31-33-38(46)55-35-37(36-56-59(53,54)58-45-43(51)41(49)40(48)42(50)44(45)52)57-39(47)34-32-30-28-26-24-22-20-18-16-14-12-10-8-6-4-2/h22,24,28,30,37,40-45,48-52H,3-21,23,25-27,29,31-36H2,1-2H3,(H,53,54)/b24-22-,30-28-/t37?,40-,41-,42+,43-,44-,45-/m1/s1
+CH$LINK: INCHIKEY DJIHJMQVAWUMQB-GRNFJTJUSA-N
+SP$SCIENTIFIC_NAME: Mus musculus
+SP$LINEAGE: cellular organisms; Eukaryota; Fungi/Metazoa group; Metazoa; Eumetazoa; Bilateria; Coelomata; Deuterostomia; Chordata; Craniata; Vertebrata; Gnathostomata; Teleostomi; Euteleostomi; Sarcopterygii; Tetrapoda; Amniota; Mammalia; Theria; Eutheria; Euarchontoglires; Glires; Rodentia; Sciurognathi; Muroidea; Muridae; Murinae; Mus
+SP$LINK: NCBI-TAXONOMY 10090
+SP$SAMPLE: liver
+AC$INSTRUMENT: LC-10ADVPmicro HPLC, Shimadzu; LTQ Orbitrap, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30%
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3500 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME Develosil C30, Nomura Chemical
+AC$CHROMATOGRAPHY: FLOW_GRADIENT  add 95/5 at 0 min, 70/30 at 40 min, 50/50 at 41 min, 50/50 at 90 min
+AC$CHROMATOGRAPHY: FLOW_RATE  add 100 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 22.14 min (in paper: 21.9 min)
+AC$CHROMATOGRAPHY: SOLVENT A acetonitrile-methanol-water (19:19:2) with 0.1% acetic acid and 0.1% ammonium hydroxide (28%)
+AC$CHROMATOGRAPHY: SOLVENT B 2-propanol with 0.1% acetic acid and 0.1% ammonium hydroxide (28%)
+MS$FOCUSED_ION: PRECURSOR_M/Z 861.55
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
+MS$DATA_PROCESSING: WHOLE Xcalibur ver-2.0
+PK$SPLASH: splash10-001i-0080590000-36d9e2adcde4e9d1f7de
+PK$ANNOTATION: m/z num type mass error(ppm) formula
+  279.14 1 [fa(18:2)-H]- 279.2324052393 -330 C18H31O2-
+  283.08 1 [fa(18:0)-H]- 283.2637053677 -648 C18H35O2-
+  576.99 1 [lyso_PI(-,18:2)-H2O]- 577.2777738297 -498 C27H46O11P-
+  581.09 1 [lyso_PI(18:0,-)-H2O]- 581.3090739581 -376 C27H50O11P-
+  595.34 1 [lyso_PI(-,18:2)]- 595.288338516 87 C27H48O12P-
+  599.12 1 [lyso_PI(18:0,-)]- 599.3196386444 -332 C27H52O12P-
+PK$NUM_PEAK: 38
+PK$PEAK: m/z int. rel.int.
+  240.90 73.9 28
+  255.09 19.1 7
+  258.79 47.2 18
+  279.14 720.5 269
+  280.08 184.2 69
+  283.08 2356.3 879
+  284.04 426.6 159
+  284.64 22.6 8
+  296.40 34.4 13
+  297.00 319.5 119
+  298.04 57.6 21
+  310.20 6.8 3
+  314.85 62.1 23
+  415.02 265.7 99
+  415.94 46.0 17
+  419.02 2155.4 804
+  420.15 225.2 84
+  420.94 17.1 6
+  437.06 46.7 17
+  441.99 8.7 3
+  457.82 8.0 3
+  552.14 20.9 8
+  553.25 14.2 5
+  554.28 19.7 7
+  576.99 566.4 211
+  578.03 168.3 63
+  581.09 2679.1 999
+  582.18 517.9 193
+  595.34 69.1 26
+  596.20 17.1 6
+  599.12 542.7 202
+  600.24 138.7 52
+  700.33 6.8 3
+  742.57 22.2 8
+  757.52 16.1 6
+  773.17 9.8 4
+  774.30 44.3 17
+  779.20 9.2 3
+//

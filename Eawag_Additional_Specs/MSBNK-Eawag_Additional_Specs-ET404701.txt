@@ -1,0 +1,47 @@
+ACCESSION: MSBNK-Eawag_Additional_Specs-ET404701
+RECORD_TITLE: ALI_n_428.2762_19.1; LC-ESI-QFT; MS2; CE: 15%; R=17500; [M-H]-
+DATE: 2020.12.17
+AUTHORS: B. Clerc, R. Gulde, B. Lauper [com],  C. McArdell, Department of Environmental Chemistry, Eawag
+LICENSE: CC BY-SA
+COPYRIGHT: Copyright (C) Eawag 2020
+PUBLICATION: Gulde et al. 2020, Formation of transformation products during ozonation of secondary wastewater effluent and their fate in post-treatment: From laboratory- to full-scale, Water Research
+COMMENT: CONFIDENCE Tentative structure (3)
+COMMENT: UCHEM_ID 4047
+CH$NAME: ALI_n_428.2762_19.1
+CH$NAME: Aliskiren -C9H14
+CH$NAME: 5-amino-N-(3-amino-2,2-dimethyl-3-oxopropyl)-4-hydroxy-2,7-diisopropyldecanamide -H4 +O3
+CH$COMPOUND_CLASS: identified ozonation transformation product
+CH$FORMULA: C21H39N3O6
+CH$EXACT_MASS: 429.2839
+CH$SMILES: N/A
+CH$IUPAC: N/A
+AC$INSTRUMENT: Q Exactive Plus Orbitrap Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 15 % (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 17500
+AC$CHROMATOGRAPHY: COLUMN_NAME C18 Atlantis T3 5 um, 3x150 mm, Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 260/40 at 0 min, 260/40 at 5 min, 15/285 at 20 min, 15/285 at 29 min, 260/40 at 29.5 min, 260/40 at 35 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 19.193 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B MeOH with 0.1% formic acid
+MS$FOCUSED_ION: BASE_PEAK 91.0038
+MS$FOCUSED_ION: PRECURSOR_M/Z 428.2766
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_INTENSITY 482380.34375
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 2.99.2
+PK$SPLASH: splash10-001i-0009000000-5f60f7d9cfc7a8d5e988
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  382.2709 C20H36N3O4- 1 382.2711 -0.51
+  428.2813 C21H38N3O6- NA 428.2766 10.93
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  382.2709 896508.9 999
+  428.2813 5410.8 6
+//

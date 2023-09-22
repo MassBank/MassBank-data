@@ -1,0 +1,44 @@
+ACCESSION: MSBNK-MSSJ-MSJ02109
+RECORD_TITLE: (4-(2,6-dichlorophenyl)-2-methylbutyl)(pentyl)sulfane; GC-FI-TOF; MS; POSITIVE; FI; 10 kV
+DATE: 2023.03.27
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Yong Luo, Yuanhong Ma, Zhaomin Hou. alpha-C-H Alkylation of Methyl Sulfides with Alkenes by a Scandium Catalyst. J. Am. Chem. Soc. 2018, 140, 114-117. DOI: 10.1021/jacs.7b11245
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 22HP8019 to the Mass Spectrometry Society of Japan.
+COMMENT: Original ID of the mass spectral data was 3g_fi.xlsx.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the GC-transfer line was 250 C. Resolving power (FWHM, nominal) was 7000.
+COMMENT: FI voltage was 10 kV. Typical accuracy level expected was 10 ppm. Postrun m/z adjustment with known mass was 318.09758.
+CH$NAME: (4-(2,6-dichlorophenyl)-2-methylbutyl)(pentyl)sulfane
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C16H24Cl2S
+CH$EXACT_MASS: 318.09758
+CH$SMILES: CCCCCSCC(C)CCc1c(Cl)cccc1Cl
+CH$IUPAC: InChI=1S/C16H24Cl2S/c1-3-4-5-11-19-12-13(2)9-10-14-15(17)7-6-8-16(14)18/h6-8,13H,3-5,9-12H2,1-2H3
+CH$LINK: INCHIKEY GHNXJJUFIWWEGS-UHFFFAOYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min.
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 30x0.32 0.25um 19091J-413, length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temp. for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 11.15 min.
+PK$SPLASH: splash10-001i-0094000000-bedad92321d12cb49674
+PK$NUM_PEAK: 12
+PK$PEAK: m/z int. rel.int.
+  282.118 9.7475 97
+  283.125 100 999
+  284.126 20.9281 209
+  285.122 38.3408 383
+  286.125 6.4263 64
+  287.121 2.3188 23
+  288.618 1.4431 14
+  318.098 39.1042 391
+  319.101 7.2886 73
+  320.094 27.3082 273
+  321.099 4.821 48
+  322.093 5.366 54
+//

@@ -1,0 +1,50 @@
+ACCESSION: MSBNK-Nihon_Univ-NU000752
+RECORD_TITLE: N-[(3alpha,5beta,7beta)-3,7-Dihydroxy-24-oxocholan-24-yl]glycine; LC-ESI-TOF; MS; NEGATIVE; In source decay -60 V
+DATE: 2018.02.20
+AUTHORS: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+LICENSE: CC BY
+COPYRIGHT: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+COMMENT: BA-131-60. In-source decay
+COMMENT: 1 microL of the bile acid in MeOH solution was flow injected. Sampling interval was 1 Hz.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 17HP8021 (2017) to the MassBank database committee of the Mass Spectrometry Society of Japan.
+CH$NAME: N-[(3alpha,5beta,7beta)-3,7-Dihydroxy-24-oxocholan-24-yl]glycine
+CH$COMPOUND_CLASS: Natural Product; Bile acids
+CH$FORMULA: C26H43NO5
+CH$EXACT_MASS: 449.31412
+CH$SMILES: C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C
+CH$IUPAC: InChI=1S/C26H43NO5/c1-15(4-7-22(30)27-14-23(31)32)18-5-6-19-24-20(9-11-26(18,19)3)25(2)10-8-17(28)12-16(25)13-21(24)29/h15-21,24,28-29H,4-14H2,1-3H3,(H,27,30)(H,31,32)/t15-,16+,17-,18-,19+,20+,21+,24+,25+,26-/m1/s1
+CH$LINK: CHEMSPIDER 19973534
+CH$LINK: INCHIKEY GHCZAUBVMUEKKP-XROMFQGDSA-N
+CH$LINK: PUBCHEM CID:12310288
+AC$INSTRUMENT: JMS-T100LP, JEOL
+AC$INSTRUMENT_TYPE: LC-ESI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: ORIFICE_TEMPERATURE 80 C
+AC$MASS_SPECTROMETRY: ORIFICE_VOLTAGE -60 V
+AC$MASS_SPECTROMETRY: SCAN_RANGE_M/Z 100-1000
+PK$SPLASH: splash10-01ot-0061910100-418bda8981e937d2e70b
+PK$NUM_PEAK: 20
+PK$PEAK: m/z int. rel.int.
+  96.92 6 56
+  212.07 78 783
+  221.22 9 95
+  244.97 6 59
+  280.99 6 58
+  293.03 5 51
+  303.98 6 62
+  307.01 5 53
+  314.06 11 106
+  350.44 6 57
+  437.58 11 113
+  448.30 100 999
+  449.31 30 300
+  490.31 5 53
+  577.44 9 89
+  598.19 9 92
+  787.32 5 51
+  794.32 18 184
+  897.66 8 85
+  898.67 6 55
+//

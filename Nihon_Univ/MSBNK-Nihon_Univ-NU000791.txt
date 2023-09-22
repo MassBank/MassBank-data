@@ -1,0 +1,41 @@
+ACCESSION: MSBNK-Nihon_Univ-NU000791
+RECORD_TITLE: 3a-Sulfooxy-5b-cholanic acid; LC-ESI-TOF; MS; NEGATIVE; In source decay -30 V
+DATE: 2018.02.21
+AUTHORS: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+LICENSE: CC BY
+COPYRIGHT: Takashi Iida, Department of Chemistry, College of Humanities and Sciences, Nihon University
+COMMENT: BA-139-30. In-source decay
+COMMENT: 1 microL of the bile acid in MeOH solution was flow injected. Sampling interval was 1 Hz.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 17HP8021 (2017) to the MassBank database committee of the Mass Spectrometry Society of Japan.
+CH$NAME: 3a-Sulfooxy-5b-cholanic acid
+CH$NAME: (3a,5b)-3-(Sulfooxy)cholan-24-oic acid
+CH$COMPOUND_CLASS: Natural Product; Bile acids
+CH$FORMULA: C24H40O6S
+CH$EXACT_MASS: 456.25456
+CH$SMILES: C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)C
+CH$IUPAC: InChI=1S/C24H40O6S/c1-15(4-9-22(25)26)19-7-8-20-18-6-5-16-14-17(30-31(27,28)29)10-12-23(16,2)21(18)11-13-24(19,20)3/h15-21H,4-14H2,1-3H3,(H,25,26)(H,27,28,29)/t15-,16-,17-,18+,19-,20+,21+,23+,24-/m1/s1
+CH$LINK: CHEMSPIDER 397704
+CH$LINK: INCHIKEY AXDXVEYHEODSPN-HVATVPOCSA-N
+CH$LINK: PUBCHEM CID:451489
+AC$INSTRUMENT: JMS-T100LP, JEOL
+AC$INSTRUMENT_TYPE: LC-ESI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: ORIFICE_TEMPERATURE 80 C
+AC$MASS_SPECTROMETRY: ORIFICE_VOLTAGE -30 V
+AC$MASS_SPECTROMETRY: SCAN_RANGE_M/Z 100-1000
+PK$SPLASH: splash10-0a4i-1200900000-cc3d03805067872bcaac
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  61.92 5 54
+  68.94 6 59
+  88.98 3 28
+  112.95 28 276
+  227.12 4 41
+  255.23 3 27
+  455.25 100 999
+  457.25 8 83
+  640.40 3 27
+  863.64 3 25
+//
