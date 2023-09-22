@@ -1,0 +1,52 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS079101
+RECORD_TITLE: trans-3,5-Dimethoxy-4-hydroxycinnamaldehyde; ESI-QQ; MS2; positive; CE 10 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 044-25681 .
+COMMENT: PRIMe compound in-house ID S0221
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: trans-3,5-Dimethoxy-4-hydroxycinnamaldehyde
+CH$NAME: Sinapinaldehyde
+CH$NAME: Sinapaldehyde
+CH$NAME: Sinapoyl aldehyde
+CH$NAME: Sinapyl aldehyde
+CH$NAME: trans-3,5-Dimethoxy-alpha-hydroxy-cinnamaldehyde
+CH$NAME: 3-4-Hydroxy-3,5-dimethoxyphenylprop-2-enal
+CH$NAME: 4-Hydroxy-3,5-dimethoxycinnamaldehyde
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid
+CH$COMPOUND_CLASS: CLASS2 Phenylpropanoid monomer
+CH$COMPOUND_CLASS: CLASS3 Syringaldehyde
+CH$FORMULA: C11H12O4
+CH$EXACT_MASS: 208.073
+CH$SMILES: COC1=CC(=CC(=C1O)OC)C=CC=O
+CH$IUPAC: InChI=1/C11H12O4/c1-14-9-6-8(4-3-5-12)7-10(15-2)11(9)13/h3-7,13H,1-2H3/b4-3+
+CH$IUPAC: (E)-3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enal
+CH$LINK: CAS 4206-58-0
+CH$LINK: KEGG C05610
+CH$LINK: PUBCHEM CID 5280802
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 209.21
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 10
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+    208 145624 140
+    209 1038100 999
+//

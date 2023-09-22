@@ -1,0 +1,46 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS123002
+RECORD_TITLE: E-4,5'-dihydroxy-3-methoxy-3'-glucopyranosylstilbene; ESI-QQ; MS2; positive; CE 20 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound polyphenols, 11200-1.
+COMMENT: PRIMe compound in-house ID V0104
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: E-4,5'-dihydroxy-3-methoxy-3'-glucopyranosylstilbene
+CH$NAME: E-Isorhapontin
+CH$COMPOUND_CLASS: CLASS1 Stilbenoid
+CH$COMPOUND_CLASS: CLASS2 Stilben
+CH$COMPOUND_CLASS: CLASS3 Isorhapontin
+CH$FORMULA: C21H24O9
+CH$EXACT_MASS: 420.142
+CH$SMILES: COC1=C(C=CC(=C1)C=CC2=CC(=CC(=C2)OC3C(C(C(C(O3)CO)O)O)O)O)O
+CH$IUPAC: InChI=1/C21H24O9/c1-28-16-8-11(4-5-15(16)24)2-3-12-6-13(23)9-14(7-12)29-21-20(27)19(26)18(25)17(10-22)30-21/h2-9,17-27H,10H2,1H3/b3-2+/t17-,18-,19+,20-,21-/m1/s1
+CH$IUPAC: (2S,3R,4S,5S,6R)-2-[3-hydroxy-5-[(E)-2-(4-hydroxy-3-methoxyphenyl)ethenyl]phenoxy]-6-(hydroxymethyl)oxane-3,4,5-triol
+CH$LINK: CAS 32727-29-0
+CH$LINK: KEGG C10266
+CH$LINK: PUBCHEM CID 5281716
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 421.46
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 20
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+    258 23303 117
+    259 197554 999
+//

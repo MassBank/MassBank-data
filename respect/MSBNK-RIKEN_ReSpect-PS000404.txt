@@ -1,0 +1,52 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS000404
+RECORD_TITLE: 1-Amino-1-cyclopentanecarboxylic acid; ESI-QQ; MS2; positive; CE 40 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, A48105.
+COMMENT: PRIMe compound in-house ID 4
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 1-Amino-1-cyclopentanecarboxylic acid
+CH$NAME: acpc
+CH$NAME: Cycloleucine
+CH$NAME: Cycloleucin
+CH$COMPOUND_CLASS: CLASS1 Amino acid
+CH$COMPOUND_CLASS: CLASS2 Leucine
+CH$FORMULA: C6H11NO2
+CH$EXACT_MASS: 129.078
+CH$SMILES: C1CCC(C1)(C(=O)O)N
+CH$IUPAC: InChI=1/C6H11NO2/c7-6(5(8)9)3-1-2-4-6/h1-4,7H2,(H,8,9)/f/h8H
+CH$IUPAC: 1-aminocyclopentane-1-carboxylic acid
+CH$LINK: CAS 52-52-8
+CH$LINK: KEGG C03969
+CH$LINK: PUBCHEM CID 2901
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 130.15
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 40
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+    40 4552 77
+    41 26260 448
+    42 2911 49
+    67 58468 999
+    82 1854 31
+    83 10482 179
+    84 57363 980
+//

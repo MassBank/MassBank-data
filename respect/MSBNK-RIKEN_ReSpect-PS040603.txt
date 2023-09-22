@@ -1,0 +1,56 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS040603
+RECORD_TITLE: Myricetin; ESI-QQ; MS2; positive; CE 30 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound EXTRASYNTHESE S.A, 1127 S.
+COMMENT: PRIMe compound in-house ID H0014
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Myricetin
+CH$NAME: Myrc
+CH$NAME: 3,3',4',5,5',7-hexahydroxyflavone
+CH$NAME: Cannabiscetin
+CH$NAME: Delphidenolon
+CH$NAME: 3,3',4,4',5',7-hexahydro-2-phenyl-4H-chromen-4-one
+CH$NAME: Myricetol
+CH$NAME: Myricitin
+CH$NAME: ,3',4,4',5',7-hexahydro-2-phenyl-4H-chromen-4-one
+CH$COMPOUND_CLASS: CLASS1 Flavonoid
+CH$COMPOUND_CLASS: CLASS2 Flavonol
+CH$COMPOUND_CLASS: CLASS3 Myricetin
+CH$FORMULA: C15H10O8
+CH$EXACT_MASS: 318.037
+CH$SMILES: C1=C(C=C(C(=C1O)O)O)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O
+CH$IUPAC: InChI=1/C15H10O8/c16-6-3-7(17)11-10(4-6)23-15(14(22)13(11)21)5-1-8(18)12(20)9(19)2-5/h1-4,16-20,22H
+CH$IUPAC: 3,5,7-trihydroxy-2-(3,4,5-trihydroxyphenyl)chromen-4-one
+CH$LINK: CAS 529-44-2
+CH$LINK: KEGG C10107
+CH$LINK: PUBCHEM CID 5281672
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 319.25
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 30
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+    316 8171 31
+    317 28677 110
+    318 95388 367
+    319 259090 999
+    320 20002 77
+//

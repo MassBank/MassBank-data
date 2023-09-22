@@ -1,0 +1,62 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS103103
+RECORD_TITLE: 3-Methylxanthine; ESI-QQ; MS2; positive; CE 30 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, M2509.
+COMMENT: PRIMe compound in-house ID N0089
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 3-Methylxanthine
+CH$NAME: 3-MX
+CH$NAME: 2,6-Dihydroxy-3-methylpurine
+CH$NAME: 3,7-dihydro-3-methyl-1H-purine-2,6-dione
+CH$COMPOUND_CLASS: CLASS1 Alkaloid
+CH$COMPOUND_CLASS: CLASS2 Xanthine
+CH$COMPOUND_CLASS: CLASS3 Xanthine
+CH$FORMULA: C6H6N4O2
+CH$EXACT_MASS: 166.049
+CH$SMILES: CN1C2=C(C(=O)NC1=O)NC=N2
+CH$IUPAC: InChI=1/C6H6N4O2/c1-10-4-3(7-2-8-4)5(11)9-6(10)12/h2H,1H3,(H,7,8)(H,9,11,12)/f/h7,9H
+CH$IUPAC: 3-methyl-7H-purine-2,6-dione
+CH$LINK: CAS 1076-22-8
+CH$LINK: KEGG C16357
+CH$LINK: PUBCHEM CID 70639
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 167.17
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 30
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 16
+PK$PEAK: m/z int. rel.int.
+    41 4242 87
+    42 18163 373
+    55 2178 44
+    68 2365 48
+    69 6907 142
+    95 3974 81
+    96 10190 209
+    99 3373 69
+    122 3953 81
+    123 13942 286
+    124 48537 999
+    125 1884 38
+    149 4114 84
+    165 4369 89
+    166 15332 315
+    167 32255 663
+//

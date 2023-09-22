@@ -1,0 +1,55 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS092907
+RECORD_TITLE: Myricetin-3-Rhamnoside; ESI-QQ; MS2; negative; CE 10 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound AnalytiCon, NP-000648.
+COMMENT: PRIMe compound in-house ID T0161
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Myricetin-3-Rhamnoside
+CH$NAME: Myrc-3-Rha
+CH$NAME: Myricitrin
+CH$NAME: Myricitrine
+CH$NAME: Myricetrin
+CH$NAME: Myricitroside
+CH$NAME: myricetin-3-O-rhamnoside
+CH$NAME: Myricetol 3-rhamnoside
+CH$NAME: Myricetin 3-O-alpha-L-rhamnopyranoside
+CH$NAME: 3-((6-Deoxy-alpha-L-mannopyranosyl)oxy)-5,7-dihydroxy-2-(3,4,5-trihydroxyphenyl)-4H-benzopyran-4-one
+CH$COMPOUND_CLASS: CLASS1 Flavonoid
+CH$COMPOUND_CLASS: CLASS2 Flavonol
+CH$COMPOUND_CLASS: CLASS3 Myricetin glycoside
+CH$FORMULA: C21H20O12
+CH$EXACT_MASS: 464.095
+CH$SMILES: CC1C(C(C(C(O1)OC2=C(OC3=CC(=CC(=C3C2=O)O)O)C4=CC(=C(C(=C4)O)O)O)O)O)O
+CH$IUPAC: InChI=1/C21H20O12/c1-6-14(26)17(29)18(30)21(31-6)33-20-16(28)13-9(23)4-8(22)5-12(13)32-19(20)7-2-10(24)15(27)11(25)3-7/h2-6,14,17-18,21-27,29-30H,1H3/t6-,14-,17+,18+,21-/m0/s1
+CH$IUPAC: 5,7-dihydroxy-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxy-2-(3,4,5-trihydroxyphenyl)chromen-4-one
+CH$LINK: CAS 17912-87-7
+CH$LINK: KEGG C10108
+CH$LINK: PUBCHEM CID 5281673
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 463.41
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 10
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE NEGATIVE
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+    462 148166 253
+    463 583713 999
+    464 118392 202
+//

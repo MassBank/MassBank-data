@@ -1,0 +1,53 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS097603
+RECORD_TITLE: L-2-Aminobutyric acid; ESI-QQ; MS2; positive; CE 30 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A1879.
+COMMENT: PRIMe compound in-house ID N0034
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-2-Aminobutyric acid
+CH$NAME: AABA
+CH$NAME: 2-ABU
+CH$NAME: L-2-Aminobutyrate
+CH$NAME: L-alpha-Aminobutyric acid
+CH$NAME: L-Butyrine
+CH$NAME: (S)-2-Aminobutyric acid
+CH$NAME: (S)-2-Aminobutanoate
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Carboxylic acid
+CH$COMPOUND_CLASS: CLASS3 Butyric acid
+CH$FORMULA: C4H9NO2
+CH$EXACT_MASS: 103.063
+CH$SMILES: CCC(C(=O)O)N
+CH$IUPAC: InChI=1/C4H9NO2/c1-2-3(5)4(6)7/h3H,2,5H2,1H3,(H,6,7)/t3-/m0/s1/f/h6H
+CH$IUPAC: (2S)-2-aminobutanoic acid
+CH$LINK: CAS 1492-24-6
+CH$LINK: KEGG C02356
+CH$LINK: PUBCHEM CID 80283
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 104.08
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 30
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+    41 23667 211
+    57 25772 230
+    58 111591 999
+//

@@ -1,0 +1,48 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS079208
+RECORD_TITLE: D-Sorbitol-6-phosphate barium salt; ESI-QQ; MS2; negative; CE 20 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound MP Bio, 156643.
+COMMENT: PRIMe compound in-house ID S0222
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: D-Sorbitol-6-phosphate barium salt 
+CH$NAME: D-Glucitol 6-phosphate
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Suger phosphate
+CH$COMPOUND_CLASS: CLASS3 Sorbitol phosphate
+CH$FORMULA: C6H15O9P
+CH$EXACT_MASS: 262.045
+CH$SMILES: C(C(C(C(C(COP(=O)(O)O)O)O)O)O)O
+CH$IUPAC: InChI=1/C6H15O9P/c7-1-3(8)5(10)6(11)4(9)2-15-16(12,13)14/h3-11H,1-2H2,(H2,12,13,14)/t3-,4+,5+,6+/m0/s1/f/h12-13H
+CH$IUPAC: [(2R,3R,4R,5S)-2,3,4,5,6-pentahydroxyhexyl] dihydrogen phosphate
+CH$LINK: CAS 20479-58-7
+CH$LINK: KEGG C01096
+CH$LINK: PUBCHEM CID 152306
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 261.21
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 20
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE NEGATIVE
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+    79 9201 105
+    97 27567 317
+    260 37071 426
+    261 86797 999
+//

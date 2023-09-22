@@ -1,0 +1,64 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS023205
+RECORD_TITLE: Fusaric acid; ESI-QQ; MS2; positive; CE 50 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, F6513.
+COMMENT: PRIMe compound in-house ID 232
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Fusaric acid
+CH$NAME: Fusarate
+CH$NAME: Fusarinic acid
+CH$NAME: 5-Butylpicolinic acid
+CH$NAME: 5-butylpyridine-3-carboxylic acid
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Carboxylic acid
+CH$COMPOUND_CLASS: CLASS3 Fusaric acid
+CH$FORMULA: C10H13NO2
+CH$EXACT_MASS: 179.094
+CH$SMILES: CCCCC1=CN=C(C=C1)C(=O)O
+CH$IUPAC: InChI=1/C10H13NO2/c1-2-3-4-8-5-6-9(10(12)13)11-7-8/h5-7H,2-4H2,1H3,(H,12,13)/f/h12H
+CH$IUPAC: 5-butylpyridine-2-carboxylic acid
+CH$LINK: CAS 536-69-6
+CH$LINK: KEGG C10146
+CH$LINK: PUBCHEM CID 3442
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 180.2
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 50
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 17
+PK$PEAK: m/z int. rel.int.
+    39 3167 62
+    41 1859 36
+    54 2321 45
+    55 3934 77
+    64 15947 312
+    65 50581 991
+    66 3907 76
+    77 1687 33
+    79 7901 154
+    90 2193 43
+    91 17175 336
+    92 50945 999
+    93 3514 68
+    115 2292 44
+    118 2969 58
+    133 6071 119
+    134 6543 128
+//

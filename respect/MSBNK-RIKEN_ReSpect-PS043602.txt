@@ -1,0 +1,49 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS043602
+RECORD_TITLE: L-menthol; ESI-QQ; MS2; positive; CE 20 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Nacalai-T, 21423-62.
+COMMENT: PRIMe compound in-house ID H0044
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-menthol
+CH$NAME: L-Hexahydrothymol
+CH$NAME: Menthyl alcohol
+CH$NAME: L-p‐Menthan‐3‐ol
+CH$NAME: 5-Methyl-2-(1-methylethyl)cyclohexanol
+CH$NAME: (1R,2S,5R)-2-Isopropyl-5-methylcyclohexanol
+CH$COMPOUND_CLASS: CLASS1 Terpenoid
+CH$COMPOUND_CLASS: CLASS2 Monoterpenoid
+CH$COMPOUND_CLASS: CLASS3 Menthol
+CH$FORMULA: C10H20O
+CH$EXACT_MASS: 156.151
+CH$SMILES: CC1CCC(C(C1)O)C(C)C
+CH$IUPAC: InChI=1/C10H20O/c1-7(2)9-5-4-8(3)6-10(9)11/h7-11H,4-6H2,1-3H3/t8-,9+,10-/m1/s1
+CH$IUPAC: (1R,2S,5R)-5-methyl-2-propan-2-ylcyclohexan-1-ol
+CH$LINK: CAS 2216-51-5
+CH$LINK: KEGG C00400
+CH$LINK: PUBCHEM CID 16666
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 156.25
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 20
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+    69 137154 999
+//

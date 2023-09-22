@@ -1,0 +1,57 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS047408
+RECORD_TITLE: N-acetylneuraminic acid; ESI-QQ; MS2; negative; CE 20 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, A0812.
+COMMENT: PRIMe compound in-house ID H0071
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: N-acetylneuraminic acid
+CH$NAME: NAN
+CH$NAME: NANA
+CH$NAME: Neu5Ac
+CH$NAME: Lactaminic acid
+CH$NAME: Sialic acid
+CH$NAME: 5-Acetamido-3,5-dideoxy-D-glycero-D-galactononulosonic acid
+CH$NAME: Neuraminic acid N-acetate
+CH$NAME: Aceneuramic Acid
+CH$NAME: 5-Acetylamino-3,5-dideoxy-D-glycero-D-galacto-2-nonulosonic Acid
+CH$NAME: N-Acetylneuraminate
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Other
+CH$COMPOUND_CLASS: CLASS3 Neuraminic acid
+CH$FORMULA: C11H19NO9
+CH$EXACT_MASS: 309.105
+CH$SMILES: CC(=O)NC1C(CC(OC1C(C(CO)O)O)(C(=O)O)O)O
+CH$IUPAC: InChI=1/C11H19NO9/c1-4(14)12-7-5(15)2-11(20,10(18)19)21-9(7)8(17)6(16)3-13/h5-9,13,15-17,20H,2-3H2,1H3,(H,12,14)(H,18,19)/t5-,6+,7+,8+,9+,11u/m0/s1/f/h12,18H
+CH$IUPAC: (4S,5R,6R)-5-acetamido-2,4-dihydroxy-6-[(1R,2R)-1,2,3-trihydroxypropyl]oxane-2-carboxylic acid
+CH$LINK: CAS 131-48-6
+CH$LINK: KEGG C00270
+CH$LINK: PUBCHEM CID 439197
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 308.31
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 20
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE NEGATIVE
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+    86 14992 220
+    87 67982 999
+    169 5522 81
+    170 14750 216
+//

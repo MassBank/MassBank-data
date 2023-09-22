@@ -1,0 +1,62 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS073502
+RECORD_TITLE: Vanillin; ESI-QQ; MS2; positive; CE 20 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, V2375.
+COMMENT: PRIMe compound in-house ID S0132
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Vanillin
+CH$NAME: 4-Hydroxy-3-methoxybenzaldehyde
+CH$NAME: Methoxyprotocatechuic Aldehyde
+CH$NAME: Vanillin Aldehyde
+CH$NAME: Protocatechualdehyde Methyl Ether
+CH$NAME: 2-Methoxy-4-formylphenol
+CH$NAME: 4-Formyl-2-methoxyphenol
+CH$NAME: Lioxin
+CH$NAME: Vanilla
+CH$NAME: Vanillaldehyde
+CH$NAME: Vanillic aldehyde
+CH$NAME: Zimco
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Benzoic acid
+CH$COMPOUND_CLASS: CLASS3 Vanillin
+CH$FORMULA: C8H8O3
+CH$EXACT_MASS: 152.047
+CH$SMILES: COC1=C(C=CC(=C1)C=O)O
+CH$IUPAC: InChI=1/C8H8O3/c1-11-8-4-6(5-9)2-3-7(8)10/h2-5,10H,1H3
+CH$IUPAC: 4-hydroxy-3-methoxybenzaldehyde
+CH$LINK: CAS 121-33-5
+CH$LINK: KEGG C00755
+CH$LINK: PUBCHEM CID 1183
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 153.16
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 20
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+    65 6820 91
+    91 2985 40
+    92 20081 270
+    93 74074 999
+    124 3213 43
+    125 22769 307
+    152 5342 72
+    153 15840 213
+//

@@ -1,0 +1,54 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS025102
+RECORD_TITLE: Hypotaurine; ESI-QQ; MS2; positive; CE 20 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, H1384.
+COMMENT: PRIMe compound in-house ID 251
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Hypotaurine
+CH$NAME: 2-Aminoethanesulfinic acid
+CH$NAME: 2-Aminoethylsulfinic Acid
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Other
+CH$COMPOUND_CLASS: CLASS3 Hypotaurine
+CH$FORMULA: C2H7NO2S
+CH$EXACT_MASS: 109.019
+CH$SMILES: C(CS(=O)O)N
+CH$IUPAC: InChI=1/C2H7NO2S/c3-1-2-6(4)5/h1-3H2,(H,4,5)/f/h4H
+CH$IUPAC: 2-aminoethanesulfinic acid
+CH$LINK: CAS 300-84-5
+CH$LINK: KEGG C00519
+CH$LINK: PUBCHEM CID 107812
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 110.04
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 20
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+    29 15080 224
+    30 67142 999
+    44 8382 124
+    45 26519 394
+    69 4588 68
+    91 4016 59
+    92 20904 311
+    109 11396 169
+    110 26420 393
+//

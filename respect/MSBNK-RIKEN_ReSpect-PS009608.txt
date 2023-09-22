@@ -1,0 +1,49 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS009608
+RECORD_TITLE: Pentachlorophenol; ESI-QQ; MS2; negative; CE 20 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, P2604.
+COMMENT: PRIMe compound in-house ID 96
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Pentachlorophenol
+CH$NAME: PCP
+CH$NAME: Chlorophen
+CH$NAME: Permacide
+CH$NAME: Fungifen
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Other
+CH$COMPOUND_CLASS: CLASS3 Other
+CH$FORMULA: C6HCl5O
+CH$EXACT_MASS: 89.002
+CH$SMILES: C1(=C(C(=C(C(=C1Cl)Cl)Cl)Cl)Cl)O
+CH$IUPAC: InChI=1/C6HCl5O/c7-1-2(8)4(10)6(12)5(11)3(1)9/h12H
+CH$IUPAC: 2,3,4,5,6-pentachlorophenol
+CH$LINK: CAS 87-86-5
+CH$LINK: KEGG C02575
+CH$LINK: PUBCHEM CID 992
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 263.01
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 20
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE NEGATIVE
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+    262 158459 999
+    263 140153 883
+//

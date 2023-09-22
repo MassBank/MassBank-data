@@ -1,0 +1,52 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS070103
+RECORD_TITLE: Methyl Jasmonate; ESI-QQ; MS2; positive; CE 30 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 135-14411.
+COMMENT: PRIMe compound in-house ID S0094
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Methyl Jasmonate
+CH$NAME: JA-Me
+CH$NAME: Jasmonic acid methyl ester
+CH$NAME: 3-Oxo-2-(2-pentenyl)cyclopentaneacetic Acid Methyl Ester
+CH$NAME: Zeppin
+CH$NAME: Methyl 3-oxo-2-(2-pentenyl)cyclopentaneacetate
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Carboxylic acid
+CH$COMPOUND_CLASS: CLASS3 Jasmonic acid
+CH$FORMULA: C13H20O3
+CH$EXACT_MASS: 224.141
+CH$SMILES: CCC=CCC1C(CCC1=O)CC(=O)OC
+CH$IUPAC: InChI=1/C13H20O3/c1-3-4-5-6-11-10(7-8-12(11)14)9-13(15)16-2/h4-5,10-11H,3,6-9H2,1-2H3/b5-4-/t10-,11-/m1/s1
+CH$IUPAC: methyl 2-[(1R,2R)-3-oxo-2-[(Z)-pent-2-enyl]cyclopentyl]acetate
+CH$LINK: CAS 1211-29-6
+CH$LINK: KEGG C11512
+CH$LINK: PUBCHEM CID 5281929
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 225.32
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 30
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+    191 3437 33
+    193 5676 55
+    206 35021 339
+    207 102959 999
+//

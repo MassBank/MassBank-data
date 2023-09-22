@@ -1,0 +1,49 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS101401
+RECORD_TITLE: N-Isovaleroylglycine; ESI-QQ; MS2; positive; CE 10 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound TCI, I0301.
+COMMENT: PRIMe compound in-house ID N0072
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: N-Isovaleroylglycine
+CH$NAME: 2-(3-methylbutanoylamino)acetic acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid
+CH$COMPOUND_CLASS: CLASS2 Glycine
+CH$FORMULA: C7H13NO3
+CH$EXACT_MASS: 159.089
+CH$SMILES: CC(C)CC(=O)NCC(=O)O
+CH$IUPAC: InChI=1/C7H13NO3/c1-5(2)3-6(9)8-4-7(10)11/h5H,3-4H2,1-2H3,(H,8,9)(H,10,11)/f/h8,10H
+CH$IUPAC: 2-(3-methylbutanoylamino)acetic acid
+CH$LINK: CAS 16284-60-9
+CH$LINK: KEGG -
+CH$LINK: PUBCHEM CID 546304
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 160.18
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 10
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+    75 73892 177
+    76 415273 999
+    84 29823 71
+    85 176740 425
+    159 23624 56
+    160 325064 781
+//

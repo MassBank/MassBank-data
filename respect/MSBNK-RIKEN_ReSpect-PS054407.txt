@@ -1,0 +1,57 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS054407
+RECORD_TITLE: Dulcitol; ESI-QQ; MS2; negative; CE 10 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, D0256.
+COMMENT: PRIMe compound in-house ID T0052
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Dulcitol
+CH$NAME: Galactitol
+CH$NAME: Galactit
+CH$NAME: Dulcite
+CH$NAME: Dulcin
+CH$NAME: Melampyrite
+CH$NAME: Dulcose
+CH$NAME: 1,2,3,4,5,6-Hexanehexol
+CH$NAME: Melampyrum
+CH$NAME: Melampyrite
+CH$NAME: Dulcose
+CH$NAME: Melampyrin
+CH$NAME: Euonymit
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Sugar
+CH$COMPOUND_CLASS: CLASS3 Monosaccharide
+CH$FORMULA: C6H14O6
+CH$EXACT_MASS: 182.079
+CH$SMILES: C(C(C(C(C(CO)O)O)O)O)O
+CH$IUPAC: InChI=1/C6H14O6/c7-1-3(9)5(11)6(12)4(10)2-8/h3-12H,1-2H2/t3-,4+,5+,6-
+CH$IUPAC: (2R,3S,4R,5S)-hexane-1,2,3,4,5,6-hexol
+CH$LINK: CAS 608-66-2
+CH$LINK: KEGG C01697
+CH$LINK: PUBCHEM CID 11850
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 181.18
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 10
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE NEGATIVE
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+    180 16189 45
+    181 354952 999
+//

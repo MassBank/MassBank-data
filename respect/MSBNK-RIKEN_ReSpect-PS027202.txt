@@ -1,0 +1,62 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS027202
+RECORD_TITLE: L-Glutamic acid; ESI-QQ; MS2; positive; CE 20 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, G1251.
+COMMENT: PRIMe compound in-house ID 272
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-Glutamic acid
+CH$NAME: Glu
+CH$NAME: L-Glutamate
+CH$NAME: alpha-Glutamic acid
+CH$NAME: L-alpha-Aminoglutaric Acid
+CH$NAME: (S)-2-Aminopentanedioic acid
+CH$NAME: L-1-Aminopropane-1,3-dicarboxylic Acid
+CH$NAME: 1-Aminopropane-1,3-dicarboxylic acid
+CH$NAME: Aciglut
+CH$NAME: Glusate
+CH$NAME: Glutacid
+CH$NAME: Glutaminol
+CH$NAME: Glutaton
+CH$COMPOUND_CLASS: CLASS1 Amino acid
+CH$COMPOUND_CLASS: CLASS2 Glutamic acid
+CH$FORMULA: C5H9NO4
+CH$EXACT_MASS: 147.053
+CH$SMILES: C(CC(=O)O)C(C(=O)O)N
+CH$IUPAC: InChI=1/C5H9NO4/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H,7,8)(H,9,10)/t3-/m0/s1/f/h7,9H
+CH$IUPAC: (2S)-2-aminopentanedioic acid
+CH$LINK: CAS 56-86-0
+CH$LINK: KEGG C00025
+CH$LINK: PUBCHEM CID 33032
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 148.12
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 20
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+    83 30495 184
+    84 165181 999
+    101 21047 127
+    102 49360 298
+    129 6626 40
+    130 24035 145
+    147 10955 66
+    148 26773 161
+//

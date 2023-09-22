@@ -1,0 +1,65 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS007005
+RECORD_TITLE: 7-Hydroxy-4-methylcoumarin; ESI-QQ; MS2; positive; CE 50 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound WAKO/LAMBDA, A-020.
+COMMENT: PRIMe compound in-house ID 70
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 7-Hydroxy-4-methylcoumarin
+CH$NAME: 4-MU
+CH$NAME: 4-Methylumbelliferone
+CH$NAME: beta-Methylumbelliferone
+CH$NAME: Hymecromone
+CH$NAME: Cholestil
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid
+CH$COMPOUND_CLASS: CLASS2 Coumarin
+CH$COMPOUND_CLASS: CLASS3 Cholestil
+CH$FORMULA: C10H8O3
+CH$EXACT_MASS: 176.047
+CH$SMILES: CC1=CC(=O)OC2=C1C=CC(=C2)O
+CH$IUPAC: InChI=1/C10H8O3/c1-6-4-10(12)13-9-5-7(11)2-3-8(6)9/h2-5,11H,1H3
+CH$IUPAC: 7-hydroxy-4-methylchromen-2-one
+CH$LINK: CAS 90-33-5
+CH$LINK: KEGG C03081
+CH$LINK: PUBCHEM CID 5280567
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 177.16
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 50
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 17
+PK$PEAK: m/z int. rel.int.
+    50 1326 31
+    51 1487 35
+    65 1445 34
+    69 6487 155
+    76 16858 403
+    77 41709 999
+    78 3288 78
+    79 3299 79
+    90 3444 82
+    91 2748 65
+    93 3288 78
+    102 1647 39
+    103 7101 170
+    120 2043 48
+    121 3398 81
+    176 1653 39
+    177 2379 56
+//

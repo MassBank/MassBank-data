@@ -1,0 +1,51 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS092403
+RECORD_TITLE: Kaempferol-3-Glucuronide; ESI-QQ; MS2; positive; CE 30 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound AnalytiCon, NP-000836.
+COMMENT: PRIMe compound in-house ID T0156
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Kaempferol-3-Glucuronide
+CH$NAME: Kaem-3-GlcA
+CH$NAME: Kaempferol-3-glucuronoside
+CH$COMPOUND_CLASS: CLASS1 Flavonoid
+CH$COMPOUND_CLASS: CLASS2 Flavonol
+CH$COMPOUND_CLASS: CLASS3 Kaempferol glycoside
+CH$FORMULA: C21H18O12
+CH$EXACT_MASS: 462.079
+CH$SMILES: C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)C(=O)O)O)O)O)O
+CH$IUPAC: InChI=1/C21H18O12/c22-8-3-1-7(2-4-8)17-18(13(25)12-10(24)5-9(23)6-11(12)31-17)32-21-16(28)14(26)15(27)19(33-21)20(29)30/h1-6,14-16,19,21-24,26-28H,(H,29,30)/t14-,15-,16+,19-,21+/m0/s1/f/h29H
+CH$IUPAC: (2S,3S,4S,5R,6S)-6-[5,7-dihydroxy-2-(4-hydroxyphenyl)-4-oxochromen-3-yl]oxy-3,4,5-trihydroxyoxane-2-carboxylic acid
+CH$LINK: CAS 22688-78-4
+CH$LINK: KEGG -
+CH$LINK: PUBCHEM CID 5318759
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 463.41
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 30
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+    113 6838 47
+    158 4675 32
+    159 10586 73
+    286 41242 284
+    287 144605 999
+    288 11660 80
+//

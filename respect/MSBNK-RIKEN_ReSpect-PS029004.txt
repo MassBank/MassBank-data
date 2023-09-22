@@ -1,0 +1,55 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS029004
+RECORD_TITLE: L-Valine; ESI-QQ; MS2; positive; CE 40 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, V0500.
+COMMENT: PRIMe compound in-house ID 290
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-Valine
+CH$NAME: Val
+CH$NAME: L-2-Amino-3-methylbutanoic acid
+CH$NAME: (S)-α-Aminoisovaleric acid
+CH$NAME: L-alpha-Aminoisovalerianic Acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid
+CH$COMPOUND_CLASS: CLASS2 Valine
+CH$FORMULA: C5H11NO2
+CH$EXACT_MASS: 117.078
+CH$SMILES: CC(C)C(C(=O)O)N
+CH$IUPAC: InChI=1/C5H11NO2/c1-3(2)4(6)5(7)8/h3-4H,6H2,1-2H3,(H,7,8)/t4-/m0/s1/f/h7H
+CH$IUPAC: (2S)-2-amino-3-methylbutanoic acid
+CH$LINK: CAS 72-18-4
+CH$LINK: KEGG C00183
+CH$LINK: PUBCHEM CID 6287
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 118.11
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 40
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+    24 1718 34
+    28 1731 34
+    29 2688 53
+    54 3776 75
+    55 50123 999
+    56 1510 30
+    57 2166 43
+    71 2096 41
+    72 36057 718
+//

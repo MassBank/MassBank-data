@@ -1,0 +1,62 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS065206
+RECORD_TITLE: 4-Methyl-5-thiazoleethanol; ESI-QQ; MS2; positive; CE 60 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound W chemical, 324-23592 .
+COMMENT: PRIMe compound in-house ID S0039
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 4-Methyl-5-thiazoleethanol
+CH$NAME: MHT
+CH$NAME: Sulfurol
+CH$NAME: Hemineurine
+CH$NAME: 4-Methyl-5-hydroxyethylthiazole
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Other
+CH$COMPOUND_CLASS: CLASS3 Thiazole
+CH$FORMULA: C6H9NOS
+CH$EXACT_MASS: 143.04
+CH$SMILES: CC1=C(SC=N1)CCO
+CH$IUPAC: InChI=1/C6H9NOS/c1-5-6(2-3-8)9-4-7-5/h4,8H,2-3H2,1H3
+CH$IUPAC: 2-(4-methyl-1,3-thiazol-5-yl)ethanol
+CH$LINK: CAS 137-00-8
+CH$LINK: KEGG C04294
+CH$LINK: PUBCHEM CID 1136
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 144.11
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 60
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 15
+PK$PEAK: m/z int. rel.int.
+    55 3533 80
+    65 1599 36
+    68 1411 32
+    70 1784 40
+    71 5941 136
+    72 2666 61
+    80 3973 91
+    84 1710 39
+    85 1581 36
+    94 1316 30
+    110 1551 35
+    111 2593 59
+    112 25898 593
+    113 43583 999
+    124 1872 42
+//

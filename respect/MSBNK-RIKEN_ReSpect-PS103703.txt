@@ -1,0 +1,53 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS103703
+RECORD_TITLE: (R)-(-)-mandelic acid; ESI-QQ; MS2; positive; CE 30 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, M2209.
+COMMENT: PRIMe compound in-house ID N0095
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: (R)-(-)-mandelic acid
+CH$NAME: D(-)-Mandelic acid
+CH$NAME: (R)-Mandelate
+CH$NAME: (R)-2-Hydroxy-2-phenylacetic acid
+CH$NAME: (R)-2-Hydroxy-2-phenylacetate
+CH$NAME: D-2-Phenylglycolic acid
+CH$NAME: D-(-)-Amygdalic Acid
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Carboxylic acid
+CH$COMPOUND_CLASS: CLASS3 Mandelic acid
+CH$FORMULA: C8H8O3
+CH$EXACT_MASS: 152.047
+CH$SMILES: C1=CC=C(C=C1)C(C(=O)O)O
+CH$IUPAC: InChI=1/C8H8O3/c9-7(8(10)11)6-4-2-1-3-5-6/h1-5,7,9H,(H,10,11)/t7-/m1/s1/f/h10H
+CH$IUPAC: (2R)-2-hydroxy-2-phenylacetic acid
+CH$LINK: CAS 611-71-2
+CH$LINK: KEGG C01983
+CH$LINK: PUBCHEM CID 11914
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 152.18
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 30
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+    70 94255 999
+    71 4838 51
+    89 9194 97
+    112 4374 46
+//

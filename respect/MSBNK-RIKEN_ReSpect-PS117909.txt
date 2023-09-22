@@ -1,0 +1,51 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS117909
+RECORD_TITLE: Sinapoyl malate; ESI-QQ; MS2; negative; CE 30 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Nakabayashi_Chiba_Univ, -.
+COMMENT: PRIMe compound in-house ID R0026
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Sinapoyl malate
+CH$NAME: Sinapoyl-(S)-malate
+CH$NAME: 2-O-sinapoylmalate 
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid
+CH$COMPOUND_CLASS: CLASS2 Phenylpropanoid ester
+CH$COMPOUND_CLASS: CLASS3 Sinapoyl malate
+CH$FORMULA: C15H16O9
+CH$EXACT_MASS: 340.079
+CH$SMILES: COC1=CC(=CC(=C1O)OC)C=CC(=O)OC(CC(=O)O)C(=O)O
+CH$IUPAC: InChI=1/C15H16O9/c1-22-9-5-8(6-10(23-2)14(9)19)3-4-13(18)24-11(15(20)21)7-12(16)17/h3-6,11,19H,7H2,1-2H3,(H,16,17)(H,20,21)/b4-3+/t11-/m0/s1/f/h16,20H
+CH$IUPAC: (2S)-2-[(E)-3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoyl]oxybutanedioic acid
+CH$LINK: CAS 92344-58-6
+CH$LINK: KEGG C02887
+CH$LINK: PUBCHEM CID 11953815
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 339.31
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 30
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE NEGATIVE
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+    71 3572 70
+    133 13359 261
+    163 7448 145
+    164 28630 561
+    222 8235 161
+    223 50971 999
+//

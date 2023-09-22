@@ -1,0 +1,53 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS101801
+RECORD_TITLE: Sodium 2-Oxobutyrate; ESI-QQ; MS2; positive; CE 10 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, K0875.
+COMMENT: PRIMe compound in-house ID N0076
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Sodium 2-Oxobutyrate
+CH$NAME: 2-Oxobutyric Acid
+CH$NAME: alpha-ketobutyrate
+CH$NAME: 2-Oxobutanoic acid
+CH$NAME: Propionylformic acid
+CH$NAME: 3-Methylpyruvic acid
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Carboxylic acid
+CH$COMPOUND_CLASS: CLASS3 Butyric acid
+CH$FORMULA: C4H6O3
+CH$EXACT_MASS: 102.031
+CH$SMILES: CCC(=O)C(=O)O
+CH$IUPAC: InChI=1/C4H6O3/c1-2-3(5)4(6)7/h2H2,1H3,(H,6,7)/f/h6H
+CH$IUPAC: 2-oxobutanoic acid
+CH$LINK: CAS 600-18-0
+CH$LINK: KEGG C00109
+CH$LINK: PUBCHEM CID 58
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 102.11
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 10
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+    42 6062 49
+    43 6924 56
+    59 12026 97
+    60 122804 999
+    102 8976 73
+//

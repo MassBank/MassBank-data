@@ -1,0 +1,49 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS122908
+RECORD_TITLE: E-3,4,5'-trihydroxy-3'-glucopyranosylstilbene; ESI-QQ; MS2; negative; CE 20 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound polyphenols, 11100-1.
+COMMENT: PRIMe compound in-house ID V0103
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: E-3,4,5'-trihydroxy-3'-glucopyranosylstilbene
+CH$NAME: E-Astringin
+CH$COMPOUND_CLASS: CLASS1 Stilbenoid
+CH$COMPOUND_CLASS: CLASS2 Stilben
+CH$COMPOUND_CLASS: CLASS3 Stilbene glycoside
+CH$FORMULA: C20H22O9
+CH$EXACT_MASS: 406.126
+CH$SMILES: C1=CC(=C(C=C1C=CC2=CC(=CC(=C2)OC3C(C(C(C(O3)CO)O)O)O)O)O)O
+CH$IUPAC: InChI=1/C20H22O9/c21-9-16-17(25)18(26)19(27)20(29-16)28-13-6-11(5-12(22)8-13)2-1-10-3-4-14(23)15(24)7-10/h1-8,16-27H,9H2/b2-1+/t16-,17-,18+,19-,20-/m1/s1
+CH$IUPAC: (2S,3R,4S,5S,6R)-2-[3-[(E)-2-(3,4-dihydroxyphenyl)ethenyl]-5-hydroxyphenoxy]-6-(hydroxymethyl)oxane-3,4,5-triol
+CH$LINK: CAS 29884-49-9
+CH$LINK: KEGG C10245
+CH$LINK: PUBCHEM CID 5281712
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 405.42
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 20
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE NEGATIVE
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+    242 9513 141
+    243 67375 999
+    404 16655 246
+    405 49514 734
+    406 2087 30
+//

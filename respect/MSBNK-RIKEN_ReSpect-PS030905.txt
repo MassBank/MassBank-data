@@ -1,0 +1,52 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS030905
+RECORD_TITLE: Nicotinic acid mono nucleotide; ESI-QQ; MS2; positive; CE 50 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, N7764.
+COMMENT: PRIMe compound in-house ID 309
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Nicotinic acid mono nucleotide 
+CH$NAME: NCN
+CH$NAME: NaMN
+CH$NAME: deamido-NMN
+CH$NAME: nicotinate-D-ribonucleotide
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Vitamin
+CH$FORMULA: C11H14NO9P
+CH$EXACT_MASS: 335.04
+CH$SMILES: C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)O)O)O)C(=O)O
+CH$IUPAC: InChI=1/C11H14NO9P/c13-8-7(5-20-22(17,18)19)21-10(9(8)14)12-3-1-2-6(4-12)11(15)16/h1-4,7-10,13-14H,5H2,(H2-,15,16,17,18,19)/p+1/t7-,8-,9-,10-/m1/s1/fC11H15NO9P/h15,17-18H/q+1
+CH$IUPAC: 1-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(phosphonooxymethyl)oxolan-2-yl]pyridin-1-ium-3-carboxylic acid
+CH$LINK: CAS 321-02-8
+CH$LINK: KEGG C01185
+CH$LINK: PUBCHEM CID 121992
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 336.26
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 50
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+    41 8570 59
+    69 10473 72
+    96 46302 319
+    97 135460 935
+    123 47136 325
+    124 144579 999
+//

@@ -1,0 +1,47 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS076102
+RECORD_TITLE: 3,5-Dimethoxycinnamic acid; ESI-QQ; MS2; positive; CE 20 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, D134007.
+COMMENT: PRIMe compound in-house ID S0168
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 3,5-Dimethoxycinnamic acid 
+CH$NAME: 3,5-Dimethoxyphenyl-2-propenoic acid
+CH$COMPOUND_CLASS: CLASS1 Phenylpropanoid
+CH$COMPOUND_CLASS: CLASS2 Phenylpropanoid monomer
+CH$COMPOUND_CLASS: CLASS3 Cinnamic acid
+CH$FORMULA: C11H12O4
+CH$EXACT_MASS: 208.073
+CH$SMILES: COC1=CC(=CC(=C1)C=CC(=O)O)OC
+CH$IUPAC: InChI=1/C11H12O4/c1-14-9-5-8(3-4-11(12)13)6-10(7-9)15-2/h3-7H,1-2H3,(H,12,13)/b4-3+/f/h12H
+CH$IUPAC: (E)-3-(3,5-dimethoxyphenyl)prop-2-enoic acid
+CH$LINK: CAS 16909-11-8
+CH$LINK: KEGG -
+CH$LINK: PUBCHEM CID 5324677
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 209.23
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 20
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+    190 54076 327
+    191 165094 999
+    208 5355 32
+//

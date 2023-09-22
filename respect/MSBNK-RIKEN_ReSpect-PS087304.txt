@@ -1,0 +1,63 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS087304
+RECORD_TITLE: Solasodine; ESI-QQ; MS2; positive; CE 40 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako/MP Bio, 593-27041/156634 .
+COMMENT: PRIMe compound in-house ID S0347
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Solasodine
+CH$NAME: Salasodine
+CH$NAME: Solancarpidine
+CH$NAME: Purapuridine
+CH$NAME: Solasod-5-en-3beta-ol
+CH$COMPOUND_CLASS: CLASS1 Alkaloid
+CH$COMPOUND_CLASS: CLASS2 Steroid
+CH$COMPOUND_CLASS: CLASS3 Solancarpidine
+CH$FORMULA: C27H43NO2
+CH$EXACT_MASS: 413.329
+CH$SMILES: CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CC=C6C5(CCC(C6)O)C)C)C)NC1
+CH$IUPAC: InChI=1/C27H43NO2/c1-16-7-12-27(28-15-16)17(2)24-23(30-27)14-22-20-6-5-18-13-19(29)8-10-25(18,3)21(20)9-11-26(22,24)4/h5,16-17,19-24,28-29H,6-15H2,1-4H3/t16-,17+,19+,20-,21+,22+,23+,24+,25+,26+,27-/m1/s1
+CH$IUPAC: no data
+CH$LINK: CAS 126-17-0
+CH$LINK: KEGG C10822
+CH$LINK: PUBCHEM CID 442985
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 414.6
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 40
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 16
+PK$PEAK: m/z int. rel.int.
+    70 14117 80
+    109 8462 48
+    114 18045 102
+    121 7548 43
+    147 7938 45
+    157 12970 73
+    253 23042 131
+    270 6240 35
+    271 17233 98
+    396 12978 74
+    397 7395 42
+    411 8860 50
+    412 20119 114
+    413 51962 296
+    414 175186 999
+    415 97619 556
+//

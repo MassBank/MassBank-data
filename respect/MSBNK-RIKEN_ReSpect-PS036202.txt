@@ -1,0 +1,53 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS036202
+RECORD_TITLE: trans-4-Hydroxy-L-proline; ESI-QQ; MS2; positive; CE 20 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, H6002(H5534).
+COMMENT: PRIMe compound in-house ID 362
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: trans-4-Hydroxy-L-proline
+CH$NAME: Hyp
+CH$NAME: Hypro
+CH$NAME: (2S,4R)-4-Hydroxypyrrolidine-2-carboxylic acid
+CH$NAME: Oxaceprol
+CH$COMPOUND_CLASS: CLASS1 Amino acid
+CH$COMPOUND_CLASS: CLASS2 Proline
+CH$FORMULA: C5H9NO3
+CH$EXACT_MASS: 131.058
+CH$SMILES: C1C(CNC1C(=O)O)O
+CH$IUPAC: InChI=1/C5H9NO3/c7-3-1-4(5(8)9)6-2-3/h3-4,6-7H,1-2H2,(H,8,9)/t3-,4+/m1/s1/f/h8H
+CH$IUPAC: (2S,4R)-4-hydroxypyrrolidine-2-carboxylic acid
+CH$LINK: CAS 51-35-4
+CH$LINK: KEGG C01157
+CH$LINK: PUBCHEM CID 5810
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 132.11
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 20
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+    67 18134 76
+    68 85041 359
+    85 33369 141
+    86 235994 999
+    130 10300 43
+    131 38109 161
+    132 113466 480
+//

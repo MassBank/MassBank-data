@@ -1,0 +1,48 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS104307
+RECORD_TITLE: Ethylmalonic acid; ESI-QQ; MS2; negative; CE 10 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, 102687.
+COMMENT: PRIMe compound in-house ID N0101
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Ethylmalonic acid 
+CH$NAME: Ethylmalonate
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Carboxylic acid
+CH$COMPOUND_CLASS: CLASS3 Malonic acid
+CH$FORMULA: C5H8O4
+CH$EXACT_MASS: 132.042
+CH$SMILES: CCC(C(=O)O)C(=O)O
+CH$IUPAC: InChI=1/C5H8O4/c1-2-3(4(6)7)5(8)9/h3H,2H2,1H3,(H,6,7)(H,8,9)/f/h6,8H
+CH$IUPAC: 2-ethylpropanedioic acid
+CH$LINK: CAS 601-75-2
+CH$LINK: KEGG -
+CH$LINK: PUBCHEM CID 11756
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 131.09
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 10
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE NEGATIVE
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+    86 3879 33
+    87 115665 999
+    130 9722 83
+    131 63242 546
+//

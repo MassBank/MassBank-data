@@ -1,0 +1,60 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS006904
+RECORD_TITLE: 3-(2-Aminoethyl)indole Hydrochloride; ESI-QQ; MS2; positive; CE 40 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound WAKO, 204-09781.
+COMMENT: PRIMe compound in-house ID 69
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 3-(2-Aminoethyl)indole Hydrochloride
+CH$NAME: Tryptamine Hydrochloride
+CH$NAME: beta-3-Indolylethylamine hydrochloride
+CH$COMPOUND_CLASS: CLASS1 Alkaloid
+CH$COMPOUND_CLASS: CLASS2 Indole
+CH$COMPOUND_CLASS: CLASS3 Tryptamine
+CH$FORMULA: C10H12N2
+CH$EXACT_MASS: 160.1
+CH$SMILES: C1=CC=C2C(=C1)C(=CN2)CCN
+CH$IUPAC: InChI=1/C10H12N2/c11-6-5-8-7-12-10-4-2-1-3-9(8)10/h1-4,7,12H,5-6,11H2
+CH$IUPAC: 2-(1H-indol-3-yl)ethanamine
+CH$LINK: CAS 61-54-1
+CH$LINK: KEGG C00398
+CH$LINK: PUBCHEM CID 1150
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 161.18
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 40
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 15
+PK$PEAK: m/z int. rel.int.
+    77 3683 81
+    90 6184 136
+    91 13246 291
+    114 3460 76
+    115 12693 279
+    116 6919 152
+    117 21455 472
+    126 1966 43
+    127 7387 162
+    128 1687 37
+    141 4650 102
+    142 12271 270
+    143 25988 572
+    144 45329 999
+    145 1624 35
+//

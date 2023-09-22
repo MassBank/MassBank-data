@@ -1,0 +1,52 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS028404
+RECORD_TITLE: L-Norvaline; ESI-QQ; MS2; positive; CE 40 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, N7627.
+COMMENT: PRIMe compound in-house ID 284
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-Norvaline
+CH$NAME: Nva
+CH$NAME: L-2-Aminovaleric acid
+CH$NAME: (S)-(+)-2-Aminopentanoic acid
+CH$NAME: (S)-2-Aminovaleric acid
+CH$COMPOUND_CLASS: CLASS1 Amino acid
+CH$COMPOUND_CLASS: CLASS2 Valine
+CH$FORMULA: C5H11NO2
+CH$EXACT_MASS: 117.078
+CH$SMILES: CCCC(C(=O)O)N
+CH$IUPAC: InChI=1/C5H11NO2/c1-2-3-4(6)5(7)8/h4H,2-3,6H2,1H3,(H,7,8)/t4-/m0/s1/f/h7H
+CH$IUPAC: (2S)-2-aminopentanoic acid
+CH$LINK: CAS 6600-40-4
+CH$LINK: KEGG C01826
+CH$LINK: PUBCHEM CID 65098
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 118.11
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 40
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+    29 11715 195
+    30 59766 999
+    44 1840 30
+    55 8706 145
+    71 1869 31
+    72 25773 430
+//

@@ -1,0 +1,48 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS075102
+RECORD_TITLE: Zeatin-9-glucoside; ESI-QQ; MS2; positive; CE 20 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, Z0537.
+COMMENT: PRIMe compound in-house ID S0149
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Zeatin-9-glucoside
+CH$NAME: 9-(beta-D-Glucopyranosyl)-trans-zeatin
+CH$NAME: trans-Zeatinglucoside
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Nucleoside
+CH$COMPOUND_CLASS: CLASS3 Zeatin
+CH$FORMULA: C16H23N5O6
+CH$EXACT_MASS: 381.164
+CH$SMILES: CC(=CCNC1=NC=NC2=C1N=CN2C3C(C(C(C(O3)CO)O)O)O)CO
+CH$IUPAC: InChI=1/C16H23N5O6/c1-8(4-22)2-3-17-14-10-15(19-6-18-14)21(7-20-10)16-13(26)12(25)11(24)9(5-23)27-16/h2,6-7,9,11-13,16,22-26H,3-5H2,1H3,(H,17,18,19)/b8-2+/t9-,11-,12+,13-,16-/m1/s1/f/h17H
+CH$IUPAC: (2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-[6-[[(E)-4-hydroxy-3-methylbut-2-enyl]amino]purin-9-yl]oxane-3,4,5-triol
+CH$LINK: CAS 51255-96-0
+CH$LINK: KEGG -
+CH$LINK: PUBCHEM CID 9842892
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 382.41
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 20
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+    220 415724 273
+    381 420259 276
+    382 1519398 999
+//

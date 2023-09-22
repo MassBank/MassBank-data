@@ -1,0 +1,82 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS123706
+RECORD_TITLE: Safranine; ESI-QQ; MS2; positive; CE 60 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Wako, 196-00032.
+COMMENT: PRIMe compound in-house ID V0111
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Safranine
+CH$NAME: 2,8-Dimethylphenosafranine
+CH$NAME: Gossypimine
+CH$NAME: Tolusafranine
+CH$COMPOUND_CLASS: CLASS1 Amino acid
+CH$COMPOUND_CLASS: CLASS2 Ethionine
+CH$FORMULA: C20H19N4
+CH$EXACT_MASS: 315.16
+CH$SMILES: CC1=CC2=C(C=C1N)[N+](=C3C=C(C(=CC3=N2)C)N)C4=CC=CC=C4
+CH$IUPAC: InChI=1/C20H18N4/c1-12-8-17-19(10-15(12)21)24(14-6-4-3-5-7-14)20-11-16(22)13(2)9-18(20)23-17/h3-11H,1-2H3,(H3,21,22)/p+1/fC20H19N4/h21-22H2/q+1
+CH$IUPAC: 3,7-dimethyl-10-phenylphenazin-10-ium-2,8-diamine
+CH$LINK: CAS 477-73-6
+CH$LINK: KEGG -
+CH$LINK: PUBCHEM CID 2723801
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 315.39
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 60
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 37
+PK$PEAK: m/z int. rel.int.
+    196 4022 73
+    197 5465 99
+    209 3259 59
+    210 9856 180
+    211 5178 94
+    220 1720 31
+    221 2450 44
+    222 3608 65
+    223 5173 94
+    235 2948 53
+    236 13240 241
+    237 23605 431
+    238 27376 500
+    239 2220 40
+    272 4793 87
+    273 5739 104
+    280 2618 47
+    282 2676 48
+    283 4072 74
+    284 3055 55
+    286 2277 41
+    296 4824 88
+    297 6396 116
+    298 13553 247
+    299 18675 341
+    300 6379 116
+    307 2231 40
+    308 3059 55
+    309 4466 81
+    310 6466 118
+    311 7030 128
+    312 13063 238
+    313 27637 504
+    314 44436 811
+    315 54695 999
+    316 16464 300
+    317 5629 102
+//

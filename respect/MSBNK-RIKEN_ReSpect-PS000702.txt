@@ -1,0 +1,49 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS000702
+RECORD_TITLE: 4-Hydroxyphenylpyruvic acid; ESI-QQ; MS2; positive; CE 20 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound Aldrich, 114286.
+COMMENT: PRIMe compound in-house ID 7
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: 4-Hydroxyphenylpyruvic acid
+CH$NAME: HPPA
+CH$NAME: Testacid
+CH$NAME: Testacide
+CH$NAME: p-hydroxyphenylpyruvate
+CH$NAME: 3-(4-Hydroxyphenyl)-2-oxopropanoic acid
+CH$COMPOUND_CLASS: CLASS1 Other
+CH$COMPOUND_CLASS: CLASS2 Carboxylic acid
+CH$COMPOUND_CLASS: CLASS3 Pyruvic acid
+CH$FORMULA: C9H8O4
+CH$EXACT_MASS: 180.042
+CH$SMILES: C1=CC(=CC=C1CC(=O)C(=O)O)O
+CH$IUPAC: InChI=1/C9H8O4/c10-7-3-1-6(2-4-7)5-8(11)9(12)13/h1-4,10H,5H2,(H,12,13)/f/h12H
+CH$IUPAC: 3-(4-hydroxyphenyl)-2-oxopropanoic acid
+CH$LINK: CAS 156-39-8
+CH$LINK: KEGG C01179
+CH$LINK: PUBCHEM CID 979
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 181.14
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 20
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+    99 102757 999
+//

@@ -1,0 +1,51 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS004901
+RECORD_TITLE: Glycine; ESI-QQ; MS2; positive; CE 10 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound WAKO, 077-00735.
+COMMENT: PRIMe compound in-house ID 49
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Glycine
+CH$NAME: Gly
+CH$NAME: Aminoacetic Acid
+CH$NAME: Aminoethanoic acid
+CH$NAME: Glycocoll
+CH$COMPOUND_CLASS: CLASS1 Amino acid
+CH$COMPOUND_CLASS: CLASS2 Glycine
+CH$FORMULA: C2H5NO2
+CH$EXACT_MASS: 75.032
+CH$SMILES: C(C(=O)O)N
+CH$IUPAC: InChI=1/C2H5NO2/c3-1-2(4)5/h1,3H2,(H,4,5)/f/h4H
+CH$IUPAC: 2-aminoacetic acid
+CH$LINK: CAS 56-40-6
+CH$LINK: KEGG C00037
+CH$LINK: PUBCHEM CID 750
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 76.04
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 10
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+    29 28302 78
+    30 200819 553
+    48 26151 72
+    75 63174 174
+    76 362341 999
+//

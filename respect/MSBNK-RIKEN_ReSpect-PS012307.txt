@@ -1,0 +1,48 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS012307
+RECORD_TITLE: Geranylgeranyl pyrophosphate ammonium salt; ESI-QQ; MS2; negative; CE 10 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, G6025.
+COMMENT: PRIMe compound in-house ID 123
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: Geranylgeranyl pyrophosphate ammonium salt
+CH$NAME: GGPP
+CH$NAME: all trans-3,7,11,15-Tetramethyl-2,6,10,14-hexadecatetraenyl pyrophosphate ammonium salt
+CH$COMPOUND_CLASS: CLASS1 Terpenoid
+CH$COMPOUND_CLASS: CLASS2 Other
+CH$COMPOUND_CLASS: CLASS3 Geranylgeranyl diphosphate
+CH$FORMULA: C20H36O7P2
+CH$EXACT_MASS: 450.193
+CH$SMILES: CC(=CCCC(=CCCC(=CCCC(=CCOP(=O)(O)OP(=O)(O)O)C)C)C)C
+CH$IUPAC: InChI=1/C20H36O7P2/c1-17(2)9-6-10-18(3)11-7-12-19(4)13-8-14-20(5)15-16-26-29(24,25)27-28(21,22)23/h9,11,13,15H,6-8,10,12,14,16H2,1-5H3,(H,24,25)(H2,21,22,23)/b18-11+,19-13+,20-15+/f/h21-22,24H
+CH$IUPAC: phosphono [(2E,6E,10E)-3,7,11,15-tetramethylhexadeca-2,6,10,14-tetraenyl] hydrogen phosphate
+CH$LINK: CAS 6699-20-3
+CH$LINK: KEGG C00353
+CH$LINK: PUBCHEM CID 447277
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 449.48
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 10
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE NEGATIVE
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+    448 27837 141
+    449 195926 999
+    450 87765 447
+//

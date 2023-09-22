@@ -1,0 +1,66 @@
+ACCESSION: MSBNK-RIKEN_ReSpect-PS027405
+RECORD_TITLE: L-Glutathione (reduced form); ESI-QQ; MS2; positive; CE 50 V
+DATE: 2009.02.09
+AUTHORS: Sawada Y, Matsuda F, and Hirai MY. Plant Science Center, RIKEN
+LICENSE: CC BY-NC
+COPYRIGHT: Copyright(C) 2008 Plant Science Center, RIKEN
+PUBLICATION: Sawada et al Widely targeted metabolomics based on large-scale MS/MS data for elucidating metabolite accumulation patterns in plants. Plant Cell Physiol(2009) 50:37-47:doi:10.1093/pcp/pcn183 
+COMMENT: Build 5
+COMMENT: Data acquisition and generation is financially supported in part by CREST/JST.
+COMMENT: Source compound SIGMA, G4251.
+COMMENT: PRIMe compound in-house ID 274
+COMMENT: This spectra was automatically generated from the raw data without manual curation of data quality.
+COMMENT: The spectral data and services are available to the research and academic community only.
+COMMENT: All users must cite follwing literature in publication(s).
+CH$NAME: L-Glutathione (reduced form)
+CH$NAME: GSH
+CH$NAME: gamma-Glu-Cys-Gly
+CH$NAME: gamma-L-Glutamyl-L-cysteinyl-glycine
+CH$COMPOUND_CLASS: CLASS1 Amino acid
+CH$COMPOUND_CLASS: CLASS2 Peptide
+CH$COMPOUND_CLASS: CLASS3 Oligopeptide
+CH$FORMULA: C10H17N3O6S
+CH$EXACT_MASS: 307.083
+CH$SMILES: C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N
+CH$IUPAC: InChI=1/C10H17N3O6S/c11-5(10(18)19)1-2-7(14)13-6(4-20)9(17)12-3-8(15)16/h5-6,20H,1-4,11H2,(H,12,17)(H,13,14)(H,15,16)(H,18,19)/t5-,6-/m0/s1/f/h12-13,15,18H
+CH$IUPAC: (2S)-2-amino-5-[[(2R)-1-(carboxymethylamino)-1-oxo-3-sulfanylpropan-2-yl]amino]-5-oxopentanoic acid
+CH$LINK: CAS 70-18-8
+CH$LINK: KEGG C00051
+CH$LINK: PUBCHEM CID 124886
+AC$INSTRUMENT: TQD, Waters
+AC$INSTRUMENT_TYPE: N/A
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 307.35
+STRUCTURE_FILE_NAME: N/A
+AC$ANALYTICAL_CONDITION: MS_TYPE Flow-injection QqQ/MS
+AC$ANALYTICAL_CONDITION: IONIZATION ESI
+AC$ANALYTICAL_CONDITION: PRECURSOR_SELECTION Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_EQUIPMENT Q
+AC$ANALYTICAL_CONDITION: FRAGMENTATION_METHOD LOW-ENERGY CID
+AC$ANALYTICAL_CONDITION: COLLISION_ENERGY 50
+AC$ANALYTICAL_CONDITION: SPECTRUM_TYPE Q
+AC$ANALYTICAL_CONDITION: DATAFORMAT CENTROID
+AC$ANALYTICAL_CONDITION: MODE POSITIVE
+PK$NUM_PEAK: 20
+PK$PEAK: m/z int. rel.int.
+    30 2045 40
+    55 2463 49
+    56 2298 45
+    74 1963 39
+    75 4991 99
+    76 16671 333
+    83 16306 326
+    84 49946 999
+    85 9040 180
+    86 1598 31
+    109 1585 31
+    129 3058 61
+    130 10058 201
+    131 2578 51
+    132 1749 34
+    161 1788 35
+    176 1545 30
+    179 1900 38
+    185 4488 89
+    231 1555 31
+//
