@@ -11,15 +11,17 @@ on:
 jobs:
   validate:
 
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
-      - name: Set up JDK 11
+      - name: Set up JDK 17
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
-          java-version: '11'
+          java-version: '17'
+          cache: 'maven'
+
       - name: Checkout massbank-web dev
         uses: actions/checkout@v3
         with:
@@ -40,7 +42,7 @@ jobs:
 
       - name: Build with Maven
         working-directory: .scripts/MassBank-web/MassBank-Project
-        run: mvn -q -f MassBank-lib/pom.xml package
+        run: mvn --batch-mode --update-snapshots -f MassBank-lib/pom.xml package
 
       - name: Run the validating script
         run: bash .scripts/run_validation.sh
