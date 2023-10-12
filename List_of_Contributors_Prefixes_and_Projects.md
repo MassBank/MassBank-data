@@ -48,3 +48,5 @@
 | UPAO                      | Universidad Privada Antenor Orrego                                      | Peru            | UPA            |                            |
 | Washington_State_Univ     | Washington State University                                             | USA             | BML            |                            |
 | Waters                    | Nihon Waters K.K.                                                       | Japan           | WA             |                            |
+| BAFG                      | Federal Institute of Hydrology, Koblenz, Germany - BfG                  | Germany         | BAFG, CSL      |                            |
+| LFUBAY                    | Bavarian Environment Agency, Augsburg, Germany - LfU Bayern             | Germany         | LFUBAY, CSL    |                            |
