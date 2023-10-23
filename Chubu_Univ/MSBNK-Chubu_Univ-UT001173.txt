@@ -1,0 +1,73 @@
+ACCESSION: MSBNK-Chubu_Univ-UT001173
+RECORD_TITLE: Phosphatidylethanolamine alkenyl 18:0-22:6; LC-ESI-ITFT; MS2; [M-H]-; RT: 28.50; Exp: 1
+DATE: 2016.01.19 (Created 2010.05.07, modified 2011.08.03)
+AUTHORS: Taguchi R, Graduate School of Medicine, The University of Tokyo
+LICENSE: CC BY-NC-SA
+PUBLICATION: Taguchi, R.; Ishikawa, M. Precise and Global Identification of Phospholipid Molecular Species by an Orbitrap Mass Spectrometer and Automated Search Engine Lipid Search. Journal of Chromatography A 2010, 1217 (25), 4229–39. DOI:10.1016/j.chroma.2010.04.034
+CH$NAME: Phosphatidylethanolamine alkenyl 18:0-22:6
+CH$COMPOUND_CLASS: Natural Product; Glycerophospholipids; Glycerophosphoethanolamines; 1Z-alkenyl,2-acylglycerophosphoethanolamines
+CH$FORMULA: C45H78NO7P
+CH$EXACT_MASS: 775.55159
+CH$SMILES: C(CCCCCCCCCCC)CCCCC=COCC(COP(OCCN)(O)=O)OC(CCC=CCC=CCC=CCC=CCC=CCC=CCC)=O
+CH$IUPAC: InChI=1S/C45H78NO7P/c1-3-5-7-9-11-13-15-17-19-21-22-23-24-26-28-30-32-34-36-38-45(47)53-44(43-52-54(48,49)51-41-39-46)42-50-40-37-35-33-31-29-27-25-20-18-16-14-12-10-8-6-4-2/h5,7,11,13,17,19,22-23,26,28,32,34,37,40,44H,3-4,6,8-10,12,14-16,18,20-21,24-25,27,29-31,33,35-36,38-39,41-43,46H2,1-2H3,(H,48,49)/b7-5-,13-11-,19-17-,23-22-,28-26-,34-32-,40-37+
+CH$LINK: CAS 139367-62-7
+CH$LINK: INCHIKEY FIJFPUAJUDAZEY-NUANVQICSA-N
+SP$SCIENTIFIC_NAME: Mus musculus
+SP$LINEAGE: cellular organisms; Eukaryota; Fungi/Metazoa group; Metazoa; Eumetazoa; Bilateria; Coelomata; Deuterostomia; Chordata; Craniata; Vertebrata; Gnathostomata; Teleostomi; Euteleostomi; Sarcopterygii; Tetrapoda; Amniota; Mammalia; Theria; Eutheria; Euarchontoglires; Glires; Rodentia; Sciurognathi; Muroidea; Muridae; Murinae; Mus
+SP$LINK: NCBI-TAXONOMY 10090
+SP$SAMPLE: liver
+AC$INSTRUMENT: LC-10ADVPmicro HPLC, Shimadzu; LTQ Orbitrap, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30%
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3500 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME Develosil C30, Nomura Chemical
+AC$CHROMATOGRAPHY: FLOW_GRADIENT  add 95/5 at 0 min, 70/30 at 40 min, 50/50 at 41 min, 50/50 at 90 min
+AC$CHROMATOGRAPHY: FLOW_RATE  add 100 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 28.49 min (in paper: 28.5 min)
+AC$CHROMATOGRAPHY: SOLVENT A acetonitrile-methanol-water (19:19:2) with 0.1% acetic acid and 0.1% ammonium hydroxide (28%)
+AC$CHROMATOGRAPHY: SOLVENT B 2-propanol with 0.1% acetic acid and 0.1% ammonium hydroxide (28%)
+MS$FOCUSED_ION: PRECURSOR_M/Z 774.54
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
+MS$DATA_PROCESSING: WHOLE Xcalibur ver-2.0
+PK$SPLASH: splash10-01u0-0048900000-37a116d8bedd68cb7a15
+PK$ANNOTATION: m/z num type mass error(ppm) formula
+  267.07 1 [fa(alkenyl-18:0)-H]- 267.2687907456 -743 C18H35O-
+  283.14 1 [fa(22:6)-H-CO2]- 283.2425759951 -361 C21H31-
+  327.09 1 [fa(22:6)-H]- 327.2324052393 -434 C22H31O2-
+  446.33 1 [lyso_PE(alkenyl-18:0,-)-H2O]- 446.3035350702 59 C23H45NO5P-
+  464.09 1 [lyso_PE(alkenyl-18:0,-)]- 464.3140997565 -482 C23H47NO6P-
+  506.19 1 [lyso_PE(-,22:6)-H2O]- 506.2671495639 -151 C27H41NO6P-
+PK$NUM_PEAK: 28
+PK$PEAK: m/z int. rel.int.
+  229.06 96.0 17
+  229.96 5.6 1
+  240.98 9.9 2
+  249.06 49.3 9
+  250.16 15.2 3
+  257.06 21.2 4
+  267.07 25.1 5
+  281.11 109.6 20
+  283.14 2850.9 512
+  284.23 267.1 48
+  291.23 26.8 5
+  292.29 8.0 1
+  309.09 49.3 9
+  327.09 5565.1 999
+  328.10 464.2 83
+  403.12 51.9 9
+  404.04 40.1 7
+  416.23 10.4 2
+  446.33 619.8 111
+  447.25 36.8 7
+  464.09 5107.4 917
+  465.17 615.8 111
+  506.19 14.2 3
+  511.18 14.8 3
+  689.91 10.9 2
+  691.53 7.9 1
+  710.81 17.6 3
+  731.10 12.0 2
+//

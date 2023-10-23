@@ -1,0 +1,39 @@
+ACCESSION: MSBNK-MSSJ-MSJ00828
+RECORD_TITLE: Acetyl-L-carnitine; ESI-QTOF; MS2; POSITIVE; [M+H]+; CID; 10 V
+DATE: 2021.11.17
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: The sample was injected by direct infusion.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 21HP8020 to the Mass Spectrometry Society of Japan.
+CH$NAME: Acetyl-L-carnitine
+CH$COMPOUND_CLASS: Saturated fatty acyl-L-carnitine
+CH$FORMULA: C9H17NO4
+CH$EXACT_MASS: 203.11576
+CH$SMILES: CC(=O)O[C@H](CC(=O)[O-])C[N+](C)(C)C
+CH$IUPAC: InChI=1S/C9H17NO4/c1-7(11)14-8(5-9(12)13)6-10(2,3)4/h8H,5-6H2,1-4H3/t8-/m1/s1
+CH$LINK: CAS 3040-38-8
+CH$LINK: CHEBI 57589
+CH$LINK: CHEMSPIDER 5406074
+CH$LINK: INCHIKEY RDHQFKQIGNGIED-MRVPVSSYSA-N
+CH$LINK: PUBCHEM CID:7045767
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, USA)
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+MS$FOCUSED_ION: PRECURSOR_M/Z 204.12303
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-0udi-0090000000-563a99a2cc5edb4f1702
+PK$ANNOTATION: m/z formula exact_mass error(ppm) SMILES_of_ion HR_rules
+  85.0279 [C4H8O2-3H]+ 85.028406 5.95 O=C(OCC)C True
+  145.0488 [C6H9O4]+ 145.049531 5.04 O=C([O-])CC(OC(=O)C)C False
+  204.1192 [C9H17NO4+H]+ 204.12303 18.76 O=C(OC(CC(=O)[O-])C[N+](C)(C)C)C True
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  85.0279 30.981 87
+  145.0488 34.959 98
+  204.1192 354.783 999
+//

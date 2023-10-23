@@ -1,0 +1,68 @@
+ACCESSION: MSBNK-MSSJ-MSJ00552
+RECORD_TITLE: (S)-Citronellyl benzyl ether; GC-FI-TOF; MS; positive; FI; 10 kV
+DATE: 2021.02.20
+AUTHORS: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori and Kazuaki Akasaka, Tetrahedron 71 (2015) 4102-4115, DOI:10.1016/j.tet.2015.04.107.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the GC-transfer line was 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: Field ionization (FI) voltage, which is defined as the voltage between the emitter surface and the electrode, was 10 kV (default). Typical accuracy level expected was 10 ppm. Postrun m/z adjustment was made at a known mass, 246.19836.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: (S)-Citronellyl benzyl ether
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C17H26O
+CH$EXACT_MASS: 246.19837
+CH$SMILES: C[C@@H](CCC=C(C)C)CCOCC1=CC=CC=C1
+CH$IUPAC: InChI=1S/C17H26O/c1-15(2)8-7-9-16(3)12-13-18-14-17-10-5-4-6-11-17/h4-6,8,10-11,16H,7,9,12-14H2,1-3H3/t16-/m0/s1
+CH$LINK: CHEMSPIDER  57580659
+CH$LINK: INCHIKEY ITLMKEZZDGLMPC-INIZCTEOSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temp. for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.48 min.
+PK$SPLASH: splash10-0002-0390000000-a414c5e432b08a1e6d85
+PK$NUM_PEAK: 36
+PK$PEAK: m/z int. rel.int.
+  86.442 0.22 2
+  91.053 0.64 6
+  99.356 0.24 2
+  123.032 0.25 3
+  123.099 16.24 162
+  123.553 0.20 2
+  123.601 2.72 27
+  137.137 0.58 6
+  138.142 8.64 86
+  138.242 0.32 3
+  139.146 1.35 13
+  140.153 0.29 3
+  154.137 1.33 13
+  155.144 14.45 144
+  155.345 0.24 2
+  156.148 1.63 16
+  161.098 1.32 13
+  165.135 0.32 3
+  173.750 0.24 2
+  173.863 0.36 4
+  174.011 0.25 2
+  182.343 0.22 2
+  182.510 0.18 2
+  214.484 0.22 2
+  217.194 0.52 5
+  218.305 0.30 3
+  228.187 0.52 5
+  246.198 100.00 999
+  246.945 0.36 4
+  247.059 0.31 3
+  247.202 18.26 182
+  247.596 0.23 2
+  248.080 0.36 4
+  248.202 1.57 16
+  321.899 0.20 2
+  377.430 0.21 2
+//

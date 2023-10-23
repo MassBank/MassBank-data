@@ -1,0 +1,112 @@
+ACCESSION: MSBNK-MSSJ-MSJ02053
+RECORD_TITLE: (2R,3S)-(+)-2,3-epoxyoctanal; GC-EI-TOF; MS; POSITIVE; EI; 70 V
+DATE: 2023.03.27
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Mori K, Osada K, Amaike M. Mammalian blood odorant and chirality: synthesis and sensory evaluation by humans and mice of the racemate and enantiomers of trans-4,5-epoxy-(E)-2-decenal. Tetrahedron: Asymmetry. 2015 August 31;26(15-16):861-67. doi: 10.1016/j.tetasy.2015.06.011
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 22HP8019 to the Mass Spectrometry Society of Japan.
+COMMENT: Original ID of the mass spectral data was KM150204_ei.xlsx.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the ion-source and GC-transfer line were 200 C and 200 C, respectively. Resolving power (FWHM, nominal) was 7000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. Postrun m/z adjustment with known mass was 71.0133.
+CH$NAME: (2R,3S)-(+)-2,3-epoxyoctanal
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C8H14O2
+CH$EXACT_MASS: 142.09938
+CH$SMILES: CCCCC[C@@H]1O[C@H]1C=O
+CH$IUPAC: InChI=1S/C8H14O2/c1-2-3-4-5-7-8(6-9)10-7/h6-8H,2-5H2,1H3/t7-,8-/m0/s1
+CH$LINK: CHEMSPIDER 9979529
+CH$LINK: INCHIKEY YWFUECKBUFORTA-YUMQZZPRSA-N
+CH$LINK: PUBCHEM CID:11804864
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min.
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091J-413 USD364547H (Agilent), length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temp. for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 190 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.6 min.
+PK$SPLASH: splash10-00fu-9000000000-b648e1faa38c087b9520
+PK$NUM_PEAK: 78
+PK$PEAK: m/z int. rel.int.
+  26.016 1.7143 17
+  27.024 26.0928 261
+  27.066 0.2572 3
+  27.096 0.1155 1
+  27.995 0.4288 4
+  28.031 4.7798 48
+  29.003 13.3834 134
+  29.039 24.5712 245
+  29.081 0.3012 3
+  30.01 0.8142 8
+  30.043 0.5459 5
+  31.019 3.5964 36
+  38.016 0.7318 7
+  39.024 18.6191 186
+  39.074 0.2152 2
+  40.031 2.3044 23
+  41.003 0.5432 5
+  41.039 41.8701 418
+  41.064 0.3089 3
+  41.091 0.4162 4
+  41.326 0.131 1
+  42.011 2.9546 30
+  42.046 4.5808 46
+  43.019 4.6301 46
+  43.055 18.227 182
+  43.109 0.2261 2
+  43.148 0.1365 1
+  44.026 0.9679 10
+  44.058 0.586 6
+  45.034 1.0455 10
+  50.016 0.4524 5
+  51.024 1.0573 11
+  52.031 0.4599 5
+  53.039 4.2466 42
+  54.046 0.8261 8
+  55.019 2.4447 24
+  55.055 15.7208 157
+  55.113 0.1876 2
+  55.16 0.105 1
+  56.026 0.3523 4
+  56.062 3.2077 32
+  57.034 12.6207 126
+  57.07 1.8422 18
+  58.005 0.232 2
+  58.04 0.7745 8
+  59.013 0.8528 9
+  59.049 0.1792 2
+  60.021 2.1026 21
+  65.04 0.5109 5
+  67.055 3.3855 34
+  68.026 0.2393 2
+  68.062 0.4401 4
+  68.998 0.4746 5
+  69.034 1.3024 13
+  69.07 6.8486 68
+  70.041 0.4542 5
+  70.075 0.5 5
+  71.013 100 999
+  71.049 2.4859 25
+  71.428 0.2799 3
+  71.722 0.1799 2
+  72.017 3.2263 32
+  72.056 0.3011 3
+  72.339 0.1099 1
+  73.021 0.48 5
+  77.039 0.2916 3
+  79.055 0.3651 4
+  81.07 0.5407 5
+  82.078 0.2609 3
+  83.05 0.4422 4
+  83.086 0.8956 9
+  85.029 0.2235 2
+  86.037 0.523 5
+  93.07 0.4517 5
+  95.086 3.3703 34
+  96.09 0.2473 2
+  99.044 0.4297 4
+  141.091 0.3955 4
+//

@@ -1,0 +1,60 @@
+ACCESSION: MSBNK-MSSJ-MSJ02083
+RECORD_TITLE: rac-(2R,5R)-2-((S)-2-acetoxybut-3-en-1-yl)-5-(acetoxymethyl)tetrahydrofuran; GC-FI-TOF; MS; POSITIVE; FI; 10 kV
+DATE: 2023.03.27
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: S. Takahashi, D. Satoh, M. Hayashi, K. Takahashi, K. Yamaguchi, T. Nakamura, H. Koshino. Total Synthesis of the Proposed Structure for Aromin and Its Structural Revision. J. Org. Chem. 2016, 81, 22, 11222-11234. doi: 10.1021/acs.joc.6b02187
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 22HP8019 to the Mass Spectrometry Society of Japan.
+COMMENT: Original ID of the mass spectral data was ST-2697A-2-1-1_fi.xlsx.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the GC-transfer line was 200 C. Resolving power (FWHM, nominal) was 7000.
+COMMENT: FI voltage was 10 kV. Typical accuracy level expected was 10 ppm. Postrun m/z adjustment with known mass was 256.13107.
+CH$NAME: rac-(2R,5R)-2-((S)-2-acetoxybut-3-en-1-yl)-5-(acetoxymethyl)tetrahydrofuran
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C13H20O5
+CH$EXACT_MASS: 256.13108
+CH$SMILES: C=C[C@H](C[C@H]1CC[C@H](COC(C)=O)O1)OC(C)=O
+CH$IUPAC: InChI=1S/C13H20O5/c1-4-11(17-10(3)15)7-12-5-6-13(18-12)8-16-9(2)14/h4,11-13H,1,5-8H2,2-3H3/t11-,12-,13-/m1/s1
+CH$LINK: INCHIKEY BHJOFACGIMYBAP-JHJVBQTASA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min.
+AC$CHROMATOGRAPHY: COLUMN_NAME ZB-1MS 7HM-G011-11 sn:313446, length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temp. for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.02 min.
+PK$SPLASH: splash10-001i-1910000000-b1bbf09a06bb324f3285
+PK$NUM_PEAK: 28
+PK$PEAK: m/z int. rel.int.
+  30.011 3.3992 34
+  43.019 34.2773 342
+  73.03 3.3026 33
+  99.044 2.3296 23
+  123.081 0.9803 10
+  136.087 7.5171 75
+  137.093 1.5344 15
+  143.071 11.1069 111
+  144.075 1.0489 10
+  152.081 2.383 24
+  154.097 1.3755 14
+  178.097 1.5478 15
+  183.102 100 999
+  183.288 0.746 7
+  184.105 11.4246 114
+  185.105 1.7122 17
+  195.102 0.6884 7
+  196.109 45.8281 458
+  197.113 7.6737 77
+  198.114 1.0677 11
+  213.109 2.1257 21
+  214.117 5.5092 55
+  215.118 0.8965 9
+  238.118 3.1725 32
+  255.122 3.2971 33
+  256.131 13.9406 139
+  257.137 12.9253 129
+  258.142 1.7373 17
+//

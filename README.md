@@ -1,10 +1,9 @@
-# MassBank-data validation status 
-[![Main Validation Status](https://img.shields.io/travis/MassBank/MassBank-data/main.svg?label=Main%20Branch%20Validation)](https://travis-ci.org/MassBank/MassBank-data)
-[![Dev Validation Status](https://img.shields.io/travis/MassBank/MassBank-data/dev.svg?label=Dev%20Branch%20Validation)](https://travis-ci.org/MassBank/MassBank-data)
-[![DOI](https://zenodo.org/badge/125496536.svg)](https://zenodo.org/badge/latestdoi/125496536)
+#### MassBank-data validation status 
+* main branch [![Main Validation Status](https://github.com/MassBank/MassBank-data/actions/workflows/validate-records.yml/badge.svg?branch=main)](https://github.com/MassBank/MassBank-data/actions/workflows/validate-records.yml?query=branch%3Amain)
+* dev branch [![Dev Validation Status](https://github.com/MassBank/MassBank-data/actions/workflows/validate-records.yml/badge.svg?branch=dev)](https://github.com/MassBank/MassBank-data/actions/workflows/validate-records.yml?query=branch%3Adev)
+* Zenodo release [![DOI](https://zenodo.org/badge/125496536.svg)](https://zenodo.org/badge/latestdoi/125496536)
 
-
-
-This repo contains all MassBank records and uses the Travis CI to validate the content of all records with the new [Validator](https://github.com/MassBank/MassBank-web/blob/main/MassBank-Project/MassBank-lib/src/main/java/massbank/Validator.java) from MassBank-web.
+# MassBank-data introduction
+This repo contains all MassBank records and uses GitHub Actions to validate the content of all records with the [Validator](https://github.com/MassBank/MassBank-web/blob/main/MassBank-Project/MassBank-lib/src/main/java/massbank/cli/Validator.java) from MassBank-web.
 
 Documentation can be found at https://massbank.github.io/MassBank-documentation.

@@ -1,0 +1,50 @@
+ACCESSION: MSBNK-Chubu_Univ-UT000525
+RECORD_TITLE: Triacylglycerol 10:0-16:0-18:1; LC-ESI-QTOF; MS; mouse liver
+DATE: 2016.01.19 (Created 2010.05.07, modified 2011.05.06)
+AUTHORS: Taguchi R, Graduate School of Medicine, The University of Tokyo
+LICENSE: CC BY-NC-SA
+PUBLICATION: Ikeda, K.; Oike, Y.; Shimizu, T.; Taguchi, R. Global Analysis of Triacylglycerols Including Oxidized Molecular Species by Reverse-Phase High Resolution LC/ESI-QTOF MS/MS. Journal of Chromatography B 2009, 877 (25), 2639–47. DOI:10.1016/j.jchromb.2009.03.047
+CH$NAME: Triacylglycerol 10:0-16:0-18:1
+CH$COMPOUND_CLASS: Natural Product; Glycerolipid; Triradylglycerol
+CH$FORMULA: C47H88O6
+CH$EXACT_MASS: 748.65809
+CH$SMILES: C(CCC=CCCC(=O)OCC(OC(CCCCCCCCCCCCCCC)=O)COC(CCCCCCCCC)=O)CCCCCCCCCC
+CH$IUPAC: InChI=1S/C47H88O6/c1-4-7-10-13-16-18-20-22-23-25-26-28-31-34-37-40-46(49)52-43-44(42-51-45(48)39-36-33-30-15-12-9-6-3)53-47(50)41-38-35-32-29-27-24-21-19-17-14-11-8-5-2/h31,34,44H,4-30,32-33,35-43H2,1-3H3/b34-31-
+CH$LINK: INCHIKEY FWWKWLAGVGBURZ-NMSHJFGGSA-N
+SP$SCIENTIFIC_NAME: Mus musculus
+SP$LINEAGE: cellular organisms; Eukaryota; Fungi/Metazoa group; Metazoa; Eumetazoa; Bilateria; Coelomata; Deuterostomia; Chordata; Craniata; Vertebrata; Gnathostomata; Teleostomi; Euteleostomi; Sarcopterygii; Tetrapoda; Amniota; Mammalia; Theria; Eutheria; Euarchontoglires; Glires; Rodentia; Sciurognathi; Muroidea; Muridae; Murinae; Mus
+SP$LINK: NCBI-TAXONOMY 10090
+SP$SAMPLE: liver
+AC$INSTRUMENT: ACQUITY UPLC System, Waters
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: CAPILLARY_VOLTAGE 3.5 kV
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC BEH C18 column, Waters
+AC$CHROMATOGRAPHY: COLUMN_PRESSURE < 5000 psi
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 90/10 at 0 min, 90/10 at 7.5 min, 70/30 at 40 min, 60/40 at 41 min, 40/60 at 65 min, 40/60 at 90 min
+AC$CHROMATOGRAPHY: FLOW_RATE 50 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 55.230000 min
+AC$CHROMATOGRAPHY: SOLVENT A acetonitrile/methanol/water 19/19/2 (0.1% formic acid + 0.028% ammonia)
+AC$CHROMATOGRAPHY: SOLVENT B isopropanol (0.1% formic acid + 0.028% ammonia)
+MS$FOCUSED_ION: BASE_PEAK 493.396790
+MS$FOCUSED_ION: PRECURSOR_M/Z 766.6
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+NH4]+
+PK$SPLASH: splash10-0007-0001930100-34173b05c248ba75612b
+PK$ANNOTATION: m/z num type mass error(ppm)
+  493.3968 1 [{10:0-18:1}-OH]+ 493.42569 -58.5498497250718
+  577.5432 1 [{16:0-18:1}-OH]+ 577.51959 40.881730089818
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  342.3370 0.5 333
+  468.4017 1.0 666
+  493.3968 1.0 666
+  494.3963 1.0 666
+  495.5319 1.5 999
+  522.4258 0.5 333
+  577.5432 0.5 333
+  579.4877 0.5 333
+  700.6240 0.5 333
+//

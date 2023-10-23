@@ -1,0 +1,41 @@
+ACCESSION: MSBNK-UoB-XB000305
+RECORD_TITLE: amitriptyline_BTP_M10; LC-ESI-FT; MS2; CE: 25,60,100%; R=17500; [M+H]+
+DATE: 2023.04.25
+AUTHORS: Tara J. Bowen, University of Birmingham
+LICENSE: CC BY
+PUBLICATION: Bowen, T.J.; Southam, A.D.; Hall, A.R.; Weber, R.J.M.; Lloyd, G.R.; Macdonald, R.; Wilson, A.; Pointon, A.; Viant, M.R. Simultaneously discovering the fate and biochemical effects of xenobiotics through untargeted metabolomics. Nat. Commun. (under review)
+COMMENT: CONFIDENCE Tentative identification, substance class known (Level 3)
+COMMENT: INTERNAL_ID 12459
+CH$NAME: amitriptyline_BTP_M10
+CH$COMPOUND_CLASS: N/A; Biotransformation product
+CH$FORMULA: C25H29NO7
+CH$EXACT_MASS: 455.1944
+CH$SMILES: N/A
+CH$IUPAC: N/A
+AC$INSTRUMENT: Dionex Ultimate 3000 UHPLC Thermo Scientific; Q Exactive Focus Orbitrap MS Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-FT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 25,60,100% (stepped)
+AC$MASS_SPECTROMETRY: RESOLUTION 17500
+AC$CHROMATOGRAPHY: COLUMN_NAME Accucore 150 Amide, 2.6um, 2.1x100mm, Thermo Scientific
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 99/1 at 0 min, 99/1 at 1 min, 85:15 at 3 min, 50/50 at 6 min, 5/95 at 9 min, 5/95 at 10 min, 99/1 at 10.5 min, 99/1 at 15 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.105 min
+MS$FOCUSED_ION: BASE_PEAK 456.2017
+MS$FOCUSED_ION: PRECURSOR_M/Z 456.2017
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 3.4.0
+PK$SPLASH: splash10-03xr-0090000000-7f4eacb34fe9d52f6c51
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  215.0856 C17H11+ 1 215.0855 0.45
+  262.1591 C19H20N+ 1 262.159 0.19
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  215.0856 8999.2 680
+  262.1591 13208.9 999
+//

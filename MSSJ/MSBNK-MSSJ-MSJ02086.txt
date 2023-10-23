@@ -1,0 +1,141 @@
+ACCESSION: MSBNK-MSSJ-MSJ02086
+RECORD_TITLE: rac-(2S,5S)-2-((S)-2-Acetoxybut-3-en-1-yl)-5-(acetoxymethyl)tetrahydrofuran; GC-EI-TOF; MS; POSITIVE; EI; 70 V
+DATE: 2023.03.27
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: S. Takahashi, D. Satoh, M. Hayashi, K. Takahashi, K. Yamaguchi, T. Nakamura, H. Koshino. Total Synthesis of the Proposed Structure for Aromin and Its Structural Revision. J. Org. Chem. 2016, 81, 22, 11222-11234. doi: 10.1021/acs.joc.6b02187
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 22HP8019 to the Mass Spectrometry Society of Japan.
+COMMENT: Original ID of the mass spectral data was ST-2702A-2_ei.xlsx.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the ion-source and GC-transfer line were 250 C and 250 C, respectively. Resolving power (FWHM, nominal) was 7000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. Postrun m/z adjustment with known mass was 183.10212.
+CH$NAME: rac-(2S,5S)-2-((S)-2-Acetoxybut-3-en-1-yl)-5-(acetoxymethyl)tetrahydrofuran
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C13H20O5
+CH$EXACT_MASS: 256.13108
+CH$SMILES: C=C[C@H](C[C@@H]1CC[C@@H](COC(C)=O)O1)OC(C)=O
+CH$IUPAC: InChI=1S/C13H20O5/c1-4-11(17-10(3)15)7-12-5-6-13(18-12)8-16-9(2)14/h4,11-13H,1,5-8H2,2-3H3/t11-,12+,13+/m1/s1
+CH$LINK: INCHIKEY BHJOFACGIMYBAP-AGIUHOORSA-N
+CH$LINK: PUBCHEM CID:163410453
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min.
+AC$CHROMATOGRAPHY: COLUMN_NAME ZB-1MS 7HM-G011-11 sn:313446, length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temp. for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.03 min.
+PK$SPLASH: splash10-0006-9100000000-101ca9b8301024193891
+PK$NUM_PEAK: 108
+PK$PEAK: m/z int. rel.int.
+  31.018 0.6106 6
+  31.99 0.9512 10
+  39.023 2.8346 28
+  39.962 0.8295 8
+  40.03 0.4308 4
+  41.039 5.626 56
+  42.011 1.4719 15
+  42.046 0.9993 10
+  43.018 100 999
+  43.055 1.4042 14
+  43.342 0.2624 3
+  43.565 0.1653 2
+  43.791 0.123 1
+  43.827 0.1278 1
+  44.023 2.7596 28
+  44.064 0.144 1
+  45.033 0.4221 4
+  51.024 0.3042 3
+  52.031 0.363 4
+  53.039 2.3879 24
+  54.047 5.8791 59
+  55.018 5.8164 58
+  55.055 8.615 86
+  55.084 0.156 2
+  55.115 0.1225 1
+  56.025 1.1574 12
+  56.061 0.8079 8
+  57.034 3.9512 39
+  57.071 0.2351 2
+  58.041 0.828 8
+  61.029 2.5062 25
+  65.039 0.6957 7
+  66.047 1.1495 11
+  67.055 6.1896 62
+  68.026 0.8188 8
+  68.06 0.7696 8
+  69.034 9.929 99
+  69.07 0.3706 4
+  70.04 1.5362 15
+  71.049 1.5402 15
+  72.057 1.2062 12
+  73.029 0.814 8
+  74.037 0.6102 6
+  77.039 1.768 18
+  78.046 0.9731 10
+  79.054 39.4046 394
+  80.061 6.1856 62
+  80.132 0.1471 1
+  81.034 4.5882 46
+  81.07 3.7861 38
+  82.041 4.268 43
+  83.049 15.4059 154
+  84.055 1.4091 14
+  85.029 0.3067 3
+  85.064 0.3878 4
+  86.036 0.6619 7
+  87.044 2.7912 28
+  91.055 1.0828 11
+  92.062 0.686 7
+  93.07 3.862 39
+  94.041 0.5622 6
+  94.077 1.4456 14
+  95.049 1.9802 20
+  95.086 16.4992 165
+  96.057 4.8459 48
+  97.064 1.4197 14
+  98.072 0.6531 7
+  99.044 3.1075 31
+  100.051 0.715 7
+  101.06 1.9376 19
+  103.042 0.3683 4
+  105.07 3.7917 38
+  106.073 0.3681 4
+  107.049 0.4842 5
+  107.085 0.2742 3
+  108.056 0.4963 5
+  108.092 0.1781 2
+  109.065 0.3304 3
+  110.073 0.3608 4
+  111.08 0.1958 2
+  112.088 0.3078 3
+  113.06 0.2126 2
+  114.068 0.5272 5
+  117.069 0.3588 4
+  118.077 0.809 8
+  119.084 0.1865 2
+  121.065 0.8009 8
+  122.071 0.2101 2
+  123.08 6.9137 69
+  123.16 0.1286 1
+  124.084 0.6138 6
+  129.055 0.2939 3
+  135.081 0.4112 4
+  136.088 3.7748 38
+  137.094 1.0627 11
+  140.084 0.4374 4
+  141.09 0.2926 3
+  143.07 11.8288 118
+  144.073 0.9673 10
+  153.091 0.4468 4
+  154.098 0.3649 4
+  156.079 0.5928 6
+  183.102 7.9707 80
+  184.106 0.9346 9
+  185.09 0.1852 2
+  196.109 2.7394 27
+  197.116 0.7647 8
+  213.114 0.2339 2
+//

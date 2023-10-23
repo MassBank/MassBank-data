@@ -1,0 +1,38 @@
+ACCESSION: MSBNK-MSSJ-MSJ00661
+RECORD_TITLE: Methyl [(1S)-1,2-dimethyl-2,3-epoxycyclopent-1-yl]acetate; GC-FI-TOF; MS; positive; FI; 10 kV
+DATE: 2021.03.08
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori and Jun Tabata, Tetrahedron 73 (2017) 6530-6541, DOI:10.1016/j.tet.2017.09.046.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the GC-transfer line was 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: Field ionization (FI) voltage, which is defined as the voltage between the emitter surface and the electrode, was 10 kV (default). Typical accuracy level expected was 10 ppm. Postrun m/z adjustment was made at a known mass, 184.10994.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: Methyl [(1S)-1,2-dimethyl-2,3-epoxycyclopent-1-yl]acetate
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C10H16O3
+CH$EXACT_MASS: 184.10994
+CH$SMILES: CC12OC1CC[C@@]2(C)CC(=O)OC
+CH$IUPAC: InChI=1S/C10H16O3/c1-9(6-8(11)12-3)5-4-7-10(9,2)13-7/h7H,4-6H2,1-3H3/t7?,9-,10?/m0/s1
+CH$LINK: INCHIKEY HYUUYHFTHLSBQI-ZAJCDATESA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temp. for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.18 min.
+PK$SPLASH: splash10-001i-0900000000-13011b713d4a675f4004
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  110.071 3.30 33
+  111.080 2.93 29
+  125.098 3.22 32
+  152.085 3.87 39
+  166.097 6.06 61
+  184.110 100 999
+  185.114 14.11 141
+//

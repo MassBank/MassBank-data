@@ -1,0 +1,44 @@
+ACCESSION: MSBNK-MSSJ-MSJ00596
+RECORD_TITLE: (3S,4R)-3,4-Epoxy-7-octene; GC-FI-TOF; MS; positive; FI; 10 kV
+DATE: 2021.02.18
+AUTHORS: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori, Tetrahedron 74 (2018) 1444-1448, DOI:10.1016/j.tet.2018.01.052.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the GC-transfer line was 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: Field ionization (FI) voltage, which is defined as the voltage between the emitter surface and the electrode, was 10 kV (default). Typical accuracy level expected was 10 ppm. Postrun m/z adjustment was made at a known mass, 126.10446.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: (3S,4R)-3,4-Epoxy-7-octene
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C8H14O
+CH$EXACT_MASS: 126.10447
+CH$SMILES: CC[C@@H]1O[C@@H]1CCC=C
+CH$IUPAC: InChI=1S/C8H14O/c1-3-5-6-8-7(4-2)9-8/h3,7-8H,1,4-6H2,2H3/t7-,8+/m0/s1
+CH$LINK: INCHIKEY PVSFKLZEGPBMKX-JGVFFNPUSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temp. for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.13 min.
+PK$SPLASH: splash10-03di-2900000000-7a60563fd64e68de5bcf
+PK$NUM_PEAK: 13
+PK$PEAK: m/z int. rel.int.
+  41.039 5.99 60
+  70.040 2.99 30
+  84.062 2.51 25
+  85.064 13.16 131
+  97.066 9.18 92
+  98.072 4.08 41
+  109.101 2.79 28
+  111.080 100.00 999
+  111.166 2.30 23
+  112.084 10.19 102
+  125.094 3.23 32
+  126.104 21.53 215
+  127.106 4.03 40
+//

@@ -1,0 +1,43 @@
+ACCESSION: MSBNK-MSSJ-MSJ02337
+RECORD_TITLE: (2S)-2-Aminobutanoic acid; GC-FI-TOF; MS; POSITIVE; FI; 10 kV; 2TMS
+DATE: 2022.09.30
+AUTHORS: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 22HP8019 to the Mass Spectrometry Society of Japan.
+COMMENT: Original ID of the mass spectral data was 2201a1M2_fi.xlsx.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of GC-transfer line was 250 C. Resolving power (FWHM, nominal) was 7000.
+COMMENT: FI voltage was 10 kV. Typical accuracy level expected was 10 ppm. The m/z value was adjusted with 247.1424.
+CH$NAME: (2S)-2-Aminobutanoic acid
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C4H9NO2
+CH$EXACT_MASS: 103.0633285
+CH$SMILES: CC[C@@H](C(=O)O)N
+CH$IUPAC: InChI=1S/C4H9NO2/c1-2-3(5)4(6)7/h3H,2,5H2,1H3,(H,6,7)/t3-/m0/s1
+CH$LINK: CHEMSPIDER 72524
+CH$LINK: INCHIKEY QWCKQJZIFLGMSD-VKHMYHEASA-N
+CH$LINK: PUBCHEM CID:80283
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, 1 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME DB-5MS UI 122-5532UI US0462866H (Agilent, Wilmington, USA) with the length 30 m, I.D. 0.25 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temperature for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.26 min.
+MS$FOCUSED_ION: DERIVATIVE_FORM C10H25NO2Si2
+MS$FOCUSED_ION: DERIVATIVE_MASS 247.14238
+MS$FOCUSED_ION: DERIVATIVE_TYPE 2TMS
+PK$SPLASH: splash10-0002-0090000000-91f09aa4d38049520168
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  73.047 1.537 15
+  130.106 5.7217 57
+  131.106 0.7954 8
+  247.142 100 999
+  248.144 22.0524 220
+  249.142 9.2369 92
+  250.145 1.3728 14
+//

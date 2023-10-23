@@ -1,0 +1,57 @@
+ACCESSION: MSBNK-Eawag_Additional_Specs-ET060303
+RECORD_TITLE: FEN_220.0944_12.9; LC-ESI-QFT; MS2; CE: 45; R=17500; [M+H]+
+DATE: 2016.03.17 (Created 2015.09.25, modified 2016.02.03)
+AUTHORS: R. Gulde, E. Schymanski, K. Fenner, Department of Environmental Chemistry, Eawag
+LICENSE: CC BY
+COPYRIGHT: Copyright (C) 2016 Eawag, Duebendorf, Switzerland
+PUBLICATION: Gulde, R.; Meier, U.; Schymanski, E. L.; Kohler, H.-P. E.; Helbling, D. E.; Derrer, S.; Rentsch, D.; Fenner, K. Systematic Exploration of Biotransformation Reactions of Amine-Containing Micropollutants in Activated Sludge. Environmental Science & Technology 2016, 50 (6), 2908–20. DOI:10.1021/acs.est.5b05186
+COMMENT: CONFIDENCE Tentative identification: most likely structure (Level 3)
+COMMENT: INTERNAL_ID 603
+CH$NAME: FEN_220.0944_12.9
+CH$NAME: N-desethyl-N-hydroxylfeniramine
+CH$NAME: N-[1-[3-(trifluoromethyl)phenyl]propan-2-yl]hydroxylamine
+CH$COMPOUND_CLASS: N/A; Environmental Transformation Products
+CH$FORMULA: C10H12F3NO
+CH$EXACT_MASS: 219.0871
+CH$SMILES: CC(CC1=CC(=CC=C1)C(F)(F)F)NO
+CH$IUPAC: InChI=1S/C10H12F3NO/c1-7(14-15)5-8-3-2-4-9(6-8)10(11,12)13/h2-4,6-7,14-15H,5H2,1H3
+CH$LINK: PUBCHEM CID:12225835
+CH$LINK: INCHIKEY WCJDAVUCGZTNMX-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID70891588
+AC$INSTRUMENT: Q Exactive Plus Orbitrap Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE HCD
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 45 (nominal)
+AC$MASS_SPECTROMETRY: RESOLUTION 17500
+AC$CHROMATOGRAPHY: COLUMN_NAME Atlantis T3 3um, 3.0x150mm, Waters with guard column
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 5/95 at 15 min, 5/95 at 20 min, 95/5 at 20.1 min, 95/5 at 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 300 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 12.8 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.1% formic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.1% formic acid
+MS$FOCUSED_ION: BASE_PEAK 65.0597
+MS$FOCUSED_ION: PRECURSOR_M/Z 220.0944
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 1.99.7
+PK$SPLASH: splash10-0a4i-0900000000-1627ff533879f342f33c
+PK$ANNOTATION: m/z tentative_formula formula_count mass error(ppm)
+  59.0491 C3H7O+ 1 59.0491 -0.53
+  101.0598 C5H9O2+ 2 101.0597 1.13
+  109.0443 C7H6F+ 1 109.0448 -4.9
+  159.0416 C8H6F3+ 1 159.0416 0.18
+  167.0669 C10H9F2+ 1 167.0667 1.36
+  187.073 C10H10F3+ 1 187.0729 0.47
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  59.0491 3459.4 4
+  101.0598 1371.9 1
+  109.0443 811.8 1
+  159.0416 741773.9 999
+  167.0669 1233.7 1
+  187.073 28548.4 38
+//

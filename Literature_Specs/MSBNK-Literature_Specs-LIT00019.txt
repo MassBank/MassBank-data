@@ -1,0 +1,54 @@
+ACCESSION: MSBNK-Literature_Specs-LIT00019
+RECORD_TITLE: diMe-STA2DC; LC-ESI-Q; MS2; 55 V; [M-H]-
+DATE: 2016.02.03 (Created 2013.02.01)
+AUTHORS: E. Schymanski; retrieved from A. Di Corcia et al. 1999
+LICENSE: CC0
+COPYRIGHT: Copyright (C) American Chemical Society 1999
+PUBLICATION: Corcia, A. D.; Casassa, F.; Crescenzi, C.; Marcomini, A.; Samperi, R. Investigation of the Fate of Linear Alkyl Benzenesulfonates and Coproducts in a Laboratory Biodegradation Test by Using Liquid Chromatography/Mass Spectrometry. Environmental Science & Technology 1999, 33 (22), 4112–8. DOI:10.1021/es9905952
+COMMENT: Literature spectrum
+COMMENT: CONFIDENCE Tentative identification: isomers possible (Level 3)
+COMMENT: Could be alkyl homologue of given structure
+COMMENT: Digitised from figure: approximate intensities
+CH$NAME: diMe-STA2DC
+CH$NAME: Sulfotetralin alkyl dicarboxylic acid, dimethyl ester
+CH$NAME: 5-(methoxycarbonyl)-8-(3-methoxy-3-oxopropyl)-5,6,7,8-tetrahydronaphthalene-2-sulfonic acid
+CH$COMPOUND_CLASS: N/A; Surfactant
+CH$FORMULA: C16H20O7S
+CH$EXACT_MASS: 356.09297
+CH$SMILES: O=S(=O)(O)c1ccc2c(c1)C(CCC2C(=O)OC)CCC(=O)OC
+CH$IUPAC: InChI=1S/C16H20O7S/c1-22-15(17)8-4-10-3-6-13(16(18)23-2)12-7-5-11(9-14(10)12)24(19,20)21/h5,7,9-10,13H,3-4,6,8H2,1-2H3,(H,19,20,21)
+CH$LINK: INCHIKEY ZTNLIVFMOYNFBS-UHFFFAOYSA-N
+CH$LINK: COMPTOX DTXSID30891645
+CH$LINK: PUBCHEM CID:137628606
+AC$INSTRUMENT: Fisons VG Platform
+AC$INSTRUMENT_TYPE: LC-ESI-Q
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 55 V
+MS$FOCUSED_ION: BASE_PEAK 355.0857
+MS$FOCUSED_ION: PRECURSOR_M/Z 355.0857
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
+MS$DATA_PROCESSING: WHOLE Hand-digitised from figures
+PK$SPLASH: splash10-0532-7391000000-a55e750b98fc7568891f
+PK$ANNOTATION: m/z formula putative_smiles
+  80 HO3S- [O-]S(=O)=O
+  197 C9H9O3S- O=S([O-])(=O)c1ccc(/C=C\C)cc1
+  209 C10H9O3S- [O-]S(=O)(=O)c1ccc2CCC=Cc2c1
+  223 C11H11O3S- [O-]S(=O)(=O)c1ccc2C=CCC(C)c2c1
+  267 C12H11O5S- [O-]S(=O)(=O)c2ccc1c(C=CCC1C(=O)OC)c2
+  297 C14H17O5S- [O-]S(=O)(=O)c1ccc2CCCC(CCC(=O)OC)c2c1
+  355 C16H19O7S- [O-]S(=O)(=O)c1ccc2c(c1)C(CCC2C(=O)OC)CCC(=O)OC
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  80 100 999
+  95 20 200
+  195 15 150
+  197 35 350
+  209 70 700
+  223 20 200
+  267 15 150
+  297 35 350
+  355 25 250
+//

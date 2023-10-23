@@ -1,0 +1,46 @@
+ACCESSION: MSBNK-Chubu_Univ-UT001077
+RECORD_TITLE: Phosphatidylcholine alkyl 18:0-22:6; LC-ESI-ITFT; MS2; [M+CH3COO]-; RT: 29.21; Exp: 1
+DATE: 2016.01.19 (Created 2010.05.07, modified 2011.08.03)
+AUTHORS: Taguchi R, Graduate School of Medicine, The University of Tokyo
+LICENSE: CC BY-NC-SA
+PUBLICATION: Taguchi, R.; Ishikawa, M. Precise and Global Identification of Phospholipid Molecular Species by an Orbitrap Mass Spectrometer and Automated Search Engine Lipid Search. Journal of Chromatography A 2010, 1217 (25), 4229–39. DOI:10.1016/j.chroma.2010.04.034
+CH$NAME: Phosphatidylcholine alkyl 18:0-22:6
+CH$COMPOUND_CLASS: Natural Product; Glycerophospholipids; Glycerophosphocholines; 1-alkyl,2-acylglycerophosphocholines
+CH$FORMULA: C48H86NO7P
+CH$EXACT_MASS: 819.61419
+CH$SMILES: C(CCCCCOCC(OC(=O)CCC=CCC=CCC=CCC=CCC=CCC=CCC)COP([O-1])(=O)OCC[N+1](C)(C)C)CCCCCCCCCCCC
+CH$IUPAC: InChI=1S/C48H86NO7P/c1-6-8-10-12-14-16-18-20-22-24-25-26-27-29-31-33-35-37-39-41-48(50)56-47(46-55-57(51,52)54-44-42-49(3,4)5)45-53-43-40-38-36-34-32-30-28-23-21-19-17-15-13-11-9-7-2/h8,10,14,16,20,22,25-26,29,31,35,37,47H,6-7,9,11-13,15,17-19,21,23-24,27-28,30,32-34,36,38-46H2,1-5H3/b10-8-,16-14-,22-20-,26-25-,31-29-,37-35-
+CH$LINK: CAS 139406-71-6
+CH$LINK: INCHIKEY QBZALASVZLFAHF-RRHSVIFUSA-N
+SP$SCIENTIFIC_NAME: Mus musculus
+SP$LINEAGE: cellular organisms; Eukaryota; Fungi/Metazoa group; Metazoa; Eumetazoa; Bilateria; Coelomata; Deuterostomia; Chordata; Craniata; Vertebrata; Gnathostomata; Teleostomi; Euteleostomi; Sarcopterygii; Tetrapoda; Amniota; Mammalia; Theria; Eutheria; Euarchontoglires; Glires; Rodentia; Sciurognathi; Muroidea; Muridae; Murinae; Mus
+SP$LINK: NCBI-TAXONOMY 10090
+SP$SAMPLE: liver
+AC$INSTRUMENT: LC-10ADVPmicro HPLC, Shimadzu; LTQ Orbitrap, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-ITFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30%
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3500 V
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME Develosil C30, Nomura Chemical
+AC$CHROMATOGRAPHY: FLOW_GRADIENT  add 95/5 at 0 min, 70/30 at 40 min, 50/50 at 41 min, 50/50 at 90 min
+AC$CHROMATOGRAPHY: FLOW_RATE  add 100 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 29.14 min (in paper: 29.2 min)
+AC$CHROMATOGRAPHY: SOLVENT A acetonitrile-methanol-water (19:19:2) with 0.1% acetic acid and 0.1% ammonium hydroxide (28%)
+AC$CHROMATOGRAPHY: SOLVENT B 2-propanol with 0.1% acetic acid and 0.1% ammonium hydroxide (28%)
+MS$FOCUSED_ION: PRECURSOR_M/Z 878.63
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+CH3COO]-
+MS$DATA_PROCESSING: WHOLE Xcalibur ver-2.0
+PK$SPLASH: splash10-0udi-0000010690-5bc9e09d9ebd71fb6b18
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  517.87 6.7 49
+  525.05 12.9 94
+  763.92 24.3 176
+  764.78 10.7 78
+  784.21 6.2 45
+  791.03 34.9 253
+  795.94 17.0 123
+  804.29 137.8 999
+//

@@ -1,0 +1,32 @@
+ACCESSION: MSBNK-Washington_State_Univ-BML80082
+RECORD_TITLE: (6aS)-1,2,9,10-tetramethoxy-6-methyl-5,6,6a,7-tetrahydro-4H-dibenzo[de,g]quinoline-3-carbaldehyde; LC-APCI-QTOF; MS; POSITIVE
+DATE: 2016.01.19 (Created 2012.10.26)
+AUTHORS: Cuthbertson DJ, Johnson SR, Lange BM, Institute of Biological Chemistry, Washington State University
+LICENSE: CC BY-SA
+COMMENT: relative retention time with respect to 9-anthracene Carboxylic Acid is 0.778
+CH$NAME: (6aS)-1,2,9,10-tetramethoxy-6-methyl-5,6,6a,7-tetrahydro-4H-dibenzo[de,g]quinoline-3-carbaldehyde
+CH$COMPOUND_CLASS: N/A
+CH$FORMULA: C22H25NO5
+CH$EXACT_MASS: 383.173273
+CH$SMILES: CN1CCC2=C(C(=C(C3=C2[C@@H]1CC4=CC(=C(C=C43)OC)OC)OC)OC)C=O
+CH$IUPAC: InChI=1S/C22H25NO5/c1-23-7-6-13-15(11-24)21(27-4)22(28-5)20-14-10-18(26-3)17(25-2)9-12(14)8-16(23)19(13)20/h9-11,16H,6-8H2,1-5H3/t16-/m0/s1
+CH$LINK: CHEMSPIDER 10082789
+CH$LINK: PUBCHEM CID:11908466
+CH$LINK: INCHIKEY CLSKRRFGIZCINS-INIZCTEOSA-N
+AC$INSTRUMENT: Agilent 1200 RRLC; Agilent 6520 QTOF
+AC$INSTRUMENT_TYPE: LC-APCI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: SCANNING m/z 100-1000
+AC$CHROMATOGRAPHY: COLUMN_NAME Agilent C8 Cartridge Column 2.1X30mm 3.5 micron (guard); Agilent SB-Aq 2.1x50mm 1.8 micron (analytical)
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE 60 C
+AC$CHROMATOGRAPHY: FLOW_GRADIENT linear from 98A/2B at 0 min to 2A/98B at 13 min, hold 6 min at 2A/98B, reequilibration 98A/2B (5 min)
+AC$CHROMATOGRAPHY: FLOW_RATE 0.6 ml/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.733
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.2% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 0.2% acetic acid
+PK$SPLASH: splash10-001i-0009000000-c4fd7ce8a84e078db886
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  384.1805765 22040247 999
+//

@@ -1,0 +1,40 @@
+ACCESSION: MSBNK-Literature_Specs-LIT00009
+RECORD_TITLE: C9DEA; LC-APCI-Q; MS; [M+H]+
+DATE: 2016.02.03 (Created 2013.01.31)
+AUTHORS: E. Schymanski; retrieved from M. Castillo et al. 2000
+LICENSE: CC0
+COPYRIGHT: Copyright (C) Elsevier Ltd. 2000
+PUBLICATION: Castillo, M.; Riu, J.; Ventura, F.; Boleda, R.; Scheding, R.; Schröder, H. F.; Nistor, C.; Émneus, J.; Eichhorn, P.; Knepper, T. .; et al. Inter-Laboratory Comparison of Liquid Chromatographic Techniques and Enzyme-Linked Immunosorbent Assay for the Determination of Surfactants in Wastewaters. Journal of Chromatography A 2000, 889 (1–2), 195–209. DOI:10.1016/s0021-9673(00)00398-8
+COMMENT: Literature spectrum
+COMMENT: CONFIDENCE Tentative identification: isomers possible (Level 3)
+COMMENT: May be an alkyl homologue
+COMMENT: Digitised from figure: approximate intensities
+CH$NAME: C9DEA
+CH$NAME: C9-coconut fatty acid diethanolamide
+CH$NAME: N,N-Bis(2-hydroxyethyl)decanamide
+CH$COMPOUND_CLASS: N/A; Surfactant
+CH$FORMULA: C14H29NO3
+CH$EXACT_MASS: 259.2148
+CH$SMILES: O=C(CCCCCCCCC)N(CCO)CCO
+CH$IUPAC: InChI=1S/C14H29NO3/c1-2-3-4-5-6-7-8-9-14(18)15(10-12-16)11-13-17/h16-17H,2-13H2,1H3
+CH$LINK: INCHIKEY BPXGKRUSMCVZAF-UHFFFAOYSA-N
+CH$LINK: CAS 136-26-5
+CH$LINK: CHEMSPIDER 55035
+CH$LINK: PUBCHEM CID:61081
+CH$LINK: COMPTOX DTXSID3042184
+AC$INSTRUMENT: VG Platform
+AC$INSTRUMENT_TYPE: LC-APCI-Q
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION APCI
+MS$DATA_PROCESSING: WHOLE Hand-digitised from figures
+PK$SPLASH: splash10-0a4l-2970000000-3e0d55170cff0c4d8a48
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  88 30 300
+  106 100 999
+  155 5 50
+  199 20 200
+  242 60 600
+  260 40 400
+//

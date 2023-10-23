@@ -1,0 +1,35 @@
+ACCESSION: MSBNK-MSSJ-MSJ00451
+RECORD_TITLE: Symmetric dimethylarginine; ESI-QTOF; MS2; POSITIVE; [M+H]+; CID; 40 V
+DATE: 2021.03.06
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: The sample was injected by direct infusion.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: Symmetric dimethylarginine
+CH$COMPOUND_CLASS: Non-natural product; L-Arginine derivative
+CH$FORMULA: C8H18N4O2
+CH$EXACT_MASS: 202.14296
+CH$SMILES: CNC(=NC)NCCC[C@@H](C(=O)O)N
+CH$IUPAC: InChI=1S/C8H18N4O2/c1-10-8(11-2)12-5-3-4-6(9)7(13)14/h6H,3-5,9H2,1-2H3,(H,13,14)(H2,10,11,12)/t6-/m0/s1
+CH$LINK: CAS 30344-00-4
+CH$LINK: CHEMSPIDER 147942
+CH$LINK: INCHIKEY HVPFXCBJHIIJGS-LURJTMIESA-N
+CH$LINK: PUBCHEM CID:169148
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, USA)
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+MS$FOCUSED_ION: PRECURSOR_M/Z 203.15024
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-00di-9000000000-ce232e819b896ab69e0d
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  44.0500 17.0 61
+  57.0454 14.9 53
+  70.0648 280.0 999
+  71.0600 133.8 477
+//

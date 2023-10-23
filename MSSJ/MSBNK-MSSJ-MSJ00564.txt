@@ -1,0 +1,49 @@
+ACCESSION: MSBNK-MSSJ-MSJ00564
+RECORD_TITLE: (4R)-4-Methyl-6-benzyloxyhexanol; GC-FI-TOF; MS; positive; FI; 10 kV
+DATE: 2021.02.20
+AUTHORS: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori and Kazuaki Akasaka, Tetrahedron 71 (2015) 4102-4115, DOI:10.1016/j.tet.2015.04.107.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the GC-transfer line was 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: Field ionization (FI) voltage, which is defined as the voltage between the emitter surface and the electrode, was 10 kV (default). Typical accuracy level expected was 10 ppm. Postrun m/z adjustment was made at a known mass, 222.16198.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: (4R)-4-Methyl-6-benzyloxyhexanol
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C14H22O2
+CH$EXACT_MASS: 222.16198
+CH$SMILES: C[C@H](CCCO)CCOCC1=CC=CC=C1
+CH$IUPAC: InChI=1S/C14H22O2/c1-13(6-5-10-15)9-11-16-12-14-7-3-2-4-8-14/h2-4,7-8,13,15H,5-6,9-12H2,1H3/t13-/m1/s1
+CH$LINK: CAS 146512-85-8
+CH$LINK: CHEMSPIDER 57497335
+CH$LINK: INCHIKEY NBLOVSHGEBKSQH-CYBMUJFWSA-N
+CH$LINK: PUBCHEM CID:14050795
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temp. for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.44 min.
+PK$SPLASH: splash10-00di-0090000000-6cbcf8d9754a705cb9d8
+PK$NUM_PEAK: 15
+PK$PEAK: m/z int. rel.int.
+  31.018 0.83 8
+  91.055 1.06 11
+  107.051 0.53 5
+  131.108 0.32 3
+  186.142 0.19 2
+  204.156 0.17 2
+  221.156 0.44 4
+  222.162 100.00 999
+  222.848 0.32 3
+  223.165 16.48 165
+  223.935 0.24 2
+  224.170 1.85 18
+  224.557 0.19 2
+  225.022 0.16 2
+  225.167 0.25 3
+//

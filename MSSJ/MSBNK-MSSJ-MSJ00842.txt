@@ -1,0 +1,37 @@
+ACCESSION: MSBNK-MSSJ-MSJ00842
+RECORD_TITLE: Phenylsulfate; ESI-QTOF; MS2; NEGATIVE; [M-H]-; CID; 10 V
+DATE: 2021.12.07
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: The sample was injected by direct infusion.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 21HP8020 to the Mass Spectrometry Society of Japan.
+CH$NAME: Phenylsulfate
+CH$COMPOUND_CLASS: Aryl sulfate
+CH$FORMULA: C6H6O4S
+CH$EXACT_MASS: 173.99868
+CH$SMILES: C1=CC=C(C=C1)OS(=O)(=O)O
+CH$IUPAC: InChI=1S/C6H6O4S/c7-11(8,9)10-6-4-2-1-3-5-6/h1-5H,(H,7,8,9)
+CH$LINK: CAS 937-34-8
+CH$LINK: CHEBI 27905
+CH$LINK: CHEMSPIDER 67018
+CH$LINK: INCHIKEY CTYRPMDGLDAWRQ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:74426
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, USA)
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+MS$FOCUSED_ION: PRECURSOR_M/Z 172.99140
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
+PK$SPLASH: splash10-00di-0900000000-753588982ce9ad9c351e
+PK$ANNOTATION: m/z formula exact_mass error(ppm) SMILES_of_ion HR_rules
+  93.0344 [C6H6O-H]- 93.034586 2 OC=1C=CC=CC1 True
+  172.9904 [C6H6O4S-H]- 172.991411 5.85 O=S(=O)(O)OC=1C=CC=CC1 True
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  93.0344 6.23 31
+  172.9904 201.453 999
+//

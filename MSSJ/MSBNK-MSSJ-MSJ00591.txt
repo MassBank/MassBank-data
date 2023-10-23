@@ -1,0 +1,166 @@
+ACCESSION: MSBNK-MSSJ-MSJ00591
+RECORD_TITLE: (2E,6R,7S)-6,7-Epoxynon-2-enal; GC-EI-TOF; MS; positive; EI; 70 V
+DATE: 2021.02.24
+AUTHORS: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Masayo Sekimoto, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Kenji Mori, Tetrahedron 74 (2018) 1444-1448, ODI:10.1016/j.tet.2018.01.052.
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (refTOF) mass spectrometer. Temperatures of the ion source and GC-transfer line were 200 C and 250 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 10 ppm. Postrun m/z adjustment with known mass was 207.0329.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 20HP8016 to the Mass Spectrometry Society of Japan.
+CH$NAME: (2E,6R,7S)-6,7-Epoxynon-2-enal
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C9H14O2
+CH$EXACT_MASS: 154.09938
+CH$SMILES: O=C\C=C\CC[C@H]1O[C@H]1CC
+CH$IUPAC: InChI=1S/C9H14O2/c1-2-8-9(11-8)6-4-3-5-7-10/h3,5,7-9H,2,4,6H2,1H3/b5-3+/t8-,9+/m0/s1
+CH$LINK: INCHIKEY ZSTYAQLLVODWMQ-AFRAPRFESA-N
+CH$LINK: PUBCHEM CID:137552804
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS Helium
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temp. for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.6 min.
+PK$SPLASH: splash10-069c-9000000000-b543c8b6d859255e5e42
+PK$NUM_PEAK: 134
+PK$PEAK: m/z int. rel.int.
+  26.015 3.07 31
+  27.023 44.54 445
+  27.065 0.49 5
+  27.247 0.12 1
+  27.265 0.15 1
+  28.006 2.71 27
+  28.031 5.92 59
+  28.056 0.16 2
+  28.073 0.13 1
+  29.003 18.01 180
+  29.039 43.72 437
+  29.08 0.55 5
+  29.275 0.15 1
+  29.467 0.14 1
+  30.008 0.29 3
+  30.044 1.42 14
+  31.018 30.82 308
+  31.04 0.36 4
+  31.99 1.56 16
+  32.022 0.43 4
+  37.008 0.76 8
+  38.016 3.21 32
+  39.024 58.11 581
+  39.075 0.61 6
+  39.145 0.14 1
+  39.31 0.21 2
+  40.031 11.02 110
+  40.061 0.15 2
+  40.083 0.15 2
+  41.039 100 999
+  41.089 0.96 10
+  41.326 0.27 3
+  41.355 0.33 3
+  41.591 0.19 2
+  41.812 0.14 1
+  41.834 0.14 1
+  42.011 2.36 24
+  42.046 9.84 98
+  43.018 16.08 161
+  43.055 7.59 76
+  44.026 1.81 18
+  44.058 0.29 3
+  45.034 1.97 20
+  47.013 0.5 5
+  50.016 1.46 15
+  51.024 3.75 37
+  52.031 1.73 17
+  53.003 0.6 6
+  53.039 11.95 119
+  53.093 0.16 2
+  54.046 2.08 21
+  55.019 9.32 93
+  55.055 20.78 208
+  55.167 0.16 2
+  56.025 0.95 9
+  56.061 1.82 18
+  57.034 16.01 160
+  57.071 10.26 103
+  57.175 0.14 1
+  58.041 1.71 17
+  58.074 0.53 5
+  59.05 45.88 458
+  59.108 0.54 5
+  59.374 0.13 1
+  59.408 0.15 1
+  60.053 1.59 16
+  62.016 0.42 4
+  63.024 1.04 10
+  64.031 0.29 3
+  65.039 6.63 66
+  65.104 0.13 1
+  66.047 8.43 84
+  66.112 0.15 1
+  67.02 0.23 2
+  67.055 57.96 579
+  67.122 0.65 6
+  67.458 0.17 2
+  67.711 0.12 1
+  68.026 53.8 537
+  68.061 6.53 65
+  68.19 0.14 1
+  68.383 0.19 2
+  68.688 0.15 1
+  68.996 0.19 2
+  69.033 8.2 82
+  69.07 2.27 23
+  70.042 14.8 148
+  70.076 0.44 4
+  70.166 0.14 1
+  71.013 0.65 6
+  71.05 6.55 65
+  71.082 0.17 2
+  72.057 1.19 12
+  73.029 0.97 10
+  77.04 2.39 24
+  78.047 1.3 13
+  79.055 4.92 49
+  80.061 0.75 7
+  81.034 16.14 161
+  81.07 1.5 15
+  81.154 0.12 1
+  82.042 7.65 76
+  82.078 2.29 23
+  83.05 17.72 177
+  83.181 0.17 2
+  84.022 0.31 3
+  84.057 4.45 44
+  85.066 40.27 402
+  86.037 0.62 6
+  86.069 2.49 25
+  91.055 0.74 7
+  92.062 0.22 2
+  93.071 0.69 7
+  94.042 0.64 6
+  95.05 13.16 131
+  95.173 0.12 1
+  96.057 4.83 48
+  97.029 0.34 3
+  97.066 17.14 171
+  98.072 2.42 24
+  99.043 0.27 3
+  107.049 0.49 5
+  107.087 0.7 7
+  109.066 0.61 6
+  110.074 2.72 27
+  111.045 0.66 7
+  111.08 0.69 7
+  112.053 3.67 37
+  113.059 0.7 7
+  121.065 0.4 4
+  125.061 0.73 7
+  125.097 0.93 9
+  126.069 0.56 6
+  139.075 0.16 2
+//

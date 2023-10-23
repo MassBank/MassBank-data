@@ -1,0 +1,40 @@
+ACCESSION: MSBNK-Literature_Specs-LIT00010
+RECORD_TITLE: C7DEA; LC-APCI-Q; MS; [M+H]+
+DATE: 2016.02.03 (Created 2013.01.31)
+AUTHORS: E. Schymanski; retrieved from M. Castillo et al. 2000
+LICENSE: CC0
+COPYRIGHT: Copyright (C) Elsevier Ltd. 2000
+PUBLICATION: Castillo, M.; Riu, J.; Ventura, F.; Boleda, R.; Scheding, R.; Schröder, H. F.; Nistor, C.; Émneus, J.; Eichhorn, P.; Knepper, T. .; et al. Inter-Laboratory Comparison of Liquid Chromatographic Techniques and Enzyme-Linked Immunosorbent Assay for the Determination of Surfactants in Wastewaters. Journal of Chromatography A 2000, 889 (1–2), 195–209. DOI:10.1016/s0021-9673(00)00398-8
+COMMENT: Literature spectrum
+COMMENT: CONFIDENCE Tentative identification: isomers possible (Level 3)
+COMMENT: May be an alkyl homologue
+COMMENT: Digitised from figure: approximate intensities
+CH$NAME: C7DEA
+CH$NAME: C7-coconut fatty acid diethanolamide
+CH$NAME: N,N-Bis(2-hydroxyethyl)octanamide
+CH$COMPOUND_CLASS: N/A; Surfactant
+CH$FORMULA: C12H25NO3
+CH$EXACT_MASS: 231.1834
+CH$SMILES: O=C(CCCCCCC)N(CCO)CCO
+CH$IUPAC: InChI=1S/C12H25NO3/c1-2-3-4-5-6-7-12(16)13(8-10-14)9-11-15/h14-15H,2-11H2,1H3
+CH$LINK: INCHIKEY FZQAYFWUOCXLKJ-UHFFFAOYSA-N
+CH$LINK: CAS 3077-30-3
+CH$LINK: CHEMSPIDER 68969
+CH$LINK: PUBCHEM CID:76499
+CH$LINK: COMPTOX DTXSID6062832
+AC$INSTRUMENT: VG Platform
+AC$INSTRUMENT_TYPE: LC-APCI-Q
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION APCI
+MS$DATA_PROCESSING: WHOLE Hand-digitised from figures
+PK$SPLASH: splash10-0bu9-3960000000-510852789cdd8fa567b5
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  88 55 550
+  106 100 999
+  127 5 50
+  171 25 250
+  214 50 500
+  232 50 500
+//

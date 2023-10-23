@@ -1,0 +1,38 @@
+ACCESSION: MSBNK-MSSJ-MSJ02048
+RECORD_TITLE: (2S,3S)-(-)-2,3-Epoxyoctyl 3,5-dinitrobenzoate; GC-FI-TOF; MS; positive; FI; 10 kV
+DATE: 2022.02.23
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Mori K, Osada K, and Amaike M, Tetrahedron: Asymmetry, 26 (2015) 861-867; DOI:10.1016/j.tetasy.2015.06.011
+COMMENT: JMS-T100GCV is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the ion-source and GC-transfer line were 70 and 200 C. Resolving power (FWHM, nominal) was 7,000.
+COMMENT: Field ionization (FI) voltage, which is defined as the voltage between the emitter surface and the electrode, was 10 kV (default). Typical accuracy level expected was 10 ppm. Postrun m/z adjustment was made at a known mass, 339.11923.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 21HP8020 to the Mass Spectrometry Society of Japan.
+CH$NAME: (2S,3S)-(-)-2,3-Epoxyoctyl 3,5-dinitrobenzoate
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C15H18N2O7
+CH$EXACT_MASS: 388.1114
+CH$SMILES: O=C(OC[C@@H]1O[C@H]1CCCCC)c1cc(cc(c1)[N+]([O-])=O)[N+]([O-])=O
+CH$IUPAC: InChI=1S/C15H18N2O7/c1-2-3-4-5-13-14(24-13)9-23-15(18)10-6-11(16(19)20)8-12(7-10)17(21)22/h6-8,13-14H,2-5,9H2,1H3/t13-,14-/m0/s1
+CH$LINK: INCHIKEY GKFASSNHRFLMQB-KBPBESRZSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Agilent, Wilmington, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min.
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091 J-413 USD364547H (Agilent, Wilmington, USA), length 30.0 m, I.D. 0.32 mm, thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at initial oven temp. 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temp. for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 210 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 11.71 min.
+PK$SPLASH: splash10-000j-2049000000-3ee5ac2eee4fded45cb2
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  29.04 30.2227 302
+  56.064 9.6669 97
+  295.091 51.7048 517
+  296.093 14.7369 147
+  337.102 19.9005 199
+  339.119 100 999
+  340.124 20.0778 201
+//
