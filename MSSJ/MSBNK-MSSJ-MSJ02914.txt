@@ -1,0 +1,41 @@
+ACCESSION: MSBNK-MSSJ-MSJ02914
+RECORD_TITLE: Thiodicarb; LC-ESI-QTOF; MS; POSITIVE
+DATE: 2023.10.22
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 23HP8017 to the Mass Spectrometry Society of Japan.
+CH$NAME: Thiodicarb
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C10H18N4O4S3
+CH$EXACT_MASS: 354.049019
+CH$SMILES: CC(=NOC(=O)N(C)SN(C)C(=O)ON=C(C)SC)SC
+CH$IUPAC: InChI=1S/C10H18N4O4S3/c1-7(19-5)11-17-9(15)13(3)21-14(4)10(16)18-12-8(2)20-6/h1-6H3/b11-7+,12-8+
+CH$LINK: CAS 59669-26-0
+CH$LINK: CHEMSPIDER 7875353
+CH$LINK: INCHIKEY XDOTVMNBCQVZKG-MKICQXMISA-N
+CH$LINK: PUBCHEM CID:9601227
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, MA, USA) coupled to ExionLC AD (AB Sciex LLC, MA, USA).
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME TSKgel ODS-100S 5 um, 2.1 mm × 250 mm, TOSOH
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 3 min, 0/100 at 13 min, 0/100 at 23 min, 95/5 at 23.1 min, 95/5 at 28 min
+AC$CHROMATOGRAPHY: FLOW_RATE 200 ul/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 13.2 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 20 mM formic acid aquatic solution
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 20 mM Formic acid methanolic solution
+PK$SPLASH: splash10-0a4i-0309000000-b4a33c76eda43122329f
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  88.0212 136.9 88
+  107.9933 22.2 14
+  149.0203 121.2 78
+  163.0534 338.3 218
+  193.0099 225.1 145
+  209.0049 142.2 92
+  355.0562 1547.7 999
+  356.0588 240.8 155
+  357.053 242.0 156
+//
