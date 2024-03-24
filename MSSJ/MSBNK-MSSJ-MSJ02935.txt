@@ -1,0 +1,39 @@
+ACCESSION: MSBNK-MSSJ-MSJ02935
+RECORD_TITLE: Oxaziclomefone; LC-ESI-QTOF; MS; POSITIVE
+DATE: 2023.10.22
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 23HP8017 to the Mass Spectrometry Society of Japan.
+CH$NAME: Oxaziclomefone
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C20H19Cl2NO2
+CH$EXACT_MASS: 375.079284
+CH$SMILES: CC1=C(C(=O)N(CO1)C(C)(C)C2=CC(=CC(=C2)Cl)Cl)C3=CC=CC=C3
+CH$IUPAC: InChI=1S/C20H19Cl2NO2/c1-13-18(14-7-5-4-6-8-14)19(24)23(12-25-13)20(2,3)15-9-16(21)11-17(22)10-15/h4-11H,12H2,1-3H3
+CH$LINK: CAS 153197-14-9
+CH$LINK: CHEMSPIDER 10469364
+CH$LINK: INCHIKEY FCOHEOSCARXMMS-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:15604135
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, MA, USA) coupled to ExionLC AD (AB Sciex LLC, MA, USA).
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME TSKgel ODS-100S 5 um, 2.1 mm × 250 mm, TOSOH
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 3 min, 0/100 at 13 min, 0/100 at 23 min, 95/5 at 23.1 min, 95/5 at 28 min
+AC$CHROMATOGRAPHY: FLOW_RATE 200 ul/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 16.0 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 20 mM formic acid aquatic solution
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 20 mM Formic acid methanolic solution
+PK$SPLASH: splash10-004i-0209000000-12042c8e3bfe0e4aa303
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  161.0595 92.9 32
+  190.0861 1609.3 547
+  191.0895 206.4 70
+  376.0866 2939.9 999
+  377.0901 643.4 219
+  378.084 1947.9 662
+  379.0873 419.7 143
+//

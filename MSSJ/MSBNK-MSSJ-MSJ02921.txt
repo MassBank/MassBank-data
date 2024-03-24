@@ -1,0 +1,37 @@
+ACCESSION: MSBNK-MSSJ-MSJ02921
+RECORD_TITLE: Fenoxaprop-ethyl; LC-ESI-QTOF; MS; POSITIVE
+DATE: 2023.10.22
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 23HP8017 to the Mass Spectrometry Society of Japan.
+CH$NAME: Fenoxaprop-ethyl
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C18H16ClNO5
+CH$EXACT_MASS: 361.0717
+CH$SMILES: CCOC(=O)C(C)OC1=CC=C(C=C1)OC2=NC3=C(O2)C=C(C=C3)Cl
+CH$IUPAC: InChI=1S/C18H16ClNO5/c1-3-22-17(21)11(2)23-13-5-7-14(8-6-13)24-18-20-15-9-4-12(19)10-16(15)25-18/h4-11H,3H2,1-2H3
+CH$LINK: CAS 66441-23-4
+CH$LINK: CHEMSPIDER 43609
+CH$LINK: INCHIKEY PQKBPHSEKWERTG-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:47938
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, MA, USA) coupled to ExionLC AD (AB Sciex LLC, MA, USA).
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME TSKgel ODS-100S 5 um, 2.1 mm × 250 mm, TOSOH
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 3 min, 0/100 at 13 min, 0/100 at 23 min, 95/5 at 23.1 min, 95/5 at 28 min
+AC$CHROMATOGRAPHY: FLOW_RATE 200 ul/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 16.1 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 20 mM formic acid aquatic solution
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 20 mM Formic acid methanolic solution
+PK$SPLASH: splash10-03di-0009000000-8c4a356a74ebca1e2008
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  288.0421 118.4 18
+  362.0788 6661.8 999
+  363.0824 1423.1 213
+  364.0767 2456.6 368
+  365.0797 463.5 70
+//

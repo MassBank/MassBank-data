@@ -1,0 +1,37 @@
+ACCESSION: MSBNK-MSSJ-MSJ02872
+RECORD_TITLE: Azamethiophos; LC-ESI-QTOF; MS; POSITIVE
+DATE: 2023.10.22
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 23HP8017 to the Mass Spectrometry Society of Japan.
+CH$NAME: Azamethiophos
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C9H10ClN2O5PS
+CH$EXACT_MASS: 323.973657
+CH$SMILES: COP(=O)(OC)SCN1C2=C(C=C(C=N2)Cl)OC1=O
+CH$IUPAC: InChI=1S/C9H10ClN2O5PS/c1-15-18(14,16-2)19-5-12-8-7(17-9(12)13)3-6(10)4-11-8/h3-4H,5H2,1-2H3
+CH$LINK: CAS 35575-96-3
+CH$LINK: CHEMSPIDER 64559
+CH$LINK: INCHIKEY VNKBTWQZTQIWDV-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:71482
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, MA, USA) coupled to ExionLC AD (AB Sciex LLC, MA, USA).
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME TSKgel ODS-100S 5 um, 2.1 mm × 250 mm, TOSOH
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 3 min, 0/100 at 13 min, 0/100 at 23 min, 95/5 at 23.1 min, 95/5 at 28 min
+AC$CHROMATOGRAPHY: FLOW_RATE 200 ul/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 12.9 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 20 mM formic acid aquatic solution
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 20 mM Formic acid methanolic solution
+PK$SPLASH: splash10-00fr-0009000000-a3a0aa7b523ff9505b4c
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  182.9955 15.3 5
+  324.9808 2985.5 999
+  325.9841 445.4 149
+  326.9782 1327.5 444
+  327.9812 163.7 55
+//

@@ -1,0 +1,35 @@
+ACCESSION: MSBNK-MSSJ-MSJ02692
+RECORD_TITLE: Primisulfuron-methyl; LC-ESI-QTOF; MS; NEGATIVE
+DATE: 2023.04.05
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 23HP8017 to the Mass Spectrometry Society of Japan.
+CH$NAME: Primisulfuron-methyl
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C15H12F4N4O7S
+CH$EXACT_MASS: 468.036283
+CH$SMILES: COC(=O)C1=CC=CC=C1S(=O)(=O)NC(=O)NC2=NC(=CC(=N2)OC(F)F)OC(F)F
+CH$IUPAC: InChI=1S/C15H12F4N4O7S/c1-28-11(24)7-4-2-3-5-8(7)31(26,27)23-15(25)22-14-20-9(29-12(16)17)6-10(21-14)30-13(18)19/h2-6,12-13H,1H3,(H2,20,21,22,23,25)
+CH$LINK: CAS 86209-51-0
+CH$LINK: CHEMSPIDER 91738
+CH$LINK: INCHIKEY ZTYVMAQSHCZXLF-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:101525
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, MA, USA) coupled to ExionLC AD (AB Sciex LLC, MA, USA).
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME AQ-C18HP 3 microm, 2.1 mm × 150 mm (GL Science, Tokyo, Japan).
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 90/10 at 0 min, 90/10 at 8 min, 0/100 at 23 min, 0/100 at 30 min, 90/10 at 30.1 min, 90/10 at 40 min
+AC$CHROMATOGRAPHY: FLOW_RATE 200 microL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 33.9 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 2 mM Ammonium bicarbonate
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 2 mM Ammmonium bicarbonate
+PK$SPLASH: splash10-014i-0000900000-c0d6ab8e06da3c64b719
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  467.0288 392.2 999
+  468.032 77.9 198
+  469.0283 31.4 80
+//
