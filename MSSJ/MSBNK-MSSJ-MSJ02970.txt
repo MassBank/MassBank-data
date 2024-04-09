@@ -1,0 +1,33 @@
+ACCESSION: MSBNK-MSSJ-MSJ02970
+RECORD_TITLE: Lactofen; LC-ESI-QTOF; MS; POSITIVE
+DATE: 2023.10.22
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 23HP8017 to the Mass Spectrometry Society of Japan.
+CH$NAME: Lactofen
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C19H15ClF3NO7
+CH$EXACT_MASS: 461.048914
+CH$SMILES: CCOC(=O)C(C)OC(=O)C1=C(C=CC(=C1)OC2=C(C=C(C=C2)C(F)(F)F)Cl)[N+](=O)[O-]
+CH$IUPAC: InChI=1S/C19H15ClF3NO7/c1-3-29-17(25)10(2)30-18(26)13-9-12(5-6-15(13)24(27)28)31-16-7-4-11(8-14(16)20)19(21,22)23/h4-10H,3H2,1-2H3
+CH$LINK: CAS 77501-63-4
+CH$LINK: CHEMSPIDER 56077
+CH$LINK: INCHIKEY CONWAEURSVPLRM-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:62276
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, MA, USA) coupled to ExionLC AD (AB Sciex LLC, MA, USA).
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME TSKgel ODS-100S 5 um, 2.1 mm × 250 mm, TOSOH
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 3 min, 0/100 at 13 min, 0/100 at 23 min, 95/5 at 23.1 min, 95/5 at 28 min
+AC$CHROMATOGRAPHY: FLOW_RATE 200 ul/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 15.9 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 20 mM formic acid aquatic solution
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 20 mM Formic acid methanolic solution
+PK$SPLASH: splash10-03di-0000900000-cc4208e46b074d0a9739
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  462.0557 342.7 999
+//

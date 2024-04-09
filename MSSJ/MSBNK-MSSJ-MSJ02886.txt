@@ -1,0 +1,41 @@
+ACCESSION: MSBNK-MSSJ-MSJ02886
+RECORD_TITLE: Carpropamid; LC-ESI-QTOF; MS; POSITIVE
+DATE: 2023.10.22
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 23HP8017 to the Mass Spectrometry Society of Japan.
+CH$NAME: Carpropamid
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C15H18Cl3NO
+CH$EXACT_MASS: 333.045397
+CH$SMILES: CCC1(C(C1(Cl)Cl)C)C(=O)NC(C)C2=CC=C(C=C2)Cl
+CH$IUPAC: InChI=1S/C15H18Cl3NO/c1-4-14(10(3)15(14,17)18)13(20)19-9(2)11-5-7-12(16)8-6-11/h5-10H,4H2,1-3H3,(H,19,20)
+CH$LINK: CAS 104030-54-8
+CH$LINK: CHEMSPIDER 135588
+CH$LINK: INCHIKEY RXDMAYSSBPYBFW-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:153847
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, MA, USA) coupled to ExionLC AD (AB Sciex LLC, MA, USA).
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME TSKgel ODS-100S 5 um, 2.1 mm × 250 mm, TOSOH
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 3 min, 0/100 at 13 min, 0/100 at 23 min, 95/5 at 23.1 min, 95/5 at 28 min
+AC$CHROMATOGRAPHY: FLOW_RATE 200 ul/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 15.5 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 20 mM formic acid aquatic solution
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 20 mM Formic acid methanolic solution
+PK$SPLASH: splash10-0019-0009000000-4e2e6d7bb6b70bd58e5f
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  139.0309 95.7 17
+  196.0291 673.1 123
+  198.0262 446.1 81
+  334.0524 5472.6 999
+  335.056 1072.0 196
+  336.0494 5442.0 993
+  337.0531 1035.2 189
+  338.0469 2018.5 368
+  339.0501 331.8 61
+//

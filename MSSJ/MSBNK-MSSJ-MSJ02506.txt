@@ -1,0 +1,34 @@
+ACCESSION: MSBNK-MSSJ-MSJ02506
+RECORD_TITLE: Cinosulfuron; LC-ESI-QTOF; MS; NEGATIVE
+DATE: 2023.04.05
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 23HP8017 to the Mass Spectrometry Society of Japan.
+CH$NAME: Cinosulfuron
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C15H19N5O7S
+CH$EXACT_MASS: 413.100519
+CH$SMILES: COCCOC1=CC=CC=C1S(=O)(=O)NC(=O)NC2=NC(=NC(=N2)OC)OC
+CH$IUPAC: InChI=1S/C15H19N5O7S/c1-24-8-9-27-10-6-4-5-7-11(10)28(22,23)20-13(21)16-12-17-14(25-2)19-15(18-12)26-3/h4-7H,8-9H2,1-3H3,(H2,16,17,18,19,20,21)
+CH$LINK: CAS 94593-91-6
+CH$LINK: CHEMSPIDER 83438
+CH$LINK: INCHIKEY WMLPCIHUFDKWJU-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:92420
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, MA, USA) coupled to ExionLC AD (AB Sciex LLC, MA, USA).
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME AQ-C18HP 3 microm, 2.1 mm × 150 mm (GL Science, Tokyo, Japan).
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 90/10 at 0 min, 90/10 at 8 min, 0/100 at 23 min, 0/100 at 30 min, 90/10 at 30.1 min, 90/10 at 40 min
+AC$CHROMATOGRAPHY: FLOW_RATE 200 microL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 28.9 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 2 mM Ammonium bicarbonate
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 2 mM Ammmonium bicarbonate
+PK$SPLASH: splash10-03di-0000900000-b9c6f06b3e4cef9e0cf2
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  412.093 75.2 999
+  413.0959 14.8 196
+//

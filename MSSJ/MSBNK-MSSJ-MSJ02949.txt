@@ -1,0 +1,37 @@
+ACCESSION: MSBNK-MSSJ-MSJ02949
+RECORD_TITLE: (Z)-Dimethomorph; LC-ESI-QTOF; MS; POSITIVE
+DATE: 2023.10.22
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 23HP8017 to the Mass Spectrometry Society of Japan.
+CH$NAME: (Z)-Dimethomorph
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C21H22ClNO4
+CH$EXACT_MASS: 387.123736
+CH$SMILES: COC1=C(C=C(C=C1)C(=CC(=O)N2CCOCC2)C3=CC=C(C=C3)Cl)OC
+CH$IUPAC: InChI=1S/C21H22ClNO4/c1-25-19-8-5-16(13-20(19)26-2)18(15-3-6-17(22)7-4-15)14-21(24)23-9-11-27-12-10-23/h3-8,13-14H,9-12H2,1-2H3/b18-14-
+CH$LINK: CAS 113210-98-3
+CH$LINK: CHEMSPIDER 4576347
+CH$LINK: INCHIKEY QNBTYORWCCMPQP-JXAWBTAJSA-N
+CH$LINK: PUBCHEM CID:5463781
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, MA, USA) coupled to ExionLC AD (AB Sciex LLC, MA, USA).
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME TSKgel ODS-100S 5 um, 2.1 mm × 250 mm, TOSOH
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 3 min, 0/100 at 13 min, 0/100 at 23 min, 95/5 at 23.1 min, 95/5 at 28 min
+AC$CHROMATOGRAPHY: FLOW_RATE 200 ul/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 14.7 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 20 mM formic acid aquatic solution
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 20 mM Formic acid methanolic solution
+PK$SPLASH: splash10-000i-0009000000-1163d74811f39f5700e7
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  301.0629 31.3 24
+  388.1311 1283.2 999
+  389.1345 291.1 227
+  390.1289 437.0 340
+  391.132 91.6 71
+//

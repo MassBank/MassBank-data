@@ -1,0 +1,35 @@
+ACCESSION: MSBNK-MSSJ-MSJ02786
+RECORD_TITLE: Pirimicarb; LC-ESI-QTOF; MS; POSITIVE
+DATE: 2023.10.22
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 23HP8017 to the Mass Spectrometry Society of Japan.
+CH$NAME: Pirimicarb
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C11H18N4O2
+CH$EXACT_MASS: 238.142976
+CH$SMILES: CC1=C(N=C(N=C1OC(=O)N(C)C)N(C)C)C
+CH$IUPAC: InChI=1S/C11H18N4O2/c1-7-8(2)12-10(14(3)4)13-9(7)17-11(16)15(5)6/h1-6H3
+CH$LINK: CAS 23103-98-2
+CH$LINK: CHEMSPIDER 29348
+CH$LINK: INCHIKEY YFGYUFNIOHWBOB-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:31645
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, MA, USA) coupled to ExionLC AD (AB Sciex LLC, MA, USA).
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME TSKgel ODS-100S 5 um, 2.1 mm × 250 mm, TOSOH
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 3 min, 0/100 at 13 min, 0/100 at 23 min, 95/5 at 23.1 min, 95/5 at 28 min
+AC$CHROMATOGRAPHY: FLOW_RATE 200 ul/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 12.2 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 20 mM formic acid aquatic solution
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 20 mM Formic acid methanolic solution
+PK$SPLASH: splash10-000i-0090000000-4baae156c8068061c2b4
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  182.1285 215.8 96
+  239.1498 2253.4 999
+  240.1531 473.9 210
+//
