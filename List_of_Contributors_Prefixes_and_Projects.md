@@ -50,3 +50,4 @@
 | Waters                    | Nihon Waters K.K.                                                       | Japan           | WA             |                            |
 | BAFG                      | Federal Institute of Hydrology, Koblenz, Germany - BfG                  | Germany         | BAFG, CSL      |                            |
 | LFUBAY                    | Bavarian Environment Agency, Augsburg, Germany - LfU Bayern             | Germany         | LFUBAY, CSL    |                            |
+| SMB_Measured              | Mass spectra from Shin-MassBank                                         | Japan           | HSA            |                            |
