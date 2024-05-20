@@ -1,0 +1,41 @@
+ACCESSION: MSBNK-MSSJ-MSJ03000
+RECORD_TITLE: Clofedanol; LC-ESI-QQ; MS; ESI; POSITIVE
+DATE: 2023.04.05
+AUTHORS: Koji Yamaguchi, Department of Legal Medicine, Nippon Medical School, 1715 Kamagari, Inzai-shi, Chiba 270-1694, Japan.
+LICENSE: CC BY
+COPYRIGHT: Koji Yamaguchi, Department of Legal Medicine, Nippon Medical School, 1715 Kamagari, Inzai-shi, Chiba 270-1694, Japan.
+COMMENT: Original data are in the 20230405-1.xlsx file.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 23HP8017 to the Mass Spectrometry Society of Japan.
+CH$NAME: Clofedanol
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C17H20ClNO
+CH$EXACT_MASS: 289.123338
+CH$SMILES: CN(C)CCC(C1=CC=CC=C1)(C2=CC=CC=C2Cl)O
+CH$IUPAC: InChI=1S/C17H20ClNO/c1-19(2)13-12-17(20,14-8-4-3-5-9-14)15-10-6-7-11-16(15)18/h3-11,20H,12-13H2,1-2H3
+CH$LINK: CAS 791-35-5
+CH$LINK: CHEMSPIDER 2693
+CH$LINK: INCHIKEY WRCHFMBCVFFYEQ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:2795
+AC$INSTRUMENT: LCMS-8040 coupled to Nexera XR (Shimadzu, Kyoto, Japan).
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME InertSustain C18 ID 2.1 microm, 2.1 x 100 mm (GL Science, Tokyo, Japan).
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 90/10 at 0 min, linear gradient from 90/10 to 2/98 at 0-9 min, 2/98 at 9-12 min, linear gradient from 2/98 to 90/10 at 12-12.1 min, 90/10 at 12.1-15 min.
+AC$CHROMATOGRAPHY: FLOW_RATE 200 microl/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.934 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 10 mM ammonium formate
+AC$CHROMATOGRAPHY: SOLVENT B methanol
+PK$SPLASH: splash10-0006-0090000000-db9ade6aabf0b1d8d208
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  122.2 32008 35
+  123.2 16115 17
+  181.2 9450 10
+  215.2 16167 17
+  290.2 924826 999
+  291.2 162186 175
+  292.2 313998 339
+  293.2 63091 68
+//

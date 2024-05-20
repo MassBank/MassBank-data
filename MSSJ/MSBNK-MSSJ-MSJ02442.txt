@@ -1,0 +1,38 @@
+ACCESSION: MSBNK-MSSJ-MSJ02442
+RECORD_TITLE: S-Ethyl 2-methoxybenzothioate; GC-FI-TOF; MS; POSITIVE; 10 kV
+DATE: 2023.10.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: Hidenori Ochiai, Yuta Uetake, Takashi Niwa, and Takamitsu Hosoya; Angew. Chem. Int. Ed. 2017, 56, 2482–2486. DOI: 10.1002/anie.201611974.
+COMMENT: Original ID of the mass spectral data is A_201604-1612_uetake-ochiai4MB/HO6Y18-1_fi.xlsx
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the ion-source and GC-transfer line were 200 C and 250 C, respectively. Resolving power (FWHM, nominal) was 7000.
+COMMENT: Typical accuracy level expected was 5 ppm. The m/z value was adjusted with 196.05580.
+CH$NAME: S-Ethyl 2-methoxybenzothioate
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C10H12O2S
+CH$EXACT_MASS: 196.055801
+CH$SMILES: COc1ccccc1C(=O)SCC
+CH$IUPAC: InChI=1S/C10H12O2S/c1-3-13-10(11)8-6-4-5-7-9(8)12-2/h4-7H,3H2,1-2H3
+CH$LINK: INCHIKEY CYIZIBKLXLTRMZ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:73953311
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$MASS_SPECTROMETRY: IONIZATION_ENERGY 10 kV
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5MS 30x0.25 0.25microm 19091S-4 (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.25 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temperature for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.88 min
+PK$SPLASH: splash10-0002-0900000000-e97943f0e33906bf528a
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  135.04 6.6646 67
+  136.044 0.6996 7
+  196.056 100 999
+  197.059 11.607 116
+  198.053 5.1015 51
+//

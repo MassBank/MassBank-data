@@ -1,0 +1,81 @@
+ACCESSION: MSBNK-MSSJ-MSJ02462
+RECORD_TITLE: S-Ethyl thiophene-2-carbothioate; GC-EI-TOF; MS; POSITIVE; 70 V
+DATE: 2023.10.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: Hidenori Ochiai, Yuta Uetake, Takashi Niwa, and Takamitsu Hosoya; Angew. Chem. Int. Ed. 2017, 56, 2482–2486. DOI: 10.1002/anie.201611974.
+COMMENT: Original ID of the mass spectral data is A_201604-1612_uetake-ochiai4MB/YU6202-3_ei.xlsx
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the ion-source and GC-transfer line were 250 C and 250 C, respectively. Resolving power (FWHM, nominal) was 7000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. The m/z value was adjusted with 172.00166.
+CH$NAME: S-Ethyl thiophene-2-carbothioate
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C7H8OS2
+CH$EXACT_MASS: 172.001657
+CH$SMILES: CCSC(=O)C1=CC=CS1
+CH$IUPAC: InChI=1S/C7H8OS2/c1-2-9-7(8)6-4-3-5-10-6/h3-5H,2H2,1H3
+CH$LINK: CAS 59020-95-0
+CH$LINK: INCHIKEY PDQHXYFSXUGXLE-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:480033
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME ZB-1MS 7HM-G011-11 sn:313446 (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.32 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temperature for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.86 min
+PK$SPLASH: splash10-03di-5900000000-afb32aee017b245da8a3
+PK$NUM_PEAK: 48
+PK$PEAK: m/z int. rel.int.
+  26.016 1.0222 10
+  27.023 5.2121 52
+  28.006 2.5106 25
+  28.03 0.5864 6
+  29.039 2.8783 29
+  31.99 1.5866 16
+  34.995 1.0683 11
+  37.008 0.6327 6
+  38.016 1.779 18
+  39.023 21.5712 215
+  39.071 0.2351 2
+  40.027 0.7583 8
+  43.99 0.2941 3
+  44.98 5.2604 53
+  45.987 0.7364 7
+  49.008 0.2964 3
+  50.015 0.8632 9
+  51.023 0.4307 4
+  53.003 1.1589 12
+  56.98 5.3141 53
+  57.987 1.95 19
+  58.995 1.189 12
+  60.002 0.3272 3
+  61.011 0.6722 7
+  68.98 1.4641 15
+  69.987 0.2422 2
+  70.995 2.8652 29
+  77.003 0.2428 2
+  80.98 1.7936 18
+  81.988 2.5839 26
+  82.995 7.0935 71
+  83.999 0.5532 6
+  84.992 0.282 3
+  91.054 0.2604 3
+  110.99 100 999
+  111.51 0.302 3
+  111.993 6.7051 67
+  112.293 0.163 2
+  112.987 4.4687 45
+  113.065 0.1345 1
+  113.99 0.3199 3
+  114.968 0.6634 7
+  126.966 0.2836 3
+  143.971 0.3978 4
+  172.002 9.4378 94
+  172.101 0.1646 2
+  173.005 0.9216 9
+  173.998 0.8667 9
+//

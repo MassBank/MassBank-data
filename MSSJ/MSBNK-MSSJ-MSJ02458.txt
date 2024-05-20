@@ -1,0 +1,116 @@
+ACCESSION: MSBNK-MSSJ-MSJ02458
+RECORD_TITLE: S-Ethyl 4-(4'-ethylthiocarbonylphenyl)benzothioate; GC-EI-TOF; MS; POSITIVE; 70 V
+DATE: 2023.10.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: Hidenori Ochiai, Yuta Uetake, Takashi Niwa, and Takamitsu Hosoya; Angew. Chem. Int. Ed. 2017, 56, 2482–2486. DOI: 10.1002/anie.201611974.
+COMMENT: Original ID of the mass spectral data is A_201604-1612_uetake-ochiai4MB/MS019-HO5Z25-5_ei.xlsx
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the ion-source and GC-transfer line were 250 C and 250 C, respectively. Resolving power (FWHM, nominal) was 7000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. The m/z value was adjusted with 330.07482.
+CH$NAME: S-Ethyl 4-(4'-ethylthiocarbonylphenyl)benzothioate
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C18H18O2S2
+CH$EXACT_MASS: 330.074822
+CH$SMILES: O=C(SCC)c1ccc(cc1)c1ccc(cc1)C(=O)SCC
+CH$IUPAC: InChI=1S/C18H18O2S2/c1-3-21-17(19)15-9-5-13(6-10-15)14-7-11-16(12-8-14)18(20)22-4-2/h5-12H,3-4H2,1-2H3
+CH$LINK: INCHIKEY LTNJWJIZNFLHQB-UHFFFAOYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME ZB-1MS 7HM-G011-11 sn:313446 (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.32 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temperature for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 12.94 min
+PK$SPLASH: splash10-014i-2690000000-acd0e1e954fd052d2d73
+PK$NUM_PEAK: 85
+PK$PEAK: m/z int. rel.int.
+  27.024 1.6876 17
+  28.007 0.7022 7
+  28.031 0.2229 2
+  29.039 1.5036 15
+  31.99 0.409 4
+  34.996 0.6328 6
+  39.024 0.3219 3
+  41.039 0.775 8
+  43.055 0.8068 8
+  44.98 0.3209 3
+  50.016 0.4082 4
+  51.023 0.4437 4
+  55.018 0.504 5
+  55.055 0.9523 10
+  56.062 0.2609 3
+  57.071 0.7097 7
+  58.996 0.2769 3
+  61.011 0.6323 6
+  63.023 0.9588 10
+  67.055 0.6151 6
+  69.07 0.7138 7
+  71.086 0.3253 3
+  73.047 0.4533 5
+  74.016 0.3628 4
+  75.024 1.0135 10
+  76.031 5.8476 58
+  76.533 0.7012 7
+  77.038 0.5453 5
+  78.046 0.2148 2
+  81.07 0.5246 5
+  83.086 0.418 4
+  87.023 0.3352 3
+  90.029 3.6528 36
+  90.53 0.5586 6
+  95.086 0.4214 4
+  97.102 0.2894 3
+  98.073 0.2116 2
+  99.023 0.2831 3
+  100.03 0.2238 2
+  101.039 0.4484 4
+  102.047 1.0469 10
+  104.026 9.0525 90
+  104.112 0.1311 1
+  104.528 1.4115 14
+  113.038 0.2768 3
+  125.038 0.604 6
+  126.047 3.0565 31
+  127.05 0.3992 4
+  133.013 0.2229 2
+  139.055 0.8429 8
+  140.06 0.1592 2
+  149.039 0.2171 2
+  150.046 4.2079 42
+  151.054 11.4356 114
+  151.188 0.3897 4
+  152.062 18.6128 186
+  153.065 2.4365 24
+  154.069 0.1991 2
+  179.048 0.4716 5
+  180.057 33.8022 338
+  181.06 4.9161 49
+  182.063 0.4229 4
+  183.027 0.2969 3
+  184.034 0.7255 7
+  191 0.2319 2
+  207.032 2.0114 20
+  208.048 1.0314 10
+  209.042 0.2439 2
+  212.029 1.3827 14
+  213.033 0.2605 3
+  241.032 1.7777 18
+  242.035 0.3095 3
+  269.062 100 999
+  269.648 0.1534 2
+  269.822 0.2996 3
+  270.066 18.2459 182
+  270.898 0.1198 1
+  271.062 6.116 61
+  272.063 0.8887 9
+  273.054 0.1679 2
+  281.051 0.738 7
+  282.051 0.193 2
+  330.075 2.48 25
+  331.078 0.5278 5
+  332.075 0.2822 3
+//

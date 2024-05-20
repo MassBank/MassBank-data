@@ -1,0 +1,40 @@
+ACCESSION: MSBNK-MSSJ-MSJ01706
+RECORD_TITLE: Nordiazepam; LC-ESI-QQ; MS; ESI; NEGATIVE
+DATE: 2023.03.27
+AUTHORS: Koji Yamaguchi, Department of Legal Medicine, Nippon Medical School, 1715 Kamagari, Inzai-shi, Chiba 270-1694, Japan.
+LICENSE: CC BY
+COPYRIGHT: Koji Yamaguchi, Department of Legal Medicine, Nippon Medical School, 1715 Kamagari, Inzai-shi, Chiba 270-1694, Japan.
+COMMENT: Original data are in the 20230327-3.xlsx file.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 23HP8017 to the Mass Spectrometry Society of Japan.
+CH$NAME: Nordiazepam
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C15H11ClN2O
+CH$EXACT_MASS: 270.055983
+CH$SMILES: C1C(=O)NC2=C(C=C(C=C2)Cl)C(=N1)C3=CC=CC=C3
+CH$IUPAC: InChI=1S/C15H11ClN2O/c16-11-6-7-13-12(8-11)15(17-9-14(19)18-13)10-4-2-1-3-5-10/h1-8H,9H2,(H,18,19)
+CH$LINK: CAS 1088-11-5
+CH$LINK: CHEMSPIDER 2890
+CH$LINK: INCHIKEY AKPLHCDWDRPJGD-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:2997
+AC$INSTRUMENT: LCMS-8040 coupled to Nexera XR (Shimadzu, Kyoto, Japan).
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME InertSustain C18 ID 2.1 microm, 2.1 x 100 mm (GL Science, Tokyo, Japan).
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 90/10 at 0 min, linear gradient from 90/10 to 2/98 at 0-9 min, 2/98 at 9-12 min, linear gradient from 2/98 to 90/10 at 12-12.1 min, 90/10 at 12.1-15 min.
+AC$CHROMATOGRAPHY: FLOW_RATE 200 microl/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.417 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 10 mM ammonium formate
+AC$CHROMATOGRAPHY: SOLVENT B methanol
+PK$SPLASH: splash10-014i-0090000000-c6891ba4a84fde225cf5
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  241.0 138015 24
+  269.0 5646719 999
+  270.1 862156 153
+  271.0 1737262 307
+  272.1 281752 50
+  305.1 75780 13
+  307.1 88550 16
+//
