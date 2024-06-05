@@ -1,0 +1,106 @@
+ACCESSION: MSBNK-MSSJ-MSJ02468
+RECORD_TITLE: 2-(3-(4-fluorobenzoyl)phenyl)propanoic acid; GC-EI-TOF; MS; POSITIVE; 70 V
+DATE: 2023.10.01
+AUTHORS: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: Miho Shukuri, Aya Mawatari, Shuhei Takatani, Tsuyoshi Tahara, Michiko Inoue, Wakiko Arakaki,Masahiro Ohno, Hisashi Doi, and Hirotaka Onoe; J Nucl Med 2022; 63:1761–1767. DOI: 10.2967/jnumed.121.263713
+COMMENT: Original ID of the mass spectral data is A_20210217_takatani4MB/MTA-6_ei.xlsx
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the ion-source and GC-transfer line were 200 C and 250 C, respectively. Resolving power (FWHM, nominal) was 7000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. The m/z value was adjusted with 272.0849.
+CH$NAME: 2-(3-(4-fluorobenzoyl)phenyl)propanoic acid
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C16H13FO3
+CH$EXACT_MASS: 272.084873
+CH$SMILES: OC(=O)C(C)c1cc(ccc1)C(=O)c1ccc(F)cc1
+CH$IUPAC: InChI=1S/C16H13FO3/c1-10(16(19)20)12-3-2-4-13(9-12)15(18)11-5-7-14(17)8-6-11/h2-10H,1H3,(H,19,20)
+CH$LINK: INCHIKEY KEVQWASTYLLKAI-UHFFFAOYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME DB-5MS 122-5532 USA360633H (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.25 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temperature for 7.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 11.65 min
+PK$SPLASH: splash10-00fr-6930000000-d20a12adb4fde5615d03
+PK$NUM_PEAK: 75
+PK$PEAK: m/z int. rel.int.
+  22.485 0.5059 5
+  27.025 1.4499 14
+  28.008 4.4972 45
+  31.991 2.5333 25
+  35.978 0.9365 9
+  39.026 2.3808 24
+  43.02 2.766 28
+  45 3.7561 38
+  50.017 1.8619 19
+  51.025 3.9403 39
+  52.034 1.4816 15
+  53.041 1.2365 12
+  55.02 0.9664 10
+  63.025 2.3721 24
+  65.041 1.4792 15
+  69.017 1.079 11
+  73.049 1.3927 14
+  74.018 1.0056 10
+  75.025 10.1008 101
+  76.032 3.0137 30
+  77.041 12.5283 125
+  77.098 0.453 5
+  78.048 6.0149 60
+  79.056 1.44 14
+  89.041 1.5202 15
+  91.056 2.4891 25
+  93.072 1.0311 10
+  94.024 1.6584 17
+  95.031 51.5582 515
+  96.035 3.5681 36
+  99.033 0.4829 5
+  101.04 0.9452 9
+  102.048 2.4798 25
+  103.057 13.3286 133
+  103.111 0.631 6
+  104.064 6.5202 65
+  105.037 1.0243 10
+  105.07 1.6503 16
+  121.067 0.6273 6
+  123.026 100 999
+  124.029 7.2763 73
+  125.034 0.5837 6
+  131.052 2.5986 26
+  132.059 1.1332 11
+  133.054 1.1002 11
+  134.04 0.7013 7
+  147.028 0.4574 5
+  149.059 1.7474 17
+  163.043 0.7169 7
+  170.054 1.6764 17
+  171.063 0.7001 7
+  175.054 0.5128 5
+  177.056 21.8289 218
+  177.223 0.5184 5
+  178.06 2.6036 26
+  179.089 0.8656 9
+  183.062 2.2421 22
+  184.067 0.9235 9
+  196.067 1.252 13
+  197.077 0.8388 8
+  199.056 7.3734 74
+  199.145 0.5831 6
+  200.058 1.1966 12
+  207.033 1.5557 16
+  212.064 3.2638 33
+  225.075 0.519 5
+  226.078 0.8643 9
+  227.087 29.0853 291
+  227.245 0.6385 6
+  228.092 8.781 88
+  228.198 0.4767 5
+  229.096 1.369 14
+  272.085 21.58 216
+  273.087 3.6708 37
+  274.07 0.4711 5
+//

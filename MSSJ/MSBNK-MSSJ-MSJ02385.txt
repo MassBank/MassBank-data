@@ -1,0 +1,42 @@
+ACCESSION: MSBNK-MSSJ-MSJ02385
+RECORD_TITLE: (3aR,4S,6R,6aS)-3a,4-dihydroxy-3,3,6-trimethylhexahydro-1H-cyclopenta[c]furan-1-one; GC-FI-TOF; MS; POSITIVE; 10 kV
+DATE: 2022.08.16
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Mori K., Tetrahedron. 2019 Jun 21;75(25):3387-98. doi: 10.1016/j.tet.2019.04.055.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 23HP8017 to the Mass Spectrometry Society of Japan.
+COMMENT: Original ID of the mass spectral data is KM181201_fi_i2.xlsx.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the ion-source and GC-transfer line were 60 C and 200 C, respectively. Resolving power (FWHM, nominal) was 7000.
+COMMENT: FI voltage was 10 kV. Typical accuracy level expected was 10 ppm. The m/z value was adjusted with 200.10486.
+CH$NAME: (3aR,4S,6R,6aS)-3a,4-dihydroxy-3,3,6-trimethylhexahydro-1H-cyclopenta[c]furan-1-one
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C10H16O4
+CH$EXACT_MASS: 200.104859
+CH$SMILES: CC1(C)OC(=O)[C@H]2[C@H](C)C[C@H](O)[C@]21O
+CH$IUPAC: InChI=1S/C10H16O4/c1-5-4-6(11)10(13)7(5)8(12)14-9(10,2)3/h5-7,11,13H,4H2,1-3H3/t5-,6+,7-,10+/m1/s1
+CH$LINK: INCHIKEY WVTBLUCDGKYJHI-LGVNZDMBSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, 1.5 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091J-413 USD364547H (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.32 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temperature for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.04 min
+PK$SPLASH: splash10-00di-0920000000-cda1b88c0caa75dc1e15
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  114.068 1.3418 13
+  172.11 100 999
+  173.113 10.3871 104
+  174.118 1.3503 13
+  182.09 1.2812 13
+  183.105 1.8129 18
+  199.096 5.0978 51
+  200.105 12.8181 128
+  201.112 21.2144 212
+  202.115 2.1239 21
+//

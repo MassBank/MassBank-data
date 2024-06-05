@@ -1,0 +1,36 @@
+ACCESSION: MSBNK-MSSJ-MSJ01861
+RECORD_TITLE: Trimeprazine; LC-ESI-QQ; MS; ESI; POSITIVE
+DATE: 2023.03.28
+AUTHORS: Koji Yamaguchi, Department of Legal Medicine, Nippon Medical School, 1715 Kamagari, Inzai-shi, Chiba 270-1694, Japan.
+LICENSE: CC BY
+COPYRIGHT: Koji Yamaguchi, Department of Legal Medicine, Nippon Medical School, 1715 Kamagari, Inzai-shi, Chiba 270-1694, Japan.
+COMMENT: Original data are in the 20230328-4.xlsx file.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 23HP8017 to the Mass Spectrometry Society of Japan.
+CH$NAME: Trimeprazine
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C18H22N2S
+CH$EXACT_MASS: 298.150361
+CH$SMILES: CC(CN1C2=CC=CC=C2SC3=CC=CC=C31)CN(C)C
+CH$IUPAC: InChI=1S/C18H22N2S/c1-14(12-19(2)3)13-20-15-8-4-6-10-17(15)21-18-11-7-5-9-16(18)20/h4-11,14H,12-13H2,1-3H3
+CH$LINK: CAS 84-96-8
+CH$LINK: CHEMSPIDER 5373
+CH$LINK: INCHIKEY ZZHLYYDVIOPZBE-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:5574
+AC$INSTRUMENT: LCMS-8040 coupled to Nexera XR (Shimadzu, Kyoto, Japan).
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME InertSustain C18 ID 2.1 microm, 2.1 x 100 mm (GL Science, Tokyo, Japan).
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 90/10 at 0 min, linear gradient from 90/10 to 2/98 at 0-9 min, 2/98 at 9-12 min, linear gradient from 2/98 to 90/10 at 12-12.1 min, 90/10 at 12.1-15 min.
+AC$CHROMATOGRAPHY: FLOW_RATE 200 microl/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.227 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 10 mM ammonium formate
+AC$CHROMATOGRAPHY: SOLVENT B methanol
+PK$SPLASH: splash10-0002-0092000000-612c3ada9eb26a559341
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  299.3 6709617 999
+  300.3 1501286 224
+  301.3 295983 44
+//

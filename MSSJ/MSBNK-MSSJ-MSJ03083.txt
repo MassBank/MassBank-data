@@ -1,0 +1,38 @@
+ACCESSION: MSBNK-MSSJ-MSJ03083
+RECORD_TITLE: Secobarbital; LC-ESI-QQ; MS; ESI; NEGATIVE
+DATE: 2023.04.05
+AUTHORS: Koji Yamaguchi, Department of Legal Medicine, Nippon Medical School, 1715 Kamagari, Inzai-shi, Chiba 270-1694, Japan.
+LICENSE: CC BY
+COPYRIGHT: Koji Yamaguchi, Department of Legal Medicine, Nippon Medical School, 1715 Kamagari, Inzai-shi, Chiba 270-1694, Japan.
+COMMENT: Original data are in the 20230406-2.xlsx file.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 23HP8017 to the Mass Spectrometry Society of Japan.
+CH$NAME: Secobarbital
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C12H18N2O3
+CH$EXACT_MASS: 238.131735
+CH$SMILES: CCCC(C)C1(C(=O)NC(=O)NC1=O)CC=C
+CH$IUPAC: InChI=1S/C12H18N2O3/c1-4-6-8(3)12(7-5-2)9(15)13-11(17)14-10(12)16/h5,8H,2,4,6-7H2,1,3H3,(H2,13,14,15,16,17)
+CH$LINK: CAS 76-73-3
+CH$LINK: CHEMSPIDER 5005
+CH$LINK: INCHIKEY KQPKPCNLIDLUMF-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:5193
+AC$INSTRUMENT: LCMS-8040 coupled to Nexera XR (Shimadzu, Kyoto, Japan).
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME InertSustain C18 ID 2.1 microm, 2.1 x 100 mm (GL Science, Tokyo, Japan).
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 90/10 at 0 min, linear gradient from 90/10 to 2/98 at 0-9 min, 2/98 at 9-12 min, linear gradient from 2/98 to 90/10 at 12-12.1 min, 90/10 at 12.1-15 min.
+AC$CHROMATOGRAPHY: FLOW_RATE 200 microl/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.845 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 10 mM ammonium formate
+AC$CHROMATOGRAPHY: SOLVENT B methanol
+PK$SPLASH: splash10-000i-0090000000-dd2a84836affa02b482e
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  237.1 4900282 999
+  238.1 625753 128
+  239.1 82664 17
+  305.1 171520 35
+  497.2 69134 14
+//

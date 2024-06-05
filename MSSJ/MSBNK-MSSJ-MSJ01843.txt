@@ -1,0 +1,37 @@
+ACCESSION: MSBNK-MSSJ-MSJ01843
+RECORD_TITLE: Amezinium; LC-ESI-QQ; MS; ESI; POSITIVE
+DATE: 2023.03.28
+AUTHORS: Koji Yamaguchi, Department of Legal Medicine, Nippon Medical School, 1715 Kamagari, Inzai-shi, Chiba 270-1694, Japan.
+LICENSE: CC BY
+COPYRIGHT: Koji Yamaguchi, Department of Legal Medicine, Nippon Medical School, 1715 Kamagari, Inzai-shi, Chiba 270-1694, Japan.
+COMMENT: Original data are in the 20230328-3.xlsx file.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 23HP8017 to the Mass Spectrometry Society of Japan.
+CH$NAME: Amezinium
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: [C11H12N3O]+
+CH$EXACT_MASS: 202.097477
+CH$SMILES: COC1=[N+](N=CC(=C1)N)C2=CC=CC=C2
+CH$IUPAC: InChI=1S/C11H11N3O/c1-15-11-7-9(12)8-13-14(11)10-5-3-2-4-6-10/h2-8,12H,1H3/p+1
+CH$LINK: CAS 41658-78-0
+CH$LINK: CHEMSPIDER 64938
+CH$LINK: INCHIKEY VXROHTDSRBRJLN-UHFFFAOYSA-O
+CH$LINK: PUBCHEM CID:71927
+AC$INSTRUMENT: LCMS-8040 coupled to Nexera XR (Shimadzu, Kyoto, Japan).
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME InertSustain C18 ID 2.1 microm, 2.1 x 100 mm (GL Science, Tokyo, Japan).
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 90/10 at 0 min, linear gradient from 90/10 to 2/98 at 0-9 min, 2/98 at 9-12 min, linear gradient from 2/98 to 90/10 at 12-12.1 min, 90/10 at 12.1-15 min.
+AC$CHROMATOGRAPHY: FLOW_RATE 200 microl/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.434 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 10 mM ammonium formate
+AC$CHROMATOGRAPHY: SOLVENT B methanol
+PK$SPLASH: splash10-0udi-0090000000-445ae2645f2667bf2e37
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  114.3 8901 14
+  121.4 7482 12
+  202.2 649889 999
+  203.2 75875 117
+//

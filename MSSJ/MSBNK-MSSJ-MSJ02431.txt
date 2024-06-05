@@ -1,0 +1,77 @@
+ACCESSION: MSBNK-MSSJ-MSJ02431
+RECORD_TITLE: 1-Methyl-4-(6,6,6-trifluoro-3-hexyenyl)benzene; GC-EI-TOF; MS; POSITIVE; 70 V
+DATE: 2023.10.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: Shintaro Kawamura and Mikiko Sodeoka; Angew. Chem. Int. Ed. 2016, 55, 8740–8743. DOI: 10.1002/anie.201604127.
+COMMENT: Original ID of the mass spectral data is A201512-1603_kawamura4MB/kwmr1025_ei.xlsx
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the ion-source and GC-transfer line were 200 C and 200 C, respectively. Resolving power (FWHM, nominal) was 7000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. The m/z value was adjusted with 228.11258.
+CH$NAME: 1-Methyl-4-(6,6,6-trifluoro-3-hexyenyl)benzene
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C13H15F3
+CH$EXACT_MASS: 228.112584
+CH$SMILES: CC1=CC=C(C=C1)CC/C=C/CC(F)(F)F
+CH$IUPAC: InChI=1S/C13H15F3/c1-11-6-8-12(9-7-11)5-3-2-4-10-13(14,15)16/h2,4,6-9H,3,5,10H2,1H3/b4-2+
+CH$LINK: INCHIKEY NHURKFYWBOLEDR-DUXPYHPUSA-N
+CH$LINK: PUBCHEM CID:129248319
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME ZB-1MS 7HM-G011-11 sn:313446 (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.32 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temperature for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.46 min
+PK$SPLASH: splash10-0a4i-2900000000-032146745328d1605e11
+PK$NUM_PEAK: 45
+PK$PEAK: m/z int. rel.int.
+  27.024 2.3246 23
+  28.007 1.2643 13
+  31.99 0.5031 5
+  39.024 2.9601 30
+  40.03 0.2406 2
+  41.04 0.7243 7
+  50.016 0.497 5
+  51.024 1.973 20
+  52.032 0.6187 6
+  53.04 1.3354 13
+  54.047 0.3333 3
+  59.03 1.8516 18
+  63.024 1.0641 11
+  64.031 0.3547 4
+  65.04 1.8108 18
+  68.996 0.4091 4
+  76.032 0.2663 3
+  77.04 7.5754 76
+  78.047 1.9954 20
+  79.055 5.6599 57
+  80.059 0.34 3
+  89.04 0.6236 6
+  91.055 1.952 20
+  92.062 0.3218 3
+  102.047 0.4856 5
+  103.055 4.3511 43
+  104.062 2.1696 22
+  105.071 100 999
+  105.577 0.2976 3
+  105.919 0.1921 2
+  106.074 7.8372 78
+  106.283 0.1526 2
+  107.078 0.332 3
+  115.055 1.4058 14
+  116.062 0.3596 4
+  117.071 0.6489 6
+  118.078 0.228 2
+  123.045 0.1872 2
+  127.055 0.3008 3
+  128.063 1.0788 11
+  129.07 0.8325 8
+  141.07 0.4218 4
+  143.086 0.403 4
+  228.113 5.8998 59
+  229.116 0.7255 7
+//
