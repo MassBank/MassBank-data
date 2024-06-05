@@ -1,0 +1,85 @@
+ACCESSION: MSBNK-MSSJ-MSJ02434
+RECORD_TITLE: 4-(6,6,6-Trifluoro-3-hexyenyl)anisole; GC-EI-TOF; MS; POSITIVE; 70 V
+DATE: 2023.10.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: Shintaro Kawamura and Mikiko Sodeoka; Angew. Chem. Int. Ed. 2016, 55, 8740–8743. DOI: 10.1002/anie.201604127.
+COMMENT: Original ID of the mass spectral data is A201512-1603_kawamura4MB/MeOPh_allyl_ei.xlsx
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the ion-source and GC-transfer line were 250 C and 250 C, respectively. Resolving power (FWHM, nominal) was 7000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. The m/z value was adjusted with 244.107499.
+CH$NAME: 4-(6,6,6-Trifluoro-3-hexyenyl)anisole
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C13H15F3O
+CH$EXACT_MASS: 244.107499
+CH$SMILES: COc1ccc(CC\C=C\CC(F)(F)F)cc1
+CH$IUPAC: InChI=1S/C13H15F3O/c1-17-12-8-6-11(7-9-12)5-3-2-4-10-13(14,15)16/h2,4,6-9H,3,5,10H2,1H3/b4-2+
+CH$LINK: INCHIKEY BBCXRCASCZUWKO-DUXPYHPUSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME ZB-1MS 7HM-G011-11 sn:313446 (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.32 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temperature for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.17 min
+PK$SPLASH: splash10-00di-3900000000-a8b4e217e41b3b7e638a
+PK$NUM_PEAK: 54
+PK$PEAK: m/z int. rel.int.
+  27.023 0.7113 7
+  28.006 1.8129 18
+  31.99 1.2087 12
+  39.023 2.01 20
+  41.039 0.8851 9
+  50.016 0.4782 5
+  51.023 2.0804 21
+  52.031 1.556 16
+  53.039 0.9841 10
+  54.047 0.3431 3
+  55.019 0.3427 3
+  59.029 2.575 26
+  63.023 1.1961 12
+  64.031 0.5895 6
+  65.039 2.1057 21
+  68.996 0.4116 4
+  76.031 0.279 3
+  77.039 5.5693 56
+  78.047 6.5968 66
+  79.052 0.6065 6
+  89.039 1.8081 18
+  90.047 1.2539 13
+  91.055 3.9604 40
+  92.026 0.2321 2
+  92.059 0.3342 3
+  95.015 0.1371 1
+  102.046 0.2838 3
+  103.052 0.58 6
+  104.06 0.1748 2
+  105.034 0.3214 3
+  106.041 0.7823 8
+  107.049 0.5119 5
+  109.046 0.3622 4
+  115.054 1.0627 11
+  116.061 0.3276 3
+  117.07 0.2534 3
+  119.05 0.3345 3
+  121.065 100 999
+  121.608 0.2788 3
+  122.069 7.8848 79
+  122.36 0.1488 1
+  122.418 0.1431 1
+  123.07 0.4745 5
+  127.054 0.2986 3
+  128.062 0.5565 6
+  129.07 0.398 4
+  131.05 0.2547 3
+  134.073 0.2939 3
+  144.056 0.2114 2
+  145.065 0.2338 2
+  146.07 0.2133 2
+  159.08 0.2581 3
+  244.108 3.602 36
+  245.11 0.4957 5
+//

@@ -1,0 +1,77 @@
+ACCESSION: MSBNK-MSSJ-MSJ02453
+RECORD_TITLE: S-Ethyl 4-cyanobenzothioate; GC-EI-TOF; MS; POSITIVE; 70 V
+DATE: 2023.10.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: Hidenori Ochiai, Yuta Uetake, Takashi Niwa, and Takamitsu Hosoya; Angew. Chem. Int. Ed. 2017, 56, 2482–2486. DOI: 10.1002/anie.201611974.
+COMMENT: Original ID of the mass spectral data is A_201604-1612_uetake-ochiai4MB/MS009-HO5925-2_ei.xlsx
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the ion-source and GC-transfer line were 250 C and 250 C, respectively. Resolving power (FWHM, nominal) was 7000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. The m/z value was adjusted with 191.04048.
+CH$NAME: S-Ethyl 4-cyanobenzothioate
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C10H9NOS
+CH$EXACT_MASS: 191.040481
+CH$SMILES: O=C(SCC)c1ccc(cc1)C#N
+CH$IUPAC: InChI=1S/C10H9NOS/c1-2-13-10(12)9-5-3-8(7-11)4-6-9/h3-6H,2H2,1H3
+CH$LINK: INCHIKEY QJTWZMGDGWFPJB-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:101505470
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME ZB-1MS 7HM-G011-11 sn:313446 (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.32 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temperature for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.91 min
+PK$SPLASH: splash10-001i-2900000000-78684f509f9eaeed108e
+PK$NUM_PEAK: 45
+PK$PEAK: m/z int. rel.int.
+  26.016 0.5017 5
+  27.024 4.3089 43
+  28.007 0.6442 6
+  28.031 0.334 3
+  29.039 1.7639 18
+  31.99 0.3505 4
+  34.996 1.2495 12
+  38.016 0.3897 4
+  39.024 0.5899 6
+  44.98 1.4118 14
+  45.988 0.5212 5
+  50.016 3.3983 34
+  51.024 4.8487 48
+  52.02 0.8006 8
+  57.988 0.654 7
+  58.996 1.0806 11
+  60.003 0.4324 4
+  61.011 1.5419 15
+  62.016 0.3786 4
+  63.023 0.4854 5
+  64.019 0.3494 3
+  68.98 0.4321 4
+  74.016 1.3469 13
+  75.023 7.0502 70
+  76.02 4.8903 49
+  77.024 0.3086 3
+  90.035 0.38 4
+  99.011 0.4642 5
+  100.019 0.3884 4
+  101.027 0.6688 7
+  102.034 34.1194 341
+  103.038 3.2044 32
+  104.04 0.1879 2
+  130.029 100 999
+  130.593 0.2837 3
+  131.032 9.7035 97
+  131.412 0.1443 1
+  132.035 0.5942 6
+  134.007 0.6442 6
+  146.007 0.304 3
+  163.009 0.2206 2
+  191.04 7.8736 79
+  191.143 0.1168 1
+  192.044 0.9631 10
+  193.038 0.4044 4
+//

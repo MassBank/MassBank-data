@@ -1,0 +1,125 @@
+ACCESSION: MSBNK-MSSJ-MSJ02384
+RECORD_TITLE: (3aR,4S,6R,6aS)-3a,4-dihydroxy-3,3,6-trimethylhexahydro-1H-cyclopenta[c]furan-1-one; GC-EI-TOF; MS; POSITIVE; 70 V
+DATE: 2022.08.16
+AUTHORS: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN
+PUBLICATION: Mori K., Tetrahedron. 2019 Jun 21;75(25):3387-98. doi: 10.1016/j.tet.2019.04.055.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 23HP8017 to the Mass Spectrometry Society of Japan.
+COMMENT: Original ID of the mass spectral data is KM181201_ei_i2.xlsx.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the ion-source and GC-transfer line were 200 C and 250 C, respectively. Resolving power (FWHM, nominal) was 7000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. The m/z value was adjusted with 130.06299.
+CH$NAME: (3aR,4S,6R,6aS)-3a,4-dihydroxy-3,3,6-trimethylhexahydro-1H-cyclopenta[c]furan-1-one
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C10H16O4
+CH$EXACT_MASS: 200.104859
+CH$SMILES: CC1(C)OC(=O)[C@H]2[C@H](C)C[C@H](O)[C@]21O
+CH$IUPAC: InChI=1S/C10H16O4/c1-5-4-6(11)10(13)7(5)8(12)14-9(10,2)3/h5-7,11,13H,4H2,1-3H3/t5-,6+,7-,10+/m1/s1
+CH$LINK: INCHIKEY WVTBLUCDGKYJHI-LGVNZDMBSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, 1.5 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091J-413 USD364547H (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.32 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Held at 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temperature for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.93 min
+PK$SPLASH: splash10-03ed-9200000000-991159f7da5b9b24e641
+PK$NUM_PEAK: 93
+PK$PEAK: m/z int. rel.int.
+  26.015 1.0348 10
+  27.023 12.1734 122
+  28.006 2.6474 26
+  28.03 1.3088 13
+  29.003 5.251 52
+  29.039 8.1085 81
+  31.018 5.5212 55
+  31.989 1.4761 15
+  39.024 19.507 195
+  40.031 3.5131 35
+  41.039 35.9239 359
+  41.09 0.4562 5
+  42.011 2.7367 27
+  42.046 6.5278 65
+  43.018 48.6639 486
+  43.055 5.6216 56
+  44.026 8.4548 84
+  45.034 2.4965 25
+  51.023 2.3731 24
+  52.031 1.3941 14
+  53.003 1.2256 12
+  53.039 12.4175 124
+  54.01 0.9329 9
+  54.046 2.1977 22
+  55.018 6.21 62
+  55.055 7.2463 72
+  56.025 0.8687 9
+  56.061 1.0611 11
+  57.034 6.7713 68
+  57.07 4.2389 42
+  58.005 1.7319 17
+  58.041 1.9071 19
+  59.049 12.9105 129
+  65.039 2.9549 30
+  66.047 1.3556 14
+  67.055 9.9959 100
+  68.026 1.6165 16
+  68.062 9.0424 90
+  68.998 2.0709 21
+  69.034 18.9501 189
+  69.069 1.9956 20
+  70.041 17.8716 179
+  71.013 1.5698 16
+  71.049 13.5858 136
+  72.021 2.8828 29
+  72.055 1.438 14
+  73.028 1.0075 10
+  77.039 3.2713 33
+  78.046 0.7758 8
+  79.055 2.8459 28
+  81.034 45.8054 458
+  81.07 1.9663 20
+  82.038 2.912 29
+  83.05 6.5548 65
+  83.086 0.5656 6
+  84.056 1.6008 16
+  85.065 1.112 11
+  86.073 0.9084 9
+  87.008 5.1783 52
+  87.044 1.8657 19
+  91.055 1.4605 15
+  93.071 0.8881 9
+  95.05 8.7534 87
+  95.086 1.2266 12
+  96.057 31.2234 312
+  97.029 2.8458 28
+  97.064 7.262 73
+  99.044 53.4895 534
+  100.017 0.9867 10
+  100.048 2.9586 30
+  101.059 1.276 13
+  111.044 4.1514 41
+  111.081 0.8177 8
+  112.052 5.4766 55
+  112.089 0.8952 9
+  113.06 2.7825 28
+  114.068 100 999
+  115.071 6.5475 65
+  116.074 0.6108 6
+  123.081 0.7624 8
+  129.055 2.124 21
+  130.063 13.7766 138
+  131.067 0.905 9
+  137.061 1.0606 11
+  138.068 1.2769 13
+  139.076 1.2917 13
+  141.055 1.6948 17
+  155.056 1.2831 13
+  156.076 0.574 6
+  167.071 1.0813 11
+  170.077 1.1966 12
+  172.11 4.9552 50
+  185.082 1.3066 13
+//

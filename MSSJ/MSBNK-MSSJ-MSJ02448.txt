@@ -1,0 +1,85 @@
+ACCESSION: MSBNK-MSSJ-MSJ02448
+RECORD_TITLE: S-Ethyl 4-aminobenzothioate; GC-EI-TOF; MS; POSITIVE; 70 V
+DATE: 2023.10.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: Hidenori Ochiai, Yuta Uetake, Takashi Niwa, and Takamitsu Hosoya; Angew. Chem. Int. Ed. 2017, 56, 2482–2486. DOI: 10.1002/anie.201611974.
+COMMENT: Original ID of the mass spectral data is A_201604-1612_uetake-ochiai4MB/MS004-HO5X05-3_ei.xlsx
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the ion-source and GC-transfer line were 250 C and 250 C, respectively. Resolving power (FWHM, nominal) was 7000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. The m/z value was adjusted with 181.05613.
+CH$NAME: S-Ethyl 4-aminobenzothioate
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C9H11NOS
+CH$EXACT_MASS: 181.056131
+CH$SMILES: CCSC(=O)C1=CC=C(C=C1)N
+CH$IUPAC: InChI=1S/C9H11NOS/c1-2-12-9(11)7-3-5-8(10)6-4-7/h3-6H,2,10H2,1H3
+CH$LINK: CAS 102879-36-7
+CH$LINK: INCHIKEY QLNRHFNYAPBGCX-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:480028
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME ZB-1MS 7HM-G011-11 sn:313446 (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.32 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temperature for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.58 min
+PK$SPLASH: splash10-00di-5900000000-b8288ef1245d82271bb9
+PK$NUM_PEAK: 52
+PK$PEAK: m/z int. rel.int.
+  26.016 0.2939 3
+  27.023 2.0019 20
+  28.006 1.1377 11
+  29.039 1.2315 12
+  31.99 0.5745 6
+  34.996 0.4548 5
+  38.016 0.7592 8
+  39.024 4.3569 44
+  40.027 0.2547 3
+  41.027 1.1031 11
+  42.034 0.5353 5
+  44.98 0.6774 7
+  45.988 0.2562 3
+  50.016 0.4158 4
+  51.024 0.4682 5
+  52.019 1.2279 12
+  53.037 0.2814 3
+  54.034 0.4284 4
+  55.055 0.2381 2
+  57.988 0.2699 3
+  58.996 0.3798 4
+  61.011 0.3137 3
+  62.015 0.6032 6
+  63.023 2.4362 24
+  64.031 2.2117 22
+  65.039 16.4916 165
+  65.105 0.1999 2
+  66.038 1.9011 19
+  67.051 0.1688 2
+  75.024 0.2553 3
+  80.05 0.957 10
+  90.034 0.5417 5
+  91.042 2.4225 24
+  92.05 20.0808 201
+  92.182 0.1251 1
+  93.053 1.4992 15
+  97.011 0.4817 5
+  119.037 0.7975 8
+  120.045 100 999
+  120.587 0.2911 3
+  121.048 8.1902 82
+  121.302 0.1167 1
+  121.361 0.1483 1
+  122.05 0.5152 5
+  123.015 0.2246 2
+  124.022 2.3078 23
+  125.025 0.2042 2
+  136.023 0.2004 2
+  152.053 0.4788 5
+  181.056 6.4314 64
+  182.059 0.7322 7
+  183.053 0.3279 3
+//

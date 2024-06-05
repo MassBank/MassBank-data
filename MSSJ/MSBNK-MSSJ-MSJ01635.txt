@@ -1,0 +1,39 @@
+ACCESSION: MSBNK-MSSJ-MSJ01635
+RECORD_TITLE: Triazolam; LC-ESI-QQ; MS; ESI; POSITIVE
+DATE: 2023.03.27
+AUTHORS: Koji Yamaguchi, Department of Legal Medicine, Nippon Medical School, 1715 Kamagari, Inzai-shi, Chiba 270-1694, Japan.
+LICENSE: CC BY
+COPYRIGHT: Koji Yamaguchi, Department of Legal Medicine, Nippon Medical School, 1715 Kamagari, Inzai-shi, Chiba 270-1694, Japan.
+COMMENT: Original data are in the 20230327-1-1_Revised.xlsx file.
+COMMENT: This record was created by the financial support of MEXT/JSPS KAKENHI Grant Number 23HP8017 to the Mass Spectrometry Society of Japan.
+CH$NAME: Triazolam
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C17H12Cl2N4
+CH$EXACT_MASS: 342.04389
+CH$SMILES: CC1=NN=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4Cl
+CH$IUPAC: InChI=1S/C17H12Cl2N4/c1-10-21-22-16-9-20-17(12-4-2-3-5-14(12)19)13-8-11(18)6-7-15(13)23(10)16/h2-8H,9H2,1H3
+CH$LINK: CAS 28911-01-5
+CH$LINK: CHEMSPIDER 5355
+CH$LINK: INCHIKEY JOFWLTCLBGQGBO-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:5556
+AC$INSTRUMENT: LCMS-8040 coupled to Nexera XR (Shimadzu, Kyoto, Japan).
+AC$INSTRUMENT_TYPE: LC-ESI-QQ
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME InertSustain C18 ID 2.1 microm, 2.1 x 100 mm (GL Science, Tokyo, Japan).
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 90/10 at 0 min, linear gradient from 90/10 to 2/98 at 0-9 min, 2/98 at 9-12 min, linear gradient from 2/98 to 90/10 at 12-12.1 min, 90/10 at 12.1-15 min.
+AC$CHROMATOGRAPHY: FLOW_RATE 200 microl/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.845 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 10 mM ammonium formate
+AC$CHROMATOGRAPHY: SOLVENT B methanol
+PK$SPLASH: splash10-0007-0009000000-36bcceb7dc07ad8a58b1
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  343.2 868279 999
+  344.2 161758 186
+  345.2 532973 613
+  346.2 99137 114
+  347.2 93856 108
+  348.2 18229 21
+//

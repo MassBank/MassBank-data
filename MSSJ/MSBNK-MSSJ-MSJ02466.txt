@@ -1,0 +1,117 @@
+ACCESSION: MSBNK-MSSJ-MSJ02466
+RECORD_TITLE: Methyl 2-(3-(4-nitrobenzoyl)phenyl)propanoate; GC-EI-TOF; MS; POSITIVE; 70 V
+DATE: 2023.10.01
+AUTHORS: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: Miho Shukuri, Aya Mawatari, Shuhei Takatani, Tsuyoshi Tahara, Michiko Inoue, Wakiko Arakaki,Masahiro Ohno, Hisashi Doi, and Hirotaka Onoe; J Nucl Med 2022; 63:1761–1767. DOI: 10.2967/jnumed.121.263713
+COMMENT: Original ID of the mass spectral data is A_20210217_takatani4MB/MTA-3_ei.xlsx
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the ion-source and GC-transfer line were 200 C and 250 C, respectively. Resolving power (FWHM, nominal) was 7000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. The m/z value was adjusted with 313.0950.
+CH$NAME: Methyl 2-(3-(4-nitrobenzoyl)phenyl)propanoate
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C17H15NO5
+CH$EXACT_MASS: 313.09502
+CH$SMILES: O=[N+]([O-])c1ccc(cc1)C(=O)c1cccc(c1)C(C)C(=O)OC
+CH$IUPAC: InChI=1S/C17H15NO5/c1-11(17(20)23-2)13-4-3-5-14(10-13)16(19)12-6-8-15(9-7-12)18(21)22/h3-11H,1-2H3
+CH$LINK: INCHIKEY GIAPGGVYTVQKHU-UHFFFAOYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME DB-5MS 122-5532 USA360633H (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.25 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temperature for 7.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 12.59 min
+PK$SPLASH: splash10-0udi-5961000000-fbc6989fa0987949dc37
+PK$NUM_PEAK: 86
+PK$PEAK: m/z int. rel.int.
+  27.025 1.6236 16
+  28.008 1.9836 20
+  30 2.0633 21
+  39.025 1.864 19
+  43.021 0.9651 10
+  50.018 3.6152 36
+  51.025 2.9291 29
+  52.032 1.1031 11
+  53.041 0.8063 8
+  59.015 13.9138 139
+  59.055 0.4304 4
+  63.026 2.498 25
+  64.033 1.8156 18
+  65.041 1.4802 15
+  74.018 0.8296 8
+  75.026 4.9752 50
+  76.033 24.0885 241
+  76.097 0.4985 5
+  77.041 14.4227 144
+  78.049 9.0938 91
+  79.054 1.2367 12
+  89.041 2.3932 24
+  90.049 0.5316 5
+  91.057 2.3827 24
+  92.028 9.1735 92
+  93.033 0.848 8
+  101.042 0.7609 8
+  102.049 3.1394 31
+  103.057 26.5841 266
+  104.028 34.0413 340
+  104.064 14.0671 141
+  105.033 3.7059 37
+  105.069 1.6843 17
+  115.058 1.0522 11
+  119.088 2.8677 29
+  120.023 6.3713 64
+  121.03 1.9523 20
+  122.027 0.8149 8
+  131.051 5.7919 58
+  132.058 2.7145 27
+  133.031 1.0283 10
+  134.025 0.6107 6
+  135.083 0.4488 4
+  139.057 1.1288 11
+  147.062 0.3863 4
+  150.021 39.1765 391
+  150.187 0.4169 4
+  151.024 3.0609 31
+  152.065 3.8611 39
+  153.071 1.5243 15
+  163.071 1.2269 12
+  164.066 0.672 7
+  165.072 3.7035 37
+  166.077 0.7848 8
+  176.065 1.2398 12
+  177.072 1.0037 10
+  178.08 4.5429 45
+  179.087 2.8493 28
+  180.072 1.0074 10
+  181.066 1.1233 11
+  191.072 11.2545 112
+  192.075 1.3974 14
+  193.067 2.3809 24
+  206.076 0.5408 5
+  207.035 1.1736 12
+  207.083 2.471 25
+  208.089 5.2591 53
+  209.091 0.9798 10
+  224.095 0.5966 6
+  237.081 0.7879 8
+  238.088 2.2288 22
+  239.06 1.0706 11
+  253.075 0.9676 10
+  254.082 100 999
+  255.086 16.2101 162
+  256.089 1.845 18
+  269.106 2.449 24
+  270.107 0.5905 6
+  281.068 4.5288 45
+  282.071 1.0724 11
+  283.126 0.9964 10
+  296.092 1.4612 15
+  297.1 0.9136 9
+  313.095 30.157 301
+  314.098 5.5926 56
+  315.102 0.783 8
+//

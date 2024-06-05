@@ -1,0 +1,86 @@
+ACCESSION: MSBNK-MSSJ-MSJ02443
+RECORD_TITLE: S-Dodecyl 4-phenylbenzothioate; GC-EI-TOF; MS; POSITIVE; 70 V
+DATE: 2023.10.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: Hidenori Ochiai, Yuta Uetake, Takashi Niwa, and Takamitsu Hosoya; Angew. Chem. Int. Ed. 2017, 56, 2482–2486. DOI: 10.1002/anie.201611974.
+COMMENT: Original ID of the mass spectral data is A_201604-1612_uetake-ochiai4MB/HO5907-11_ei.xlsx
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Temperature of the ion-source and GC-transfer line were 200 C and 250 C, respectively. Resolving power (FWHM, nominal) was 7000.
+COMMENT: EI voltage was 70 V. Typical accuracy level expected was 5 ppm. The m/z value was adjusted with 382.23304.
+CH$NAME: S-Dodecyl 4-phenylbenzothioate
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C25H34OS
+CH$EXACT_MASS: 382.233036
+CH$SMILES: O=C(SCCCCCCCCCCCC)c1ccc(cc1)c1ccccc1
+CH$IUPAC: InChI=1S/C25H34OS/c1-2-3-4-5-6-7-8-9-10-14-21-27-25(26)24-19-17-23(18-20-24)22-15-12-11-13-16-22/h11-13,15-20H,2-10,14,21H2,1H3
+CH$LINK: INCHIKEY KCGFUFKCWLTJKF-UHFFFAOYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5MS 30x0.25 0.25microm 19091S-4 (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.25 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 50 C for 4 min and ramped at the rate of 30 C/min to 300 C and held at the final temperature for 7.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 16.10 min
+PK$SPLASH: splash10-001i-1900000000-85630874ec9c8e4d651e
+PK$NUM_PEAK: 55
+PK$PEAK: m/z int. rel.int.
+  27.023 0.4772 5
+  28.005 0.6809 7
+  29.039 1.3727 14
+  39.023 0.3708 4
+  41.039 3.3374 33
+  42.046 0.5865 6
+  43.055 4.6549 47
+  44.979 0.2608 3
+  46.995 0.3635 4
+  51.023 0.2676 3
+  55.054 2.4189 24
+  56.061 0.3642 4
+  57.07 1.7244 17
+  61.011 0.2996 3
+  67.055 0.3951 4
+  69.07 0.9381 9
+  71.086 0.308 3
+  73.047 0.5539 6
+  75.023 0.2749 3
+  76.031 0.2732 3
+  77.038 0.5829 6
+  83.085 0.2481 2
+  87.027 0.6015 6
+  101.041 0.3773 4
+  102.046 0.421 4
+  115.056 0.2724 3
+  126.047 0.6716 7
+  127.054 1.3585 14
+  135.062 0.2146 2
+  150.047 0.6179 6
+  151.055 3.6892 37
+  152.062 17.3398 173
+  152.193 0.3962 4
+  153.069 9.3634 94
+  154.074 1.1747 12
+  155.083 0.1922 2
+  180.058 0.2421 2
+  181.065 100 999
+  181.546 0.2005 2
+  181.73 0.2879 3
+  182.068 13.7898 138
+  182.69 0.1846 2
+  183.071 1.116 11
+  183.702 0.109 1
+  184.035 0.2261 2
+  185.042 0.5381 5
+  207.032 0.8475 8
+  214.045 0.4424 4
+  253.016 0.2076 2
+  281.052 0.4349 4
+  322.229 0.3098 3
+  341.018 0.1577 2
+  382.233 1.9101 19
+  383.237 0.5111 5
+  384.233 0.1434 1
+//
