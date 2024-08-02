@@ -49,5 +49,6 @@
 | Univ_Toyama               | University of Toyama                                                    | Japan           | TY             |                            |
 | UOEH                      | University of Occupational and Environmental Health                     | Japan           | UO             |                            |
 | UPAO                      | Universidad Privada Antenor Orrego                                      | Peru            | UPA            |                            |
+| UvA_IBED                  | University of Amsterdam, Institute for Biodiversity & Ecosystem Dynamics| The Netherlands | UI             |                            |
 | Washington_State_Univ     | Washington State University                                             | USA             | BML            |                            |
 | Waters                    | Nihon Waters K.K.                                                       | Japan           | WA             |                            |
