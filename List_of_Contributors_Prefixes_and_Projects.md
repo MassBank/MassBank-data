@@ -35,6 +35,7 @@
 | NAIST                     | Grad Sch Info Sci, NAIST                                                | Japan           | KNA            |                            |
 | NaToxAq                   | NaToxAq, Natural Toxins and Drinking Water Quality - From Source to Tap |                 | NA             | NATOXAQ                    |
 | Nihon_Univ                | College of Humanities and Sciences Nihon University                     | Japan           | NU             |                            |
+| NILU                      | NILU                                                                    | Norway          | NL             |                            |
 | Osaka_MCHRI               | Osaka Medical Center for MCH                                            | Japan           | MCH            |                            |
 | Osaka_Univ                | Grad.Sch.Eng., Osaka Univ.                                              | Japan           | OUF            |                            |
 | PFOS_research_group       | PFOS research group                                                     | Japan           | FFF            |                            |
