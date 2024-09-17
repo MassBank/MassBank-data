@@ -3,6 +3,7 @@
 | ACES_SU                   | University of Stockholm - Environmental Sciences                        | Sweden          | AS             |                            |
 | AAFC                      | Agriculture and Agri-Food Canada                                        | Canada          | AC             |                            |
 | Athens_Univ               | University of Athens - Analytical Chemistry                             | Greece          | AU             |                            |
+| BAFG                      | Federal Institute of Hydrology, Koblenz, Germany - BfG                  | Germany         | BAFG, CSL      |                            |
 | BGC_Munich                | BGC, Helmholtz-Zentrum Muenchen                                         | Germany         | RP             |                            |
 | Boise_State_Univ          | Boise State University                                                  | USA             | BSU            |                            |
 | BS                        | Plant Biology, The Noble Foundation                                     |                 | BS             |                            |
@@ -25,6 +26,7 @@
 | KWR                       | KWR watercycle research institute                                       | The Netherlands | KW             |                            |
 | Kyoto_Univ                | Kyoto University                                                        | Japan           | CA             |                            |
 | LCSB                      | University of Luxembourg - Environmental Cheminformatics                | Luxembourg      | LU             |                            |
+| LFUBAY                    | Bavarian Environment Agency, Augsburg, Germany - LfU Bayern             | Germany         | LFUBAY, CSL    |                            |
 | Literature_Specs          | Literature Spectra from different sources                               |                 | LIT            |                            |
 | MetaboLights              | Mass spectra from MetaboLights                                          |                 | ML             |                            |
 | Metabolon                 | Metabolon, Inc.                                                         | USA             | MT             |                            |
@@ -40,6 +42,7 @@
 | RIKEN_IMS                 | RIKEN Center for Integrative Medical Sciences                           | Japan           | LQA, LQB       |                            |
 | RIKEN_NPDepo              | RIKEN Center for Sustainable Resource Science                           | Japan           | NGA, CB        |                            |
 | RIKEN_ReSpect             | RIKEN Plant Science Center                                              | Japan           | PT, PS, PM     |                            |
+| SMB_Measured              | Mass spectra from Shin-MassBank                                         | Japan           | HSA            |                            |
 | Tottori_Univ              | Tottori University                                                      | Japan           | TT             |                            |
 | UFZ                       | Helmholtz Centre for Environmental Research  - UFZ                      | Germany         | UF, UA, UN, UP | SOLUTIONS, NATOXAQ, HBM4EU |
 | Univ_Connecticut          | University of Connecticut                                               | USA             | CO             |                            |
@@ -48,6 +51,3 @@
 | UPAO                      | Universidad Privada Antenor Orrego                                      | Peru            | UPA            |                            |
 | Washington_State_Univ     | Washington State University                                             | USA             | BML            |                            |
 | Waters                    | Nihon Waters K.K.                                                       | Japan           | WA             |                            |
-| BAFG                      | Federal Institute of Hydrology, Koblenz, Germany - BfG                  | Germany         | BAFG, CSL      |                            |
-| LFUBAY                    | Bavarian Environment Agency, Augsburg, Germany - LfU Bayern             | Germany         | LFUBAY, CSL    |                            |
-| SMB_Measured              | Mass spectra from Shin-MassBank                                         | Japan           | HSA            |                            |
