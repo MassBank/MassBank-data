@@ -1,0 +1,44 @@
+ACCESSION: MSBNK-MSSJ-MSJ04131
+RECORD_TITLE: 3-(4-{[2-(tetradecanoylamino)ethyl]amino}-4-oxobutanamido)-N,N-dimethylpropan-1-amine N-oxide; ESI-QTOF; MS2; ESI; [M-H]-; CE 40 V
+DATE: 2023.02.09
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+PUBLICATION: Atsushi Yamamoto, Naoji Tokai, Rie Kakehashi, Daisuke Saigusa, Mass Spectrometry, vol. 13, in press (2024).
+COMMENT: This record was created by the financial supports of the Shin-MassBank project and the Mass Spectrometry Society of Japan.
+COMMENT: Capillary Voltages were 5,500 V for the positive ion mode analyses and 4,500 V for the negative ion mode analyses.
+CH$NAME: 3-(4-{[2-(tetradecanoylamino)ethyl]amino}-4-oxobutanamido)-N,N-dimethylpropan-1-amine N-oxide
+CH$NAME: AAO 13-2-2-3
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C25H50N4O4
+CH$EXACT_MASS: 470.38319
+CH$SMILES: O=C(NCCNC(=O)CCCCCCCCCCCCC)CCC(=O)NCCC[N+]([O-])(C)C
+CH$IUPAC: InChI=1S/C25H50N4O4/c1-4-5-6-7-8-9-10-11-12-13-14-16-23(30)27-20-21-28-25(32)18-17-24(31)26-19-15-22-29(2,3)33/h4-22H2,1-3H3,(H,26,31)(H,27,30)(H,28,32)
+CH$LINK: INCHIKEY NZHXNYLPCALMKC-UHFFFAOYSA-N
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, MA, USA)
+AC$INSTRUMENT_TYPE: ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 40 V
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+MS$FOCUSED_ION: PRECURSOR_M/Z 469.37591
+MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
+PK$SPLASH: splash10-0002-9012000000-244c807195101d0fca92
+PK$ANNOTATION: m/z rel.int formula calculated_m/z Mass_Diff(ppm) SMILES Rule_of_HR
+  98.02444 999 [C4H7NO2-3H]- 98.02475 0(3.16ppm) O=CCCC(=O)N True
+  141.06647 26 [C6H12N2O2-3H]- 141.066948 0(3.17ppm) O=C(N)CCC(=O)NCC True
+  269.25903 208 [C16H34N2O-H]- 269.259844 0.001(3.13ppm) O=C(NCCN)CCCCCCCCCCCCC True
+  350.28034 51 [C20H41N3O2-5H]- 350.281309 0.001(2.88ppm) O=C(N)CCCNCCNC(=O)CCCCCCCCCCCCC True
+  351.26436 148 [C20H38N2O3-3H]- 351.265312 0.001(2.6ppm) O=CCCC(=O)NCCNC(=O)CCCCCCCCCCCCC True
+  368.29082 85 [C20H39N3O3-H]- 368.291857 0.001(2.87ppm) O=C(N)CCC(=O)NCCNC(=O)CCCCCCCCCCCCC True
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  98.02444 6.4112 999
+  141.06647 0.1655 26
+  269.25903 1.3335 208
+  350.28034 0.3287 51
+  351.26436 0.9468 148
+  368.29082 0.5470 85
+//
