@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111012558
 RECORD_TITLE: Butylphosphonic acid; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Butylphosphonic acid
 CH$FORMULA: C4H11O3P
 CH$EXACT_MASS: 138.0446
@@ -14,6 +13,7 @@ CH$SMILES: CCCCP(=O)(O)O
 CH$IUPAC: InChI=1S/C4H11O3P/c1-2-3-4-8(5,6)7/h2-4H2,1H3,(H2,5,6,7)
 CH$LINK: CAS 3321-64-0
 CH$LINK: INCHIKEY UOKRBSXOBUKDGE-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001302; Organic compounds; Organic acids and derivatives; Organic phosphonic acids and derivatives; Organic phosphonic acids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.77 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 139.0519
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0002-9000000000-3fc6abde5b2ed2c8f271
 PK$NUM_PEAK: 8
 PK$PEAK: m/z int. rel.int.

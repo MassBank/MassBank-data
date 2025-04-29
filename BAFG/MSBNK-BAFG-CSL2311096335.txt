@@ -1,17 +1,16 @@
 ACCESSION: MSBNK-BAFG-CSL2311096335
 RECORD_TITLE: Oseltamivir; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Oseltamivir
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C16H28N2O4
 CH$EXACT_MASS: 312.2049
-CH$SMILES: CCC(CC)O[C@@H]1C=C(C[C@@H]([C@H]1/N=C(\C)/O)N)C(=O)OCC
+CH$SMILES: CCC(CC)O[C@@H]1C=C(C[C@@H]([C@H]1NC(=O)C)N)C(=O)OCC
 CH$IUPAC: InChI=1S/C16H28N2O4/c1-5-12(6-2)22-14-9-11(16(20)21-7-3)8-13(17)15(14)18-10(4)19/h9,12-15H,5-8,17H2,1-4H3,(H,18,19)/t13-,14+,15+/m0/s1
 CH$LINK: CAS 196618-13-0
 CH$LINK: INCHIKEY VSZGPKBBMSAYNT-RRFJBIMHSA-N
@@ -30,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.973 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 313.2122
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00y3-3900000000-7c0bc2a16bf4fdf44c78
 PK$NUM_PEAK: 43
 PK$PEAK: m/z int. rel.int.
@@ -51,7 +49,7 @@ PK$PEAK: m/z int. rel.int.
   109.0759 22.6 134
   110.0599 7.4 44
   111.0429 7.3 43
-  112.0388 2 11
+  112.0388 2.0 11
   119.0603 6.3 37
   120.0448 167.8 999
   121.0276 3.1 18
@@ -65,7 +63,7 @@ PK$PEAK: m/z int. rel.int.
   138.089 5.2 30
   139.0382 3.3 19
   139.074 3.4 20
-  140.0708 3 17
+  140.0708 3.0 17
   151.0862 2.4 14
   161.071 3.6 21
   162.0545 14.4 85

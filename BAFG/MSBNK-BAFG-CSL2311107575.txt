@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311107575
 RECORD_TITLE: Metolachlor ESA; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Metolachlor ESA
-CH$COMPOUND_CLASS: Herbicide
+CH$COMPOUND_CLASS: Herbicide; Transformation_product-Metabolite
 CH$FORMULA: C15H23NO5S
 CH$EXACT_MASS: 329.1297
 CH$SMILES: CCC1=CC=CC(=C1N(C(C)COC)C(=O)CS(=O)(=O)O)C
 CH$IUPAC: InChI=1S/C15H23NO5S/c1-5-13-8-6-7-11(2)15(13)16(12(3)9-21-4)14(17)10-22(18,19)20/h6-8,12H,5,9-10H2,1-4H3,(H,18,19,20)
 CH$LINK: CAS 171118-09-5
 CH$LINK: INCHIKEY CIGKZVUEZXGYSV-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000285; Organic compounds; Benzenoids; Benzene and substituted derivatives; Anilides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.247 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 330.137
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00l6-4900000000-21b5c9c484ba51889491
 PK$NUM_PEAK: 32
 PK$PEAK: m/z int. rel.int.
@@ -39,7 +38,7 @@ PK$PEAK: m/z int. rel.int.
   51.0305 0.5 50
   65.0421 3.1 312
   77.0419 5.7 575
-  78.0487 1 100
+  78.0487 1.0 100
   79.0582 0.8 80
   89.0391 2.5 252
   90.0484 1.1 111
@@ -53,10 +52,10 @@ PK$PEAK: m/z int. rel.int.
   115.0536 5.3 534
   116.0612 0.7 70
   117.0567 3.7 373
-  118.0638 1 100
+  118.0638 1.0 100
   119.0761 0.7 70
   127.0542 1.2 121
-  128.0546 2 201
+  128.0546 2.0 201
   130.0651 9.9 999
   131.0744 1.5 151
   132.0812 0.5 50
@@ -66,5 +65,5 @@ PK$PEAK: m/z int. rel.int.
   144.0813 7.3 736
   156.0808 0.7 70
   157.0876 0.5 50
-  158.0955 1 100
+  158.0955 1.0 100
 //

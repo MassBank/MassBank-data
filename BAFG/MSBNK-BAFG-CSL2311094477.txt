@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311094477
 RECORD_TITLE: 11alpha-Hydroxyprogesterone; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 11alpha-Hydroxyprogesterone
 CH$COMPOUND_CLASS: Pharmaceutical; Metabolite
 CH$FORMULA: C21H30O3
@@ -15,6 +14,7 @@ CH$SMILES: CC(=O)C1CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3[C@H](O)C[C@]12C
 CH$IUPAC: InChI=1S/C21H30O3/c1-12(22)16-6-7-17-15-5-4-13-10-14(23)8-9-20(13,2)19(15)18(24)11-21(16,17)3/h10,15-19,24H,4-9,11H2,1-3H3/t15-,16?,17-,18+,19+,20-,21+/m0/s1
 CH$LINK: CAS 80-75-1
 CH$LINK: INCHIKEY BFZHCUBIASXHPK-ODYOLWGQSA-N
+CH$LINK: ChemOnt CHEMONTID:0003569; Organic compounds; Lipids and lipid-like molecules; Steroids and steroid derivatives; Pregnane steroids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.293 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 331.2268
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004l-9800000000-d3eb7f53263d3316b95b
 PK$NUM_PEAK: 64
 PK$PEAK: m/z int. rel.int.
@@ -60,7 +59,7 @@ PK$PEAK: m/z int. rel.int.
   97.0659 2.7 103
   102.0466 0.9 34
   103.0547 3.9 149
-  104.0617 1 38
+  104.0617 1.0 38
   105.0698 8.9 340
   107.0502 2.1 80
   108.0572 0.7 26
@@ -74,7 +73,7 @@ PK$PEAK: m/z int. rel.int.
   127.0526 2.4 91
   128.0617 11.1 424
   129.0686 5.3 202
-  130.0764 1 38
+  130.0764 1.0 38
   131.0478 0.8 30
   131.0853 1.7 65
   133.0657 0.6 22

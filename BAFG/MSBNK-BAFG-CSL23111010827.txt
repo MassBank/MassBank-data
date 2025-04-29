@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111010827
 RECORD_TITLE: 1-(2,6-Dichlorophenyl)-2-indolinone; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 1-(2,6-Dichlorophenyl)-2-indolinone
-CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product; Diclofenac-lactam
+CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product; Diclofenac-lactam; Transformation_product-Metabolite
 CH$FORMULA: C14H9Cl2NO
 CH$EXACT_MASS: 277.0061
 CH$SMILES: C1C2=CC=CC=C2N(C1=O)C3=C(C=CC=C3Cl)Cl
 CH$IUPAC: InChI=1S/C14H9Cl2NO/c15-10-5-3-6-11(16)14(10)17-12-7-2-1-4-9(12)8-13(17)18/h1-7H,8H2
 CH$LINK: CAS 15362-40-0
 CH$LINK: INCHIKEY JCICIFOYVSPMHG-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002213; Organic compounds; Lipids and lipid-like molecules; Glycerophospholipids; Glycerophosphocholines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.191 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 278.0134
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fb9-3900000000-0b775baf429117958b0a
 PK$NUM_PEAK: 54
 PK$PEAK: m/z int. rel.int.
@@ -56,7 +55,7 @@ PK$PEAK: m/z int. rel.int.
   99.0258 6.7 149
   100.022 3.3 73
   101.0418 5.5 122
-  102.0359 1 22
+  102.0359 1.0 22
   102.0504 3.1 69
   103.0551 0.5 11
   104.0523 1.2 26
@@ -74,18 +73,18 @@ PK$PEAK: m/z int. rel.int.
   129.0533 0.5 11
   137.04 0.8 17
   139.0524 1.1 24
-  140.0494 2 44
+  140.0494 2.0 44
   149.041 5.2 116
   150.0475 44.7 999
   151.0554 44.4 992
   152.0615 29.7 663
-  153.0587 6 134
+  153.0587 6.0 134
   163.0568 0.7 15
-  164.0518 1 22
+  164.0518 1.0 22
   175.0456 2.3 51
   176.0494 6.4 143
   177.0574 28.2 630
-  178.066 32 715
+  178.066 32.0 715
   179.0719 8.6 192
   180.081 0.9 20
   206.0562 0.5 11

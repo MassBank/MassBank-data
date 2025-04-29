@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL231109391
 RECORD_TITLE: Benzylhexyldimethylammonium; LC-ESI-QTOF; MS2; 130 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Benzylhexyldimethylammonium
-CH$COMPOUND_CLASS: Antimicrobial; Pharmaceutical
+CH$COMPOUND_CLASS: Antimicrobial; Pharmaceutical; Biocide
 CH$FORMULA: [C15H26N]+
 CH$EXACT_MASS: 220.206
 CH$SMILES: CCCCCC[N+](C)(Cc1ccccc1)C
 CH$IUPAC: InChI=1S/C15H26N/c1-4-5-6-10-13-16(2,3)14-15-11-8-7-9-12-15/h7-9,11-12H,4-6,10,13-14H2,1-3H3/q+1
 CH$LINK: CAS 22559-57-5
 CH$LINK: INCHIKEY OCRHPUCRAFNCMN-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0003194; Organic compounds; Organometallic compounds; Organometalloid compounds; Organosilicon compounds
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.465 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 220.206
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-9000000000-0805ad17c5bac28c9e29
 PK$NUM_PEAK: 4
 PK$PEAK: m/z int. rel.int.

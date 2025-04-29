@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109073
 RECORD_TITLE: Omeprazole; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Omeprazole
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C17H19N3O3S
@@ -15,6 +14,7 @@ CH$SMILES: COc1ccc2nc([nH]c2c1)[S](=O)Cc3ncc(C)c(OC)c3C
 CH$IUPAC: InChI=1S/C17H19N3O3S/c1-10-8-18-15(11(2)16(10)23-4)9-24(21)17-19-13-6-5-12(22-3)7-14(13)20-17/h5-8H,9H2,1-4H3,(H,19,20)
 CH$LINK: CAS 73590-58-6
 CH$LINK: INCHIKEY SUBDBMMJDZJVOS-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001891; Organic compounds; Organoheterocyclic compounds; Benzimidazoles; Sulfinylbenzimidazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.462 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 346.122
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-05g0-1900000000-1d61e617170ec5875f26
 PK$NUM_PEAK: 40
 PK$PEAK: m/z int. rel.int.
   65.0444 5.2 35
-  66.053 2 13
+  66.053 2.0 13
   67.0606 4.6 31
   77.043 21.1 144
   78.0379 1.6 10
@@ -47,7 +46,7 @@ PK$PEAK: m/z int. rel.int.
   92.0527 10.3 70
   93.0657 13.4 91
   94.0681 4.7 32
-  104.0501 2 13
+  104.0501 2.0 13
   105.0548 2.1 14
   106.0653 46.9 320
   107.0738 12.3 84
@@ -67,10 +66,10 @@ PK$PEAK: m/z int. rel.int.
   137.0294 5.3 36
   138.0357 2.2 15
   149.0703 5.9 40
-  150.091 43 294
+  150.091 43.0 294
   151.0985 5.5 37
   152.0174 10.4 71
-  164.0168 6 41
+  164.0168 6.0 41
   165.0239 33.7 230
   166.0319 19.9 136
   180.048 21.2 144

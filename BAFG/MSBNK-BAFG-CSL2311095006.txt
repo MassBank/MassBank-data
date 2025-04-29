@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095006
 RECORD_TITLE: Oxfendazole; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Oxfendazole
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C15H13N3O3S
@@ -15,6 +14,7 @@ CH$SMILES: COC(=O)Nc1[nH]c2cc(ccc2n1)[S](=O)c3ccccc3
 CH$IUPAC: InChI=1S/C15H13N3O3S/c1-21-15(19)18-14-16-12-8-7-11(9-13(12)17-14)22(20)10-5-3-2-4-6-10/h2-9H,1H3,(H2,16,17,18,19)
 CH$LINK: CAS 53716-50-0
 CH$LINK: INCHIKEY BEZZFPOZAYTVHN-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000294; Organic compounds; Organoheterocyclic compounds; Benzimidazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,15 +30,14 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.579 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 316.075
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-9300000000-ac85cff9e04d2e090728
 PK$NUM_PEAK: 34
 PK$PEAK: m/z int. rel.int.
   51.0289 2.9 124
   52.0237 1.1 47
   52.0339 1.4 60
-  53.0314 1 43
+  53.0314 1.0 43
   63.045 0.5 21
   64.0317 0.7 30
   65.0289 0.7 30
@@ -61,7 +60,7 @@ PK$PEAK: m/z int. rel.int.
   113.0416 0.7 30
   115.0539 0.8 34
   118.0571 0.9 38
-  130.0407 1 43
+  130.0407 1.0 43
   131.0472 1.8 77
   139.0469 0.6 25
   140.0507 0.8 34

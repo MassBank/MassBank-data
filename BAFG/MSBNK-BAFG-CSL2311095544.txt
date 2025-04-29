@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095544
 RECORD_TITLE: Haloxyfop-methyl; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Haloxyfop-methyl
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C16H13ClF3NO4
@@ -15,6 +14,7 @@ CH$SMILES: COC(=O)C(C)Oc1ccc(Oc2ncc(cc2Cl)C(F)(F)F)cc1
 CH$IUPAC: InChI=1S/C16H13ClF3NO4/c1-9(15(22)23-2)24-11-3-5-12(6-4-11)25-14-13(17)7-10(8-21-14)16(18,19)20/h3-9H,1-2H3
 CH$LINK: CAS 69806-40-2
 CH$LINK: INCHIKEY MFSWTRQUCLNFOM-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000099; Organic compounds; Organoheterocyclic compounds; Azoles; Triazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 14.891 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 376.0558
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014u-6590000000-522cbf8a533302759bf3
 PK$NUM_PEAK: 39
 PK$PEAK: m/z int. rel.int.
@@ -47,7 +46,7 @@ PK$PEAK: m/z int. rel.int.
   158.0403 0.6 68
   159.0481 0.5 56
   159.9757 0.8 90
-  168.0234 1 113
+  168.0234 1.0 113
   168.0439 1.9 215
   175.0169 0.7 79
   179.9816 2.1 238
@@ -56,7 +55,7 @@ PK$PEAK: m/z int. rel.int.
   188.0334 0.9 102
   189.0357 1.7 192
   190.0447 0.6 68
-  197.9908 1 113
+  197.9908 1.0 113
   203.0134 1.1 124
   208.0348 0.8 90
   209.0424 4.4 499
@@ -66,7 +65,7 @@ PK$PEAK: m/z int. rel.int.
   219.0051 0.7 79
   224.0043 0.5 56
   232.0137 0.9 102
-  237.0366 1 113
+  237.0366 1.0 113
   243.0034 0.5 56
   246.0271 0.4 45
   252.0025 0.8 90

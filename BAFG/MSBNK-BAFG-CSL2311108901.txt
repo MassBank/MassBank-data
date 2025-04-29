@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311108901
 RECORD_TITLE: Nitrendipine; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Nitrendipine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C18H20N2O6
@@ -15,6 +14,7 @@ CH$SMILES: CCOC(=O)C1=C(NC(=C(C1C2=CC(=CC=C2)[N+](=O)[O-])C(=O)OC)C)C
 CH$IUPAC: InChI=1S/C18H20N2O6/c1-5-26-18(22)15-11(3)19-10(2)14(17(21)25-4)16(15)12-7-6-8-13(9-12)20(23)24/h6-9,16,19H,5H2,1-4H3
 CH$LINK: CAS 39562-70-4
 CH$LINK: INCHIKEY PVHUJELLJLJGLN-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002224; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives; Hydropyridines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.373 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 361.1394
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0gdi-0192000000-be77694f825053aea0f4
 PK$NUM_PEAK: 101
 PK$PEAK: m/z int. rel.int.
@@ -61,7 +60,7 @@ PK$PEAK: m/z int. rel.int.
   178.0643 0.8 13
   179.0709 1.2 20
   180.0803 8.9 150
-  181.0675 1 16
+  181.0675 1.0 16
   181.0871 6.9 116
   182.0961 7.3 123
   183.1042 5.3 89
@@ -71,8 +70,8 @@ PK$PEAK: m/z int. rel.int.
   189.0608 0.7 11
   192.0706 1.2 20
   194.0618 1.3 21
-  195.0637 1 16
-  196.0741 6 101
+  195.0637 1.0 16
+  196.0741 6.0 101
   197.0838 1.9 32
   198.0932 3.6 60
   199.0864 0.6 10
@@ -81,7 +80,7 @@ PK$PEAK: m/z int. rel.int.
   206.0607 1.1 18
   207.0661 2.3 38
   208.0745 12.2 205
-  209.0835 19 320
+  209.0835 19.0 320
   210.0897 31.3 528
   211.0981 13.7 231
   212.0692 2.9 48
@@ -114,8 +113,8 @@ PK$PEAK: m/z int. rel.int.
   254.0798 40.5 683
   255.087 39.2 661
   256.0931 2.8 47
-  257.0987 2 33
-  266.0694 2 33
+  257.0987 2.0 33
+  266.0694 2.0 33
   267.0874 14.3 241
   268.0951 20.3 342
   269.1043 38.8 654

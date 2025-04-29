@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311108472
 RECORD_TITLE: 3-Desmethyl-trimethoprim; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 3-Desmethyl-trimethoprim
-CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product
+CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product; Transformation_product-Metabolite
 CH$FORMULA: C13H16N4O3
 CH$EXACT_MASS: 276.1222
 CH$SMILES: OC1=CC(CC2=CN=C(N=C2N)N)=CC(OC)=C1OC
 CH$IUPAC: InChI=1S/C13H16N4O3/c1-19-10-5-7(4-9(18)11(10)20-2)3-8-6-16-13(15)17-12(8)14/h4-6,18H,3H2,1-2H3,(H4,14,15,16,17)
 CH$LINK: CAS 27653-69-6
 CH$LINK: INCHIKEY HWBPOLWLLFXEJY-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000346; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Dicarboxylic acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.021 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 277.1295
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fb9-9600000000-3da03b2d1b8f0bf490b5
 PK$NUM_PEAK: 98
 PK$PEAK: m/z int. rel.int.
@@ -41,13 +40,13 @@ PK$PEAK: m/z int. rel.int.
   53.0107 0.5 24
   53.021 0.9 44
   53.0387 0.6 29
-  54.0431 8 395
+  54.0431 8.0 395
   55.0315 0.6 29
   55.0465 0.5 24
   65.0451 6.7 331
   66.0377 0.7 34
   66.0509 0.6 29
-  67.0358 1 49
+  67.0358 1.0 49
   67.0486 1.5 74
   67.0603 0.7 34
   68.0313 0.8 39
@@ -58,14 +57,14 @@ PK$PEAK: m/z int. rel.int.
   74.0213 1.2 59
   75.0273 4.8 237
   76.0219 1.2 59
-  76.0367 1 49
+  76.0367 1.0 49
   77.0437 20.2 999
   78.0388 5.6 276
   79.0363 3.4 168
   79.0463 1.3 64
   79.0553 1.2 59
   80.017 0.6 29
-  80.0549 3 148
+  80.0549 3.0 148
   81.0489 8.5 420
   83.0526 1.1 54
   87.0253 0.5 24
@@ -74,13 +73,13 @@ PK$PEAK: m/z int. rel.int.
   90.0377 2.6 128
   91.044 0.7 34
   91.0573 3.3 163
-  92.0518 3 148
+  92.0518 3.0 148
   93.0481 1.6 79
   93.0585 1.4 69
   94.0428 0.5 24
   94.0551 3.9 192
   94.0685 1.5 74
-  96.0586 1 49
+  96.0586 1.0 49
   99.0255 0.7 34
   100.021 0.5 24
   101.0394 3.2 158
@@ -88,7 +87,7 @@ PK$PEAK: m/z int. rel.int.
   103.0327 2.8 138
   103.0541 0.9 44
   104.0502 6.9 341
-  105.0465 6 296
+  105.0465 6.0 296
   106.0528 2.6 128
   107.0468 0.6 29
   107.0587 0.9 44
@@ -101,7 +100,7 @@ PK$PEAK: m/z int. rel.int.
   117.0452 1.4 69
   117.0565 1.8 89
   118.0557 3.8 187
-  119.0614 2 98
+  119.0614 2.0 98
   120.0567 4.5 222
   121.0273 0.6 29
   123.0664 1.3 64
@@ -111,7 +110,7 @@ PK$PEAK: m/z int. rel.int.
   129.0458 3.1 153
   130.0409 1.9 93
   131.0558 0.6 29
-  131.0631 1 49
+  131.0631 1.0 49
   132.0523 1.1 54
   133.0603 0.8 39
   134.0613 0.6 29
@@ -128,7 +127,7 @@ PK$PEAK: m/z int. rel.int.
   148.075 1.3 64
   149.0277 0.5 24
   153.0455 0.8 39
-  156.0498 1 49
+  156.0498 1.0 49
   159.0686 0.5 24
   160.0478 0.4 19
   161.0848 1.2 59

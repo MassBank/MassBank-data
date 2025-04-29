@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107605
 RECORD_TITLE: 3,5-Diiodothyronine; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 3,5-Diiodothyronine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C15H13I2NO4
@@ -15,6 +14,7 @@ CH$SMILES: NC(Cc1cc(I)c(Oc2ccc(O)cc2)c(I)c1)C(O)=O
 CH$IUPAC: InChI=1S/C15H13I2NO4/c16-11-5-8(7-13(18)15(20)21)6-12(17)14(11)22-10-3-1-9(19)2-4-10/h1-6,13,19H,7,18H2,(H,20,21)
 CH$LINK: CAS 1041-01-6
 CH$LINK: INCHIKEY ZHSOTLOTTDYIIK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.539 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 525.9007
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fb9-0229500000-61ce5cc97a3c3bfd1f4e
 PK$NUM_PEAK: 55
 PK$PEAK: m/z int. rel.int.
@@ -50,7 +49,7 @@ PK$PEAK: m/z int. rel.int.
   184.0507 6.3 31
   185.0587 11.3 55
   197.059 10.7 52
-  198.0649 3 14
+  198.0649 3.0 14
   198.0899 3.4 16
   199.0745 29.9 147
   209.0588 12.1 59
@@ -58,7 +57,7 @@ PK$PEAK: m/z int. rel.int.
   211.0748 3.2 15
   216.9498 4.9 24
   217.9206 2.1 10
-  224.0694 4 19
+  224.0694 4.0 19
   225.0769 8.4 41
   226.0849 17.2 84
   232.9441 8.4 41
@@ -66,7 +65,7 @@ PK$PEAK: m/z int. rel.int.
   245.9163 4.2 20
   255.0637 3.6 17
   259.9564 7.3 35
-  287.9278 8 39
+  287.9278 8.0 39
   311.9642 10.9 53
   322.955 3.2 15
   324.9713 62.8 309

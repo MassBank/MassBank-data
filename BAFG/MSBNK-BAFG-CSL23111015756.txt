@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111015756
 RECORD_TITLE: Quinmerac; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Quinmerac
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C11H8ClNO2
@@ -15,6 +14,7 @@ CH$SMILES: Cc1cc2ccc(c(c2nc1)C(=O)O)Cl
 CH$IUPAC: InChI=1S/C11H8ClNO2/c1-6-4-7-2-3-8(12)9(11(14)15)10(7)13-5-6/h2-5H,1H3,(H,14,15)
 CH$LINK: CAS 90717-03-6
 CH$LINK: INCHIKEY ALZOLUNSQWINIR-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002552; Organic compounds; Organoheterocyclic compounds; Quinolines and derivatives; Quinoline carboxylic acids
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.013 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 222.0316
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-03dr-9100000000-50e781b8999fd97f68b2
 PK$NUM_PEAK: 42
 PK$PEAK: m/z int. rel.int.
@@ -49,9 +48,9 @@ PK$PEAK: m/z int. rel.int.
   63.023 17.3 900
   64.018 2.1 109
   64.03 0.6 31
-  65.0387 1 52
+  65.0387 1.0 52
   72.9837 3.6 187
-  73.0067 2 104
+  73.0067 2.0 104
   74.0155 8.5 442
   75.0107 0.8 41
   75.0226 1.9 98
@@ -68,11 +67,11 @@ PK$PEAK: m/z int. rel.int.
   98.0151 2.6 135
   99.0102 2.1 109
   99.0222 0.4 20
-  100.0185 1 52
+  100.0185 1.0 52
   110.0108 0.4 20
-  111.0104 1 52
+  111.0104 1.0 52
   113.0386 9.5 494
-  114.0335 2 104
+  114.0335 2.0 104
   114.0455 0.8 41
   115.055 0.5 26
   122.9981 0.5 26

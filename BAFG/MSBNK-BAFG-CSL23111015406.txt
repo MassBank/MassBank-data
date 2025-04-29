@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111015406
 RECORD_TITLE: 1-Myristoyl-sn-glycero-3-phosphocholine; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 1-Myristoyl-sn-glycero-3-phosphocholine
 CH$COMPOUND_CLASS: Natural_product
 CH$FORMULA: C22H46NO7P
@@ -15,6 +14,7 @@ CH$SMILES: CCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)O
 CH$IUPAC: InChI=1S/C22H46NO7P/c1-5-6-7-8-9-10-11-12-13-14-15-16-22(25)28-19-21(24)20-30-31(26,27)29-18-17-23(2,3)4/h21,24H,5-20H2,1-4H3
 CH$LINK: CAS 20559-16-4
 CH$LINK: INCHIKEY VXUOFDJKYGDUJI-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002213; Organic compounds; Lipids and lipid-like molecules; Glycerophospholipids; Glycerophosphocholines
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.658 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 468.3085
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00dr-9400000000-01147bed3935f413a79a
 PK$NUM_PEAK: 26
 PK$PEAK: m/z int. rel.int.
@@ -39,7 +38,7 @@ PK$PEAK: m/z int. rel.int.
   43.0551 3.2 54
   44.0502 1.4 23
   45.0341 4.4 74
-  45.058 1 16
+  45.058 1.0 16
   55.0549 0.9 15
   56.0498 4.2 71
   57.0352 0.7 11
@@ -53,12 +52,12 @@ PK$PEAK: m/z int. rel.int.
   71.0737 24.5 414
   80.974 3.3 55
   81.071 0.9 15
-  86.097 59 999
+  86.097 59.0 999
   95.0857 1.4 23
   98.9842 27.1 458
   104.1073 27.6 467
   106.9897 0.9 15
   124.9998 45.9 777
-  166.063 5 84
-  184.0725 5 84
+  166.063 5.0 84
+  184.0725 5.0 84
 //

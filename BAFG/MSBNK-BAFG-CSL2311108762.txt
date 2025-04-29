@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311108762
 RECORD_TITLE: O-desmethyl-naproxen; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: O-desmethyl-naproxen
 CH$COMPOUND_CLASS: Metabolite; Pharmaceutical; Transformation_product
 CH$FORMULA: C13H12O3
@@ -15,6 +14,7 @@ CH$SMILES: CC(C1=CC2=C(C=C1)C=C(C=C2)O)C(=O)O
 CH$IUPAC: InChI=1S/C13H12O3/c1-8(13(15)16)9-2-3-11-7-12(14)5-4-10(11)6-9/h2-8,14H,1H3,(H,15,16)
 CH$LINK: CAS 52079-10-4
 CH$LINK: INCHIKEY XWJUDDGELKXYNO-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000186; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenethylamines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.5 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 217.0859
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ufr-0900000000-19fd15cb6f87e4f1d9f8
 PK$NUM_PEAK: 19
 PK$PEAK: m/z int. rel.int.
@@ -39,18 +38,18 @@ PK$PEAK: m/z int. rel.int.
   116.0614 0.5 36
   127.055 4.4 323
   128.0612 13.6 999
-  129.0715 1 73
+  129.0715 1.0 73
   141.0715 0.9 66
   143.0469 0.5 36
   143.0871 4.2 308
   144.0558 3.5 257
   151.0528 1.1 80
-  152.0618 10 734
+  152.0618 10.0 734
   153.0679 9.6 705
   154.0768 0.6 44
   155.0563 0.5 36
   169.0631 0.5 36
-  170.0683 1 73
+  170.0683 1.0 73
   171.0798 8.1 594
   181.075 0.8 58
   181.0895 0.4 29

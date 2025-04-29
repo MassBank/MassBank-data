@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111016505
 RECORD_TITLE: Leucomalachite green; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Leucomalachite green
-CH$COMPOUND_CLASS: Metabolite
+CH$COMPOUND_CLASS: Metabolite; Antimicrobial; Fungicide; Transformation_product-Metabolite
 CH$FORMULA: C23H26N2
 CH$EXACT_MASS: 330.2096
 CH$SMILES: CN(C)C1=CC=C(C=C1)C(C2=CC=CC=C2)C3=CC=C(C=C3)N(C)C
 CH$IUPAC: InChI=1S/C23H26N2/c1-24(2)21-14-10-19(11-15-21)23(18-8-6-5-7-9-18)20-12-16-22(17-13-20)25(3)4/h5-17,23H,1-4H3
 CH$LINK: CAS 129-73-7
 CH$LINK: INCHIKEY WZKXBGJNNCGHIC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004524; Organic compounds; Benzenoids; Triphenyl compounds
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.974 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 331.2169
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-015i-0059000000-c323b758d58041cb3245
 PK$NUM_PEAK: 15
 PK$PEAK: m/z int. rel.int.
-  194.0952 4 17
+  194.0952 4.0 17
   195.1028 10.5 44
   196.1121 3.3 14
   208.1111 2.4 10

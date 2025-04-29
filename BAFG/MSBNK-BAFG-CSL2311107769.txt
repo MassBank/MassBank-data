@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107769
 RECORD_TITLE: 4-amino-2-nitrophenol; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 4-amino-2-nitrophenol
 CH$COMPOUND_CLASS: Personal_care_product
 CH$FORMULA: C6H6N2O3
@@ -15,6 +14,7 @@ CH$SMILES: Nc1ccc(O)c(c1)[N+]([O-])=O
 CH$IUPAC: InChI=1S/C6H6N2O3/c7-4-1-2-6(9)5(3-4)8(10)11/h1-3,9H,7H2
 CH$LINK: CAS 119-34-6
 CH$LINK: INCHIKEY WHODQVWERNSQEO-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000141; Organic compounds; Benzenoids; Phenols; Nitrophenols
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.692 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 155.0451
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4i-4900000000-e7237e01892a05f61ca8
 PK$NUM_PEAK: 6
 PK$PEAK: m/z int. rel.int.
@@ -39,6 +38,6 @@ PK$PEAK: m/z int. rel.int.
   81.0598 4.1 341
   92.0278 1.7 141
   108.0462 3.2 266
-  109.0524 12 999
+  109.0524 12.0 999
   155.0472 0.8 66
 //

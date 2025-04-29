@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311106958
 RECORD_TITLE: Nevirapine; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Nevirapine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C15H14N4O
@@ -15,6 +14,7 @@ CH$SMILES: Cc1ccnc2N(C3CC3)c4ncccc4C(=O)Nc12
 CH$IUPAC: InChI=1S/C15H14N4O/c1-9-6-8-17-14-12(9)18-15(20)11-3-2-7-16-13(11)19(14)10-4-5-10/h2-3,6-8,10H,4-5H2,1H3,(H,18,20)
 CH$LINK: CAS 129618-40-2
 CH$LINK: INCHIKEY NQDJXKOVJZTUJA-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002449; Organic compounds; Organic nitrogen compounds; Organonitrogen compounds; Amines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,15 +30,14 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.301 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 267.124
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-001j-2920000000-2b231657daea044fe720
 PK$NUM_PEAK: 114
 PK$PEAK: m/z int. rel.int.
   51.0281 3.9 27
   52.0345 1.8 12
   65.0428 4.9 34
-  66.0372 5 34
+  66.0372 5.0 34
   67.0455 7.6 52
   68.0525 2.4 16
   77.0408 4.1 28
@@ -47,15 +46,15 @@ PK$PEAK: m/z int. rel.int.
   80.0525 78.8 547
   89.0396 3.7 25
   90.0354 5.9 40
-  91.0435 2 13
+  91.0435 2.0 13
   91.0551 2.4 16
   92.0382 7.6 52
   92.0493 6.5 45
   93.0464 22.4 155
   94.0534 6.7 46
-  95.0608 2 13
+  95.0608 2.0 13
   101.039 1.4 9
-  103.0289 6 41
+  103.0289 6.0 41
   104.0351 1.7 11
   104.0496 5.8 40
   105.0448 24.3 168
@@ -111,7 +110,7 @@ PK$PEAK: m/z int. rel.int.
   187.0618 3.4 23
   192.0612 1.7 11
   193.0644 1.9 13
-  194.0721 5 34
+  194.0721 5.0 34
   195.0688 7.4 51
   196.0531 1.8 12
   196.0847 14.1 97
@@ -131,7 +130,7 @@ PK$PEAK: m/z int. rel.int.
   211.0691 6.5 45
   211.0975 2.2 15
   212.0741 5.9 40
-  220.0865 4 27
+  220.0865 4.0 27
   221.0838 7.7 53
   222.091 6.1 42
   223.0675 1.7 11

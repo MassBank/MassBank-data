@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018219
 RECORD_TITLE: 4-(2,4-Dichlorophenoxy)butanoic acid; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 4-(2,4-Dichlorophenoxy)butanoic acid
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C10H10Cl2O3
@@ -15,6 +14,7 @@ CH$SMILES: C1=CC(=C(C=C1Cl)Cl)OCCCC(=O)O
 CH$IUPAC: InChI=1S/C10H10Cl2O3/c11-7-3-4-9(8(12)6-7)15-5-1-2-10(13)14/h3-4,6H,1-2,5H2,(H,13,14)
 CH$LINK: CAS 94-82-6
 CH$LINK: INCHIKEY YIVXMZJTEQBPQO-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000035; Organic compounds; Benzenoids; Benzene and substituted derivatives; Halobenzenes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,15 +30,14 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.685 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 249.008
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00kp-9300000000-e0c1a773184fcb02c456
 PK$NUM_PEAK: 36
 PK$PEAK: m/z int. rel.int.
   37.0074 0.5 56
   38.0141 0.4 45
   39.023 3.1 351
-  41.0386 7 794
+  41.0386 7.0 794
   43.0179 5.2 590
   43.0568 0.1 11
   44.9994 0.2 22
@@ -56,19 +55,19 @@ PK$PEAK: m/z int. rel.int.
   110.9981 1.6 181
   112.0085 0.4 45
   118.0403 0.1 11
-  125.0126 1 113
+  125.0126 1.0 113
   128.0026 0.3 34
-  132.9591 2 227
+  132.9591 2.0 227
   139.0013 0.6 68
   144.958 1.2 136
   145.9681 0.1 11
   146.975 1.2 136
   153.0138 0.3 34
-  154.0172 1 113
-  160.9536 1 113
+  154.0172 1.0 113
+  160.9536 1.0 113
   160.9867 0.4 45
   162.9694 0.6 68
-  172.965 1 113
+  172.965 1.0 113
   174.9695 2.1 238
   188.9858 0.4 45
 //

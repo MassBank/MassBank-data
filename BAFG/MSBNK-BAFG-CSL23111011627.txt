@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111011627
 RECORD_TITLE: Fluorescein; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Fluorescein
 CH$COMPOUND_CLASS: Industrial_process; Pharmaceutical
 CH$FORMULA: C20H12O5
@@ -15,6 +14,7 @@ CH$SMILES: C1=CC=C2C(=C1)C(=O)OC23C4=C(C=C(C=C4)O)OC5=C3C=CC(=C5)O
 CH$IUPAC: InChI=1S/C20H12O5/c21-11-5-7-15-17(9-11)24-18-10-12(22)6-8-16(18)20(15)14-4-2-1-3-13(14)19(23)25-20/h1-10,21-22H
 CH$LINK: CAS 2321-07-5
 CH$LINK: INCHIKEY GNBHRKFJIUUOQI-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0003410; Organic compounds; Organoheterocyclic compounds; Benzopyrans; 1-benzopyrans
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.527 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 333.0757
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-0390000000-e50e38142f7e8c01714d
 PK$NUM_PEAK: 53
 PK$PEAK: m/z int. rel.int.
@@ -61,11 +60,11 @@ PK$PEAK: m/z int. rel.int.
   200.0621 9.6 94
   201.0694 22.7 223
   202.078 101.6 999
-  203.0857 10 98
+  203.0857 10.0 98
   205.0636 6.4 62
   211.0538 1.9 18
   212.0646 1.7 16
-  213.0703 28 275
+  213.0703 28.0 275
   214.0784 3.5 34
   215.0852 13.2 129
   218.0717 3.1 30
@@ -78,14 +77,14 @@ PK$PEAK: m/z int. rel.int.
   242.0723 8.2 80
   243.0782 2.9 28
   245.0592 2.5 24
-  247.0711 1 9
+  247.0711 1.0 9
   253.068 1.1 10
   257.0612 1.7 16
-  258.0677 19 186
+  258.0677 19.0 186
   259.0756 9.5 93
   260.081 1.3 12
   269.0608 2.1 20
   271.0761 3.7 36
-  285.0531 1 9
+  285.0531 1.0 9
   287.0709 9.7 95
 //

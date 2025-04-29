@@ -1,19 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111012492
 RECORD_TITLE: 3-(Diethylcarbamoyl)benzoic acid; LC-ESI-QTOF; MS2; 10 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 3-(Diethylcarbamoyl)benzoic acid
+CH$COMPOUND_CLASS: Biocide; Personal_care_product; Transformation_product-Metabolite
 CH$FORMULA: C12H15NO3
 CH$EXACT_MASS: 221.1052
 CH$SMILES: CCN(CC)C(=O)C1=CC(=CC=C1)C(=O)O
 CH$IUPAC: InChI=1S/C12H15NO3/c1-3-13(4-2)11(14)9-6-5-7-10(8-9)12(15)16/h5-8H,3-4H2,1-2H3,(H,15,16)
 CH$LINK: CAS 72236-23-8
 CH$LINK: INCHIKEY PXXLQQDIFVPNMP-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000176; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzoic acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.356 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 222.1125
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00di-0090000000-4741610760b59c93b702
 PK$NUM_PEAK: 2
 PK$PEAK: m/z int. rel.int.

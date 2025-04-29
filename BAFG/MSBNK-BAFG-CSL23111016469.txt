@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111016469
 RECORD_TITLE: 2,2,6,6-Tetramethyl-4-piperidone; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 2,2,6,6-Tetramethyl-4-piperidone
-CH$COMPOUND_CLASS: Natural_product
+CH$COMPOUND_CLASS: Natural_product; Industrial_process
 CH$FORMULA: C9H17NO
 CH$EXACT_MASS: 155.131
 CH$SMILES: CC1(CC(=O)CC(N1)(C)C)C
 CH$IUPAC: InChI=1S/C9H17NO/c1-8(2)5-7(11)6-9(3,4)10-8/h10H,5-6H2,1-4H3
 CH$LINK: CAS 826-36-8
 CH$LINK: INCHIKEY JWUXJYZVKZKLTJ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001581; Organic compounds; Organoheterocyclic compounds; Piperidines; Piperidinones
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 2.824 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 156.1383
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0006-9000000000-a5a2570e7d5ef3c866bb
 PK$NUM_PEAK: 9
 PK$PEAK: m/z int. rel.int.
   30.0339 0.9 15
-  37.007 3 53
+  37.007 3.0 53
   38.0147 2.6 46
   39.0229 9.4 167
   41.026 2.9 51

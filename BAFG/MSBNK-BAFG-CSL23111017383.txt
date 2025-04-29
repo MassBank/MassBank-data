@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111017383
 RECORD_TITLE: Flumioxazin; LC-ESI-QTOF; MS2; 10 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Flumioxazin
-CH$COMPOUND_CLASS: Herbicide
+CH$COMPOUND_CLASS: Herbicide; Fungicide
 CH$FORMULA: C19H15FN2O4
 CH$EXACT_MASS: 354.1016
 CH$SMILES: C#CCN1c2cc(c(cc2OCC1=O)F)N3C(=O)C4=C(C3=O)CCCC4
 CH$IUPAC: InChI=1S/C19H15FN2O4/c1-2-7-21-15-9-14(13(20)8-16(15)26-10-17(21)23)22-18(24)11-5-3-4-6-12(11)19(22)25/h1,8-9H,3-7,10H2
 CH$LINK: CAS 103361-09-7
 CH$LINK: INCHIKEY FOUWCSDKDDHKQP-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001437; Organic compounds; Organoheterocyclic compounds; Benzoxazines; Benzoxazinones
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.704 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 355.1089
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4i-0009000000-22cdb8877f05eba17d53
 PK$NUM_PEAK: 1
 PK$PEAK: m/z int. rel.int.

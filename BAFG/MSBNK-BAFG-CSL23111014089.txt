@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111014089
 RECORD_TITLE: Tris(4-methylphenyl) phosphate; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Tris(4-methylphenyl) phosphate
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C21H21O4P
@@ -15,6 +14,7 @@ CH$SMILES: CC1=CC=C(C=C1)OP(=O)(OC2=CC=C(C=C2)C)OC3=CC=C(C=C3)C
 CH$IUPAC: InChI=1S/C21H21O4P/c1-16-4-10-19(11-5-16)23-26(22,24-20-12-6-17(2)7-13-20)25-21-14-8-18(3)9-15-21/h4-15H,1-3H3
 CH$LINK: CAS 78-32-0
 CH$LINK: INCHIKEY BOSMZFBHAYFUBJ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000408; Organic compounds; Organic acids and derivatives; Organic phosphoric acids and derivatives; Phosphate esters
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 15.924 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 369.125
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-2957000000-2fe84a7ccf80a5fcce96
 PK$NUM_PEAK: 28
 PK$PEAK: m/z int. rel.int.
@@ -43,7 +42,7 @@ PK$PEAK: m/z int. rel.int.
   109.0634 7.8 11
   141.0693 10.3 14
   153.0692 17.3 24
-  165.0706 267 380
+  165.0706 267.0 380
   166.0783 286.3 408
   178.0776 13.5 19
   179.0859 34.3 48
@@ -54,8 +53,8 @@ PK$PEAK: m/z int. rel.int.
   196.0892 50.4 71
   199.1125 11.2 15
   215.0632 9.4 13
-  241.1026 29 41
-  243.0591 228 325
+  241.1026 29.0 41
+  243.0591 228.0 325
   255.1189 18.1 25
   256.1266 51.8 73
   261.0699 76.9 109

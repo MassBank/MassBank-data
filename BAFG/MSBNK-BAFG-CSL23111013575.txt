@@ -1,16 +1,15 @@
 ACCESSION: MSBNK-BAFG-CSL23111013575
 RECORD_TITLE: 5-Hydroxy-Octocrylen; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 5-Hydroxy-Octocrylen
 CH$FORMULA: C24H27NO3
 CH$EXACT_MASS: 377.1991
-CH$SMILES: CC(O)CCC(CC)COC(=O)C(\C#N)=C(\c1ccccc1)c2ccccc2
+CH$SMILES: CCC(CCC(C)O)COC(=O)C(=C(C1=CC=CC=C1)C2=CC=CC=C2)C#N
 CH$IUPAC: InChI=1S/C24H27NO3/c1-3-19(15-14-18(2)26)17-28-24(27)22(16-25)23(20-10-6-4-7-11-20)21-12-8-5-9-13-21/h4-13,18-19,26H,3,14-15,17H2,1-2H3
 CH$LINK: CAS NA
 CH$LINK: INCHIKEY QOJGFAVCVCFMKL-UHFFFAOYSA-N
@@ -29,8 +28,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.815 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 378.2064
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ufr-1890000000-26739d5f3f578cc4730b
 PK$NUM_PEAK: 10
 PK$PEAK: m/z int. rel.int.

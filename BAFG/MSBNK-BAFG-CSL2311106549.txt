@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311106549
 RECORD_TITLE: Clopidogrel; LC-ESI-QTOF; MS2; 140 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Clopidogrel
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C16H16ClNO2S
@@ -15,6 +14,7 @@ CH$SMILES: COC(=O)C(c1ccccc1Cl)N2CCc3c(ccs3)C2
 CH$IUPAC: InChI=1S/C16H16ClNO2S/c1-20-16(19)15(12-4-2-3-5-13(12)17)18-8-6-14-11(10-18)7-9-21-14/h2-5,7,9,15H,6,8,10H2,1H3
 CH$LINK: CAS 90055-48-4
 CH$LINK: INCHIKEY GKTWGGQPFAXNFI-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.465 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 322.0663
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0209-9200000000-479e34473cdb4b25b9d5
 PK$NUM_PEAK: 29
 PK$PEAK: m/z int. rel.int.
@@ -39,11 +38,11 @@ PK$PEAK: m/z int. rel.int.
   51.0302 28.2 495
   60.0043 0.8 14
   64.0361 0.9 15
-  65.043 11 193
+  65.043 11.0 193
   72.9871 9.5 167
-  73.0117 3 52
+  73.0117 3.0 52
   74.019 32.1 564
-  75.0056 1 17
+  75.0056 1.0 17
   75.0267 56.8 999
   75.0625 1.1 19
   75.0743 0.7 12

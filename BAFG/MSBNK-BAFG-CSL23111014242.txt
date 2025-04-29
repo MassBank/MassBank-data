@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111014242
 RECORD_TITLE: (4-Chloro-2-methylphenoxy)acetic acid; LC-ESI-QTOF; MS2; 140 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: (4-Chloro-2-methylphenoxy)acetic acid
 CH$COMPOUND_CLASS: Herbicide; Transformation_product
 CH$FORMULA: C9H9ClO3
@@ -15,6 +14,7 @@ CH$SMILES: CC1=C(C=CC(=C1)Cl)OCC(=O)O
 CH$IUPAC: InChI=1S/C9H9ClO3/c1-6-4-7(10)2-3-8(6)13-5-9(11)12/h2-4H,5H2,1H3,(H,11,12)
 CH$LINK: CAS 94-74-6
 CH$LINK: INCHIKEY WHKUVVPPKQRRBV-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000417; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenoxyacetic acid derivatives
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.052 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 199.0167
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-001i-9000000000-33cf972c135147f49ceb
 PK$NUM_PEAK: 1
 PK$PEAK: m/z int. rel.int.

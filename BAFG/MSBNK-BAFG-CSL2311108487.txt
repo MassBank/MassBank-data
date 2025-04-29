@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311108487
 RECORD_TITLE: Sotalol; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Sotalol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C12H20N2O3S
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)NCC(C1=CC=C(C=C1)NS(=O)(=O)C)O
 CH$IUPAC: InChI=1S/C12H20N2O3S/c1-9(2)13-8-12(15)10-4-6-11(7-5-10)14-18(3,16)17/h4-7,9,12-15H,8H2,1-3H3
 CH$LINK: CAS 3930-20-9
 CH$LINK: INCHIKEY ZBMZVLHSJCTVON-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000346; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Dicarboxylic acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,18 +30,17 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.583 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 273.1267
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-01q9-0970000000-b0e666d7555ae81153dd
 PK$NUM_PEAK: 12
 PK$PEAK: m/z int. rel.int.
   106.0671 13.8 104
   107.0746 6.4 48
   116.0507 3.8 28
-  117.0584 4 30
+  117.0584 4.0 30
   118.0679 3.4 25
   119.0616 2.5 18
-  132.0697 3 22
+  132.0697 3.0 22
   133.0774 102.1 773
   134.0851 48.3 365
   176.132 41.4 313

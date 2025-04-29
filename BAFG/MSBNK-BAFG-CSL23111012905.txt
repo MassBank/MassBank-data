@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111012905
 RECORD_TITLE: 1-Methyl-3-octylimidazolium; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 1-Methyl-3-octylimidazolium
 CH$FORMULA: [C12H23N2]+
 CH$EXACT_MASS: 195.1856
@@ -14,6 +13,7 @@ CH$SMILES: CCCCCCCCN1C=C[N+](=C1)C
 CH$IUPAC: InChI=1S/C12H23N2/c1-3-4-5-6-7-8-9-14-11-10-13(2)12-14/h10-12H,3-9H2,1-2H3/q+1
 CH$LINK: CAS 178631-03-3
 CH$LINK: INCHIKEY WXMVWUBWIHZLMQ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000078; Organic compounds; Organoheterocyclic compounds; Azoles; Imidazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,12 +29,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.538 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 195.1856
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0016-9000000000-874481787063f3d19e95
 PK$NUM_PEAK: 14
 PK$PEAK: m/z int. rel.int.
-  39.0231 3 999
+  39.0231 3.0 999
   41.0265 0.7 233
   41.0389 2.2 732
   42.0343 2.2 732
@@ -46,6 +45,6 @@ PK$PEAK: m/z int. rel.int.
   68.0498 0.4 133
   81.0426 1.1 366
   82.051 0.5 166
-  83.0591 2 666
+  83.0591 2.0 666
   95.0588 2.1 699
 //

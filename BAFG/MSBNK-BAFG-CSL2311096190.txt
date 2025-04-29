@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311096190
 RECORD_TITLE: Ifosfamide; LC-ESI-QTOF; MS2; 10 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Ifosfamide
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C7H15Cl2N2O2P
@@ -15,6 +14,7 @@ CH$SMILES: ClCCN[P]1(=O)OCCCN1CCCl
 CH$IUPAC: InChI=1S/C7H15Cl2N2O2P/c8-2-4-10-14(12)11(6-3-9)5-1-7-13-14/h1-7H2,(H,10,12)
 CH$LINK: CAS 3778-73-2
 CH$LINK: INCHIKEY HOMGKSMUEGBAAB-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002858; Organic compounds; Organoheterocyclic compounds; Oxazaphosphinanes; Isofamides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.429 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 261.0321
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-03di-0090000000-3656c2d5de02b47f4c93
 PK$NUM_PEAK: 2
 PK$PEAK: m/z int. rel.int.

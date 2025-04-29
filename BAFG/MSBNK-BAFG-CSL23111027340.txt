@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111027340
 RECORD_TITLE: 2-Aminobenzothiazole; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 2-Aminobenzothiazole
 CH$FORMULA: C7H6N2S
 CH$EXACT_MASS: 150.0252
@@ -14,6 +13,7 @@ CH$SMILES: C1=CC=C2C(=C1)N=C(S2)N
 CH$IUPAC: InChI=1S/C7H6N2S/c8-7-9-5-3-1-2-4-6(5)10-7/h1-4H,(H2,8,9)
 CH$LINK: CAS 136-95-8
 CH$LINK: INCHIKEY UHGULLIUJBCTEF-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001831; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Carbonyl compounds
 AC$INSTRUMENT: TripleTOF X500R SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.985 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 151.0325
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-9100000000-3e483d089dc0c11df670
 PK$NUM_PEAK: 41
 PK$PEAK: m/z int. rel.int.
@@ -48,7 +47,7 @@ PK$PEAK: m/z int. rel.int.
   57.9879 2.8 13
   59.9903 17.5 84
   62.0151 5.8 28
-  63.0227 53 256
+  63.0227 53.0 256
   64.0185 40.3 194
   65.0381 206.6 999
   66.0465 5.1 24
@@ -57,14 +56,14 @@ PK$PEAK: m/z int. rel.int.
   70.9955 2.9 14
   74.0151 2.3 11
   77.0384 51.4 248
-  80.0494 88 425
+  80.0494 88.0 425
   80.9797 3.4 16
   81.9873 12.7 61
   82.9947 5.9 28
-  90.0339 31 149
+  90.0339 31.0 149
   91.0418 26.1 126
   92.0498 4.9 23
-  92.9799 14 67
+  92.9799 14.0 67
   94.9954 9.9 47
   96.003 13.3 64
   97.0108 13.7 66
@@ -74,5 +73,5 @@ PK$PEAK: m/z int. rel.int.
   118.0525 13.9 67
   123.0139 2.2 10
   124.0219 7.6 36
-  132.9968 3 14
+  132.9968 3.0 14
 //

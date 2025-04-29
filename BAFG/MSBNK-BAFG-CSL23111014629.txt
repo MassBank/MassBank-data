@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111014629
 RECORD_TITLE: 4-Bromoantipyrine; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 4-Bromoantipyrine
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C11H11BrN2O
@@ -15,6 +14,7 @@ CH$SMILES: CC1=C(C(=O)N(N1C)C2=CC=CC=C2)Br
 CH$IUPAC: InChI=1S/C11H11BrN2O/c1-8-10(12)11(15)14(13(8)2)9-6-4-3-5-7-9/h3-7H,1-2H3
 CH$LINK: CAS 5426-65-3
 CH$LINK: INCHIKEY QYWWSDVPNCBSIA-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000087; Organic compounds; Organoheterocyclic compounds; Azoles; Pyrazoles
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.678 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 267.0128
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0zi0-9000000000-51af56dcaa50fbcfa8cb
 PK$NUM_PEAK: 16
 PK$PEAK: m/z int. rel.int.
@@ -47,7 +46,7 @@ PK$PEAK: m/z int. rel.int.
   74.0131 0.4 99
   75.0205 0.5 124
   76.0285 0.4 99
-  77.037 4 999
+  77.037 4.0 999
   89.0365 0.8 199
   104.9304 0.7 174
   115.0508 0.7 174

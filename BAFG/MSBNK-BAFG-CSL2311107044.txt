@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107044
 RECORD_TITLE: Omeprazole 4-desmethylthioether; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Omeprazole 4-desmethylthioether
 CH$COMPOUND_CLASS: Metabolite; Pharmaceutical
 CH$FORMULA: C16H17N3O2S
@@ -15,6 +14,7 @@ CH$SMILES: Cc1cnc(c(c1O)C)CSc2[nH]c3ccc(cc3n2)OC
 CH$IUPAC: InChI=1S/C16H17N3O2S/c1-9-7-17-14(10(2)15(9)20)8-22-16-18-12-5-4-11(21-3)6-13(12)19-16/h4-7H,8H2,1-3H3,(H,17,20)(H,18,19)
 CH$LINK: CAS 103876-98-8
 CH$LINK: INCHIKEY LVUFHVGKGMRSQW-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000145; Organic compounds; Phenylpropanoids and polyketides; Coumarins and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.17 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 316.1114
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a6u-9600000000-afca7657dcefd5d79428
 PK$NUM_PEAK: 35
 PK$PEAK: m/z int. rel.int.
@@ -49,7 +48,7 @@ PK$PEAK: m/z int. rel.int.
   80.0532 2.5 211
   81.06 0.9 76
   91.0568 1.6 135
-  92.0503 2 169
+  92.0503 2.0 169
   93.0582 5.8 491
   94.0663 6.3 533
   95.0523 0.6 50

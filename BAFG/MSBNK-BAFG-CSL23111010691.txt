@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111010691
 RECORD_TITLE: Tetrabromobisphenol A; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Tetrabromobisphenol A
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C15H12Br4O2
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)(C1=CC(=C(C(=C1)Br)O)Br)C2=CC(=C(C(=C2)Br)O)Br
 CH$IUPAC: InChI=1S/C15H12Br4O2/c1-15(2,7-3-9(16)13(20)10(17)4-7)8-5-11(18)14(21)12(19)6-8/h3-6,20-21H,1-2H3
 CH$LINK: CAS 79-94-7
 CH$LINK: INCHIKEY VEORPZCZECFIRK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000176; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzoic acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 14.636 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 538.7498
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-000i-0000090000-45bcac8b414859e01536
 PK$NUM_PEAK: 1
 PK$PEAK: m/z int. rel.int.

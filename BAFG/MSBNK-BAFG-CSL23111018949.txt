@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111018949
 RECORD_TITLE: Prothioconazole-desthio; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Prothioconazole-desthio
-CH$COMPOUND_CLASS: Fungicide
+CH$COMPOUND_CLASS: Fungicide; Transformation_product-Metabolite
 CH$FORMULA: C14H15Cl2N3O
 CH$EXACT_MASS: 311.0592
 CH$SMILES: C1CC1(C(CC2=CC=CC=C2Cl)(CN3C=NC=N3)O)Cl
 CH$IUPAC: InChI=1S/C14H15Cl2N3O/c15-12-4-2-1-3-11(12)7-14(20,13(16)5-6-13)8-19-10-17-9-18-19/h1-4,9-10,20H,5-8H2
 CH$LINK: CAS 120983-64-4
 CH$LINK: INCHIKEY HHUQPWODPBDTLI-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000035; Organic compounds; Benzenoids; Benzene and substituted derivatives; Halobenzenes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -26,12 +26,11 @@ AC$CHROMATOGRAPHY: COLUMN_NAME Zorbax Eclipse Plus C18 2.1 mm x 150 mm, 3.5 um, 
 AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE 40 °C
 AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min min 98% A, 1 min 98% A, 2 min 80% A, 16.5 min 2% A, 22 min 2% A, 22.1 min 98% A, 27 min 98% A
 AC$CHROMATOGRAPHY: FLOW_RATE 0.3 mL/min
-AC$CHROMATOGRAPHY: RETENTION_TIME 12 min
+AC$CHROMATOGRAPHY: RETENTION_TIME 12.0 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 312.0672
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00fr-9700000000-761f447ebe98e4e649dc
 PK$NUM_PEAK: 29
 PK$PEAK: m/z int. rel.int.
@@ -40,7 +39,7 @@ PK$PEAK: m/z int. rel.int.
   70.0413 272.988 999
   89.0391 5.0614 18
   90.0474 1.0534 3
-  99 2.2817 8
+  99.0 2.2817 8
   103.0547 3.3673 12
   115.0547 3.564 13
   116.0623 3.7633 13

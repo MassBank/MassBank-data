@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095425
 RECORD_TITLE: 2-(2-Methoxyphenyl)-1H-Benzimidazole; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 2-(2-Methoxyphenyl)-1H-Benzimidazole
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C14H12N2O
@@ -15,6 +14,7 @@ CH$SMILES: COc1ccccc1c2[nH]c3ccccc3n2
 CH$IUPAC: InChI=1S/C14H12N2O/c1-17-13-9-5-2-6-10(13)14-15-11-7-3-4-8-12(11)16-14/h2-9H,1H3,(H,15,16)
 CH$LINK: CAS 6528-85-4
 CH$LINK: INCHIKEY JNFBDHNAZPBWTF-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000330; Organic compounds; Organoheterocyclic compounds; Benzimidazoles; Phenylbenzimidazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.225 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 225.1022
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-001i-2900000000-145923da6abe8ccacbb7
 PK$NUM_PEAK: 31
 PK$PEAK: m/z int. rel.int.
@@ -40,11 +39,11 @@ PK$PEAK: m/z int. rel.int.
   77.0427 46.5 194
   78.0363 3.3 13
   91.0434 5.9 24
-  92.0518 34 142
+  92.0518 34.0 142
   102.0393 12.5 52
   103.043 27.8 116
   104.0504 6.7 28
-  116.0502 3 12
+  116.0502 3.0 12
   118.0538 4.8 20
   127.0547 21.3 89
   128.0499 21.4 89
@@ -61,9 +60,9 @@ PK$PEAK: m/z int. rel.int.
   156.0688 62.5 261
   167.0592 3.8 15
   168.0681 4.4 18
-  169.076 6 25
+  169.076 6.0 25
   179.0609 15.2 63
   180.0683 32.5 135
-  181.0769 239 999
+  181.0769 239.0 999
   182.0837 14.2 59
 //

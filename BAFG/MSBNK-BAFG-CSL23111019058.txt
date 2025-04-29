@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111019058
 RECORD_TITLE: Icaridin acid; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Icaridin acid
 CH$FORMULA: C12H21NO4
 CH$EXACT_MASS: 243.1471
@@ -14,6 +13,7 @@ CH$SMILES: CCC(C)OC(=O)N1CCCCC1CC(O)=O
 CH$IUPAC: InChI=1S/C12H21NO4/c1-3-9(2)17-12(16)13-7-5-4-6-10(13)8-11(14)15/h9-10H,3-8H2,1-2H3,(H,14,15)
 CH$LINK: CAS NA
 CH$LINK: INCHIKEY OMRINPAHALFCIC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001974; Organic compounds; Organoheterocyclic compounds; Piperidines; Piperidinecarboxylic acids and derivatives
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.741 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 244.1543
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4r-9000000000-df777589272eb9f13212
 PK$NUM_PEAK: 26
 PK$PEAK: m/z int. rel.int.
@@ -38,12 +37,12 @@ PK$PEAK: m/z int. rel.int.
   35.9971 0.7 27
   37.0052 4.4 169
   38.0005 1.6 61
-  38.0128 4 154
+  38.0128 4.0 154
   39.0209 20.2 779
   41.0363 8.4 324
   42.0315 5.4 208
   43.0154 0.9 34
-  43.0397 2 77
+  43.0397 2.0 77
   44.9953 0.9 34
   52.0025 0.5 19
   53.011 0.4 15
@@ -52,7 +51,7 @@ PK$PEAK: m/z int. rel.int.
   55.0519 4.8 185
   56.0468 25.9 999
   65.0361 2.1 81
-  67.0388 1 38
+  67.0388 1.0 38
   67.0515 2.2 84
   68.0466 4.7 181
   69.0546 2.3 88

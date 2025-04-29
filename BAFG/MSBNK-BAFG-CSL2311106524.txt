@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311106524
 RECORD_TITLE: Carazolol; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Carazolol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C18H22N2O2
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)NCC(O)COc1cccc2[nH]c3ccccc3c12
 CH$IUPAC: InChI=1S/C18H22N2O2/c1-12(2)19-10-13(21)11-22-17-9-5-8-16-18(17)14-6-3-4-7-15(14)20-16/h3-9,12-13,19-21H,10-11H2,1-2H3
 CH$LINK: CAS 57775-29-8
 CH$LINK: INCHIKEY BQXQGZPYHWWCEB-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0003194; Organic compounds; Organometallic compounds; Organometalloid compounds; Organosilicon compounds
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.882 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 299.1754
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00n3-1900000000-488d643c12b981b59442
 PK$NUM_PEAK: 64
 PK$PEAK: m/z int. rel.int.
@@ -66,7 +65,7 @@ PK$PEAK: m/z int. rel.int.
   129.0552 1.8 28
   129.0694 2.5 39
   130.0631 1.6 25
-  137.0394 1 15
+  137.0394 1.0 15
   138.0466 3.8 60
   139.0543 62.8 999
   140.0492 29.1 462
@@ -76,12 +75,12 @@ PK$PEAK: m/z int. rel.int.
   152.0612 8.9 141
   153.0566 3.5 55
   154.0651 23.9 380
-  155.0723 2 31
+  155.0723 2.0 31
   163.0547 5.4 85
-  164.0557 8 127
+  164.0557 8.0 127
   165.0692 12.6 200
   166.0647 32.9 523
-  167.0729 20 318
+  167.0729 20.0 318
   175.0526 0.6 9
   176.0599 1.7 27
   176.0695 0.7 11
@@ -91,7 +90,7 @@ PK$PEAK: m/z int. rel.int.
   182.0605 1.2 19
   189.0571 0.9 14
   190.065 8.2 130
-  191.0728 18 286
+  191.0728 18.0 286
   191.0977 0.9 14
   192.0812 4.9 77
   193.0872 0.9 14

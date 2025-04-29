@@ -1,17 +1,16 @@
 ACCESSION: MSBNK-BAFG-CSL2311094831
 RECORD_TITLE: Nitenpyram; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Nitenpyram
 CH$COMPOUND_CLASS: Pharmaceutical; Insecticide
 CH$FORMULA: C11H15ClN4O2
 CH$EXACT_MASS: 270.0884
-CH$SMILES: CCN(Cc1ccc(Cl)nc1)\C(NC)=C\[N+]([O-])=O
+CH$SMILES: CCN(CC1=CN=C(C=C1)Cl)/C(=C/[N+](=O)[O-])/NC
 CH$IUPAC: InChI=1S/C11H15ClN4O2/c1-3-15(11(13-2)8-16(17)18)7-9-4-5-10(12)14-6-9/h4-6,8,13H,3,7H2,1-2H3/b11-8+
 CH$LINK: CAS 150824-47-8
 CH$LINK: INCHIKEY CFRPSFYHXJZSBI-DHZHZOJOSA-N
@@ -30,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.386 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 271.0956
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a6s-6920000000-1dfa58d7ef5cdc8c7215
 PK$NUM_PEAK: 73
 PK$PEAK: m/z int. rel.int.
@@ -62,7 +60,7 @@ PK$PEAK: m/z int. rel.int.
   117.0575 0.6 13
   118.063 0.5 10
   126.0102 21.1 457
-  127.018 1 21
+  127.018 1.0 21
   128.0253 1.3 28
   131.0582 0.9 19
   132.0693 0.8 17
@@ -70,7 +68,7 @@ PK$PEAK: m/z int. rel.int.
   138.0107 1.2 26
   139.0061 2.6 56
   140.0253 0.8 17
-  141.0212 2 43
+  141.0212 2.0 43
   145.0749 1.1 23
   147.0884 0.6 13
   150.0109 0.6 13
@@ -87,17 +85,17 @@ PK$PEAK: m/z int. rel.int.
   166.0305 0.7 15
   167.0372 2.2 47
   167.0534 0.5 10
-  169.0525 10 216
+  169.0525 10.0 216
   170.0574 0.6 13
   176.1171 0.6 13
   179.0363 5.4 117
-  180.0388 1 21
+  180.0388 1.0 21
   181.0522 2.6 56
   188.119 1.7 36
   189.1291 1.3 28
   190.1327 4.8 104
-  193.0513 2 43
-  194.0592 4 86
+  193.0513 2.0 43
+  194.0592 4.0 86
   195.0684 4.3 93
   196.0625 16.8 364
   207.0439 0.9 19

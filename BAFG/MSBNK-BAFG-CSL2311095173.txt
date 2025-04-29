@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311095173
 RECORD_TITLE: Hydroxytorasemide; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Hydroxytorasemide
-CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product
+CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product; Transformation_product-Metabolite
 CH$FORMULA: C16H20N4O4S
 CH$EXACT_MASS: 364.1205
 CH$SMILES: CC(C)NC(=O)NS(=O)(=O)c1cnccc1Nc2cccc(c2)CO
 CH$IUPAC: InChI=1S/C16H20N4O4S/c1-11(2)18-16(22)20-25(23,24)15-9-17-7-6-14(15)19-13-5-3-4-12(8-13)10-21/h3-9,11,21H,10H2,1-2H3,(H,17,19)(H2,18,20,22)
 CH$LINK: CAS 99300-68-2
 CH$LINK: INCHIKEY WCYVLAMJCQZUCR-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001861; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives; Pyridinesulfonamides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.824 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 365.1278
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-0900000000-65eda10ba1beede7d47f
 PK$NUM_PEAK: 58
 PK$PEAK: m/z int. rel.int.
@@ -48,11 +47,11 @@ PK$PEAK: m/z int. rel.int.
   103.0559 3.1 19
   113.0387 2.7 17
   114.046 13.9 87
-  115.0541 158 999
+  115.0541 158.0 999
   116.0495 14.7 92
   117.0573 12.9 81
   124.01 3.2 20
-  125.0155 5 31
+  125.0155 5.0 31
   125.0337 1.7 10
   126.0473 3.9 24
   127.0533 29.4 185
@@ -60,12 +59,12 @@ PK$PEAK: m/z int. rel.int.
   129.0523 8.2 51
   130.0643 5.3 33
   137.0166 5.2 32
-  140.0497 37 233
+  140.0497 37.0 233
   141.0574 27.7 175
   142.0638 34.1 215
   143.0618 3.6 22
   150.0251 2.3 14
-  152.0031 2 12
+  152.0031 2.0 12
   152.0491 6.2 39
   153.0565 13.7 86
   154.0644 31.1 196
@@ -89,8 +88,8 @@ PK$PEAK: m/z int. rel.int.
   189.0479 2.2 13
   197.0702 22.1 139
   198.0756 2.4 15
-  199.0865 36 227
+  199.0865 36.0 227
   200.0408 1.8 11
-  215.0839 2 12
+  215.0839 2.0 12
   216.0357 1.6 10
 //

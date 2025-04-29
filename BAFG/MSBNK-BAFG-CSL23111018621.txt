@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018621
 RECORD_TITLE: Flutamide; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Flutamide
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C11H11F3N2O3
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)C(=O)NC1=CC(=C(C=C1)[N+](=O)[O-])C(F)(F)F
 CH$IUPAC: InChI=1S/C11H11F3N2O3/c1-6(2)10(17)15-7-3-4-9(16(18)19)8(5-7)11(12,13)14/h3-6H,1-2H3,(H,15,17)
 CH$LINK: CAS 13311-84-7
 CH$LINK: INCHIKEY MKXKFYHWDHIYRV-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001831; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Carbonyl compounds
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.297 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 277.0795
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-000f-9100000000-964b1bfbe28bad430fb7
 PK$NUM_PEAK: 54
 PK$PEAK: m/z int. rel.int.
@@ -78,7 +77,7 @@ PK$PEAK: m/z int. rel.int.
   111.0463 0.5 68
   113.0184 0.4 54
   113.0236 0.2 27
-  114.0259 1 136
+  114.0259 1.0 136
   115.0557 0.4 54
   120.0208 0.2 27
   125.0192 0.2 27

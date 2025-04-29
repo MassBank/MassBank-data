@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111017649
 RECORD_TITLE: Chloridazone-desphenyl; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Chloridazone-desphenyl
-CH$COMPOUND_CLASS: Herbicide; Transformation_product
+CH$COMPOUND_CLASS: Herbicide; Transformation_product; Transformation_product-Metabolite
 CH$FORMULA: C4H4ClN3O
 CH$EXACT_MASS: 145.0043
 CH$SMILES: C1=NNC(=O)C(=C1N)Cl
 CH$IUPAC: InChI=1S/C4H4ClN3O/c5-3-2(6)1-7-8-4(3)9/h1H,(H3,6,8,9)
 CH$LINK: CAS 6339-19-1
 CH$LINK: INCHIKEY FEWPCPCEGBPTAL-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000053; Organic compounds; Organoheterocyclic compounds; Quinolines and derivatives; Aminoquinolines and derivatives
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 2.877 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 143.997
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-9000000000-571bc5d210a6a2c607bc
 PK$NUM_PEAK: 12
 PK$PEAK: m/z int. rel.int.

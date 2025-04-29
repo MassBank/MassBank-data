@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095806
 RECORD_TITLE: Lisofylline; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Lisofylline
 CH$COMPOUND_CLASS: Pharmaceutical; Metabolite
 CH$FORMULA: C13H20N4O3
@@ -15,6 +14,7 @@ CH$SMILES: CC(O)CCCCN1C(=O)N(C)c2ncn(C)c2C1=O
 CH$IUPAC: InChI=1S/C13H20N4O3/c1-9(18)6-4-5-7-17-12(19)10-11(14-8-15(10)2)16(3)13(17)20/h8-9,18H,4-7H2,1-3H3
 CH$LINK: CAS 6493-06-7
 CH$LINK: INCHIKEY NSMXQKNUPPXBRG-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000245; Organic compounds; Organoheterocyclic compounds; Imidazopyrimidines; Purines and purine derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.425 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 281.1608
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-01b9-9600000000-e99dab6ef4e2a68f415f
 PK$NUM_PEAK: 38
 PK$PEAK: m/z int. rel.int.
@@ -52,19 +51,19 @@ PK$PEAK: m/z int. rel.int.
   83.0617 4.3 367
   85.0446 0.5 42
   93.0443 0.7 59
-  94.0427 1 85
+  94.0427 1.0 85
   95.048 0.9 76
   95.0605 0.9 76
   107.0486 0.5 42
   108.0557 6.8 580
   109.0388 1.1 93
-  110.0723 5 426
+  110.0723 5.0 426
   113.0349 0.9 76
   120.0558 1.1 93
   121.064 1.7 145
   122.0601 5.4 461
   122.0832 0.4 34
-  123.0421 6 512
+  123.0421 6.0 512
   132.0551 0.4 34
   135.0654 1.2 102
   136.0518 0.7 59

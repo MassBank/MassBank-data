@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016575
 RECORD_TITLE: Dienogest Impurity G; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Dienogest Impurity G
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C20H23NO2
@@ -15,6 +14,7 @@ CH$SMILES: CC12CC=C3C(C1CCC2(CC#N)O)CCC4=C3C=CC(=C4)O
 CH$IUPAC: InChI=1S/C20H23NO2/c1-19-8-6-16-15-5-3-14(22)12-13(15)2-4-17(16)18(19)7-9-20(19,23)10-11-21/h3,5-6,12,17-18,22-23H,2,4,7-10H2,1H3
 CH$LINK: CAS 86153-38-0
 CH$LINK: INCHIKEY LPEAVAOTAWKUPC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001295; Organic compounds; Lipids and lipid-like molecules; Steroids and steroid derivatives; Hydroxysteroids
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.956 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 310.1802
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00or-4900000000-98ee847ec17349ad8fdd
 PK$NUM_PEAK: 68
 PK$PEAK: m/z int. rel.int.
@@ -39,13 +38,13 @@ PK$PEAK: m/z int. rel.int.
   41.0382 0.8 28
   43.017 0.5 18
   50.0138 1.1 39
-  51.0219 3 108
+  51.0219 3.0 108
   53.0376 1.2 43
   55.0175 0.8 28
   55.0536 0.7 25
-  63.022 1 36
+  63.022 1.0 36
   65.0374 3.8 137
-  66.0454 1 36
+  66.0454 1.0 36
   67.0525 1.4 50
   75.023 0.4 14
   77.0374 21.4 774
@@ -66,7 +65,7 @@ PK$PEAK: m/z int. rel.int.
   116.06 5.6 202
   117.0593 0.4 14
   118.0384 0.8 28
-  126.0449 1 36
+  126.0449 1.0 36
   127.0523 4.9 177
   128.0607 11.1 401
   129.0685 1.4 50
@@ -77,7 +76,7 @@ PK$PEAK: m/z int. rel.int.
   133.0637 0.6 21
   139.0524 0.8 28
   141.0695 1.9 68
-  144.0553 5 180
+  144.0553 5.0 180
   145.0622 0.4 14
   150.0468 0.8 28
   151.0538 0.9 32
@@ -91,7 +90,7 @@ PK$PEAK: m/z int. rel.int.
   168.0787 0.6 21
   169.0616 0.5 18
   176.0609 1.3 47
-  177.0691 1 36
+  177.0691 1.0 36
   178.076 1.3 47
   179.0829 0.4 14
   181.0641 1.9 68

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111017961
 RECORD_TITLE: Imazamox; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Imazamox
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C15H19N3O4
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)C1(C(=O)NC(=N1)C2=C(C=C(C=N2)COC)C(=O)O)C
 CH$IUPAC: InChI=1S/C15H19N3O4/c1-8(2)15(3)14(21)17-12(18-15)11-10(13(19)20)5-9(6-16-11)7-22-4/h5-6,8H,7H2,1-4H3,(H,19,20)(H,17,18,21)
 CH$LINK: CAS 114311-32-9
 CH$LINK: INCHIKEY NUPJIGQFXCQJBK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,14 +30,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.853 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 306.1448
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-044l-4900000000-1ba213cb0eb80eb0b1d4
 PK$NUM_PEAK: 90
 PK$PEAK: m/z int. rel.int.
   37.0059 0.5 17
   38.0137 0.6 21
-  39.0219 7 245
+  39.0219 7.0 245
   41.0376 20.1 704
   42.0325 1.1 38
   43.0527 0.5 17
@@ -91,7 +90,7 @@ PK$PEAK: m/z int. rel.int.
   143.0581 0.5 17
   144.0293 6.8 238
   144.077 0.7 24
-  145.037 18 630
+  145.037 18.0 630
   145.0737 0.5 17
   146.0204 2.2 77
   146.0439 1.8 63
@@ -109,11 +108,11 @@ PK$PEAK: m/z int. rel.int.
   162.0646 0.4 14
   163.0482 25.5 893
   171.0883 0.9 31
-  173.0698 1 35
+  173.0698 1.0 35
   175.048 9.9 347
   175.0683 0.7 24
   176.0556 1.2 42
-  177.0626 2 70
+  177.0626 2.0 70
   184.0997 0.5 17
   186.0634 0.6 21
   187.0713 2.7 94

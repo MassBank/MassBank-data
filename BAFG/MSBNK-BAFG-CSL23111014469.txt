@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111014469
 RECORD_TITLE: Bis(2-isopropylphenyl) phenyl phosphate; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Bis(2-isopropylphenyl) phenyl phosphate
 CH$FORMULA: C24H27O4P
 CH$EXACT_MASS: 410.1647
@@ -14,6 +13,7 @@ CH$SMILES: CC(C)C1=CC=CC=C1OP(=O)(OC2=CC=CC=C2)OC3=CC=CC=C3C(C)C
 CH$IUPAC: InChI=1S/C24H27O4P/c1-18(2)21-14-8-10-16-23(21)27-29(25,26-20-12-6-5-7-13-20)28-24-17-11-9-15-22(24)19(3)4/h5-19H,1-4H3
 CH$LINK: CAS 69500-29-4
 CH$LINK: INCHIKEY RMNODSGCFHVNDC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000324; Organic compounds; Lipids and lipid-like molecules; Fatty Acyls; Fatty acid esters
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 17.429 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 411.172
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ufu-9810000000-f8e922135d9a3cdb0da6
 PK$NUM_PEAK: 28
 PK$PEAK: m/z int. rel.int.

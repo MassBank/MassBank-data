@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111019199
 RECORD_TITLE: Topramezone; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Topramezone
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C16H17N3O5S
@@ -15,6 +14,7 @@ CH$SMILES: CC1=C(C=CC(=C1C2=NOCC2)S(=O)(=O)C)C(=O)C3=CNN(C3=O)C
 CH$IUPAC: InChI=1S/C16H17N3O5S/c1-9-10(15(20)11-8-17-19(2)16(11)21)4-5-13(25(3,22)23)14(9)12-6-7-24-18-12/h4-5,8,17H,6-7H2,1-3H3
 CH$LINK: CAS 210631-68-8
 CH$LINK: INCHIKEY BPPVUXSMLBXYGG-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000321; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzoyl derivatives
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.915 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 362.0816
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-02u0-5900000000-952164ac816f974bbc40
 PK$NUM_PEAK: 48
 PK$PEAK: m/z int. rel.int.
@@ -43,12 +42,12 @@ PK$PEAK: m/z int. rel.int.
   97.0397 7.3 467
   101.0408 0.9 57
   102.0322 0.7 44
-  114.0346 2 128
+  114.0346 2.0 128
   115.0423 15.6 999
   116.0526 4.6 294
   121.0091 0.6 38
   128.0489 1.4 89
-  129.0578 2 128
+  129.0578 2.0 128
   130.0655 5.8 371
   131.0395 6.1 390
   132.06 0.4 25
@@ -61,13 +60,13 @@ PK$PEAK: m/z int. rel.int.
   155.0229 0.4 25
   156.0383 1.1 70
   158.0611 0.9 57
-  163.0245 1 64
+  163.0245 1.0 64
   166.035 0.7 44
   167.0472 0.4 25
   168.0439 0.8 51
   170.0237 0.7 44
   179.0071 1.6 102
-  179.0218 1 64
+  179.0218 1.0 64
   180.0248 0.5 32
   181.0306 0.4 25
   182.022 0.8 51
@@ -82,5 +81,5 @@ PK$PEAK: m/z int. rel.int.
   237.0449 0.7 44
   238.0461 0.7 44
   238.065 1.1 70
-  239.07 1 64
+  239.07 1.0 64
 //

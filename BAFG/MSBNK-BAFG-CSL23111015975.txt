@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111015975
 RECORD_TITLE: 1,2-Benzisothiazol-3(2H)-one; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 1,2-Benzisothiazol-3(2H)-one
-CH$COMPOUND_CLASS: Antimicrobial
+CH$COMPOUND_CLASS: Antimicrobial; Biocide; Fungicide
 CH$FORMULA: C7H5NOS
 CH$EXACT_MASS: 151.0092
 CH$SMILES: C1=CC=C2C(=C1)C(=O)NS2
 CH$IUPAC: InChI=1S/C7H5NOS/c9-7-5-3-1-2-4-6(5)10-8-7/h1-4H,(H,8,9)
 CH$LINK: CAS 2634-33-5
 CH$LINK: INCHIKEY DMSMPAJRVJJAGA-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000311; Organic compounds; Organoheterocyclic compounds; Benzothiazoles
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.233 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 152.0165
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a7l-9500000000-dd9477e4dc0346f1c3ca
 PK$NUM_PEAK: 27
 PK$PEAK: m/z int. rel.int.
   37.0072 0.7 24
-  39.0224 3 102
+  39.0224 3.0 102
   44.9786 0.4 13
   50.0146 1.2 41
   51.0223 5.4 185
@@ -52,8 +51,8 @@ PK$PEAK: m/z int. rel.int.
   81.9862 0.8 27
   90.033 18.9 648
   91.0423 0.5 17
-  92.9784 1 34
-  97.0097 1 34
+  92.9784 1.0 34
+  97.0097 1.0 34
   105.0329 10.3 353
   106.994 5.5 188
   108.0018 2.8 96

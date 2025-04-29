@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311094983
 RECORD_TITLE: Fenoxycarb; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Fenoxycarb
 CH$COMPOUND_CLASS: Insecticide
 CH$FORMULA: C17H19NO4
@@ -15,6 +14,7 @@ CH$SMILES: CCOC(=O)NCCOc1ccc(Oc2ccccc2)cc1
 CH$IUPAC: InChI=1S/C17H19NO4/c1-2-20-17(19)18-12-13-21-14-8-10-16(11-9-14)22-15-6-4-3-5-7-15/h3-11H,2,12-13H2,1H3,(H,18,19)
 CH$LINK: CAS 72490-01-8
 CH$LINK: INCHIKEY HJUFTIJOISQSKQ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002213; Organic compounds; Lipids and lipid-like molecules; Glycerophospholipids; Glycerophosphocholines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,14 +30,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.067 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 302.1387
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-000i-7920000000-ada0d2c789f26ab383a4
 PK$NUM_PEAK: 55
 PK$PEAK: m/z int. rel.int.
   42.0438 18.1 28
   44.0597 108.6 171
-  65.0427 8 12
+  65.0427 8.0 12
   66.051 23.1 36
   70.0329 116.3 183
   77.0419 43.5 68
@@ -53,7 +52,7 @@ PK$PEAK: m/z int. rel.int.
   116.0704 228.8 361
   118.0414 43.3 68
   119.0493 21.8 34
-  120.0567 63 99
+  120.0567 63.0 99
   127.0538 10.3 16
   128.0618 29.2 46
   129.07 78.7 124
@@ -70,7 +69,7 @@ PK$PEAK: m/z int. rel.int.
   163.0626 56.2 88
   165.07 58.7 92
   166.0767 6.6 10
-  167.085 22 34
+  167.085 22.0 34
   168.0563 9.4 14
   169.065 37.3 58
   170.0725 12.2 19
@@ -80,7 +79,7 @@ PK$PEAK: m/z int. rel.int.
   183.0807 54.6 86
   185.06 76.5 120
   185.0964 6.8 10
-  186.0672 133 210
+  186.0672 133.0 210
   187.0755 21.8 34
   193.0673 15.2 24
   195.0804 28.4 44

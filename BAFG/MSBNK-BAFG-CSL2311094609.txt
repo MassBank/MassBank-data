@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311094609
 RECORD_TITLE: Methabenzthiazuron; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Methabenzthiazuron
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C10H11N3OS
@@ -15,6 +14,7 @@ CH$SMILES: CNC(=O)N(C)c1sc2ccccc2n1
 CH$IUPAC: InChI=1S/C10H11N3OS/c1-11-9(14)13(2)10-12-7-5-3-4-6-8(7)15-10/h3-6H,1-2H3,(H,11,14)
 CH$LINK: CAS 18691-97-9
 CH$LINK: INCHIKEY RRVIAQKBTUQODI-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000311; Organic compounds; Organoheterocyclic compounds; Benzothiazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.783 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 222.0696
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0002-9200000000-3790a8aa8805f660543f
 PK$NUM_PEAK: 24
 PK$PEAK: m/z int. rel.int.
@@ -45,18 +44,18 @@ PK$PEAK: m/z int. rel.int.
   77.0406 6.4 34
   78.0357 3.8 20
   79.0433 7.1 38
-  80.0523 24 130
+  80.0523 24.0 130
   81.9888 3.7 20
   91.0424 6.2 33
   94.9959 44.9 244
   96.0043 183.5 999
   97.0107 3.2 17
   105.0436 5.1 27
-  106.0525 3 16
-  108.0018 4 21
+  106.0525 3.0 16
+  108.0018 4.0 21
   109.0097 6.6 35
   118.0521 11.3 61
   122.0049 27.6 150
   123.0129 35.7 194
-  150.024 19 103
+  150.024 19.0 103
 //

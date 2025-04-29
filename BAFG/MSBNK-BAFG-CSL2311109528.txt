@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109528
 RECORD_TITLE: Norgestrel; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Norgestrel
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C21H28O2
@@ -15,6 +14,7 @@ CH$SMILES: CCC12CCC3C(C1CCC2(C#C)O)CCC4=CC(=O)CCC34
 CH$IUPAC: InChI=1S/C21H28O2/c1-3-20-11-9-17-16-8-6-15(22)13-14(16)5-7-18(17)19(20)10-12-21(20,23)4-2/h2,13,16-19,23H,3,5-12H2,1H3
 CH$LINK: CAS 797-63-7
 CH$LINK: INCHIKEY WWYNJERNGUHSAO-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0003194; Organic compounds; Organometallic compounds; Organometalloid compounds; Organosilicon compounds
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.063 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 313.2162
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-8900000000-2660621a84f31f3a2b17
 PK$NUM_PEAK: 50
 PK$PEAK: m/z int. rel.int.
@@ -46,7 +45,7 @@ PK$PEAK: m/z int. rel.int.
   81.0387 0.7 16
   81.0747 4.6 108
   83.0538 5.3 125
-  89.0439 2 47
+  89.0439 2.0 47
   91.0591 33.2 784
   93.076 1.1 25
   94.0443 1.3 30
@@ -55,11 +54,11 @@ PK$PEAK: m/z int. rel.int.
   103.058 5.2 122
   104.0656 0.6 14
   105.0728 3.7 87
-  107.0524 2 47
+  107.0524 2.0 47
   107.0889 0.5 11
   109.0673 1.9 44
-  115.0572 29 684
-  116.0648 2 47
+  115.0572 29.0 684
+  116.0648 2.0 47
   117.0733 2.3 54
   126.0476 1.3 30
   127.0577 6.6 155
@@ -71,7 +70,7 @@ PK$PEAK: m/z int. rel.int.
   142.0771 0.8 18
   150.0509 0.7 16
   151.0543 1.5 35
-  152.0642 6 141
+  152.0642 6.0 141
   153.0692 3.6 85
   154.0814 0.8 18
   155.0637 0.5 11
@@ -84,5 +83,5 @@ PK$PEAK: m/z int. rel.int.
   178.0796 2.3 54
   189.0697 2.1 49
   190.0752 0.5 11
-  202.0771 1 23
+  202.0771 1.0 23
 //

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111027609
 RECORD_TITLE: Disperse Orange 61; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Disperse Orange 61
 CH$FORMULA: C17H15Br2N5O2
 CH$EXACT_MASS: 478.9592
@@ -14,6 +13,7 @@ CH$SMILES: CCN(CCC#N)C1=CC=C(C=C1)N=NC2=C(C=C(C=C2Br)[N+](=O)[O-])Br
 CH$IUPAC: InChI=1S/C17H15Br2N5O2/c1-2-23(9-3-8-20)13-6-4-12(5-7-13)21-22-17-15(18)10-14(24(25)26)11-16(17)19/h4-7,10-11H,2-3,9H2,1H3
 CH$LINK: CAS 55281-26-0
 CH$LINK: INCHIKEY MWMJPPMTXZJLIK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000075; Organic compounds; Organoheterocyclic compounds; Diazines; Pyrimidines and pyrimidine derivatives
 AC$INSTRUMENT: TripleTOF X500R SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 15.39 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 479.9665
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-000i-0000900000-dec448ab8f5c48b3334d
 PK$NUM_PEAK: 17
 PK$PEAK: m/z int. rel.int.
@@ -46,7 +45,7 @@ PK$PEAK: m/z int. rel.int.
   392.9492 1.7 12
   401.0473 2.7 19
   410.9093 5.8 41
-  425.9329 7 49
+  425.9329 7.0 49
   438.9402 139.9 999
   439.9478 4.1 29
   450.9263 1.5 10

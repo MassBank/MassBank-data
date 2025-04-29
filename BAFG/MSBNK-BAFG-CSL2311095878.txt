@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095878
 RECORD_TITLE: Tramadol; LC-ESI-QTOF; MS2; 150 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Tramadol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C16H25NO2
@@ -15,6 +14,7 @@ CH$SMILES: COc1cccc(c1)[C@@]2(O)CCCC[C@@H]2CN(C)C
 CH$IUPAC: InChI=1S/C16H25NO2/c1-17(2)12-14-7-4-5-10-16(14,18)13-8-6-9-15(11-13)19-3/h6,8-9,11,14,18H,4-5,7,10,12H2,1-3H3/t14-,16+/m1/s1
 CH$LINK: CAS 27203-92-5
 CH$LINK: INCHIKEY TVYLLZQTGLZFBW-ZBFHGGJFSA-N
+CH$LINK: ChemOnt CHEMONTID:0000138; Organic compounds; Benzenoids; Phenol ethers; Anisoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.207 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 264.1958
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-052f-9000000000-091d16c7537e2a5823d5
 PK$NUM_PEAK: 16
 PK$PEAK: m/z int. rel.int.
@@ -45,8 +44,8 @@ PK$PEAK: m/z int. rel.int.
   65.0418 1.4 42
   74.0172 0.6 18
   75.0239 0.4 12
-  77.04 2 60
-  78.0487 1 30
+  77.04 2.0 60
+  78.0487 1.0 30
   89.0383 0.9 27
   91.0559 0.5 15
   102.0459 0.5 15

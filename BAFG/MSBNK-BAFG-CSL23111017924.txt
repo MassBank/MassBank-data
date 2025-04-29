@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111017924
 RECORD_TITLE: Terfenadine; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Terfenadine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C32H41NO2
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)(C)C1=CC=C(C=C1)C(CCCN2CCC(CC2)C(C3=CC=CC=C3)(C4=CC=CC=C4)O)O
 CH$IUPAC: InChI=1S/C32H41NO2/c1-31(2,3)26-18-16-25(17-19-26)30(34)15-10-22-33-23-20-29(21-24-33)32(35,27-11-6-4-7-12-27)28-13-8-5-9-14-28/h4-9,11-14,16-19,29-30,34-35H,10,15,20-24H2,1-3H3
 CH$LINK: CAS 50679-08-8
 CH$LINK: INCHIKEY GUGOEEXESWIERI-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000369; Organic compounds; Benzenoids; Benzene and substituted derivatives; Diphenylmethanes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,15 +30,14 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.223 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 472.321
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-000i-3330900000-cfdc1dcbfb8c149acf98
 PK$NUM_PEAK: 31
 PK$PEAK: m/z int. rel.int.
   41.0368 1.6 14
   57.0681 31.3 276
   82.0625 2.4 21
-  91.0518 7 61
+  91.0518 7.0 61
   96.0781 2.3 20
   105.0663 1.6 14
   111.1008 1.5 13
@@ -64,6 +63,6 @@ PK$PEAK: m/z int. rel.int.
   270.2178 1.6 14
   288.1714 4.7 41
   420.2654 1.6 14
-  436.2982 113 999
-  454.3083 17 150
+  436.2982 113.0 999
+  454.3083 17.0 150
 //

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311096357
 RECORD_TITLE: Meclofenamic acid; LC-ESI-QTOF; MS2; 130 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Meclofenamic acid
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C14H11Cl2NO2
@@ -15,6 +14,7 @@ CH$SMILES: Cc1ccc(c(c1Cl)Nc2ccccc2C(=O)O)Cl
 CH$IUPAC: InChI=1S/C14H11Cl2NO2/c1-8-6-7-10(15)13(12(8)16)17-11-5-3-2-4-9(11)14(18)19/h2-7,17H,1H3,(H,18,19)
 CH$LINK: CAS 644-62-2
 CH$LINK: INCHIKEY SBDNJUWAMKYJOX-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000176; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzoic acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.705 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 296.024
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ufr-4900000000-37ec9e65480e259783b9
 PK$NUM_PEAK: 47
 PK$PEAK: m/z int. rel.int.
@@ -39,16 +38,16 @@ PK$PEAK: m/z int. rel.int.
   73.009 0.6 20
   74.0169 8.7 294
   75.0114 0.5 16
-  75.0252 10 338
+  75.0252 10.0 338
   76.0199 0.7 23
   76.0319 3.8 128
   77.0405 10.3 348
-  78.0472 1 33
+  78.0472 1.0 33
   86.0161 1.7 57
   87.0239 2.1 71
   88.0292 0.8 27
   89.0385 2.2 74
-  98.0161 6 203
+  98.0161 6.0 203
   99.0089 0.5 16
   99.022 6.2 209
   100.0294 1.8 60

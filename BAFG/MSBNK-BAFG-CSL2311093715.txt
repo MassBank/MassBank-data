@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311093715
 RECORD_TITLE: Bezafibrate; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Bezafibrate
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C19H20ClNO4
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)(Oc1ccc(CCNC(=O)c2ccc(Cl)cc2)cc1)C(O)=O
 CH$IUPAC: InChI=1S/C19H20ClNO4/c1-19(2,18(23)24)25-16-9-3-13(4-10-16)11-12-21-17(22)14-5-7-15(20)8-6-14/h3-10H,11-12H2,1-2H3,(H,21,22)(H,23,24)
 CH$LINK: CAS 41859-67-0
 CH$LINK: INCHIKEY IIBYAHWJQTYFKB-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000417; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenoxyacetic acid derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,21 +30,20 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.033 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 362.1154
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-01t9-9600000000-9c5b34add84a46a791fb
 PK$NUM_PEAK: 18
 PK$PEAK: m/z int. rel.int.
   59.0534 1.1 11
   65.0428 4.2 45
-  73.0121 2 21
+  73.0121 2.0 21
   74.0187 15.9 171
   75.0269 53.1 572
   77.0424 89.9 968
   78.0497 1.2 12
   84.9859 4.3 46
   91.0558 31.6 340
-  93.0713 5 53
+  93.0713 5.0 53
   94.0431 2.3 24
   102.0475 2.5 26
   103.0544 22.4 241

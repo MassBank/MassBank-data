@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111017049
 RECORD_TITLE: Propaquizafop; LC-ESI-QTOF; MS2; 20 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Propaquizafop
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C22H22ClN3O5
@@ -15,6 +14,7 @@ CH$SMILES: CC(Oc1ccc(Oc2cnc3cc(Cl)ccc3n2)cc1)C(=O)OCCON=C(C)C
 CH$IUPAC: InChI=1S/C22H22ClN3O5/c1-14(2)26-29-11-10-28-22(27)15(3)30-17-5-7-18(8-6-17)31-21-13-24-20-12-16(23)4-9-19(20)25-21/h4-9,12-13,15H,10-11H2,1-3H3
 CH$LINK: CAS 111479-05-1
 CH$LINK: INCHIKEY FROBCXTULYFHEJ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004677; Organic compounds; Benzenoids; Benzene and substituted derivatives; 2-phenoxypropionic acid esters
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 15.307 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 444.1321
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-006x-0415900000-78c0284c5983e6f18a22
 PK$NUM_PEAK: 8
 PK$PEAK: m/z int. rel.int.
-  56.0494 14 52
+  56.0494 14.0 52
   70.0649 6.2 23
   100.0757 113.3 422
   144.1013 11.5 42

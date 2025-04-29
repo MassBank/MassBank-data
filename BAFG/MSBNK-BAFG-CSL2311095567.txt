@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095567
 RECORD_TITLE: Lamotrigine; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Lamotrigine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C9H7Cl2N5
@@ -15,6 +14,7 @@ CH$SMILES: Nc1nnc(c(N)n1)c2cccc(Cl)c2Cl
 CH$IUPAC: InChI=1S/C9H7Cl2N5/c10-5-3-1-2-4(6(5)11)7-8(12)14-9(13)16-15-7/h1-3H,(H4,12,13,14,16)
 CH$LINK: CAS 84057-84-1
 CH$LINK: INCHIKEY PYZRQGJRPPTADH-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000035; Organic compounds; Benzenoids; Benzene and substituted derivatives; Halobenzenes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.024 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 256.0151
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4i-0950000000-cb1ec992a77f1922f25d
 PK$NUM_PEAK: 45
 PK$PEAK: m/z int. rel.int.
@@ -42,11 +41,11 @@ PK$PEAK: m/z int. rel.int.
   108.9832 3.3 32
   115.0279 1.6 15
   122.9992 7.6 74
-  123.9938 3 29
+  123.9938 3.0 29
   131.0597 3.8 37
   132.9601 3.2 31
   135.9949 1.7 16
-  138.0094 3 29
+  138.0094 3.0 29
   139.0184 1.6 15
   144.9604 17.6 171
   146.9769 1.3 12
@@ -61,14 +60,14 @@ PK$PEAK: m/z int. rel.int.
   165.0202 14.3 139
   166.0285 26.8 261
   170.9641 4.2 40
-  171.9709 25 243
+  171.9709 25.0 243
   172.9663 6.7 65
   173.9867 7.9 77
   176.0118 1.9 18
-  178.0169 6 58
+  178.0169 6.0 58
   179.0239 4.3 41
-  183.9712 19 185
-  184.9739 4 39
+  183.9712 19.0 185
+  184.9739 4.0 39
   185.9858 6.1 59
   186.9814 28.8 280
   193.0375 2.5 24

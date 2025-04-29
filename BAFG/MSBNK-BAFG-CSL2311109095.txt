@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109095
 RECORD_TITLE: Norfloxacin; LC-ESI-QTOF; MS2; 130 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Norfloxacin
 CH$COMPOUND_CLASS: Antimicrobial; Pharmaceutical
 CH$FORMULA: C16H18FN3O3
@@ -15,6 +14,7 @@ CH$SMILES: CCN1C=C(C(=O)C2=CC(=C(C=C21)N3CCNCC3)F)C(=O)O
 CH$IUPAC: InChI=1S/C16H18FN3O3/c1-2-19-9-11(16(22)23)15(21)10-7-12(17)14(8-13(10)19)20-5-3-18-4-6-20/h7-9,18H,2-6H2,1H3,(H,22,23)
 CH$LINK: CAS 70458-96-7
 CH$LINK: INCHIKEY OGJPXUAPXNRGGI-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002552; Organic compounds; Organoheterocyclic compounds; Quinolines and derivatives; Quinoline carboxylic acids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.167 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 320.1405
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a7i-7900000000-41f82ca58b8fea134340
 PK$NUM_PEAK: 29
 PK$PEAK: m/z int. rel.int.
@@ -39,7 +38,7 @@ PK$PEAK: m/z int. rel.int.
   74.0212 1.3 463
   75.0281 2.3 820
   76.0244 0.5 178
-  81.018 1 356
+  81.018 1.0 356
   82.0144 0.6 214
   83.0325 0.5 178
   85.0123 0.5 178
@@ -49,7 +48,7 @@ PK$PEAK: m/z int. rel.int.
   95.0316 0.7 249
   98.0161 0.5 178
   99.024 1.9 677
-  100.0197 1 356
+  100.0197 1.0 356
   101.0405 0.9 321
   105.0134 1.1 392
   106.0184 0.9 321

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311094626
 RECORD_TITLE: Dihydroxycarbazepine; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Dihydroxycarbazepine
 CH$COMPOUND_CLASS: Pharmaceutical; Metabolite
 CH$FORMULA: C15H14N2O3
@@ -15,6 +14,7 @@ CH$SMILES: NC(=O)N1c2ccccc2C(O)C(O)c3ccccc13
 CH$IUPAC: InChI=1S/C15H14N2O3/c16-15(20)17-11-7-3-1-5-9(11)13(18)14(19)10-6-2-4-8-12(10)17/h1-8,13-14,18-19H,(H2,16,20)
 CH$LINK: CAS 35079-97-1
 CH$LINK: INCHIKEY PRGQOPPDPVELEG-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001283; Organic compounds; Lipids and lipid-like molecules; Prenol lipids; Terpene lactones
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.663 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 271.1077
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ufr-0900000000-38976dca5536061a5ea1
 PK$NUM_PEAK: 53
 PK$PEAK: m/z int. rel.int.
@@ -45,8 +44,8 @@ PK$PEAK: m/z int. rel.int.
   87.0242 0.6 12
   89.0393 3.9 78
   98.0144 0.6 12
-  99.0243 1 20
-  100.0316 1 20
+  99.0243 1.0 20
+  100.0316 1.0 20
   101.0385 7.2 145
   102.0329 0.6 12
   102.0451 2.8 56
@@ -65,24 +64,24 @@ PK$PEAK: m/z int. rel.int.
   139.054 11.5 232
   140.0494 8.6 173
   141.0557 0.6 12
-  149.0372 1 20
+  149.0372 1.0 20
   150.0462 10.5 212
   151.0536 34.1 689
   152.0617 49.4 999
-  152.0881 1 20
+  152.0881 1.0 20
   153.0583 6.5 131
   154.0652 1.8 36
   162.0448 0.5 10
   163.0529 4.1 82
   164.057 3.2 64
   165.0694 1.6 32
-  166.0638 6 121
-  167.0723 2 40
+  166.0638 6.0 121
+  167.0723 2.0 40
   176.0518 1.4 28
   177.0568 8.7 175
   178.0652 32.9 665
   179.0723 23.7 479
-  180.0801 17 343
+  180.0801 17.0 343
   188.048 0.6 12
   189.0573 0.7 14
   190.0649 2.6 52

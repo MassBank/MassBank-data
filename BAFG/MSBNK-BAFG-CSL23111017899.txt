@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111017899
 RECORD_TITLE: Deisopropylatrazine; LC-ESI-QTOF; MS2; 20 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Deisopropylatrazine
-CH$COMPOUND_CLASS: Transformation_product
+CH$COMPOUND_CLASS: Transformation_product; Herbicide; Transformation_product-Metabolite
 CH$FORMULA: C5H8ClN5
 CH$EXACT_MASS: 173.0468
 CH$SMILES: CCNC1=NC(=NC(=N1)N)Cl
 CH$IUPAC: InChI=1S/C5H8ClN5/c1-2-8-5-10-3(6)9-4(7)11-5/h2H2,1H3,(H3,7,8,9,10,11)
 CH$LINK: CAS 1007-28-9
 CH$LINK: INCHIKEY IVENSCMCQBJAKW-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001551; Organic compounds; Lipids and lipid-like molecules; Prenol lipids; Diterpenoids
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.858 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 174.0541
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00fr-2900000000-cdf999cc5bd515e5a401
 PK$NUM_PEAK: 14
 PK$PEAK: m/z int. rel.int.
@@ -41,7 +40,7 @@ PK$PEAK: m/z int. rel.int.
   79.0053 2.8 131
   96.0542 4.4 206
   97.0572 1.2 56
-  103.9994 2 93
+  103.9994 2.0 93
   132.0301 4.4 206
   133.0321 0.8 37
   138.0755 0.8 37

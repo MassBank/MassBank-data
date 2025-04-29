@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311094622
 RECORD_TITLE: Methabenzthiazuron; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Methabenzthiazuron
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C10H11N3OS
@@ -15,6 +14,7 @@ CH$SMILES: CNC(=O)N(C)c1sc2ccccc2n1
 CH$IUPAC: InChI=1S/C10H11N3OS/c1-11-9(14)13(2)10-12-7-5-3-4-6-8(7)15-10/h3-6H,1-2H3,(H,11,14)
 CH$LINK: CAS 18691-97-9
 CH$LINK: INCHIKEY RRVIAQKBTUQODI-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000311; Organic compounds; Organoheterocyclic compounds; Benzothiazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.783 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 222.0696
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-1900000000-eeaac59d9ca6b4158686
 PK$NUM_PEAK: 13
 PK$PEAK: m/z int. rel.int.
@@ -40,11 +39,11 @@ PK$PEAK: m/z int. rel.int.
   92.051 21.5 35
   96.0041 79.6 131
   106.0524 7.9 13
-  109.0106 35 57
+  109.0106 35.0 57
   118.0519 13.5 22
   122.0055 10.3 17
   123.0139 131.4 217
-  124.0211 81 134
+  124.0211 81.0 134
   132.0677 9.2 15
   150.0247 602.9 999
   165.0478 105.6 174

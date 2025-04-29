@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018871
 RECORD_TITLE: Parathion-methyl; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Parathion-methyl
 CH$COMPOUND_CLASS: Insecticide
 CH$FORMULA: C8H10NO5PS
@@ -15,6 +14,7 @@ CH$SMILES: COP(=S)(OC)OC1=CC=C(C=C1)[N+](=O)[O-]
 CH$IUPAC: InChI=1S/C8H10NO5PS/c1-12-15(16,13-2)14-8-5-3-7(4-6-8)9(10)11/h3-6H,1-2H3
 CH$LINK: CAS 298-00-0
 CH$LINK: INCHIKEY RLBIQVVOMOPOHC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001572; Organic compounds; Organic acids and derivatives; Organic thiophosphoric acids and derivatives; Thiophosphoric acid esters
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,15 +30,14 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.495 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 264.009
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fmi-5900000000-8d187adc8a6a70f7d2c1
 PK$NUM_PEAK: 46
 PK$PEAK: m/z int. rel.int.
   44.9792 1.6 77
   46.967 0.6 29
   46.9934 4.6 224
-  62.0164 1 48
+  62.0164 1.0 48
   62.9442 0.5 24
   62.9991 0.5 24
   63.0216 1.2 58
@@ -50,8 +49,8 @@ PK$PEAK: m/z int. rel.int.
   75.0214 7.7 375
   76.0294 0.4 19
   78.9924 11.8 575
-  92.0245 4 194
-  93.007 1 48
+  92.0245 4.0 194
+  93.007 1.0 48
   96.0016 2.1 102
   108.0021 1.6 77
   109.0032 6.8 331
@@ -71,12 +70,12 @@ PK$PEAK: m/z int. rel.int.
   153.9615 6.9 336
   153.9923 0.5 24
   154.9697 10.9 531
-  155.9754 1 48
+  155.9754 1.0 48
   156.9856 0.6 29
   170.9636 0.9 43
   183.9781 0.6 29
   184.9819 1.3 63
-  185.9887 3 146
+  185.9887 3.0 146
   199.9553 2.7 131
   214.9812 1.1 53
   231.9808 3.2 155

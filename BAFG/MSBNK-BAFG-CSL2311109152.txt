@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109152
 RECORD_TITLE: Sulfadiazine; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Sulfadiazine
 CH$COMPOUND_CLASS: Antimicrobial; Pharmaceutical
 CH$FORMULA: C10H10N4O2S
@@ -15,6 +14,7 @@ CH$SMILES: C1=CN=C(N=C1)NS(=O)(=O)C2=CC=C(C=C2)N
 CH$IUPAC: InChI=1S/C10H10N4O2S/c11-8-2-4-9(5-3-8)17(15,16)14-10-12-6-1-7-13-10/h1-7H,11H2,(H,12,13,14)
 CH$LINK: CAS 68-35-9
 CH$LINK: INCHIKEY SEEPANYCNGTZFQ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000031; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzenesulfonamides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.24 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 251.0597
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-067l-9100000000-07f67d8daaefcd5a6ad3
 PK$NUM_PEAK: 13
 PK$PEAK: m/z int. rel.int.

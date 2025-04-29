@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311092731
 RECORD_TITLE: Mebendazole; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Mebendazole
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C16H13N3O3
@@ -15,6 +14,7 @@ CH$SMILES: COC(=O)Nc1[nH]c2cc(ccc2n1)C(=O)c3ccccc3
 CH$IUPAC: InChI=1S/C16H13N3O3/c1-22-16(21)19-15-17-12-8-7-11(9-13(12)18-15)14(20)10-5-3-2-4-6-10/h2-9H,1H3,(H2,17,18,19,21)
 CH$LINK: CAS 31431-39-7
 CH$LINK: INCHIKEY OPXLLQIJSORQAM-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000120; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzophenones
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.672 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 294.0884
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4i-0900000000-40c7e1e7eef488ea620d
 PK$NUM_PEAK: 3
 PK$PEAK: m/z int. rel.int.
   115.0292 2.8 82
   129.0339 7.6 223
-  157.0284 34 999
+  157.0284 34.0 999
 //

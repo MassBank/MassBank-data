@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311094715
 RECORD_TITLE: 10,11-Dihydrocarbamazepine; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 10,11-Dihydrocarbamazepine
 CH$COMPOUND_CLASS: Pharmaceutical; Metabolite
 CH$FORMULA: C15H14N2O
@@ -15,6 +14,7 @@ CH$SMILES: NC(=O)N1c2ccccc2CCc3ccccc13
 CH$IUPAC: InChI=1S/C15H14N2O/c16-15(18)17-13-7-3-1-5-11(13)9-10-12-6-2-4-8-14(12)17/h1-8H,9-10H2,(H2,16,18)
 CH$LINK: CAS 3564-73-6
 CH$LINK: INCHIKEY PHNLCHMJDSSPDQ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001691; Organic compounds; Lipids and lipid-like molecules; Steroids and steroid derivatives; Steroid esters
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.235 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 239.1179
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-000x-1900000000-54a549deafe6669fd3bb
 PK$NUM_PEAK: 27
 PK$PEAK: m/z int. rel.int.
-  65.0428 9 40
+  65.0428 9.0 40
   77.0412 5.3 23
   91.0566 90.5 403
   103.0539 3.6 16
@@ -45,7 +44,7 @@ PK$PEAK: m/z int. rel.int.
   118.0657 18.6 82
   119.0721 3.1 13
   128.0504 5.7 25
-  151.0538 4 17
+  151.0538 4.0 17
   152.0623 12.4 55
   165.0698 10.5 46
   166.0697 7.8 34
@@ -53,7 +52,7 @@ PK$PEAK: m/z int. rel.int.
   168.0804 4.3 19
   176.0617 2.7 12
   177.0699 3.9 17
-  178.0754 18 80
+  178.0754 18.0 80
   179.0733 39.2 174
   180.0816 223.9 999
   181.0889 29.2 130

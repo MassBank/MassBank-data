@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311093969
 RECORD_TITLE: Ranitidine; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Ranitidine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C13H22N4O3S
@@ -15,6 +14,7 @@ CH$SMILES: CNC(=C[N+](=O)[O-])NCCSCC1=CC=C(O1)CN(C)C
 CH$IUPAC: InChI=1S/C13H22N4O3S/c1-14-13(9-17(18)19)15-6-7-21-10-12-5-4-11(20-12)8-16(2)3/h4-5,9,14-15H,6-8,10H2,1-3H3
 CH$LINK: CAS 66357-35-5
 CH$LINK: INCHIKEY VMXUWOKSQNHOCA-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002449; Organic compounds; Organic nitrogen compounds; Organonitrogen compounds; Amines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.832 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 315.1485
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ue9-9700000000-9371f9f4b27419c0e65d
 PK$NUM_PEAK: 96
 PK$PEAK: m/z int. rel.int.
@@ -46,13 +45,13 @@ PK$PEAK: m/z int. rel.int.
   57.0502 2.4 57
   58.0696 1.4 33
   58.083 0.6 14
-  58.9997 2 48
+  58.9997 2.0 48
   59.0182 0.5 12
   60.0068 1.1 26
-  65.0418 3 72
+  65.0418 3.0 72
   66.0494 0.8 19
   67.0451 0.6 14
-  67.0577 1 24
+  67.0577 1.0 24
   68.0518 4.2 100
   69.0479 0.5 12
   70.0684 1.2 28
@@ -80,7 +79,7 @@ PK$PEAK: m/z int. rel.int.
   93.0583 4.4 105
   94.0422 1.4 33
   94.0661 7.3 175
-  95.0502 2 48
+  95.0502 2.0 48
   95.0741 1.4 33
   96.0681 2.7 64
   97.0118 2.7 64
@@ -104,12 +103,12 @@ PK$PEAK: m/z int. rel.int.
   116.0486 0.5 12
   117.0555 3.1 74
   118.0651 3.5 84
-  119.0579 2 48
+  119.0579 2.0 48
   120.0674 1.5 36
   120.0781 1.1 26
   121.0766 3.2 76
-  122.0594 1 24
-  123.0253 1 24
+  122.0594 1.0 24
+  123.0253 1.0 24
   125.0054 6.1 146
   129.0475 2.1 50
   130.0552 2.9 69

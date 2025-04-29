@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109282
 RECORD_TITLE: Drometrizole; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Drometrizole
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C13H11N3O
@@ -15,6 +14,7 @@ CH$SMILES: CC1=CC(=C(C=C1)O)N2N=C3C=CC=CC3=N2
 CH$IUPAC: InChI=1S/C13H11N3O/c1-9-6-7-13(17)12(8-9)16-14-10-4-2-3-5-11(10)15-16/h2-8,17H,1H3
 CH$LINK: CAS 2440-22-4
 CH$LINK: INCHIKEY MCPKSFINULVDNX-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000099; Organic compounds; Organoheterocyclic compounds; Azoles; Triazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 15.201 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 226.0975
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-9600000000-63c0da964b4323dd535d
 PK$NUM_PEAK: 37
 PK$PEAK: m/z int. rel.int.
-  65.0455 12 227
+  65.0455 12.0 227
   75.0279 1.2 22
   77.0445 52.8 999
   78.0404 3.6 68
@@ -48,7 +47,7 @@ PK$PEAK: m/z int. rel.int.
   101.0385 0.9 17
   102.047 2.8 52
   105.0464 9.4 177
-  106.0564 1 18
+  106.0564 1.0 18
   107.0523 0.9 17
   115.0567 1.7 32
   120.0585 1.8 34
@@ -58,10 +57,10 @@ PK$PEAK: m/z int. rel.int.
   129.0474 0.9 17
   130.0662 0.8 15
   139.0566 0.6 11
-  140.0486 1 18
+  140.0486 1.0 18
   151.0553 1.1 20
   152.0628 2.4 45
-  153.0593 1 18
+  153.0593 1.0 18
   154.0669 6.1 115
   155.0622 1.1 20
   164.0518 1.5 28
@@ -70,6 +69,6 @@ PK$PEAK: m/z int. rel.int.
   168.0801 0.7 13
   179.0702 0.8 15
   180.0784 0.7 13
-  181.0763 3 56
+  181.0763 3.0 56
   182.0679 0.6 11
 //

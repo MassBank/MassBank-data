@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018931
 RECORD_TITLE: Etrimfos; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Etrimfos
 CH$COMPOUND_CLASS: Insecticide
 CH$FORMULA: C10H17N2O4PS
@@ -15,6 +14,7 @@ CH$SMILES: CCC1=NC(=CC(=N1)OP(=S)(OC)OC)OCC
 CH$IUPAC: InChI=1S/C10H17N2O4PS/c1-5-8-11-9(15-6-2)7-10(12-8)16-17(18,13-3)14-4/h7H,5-6H2,1-4H3
 CH$LINK: CAS 38260-54-7
 CH$LINK: INCHIKEY FGIWFCGDPUIBEZ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000151; Organic compounds; Benzenoids; Anthracenes; Anthraquinones
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 14.241 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 293.072
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0007-9000000000-36b7aa07a97016c3123e
 PK$NUM_PEAK: 18
 PK$PEAK: m/z int. rel.int.
@@ -49,7 +48,7 @@ PK$PEAK: m/z int. rel.int.
   62.9983 10.1 44
   68.012 24.6 109
   68.9962 2.9 12
-  78.939 5 22
+  78.939 5.0 22
   78.9933 13.3 59
   79.947 2.7 11
   93.0098 2.5 11

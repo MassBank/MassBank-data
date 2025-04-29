@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311093148
 RECORD_TITLE: Ethyldiphenylphosphine oxide; LC-ESI-QTOF; MS2; 140 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Ethyldiphenylphosphine oxide
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C14H15OP
@@ -15,6 +14,7 @@ CH$SMILES: CC[P](=O)(c1ccccc1)c2ccccc2
 CH$IUPAC: InChI=1S/C14H15OP/c1-2-16(15,13-9-5-3-6-10-13)14-11-7-4-8-12-14/h3-12H,2H2,1H3
 CH$LINK: CAS 1733-57-9
 CH$LINK: INCHIKEY AKTGKEBIBGSCLD-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001322; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives; Pyridinecarboxylic acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,16 +30,15 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.816 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 231.0933
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-9200000000-a302d4225f8235c9bd90
 PK$NUM_PEAK: 30
 PK$PEAK: m/z int. rel.int.
-  47.0169 1 52
+  47.0169 1.0 52
   51.0305 18.9 999
   55.9875 1.6 84
   56.994 2.8 148
-  65.0461 1 52
+  65.0461 1.0 52
   67.9845 1.6 84
   73.0112 0.8 42
   74.0188 7.3 385
@@ -48,9 +47,9 @@ PK$PEAK: m/z int. rel.int.
   77.0422 3.1 163
   78.0488 0.9 47
   78.9754 1.8 95
-  79.9836 6 317
+  79.9836 6.0 317
   80.9913 2.7 142
-  85.0087 1 52
+  85.0087 1.0 52
   86.0173 2.9 153
   87.0247 1.6 84
   89.0404 1.3 68

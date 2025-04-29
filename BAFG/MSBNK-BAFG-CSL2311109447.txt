@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109447
 RECORD_TITLE: Phenylbutazone; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Phenylbutazone
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C19H20N2O2
@@ -15,6 +14,7 @@ CH$SMILES: CCCCC1C(=O)N(N(C1=O)C2=CC=CC=C2)C3=CC=CC=C3
 CH$IUPAC: InChI=1S/C19H20N2O2/c1-2-3-14-17-18(22)20(15-10-6-4-7-11-15)21(19(17)23)16-12-8-5-9-13-16/h4-13,17H,2-3,14H2,1H3
 CH$LINK: CAS 50-33-9
 CH$LINK: INCHIKEY VYMDGNCVAMGZFE-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002279; Organic compounds; Benzenoids; Benzene and substituted derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,14 +30,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.103 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 309.1598
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-9100000000-ad7d5d39366714c1a7c2
 PK$NUM_PEAK: 25
 PK$PEAK: m/z int. rel.int.
   55.0303 0.9 20
   74.0217 1.1 24
-  75.0278 1 22
+  75.0278 1.0 22
   77.0455 44.4 999
   78.049 1.8 40
   79.0594 0.5 11
@@ -55,9 +54,9 @@ PK$PEAK: m/z int. rel.int.
   117.0582 0.9 20
   118.0679 1.4 31
   127.0562 0.6 13
-  139.0547 1 22
+  139.0547 1.0 22
   140.051 0.7 15
   166.0642 0.7 15
   167.0781 0.6 13
-  181.0739 1 22
+  181.0739 1.0 22
 //

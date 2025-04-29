@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095474
 RECORD_TITLE: 4,4-Chlorophenoxyphenol; LC-ESI-QTOF; MS2; 20 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 4,4-Chlorophenoxyphenol
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C12H9ClO2
@@ -15,6 +14,7 @@ CH$SMILES: c1cc(ccc1O)Oc2ccc(cc2)Cl
 CH$IUPAC: InChI=1S/C12H9ClO2/c13-9-1-5-11(6-2-9)15-12-7-3-10(14)4-8-12/h1-8,14H
 CH$LINK: CAS 21567-18-0
 CH$LINK: INCHIKEY XQMRZWSYBUCVAX-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004155; Organic compounds; Benzenoids; Benzene and substituted derivatives; Diphenylethers
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.354 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 221.0364
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00dr-1930000000-fb052feca84863788e6b
 PK$NUM_PEAK: 33
 PK$PEAK: m/z int. rel.int.
@@ -43,7 +42,7 @@ PK$PEAK: m/z int. rel.int.
   93.0719 0.6 34
   94.0409 2.7 155
   105.0678 0.6 34
-  109.0287 3 173
+  109.0287 3.0 173
   109.0659 1.5 86
   110.0361 0.8 46
   111.0806 8.6 496
@@ -62,10 +61,10 @@ PK$PEAK: m/z int. rel.int.
   158.0741 1.1 63
   165.0228 0.5 28
   165.0342 0.5 28
-  167.0528 1 57
+  167.0528 1.0 57
   168.0583 1.9 109
-  185.0591 4 230
+  185.0591 4.0 230
   186.0676 14.1 814
-  203.0261 1 57
+  203.0261 1.0 57
   221.0355 17.3 999
 //

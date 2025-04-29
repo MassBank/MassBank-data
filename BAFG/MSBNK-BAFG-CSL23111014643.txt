@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111014643
 RECORD_TITLE: 4-Bromoantipyrine; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 4-Bromoantipyrine
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C11H11BrN2O
@@ -15,6 +14,7 @@ CH$SMILES: CC1=C(C(=O)N(N1C)C2=CC=CC=C2)Br
 CH$IUPAC: InChI=1S/C11H11BrN2O/c1-8-10(12)11(15)14(13(8)2)9-6-4-3-5-7-9/h3-7H,1-2H3
 CH$LINK: CAS 5426-65-3
 CH$LINK: INCHIKEY QYWWSDVPNCBSIA-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000087; Organic compounds; Organoheterocyclic compounds; Azoles; Pyrazoles
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.678 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 267.0128
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4r-6900000000-16c527ba550351dd346b
 PK$NUM_PEAK: 39
 PK$PEAK: m/z int. rel.int.
@@ -44,12 +43,12 @@ PK$PEAK: m/z int. rel.int.
   77.0364 6.2 194
   78.0433 0.6 18
   91.0517 0.7 21
-  92.0463 1 31
+  92.0463 1.0 31
   95.0588 1.8 56
   102.0453 0.6 18
   103.0396 0.6 18
   103.0512 0.7 21
-  104.0464 2 62
+  104.0464 2.0 62
   104.9298 0.8 25
   106.0624 0.6 18
   115.051 1.7 53
@@ -65,9 +64,9 @@ PK$PEAK: m/z int. rel.int.
   144.0777 1.8 56
   145.0715 3.2 100
   146.0557 1.2 37
-  147.0879 2 62
+  147.0879 2.0 62
   156.0407 0.6 18
-  159.087 2 62
+  159.087 2.0 62
   173.0663 2.1 65
   173.9747 0.8 25
   175.9657 0.8 25

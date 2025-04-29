@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109080
 RECORD_TITLE: Omeprazole; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Omeprazole
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C17H19N3O3S
@@ -15,6 +14,7 @@ CH$SMILES: COc1ccc2nc([nH]c2c1)[S](=O)Cc3ncc(C)c(OC)c3C
 CH$IUPAC: InChI=1S/C17H19N3O3S/c1-10-8-18-15(11(2)16(10)23-4)9-24(21)17-19-13-6-5-12(22-3)7-14(13)20-17/h5-8H,9H2,1-4H3,(H,19,20)
 CH$LINK: CAS 73590-58-6
 CH$LINK: INCHIKEY SUBDBMMJDZJVOS-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001891; Organic compounds; Organoheterocyclic compounds; Benzimidazoles; Sulfinylbenzimidazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.462 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 346.122
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0uej-0900000000-90eae3f6498ce29c8bb0
 PK$NUM_PEAK: 24
 PK$PEAK: m/z int. rel.int.
   77.0424 1.7 10
-  79.0597 2 12
+  79.0597 2.0 12
   93.0742 2.1 13
   106.0654 5.5 34
   108.0816 15.3 96
@@ -50,7 +49,7 @@ PK$PEAK: m/z int. rel.int.
   150.0918 63.2 397
   151.0994 107.6 677
   152.017 14.9 93
-  165.024 18 113
+  165.024 18.0 113
   166.0323 6.7 42
   166.0865 3.2 20
   168.1021 21.7 136
@@ -58,5 +57,5 @@ PK$PEAK: m/z int. rel.int.
   180.0479 122.3 769
   181.0551 30.2 190
   198.0586 85.3 536
-  328.1099 2 12
+  328.1099 2.0 12
 //

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095274
 RECORD_TITLE: 6alpha-Methylprednisolone; LC-ESI-QTOF; MS2; 20 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 6alpha-Methylprednisolone
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C22H30O5
@@ -15,6 +14,7 @@ CH$SMILES: C[C@H]1C[C@H]2[C@@H]3CC[C@](O)(C(=O)CO)[C@@]3(C)C[C@H](O)[C@@H]2[C@@]
 CH$IUPAC: InChI=1S/C22H30O5/c1-12-8-14-15-5-7-22(27,18(26)11-23)21(15,3)10-17(25)19(14)20(2)6-4-13(24)9-16(12)20/h4,6,9,12,14-15,17,19,23,25,27H,5,7-8,10-11H2,1-3H3/t12-,14-,15-,17-,19+,20-,21-,22-/m0/s1
 CH$LINK: CAS 83-43-2
 CH$LINK: INCHIKEY VHRSUDSXCMQTMA-PJHHCJLFSA-N
+CH$LINK: ChemOnt CHEMONTID:0001295; Organic compounds; Lipids and lipid-like molecules; Steroids and steroid derivatives; Hydroxysteroids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,15 +30,14 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.016 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 375.2166
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4i-0249000000-f7ed46e6f91897d4a79c
 PK$NUM_PEAK: 50
 PK$PEAK: m/z int. rel.int.
   121.0626 1.8 11
   135.0799 13.8 85
   147.0791 2.1 13
-  149.095 2 12
+  149.095 2.0 12
   159.0799 1.7 10
   161.0953 25.1 156
   165.0909 3.5 21
@@ -63,13 +62,13 @@ PK$PEAK: m/z int. rel.int.
   265.1587 2.8 17
   267.1371 2.9 18
   275.1453 1.8 11
-  277.158 8 49
+  277.158 8.0 49
   279.138 4.1 25
   279.1735 20.7 128
   280.1813 6.7 41
   281.1889 7.6 47
   288.1532 1.8 11
-  291.1738 6 37
+  291.1738 6.0 37
   293.1494 4.3 26
   293.1896 13.7 85
   295.1683 2.3 14
@@ -77,10 +76,10 @@ PK$PEAK: m/z int. rel.int.
   297.1819 3.8 23
   299.1987 1.9 11
   303.1728 25.1 156
-  309.1829 8 49
+  309.1829 8.0 49
   311.203 3.9 24
   315.1604 3.8 23
-  321.1842 50 311
+  321.1842 50.0 311
   327.1956 2.4 14
   339.1958 68.4 425
   357.2067 160.6 999

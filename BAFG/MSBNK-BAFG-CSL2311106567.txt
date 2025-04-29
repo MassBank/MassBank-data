@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311106567
 RECORD_TITLE: Methacetin; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Methacetin
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C9H11NO2
@@ -15,6 +14,7 @@ CH$SMILES: COc1ccc(NC(C)=O)cc1
 CH$IUPAC: InChI=1S/C9H11NO2/c1-7(11)10-8-3-5-9(12-2)6-4-8/h3-6H,1-2H3,(H,10,11)
 CH$LINK: CAS 51-66-1
 CH$LINK: INCHIKEY XVAIDCNLVLTVFM-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000285; Organic compounds; Benzenoids; Benzene and substituted derivatives; Anilides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.508 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 166.0863
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-006x-9700000000-f14b7825e13d1e3e7a56
 PK$NUM_PEAK: 20
 PK$PEAK: m/z int. rel.int.
@@ -41,18 +40,18 @@ PK$PEAK: m/z int. rel.int.
   66.0512 31.2 25
   77.0422 277.8 228
   79.0575 26.5 21
-  80.0526 141 116
+  80.0526 141.0 116
   81.0601 582.4 479
   92.051 1043.6 859
   93.059 1069.2 880
   94.066 74.3 61
   97.0658 31.8 26
   107.0494 134.9 111
-  108.0452 70 57
+  108.0452 70.0 57
   109.0521 1040.4 857
   123.0676 103.1 84
   124.0759 1212.7 999
   125.0617 43.4 35
-  148.0753 117 96
+  148.0753 117.0 96
   166.0857 324.3 267
 //

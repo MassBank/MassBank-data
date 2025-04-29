@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311093693
 RECORD_TITLE: Allethrin; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Allethrin
 CH$COMPOUND_CLASS: Insecticide
 CH$FORMULA: C19H26O3
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)=CC1C(C(=O)OC2CC(=O)C(=C2C)CC=C)C1(C)C
 CH$IUPAC: InChI=1S/C19H26O3/c1-7-8-13-12(4)16(10-15(13)20)22-18(21)17-14(9-11(2)3)19(17,5)6/h7,9,14,16-17H,1,8,10H2,2-6H3
 CH$LINK: CAS 584-79-2
 CH$LINK: INCHIKEY ZCVAOQKBXKSDMS-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000324; Organic compounds; Lipids and lipid-like molecules; Fatty Acyls; Fatty acid esters
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 16.132 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 303.1955
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-054o-9700000000-86852018a6751b214cb8
 PK$NUM_PEAK: 47
 PK$PEAK: m/z int. rel.int.
@@ -43,7 +42,7 @@ PK$PEAK: m/z int. rel.int.
   67.0578 4.1 106
   69.0371 0.9 23
   69.073 1.2 31
-  77.0419 9 234
+  77.0419 9.0 234
   77.0652 0.4 10
   79.057 19.8 515
   81.0722 9.9 257
@@ -55,7 +54,7 @@ PK$PEAK: m/z int. rel.int.
   103.0552 0.9 23
   105.0705 13.2 343
   107.0492 2.3 59
-  107.086 11 286
+  107.086 11.0 286
   108.094 0.4 10
   109.0652 3.5 91
   111.0449 0.5 13
@@ -63,7 +62,7 @@ PK$PEAK: m/z int. rel.int.
   116.0618 0.6 15
   117.0697 4.8 124
   119.0852 1.7 44
-  121.065 4 104
+  121.065 4.0 104
   121.1005 4.5 117
   123.1169 5.2 135
   129.0694 0.8 20
@@ -74,9 +73,9 @@ PK$PEAK: m/z int. rel.int.
   139.1133 0.4 10
   141.0671 0.4 10
   142.0759 0.4 10
-  143.086 1 26
+  143.086 1.0 26
   144.0965 0.6 15
-  145.1021 1 26
+  145.1021 1.0 26
   147.0798 0.4 10
   149.0961 0.9 23
   151.111 0.7 18

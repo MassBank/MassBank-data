@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311106681
 RECORD_TITLE: Oxcarbazepine; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Oxcarbazepine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C15H12N2O2
@@ -15,6 +14,7 @@ CH$SMILES: NC(=O)N1c2ccccc2CC(=O)c3ccccc13
 CH$IUPAC: InChI=1S/C15H12N2O2/c16-15(19)17-12-7-3-1-5-10(12)9-14(18)11-6-2-4-8-13(11)17/h1-8H,9H2,(H2,16,19)
 CH$LINK: CAS 28721-07-5
 CH$LINK: INCHIKEY CTRLABGOLIVAIY-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000320; Organic compounds; Organoheterocyclic compounds; Benzazepines; Dibenzazepines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,14 +30,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.323 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 253.0972
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ufr-2900000000-1ecbc24ee5bdb092940c
 PK$NUM_PEAK: 60
 PK$PEAK: m/z int. rel.int.
   51.0289 8.1 160
   63.0488 0.6 11
-  65.0416 1 19
+  65.0416 1.0 19
   74.0169 4.2 83
   75.0255 14.4 284
   75.0582 0.5 9
@@ -55,17 +54,17 @@ PK$PEAK: m/z int. rel.int.
   99.0233 2.1 41
   100.0322 0.9 17
   101.0389 12.3 243
-  102.0338 2 39
+  102.0338 2.0 39
   102.0459 4.1 81
   111.0226 0.6 11
   113.0382 5.5 108
   114.0462 2.1 41
   115.0539 5.9 116
-  116.0484 1 19
+  116.0484 1.0 19
   117.0575 0.7 13
   124.0327 0.6 11
   125.0378 4.9 96
-  126.0451 11 217
+  126.0451 11.0 217
   127.0539 11.3 223
   128.0496 8.8 174
   129.0463 1.2 23
@@ -83,7 +82,7 @@ PK$PEAK: m/z int. rel.int.
   162.0456 1.7 33
   163.0535 8.6 170
   164.0534 4.4 87
-  165.0665 2 39
+  165.0665 2.0 39
   166.0636 4.3 85
   167.071 0.9 17
   176.0494 1.6 31

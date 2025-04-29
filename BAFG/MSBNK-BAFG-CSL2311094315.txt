@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311094315
 RECORD_TITLE: Citalopram-N-oxide; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Citalopram-N-oxide
-CH$COMPOUND_CLASS: Metabolite; Pharmaceutical; Transformation_product
+CH$COMPOUND_CLASS: Metabolite; Pharmaceutical; Transformation_product; Transformation_product-Metabolite
 CH$FORMULA: C20H21FN2O2
 CH$EXACT_MASS: 340.1587
 CH$SMILES: C[N+](C)(CCCC1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F)[O-]
 CH$IUPAC: InChI=1S/C20H21FN2O2/c1-23(2,24)11-3-10-20(17-5-7-18(21)8-6-17)19-9-4-15(13-22)12-16(19)14-25-20/h4-9,12H,3,10-11,14H2,1-2H3
 CH$LINK: CAS 63284-72-0
 CH$LINK: INCHIKEY DIOGFDCEWUUSBQ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000014; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylbutylamines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,33 +30,32 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.958 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 341.166
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0bt9-0590000000-f892d85ff1479e4c814f
 PK$NUM_PEAK: 43
 PK$PEAK: m/z int. rel.int.
   58.0703 4.6 15
   83.0318 7.8 26
-  89.0392 6 20
+  89.0392 6.0 20
   109.0457 294.3 999
   116.0498 70.4 238
-  121.0443 3 10
+  121.0443 3.0 10
   123.0237 9.5 32
   129.0693 7.9 26
-  139.0541 3 10
+  139.0541 3.0 10
   140.0498 9.1 30
   144.0443 5.6 19
   156.0807 16.3 55
   166.0648 50.7 172
-  184.076 3 10
+  184.076 3.0 10
   190.0633 6.2 21
   202.0718 3.1 10
   207.0594 6.4 21
   208.0549 6.6 22
   214.0681 4.9 16
-  215.0851 17 57
+  215.0851 17.0 57
   218.0595 7.8 26
-  220.0663 21 71
+  220.0663 21.0 71
   221.0637 43.9 149
   222.0704 15.7 53
   226.0662 5.1 17
@@ -74,8 +73,8 @@ PK$PEAK: m/z int. rel.int.
   246.0727 38.6 131
   247.079 102.2 346
   260.0864 10.6 35
-  261.0935 15 50
-  262.1026 158 536
+  261.0935 15.0 50
+  262.1026 158.0 536
   280.1134 18.1 61
   341.1662 21.6 73
 //

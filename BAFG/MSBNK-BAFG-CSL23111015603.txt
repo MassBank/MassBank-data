@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111015603
 RECORD_TITLE: Dimethenamid-ESA; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Dimethenamid-ESA
 CH$COMPOUND_CLASS: Transformation_product; Herbicide; Metabolite
 CH$FORMULA: C12H19NO5S2
@@ -15,6 +14,7 @@ CH$SMILES: CC1=CSC(=C1N(C(C)COC)C(=O)CS(=O)(=O)O)C
 CH$IUPAC: InChI=1S/C12H19NO5S2/c1-8-6-19-10(3)12(8)13(9(2)5-18-4)11(14)7-20(15,16)17/h6,9H,5,7H2,1-4H3,(H,15,16,17)
 CH$LINK: CAS 205939-58-8
 CH$LINK: INCHIKEY YMYKMSAZEZQEER-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004144; Organic compounds; Organoheterocyclic compounds; Heteroaromatic compounds
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.036 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 320.0632
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00di-4509000000-cda6a8403629da5abea0
 PK$NUM_PEAK: 8
 PK$PEAK: m/z int. rel.int.

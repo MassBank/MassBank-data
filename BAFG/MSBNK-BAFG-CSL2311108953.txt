@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311108953
 RECORD_TITLE: Acetylsulfamethoxazole; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Acetylsulfamethoxazole
-CH$COMPOUND_CLASS: Metabolite; Pharmaceutical
+CH$COMPOUND_CLASS: Metabolite; Pharmaceutical; Transformation_product-Metabolite
 CH$FORMULA: C12H13N3O4S
 CH$EXACT_MASS: 295.0627
 CH$SMILES: CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)NC(=O)C
 CH$IUPAC: InChI=1S/C12H13N3O4S/c1-8-7-12(14-19-8)15-20(17,18)11-5-3-10(4-6-11)13-9(2)16/h3-7H,1-2H3,(H,13,16)(H,14,15)
 CH$LINK: CAS 21312-10-7
 CH$LINK: INCHIKEY GXPIUNZCALHVBA-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000301; Organic compounds; Organoheterocyclic compounds; Benzofurans
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.411 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 296.07
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-9100000000-657fffeab272a15ffa74
 PK$NUM_PEAK: 26
 PK$PEAK: m/z int. rel.int.
@@ -50,15 +49,15 @@ PK$PEAK: m/z int. rel.int.
   92.0521 4.5 173
   93.0367 0.6 23
   93.0602 4.9 189
-  94.0671 1 38
+  94.0671 1.0 38
   99.0604 0.6 23
   104.0515 0.6 23
   105.0492 0.5 19
   106.0681 0.5 19
   107.0647 0.7 27
-  108.0456 6 231
+  108.0456 6.0 231
   119.0636 0.9 34
   129.0446 0.4 15
   131.0629 0.5 19
-  146.0729 1 38
+  146.0729 1.0 38
 //

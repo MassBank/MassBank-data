@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311094321
 RECORD_TITLE: Citalopram-N-oxide; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Citalopram-N-oxide
-CH$COMPOUND_CLASS: Metabolite; Pharmaceutical; Transformation_product
+CH$COMPOUND_CLASS: Metabolite; Pharmaceutical; Transformation_product; Transformation_product-Metabolite
 CH$FORMULA: C20H21FN2O2
 CH$EXACT_MASS: 340.1587
 CH$SMILES: C[N+](C)(CCCC1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F)[O-]
 CH$IUPAC: InChI=1S/C20H21FN2O2/c1-23(2,24)11-3-10-20(17-5-7-18(21)8-6-17)19-9-4-15(13-22)12-16(19)14-25-20/h4-9,12H,3,10-11,14H2,1-2H3
 CH$LINK: CAS 63284-72-0
 CH$LINK: INCHIKEY DIOGFDCEWUUSBQ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000014; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylbutylamines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,14 +30,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.958 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 341.166
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-05nb-3890000000-d585e840e37de5168a28
 PK$NUM_PEAK: 125
 PK$PEAK: m/z int. rel.int.
   42.0429 0.9 14
   57.0193 9.9 154
-  58.0709 10 155
+  58.0709 10.0 155
   59.0341 3.5 54
   59.047 0.9 14
   60.0499 0.8 12
@@ -45,21 +44,21 @@ PK$PEAK: m/z int. rel.int.
   74.0186 2.9 45
   75.0258 7.4 115
   77.0417 6.3 98
-  81.0184 1 15
+  81.0184 1.0 15
   83.0322 57.6 897
   87.0247 2.3 35
   89.0408 31.9 497
-  90.0357 2 31
+  90.0357 2.0 31
   95.0304 4.7 73
   98.0162 1.5 23
   99.0238 2.2 34
   101.0404 2.8 43
-  102.0485 1 15
+  102.0485 1.0 15
   103.0556 0.9 14
   107.0292 1.5 23
   109.0457 48.7 758
   113.0385 13.2 205
-  114.0343 3 46
+  114.0343 3.0 46
   115.0552 6.8 105
   116.0505 8.8 137
   120.0386 1.8 28
@@ -70,9 +69,9 @@ PK$PEAK: m/z int. rel.int.
   128.062 4.2 65
   129.0445 0.7 10
   133.0461 8.6 134
-  137.039 1 15
-  138.0463 1 15
-  139.0545 5 77
+  137.039 1.0 15
+  138.0463 1.0 15
+  139.0545 5.0 77
   140.0505 29.4 458
   144.0393 1.9 29
   145.0461 0.9 14
@@ -94,7 +93,7 @@ PK$PEAK: m/z int. rel.int.
   166.0636 0.7 10
   167.03 1.3 20
   168.0379 4.4 68
-  169.0445 5 77
+  169.0445 5.0 77
   170.0535 5.5 85
   173.0387 3.1 48
   174.0452 7.6 118
@@ -105,7 +104,7 @@ PK$PEAK: m/z int. rel.int.
   181.0456 14.2 221
   182.0488 5.6 87
   183.0611 6.2 96
-  185.0387 1 15
+  185.0387 1.0 15
   186.0499 1.3 20
   187.0532 7.9 123
   188.0506 14.2 221
@@ -131,7 +130,7 @@ PK$PEAK: m/z int. rel.int.
   211.0555 2.3 35
   212.0532 6.9 107
   213.0699 14.2 221
-  214.0665 8 124
+  214.0665 8.0 124
   215.0875 1.3 20
   216.037 1.1 17
   217.0454 5.6 87
@@ -141,7 +140,7 @@ PK$PEAK: m/z int. rel.int.
   221.0635 7.8 121
   224.054 4.7 73
   225.0577 19.2 299
-  226.0653 11 171
+  226.0653 11.0 171
   227.0745 7.9 123
   230.0444 1.1 17
   231.0585 5.1 79

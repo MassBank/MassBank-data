@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL231109609
 RECORD_TITLE: Ethyl-hexadecyl-dimethylammonium; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Ethyl-hexadecyl-dimethylammonium
-CH$COMPOUND_CLASS: Antimicrobial
+CH$COMPOUND_CLASS: Antimicrobial; Industrial_process
 CH$FORMULA: [C20H44N]+
 CH$EXACT_MASS: 298.3468
 CH$SMILES: CCCCCCCCCCCCCCCC[N+](C)(C)CC
 CH$IUPAC: InChI=1S/C20H44N/c1-5-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21(3,4)6-2/h5-20H2,1-4H3/q+1
 CH$LINK: CAS 10328-33-3
 CH$LINK: INCHIKEY VCAVAURZPNANDQ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000503; Organic compounds; Organic nitrogen compounds; Organonitrogen compounds; Quaternary ammonium salts
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.03 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 298.3468
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4l-9000000000-d56bf187dcc12df2240d
 PK$NUM_PEAK: 6
 PK$PEAK: m/z int. rel.int.

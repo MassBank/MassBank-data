@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111010442
 RECORD_TITLE: Daidzein; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Daidzein
-CH$COMPOUND_CLASS: Pharmaceutical
+CH$COMPOUND_CLASS: Pharmaceutical; Natural_product
 CH$FORMULA: C15H10O4
 CH$EXACT_MASS: 254.0579
 CH$SMILES: Oc1ccc(cc1)C2=COc3cc(O)ccc3C2=O
 CH$IUPAC: InChI=1S/C15H10O4/c16-10-3-1-9(2-4-10)13-8-19-14-7-11(17)5-6-12(14)15(13)18/h1-8,16-17H
 CH$LINK: CAS 486-66-8
 CH$LINK: INCHIKEY ZQSIJRDFPHDXIC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002901; Organic compounds; Phenylpropanoids and polyketides; Isoflavonoids; Isoflav-2-enes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.744 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 255.0652
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0uec-2900000000-8792bf7d2e554cf28bcd
 PK$NUM_PEAK: 67
 PK$PEAK: m/z int. rel.int.
-  39.0235 1 12
+  39.0235 1.0 12
   53.0384 1.8 23
   55.018 3.2 41
   63.0237 0.9 11
@@ -51,7 +50,7 @@ PK$PEAK: m/z int. rel.int.
   103.0541 1.7 21
   105.0344 5.4 69
   106.0417 5.2 67
-  107.0503 1 12
+  107.0503 1.0 12
   109.029 3.2 41
   115.0546 8.2 106
   116.0625 0.8 10
@@ -71,7 +70,7 @@ PK$PEAK: m/z int. rel.int.
   144.057 1.6 20
   145.0295 3.5 45
   147.0445 2.8 36
-  149.0222 2 25
+  149.0222 2.0 25
   151.0546 13.2 170
   152.0628 77.2 999
   153.07 40.8 527
@@ -86,9 +85,9 @@ PK$PEAK: m/z int. rel.int.
   171.0813 6.1 78
   175.0417 1.1 14
   180.0557 1.2 15
-  181.0657 61 789
+  181.0657 61.0 789
   182.0727 5.5 71
-  184.0523 11 142
+  184.0523 11.0 142
   185.0591 0.8 10
   197.0607 16.5 213
   198.067 6.9 89
@@ -101,5 +100,5 @@ PK$PEAK: m/z int. rel.int.
   226.0607 2.7 34
   227.0708 6.6 85
   237.0547 5.5 71
-  255.0683 4 51
+  255.0683 4.0 51
 //

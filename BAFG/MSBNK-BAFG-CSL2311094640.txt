@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311094640
 RECORD_TITLE: 4-Acetamidoantipyrine; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 4-Acetamidoantipyrine
-CH$COMPOUND_CLASS: Pharmaceutical; Metabolite; Transformation_product
+CH$COMPOUND_CLASS: Pharmaceutical; Metabolite; Transformation_product; Transformation_product-Metabolite
 CH$FORMULA: C13H15N3O2
 CH$EXACT_MASS: 245.1164
 CH$SMILES: CN1N(C(=O)C(=C1C)NC(C)=O)c2ccccc2
 CH$IUPAC: InChI=1S/C13H15N3O2/c1-9-12(14-10(2)17)13(18)16(15(9)3)11-7-5-4-6-8-11/h4-8H,1-3H3,(H,14,17)
 CH$LINK: CAS 83-15-8
 CH$LINK: INCHIKEY OIAGWXKSCXPNNZ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000087; Organic compounds; Organoheterocyclic compounds; Azoles; Pyrazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.586 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 246.1237
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0f89-9620000000-33883a9cb17074f82a05
 PK$NUM_PEAK: 36
 PK$PEAK: m/z int. rel.int.
@@ -41,7 +40,7 @@ PK$PEAK: m/z int. rel.int.
   81.0478 2.8 14
   83.0642 188.7 999
   85.0785 4.7 24
-  92.052 2 10
+  92.052 2.0 10
   94.0669 18.7 99
   104.051 102.9 544
   111.0552 2.3 12
@@ -64,7 +63,7 @@ PK$PEAK: m/z int. rel.int.
   173.0717 6.9 36
   185.0714 5.7 30
   186.0783 4.1 21
-  187.0865 11 58
+  187.0865 11.0 58
   189.0905 4.1 21
   204.114 26.1 138
   213.0896 6.2 32

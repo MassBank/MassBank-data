@@ -1,17 +1,16 @@
 ACCESSION: MSBNK-BAFG-CSL2311094827
 RECORD_TITLE: Nitenpyram; LC-ESI-QTOF; MS2; 20 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Nitenpyram
 CH$COMPOUND_CLASS: Pharmaceutical; Insecticide
 CH$FORMULA: C11H15ClN4O2
 CH$EXACT_MASS: 270.0884
-CH$SMILES: CCN(Cc1ccc(Cl)nc1)\C(NC)=C\[N+]([O-])=O
+CH$SMILES: CCN(CC1=CN=C(C=C1)Cl)/C(=C/[N+](=O)[O-])/NC
 CH$IUPAC: InChI=1S/C11H15ClN4O2/c1-3-15(11(13-2)8-16(17)18)7-9-4-5-10(12)14-6-9/h4-6,8,13H,3,7H2,1-2H3/b11-8+
 CH$LINK: CAS 150824-47-8
 CH$LINK: INCHIKEY CFRPSFYHXJZSBI-DHZHZOJOSA-N
@@ -30,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.386 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 271.0956
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00ba-2590000000-05edf709967949140b4b
 PK$NUM_PEAK: 34
 PK$PEAK: m/z int. rel.int.
@@ -47,7 +45,7 @@ PK$PEAK: m/z int. rel.int.
   115.085 6.5 31
   126.0097 10.4 50
   129.0885 7.6 37
-  130.0964 9 43
+  130.0964 9.0 43
   153.0322 4.7 22
   160.0863 2.9 14
   166.0288 3.3 16
@@ -65,7 +63,7 @@ PK$PEAK: m/z int. rel.int.
   196.0624 64.4 314
   210.079 21.3 104
   212.0948 2.9 14
-  224.0933 53 258
+  224.0933 53.0 258
   225.1017 204.5 999
   237.0883 16.4 80
   271.0946 86.8 424

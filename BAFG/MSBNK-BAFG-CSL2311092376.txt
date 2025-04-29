@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311092376
 RECORD_TITLE: Florfenicol; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Florfenicol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C12H14Cl2FNO4S
@@ -15,6 +14,7 @@ CH$SMILES: C[S](=O)(=O)c1ccc(cc1)[C@@H](O)[C@@H](CF)NC(=O)C(Cl)Cl
 CH$IUPAC: InChI=1S/C12H14Cl2FNO4S/c1-21(19,20)8-4-2-7(3-5-8)10(17)9(6-15)16-12(18)11(13)14/h2-5,9-11,17H,6H2,1H3,(H,16,18)/t9-,10-/m1/s1
 CH$LINK: CAS 73231-34-2
 CH$LINK: INCHIKEY AYIRNRDRBQJXIF-NXEZZACHSA-N
+CH$LINK: ChemOnt CHEMONTID:0001097; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzyloxycarbonyls
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.507 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 355.9932
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-4900000000-eca6b07c2642cc747b95
 PK$NUM_PEAK: 9
 PK$PEAK: m/z int. rel.int.
@@ -42,6 +41,6 @@ PK$PEAK: m/z int. rel.int.
   105.0343 3.9 248
   119.0508 15.7 999
   121.0298 7.2 458
-  155.0183 1 63
+  155.0183 1.0 63
   168.997 3.9 248
 //

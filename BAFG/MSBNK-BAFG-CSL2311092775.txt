@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311092775
 RECORD_TITLE: Abacavir carboxylic acid; LC-ESI-QTOF; MS2; 20 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Abacavir carboxylic acid
 CH$COMPOUND_CLASS: Pharmaceutical; Metabolite; Transformation_product
 CH$FORMULA: C14H16N6O2
@@ -15,6 +14,7 @@ CH$SMILES: C1CC1NC2=NC(=NC3=C2N=CN3C4CC(C=C4)C(=O)O)N
 CH$IUPAC: InChI=1S/C14H16N6O2/c15-14-18-11(17-8-2-3-8)10-12(19-14)20(6-16-10)9-4-1-7(5-9)13(21)22/h1,4,6-9H,2-3,5H2,(H,21,22)(H3,15,17,18,19)
 CH$LINK: CAS 384380-52-3
 CH$LINK: INCHIKEY OCSMNHMMTKMVCP-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0003737; Organic compounds; Nucleosides, nucleotides, and analogues; Nucleoside and nucleotide analogues
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.194 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 299.1262
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-000i-0900000000-8d0e9efbbee15a418377
 PK$NUM_PEAK: 2
 PK$PEAK: m/z int. rel.int.

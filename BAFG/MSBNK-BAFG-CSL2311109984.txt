@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109984
 RECORD_TITLE: Doxepin; LC-ESI-QTOF; MS2; 10 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Doxepin
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C19H21NO
@@ -15,6 +14,7 @@ CH$SMILES: CN(C)CCC=C1C2=CC=CC=C2COC3=CC=CC=C31
 CH$IUPAC: InChI=1S/C19H21NO/c1-20(2)13-7-11-17-16-9-4-3-8-15(16)14-21-19-12-6-5-10-18(17)19/h3-6,8-12H,7,13-14H2,1-2H3
 CH$LINK: CAS 1668-19-5
 CH$LINK: INCHIKEY ODQWQRRAPPTVAG-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0003194; Organic compounds; Organometallic compounds; Organometalloid compounds; Organosilicon compounds
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.447 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 280.1696
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-001i-0090000000-50dbe2bfdacde8c34d59
 PK$NUM_PEAK: 3
 PK$PEAK: m/z int. rel.int.

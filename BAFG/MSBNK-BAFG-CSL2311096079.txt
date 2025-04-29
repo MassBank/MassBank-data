@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311096079
 RECORD_TITLE: Carbadox; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Carbadox
 CH$COMPOUND_CLASS: Antimicrobial; Pharmaceutical
 CH$FORMULA: C11H10N4O4
@@ -15,6 +14,7 @@ CH$SMILES: COC(=O)N=NC=C1C=[N+]([O-])c2ccccc2N1O
 CH$IUPAC: InChI=1S/C11H10N4O4/c1-19-11(16)13-12-6-8-7-14(17)9-4-2-3-5-10(9)15(8)18/h2-7,18H,1H3
 CH$LINK: CAS 6804-07-5
 CH$LINK: INCHIKEY BPMVRAQIQQEBLN-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001549; Organic compounds; Lipids and lipid-like molecules; Prenol lipids; Monoterpenoids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.823 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 263.0775
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fc3-2900000000-e49ed87527e6705552ff
 PK$NUM_PEAK: 58
 PK$PEAK: m/z int. rel.int.
@@ -51,9 +50,9 @@ PK$PEAK: m/z int. rel.int.
   92.0509 1.9 38
   102.0338 19.7 396
   103.0417 26.8 539
-  104.0493 15 302
+  104.0493 15.0 302
   105.0439 1.5 30
-  115.0426 1 20
+  115.0426 1.0 20
   116.036 6.9 138
   117.045 1.5 30
   118.0531 1.6 32
@@ -62,14 +61,14 @@ PK$PEAK: m/z int. rel.int.
   128.0492 1.7 34
   129.0445 49.6 999
   130.0517 33.7 678
-  131.0604 15 302
+  131.0604 15.0 302
   142.0521 2.9 58
   143.048 10.2 205
   144.0472 0.9 18
   144.0672 1.2 24
   145.0394 18.1 364
   145.0706 1.5 30
-  146.0458 1 20
+  146.0458 1.0 20
   147.0558 1.5 30
   155.0479 3.9 78
   156.0577 0.8 16

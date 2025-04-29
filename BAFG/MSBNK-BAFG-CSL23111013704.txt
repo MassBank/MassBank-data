@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111013704
 RECORD_TITLE: Nifedipine; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Nifedipine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C17H18N2O6
@@ -15,6 +14,7 @@ CH$SMILES: CC1=C(C(C(=C(N1)C)C(=O)OC)C2=CC=CC=C2[N+](=O)[O-])C(=O)OC
 CH$IUPAC: InChI=1S/C17H18N2O6/c1-9-13(16(20)24-3)15(14(10(2)18-9)17(21)25-4)11-7-5-6-8-12(11)19(22)23/h5-8,15,18H,1-4H3
 CH$LINK: CAS 21829-25-4
 CH$LINK: INCHIKEY HYIMSNHJOBLJNT-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002213; Organic compounds; Lipids and lipid-like molecules; Glycerophospholipids; Glycerophosphocholines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.896 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 345.1092
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-006x-9320000000-6819c3fa8cdaf7d2a18a
 PK$NUM_PEAK: 7
 PK$PEAK: m/z int. rel.int.
-  45.9937 10 475
-  92.0266 21 999
+  45.9937 10.0 475
+  92.0266 21.0 999
   122.0253 6.7 318
   163.0656 4.4 209
   164.0733 2.6 123

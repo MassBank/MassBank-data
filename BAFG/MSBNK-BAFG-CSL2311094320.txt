@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311094320
 RECORD_TITLE: Citalopram-N-oxide; LC-ESI-QTOF; MS2; 150 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Citalopram-N-oxide
-CH$COMPOUND_CLASS: Metabolite; Pharmaceutical; Transformation_product
+CH$COMPOUND_CLASS: Metabolite; Pharmaceutical; Transformation_product; Transformation_product-Metabolite
 CH$FORMULA: C20H21FN2O2
 CH$EXACT_MASS: 340.1587
 CH$SMILES: C[N+](C)(CCCC1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F)[O-]
 CH$IUPAC: InChI=1S/C20H21FN2O2/c1-23(2,24)11-3-10-20(17-5-7-18(21)8-6-17)19-9-4-15(13-22)12-16(19)14-25-20/h4-9,12H,3,10-11,14H2,1-2H3
 CH$LINK: CAS 63284-72-0
 CH$LINK: INCHIKEY DIOGFDCEWUUSBQ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000014; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylbutylamines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.958 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 341.166
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ac1-6930000000-7502a85192030bd4bbb5
 PK$NUM_PEAK: 155
 PK$PEAK: m/z int. rel.int.
@@ -39,7 +38,7 @@ PK$PEAK: m/z int. rel.int.
   51.0296 2.6 142
   57.0186 18.2 999
   58.0706 9.2 504
-  59.0331 1 54
+  59.0331 1.0 54
   59.0448 0.6 32
   60.0041 0.6 32
   60.0486 3.2 175
@@ -54,14 +53,14 @@ PK$PEAK: m/z int. rel.int.
   75.0268 9.7 532
   75.042 1.1 60
   76.0339 1.4 76
-  77.0417 3 164
+  77.0417 3.0 164
   78.0501 0.6 32
   81.0164 2.5 137
   83.0316 15.9 872
   85.0093 2.4 131
   86.0178 4.9 268
   87.0256 6.9 378
-  88.0193 3 164
+  88.0193 3.0 164
   88.034 0.9 49
   89.0404 7.1 389
   90.0342 0.5 27
@@ -71,11 +70,11 @@ PK$PEAK: m/z int. rel.int.
   97.007 0.6 32
   98.0161 11.3 620
   99.0098 0.7 38
-  99.0236 5 274
+  99.0236 5.0 274
   100.0319 1.5 82
   102.048 1.2 65
   105.0138 1.4 76
-  107.0293 4 219
+  107.0293 4.0 219
   109.0071 0.9 49
   109.0451 2.8 153
   110.0156 3.2 175
@@ -84,7 +83,7 @@ PK$PEAK: m/z int. rel.int.
   113.0393 5.1 279
   114.0338 1.8 98
   115.0536 1.1 60
-  118.0237 1 54
+  118.0237 1.0 54
   120.0379 2.4 131
   121.0086 0.8 43
   122.0162 8.7 477
@@ -105,12 +104,12 @@ PK$PEAK: m/z int. rel.int.
   135.0221 0.9 49
   137.0393 2.7 148
   138.0348 1.2 65
-  139.0574 1 54
+  139.0574 1.0 54
   140.0514 1.7 93
   141.0138 0.7 38
   142.0217 1.2 65
   143.0299 0.7 38
-  144.0373 4 219
+  144.0373 4.0 219
   146.0166 4.3 236
   147.012 1.2 65
   147.0236 1.8 98
@@ -122,9 +121,9 @@ PK$PEAK: m/z int. rel.int.
   156.0369 0.7 38
   157.0445 1.6 87
   158.0376 0.8 43
-  159.0203 1 54
+  159.0203 1.0 54
   161.0392 6.8 373
-  162.0463 3 164
+  162.0463 3.0 164
   163.055 3.5 192
   164.0494 1.1 60
   166.0246 0.9 49
@@ -135,7 +134,7 @@ PK$PEAK: m/z int. rel.int.
   170.0541 1.1 60
   171.0239 1.6 87
   172.0308 1.4 76
-  173.0375 2 109
+  173.0375 2.0 109
   174.0465 4.1 225
   175.043 2.5 137
   179.0295 4.4 241
@@ -146,7 +145,7 @@ PK$PEAK: m/z int. rel.int.
   186.0421 3.3 181
   187.053 5.5 301
   188.0498 4.7 257
-  191.0319 1 54
+  191.0319 1.0 54
   192.0369 5.8 318
   193.0426 2.5 137
   194.0533 0.9 49
@@ -169,9 +168,9 @@ PK$PEAK: m/z int. rel.int.
   212.0486 2.7 148
   213.0687 1.2 65
   215.0317 1.7 93
-  216.0386 8 439
+  216.0386 8.0 439
   217.045 5.9 323
-  218.0528 7 384
+  218.0528 7.0 384
   219.0518 1.6 87
   222.0371 0.9 49
   223.0432 3.1 170

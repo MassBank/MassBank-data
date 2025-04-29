@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311092113
 RECORD_TITLE: 4-Acetamidophenyl D-glucopyranosiduronic acid; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 4-Acetamidophenyl D-glucopyranosiduronic acid
 CH$COMPOUND_CLASS: Metabolite; Pharmaceutical
 CH$FORMULA: C14H17NO8
@@ -15,6 +14,7 @@ CH$SMILES: O=C(Nc2ccc(OC1O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]1O)cc2)C
 CH$IUPAC: InChI=1S/C14H17NO8/c1-6(16)15-7-2-4-8(5-3-7)22-14-11(19)9(17)10(18)12(23-14)13(20)21/h2-5,9-12,14,17-19H,1H3,(H,15,16)(H,20,21)/t9-,10-,11+,12-,14?/m0/s1
 CH$LINK: CAS 16110-10-4
 CH$LINK: INCHIKEY IPROLSVTVHAQLE-ZAOAHOKWSA-N
+CH$LINK: ChemOnt CHEMONTID:0001831; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Carbonyl compounds
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.58 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 326.0881
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-4900000000-409906ce5a7597bf657f
 PK$NUM_PEAK: 10
 PK$PEAK: m/z int. rel.int.
@@ -42,7 +41,7 @@ PK$PEAK: m/z int. rel.int.
   95.0151 4.2 103
   99.0101 6.3 155
   107.039 2.3 56
-  113.0252 16 393
+  113.0252 16.0 393
   117.0198 3.6 88
   150.0566 40.6 999
 //

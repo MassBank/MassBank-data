@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311096174
 RECORD_TITLE: Triclocarban; LC-ESI-QTOF; MS2; 140 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Triclocarban
-CH$COMPOUND_CLASS: Antimicrobial; Personal_care_product
+CH$COMPOUND_CLASS: Antimicrobial; Personal_care_product; Biocide
 CH$FORMULA: C13H9Cl3N2O
 CH$EXACT_MASS: 313.978
 CH$SMILES: Clc1ccc(NC(=O)Nc2ccc(Cl)c(Cl)c2)cc1
 CH$IUPAC: InChI=1S/C13H9Cl3N2O/c14-8-1-3-9(4-2-8)17-13(19)18-10-5-6-11(15)12(16)7-10/h1-7H,(H2,17,18,19)
 CH$LINK: CAS 101-20-2
 CH$LINK: INCHIKEY ICUTUKXCWQYESQ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000035; Organic compounds; Benzenoids; Benzene and substituted derivatives; Halobenzenes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,14 +30,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 14.574 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 314.9853
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00xr-9000000000-71c2f692ce4bb621dcaa
 PK$NUM_PEAK: 13
 PK$PEAK: m/z int. rel.int.
   51.0273 0.4 79
-  65.0419 5 999
-  66.0497 2 399
+  65.0419 5.0 999
+  66.0497 2.0 399
   72.9865 3.6 719
   73.0074 0.4 79
   74.0173 4.3 859
@@ -46,6 +45,6 @@ PK$PEAK: m/z int. rel.int.
   91.0417 0.4 79
   92.051 0.8 159
   93.0579 1.4 279
-  99.0012 1 199
+  99.0012 1.0 199
   127.0177 0.6 119
 //

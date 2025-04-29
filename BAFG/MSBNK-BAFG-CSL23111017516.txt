@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111017516
 RECORD_TITLE: Methylecgonidine; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Methylecgonidine
 CH$COMPOUND_CLASS: Metabolite
 CH$FORMULA: C10H15NO2
@@ -15,6 +14,7 @@ CH$SMILES: CN1C2CCC1C(=CC2)C(=O)OC
 CH$IUPAC: InChI=1S/C10H15NO2/c1-11-7-3-5-8(10(12)13-2)9(11)6-4-7/h5,7,9H,3-4,6H2,1-2H3
 CH$LINK: CAS 43021-26-7
 CH$LINK: INCHIKEY MPSNEAHFGOEKBI-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000129; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Alcohols and polyols
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.43 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 182.1176
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00rx-5900000000-d6b7f9a2ca4e30d92cfa
 PK$NUM_PEAK: 37
 PK$PEAK: m/z int. rel.int.
@@ -59,16 +58,16 @@ PK$PEAK: m/z int. rel.int.
   106.064 1.4 28
   107.0722 10.3 207
   109.0647 1.9 38
-  118.0411 48 964
+  118.0411 48.0 964
   119.0485 6.4 128
-  120.0802 1 20
+  120.0802 1.0 20
   121.088 1.3 26
   122.0586 0.8 16
   122.0762 0.5 10
   122.0959 35.4 711
   123.0796 3.4 68
   133.0641 4.1 82
-  150.0904 8 160
+  150.0904 8.0 160
   151.074 5.6 112
   164.106 2.8 56
   182.117 30.7 617

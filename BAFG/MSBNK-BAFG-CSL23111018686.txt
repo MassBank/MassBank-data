@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018686
 RECORD_TITLE: 3,4-Methylenedioxymethamphetamine; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 3,4-Methylenedioxymethamphetamine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C11H15NO2
@@ -15,6 +14,7 @@ CH$SMILES: CC(CC1=CC2=C(C=C1)OCO2)NC
 CH$IUPAC: InChI=1S/C11H15NO2/c1-8(12-2)5-9-3-4-10-11(6-9)14-7-13-10/h3-4,6,8,12H,5,7H2,1-2H3
 CH$LINK: CAS 42542-10-9
 CH$LINK: INCHIKEY SHXWCVYOXRDMCX-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000296; Organic compounds; Organoheterocyclic compounds; Benzodioxoles
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.421 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 194.1176
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0570-4900000000-f38495bfeb972cd70215
 PK$NUM_PEAK: 18
 PK$PEAK: m/z int. rel.int.
@@ -49,7 +48,7 @@ PK$PEAK: m/z int. rel.int.
   121.0271 25.3 26
   122.0348 21.6 22
   133.0637 156.5 165
-  135.0429 576 608
+  135.0429 576.0 608
   147.0425 24.3 25
   148.0501 14.9 15
   163.0741 14.3 15

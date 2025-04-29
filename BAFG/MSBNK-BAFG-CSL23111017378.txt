@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111017378
 RECORD_TITLE: Pirimicarb; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Pirimicarb
-CH$COMPOUND_CLASS: Insecticide
+CH$COMPOUND_CLASS: Insecticide; Fungicide
 CH$FORMULA: C11H18N4O2
 CH$EXACT_MASS: 238.143
 CH$SMILES: CC1=C(N=C(N=C1OC(=O)N(C)C)N(C)C)C
 CH$IUPAC: InChI=1S/C11H18N4O2/c1-7-8(2)12-10(14(3)4)13-9(7)17-11(16)15(5)6/h1-6H3
 CH$LINK: CAS 23103-98-2
 CH$LINK: INCHIKEY YFGYUFNIOHWBOB-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002449; Organic compounds; Organic nitrogen compounds; Organonitrogen compounds; Amines
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.157 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 239.1503
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0aou-9000000000-d6f31cc69015a6aa053d
 PK$NUM_PEAK: 6
 PK$PEAK: m/z int. rel.int.
   39.0236 0.5 249
-  42.0337 2 999
+  42.0337 2.0 999
   55.0291 0.8 399
   56.0131 1.9 949
   69.0447 1.6 799

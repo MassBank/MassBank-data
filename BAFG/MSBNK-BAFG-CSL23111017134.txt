@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111017134
 RECORD_TITLE: N-Desmethyltramadol; LC-ESI-QTOF; MS2; 140 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: N-Desmethyltramadol
 CH$COMPOUND_CLASS: Transformation_product; Metabolite
 CH$FORMULA: C15H23NO2
@@ -15,6 +14,7 @@ CH$SMILES: CNCC1CCCCC1(C2=CC(=CC=C2)OC)O
 CH$IUPAC: InChI=1S/C15H23NO2/c1-16-11-13-6-3-4-9-15(13,17)12-7-5-8-14(10-12)18-2/h5,7-8,10,13,16-17H,3-4,6,9,11H2,1-2H3
 CH$LINK: CAS 73806-55-0
 CH$LINK: INCHIKEY VUMQHLSPUAFKKK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000138; Organic compounds; Benzenoids; Phenol ethers; Anisoles
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,15 +30,14 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.246 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 250.1802
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0gvo-9000000000-a3fd0cb9ce7ed23ea2b7
 PK$NUM_PEAK: 30
 PK$PEAK: m/z int. rel.int.
   30.0338 1.2 44
   35.9994 0.6 22
   37.0075 2.7 99
-  38.015 3 110
+  38.015 3.0 110
   39.0232 7.5 275
   41.0256 0.5 18
   41.039 0.6 22
@@ -52,7 +51,7 @@ PK$PEAK: m/z int. rel.int.
   54.0346 0.5 18
   59.9986 0.5 18
   61.0069 3.1 113
-  62.015 7 257
+  62.015 7.0 257
   63.0228 13.8 506
   64.0303 0.5 18
   65.0381 2.5 91

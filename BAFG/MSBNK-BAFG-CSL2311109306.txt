@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109306
 RECORD_TITLE: Mefenpyr-diethyl; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Mefenpyr-diethyl
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C16H18Cl2N2O4
@@ -15,6 +14,7 @@ CH$SMILES: CCOC(=O)C1=NN(C(C1)(C)C(=O)OCC)C2=C(C=C(C=C2)Cl)Cl
 CH$IUPAC: InChI=1S/C16H18Cl2N2O4/c1-4-23-14(21)12-9-16(3,15(22)24-5-2)20(19-12)13-7-6-10(17)8-11(13)18/h6-8H,4-5,9H2,1-3H3
 CH$LINK: CAS 135590-91-9
 CH$LINK: INCHIKEY OPGCOAPTHCZZIW-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,25 +30,24 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 14.581 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 373.0716
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-05ai-5900000000-34dd9ea1aca9fb12defa
 PK$NUM_PEAK: 48
 PK$PEAK: m/z int. rel.int.
   48.9961 0.9 11
   72.9905 25.9 325
   73.0124 2.6 32
-  74.0213 54 679
+  74.0213 54.0 679
   75.0294 7.2 90
   77.0427 1.8 22
-  82.9502 27 339
+  82.9502 27.0 339
   83.9823 0.9 11
   84.9887 1.7 21
   88.0224 1.7 21
-  89.0419 2 25
+  89.0419 2.0 25
   90.0378 4.4 55
   96.9864 6.4 80
-  97.9929 2 25
+  97.9929 2.0 25
   99.0021 4.5 56
   99.0248 1.8 22
   100.0193 2.4 30
@@ -68,15 +67,15 @@ PK$PEAK: m/z int. rel.int.
   129.054 1.4 17
   130.0679 0.9 11
   132.9619 63.8 802
-  136.007 2 25
+  136.007 2.0 25
   144.9623 19.6 246
   151.0192 1.7 21
   153.0454 5.2 65
-  154.0412 1 12
+  154.0412 1.0 12
   154.0523 2.2 27
   155.0618 1.9 23
   156.9626 1.8 22
-  159.9701 1 12
+  159.9701 1.0 12
   160.9801 1.5 18
   162.0144 1.9 23
   164.0256 3.2 40

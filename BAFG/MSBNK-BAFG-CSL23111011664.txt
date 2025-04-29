@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111011664
 RECORD_TITLE: Amantadine; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Amantadine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C10H17N
@@ -15,6 +14,7 @@ CH$SMILES: C1C2CC3CC1CC(C2)(C3)N
 CH$IUPAC: InChI=1S/C10H17N/c11-10-4-7-1-8(5-10)3-9(2-7)6-10/h7-9H,1-6,11H2
 CH$LINK: CAS 768-94-5
 CH$LINK: INCHIKEY DKNWSYNQZKUICI-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002449; Organic compounds; Organic nitrogen compounds; Organonitrogen compounds; Amines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,15 +30,14 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.148 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 152.1434
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004u-9400000000-27bc000c7e6bbc351689
 PK$NUM_PEAK: 21
 PK$PEAK: m/z int. rel.int.
   39.0228 1.3 18
   41.0382 2.1 29
   50.0151 0.8 11
-  51.0228 3 42
+  51.0228 3.0 42
   53.0383 1.4 19
   55.0543 3.2 45
   65.0388 4.3 60
@@ -50,7 +49,7 @@ PK$PEAK: m/z int. rel.int.
   81.0701 16.5 233
   91.054 27.6 390
   93.0699 36.8 520
-  94.0774 1 14
+  94.0774 1.0 14
   105.07 5.2 73
   107.0855 21.5 304
   133.102 1.2 16

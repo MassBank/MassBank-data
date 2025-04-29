@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111012129
 RECORD_TITLE: 2-Ethylhexyl diphenyl phosphate; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 2-Ethylhexyl diphenyl phosphate
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C20H27O4P
@@ -15,6 +14,7 @@ CH$SMILES: CCCCC(CC)COP(=O)(OC1=CC=CC=C1)OC2=CC=CC=C2
 CH$IUPAC: InChI=1S/C20H27O4P/c1-3-5-12-18(4-2)17-22-25(21,23-19-13-8-6-9-14-19)24-20-15-10-7-11-16-20/h6-11,13-16,18H,3-5,12,17H2,1-2H3
 CH$LINK: CAS 1241-94-7
 CH$LINK: INCHIKEY CGSLYBDCEGBZCG-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000408; Organic compounds; Organic acids and derivatives; Organic phosphoric acids and derivatives; Phosphate esters
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 16.989 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 363.172
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ufr-9600000000-1deaed3cf8a8e4e9f6dc
 PK$NUM_PEAK: 20
 PK$PEAK: m/z int. rel.int.
@@ -40,7 +39,7 @@ PK$PEAK: m/z int. rel.int.
   43.0551 1.2 26
   50.0162 2.6 57
   51.0237 15.9 352
-  57.0711 1 22
+  57.0711 1.0 22
   71.0871 0.6 13
   75.0248 0.5 11
   77.0392 45.1 999
@@ -51,8 +50,8 @@ PK$PEAK: m/z int. rel.int.
   127.0544 1.6 35
   138.9956 0.5 11
   139.0547 2.8 62
-  150.0465 4 88
+  150.0465 4.0 88
   151.0542 8.9 197
-  152.062 28 620
+  152.062 28.0 620
   168.0572 3.4 75
 //

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107732
 RECORD_TITLE: Abacavir carboxylic acid; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Abacavir carboxylic acid
 CH$COMPOUND_CLASS: Pharmaceutical; Metabolite; Transformation_product
 CH$FORMULA: C14H16N6O2
@@ -15,6 +14,7 @@ CH$SMILES: C1CC1NC2=NC(=NC3=C2N=CN3C4CC(C=C4)C(=O)O)N
 CH$IUPAC: InChI=1S/C14H16N6O2/c15-14-18-11(17-8-2-3-8)10-12(19-14)20(6-16-10)9-4-1-7(5-9)13(21)22/h1,4,6-9H,2-3,5H2,(H,21,22)(H3,15,17,18,19)
 CH$LINK: CAS 384380-52-3
 CH$LINK: INCHIKEY OCSMNHMMTKMVCP-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0003737; Organic compounds; Nucleosides, nucleotides, and analogues; Nucleoside and nucleotide analogues
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.194 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 301.1408
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a59-5900000000-a3451d63a3321022aec1
 PK$NUM_PEAK: 64
 PK$PEAK: m/z int. rel.int.
@@ -48,18 +47,18 @@ PK$PEAK: m/z int. rel.int.
   65.0425 19.4 568
   66.0256 0.9 26
   66.0384 0.6 17
-  67.0323 2 58
+  67.0323 2.0 58
   67.0575 14.6 427
-  68.0271 1 29
+  68.0271 1.0 29
   68.0522 1.4 41
   78.0355 2.4 70
   79.03 0.4 11
   79.0431 0.6 17
-  80.027 9 263
+  80.027 9.0 263
   80.0479 0.6 17
   81.034 3.1 90
   81.0455 1.5 43
-  82.0421 5 146
+  82.0421 5.0 146
   83.0513 3.6 105
   92.0252 9.3 272
   93.0394 4.8 140
@@ -78,14 +77,14 @@ PK$PEAK: m/z int. rel.int.
   120.0547 2.1 61
   121.05 1.7 49
   122.0702 0.6 17
-  123.0537 1 29
+  123.0537 1.0 29
   130.0416 0.5 14
   131.0401 0.4 11
   132.0564 1.7 49
   133.0392 6.5 190
   133.066 0.6 17
   134.0462 34.1 999
-  135.0559 1 29
+  135.0559 1.0 29
   136.0615 0.7 20
   145.0511 0.7 20
   147.0655 1.1 32

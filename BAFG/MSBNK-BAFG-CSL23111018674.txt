@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018674
 RECORD_TITLE: 3,4-Methylenedioxy-N-ethylamphetamine; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 3,4-Methylenedioxy-N-ethylamphetamine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C12H17NO2
@@ -15,6 +14,7 @@ CH$SMILES: CCNC(C)CC1=CC2=C(C=C1)OCO2
 CH$IUPAC: InChI=1S/C12H17NO2/c1-3-13-9(2)6-10-4-5-11-12(7-10)15-8-14-11/h4-5,7,9,13H,3,6,8H2,1-2H3
 CH$LINK: CAS 82801-81-8
 CH$LINK: INCHIKEY PVXVWWANJIWJOO-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000296; Organic compounds; Organoheterocyclic compounds; Benzodioxoles
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.673 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 208.1332
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-9000000000-afe7686dab8da725fafd
 PK$NUM_PEAK: 20
 PK$PEAK: m/z int. rel.int.
@@ -40,7 +39,7 @@ PK$PEAK: m/z int. rel.int.
   38.0028 2.1 12
   38.0147 14.9 89
   39.0228 40.6 243
-  44.0491 2 11
+  44.0491 2.0 11
   49.0071 17.5 104
   50.0149 120.3 720
   51.0228 166.8 999
@@ -50,7 +49,7 @@ PK$PEAK: m/z int. rel.int.
   63.0224 30.9 185
   65.0381 5.3 31
   73.0066 2.2 13
-  74.0141 13 77
+  74.0141 13.0 77
   75.0225 3.8 22
   77.0375 35.5 212
   78.0448 1.8 10

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016773
 RECORD_TITLE: Flurtamone; LC-ESI-QTOF; MS2; 140 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Flurtamone
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C18H14F3NO2
@@ -15,6 +14,7 @@ CH$SMILES: CNC1=C(C(=O)C(O1)C2=CC=CC=C2)C3=CC(=CC=C3)C(F)(F)F
 CH$IUPAC: InChI=1S/C18H14F3NO2/c1-22-17-14(12-8-5-9-13(10-12)18(19,20)21)15(23)16(24-17)11-6-3-2-4-7-11/h2-10,16,22H,1H3
 CH$LINK: CAS 96525-23-4
 CH$LINK: INCHIKEY NYRMIJKDBAQCHC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004551; Organic compounds; Benzenoids; Benzene and substituted derivatives; Trifluoromethylbenzenes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.864 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 334.105
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ufr-6900000000-629591d52161d24cdacd
 PK$NUM_PEAK: 83
 PK$PEAK: m/z int. rel.int.
@@ -41,7 +40,7 @@ PK$PEAK: m/z int. rel.int.
   50.0151 180.7 285
   51.0228 289.9 458
   52.0305 8.4 13
-  57.0133 16 25
+  57.0133 16.0 25
   61.0069 21.4 33
   62.0149 32.4 51
   63.0228 69.4 109
@@ -64,8 +63,8 @@ PK$PEAK: m/z int. rel.int.
   98.0154 160.4 253
   99.0224 76.7 121
   100.0305 22.8 36
-  101.0378 14 22
-  102.0464 74 116
+  101.0378 14.0 22
+  102.0464 74.0 116
   105.0132 10.8 17
   107.0286 16.3 25
   109.0066 12.5 19
@@ -111,7 +110,7 @@ PK$PEAK: m/z int. rel.int.
   186.0461 13.3 21
   187.0543 22.5 35
   194.053 16.2 25
-  199.0354 17 26
+  199.0354 17.0 26
   203.0297 24.8 39
   204.0374 32.3 51
   205.0456 88.4 139

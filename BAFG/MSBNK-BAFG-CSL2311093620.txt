@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311093620
 RECORD_TITLE: Irbesartan; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Irbesartan
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C25H28N6O
@@ -15,6 +14,7 @@ CH$SMILES: CCCCC1=NC2(CCCC2)C(=O)N1Cc3ccc(cc3)c4ccccc4c5n[nH]nn5
 CH$IUPAC: InChI=1S/C25H28N6O/c1-2-3-10-22-26-25(15-6-7-16-25)24(32)31(22)17-18-11-13-19(14-12-18)20-8-4-5-9-21(20)23-27-29-30-28-23/h4-5,8-9,11-14H,2-3,6-7,10,15-17H2,1H3,(H,27,28,29,30)
 CH$LINK: CAS 138402-11-6
 CH$LINK: INCHIKEY YOSHYTLCDANDAN-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000041; Organic compounds; Benzenoids; Benzene and substituted derivatives; Biphenyls and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,16 +30,15 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.345 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 429.2397
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-0900000000-8bf76d728e5c4da8a265
 PK$NUM_PEAK: 54
 PK$PEAK: m/z int. rel.int.
-  65.0428 3 12
+  65.0428 3.0 12
   67.0582 8.5 34
   74.0181 3.8 15
   75.0255 8.1 33
-  77.0418 38 156
+  77.0418 38.0 156
   78.0358 3.8 15
   80.052 5.3 21
   84.0831 10.9 44
@@ -55,7 +54,7 @@ PK$PEAK: m/z int. rel.int.
   116.0498 3.8 15
   125.0386 14.6 60
   126.0461 20.2 83
-  127.0542 37 152
+  127.0542 37.0 152
   128.0526 23.4 96
   129.0465 2.7 11
   137.0386 15.3 62
@@ -63,7 +62,7 @@ PK$PEAK: m/z int. rel.int.
   139.0544 47.7 196
   140.0497 53.9 221
   141.0571 3.4 13
-  149.0387 7 28
+  149.0387 7.0 28
   150.047 80.1 329
   151.0548 226.4 931
   152.0623 242.9 999
@@ -88,5 +87,5 @@ PK$PEAK: m/z int. rel.int.
   192.0676 8.9 36
   203.061 5.3 21
   204.0657 4.5 18
-  205.0766 105 431
+  205.0766 105.0 431
 //

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311091840
 RECORD_TITLE: Diuron; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Diuron
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C9H10Cl2N2O
@@ -15,6 +14,7 @@ CH$SMILES: CN(C)C(=O)Nc1ccc(Cl)c(Cl)c1
 CH$IUPAC: InChI=1S/C9H10Cl2N2O/c1-13(2)9(14)12-6-3-4-7(10)8(11)5-6/h3-5H,1-2H3,(H,12,14)
 CH$LINK: CAS 330-54-1
 CH$LINK: INCHIKEY XMTQQYYKAHVGBJ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001935; Organic compounds; Benzenoids; Benzene and substituted derivatives; N-phenylureas
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.497 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 231.0097
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0006-9000000000-90202f9727b82fce48b1
 PK$NUM_PEAK: 4
 PK$PEAK: m/z int. rel.int.

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111019059
 RECORD_TITLE: Icaridin acid; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Icaridin acid
 CH$FORMULA: C12H21NO4
 CH$EXACT_MASS: 243.1471
@@ -14,6 +13,7 @@ CH$SMILES: CCC(C)OC(=O)N1CCCCC1CC(O)=O
 CH$IUPAC: InChI=1S/C12H21NO4/c1-3-9(2)17-12(16)13-7-5-4-6-10(13)8-11(14)15/h9-10H,3-8H2,1-2H3,(H,14,15)
 CH$LINK: CAS NA
 CH$LINK: INCHIKEY OMRINPAHALFCIC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001974; Organic compounds; Organoheterocyclic compounds; Piperidines; Piperidinecarboxylic acids and derivatives
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.741 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 244.1543
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-000i-9000000000-b6feb1531fffcd0c7b8e
 PK$NUM_PEAK: 26
 PK$PEAK: m/z int. rel.int.
@@ -43,9 +42,9 @@ PK$PEAK: m/z int. rel.int.
   40.0033 0.6 29
   41.0362 6.4 314
   42.0316 4.5 221
-  43.0164 1 49
+  43.0164 1.0 49
   43.0392 1.4 68
-  44.9946 1 49
+  44.9946 1.0 49
   51.0199 0.7 34
   52.0026 0.6 29
   53.0103 0.7 34
@@ -56,7 +55,7 @@ PK$PEAK: m/z int. rel.int.
   65.0357 1.5 73
   67.0397 0.6 29
   67.0511 1.2 59
-  68.0476 3 147
+  68.0476 3.0 147
   69.055 1.4 68
   77.0353 0.9 44
   84.0789 2.8 137

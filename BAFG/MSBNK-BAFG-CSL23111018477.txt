@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018477
 RECORD_TITLE: Quinoxyfen; LC-ESI-QTOF; MS2; 140 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Quinoxyfen
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C15H8Cl2FNO
@@ -15,6 +14,7 @@ CH$SMILES: C1=CC(=CC=C1OC2=C3C(=CC(=CC3=NC=C2)Cl)Cl)F
 CH$IUPAC: InChI=1S/C15H8Cl2FNO/c16-9-7-12(17)15-13(8-9)19-6-5-14(15)20-11-3-1-10(18)2-4-11/h1-8H
 CH$LINK: CAS 124495-18-7
 CH$LINK: INCHIKEY WRPIRSINYZBGPK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000011; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Carbohydrates and carbohydrate conjugates
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 15.195 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 308.004
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00di-9000000000-d9baf847baf0c5241e9a
 PK$NUM_PEAK: 46
 PK$PEAK: m/z int. rel.int.
-  37.0065 6 24
+  37.0065 6.0 24
   38.0146 5.2 20
   39.0221 4.9 19
   49.0054 4.5 18
@@ -43,7 +42,7 @@ PK$PEAK: m/z int. rel.int.
   51.0213 5.9 23
   57.0121 3.7 14
   59.9982 4.5 18
-  61.0057 21 84
+  61.0057 21.0 84
   62.0142 31.6 127
   63.0217 20.9 84
   68.0039 4.7 18
@@ -59,10 +58,10 @@ PK$PEAK: m/z int. rel.int.
   85.0055 7.7 30
   86.0132 15.8 63
   87.0213 12.7 51
-  88.0171 4 16
+  88.0171 4.0 16
   88.029 8.8 35
   89.0369 8.6 34
-  96.9828 8 32
+  96.9828 8.0 32
   97.0054 10.3 41
   98.0134 90.5 364
   99.0092 12.7 51

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109131
 RECORD_TITLE: Betamethasone; LC-ESI-QTOF; MS2; 140 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Betamethasone
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C22H29FO5
@@ -15,6 +14,7 @@ CH$SMILES: C[C@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@@]4([C@]3([C@H](C[C@@]2([C@]1(C
 CH$IUPAC: InChI=1S/C22H29FO5/c1-12-8-16-15-5-4-13-9-14(25)6-7-19(13,2)21(15,23)17(26)10-20(16,3)22(12,28)18(27)11-24/h6-7,9,12,15-17,24,26,28H,4-5,8,10-11H2,1-3H3/t12-,15-,16-,17-,19-,20-,21-,22-/m0/s1
 CH$LINK: CAS 378-44-9
 CH$LINK: INCHIKEY UREBDLICKHMUKA-DVTGEIKXSA-N
+CH$LINK: ChemOnt CHEMONTID:0001295; Organic compounds; Lipids and lipid-like molecules; Steroids and steroid derivatives; Hydroxysteroids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.016 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 393.2072
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-016r-3910000000-1f0fc184f0b23d9550ee
 PK$NUM_PEAK: 66
 PK$PEAK: m/z int. rel.int.
-  43.0312 1 42
+  43.0312 1.0 42
   51.033 5.2 219
   65.0453 7.1 299
   67.0614 0.8 33
@@ -62,7 +61,7 @@ PK$PEAK: m/z int. rel.int.
   127.0535 7.5 316
   128.0635 12.2 514
   129.0693 1.6 67
-  131.0499 3 126
+  131.0499 3.0 126
   133.0461 0.7 29
   139.0581 3.4 143
   141.0707 3.3 139
@@ -75,7 +74,7 @@ PK$PEAK: m/z int. rel.int.
   163.0527 4.1 172
   164.0622 3.2 134
   165.0704 12.9 543
-  176.0616 6 252
+  176.0616 6.0 252
   177.0627 0.6 25
   177.0723 1.7 71
   178.0793 5.4 227
@@ -83,7 +82,7 @@ PK$PEAK: m/z int. rel.int.
   187.0526 2.1 88
   188.0635 1.9 80
   189.0704 11.9 501
-  190.078 1 42
+  190.078 1.0 42
   191.0875 0.7 29
   200.0631 2.4 101
   201.0714 2.2 92

@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311095109
 RECORD_TITLE: Desmethylranitidine; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Desmethylranitidine
-CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product
+CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product; Transformation_product-Metabolite
 CH$FORMULA: C12H20N4O3S
 CH$EXACT_MASS: 300.1256
 CH$SMILES: CNCC1=CC=C(O1)CSCCNC(=C[N+](=O)[O-])NC
 CH$IUPAC: InChI=1S/C12H20N4O3S/c1-13-7-10-3-4-11(19-10)9-20-6-5-15-12(14-2)8-16(17)18/h3-4,8,13-15H,5-7,9H2,1-2H3
 CH$LINK: CAS 66357-25-3
 CH$LINK: INCHIKEY WZLBVRXZNDXPPW-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002449; Organic compounds; Organic nitrogen compounds; Organonitrogen compounds; Amines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.769 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 301.1329
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0059-1900000000-c0d665f209a97a97c666
 PK$NUM_PEAK: 46
 PK$PEAK: m/z int. rel.int.
@@ -47,16 +46,16 @@ PK$PEAK: m/z int. rel.int.
   102.0374 35.3 388
   107.0488 1.7 18
   110.0589 1.6 17
-  114.0787 2 22
+  114.0787 2.0 22
   115.0328 1.1 12
   117.0472 1.5 16
-  118.0309 3 33
+  118.0309 3.0 33
   121.0746 2.2 24
   124.0756 13.2 145
   125.005 70.4 774
-  129.0486 2 22
+  129.0486 2.0 22
   130.0557 89.4 983
-  135.0918 4 44
+  135.0918 4.0 44
   144.0773 5.5 60
   145.0437 1.4 15
   146.0508 1.5 16
@@ -65,7 +64,7 @@ PK$PEAK: m/z int. rel.int.
   149.0694 1.5 16
   153.0377 6.3 69
   154.0535 1.2 13
-  163.0847 3 33
+  163.0847 3.0 33
   164.0935 4.7 51
   165.1022 14.1 155
   167.0636 5.4 59

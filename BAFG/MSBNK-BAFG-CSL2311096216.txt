@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311096216
 RECORD_TITLE: Acridine; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Acridine
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C13H9N
@@ -15,6 +14,7 @@ CH$SMILES: c1ccc2nc3ccccc3cc2c1
 CH$IUPAC: InChI=1S/C13H9N/c1-3-7-12-10(5-1)9-11-6-2-4-8-13(11)14-12/h1-9H
 CH$LINK: CAS 260-94-6
 CH$LINK: INCHIKEY DZBUGLKDJFMEHC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001908; Organic compounds; Organoheterocyclic compounds; Quinolines and derivatives; Benzoquinolines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,19 +30,18 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.776 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 180.0808
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fb9-9800000000-193210ef345f5abcbaea
 PK$NUM_PEAK: 50
 PK$PEAK: m/z int. rel.int.
-  52.0366 3 40
+  52.0366 3.0 40
   65.043 1.9 25
   73.0114 2.4 32
   74.019 63.6 849
-  74.0534 1 13
+  74.0534 1.0 13
   75.0265 67.6 902
   76.0336 25.4 339
-  77.0421 47 627
+  77.0421 47.0 627
   78.0492 4.2 56
   85.0102 3.2 42
   86.0172 13.2 176
@@ -51,16 +50,16 @@ PK$PEAK: m/z int. rel.int.
   88.0312 2.4 32
   89.0404 13.3 177
   90.0467 0.9 12
-  97.0082 1 13
+  97.0082 1.0 13
   98.0165 27.2 363
   99.0236 23.8 317
   100.0314 9.3 124
-  101.0391 12 160
+  101.0391 12.0 160
   102.0345 2.5 33
   102.0469 13.3 177
   103.0435 1.1 14
-  109.0074 1 13
-  110.0146 4 53
+  109.0074 1.0 13
+  110.0146 4.0 53
   111.0228 3.9 52
   112.0183 0.9 12
   113.0391 7.8 104
@@ -75,7 +74,7 @@ PK$PEAK: m/z int. rel.int.
   127.0528 3.4 45
   128.0507 3.7 49
   137.0386 1.9 25
-  140.0492 2 26
+  140.0492 2.0 26
   149.0392 9.2 122
   150.0471 74.8 999
   151.054 32.2 430

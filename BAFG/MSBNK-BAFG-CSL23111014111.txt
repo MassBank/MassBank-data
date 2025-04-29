@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111014111
 RECORD_TITLE: Resorcinol bis(diphenyl phosphate); LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Resorcinol bis(diphenyl phosphate)
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C30H24O8P2
@@ -15,6 +14,7 @@ CH$SMILES: C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC(=CC=C3)OP(=O)(OC4=CC=CC=C4)OC
 CH$IUPAC: InChI=1S/C30H24O8P2/c31-39(33-25-14-5-1-6-15-25,34-26-16-7-2-8-17-26)37-29-22-13-23-30(24-29)38-40(32,35-27-18-9-3-10-19-27)36-28-20-11-4-12-21-28/h1-24H
 CH$LINK: CAS 57583-54-7
 CH$LINK: INCHIKEY OWICEWMBIBPFAH-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000408; Organic compounds; Organic acids and derivatives; Organic phosphoric acids and derivatives; Phosphate esters
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 15.87 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 575.1019
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-0000190000-d76ccef80398b17e7d30
 PK$NUM_PEAK: 8
 PK$PEAK: m/z int. rel.int.
@@ -42,5 +41,5 @@ PK$PEAK: m/z int. rel.int.
   419.1079 100.2 54
   481.0647 136.9 74
   499.0735 22.8 12
-  575.1083 1845 999
+  575.1083 1845.0 999
 //

@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311093986
 RECORD_TITLE: 4-Formylaminoantipyrine; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 4-Formylaminoantipyrine
-CH$COMPOUND_CLASS: Pharmaceutical; Metabolite; Transformation_product
+CH$COMPOUND_CLASS: Pharmaceutical; Metabolite; Transformation_product; Transformation_product-Metabolite
 CH$FORMULA: C12H13N3O2
 CH$EXACT_MASS: 231.1008
 CH$SMILES: CN1N(C(=O)C(=C1C)NC=O)c2ccccc2
 CH$IUPAC: InChI=1S/C12H13N3O2/c1-9-11(13-8-16)12(17)15(14(9)2)10-6-4-3-5-7-10/h3-8H,1-2H3,(H,13,16)
 CH$LINK: CAS 1672-58-8
 CH$LINK: INCHIKEY WSJBSKRPKADYRQ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000087; Organic compounds; Organoheterocyclic compounds; Azoles; Pyrazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.623 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 232.1081
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0zgi-9720000000-11f3d35357f1ff5465d3
 PK$NUM_PEAK: 32
 PK$PEAK: m/z int. rel.int.
@@ -39,20 +38,20 @@ PK$PEAK: m/z int. rel.int.
   44.0586 0.8 10
   56.056 52.4 696
   58.0704 1.2 15
-  68.0539 1 13
+  68.0539 1.0 13
   77.0414 24.6 326
   83.0633 65.4 868
   85.0771 5.3 70
-  94.0661 13 172
+  94.0661 13.0 172
   104.0506 75.2 999
   111.0548 2.4 31
   118.066 1.7 22
   128.0494 1.8 23
   130.0647 2.5 33
-  132.0451 1 13
+  132.0451 1.0 13
   132.0788 0.8 10
   145.0759 4.2 55
-  146.0593 6 79
+  146.0593 6.0 79
   147.0545 0.8 10
   158.062 1.9 25
   159.0911 16.5 219
@@ -63,7 +62,7 @@ PK$PEAK: m/z int. rel.int.
   185.0717 1.2 15
   187.0868 9.1 120
   189.0887 3.8 50
-  199.0754 2 26
+  199.0754 2.0 26
   204.1138 11.2 148
   214.0976 24.2 321
   232.1093 4.2 55

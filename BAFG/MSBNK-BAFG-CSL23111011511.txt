@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111011511
 RECORD_TITLE: (Methoxymethyl)triphenylphosphonium; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: (Methoxymethyl)triphenylphosphonium
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: [C20H20OP]+
@@ -15,6 +14,7 @@ CH$SMILES: COC[P+](C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3
 CH$IUPAC: InChI=1S/C20H20OP/c1-21-17-22(18-11-5-2-6-12-18,19-13-7-3-8-14-19)20-15-9-4-10-16-20/h2-16H,17H2,1H3/q+1
 CH$LINK: CAS 4009-98-7
 CH$LINK: INCHIKEY SDMCZCALYDCRBH-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000087; Organic compounds; Organoheterocyclic compounds; Azoles; Pyrazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.502 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 307.1246
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0zfr-2900000000-bfee05536b9f9e58f2ff
 PK$NUM_PEAK: 25
 PK$PEAK: m/z int. rel.int.
@@ -47,14 +46,14 @@ PK$PEAK: m/z int. rel.int.
   107.0032 34.4 897
   113.0381 2.9 75
   115.0527 16.3 425
-  126.0448 10 260
+  126.0448 10.0 260
   131.004 3.5 91
   133.0198 3.4 88
   139.0538 12.3 320
   150.0465 8.1 211
   151.0539 19.1 498
   152.0613 38.3 999
-  155.0036 2 52
+  155.0036 2.0 52
   156.0125 3.2 83
   157.0199 20.5 534
   180.0115 2.3 59

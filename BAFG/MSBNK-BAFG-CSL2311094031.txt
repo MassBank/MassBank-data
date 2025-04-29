@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311094031
 RECORD_TITLE: Formononetin; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Formononetin
 CH$COMPOUND_CLASS: Metabolite; Metabolite; Pharmaceutical
 CH$FORMULA: C16H12O4
@@ -15,6 +14,7 @@ CH$SMILES: COc1ccc(cc1)C2=COc3cc(O)ccc3C2=O
 CH$IUPAC: InChI=1S/C16H12O4/c1-19-12-5-2-10(3-6-12)14-9-20-15-8-11(17)4-7-13(15)16(14)18/h2-9,17H,1H3
 CH$LINK: CAS 485-72-3
 CH$LINK: INCHIKEY HKQYGTCOTHHOMP-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002586; Organic compounds; Phenylpropanoids and polyketides; Isoflavonoids; O-methylated isoflavonoids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,20 +30,19 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.093 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 269.0808
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0v0a-0690000000-5949c15c12ec0de091f8
 PK$NUM_PEAK: 55
 PK$PEAK: m/z int. rel.int.
-  69.0016 2 13
+  69.0016 2.0 13
   77.0413 3.3 21
   79.0569 3.2 21
   81.0364 1.7 11
   89.04 3.3 21
   90.0484 6.4 42
-  103.0553 2 13
-  105.0712 2 13
-  107.0496 14 91
+  103.0553 2.0 13
+  105.0712 2.0 13
+  107.0496 14.0 91
   108.0211 7.9 51
   115.0538 3.4 22
   118.0417 52.8 346
@@ -63,7 +62,7 @@ PK$PEAK: m/z int. rel.int.
   158.0714 6.9 45
   163.0403 4.4 28
   165.0695 5.7 37
-  168.0587 2 13
+  168.0587 2.0 13
   169.0653 19.7 129
   170.0722 26.2 171
   171.0809 1.7 11
@@ -80,7 +79,7 @@ PK$PEAK: m/z int. rel.int.
   200.0471 8.1 53
   208.0519 3.2 21
   209.0589 7.7 50
-  210.0685 3 19
+  210.0685 3.0 19
   211.075 1.9 12
   213.0913 80.2 526
   225.0546 71.2 467

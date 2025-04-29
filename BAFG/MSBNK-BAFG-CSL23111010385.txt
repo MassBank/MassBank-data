@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111010385
 RECORD_TITLE: Omeprazole sulfide 5-carboxylic acid; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Omeprazole sulfide 5-carboxylic acid
 CH$COMPOUND_CLASS: Metabolite; Pharmaceutical
 CH$FORMULA: C17H17N3O4S
@@ -15,6 +14,7 @@ CH$SMILES: CC1=C(C(=CN=C1CSC2=NC3=C(N2)C=C(C=C3)OC)C(=O)O)OC
 CH$IUPAC: InChI=1S/C17H17N3O4S/c1-9-14(18-7-11(16(21)22)15(9)24-3)8-25-17-19-12-5-4-10(23-2)6-13(12)20-17/h4-7H,8H2,1-3H3,(H,19,20)(H,21,22)
 CH$LINK: CAS 103877-00-5
 CH$LINK: INCHIKEY BNOSHBGSJBEMGC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001604; Organic compounds; Lignans, neolignans and related compounds; Furanoid lignans; Tetrahydrofuran lignans
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,14 +30,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.75 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 360.1013
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-056r-9500000000-d6dd4becf17f43f62329
 PK$NUM_PEAK: 81
 PK$PEAK: m/z int. rel.int.
   42.0452 2.7 66
   43.0302 2.6 63
-  50.024 2 49
+  50.024 2.0 49
   51.0324 6.3 154
   52.0385 7.3 179
   53.0103 1.4 34
@@ -61,11 +60,11 @@ PK$PEAK: m/z int. rel.int.
   76.0231 0.8 19
   77.0437 11.9 292
   78.0381 9.7 238
-  79.025 1 24
+  79.025 1.0 24
   79.0475 26.6 652
   80.0172 2.8 68
   80.0361 0.7 17
-  80.0538 9 220
+  80.0538 9.0 220
   81.9907 0.5 12
   83.0005 2.2 54
   84.0016 0.5 12
@@ -111,7 +110,7 @@ PK$PEAK: m/z int. rel.int.
   165.0125 1.3 31
   166.035 0.5 12
   166.0615 0.4 9
-  167.0595 1 24
+  167.0595 1.0 24
   168.0685 0.6 14
   179.0627 0.6 14
   194.0729 0.9 22

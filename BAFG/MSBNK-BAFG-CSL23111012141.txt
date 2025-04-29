@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111012141
 RECORD_TITLE: 2-Hydroxy-n-methyl-n-phenylpropanamide; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 2-Hydroxy-n-methyl-n-phenylpropanamide
 CH$FORMULA: C10H13NO2
 CH$EXACT_MASS: 179.0946
@@ -14,6 +13,7 @@ CH$SMILES: CC(C(=O)N(C)C1=CC=CC=C1)O
 CH$IUPAC: InChI=1S/C10H13NO2/c1-8(12)10(13)11(2)9-6-4-3-5-7-9/h3-8,12H,1-2H3
 CH$LINK: CAS 5455-67-4
 CH$LINK: INCHIKEY YOZNZNZSJNNALS-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000285; Organic compounds; Benzenoids; Benzene and substituted derivatives; Anilides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,13 +29,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.763 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 180.1019
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0api-1900000000-2e7e0bdac6d6f4d45088
 PK$NUM_PEAK: 26
 PK$PEAK: m/z int. rel.int.
   45.0331 1.8 22
-  55.0175 1 12
+  55.0175 1.0 12
   56.0496 6.3 78
   77.0382 8.6 106
   79.0544 5.5 68
@@ -49,15 +48,15 @@ PK$PEAK: m/z int. rel.int.
   107.074 2.3 28
   108.081 18.8 233
   115.0558 1.5 18
-  117.0648 2 24
-  118.0651 10 123
+  117.0648 2.0 24
+  118.0651 10.0 123
   119.0731 37.1 459
   120.0803 1.8 22
-  132.0806 5 61
+  132.0806 5.0 61
   133.0879 1.8 22
-  134.0592 1 12
+  134.0592 1.0 12
   134.0969 80.6 999
-  146.0593 1 12
+  146.0593 1.0 12
   147.0661 1.9 23
   162.0919 19.2 237
 //

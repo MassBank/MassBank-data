@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111013015
 RECORD_TITLE: Flavanone; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Flavanone
 CH$COMPOUND_CLASS: Personal_care_product
 CH$FORMULA: C15H12O2
@@ -15,6 +14,7 @@ CH$SMILES: C1C(OC2=CC=CC=C2C1=O)C3=CC=CC=C3
 CH$IUPAC: InChI=1S/C15H12O2/c16-13-10-15(11-6-2-1-3-7-11)17-14-9-5-4-8-12(13)14/h1-9,15H,10H2
 CH$LINK: CAS 487-26-3
 CH$LINK: INCHIKEY ZONYXWQDUYMKFB-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000337; Organic compounds; Phenylpropanoids and polyketides; Flavonoids; Flavans
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.61 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 225.091
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00di-2900000000-fa07f7d9e4f53a13724c
 PK$NUM_PEAK: 23
 PK$PEAK: m/z int. rel.int.
@@ -42,7 +41,7 @@ PK$PEAK: m/z int. rel.int.
   93.0331 24.2 280
   101.0385 1.3 15
   103.0542 41.4 479
-  107.0501 1 11
+  107.0501 1.0 11
   119.0501 1.1 12
   121.0285 86.3 999
   129.0338 1.7 19
@@ -52,10 +51,10 @@ PK$PEAK: m/z int. rel.int.
   153.0698 0.9 10
   165.0711 0.9 10
   177.0683 1.4 16
-  178.0774 31 358
+  178.0774 31.0 358
   179.0855 7.8 90
-  181.0649 6 69
+  181.0649 6.0 69
   182.0712 1.8 20
-  207.0785 2 23
+  207.0785 2.0 23
   210.0663 5.2 60
 //

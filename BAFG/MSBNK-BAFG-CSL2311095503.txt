@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095503
 RECORD_TITLE: 3-Hydroxyacetaminophen; LC-ESI-QTOF; MS2; 140 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 3-Hydroxyacetaminophen
 CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product
 CH$FORMULA: C8H9NO3
@@ -15,6 +14,7 @@ CH$SMILES: CC(=O)Nc1ccc(O)c(O)c1
 CH$IUPAC: InChI=1S/C8H9NO3/c1-5(10)9-6-2-3-7(11)8(12)4-6/h2-4,11-12H,1H3,(H,9,10)
 CH$LINK: CAS 37519-14-5
 CH$LINK: INCHIKEY IPFBMHOMTSBTSU-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000285; Organic compounds; Benzenoids; Benzene and substituted derivatives; Anilides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,15 +30,14 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.471 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 168.0655
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udl-9000000000-fba122e3be8fa65d8bcf
 PK$NUM_PEAK: 14
 PK$PEAK: m/z int. rel.int.
   40.0269 6.5 92
   42.0176 1.4 19
   42.0423 5.4 77
-  43.0272 70 999
+  43.0272 70.0 999
   44.0213 6.5 92
   51.029 35.4 505
   52.0248 37.8 539

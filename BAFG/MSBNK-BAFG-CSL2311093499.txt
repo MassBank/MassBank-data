@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311093499
 RECORD_TITLE: Diphenhydramine; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Diphenhydramine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C17H21NO
@@ -15,6 +14,7 @@ CH$SMILES: CN(C)CCOC(c1ccccc1)c2ccccc2
 CH$IUPAC: InChI=1S/C17H21NO/c1-18(2)13-14-19-17(15-9-5-3-6-10-15)16-11-7-4-8-12-16/h3-12,17H,13-14H2,1-2H3
 CH$LINK: CAS 58-73-1
 CH$LINK: INCHIKEY ZZVUWRFHKOJYTH-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000369; Organic compounds; Benzenoids; Benzene and substituted derivatives; Diphenylmethanes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.721 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 256.1696
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0j4r-3900000000-f03609eccd098e0cfdc8
 PK$NUM_PEAK: 42
 PK$PEAK: m/z int. rel.int.
@@ -45,10 +44,10 @@ PK$PEAK: m/z int. rel.int.
   77.0414 22.7 144
   78.0492 13.6 86
   85.0099 5.1 32
-  86.0167 16 102
+  86.0167 16.0 102
   87.025 19.2 122
   88.0309 2.2 14
-  89.0406 56 357
+  89.0406 56.0 357
   91.0548 6.4 40
   98.0163 16.6 105
   99.0239 8.6 54
@@ -66,11 +65,11 @@ PK$PEAK: m/z int. rel.int.
   127.0547 11.6 73
   128.0618 9.2 58
   137.0384 8.2 52
-  138.047 6 38
+  138.047 6.0 38
   139.0546 59.6 379
   149.0389 4.2 26
   150.0467 52.5 334
-  151.0542 33 210
+  151.0542 33.0 210
   152.0625 11.5 73
   161.0413 5.5 35
   162.0468 21.3 135

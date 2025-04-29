@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111014711
 RECORD_TITLE: (Benzyloxycarbonylmethyl)triphenylphosphonium; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: (Benzyloxycarbonylmethyl)triphenylphosphonium
 CH$FORMULA: [C27H24O2P]+
 CH$EXACT_MASS: 411.1508
@@ -14,6 +13,7 @@ CH$SMILES: C1=CC=C(C=C1)COC(=O)C[P+](C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4
 CH$IUPAC: InChI=1S/C27H24O2P/c28-27(29-21-23-13-5-1-6-14-23)22-30(24-15-7-2-8-16-24,25-17-9-3-10-18-25)26-19-11-4-12-20-26/h1-20H,21-22H2/q+1
 CH$LINK: CAS 78385-36-1
 CH$LINK: INCHIKEY LFNHHHWATWJWMO-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001814; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylphosphines and derivatives
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,12 +29,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.196 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 411.1508
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-053r-2940000000-069d371f939a17fd1e81
 PK$NUM_PEAK: 15
 PK$PEAK: m/z int. rel.int.
-  39.0221 26 53
+  39.0221 26.0 53
   65.0365 147.8 303
   91.0509 136.1 279
   115.0507 50.6 103
@@ -42,8 +41,8 @@ PK$PEAK: m/z int. rel.int.
   152.0598 254.1 521
   157.0175 123.7 253
   181.0181 55.7 114
-  183.0339 487 999
-  215.0832 28 57
+  183.0339 487.0 999
+  215.0832 28.0 57
   226.0753 83.5 171
   228.0915 37.7 77
   233.0486 26.8 54

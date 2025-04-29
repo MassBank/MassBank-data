@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107560
 RECORD_TITLE: Progesterone; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Progesterone
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C21H30O2
@@ -15,6 +14,7 @@ CH$SMILES: CC(=O)[C@H]1CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3CC[C@]12C
 CH$IUPAC: InChI=1S/C21H30O2/c1-13(22)17-6-7-18-16-5-4-14-12-15(23)8-10-20(14,2)19(16)9-11-21(17,18)3/h12,16-19H,4-11H2,1-3H3/t16-,17+,18-,19-,20-,21+/m0/s1
 CH$LINK: CAS 57-83-0
 CH$LINK: INCHIKEY RJKFOVLPORLFTN-LEKSSAKUSA-N
+CH$LINK: ChemOnt CHEMONTID:0001553; Organic compounds; Lipids and lipid-like molecules; Prenol lipids; Triterpenoids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,26 +30,25 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.796 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 315.2319
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004l-9200000000-cba905e469647e1a1c6d
 PK$NUM_PEAK: 28
 PK$PEAK: m/z int. rel.int.
   43.0267 6.6 515
   43.0453 0.6 46
   53.0441 1.6 124
-  55.0232 1 78
+  55.0232 1.0 78
   55.0587 0.6 46
   65.0432 3.1 241
   66.0485 0.5 39
   67.0569 1.6 124
   69.0724 0.4 31
   77.0421 12.8 999
-  79.0565 6 468
+  79.0565 6.0 468
   81.071 0.6 46
   83.0501 0.5 39
   89.0415 0.6 46
-  91.0556 6 468
+  91.0556 6.0 468
   94.0417 0.6 46
   97.0652 2.8 218
   102.0466 0.5 39

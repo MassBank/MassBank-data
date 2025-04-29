@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111014373
 RECORD_TITLE: Tepraloxydim; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Tepraloxydim
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C17H24ClNO4
@@ -15,6 +14,7 @@ CH$SMILES: CCC(=NOCC=CCl)C1=C(CC(CC1=O)C2CCOCC2)O
 CH$IUPAC: InChI=1S/C17H24ClNO4/c1-2-14(19-23-7-3-6-18)17-15(20)10-13(11-16(17)21)12-4-8-22-9-5-12/h3,6,12-13,20H,2,4-5,7-11H2,1H3
 CH$LINK: CAS 149979-41-9
 CH$LINK: INCHIKEY IOYNQIMAUDJVEI-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000035; Organic compounds; Benzenoids; Benzene and substituted derivatives; Halobenzenes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.248 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 342.1467
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-002e-9500000000-ff91fd5d7cf5beffae37
 PK$NUM_PEAK: 125
 PK$PEAK: m/z int. rel.int.
@@ -52,7 +51,7 @@ PK$PEAK: m/z int. rel.int.
   55.0532 3.2 190
   56.0487 3.7 220
   57.0321 0.5 29
-  65.0373 4 237
+  65.0373 4.0 237
   66.046 0.7 41
   67.0175 0.6 35
   67.0407 1.9 112
@@ -60,7 +59,7 @@ PK$PEAK: m/z int. rel.int.
   68.0122 0.6 35
   68.0487 5.2 309
   68.9958 0.4 23
-  69.032 2 118
+  69.032 2.0 118
   69.0688 0.6 35
   70.0274 0.4 23
   70.065 1.4 83
@@ -83,7 +82,7 @@ PK$PEAK: m/z int. rel.int.
   91.053 16.8 999
   92.0475 1.4 83
   93.0323 0.8 47
-  93.0562 3 178
+  93.0562 3.0 178
   93.0683 4.5 267
   94.0405 0.7 41
   94.0641 4.7 279
@@ -109,14 +108,14 @@ PK$PEAK: m/z int. rel.int.
   109.0637 1.1 65
   109.0878 0.4 23
   110.059 3.4 202
-  110.0952 2 118
-  111.0431 1 59
-  111.0668 2 118
+  110.0952 2.0 118
+  111.0431 1.0 59
+  111.0668 2.0 118
   114.0903 0.6 35
   115.0529 3.3 196
   116.0606 1.1 65
   117.0566 1.2 71
-  117.0687 2 118
+  117.0687 2.0 118
   118.0638 1.6 95
   119.0471 1.1 65
   119.0719 0.7 41
@@ -149,7 +148,7 @@ PK$PEAK: m/z int. rel.int.
   147.0425 1.5 89
   147.0659 0.5 29
   148.0746 1.3 77
-  149.058 2 118
+  149.058 2.0 118
   153.0681 0.5 29
   156.0772 0.6 35
   157.0863 0.5 29
@@ -158,6 +157,6 @@ PK$PEAK: m/z int. rel.int.
   161.0609 0.6 35
   162.0528 0.7 41
   164.0706 0.7 41
-  166.0855 1 59
+  166.0855 1.0 59
   176.0689 0.4 23
 //

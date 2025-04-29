@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111011774
 RECORD_TITLE: Estradiol; LC-ESI-QTOF; MS2; 140 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Estradiol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C18H24O2
@@ -15,6 +14,7 @@ CH$SMILES: CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O
 CH$IUPAC: InChI=1S/C18H24O2/c1-18-9-8-14-13-5-3-12(19)10-11(13)2-4-15(14)16(18)6-7-17(18)20/h3,5,10,14-17,19-20H,2,4,6-9H2,1H3
 CH$LINK: CAS 50-28-2
 CH$LINK: INCHIKEY VOXZDWNPVJITMN-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001466; Organic compounds; Lipids and lipid-like molecules; Steroids and steroid derivatives; Estrane steroids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.403 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 273.1849
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ufr-9000000000-c0dc858d5b523c4cefc7
 PK$NUM_PEAK: 28
 PK$PEAK: m/z int. rel.int.
@@ -40,7 +39,7 @@ PK$PEAK: m/z int. rel.int.
   39.023 4.9 210
   41.0384 1.7 73
   43.0175 0.9 38
-  49.0071 1 43
+  49.0071 1.0 43
   50.0151 8.5 366
   51.0232 23.2 999
   53.0389 1.2 51
@@ -53,7 +52,7 @@ PK$PEAK: m/z int. rel.int.
   66.0456 0.4 17
   67.0539 0.7 30
   74.0156 0.9 38
-  75.0238 1 43
+  75.0238 1.0 43
   77.0383 20.3 874
   78.0446 1.1 47
   79.0544 1.6 68

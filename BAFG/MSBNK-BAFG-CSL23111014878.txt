@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111014878
 RECORD_TITLE: 2,6-Dimethylquinoline; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 2,6-Dimethylquinoline
 CH$FORMULA: C11H11N
 CH$EXACT_MASS: 157.0891
@@ -14,6 +13,7 @@ CH$SMILES: CC1=CC2=C(C=C1)N=C(C=C2)C
 CH$IUPAC: InChI=1S/C11H11N/c1-8-3-6-11-10(7-8)5-4-9(2)12-11/h3-7H,1-2H3
 CH$LINK: CAS 877-43-0
 CH$LINK: INCHIKEY JJPSZKIOGBRMHK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001253; Organic compounds; Organoheterocyclic compounds; Quinolines and derivatives
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.162 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 158.0964
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0gw0-9000000000-f3db4ea96b5f25e003c4
 PK$NUM_PEAK: 48
 PK$PEAK: m/z int. rel.int.
@@ -41,7 +40,7 @@ PK$PEAK: m/z int. rel.int.
   41.0383 1.1 30
   49.0067 2.5 68
   50.0146 20.5 564
-  51.0225 23 632
+  51.0225 23.0 632
   52.0172 0.6 16
   52.0298 1.2 33
   61.0064 5.2 143
@@ -55,7 +54,7 @@ PK$PEAK: m/z int. rel.int.
   75.0222 10.2 280
   76.0172 1.1 30
   76.0295 1.8 49
-  77.0378 6 165
+  77.0378 6.0 165
   78.0328 0.6 16
   78.0443 0.7 19
   85.0052 0.9 24

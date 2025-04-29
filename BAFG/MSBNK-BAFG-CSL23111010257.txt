@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111010257
 RECORD_TITLE: Ethyl 2,4-diaminopyrimidine-5-carboxylate; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Ethyl 2,4-diaminopyrimidine-5-carboxylate
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C7H10N4O2
@@ -15,6 +14,7 @@ CH$SMILES: CCOC(=O)C1=CN=C(N=C1N)N
 CH$IUPAC: InChI=1S/C7H10N4O2/c1-2-13-6(12)4-3-10-7(9)11-5(4)8/h3H,2H2,1H3,(H4,8,9,10,11)
 CH$LINK: CAS 15400-54-1
 CH$LINK: INCHIKEY MANFWSKJPOXKJZ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000075; Organic compounds; Organoheterocyclic compounds; Diazines; Pyrimidines and pyrimidine derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.607 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 183.0877
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00kk-9500000000-bf33d373ed790eabf863
 PK$NUM_PEAK: 19
 PK$PEAK: m/z int. rel.int.
@@ -43,15 +42,15 @@ PK$PEAK: m/z int. rel.int.
   55.0384 1.2 10
   65.0209 1.4 12
   67.0356 6.1 55
-  68.0237 67 612
+  68.0237 67.0 612
   69.051 5.7 52
   70.0357 43.7 399
-  92.028 3 27
+  92.028 3.0 27
   94.0437 7.2 65
   95.0282 109.2 999
   109.0521 1.6 14
   120.0222 7.9 72
   137.0472 93.6 856
   155.0572 40.6 371
-  183.088 4 36
+  183.088 4.0 36
 //

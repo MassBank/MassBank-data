@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111017444
 RECORD_TITLE: Cocaethylene; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Cocaethylene
 CH$COMPOUND_CLASS: Metabolite
 CH$FORMULA: C18H23NO4
@@ -15,6 +14,7 @@ CH$SMILES: CCOC(=O)C1C2CCC(N2C)CC1OC(=O)C3=CC=CC=C3
 CH$IUPAC: InChI=1S/C18H23NO4/c1-3-22-18(21)16-14-10-9-13(19(14)2)11-15(16)23-17(20)12-7-5-4-6-8-12/h4-8,13-16H,3,9-11H2,1-2H3
 CH$LINK: CAS 529-38-4
 CH$LINK: INCHIKEY NMPOSNRHZIWLLL-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000176; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzoic acids and derivatives
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.013 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 318.17
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-053r-9400000000-f6c97a0c60c58c9306d5
 PK$NUM_PEAK: 35
 PK$PEAK: m/z int. rel.int.
   42.0349 1.9 16
-  44.0505 2 17
+  44.0505 2.0 17
   51.0236 1.4 12
   55.0547 1.8 15
   57.0578 1.2 10
@@ -50,13 +49,13 @@ PK$PEAK: m/z int. rel.int.
   80.0498 1.2 10
   81.0707 2.7 23
   82.0665 114.9 999
-  83.0504 5 43
+  83.0504 5.0 43
   83.0735 9.9 86
   91.0549 35.5 308
   93.0343 3.4 29
   93.0699 4.5 39
   94.0658 8.3 72
-  96.0813 4 34
+  96.0813 4.0 34
   105.0347 48.4 420
   107.0735 2.1 18
   108.0814 16.4 142

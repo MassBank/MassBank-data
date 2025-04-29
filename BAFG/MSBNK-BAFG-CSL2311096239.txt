@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311096239
 RECORD_TITLE: 6-Methylthioinosin; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 6-Methylthioinosin
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C11H14N4O4S
@@ -15,6 +14,7 @@ CH$SMILES: CSc1ncnc2n(cnc12)C3OC(CO)C(O)C3O
 CH$IUPAC: InChI=1S/C11H14N4O4S/c1-20-10-6-9(12-3-13-10)15(4-14-6)11-8(18)7(17)5(2-16)19-11/h3-5,7-8,11,16-18H,2H2,1H3
 CH$LINK: CAS 342-69-8
 CH$LINK: INCHIKEY ZDRFDHHANOYUTE-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000479; Organic compounds; Nucleosides, nucleotides, and analogues; Purine nucleosides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.666 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 299.0809
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-01di-9200000000-4485d5b7881b2b8bcf8d
 PK$NUM_PEAK: 26
 PK$PEAK: m/z int. rel.int.
@@ -44,10 +43,10 @@ PK$PEAK: m/z int. rel.int.
   66.0237 0.7 95
   67.0316 1.4 191
   69.0356 0.5 68
-  69.9767 1 136
+  69.9767 1.0 136
   70.0428 1.4 191
   70.9849 6.9 944
-  71.0153 1 136
+  71.0153 1.0 136
   71.9919 0.6 82
   77.0158 0.9 123
   81.0342 1.6 218
@@ -60,5 +59,5 @@ PK$PEAK: m/z int. rel.int.
   119.0342 3.1 424
   125.0037 6.1 834
   126.0104 0.7 95
-  152.0143 1 136
+  152.0143 1.0 136
 //

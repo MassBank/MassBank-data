@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311109934
 RECORD_TITLE: Terbutrynesulfoxide; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Terbutrynesulfoxide
-CH$COMPOUND_CLASS: Transformation_product
+CH$COMPOUND_CLASS: Transformation_product; Herbicide; Pesticide; Transformation_product-Metabolite
 CH$FORMULA: C10H19N5OS
 CH$EXACT_MASS: 257.131
 CH$SMILES: CCNC1=NC(=NC(=N1)S(=O)C)NC(C)(C)C
 CH$IUPAC: InChI=1S/C10H19N5OS/c1-6-11-7-12-8(15-10(2,3)4)14-9(13-7)17(5)16/h6H2,1-5H3,(H2,11,12,13,14,15)
 CH$LINK: CAS 82985-33-9
 CH$LINK: INCHIKEY LMUNBZZRYCNYLJ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001693; Organic compounds; Organoheterocyclic compounds; Triazines; Aminotriazines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,15 +30,14 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.816 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 258.1383
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-9000000000-3906f06517d67b7c01c1
 PK$NUM_PEAK: 30
 PK$PEAK: m/z int. rel.int.
   42.0417 0.9 10
   43.0424 23.1 261
   44.061 2.4 27
-  53.0233 1 11
+  53.0233 1.0 11
   55.0394 2.9 32
   56.0463 2.5 28
   57.9825 2.4 27
@@ -50,7 +49,7 @@ PK$PEAK: m/z int. rel.int.
   69.0154 45.5 515
   69.0378 8.3 94
   69.0513 1.9 21
-  70.0464 7 79
+  70.0464 7.0 79
   71.0552 1.1 12
   71.0671 4.5 50
   71.9969 5.1 57
@@ -62,7 +61,7 @@ PK$PEAK: m/z int. rel.int.
   97.0528 4.7 53
   111.069 5.4 61
   112.0655 6.7 75
-  121.0533 3 33
+  121.0533 3.0 33
   124.0637 2.1 23
   138.0767 0.9 10
 //

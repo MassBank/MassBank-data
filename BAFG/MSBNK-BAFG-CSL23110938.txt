@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23110938
 RECORD_TITLE: (Vinylbenzyl)trimethyl ammonium; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: (Vinylbenzyl)trimethyl ammonium
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: [C12H18N]+
@@ -15,6 +14,7 @@ CH$SMILES: C[N+](C)(C)Cc1ccc(cc1)C=C
 CH$IUPAC: InChI=1S/C12H18N/c1-5-11-6-8-12(9-7-11)10-13(2,3)4/h5-9H,1,10H2,2-4H3/q+1
 CH$LINK: CAS 46231-82-7
 CH$LINK: INCHIKEY WIKAJTNLVCYEQJ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001549; Organic compounds; Lipids and lipid-like molecules; Prenol lipids; Monoterpenoids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,14 +30,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.404 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 176.1434
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-3900000000-f3ffaa77105a01f9316f
 PK$NUM_PEAK: 5
 PK$PEAK: m/z int. rel.int.
   65.0421 30.4 50
   91.0544 458.3 766
-  115.0534 597 999
+  115.0534 597.0 999
   116.0612 135.5 226
-  117.0693 529 885
+  117.0693 529.0 885
 //

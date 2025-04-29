@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018854
 RECORD_TITLE: Alachlor; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Alachlor
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C14H20ClNO2
@@ -15,6 +14,7 @@ CH$SMILES: CCC1=C(C(=CC=C1)CC)N(COC)C(=O)CCl
 CH$IUPAC: InChI=1S/C14H20ClNO2/c1-4-11-7-6-8-12(5-2)14(11)16(10-18-3)13(17)9-15/h6-8H,4-5,9-10H2,1-3H3
 CH$LINK: CAS 15972-60-8
 CH$LINK: INCHIKEY XCSGPAVHZFQHGE-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000285; Organic compounds; Benzenoids; Benzene and substituted derivatives; Anilides
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.233 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 270.1255
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-000t-1900000000-a7b003ce9a76fb770076
 PK$NUM_PEAK: 59
 PK$PEAK: m/z int. rel.int.
@@ -77,7 +76,7 @@ PK$PEAK: m/z int. rel.int.
   159.1032 0.6 23
   160.0716 0.4 15
   160.1098 0.9 34
-  161.1184 1 38
+  161.1184 1.0 38
   162.1261 21.8 844
   163.1112 5.5 212
   168.0825 0.4 15
@@ -86,8 +85,8 @@ PK$PEAK: m/z int. rel.int.
   171.1031 1.3 50
   172.1088 0.8 30
   173.082 0.7 27
-  174.0937 1 38
-  184.1106 1 38
+  174.0937 1.0 38
+  184.1106 1.0 38
   185.1193 1.2 46
   192.0568 0.4 15
   206.0687 1.7 65

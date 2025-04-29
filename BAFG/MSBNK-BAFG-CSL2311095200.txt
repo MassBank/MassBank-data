@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095200
 RECORD_TITLE: Indoxacarb; LC-ESI-QTOF; MS2; 10 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Indoxacarb
 CH$COMPOUND_CLASS: Insecticide
 CH$FORMULA: C22H17ClF3N3O7
@@ -15,6 +14,7 @@ CH$SMILES: COC(=O)[C@]12Cc3cc(ccc3C1=NN(CO2)C(=O)N(c4ccc(cc4)OC(F)(F)F)C(=O)OC)C
 CH$IUPAC: InChI=1S/C22H17ClF3N3O7/c1-33-18(30)21-10-12-9-13(23)3-8-16(12)17(21)27-28(11-35-21)19(31)29(20(32)34-2)14-4-6-15(7-5-14)36-22(24,25)26/h3-9H,10-11H2,1-2H3/t21-/m0/s1
 CH$LINK: CAS 173584-44-6
 CH$LINK: INCHIKEY VBCVPMMZEGZULK-NRFANRHFSA-N
+CH$LINK: ChemOnt CHEMONTID:0004714; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylcarbamic acid esters
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 15.019 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 528.078
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-0030190000-d09fddf587ef2ccd0cd5
 PK$NUM_PEAK: 13
 PK$PEAK: m/z int. rel.int.

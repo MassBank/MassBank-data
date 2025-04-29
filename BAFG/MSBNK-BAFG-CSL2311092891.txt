@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311092891
 RECORD_TITLE: Iobitridol; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Iobitridol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C20H28I3N3O9
@@ -15,6 +14,7 @@ CH$SMILES: CN(CC(O)CO)C(=O)c1c(I)c(NC(=O)C(CO)CO)c(I)c(c1I)C(=O)N(C)CC(O)CO
 CH$IUPAC: InChI=1S/C20H28I3N3O9/c1-25(3-10(31)7-29)19(34)12-14(21)13(20(35)26(2)4-11(32)8-30)16(23)17(15(12)22)24-18(33)9(5-27)6-28/h9-11,27-32H,3-8H2,1-2H3,(H,24,33)
 CH$LINK: CAS 136949-58-1
 CH$LINK: INCHIKEY YLPBXIKWXNRACS-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000176; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzoic acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.58 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 833.8887
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-0900000000-60dfb113f17e4c9a9a9b
 PK$NUM_PEAK: 1
 PK$PEAK: m/z int. rel.int.

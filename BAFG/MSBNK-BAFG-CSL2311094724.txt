@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311094724
 RECORD_TITLE: 10,11-Dihydrocarbamazepine; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 10,11-Dihydrocarbamazepine
 CH$COMPOUND_CLASS: Pharmaceutical; Metabolite
 CH$FORMULA: C15H14N2O
@@ -15,6 +14,7 @@ CH$SMILES: NC(=O)N1c2ccccc2CCc3ccccc13
 CH$IUPAC: InChI=1S/C15H14N2O/c16-15(18)17-13-7-3-1-5-11(13)9-10-12-6-2-4-8-14(12)17/h1-8H,9-10H2,(H2,16,18)
 CH$LINK: CAS 3564-73-6
 CH$LINK: INCHIKEY PHNLCHMJDSSPDQ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001691; Organic compounds; Lipids and lipid-like molecules; Steroids and steroid derivatives; Steroid esters
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,19 +30,18 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.235 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 239.1179
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-001l-1900000000-752ab94f521aa98829a4
 PK$NUM_PEAK: 36
 PK$PEAK: m/z int. rel.int.
   65.0424 18.6 89
   77.0401 10.5 50
-  89.0392 4 19
+  89.0392 4.0 19
   90.0472 3.1 14
   91.0556 87.9 422
   93.0579 2.3 11
   101.0378 2.1 10
-  103.0529 3 14
+  103.0529 3.0 14
   115.054 5.2 25
   116.0485 6.3 30
   117.056 7.7 37
@@ -60,15 +59,15 @@ PK$PEAK: m/z int. rel.int.
   165.0686 13.3 63
   166.0643 11.9 57
   167.0724 33.7 162
-  168.0798 3 14
+  168.0798 3.0 14
   176.0599 4.9 23
-  177.0642 6 28
+  177.0642 6.0 28
   178.068 30.3 145
   179.0719 40.2 193
   180.0798 207.7 999
   181.0869 7.5 36
   191.0712 12.6 60
-  192.0795 37 177
+  192.0795 37.0 177
   193.0876 47.7 229
   194.0951 34.1 164
 //

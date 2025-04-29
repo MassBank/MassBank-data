@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311096221
 RECORD_TITLE: Acridine; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Acridine
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C13H9N
@@ -15,6 +14,7 @@ CH$SMILES: c1ccc2nc3ccccc3cc2c1
 CH$IUPAC: InChI=1S/C13H9N/c1-3-7-12-10(5-1)9-11-6-2-4-8-13(11)14-12/h1-9H
 CH$LINK: CAS 260-94-6
 CH$LINK: INCHIKEY DZBUGLKDJFMEHC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001908; Organic compounds; Organoheterocyclic compounds; Quinolines and derivatives; Benzoquinolines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.776 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 180.0808
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ufr-2900000000-76f7991b9b2cf8e3f85f
 PK$NUM_PEAK: 41
 PK$PEAK: m/z int. rel.int.
@@ -44,13 +43,13 @@ PK$PEAK: m/z int. rel.int.
   86.0165 2.5 12
   87.0244 7.3 35
   88.0318 3.3 16
-  89.04 19 92
+  89.04 19.0 92
   90.0482 3.2 15
   98.0161 5.6 27
   99.0235 12.5 61
   100.0314 4.2 20
   101.0396 44.6 217
-  102.0467 28 136
+  102.0467 28.0 136
   113.0389 15.4 75
   114.0337 2.4 11
   114.0457 4.9 23
@@ -62,12 +61,12 @@ PK$PEAK: m/z int. rel.int.
   129.0475 7.6 37
   137.0384 4.1 20
   139.0547 4.1 20
-  140.0494 16 78
+  140.0494 16.0 78
   149.0389 9.7 47
   150.0469 105.3 514
   151.0548 204.5 999
   152.0618 156.9 766
-  153.0584 26 127
+  153.0584 26.0 127
   154.0644 2.5 12
   164.0497 5.7 27
   175.0413 2.2 10

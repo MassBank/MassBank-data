@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107861
 RECORD_TITLE: 17alpha-Hydroxyprogesterone; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 17alpha-Hydroxyprogesterone
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C21H30O3
@@ -15,6 +14,7 @@ CH$SMILES: CC(=O)[C@@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3CC[C@]12C
 CH$IUPAC: InChI=1S/C21H30O3/c1-13(22)21(24)11-8-18-16-5-4-14-12-15(23)6-9-19(14,2)17(16)7-10-20(18,21)3/h12,16-18,24H,4-11H2,1-3H3/t16-,17+,18+,19+,20+,21+/m1/s1
 CH$LINK: CAS 68-96-2
 CH$LINK: INCHIKEY DBPWSSGDRRHUNT-CEGNMAFCSA-N
+CH$LINK: ChemOnt CHEMONTID:0003569; Organic compounds; Lipids and lipid-like molecules; Steroids and steroid derivatives; Pregnane steroids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.808 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 331.2268
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004l-9400000000-7a31a026f6f38e5d827a
 PK$NUM_PEAK: 49
 PK$PEAK: m/z int. rel.int.
@@ -39,12 +38,12 @@ PK$PEAK: m/z int. rel.int.
   51.0288 3.4 99
   53.0439 2.8 81
   55.0227 3.1 90
-  55.0585 3 87
+  55.0585 3.0 87
   57.0402 0.6 17
-  65.0418 9 262
+  65.0418 9.0 262
   66.0508 1.3 37
   67.0569 4.2 122
-  69.0745 1 29
+  69.0745 1.0 29
   77.0412 34.2 999
   77.075 0.5 14
   78.0479 1.2 35
@@ -53,7 +52,7 @@ PK$PEAK: m/z int. rel.int.
   81.0713 4.3 125
   82.0432 0.6 17
   83.0509 0.8 23
-  89.0402 1 29
+  89.0402 1.0 29
   91.0553 19.3 563
   93.0721 0.8 23
   94.0421 1.4 40
@@ -74,8 +73,8 @@ PK$PEAK: m/z int. rel.int.
   129.0684 2.8 81
   139.0536 0.5 14
   141.0679 3.1 90
-  151.0574 1 29
-  152.0617 3 87
+  151.0574 1.0 29
+  152.0617 3.0 87
   152.0756 0.5 14
   153.0688 2.4 70
   155.085 0.9 26

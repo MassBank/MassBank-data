@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311094188
 RECORD_TITLE: Flumequin; LC-ESI-QTOF; MS2; 130 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Flumequin
 CH$COMPOUND_CLASS: Pharmaceutical; Antimicrobial
 CH$FORMULA: C14H12FNO3
@@ -15,6 +14,7 @@ CH$SMILES: CC1CCc2cc(F)cc3C(=O)C(=CN1c23)C(O)=O
 CH$IUPAC: InChI=1S/C14H12FNO3/c1-7-2-3-8-4-9(15)5-10-12(8)16(7)6-11(13(10)17)14(18)19/h4-7H,2-3H2,1H3,(H,18,19)
 CH$LINK: CAS 42835-25-6
 CH$LINK: INCHIKEY DPSPPJIUMHPXMA-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002552; Organic compounds; Organoheterocyclic compounds; Quinolines and derivatives; Quinoline carboxylic acids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.545 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 262.0874
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0002-9000000000-fe5eec3d1dab6ba92296
 PK$NUM_PEAK: 34
 PK$PEAK: m/z int. rel.int.
   51.0283 0.9 27
-  53.0082 2 61
+  53.0082 2.0 61
   57.0182 0.6 18
   68.0087 0.5 15
   69.0179 0.6 18
@@ -50,9 +49,9 @@ PK$PEAK: m/z int. rel.int.
   77.0417 0.5 15
   81.0164 1.1 33
   85.0086 1.2 36
-  86.0182 1 30
+  86.0182 1.0 30
   87.024 0.6 18
-  92.0073 1 30
+  92.0073 1.0 30
   93.0136 2.4 73
   94.0223 0.6 18
   97.0075 3.5 107

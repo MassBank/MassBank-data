@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018898
 RECORD_TITLE: Metoprolol; LC-ESI-QTOF; MS2; 20 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Metoprolol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C15H25NO3
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)NCC(COC1=CC=C(C=C1)CCOC)O
 CH$IUPAC: InChI=1S/C15H25NO3/c1-12(2)16-10-14(17)11-19-15-6-4-13(5-7-15)8-9-18-3/h4-7,12,14,16-17H,8-11H2,1-3H3
 CH$LINK: CAS 51384-51-1
 CH$LINK: INCHIKEY IUBSYMUCCVWXPE-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000139; Organic compounds; Benzenoids; Phenols; Tyrosols and derivatives
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.14 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 268.1907
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-0190000000-5f24df54dc44621c9b79
 PK$NUM_PEAK: 11
 PK$PEAK: m/z int. rel.int.
@@ -41,9 +40,9 @@ PK$PEAK: m/z int. rel.int.
   116.1065 328.5 42
   121.064 92.3 11
   159.0798 122.6 15
-  176.1063 79 10
+  176.1063 79.0 10
   191.1063 290.7 37
-  218.1535 116 14
+  218.1535 116.0 14
   226.1441 147.8 18
   268.1942 7780.8 999
 //

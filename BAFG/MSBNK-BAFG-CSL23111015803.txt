@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111015803
 RECORD_TITLE: Dimethenamid-ESA; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Dimethenamid-ESA
 CH$COMPOUND_CLASS: Transformation_product; Herbicide; Metabolite
 CH$FORMULA: C12H19NO5S2
@@ -15,6 +14,7 @@ CH$SMILES: CC1=CSC(=C1N(C(C)COC)C(=O)CS(=O)(=O)O)C
 CH$IUPAC: InChI=1S/C12H19NO5S2/c1-8-6-19-10(3)12(8)13(9(2)5-18-4)11(14)7-20(15,16)17/h6,9H,5,7H2,1-4H3,(H,15,16,17)
 CH$LINK: CAS 205939-58-8
 CH$LINK: INCHIKEY YMYKMSAZEZQEER-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004144; Organic compounds; Organoheterocyclic compounds; Heteroaromatic compounds
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.036 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 322.0778
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-1900000000-2ca42aeadda4d60e359e
 PK$NUM_PEAK: 96
 PK$PEAK: m/z int. rel.int.
@@ -49,7 +48,7 @@ PK$PEAK: m/z int. rel.int.
   73.0654 2.8 60
   77.039 3.8 82
   78.0469 0.9 19
-  79.0542 2 43
+  79.0542 2.0 43
   80.0499 2.5 54
   81.0576 0.7 15
   82.0653 2.2 47
@@ -77,7 +76,7 @@ PK$PEAK: m/z int. rel.int.
   111.0267 21.5 465
   112.0218 1.9 41
   112.0341 3.6 78
-  113.0295 2 43
+  113.0295 2.0 43
   113.0407 1.7 36
   114.0358 0.7 15
   115.054 1.6 34
@@ -86,8 +85,8 @@ PK$PEAK: m/z int. rel.int.
   117.0696 2.6 56
   118.0648 7.6 164
   119.0367 0.5 10
-  119.0733 14 303
-  120.0811 5 108
+  119.0733 14.0 303
+  120.0811 5.0 108
   122.0961 1.8 39
   123.0135 0.8 17
   123.0261 1.1 23
@@ -99,7 +98,7 @@ PK$PEAK: m/z int. rel.int.
   127.0212 1.2 26
   127.045 2.8 60
   128.0528 2.5 54
-  132.0805 5 108
+  132.0805 5.0 108
   133.0885 7.5 162
   134.0174 1.4 30
   134.0962 17.5 379
@@ -112,9 +111,9 @@ PK$PEAK: m/z int. rel.int.
   139.0441 0.7 15
   139.0551 1.3 28
   140.0525 1.8 39
-  148.1114 1 21
+  148.1114 1.0 21
   149.0413 6.2 134
-  150.0377 11 238
+  150.0377 11.0 238
   151.0441 12.9 279
   152.0174 21.6 468
   152.0525 46.1 999
@@ -125,7 +124,7 @@ PK$PEAK: m/z int. rel.int.
   166.0679 25.1 543
   167.0419 0.5 10
   167.0758 1.2 26
-  168.049 1 21
+  168.049 1.0 21
   168.0831 2.8 60
   176.1062 1.4 30
   194.0623 1.9 41

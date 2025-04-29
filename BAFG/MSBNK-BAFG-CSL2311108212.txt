@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311108212
 RECORD_TITLE: Morantel; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Morantel
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C12H16N2S
@@ -15,6 +14,7 @@ CH$SMILES: CN1CCCN=C1/C=C/c2sccc2C
 CH$IUPAC: InChI=1S/C12H16N2S/c1-10-6-9-15-11(10)4-5-12-13-7-3-8-14(12)2/h4-6,9H,3,7-8H2,1-2H3/b5-4+
 CH$LINK: CAS 20574-50-9
 CH$LINK: INCHIKEY NVEPPWDVLBMNMB-SNAWJCMRSA-N
+CH$LINK: ChemOnt CHEMONTID:0000075; Organic compounds; Organoheterocyclic compounds; Diazines; Pyrimidines and pyrimidine derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.042 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 221.1107
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fb9-9000000000-9c9e2f746e16c8537c87
 PK$NUM_PEAK: 32
 PK$PEAK: m/z int. rel.int.
@@ -59,7 +58,7 @@ PK$PEAK: m/z int. rel.int.
   89.041 3.3 218
   90.0449 0.5 33
   91.0544 0.4 26
-  92.9794 1 66
+  92.9794 1.0 66
   94.9956 1.1 72
   96.006 0.6 39
   97.0104 1.5 99

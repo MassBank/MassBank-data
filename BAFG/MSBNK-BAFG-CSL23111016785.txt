@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016785
 RECORD_TITLE: 1-Boc-4-[3-(ethoxycarbonyl)phenyl]piperazine; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 1-Boc-4-[3-(ethoxycarbonyl)phenyl]piperazine
 CH$FORMULA: C18H26N2O4
 CH$EXACT_MASS: 334.1893
@@ -14,6 +13,7 @@ CH$SMILES: CCOC(=O)C1=CC(=CC=C1)N2CCN(CC2)C(=O)OC(C)(C)C
 CH$IUPAC: InChI=1S/C18H26N2O4/c1-5-23-16(21)14-7-6-8-15(13-14)19-9-11-20(12-10-19)17(22)24-18(2,3)4/h6-8,13H,5,9-12H2,1-4H3
 CH$LINK: CAS 261925-94-4
 CH$LINK: INCHIKEY CCLGNFZMWMCRCH-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000189; Organic compounds; Organoheterocyclic compounds; Diazinanes; Piperazines
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 14.611 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 335.1965
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-7900000000-d416299c4d33d9566037
 PK$NUM_PEAK: 60
 PK$PEAK: m/z int. rel.int.
@@ -38,8 +37,8 @@ PK$PEAK: m/z int. rel.int.
   39.0231 7.3 79
   41.0386 9.5 103
   42.0343 2.8 30
-  44.0495 9 98
-  50.0158 2 21
+  44.0495 9.0 98
+  50.0158 2.0 21
   51.0229 5.9 64
   56.0493 3.9 42
   57.0699 10.7 116
@@ -47,8 +46,8 @@ PK$PEAK: m/z int. rel.int.
   70.0652 1.2 13
   75.0229 2.6 28
   77.0387 51.7 564
-  78.0342 2 21
-  78.0464 5 54
+  78.0342 2.0 21
+  78.0464 5.0 54
   79.0542 7.1 77
   80.0497 2.5 27
   89.0391 1.9 20
@@ -56,7 +55,7 @@ PK$PEAK: m/z int. rel.int.
   91.0546 52.8 576
   92.0496 6.4 69
   92.062 2.5 27
-  93.0342 1 10
+  93.0342 1.0 10
   93.0574 8.5 92
   93.0703 3.5 38
   94.0653 5.1 55
@@ -67,7 +66,7 @@ PK$PEAK: m/z int. rel.int.
   105.0443 1.3 14
   105.0562 2.1 22
   106.0657 3.2 34
-  115.0538 2 21
+  115.0538 2.0 21
   116.0492 3.7 40
   117.0572 32.5 354
   118.0655 91.5 999
@@ -81,7 +80,7 @@ PK$PEAK: m/z int. rel.int.
   131.0602 1.1 12
   131.0717 1.7 18
   132.0812 3.8 41
-  133.0761 1 10
+  133.0761 1.0 10
   143.0727 1.4 15
   144.0432 1.6 17
   144.0819 2.4 26

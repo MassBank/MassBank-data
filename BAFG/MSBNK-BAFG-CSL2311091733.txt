@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311091733
 RECORD_TITLE: Aspartame; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Aspartame
 CH$COMPOUND_CLASS: Food_additive
 CH$FORMULA: C14H18N2O5
@@ -15,6 +14,7 @@ CH$SMILES: COC(=O)C(Cc1ccccc1)NC(=O)C(N)CC(O)=O
 CH$IUPAC: InChI=1S/C14H18N2O5/c1-21-14(20)11(7-9-5-3-2-4-6-9)16-13(19)10(15)8-12(17)18/h2-6,10-11H,7-8,15H2,1H3,(H,16,19)(H,17,18)
 CH$LINK: CAS 22839-47-0
 CH$LINK: INCHIKEY IAOZJIPTCAWIRG-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.761 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 293.1143
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fr5-9730000000-439abe7e59ec3d4eb8bd
 PK$NUM_PEAK: 27
 PK$PEAK: m/z int. rel.int.
-  42.0022 11 459
+  42.0022 11.0 459
   70.0309 9.5 397
   81.0227 9.6 401
   81.0456 2.6 108
@@ -50,7 +49,7 @@ PK$PEAK: m/z int. rel.int.
   113.0366 2.1 87
   116.0506 5.1 213
   118.0668 15.5 647
-  125.0363 2 83
+  125.0363 2.0 83
   126.0442 11.7 489
   146.062 5.5 229
   156.0829 2.4 100

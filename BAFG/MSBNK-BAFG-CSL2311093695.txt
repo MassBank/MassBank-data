@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311093695
 RECORD_TITLE: Allethrin; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Allethrin
 CH$COMPOUND_CLASS: Insecticide
 CH$FORMULA: C19H26O3
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)=CC1C(C(=O)OC2CC(=O)C(=C2C)CC=C)C1(C)C
 CH$IUPAC: InChI=1S/C19H26O3/c1-7-8-13-12(4)16(10-15(13)20)22-18(21)17-14(9-11(2)3)19(17,5)6/h7,9,14,16-17H,1,8,10H2,2-6H3
 CH$LINK: CAS 584-79-2
 CH$LINK: INCHIKEY ZCVAOQKBXKSDMS-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000324; Organic compounds; Lipids and lipid-like molecules; Fatty Acyls; Fatty acid esters
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 16.132 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 303.1955
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00ou-9200000000-2e8490c75c61b0adaf03
 PK$NUM_PEAK: 33
 PK$PEAK: m/z int. rel.int.
@@ -41,7 +40,7 @@ PK$PEAK: m/z int. rel.int.
   65.0427 9.1 305
   67.0579 2.6 87
   69.0725 0.9 30
-  77.0414 19 636
+  77.0414 19.0 636
   78.0485 0.5 16
   79.0568 11.8 395
   81.0725 3.8 127
@@ -54,7 +53,7 @@ PK$PEAK: m/z int. rel.int.
   103.0555 2.1 70
   105.0698 6.1 204
   107.0487 1.1 36
-  107.0861 1 33
+  107.0861 1.0 33
   109.0647 0.4 13
   115.0541 7.7 258
   116.0619 0.9 30

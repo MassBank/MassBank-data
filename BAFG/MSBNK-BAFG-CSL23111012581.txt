@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111012581
 RECORD_TITLE: Diphenylphosphinamide; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Diphenylphosphinamide
 CH$FORMULA: C12H12NOP
 CH$EXACT_MASS: 217.0657
@@ -14,6 +13,7 @@ CH$SMILES: C1=CC=C(C=C1)P(=O)(C2=CC=CC=C2)N
 CH$IUPAC: InChI=1S/C12H12NOP/c13-15(14,11-7-3-1-4-8-11)12-9-5-2-6-10-12/h1-10H,(H2,13,14)
 CH$LINK: CAS 5994-87-6
 CH$LINK: INCHIKEY RIGIWEGXTTUCIQ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002279; Organic compounds; Benzenoids; Benzene and substituted derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.411 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 218.0729
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-9200000000-a60c6c980711f78476d3
 PK$NUM_PEAK: 30
 PK$PEAK: m/z int. rel.int.
@@ -38,7 +37,7 @@ PK$PEAK: m/z int. rel.int.
   46.9681 0.8 19
   49.0076 1.6 38
   50.0152 9.2 224
-  51.0233 41 999
+  51.0233 41.0 999
   65.0382 0.5 12
   67.9814 0.6 14
   68.989 3.7 90

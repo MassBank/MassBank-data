@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018496
 RECORD_TITLE: Trazodone; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Trazodone
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C19H22ClN5O
@@ -15,6 +14,7 @@ CH$SMILES: C1CN(CCN1CCCN2C(=O)N3C=CC=CC3=N2)C4=CC(=CC=C4)Cl
 CH$IUPAC: InChI=1S/C19H22ClN5O/c20-16-5-3-6-17(15-16)23-13-11-22(12-14-23)8-4-10-25-19(26)24-9-2-1-7-18(24)21-25/h1-3,5-7,9,15H,4,8,10-14H2
 CH$LINK: CAS 19794-93-5
 CH$LINK: INCHIKEY PHLBKPHSAVXXEF-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002585; Organic compounds; Phenylpropanoids and polyketides; Flavonoids; O-methylated flavonoids
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.095 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 372.1586
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004j-0900000000-11d875aee93709d2f099
 PK$NUM_PEAK: 7
 PK$PEAK: m/z int. rel.int.
@@ -40,6 +39,6 @@ PK$PEAK: m/z int. rel.int.
   148.0513 1954.2 793
   176.0808 2459.8 999
   209.0829 37.1 15
-  237.115 46 18
+  237.115 46.0 18
   372.1592 120.7 49
 //

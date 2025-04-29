@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311096152
 RECORD_TITLE: Alpha-hydroxy-metoprolol; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Alpha-hydroxy-metoprolol
-CH$COMPOUND_CLASS: Pharmaceutical; Metabolite
+CH$COMPOUND_CLASS: Pharmaceutical; Metabolite; Transformation_product-Metabolite
 CH$FORMULA: C15H25NO4
 CH$EXACT_MASS: 283.1784
 CH$SMILES: COCC(O)c1ccc(OCC(O)CNC(C)C)cc1
 CH$IUPAC: InChI=1S/C15H25NO4/c1-11(2)16-8-13(17)9-20-14-6-4-12(5-7-14)15(18)10-19-3/h4-7,11,13,15-18H,8-10H2,1-3H3
 CH$LINK: CAS 56392-16-6
 CH$LINK: INCHIKEY OFRYBPCSEMMZHR-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002341; Organic compounds; Benzenoids; Phenol ethers
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.057 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 284.1856
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-056u-9600000000-ddc225628486fcfa87c5
 PK$NUM_PEAK: 49
 PK$PEAK: m/z int. rel.int.
@@ -48,7 +47,7 @@ PK$PEAK: m/z int. rel.int.
   78.0494 9.4 93
   79.0572 27.2 270
   84.0834 1.6 15
-  89.0395 3 29
+  89.0395 3.0 29
   90.048 5.4 53
   91.0562 100.6 999
   93.071 2.8 27
@@ -70,7 +69,7 @@ PK$PEAK: m/z int. rel.int.
   119.0489 11.9 118
   120.059 1.9 18
   121.0649 2.5 24
-  127.0535 8 79
+  127.0535 8.0 79
   128.062 18.7 185
   129.069 4.6 45
   131.0495 5.9 58

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111011795
 RECORD_TITLE: L-Thyronine; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: L-Thyronine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C15H15NO4
@@ -15,6 +14,7 @@ CH$SMILES: N[C@@H](Cc1ccc(Oc2ccc(O)cc2)cc1)C(O)=O
 CH$IUPAC: InChI=1S/C15H15NO4/c16-14(15(18)19)9-10-1-5-12(6-2-10)20-13-7-3-11(17)4-8-13/h1-8,14,17H,9,16H2,(H,18,19)/t14-/m0/s1
 CH$LINK: CAS 1596-67-4
 CH$LINK: INCHIKEY KKCIOUWDFWQUBT-AWEZNQCLSA-N
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,22 +30,21 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.619 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 274.1074
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014l-9700000000-7d3e79ab59d83976b483
 PK$NUM_PEAK: 36
 PK$PEAK: m/z int. rel.int.
-  39.0233 1 58
+  39.0233 1.0 58
   51.0222 0.6 35
   53.0381 1.8 105
   65.0381 5.9 346
   66.0461 3.2 188
   76.028 0.4 23
-  77.038 5 293
+  77.038 5.0 293
   78.0468 0.6 35
   79.0545 0.4 23
   81.033 9.1 534
-  89.0386 1 58
+  89.0386 1.0 58
   91.0537 14.8 869
   92.0633 0.7 41
   93.0319 0.5 29
@@ -53,12 +52,12 @@ PK$PEAK: m/z int. rel.int.
   94.0408 5.6 329
   102.047 0.9 52
   103.0551 0.7 41
-  104.0491 4 235
+  104.0491 4.0 235
   107.047 0.5 29
   109.0268 1.8 105
   115.0536 5.7 334
   117.0569 2.7 158
-  118.0645 17 999
+  118.0645 17.0 999
   119.0723 1.6 94
   127.0532 0.8 47
   128.0614 1.5 88
@@ -68,7 +67,7 @@ PK$PEAK: m/z int. rel.int.
   152.0599 1.2 70
   153.0685 0.5 29
   163.0533 0.7 41
-  164.063 1 58
+  164.063 1.0 58
   165.0682 0.9 52
   181.0661 0.5 29
 //

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111011620
 RECORD_TITLE: Fluorescein; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Fluorescein
 CH$COMPOUND_CLASS: Industrial_process; Pharmaceutical
 CH$FORMULA: C20H12O5
@@ -15,6 +14,7 @@ CH$SMILES: C1=CC=C2C(=C1)C(=O)OC23C4=C(C=C(C=C4)O)OC5=C3C=CC(=C5)O
 CH$IUPAC: InChI=1S/C20H12O5/c21-11-5-7-15-17(9-11)24-18-10-12(22)6-8-16(18)20(15)14-4-2-1-3-13(14)19(23)25-20/h1-10,21-22H
 CH$LINK: CAS 2321-07-5
 CH$LINK: INCHIKEY GNBHRKFJIUUOQI-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0003410; Organic compounds; Organoheterocyclic compounds; Benzopyrans; 1-benzopyrans
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.527 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 333.0757
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-001i-0089000000-9569bc8ad5a9afdf7105
 PK$NUM_PEAK: 25
 PK$PEAK: m/z int. rel.int.
@@ -39,20 +38,20 @@ PK$PEAK: m/z int. rel.int.
   201.0696 2.4 11
   202.0779 11.5 56
   203.0855 7.5 36
-  213.0719 3 14
+  213.0719 3.0 14
   215.0867 8.8 43
   229.0512 4.2 20
   231.0828 18.7 91
   233.0967 2.7 13
   241.0668 2.4 11
-  242.0743 4 19
+  242.0743 4.0 19
   243.0782 2.6 12
   247.0739 2.9 14
   258.068 4.6 22
   259.0763 14.8 72
   260.0882 3.2 15
   261.0916 4.9 24
-  271.0752 20 98
+  271.0752 20.0 98
   286.0646 2.7 13
   287.0712 57.1 280
   289.0871 28.2 138

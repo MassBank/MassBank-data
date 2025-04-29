@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018161
 RECORD_TITLE: Fluroxypyr; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Fluroxypyr
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C7H5Cl2FN2O3
@@ -15,6 +14,7 @@ CH$SMILES: C(C(=O)O)OC1=NC(=C(C(=C1Cl)N)Cl)F
 CH$IUPAC: InChI=1S/C7H5Cl2FN2O3/c8-3-5(11)4(9)7(12-6(3)10)15-1-2(13)14/h1H2,(H2,11,12)(H,13,14)
 CH$LINK: CAS 69377-81-7
 CH$LINK: INCHIKEY MEFQWPUMEMWTJP-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0003970; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives; Halopyridines
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.859 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 254.9734
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-001i-0900000000-81e31c1a7a05fed4a3d7
 PK$NUM_PEAK: 41
 PK$PEAK: m/z int. rel.int.
@@ -46,21 +45,21 @@ PK$PEAK: m/z int. rel.int.
   99.9948 0.9 16
   100.9342 0.6 10
   106.9445 3.3 58
-  110.0269 2 35
+  110.0269 2.0 35
   111.0361 2.2 39
   116.976 0.7 12
   117.9858 8.9 158
-  118.9925 1 17
+  118.9925 1.0 17
   121.9543 0.7 12
   124.9356 7.5 133
-  124.9894 4 71
-  125.9984 4 71
+  124.9894 4.0 71
+  125.9984 4.0 71
   129.9849 1.2 21
   131.942 0.6 10
   133.9558 16.1 286
   142.9791 2.2 39
   143.9881 7.5 133
-  144.9959 24 427
+  144.9959 24.0 427
   146.0038 17.8 316
   151.9457 17.2 306
   152.9536 1.2 21

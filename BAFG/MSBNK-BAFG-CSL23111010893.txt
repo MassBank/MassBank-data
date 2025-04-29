@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111010893
 RECORD_TITLE: Methyl-N-(3-amino-2-methylphenyl)carbamate; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Methyl-N-(3-amino-2-methylphenyl)carbamate
 CH$FORMULA: C9H12N2O2
 CH$EXACT_MASS: 180.0899
@@ -14,6 +13,7 @@ CH$SMILES: COC(=O)NC1=CC=CC(=C1C)N
 CH$IUPAC: InChI=1S/C9H12N2O2/c1-6-7(10)4-3-5-8(6)11-9(12)13-2/h3-5H,10H2,1-2H3,(H,11,12)
 CH$LINK: CAS 157563-54-7
 CH$LINK: INCHIKEY VYRAHTPNSYEFTK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004714; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylcarbamic acid esters
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.424 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 181.0972
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-9300000000-0e95360eb7098f319d46
 PK$NUM_PEAK: 19
 PK$PEAK: m/z int. rel.int.
@@ -41,7 +40,7 @@ PK$PEAK: m/z int. rel.int.
   77.0447 30.7 999
   78.0403 2.3 74
   79.046 2.5 81
-  79.058 7 227
+  79.058 7.0 227
   80.0551 1.7 55
   89.0456 0.5 16
   91.0477 0.5 16

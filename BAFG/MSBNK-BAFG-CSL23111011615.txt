@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111011615
 RECORD_TITLE: Fluorescein; LC-ESI-QTOF; MS2; 140 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Fluorescein
 CH$COMPOUND_CLASS: Industrial_process; Pharmaceutical
 CH$FORMULA: C20H12O5
@@ -15,6 +14,7 @@ CH$SMILES: C1=CC=C2C(=C1)C(=O)OC23C4=C(C=C(C=C4)O)OC5=C3C=CC(=C5)O
 CH$IUPAC: InChI=1S/C20H12O5/c21-11-5-7-15-17(9-11)24-18-10-12(22)6-8-16(18)20(15)14-4-2-1-3-13(14)19(23)25-20/h1-10,21-22H
 CH$LINK: CAS 2321-07-5
 CH$LINK: INCHIKEY GNBHRKFJIUUOQI-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0003410; Organic compounds; Organoheterocyclic compounds; Benzopyrans; 1-benzopyrans
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.527 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 333.0757
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-1940000000-0694cdc954b8ff5cf2c9
 PK$NUM_PEAK: 65
 PK$PEAK: m/z int. rel.int.
@@ -55,7 +54,7 @@ PK$PEAK: m/z int. rel.int.
   100.0303 0.5 15
   102.0466 1.6 48
   110.0156 1.3 39
-  111.0227 1 30
+  111.0227 1.0 30
   113.0386 0.9 27
   115.0549 1.9 57
   122.0139 1.4 42
@@ -91,10 +90,10 @@ PK$PEAK: m/z int. rel.int.
   200.0618 32.9 999
   201.0708 4.1 124
   202.0778 1.8 54
-  209.0394 1 30
+  209.0394 1.0 30
   210.0475 1.8 54
   211.0541 8.1 245
-  212.0582 1 30
+  212.0582 1.0 30
   213.0711 3.2 97
   221.0427 0.4 12
   222.0454 0.6 18

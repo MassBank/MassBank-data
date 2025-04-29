@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311106678
 RECORD_TITLE: Oxcarbazepine; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Oxcarbazepine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C15H12N2O2
@@ -15,6 +14,7 @@ CH$SMILES: NC(=O)N1c2ccccc2CC(=O)c3ccccc13
 CH$IUPAC: InChI=1S/C15H12N2O2/c16-15(19)17-12-7-3-1-5-10(12)9-14(18)11-6-2-4-8-13(11)17/h1-8H,9H2,(H2,16,19)
 CH$LINK: CAS 28721-07-5
 CH$LINK: INCHIKEY CTRLABGOLIVAIY-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000320; Organic compounds; Organoheterocyclic compounds; Benzazepines; Dibenzazepines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.323 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 253.0972
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ufr-5900000000-7177c8a91ae9a4b44f0e
 PK$NUM_PEAK: 64
 PK$PEAK: m/z int. rel.int.
@@ -59,8 +58,8 @@ PK$PEAK: m/z int. rel.int.
   100.031 1.2 56
   101.0375 5.9 275
   102.0336 1.7 79
-  102.0457 5 233
-  110.0148 1 46
+  102.0457 5.0 233
+  110.0148 1.0 46
   111.0212 0.8 37
   113.0375 6.7 312
   114.0331 0.6 28
@@ -84,10 +83,10 @@ PK$PEAK: m/z int. rel.int.
   150.0456 18.2 849
   150.0784 0.7 32
   151.0533 21.4 999
-  152.0613 14 653
+  152.0613 14.0 653
   153.0567 2.2 102
-  161.0389 1 46
-  162.0457 2 93
+  161.0389 1.0 46
+  162.0457 2.0 93
   163.0527 5.5 256
   164.0498 1.9 88
   165.06 0.9 42

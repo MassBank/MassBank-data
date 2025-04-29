@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107831
 RECORD_TITLE: Abacavir; LC-ESI-QTOF; MS2; 130 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Abacavir
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C14H18N6O
@@ -15,6 +14,7 @@ CH$SMILES: Nc1nc(NC2CC2)c3ncn([C@@H]4C[C@H](CO)C=C4)c3n1
 CH$IUPAC: InChI=1S/C14H18N6O/c15-14-18-12(17-9-2-3-9)11-13(19-14)20(7-16-11)10-4-1-8(5-10)6-21/h1,4,7-10,21H,2-3,5-6H2,(H3,15,17,18,19)/t8-,10+/m1/s1
 CH$LINK: CAS 136470-78-5
 CH$LINK: INCHIKEY MCGSCOLBFJQGHM-SCZZXKLOSA-N
+CH$LINK: ChemOnt CHEMONTID:0003738; Organic compounds; Nucleosides, nucleotides, and analogues; Nucleoside and nucleotide analogues; Cyclopentyl nucleosides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,15 +30,14 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.094 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 287.1615
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-9000000000-296ba5bc647b29babf3e
 PK$NUM_PEAK: 27
 PK$PEAK: m/z int. rel.int.
   38.0128 0.8 12
   40.0267 1.8 29
   52.0241 1.8 29
-  53.0204 8 129
+  53.0204 8.0 129
   53.0403 1.7 27
   54.0261 3.6 58
   55.0348 5.9 95
@@ -47,15 +46,15 @@ PK$PEAK: m/z int. rel.int.
   66.0245 4.7 76
   66.0413 0.8 12
   67.0333 1.9 30
-  67.0594 13 210
+  67.0594 13.0 210
   68.0287 7.4 120
   68.0511 0.9 14
   77.0422 61.6 999
-  77.0693 1 16
+  77.0693 1.0 16
   78.0415 1.7 27
   79.0315 0.8 12
   79.0574 7.8 126
-  80.0272 2 32
+  80.0272 2.0 32
   81.0341 0.7 11
   92.0252 2.6 42
   94.0404 1.2 19

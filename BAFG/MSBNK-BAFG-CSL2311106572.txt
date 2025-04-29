@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311106572
 RECORD_TITLE: Methacetin; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Methacetin
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C9H11NO2
@@ -15,6 +14,7 @@ CH$SMILES: COc1ccc(NC(C)=O)cc1
 CH$IUPAC: InChI=1S/C9H11NO2/c1-7(11)10-8-3-5-9(12-2)6-4-8/h3-6H,1-2H3,(H,10,11)
 CH$LINK: CAS 51-66-1
 CH$LINK: INCHIKEY XVAIDCNLVLTVFM-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000285; Organic compounds; Benzenoids; Benzene and substituted derivatives; Anilides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.508 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 166.0863
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0536-9300000000-c45a00cc5b7565bcd05d
 PK$NUM_PEAK: 20
 PK$PEAK: m/z int. rel.int.
@@ -47,12 +46,12 @@ PK$PEAK: m/z int. rel.int.
   81.0599 846.9 804
   82.0436 17.9 17
   92.049 813.8 773
-  93.0589 1051 999
+  93.0589 1051.0 999
   94.0653 55.6 52
   97.0649 19.7 18
   107.0489 67.1 63
   108.0446 225.3 214
   109.0518 939.5 893
-  123.0672 79 75
+  123.0672 79.0 75
   124.0747 859.6 817
 //

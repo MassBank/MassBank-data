@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111013760
 RECORD_TITLE: Tenoxicam; LC-ESI-QTOF; MS2; 20 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Tenoxicam
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C13H11N3O4S2
@@ -15,6 +14,7 @@ CH$SMILES: CN1C(=C(C2=C(S1(=O)=O)C=CS2)O)C(=O)NC3=CC=CC=N3
 CH$IUPAC: InChI=1S/C13H11N3O4S2/c1-16-10(13(18)15-9-4-2-3-6-14-9)11(17)12-8(5-7-21-12)22(16,19)20/h2-7,17H,1H3,(H,14,15,18)
 CH$LINK: CAS 59804-37-4
 CH$LINK: INCHIKEY LZNWYQJJBLGYLT-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.356 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 336.0118
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00di-0491000000-f2529835cc4c62bde191
 PK$NUM_PEAK: 4
 PK$PEAK: m/z int. rel.int.
   136.9946 3.8 63
   152.0184 27.8 465
   272.0499 59.7 999
-  336.01 9 150
+  336.01 9.0 150
 //

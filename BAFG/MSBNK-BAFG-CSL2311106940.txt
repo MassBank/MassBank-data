@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311106940
 RECORD_TITLE: 19-Nortestosterone; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 19-Nortestosterone
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C18H26O2
@@ -15,6 +14,7 @@ CH$SMILES: C[C@]12CC[C@H]3[C@@H](CCC4=CC(=O)CC[C@H]34)[C@@H]1CC[C@@H]2O
 CH$IUPAC: InChI=1S/C18H26O2/c1-18-9-8-14-13-5-3-12(19)10-11(13)2-4-15(14)16(18)6-7-17(18)20/h10,13-17,20H,2-9H2,1H3/t13-,14+,15+,16-,17-,18-/m0/s1
 CH$LINK: CAS 434-22-0
 CH$LINK: INCHIKEY NPAGDVCDWIYMMC-IZPLOLCNSA-N
+CH$LINK: ChemOnt CHEMONTID:0001466; Organic compounds; Lipids and lipid-like molecules; Steroids and steroid derivatives; Estrane steroids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.421 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 275.2006
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a71-1940000000-ed278faa6b076795028e
 PK$NUM_PEAK: 66
 PK$PEAK: m/z int. rel.int.
@@ -39,7 +38,7 @@ PK$PEAK: m/z int. rel.int.
   69.0764 1.1 13
   77.0411 2.3 27
   79.057 7.3 86
-  81.0722 15 177
+  81.0722 15.0 177
   83.0513 21.5 255
   83.0838 2.1 24
   91.0549 8.3 98
@@ -52,8 +51,8 @@ PK$PEAK: m/z int. rel.int.
   109.0653 84.2 999
   111.0801 1.4 16
   117.0692 4.4 52
-  119.0852 12 142
-  121.067 1 11
+  119.0852 12.0 142
+  121.067 1.0 11
   121.1007 9.1 107
   123.0796 3.2 37
   129.0702 3.4 40
@@ -66,7 +65,7 @@ PK$PEAK: m/z int. rel.int.
   141.0698 1.9 22
   143.0848 13.1 155
   145.1006 32.6 386
-  147.0797 4 47
+  147.0797 4.0 47
   147.1158 19.5 231
   149.0958 6.9 81
   149.1317 10.1 119
@@ -86,7 +85,7 @@ PK$PEAK: m/z int. rel.int.
   187.1114 3.8 45
   187.147 19.9 236
   188.1204 1.2 14
-  197.132 14 166
+  197.132 14.0 166
   199.1471 24.6 291
   201.1257 9.4 111
   203.1421 8.5 100

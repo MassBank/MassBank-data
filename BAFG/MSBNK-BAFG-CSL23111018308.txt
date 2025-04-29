@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018308
 RECORD_TITLE: Triadimenol; LC-ESI-QTOF; MS2; 150 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Triadimenol
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C14H18ClN3O2
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)(C)C(C(N1C=NC=N1)OC2=CC=C(C=C2)Cl)O
 CH$IUPAC: InChI=1S/C14H18ClN3O2/c1-14(2,3)12(19)13(18-9-16-8-17-18)20-11-6-4-10(15)5-7-11/h4-9,12-13,19H,1-3H3
 CH$LINK: CAS 55219-65-3
 CH$LINK: INCHIKEY BAZVSMNPJJMILC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002341; Organic compounds; Benzenoids; Phenol ethers
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.487 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 296.116
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00dl-9000000000-468223e3e8f2c9b563e1
 PK$NUM_PEAK: 14
 PK$PEAK: m/z int. rel.int.
@@ -45,8 +44,8 @@ PK$PEAK: m/z int. rel.int.
   49.0068 0.5 38
   50.0155 3.1 236
   51.0245 1.5 114
-  70.0399 7 533
-  73.0078 2 152
+  70.0399 7.0 533
+  73.0078 2.0 152
   74.0146 11.4 869
   75.0231 1.6 122
 //

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311108062
 RECORD_TITLE: Valsartan; LC-ESI-QTOF; MS2; 10 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Valsartan
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C24H29N5O3
@@ -15,6 +14,7 @@ CH$SMILES: CCCCC(=O)N(Cc1ccc(cc1)c2ccccc2c3n[nH]nn3)[C@@H](C(C)C)C(O)=O
 CH$IUPAC: InChI=1S/C24H29N5O3/c1-4-5-10-21(30)29(22(16(2)3)24(31)32)15-17-11-13-18(14-12-17)19-8-6-7-9-20(19)23-25-27-28-26-23/h6-9,11-14,16,22H,4-5,10,15H2,1-3H3,(H,31,32)(H,25,26,27,28)/t22-/m0/s1
 CH$LINK: CAS 137862-53-4
 CH$LINK: INCHIKEY ACWBQPMHZXGDFX-QFIPXVFZSA-N
+CH$LINK: ChemOnt CHEMONTID:0002279; Organic compounds; Benzenoids; Benzene and substituted derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.443 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 436.2343
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4u-0097000000-33ba6223d6a99a5f06d0
 PK$NUM_PEAK: 8
 PK$PEAK: m/z int. rel.int.
@@ -39,8 +38,8 @@ PK$PEAK: m/z int. rel.int.
   190.064 0.7 9
   206.0835 0.8 11
   207.0904 5.1 71
-  235.0971 42 588
+  235.0971 42.0 588
   235.134 0.9 12
-  291.1485 39 546
+  291.1485 39.0 546
   306.171 71.3 999
 //

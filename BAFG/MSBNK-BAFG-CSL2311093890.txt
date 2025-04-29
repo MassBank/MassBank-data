@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311093890
 RECORD_TITLE: Iohexol; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Iohexol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C19H26I3N3O9
@@ -15,6 +14,7 @@ CH$SMILES: CC(=O)N(CC(O)CO)c1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)NCC(O)CO)c1I
 CH$IUPAC: InChI=1S/C19H26I3N3O9/c1-8(29)25(4-11(32)7-28)17-15(21)12(18(33)23-2-9(30)5-26)14(20)13(16(17)22)19(34)24-3-10(31)6-27/h9-11,26-28,30-32H,2-7H2,1H3,(H,23,33)(H,24,34)
 CH$LINK: CAS 66108-95-0
 CH$LINK: INCHIKEY NTHXOOBQLCIOLC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000285; Organic compounds; Benzenoids; Benzene and substituted derivatives; Anilides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.533 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 821.8876
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0uk9-0139330000-4914279f1f41edcaa432
 PK$NUM_PEAK: 110
 PK$PEAK: m/z int. rel.int.
@@ -61,7 +60,7 @@ PK$PEAK: m/z int. rel.int.
   268.9343 0.8 57
   270.917 0.5 36
   272.9497 0.6 43
-  273.935 3 217
+  273.935 3.0 217
   275.953 1.1 79
   283.9474 0.5 36
   284.9322 1.1 79
@@ -85,7 +84,7 @@ PK$PEAK: m/z int. rel.int.
   314.9663 0.4 28
   315.9485 1.1 79
   321.111 1.7 123
-  323.9503 1 72
+  323.9503 1.0 72
   324.9444 0.7 50
   326.964 0.7 50
   327.9453 0.5 36
@@ -108,7 +107,7 @@ PK$PEAK: m/z int. rel.int.
   381.8252 0.8 57
   382.8392 0.5 36
   383.8357 0.8 57
-  385.824 2 144
+  385.824 2.0 144
   389.009 0.6 43
   396.8419 0.5 36
   397.8192 1.1 79
@@ -136,7 +135,7 @@ PK$PEAK: m/z int. rel.int.
   442.8515 0.4 28
   451.8329 3.2 231
   498.8603 0.9 65
-  498.8797 1 72
+  498.8797 1.0 72
   500.8821 11.3 818
   501.8823 0.4 28
   514.8649 1.7 123

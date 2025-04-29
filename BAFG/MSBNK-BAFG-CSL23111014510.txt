@@ -1,19 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111014510
 RECORD_TITLE: Chlormequat; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Chlormequat
+CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: [C5H13ClN]+
 CH$EXACT_MASS: 122.0731
 CH$SMILES: C[N+](C)(CCCl)C
 CH$IUPAC: InChI=1S/C5H13ClN/c1-7(2,3)5-4-6/h4-5H2,1-3H3/q+1
 CH$LINK: CAS 7003-89-6
 CH$LINK: INCHIKEY JUZXDNPBRPUIOR-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000503; Organic compounds; Organic nitrogen compounds; Organonitrogen compounds; Quaternary ammonium salts
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 1.306 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 122.0731
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0006-9000000000-462361229d5eb6afa8c3
 PK$NUM_PEAK: 2
 PK$PEAK: m/z int. rel.int.

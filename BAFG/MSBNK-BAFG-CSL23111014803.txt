@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111014803
 RECORD_TITLE: Phenothiazine; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Phenothiazine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C12H9NS
@@ -15,6 +14,7 @@ CH$SMILES: C1=CC=C2C(=C1)NC3=CC=CC=C3S2
 CH$IUPAC: InChI=1S/C12H9NS/c1-3-7-11-9(5-1)13-10-6-2-4-8-12(10)14-11/h1-8,13H
 CH$LINK: CAS 92-84-2
 CH$LINK: INCHIKEY WJFKNYWRSNBZNX-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001322; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives; Pyridinecarboxylic acids and derivatives
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.113 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 200.0529
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-01p9-8900000000-95580ededacd855952e9
 PK$NUM_PEAK: 79
 PK$PEAK: m/z int. rel.int.
@@ -62,7 +61,7 @@ PK$PEAK: m/z int. rel.int.
   76.0281 3.1 76
   77.0372 14.9 368
   78.0325 0.6 14
-  78.0432 1 24
+  78.0432 1.0 24
   81.9857 2.5 61
   85.0052 0.9 22
   86.013 3.1 76
@@ -93,7 +92,7 @@ PK$PEAK: m/z int. rel.int.
   125.0361 1.1 27
   126.0444 8.3 205
   127.0522 9.2 227
-  128.0483 6 148
+  128.0483 6.0 148
   129.0421 2.1 51
   137.0362 2.4 59
   138.0437 3.4 84
@@ -104,7 +103,7 @@ PK$PEAK: m/z int. rel.int.
   152.0469 1.1 27
   153.0552 2.6 64
   154.0626 2.1 51
-  155.0586 1 24
+  155.0586 1.0 24
   164.0474 2.9 71
   165.0533 1.5 37
   166.0627 7.3 180
@@ -112,6 +111,6 @@ PK$PEAK: m/z int. rel.int.
   169.0101 0.9 22
   170.0156 0.6 14
   171.0227 0.6 14
-  196.0197 1 24
+  196.0197 1.0 24
   197.0272 0.8 19
 //

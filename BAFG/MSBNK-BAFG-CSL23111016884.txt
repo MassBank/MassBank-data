@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016884
 RECORD_TITLE: Difenoconazole; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Difenoconazole
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C19H17Cl2N3O3
@@ -15,6 +14,7 @@ CH$SMILES: CC1COC(Cn2cncn2)(O1)c3ccc(Oc4ccc(Cl)cc4)cc3Cl
 CH$IUPAC: InChI=1S/C19H17Cl2N3O3/c1-13-9-25-19(27-13,10-24-12-22-11-23-24)17-7-6-16(8-18(17)21)26-15-4-2-14(20)3-5-15/h2-8,11-13H,9-10H2,1H3
 CH$LINK: CAS 119446-68-3
 CH$LINK: INCHIKEY BQYJATMQXGBDHF-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004155; Organic compounds; Benzenoids; Benzene and substituted derivatives; Diphenylethers
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.755 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 406.072
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fb9-9700000000-4ec37e0d30cecf7340f8
 PK$NUM_PEAK: 40
 PK$PEAK: m/z int. rel.int.
@@ -58,7 +57,7 @@ PK$PEAK: m/z int. rel.int.
   115.053 1.3 14
   126.0458 5.6 64
   127.0536 5.1 58
-  128.0613 2 23
+  128.0613 2.0 23
   137.0371 1.7 19
   138.0473 3.9 44
   139.0046 3.1 35
@@ -73,6 +72,6 @@ PK$PEAK: m/z int. rel.int.
   162.0224 1.2 13
   173.0149 2.8 32
   179.0605 1.2 13
-  181.0636 1 11
+  181.0636 1.0 11
   182.9764 1.1 12
 //

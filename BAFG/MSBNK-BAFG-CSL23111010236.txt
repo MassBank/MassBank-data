@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111010236
 RECORD_TITLE: Sulfasalazine; LC-ESI-QTOF; MS2; 10 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Sulfasalazine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C18H14N4O5S
@@ -15,6 +14,7 @@ CH$SMILES: C1=CC=NC(=C1)NS(=O)(=O)C2=CC=C(C=C2)NN=C3C=CC(=O)C(=C3)C(=O)O
 CH$IUPAC: InChI=1S/C18H14N4O5S/c23-16-9-6-13(11-15(16)18(24)25)21-20-12-4-7-14(8-5-12)28(26,27)22-17-3-1-2-10-19-17/h1-11,20H,(H,19,22)(H,24,25)
 CH$LINK: CAS 599-79-1
 CH$LINK: INCHIKEY OQANPHBRHBJGNZ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001872; Organic compounds; Hydrocarbon derivatives; Quinodimethanes; P-quinodimethanes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.217 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 399.0758
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0002-0009000000-b313ccaa8267de882360
 PK$NUM_PEAK: 2
 PK$PEAK: m/z int. rel.int.

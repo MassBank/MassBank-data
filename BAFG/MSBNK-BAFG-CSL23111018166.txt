@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018166
 RECORD_TITLE: Flutriafol; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Flutriafol
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C16H13F2N3O
@@ -15,6 +14,7 @@ CH$SMILES: C1=CC=C(C(=C1)C(CN2C=NC=N2)(C3=CC=C(C=C3)F)O)F
 CH$IUPAC: InChI=1S/C16H13F2N3O/c17-13-7-5-12(6-8-13)16(22,9-21-11-19-10-20-21)14-3-1-2-4-15(14)18/h1-8,10-11,22H,9H2
 CH$LINK: CAS 76674-21-0
 CH$LINK: INCHIKEY JWUCHKBSVLQQCO-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002724; Organic compounds; Lipids and lipid-like molecules; Steroids and steroid derivatives; Steroidal alkaloids
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.047 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 302.11
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00fr-9100000000-b6310dd437f9516f86f6
 PK$NUM_PEAK: 32
 PK$PEAK: m/z int. rel.int.
@@ -41,10 +40,10 @@ PK$PEAK: m/z int. rel.int.
   57.0132 19.3 59
   59.0288 4.4 13
   62.0148 3.8 11
-  63.0235 12 36
+  63.0235 12.0 36
   69.0131 13.6 41
   70.0401 176.9 542
-  73.0067 18 55
+  73.0067 18.0 55
   74.015 181.5 556
   75.023 325.7 999
   81.0135 3.4 10
@@ -53,7 +52,7 @@ PK$PEAK: m/z int. rel.int.
   95.0291 110.4 338
   98.0146 4.5 13
   99.0218 5.3 16
-  109.044 19 58
+  109.044 19.0 58
   122.0154 4.4 13
   123.0336 33.3 102
   133.0444 3.8 11

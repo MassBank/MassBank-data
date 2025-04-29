@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018889
 RECORD_TITLE: Metoprolol; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Metoprolol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C15H25NO3
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)NCC(COC1=CC=C(C=C1)CCOC)O
 CH$IUPAC: InChI=1S/C15H25NO3/c1-12(2)16-10-14(17)11-19-15-6-4-13(5-7-15)8-9-18-3/h4-7,12,14,16-17H,8-11H2,1-3H3
 CH$LINK: CAS 51384-51-1
 CH$LINK: INCHIKEY IUBSYMUCCVWXPE-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000139; Organic compounds; Benzenoids; Phenols; Tyrosols and derivatives
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.14 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 268.1907
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-9100000000-2585c325bda97cbc4c32
 PK$NUM_PEAK: 30
 PK$PEAK: m/z int. rel.int.
   30.0338 14.3 67
-  38.0152 3 14
+  38.0152 3.0 14
   39.0226 14.2 67
   41.0384 24.7 116
   43.0179 2.6 12
@@ -52,7 +51,7 @@ PK$PEAK: m/z int. rel.int.
   77.0381 211.1 999
   78.0452 4.8 22
   79.0535 21.2 100
-  89.0377 5 23
+  89.0377 5.0 23
   91.0533 63.2 299
   95.0481 2.6 12
   102.0453 7.8 36
@@ -60,7 +59,7 @@ PK$PEAK: m/z int. rel.int.
   104.0597 3.3 15
   105.0408 6.4 30
   105.0682 2.9 13
-  115.0531 33 156
+  115.0531 33.0 156
   116.0607 3.1 14
   119.0478 2.5 11
   128.0623 5.4 25

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016100
 RECORD_TITLE: Lumichrome; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Lumichrome
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C12H10N4O2
@@ -15,6 +14,7 @@ CH$SMILES: CC1=CC2=C(C=C1C)N=C3C(=N2)C(=O)NC(=O)N3
 CH$IUPAC: InChI=1S/C12H10N4O2/c1-5-3-7-8(4-6(5)2)14-10-9(13-7)11(17)16-12(18)15-10/h3-4H,1-2H3,(H2,14,15,16,17,18)
 CH$LINK: CAS 1086-80-2
 CH$LINK: INCHIKEY ZJTJUVIJVLLGSP-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000384; Organic compounds; Organoheterocyclic compounds; Pteridines and derivatives; Alloxazines and isoalloxazines
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.067 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 243.0877
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fvi-5900000000-869066bd9ed4e14cb70d
 PK$NUM_PEAK: 40
 PK$PEAK: m/z int. rel.int.
@@ -51,10 +50,10 @@ PK$PEAK: m/z int. rel.int.
   101.0392 3.6 43
   102.0344 4.3 51
   102.0466 6.9 82
-  103.0548 57 684
+  103.0548 57.0 684
   104.0501 12.2 146
   105.0451 3.5 42
-  114.035 1 12
+  114.035 1.0 12
   115.0412 1.2 14
   116.0499 37.9 455
   117.0572 8.4 100
@@ -63,16 +62,16 @@ PK$PEAK: m/z int. rel.int.
   126.0341 1.1 13
   128.0499 6.9 82
   129.045 5.4 64
-  130.0404 4 48
+  130.0404 4.0 48
   130.0652 8.7 104
-  131.061 1 12
-  142.0526 4 48
-  143.0603 4 48
+  131.061 1.0 12
+  142.0526 4.0 48
+  143.0603 4.0 48
   145.0764 9.4 112
   153.0458 2.6 31
-  156.0558 8 96
+  156.0558 8.0 96
   157.0637 5.3 63
   170.0719 7.6 91
-  172.0889 3 36
-  198.0668 2 24
+  172.0889 3.0 36
+  198.0668 2.0 24
 //

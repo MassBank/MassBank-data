@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311096040
 RECORD_TITLE: Dichlorvos; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Dichlorvos
 CH$COMPOUND_CLASS: Insecticide; Transformation_product; Pharmaceutical
 CH$FORMULA: C4H7Cl2O4P
@@ -15,6 +14,7 @@ CH$SMILES: CO[P](=O)(OC)OC=C(Cl)Cl
 CH$IUPAC: InChI=1S/C4H7Cl2O4P/c1-8-11(7,9-2)10-3-4(5)6/h3H,1-2H3
 CH$LINK: CAS 62-73-7
 CH$LINK: INCHIKEY OEBRKCOSUFCWJD-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000408; Organic compounds; Organic acids and derivatives; Organic phosphoric acids and derivatives; Phosphate esters
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.126 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 220.9532
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4i-9000000000-5475e89133e36b212cdb
 PK$NUM_PEAK: 11
 PK$PEAK: m/z int. rel.int.
@@ -43,7 +42,7 @@ PK$PEAK: m/z int. rel.int.
   79.0566 0.6 63
   82.9482 0.4 42
   91.055 1.5 159
-  94.9456 3 318
+  94.9456 3.0 318
   111.9408 0.4 42
   115.0537 1.2 127
 //

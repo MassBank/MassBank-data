@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23110958
 RECORD_TITLE: (1,2-Diphenylpropyl)-trimethyl-ammonium; LC-ESI-QTOF; MS2; 130 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: (1,2-Diphenylpropyl)-trimethyl-ammonium
 CH$FORMULA: [C18H24N]+
 CH$EXACT_MASS: 254.1903
@@ -14,6 +13,7 @@ CH$SMILES: CC(c1ccccc1)C(c2ccccc2)[N+](C)(C)C
 CH$IUPAC: InChI=1S/C18H24N/c1-15(16-11-7-5-8-12-16)18(19(2,3)4)17-13-9-6-10-14-17/h5-15,18H,1-4H3/q+1
 CH$LINK: CAS NA
 CH$LINK: INCHIKEY UAMJPHUIMPFLOK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000041; Organic compounds; Benzenoids; Benzene and substituted derivatives; Biphenyls and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.228 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 254.1903
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-9200000000-a92c54de76d796d41402
 PK$NUM_PEAK: 17
 PK$PEAK: m/z int. rel.int.
@@ -40,7 +39,7 @@ PK$PEAK: m/z int. rel.int.
   74.0166 1.1 89
   75.0259 0.9 73
   77.0406 2.3 186
-  86.0155 1 81
+  86.0155 1.0 81
   87.0253 0.9 73
   89.0387 3.7 300
   91.0539 5.6 454
@@ -50,5 +49,5 @@ PK$PEAK: m/z int. rel.int.
   126.0442 0.7 56
   150.0464 1.5 121
   151.0554 1.4 113
-  163.0517 2 162
+  163.0517 2.0 162
 //

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111010330
 RECORD_TITLE: Nadolol; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Nadolol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C17H27NO4
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)(C)NCC(COC1=CC=CC2=C1CC(C(C2)O)O)O
 CH$IUPAC: InChI=1S/C17H27NO4/c1-17(2,3)18-9-12(19)10-22-16-6-4-5-11-7-14(20)15(21)8-13(11)16/h4-6,12,14-15,18-21H,7-10H2,1-3H3
 CH$LINK: CAS 42200-33-9
 CH$LINK: INCHIKEY VWPOSFSPZNDTMJ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004551; Organic compounds; Benzenoids; Benzene and substituted derivatives; Trifluoromethylbenzenes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,16 +30,15 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.13 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 310.2013
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udr-1390000000-a2d94da4b630a2d0f73b
 PK$NUM_PEAK: 23
 PK$PEAK: m/z int. rel.int.
-  56.0547 15 92
+  56.0547 15.0 92
   57.0747 6.2 38
-  72.0473 2 12
+  72.0473 2.0 12
   74.064 34.5 213
-  133.0658 3 18
+  133.0658 3.0 18
   145.0651 17.7 109
   147.0805 6.4 39
   155.0847 5.9 36

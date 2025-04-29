@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109917
 RECORD_TITLE: 4-Amino-2,6-dimethoxypyrimidine; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 4-Amino-2,6-dimethoxypyrimidine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C6H9N3O2
@@ -15,6 +14,7 @@ CH$SMILES: COC1=NC(=NC(=C1)N)OC
 CH$IUPAC: InChI=1S/C6H9N3O2/c1-10-5-3-4(7)8-6(9-5)11-2/h3H,1-2H3,(H2,7,8,9)
 CH$LINK: CAS 3289-50-7
 CH$LINK: INCHIKEY LNTJJKHTAZFVJJ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004150; Organic compounds; Hydrocarbon derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.656 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 156.0768
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-9000000000-c53c4cf460141d4e770f
 PK$NUM_PEAK: 27
 PK$PEAK: m/z int. rel.int.
@@ -39,7 +38,7 @@ PK$PEAK: m/z int. rel.int.
   39.0245 1.1 52
   40.0309 4.6 217
   41.0377 2.1 99
-  42.0475 1 47
+  42.0475 1.0 47
   43.0416 4.3 203
   44.0241 1.6 75
   52.0282 0.7 33
@@ -50,14 +49,14 @@ PK$PEAK: m/z int. rel.int.
   58.035 1.9 89
   65.0211 3.2 151
   66.0283 9.7 459
-  67.0109 4 189
+  67.0109 4.0 189
   67.0351 10.2 482
   68.0197 21.1 999
   69.014 5.3 250
   69.9996 1.6 75
   72.0535 0.5 23
   82.0339 7.8 369
-  83.0514 1 47
+  83.0514 1.0 47
   84.061 0.5 23
   92.0291 0.5 23
   95.0249 0.7 33

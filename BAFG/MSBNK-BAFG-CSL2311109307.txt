@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109307
 RECORD_TITLE: Mefenpyr-diethyl; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Mefenpyr-diethyl
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C16H18Cl2N2O4
@@ -15,6 +14,7 @@ CH$SMILES: CCOC(=O)C1=NN(C(C1)(C)C(=O)OCC)C2=C(C=C(C=C2)Cl)Cl
 CH$IUPAC: InChI=1S/C16H18Cl2N2O4/c1-4-23-14(21)12-9-16(3,15(22)24-5-2)20(19-12)13-7-6-10(17)8-11(13)18/h6-8H,4-5,9H2,1-3H3
 CH$LINK: CAS 135590-91-9
 CH$LINK: INCHIKEY OPGCOAPTHCZZIW-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 14.581 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 373.0716
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-05gi-8900000000-3466215d1b2f20519460
 PK$NUM_PEAK: 45
 PK$PEAK: m/z int. rel.int.
@@ -53,7 +52,7 @@ PK$PEAK: m/z int. rel.int.
   99.0243 2.5 35
   100.0227 3.1 43
   101.0411 3.6 50
-  102.036 1 14
+  102.036 1.0 14
   102.0489 1.2 16
   106.9472 8.1 114
   108.9862 70.6 996
@@ -61,12 +60,12 @@ PK$PEAK: m/z int. rel.int.
   111.0009 0.9 12
   114.0358 2.9 40
   123.0002 1.2 16
-  123.9987 2 28
+  123.9987 2.0 28
   125.0044 6.4 90
   126.0362 3.7 52
   127.0432 4.2 59
-  128.0508 4 56
-  129.0503 1 14
+  128.0508 4.0 56
+  129.0503 1.0 14
   130.0671 0.8 11
   132.9621 42.9 605
   136.0073 1.8 25

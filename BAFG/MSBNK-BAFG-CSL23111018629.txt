@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018629
 RECORD_TITLE: Clonazepam; LC-ESI-QTOF; MS2; 130 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Clonazepam
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C15H10ClN3O3
@@ -15,6 +14,7 @@ CH$SMILES: C1C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])C(=N1)C3=CC=CC=C3Cl
 CH$IUPAC: InChI=1S/C15H10ClN3O3/c16-12-4-2-1-3-10(12)15-11-7-9(19(21)22)5-6-13(11)18-14(20)8-17-15/h1-7H,8H2,(H,18,20)
 CH$LINK: CAS 1622-61-3
 CH$LINK: INCHIKEY DGBIGWXXNGSACT-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001097; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzyloxycarbonyls
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.867 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 316.0484
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-4900000000-0d0a4b3198f843a74b42
 PK$NUM_PEAK: 76
 PK$PEAK: m/z int. rel.int.
-  37.008 1 11
-  39.0225 3 33
+  37.008 1.0 11
+  39.0225 3.0 33
   49.0063 1.1 12
   50.0154 9.6 106
   51.023 14.2 157
@@ -55,8 +54,8 @@ PK$PEAK: m/z int. rel.int.
   76.0305 8.1 89
   77.0384 18.7 207
   78.046 2.3 25
-  83.9993 1 11
-  85.0073 3 33
+  83.9993 1.0 11
+  85.0073 3.0 33
   86.0148 7.1 78
   87.0223 9.7 107
   88.0166 1.5 16
@@ -83,13 +82,13 @@ PK$PEAK: m/z int. rel.int.
   126.046 18.7 207
   127.0526 6.8 75
   128.0594 1.8 19
-  129.0447 1 11
+  129.0447 1.0 11
   134.0155 1.3 14
   135.0189 1.6 17
   137.038 6.2 68
   138.0388 3.5 38
   139.0533 8.6 95
-  140.0512 4 44
+  140.0512 4.0 44
   148.0324 1.2 13
   149.0381 13.1 145
   150.0464 90.2 999
@@ -106,9 +105,9 @@ PK$PEAK: m/z int. rel.int.
   178.0652 2.5 27
   179.0581 1.4 15
   186.0335 1.2 13
-  187.0389 1 11
+  187.0389 1.0 11
   188.0473 6.1 67
   202.0551 0.9 9
-  203.0572 1 11
+  203.0572 1.0 11
   204.0522 1.1 12
 //

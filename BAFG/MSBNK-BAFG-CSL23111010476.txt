@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111010476
 RECORD_TITLE: Sulfamethoxazole; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Sulfamethoxazole
 CH$COMPOUND_CLASS: Antimicrobial; Pharmaceutical
 CH$FORMULA: C10H11N3O3S
@@ -15,6 +14,7 @@ CH$SMILES: CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N
 CH$IUPAC: InChI=1S/C10H11N3O3S/c1-7-6-10(12-16-7)13-17(14,15)9-4-2-8(11)3-5-9/h2-6H,11H2,1H3,(H,12,13)
 CH$LINK: CAS 723-46-6
 CH$LINK: INCHIKEY JLKIGFTWXXRPMT-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000031; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzenesulfonamides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,19 +30,18 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.246 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 254.0594
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014l-9100000000-a43b043a754be0bb57db
 PK$NUM_PEAK: 13
 PK$PEAK: m/z int. rel.int.
   53.048 2.7 45
   63.0301 0.6 10
-  65.046 59 999
+  65.046 59.0 999
   66.0404 2.1 35
   66.0527 2.2 37
   72.0499 0.8 13
   79.0487 0.8 13
-  80.0545 27 457
+  80.0545 27.0 457
   92.0538 21.1 357
   93.0612 8.4 142
   99.0598 1.4 23

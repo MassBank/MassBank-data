@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111027592
 RECORD_TITLE: o-Aminoazotoluene; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: o-Aminoazotoluene
 CH$FORMULA: C14H15N3
 CH$EXACT_MASS: 225.1266
@@ -14,6 +13,7 @@ CH$SMILES: CC1=CC=CC=C1N=NC2=CC(=C(C=C2)N)C
 CH$IUPAC: InChI=1S/C14H15N3/c1-10-5-3-4-6-14(10)17-16-12-7-8-13(15)11(2)9-12/h3-9H,15H2,1-2H3
 CH$LINK: CAS 97-56-3
 CH$LINK: INCHIKEY PFRYFZZSECNQOL-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0003370; Organic compounds; Organoheterocyclic compounds; Azobenzenes
 AC$INSTRUMENT: TripleTOF X500R SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.733 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 226.1339
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4l-6900000000-78fe23d43e5b2941fce1
 PK$NUM_PEAK: 36
 PK$PEAK: m/z int. rel.int.
@@ -56,8 +55,8 @@ PK$PEAK: m/z int. rel.int.
   133.0763 7.5 40
   165.0702 8.6 46
   166.0675 2.4 12
-  167.0727 12 64
-  168.0702 4 21
+  167.0727 12.0 64
+  168.0702 4.0 21
   180.0806 3.6 19
   182.0934 4.2 22
   192.0763 3.4 18

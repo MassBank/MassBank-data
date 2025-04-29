@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111016588
 RECORD_TITLE: Desethylterbuthylazine; LC-ESI-QTOF; MS2; 140 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Desethylterbuthylazine
-CH$COMPOUND_CLASS: Herbicide; Transformation_product; Metabolite
+CH$COMPOUND_CLASS: Herbicide; Transformation_product; Metabolite; Transformation_product-Metabolite
 CH$FORMULA: C7H12ClN5
 CH$EXACT_MASS: 201.0781
 CH$SMILES: CC(C)(C)NC1=NC(=NC(=N1)N)Cl
 CH$IUPAC: InChI=1S/C7H12ClN5/c1-7(2,3)13-6-11-4(8)10-5(9)12-6/h1-3H3,(H3,9,10,11,12,13)
 CH$LINK: CAS 30125-63-4
 CH$LINK: INCHIKEY LMKQNTMFZLAJDV-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001693; Organic compounds; Organoheterocyclic compounds; Triazines; Aminotriazines
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.136 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 202.0854
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-01ox-9000000000-b4ad44be1e7cb9cfe9ce
 PK$NUM_PEAK: 14
 PK$PEAK: m/z int. rel.int.
@@ -45,7 +44,7 @@ PK$PEAK: m/z int. rel.int.
   42.0219 26.9 215
   42.033 4.1 32
   43.0295 124.9 999
-  52.0052 2 15
+  52.0052 2.0 15
   53.0136 16.1 128
   61.9795 119.5 955
   68.0244 11.8 94

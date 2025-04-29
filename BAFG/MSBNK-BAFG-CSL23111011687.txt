@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111011687
 RECORD_TITLE: Dehydroaripiprazole; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Dehydroaripiprazole
-CH$COMPOUND_CLASS: Metabolite
+CH$COMPOUND_CLASS: Metabolite; Pharmaceutical; Transformation_product-Metabolite
 CH$FORMULA: C23H25Cl2N3O2
 CH$EXACT_MASS: 445.1324
 CH$SMILES: C1CN(CCN1CCCCOC2=CC3=C(C=C2)C=CC(=O)N3)C4=C(C(=CC=C4)Cl)Cl
 CH$IUPAC: InChI=1S/C23H25Cl2N3O2/c24-19-4-3-5-21(23(19)25)28-13-11-27(12-14-28)10-1-2-15-30-18-8-6-17-7-9-22(29)26-20(17)16-18/h3-9,16H,1-2,10-15H2,(H,26,29)
 CH$LINK: CAS 129722-25-4
 CH$LINK: INCHIKEY CDONPRYEWWPREK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.84 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 446.1397
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fdk-5900000000-21502fed4b80401cd160
 PK$NUM_PEAK: 43
 PK$PEAK: m/z int. rel.int.
@@ -50,7 +49,7 @@ PK$PEAK: m/z int. rel.int.
   101.0378 0.7 46
   108.9849 0.7 46
   111.0004 0.6 39
-  116.0496 7 463
+  116.0496 7.0 463
   117.0573 3.4 224
   118.0644 3.7 244
   125.0119 0.5 33
@@ -60,7 +59,7 @@ PK$PEAK: m/z int. rel.int.
   144.9613 2.2 145
   146.0588 1.1 72
   151.0171 0.9 59
-  152.0257 8 529
+  152.0257 8.0 529
   153.0332 4.2 277
   158.9757 0.7 46
   162.0536 0.8 52
@@ -71,7 +70,7 @@ PK$PEAK: m/z int. rel.int.
   172.9673 1.6 105
   173.9856 1.5 99
   174.0542 0.8 52
-  188.0037 4 264
+  188.0037 4.0 264
   193.0498 0.6 39
   200.0007 1.9 125
   212.9972 0.8 52

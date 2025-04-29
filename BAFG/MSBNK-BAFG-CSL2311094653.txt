@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311094653
 RECORD_TITLE: 4-Acetamidoantipyrine; LC-ESI-QTOF; MS2; 20 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 4-Acetamidoantipyrine
-CH$COMPOUND_CLASS: Pharmaceutical; Metabolite; Transformation_product
+CH$COMPOUND_CLASS: Pharmaceutical; Metabolite; Transformation_product; Transformation_product-Metabolite
 CH$FORMULA: C13H15N3O2
 CH$EXACT_MASS: 245.1164
 CH$SMILES: CN1N(C(=O)C(=C1C)NC(C)=O)c2ccccc2
 CH$IUPAC: InChI=1S/C13H15N3O2/c1-9-12(14-10(2)17)13(18)16(15(9)3)11-7-5-4-6-8-11/h4-8H,1-3H3,(H,14,17)
 CH$LINK: CAS 83-15-8
 CH$LINK: INCHIKEY OIAGWXKSCXPNNZ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000087; Organic compounds; Organoheterocyclic compounds; Azoles; Pyrazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,21 +30,20 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.586 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 246.1237
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fb9-0090000000-d796696896813d8af510
 PK$NUM_PEAK: 12
 PK$PEAK: m/z int. rel.int.
-  56.0559 17 16
+  56.0559 17.0 16
   83.0643 101.7 100
   94.0672 11.9 11
   104.0515 114.8 113
   145.078 10.2 10
   159.0928 36.7 36
   173.0715 17.3 17
-  187.0873 42 41
+  187.0873 42.0 41
   204.1145 670.2 663
   213.0903 17.6 17
   228.1143 1008.7 999
-  246.1248 447 442
+  246.1248 447.0 442
 //

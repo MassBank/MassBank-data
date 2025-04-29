@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095391
 RECORD_TITLE: Venlafaxine; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Venlafaxine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C17H27NO2
@@ -15,6 +14,7 @@ CH$SMILES: CN(C)CC(c1ccc(cc1)OC)C2(CCCCC2)O
 CH$IUPAC: InChI=1S/C17H27NO2/c1-18(2)13-16(17(19)11-5-4-6-12-17)14-7-9-15(20-3)10-8-14/h7-10,16,19H,4-6,11-13H2,1-3H3
 CH$LINK: CAS 93413-69-5
 CH$LINK: INCHIKEY PNVNVHUZROJLTJ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000041; Organic compounds; Benzenoids; Benzene and substituted derivatives; Biphenyls and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.626 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 278.2115
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4i-9400000000-fd1aa044d8001a180fa6
 PK$NUM_PEAK: 30
 PK$PEAK: m/z int. rel.int.
-  42.0436 2 32
-  43.0498 1 16
+  42.0436 2.0 32
+  43.0498 1.0 16
   51.0271 0.8 13
   58.0718 60.7 999
   65.0433 5.8 95
@@ -49,10 +48,10 @@ PK$PEAK: m/z int. rel.int.
   103.0558 2.2 36
   104.0644 1.8 29
   106.0419 1.8 29
-  107.0495 2 32
+  107.0495 2.0 32
   115.0551 11.6 190
   116.0636 2.2 36
-  117.0694 1 16
+  117.0694 1.0 16
   121.0652 27.4 450
   127.0554 1.5 24
   128.0631 2.9 47

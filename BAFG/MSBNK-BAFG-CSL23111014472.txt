@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111014472
 RECORD_TITLE: Bis(2-isopropylphenyl) phenyl phosphate; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Bis(2-isopropylphenyl) phenyl phosphate
 CH$FORMULA: C24H27O4P
 CH$EXACT_MASS: 410.1647
@@ -14,6 +13,7 @@ CH$SMILES: CC(C)C1=CC=CC=C1OP(=O)(OC2=CC=CC=C2)OC3=CC=CC=C3C(C)C
 CH$IUPAC: InChI=1S/C24H27O4P/c1-18(2)21-14-8-10-16-23(21)27-29(25,26-20-12-6-5-7-13-20)28-24-17-11-9-15-22(24)19(3)4/h5-19H,1-4H3
 CH$LINK: CAS 69500-29-4
 CH$LINK: INCHIKEY RMNODSGCFHVNDC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000324; Organic compounds; Lipids and lipid-like molecules; Fatty Acyls; Fatty acid esters
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 17.429 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 411.172
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ufu-8930000000-f62e2c3ee5cda2c9fcbc
 PK$NUM_PEAK: 26
 PK$PEAK: m/z int. rel.int.
@@ -38,16 +37,16 @@ PK$PEAK: m/z int. rel.int.
   51.0229 8.6 34
   65.0385 21.2 84
   77.0389 154.7 619
-  91.0545 210 840
-  95.049 8 32
+  91.0545 210.0 840
+  95.049 8.0 32
   105.0443 2.8 11
-  115.0539 3 12
+  115.0539 3.0 12
   127.0538 3.3 13
   138.9936 3.3 13
   151.0541 27.1 108
   152.0626 249.6 999
-  153.0699 56 224
-  157.0045 3 12
+  153.0699 56.0 224
+  157.0045 3.0 12
   165.0695 3.9 15
   168.0572 76.8 307
   175.0152 9.2 36

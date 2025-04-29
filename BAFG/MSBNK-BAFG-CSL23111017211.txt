@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111017211
 RECORD_TITLE: Fluxapyroxad; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Fluxapyroxad
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C18H12F5N3O
@@ -15,6 +14,7 @@ CH$SMILES: Cn1cc(c(n1)C(F)F)C(=O)Nc2ccccc2c3cc(c(c(c3)F)F)F
 CH$IUPAC: InChI=1S/C18H12F5N3O/c1-26-8-11(16(25-26)17(22)23)18(27)24-14-5-3-2-4-10(14)9-6-12(19)15(21)13(20)7-9/h2-8,17H,1H3,(H,24,27)
 CH$LINK: CAS 907204-31-3
 CH$LINK: INCHIKEY SXSGXWCSHSVPGB-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000285; Organic compounds; Benzenoids; Benzene and substituted derivatives; Anilides
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.239 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 380.0828
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udm-9000000000-e5c255fb81b45fed4861
 PK$NUM_PEAK: 8
 PK$PEAK: m/z int. rel.int.
@@ -39,7 +38,7 @@ PK$PEAK: m/z int. rel.int.
   41.9983 1.5 299
   48.0001 1.9 379
   49.0077 2.4 479
-  50.0034 5 999
+  50.0034 5.0 999
   63.0234 1.9 379
   65.0136 1.4 279
   91.0285 2.1 419

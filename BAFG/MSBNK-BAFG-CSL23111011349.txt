@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111011349
 RECORD_TITLE: Meclofenamic acid; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Meclofenamic acid
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C14H11Cl2NO2
@@ -15,6 +14,7 @@ CH$SMILES: Cc1ccc(c(c1Cl)Nc2ccccc2C(=O)O)Cl
 CH$IUPAC: InChI=1S/C14H11Cl2NO2/c1-8-6-7-10(15)13(12(8)16)17-11-5-3-2-4-9(11)14(18)19/h2-7,17H,1H3,(H,18,19)
 CH$LINK: CAS 644-62-2
 CH$LINK: INCHIKEY SBDNJUWAMKYJOX-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000176; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzoic acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.705 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 294.0094
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-001i-9000000000-32874d291424ed99e860
 PK$NUM_PEAK: 2
 PK$PEAK: m/z int. rel.int.

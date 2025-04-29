@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016567
 RECORD_TITLE: Octyl hydrogen sulfate; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Octyl hydrogen sulfate
 CH$FORMULA: C8H18O4S
 CH$EXACT_MASS: 210.0926
@@ -14,6 +13,7 @@ CH$SMILES: CCCCCCCCOS(=O)(=O)O
 CH$IUPAC: InChI=1S/C8H18O4S/c1-2-3-4-5-6-7-8-12-13(9,10)11/h2-8H2,1H3,(H,9,10,11)
 CH$LINK: CAS 110-11-2
 CH$LINK: INCHIKEY UZZYXUGECOQHPU-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002863; Organic compounds; Organohalogen compounds; Vinyl halides; Vinyl chlorides
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,12 +29,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.41 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 209.0853
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0002-9000000000-983ec4fa7071355c5ed3
 PK$NUM_PEAK: 4
 PK$PEAK: m/z int. rel.int.
-  79.9579 492 187
+  79.9579 492.0 187
   95.9529 100.2 38
   96.9609 2627.9 999
   209.0857 98.6 37

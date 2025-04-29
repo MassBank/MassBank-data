@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311095121
 RECORD_TITLE: Desmethylranitidine; LC-ESI-QTOF; MS2; 140 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Desmethylranitidine
-CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product
+CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product; Transformation_product-Metabolite
 CH$FORMULA: C12H20N4O3S
 CH$EXACT_MASS: 300.1256
 CH$SMILES: CNCC1=CC=C(O1)CSCCNC(=C[N+](=O)[O-])NC
 CH$IUPAC: InChI=1S/C12H20N4O3S/c1-13-7-10-3-4-11(19-10)9-20-6-5-15-12(14-2)8-16(17)18/h3-4,8,13-15H,5-7,9H2,1-2H3
 CH$LINK: CAS 66357-25-3
 CH$LINK: INCHIKEY WZLBVRXZNDXPPW-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002449; Organic compounds; Organic nitrogen compounds; Organonitrogen compounds; Amines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,14 +30,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.769 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 301.1329
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ue9-9000000000-a04cef0a6008ea7f25c5
 PK$NUM_PEAK: 22
 PK$PEAK: m/z int. rel.int.
   45.9899 0.4 133
   51.0316 2.6 865
-  53.0464 3 999
+  53.0464 3.0 999
   54.0408 0.9 299
   55.0318 0.6 199
   55.0439 0.5 166
@@ -49,7 +48,7 @@ PK$PEAK: m/z int. rel.int.
   68.0539 0.6 199
   68.9816 0.6 199
   74.0126 0.4 133
-  77.0407 3 999
+  77.0407 3.0 999
   78.0357 0.6 199
   80.052 1.5 499
   81.0397 1.1 366

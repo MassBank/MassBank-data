@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111014800
 RECORD_TITLE: Phenothiazine; LC-ESI-QTOF; MS2; 150 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Phenothiazine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C12H9NS
@@ -15,6 +14,7 @@ CH$SMILES: C1=CC=C2C(=C1)NC3=CC=CC=C3S2
 CH$IUPAC: InChI=1S/C12H9NS/c1-3-7-11-9(5-1)13-10-6-2-4-8-12(10)14-11/h1-8,13H
 CH$LINK: CAS 92-84-2
 CH$LINK: INCHIKEY WJFKNYWRSNBZNX-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001322; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives; Pyridinecarboxylic acids and derivatives
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,18 +30,17 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.113 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 200.0529
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ik9-9000000000-df7e86b6c3f40c024695
 PK$NUM_PEAK: 31
 PK$PEAK: m/z int. rel.int.
   35.9987 1.2 75
-  37.0067 5 314
+  37.0067 5.0 314
   38.014 2.8 175
   39.0219 2.5 157
   43.97 1.1 69
   44.9783 2.1 131
-  49.0062 5 314
+  49.0062 5.0 314
   50.0142 15.9 999
   51.0221 4.5 282
   52.017 0.6 37

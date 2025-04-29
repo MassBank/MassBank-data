@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311094329
 RECORD_TITLE: Losartan; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Losartan
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C22H23ClN6O
@@ -15,6 +14,7 @@ CH$SMILES: CCCCc1nc(c(n1Cc2ccc(cc2)c3ccccc3c4n[nH]nn4)CO)Cl
 CH$IUPAC: InChI=1S/C22H23ClN6O/c1-2-3-8-20-24-21(23)19(14-30)29(20)13-15-9-11-16(12-10-15)17-6-4-5-7-18(17)22-25-27-28-26-22/h4-7,9-12,30H,2-3,8,13-14H2,1H3,(H,25,26,27,28)
 CH$LINK: CAS 114798-26-4
 CH$LINK: INCHIKEY PSIFNNKUMBGKDQ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000041; Organic compounds; Benzenoids; Benzene and substituted derivatives; Biphenyls and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.819 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 423.1695
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-0900000000-0dd28758b32773085997
 PK$NUM_PEAK: 59
 PK$PEAK: m/z int. rel.int.
@@ -53,7 +52,7 @@ PK$PEAK: m/z int. rel.int.
   125.0383 5.5 67
   126.0457 5.4 66
   127.0539 12.6 154
-  128.0505 5 61
+  128.0505 5.0 61
   128.0629 2.2 27
   129.045 1.1 13
   137.0384 4.1 50
@@ -64,7 +63,7 @@ PK$PEAK: m/z int. rel.int.
   142.0295 1.7 20
   149.0381 2.3 28
   150.0466 23.1 283
-  151.0549 62 760
+  151.0549 62.0 760
   152.0622 81.4 999
   153.0612 11.1 136
   154.0663 2.3 28

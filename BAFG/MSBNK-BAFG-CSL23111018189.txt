@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018189
 RECORD_TITLE: Fenpropidin; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Fenpropidin
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C19H31N
@@ -15,6 +14,7 @@ CH$SMILES: CC(CC1=CC=C(C=C1)C(C)(C)C)CN2CCCCC2
 CH$IUPAC: InChI=1S/C19H31N/c1-16(15-20-12-6-5-7-13-20)14-17-8-10-18(11-9-17)19(2,3)4/h8-11,16H,5-7,12-15H2,1-4H3
 CH$LINK: CAS 67306-00-7
 CH$LINK: INCHIKEY MGNFYQILYYYUBS-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002811; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylpropanes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.471 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 274.2529
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014l-9300000000-34a30d6dc17815bcf2b5
 PK$NUM_PEAK: 32
 PK$PEAK: m/z int. rel.int.
@@ -40,14 +39,14 @@ PK$PEAK: m/z int. rel.int.
   37.0075 23.8 85
   38.015 18.5 66
   39.0233 96.7 347
-  41.0387 17 61
+  41.0387 17.0 61
   50.015 13.4 48
   51.0232 45.2 162
   52.0309 4.1 14
   56.0496 4.9 17
   61.0072 8.3 29
   62.0148 11.5 41
-  63.0227 32 115
+  63.0227 32.0 115
   65.0386 133.1 478
   74.0152 7.9 28
   75.0221 8.2 29
@@ -56,7 +55,7 @@ PK$PEAK: m/z int. rel.int.
   78.0461 27.9 100
   79.054 6.2 22
   84.0804 4.2 15
-  89.0382 52 187
+  89.0382 52.0 187
   91.0543 267.6 962
   102.0461 19.3 69
   103.054 20.5 73

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107938
 RECORD_TITLE: Lomefloxacin; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Lomefloxacin
 CH$COMPOUND_CLASS: Pharmaceutical; Antimicrobial
 CH$FORMULA: C17H19F2N3O3
@@ -15,6 +14,7 @@ CH$SMILES: CCn1cc(c(=O)c2c1c(c(c(c2)F)N3CCNC(C3)C)F)C(=O)O
 CH$IUPAC: InChI=1S/C17H19F2N3O3/c1-3-21-8-11(17(24)25)16(23)10-6-12(18)15(13(19)14(10)21)22-5-4-20-9(2)7-22/h6,8-9,20H,3-5,7H2,1-2H3,(H,24,25)
 CH$LINK: CAS 98079-62-0
 CH$LINK: INCHIKEY ZEKZLJVOYLTDKK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002552; Organic compounds; Organoheterocyclic compounds; Quinolines and derivatives; Quinoline carboxylic acids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.44 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 352.1467
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0gdr-0900000000-87985279af501abc6575
 PK$NUM_PEAK: 43
 PK$PEAK: m/z int. rel.int.
@@ -39,7 +38,7 @@ PK$PEAK: m/z int. rel.int.
   99.0266 0.5 192
   100.02 0.9 345
   106.0216 0.5 192
-  107.029 1 384
+  107.029 1.0 384
   112.0123 1.1 422
   113.023 0.8 307
   114.0338 0.7 268
@@ -47,12 +46,12 @@ PK$PEAK: m/z int. rel.int.
   120.0371 0.6 230
   122.0387 0.6 230
   124.0146 0.9 345
-  125.0208 2 768
+  125.0208 2.0 768
   126.0302 1.6 614
   127.0383 0.9 345
   132.0252 1.5 576
   133.0465 0.8 307
-  134.042 1 384
+  134.042 1.0 384
   138.0274 0.6 230
   139.0237 2.3 883
   140.033 0.7 268
@@ -61,7 +60,7 @@ PK$PEAK: m/z int. rel.int.
   147.0462 0.6 230
   148.0587 0.7 268
   150.0164 1.1 422
-  151.0222 1 384
+  151.0222 1.0 384
   152.0308 1.9 730
   153.0419 0.8 307
   155.0655 0.5 192
@@ -72,7 +71,7 @@ PK$PEAK: m/z int. rel.int.
   167.0416 0.4 153
   173.0527 1.1 422
   174.0582 0.6 230
-  176.0508 1 384
+  176.0508 1.0 384
   178.0361 0.7 268
   179.0433 0.8 307
   191.0419 0.6 230

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018828
 RECORD_TITLE: Flusilazole; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Flusilazole
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C16H15F2N3Si
@@ -15,6 +14,7 @@ CH$SMILES: C[Si](CN1C=NC=N1)(C2=CC=C(C=C2)F)C3=CC=C(C=C3)F
 CH$IUPAC: InChI=1S/C16H15F2N3Si/c1-22(12-21-11-19-10-20-21,15-6-2-13(17)3-7-15)16-8-4-14(18)5-9-16/h2-11H,12H2,1H3
 CH$LINK: CAS 85509-19-9
 CH$LINK: INCHIKEY FQKUGOMFVDPBIZ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000035; Organic compounds; Benzenoids; Benzene and substituted derivatives; Halobenzenes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.729 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 316.1076
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-1910000000-b8b726f07601a7a46d40
 PK$NUM_PEAK: 41
 PK$PEAK: m/z int. rel.int.
@@ -51,8 +50,8 @@ PK$PEAK: m/z int. rel.int.
   127.0529 19.3 12
   139.0529 32.3 20
   141.0687 23.5 15
-  143.0113 41 26
-  149.0209 92 59
+  143.0113 41.0 26
+  149.0209 92.0 59
   151.0398 195.5 126
   152.0612 207.1 133
   153.0695 20.1 12
@@ -75,5 +74,5 @@ PK$PEAK: m/z int. rel.int.
   217.0271 76.1 49
   219.0433 470.2 303
   227.0683 28.6 18
-  231.0432 24 15
+  231.0432 24.0 15
 //

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107592
 RECORD_TITLE: 3,5-Diiodothyronine; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 3,5-Diiodothyronine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C15H13I2NO4
@@ -15,6 +14,7 @@ CH$SMILES: NC(Cc1cc(I)c(Oc2ccc(O)cc2)c(I)c1)C(O)=O
 CH$IUPAC: InChI=1S/C15H13I2NO4/c16-11-5-8(7-13(18)15(20)21)6-12(17)14(11)22-10-3-1-9(19)2-4-10/h1-6,13,19H,7,18H2,(H,20,21)
 CH$LINK: CAS 1041-01-6
 CH$LINK: INCHIKEY ZHSOTLOTTDYIIK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.539 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 525.9007
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fb9-0019600000-e4cd5bd72db183724ab6
 PK$NUM_PEAK: 30
 PK$PEAK: m/z int. rel.int.
@@ -46,7 +45,7 @@ PK$PEAK: m/z int. rel.int.
   225.0766 5.8 13
   226.0845 27.2 63
   232.9443 11.3 26
-  237.0545 13 30
+  237.0545 13.0 30
   255.0643 7.4 17
   287.9271 16.2 37
   311.9612 17.7 41
@@ -63,6 +62,6 @@ PK$PEAK: m/z int. rel.int.
   372.8211 10.6 24
   381.9687 74.8 175
   386.8314 4.8 11
-  466.8623 52 121
+  466.8623 52.0 121
   479.8935 426.4 999
 //

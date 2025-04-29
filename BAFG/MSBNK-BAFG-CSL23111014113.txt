@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111014113
 RECORD_TITLE: Resorcinol bis(diphenyl phosphate); LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Resorcinol bis(diphenyl phosphate)
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C30H24O8P2
@@ -15,6 +14,7 @@ CH$SMILES: C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC(=CC=C3)OP(=O)(OC4=CC=CC=C4)OC
 CH$IUPAC: InChI=1S/C30H24O8P2/c31-39(33-25-14-5-1-6-15-25,34-26-16-7-2-8-17-26)37-29-22-13-23-30(24-29)38-40(32,35-27-18-9-3-10-19-27)36-28-20-11-4-12-21-28/h1-24H
 CH$LINK: CAS 57583-54-7
 CH$LINK: INCHIKEY OWICEWMBIBPFAH-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000408; Organic compounds; Organic acids and derivatives; Organic phosphoric acids and derivatives; Phosphate esters
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 15.87 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 575.1019
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0v00-1950000000-373e5179bfd015671032
 PK$NUM_PEAK: 152
 PK$PEAK: m/z int. rel.int.
@@ -39,7 +38,7 @@ PK$PEAK: m/z int. rel.int.
   46.9677 0.8 21
   49.0067 0.5 13
   50.015 1.8 49
-  51.0228 9 246
+  51.0228 9.0 246
   63.0229 1.5 41
   65.0382 1.9 52
   74.0152 1.3 35
@@ -51,10 +50,10 @@ PK$PEAK: m/z int. rel.int.
   89.0386 2.2 60
   91.0547 1.3 35
   92.0258 1.5 41
-  95.0489 1 27
+  95.0489 1.0 27
   98.0152 1.3 35
   99.0233 1.2 32
-  101.0386 1 27
+  101.0386 1.0 27
   102.046 3.5 95
   103.0544 0.8 21
   105.0448 0.9 24
@@ -73,8 +72,8 @@ PK$PEAK: m/z int. rel.int.
   127.0545 4.8 131
   128.062 12.1 331
   129.0334 0.4 10
-  129.0689 1 27
-  130.0412 1 27
+  129.0689 1.0 27
+  130.0412 1.0 27
   131.0491 2.4 65
   133.0196 2.4 65
   138.046 0.7 19
@@ -93,13 +92,13 @@ PK$PEAK: m/z int. rel.int.
   153.0708 0.9 24
   154.0446 0.6 16
   154.9896 0.7 19
-  155.0502 3 82
+  155.0502 3.0 82
   156.0138 0.4 10
   156.0573 3.1 84
-  157.0206 3 82
-  157.0645 1 27
+  157.0206 3.0 82
+  157.0645 1.0 27
   159.0363 1.5 41
-  163.0552 1 27
+  163.0552 1.0 27
   164.0601 0.8 21
   165.0701 2.7 73
   168.0572 20.8 569
@@ -107,7 +106,7 @@ PK$PEAK: m/z int. rel.int.
   170.0748 0.6 16
   173.0159 2.4 65
   174.023 0.4 10
-  175.0159 1 27
+  175.0159 1.0 27
   175.03 0.8 21
   176.0623 1.6 43
   177.0105 5.2 142
@@ -129,7 +128,7 @@ PK$PEAK: m/z int. rel.int.
   199.0366 0.5 13
   199.0544 0.7 19
   200.0623 6.6 180
-  201.0092 1 27
+  201.0092 1.0 27
   201.0711 4.2 114
   202.018 0.5 13
   202.0783 11.5 314
@@ -142,9 +141,9 @@ PK$PEAK: m/z int. rel.int.
   211.0601 0.5 13
   212.0639 0.5 13
   213.0121 0.8 21
-  213.0712 9 246
+  213.0712 9.0 246
   214.0793 2.5 68
-  215.0268 2 54
+  215.0268 2.0 54
   215.0865 12.8 350
   216.0935 0.6 16
   218.0736 2.9 79
@@ -158,7 +157,7 @@ PK$PEAK: m/z int. rel.int.
   225.0707 10.5 287
   226.0789 20.2 552
   227.0869 2.4 65
-  228.0938 1 27
+  228.0938 1.0 27
   229.0075 2.1 57
   229.0659 1.2 32
   231.0285 3.1 84
@@ -184,7 +183,7 @@ PK$PEAK: m/z int. rel.int.
   289.1031 2.7 73
   298.0791 1.8 49
   299.0864 1.2 32
-  300.0962 6 164
+  300.0962 6.0 164
   302.109 1.1 30
   305.0934 0.5 13
 //

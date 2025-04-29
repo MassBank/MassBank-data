@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111014422
 RECORD_TITLE: Bisphenol-A bis(diphenyl phosphate); LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Bisphenol-A bis(diphenyl phosphate)
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C39H34O8P2
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)(C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC=CC=C3)C4=CC=C(C=C4)OP(=
 CH$IUPAC: InChI=1S/C39H34O8P2/c1-39(2,31-23-27-37(28-24-31)46-48(40,42-33-15-7-3-8-16-33)43-34-17-9-4-10-18-34)32-25-29-38(30-26-32)47-49(41,44-35-19-11-5-12-20-35)45-36-21-13-6-14-22-36/h3-30H,1-2H3
 CH$LINK: CAS 5945-33-5
 CH$LINK: INCHIKEY BQPNUOYXSVUVMY-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000369; Organic compounds; Benzenoids; Benzene and substituted derivatives; Diphenylmethanes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 17.714 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 693.1802
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-0019000000-85c5756e6e93014db88c
 PK$NUM_PEAK: 13
 PK$PEAK: m/z int. rel.int.
@@ -44,7 +43,7 @@ PK$PEAK: m/z int. rel.int.
   251.0471 7.8 22
   255.0568 5.4 15
   273.0689 9.7 28
-  291.0782 4 11
+  291.0782 4.0 11
   327.079 22.3 65
   339.0789 16.6 48
   367.1109 341.4 999

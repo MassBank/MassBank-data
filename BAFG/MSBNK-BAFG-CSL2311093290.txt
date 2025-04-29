@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311093290
 RECORD_TITLE: Candesartan; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Candesartan
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C24H20N6O3
@@ -15,6 +14,7 @@ CH$SMILES: CCOc1nc2cccc(C(O)=O)c2n1Cc3ccc(cc3)c4ccccc4c5n[nH]nn5
 CH$IUPAC: InChI=1S/C24H20N6O3/c1-2-33-24-25-20-9-5-8-19(23(31)32)21(20)30(24)14-15-10-12-16(13-11-15)17-6-3-4-7-18(17)22-26-28-29-27-22/h3-13H,2,14H2,1H3,(H,31,32)(H,26,27,28,29)
 CH$LINK: CAS 139481-59-7
 CH$LINK: INCHIKEY HTQMVQVXFRQIKW-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001553; Organic compounds; Lipids and lipid-like molecules; Prenol lipids; Triterpenoids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.001 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 441.167
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-052f-0972000000-84679d1e23262ac5a55a
 PK$NUM_PEAK: 59
 PK$PEAK: m/z int. rel.int.
@@ -47,7 +46,7 @@ PK$PEAK: m/z int. rel.int.
   166.075 2.9 22
   167.0845 11.3 89
   173.0351 4.7 37
-  177.0636 7 55
+  177.0636 7.0 55
   178.0773 35.9 282
   179.077 9.1 71
   180.0811 47.2 371
@@ -69,7 +68,7 @@ PK$PEAK: m/z int. rel.int.
   220.0989 15.5 122
   233.0705 2.2 17
   233.1082 6.4 50
-  234.1157 22 173
+  234.1157 22.0 173
   235.1219 69.3 545
   262.1117 1.8 14
   263.1298 65.2 513
@@ -91,7 +90,7 @@ PK$PEAK: m/z int. rel.int.
   336.0955 1.6 12
   337.0987 12.7 100
   338.1062 43.7 344
-  339.117 2 15
-  348.1027 4 31
+  339.117 2.0 15
+  348.1027 4.0 31
   349.1071 27.7 218
 //

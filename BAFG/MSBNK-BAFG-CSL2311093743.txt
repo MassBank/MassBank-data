@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311093743
 RECORD_TITLE: Mitomycin A; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Mitomycin A
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C16H19N3O6
@@ -15,6 +14,7 @@ CH$SMILES: COC1=C(C)C(=O)C2=C([C@H](COC(N)=O)[C@]3(OC)[C@@H]4N[C@@H]4CN23)C1=O
 CH$IUPAC: InChI=1S/C16H19N3O6/c1-6-11(20)10-9(12(21)13(6)23-2)7(5-25-15(17)22)16(24-3)14-8(18-14)4-19(10)16/h7-8,14,18H,4-5H2,1-3H3,(H2,17,22)/t7-,8+,14+,16-/m0/s1
 CH$LINK: CAS 4055-39-4
 CH$LINK: INCHIKEY HYFMSAFINFJTFH-VBWVXDOLSA-N
+CH$LINK: ChemOnt CHEMONTID:0000390; Organic compounds; Organoheterocyclic compounds; Indoles and derivatives; Indolequinones
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.046 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 350.1347
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-056r-0490000000-1b5ab64612928749923f
 PK$NUM_PEAK: 109
 PK$PEAK: m/z int. rel.int.
@@ -48,7 +47,7 @@ PK$PEAK: m/z int. rel.int.
   129.0559 0.7 14
   129.0703 0.7 14
   130.0654 2.2 45
-  131.0644 2 41
+  131.0644 2.0 41
   132.043 0.6 12
   132.0707 1.7 35
   134.059 0.5 10
@@ -61,7 +60,7 @@ PK$PEAK: m/z int. rel.int.
   145.0788 1.2 24
   146.059 0.6 12
   147.0651 1.2 24
-  154.066 1 20
+  154.066 1.0 20
   155.0605 1.2 24
   155.0712 0.7 14
   156.0678 5.5 113
@@ -74,9 +73,9 @@ PK$PEAK: m/z int. rel.int.
   167.076 0.5 10
   168.069 0.9 18
   169.077 3.3 68
-  170.083 3 62
+  170.083 3.0 62
   171.0665 1.4 29
-  171.0926 3 62
+  171.0926 3.0 62
   172.0766 1.9 39
   173.0795 0.5 10
   174.0555 1.1 22
@@ -89,10 +88,10 @@ PK$PEAK: m/z int. rel.int.
   184.0678 3.9 80
   185.0703 3.3 68
   186.0566 1.1 22
-  186.0785 3 62
+  186.0785 3.0 62
   187.0604 2.1 43
   188.0438 0.5 10
-  188.0704 1 20
+  188.0704 1.0 20
   189.0778 2.1 43
   190.0888 0.7 14
   192.0645 0.6 12
@@ -112,7 +111,7 @@ PK$PEAK: m/z int. rel.int.
   211.0859 4.1 84
   212.0624 1.4 29
   212.0944 1.4 29
-  213.0652 7 145
+  213.0652 7.0 145
   214.0491 0.8 16
   214.0737 22.3 462
   215.08 2.1 43
@@ -128,7 +127,7 @@ PK$PEAK: m/z int. rel.int.
   229.0968 27.5 569
   230.0421 0.8 16
   230.0796 1.7 35
-  231.0742 1 20
+  231.0742 1.0 20
   232.06 0.6 12
   239.0823 1.8 37
   240.089 0.6 12
@@ -137,7 +136,7 @@ PK$PEAK: m/z int. rel.int.
   243.0751 2.4 49
   244.0845 4.1 84
   245.0872 0.8 16
-  246.0736 1 20
+  246.0736 1.0 20
   255.0772 48.2 999
   256.0855 1.1 22
   257.0919 26.5 549

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111015997
 RECORD_TITLE: Nadide; LC-ESI-QTOF; MS2; 20 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Nadide
 CH$COMPOUND_CLASS: Natural_product
 CH$FORMULA: C21H27N7O14P2
@@ -15,6 +14,7 @@ CH$SMILES: [O-]P(OC[C@H]1O[C@@H]([N+]2=CC=CC(C(N)=O)=C2)[C@H](O)[C@@H]1O)(OP(O)(
 CH$IUPAC: InChI=1S/C21H27N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1-4,7-8,10-11,13-16,20-21,29-32H,5-6H2,(H5-,22,23,24,25,33,34,35,36,37)/t10-,11?,13-,14?,15-,16?,20-,21?/m1/s1
 CH$LINK: CAS 53-84-9
 CH$LINK: INCHIKEY BAWFJGJZGIEFAR-HIBWLZFTSA-N
+CH$LINK: ChemOnt CHEMONTID:0003468; Organic compounds; Nucleosides, nucleotides, and analogues; (5'->5')-dinucleotides
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 2.094 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 664.1164
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-03di-0000069000-b907b972d1ad1941d1e7
 PK$NUM_PEAK: 7
 PK$PEAK: m/z int. rel.int.
-  136.0629 1 20
+  136.0629 1.0 20
   232.0828 1.2 24
   348.0794 0.8 16
   428.038 4.7 94

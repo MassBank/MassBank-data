@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311093348
 RECORD_TITLE: Estrone 3-methyl ether; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Estrone 3-methyl ether
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C19H24O2
@@ -15,6 +14,7 @@ CH$SMILES: C[C@]12CC[C@@H]3c4ccc(cc4CC[C@H]3[C@@H]1CCC2=O)OC
 CH$IUPAC: InChI=1S/C19H24O2/c1-19-10-9-15-14-6-4-13(21-2)11-12(14)3-5-16(15)17(19)7-8-18(19)20/h4,6,11,15-17H,3,5,7-10H2,1-2H3/t15-,16-,17+,19+/m1/s1
 CH$LINK: CAS 1624-62-0
 CH$LINK: INCHIKEY BCWWDWHFBMPLFQ-VXNCWWDNSA-N
+CH$LINK: ChemOnt CHEMONTID:0001466; Organic compounds; Lipids and lipid-like molecules; Steroids and steroid derivatives; Estrane steroids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,15 +30,14 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.549 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 285.1849
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00or-4900000000-655205a97c287b5fcc04
 PK$NUM_PEAK: 33
 PK$PEAK: m/z int. rel.int.
   65.044 3.3 169
   75.0253 0.5 25
   76.0352 0.8 41
-  77.042 9 463
+  77.042 9.0 463
   78.0487 6.2 319
   89.0403 3.9 200
   91.0554 4.7 242
@@ -58,14 +57,14 @@ PK$PEAK: m/z int. rel.int.
   139.0532 0.9 46
   141.0704 1.1 56
   150.0479 0.4 20
-  151.0553 2 102
-  152.0622 5 257
+  151.0553 2.0 102
+  152.0622 5.0 257
   153.071 1.4 72
   163.0546 0.6 30
-  164.0622 1 51
+  164.0622 1.0 51
   165.0707 2.8 144
   167.0868 0.4 20
   177.0705 0.4 20
-  178.0808 1 51
+  178.0808 1.0 51
   189.0691 0.4 20
 //

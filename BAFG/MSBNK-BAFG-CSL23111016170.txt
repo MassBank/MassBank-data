@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016170
 RECORD_TITLE: N-ethyl-4-menthane-3-carboxamide; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: N-ethyl-4-menthane-3-carboxamide
 CH$COMPOUND_CLASS: Food_additive; Personal_care_product
 CH$FORMULA: C13H25NO
@@ -15,6 +14,7 @@ CH$SMILES: CCNC(=O)C1CC(CCC1C(C)C)C
 CH$IUPAC: InChI=1S/C13H25NO/c1-5-14-13(15)12-8-10(4)6-7-11(12)9(2)3/h9-12H,5-8H2,1-4H3,(H,14,15)
 CH$LINK: CAS 39711-79-0
 CH$LINK: INCHIKEY VUNOFAIHSALQQH-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001549; Organic compounds; Lipids and lipid-like molecules; Prenol lipids; Monoterpenoids
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,17 +30,16 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.775 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 212.2009
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-052f-9000000000-69c7a3948883123f2531
 PK$NUM_PEAK: 50
 PK$PEAK: m/z int. rel.int.
-  37.0069 3 26
+  37.0069 3.0 26
   38.0021 2.4 21
   38.0149 2.6 22
   39.0227 21.5 188
   41.0385 37.2 326
-  42.0336 2 17
+  42.0336 2.0 17
   43.0183 2.2 19
   43.0539 10.8 94
   44.0131 101.9 893
@@ -71,15 +70,15 @@ PK$PEAK: m/z int. rel.int.
   83.0847 11.3 99
   84.0803 2.3 20
   91.0535 12.4 108
-  93.0686 5 43
+  93.0686 5.0 43
   94.0645 2.4 21
   95.0486 1.2 10
   95.0847 6.8 59
-  97.1 6 52
+  97.1 6.0 52
   98.0594 7.1 62
   100.0748 10.3 90
   105.0691 4.6 40
-  107.0848 3 26
+  107.0848 3.0 26
   108.0801 2.1 18
   112.0746 1.7 14
   122.0956 1.5 13

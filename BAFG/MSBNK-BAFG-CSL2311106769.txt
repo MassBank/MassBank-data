@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311106769
 RECORD_TITLE: Salbutamol; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Salbutamol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C13H21NO3
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)(NCC(c1cc(CO)c(O)cc1)O)C
 CH$IUPAC: InChI=1S/C13H21NO3/c1-13(2,3)14-7-12(17)9-4-5-11(16)10(6-9)8-15/h4-6,12,14-17H,7-8H2,1-3H3
 CH$LINK: CAS 18559-94-9
 CH$LINK: INCHIKEY NDAUXUAQIAJITI-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000033; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzyl alcohols
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.69 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 240.1594
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-007k-2900000000-9904987358964d2c59f3
 PK$NUM_PEAK: 31
 PK$PEAK: m/z int. rel.int.
@@ -45,10 +44,10 @@ PK$PEAK: m/z int. rel.int.
   91.0557 25.1 288
   93.0706 11.1 127
   94.0664 2.1 24
-  103.0547 15 172
+  103.0547 15.0 172
   104.0502 0.9 10
   105.0583 3.7 42
-  106.0656 3 34
+  106.0656 3.0 34
   107.0491 2.2 25
   117.0572 2.7 31
   118.0649 7.4 85
@@ -58,7 +57,7 @@ PK$PEAK: m/z int. rel.int.
   130.0648 31.9 366
   131.0484 6.7 77
   131.072 1.7 19
-  133.0523 28 321
+  133.0523 28.0 321
   135.068 1.9 21
   136.0749 1.6 18
   146.0607 1.5 17

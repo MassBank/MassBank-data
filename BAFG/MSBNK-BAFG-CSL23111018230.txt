@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018230
 RECORD_TITLE: Picoxystrobin; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Picoxystrobin
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C18H16F3NO4
@@ -15,6 +14,7 @@ CH$SMILES: COC=C(C1=CC=CC=C1COC2=CC=CC(=N2)C(F)(F)F)C(=O)OC
 CH$IUPAC: InChI=1S/C18H16F3NO4/c1-24-11-14(17(23)25-2)13-7-4-3-6-12(13)10-26-16-9-5-8-15(22-16)18(19,20)21/h3-9,11H,10H2,1-2H3
 CH$LINK: CAS 117428-22-5
 CH$LINK: INCHIKEY IBSNKSODLGJUMQ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000075; Organic compounds; Organoheterocyclic compounds; Diazines; Pyrimidines and pyrimidine derivatives
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,17 +30,16 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.935 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 368.1104
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-4900000000-83257c39757b67069c8b
 PK$NUM_PEAK: 17
 PK$PEAK: m/z int. rel.int.
   39.0233 6.2 16
   50.0155 10.1 26
-  51.0233 9 23
+  51.0233 9.0 23
   63.0231 10.4 26
   65.0387 19.4 50
-  74.015 15 38
+  74.015 15.0 38
   76.0309 72.6 188
   77.0387 85.2 220
   78.0465 4.5 11
@@ -51,5 +50,5 @@ PK$PEAK: m/z int. rel.int.
   115.0538 83.4 216
   116.0626 4.1 10
   128.0612 9.8 25
-  131.0484 4 10
+  131.0484 4.0 10
 //

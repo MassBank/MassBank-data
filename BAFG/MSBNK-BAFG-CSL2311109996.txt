@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109996
 RECORD_TITLE: Doxepin; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Doxepin
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C19H21NO
@@ -15,6 +14,7 @@ CH$SMILES: CN(C)CCC=C1C2=CC=CC=C2COC3=CC=CC=C31
 CH$IUPAC: InChI=1S/C19H21NO/c1-20(2)13-7-11-17-16-9-4-3-8-15(16)14-21-19-12-6-5-10-18(17)19/h3-6,8-12H,7,13-14H2,1-2H3
 CH$LINK: CAS 1668-19-5
 CH$LINK: INCHIKEY ODQWQRRAPPTVAG-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0003194; Organic compounds; Organometallic compounds; Organometalloid compounds; Organosilicon compounds
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.447 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 280.1696
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4l-1930000000-6948ff4e7863adc8b8ef
 PK$NUM_PEAK: 53
 PK$PEAK: m/z int. rel.int.
@@ -56,7 +55,7 @@ PK$PEAK: m/z int. rel.int.
   142.0791 54.1 95
   143.0863 6.6 11
   152.063 11.5 20
-  157.065 10 17
+  157.065 10.0 17
   165.0701 78.8 139
   166.078 50.8 89
   167.086 93.3 164
@@ -64,8 +63,8 @@ PK$PEAK: m/z int. rel.int.
   177.0705 10.4 18
   178.078 96.3 169
   179.0859 94.4 166
-  181.1012 17 29
-  189.0697 7 12
+  181.1012 17.0 29
+  189.0697 7.0 12
   190.078 10.2 17
   191.0857 48.8 86
   192.0938 80.2 141
@@ -82,7 +81,7 @@ PK$PEAK: m/z int. rel.int.
   215.0858 41.8 73
   216.0921 17.5 30
   217.1008 48.1 84
-  219.0804 71 125
+  219.0804 71.0 125
   220.0877 192.9 340
   233.0943 6.5 11
   234.1034 6.9 12

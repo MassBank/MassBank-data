@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311092
 RECORD_TITLE: (2-dodecanoylamino-ethyl)-dimethyl-tetradecyl-ammonium; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: (2-dodecanoylamino-ethyl)-dimethyl-tetradecyl-ammonium
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: [C30H63N2O]+
@@ -15,6 +14,7 @@ CH$SMILES: CCCCCCCCCCCCCC[N+](C)(C)CCNC(=O)CCCCCCCCCCC
 CH$IUPAC: InChI=1S/C30H62N2O/c1-5-7-9-11-13-15-16-17-19-21-23-25-28-32(3,4)29-27-31-30(33)26-24-22-20-18-14-12-10-8-6-2/h5-29H2,1-4H3/p+1
 CH$LINK: CAS 114622-57-0
 CH$LINK: INCHIKEY FFBIRENCNBBTSF-UHFFFAOYSA-O
+CH$LINK: ChemOnt CHEMONTID:0004647; Organic compounds; Benzenoids; Phenols; 1-hydroxy-4-unsubstituted benzenoids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,19 +30,18 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 15.384 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 467.4935
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4m-9000000000-644350f1a300e3b123b5
 PK$NUM_PEAK: 10
 PK$PEAK: m/z int. rel.int.
   44.0584 11.2 999
-  55.0604 2 178
+  55.0604 2.0 178
   57.0752 10.8 963
   67.0568 2.3 205
   71.0883 1.5 133
-  81.0717 1 89
+  81.0717 1.0 89
   85.0538 3.2 285
   95.0852 1.3 115
-  98.0609 8 713
+  98.0609 8.0 713
   226.2153 3.3 294
 //

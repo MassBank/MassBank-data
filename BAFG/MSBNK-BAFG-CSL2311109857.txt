@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109857
 RECORD_TITLE: 2-Phenyl-2-imidazoline; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 2-Phenyl-2-imidazoline
 CH$COMPOUND_CLASS: Pharmaceutical; Industrial_process
 CH$FORMULA: C9H10N2
@@ -15,6 +14,7 @@ CH$SMILES: C1CN=C(N1)C2=CC=CC=C2
 CH$IUPAC: InChI=1S/C9H10N2/c1-2-4-8(5-3-1)9-10-6-7-11-9/h1-5H,6-7H2,(H,10,11)
 CH$LINK: CAS 936-49-2
 CH$LINK: INCHIKEY BKCCAYLNRIRKDJ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000138; Organic compounds; Benzenoids; Phenol ethers; Anisoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.346 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 147.0917
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fb9-9400000000-b1699c35111fdae3dcec
 PK$NUM_PEAK: 8
 PK$PEAK: m/z int. rel.int.

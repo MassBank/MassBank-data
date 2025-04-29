@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095784
 RECORD_TITLE: Baclofen; LC-ESI-QTOF; MS2; 20 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Baclofen
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C10H12ClNO2
@@ -15,6 +14,7 @@ CH$SMILES: NCC(CC(O)=O)c1ccc(Cl)cc1
 CH$IUPAC: InChI=1S/C10H12ClNO2/c11-9-3-1-7(2-4-9)8(6-12)5-10(13)14/h1-4,8H,5-6,12H2,(H,13,14)
 CH$LINK: CAS 1134-47-0
 CH$LINK: INCHIKEY KPYSYYIEGFHWSV-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002224; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives; Hydropyridines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,14 +30,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.336 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 214.0629
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udj-0900000000-9b2c1872d87a8776db13
 PK$NUM_PEAK: 17
 PK$PEAK: m/z int. rel.int.
   77.0409 16.8 94
   115.0539 10.4 58
-  116.0619 9 50
+  116.0619 9.0 50
   125.0146 6.7 37
   141.0004 34.3 193
   143.0483 3.6 20

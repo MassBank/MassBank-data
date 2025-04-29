@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016070
 RECORD_TITLE: Penconazol; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Penconazol
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C13H15Cl2N3
@@ -15,6 +14,7 @@ CH$SMILES: CCCC(CN1C=NC=N1)C2=C(C=C(C=C2)Cl)Cl
 CH$IUPAC: InChI=1S/C13H15Cl2N3/c1-2-3-10(7-18-9-16-8-17-18)12-5-4-11(14)6-13(12)15/h4-6,8-10H,2-3,7H2,1H3
 CH$LINK: CAS 66246-88-6
 CH$LINK: INCHIKEY WKBPZYKAUNRMKP-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000035; Organic compounds; Benzenoids; Benzene and substituted derivatives; Halobenzenes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.845 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 284.0716
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00dr-9200000000-826f0e226c5ec68216ed
 PK$NUM_PEAK: 29
 PK$PEAK: m/z int. rel.int.
@@ -42,8 +41,8 @@ PK$PEAK: m/z int. rel.int.
   50.0153 5.2 10
   51.0232 10.1 20
   61.0075 10.4 20
-  62.0154 40 80
-  63.0233 88 177
+  62.0154 40.0 80
+  63.0233 88.0 177
   70.0405 215.8 435
   72.9844 179.9 362
   74.0152 16.2 32
@@ -60,8 +59,8 @@ PK$PEAK: m/z int. rel.int.
   102.0465 43.1 86
   103.0544 6.5 13
   106.9447 7.1 14
-  123.0001 147 296
+  123.0001 147.0 296
   124.0076 40.6 81
   132.9611 47.1 94
-  158.9764 31 62
+  158.9764 31.0 62
 //

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311106851
 RECORD_TITLE: Ethyl-N-(4-aminophenyl)carbamate; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Ethyl-N-(4-aminophenyl)carbamate
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C9H12N2O2
@@ -15,6 +14,7 @@ CH$SMILES: CCOC(=O)Nc1ccc(cc1)N
 CH$IUPAC: InChI=1S/C9H12N2O2/c1-2-13-9(12)11-8-5-3-7(10)4-6-8/h3-6H,2,10H2,1H3,(H,11,12)
 CH$LINK: CAS 57399-97-0
 CH$LINK: INCHIKEY SABZQUOBNXDLDV-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004714; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylcarbamic acid esters
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.863 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 181.0972
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00l6-9100000000-47e18f8aac57ba217562
 PK$NUM_PEAK: 27
 PK$PEAK: m/z int. rel.int.
@@ -48,7 +47,7 @@ PK$PEAK: m/z int. rel.int.
   75.0258 0.4 11
   77.0417 0.6 17
   78.0347 1.7 50
-  79.0427 2 58
+  79.0427 2.0 58
   80.0517 33.9 999
   81.0585 2.5 73
   90.0344 17.4 512
@@ -57,7 +56,7 @@ PK$PEAK: m/z int. rel.int.
   93.0585 20.9 615
   105.0448 2.2 64
   106.0521 2.3 67
-  107.0606 11 324
+  107.0606 11.0 324
   107.0959 0.4 11
   108.0674 4.9 144
   109.0749 0.4 11

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016390
 RECORD_TITLE: Etofibrate; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Etofibrate
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C18H18ClNO5
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)(C(=O)OCCOC(=O)C1=CN=CC=C1)OC2=CC=C(C=C2)Cl
 CH$IUPAC: InChI=1S/C18H18ClNO5/c1-18(2,25-15-7-5-14(19)6-8-15)17(22)24-11-10-23-16(21)13-4-3-9-20-12-13/h3-9,12H,10-11H2,1-2H3
 CH$LINK: CAS 31637-97-5
 CH$LINK: INCHIKEY XXRVYAFBUDSLJX-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000417; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenoxyacetic acid derivatives
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.631 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 364.0946
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0092-9300000000-b888aa6621e4f8446123
 PK$NUM_PEAK: 30
 PK$PEAK: m/z int. rel.int.
@@ -40,9 +39,9 @@ PK$PEAK: m/z int. rel.int.
   45.0325 4.3 16
   50.0139 5.3 20
   51.0219 15.2 58
-  52.0172 4 15
+  52.0172 4.0 15
   53.0375 12.2 47
-  55.017 82 317
+  55.017 82.0 317
   65.0376 3.2 12
   69.0322 22.6 87
   70.0405 5.9 22
@@ -63,6 +62,6 @@ PK$PEAK: m/z int. rel.int.
   122.0209 4.5 17
   124.038 182.9 707
   129.0082 4.8 18
-  139.0041 6 23
+  139.0041 6.0 23
   141.0082 4.7 18
 //

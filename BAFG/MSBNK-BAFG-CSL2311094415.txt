@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311094415
 RECORD_TITLE: Aclonifen; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Aclonifen
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C12H9ClN2O3
@@ -15,6 +14,7 @@ CH$SMILES: Nc1c(Cl)c(Oc2ccccc2)ccc1[N+]([O-])=O
 CH$IUPAC: InChI=1S/C12H9ClN2O3/c13-11-10(18-8-4-2-1-3-5-8)7-6-9(12(11)14)15(16)17/h1-7H,14H2
 CH$LINK: CAS 74070-46-5
 CH$LINK: INCHIKEY DDBMQDADIHOWIC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004155; Organic compounds; Benzenoids; Benzene and substituted derivatives; Diphenylethers
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.815 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 265.0374
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-001i-2910000000-4a2d81650271ae9d9dc7
 PK$NUM_PEAK: 50
 PK$PEAK: m/z int. rel.int.
@@ -55,7 +54,7 @@ PK$PEAK: m/z int. rel.int.
   128.0486 1.9 33
   128.0614 4.9 85
   129.0577 0.7 12
-  131.0495 1 17
+  131.0495 1.0 17
   138.0337 7.2 125
   139.0417 11.6 201
   140.0488 1.4 24
@@ -75,12 +74,12 @@ PK$PEAK: m/z int. rel.int.
   174.01 1.9 33
   181.0525 2.6 45
   182.0599 57.4 999
-  183.0675 14 243
+  183.0675 14.0 243
   190.0168 1.4 24
   190.0434 1.3 22
   193.0402 0.8 13
   194.0483 4.4 76
-  203.0141 1 17
+  203.0141 1.0 17
   216.0198 1.3 22
   217.0289 16.8 292
   218.0374 2.5 43

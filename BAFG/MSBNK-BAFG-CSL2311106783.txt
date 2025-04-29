@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311106783
 RECORD_TITLE: 6-Acetylcodeine; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 6-Acetylcodeine
 CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product
 CH$FORMULA: C20H23NO4
@@ -15,6 +14,7 @@ CH$SMILES: CC(=O)OC1C=CC2C3CC4=C5C2(C1OC5=C(C=C4)OC)CCN3C
 CH$IUPAC: InChI=1S/C20H23NO4/c1-11(22)24-16-7-5-13-14-10-12-4-6-15(23-3)18-17(12)20(13,19(16)25-18)8-9-21(14)2/h4-7,13-14,16,19H,8-10H2,1-3H3
 CH$LINK: CAS 6703-27-1
 CH$LINK: INCHIKEY MFXFQKMUCYHPFQ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000058; Organic compounds; Alkaloids and derivatives; Morphinans
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.207 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 342.17
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0uxr-0900000000-ea119fa823070d1ed04d
 PK$NUM_PEAK: 56
 PK$PEAK: m/z int. rel.int.
@@ -42,7 +41,7 @@ PK$PEAK: m/z int. rel.int.
   75.0266 2.1 13
   76.0339 1.6 10
   77.0415 21.2 136
-  78.0493 5 32
+  78.0493 5.0 32
   89.0402 11.2 72
   90.0476 1.9 12
   91.0558 5.9 37

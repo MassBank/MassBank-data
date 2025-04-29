@@ -1,19 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311091322
 RECORD_TITLE: Perfluorobutanesulfonic acid; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Perfluorobutanesulfonic acid
+CH$COMPOUND_CLASS: Industrial_process; PFAS
 CH$FORMULA: C4HF9O3S
 CH$EXACT_MASS: 299.9503
 CH$SMILES: OS(=O)(C(F)(C(F)(C(F)(C(F)(F)F)F)F)F)=O
 CH$IUPAC: InChI=1S/C4HF9O3S/c5-1(6,3(9,10)11)2(7,8)4(12,13)17(14,15)16/h(H,14,15,16)
 CH$LINK: CAS 375-73-5
 CH$LINK: INCHIKEY JGTNAGYHADQMCM-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001027; Organic compounds; Organohalogen compounds; Alkyl halides; Alkyl fluorides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.254 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 298.943
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-9000000000-9e7a0005f580d1835fc0
 PK$NUM_PEAK: 2
 PK$PEAK: m/z int. rel.int.

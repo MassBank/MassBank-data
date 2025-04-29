@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311093293
 RECORD_TITLE: Candesartan; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Candesartan
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C24H20N6O3
@@ -15,6 +14,7 @@ CH$SMILES: CCOc1nc2cccc(C(O)=O)c2n1Cc3ccc(cc3)c4ccccc4c5n[nH]nn5
 CH$IUPAC: InChI=1S/C24H20N6O3/c1-2-33-24-25-20-9-5-8-19(23(31)32)21(20)30(24)14-15-10-12-16(13-11-15)17-6-3-4-7-18(17)22-26-28-29-27-22/h3-13H,2,14H2,1H3,(H,31,32)(H,26,27,28,29)
 CH$LINK: CAS 139481-59-7
 CH$LINK: INCHIKEY HTQMVQVXFRQIKW-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001553; Organic compounds; Lipids and lipid-like molecules; Prenol lipids; Triterpenoids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.001 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 441.167
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-01pc-0392000000-ab84068a1fea59d46ec5
 PK$NUM_PEAK: 35
 PK$PEAK: m/z int. rel.int.
@@ -41,8 +40,8 @@ PK$PEAK: m/z int. rel.int.
   167.0843 7.9 23
   178.0771 12.4 37
   179.0838 6.1 18
-  180.0799 26 77
-  189.0649 19 56
+  180.0799 26.0 77
+  189.0649 19.0 56
   190.0641 22.5 67
   191.0439 7.6 22
   191.0719 6.7 20
@@ -58,11 +57,11 @@ PK$PEAK: m/z int. rel.int.
   218.0959 23.3 69
   219.0919 6.3 18
   220.0988 27.5 82
-  233.1067 9 26
+  233.1067 9.0 26
   234.1142 25.3 75
   235.1191 231.3 691
   262.1097 3.5 10
-  263.1287 334 999
+  263.1287 334.0 999
   308.119 3.4 10
   309.1026 12.7 37
   310.1106 5.9 17

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311106467
 RECORD_TITLE: Naftifine; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Naftifine
 CH$COMPOUND_CLASS: Pharmaceutical; Fungicide
 CH$FORMULA: C21H21N
@@ -15,6 +14,7 @@ CH$SMILES: CN(C/C=C/c1ccccc1)Cc2cccc3c2cccc3
 CH$IUPAC: InChI=1S/C21H21N/c1-22(16-8-11-18-9-3-2-4-10-18)17-20-14-7-13-19-12-5-6-15-21(19)20/h2-15H,16-17H2,1H3/b11-8+
 CH$LINK: CAS 65472-88-0
 CH$LINK: INCHIKEY OZGNYLLQHRPOBR-DHZHZOJOSA-N
+CH$LINK: ChemOnt CHEMONTID:0000023; Organic compounds; Benzenoids; Naphthalenes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.505 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 288.1747
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-9800000000-ada2ed45ce69ff9f2c43
 PK$NUM_PEAK: 15
 PK$PEAK: m/z int. rel.int.
@@ -41,11 +40,11 @@ PK$PEAK: m/z int. rel.int.
   76.0333 2.7 15
   77.0401 3.9 23
   86.0177 1.7 10
-  87.0247 3 17
+  87.0247 3.0 17
   89.0409 61.7 365
-  91.0563 67 396
+  91.0563 67.0 396
   102.0465 4.5 26
-  113.0381 3 17
+  113.0381 3.0 17
   114.0455 3.1 18
   115.055 168.6 999
   139.0531 11.9 70

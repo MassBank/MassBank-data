@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095228
 RECORD_TITLE: trans-2-Hexenoic acid; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: trans-2-Hexenoic acid
 CH$COMPOUND_CLASS: Food_additive; Metabolite
 CH$FORMULA: C6H10O2
@@ -15,6 +14,7 @@ CH$SMILES: CCC/C=C/C(O)=O
 CH$IUPAC: InChI=1S/C6H10O2/c1-2-3-4-5-6(7)8/h4-5H,2-3H2,1H3,(H,7,8)/b5-4+
 CH$LINK: CAS 13419-69-7
 CH$LINK: INCHIKEY NIONDZDPPYHYKY-SNAWJCMRSA-N
+CH$LINK: ChemOnt CHEMONTID:0003970; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives; Halopyridines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,19 +30,18 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.012 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 115.0754
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4i-9000000000-a60ca2a5a03289704ef0
 PK$NUM_PEAK: 11
 PK$PEAK: m/z int. rel.int.
   38.0131 0.4 11
   42.0188 2.6 73
-  45.0058 6 169
+  45.0058 6.0 169
   45.05 0.7 19
   53.0106 0.8 22
   55.0244 35.3 999
   68.0296 17.2 486
-  69.0377 2 56
+  69.0377 2.0 56
   71.0177 2.1 59
   73.0308 1.7 48
   86.0403 0.8 22

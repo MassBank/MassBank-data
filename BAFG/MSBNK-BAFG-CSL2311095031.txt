@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095031
 RECORD_TITLE: Aspartame; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Aspartame
 CH$COMPOUND_CLASS: Food_additive
 CH$FORMULA: C14H18N2O5
@@ -15,6 +14,7 @@ CH$SMILES: COC(=O)C(Cc1ccccc1)NC(=O)C(N)CC(O)=O
 CH$IUPAC: InChI=1S/C14H18N2O5/c1-21-14(20)11(7-9-5-3-2-4-6-9)16-13(19)10(15)8-12(17)18/h2-6,10-11H,7-8,15H2,1H3,(H,16,19)(H,17,18)
 CH$LINK: CAS 22839-47-0
 CH$LINK: INCHIKEY IAOZJIPTCAWIRG-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,23 +30,22 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.761 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 295.1288
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ukc-5900000000-9ada2772ef3df96d593e
 PK$NUM_PEAK: 23
 PK$PEAK: m/z int. rel.int.
-  43.0267 10 73
+  43.0267 10.0 73
   46.0346 1.6 11
   51.028 1.9 13
   65.0426 5.9 43
   70.0321 12.1 89
-  77.0421 58 427
+  77.0421 58.0 427
   88.041 9.1 67
-  91.0565 63 464
-  93.0709 15 110
+  91.0565 63.0 464
+  93.0709 15.0 110
   102.047 2.8 20
   103.0555 135.6 999
-  105.034 4 29
+  105.034 4.0 29
   115.054 2.3 16
   117.0688 1.6 11
   118.0648 3.7 27
@@ -55,7 +54,7 @@ PK$PEAK: m/z int. rel.int.
   121.0641 12.3 90
   127.0536 4.6 33
   128.0553 7.4 54
-  130.0653 11 81
+  130.0653 11.0 81
   144.0806 2.1 15
   154.0644 2.3 16
 //

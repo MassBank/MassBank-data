@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016333
 RECORD_TITLE: Medroxyprogesterone; LC-ESI-QTOF; MS2; 150 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Medroxyprogesterone
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C22H32O3
@@ -15,6 +14,7 @@ CH$SMILES: CC1CC2C(CCC3(C2CCC3(C(=O)C)O)C)C4(C1=CC(=O)CC4)C
 CH$IUPAC: InChI=1S/C22H32O3/c1-13-11-16-17(20(3)8-5-15(24)12-19(13)20)6-9-21(4)18(16)7-10-22(21,25)14(2)23/h12-13,16-18,25H,5-11H2,1-4H3
 CH$LINK: CAS 520-85-4
 CH$LINK: INCHIKEY FRQMUZJSZHZSGN-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0003569; Organic compounds; Lipids and lipid-like molecules; Steroids and steroid derivatives; Pregnane steroids
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.524 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 345.2424
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0v0c-9300000000-6c140bd06904c61f38d6
 PK$NUM_PEAK: 43
 PK$PEAK: m/z int. rel.int.
@@ -53,18 +52,18 @@ PK$PEAK: m/z int. rel.int.
   65.0385 5.6 433
   66.0456 0.4 30
   67.055 0.9 69
-  74.0144 1 77
+  74.0144 1.0 77
   77.0389 12.9 999
   78.0466 1.5 116
   79.0545 2.2 170
   89.0384 2.3 178
   91.0539 4.1 317
   102.0476 1.8 139
-  103.0548 1 77
+  103.0548 1.0 77
   105.0706 0.4 30
   107.0493 0.7 54
   115.0547 5.2 402
-  126.0461 1 77
+  126.0461 1.0 77
   127.055 1.8 139
   128.0618 3.2 247
   129.0693 0.5 38

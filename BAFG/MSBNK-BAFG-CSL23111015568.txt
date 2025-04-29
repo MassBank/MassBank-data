@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111015568
 RECORD_TITLE: Basic yellow 28; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Basic yellow 28
 CH$COMPOUND_CLASS: Pigment
 CH$FORMULA: [C20H24N3O]+
@@ -15,6 +14,7 @@ CH$SMILES: CC1(C2=CC=CC=C2[N+](=C1C=NN(C)C3=CC=C(C=C3)OC)C)C
 CH$IUPAC: InChI=1S/C20H24N3O/c1-20(2)17-8-6-7-9-18(17)22(3)19(20)14-21-23(4)15-10-12-16(24-5)13-11-15/h6-14H,1-5H3/q+1
 CH$LINK: CAS 54060-92-3
 CH$LINK: INCHIKEY VRAOBFWNUBUCRN-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000211; Organic compounds; Organoheterocyclic compounds; Indoles and derivatives
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.082 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 322.1914
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0006-6900000000-2138200bbde6b2410e17
 PK$NUM_PEAK: 24
 PK$PEAK: m/z int. rel.int.
@@ -57,6 +56,6 @@ PK$PEAK: m/z int. rel.int.
   143.0727 53.3 158
   144.0809 335.5 999
   145.0883 53.3 158
-  158.0961 46 136
+  158.0961 46.0 136
   169.076 19.2 57
 //

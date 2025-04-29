@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311093844
 RECORD_TITLE: Celiprolol; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Celiprolol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C20H33N3O4
@@ -15,6 +14,7 @@ CH$SMILES: CCN(CC)C(=O)NC1=CC(=C(C=C1)OCC(CNC(C)(C)C)O)C(=O)C
 CH$IUPAC: InChI=1S/C20H33N3O4/c1-7-23(8-2)19(26)22-15-9-10-18(17(11-15)14(3)24)27-13-16(25)12-21-20(4,5)6/h9-11,16,21,25H,7-8,12-13H2,1-6H3,(H,22,26)
 CH$LINK: CAS 56980-93-9
 CH$LINK: INCHIKEY JOATXPAWOHTVSZ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001831; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Carbonyl compounds
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.532 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 380.2544
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a6r-9100000000-91f4e31f306aa5df7635
 PK$NUM_PEAK: 41
 PK$PEAK: m/z int. rel.int.
@@ -40,7 +39,7 @@ PK$PEAK: m/z int. rel.int.
   44.0588 1.5 66
   52.0249 0.4 17
   56.0557 22.7 999
-  57.076 7 308
+  57.076 7.0 308
   58.0705 0.8 35
   65.0433 3.9 171
   72.0476 3.4 149
@@ -74,6 +73,6 @@ PK$PEAK: m/z int. rel.int.
   120.0437 0.6 26
   128.0487 0.4 17
   130.0643 0.6 26
-  132.0442 1 44
+  132.0442 1.0 44
   133.0517 0.4 17
 //

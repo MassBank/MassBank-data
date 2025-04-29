@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018835
 RECORD_TITLE: Flusilazole; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Flusilazole
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C16H15F2N3Si
@@ -15,6 +14,7 @@ CH$SMILES: C[Si](CN1C=NC=N1)(C2=CC=C(C=C2)F)C3=CC=C(C=C3)F
 CH$IUPAC: InChI=1S/C16H15F2N3Si/c1-22(12-21-11-19-10-20-21,15-6-2-13(17)3-7-15)16-8-4-14(18)5-9-16/h2-11H,12H2,1H3
 CH$LINK: CAS 85509-19-9
 CH$LINK: INCHIKEY FQKUGOMFVDPBIZ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000035; Organic compounds; Benzenoids; Benzene and substituted derivatives; Halobenzenes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.729 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 316.1076
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0i00-2900000000-c4f6ddf3fddc8bfd3844
 PK$NUM_PEAK: 59
 PK$PEAK: m/z int. rel.int.
@@ -52,7 +51,7 @@ PK$PEAK: m/z int. rel.int.
   91.0533 76.1 174
   99.005 10.7 24
   101.0369 7.2 16
-  102.0449 9 20
+  102.0449 9.0 20
   103.0531 25.8 59
   105.015 6.1 13
   105.0692 10.9 24
@@ -73,7 +72,7 @@ PK$PEAK: m/z int. rel.int.
   151.0532 95.2 218
   152.0613 135.6 310
   157.0286 23.9 54
-  159.0592 12 27
+  159.0592 12.0 27
   162.0456 5.4 12
   163.0535 119.8 274
   164.0614 155.7 356

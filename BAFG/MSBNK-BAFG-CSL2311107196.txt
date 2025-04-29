@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311107196
 RECORD_TITLE: Losartan carboxylic acid; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Losartan carboxylic acid
-CH$COMPOUND_CLASS: Pharmaceutical
+CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product-Metabolite
 CH$FORMULA: C22H21ClN6O2
 CH$EXACT_MASS: 436.1415
 CH$SMILES: CCCCc1nc(Cl)c(n1Cc2ccc(cc2)c3ccccc3c4n[nH]nn4)C(O)=O
 CH$IUPAC: InChI=1S/C22H21ClN6O2/c1-2-3-8-18-24-20(23)19(22(30)31)29(18)13-14-9-11-15(12-10-14)16-6-4-5-7-17(16)21-25-27-28-26-21/h4-7,9-12H,2-3,8,13H2,1H3,(H,30,31)(H,25,26,27,28)
 CH$LINK: CAS 124750-92-1
 CH$LINK: INCHIKEY ZEUXAIYYDDCIRX-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000041; Organic compounds; Benzenoids; Benzene and substituted derivatives; Biphenyls and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.786 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 437.1487
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0536-0930000000-00f078e25f8d6adf56c3
 PK$NUM_PEAK: 28
 PK$PEAK: m/z int. rel.int.
@@ -39,19 +38,19 @@ PK$PEAK: m/z int. rel.int.
   80.0516 2.1 11
   115.0549 3.7 19
   129.0444 2.5 13
-  140.0501 11 58
+  140.0501 11.0 58
   141.0692 2.3 12
   151.0549 4.7 25
   152.062 10.9 58
   153.0703 57.9 309
   163.0544 14.4 77
-  164.0624 3 16
+  164.0624 3.0 16
   165.0697 4.8 25
   166.0654 5.1 27
   167.0731 8.3 44
   168.0689 1.9 10
   177.07 1.9 10
-  178.0781 82 438
+  178.0781 82.0 438
   179.0737 18.8 100
   180.0817 186.8 999
   181.0776 2.5 13

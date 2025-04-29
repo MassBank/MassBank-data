@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018438
 RECORD_TITLE: Methadone; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Methadone
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C21H27NO
@@ -15,6 +14,7 @@ CH$SMILES: CCC(=O)C(CC(C)N(C)C)(C1=CC=CC=C1)C2=CC=CC=C2
 CH$IUPAC: InChI=1S/C21H27NO/c1-5-20(23)21(16-17(2)22(3)4,18-12-8-6-9-13-18)19-14-10-7-11-15-19/h6-15,17H,5,16H2,1-4H3
 CH$LINK: CAS 76-99-3
 CH$LINK: INCHIKEY USSIQXCVUWKGNF-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000369; Organic compounds; Benzenoids; Benzene and substituted derivatives; Diphenylmethanes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.79 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 310.2166
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fvi-9720000000-d9a4afade840abfe9ab8
 PK$NUM_PEAK: 36
 PK$PEAK: m/z int. rel.int.
   39.0227 26.5 23
-  50.0147 29 25
+  50.0147 29.0 25
   51.0229 203.9 178
   63.0224 12.4 10
   65.0382 137.8 120
@@ -46,7 +45,7 @@ PK$PEAK: m/z int. rel.int.
   91.054 410.5 359
   102.0459 19.1 16
   103.0534 43.2 37
-  105.0356 59 51
+  105.0356 59.0 51
   115.054 293.9 257
   116.0614 12.3 10
   126.0458 13.5 11

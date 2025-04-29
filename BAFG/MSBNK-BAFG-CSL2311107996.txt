@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107996
 RECORD_TITLE: Triphenylphosphine sulfide; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Triphenylphosphine sulfide
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C18H15PS
@@ -15,6 +14,7 @@ CH$SMILES: S=[P](c1ccccc1)(c2ccccc2)c3ccccc3
 CH$IUPAC: InChI=1S/C18H15PS/c20-19(16-10-4-1-5-11-16,17-12-6-2-7-13-17)18-14-8-3-9-15-18/h1-15H
 CH$LINK: CAS 3878-45-3
 CH$LINK: INCHIKEY VYNGFCUGSYEOOZ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001814; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylphosphines and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 14.508 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 295.0705
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-114i-4900000000-71ea9dd7b0037792667e
 PK$NUM_PEAK: 33
 PK$PEAK: m/z int. rel.int.
@@ -45,7 +44,7 @@ PK$PEAK: m/z int. rel.int.
   75.0248 0.4 20
   77.0413 1.8 91
   79.983 1.7 86
-  80.9908 4 203
+  80.9908 4.0 203
   87.023 0.5 25
   89.0402 2.3 117
   100.0379 0.4 20
@@ -55,7 +54,7 @@ PK$PEAK: m/z int. rel.int.
   113.0404 1.1 56
   115.0537 5.2 265
   126.0463 2.2 112
-  131.0033 1 50
+  131.0033 1.0 50
   133.0201 1.4 71
   138.0488 0.5 25
   138.9747 0.5 25
@@ -63,8 +62,8 @@ PK$PEAK: m/z int. rel.int.
   150.0461 1.8 91
   151.0542 7.3 372
   152.0619 14.1 718
-  156.0114 1 50
-  157.0188 7 356
+  156.0114 1.0 50
+  157.0188 7.0 356
   180.0126 0.8 40
   181.019 5.5 280
   183.0372 2.7 137

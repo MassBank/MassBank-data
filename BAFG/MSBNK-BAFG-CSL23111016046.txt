@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111016046
 RECORD_TITLE: Octhilinone; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Octhilinone
-CH$COMPOUND_CLASS: Fungicide; Antimicrobial
+CH$COMPOUND_CLASS: Fungicide; Antimicrobial; Biocide
 CH$FORMULA: C11H19NOS
 CH$EXACT_MASS: 213.1187
 CH$SMILES: CCCCCCCCN1C(=O)C=CS1
 CH$IUPAC: InChI=1S/C11H19NOS/c1-2-3-4-5-6-7-9-12-11(13)8-10-14-12/h8,10H,2-7,9H2,1H3
 CH$LINK: CAS 26530-20-1
 CH$LINK: INCHIKEY JPMIIZHYYWMHDT-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000095; Organic compounds; Organoheterocyclic compounds; Azoles; Thiazoles
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.855 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 214.126
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4r-9000000000-6cc01fc3572cd37cd107
 PK$NUM_PEAK: 26
 PK$PEAK: m/z int. rel.int.
-  35.9996 2 59
+  35.9996 2.0 59
   37.0074 5.8 171
   38.0026 2.9 85
   38.0155 4.9 145
@@ -51,7 +50,7 @@ PK$PEAK: m/z int. rel.int.
   47.991 1.5 44
   52.0059 0.5 14
   53.002 1.1 32
-  53.0141 1 29
+  53.0141 1.0 29
   55.0184 0.5 14
   55.9717 0.5 14
   56.9797 33.7 999

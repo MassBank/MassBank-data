@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311108357
 RECORD_TITLE: Tiapride; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Tiapride
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C15H24N2O4S
@@ -15,6 +14,7 @@ CH$SMILES: CCN(CC)CCNC(=O)C1=C(C=CC(=C1)S(=O)(=O)C)OC
 CH$IUPAC: InChI=1S/C15H24N2O4S/c1-5-17(6-2)10-9-16-15(18)13-11-12(22(4,19)20)7-8-14(13)21-3/h7-8,11H,5-6,9-10H2,1-4H3,(H,16,18)
 CH$LINK: CAS 51012-32-9
 CH$LINK: INCHIKEY JTVPZMFULRWINT-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004233; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzenesulfonyl compounds
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.856 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 329.153
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-03di-0690000000-c254604460cc1ed1f31e
 PK$NUM_PEAK: 25
 PK$PEAK: m/z int. rel.int.
@@ -42,11 +41,11 @@ PK$PEAK: m/z int. rel.int.
   78.0511 14.2 33
   100.1142 12.2 28
   104.0517 10.9 25
-  105.0591 13 30
+  105.0591 13.0 30
   106.0439 11.4 26
   107.0506 8.3 19
   122.0385 5.6 13
-  132.0452 7 16
+  132.0452 7.0 16
   133.0534 100.9 238
   134.0382 105.2 248
   155.0179 10.5 24

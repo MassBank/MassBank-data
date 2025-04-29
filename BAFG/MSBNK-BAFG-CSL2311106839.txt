@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311106839
 RECORD_TITLE: Acetamiprid; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Acetamiprid
 CH$COMPOUND_CLASS: Insecticide
 CH$FORMULA: C10H11ClN4
@@ -15,6 +14,7 @@ CH$SMILES: CN(Cc1ccc(Cl)nc1)C(C)=NC#N
 CH$IUPAC: InChI=1S/C10H11ClN4/c1-8(14-7-12)15(2)6-9-3-4-10(11)13-5-9/h3-5H,6H2,1-2H3
 CH$LINK: CAS 135410-20-7
 CH$LINK: INCHIKEY WCXDHFDTOYPNIE-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0003970; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives; Halopyridines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,16 +30,15 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.466 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 223.0745
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004m-9500000000-2392523704cae0769909
 PK$NUM_PEAK: 7
 PK$PEAK: m/z int. rel.int.
-  56.0558 22 95
+  56.0558 22.0 95
   65.0428 4.4 19
   72.9878 62.5 270
-  90.0365 139 602
+  90.0365 139.0 602
   91.0434 31.8 137
-  99.0015 138 597
+  99.0015 138.0 597
   126.0116 230.6 999
 //

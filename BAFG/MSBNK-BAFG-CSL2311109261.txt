@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109261
 RECORD_TITLE: 3-Iodoprop-2-yn-1-yl butylcarbamate; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 3-Iodoprop-2-yn-1-yl butylcarbamate
 CH$COMPOUND_CLASS: Fungicide; Personal_care_product
 CH$FORMULA: C8H12INO2
@@ -30,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.443 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 281.9986
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-0900000000-528d3e1ef1c9fd440cac
 PK$NUM_PEAK: 3
 PK$PEAK: m/z int. rel.int.

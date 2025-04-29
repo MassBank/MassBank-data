@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107988
 RECORD_TITLE: Fenpropimorph; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Fenpropimorph
 CH$COMPOUND_CLASS: Pharmaceutical; Fungicide
 CH$FORMULA: C20H33NO
@@ -15,6 +14,7 @@ CH$SMILES: CC(CN1C[C@H](C)O[C@H](C)C1)Cc2ccc(cc2)C(C)(C)C
 CH$IUPAC: InChI=1S/C20H33NO/c1-15(12-21-13-16(2)22-17(3)14-21)11-18-7-9-19(10-8-18)20(4,5)6/h7-10,15-17H,11-14H2,1-6H3/t15?,16-,17+
 CH$LINK: CAS 67564-91-4
 CH$LINK: INCHIKEY RYAUSSKQMZRMAI-ALOPSCKCSA-N
+CH$LINK: ChemOnt CHEMONTID:0002811; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylpropanes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.527 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 304.2635
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-4900000000-2c4889c9d717e4cb00c6
 PK$NUM_PEAK: 19
 PK$PEAK: m/z int. rel.int.
@@ -42,7 +41,7 @@ PK$PEAK: m/z int. rel.int.
   79.057 31.5 52
   89.0401 9.1 15
   91.0567 417.2 694
-  102.0473 7 11
+  102.0473 7.0 11
   103.0549 44.1 73
   104.0627 49.5 82
   105.0702 46.8 77

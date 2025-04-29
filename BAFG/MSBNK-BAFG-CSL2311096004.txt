@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311096004
 RECORD_TITLE: Promethazine; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Promethazine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C17H20N2S
@@ -15,6 +14,7 @@ CH$SMILES: CC(CN1c2ccccc2Sc3c1cccc3)N(C)C
 CH$IUPAC: InChI=1S/C17H20N2S/c1-13(18(2)3)12-19-14-8-4-6-10-16(14)20-17-11-7-5-9-15(17)19/h4-11,13H,12H2,1-3H3
 CH$LINK: CAS 60-87-7
 CH$LINK: INCHIKEY PWWVAXIEGOYWEE-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000310; Organic compounds; Organoheterocyclic compounds; Benzothiazines; Phenothiazines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.995 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 285.142
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-000b-6910000000-404dfe4c23c8cf91a634
 PK$NUM_PEAK: 24
 PK$PEAK: m/z int. rel.int.
@@ -52,7 +51,7 @@ PK$PEAK: m/z int. rel.int.
   171.0302 22.8 55
   193.0919 9.6 23
   197.033 23.8 57
-  198.0422 412 999
+  198.0422 412.0 999
   199.0499 6.1 14
   206.1005 20.5 49
   207.1089 4.2 10

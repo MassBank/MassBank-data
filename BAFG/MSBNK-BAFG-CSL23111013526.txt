@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111013526
 RECORD_TITLE: Sulfadimethoxine; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Sulfadimethoxine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C12H14N4O4S
@@ -15,6 +14,7 @@ CH$SMILES: COC1=NC(=NC(=C1)NS(=O)(=O)C2=CC=C(C=C2)N)OC
 CH$IUPAC: InChI=1S/C12H14N4O4S/c1-19-11-7-10(14-12(15-11)20-2)16-21(17,18)9-5-3-8(13)4-6-9/h3-7H,13H2,1-2H3,(H,14,15,16)
 CH$LINK: CAS 122-11-2
 CH$LINK: INCHIKEY ZZORFUFYDOWNEF-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000031; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzenesulfonamides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.09 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 311.0809
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4i-4911000000-437175f3f2eb2330781b
 PK$NUM_PEAK: 39
 PK$PEAK: m/z int. rel.int.
@@ -45,7 +44,7 @@ PK$PEAK: m/z int. rel.int.
   84.0327 1.7 15
   89.0712 1.6 14
   92.05 102.5 954
-  93.0575 4 37
+  93.0575 4.0 37
   98.0478 1.5 13
   99.0565 4.9 45
   108.0448 105.6 983
@@ -58,7 +57,7 @@ PK$PEAK: m/z int. rel.int.
   126.0674 3.4 31
   127.0504 8.8 81
   139.0403 2.3 21
-  140.0459 2 18
+  140.0459 2.0 18
   141.0535 15.3 142
   145.0629 2.9 27
   154.0605 23.3 216
@@ -70,7 +69,7 @@ PK$PEAK: m/z int. rel.int.
   173.0589 25.3 235
   201.075 1.6 14
   218.0229 20.4 189
-  229.0737 2 18
+  229.0737 2.0 18
   230.0815 9.4 87
   245.1045 22.9 213
   311.0815 42.5 395

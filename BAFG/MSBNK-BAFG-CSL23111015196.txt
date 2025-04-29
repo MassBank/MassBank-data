@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111015196
 RECORD_TITLE: Napropamide; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Napropamide
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C17H21NO2
@@ -15,6 +14,7 @@ CH$SMILES: CCN(CC)C(=O)C(C)Oc1cccc2c1cccc2
 CH$IUPAC: InChI=1S/C17H21NO2/c1-4-18(5-2)17(19)13(3)20-16-12-8-10-14-9-6-7-11-15(14)16/h6-13H,4-5H2,1-3H3
 CH$LINK: CAS 15299-99-7
 CH$LINK: INCHIKEY WXZVAROIGSFCFJ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000023; Organic compounds; Benzenoids; Naphthalenes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.596 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 272.1645
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0kdi-6900000000-63f673ad9c425ee2b9cf
 PK$NUM_PEAK: 43
 PK$PEAK: m/z int. rel.int.
@@ -40,7 +39,7 @@ PK$PEAK: m/z int. rel.int.
   42.0338 0.7 18
   44.0134 4.1 107
   44.0225 0.8 21
-  44.0495 21 552
+  44.0495 21.0 552
   46.0652 0.4 10
   51.0225 0.9 23
   54.0335 0.7 18
@@ -53,12 +52,12 @@ PK$PEAK: m/z int. rel.int.
   72.0804 5.7 149
   74.0963 0.8 21
   75.0232 0.7 18
-  77.0381 5 131
+  77.0381 5.0 131
   78.0463 0.9 23
   86.0593 1.2 31
   89.0376 1.4 36
   91.0535 2.8 73
-  100.0758 1 26
+  100.0758 1.0 26
   100.112 2.1 55
   101.037 0.9 23
   102.0453 3.3 86
@@ -66,7 +65,7 @@ PK$PEAK: m/z int. rel.int.
   116.062 1.8 47
   126.0462 3.8 99
   127.0533 14.4 378
-  128.0613 38 999
+  128.0613 38.0 999
   129.0684 0.6 15
   141.0689 2.7 70
   142.0783 0.4 10

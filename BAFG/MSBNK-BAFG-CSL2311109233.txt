@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109233
 RECORD_TITLE: 5,5-Dimethylhydantoin; LC-ESI-QTOF; MS2; 20 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 5,5-Dimethylhydantoin
 CH$COMPOUND_CLASS: Industrial_process; Personal_care_product
 CH$FORMULA: C5H8N2O2
@@ -15,6 +14,7 @@ CH$SMILES: CC1(C(=O)NC(=O)N1)C
 CH$IUPAC: InChI=1S/C5H8N2O2/c1-5(2)3(8)6-4(9)7-5/h1-2H3,(H2,6,7,8,9)
 CH$LINK: CAS 77-71-4
 CH$LINK: INCHIKEY YIROYDNZEPTFOL-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000250; Organic compounds; Organoheterocyclic compounds; Azolidines; Imidazolidines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 3.47 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 129.0659
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-0900000000-f4a6accebdd6de2c96db
 PK$NUM_PEAK: 1
 PK$PEAK: m/z int. rel.int.

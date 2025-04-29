@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111012571
 RECORD_TITLE: Paroxetine; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Paroxetine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C19H20FNO3
@@ -15,6 +14,7 @@ CH$SMILES: C1CNCC(C1C2=CC=C(C=C2)F)COC3=CC4=C(C=C3)OCO4
 CH$IUPAC: InChI=1S/C19H20FNO3/c20-15-3-1-13(2-4-15)17-7-8-21-10-14(17)11-22-16-5-6-18-19(9-16)24-12-23-18/h1-6,9,14,17,21H,7-8,10-12H2
 CH$LINK: CAS 61869-08-7
 CH$LINK: INCHIKEY AHOUBRCZNHFOSL-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000303; Organic compounds; Organoheterocyclic compounds; Piperidines; Phenylpiperidines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.812 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 330.15
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0api-5900000000-b68fcbc5d4a29a0f2d84
 PK$NUM_PEAK: 59
 PK$PEAK: m/z int. rel.int.
@@ -45,7 +44,7 @@ PK$PEAK: m/z int. rel.int.
   51.0225 0.7 15
   53.0018 0.6 13
   53.0389 0.5 11
-  56.0493 2 45
+  56.0493 2.0 45
   57.0145 0.5 11
   59.0275 0.5 11
   63.0235 0.5 11
@@ -58,7 +57,7 @@ PK$PEAK: m/z int. rel.int.
   75.0231 1.9 42
   77.0385 8.1 182
   80.0492 0.6 13
-  81.0334 2 45
+  81.0334 2.0 45
   82.0653 2.1 47
   83.0293 12.1 272
   89.0384 2.3 51

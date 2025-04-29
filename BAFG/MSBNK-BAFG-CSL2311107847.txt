@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107847
 RECORD_TITLE: 17alpha-Hydroxyprogesterone; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 17alpha-Hydroxyprogesterone
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C21H30O3
@@ -15,6 +14,7 @@ CH$SMILES: CC(=O)[C@@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3CC[C@]12C
 CH$IUPAC: InChI=1S/C21H30O3/c1-13(22)21(24)11-8-18-16-5-4-14-12-15(23)6-9-19(14,2)17(16)7-10-20(18,21)3/h12,16-18,24H,4-11H2,1-3H3/t16-,17+,18+,19+,20+,21+/m1/s1
 CH$LINK: CAS 68-96-2
 CH$LINK: INCHIKEY DBPWSSGDRRHUNT-CEGNMAFCSA-N
+CH$LINK: ChemOnt CHEMONTID:0003569; Organic compounds; Lipids and lipid-like molecules; Steroids and steroid derivatives; Pregnane steroids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.808 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 331.2268
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-9400000000-7f23b789821f78d60e57
 PK$NUM_PEAK: 42
 PK$PEAK: m/z int. rel.int.
-  43.0263 9 296
+  43.0263 9.0 296
   43.0463 0.9 29
   53.044 2.2 72
   55.0225 2.2 72
@@ -54,11 +53,11 @@ PK$PEAK: m/z int. rel.int.
   83.0505 0.7 23
   89.0408 1.5 49
   91.056 13.2 435
-  93.0736 1 32
-  94.0421 1 32
+  93.0736 1.0 32
+  94.0421 1.0 32
   97.0663 4.8 158
   102.0476 1.2 39
-  103.0559 2 65
+  103.0559 2.0 65
   105.0692 1.7 56
   107.0493 1.1 36
   108.056 0.6 19

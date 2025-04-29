@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111017326
 RECORD_TITLE: 2-Methyl-4`-(methylthio)-2-morpholinopropiophenone; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 2-Methyl-4`-(methylthio)-2-morpholinopropiophenone
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C15H21NO2S
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)(C(=O)C1=CC=C(C=C1)SC)N2CCOCC2
 CH$IUPAC: InChI=1S/C15H21NO2S/c1-15(2,16-8-10-18-11-9-16)14(17)12-4-6-13(19-3)7-5-12/h4-7H,8-11H2,1-3H3
 CH$LINK: CAS 71868-10-5
 CH$LINK: INCHIKEY LWRBVKNFOYUCNP-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000011; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Carbohydrates and carbohydrate conjugates
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,24 +30,23 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.548 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 280.1366
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-2900000000-d209a6ea059c89a5f6ed
 PK$NUM_PEAK: 37
 PK$PEAK: m/z int. rel.int.
-  39.0229 2 13
+  39.0229 2.0 13
   41.0387 1.7 11
   42.0341 4.9 31
   44.0492 5.1 33
   44.9794 2.7 17
-  45.0335 2 13
+  45.0335 2.0 13
   65.0383 5.7 37
   70.0648 8.6 56
   77.0383 11.6 75
   78.0462 11.9 77
-  84.0805 3 19
+  84.0805 3.0 19
   88.0747 5.3 34
-  89.0381 2 13
+  89.0381 2.0 13
   91.0541 82.6 539
   102.0453 2.5 16
   103.0537 18.5 120
@@ -56,8 +55,8 @@ PK$PEAK: m/z int. rel.int.
   109.0099 10.1 65
   110.0172 2.4 15
   115.0542 92.4 603
-  116.0611 7 45
-  117.0698 153 999
+  116.0611 7.0 45
+  117.0698 153.0 999
   118.0773 8.1 52
   121.01 16.8 109
   122.018 36.5 238
@@ -66,7 +65,7 @@ PK$PEAK: m/z int. rel.int.
   128.0613 1.8 11
   128.1058 2.3 15
   131.0486 18.9 123
-  134.0177 5 32
+  134.0177 5.0 32
   135.0257 34.6 225
   137.0412 28.7 187
   145.0639 5.2 33

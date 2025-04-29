@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111010409
 RECORD_TITLE: Oxibendazole; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Oxibendazole
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C12H15N3O3
@@ -15,6 +14,7 @@ CH$SMILES: CCCOC1=CC2=C(C=C1)N=C(N2)NC(=O)OC
 CH$IUPAC: InChI=1S/C12H15N3O3/c1-3-6-18-8-4-5-9-10(7-8)14-11(13-9)15-12(16)17-2/h4-5,7H,3,6H2,1-2H3,(H2,13,14,15,16)
 CH$LINK: CAS 20559-55-1
 CH$LINK: INCHIKEY RAOCRURYZCVHMG-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001766; Organic compounds; Lipids and lipid-like molecules; Fatty Acyls; Fatty acyl glycosides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,14 +30,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.663 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 250.1186
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0g33-9200000000-bd0a4daaeb59b28fe5b0
 PK$NUM_PEAK: 54
 PK$PEAK: m/z int. rel.int.
   38.0151 0.4 34
   39.023 1.6 136
-  43.0284 1 85
+  43.0284 1.0 85
   50.0152 1.7 145
   51.0232 5.5 469
   52.0181 2.1 179
@@ -46,14 +45,14 @@ PK$PEAK: m/z int. rel.int.
   53.0386 7.5 640
   54.0335 0.5 42
   62.0147 0.5 42
-  63.0229 1 85
+  63.0229 1.0 85
   64.0178 1.2 102
   65.014 0.9 76
   65.0262 2.9 247
   66.0209 0.9 76
   66.0337 8.2 700
   67.0305 0.6 51
-  67.0411 2 170
+  67.0411 2.0 170
   68.0129 2.9 247
   69.0088 1.6 136
   70.0298 0.5 42
@@ -71,10 +70,10 @@ PK$PEAK: m/z int. rel.int.
   93.0441 4.2 358
   94.0305 0.6 51
   94.0523 0.5 42
-  96.0436 1 85
+  96.0436 1.0 85
   103.029 4.1 350
   104.0392 0.6 51
-  105.046 2 170
+  105.046 2.0 170
   106.0294 5.7 486
   107.0365 0.6 51
   108.0455 1.5 128

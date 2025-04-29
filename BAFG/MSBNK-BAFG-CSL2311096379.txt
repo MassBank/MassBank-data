@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311096379
 RECORD_TITLE: Econazole; LC-ESI-QTOF; MS2; 130 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Econazole
 CH$COMPOUND_CLASS: Pharmaceutical; Fungicide
 CH$FORMULA: C18H15Cl3N2O
@@ -15,6 +14,7 @@ CH$SMILES: Clc1ccc(COC(Cn2ccnc2)c3ccc(Cl)cc3Cl)cc1
 CH$IUPAC: InChI=1S/C18H15Cl3N2O/c19-14-3-1-13(2-4-14)11-24-18(10-23-8-7-22-12-23)16-6-5-15(20)9-17(16)21/h1-9,12,18H,10-11H2
 CH$LINK: CAS 27220-47-9
 CH$LINK: INCHIKEY LEZWWPYKPKIXLL-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002542; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzylethers
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.056 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 381.0323
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-000i-9100000000-670229eea7f6b2eab688
 PK$NUM_PEAK: 15
 PK$PEAK: m/z int. rel.int.
@@ -49,5 +48,5 @@ PK$PEAK: m/z int. rel.int.
   99.0008 61.2 491
   101.0385 1.5 12
   102.0466 1.9 15
-  125.0151 42 337
+  125.0151 42.0 337
 //

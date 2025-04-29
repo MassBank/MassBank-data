@@ -1,17 +1,16 @@
 ACCESSION: MSBNK-BAFG-CSL2311095668
-RECORD_TITLE: Diatrizoate; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+RECORD_TITLE: Diatrizoic acid; LC-ESI-QTOF; MS2; 40 V
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
-CH$NAME: Diatrizoate
+CH$NAME: Diatrizoic acid
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C11H9I3N2O4
 CH$EXACT_MASS: 613.7697
-CH$SMILES: C/C(=N\c1c(c(c(c(c1I)C(=O)O)I)/N=C(/O)\C)I)/O
+CH$SMILES: CC(=O)NC1=C(C(=C(C(=C1I)C(=O)O)I)NC(=O)C)I
 CH$IUPAC: InChI=1S/C11H9I3N2O4/c1-3(17)15-9-6(12)5(11(19)20)7(13)10(8(9)14)16-4(2)18/h1-2H3,(H,15,17)(H,16,18)(H,19,20)
 CH$LINK: CAS 117-96-4
 CH$LINK: INCHIKEY YVPYQUNUQOZFHG-UHFFFAOYSA-N
@@ -30,14 +29,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.549 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 614.7769
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-03e9-0049000000-1c104cf8a37236ae4169
 PK$NUM_PEAK: 5
 PK$PEAK: m/z int. rel.int.
   192.0538 4.2 30
   233.0559 71.6 513
-  318.9545 4 28
+  318.9545 4.0 28
   342.96 1.5 10
   360.9691 139.4 999
 //

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111012638
 RECORD_TITLE: Sildenafil; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Sildenafil
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C22H30N6O4S
@@ -15,6 +14,7 @@ CH$SMILES: CCCC1=NN(C2=C1NC(=NC2=O)C3=C(C=CC(=C3)S(=O)(=O)N4CCN(CC4)C)OCC)C
 CH$IUPAC: InChI=1S/C22H30N6O4S/c1-5-7-17-19-20(27(4)25-17)22(29)24-21(23-19)16-14-15(8-9-18(16)32-6-2)33(30,31)28-12-10-26(3)11-13-28/h8-9,14H,5-7,10-13H2,1-4H3,(H,23,24,29)
 CH$LINK: CAS 139755-83-2
 CH$LINK: INCHIKEY BNRNXUUZRGQAQC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000031; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzenesulfonamides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.283 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 473.1976
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0670-2690000000-9f2015baf67a4f363d91
 PK$NUM_PEAK: 30
 PK$PEAK: m/z int. rel.int.
@@ -41,8 +40,8 @@ PK$PEAK: m/z int. rel.int.
   90.0344 3.2 456
   115.0309 1.1 156
   117.0219 1.5 214
-  118.0309 5 713
-  143.0272 1 142
+  118.0309 5.0 713
+  143.0272 1.0 142
   144.0255 0.4 57
   153.049 0.5 71
   169.0321 0.6 85
@@ -54,7 +53,7 @@ PK$PEAK: m/z int. rel.int.
   196.0414 0.4 57
   196.0741 0.6 85
   199.042 0.6 85
-  209.0474 7 999
+  209.0474 7.0 999
   211.0441 0.5 71
   211.0634 0.4 57
   215.0946 1.5 214

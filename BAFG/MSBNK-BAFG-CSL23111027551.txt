@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111027551
 RECORD_TITLE: Thioxanthen-9-one; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Thioxanthen-9-one
 CH$FORMULA: C13H8OS
 CH$EXACT_MASS: 212.0296
@@ -14,6 +13,7 @@ CH$SMILES: C1=CC=C2C(=C1)C(=O)C3=CC=CC=C3S2
 CH$IUPAC: InChI=1S/C13H8OS/c14-13-9-5-1-3-7-11(9)15-12-8-4-2-6-10(12)13/h1-8H
 CH$LINK: CAS 492-22-8
 CH$LINK: INCHIKEY YRHRIQCWCFGUEQ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001920; Organic compounds; Organoheterocyclic compounds; Triazines; Triazinones
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.479 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 213.0369
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0f89-0900000000-8872cd78e9a8fb2c2ab4
 PK$NUM_PEAK: 18
 PK$PEAK: m/z int. rel.int.
@@ -41,9 +40,9 @@ PK$PEAK: m/z int. rel.int.
   108.0027 10.5 23
   114.0453 7.1 16
   115.0545 65.1 147
-  126.0465 9 20
+  126.0465 9.0 20
   134.0184 22.6 51
-  139.0546 188 425
+  139.0546 188.0 425
   140.062 25.5 57
   141.0696 6.1 13
   150.0466 10.7 24

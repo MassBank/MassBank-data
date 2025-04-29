@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109782
 RECORD_TITLE: Diaveridine; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Diaveridine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C13H16N4O2
@@ -15,6 +14,7 @@ CH$SMILES: COC1=C(C=C(C=C1)CC2=CN=C(N=C2N)N)OC
 CH$IUPAC: InChI=1S/C13H16N4O2/c1-18-10-4-3-8(6-11(10)19-2)5-9-7-16-13(15)17-12(9)14/h3-4,6-7H,5H2,1-2H3,(H4,14,15,16,17)
 CH$LINK: CAS 5355-16-8
 CH$LINK: INCHIKEY LDBTVAXGKYIFHO-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004113; Organic compounds; Benzenoids; Benzene and substituted derivatives; Methoxybenzenes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.966 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 261.1346
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fb9-9200000000-6bbb17ae6a3410ac8b5c
 PK$NUM_PEAK: 56
 PK$PEAK: m/z int. rel.int.
-  41.0414 1 67
+  41.0414 1.0 67
   42.0442 0.4 26
   43.0435 4.3 288
   52.0283 4.8 321
@@ -64,13 +63,13 @@ PK$PEAK: m/z int. rel.int.
   87.0269 0.7 46
   88.0217 0.8 53
   88.038 0.5 33
-  89.0438 7 469
+  89.0438 7.0 469
   90.0396 0.8 53
   90.0503 0.9 60
   91.0576 1.7 113
   92.0509 0.4 26
   99.0279 0.5 33
-  100.0233 1 67
+  100.0233 1.0 67
   101.0435 1.7 113
   102.0461 1.8 120
   103.0551 0.9 60
@@ -82,7 +81,7 @@ PK$PEAK: m/z int. rel.int.
   114.0369 1.7 113
   115.0422 0.9 60
   116.0505 1.2 80
-  117.0615 1 67
+  117.0615 1.0 67
   118.0657 0.6 40
   127.0465 0.6 40
   128.0499 0.7 46

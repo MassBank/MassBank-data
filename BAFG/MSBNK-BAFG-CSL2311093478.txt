@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311093478
 RECORD_TITLE: Tramadol-N-oxide; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Tramadol-N-oxide
-CH$COMPOUND_CLASS: Pharmaceutical
+CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product-Metabolite
 CH$FORMULA: C16H25NO3
 CH$EXACT_MASS: 279.1834
 CH$SMILES: [O-][N+](C)(C)C[C@H]2CCCC[C@]2(O)c1cc(OC)ccc1
 CH$IUPAC: InChI=1S/C16H25NO3/c1-17(2,19)12-14-7-4-5-10-16(14,18)13-8-6-9-15(11-13)20-3/h6,8-9,11,14,18H,4-5,7,10,12H2,1-3H3/t14-,16+/m1/s1
 CH$LINK: CAS 147441-56-3
 CH$LINK: INCHIKEY HBXKSXMNNGHBEA-ZBFHGGJFSA-N
+CH$LINK: ChemOnt CHEMONTID:0000138; Organic compounds; Benzenoids; Phenol ethers; Anisoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.334 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 280.1907
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004l-9400000000-4932b08ed05307257c5b
 PK$NUM_PEAK: 45
 PK$PEAK: m/z int. rel.int.
@@ -71,8 +70,8 @@ PK$PEAK: m/z int. rel.int.
   128.0619 28.9 214
   129.069 8.1 60
   131.0486 5.6 41
-  135.0459 4 29
-  141.0705 4 29
+  135.0459 4.0 29
+  141.0705 4.0 29
   144.0561 10.3 76
   145.0639 3.4 25
   153.0675 1.7 12

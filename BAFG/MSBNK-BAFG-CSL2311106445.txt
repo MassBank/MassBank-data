@@ -1,13 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL2311106445
-RECORD_TITLE: Abamectin-B1a; LC-ESI-QTOF; MS2; 10 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+RECORD_TITLE: Abamectin B1a; LC-ESI-QTOF; MS2; 10 V
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
-CH$NAME: Abamectin-B1a
+CH$NAME: Abamectin B1a
 CH$COMPOUND_CLASS: Insecticide; Pharmaceutical
 CH$FORMULA: C48H72O14
 CH$EXACT_MASS: 872.4922
@@ -15,6 +14,7 @@ CH$SMILES: CC[C@H](C)[C@@H]1[C@H](C=C[C@@]2(O1)C[C@@H]3C[C@H](O2)C/C=C(/[C@H]([C
 CH$IUPAC: InChI=1S/C48H72O14/c1-11-25(2)43-28(5)17-18-47(62-43)23-34-20-33(61-47)16-15-27(4)42(26(3)13-12-14-32-24-55-45-40(49)29(6)19-35(46(51)58-34)48(32,45)52)59-39-22-37(54-10)44(31(8)57-39)60-38-21-36(53-9)41(50)30(7)56-38/h12-15,17-19,25-26,28,30-31,33-45,49-50,52H,11,16,20-24H2,1-10H3/b13-12+,27-15+,32-14+/t25-,26-,28-,30-,31-,33+,34-,35-,36-,37-,38-,39-,40+,41-,42-,43+,44-,45+,47+,48+/m0/s1
 CH$LINK: CAS 65195-55-3
 CH$LINK: INCHIKEY RRZXIRBKKLTSOM-XPNPUAGNSA-N
+CH$LINK: ChemOnt CHEMONTID:0000147; Organic compounds; Phenylpropanoids and polyketides; Macrolides and analogues
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 17.471 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 873.4995
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00di-0000000090-f45bac6452632ae83e23
 PK$NUM_PEAK: 3
 PK$PEAK: m/z int. rel.int.

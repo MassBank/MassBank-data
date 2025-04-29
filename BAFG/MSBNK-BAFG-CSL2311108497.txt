@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311108497
 RECORD_TITLE: Sulfapyridine; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Sulfapyridine
 CH$COMPOUND_CLASS: Antimicrobial; Pharmaceutical
 CH$FORMULA: C11H11N3O2S
@@ -15,6 +14,7 @@ CH$SMILES: C1=CC=NC(=C1)NS(=O)(=O)C2=CC=C(C=C2)N
 CH$IUPAC: InChI=1S/C11H11N3O2S/c12-9-4-6-10(7-5-9)17(15,16)14-11-3-1-2-8-13-11/h1-8H,12H2,(H,13,14)
 CH$LINK: CAS 144-83-2
 CH$LINK: INCHIKEY GECHUMIMRBOMGK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000031; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzenesulfonamides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.55 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 250.0645
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-052f-9700000000-d90fbb487aa69c0d710b
 PK$NUM_PEAK: 18
 PK$PEAK: m/z int. rel.int.
@@ -42,7 +41,7 @@ PK$PEAK: m/z int. rel.int.
   92.0515 89.5 999
   93.0525 12.5 139
   94.0549 9.2 102
-  95.0617 35 390
+  95.0617 35.0 390
   108.0444 76.8 857
   156.0089 13.7 152
   157.0028 2.3 25
@@ -51,6 +50,6 @@ PK$PEAK: m/z int. rel.int.
   167.0574 12.6 140
   168.0649 2.9 32
   169.076 1.2 13
-  183.0767 4 44
+  183.0767 4.0 44
   184.0837 37.7 420
 //

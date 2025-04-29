@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311108950
 RECORD_TITLE: Acetylsulfamethoxazole; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Acetylsulfamethoxazole
-CH$COMPOUND_CLASS: Metabolite; Pharmaceutical
+CH$COMPOUND_CLASS: Metabolite; Pharmaceutical; Transformation_product-Metabolite
 CH$FORMULA: C12H13N3O4S
 CH$EXACT_MASS: 295.0627
 CH$SMILES: CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)NC(=O)C
 CH$IUPAC: InChI=1S/C12H13N3O4S/c1-8-7-12(14-19-8)15-20(17,18)11-5-3-10(4-6-11)13-9(2)16/h3-7H,1-2H3,(H,13,16)(H,14,15)
 CH$LINK: CAS 21312-10-7
 CH$LINK: INCHIKEY GXPIUNZCALHVBA-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000301; Organic compounds; Organoheterocyclic compounds; Benzofurans
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.411 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 296.07
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-05nf-9700000000-3f1c8e92d687844dc484
 PK$NUM_PEAK: 34
 PK$PEAK: m/z int. rel.int.
@@ -52,11 +51,11 @@ PK$PEAK: m/z int. rel.int.
   108.0467 24.6 595
   118.0543 0.4 9
   119.0624 1.7 41
-  131.0607 2 48
+  131.0607 2.0 48
   132.0687 1.2 29
   133.0707 0.8 19
   134.0609 18.1 437
-  136.0757 1 24
+  136.0757 1.0 24
   140.015 0.5 12
   143.0611 1.1 26
   146.0718 8.1 195

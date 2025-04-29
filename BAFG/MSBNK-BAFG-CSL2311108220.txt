@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311108220
 RECORD_TITLE: 2-Hydroxyibuprofen; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 2-Hydroxyibuprofen
 CH$COMPOUND_CLASS: Metabolite; Pharmaceutical
 CH$FORMULA: C13H18O3
@@ -15,6 +14,7 @@ CH$SMILES: CC(C1=CC=C(C=C1)CC(C)(C)O)C(=O)O
 CH$IUPAC: InChI=1S/C13H18O3/c1-9(12(14)15)11-6-4-10(5-7-11)8-13(2,3)16/h4-7,9,16H,8H2,1-3H3,(H,14,15)
 CH$LINK: CAS 51146-55-5
 CH$LINK: INCHIKEY UJHKVYPPCJBOSG-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004151; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives; Hydroxypyridines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.21 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 240.1591
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+NH4]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0aor-1900000000-2ed29a1bf678d7705283
 PK$NUM_PEAK: 11
 PK$PEAK: m/z int. rel.int.

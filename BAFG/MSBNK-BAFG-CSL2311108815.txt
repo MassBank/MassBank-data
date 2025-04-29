@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311108815
 RECORD_TITLE: 1,2,3-trimethoxybenzene; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 1,2,3-trimethoxybenzene
 CH$COMPOUND_CLASS: Food_additive
 CH$FORMULA: C9H12O3
@@ -15,6 +14,7 @@ CH$SMILES: COC1=C(C(=CC=C1)OC)OC
 CH$IUPAC: InChI=1S/C9H12O3/c1-10-7-5-4-6-8(11-2)9(7)12-3/h4-6H,1-3H3
 CH$LINK: CAS 634-36-6
 CH$LINK: INCHIKEY CRUILBNAQILVHZ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001296; Organic compounds; Nucleosides, nucleotides, and analogues; Pyrimidine nucleotides; Pyrimidine nucleotide sugars
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.034 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 169.0859
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-02ij-7900000000-937405483552e5e7e579
 PK$NUM_PEAK: 26
 PK$PEAK: m/z int. rel.int.
@@ -42,7 +41,7 @@ PK$PEAK: m/z int. rel.int.
   68.0317 2.8 451
   77.0417 2.6 418
   78.0509 1.8 290
-  81.0388 1 161
+  81.0388 1.0 161
   83.0535 1.6 257
   93.0348 1.7 273
   94.0447 1.1 177

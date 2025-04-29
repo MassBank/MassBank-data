@@ -1,13 +1,13 @@
 ACCESSION: MSBNK-BAFG-CSL23111012383
 RECORD_TITLE: Tetraoctylphosphonium; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Tetraoctylphosphonium
+CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: [C32H68P]+
 CH$EXACT_MASS: 483.5053
 CH$SMILES: CCCCCCCC[P+](CCCCCCCC)(CCCCCCCC)CCCCCCCC
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 16.405 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 483.5053
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-001i-0059700000-050d97408955384c0a75
 PK$NUM_PEAK: 19
 PK$PEAK: m/z int. rel.int.
@@ -39,7 +38,7 @@ PK$PEAK: m/z int. rel.int.
   201.1772 46.1 55
   215.193 67.3 81
   229.2086 93.4 112
-  243.2241 81 97
+  243.2241 81.0 97
   257.24 61.8 74
   271.2551 49.4 59
   285.2711 130.7 157
@@ -51,6 +50,6 @@ PK$PEAK: m/z int. rel.int.
   369.3654 50.8 61
   371.3807 124.2 149
   383.3814 54.7 65
-  397.3965 200 240
+  397.3965 200.0 240
   483.5049 829.9 999
 //

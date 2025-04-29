@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016912
 RECORD_TITLE: Myclobutanil; LC-ESI-QTOF; MS2; 150 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Myclobutanil
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C15H17ClN4
@@ -15,6 +14,7 @@ CH$SMILES: CCCCC(Cn1cncn1)(C#N)c2ccc(Cl)cc2
 CH$IUPAC: InChI=1S/C15H17ClN4/c1-2-3-8-15(9-17,10-20-12-18-11-19-20)13-4-6-14(16)7-5-13/h4-7,11-12H,2-3,8,10H2,1H3
 CH$LINK: CAS 88671-89-0
 CH$LINK: INCHIKEY HZJKXKUJVSEEFU-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000035; Organic compounds; Benzenoids; Benzene and substituted derivatives; Halobenzenes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.025 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 289.1215
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-03k9-9000000000-28839dfc1df3c056eb4f
 PK$NUM_PEAK: 36
 PK$PEAK: m/z int. rel.int.
   35.9993 0.5 33
-  37.0074 3 199
+  37.0074 3.0 199
   38.0149 2.1 139
   39.023 4.9 326
   42.0211 1.4 93
@@ -49,8 +48,8 @@ PK$PEAK: m/z int. rel.int.
   59.9989 0.8 53
   61.0072 6.9 459
   62.0151 11.4 759
-  63.0228 15 999
-  64.0313 1 66
+  63.0228 15.0 999
+  64.0313 1.0 66
   65.0384 0.8 53
   70.0403 2.4 159
   72.9835 7.3 486

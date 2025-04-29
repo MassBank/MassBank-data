@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111017879
 RECORD_TITLE: Icaridin; LC-ESI-QTOF; MS2; 10 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Icaridin
-CH$COMPOUND_CLASS: Insecticide
+CH$COMPOUND_CLASS: Insecticide; Biocide; Personal_care_product
 CH$FORMULA: C12H23NO3
 CH$EXACT_MASS: 229.1678
 CH$SMILES: CCC(C)OC(=O)N1CCCCC1CCO
 CH$IUPAC: InChI=1S/C12H23NO3/c1-3-10(2)16-12(15)13-8-5-4-6-11(13)7-9-14/h10-11,14H,3-9H2,1-2H3
 CH$LINK: CAS 119515-38-7
 CH$LINK: INCHIKEY QLHULAHOXSSASE-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002213; Organic compounds; Lipids and lipid-like molecules; Glycerophospholipids; Glycerophosphocholines
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.188 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 230.1751
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0089-0900000000-40d1cb2dd264fd0845ce
 PK$NUM_PEAK: 3
 PK$PEAK: m/z int. rel.int.
   130.122 307.9 999
-  156.101 58 188
+  156.101 58.0 188
   174.1116 172.9 560
 //

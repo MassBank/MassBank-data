@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311108032
 RECORD_TITLE: Dextrorphan; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Dextrorphan
 CH$COMPOUND_CLASS: Pharmaceutical; Metabolite
 CH$FORMULA: C17H23NO
@@ -15,6 +14,7 @@ CH$SMILES: CN1CC[C@@]23CCCC[C@@H]2[C@@H]1CC4=C3C=C(C=C4)O
 CH$IUPAC: InChI=1S/C17H23NO/c1-18-9-8-17-7-3-2-4-14(17)16(18)10-12-5-6-13(19)11-15(12)17/h5-6,11,14,16,19H,2-4,7-10H2,1H3/t14-,16+,17+/m1/s1
 CH$LINK: CAS 125-73-5
 CH$LINK: INCHIKEY JAQUASYNZVUNQP-PVAVHDDUSA-N
+CH$LINK: ChemOnt CHEMONTID:0000058; Organic compounds; Alkaloids and derivatives; Morphinans
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.969 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 258.1852
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-1900000000-cdc7b9895e5cd8c75d3e
 PK$NUM_PEAK: 33
 PK$PEAK: m/z int. rel.int.
@@ -52,8 +51,8 @@ PK$PEAK: m/z int. rel.int.
   117.0702 2.4 10
   118.042 3.5 15
   126.0462 9.5 42
-  127.0551 101 448
-  128.0631 225 999
+  127.0551 101.0 448
+  128.0631 225.0 999
   129.0702 34.4 152
   131.0497 38.2 169
   133.0646 4.5 19
@@ -66,6 +65,6 @@ PK$PEAK: m/z int. rel.int.
   153.07 3.6 15
   155.0579 4.6 20
   157.0656 75.8 336
-  165.0699 15 66
+  165.0699 15.0 66
   169.0656 2.4 10
 //

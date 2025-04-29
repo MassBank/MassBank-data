@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018562
 RECORD_TITLE: Dronabinol; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Dronabinol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C21H30O2
@@ -15,6 +14,7 @@ CH$SMILES: CCCCCC1=CC(=C2C3C=C(CCC3C(OC2=C1)(C)C)C)O
 CH$IUPAC: InChI=1S/C21H30O2/c1-5-6-7-8-15-12-18(22)20-16-11-14(2)9-10-17(16)21(3,4)23-19(20)13-15/h11-13,16-17,22H,5-10H2,1-4H3
 CH$LINK: CAS 1972-08-3
 CH$LINK: INCHIKEY CYQFCXCEBYINGO-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0003410; Organic compounds; Organoheterocyclic compounds; Benzopyrans; 1-benzopyrans
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 17.589 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 315.2319
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00ou-9300000000-12dbf598de1042704b93
 PK$NUM_PEAK: 66
 PK$PEAK: m/z int. rel.int.
@@ -39,7 +38,7 @@ PK$PEAK: m/z int. rel.int.
   38.0148 2.8 61
   39.0223 25.9 567
   41.038 28.4 622
-  43.0173 2 43
+  43.0173 2.0 43
   43.0535 2.7 59
   50.0137 1.2 26
   51.0224 7.4 162
@@ -81,7 +80,7 @@ PK$PEAK: m/z int. rel.int.
   127.0536 2.3 50
   128.0601 6.1 133
   129.0697 1.9 41
-  131.0477 3 65
+  131.0477 3.0 65
   141.0682 2.5 54
   144.0553 0.9 19
   145.0634 1.5 32
@@ -92,7 +91,7 @@ PK$PEAK: m/z int. rel.int.
   155.0581 0.6 13
   157.0639 0.6 13
   160.0492 1.9 41
-  161.0564 1 21
+  161.0564 1.0 21
   165.0689 1.1 24
   168.0522 0.6 13
   169.062 0.6 13

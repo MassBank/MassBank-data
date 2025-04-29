@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018375
 RECORD_TITLE: Chlorfenvinfos; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Chlorfenvinfos
 CH$COMPOUND_CLASS: Insecticide
 CH$FORMULA: C12H14Cl3O4P
@@ -15,6 +14,7 @@ CH$SMILES: CCOP(=O)(OCC)OC(=CCl)C1=C(C=C(C=C1)Cl)Cl
 CH$IUPAC: InChI=1S/C12H14Cl3O4P/c1-3-17-20(16,18-4-2)19-12(8-13)10-6-5-9(14)7-11(10)15/h5-8H,3-4H2,1-2H3
 CH$LINK: CAS 470-90-6
 CH$LINK: INCHIKEY FSAVDKDHPDSCTO-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000035; Organic compounds; Benzenoids; Benzene and substituted derivatives; Halobenzenes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.629 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 358.9768
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-5900000000-bf595dc11fa3b711094c
 PK$NUM_PEAK: 11
 PK$PEAK: m/z int. rel.int.
@@ -42,7 +41,7 @@ PK$PEAK: m/z int. rel.int.
   99.0193 8.1 21
   132.9818 54.5 145
   133.9892 18.4 49
-  134.9965 24 64
+  134.9965 24.0 64
   163.0035 8.9 23
   168.9574 22.3 59
   169.9666 373.4 999

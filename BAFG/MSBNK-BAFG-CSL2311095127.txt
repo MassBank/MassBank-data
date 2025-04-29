@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095127
 RECORD_TITLE: Cortisone; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Cortisone
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C21H28O5
@@ -15,6 +14,7 @@ CH$SMILES: C[C@]12CCC(=O)C=C1CC[C@H]3[C@@H]4CC[C@](O)(C(=O)CO)[C@@]4(C)CC(=O)[C@
 CH$IUPAC: InChI=1S/C21H28O5/c1-19-7-5-13(23)9-12(19)3-4-14-15-6-8-21(26,17(25)11-22)20(15,2)10-16(24)18(14)19/h9,14-15,18,22,26H,3-8,10-11H2,1-2H3/t14-,15-,18+,19-,20-,21-/m0/s1
 CH$LINK: CAS 53-06-5
 CH$LINK: INCHIKEY MFYSYFVPBJMHGN-ZPOLXVRWSA-N
+CH$LINK: ChemOnt CHEMONTID:0001295; Organic compounds; Lipids and lipid-like molecules; Steroids and steroid derivatives; Hydroxysteroids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.396 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 361.201
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004l-4900000000-ddcb90d1a88ecc99c26c
 PK$NUM_PEAK: 79
 PK$PEAK: m/z int. rel.int.
@@ -66,14 +65,14 @@ PK$PEAK: m/z int. rel.int.
   126.0492 0.6 23
   127.0564 4.1 160
   128.0642 14.1 552
-  129.0717 8 313
+  129.0717 8.0 313
   130.0792 2.1 82
   131.0522 1.1 43
   131.0878 1.2 47
   132.0588 0.7 27
   133.0672 3.2 125
   141.0717 7.3 285
-  142.08 2 78
+  142.08 2.0 78
   143.0889 1.5 58
   144.0577 0.7 27
   144.0648 0.4 15
@@ -88,7 +87,7 @@ PK$PEAK: m/z int. rel.int.
   153.0725 5.9 231
   154.0799 1.5 58
   155.0632 0.7 27
-  155.0868 2 78
+  155.0868 2.0 78
   157.0691 0.5 19
   157.1051 0.4 15
   159.0822 1.2 47
@@ -96,7 +95,7 @@ PK$PEAK: m/z int. rel.int.
   164.0687 0.6 23
   165.0721 8.2 321
   166.0804 1.8 70
-  167.0885 2 78
+  167.0885 2.0 78
   168.096 0.6 23
   169.0652 0.4 15
   169.1028 0.8 31

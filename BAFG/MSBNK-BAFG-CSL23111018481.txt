@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018481
 RECORD_TITLE: Quinoxyfen; LC-ESI-QTOF; MS2; 130 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Quinoxyfen
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C15H8Cl2FNO
@@ -15,6 +14,7 @@ CH$SMILES: C1=CC(=CC=C1OC2=C3C(=CC(=CC3=NC=C2)Cl)Cl)F
 CH$IUPAC: InChI=1S/C15H8Cl2FNO/c16-9-7-12(17)15-13(8-9)19-6-5-14(15)20-11-3-1-10(18)2-4-11/h1-8H
 CH$LINK: CAS 124495-18-7
 CH$LINK: INCHIKEY WRPIRSINYZBGPK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000011; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Carbohydrates and carbohydrate conjugates
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 15.195 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 308.004
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00di-9100000000-26791603861b31be416f
 PK$NUM_PEAK: 44
 PK$PEAK: m/z int. rel.int.
@@ -44,9 +43,9 @@ PK$PEAK: m/z int. rel.int.
   59.9977 4.3 15
   61.0057 18.7 68
   62.0141 33.5 122
-  63.0217 21 76
-  68.0035 3 10
-  69.0124 11 40
+  63.0217 21.0 76
+  68.0035 3.0 10
+  69.0124 11.0 40
   72.9832 23.5 86
   73.0055 47.2 172
   74.0139 272.9 999
@@ -63,8 +62,8 @@ PK$PEAK: m/z int. rel.int.
   98.0136 99.4 363
   99.0206 52.6 192
   100.0166 18.4 67
-  100.028 6 21
-  107.0261 3 10
+  100.028 6.0 21
+  107.0261 3.0 10
   108.9814 7.4 27
   110.0111 4.3 15
   114.0322 9.4 34

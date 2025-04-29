@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016392
 RECORD_TITLE: Ciprofloxacin; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Ciprofloxacin
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C17H18FN3O3
@@ -15,6 +14,7 @@ CH$SMILES: C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCNCC4)F)C(=O)O
 CH$IUPAC: InChI=1S/C17H18FN3O3/c18-13-7-11-14(8-15(13)20-5-3-19-4-6-20)21(10-1-2-10)9-12(16(11)22)17(23)24/h7-10,19H,1-6H2,(H,23,24)
 CH$LINK: CAS 85721-33-1
 CH$LINK: INCHIKEY MYSWGUAQZAJSOK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002552; Organic compounds; Organoheterocyclic compounds; Quinolines and derivatives; Quinoline carboxylic acids
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.497 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 332.1405
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-001i-0900000000-54a4341eb9b3ff7acbd1
 PK$NUM_PEAK: 26
 PK$PEAK: m/z int. rel.int.
@@ -45,9 +44,9 @@ PK$PEAK: m/z int. rel.int.
   107.0289 1.7 499
   114.0341 0.7 205
   128.0492 1.3 381
-  129.0457 1 293
+  129.0457 1.0 293
   132.0243 3.4 999
-  133.0322 2 587
+  133.0322 2.0 587
   133.0467 0.5 146
   134.0399 0.7 205
   135.047 0.7 205
@@ -59,6 +58,6 @@ PK$PEAK: m/z int. rel.int.
   160.0439 1.2 352
   161.0242 0.5 146
   174.0582 0.6 176
-  187.0303 1 293
+  187.0303 1.0 293
   188.0222 0.7 205
 //

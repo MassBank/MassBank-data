@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107633
 RECORD_TITLE: 1-(o-Tolyl)-biguanide; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 1-(o-Tolyl)-biguanide
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C9H13N5
@@ -15,6 +14,7 @@ CH$SMILES: Cc1ccccc1N=C(N)N=C(N)N
 CH$IUPAC: InChI=1S/C9H13N5/c1-6-4-2-3-5-7(6)13-9(12)14-8(10)11/h2-5H,1H3,(H6,10,11,12,13,14)
 CH$LINK: CAS 93-69-6
 CH$LINK: INCHIKEY SQZCAOHYQSOZCE-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001091; Organic compounds; Benzenoids; Benzene and substituted derivatives; Toluenes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.675 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 192.1244
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0006-9100000000-09e49c006dc9f8c010b9
 PK$NUM_PEAK: 29
 PK$PEAK: m/z int. rel.int.
@@ -53,11 +52,11 @@ PK$PEAK: m/z int. rel.int.
   89.0407 125.1 574
   90.0401 17.5 80
   91.0556 217.6 999
-  92.0504 10 45
+  92.0504 10.0 45
   93.0589 76.4 350
   104.0496 21.5 98
   105.0558 2.8 12
-  106.0655 56 257
+  106.0655 56.0 257
   114.0334 3.1 14
   116.0498 28.8 132
   117.0565 7.7 35

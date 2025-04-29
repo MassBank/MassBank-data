@@ -1,19 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111027541
 RECORD_TITLE: Amisulbrom; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Amisulbrom
+CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C13H13BrFN5O4S2
 CH$EXACT_MASS: 464.9576
 CH$SMILES: CC1=C(C2=C(N1S(=O)(=O)C3=NN(C=N3)S(=O)(=O)N(C)C)C=C(C=C2)F)Br
 CH$IUPAC: InChI=1S/C13H13BrFN5O4S2/c1-8-12(14)10-5-4-9(15)6-11(10)20(8)25(21,22)13-16-7-19(17-13)26(23,24)18(2)3/h4-7H,1-3H3
 CH$LINK: CAS 348635-87-0
 CH$LINK: INCHIKEY BREATYVWRHIPIY-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002497; Organic compounds; Organoheterocyclic compounds; Indoles and derivatives; Indoles
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,14 +30,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 14.781 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 465.9649
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0092-2900000000-ac7afd0efc9720f836d5
 PK$NUM_PEAK: 33
 PK$PEAK: m/z int. rel.int.
-  42.0332 1 56
+  42.0332 1.0 56
   44.0496 0.4 22
-  74.0136 2 112
+  74.0136 2.0 112
   75.0228 10.5 592
   77.037 0.9 50
   83.0296 0.6 33
@@ -65,6 +65,6 @@ PK$PEAK: m/z int. rel.int.
   148.0552 5.2 293
   154.0387 1.4 79
   158.0436 0.7 39
-  159.0461 1 56
+  159.0461 1.0 56
   225.9651 3.8 214
 //

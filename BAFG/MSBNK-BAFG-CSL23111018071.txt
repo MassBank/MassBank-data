@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018071
 RECORD_TITLE: Metrafenone; LC-ESI-QTOF; MS2; 150 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Metrafenone
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C19H21BrO5
@@ -15,6 +14,7 @@ CH$SMILES: CC1=CC(=C(C(=C1C(=O)C2=C(C=CC(=C2C)Br)OC)OC)OC)OC
 CH$IUPAC: InChI=1S/C19H21BrO5/c1-10-9-14(23-4)18(24-5)19(25-6)15(10)17(21)16-11(2)12(20)7-8-13(16)22-3/h7-9H,1-6H3
 CH$LINK: CAS 220899-03-6
 CH$LINK: INCHIKEY AMSPWOYQQAWRRM-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000120; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzophenones
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 15.123 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 409.0645
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ug0-9000000000-c79dfb207c4ad2ac2767
 PK$NUM_PEAK: 52
 PK$PEAK: m/z int. rel.int.
@@ -58,7 +57,7 @@ PK$PEAK: m/z int. rel.int.
   66.0505 1.6 42
   67.0212 2.3 61
   69.0009 0.5 13
-  73.0122 1 26
+  73.0122 1.0 26
   74.0187 6.8 182
   75.027 7.3 195
   76.0346 8.4 224
@@ -71,7 +70,7 @@ PK$PEAK: m/z int. rel.int.
   89.0424 25.3 677
   90.0501 1.9 50
   91.0575 5.4 144
-  93.0011 4 107
+  93.0011 4.0 107
   93.0387 0.6 16
   94.0439 0.9 24
   102.0507 0.5 13
@@ -82,7 +81,7 @@ PK$PEAK: m/z int. rel.int.
   126.0481 0.8 21
   128.9359 0.9 24
   139.057 1.1 29
-  150.0523 1 26
+  150.0523 1.0 26
   151.0552 1.1 29
   152.0638 0.6 16
   154.9513 6.4 171

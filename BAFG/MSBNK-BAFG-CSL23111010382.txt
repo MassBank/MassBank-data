@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111010382
 RECORD_TITLE: Bisphenol A bis(2,3-dihydroxypropyl) ether; LC-ESI-QTOF; MS2; 130 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Bisphenol A bis(2,3-dihydroxypropyl) ether
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C21H28O6
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)(C1=CC=C(C=C1)OCC(CO)O)C2=CC=C(C=C2)OCC(CO)O
 CH$IUPAC: InChI=1S/C21H28O6/c1-21(2,15-3-7-19(8-4-15)26-13-17(24)11-22)16-5-9-20(10-6-16)27-14-18(25)12-23/h3-10,17-18,22-25H,11-14H2,1-2H3
 CH$LINK: CAS 5581-32-8
 CH$LINK: INCHIKEY NISVZEWKUNUGQQ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000369; Organic compounds; Benzenoids; Benzene and substituted derivatives; Diphenylmethanes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.232 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 377.1959
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-9300000000-6aeffe575f4dda24aa20
 PK$NUM_PEAK: 3
 PK$PEAK: m/z int. rel.int.

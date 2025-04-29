@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111019333
 RECORD_TITLE: Florasulam; LC-ESI-QTOF; MS2; 130 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Florasulam
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C12H8F3N5O3S
@@ -15,6 +14,7 @@ CH$SMILES: COC1=NC=C(C2=NC(=NN21)S(=O)(=O)NC3=C(C=CC=C3F)F)F
 CH$IUPAC: InChI=1S/C12H8F3N5O3S/c1-23-12-16-5-8(15)10-17-11(18-20(10)12)24(21,22)19-9-6(13)3-2-4-7(9)14/h2-5,19H,1H3
 CH$LINK: CAS 145701-23-1
 CH$LINK: INCHIKEY QZXATCCPQKOEIH-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000032; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzenesulfonic acids and derivatives
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.723 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 360.0373
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-01q9-9000000000-67c6aa64d81d4604a216
 PK$NUM_PEAK: 38
 PK$PEAK: m/z int. rel.int.
@@ -42,7 +41,7 @@ PK$PEAK: m/z int. rel.int.
   50.0129 1.6 26
   51.0021 3.5 57
   51.02 2.8 45
-  52.0155 5 82
+  52.0155 5.0 82
   53.0104 0.8 13
   56.0035 2.5 41
   57.0107 4.6 75
@@ -64,7 +63,7 @@ PK$PEAK: m/z int. rel.int.
   83.0143 0.6 9
   83.0263 0.8 13
   84.0087 0.8 13
-  87.0071 1 16
+  87.0071 1.0 16
   88.0147 6.3 103
   89.0231 3.9 63
   99.0023 0.7 11
@@ -72,5 +71,5 @@ PK$PEAK: m/z int. rel.int.
   102.0254 1.9 31
   108.0215 2.1 34
   109.0287 5.1 83
-  129.0366 2 32
+  129.0366 2.0 32
 //

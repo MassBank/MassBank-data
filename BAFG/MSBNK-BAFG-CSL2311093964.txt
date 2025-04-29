@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311093964
 RECORD_TITLE: Ranitidine; LC-ESI-QTOF; MS2; 150 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Ranitidine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C13H22N4O3S
@@ -15,6 +14,7 @@ CH$SMILES: CNC(=C[N+](=O)[O-])NCCSCC1=CC=C(O1)CN(C)C
 CH$IUPAC: InChI=1S/C13H22N4O3S/c1-14-13(9-17(18)19)15-6-7-21-10-12-5-4-11(20-12)8-16(2)3/h4-5,9,14-15H,6-8,10H2,1-3H3
 CH$LINK: CAS 66357-35-5
 CH$LINK: INCHIKEY VMXUWOKSQNHOCA-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002449; Organic compounds; Organic nitrogen compounds; Organonitrogen compounds; Amines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.832 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 315.1485
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0zfr-9000000000-0848c3dfd3331f31e2e8
 PK$NUM_PEAK: 38
 PK$PEAK: m/z int. rel.int.
@@ -42,9 +41,9 @@ PK$PEAK: m/z int. rel.int.
   44.999 0.7 158
   51.0283 4.4 999
   53.0436 3.6 817
-  54.0387 2 454
+  54.0387 2.0 454
   54.0506 0.7 158
-  55.0471 1 227
+  55.0471 1.0 227
   56.0536 2.1 476
   57.0484 1.7 385
   57.9908 0.5 113
@@ -63,7 +62,7 @@ PK$PEAK: m/z int. rel.int.
   80.0511 1.1 249
   81.0363 1.5 340
   81.0462 1.5 340
-  82.0535 1 227
+  82.0535 1.0 227
   83.0662 0.4 90
   89.041 0.7 158
   92.0512 0.5 113

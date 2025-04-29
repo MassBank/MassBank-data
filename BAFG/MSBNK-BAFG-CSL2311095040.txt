@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095040
 RECORD_TITLE: Aspartame; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Aspartame
 CH$COMPOUND_CLASS: Food_additive
 CH$FORMULA: C14H18N2O5
@@ -15,6 +14,7 @@ CH$SMILES: COC(=O)C(Cc1ccccc1)NC(=O)C(N)CC(O)=O
 CH$IUPAC: InChI=1S/C14H18N2O5/c1-21-14(20)11(7-9-5-3-2-4-6-9)16-13(19)10(15)8-12(17)18/h2-6,10-11H,7-8,15H2,1H3,(H,16,19)(H,17,18)
 CH$LINK: CAS 22839-47-0
 CH$LINK: INCHIKEY IAOZJIPTCAWIRG-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.761 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 295.1288
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00di-1900000000-7ea6749d4b2eadc26f9e
 PK$NUM_PEAK: 22
 PK$PEAK: m/z int. rel.int.
@@ -40,20 +39,20 @@ PK$PEAK: m/z int. rel.int.
   88.0415 29.4 64
   91.0563 61.4 134
   93.0715 6.3 13
-  103.0551 37 81
+  103.0551 37.0 81
   120.0817 455.1 999
   121.0649 41.4 90
-  129.0687 5 10
+  129.0687 5.0 10
   130.0654 36.9 80
-  131.0493 8 17
+  131.0493 8.0 17
   144.0806 14.5 31
   147.0908 5.8 12
   154.065 6.4 14
-  157.065 8 17
-  163.0744 5 10
+  157.065 8.0 17
+  163.0744 5.0 10
   172.076 18.9 41
   175.0868 26.4 57
-  180.102 11 24
+  180.102 11.0 24
   182.0596 21.4 46
   190.0851 6.1 13
   200.0703 18.7 41

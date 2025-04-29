@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111010410
 RECORD_TITLE: Oxibendazole; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Oxibendazole
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C12H15N3O3
@@ -15,6 +14,7 @@ CH$SMILES: CCCOC1=CC2=C(C=C1)N=C(N2)NC(=O)OC
 CH$IUPAC: InChI=1S/C12H15N3O3/c1-3-6-18-8-4-5-9-10(7-8)14-11(13-9)15-12(16)17-2/h4-5,7H,3,6H2,1-2H3,(H2,13,14,15,16)
 CH$LINK: CAS 20559-55-1
 CH$LINK: INCHIKEY RAOCRURYZCVHMG-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001766; Organic compounds; Lipids and lipid-like molecules; Fatty Acyls; Fatty acyl glycosides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.663 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 250.1186
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ufr-9000000000-389e44e6f2b9bfb90395
 PK$NUM_PEAK: 34
 PK$PEAK: m/z int. rel.int.
   37.0069 0.6 115
-  38.0143 1 192
+  38.0143 1.0 192
   39.0229 1.4 268
   40.0184 0.7 134
   41.0264 0.7 134
@@ -47,7 +46,7 @@ PK$PEAK: m/z int. rel.int.
   52.0183 3.2 614
   52.0309 1.3 249
   53.0016 0.4 76
-  53.0385 2 384
+  53.0385 2.0 384
   62.0164 0.6 115
   63.0223 0.5 96
   64.0182 1.6 307
@@ -55,11 +54,11 @@ PK$PEAK: m/z int. rel.int.
   65.026 1.7 326
   66.0221 0.8 153
   66.0344 1.9 365
-  67.0432 1 192
+  67.0432 1.0 192
   68.0134 1.2 230
   69.0086 1.3 249
   70.0289 0.5 96
-  75.0102 2 384
+  75.0102 2.0 384
   76.0183 5.2 999
   77.0257 0.6 115
   78.0332 1.4 268

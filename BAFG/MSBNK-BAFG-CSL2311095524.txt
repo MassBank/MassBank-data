@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095524
 RECORD_TITLE: Sertaconazole; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Sertaconazole
 CH$COMPOUND_CLASS: Fungicide; Pharmaceutical; Antimicrobial
 CH$FORMULA: C20H15Cl3N2OS
@@ -15,6 +14,7 @@ CH$SMILES: C1=CC2=C(C(=C1)Cl)SC=C2COC(CN3C=CN=C3)C4=C(C=C(C=C4)Cl)Cl
 CH$IUPAC: InChI=1S/C20H15Cl3N2OS/c21-14-4-5-16(18(23)8-14)19(9-25-7-6-24-12-25)26-10-13-11-27-20-15(13)2-1-3-17(20)22/h1-8,11-12,19H,9-10H2
 CH$LINK: CAS 99592-32-2
 CH$LINK: INCHIKEY JLGKQTAYUIMGRK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004293; Organic compounds; Organoheterocyclic compounds; Benzothiophenes; 1-benzothiophenes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.403 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 437.0043
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-001i-0900000000-fbee5cb2bb7f2eba46cc
 PK$NUM_PEAK: 6
 PK$PEAK: m/z int. rel.int.
@@ -40,5 +39,5 @@ PK$PEAK: m/z int. rel.int.
   146.0184 19.6 35
   158.9762 9.8 17
   180.9877 549.6 999
-  234.0507 6 10
+  234.0507 6.0 10
 //

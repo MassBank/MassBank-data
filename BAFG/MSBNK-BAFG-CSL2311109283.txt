@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109283
 RECORD_TITLE: Drometrizole; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Drometrizole
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C13H11N3O
@@ -15,6 +14,7 @@ CH$SMILES: CC1=CC(=C(C=C1)O)N2N=C3C=CC=CC3=N2
 CH$IUPAC: InChI=1S/C13H11N3O/c1-9-6-7-13(17)12(8-9)16-14-10-4-2-3-5-11(10)15-16/h2-8,17H,1H3
 CH$LINK: CAS 2440-22-4
 CH$LINK: INCHIKEY MCPKSFINULVDNX-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000099; Organic compounds; Organoheterocyclic compounds; Azoles; Triazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 15.201 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 226.0975
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-05di-2910000000-9448cea0cc7757a49c47
 PK$NUM_PEAK: 29
 PK$PEAK: m/z int. rel.int.
-  65.046 3 32
+  65.046 3.0 32
   77.0441 27.5 301
   79.0593 45.4 497
   92.0537 4.2 46
@@ -46,12 +45,12 @@ PK$PEAK: m/z int. rel.int.
   129.0701 1.1 12
   130.0655 1.1 12
   143.0863 1.8 19
-  152.0617 2 21
+  152.0617 2.0 21
   153.0713 1.7 18
   154.0665 8.1 88
   155.0732 8.2 89
   165.0573 1.4 15
-  168.0807 2 21
+  168.0807 2.0 21
   170.0964 2.5 27
   179.0744 1.3 14
   180.0817 6.9 75

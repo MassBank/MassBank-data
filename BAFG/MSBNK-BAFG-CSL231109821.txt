@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL231109821
 RECORD_TITLE: (3-Carboxypropyl)triphenylphosphonium; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: (3-Carboxypropyl)triphenylphosphonium
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: [C22H22O2P]+
@@ -15,6 +14,7 @@ CH$SMILES: c1ccc(cc1)[P+](CCCC(=O)O)(c2ccccc2)c3ccccc3
 CH$IUPAC: InChI=1S/C22H21O2P/c23-22(24)17-10-18-25(19-11-4-1-5-12-19,20-13-6-2-7-14-20)21-15-8-3-9-16-21/h1-9,11-16H,10,17-18H2/p+1
 CH$LINK: CAS 17857-14-6
 CH$LINK: INCHIKEY WFPBWVIGMPXUGH-UHFFFAOYSA-O
+CH$LINK: ChemOnt CHEMONTID:0001814; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylphosphines and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.192 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 349.1352
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-01ot-0469000000-b58280593aed88b00213
 PK$NUM_PEAK: 10
 PK$PEAK: m/z int. rel.int.

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095380
 RECORD_TITLE: Venlafaxine; LC-ESI-QTOF; MS2; 20 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Venlafaxine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C17H27NO2
@@ -15,6 +14,7 @@ CH$SMILES: CN(C)CC(c1ccc(cc1)OC)C2(CCCCC2)O
 CH$IUPAC: InChI=1S/C17H27NO2/c1-18(2)13-16(17(19)11-5-4-6-12-17)14-7-9-15(20-3)10-8-14/h7-10,16,19H,4-6,11-13H2,1-3H3
 CH$LINK: CAS 93413-69-5
 CH$LINK: INCHIKEY PNVNVHUZROJLTJ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000041; Organic compounds; Benzenoids; Benzene and substituted derivatives; Biphenyls and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,16 +30,15 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.626 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 278.2115
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-06vi-2090000000-2e2cafe2f531a1265add
 PK$NUM_PEAK: 7
 PK$PEAK: m/z int. rel.int.
   58.0725 153.6 588
-  121.0647 25 95
+  121.0647 25.0 95
   147.0809 10.6 40
   173.0955 3.8 14
   215.1431 53.4 204
-  260.2011 247 946
+  260.2011 247.0 946
   278.2122 260.7 999
 //

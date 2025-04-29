@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311094781
 RECORD_TITLE: Iopromide; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Iopromide
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C18H24I3N3O8
@@ -15,6 +14,7 @@ CH$SMILES: COCC(=O)Nc1c(I)c(C(=O)NCC(O)CO)c(I)c(c1I)C(=O)N(C)CC(O)CO
 CH$IUPAC: InChI=1S/C18H24I3N3O8/c1-24(4-9(28)6-26)18(31)12-13(19)11(17(30)22-3-8(27)5-25)14(20)16(15(12)21)23-10(29)7-32-2/h8-9,25-28H,3-7H2,1-2H3,(H,22,30)(H,23,29)
 CH$LINK: CAS 73334-07-3
 CH$LINK: INCHIKEY DGAIEPBNLOQYER-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000176; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzoic acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.895 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 791.877
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0002-0492000000-546decde60718eb65ce6
 PK$NUM_PEAK: 64
 PK$PEAK: m/z int. rel.int.
@@ -61,10 +60,10 @@ PK$PEAK: m/z int. rel.int.
   172.001 2.2 100
   173.0101 2.2 100
   174.0172 0.5 22
-  177.9138 1 45
+  177.9138 1.0 45
   185.0388 0.4 18
   188.918 0.4 18
-  200.9077 1 45
+  200.9077 1.0 45
   203.9293 0.6 27
   215.9274 0.6 27
   226.9226 0.5 22
@@ -82,7 +81,7 @@ PK$PEAK: m/z int. rel.int.
   283.9198 1.5 68
   284.9258 0.7 31
   298.9057 1.2 54
-  298.9268 1 45
+  298.9268 1.0 45
   299.9143 21.9 999
   312.9438 0.7 31
   313.9269 1.8 82

@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111016497
 RECORD_TITLE: Leucomalachite green; LC-ESI-QTOF; MS2; 130 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Leucomalachite green
-CH$COMPOUND_CLASS: Metabolite
+CH$COMPOUND_CLASS: Metabolite; Antimicrobial; Fungicide; Transformation_product-Metabolite
 CH$FORMULA: C23H26N2
 CH$EXACT_MASS: 330.2096
 CH$SMILES: CN(C)C1=CC=C(C=C1)C(C2=CC=CC=C2)C3=CC=C(C=C3)N(C)C
 CH$IUPAC: InChI=1S/C23H26N2/c1-24(2)21-14-10-19(11-15-21)23(18-8-6-5-7-9-18)20-12-16-22(17-13-20)25(3)4/h5-17,23H,1-4H3
 CH$LINK: CAS 129-73-7
 CH$LINK: INCHIKEY WZKXBGJNNCGHIC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004524; Organic compounds; Benzenoids; Triphenyl compounds
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.974 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 331.2169
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-0910000000-d5f2b651d4b6a8e9b81b
 PK$NUM_PEAK: 66
 PK$PEAK: m/z int. rel.int.
@@ -63,7 +62,7 @@ PK$PEAK: m/z int. rel.int.
   152.0609 58.8 999
   153.068 13.6 231
   154.0634 0.9 15
-  155.0592 1 16
+  155.0592 1.0 16
   162.0428 1.2 20
   163.0523 10.7 181
   164.0599 7.8 132
@@ -94,7 +93,7 @@ PK$PEAK: m/z int. rel.int.
   224.0611 0.9 15
   225.0689 0.8 13
   226.0764 5.8 98
-  227.081 1 16
+  227.081 1.0 16
   228.0897 0.9 15
   237.0693 2.6 44
   238.0738 1.2 20

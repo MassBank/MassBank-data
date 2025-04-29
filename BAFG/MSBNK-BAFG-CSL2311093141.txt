@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311093141
 RECORD_TITLE: Ethyldiphenylphosphine oxide; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Ethyldiphenylphosphine oxide
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C14H15OP
@@ -15,6 +14,7 @@ CH$SMILES: CC[P](=O)(c1ccccc1)c2ccccc2
 CH$IUPAC: InChI=1S/C14H15OP/c1-2-16(15,13-9-5-3-6-10-13)14-11-7-4-8-12-14/h3-12H,2H2,1H3
 CH$LINK: CAS 1733-57-9
 CH$LINK: INCHIKEY AKTGKEBIBGSCLD-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001322; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives; Pyridinecarboxylic acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.816 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 231.0933
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fc1-3900000000-4b1a53e145ef3ff2a188
 PK$NUM_PEAK: 32
 PK$PEAK: m/z int. rel.int.
@@ -45,7 +44,7 @@ PK$PEAK: m/z int. rel.int.
   91.0561 5.3 134
   103.0555 3.1 78
   105.0704 3.1 78
-  107.0048 3 76
+  107.0048 3.0 76
   109.0205 11.1 281
   115.0547 5.6 141
   125.0152 9.2 233
@@ -59,7 +58,7 @@ PK$PEAK: m/z int. rel.int.
   157.0207 8.3 210
   165.0699 10.9 276
   170.0277 2.1 53
-  181.0206 3 76
+  181.0206 3.0 76
   182.0276 1.5 38
   183.0365 27.2 689
   194.0274 3.2 81

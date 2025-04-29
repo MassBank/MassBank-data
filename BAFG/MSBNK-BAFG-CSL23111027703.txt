@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111027703
 RECORD_TITLE: 4-Methoxycinnamaldehyde; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 4-Methoxycinnamaldehyde
 CH$FORMULA: C10H10O2
 CH$EXACT_MASS: 162.0681
@@ -14,6 +13,7 @@ CH$SMILES: COC1=CC=C(C=C1)C=CC=O
 CH$IUPAC: InChI=1S/C10H10O2/c1-12-10-6-4-9(5-7-10)3-2-8-11/h2-8H,1H3
 CH$LINK: CAS 24680-50-0
 CH$LINK: INCHIKEY AXCXHFKZHDEKTP-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000029; Organic compounds; Phenylpropanoids and polyketides; Cinnamaldehydes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.471 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 163.0754
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0f6x-9600000000-fb331c6c0088f4d4a5ee
 PK$NUM_PEAK: 35
 PK$PEAK: m/z int. rel.int.
@@ -46,14 +45,14 @@ PK$PEAK: m/z int. rel.int.
   90.0465 1.7 46
   91.055 36.2 999
   92.0269 0.7 19
-  92.0601 6 165
-  94.0435 1 27
+  92.0601 6.0 165
+  94.0435 1.0 27
   95.0496 0.5 13
   102.0479 17.4 480
   103.0548 8.7 240
   104.0611 1.9 52
   105.0383 2.2 60
-  105.0714 1 27
+  105.0714 1.0 27
   106.0429 0.6 16
   115.0557 2.7 74
   116.0618 0.5 13
@@ -64,7 +63,7 @@ PK$PEAK: m/z int. rel.int.
   130.0426 2.6 71
   131.0504 1.9 52
   132.0567 0.7 19
-  133.0674 1 27
+  133.0674 1.0 27
   134.0715 0.5 13
   145.0666 1.5 41
   146.0766 0.6 16

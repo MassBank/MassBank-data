@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095203
 RECORD_TITLE: Indoxacarb; LC-ESI-QTOF; MS2; 140 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Indoxacarb
 CH$COMPOUND_CLASS: Insecticide
 CH$FORMULA: C22H17ClF3N3O7
@@ -15,6 +14,7 @@ CH$SMILES: COC(=O)[C@]12Cc3cc(ccc3C1=NN(CO2)C(=O)N(c4ccc(cc4)OC(F)(F)F)C(=O)OC)C
 CH$IUPAC: InChI=1S/C22H17ClF3N3O7/c1-33-18(30)21-10-12-9-13(23)3-8-16(12)17(21)27-28(11-35-21)19(31)29(20(32)34-2)14-4-6-15(7-5-14)36-22(24,25)26/h3-9H,10-11H2,1-2H3/t21-/m0/s1
 CH$LINK: CAS 173584-44-6
 CH$LINK: INCHIKEY VBCVPMMZEGZULK-NRFANRHFSA-N
+CH$LINK: ChemOnt CHEMONTID:0004714; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylcarbamic acid esters
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 15.019 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 528.078
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-05xr-4900000000-7b4e5256f19292a3d0ab
 PK$NUM_PEAK: 76
 PK$PEAK: m/z int. rel.int.
@@ -43,7 +42,7 @@ PK$PEAK: m/z int. rel.int.
   66.0496 2.5 19
   68.9997 63.8 490
   69.9947 3.2 24
-  72.9878 13 99
+  72.9878 13.0 99
   73.0074 3.3 25
   74.019 20.7 159
   75.0269 41.8 321
@@ -59,7 +58,7 @@ PK$PEAK: m/z int. rel.int.
   90.0359 6.5 49
   93.0585 2.1 16
   95.0298 5.3 40
-  96.9849 9 69
+  96.9849 9.0 69
   97.0333 1.4 10
   98.0166 16.1 123
   99.0239 65.8 506
@@ -79,10 +78,10 @@ PK$PEAK: m/z int. rel.int.
   116.0553 11.2 86
   120.0182 1.4 10
   123.0005 93.9 722
-  124.0064 24 184
+  124.0064 24.0 184
   125.0221 3.3 25
   126.0368 45.5 349
-  127.0435 80 615
+  127.0435 80.0 615
   128.0613 31.3 240
   129.0436 6.1 46
   130.0657 2.3 17
@@ -94,7 +93,7 @@ PK$PEAK: m/z int. rel.int.
   141.0558 6.5 49
   142.0651 4.6 35
   146.9997 11.2 86
-  147.0293 3 23
+  147.0293 3.0 23
   148.0016 17.3 133
   149.0158 44.5 342
   150.0108 70.1 539
@@ -103,7 +102,7 @@ PK$PEAK: m/z int. rel.int.
   154.0404 9.8 75
   155.0594 2.3 17
   157.0286 3.5 26
-  161.0023 10 76
+  161.0023 10.0 76
   162.0109 15.2 116
   162.9985 4.8 36
   164.001 3.4 26

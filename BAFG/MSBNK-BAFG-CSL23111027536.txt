@@ -1,19 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111027536
 RECORD_TITLE: Amisulbrom; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Amisulbrom
+CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C13H13BrFN5O4S2
 CH$EXACT_MASS: 464.9576
 CH$SMILES: CC1=C(C2=C(N1S(=O)(=O)C3=NN(C=N3)S(=O)(=O)N(C)C)C=C(C=C2)F)Br
 CH$IUPAC: InChI=1S/C13H13BrFN5O4S2/c1-8-12(14)10-5-4-9(15)6-11(10)20(8)25(21,22)13-16-7-19(17-13)26(23,24)18(2)3/h4-7H,1-3H3
 CH$LINK: CAS 348635-87-0
 CH$LINK: INCHIKEY BREATYVWRHIPIY-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002497; Organic compounds; Organoheterocyclic compounds; Indoles and derivatives; Indoles
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 14.781 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 465.9649
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004j-0970000000-42e951c29d68dfe0282c
 PK$NUM_PEAK: 17
 PK$PEAK: m/z int. rel.int.
@@ -38,7 +38,7 @@ PK$PEAK: m/z int. rel.int.
   101.0389 1.7 14
   108.0097 6.1 50
   128.0479 5.2 43
-  133.0426 3 24
+  133.0426 3.0 24
   146.0389 8.9 74
   147.0461 12.8 106
   148.0544 120.1 999
@@ -48,7 +48,7 @@ PK$PEAK: m/z int. rel.int.
   187.0648 3.3 27
   188.0594 2.2 18
   191.096 2.6 21
-  215.0771 3 24
+  215.0771 3.0 24
   225.9655 104.9 872
   226.9724 40.7 338
 //

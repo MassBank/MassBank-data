@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111027349
 RECORD_TITLE: Quinoline; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Quinoline
 CH$FORMULA: C9H7N
 CH$EXACT_MASS: 129.0578
@@ -14,6 +13,7 @@ CH$SMILES: C1=CC=C2C(=C1)C=CC=N2
 CH$IUPAC: InChI=1S/C9H7N/c1-2-6-9-8(4-1)5-3-7-10-9/h1-7H
 CH$LINK: CAS 91-22-5
 CH$LINK: INCHIKEY SMWDFEZZVXVKRB-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001253; Organic compounds; Organoheterocyclic compounds; Quinolines and derivatives
 AC$INSTRUMENT: TripleTOF X500R SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.58 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 130.0651
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ufr-9100000000-252a75fd96c65fb71efa
 PK$NUM_PEAK: 19
 PK$PEAK: m/z int. rel.int.
@@ -46,10 +45,10 @@ PK$PEAK: m/z int. rel.int.
   74.0152 22.1 86
   75.0229 37.4 147
   76.0308 14.8 58
-  77.0379 254 999
+  77.0379 254.0 999
   78.038 4.3 16
   101.0388 8.1 31
-  102.0461 39 153
+  102.0461 39.0 153
   103.0546 22.7 89
   128.0501 6.6 25
   130.0647 13.5 53

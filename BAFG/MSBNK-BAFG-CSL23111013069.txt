@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111013069
 RECORD_TITLE: Diphenyl phosphate; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Diphenyl phosphate
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C12H11O4P
@@ -15,6 +14,7 @@ CH$SMILES: C1=CC=C(C=C1)OP(=O)(O)OC2=CC=CC=C2
 CH$IUPAC: InChI=1S/C12H11O4P/c13-17(14,15-11-7-3-1-4-8-11)16-12-9-5-2-6-10-12/h1-10H,(H,13,14)
 CH$LINK: CAS 838-85-7
 CH$LINK: INCHIKEY ASMQGLCHMVWBQR-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000408; Organic compounds; Organic acids and derivatives; Organic phosphoric acids and derivatives; Phosphate esters
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,21 +30,20 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.14 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 251.0468
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ufr-6890000000-708e4dbf965c47a38a40
 PK$NUM_PEAK: 12
 PK$PEAK: m/z int. rel.int.
   51.0227 0.4 34
   77.0381 10.9 930
   95.0482 2.8 239
-  151.0523 1 85
+  151.0523 1.0 85
   152.0611 5.3 452
   153.0693 7.4 631
   157.003 0.9 76
   168.0572 0.9 76
   175.0163 3.1 264
   215.025 5.3 452
-  233.0319 3 256
+  233.0319 3.0 256
   251.045 11.7 999
 //

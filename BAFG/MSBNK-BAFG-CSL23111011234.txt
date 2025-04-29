@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111011234
 RECORD_TITLE: Esculetin; LC-ESI-QTOF; MS2; 130 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Esculetin
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C9H6O4
@@ -15,6 +14,7 @@ CH$SMILES: Oc1cc2OC(=O)C=Cc2cc1O
 CH$IUPAC: InChI=1S/C9H6O4/c10-6-3-5-1-2-9(12)13-8(5)4-7(6)11/h1-4,10-11H
 CH$LINK: CAS 305-01-1
 CH$LINK: INCHIKEY ILEDWLMCKZNDJK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002908; Organic compounds; Phenylpropanoids and polyketides; Coumarins and derivatives; Hydroxycoumarins
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,11 +30,10 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.732 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 177.0193
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0006-9000000000-9d440efcfc7e43dd08c9
 PK$NUM_PEAK: 2
 PK$PEAK: m/z int. rel.int.
   41.0031 2.9 999
-  48 0.6 206
+  48.0 0.6 206
 //

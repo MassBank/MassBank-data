@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311108235
 RECORD_TITLE: Diphenhydramine-N-oxide; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Diphenhydramine-N-oxide
-CH$COMPOUND_CLASS: Transformation_product
+CH$COMPOUND_CLASS: Transformation_product; Pharmaceutical; Transformation_product-Metabolite
 CH$FORMULA: C17H21NO2
 CH$EXACT_MASS: 271.1572
 CH$SMILES: C[N+](C)(CCOC(C1=CC=CC=C1)C2=CC=CC=C2)[O-]
 CH$IUPAC: InChI=1S/C17H21NO2/c1-18(2,19)13-14-20-17(15-9-5-3-6-10-15)16-11-7-4-8-12-16/h3-12,17H,13-14H2,1-2H3
 CH$LINK: CAS 3922-74-5
 CH$LINK: INCHIKEY OEQNVWKWQPTBSC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000189; Organic compounds; Organoheterocyclic compounds; Diazinanes; Piperazines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.07 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 272.1641
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-0900000000-d81556600bc3dfb434f8
 PK$NUM_PEAK: 16
 PK$PEAK: m/z int. rel.int.

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311108267
 RECORD_TITLE: Amprolium; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Amprolium
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: [C14H19N4]+
@@ -15,6 +14,7 @@ CH$SMILES: CCCC1=NC=C(C[N+]2=CC=CC=C2C)C(N)=N1
 CH$IUPAC: InChI=1S/C14H19N4/c1-3-6-13-16-9-12(14(15)17-13)10-18-8-5-4-7-11(18)2/h4-5,7-9H,3,6,10H2,1-2H3,(H2,15,16,17)/q+1
 CH$LINK: CAS 121-25-5
 CH$LINK: INCHIKEY IPZFPROOBOUEIG-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000075; Organic compounds; Organoheterocyclic compounds; Diazines; Pyrimidines and pyrimidine derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.163 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 243.1604
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-001o-9400000000-a196a65e956fedc148bc
 PK$NUM_PEAK: 8
 PK$PEAK: m/z int. rel.int.
@@ -40,7 +39,7 @@ PK$PEAK: m/z int. rel.int.
   94.0648 4.1 999
   108.0569 0.9 219
   108.0675 0.6 146
-  122.0702 1 243
+  122.0702 1.0 243
   135.08 1.1 268
   150.1027 0.4 97
 //

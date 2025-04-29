@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311094642
 RECORD_TITLE: 4-Acetamidoantipyrine; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 4-Acetamidoantipyrine
-CH$COMPOUND_CLASS: Pharmaceutical; Metabolite; Transformation_product
+CH$COMPOUND_CLASS: Pharmaceutical; Metabolite; Transformation_product; Transformation_product-Metabolite
 CH$FORMULA: C13H15N3O2
 CH$EXACT_MASS: 245.1164
 CH$SMILES: CN1N(C(=O)C(=C1C)NC(C)=O)c2ccccc2
 CH$IUPAC: InChI=1S/C13H15N3O2/c1-9-12(14-10(2)17)13(18)16(15(9)3)11-7-5-4-6-8-11/h4-8H,1-3H3,(H,14,17)
 CH$LINK: CAS 83-15-8
 CH$LINK: INCHIKEY OIAGWXKSCXPNNZ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000087; Organic compounds; Organoheterocyclic compounds; Azoles; Pyrazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.586 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 246.1237
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0560-9000000000-a41772caf33c6628e1ce
 PK$NUM_PEAK: 22
 PK$PEAK: m/z int. rel.int.
@@ -41,13 +40,13 @@ PK$PEAK: m/z int. rel.int.
   54.0395 1.5 14
   56.0565 64.4 620
   65.0438 2.1 20
-  77.0425 87 838
+  77.0425 87.0 838
   81.0472 6.4 61
   83.0639 103.7 999
   91.0562 2.5 24
   92.0514 1.6 15
   93.0587 1.2 11
-  94.067 7 67
+  94.067 7.0 67
   101.0411 1.2 11
   104.0505 10.6 102
   115.0543 1.3 12

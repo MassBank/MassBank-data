@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111015802
 RECORD_TITLE: Dimethenamid-ESA; LC-ESI-QTOF; MS2; 130 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Dimethenamid-ESA
 CH$COMPOUND_CLASS: Transformation_product; Herbicide; Metabolite
 CH$FORMULA: C12H19NO5S2
@@ -15,6 +14,7 @@ CH$SMILES: CC1=CSC(=C1N(C(C)COC)C(=O)CS(=O)(=O)O)C
 CH$IUPAC: InChI=1S/C12H19NO5S2/c1-8-6-19-10(3)12(8)13(9(2)5-18-4)11(14)7-20(15,16)17/h6,9H,5,7H2,1-4H3,(H,15,16,17)
 CH$LINK: CAS 205939-58-8
 CH$LINK: INCHIKEY YMYKMSAZEZQEER-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004144; Organic compounds; Organoheterocyclic compounds; Heteroaromatic compounds
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.036 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 322.0778
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0f6x-9100000000-ea095093e9887aca5fd5
 PK$NUM_PEAK: 48
 PK$PEAK: m/z int. rel.int.
@@ -44,7 +43,7 @@ PK$PEAK: m/z int. rel.int.
   44.9795 3.6 971
   45.0336 0.7 188
   50.0158 1.2 323
-  51.0231 3 809
+  51.0231 3.0 809
   52.0181 0.4 108
   53.0386 1.9 513
   57.9872 0.8 216
@@ -71,13 +70,13 @@ PK$PEAK: m/z int. rel.int.
   91.0549 2.1 567
   92.0502 0.8 216
   93.0569 1.2 323
-  94.0655 2 539
+  94.0655 2.0 539
   94.9934 0.6 161
   97.0103 2.3 620
   104.0493 1.6 432
   106.0642 0.8 216
   109.0112 0.9 242
-  111.0258 1 269
+  111.0258 1.0 269
   117.0576 1.7 458
   118.0647 1.1 297
   123.0167 0.6 161

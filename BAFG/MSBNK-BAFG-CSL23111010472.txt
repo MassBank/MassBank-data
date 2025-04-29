@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111010472
 RECORD_TITLE: Nifedipine; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Nifedipine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C17H18N2O6
@@ -15,6 +14,7 @@ CH$SMILES: CC1=C(C(C(=C(N1)C)C(=O)OC)C2=CC=CC=C2[N+](=O)[O-])C(=O)OC
 CH$IUPAC: InChI=1S/C17H18N2O6/c1-9-13(16(20)24-3)15(14(10(2)18-9)17(21)25-4)11-7-5-6-8-12(11)19(22)23/h5-8,15,18H,1-4H3
 CH$LINK: CAS 21829-25-4
 CH$LINK: INCHIKEY HYIMSNHJOBLJNT-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002213; Organic compounds; Lipids and lipid-like molecules; Glycerophospholipids; Glycerophosphocholines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.896 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 347.1238
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014l-0900000000-51a09d94030be37992e0
 PK$NUM_PEAK: 75
 PK$PEAK: m/z int. rel.int.
@@ -39,7 +38,7 @@ PK$PEAK: m/z int. rel.int.
   65.046 3.2 15
   75.0282 4.2 20
   76.0365 2.1 10
-  77.0447 18 85
+  77.0447 18.0 85
   88.037 2.4 11
   89.0431 18.3 87
   90.0492 2.5 11
@@ -51,10 +50,10 @@ PK$PEAK: m/z int. rel.int.
   103.0566 4.2 20
   104.0523 2.7 12
   113.0412 10.9 52
-  114.0477 14 66
+  114.0477 14.0 66
   115.0569 100.1 478
   116.0525 17.4 83
-  117.0597 10 47
+  117.0597 10.0 47
   125.0407 21.4 102
   126.0484 22.5 107
   127.056 77.1 368
@@ -82,10 +81,10 @@ PK$PEAK: m/z int. rel.int.
   167.0733 209.1 999
   168.0797 96.6 461
   169.0777 16.5 78
-  170.0598 5 23
+  170.0598 5.0 23
   176.0483 2.7 12
   177.0565 6.6 31
-  178.0656 13 62
+  178.0656 13.0 62
   179.0609 77.9 372
   180.0742 41.5 198
   181.0764 39.5 188

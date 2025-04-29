@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311108019
 RECORD_TITLE: Metolachlor; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Metolachlor
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C15H22ClNO2
@@ -15,6 +14,7 @@ CH$SMILES: CCc1cccc(C)c1N(C(C)COC)C(=O)CCl
 CH$IUPAC: InChI=1S/C15H22ClNO2/c1-5-13-8-6-7-11(2)15(13)17(14(18)9-16)12(3)10-19-4/h6-8,12H,5,9-10H2,1-4H3
 CH$LINK: CAS 51218-45-2
 CH$LINK: INCHIKEY WVQBLGZPHOPPFO-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000285; Organic compounds; Benzenoids; Benzene and substituted derivatives; Anilides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.304 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 284.1412
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014l-8900000000-7f3faf4cd51c819a1d1a
 PK$NUM_PEAK: 56
 PK$PEAK: m/z int. rel.int.
@@ -57,9 +56,9 @@ PK$PEAK: m/z int. rel.int.
   92.0618 0.7 13
   93.0584 15.1 297
   94.0425 0.8 15
-  101.0406 1 19
+  101.0406 1.0 19
   102.0467 3.4 66
-  103.0549 15 295
+  103.0549 15.0 295
   104.0506 3.2 63
   104.0623 1.8 35
   105.0692 4.5 88
@@ -88,7 +87,7 @@ PK$PEAK: m/z int. rel.int.
   145.0889 0.8 15
   146.0618 1.3 25
   154.0652 0.7 13
-  156.0802 1 19
+  156.0802 1.0 19
   157.0887 0.6 11
   158.0946 0.6 11
 //

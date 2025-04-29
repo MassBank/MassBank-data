@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111014845
 RECORD_TITLE: 4-Hydroxy-1-(2-hydroxyethyl)-2,2,6,6-tetramethylpiperidine; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 4-Hydroxy-1-(2-hydroxyethyl)-2,2,6,6-tetramethylpiperidine
 CH$FORMULA: C11H23NO2
 CH$EXACT_MASS: 201.1729
@@ -14,6 +13,7 @@ CH$SMILES: CC1(CC(CC(N1CCO)(C)C)O)C
 CH$IUPAC: InChI=1S/C11H23NO2/c1-10(2)7-9(14)8-11(3,4)12(10)5-6-13/h9,13-14H,5-8H2,1-4H3
 CH$LINK: CAS 52722-86-8
 CH$LINK: INCHIKEY STEYNUVPFMIUOY-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000501; Organic compounds; Organic nitrogen compounds; Organonitrogen compounds; Isocyanates
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 2.162 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 202.1802
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-5900000000-d01721d18e8fe6cfd30e
 PK$NUM_PEAK: 12
 PK$PEAK: m/z int. rel.int.

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL231109488
 RECORD_TITLE: Butyl-triphenylphosphonium; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Butyl-triphenylphosphonium
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: [C22H24P]+
@@ -15,6 +14,7 @@ CH$SMILES: CCCC[P+](c1ccccc1)(c2ccccc2)c3ccccc3
 CH$IUPAC: InChI=1S/C22H24P/c1-2-3-19-23(20-13-7-4-8-14-20,21-15-9-5-10-16-21)22-17-11-6-12-18-22/h4-18H,2-3,19H2,1H3/q+1
 CH$LINK: CAS 22444-89-9
 CH$LINK: INCHIKEY BEVHTMLFDWFAQF-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000284; Organic compounds; Benzenoids; Benzene and substituted derivatives; Aniline and substituted anilines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.852 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 319.161
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0zfr-0900000000-5e2912df9dd9afeb3c7d
 PK$NUM_PEAK: 19
 PK$PEAK: m/z int. rel.int.
@@ -51,7 +50,7 @@ PK$PEAK: m/z int. rel.int.
   152.0618 122.9 999
   156.0118 6.8 55
   157.0199 62.9 511
-  181.0202 39 317
+  181.0202 39.0 317
   183.0356 34.9 283
   226.0767 7.5 60
 //

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111027474
 RECORD_TITLE: 3,3`-Dimethoxybenzidine; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 3,3`-Dimethoxybenzidine
 CH$FORMULA: C14H16N2O2
 CH$EXACT_MASS: 244.1212
@@ -14,6 +13,7 @@ CH$SMILES: COC1=C(C=CC(=C1)C2=CC(=C(C=C2)N)OC)N
 CH$IUPAC: InChI=1S/C14H16N2O2/c1-17-13-7-9(3-5-11(13)15)10-4-6-12(16)14(8-10)18-2/h3-8H,15-16H2,1-2H3
 CH$LINK: CAS 119-90-4
 CH$LINK: INCHIKEY JRBJSXQPQWSCCF-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000250; Organic compounds; Organoheterocyclic compounds; Azolidines; Imidazolidines
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.188 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 245.1285
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-4900000000-7e9afd7207c5c5ddc145
 PK$NUM_PEAK: 58
 PK$PEAK: m/z int. rel.int.
@@ -58,7 +57,7 @@ PK$PEAK: m/z int. rel.int.
   101.0401 1.2 46
   102.033 0.7 27
   102.0453 1.9 73
-  103.0538 3 116
+  103.0538 3.0 116
   104.0515 2.6 101
   105.0515 0.8 31
   109.0531 0.7 27
@@ -73,17 +72,17 @@ PK$PEAK: m/z int. rel.int.
   126.0447 2.1 81
   127.0423 0.5 19
   127.0547 2.2 85
-  128.0483 1 38
+  128.0483 1.0 38
   129.0508 0.9 34
   130.0646 6.4 248
   131.0666 5.1 198
   139.0537 0.5 19
   140.0486 4.4 171
-  141.0557 4 155
+  141.0557 4.0 155
   142.0595 1.9 73
   143.0721 0.7 27
   152.0503 0.7 27
-  153.0583 1 38
+  153.0583 1.0 38
   154.0614 1.1 42
   155.0592 0.9 34
   156.067 0.5 19

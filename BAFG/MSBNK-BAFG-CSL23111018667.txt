@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018667
 RECORD_TITLE: 3,4-Methylenedioxy-N-ethylamphetamine; LC-ESI-QTOF; MS2; 140 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 3,4-Methylenedioxy-N-ethylamphetamine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C12H17NO2
@@ -15,6 +14,7 @@ CH$SMILES: CCNC(C)CC1=CC2=C(C=C1)OCO2
 CH$IUPAC: InChI=1S/C12H17NO2/c1-3-13-9(2)6-10-4-5-11-12(7-10)15-8-14-11/h4-5,7,9,13H,3,6,8H2,1-2H3
 CH$LINK: CAS 82801-81-8
 CH$LINK: INCHIKEY PVXVWWANJIWJOO-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000296; Organic compounds; Organoheterocyclic compounds; Benzodioxoles
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.673 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 208.1332
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-9000000000-f0a91a86775e9f58cfbc
 PK$NUM_PEAK: 17
 PK$PEAK: m/z int. rel.int.
   35.9989 5.5 39
-  37.0072 28 198
+  37.0072 28.0 198
   38.0044 4.1 29
   38.0147 18.7 132
   39.0228 26.8 190

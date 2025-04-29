@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311093581
 RECORD_TITLE: N,O-didesmethyl-venlafaxine; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: N,O-didesmethyl-venlafaxine
-CH$COMPOUND_CLASS: Pharmaceutical; Metabolite
+CH$COMPOUND_CLASS: Pharmaceutical; Metabolite; Transformation_product-Metabolite
 CH$FORMULA: C15H23NO2
 CH$EXACT_MASS: 249.1729
 CH$SMILES: CNCC(c1ccc(cc1)O)C2(CCCCC2)O
 CH$IUPAC: InChI=1S/C15H23NO2/c1-16-11-14(12-5-7-13(17)8-6-12)15(18)9-3-2-4-10-15/h5-8,14,16-18H,2-4,9-11H2,1H3
 CH$LINK: CAS 135308-74-6
 CH$LINK: INCHIKEY MMSWXJSQCAEDLK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000129; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Alcohols and polyols
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,29 +30,28 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.659 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 250.1802
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004l-9100000000-53bba0e299235bd7b484
 PK$NUM_PEAK: 24
 PK$PEAK: m/z int. rel.int.
   42.0424 2.8 33
   44.0581 44.6 533
   53.0433 2.2 26
-  55.0237 3 35
+  55.0237 3.0 35
   55.0604 1.8 21
   65.0413 8.6 102
   66.0497 1.4 16
-  75.0247 1 11
+  75.0247 1.0 11
   77.0414 83.5 999
   77.0771 1.4 16
   78.0498 1.5 17
-  79.056 11 131
+  79.056 11.0 131
   81.0347 1.7 20
   81.0713 2.6 31
   89.0388 4.8 57
   91.0545 9.3 111
   94.0415 1.4 16
-  103.0535 3 35
+  103.0535 3.0 35
   107.0487 15.8 189
   115.0535 12.6 150
   119.0489 1.3 15

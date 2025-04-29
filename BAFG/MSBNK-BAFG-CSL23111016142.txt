@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016142
 RECORD_TITLE: Thiamine Disulfide; LC-ESI-QTOF; MS2; 150 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Thiamine Disulfide
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C24H34N8O4S2
@@ -15,6 +14,7 @@ CH$SMILES: CC1=NC=C(C(=N1)N)CN(C=O)C(=C(CCO)SSC(=C(C)N(CC2=CN=C(N=C2N)C)C=O)CCO)
 CH$IUPAC: InChI=1S/C24H34N8O4S2/c1-15(31(13-35)11-19-9-27-17(3)29-23(19)25)21(5-7-33)37-38-22(6-8-34)16(2)32(14-36)12-20-10-28-18(4)30-24(20)26/h9-10,13-14,33-34H,5-8,11-12H2,1-4H3,(H2,25,27,29)(H2,26,28,30)
 CH$LINK: CAS 67-16-3
 CH$LINK: INCHIKEY GFEGEDUIIYDMOX-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000075; Organic compounds; Organoheterocyclic compounds; Diazines; Pyrimidines and pyrimidine derivatives
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.48 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 563.2217
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-11pl-9400000000-2286edb1a0d471b437f9
 PK$NUM_PEAK: 83
 PK$PEAK: m/z int. rel.int.
@@ -43,9 +42,9 @@ PK$PEAK: m/z int. rel.int.
   52.017 1.7 78
   53.0359 0.4 18
   54.0327 21.5 999
-  55.0408 19 882
+  55.0408 19.0 882
   56.0483 0.6 27
-  58.9936 1 46
+  58.9936 1.0 46
   65.0373 1.6 74
   66.0328 5.8 269
   67.0399 0.9 41
@@ -65,11 +64,11 @@ PK$PEAK: m/z int. rel.int.
   87.0248 0.6 27
   89.0366 0.7 32
   90.034 0.6 27
-  91.0526 1 46
+  91.0526 1.0 46
   92.0483 0.8 37
   93.0436 2.9 134
   93.056 0.7 32
-  94.0524 1 46
+  94.0524 1.0 46
   94.0651 0.6 27
   95.0588 2.1 97
   96.0561 0.8 37
@@ -108,10 +107,10 @@ PK$PEAK: m/z int. rel.int.
   144.0461 0.8 37
   146.0697 1.2 55
   147.0777 1.1 51
-  148.0861 1 46
+  148.0861 1.0 46
   155.0611 0.5 23
   158.0722 0.9 41
-  160.0864 1 46
+  160.0864 1.0 46
   161.0805 1.4 65
   166.0434 0.5 23
   170.0719 0.5 23

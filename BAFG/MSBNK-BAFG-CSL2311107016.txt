@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107016
 RECORD_TITLE: Haloperidol; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Haloperidol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C21H23ClFNO2
@@ -15,6 +14,7 @@ CH$SMILES: OC1(CCN(CCCC(=O)c2ccc(F)cc2)CC1)c3ccc(Cl)cc3
 CH$IUPAC: InChI=1S/C21H23ClFNO2/c22-18-7-5-17(6-8-18)21(26)11-14-24(15-12-21)13-1-2-20(25)16-3-9-19(23)10-4-16/h3-10,26H,1-2,11-15H2
 CH$LINK: CAS 52-86-8
 CH$LINK: INCHIKEY LNEPOXFFQSENCJ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001674; Organic compounds; Hydrocarbon derivatives; Tropones; Tropolones
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,14 +30,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.031 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 376.1474
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-006t-9400000000-a44a5e2ebdacc78f17cb
 PK$NUM_PEAK: 5
 PK$PEAK: m/z int. rel.int.
   73.0115 4.6 11
-  74.0194 42 102
-  75.027 94 229
+  74.0194 42.0 102
+  75.027 94.0 229
   95.0317 409.6 999
   123.026 269.1 656
 //

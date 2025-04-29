@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107495
 RECORD_TITLE: Albendazole; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Albendazole
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C12H15N3O2S
@@ -30,21 +29,20 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.546 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 266.0958
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0pw9-3900000000-0645f9b9c0c1be8fad7f
 PK$NUM_PEAK: 68
 PK$PEAK: m/z int. rel.int.
   51.0301 2.2 18
   52.0247 1.3 10
   52.0371 2.1 17
-  57.9924 2 16
+  57.9924 2.0 16
   64.0353 1.6 13
   65.0296 8.5 70
   66.0371 3.7 30
   67.045 1.3 10
   68.9831 9.2 76
-  69.0108 2 16
+  69.0108 2.0 16
   69.9903 9.3 77
   75.0132 1.3 10
   76.0216 22.1 183
@@ -60,7 +58,7 @@ PK$PEAK: m/z int. rel.int.
   92.0392 69.5 576
   92.9805 8.7 72
   93.0464 8.1 67
-  93.9887 17 140
+  93.9887 17.0 140
   94.0567 1.8 14
   94.9961 12.5 103
   95.9904 1.4 11
@@ -68,12 +66,12 @@ PK$PEAK: m/z int. rel.int.
   103.0333 23.4 193
   104.0382 120.5 999
   105.0452 20.9 173
-  106.0525 4 33
+  106.0525 4.0 33
   108.9988 53.6 444
   109.9939 3.4 28
   110.0054 7.3 60
   111.0145 2.7 22
-  116.0368 4 33
+  116.0368 4.0 33
   118.039 1.9 15
   118.0519 3.7 30
   119.0484 79.5 659

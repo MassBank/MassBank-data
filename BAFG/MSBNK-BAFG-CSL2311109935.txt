@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311109935
 RECORD_TITLE: Terbutrynesulfoxide; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Terbutrynesulfoxide
-CH$COMPOUND_CLASS: Transformation_product
+CH$COMPOUND_CLASS: Transformation_product; Herbicide; Pesticide; Transformation_product-Metabolite
 CH$FORMULA: C10H19N5OS
 CH$EXACT_MASS: 257.131
 CH$SMILES: CCNC1=NC(=NC(=N1)S(=O)C)NC(C)(C)C
 CH$IUPAC: InChI=1S/C10H19N5OS/c1-6-11-7-12-8(15-10(2,3)4)14-9(13-7)17(5)16/h6H2,1-5H3,(H2,11,12,13,14,15)
 CH$LINK: CAS 82985-33-9
 CH$LINK: INCHIKEY LMUNBZZRYCNYLJ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001693; Organic compounds; Organoheterocyclic compounds; Triazines; Aminotriazines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.816 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 258.1383
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0540-1910000000-9e69e203ec76a77ed4f8
 PK$NUM_PEAK: 37
 PK$PEAK: m/z int. rel.int.
@@ -39,19 +38,19 @@ PK$PEAK: m/z int. rel.int.
   68.0309 9.9 22
   69.0148 13.5 30
   71.0667 23.1 51
-  71.9956 6 13
-  83.0655 17 37
+  71.9956 6.0 13
+  83.0655 17.0 37
   84.9906 6.4 14
   86.04 78.7 175
   89.0213 5.3 11
-  96.0601 27 60
+  96.0601 27.0 60
   97.044 20.6 46
   112.0678 5.5 12
   113.0193 19.6 43
   114.015 42.5 94
   114.0692 90.3 201
   117.0505 22.9 51
-  127.0091 7 15
+  127.0091 7.0 15
   132.0244 16.9 37
   138.0795 83.7 186
   139.0865 52.3 116

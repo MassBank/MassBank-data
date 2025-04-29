@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111010878
 RECORD_TITLE: Beclomethasone; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Beclomethasone
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C22H29ClO5
@@ -15,6 +14,7 @@ CH$SMILES: CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)Cl)C
 CH$IUPAC: InChI=1S/C22H29ClO5/c1-12-8-16-15-5-4-13-9-14(25)6-7-19(13,2)21(15,23)17(26)10-20(16,3)22(12,28)18(27)11-24/h6-7,9,12,15-17,24,26,28H,4-5,8,10-11H2,1-3H3
 CH$LINK: CAS 4419-39-0
 CH$LINK: INCHIKEY NBMKJKDGKREAPL-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001295; Organic compounds; Lipids and lipid-like molecules; Steroids and steroid derivatives; Hydroxysteroids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.326 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 409.1776
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00g1-0591000000-0761a3a60c735331daca
 PK$NUM_PEAK: 78
 PK$PEAK: m/z int. rel.int.
-  91.0532 1 195
+  91.0532 1.0 195
   95.0845 0.5 97
   101.06 0.4 78
   105.0703 0.8 156
@@ -75,14 +74,14 @@ PK$PEAK: m/z int. rel.int.
   219.1128 0.4 78
   221.1007 1.1 215
   222.103 0.7 137
-  223.1116 2 391
+  223.1116 2.0 391
   224.1157 1.5 293
   233.0942 0.7 137
   234.11 0.5 97
   235.1102 1.7 333
   236.1179 0.5 97
   237.1278 2.5 489
-  239.1433 3 587
+  239.1433 3.0 587
   247.1112 0.5 97
   248.1229 1.3 254
   249.1229 1.9 372

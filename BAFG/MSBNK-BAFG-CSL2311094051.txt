@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311094051
 RECORD_TITLE: Benzoylecgonine; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Benzoylecgonine
 CH$COMPOUND_CLASS: Pharmaceutical; Metabolite; Transformation_product
 CH$FORMULA: C16H19NO4
@@ -15,6 +14,7 @@ CH$SMILES: CN1C2CCC1[C@H]([C@H](C2)OC(=O)c3ccccc3)C(O)=O
 CH$IUPAC: InChI=1S/C16H19NO4/c1-17-11-7-8-12(17)14(15(18)19)13(9-11)21-16(20)10-5-3-2-4-6-10/h2-6,11-14H,7-9H2,1H3,(H,18,19)/t11?,12?,13-,14+/m0/s1
 CH$LINK: CAS 519-09-5
 CH$LINK: INCHIKEY GVGYEFKIHJTNQZ-CLRIEMFWSA-N
+CH$LINK: ChemOnt CHEMONTID:0000176; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzoic acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,15 +30,14 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.641 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 290.1387
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-9000000000-91f7f805698622185bf5
 PK$NUM_PEAK: 13
 PK$PEAK: m/z int. rel.int.
   56.0635 0.4 11
   65.0429 2.9 83
   67.0465 4.5 130
-  68.0537 2 57
+  68.0537 2.0 57
   77.0425 34.5 999
   77.0778 0.6 17
   79.0474 0.7 20

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111027765
 RECORD_TITLE: 7-Amino-4-methylcoumarin; LC-ESI-QTOF; MS2; 20 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 7-Amino-4-methylcoumarin
 CH$FORMULA: C10H9NO2
 CH$EXACT_MASS: 175.0633
@@ -14,6 +13,7 @@ CH$SMILES: CC1=CC(=O)OC2=C1C=CC(=C2)N
 CH$IUPAC: InChI=1S/C10H9NO2/c1-6-4-10(12)13-9-5-7(11)2-3-8(6)9/h2-5H,11H2,1H3
 CH$LINK: CAS 26093-31-2
 CH$LINK: INCHIKEY GLNDAGDHSLMOKX-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000011; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Carbohydrates and carbohydrate conjugates
 AC$INSTRUMENT: TripleTOF X500R SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.107 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 176.0706
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-0900000000-aff15f4ffbde7c28204d
 PK$NUM_PEAK: 13
 PK$PEAK: m/z int. rel.int.

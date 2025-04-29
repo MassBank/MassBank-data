@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018440
 RECORD_TITLE: Methadone; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Methadone
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C21H27NO
@@ -15,6 +14,7 @@ CH$SMILES: CCC(=O)C(CC(C)N(C)C)(C1=CC=CC=C1)C2=CC=CC=C2
 CH$IUPAC: InChI=1S/C21H27NO/c1-5-20(23)21(16-17(2)22(3)4,18-12-8-6-9-13-18)19-14-10-7-11-15-19/h6-15,17H,5,16H2,1-4H3
 CH$LINK: CAS 76-99-3
 CH$LINK: INCHIKEY USSIQXCVUWKGNF-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000369; Organic compounds; Benzenoids; Benzene and substituted derivatives; Diphenylmethanes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.79 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 310.2166
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-9730000000-0b01053f20d5a0ac8c07
 PK$NUM_PEAK: 32
 PK$PEAK: m/z int. rel.int.
-  51.0227 84 64
+  51.0227 84.0 64
   57.0328 18.4 14
   65.038 67.8 52
   77.0381 1296.8 999
@@ -61,10 +60,10 @@ PK$PEAK: m/z int. rel.int.
   190.077 19.2 14
   191.0843 33.8 26
   194.0717 58.1 44
-  202.0773 322 248
+  202.0773 322.0 248
   203.085 200.9 154
   204.0931 87.6 67
   215.0848 65.3 50
   216.0936 21.3 16
-  217.101 58 44
+  217.101 58.0 44
 //

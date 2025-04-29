@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311108265
 RECORD_TITLE: N-desmethyl-citalopram; LC-ESI-QTOF; MS2; 35 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: N-desmethyl-citalopram
-CH$COMPOUND_CLASS: Metabolite; Pharmaceutical
+CH$COMPOUND_CLASS: Metabolite; Pharmaceutical; Transformation_product-Metabolite
 CH$FORMULA: C19H19FN2O
 CH$EXACT_MASS: 310.1481
 CH$SMILES: CNCCCC1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F
 CH$IUPAC: InChI=1S/C19H19FN2O/c1-22-10-2-9-19(16-4-6-17(20)7-5-16)18-8-3-14(12-21)11-15(18)13-23-19/h3-8,11,22H,2,9-10,13H2,1H3
 CH$LINK: CAS 62498-67-3
 CH$LINK: INCHIKEY PTJADDMMFYXMMG-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000014; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylbutylamines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.73 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 311.1555
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4i-0950000000-49dcd59f1f8add4a79ab
 PK$NUM_PEAK: 109
 PK$PEAK: m/z int. rel.int.
@@ -50,7 +49,7 @@ PK$PEAK: m/z int. rel.int.
   101.0361 0.93 0
   103.0481 2.52 2
   107.0303 0.25 0
-  109.0418 999 999
+  109.0418 999.0 999
   109.1008 0.5 0
   109.1519 0.42 0
   110.0427 9.93 9
@@ -89,7 +88,7 @@ PK$PEAK: m/z int. rel.int.
   151.0548 0.34 0
   152.0421 0.25 0
   153.0559 1.43 1
-  154.059 17 17
+  154.059 17.0 17
   155.056 1.26 1
   156.0751 18.85 18
   157.0739 3.11 3

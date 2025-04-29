@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111016684
 RECORD_TITLE: Flufenacet; LC-ESI-QTOF; MS2; 130 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Flufenacet
-CH$COMPOUND_CLASS: Herbicide
+CH$COMPOUND_CLASS: Herbicide; Fungicide
 CH$FORMULA: C14H13F4N3O2S
 CH$EXACT_MASS: 363.0665
 CH$SMILES: CC(C)N(C1=CC=C(C=C1)F)C(=O)COC2=NN=C(S2)C(F)(F)F
 CH$IUPAC: InChI=1S/C14H13F4N3O2S/c1-8(2)21(10-5-3-9(15)4-6-10)11(22)7-23-13-20-19-12(24-13)14(16,17)18/h3-6,8H,7H2,1-2H3
 CH$LINK: CAS 142459-58-3
 CH$LINK: INCHIKEY IANUJLZYFUDJIH-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000324; Organic compounds; Lipids and lipid-like molecules; Fatty Acyls; Fatty acid esters
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.345 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 364.0738
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fb9-9000000000-8dab95bbb5601b3ec415
 PK$NUM_PEAK: 41
 PK$PEAK: m/z int. rel.int.
@@ -56,10 +55,10 @@ PK$PEAK: m/z int. rel.int.
   75.0232 194.8 999
   76.0183 6.1 31
   77.0389 112.3 575
-  78.0346 7 35
+  78.0346 7.0 35
   81.0134 14.3 73
   83.029 64.5 330
-  84.0363 3 15
+  84.0363 3.0 15
   85.0321 2.7 13
   89.0383 4.3 22
   95.0293 72.5 371
@@ -72,7 +71,7 @@ PK$PEAK: m/z int. rel.int.
   108.0366 3.7 18
   109.0448 18.1 92
   111.0486 2.2 11
-  122.0398 9 46
+  122.0398 9.0 46
   123.0356 16.6 85
   124.0562 3.6 18
   135.0482 2.4 12

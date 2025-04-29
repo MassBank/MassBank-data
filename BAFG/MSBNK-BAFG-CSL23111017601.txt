@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111017601
 RECORD_TITLE: Spiroxamine; LC-ESI-QTOF; MS2; 20 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Spiroxamine
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C18H35NO2
@@ -15,6 +14,7 @@ CH$SMILES: CCCN(CC)CC1COC2(O1)CCC(CC2)C(C)(C)C
 CH$IUPAC: InChI=1S/C18H35NO2/c1-6-12-19(7-2)13-16-14-20-18(21-16)10-8-15(9-11-18)17(3,4)5/h15-16H,6-14H2,1-5H3
 CH$LINK: CAS 118134-30-8
 CH$LINK: INCHIKEY PUYXTUJWRLOUCW-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000254; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Ethers
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.51 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 298.2741
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0002-0390000000-4902c7a47eee40a98fa3
 PK$NUM_PEAK: 3
 PK$PEAK: m/z int. rel.int.

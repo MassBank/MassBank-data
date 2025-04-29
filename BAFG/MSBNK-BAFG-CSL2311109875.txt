@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109875
 RECORD_TITLE: Pindolol; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Pindolol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C14H20N2O2
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)NCC(COC1=CC=CC2=C1C=CN2)O
 CH$IUPAC: InChI=1S/C14H20N2O2/c1-10(2)16-8-11(17)9-18-14-5-3-4-13-12(14)6-7-15-13/h3-7,10-11,15-17H,8-9H2,1-2H3
 CH$LINK: CAS 13523-86-9
 CH$LINK: INCHIKEY JZQKKSLKJUAGIC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002216; Organic compounds; Lipids and lipid-like molecules; Glycerophospholipids; Glycerophosphoglycerols
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.148 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 249.1598
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-7900000000-e98fb307d2337813d7c2
 PK$NUM_PEAK: 43
 PK$PEAK: m/z int. rel.int.
@@ -39,13 +38,13 @@ PK$PEAK: m/z int. rel.int.
   56.0584 12.2 458
   58.0739 6.1 229
   65.0456 4.5 169
-  72.0875 3 112
+  72.0875 3.0 112
   74.0668 6.3 236
   75.0302 0.4 15
-  77.0446 16 600
+  77.0446 16.0 600
   78.0392 3.9 146
   79.06 7.6 285
-  80.0542 1 37
+  80.0542 1.0 37
   84.0844 0.5 18
   89.0431 23.9 897
   90.051 5.1 191
@@ -58,7 +57,7 @@ PK$PEAK: m/z int. rel.int.
   104.0528 11.6 435
   105.0602 2.9 108
   106.0689 7.4 277
-  107.052 9 338
+  107.052 9.0 338
   114.0486 0.4 15
   115.0572 18.3 687
   116.0527 26.6 999

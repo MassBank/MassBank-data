@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311093127
 RECORD_TITLE: Hydrocortisone; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Hydrocortisone
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C21H30O5
@@ -15,6 +14,7 @@ CH$SMILES: C[C@]12CCC(=O)C=C1CC[C@H]3[C@@H]4CC[C@](O)(C(=O)CO)[C@@]4(C)C[C@H](O)
 CH$IUPAC: InChI=1S/C21H30O5/c1-19-7-5-13(23)9-12(19)3-4-14-15-6-8-21(26,17(25)11-22)20(15,2)10-16(24)18(14)19/h9,14-16,18,22,24,26H,3-8,10-11H2,1-2H3/t14-,15-,16-,18+,19-,20-,21-/m0/s1
 CH$LINK: CAS 50-23-7
 CH$LINK: INCHIKEY JYGXADMDTFJGBT-VWUMJDOOSA-N
+CH$LINK: ChemOnt CHEMONTID:0001986; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Tricarboxylic acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.323 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 363.2166
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00dm-1910000000-dc2146f7b30491d583d1
 PK$NUM_PEAK: 190
 PK$PEAK: m/z int. rel.int.
-  43.0251 1 24
+  43.0251 1.0 24
   55.0608 0.8 19
   65.0431 0.6 14
   67.0585 1.9 47
@@ -51,9 +50,9 @@ PK$PEAK: m/z int. rel.int.
   93.0706 9.9 245
   95.0492 0.5 12
   95.0587 0.4 9
-  95.0866 5 123
+  95.0866 5.0 123
   97.0657 12.6 312
-  99.0463 1 24
+  99.0463 1.0 24
   103.054 1.2 29
   105.0708 16.4 406
   105.0988 0.8 19
@@ -80,7 +79,7 @@ PK$PEAK: m/z int. rel.int.
   130.0777 2.2 54
   131.0851 11.4 282
   132.0595 0.5 12
-  133.0651 2 49
+  133.0651 2.0 49
   133.1012 5.5 136
   135.0808 3.9 96
   135.1153 0.8 19
@@ -97,14 +96,14 @@ PK$PEAK: m/z int. rel.int.
   146.1088 0.8 19
   147.0802 3.5 86
   147.1172 8.8 218
-  148.0871 1 24
+  148.0871 1.0 24
   149.0953 1.6 39
   149.1305 0.7 17
   151.0775 0.5 12
-  152.0619 1 24
+  152.0619 1.0 24
   153.0711 3.1 76
   154.077 2.4 59
-  155.0853 9 223
+  155.0853 9.0 223
   156.0933 1.7 42
   157.0643 1.1 27
   157.1011 9.3 230
@@ -113,7 +112,7 @@ PK$PEAK: m/z int. rel.int.
   159.1155 5.7 141
   160.0866 0.4 9
   161.0956 2.9 71
-  161.1307 1 24
+  161.1307 1.0 24
   163.0751 0.5 12
   163.1126 6.1 151
   165.0704 2.9 71
@@ -127,7 +126,7 @@ PK$PEAK: m/z int. rel.int.
   171.1166 5.9 146
   172.0879 0.5 12
   172.1243 1.1 27
-  173.0967 3 74
+  173.0967 3.0 74
   173.1325 2.3 57
   174.1039 1.1 27
   175.112 3.3 81
@@ -136,10 +135,10 @@ PK$PEAK: m/z int. rel.int.
   180.0927 1.4 34
   181.1003 4.3 106
   182.11 1.5 37
-  183.0813 1 24
+  183.0813 1.0 24
   183.1167 5.3 131
   184.0902 0.6 14
-  184.1234 1 24
+  184.1234 1.0 24
   185.095 2.1 52
   185.1332 3.4 84
   187.1108 1.5 37
@@ -162,7 +161,7 @@ PK$PEAK: m/z int. rel.int.
   200.1191 0.6 14
   201.1259 0.6 14
   205.1021 1.1 27
-  206.1073 1 24
+  206.1073 1.0 24
   207.1178 2.9 71
   208.1237 0.9 22
   209.0955 0.5 12
@@ -185,7 +184,7 @@ PK$PEAK: m/z int. rel.int.
   223.1115 1.2 29
   223.1474 1.8 44
   224.12 0.6 14
-  225.1269 3 74
+  225.1269 3.0 74
   225.1649 1.5 37
   226.1366 1.1 27
   226.1579 0.4 9

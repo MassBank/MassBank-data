@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311107513
 RECORD_TITLE: Pantoprazole sulfide; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Pantoprazole sulfide
-CH$COMPOUND_CLASS: Pharmaceutical; Metabolite
+CH$COMPOUND_CLASS: Pharmaceutical; Metabolite; Transformation_product-Metabolite
 CH$FORMULA: C16H15F2N3O3S
 CH$EXACT_MASS: 367.0802
 CH$SMILES: COC1=C(C(=NC=C1)CSC2=NC3=C(N2)C=CC(=C3)OC(F)F)OC
 CH$IUPAC: InChI=1S/C16H15F2N3O3S/c1-22-13-5-6-19-12(14(13)23-2)8-25-16-20-10-4-3-9(24-15(17)18)7-11(10)21-16/h3-7,15H,8H2,1-2H3,(H,20,21)
 CH$LINK: CAS 102625-64-9
 CH$LINK: INCHIKEY UKILEIRWOYBGEJ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000294; Organic compounds; Organoheterocyclic compounds; Benzimidazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.575 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 368.0875
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0f7o-5902000000-b2a0dbc8c7834581d3ff
 PK$NUM_PEAK: 21
 PK$PEAK: m/z int. rel.int.
   65.0434 15.7 134
-  92.0521 117 999
+  92.0521 117.0 999
   94.0664 3.1 26
   110.0599 1.6 13
   122.0605 45.6 389
@@ -44,7 +43,7 @@ PK$PEAK: m/z int. rel.int.
   136.0387 3.4 29
   137.0466 5.5 46
   138.0547 16.9 144
-  150.0539 2 17
+  150.0539 2.0 17
   151.0082 3.2 27
   152.0715 58.6 500
   154.0318 8.8 75
@@ -55,5 +54,5 @@ PK$PEAK: m/z int. rel.int.
   320.0866 6.7 57
   334.1002 4.6 39
   335.109 9.6 81
-  368.0888 40 341
+  368.0888 40.0 341
 //

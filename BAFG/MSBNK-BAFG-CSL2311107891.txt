@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107891
 RECORD_TITLE: 5-Chlorobenzotriazole; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 5-Chlorobenzotriazole
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C6H4ClN3
@@ -15,6 +14,7 @@ CH$SMILES: Clc1ccc2n[nH]nc2c1
 CH$IUPAC: InChI=1S/C6H4ClN3/c7-4-1-2-5-6(3-4)9-10-8-5/h1-3H,(H,8,9,10)
 CH$LINK: CAS 94-97-3
 CH$LINK: INCHIKEY PZBQVZFITSVHAW-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000315; Organic compounds; Organoheterocyclic compounds; Benzotriazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.635 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 154.0167
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0f97-9500000000-c69cba33fecd1012e76d
 PK$NUM_PEAK: 8
 PK$PEAK: m/z int. rel.int.
@@ -39,7 +38,7 @@ PK$PEAK: m/z int. rel.int.
   90.0353 535.8 840
   91.043 435.9 684
   99.0001 511.1 802
-  119.0473 33 51
+  119.0473 33.0 51
   125.002 20.1 31
   126.01 588.4 923
   154.016 636.6 999

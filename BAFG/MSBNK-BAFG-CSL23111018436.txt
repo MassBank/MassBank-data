@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018436
 RECORD_TITLE: Proadifen; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Proadifen
 CH$FORMULA: C23H31NO2
 CH$EXACT_MASS: 353.2355
@@ -14,6 +13,7 @@ CH$SMILES: CCCC(C1=CC=CC=C1)(C2=CC=CC=C2)C(=O)OCCN(CC)CC
 CH$IUPAC: InChI=1S/C23H31NO2/c1-4-17-23(20-13-9-7-10-14-20,21-15-11-8-12-16-21)22(25)26-19-18-24(5-2)6-3/h7-16H,4-6,17-19H2,1-3H3
 CH$LINK: CAS 302-33-0
 CH$LINK: INCHIKEY SNTQPLDRUZOSDP-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000369; Organic compounds; Benzenoids; Benzene and substituted derivatives; Diphenylmethanes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,13 +29,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.831 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 354.2428
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-05mo-5900000000-ebfca41449a1c524f3a3
 PK$NUM_PEAK: 16
 PK$PEAK: m/z int. rel.int.
   44.0482 63.1 32
-  65.0369 59 30
+  65.0369 59.0 30
   72.0792 75.4 38
   77.037 100.5 51
   79.0527 74.2 37

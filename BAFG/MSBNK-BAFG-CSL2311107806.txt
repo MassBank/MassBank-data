@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107806
 RECORD_TITLE: 16alpha-hydroxyestrone; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 16alpha-hydroxyestrone
 CH$COMPOUND_CLASS: Pharmaceutical; Metabolite
 CH$FORMULA: C18H22O3
@@ -15,6 +14,7 @@ CH$SMILES: C[C@]12CC[C@@H]3[C@H](CCc4cc(O)ccc34)[C@H]1C[C@@H](O)C2=O
 CH$IUPAC: InChI=1S/C18H22O3/c1-18-7-6-13-12-5-3-11(19)8-10(12)2-4-14(13)15(18)9-16(20)17(18)21/h3,5,8,13-16,19-20H,2,4,6-7,9H2,1H3/t13-,14-,15+,16+,18-/m0/s1
 CH$LINK: CAS 566-76-7
 CH$LINK: INCHIKEY WPOCIZJTELRQMF-UJHHCITNSA-N
+CH$LINK: ChemOnt CHEMONTID:0004551; Organic compounds; Benzenoids; Benzene and substituted derivatives; Trifluoromethylbenzenes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.67 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 287.1642
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0k92-0940000000-fb966b5878a9ce70e9d2
 PK$NUM_PEAK: 69
 PK$PEAK: m/z int. rel.int.
@@ -53,9 +52,9 @@ PK$PEAK: m/z int. rel.int.
   121.0647 34.1 35
   123.0804 30.7 31
   129.07 11.2 11
-  131.0847 40 41
+  131.0847 40.0 41
   133.0656 747.6 776
-  141.0704 39 40
+  141.0704 39.0 40
   143.0862 10.8 11
   144.0576 37.9 39
   145.0655 112.1 116
@@ -72,7 +71,7 @@ PK$PEAK: m/z int. rel.int.
   177.0703 12.6 13
   179.0862 60.9 63
   181.0655 29.4 30
-  181.0998 17 17
+  181.0998 17.0 17
   182.0726 30.8 31
   183.0812 91.4 94
   184.0885 19.9 20
@@ -98,10 +97,10 @@ PK$PEAK: m/z int. rel.int.
   225.1285 196.6 204
   227.1431 44.3 46
   233.1328 15.7 16
-  236.12 55 57
+  236.12 55.0 57
   241.1593 24.5 25
   249.128 17.9 18
   251.1434 917.3 952
-  269.1547 120 124
+  269.1547 120.0 124
   287.1647 25.5 26
 //

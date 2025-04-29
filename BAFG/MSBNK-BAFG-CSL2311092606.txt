@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311092606
 RECORD_TITLE: Benzophenone-2; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Benzophenone-2
 CH$COMPOUND_CLASS: Personal_care_product
 CH$FORMULA: C13H10O5
@@ -15,6 +14,7 @@ CH$SMILES: Oc1ccc(c(O)c1)C(=O)c2ccc(O)cc2O
 CH$IUPAC: InChI=1S/C13H10O5/c14-7-1-3-9(11(16)5-7)13(18)10-4-2-8(15)6-12(10)17/h1-6,14-17H
 CH$LINK: CAS 131-55-5
 CH$LINK: INCHIKEY WXNRYSGJLQFHBR-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001111; Organic compounds; Phenylpropanoids and polyketides; Flavonoids; Flavonoid glycosides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.373 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 245.0455
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4l-4900000000-14271ef13c10cde0a199
 PK$NUM_PEAK: 8
 PK$PEAK: m/z int. rel.int.
-  41.005 10 59
+  41.005 10.0 59
   65.0389 29.2 173
   67.018 15.1 89
   91.0169 87.8 521

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095213
 RECORD_TITLE: 14-Hydroxycodeinone; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 14-Hydroxycodeinone
 CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product
 CH$FORMULA: C18H19NO4
@@ -15,6 +14,7 @@ CH$SMILES: COc1ccc2C[C@H]3N(C)CC[C@@]45C(Oc1c24)C(=O)C=C[C@@]35O
 CH$IUPAC: InChI=1S/C18H19NO4/c1-19-8-7-17-14-10-3-4-12(22-2)15(14)23-16(17)11(20)5-6-18(17,21)13(19)9-10/h3-6,13,16,21H,7-9H2,1-2H3/t13-,16?,17+,18-/m1/s1
 CH$LINK: CAS 508-54-3
 CH$LINK: INCHIKEY YYCRAERBSFHMPL-FSFXSCMFSA-N
+CH$LINK: ChemOnt CHEMONTID:0000058; Organic compounds; Alkaloids and derivatives; Morphinans
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.367 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 314.1387
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-000i-0390000000-6a20515c43fac2069bd9
 PK$NUM_PEAK: 64
 PK$PEAK: m/z int. rel.int.
@@ -41,7 +40,7 @@ PK$PEAK: m/z int. rel.int.
   141.0695 8.6 24
   144.0553 3.6 10
   151.0546 3.9 11
-  152.0622 15 43
+  152.0622 15.0 43
   153.0691 9.3 26
   154.0707 5.4 15
   155.0489 3.7 10
@@ -54,7 +53,7 @@ PK$PEAK: m/z int. rel.int.
   169.0642 5.4 15
   176.0622 3.9 11
   178.0767 9.3 26
-  179.0808 4 11
+  179.0808 4.0 11
   180.0805 8.8 25
   181.0694 4.1 11
   181.0881 27.1 77
@@ -98,5 +97,5 @@ PK$PEAK: m/z int. rel.int.
   254.1169 7.8 22
   264.1011 8.8 25
   266.0824 6.6 18
-  280.0971 13 37
+  280.0971 13.0 37
 //

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018191
 RECORD_TITLE: Fenpropidin; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Fenpropidin
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C19H31N
@@ -15,6 +14,7 @@ CH$SMILES: CC(CC1=CC=C(C=C1)C(C)(C)C)CN2CCCCC2
 CH$IUPAC: InChI=1S/C19H31N/c1-16(15-20-12-6-5-7-13-20)14-17-8-10-18(11-9-17)19(2,3)4/h8-11,16H,5-7,12-15H2,1-4H3
 CH$LINK: CAS 67306-00-7
 CH$LINK: INCHIKEY MGNFYQILYYYUBS-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002811; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylpropanes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.471 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 274.2529
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-2900000000-c552c247d54e7befc874
 PK$NUM_PEAK: 22
 PK$PEAK: m/z int. rel.int.
@@ -49,12 +48,12 @@ PK$PEAK: m/z int. rel.int.
   103.0539 34.7 31
   104.0616 63.7 57
   105.0697 198.7 179
-  107.0849 31 28
+  107.0849 31.0 28
   115.0539 145.5 131
-  116.0611 21 18
+  116.0611 21.0 18
   117.0699 1105.3 999
   119.0854 234.8 212
   131.0854 81.9 74
   132.0933 429.4 388
-  147.1164 85 76
+  147.1164 85.0 76
 //

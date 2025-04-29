@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311108600
 RECORD_TITLE: Ethyl-2-cyano-3.3-diphenylacrylate; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Ethyl-2-cyano-3.3-diphenylacrylate
 CH$COMPOUND_CLASS: Industrial_process; Personal_care_product
 CH$FORMULA: C18H15NO2
@@ -15,6 +14,7 @@ CH$SMILES: CCOC(=O)C(=C(C1=CC=CC=C1)C2=CC=CC=C2)C#N
 CH$IUPAC: InChI=1S/C18H15NO2/c1-2-21-18(20)16(13-19)17(14-9-5-3-6-10-14)15-11-7-4-8-12-15/h3-12H,2H2,1H3
 CH$LINK: CAS 5232-99-5
 CH$LINK: INCHIKEY IAJNXBNRYMEYAZ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000369; Organic compounds; Benzenoids; Benzene and substituted derivatives; Diphenylmethanes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.596 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 278.1176
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ugi-0690000000-acb5303867efa19ec2c8
 PK$NUM_PEAK: 26
 PK$PEAK: m/z int. rel.int.
@@ -44,12 +43,12 @@ PK$PEAK: m/z int. rel.int.
   147.0451 1.4 22
   151.0543 6.8 109
   152.0632 1.2 19
-  154.0329 1 16
+  154.0329 1.0 16
   157.0293 1.9 30
   165.069 0.9 14
   175.0527 1.1 17
   176.0622 26.9 431
-  177.0696 31 497
+  177.0696 31.0 497
   178.0781 8.9 142
   179.0849 1.2 19
   182.0942 1.1 17

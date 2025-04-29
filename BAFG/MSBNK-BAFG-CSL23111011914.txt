@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111011914
 RECORD_TITLE: Isopropyltriphenylphosphonium; LC-ESI-QTOF; MS2; 140 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Isopropyltriphenylphosphonium
 CH$FORMULA: [C21H22P]+
 CH$EXACT_MASS: 305.1454
@@ -14,6 +13,7 @@ CH$SMILES: CC(C)[P+](C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3
 CH$IUPAC: InChI=1S/C21H22P/c1-18(2)22(19-12-6-3-7-13-19,20-14-8-4-9-15-20)21-16-10-5-11-17-21/h3-18H,1-2H3/q+1
 CH$LINK: CAS 24470-78-8
 CH$LINK: INCHIKEY PXIMQGSMXJFQOF-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001814; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylphosphines and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,26 +29,25 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.721 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 305.1454
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0zgi-4900000000-bbc1a964462bbd4f265e
 PK$NUM_PEAK: 37
 PK$PEAK: m/z int. rel.int.
   39.0233 4.4 78
-  50.015 3 53
+  50.015 3.0 53
   51.0227 4.3 76
   56.9888 7.1 126
   62.0142 4.2 74
   63.0226 13.7 243
   65.0376 6.3 111
   74.014 6.5 115
-  76.0289 6 106
-  77.0371 5 88
+  76.0289 6.0 106
+  77.0371 5.0 88
   78.0454 3.2 56
   78.9721 3.6 63
   79.98 16.4 291
   80.9876 20.7 367
-  86.0134 3 53
+  86.0134 3.0 53
   87.0205 7.2 127
   89.0365 19.6 348
   98.0121 3.9 69

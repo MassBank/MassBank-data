@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016036
 RECORD_TITLE: N-Octyl-2-pyrrolidone; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: N-Octyl-2-pyrrolidone
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C12H23NO
@@ -15,6 +14,7 @@ CH$SMILES: CCCCCCCCN1CCCC1=O
 CH$IUPAC: InChI=1S/C12H23NO/c1-2-3-4-5-6-7-10-13-11-8-9-12(13)14/h2-11H2,1H3
 CH$LINK: CAS 2687-94-7
 CH$LINK: INCHIKEY WPPOGHDFAVQKLN-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0003449; Organic compounds; Organoheterocyclic compounds; Pyrrolidines; N-alkylpyrrolidines
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,15 +30,14 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.596 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 198.1853
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-000j-9300000000-056e49472d6ab7804671
 PK$NUM_PEAK: 9
 PK$PEAK: m/z int. rel.int.
-  41.0388 15 34
+  41.0388 15.0 34
   43.0545 29.2 66
   44.0133 7.8 17
-  57.07 41 93
+  57.07 41.0 93
   69.0335 23.1 52
   71.0856 18.9 43
   86.0604 435.9 999

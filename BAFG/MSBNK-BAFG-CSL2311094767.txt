@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311094767
 RECORD_TITLE: Oxymetazoline; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Oxymetazoline
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C16H24N2O
@@ -15,6 +14,7 @@ CH$SMILES: Cc1cc(c(c(c1CC2=NCCN2)C)O)C(C)(C)C
 CH$IUPAC: InChI=1S/C16H24N2O/c1-10-8-13(16(3,4)5)15(19)11(2)12(10)9-14-17-6-7-18-14/h8,19H,6-7,9H2,1-5H3,(H,17,18)
 CH$LINK: CAS 1491-59-4
 CH$LINK: INCHIKEY WYWIFABBXFUGLM-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004208; Organic compounds; Benzenoids; Benzene and substituted derivatives; Xylenes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.429 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 261.1961
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00or-9800000000-fac4b01d97797fe1d639
 PK$NUM_PEAK: 48
 PK$PEAK: m/z int. rel.int.
@@ -47,9 +46,9 @@ PK$PEAK: m/z int. rel.int.
   76.0345 1.7 27
   77.0421 62.6 999
   78.049 6.6 105
-  79.057 9 143
+  79.057 9.0 143
   84.0721 0.7 11
-  89.0406 8 127
+  89.0406 8.0 127
   90.0464 0.7 11
   91.0561 50.7 809
   91.0925 0.7 11
@@ -59,15 +58,15 @@ PK$PEAK: m/z int. rel.int.
   104.0605 0.7 11
   105.0693 6.1 97
   107.0493 0.9 14
-  115.0548 46 734
+  115.0548 46.0 734
   116.0606 3.2 51
   117.0555 1.5 23
-  117.0702 8 127
+  117.0702 8.0 127
   118.0625 0.7 11
   118.0788 0.7 11
   121.0642 0.9 14
   126.0463 2.9 46
-  127.0539 13 207
+  127.0539 13.0 207
   128.0623 26.1 416
   128.0975 0.6 9
   129.0702 1.9 30
@@ -80,7 +79,7 @@ PK$PEAK: m/z int. rel.int.
   142.0678 1.1 17
   144.0817 0.9 14
   145.0619 1.8 28
-  152.0625 1 15
+  152.0625 1.0 15
   159.0793 0.8 12
   167.0751 0.9 14
 //

@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311093572
 RECORD_TITLE: N,O-didesmethyl-venlafaxine; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: N,O-didesmethyl-venlafaxine
-CH$COMPOUND_CLASS: Pharmaceutical; Metabolite
+CH$COMPOUND_CLASS: Pharmaceutical; Metabolite; Transformation_product-Metabolite
 CH$FORMULA: C15H23NO2
 CH$EXACT_MASS: 249.1729
 CH$SMILES: CNCC(c1ccc(cc1)O)C2(CCCCC2)O
 CH$IUPAC: InChI=1S/C15H23NO2/c1-16-11-14(12-5-7-13(17)8-6-12)15(18)9-3-2-4-10-15/h5-8,14,16-18H,2-4,9-11H2,1H3
 CH$LINK: CAS 135308-74-6
 CH$LINK: INCHIKEY MMSWXJSQCAEDLK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000129; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Alcohols and polyols
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.659 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 250.1802
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4i-3900000000-eaed8f9ae7b7a47124b7
 PK$NUM_PEAK: 27
 PK$PEAK: m/z int. rel.int.
@@ -46,7 +45,7 @@ PK$PEAK: m/z int. rel.int.
   93.0701 2.1 11
   103.0537 4.2 23
   105.0705 36.2 199
-  107.0502 181 999
+  107.0502 181.0 999
   115.0537 5.9 32
   117.0684 3.5 19
   121.0647 8.9 49
@@ -57,9 +56,9 @@ PK$PEAK: m/z int. rel.int.
   135.0677 8.7 48
   141.0694 7.7 42
   144.0571 7.8 43
-  145.0647 27 149
+  145.0647 27.0 149
   147.0787 2.9 16
-  149.0821 3 16
-  150.0907 4 22
+  149.0821 3.0 16
+  150.0907 4.0 22
   159.0807 30.2 166
 //

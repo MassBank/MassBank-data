@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109621
 RECORD_TITLE: Phenacetin; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Phenacetin
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C10H13NO2
@@ -15,6 +14,7 @@ CH$SMILES: CCOC1=CC=C(C=C1)NC(=O)C
 CH$IUPAC: InChI=1S/C10H13NO2/c1-3-13-10-6-4-9(5-7-10)11-8(2)12/h4-7H,3H2,1-2H3,(H,11,12)
 CH$LINK: CAS 62-44-2
 CH$LINK: INCHIKEY CPJSUEIXXCENMM-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000285; Organic compounds; Benzenoids; Benzene and substituted derivatives; Anilides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.622 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 180.1019
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-9000000000-f8f46cce46071ef2f0c2
 PK$NUM_PEAK: 21
 PK$PEAK: m/z int. rel.int.
@@ -46,12 +45,12 @@ PK$PEAK: m/z int. rel.int.
   65.0388 121.4 999
   66.0465 5.1 41
   67.0413 8.5 69
-  77.0385 2 16
+  77.0385 2.0 16
   80.0498 22.7 186
   81.0577 3.6 29
-  82.0658 3 24
+  82.0658 3.0 24
   92.0495 6.6 54
-  93.0572 21 172
+  93.0572 21.0 172
   94.0402 1.4 11
   108.044 3.1 25
   109.0519 13.2 108

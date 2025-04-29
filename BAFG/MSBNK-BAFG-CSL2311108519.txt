@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311108519
 RECORD_TITLE: Etoricoxib; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Etoricoxib
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C18H15ClN2O2S
@@ -15,6 +14,7 @@ CH$SMILES: CC1=NC=C(C=C1)C2=NC=C(C=C2C3=CC=C(C=C3)S(=O)(=O)C)Cl
 CH$IUPAC: InChI=1S/C18H15ClN2O2S/c1-12-3-4-14(10-20-12)18-17(9-15(19)11-21-18)13-5-7-16(8-6-13)24(2,22)23/h3-11H,1-2H3
 CH$LINK: CAS 202409-33-4
 CH$LINK: INCHIKEY MNJVRJDLRVPLFE-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000326; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives; Bipyridines and oligopyridines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.991 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 359.0616
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004l-0090000000-8ccdbfec9bdb3fd57fee
 PK$NUM_PEAK: 51
 PK$PEAK: m/z int. rel.int.
@@ -48,7 +47,7 @@ PK$PEAK: m/z int. rel.int.
   192.0741 2.9 10
   193.076 5.9 21
   194.084 4.1 15
-  200.0487 8 29
+  200.0487 8.0 29
   201.0566 20.9 77
   202.0647 29.6 109
   203.0724 53.6 199
@@ -79,11 +78,11 @@ PK$PEAK: m/z int. rel.int.
   253.0517 17.1 63
   262.0419 15.7 58
   263.0367 87.8 326
-  264.0457 36 133
+  264.0457 36.0 133
   265.0527 13.6 50
   276.0442 11.6 43
   277.0523 55.7 206
-  278.0603 94 349
-  279.0676 269 999
+  278.0603 94.0 349
+  279.0676 269.0 999
   280.0753 20.2 75
 //

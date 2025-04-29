@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311093145
 RECORD_TITLE: Ethyldiphenylphosphine oxide; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Ethyldiphenylphosphine oxide
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C14H15OP
@@ -15,6 +14,7 @@ CH$SMILES: CC[P](=O)(c1ccccc1)c2ccccc2
 CH$IUPAC: InChI=1S/C14H15OP/c1-2-16(15,13-9-5-3-6-10-13)14-11-7-4-8-12-14/h3-12H,2H2,1H3
 CH$LINK: CAS 1733-57-9
 CH$LINK: INCHIKEY AKTGKEBIBGSCLD-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001322; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives; Pyridinecarboxylic acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.816 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 231.0933
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-0910000000-865a3ea7308fe070c091
 PK$NUM_PEAK: 22
 PK$PEAK: m/z int. rel.int.
@@ -45,9 +44,9 @@ PK$PEAK: m/z int. rel.int.
   103.0544 3.7 13
   105.0706 29.6 111
   109.0211 79.8 300
-  125.0161 265 999
+  125.0161 265.0 999
   152.0629 4.5 16
-  153.0467 44 165
+  153.0467 44.0 165
   154.077 5.7 21
   155.0866 10.8 40
   165.0708 4.3 16

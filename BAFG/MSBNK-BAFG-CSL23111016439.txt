@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016439
 RECORD_TITLE: 3-Dimethylaminophenol; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 3-Dimethylaminophenol
 CH$FORMULA: C8H11NO
 CH$EXACT_MASS: 137.0841
@@ -14,6 +13,7 @@ CH$SMILES: CN(C)C1=CC(=CC=C1)O
 CH$IUPAC: InChI=1S/C8H11NO/c1-9(2)7-4-3-5-8(10)6-7/h3-6,10H,1-2H3
 CH$LINK: CAS 99-07-0
 CH$LINK: INCHIKEY MESJRHHDBDCQTH-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002449; Organic compounds; Organic nitrogen compounds; Organonitrogen compounds; Amines
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,15 +29,14 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.073 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 138.0914
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014r-9000000000-3f338cf1409327c67eb7
 PK$NUM_PEAK: 24
 PK$PEAK: m/z int. rel.int.
   35.9987 3.8 19
   37.0065 23.2 120
   38.0143 22.1 114
-  39.0224 167 864
+  39.0224 167.0 864
   40.0297 3.6 18
   44.0482 2.8 14
   50.014 3.7 19
@@ -55,7 +54,7 @@ PK$PEAK: m/z int. rel.int.
   81.032 10.7 55
   93.0322 21.2 109
   94.0403 89.1 461
-  95.0478 7 36
+  95.0478 7.0 36
   121.0384 3.5 18
   122.0587 34.2 177
 //

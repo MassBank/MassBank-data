@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311108809
 RECORD_TITLE: Mefloquine; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Mefloquine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C17H16F6N2O
@@ -15,6 +14,7 @@ CH$SMILES: C1CCNC(C1)C(C2=CC(=NC3=C2C=CC=C3C(F)(F)F)C(F)(F)F)O
 CH$IUPAC: InChI=1S/C17H16F6N2O/c18-16(19,20)11-5-3-4-9-10(15(26)12-6-1-2-7-24-12)8-13(17(21,22)23)25-14(9)11/h3-5,8,12,15,24,26H,1-2,6-7H2
 CH$LINK: CAS 53230-10-7
 CH$LINK: INCHIKEY XEEQGYMUWCZPDN-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004538; Organic compounds; Organoheterocyclic compounds; Quinolines and derivatives; 4-quinolinemethanols
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.432 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 379.124
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-03fr-0069000000-053a61125e04aae2adbf
 PK$NUM_PEAK: 84
 PK$PEAK: m/z int. rel.int.
@@ -44,8 +43,8 @@ PK$PEAK: m/z int. rel.int.
   215.0535 2.9 10
   222.0535 2.8 9
   229.0616 3.6 12
-  230.0653 4 14
-  234.0561 6 21
+  230.0653 4.0 14
+  234.0561 6.0 21
   235.0553 7.1 24
   236.0585 3.7 12
   238.0293 3.5 12
@@ -56,7 +55,7 @@ PK$PEAK: m/z int. rel.int.
   249.0326 3.4 11
   249.064 11.5 40
   252.043 9.3 32
-  253.0584 5 17
+  253.0584 5.0 17
   254.0766 3.9 13
   258.0345 6.4 22
   259.0447 5.8 20
@@ -67,14 +66,14 @@ PK$PEAK: m/z int. rel.int.
   264.087 3.3 11
   265.0518 3.6 12
   266.0576 16.6 58
-  267.0565 4 14
+  267.0565 4.0 14
   270.0338 8.8 30
   270.0984 3.7 12
   271.105 57.5 201
   272.0511 16.6 58
   272.1135 4.7 16
   273.0635 20.7 72
-  274.086 4 14
+  274.086 4.0 14
   275.0888 5.5 19
   276.0465 3.7 12
   278.0413 42.9 150
@@ -103,8 +102,8 @@ PK$PEAK: m/z int. rel.int.
   312.0789 6.9 24
   313.0773 59.9 210
   314.0942 7.4 25
-  316.0562 11 38
-  318.0634 4 14
+  316.0562 11.0 38
+  318.0634 4.0 14
   319.0686 6.3 22
   319.1024 3.7 12
   320.0899 9.2 32

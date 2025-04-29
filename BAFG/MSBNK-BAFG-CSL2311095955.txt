@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095955
 RECORD_TITLE: threo-Dihydrobupropion; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: threo-Dihydrobupropion
 CH$COMPOUND_CLASS: Pharmaceutical; Metabolite
 CH$FORMULA: C13H20ClNO
@@ -15,6 +14,7 @@ CH$SMILES: CC(C(c1cccc(c1)Cl)O)NC(C)(C)C
 CH$IUPAC: InChI=1S/C13H20ClNO/c1-9(15-13(2,3)4)12(16)10-6-5-7-11(14)8-10/h5-9,12,15-16H,1-4H3
 CH$LINK: CAS 92264-82-9
 CH$LINK: INCHIKEY NDPTTXIBLSWNSF-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002811; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylpropanes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.626 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 242.1306
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-0900000000-e4b010f15a50c8de0e79
 PK$NUM_PEAK: 18
 PK$PEAK: m/z int. rel.int.
@@ -39,7 +38,7 @@ PK$PEAK: m/z int. rel.int.
   56.0539 4.5 30
   57.0748 9.9 67
   89.0384 3.3 22
-  91.0543 8 54
+  91.0543 8.0 54
   115.0545 138.6 940
   116.0623 147.2 999
   117.0568 15.1 102

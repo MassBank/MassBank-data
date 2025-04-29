@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111015278
 RECORD_TITLE: Dimethenamid; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Dimethenamid
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C12H18ClNO2S
@@ -15,6 +14,7 @@ CH$SMILES: CC1=CSC(=C1N(C(C)COC)C(=O)CCl)C
 CH$IUPAC: InChI=1S/C12H18ClNO2S/c1-8-7-17-10(3)12(8)14(11(15)5-13)9(2)6-16-4/h7,9H,5-6H2,1-4H3
 CH$LINK: CAS 87674-68-8
 CH$LINK: INCHIKEY JLYFCTQDENRSOL-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004144; Organic compounds; Organoheterocyclic compounds; Heteroaromatic compounds
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,14 +30,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.971 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 276.082
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0007-9200000000-783141d3c0ac660675af
 PK$NUM_PEAK: 72
 PK$PEAK: m/z int. rel.int.
   37.008 1.4 138
   38.0154 1.1 108
-  39.0235 6 593
+  39.0235 6.0 593
   41.0393 2.9 286
   42.0349 0.7 69
   43.018 0.6 59
@@ -48,8 +47,8 @@ PK$PEAK: m/z int. rel.int.
   48.9844 6.1 603
   50.0155 1.8 178
   51.0234 4.9 484
-  52.0313 1 98
-  53.0392 3 296
+  52.0313 1.0 98
+  53.0392 3.0 296
   54.0339 0.8 79
   57.9872 1.2 118
   58.9955 3.7 365
@@ -64,7 +63,7 @@ PK$PEAK: m/z int. rel.int.
   68.052 0.4 39
   68.9798 2.4 237
   69.9876 0.5 49
-  70.995 3 296
+  70.995 3.0 296
   77.0387 7.2 712
   78.0345 1.6 158
   78.0464 3.4 336
@@ -84,12 +83,12 @@ PK$PEAK: m/z int. rel.int.
   94.0654 10.1 999
   94.996 1.2 118
   95.072 0.5 49
-  96.0023 1 98
+  96.0023 1.0 98
   97.0108 5.7 563
   99.0259 0.6 59
   104.0497 2.9 286
   105.0582 1.5 148
-  106.0651 1 98
+  106.0651 1.0 98
   109.0103 1.8 178
   110.0064 0.8 79
   110.0201 0.5 49

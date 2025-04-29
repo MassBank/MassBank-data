@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107475
 RECORD_TITLE: 3,5-bis(hexanoylamino)-2,4,6-triiodobenzoic acid; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 3,5-bis(hexanoylamino)-2,4,6-triiodobenzoic acid
 CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product
 CH$FORMULA: C19H25I3N2O4
@@ -15,6 +14,7 @@ CH$SMILES: CCCCCC(=O)Nc1c(I)c(NC(=O)CCCCC)c(I)c(C(O)=O)c1I
 CH$IUPAC: InChI=1S/C19H25I3N2O4/c1-3-5-7-9-11(25)23-17-14(20)13(19(27)28)15(21)18(16(17)22)24-12(26)10-8-6-4-2/h3-10H2,1-2H3,(H,23,25)(H,24,26)(H,27,28)
 CH$LINK: CAS 67032-31-9
 CH$LINK: INCHIKEY RRCCBBFPHXTAFB-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000176; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzoic acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.575 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 726.9021
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0w2i-0971000000-33a6f550d1d623c231c5
 PK$NUM_PEAK: 138
 PK$PEAK: m/z int. rel.int.
@@ -70,13 +69,13 @@ PK$PEAK: m/z int. rel.int.
   144.0413 0.5 31
   144.0868 0.4 24
   145.0382 2.1 130
-  145.0755 1 62
+  145.0755 1.0 62
   146.0228 2.9 179
   146.0475 2.9 179
   147.0324 2.5 155
   147.056 2.1 130
   148.0389 2.5 155
-  148.0626 6 372
+  148.0626 6.0 372
   149.0487 0.4 24
   158.0473 0.4 24
   158.0988 0.4 24
@@ -94,7 +93,7 @@ PK$PEAK: m/z int. rel.int.
   173.0338 1.3 80
   173.1068 0.9 55
   174.0181 0.8 49
-  174.0447 2 124
+  174.0447 2.0 124
   174.0842 0.4 24
   175.027 0.5 31
   175.0523 0.7 43
@@ -113,7 +112,7 @@ PK$PEAK: m/z int. rel.int.
   200.0207 0.9 55
   200.0574 3.4 210
   201.026 0.6 37
-  201.0668 5 310
+  201.0668 5.0 310
   201.0962 0.7 43
   202.0762 1.2 74
   202.1096 0.8 49
@@ -126,19 +125,19 @@ PK$PEAK: m/z int. rel.int.
   213.0651 2.4 148
   213.1024 1.1 68
   214.0373 2.3 142
-  214.0755 1 62
+  214.0755 1.0 62
   214.1101 0.6 37
   215.0456 0.4 24
   215.0826 0.8 49
   218.0342 0.7 43
-  219.0421 1 62
+  219.0421 1.0 62
   219.0748 0.4 24
   220.9558 0.4 24
   227.0444 1.1 68
   227.083 1.2 74
   228.0528 0.9 55
   229.061 1.1 68
-  231.0416 2 124
+  231.0416 2.0 124
   231.1134 1.4 86
   231.9252 0.4 24
   232.0487 1.9 117

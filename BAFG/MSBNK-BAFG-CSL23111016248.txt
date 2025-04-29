@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016248
 RECORD_TITLE: Glycidyltrimethylaminium; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Glycidyltrimethylaminium
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: [C6H14NO]+
@@ -15,6 +14,7 @@ CH$SMILES: C[N+](C)(C)CC1CO1
 CH$IUPAC: InChI=1S/C6H14NO/c1-7(2,3)4-6-5-8-6/h6H,4-5H2,1-3H3/q+1
 CH$LINK: CAS 45633-15-6
 CH$LINK: INCHIKEY LRQFRDLKOBFOSG-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000503; Organic compounds; Organic nitrogen compounds; Organonitrogen compounds; Quaternary ammonium salts
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 1.307 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 116.107
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0006-9000000000-cc31e021a45e667fe541
 PK$NUM_PEAK: 4
 PK$PEAK: m/z int. rel.int.
-  42.0339 1027 999
+  42.0339 1027.0 999
   43.0415 74.3 72
   44.0492 67.2 65
   58.0642 118.6 115

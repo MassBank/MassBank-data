@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018574
 RECORD_TITLE: Meperidine; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Meperidine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C15H21NO2
@@ -15,6 +14,7 @@ CH$SMILES: CCOC(=O)C1(CCN(CC1)C)C2=CC=CC=C2
 CH$IUPAC: InChI=1S/C15H21NO2/c1-3-18-14(17)15(9-11-16(2)12-10-15)13-7-5-4-6-8-13/h4-8H,3,9-12H2,1-2H3
 CH$LINK: CAS 57-42-1
 CH$LINK: INCHIKEY XADCESSVHJOZHK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000303; Organic compounds; Organoheterocyclic compounds; Piperidines; Phenylpiperidines
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.573 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 248.1645
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00di-6940000000-3ad253d33dfd91a0aa4e
 PK$NUM_PEAK: 33
 PK$PEAK: m/z int. rel.int.
@@ -54,10 +53,10 @@ PK$PEAK: m/z int. rel.int.
   116.0611 50.3 42
   117.069 120.3 102
   128.061 34.4 29
-  129.0689 75 63
+  129.0689 75.0 63
   130.0767 29.6 25
   131.0849 437.2 370
-  143.0843 26 22
+  143.0843 26.0 22
   145.1006 28.9 24
   158.0956 17.8 15
   159.1031 21.1 17

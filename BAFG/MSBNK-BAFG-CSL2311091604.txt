@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311091604
 RECORD_TITLE: Guanosine; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Guanosine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C10H13N5O5
@@ -15,6 +14,7 @@ CH$SMILES: NC1=NC(=O)c2ncn(C3OC(CO)C(O)C3O)c2N1
 CH$IUPAC: InChI=1S/C10H13N5O5/c11-10-13-7-4(8(19)14-10)12-2-15(7)9-6(18)5(17)3(1-16)20-9/h2-3,5-6,9,16-18H,1H2,(H3,11,13,14,19)
 CH$LINK: CAS 118-00-3
 CH$LINK: INCHIKEY NYHBQMYGNKIUIF-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002216; Organic compounds; Lipids and lipid-like molecules; Glycerophospholipids; Glycerophosphoglycerols
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 3.148 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 282.0844
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-0900000000-be5787a1cd987ed6418c
 PK$NUM_PEAK: 4
 PK$PEAK: m/z int. rel.int.

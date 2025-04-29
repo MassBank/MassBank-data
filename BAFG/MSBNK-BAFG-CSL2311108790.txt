@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311108790
 RECORD_TITLE: 2-(2-Hydroxyphenyl)-1H-benzimidazole; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 2-(2-Hydroxyphenyl)-1H-benzimidazole
 CH$COMPOUND_CLASS: Industrial_process; Pharmaceutical
 CH$FORMULA: C13H10N2O
@@ -15,6 +14,7 @@ CH$SMILES: C1=CC=C2C(=C1)NC(=C3C=CC=CC3=O)N2
 CH$IUPAC: InChI=1S/C13H10N2O/c16-12-8-4-1-5-9(12)13-14-10-6-2-3-7-11(10)15-13/h1-8,14-15H
 CH$LINK: CAS 2963-66-8
 CH$LINK: INCHIKEY IOJWAAXMYYMGMG-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000294; Organic compounds; Organoheterocyclic compounds; Benzimidazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.225 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 211.0866
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-001i-1900000000-e88cf7e5c73bb4b0dceb
 PK$NUM_PEAK: 44
 PK$PEAK: m/z int. rel.int.
@@ -43,23 +42,23 @@ PK$PEAK: m/z int. rel.int.
   93.0608 2.3 15
   102.0358 2.8 19
   103.0431 2.6 17
-  104.0525 6 40
+  104.0525 6.0 40
   115.0569 2.3 15
   117.0581 5.7 38
   118.0543 23.2 157
   119.0623 3.3 22
   120.0463 4.2 28
   127.0549 1.9 12
-  128.0572 5 33
+  128.0572 5.0 33
   129.0616 8.8 59
   131.0615 20.4 138
   132.0695 4.4 29
   138.0497 1.5 10
   139.0555 8.2 55
   140.0503 7.9 53
-  141.0573 3 20
+  141.0573 3.0 20
   142.0544 2.7 18
-  143.062 9 61
+  143.062 9.0 61
   154.0658 6.1 41
   155.0617 10.7 72
   156.0698 32.7 222
@@ -71,8 +70,8 @@ PK$PEAK: m/z int. rel.int.
   168.0692 68.3 464
   169.0773 5.1 34
   180.0686 2.1 14
-  181.077 118 801
-  182.0842 147 999
+  181.077 118.0 801
+  182.0842 147.0 999
   183.092 116.8 793
   191.0604 4.2 28
   192.0688 25.5 173

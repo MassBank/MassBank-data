@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107649
 RECORD_TITLE: Mebendazole; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Mebendazole
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C16H13N3O3
@@ -15,6 +14,7 @@ CH$SMILES: COC(=O)Nc1[nH]c2cc(ccc2n1)C(=O)c3ccccc3
 CH$IUPAC: InChI=1S/C16H13N3O3/c1-22-16(21)19-15-17-12-8-7-11(9-13(12)18-15)14(20)10-5-3-2-4-6-10/h2-9H,1H3,(H2,17,18,19,21)
 CH$LINK: CAS 31431-39-7
 CH$LINK: INCHIKEY OPXLLQIJSORQAM-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000120; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzophenones
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.672 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 296.103
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-9300000000-aec21c95f7002a353be8
 PK$NUM_PEAK: 26
 PK$PEAK: m/z int. rel.int.
@@ -41,13 +40,13 @@ PK$PEAK: m/z int. rel.int.
   74.0176 0.6 11
   75.0129 1.4 27
   75.0248 0.5 9
-  76.0206 13 251
+  76.0206 13.0 251
   77.0414 51.6 999
-  77.0677 1 19
+  77.0677 1.0 19
   78.0359 9.9 191
   87.0238 0.6 11
   89.0416 0.9 17
-  90.0359 1 19
+  90.0359 1.0 19
   103.0299 2.9 56
   104.0371 5.9 114
   105.0448 5.8 112
@@ -60,5 +59,5 @@ PK$PEAK: m/z int. rel.int.
   131.0463 0.9 17
   139.0528 3.3 63
   140.0496 1.8 34
-  164.0482 1 19
+  164.0482 1.0 19
 //

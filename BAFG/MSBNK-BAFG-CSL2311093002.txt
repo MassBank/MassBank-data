@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311093002
 RECORD_TITLE: Acridine-9-carboxylic acid; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Acridine-9-carboxylic acid
-CH$COMPOUND_CLASS: Pharmaceutical; Metabolite; Transformation_product
+CH$COMPOUND_CLASS: Pharmaceutical; Metabolite; Transformation_product; Transformation_product-Metabolite
 CH$FORMULA: C14H9NO2
 CH$EXACT_MASS: 223.0633
 CH$SMILES: OC(=O)c1c2ccccc2nc3ccccc13
 CH$IUPAC: InChI=1S/C14H9NO2/c16-14(17)13-9-5-1-3-7-11(9)15-12-8-4-2-6-10(12)13/h1-8H,(H,16,17)
 CH$LINK: CAS 5336-90-3
 CH$LINK: INCHIKEY IYRYQBAAHMBIFT-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001115; Organic compounds; Organic acids and derivatives; Keto acids and derivatives; Gamma-keto acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.656 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 224.0706
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0umr-9800000000-2cc216550d195eed1e37
 PK$NUM_PEAK: 44
 PK$PEAK: m/z int. rel.int.
   51.0281 5.2 633
-  65.0421 1 121
+  65.0421 1.0 121
   73.0094 0.9 109
   74.018 8.1 986
   75.0135 0.4 48
@@ -78,5 +77,5 @@ PK$PEAK: m/z int. rel.int.
   152.0558 1.2 146
   175.0404 0.5 60
   176.0506 0.8 97
-  177.0592 1 121
+  177.0592 1.0 121
 //

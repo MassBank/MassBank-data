@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016782
 RECORD_TITLE: 1-Boc-4-[3-(ethoxycarbonyl)phenyl]piperazine; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 1-Boc-4-[3-(ethoxycarbonyl)phenyl]piperazine
 CH$FORMULA: C18H26N2O4
 CH$EXACT_MASS: 334.1893
@@ -14,6 +13,7 @@ CH$SMILES: CCOC(=O)C1=CC(=CC=C1)N2CCN(CC2)C(=O)OC(C)(C)C
 CH$IUPAC: InChI=1S/C18H26N2O4/c1-5-23-16(21)14-7-6-8-15(13-14)19-9-11-20(12-10-19)17(22)24-18(2,3)4/h6-8,13H,5,9-12H2,1-4H3
 CH$LINK: CAS 261925-94-4
 CH$LINK: INCHIKEY CCLGNFZMWMCRCH-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000189; Organic compounds; Organoheterocyclic compounds; Diazinanes; Piperazines
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 14.611 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 335.1965
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-016u-9500000000-a97ce53b17907c6ec63b
 PK$NUM_PEAK: 62
 PK$PEAK: m/z int. rel.int.
@@ -46,10 +45,10 @@ PK$PEAK: m/z int. rel.int.
   51.023 14.1 228
   53.0396 0.7 11
   56.0506 2.8 45
-  57.0697 3 48
+  57.0697 3.0 48
   63.0234 1.1 17
   65.0387 35.2 569
-  66.0468 1 16
+  66.0468 1.0 16
   75.023 5.3 85
   76.0308 0.9 14
   77.0386 61.7 999
@@ -80,20 +79,20 @@ PK$PEAK: m/z int. rel.int.
   119.0733 3.9 63
   120.0454 0.9 14
   120.08 5.4 87
-  121.0285 3 48
+  121.0285 3.0 48
   129.0561 0.6 9
   130.0647 4.5 72
   131.0587 0.6 9
-  131.0718 1 16
+  131.0718 1.0 16
   132.0801 1.1 17
   143.0714 0.7 11
-  144.0493 1 16
+  144.0493 1.0 16
   144.0823 0.7 11
   145.0767 1.3 21
   148.0395 3.6 58
   149.0343 0.7 11
-  149.0464 1 16
+  149.0464 1.0 16
   150.0549 2.4 38
   159.091 0.8 12
-  164.0709 3 48
+  164.0709 3.0 48
 //

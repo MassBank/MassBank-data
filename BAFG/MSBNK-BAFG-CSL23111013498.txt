@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111013498
 RECORD_TITLE: Medroxyprogesterone-17-acetate; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Medroxyprogesterone-17-acetate
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C24H34O4
@@ -15,6 +14,7 @@ CH$SMILES: CC1CC2C(CCC3(C2CCC3(C(=O)C)OC(=O)C)C)C4(C1=CC(=O)CC4)C
 CH$IUPAC: InChI=1S/C24H34O4/c1-14-12-18-19(22(4)9-6-17(27)13-21(14)22)7-10-23(5)20(18)8-11-24(23,15(2)25)28-16(3)26/h13-14,18-20H,6-12H2,1-5H3
 CH$LINK: CAS 71-58-9
 CH$LINK: INCHIKEY PSGAAPLEWMOORI-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0003569; Organic compounds; Lipids and lipid-like molecules; Steroids and steroid derivatives; Pregnane steroids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.723 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 387.253
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00dj-2920000000-a5830fbc94bf2b30545f
 PK$NUM_PEAK: 87
 PK$PEAK: m/z int. rel.int.
@@ -67,8 +66,8 @@ PK$PEAK: m/z int. rel.int.
   133.1005 12.8 84
   135.0794 3.2 21
   135.1157 2.8 18
-  137.096 21 138
-  141.0674 2 13
+  137.096 21.0 138
+  141.0674 2.0 13
   142.0767 3.1 20
   143.0851 9.9 65
   144.0929 1.9 12
@@ -92,7 +91,7 @@ PK$PEAK: m/z int. rel.int.
   177.1281 3.3 21
   181.1012 2.6 17
   182.1098 2.2 14
-  183.1174 8 52
+  183.1174 8.0 52
   185.1338 7.6 50
   187.1119 2.7 17
   187.1483 4.7 30
@@ -111,11 +110,11 @@ PK$PEAK: m/z int. rel.int.
   215.1422 7.2 47
   221.1333 1.6 10
   223.1489 4.1 27
-  225.1651 5 32
+  225.1651 5.0 32
   227.1783 6.9 45
   237.1629 2.9 19
   239.1785 1.6 10
-  251.1805 11 72
+  251.1805 11.0 72
   265.193 2.1 13
   266.2005 6.3 41
   267.2115 8.7 57

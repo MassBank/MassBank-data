@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311106666
 RECORD_TITLE: Naproxen; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Naproxen
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C14H14O3
@@ -15,6 +14,7 @@ CH$SMILES: COc1ccc2cc(ccc2c1)C(C)C(O)=O
 CH$IUPAC: InChI=1S/C14H14O3/c1-9(14(15)16)10-3-4-12-8-13(17-2)6-5-11(12)7-10/h3-9H,1-2H3,(H,15,16)
 CH$LINK: CAS 22204-53-1
 CH$LINK: INCHIKEY CMWTZPSULFXXJA-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000023; Organic compounds; Benzenoids; Naphthalenes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.907 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 231.1016
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-000i-0900000000-03530565bcee80e1e291
 PK$NUM_PEAK: 16
 PK$PEAK: m/z int. rel.int.
-  115.0533 2 18
+  115.0533 2.0 18
   129.0704 1.7 15
   141.0007 1.6 14
   141.0702 1.9 17
@@ -50,5 +49,5 @@ PK$PEAK: m/z int. rel.int.
   169.0641 3.2 29
   170.0723 47.1 435
   184.0886 1.1 10
-  185.096 108 999
+  185.096 108.0 999
 //

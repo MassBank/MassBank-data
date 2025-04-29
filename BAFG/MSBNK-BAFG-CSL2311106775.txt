@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311106775
 RECORD_TITLE: Salbutamol; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Salbutamol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C13H21NO3
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)(NCC(c1cc(CO)c(O)cc1)O)C
 CH$IUPAC: InChI=1S/C13H21NO3/c1-13(2,3)14-7-12(17)9-4-5-11(16)10(6-9)8-15/h4-6,12,14-17H,7-8H2,1-3H3
 CH$LINK: CAS 18559-94-9
 CH$LINK: INCHIKEY NDAUXUAQIAJITI-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000033; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzyl alcohols
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.69 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 240.1594
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004l-9300000000-3faf41346ca696ece084
 PK$NUM_PEAK: 39
 PK$PEAK: m/z int. rel.int.
@@ -52,7 +51,7 @@ PK$PEAK: m/z int. rel.int.
   92.0507 1.2 19
   92.0628 0.8 12
   93.0588 1.6 25
-  93.0706 4 63
+  93.0706 4.0 63
   94.0655 1.1 17
   102.0475 2.1 33
   103.0547 11.1 177
@@ -65,13 +64,13 @@ PK$PEAK: m/z int. rel.int.
   117.0571 6.4 102
   118.0641 5.5 87
   119.0498 0.7 11
-  119.074 1 15
+  119.074 1.0 15
   120.0456 0.8 12
-  120.0803 1 15
-  121.0647 4 63
+  120.0803 1.0 15
+  121.0647 4.0 63
   130.0657 4.9 78
   132.046 1.1 17
-  133.0519 6 95
+  133.0519 6.0 95
   134.0591 1.3 20
   146.0625 1.3 20
 //

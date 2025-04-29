@@ -1,19 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111011134
 RECORD_TITLE: 3-[(4-Chlorobenzoyl)Amino] propanoic acid; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 3-[(4-Chlorobenzoyl)Amino] propanoic acid
+CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C10H10ClNO3
 CH$EXACT_MASS: 227.0349
 CH$SMILES: C1=CC(=CC=C1C(=O)NCCC(=O)O)Cl
 CH$IUPAC: InChI=1S/C10H10ClNO3/c11-8-3-1-7(2-4-8)10(15)12-6-5-9(13)14/h1-4H,5-6H2,(H,12,15)(H,13,14)
 CH$LINK: CAS 440341-75-3
 CH$LINK: INCHIKEY ZCGLNFAUVVHTQO-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,11 +30,10 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.557 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 226.0276
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0006-9000000000-85ed0ae1eb2c4f8510d6
 PK$NUM_PEAK: 2
 PK$PEAK: m/z int. rel.int.
   34.9691 0.3 59
-  41.9981 5 999
+  41.9981 5.0 999
 //

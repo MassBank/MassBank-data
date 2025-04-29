@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018067
 RECORD_TITLE: Proquinazid; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Proquinazid
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C14H17IN2O2
@@ -15,6 +14,7 @@ CH$SMILES: CCCN1C(=O)C2=C(C=CC(=C2)I)N=C1OCCC
 CH$IUPAC: InChI=1S/C14H17IN2O2/c1-3-7-17-13(18)11-9-10(15)5-6-12(11)16-14(17)19-8-4-2/h5-6,9H,3-4,7-8H2,1-2H3
 CH$LINK: CAS 189278-12-4
 CH$LINK: INCHIKEY FLVBXVXXXMLMOX-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004789; Organic compounds; Organoheterocyclic compounds; Diazanaphthalenes; Benzodiazines
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 17.121 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 373.0408
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-03dr-9100000000-b2eae04d94e9dc101bd5
 PK$NUM_PEAK: 29
 PK$PEAK: m/z int. rel.int.
@@ -44,10 +43,10 @@ PK$PEAK: m/z int. rel.int.
   61.0109 147.6 312
   62.019 472.1 999
   63.0245 77.1 163
-  64.0229 6 12
+  64.0229 6.0 12
   64.0342 26.6 56
   65.0298 25.2 53
-  66.0139 35 74
+  66.0139 35.0 74
   75.0135 12.5 26
   87.0132 16.2 34
   88.0216 158.1 334

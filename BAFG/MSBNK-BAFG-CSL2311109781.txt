@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109781
 RECORD_TITLE: Diaveridine; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Diaveridine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C13H16N4O2
@@ -15,6 +14,7 @@ CH$SMILES: COC1=C(C=C(C=C1)CC2=CN=C(N=C2N)N)OC
 CH$IUPAC: InChI=1S/C13H16N4O2/c1-18-10-4-3-8(6-11(10)19-2)5-9-7-16-13(15)17-12(9)14/h3-4,6-7H,5H2,1-2H3,(H4,14,15,16,17)
 CH$LINK: CAS 5355-16-8
 CH$LINK: INCHIKEY LDBTVAXGKYIFHO-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004113; Organic compounds; Benzenoids; Benzene and substituted derivatives; Methoxybenzenes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,14 +30,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.966 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 261.1346
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fc0-9800000000-c2b4b3b7735dbe417c4e
 PK$NUM_PEAK: 96
 PK$PEAK: m/z int. rel.int.
   41.037 2.9 110
   42.0488 0.4 15
-  43.0439 4 152
+  43.0439 4.0 152
   52.0276 5.1 194
   53.0246 0.9 34
   54.0429 12.7 484
@@ -55,7 +54,7 @@ PK$PEAK: m/z int. rel.int.
   78.0459 1.9 72
   79.0333 4.1 156
   79.0582 3.5 133
-  80.049 1 38
+  80.049 1.0 38
   81.0494 18.6 709
   82.0564 0.6 22
   83.0518 1.9 72
@@ -94,10 +93,10 @@ PK$PEAK: m/z int. rel.int.
   127.0396 1.1 41
   127.0501 0.6 22
   128.0496 7.2 274
-  129.048 2 76
+  129.048 2.0 76
   129.0633 0.7 26
   130.0428 0.6 22
-  130.0637 3 114
+  130.0637 3.0 114
   131.0513 4.2 160
   133.0305 2.3 87
   133.0495 0.4 15

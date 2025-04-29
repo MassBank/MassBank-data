@@ -1,19 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111027535
 RECORD_TITLE: Amisulbrom; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Amisulbrom
+CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C13H13BrFN5O4S2
 CH$EXACT_MASS: 464.9576
 CH$SMILES: CC1=C(C2=C(N1S(=O)(=O)C3=NN(C=N3)S(=O)(=O)N(C)C)C=C(C=C2)F)Br
 CH$IUPAC: InChI=1S/C13H13BrFN5O4S2/c1-8-12(14)10-5-4-9(15)6-11(10)20(8)25(21,22)13-16-7-19(17-13)26(23,24)18(2)3/h4-7H,1-3H3
 CH$LINK: CAS 348635-87-0
 CH$LINK: INCHIKEY BREATYVWRHIPIY-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002497; Organic compounds; Organoheterocyclic compounds; Indoles and derivatives; Indoles
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 14.781 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 465.9649
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004j-0690000000-61dda96f959633177c86
 PK$NUM_PEAK: 18
 PK$PEAK: m/z int. rel.int.
@@ -41,7 +41,7 @@ PK$PEAK: m/z int. rel.int.
   146.0406 3.1 30
   147.046 6.8 67
   148.0547 100.9 999
-  160.0451 2 19
+  160.0451 2.0 19
   160.0551 1.6 15
   164.0491 1.2 11
   175.0676 1.4 13
@@ -50,6 +50,6 @@ PK$PEAK: m/z int. rel.int.
   191.0952 3.3 32
   215.0728 7.1 70
   224.9572 1.6 15
-  225.9662 91 900
-  226.9736 96 950
+  225.9662 91.0 900
+  226.9736 96.0 950
 //

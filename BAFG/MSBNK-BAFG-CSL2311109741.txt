@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109741
 RECORD_TITLE: Bumetrizole; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Bumetrizole
 CH$COMPOUND_CLASS: Industrial_process; Personal_care_product
 CH$FORMULA: C17H18ClN3O
@@ -15,6 +14,7 @@ CH$SMILES: CC1=CC(=C(C(=C1)N2N=C3C=CC(=CC3=N2)Cl)O)C(C)(C)C
 CH$IUPAC: InChI=1S/C17H18ClN3O/c1-10-7-12(17(2,3)4)16(22)15(8-10)21-19-13-6-5-11(18)9-14(13)20-21/h5-9,22H,1-4H3
 CH$LINK: CAS 3896-11-5
 CH$LINK: INCHIKEY OCWYEMOEOGEQAN-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001213; Organic compounds; Organoheterocyclic compounds; Indoles and derivatives; Pyridoindoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,14 +30,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 20.073 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 316.1211
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0o6r-0998000000-39e82c1aaea7a8927754
 PK$NUM_PEAK: 5
 PK$PEAK: m/z int. rel.int.
-  107.0519 1 499
-  154.0169 1 499
-  260.0573 2 999
+  107.0519 1.0 499
+  154.0169 1.0 499
+  260.0573 2.0 999
   300.0771 0.6 299
   316.1207 1.3 649
 //

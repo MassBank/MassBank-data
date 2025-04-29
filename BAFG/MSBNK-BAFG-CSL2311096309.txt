@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311096309
 RECORD_TITLE: Flecainide; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Flecainide
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C17H20F6N2O3
@@ -15,6 +14,7 @@ CH$SMILES: FC(F)(F)COc1ccc(OCC(F)(F)F)c(c1)C(=O)NCC2CCCCN2
 CH$IUPAC: InChI=1S/C17H20F6N2O3/c18-16(19,20)9-27-12-4-5-14(28-10-17(21,22)23)13(7-12)15(26)25-8-11-3-1-2-6-24-11/h4-5,7,11,24H,1-3,6,8-10H2,(H,25,26)
 CH$LINK: CAS 54143-55-4
 CH$LINK: INCHIKEY DJBNUMBKLMJRSA-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000176; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzoic acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,17 +30,16 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.983 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 415.1451
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0f6t-2019000000-3e4fa2e3874e0acfbfe6
 PK$NUM_PEAK: 18
 PK$PEAK: m/z int. rel.int.
   79.0567 27.7 25
-  81.0731 121 109
+  81.0731 121.0 109
   82.0672 17.6 15
   84.0828 22.3 20
-  98.098 298 269
-  209.0222 17 15
+  98.098 298.0 269
+  209.0222 17.0 15
   218.0191 24.3 21
   232.0978 131.2 118
   237.0176 25.6 23

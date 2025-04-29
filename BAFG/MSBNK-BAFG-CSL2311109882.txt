@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109882
 RECORD_TITLE: Pindolol; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Pindolol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C14H20N2O2
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)NCC(COC1=CC=CC2=C1C=CN2)O
 CH$IUPAC: InChI=1S/C14H20N2O2/c1-10(2)16-8-11(17)9-18-14-5-3-4-13-12(14)6-7-15-13/h3-7,10-11,15-17H,8-9H2,1-2H3
 CH$LINK: CAS 13523-86-9
 CH$LINK: INCHIKEY JZQKKSLKJUAGIC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002216; Organic compounds; Lipids and lipid-like molecules; Glycerophospholipids; Glycerophosphoglycerols
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.148 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 249.1598
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-4900000000-0a4dc731d35ec8e3467c
 PK$NUM_PEAK: 51
 PK$PEAK: m/z int. rel.int.
@@ -45,11 +44,11 @@ PK$PEAK: m/z int. rel.int.
   78.0409 2.1 59
   79.0591 7.1 200
   80.0556 0.8 22
-  84.0838 1 28
+  84.0838 1.0 28
   89.0434 15.5 437
   90.0506 2.8 79
   91.0584 26.4 745
-  92.0545 1 28
+  92.0545 1.0 28
   98.1014 1.1 31
   100.1157 2.6 73
   101.0423 0.6 16
@@ -63,7 +62,7 @@ PK$PEAK: m/z int. rel.int.
   107.0516 11.9 335
   115.0575 18.3 516
   116.0522 35.4 999
-  116.1115 3 84
+  116.1115 3.0 84
   117.0621 32.3 911
   118.0676 15.1 426
   126.0481 0.7 19
@@ -73,7 +72,7 @@ PK$PEAK: m/z int. rel.int.
   129.0582 1.8 50
   130.0669 2.8 79
   132.0464 1.8 50
-  132.0835 1 28
+  132.0835 1.0 28
   133.0541 5.5 155
   134.0613 11.8 333
   142.0657 3.5 98

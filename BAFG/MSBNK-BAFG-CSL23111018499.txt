@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018499
 RECORD_TITLE: Trazodone; LC-ESI-QTOF; MS2; 130 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Trazodone
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C19H22ClN5O
@@ -15,6 +14,7 @@ CH$SMILES: C1CN(CCN1CCCN2C(=O)N3C=CC=CC3=N2)C4=CC(=CC=C4)Cl
 CH$IUPAC: InChI=1S/C19H22ClN5O/c20-16-5-3-6-17(15-16)23-13-11-22(12-14-23)8-4-10-25-19(26)24-9-2-1-7-18(24)21-25/h1-3,5-7,9,15H,4,8,10-14H2
 CH$LINK: CAS 19794-93-5
 CH$LINK: INCHIKEY PHLBKPHSAVXXEF-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002585; Organic compounds; Phenylpropanoids and polyketides; Flavonoids; O-methylated flavonoids
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,14 +30,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.095 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 372.1586
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fb9-9100000000-ec98a74483db4589b211
 PK$NUM_PEAK: 38
 PK$PEAK: m/z int. rel.int.
   37.0061 7.7 43
   38.0136 15.4 86
-  39.0218 26 146
+  39.0218 26.0 146
   41.0246 7.6 42
   41.0372 1.9 10
   42.0329 4.8 26
@@ -45,7 +44,7 @@ PK$PEAK: m/z int. rel.int.
   50.0136 28.1 157
   51.0218 102.9 577
   52.0173 9.1 51
-  52.0289 6 33
+  52.0289 6.0 33
   64.0164 10.5 58
   65.0246 27.1 152
   66.0198 5.3 29
@@ -55,9 +54,9 @@ PK$PEAK: m/z int. rel.int.
   75.0213 28.5 160
   77.0368 10.3 57
   78.0322 177.9 999
-  79.0396 17 95
+  79.0396 17.0 95
   80.0468 4.2 23
-  84.9816 3 16
+  84.9816 3.0 16
   89.037 6.5 36
   90.0437 2.4 13
   91.052 12.4 69

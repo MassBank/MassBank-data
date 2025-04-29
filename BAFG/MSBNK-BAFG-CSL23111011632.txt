@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111011632
 RECORD_TITLE: Isocaffeine; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Isocaffeine
 CH$COMPOUND_CLASS: Natural_product
 CH$FORMULA: C8H10N4O2
@@ -15,6 +14,7 @@ CH$SMILES: CN1C=NC2=C1N(C(=O)N(C2=O)C)C
 CH$IUPAC: InChI=1S/C8H10N4O2/c1-10-4-9-5-6(10)11(2)8(14)12(3)7(5)13/h4H,1-3H3
 CH$LINK: CAS 519-32-4
 CH$LINK: INCHIKEY LPHGQDQBBGAPDZ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0003530; Organic compounds; Phenylpropanoids and polyketides; Isoflavonoids; Pyranoisoflavonoids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.729 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 195.0877
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-000j-3900000000-55d77dc75d43dfe7ace5
 PK$NUM_PEAK: 14
 PK$PEAK: m/z int. rel.int.
@@ -39,7 +38,7 @@ PK$PEAK: m/z int. rel.int.
   69.0441 6.8 365
   83.0584 0.5 26
   95.0473 0.5 26
-  97.0393 4 214
+  97.0393 4.0 214
   108.0553 0.6 32
   109.0416 0.6 32
   110.0714 2.2 118

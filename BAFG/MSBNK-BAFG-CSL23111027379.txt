@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111027379
 RECORD_TITLE: Neotame; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Neotame
 CH$FORMULA: C20H30N2O5
 CH$EXACT_MASS: 378.2155
@@ -14,6 +13,7 @@ CH$SMILES: CC(C)(C)CCNC(CC(=O)O)C(=O)NC(CC1=CC=CC=C1)C(=O)OC
 CH$IUPAC: InChI=1S/C20H30N2O5/c1-20(2,3)10-11-21-15(13-17(23)24)18(25)22-16(19(26)27-4)12-14-8-6-5-7-9-14/h5-9,15-16,21H,10-13H2,1-4H3,(H,22,25)(H,23,24)
 CH$LINK: CAS 165450-17-9
 CH$LINK: INCHIKEY HLIAVLHNDJUHFG-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
 AC$INSTRUMENT: TripleTOF X500R SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,18 +29,17 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.15 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 379.2228
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00di-1912000000-3d453bf2c65bd8c0d58b
 PK$NUM_PEAK: 17
 PK$PEAK: m/z int. rel.int.
-  43.0539 2 19
+  43.0539 2.0 19
   57.0694 2.7 26
   85.1012 7.1 69
   88.0394 3.1 30
-  91.0535 3 29
+  91.0535 3.0 29
   112.1117 8.7 85
-  120.0811 17 166
+  120.0811 17.0 166
   121.0636 1.5 14
   128.1429 1.5 14
   130.122 1.2 11

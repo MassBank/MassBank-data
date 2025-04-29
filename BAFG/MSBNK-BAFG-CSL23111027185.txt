@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111027185
 RECORD_TITLE: Spirodiclofen-enol; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Spirodiclofen-enol
 CH$FORMULA: C15H14Cl2O3
 CH$EXACT_MASS: 312.032
@@ -14,6 +13,7 @@ CH$SMILES: C1CCC2(CC1)C(=C(C(=O)O2)C3=C(C=C(C=C3)Cl)Cl)O
 CH$IUPAC: InChI=1S/C15H14Cl2O3/c16-9-4-5-10(11(17)8-9)12-13(18)15(20-14(12)19)6-2-1-3-7-15/h4-5,8,18H,1-3,6-7H2
 CH$LINK: CAS 148476-22-6
 CH$LINK: INCHIKEY KIKARNYYJSEROI-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000035; Organic compounds; Benzenoids; Benzene and substituted derivatives; Halobenzenes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.261 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 313.0393
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4i-4900000000-614044070f1723ea4c9c
 PK$NUM_PEAK: 66
 PK$PEAK: m/z int. rel.int.
@@ -42,15 +41,15 @@ PK$PEAK: m/z int. rel.int.
   63.0233 4.3 34
   65.0377 1.4 11
   67.054 1.7 13
-  72.9837 37 298
+  72.9837 37.0 298
   74.0147 13.6 109
   75.0226 25.9 209
-  77.0385 13 104
+  77.0385 13.0 104
   79.0541 2.7 21
   82.9443 8.4 67
   84.9828 1.4 11
   86.0148 4.5 36
-  87.0229 22 177
+  87.0229 22.0 177
   88.0304 1.7 13
   89.0381 24.5 197
   96.9835 26.2 211
@@ -59,7 +58,7 @@ PK$PEAK: m/z int. rel.int.
   99.0223 3.1 25
   101.0373 2.5 20
   102.046 2.1 16
-  106.9444 33 266
+  106.9444 33.0 266
   108.983 7.8 62
   110.9993 13.3 107
   112.0065 1.9 15
@@ -80,7 +79,7 @@ PK$PEAK: m/z int. rel.int.
   139.0041 3.3 26
   139.0532 8.7 70
   141.0688 2.9 23
-  144.9595 2 16
+  144.9595 2.0 16
   148.0058 2.9 23
   149.0149 5.4 43
   150.0449 2.2 17

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016067
 RECORD_TITLE: Penconazol; LC-ESI-QTOF; MS2; 150 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Penconazol
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C13H15Cl2N3
@@ -15,6 +14,7 @@ CH$SMILES: CCCC(CN1C=NC=N1)C2=C(C=C(C=C2)Cl)Cl
 CH$IUPAC: InChI=1S/C13H15Cl2N3/c1-2-3-10(7-18-9-16-8-17-18)12-5-4-11(14)6-13(12)15/h4-6,8-10H,2-3,7H2,1H3
 CH$LINK: CAS 66246-88-6
 CH$LINK: INCHIKEY WKBPZYKAUNRMKP-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000035; Organic compounds; Benzenoids; Benzene and substituted derivatives; Halobenzenes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,14 +30,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.845 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 284.0716
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-03di-9000000000-61a0bb2377678b5a826b
 PK$NUM_PEAK: 40
 PK$PEAK: m/z int. rel.int.
-  35.9998 3 25
+  35.9998 3.0 25
   37.0075 12.7 107
-  38.0154 11 92
+  38.0154 11.0 92
   39.0231 18.6 156
   42.0214 5.6 47
   43.0291 21.5 181
@@ -51,7 +50,7 @@ PK$PEAK: m/z int. rel.int.
   62.0153 118.5 999
   63.0232 103.9 875
   70.04 8.7 73
-  71.9759 5 42
+  71.9759 5.0 42
   72.9844 68.5 577
   73.0059 5.4 45
   74.0152 65.3 550
@@ -60,7 +59,7 @@ PK$PEAK: m/z int. rel.int.
   77.0384 2.2 18
   82.9447 8.8 74
   83.976 2.4 20
-  83.9998 2 16
+  83.9998 2.0 16
   84.9847 1.6 13
   85.0071 9.5 80
   86.0147 14.9 125
@@ -71,7 +70,7 @@ PK$PEAK: m/z int. rel.int.
   96.9835 5.9 49
   98.0151 4.5 37
   98.9994 1.8 15
-  102.0464 2 16
+  102.0464 2.0 16
   106.9448 1.5 12
   115.0534 1.2 10
   122.9991 1.2 10

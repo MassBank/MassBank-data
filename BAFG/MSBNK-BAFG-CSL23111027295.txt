@@ -1,19 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111027295
 RECORD_TITLE: Methiocarb; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Methiocarb
+CH$COMPOUND_CLASS: Acaricide; Insecticide
 CH$FORMULA: C11H15NO2S
 CH$EXACT_MASS: 225.0823
 CH$SMILES: Cc1cc(cc(c1SC)C)OC(=O)NC
 CH$IUPAC: InChI=1S/C11H15NO2S/c1-7-5-9(14-11(13)12-3)6-8(2)10(7)15-4/h5-6H,1-4H3,(H,12,13)
 CH$LINK: CAS 2032-65-7
 CH$LINK: INCHIKEY YFBPRJGDJKVWAH-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004387; Organic compounds; Organoheterocyclic compounds; Pyrazolopyrimidines; Pyrazolo[3,4-d]pyrimidines
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.34614 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 226.0896
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fb9-9000000000-bea82c10ebd1e45e657d
 PK$NUM_PEAK: 31
 PK$PEAK: m/z int. rel.int.
@@ -52,12 +52,12 @@ PK$PEAK: m/z int. rel.int.
   67.0534 0.9 19
   68.9758 0.9 19
   74.0129 0.6 13
-  77.0358 46 999
+  77.0358 46.0 999
   78.0443 4.9 106
   79.0519 3.6 78
   81.032 1.1 23
-  89.0364 1 21
-  91.0514 10 217
+  89.0364 1.0 21
+  91.0514 10.0 217
   103.0514 1.4 30
   105.0411 1.1 23
   107.0463 4.9 106

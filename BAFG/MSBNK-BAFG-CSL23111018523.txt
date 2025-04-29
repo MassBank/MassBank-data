@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018523
 RECORD_TITLE: Oxycodone; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Oxycodone
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C18H21NO4
@@ -15,6 +14,7 @@ CH$SMILES: CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O
 CH$IUPAC: InChI=1S/C18H21NO4/c1-19-8-7-17-14-10-3-4-12(22-2)15(14)23-16(17)11(20)5-6-18(17,21)13(19)9-10/h3-4,13,16,21H,5-9H2,1-2H3
 CH$LINK: CAS 76-42-6
 CH$LINK: INCHIKEY BRUQQQPBMZOVGD-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001438; Organic compounds; Organophosphorus compounds; Organothiophosphorus compounds
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.206 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 316.1543
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-052g-0290000000-f2022ebdfcc22a3bee04
 PK$NUM_PEAK: 84
 PK$PEAK: m/z int. rel.int.
@@ -65,7 +64,7 @@ PK$PEAK: m/z int. rel.int.
   189.09 11.7 22
   195.0785 19.7 37
   196.0838 7.2 13
-  196.1115 9 17
+  196.1115 9.0 17
   197.0594 13.9 26
   197.0865 12.1 22
   198.0652 5.7 10
@@ -88,9 +87,9 @@ PK$PEAK: m/z int. rel.int.
   223.0983 9.6 18
   224.1054 59.7 113
   225.0901 47.2 89
-  226.0856 65 123
+  226.0856 65.0 123
   227.1019 33.5 63
-  228.1018 20 37
+  228.1018 20.0 37
   228.1367 19.5 36
   229.0829 8.6 16
   238.1211 11.5 21
@@ -103,7 +102,7 @@ PK$PEAK: m/z int. rel.int.
   249.1137 8.8 16
   252.0991 15.5 29
   254.0804 6.7 12
-  254.117 27 51
+  254.117 27.0 51
   255.0992 10.8 20
   255.1205 17.5 33
   256.1323 289.4 548
@@ -118,5 +117,5 @@ PK$PEAK: m/z int. rel.int.
   282.1102 15.4 29
   283.1195 24.4 46
   298.1437 276.5 524
-  316.1539 9 17
+  316.1539 9.0 17
 //

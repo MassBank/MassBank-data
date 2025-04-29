@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311108598
 RECORD_TITLE: Ethyl-2-cyano-3.3-diphenylacrylate; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Ethyl-2-cyano-3.3-diphenylacrylate
 CH$COMPOUND_CLASS: Industrial_process; Personal_care_product
 CH$FORMULA: C18H15NO2
@@ -15,6 +14,7 @@ CH$SMILES: CCOC(=O)C(=C(C1=CC=CC=C1)C2=CC=CC=C2)C#N
 CH$IUPAC: InChI=1S/C18H15NO2/c1-2-21-18(20)16(13-19)17(14-9-5-3-6-10-14)15-11-7-4-8-12-15/h3-12H,2H2,1H3
 CH$LINK: CAS 5232-99-5
 CH$LINK: INCHIKEY IAJNXBNRYMEYAZ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000369; Organic compounds; Benzenoids; Benzene and substituted derivatives; Diphenylmethanes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.596 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 278.1176
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fb9-1910000000-0caca0dbcd55572fd322
 PK$NUM_PEAK: 35
 PK$PEAK: m/z int. rel.int.
@@ -50,7 +49,7 @@ PK$PEAK: m/z int. rel.int.
   127.0546 1.6 44
   128.0497 0.4 11
   128.0636 0.8 22
-  129.0357 1 27
+  129.0357 1.0 27
   139.0565 0.5 13
   149.0401 2.5 69
   150.0464 12.5 345
@@ -61,7 +60,7 @@ PK$PEAK: m/z int. rel.int.
   163.0529 1.5 41
   164.0669 0.6 16
   165.072 0.5 13
-  174.0477 3 83
+  174.0477 3.0 83
   175.0538 11.3 312
   176.0609 36.1 999
   177.058 11.4 315

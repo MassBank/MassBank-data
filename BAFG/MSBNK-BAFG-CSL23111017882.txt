@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111017882
 RECORD_TITLE: Clodinafop-Propargyl; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Clodinafop-Propargyl
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C17H13ClFNO4
@@ -15,6 +14,7 @@ CH$SMILES: CC(C(=O)OCC#C)OC1=CC=C(C=C1)OC2=C(C=C(C=N2)Cl)F
 CH$IUPAC: InChI=1S/C17H13ClFNO4/c1-3-8-22-17(21)11(2)23-13-4-6-14(7-5-13)24-16-15(19)9-12(18)10-20-16/h1,4-7,9-11H,8H2,2H3
 CH$LINK: CAS 105512-06-9
 CH$LINK: INCHIKEY JBDHZKLJNAIJNC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004677; Organic compounds; Benzenoids; Benzene and substituted derivatives; 2-phenoxypropionic acid esters
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.951 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 350.059
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a6r-9800000000-bae8288a55c66e04fb45
 PK$NUM_PEAK: 39
 PK$PEAK: m/z int. rel.int.
@@ -41,11 +40,11 @@ PK$PEAK: m/z int. rel.int.
   57.0114 0.9 204
   62.0132 0.7 158
   63.021 3.2 726
-  64.0294 1 227
+  64.0294 1.0 227
   65.0369 3.6 817
   74.0131 1.2 272
   75.0077 1.2 272
-  75.0213 3 681
+  75.0213 3.0 681
   76.0161 0.7 158
   77.0367 3.6 817
   81.0313 0.8 181
@@ -62,13 +61,13 @@ PK$PEAK: m/z int. rel.int.
   109.9765 4.4 999
   129.0419 1.2 272
   129.983 2.8 635
-  131.0276 2 454
+  131.0276 2.0 454
   131.0462 0.5 113
   132.0352 1.7 385
   133.0285 0.6 136
   133.042 0.5 113
   139.0382 1.2 272
-  149.0375 1 227
+  149.0375 1.0 227
   158.0379 3.7 840
   159.0464 1.8 408
   182.013 0.5 113

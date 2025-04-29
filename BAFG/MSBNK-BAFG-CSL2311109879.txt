@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311109879
 RECORD_TITLE: Pindolol; LC-ESI-QTOF; MS2; 20 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Pindolol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C14H20N2O2
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)NCC(COC1=CC=CC2=C1C=CN2)O
 CH$IUPAC: InChI=1S/C14H20N2O2/c1-10(2)16-8-11(17)9-18-14-5-3-4-13-12(14)6-7-15-13/h3-7,10-11,15-17H,8-9H2,1-2H3
 CH$LINK: CAS 13523-86-9
 CH$LINK: INCHIKEY JZQKKSLKJUAGIC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002216; Organic compounds; Lipids and lipid-like molecules; Glycerophospholipids; Glycerophosphoglycerols
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,21 +30,20 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.148 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 249.1598
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0002-1690000000-5ba9c5a2a6ab6c94280e
 PK$NUM_PEAK: 12
 PK$PEAK: m/z int. rel.int.
   56.0582 7.4 9
   72.0874 26.4 35
   74.0664 25.1 33
-  98.1003 33 44
-  116.1098 265 356
+  98.1003 33.0 44
+  116.1098 265.0 356
   118.0677 7.7 10
   134.062 23.6 31
   144.0826 20.3 27
   146.0619 61.4 82
   172.0766 135.9 182
-  207.1132 13 17
+  207.1132 13.0 17
   249.1592 742.7 999
 //

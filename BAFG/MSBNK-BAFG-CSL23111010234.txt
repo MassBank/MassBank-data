@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111010234
 RECORD_TITLE: Sulfasalazine; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Sulfasalazine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C18H14N4O5S
@@ -15,6 +14,7 @@ CH$SMILES: C1=CC=NC(=C1)NS(=O)(=O)C2=CC=C(C=C2)NN=C3C=CC(=O)C(=C3)C(=O)O
 CH$IUPAC: InChI=1S/C18H14N4O5S/c23-16-9-6-13(11-15(16)18(24)25)21-20-12-4-7-14(8-5-12)28(26,27)22-17-3-1-2-10-19-17/h1-11,20H,(H,19,22)(H,24,25)
 CH$LINK: CAS 599-79-1
 CH$LINK: INCHIKEY OQANPHBRHBJGNZ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001872; Organic compounds; Hydrocarbon derivatives; Quinodimethanes; P-quinodimethanes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.217 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 399.0758
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014l-9300000000-107740683ef61b7cec2a
 PK$NUM_PEAK: 47
 PK$PEAK: m/z int. rel.int.
@@ -42,7 +41,7 @@ PK$PEAK: m/z int. rel.int.
   55.0256 0.7 25
   61.0162 0.5 18
   62.0252 1.4 50
-  63.0304 6 217
+  63.0304 6.0 217
   66.0404 0.4 14
   67.049 27.5 999
   76.0366 2.2 79
@@ -50,7 +49,7 @@ PK$PEAK: m/z int. rel.int.
   78.0402 1.7 61
   80.0176 0.7 25
   81.0392 5.9 214
-  89.046 1 36
+  89.046 1.0 36
   91.0223 23.8 864
   93.0509 0.9 32
   94.0563 11.3 410
@@ -61,13 +60,13 @@ PK$PEAK: m/z int. rel.int.
   113.043 1.2 43
   114.0403 1.1 39
   119.0159 8.2 297
-  127.0564 1 36
+  127.0564 1.0 36
   128.0526 0.8 29
   129.0488 1.2 43
   130.0343 0.5 18
   137.0248 2.7 98
   138.0487 0.6 21
-  139.057 3 108
+  139.057 3.0 108
   140.0524 1.6 58
   141.0548 0.6 21
   142.0544 0.5 18

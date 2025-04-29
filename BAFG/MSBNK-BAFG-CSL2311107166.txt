@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311107166
 RECORD_TITLE: N-ethyl-m-toluamide; LC-ESI-QTOF; MS2; 20 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: N-ethyl-m-toluamide
-CH$COMPOUND_CLASS: Pharmaceutical
+CH$COMPOUND_CLASS: Pharmaceutical; Biocide; Personal_care_product; Transformation_product-Metabolite
 CH$FORMULA: C10H13NO
 CH$EXACT_MASS: 163.0997
 CH$SMILES: CCNC(=O)c1cccc(C)c1
 CH$IUPAC: InChI=1S/C10H13NO/c1-3-11-10(12)9-6-4-5-8(2)7-9/h4-7H,3H2,1-2H3,(H,11,12)
 CH$LINK: CAS 26819-07-8
 CH$LINK: INCHIKEY FPINATACRXASTP-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000176; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzoic acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.341 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 164.107
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-03xr-2900000000-04986fa4e9ffcad4cb63
 PK$NUM_PEAK: 7
 PK$PEAK: m/z int. rel.int.
@@ -39,7 +38,7 @@ PK$PEAK: m/z int. rel.int.
   72.0474 54.1 294
   91.0555 23.9 130
   93.0707 14.8 80
-  118.0655 2 10
+  118.0655 2.0 10
   119.0487 136.5 743
   164.1067 183.4 999
 //

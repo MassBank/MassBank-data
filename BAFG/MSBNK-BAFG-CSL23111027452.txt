@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111027452
 RECORD_TITLE: Salicylamide; LC-ESI-QTOF; MS2; 10 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Salicylamide
 CH$FORMULA: C7H7NO2
 CH$EXACT_MASS: 137.0477
@@ -14,6 +13,7 @@ CH$SMILES: C1=CC=C(C(=C1)C(=O)N)O
 CH$IUPAC: InChI=1S/C7H7NO2/c8-7(10)5-3-1-2-4-6(5)9/h1-4,9H,(H2,8,10)
 CH$LINK: CAS 65-45-2
 CH$LINK: INCHIKEY SKZKKFZAGNVIMN-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004647; Organic compounds; Benzenoids; Phenols; 1-hydroxy-4-unsubstituted benzenoids
 AC$INSTRUMENT: TripleTOF X500R SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.236 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 136.0404
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-000i-0900000000-461ca33a19647326e748
 PK$NUM_PEAK: 3
 PK$PEAK: m/z int. rel.int.

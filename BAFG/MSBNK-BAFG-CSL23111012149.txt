@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111012149
 RECORD_TITLE: 2-Hydroxy-n-methyl-n-phenylpropanamide; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 2-Hydroxy-n-methyl-n-phenylpropanamide
 CH$FORMULA: C10H13NO2
 CH$EXACT_MASS: 179.0946
@@ -14,6 +13,7 @@ CH$SMILES: CC(C(=O)N(C)C1=CC=CC=C1)O
 CH$IUPAC: InChI=1S/C10H13NO2/c1-8(12)10(13)11(2)9-6-4-3-5-7-9/h3-8,12H,1-2H3
 CH$LINK: CAS 5455-67-4
 CH$LINK: INCHIKEY YOZNZNZSJNNALS-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000285; Organic compounds; Benzenoids; Benzene and substituted derivatives; Anilides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.763 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 180.1019
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0aru-4900000000-45c29aa6d10e4c3a4366
 PK$NUM_PEAK: 34
 PK$PEAK: m/z int. rel.int.
@@ -38,13 +37,13 @@ PK$PEAK: m/z int. rel.int.
   45.0333 1.8 58
   50.0148 0.6 19
   51.023 3.4 111
-  55.0175 1 32
+  55.0175 1.0 32
   56.0495 5.1 166
   65.0385 1.5 48
   66.0465 0.9 29
-  77.0383 25 816
+  77.0383 25.0 816
   78.0459 1.4 45
-  79.0543 7 228
+  79.0543 7.0 228
   91.0543 9.2 300
   92.0525 0.9 29
   92.0633 0.4 13
@@ -55,7 +54,7 @@ PK$PEAK: m/z int. rel.int.
   104.0493 12.5 408
   105.0695 20.5 669
   106.0644 15.7 512
-  107.0723 3 97
+  107.0723 3.0 97
   108.0801 7.4 241
   115.0562 1.4 45
   117.0559 2.7 88

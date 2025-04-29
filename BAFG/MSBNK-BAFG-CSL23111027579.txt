@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111027579
 RECORD_TITLE: 1,4-Dihydroxyanthraquinone; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 1,4-Dihydroxyanthraquinone
 CH$FORMULA: C14H8O4
 CH$EXACT_MASS: 240.0423
@@ -14,6 +13,7 @@ CH$SMILES: C1=CC=C2C(=C1)C(=O)C3=C(C=CC(=C3C2=O)O)O
 CH$IUPAC: InChI=1S/C14H8O4/c15-9-5-6-10(16)12-11(9)13(17)7-3-1-2-4-8(7)14(12)18/h1-6,15-16H
 CH$LINK: CAS 81-64-1
 CH$LINK: INCHIKEY GUEIZVNYDFNHJU-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000285; Organic compounds; Benzenoids; Benzene and substituted derivatives; Anilides
 AC$INSTRUMENT: TripleTOF X500R SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,15 +29,14 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.708 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 241.0496
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0553-0930000000-46fd321d7b4ccf615c5a
 PK$NUM_PEAK: 22
 PK$PEAK: m/z int. rel.int.
   77.0386 0.6 32
   89.0375 0.5 27
   103.0552 0.7 38
-  105.0339 1 54
+  105.0339 1.0 54
   115.054 3.3 180
   127.0544 2.1 114
   128.0615 6.2 338
@@ -46,7 +45,7 @@ PK$PEAK: m/z int. rel.int.
   131.0502 1.2 65
   139.0546 12.2 666
   141.0696 0.5 27
-  143.0485 2 109
+  143.0485 2.0 109
   157.0652 13.9 758
   159.0422 1.1 60
   167.0492 3.8 207

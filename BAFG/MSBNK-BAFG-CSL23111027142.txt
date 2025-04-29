@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111027142
 RECORD_TITLE: Thieno[3,2-b]pyridin-7-ol; LC-ESI-QTOF; MS2; 140 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Thieno[3,2-b]pyridin-7-ol
 CH$FORMULA: C7H5NOS
 CH$EXACT_MASS: 151.0092
@@ -14,6 +13,7 @@ CH$SMILES: C1=CNC2=C(C1=O)SC=C2
 CH$IUPAC: InChI=1S/C7H5NOS/c9-6-1-3-8-5-2-4-10-7(5)6/h1-4H,(H,8,9)
 CH$LINK: CAS 107818-20-2
 CH$LINK: INCHIKEY AACVULYSNJAKEQ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000344; Organic compounds; Organoheterocyclic compounds; Thienopyridines
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.72 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 152.0165
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-000i-9000000000-0f4a5bb6aed65cf43d81
 PK$NUM_PEAK: 20
 PK$PEAK: m/z int. rel.int.
@@ -38,18 +37,18 @@ PK$PEAK: m/z int. rel.int.
   35.9999 6.3 368
   37.008 17.1 999
   38.0033 2.3 134
-  38.0154 4 233
+  38.0154 4.0 233
   39.0233 1.5 87
   43.9714 3.9 227
   44.9799 9.7 566
   45.9742 1.8 105
   49.0076 2.3 134
   50.0156 2.2 128
-  51.0103 1 58
+  51.0103 1.0 58
   52.0186 0.9 52
   53.0024 0.8 46
   56.9792 0.9 52
-  59.9988 1 58
+  59.9988 1.0 58
   61.0074 4.3 251
   62.0149 0.8 46
   67.9702 1.3 75

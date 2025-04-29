@@ -1,14 +1,13 @@
 ACCESSION: MSBNK-BAFG-CSL231109873
 RECORD_TITLE: Didecyl-dimethylammonium; LC-ESI-QTOF; MS2; 150 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Didecyl-dimethylammonium
-CH$COMPOUND_CLASS: Antimicrobial; Fungicide; Personal_care_product
+CH$COMPOUND_CLASS: Antimicrobial; Fungicide; Personal_care_product; Biocide; Industrial_process
 CH$FORMULA: [C22H48N]+
 CH$EXACT_MASS: 326.3781
 CH$SMILES: CCCCCCCCCC[N+](C)(C)CCCCCCCCCC
@@ -30,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.395 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 326.3781
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4i-9000000000-37097247364ecc184ff8
 PK$NUM_PEAK: 2
 PK$PEAK: m/z int. rel.int.

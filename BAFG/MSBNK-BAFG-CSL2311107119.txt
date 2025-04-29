@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107119
 RECORD_TITLE: 1-Oxo-ibuprofen; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 1-Oxo-ibuprofen
 CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product
 CH$FORMULA: C13H16O3
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)C(=O)C1=CC=C(C=C1)C(C)C(=O)O
 CH$IUPAC: InChI=1S/C13H16O3/c1-8(2)12(14)11-6-4-10(5-7-11)9(3)13(15)16/h4-9H,1-3H3,(H,15,16)
 CH$LINK: CAS 65813-55-0
 CH$LINK: INCHIKEY RCINGEKPKJQCMO-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0003194; Organic compounds; Organometallic compounds; Organometalloid compounds; Organosilicon compounds
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.239 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 221.1172
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00or-9200000000-7e5807db4764aecba1d6
 PK$NUM_PEAK: 21
 PK$PEAK: m/z int. rel.int.
-  43.0259 3 267
+  43.0259 3.0 267
   43.0438 0.7 62
   53.0429 0.4 35
   55.0601 0.5 44

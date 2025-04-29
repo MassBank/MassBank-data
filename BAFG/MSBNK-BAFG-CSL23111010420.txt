@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111010420
 RECORD_TITLE: Oxibendazole; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Oxibendazole
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C12H15N3O3
@@ -15,6 +14,7 @@ CH$SMILES: CCCOC1=CC2=C(C=C1)N=C(N2)NC(=O)OC
 CH$IUPAC: InChI=1S/C12H15N3O3/c1-3-6-18-8-4-5-9-10(7-8)14-11(13-9)15-12(16)17-2/h4-5,7H,3,6H2,1-2H3,(H2,13,14,15,16)
 CH$LINK: CAS 20559-55-1
 CH$LINK: INCHIKEY RAOCRURYZCVHMG-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001766; Organic compounds; Lipids and lipid-like molecules; Fatty Acyls; Fatty acyl glycosides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,14 +30,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.663 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 250.1186
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ge9-9100000000-30e23c4e11c1e0e44ca2
 PK$NUM_PEAK: 50
 PK$PEAK: m/z int. rel.int.
   37.0078 0.6 80
   38.0156 0.5 67
-  39.023 2 269
+  39.023 2.0 269
   40.0182 0.6 80
   41.0256 0.7 94
   43.0291 0.8 108
@@ -49,7 +48,7 @@ PK$PEAK: m/z int. rel.int.
   53.0388 6.1 823
   54.0341 0.6 80
   62.015 0.4 54
-  63.0228 1 134
+  63.0228 1.0 134
   64.0176 1.4 188
   65.0133 1.4 188
   65.0262 3.5 472
@@ -70,7 +69,7 @@ PK$PEAK: m/z int. rel.int.
   80.0128 0.8 108
   80.0498 2.7 364
   81.0333 7.1 958
-  92.0366 6 809
+  92.0366 6.0 809
   93.0075 1.7 229
   93.0447 2.2 297
   94.0294 0.5 67

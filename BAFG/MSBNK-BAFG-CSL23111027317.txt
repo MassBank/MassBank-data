@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111027317
 RECORD_TITLE: Nicosulfuron; LC-ESI-QTOF; MS2; 150 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Nicosulfuron
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C15H18N6O6S
@@ -15,6 +14,7 @@ CH$SMILES: CN(C)C(=O)C1=C(N=CC=C1)S(=O)(=O)NC(=O)NC2=NC(=CC(=N2)OC)OC
 CH$IUPAC: InChI=1S/C15H18N6O6S/c1-21(2)13(22)9-6-5-7-16-12(9)28(24,25)20-15(23)19-14-17-10(26-3)8-11(18-14)27-4/h5-8H,1-4H3,(H2,17,18,19,20,23)
 CH$LINK: CAS 111991-09-4
 CH$LINK: INCHIKEY RTCOGUMHFFWOJV-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001861; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives; Pyridinesulfonamides
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.499 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 411.1081
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-9000000000-e2aa7a3c6c77dfcbe01e
 PK$NUM_PEAK: 33
 PK$PEAK: m/z int. rel.int.
@@ -43,7 +42,7 @@ PK$PEAK: m/z int. rel.int.
   41.0236 1.3 33
   42.0313 0.7 18
   43.0273 2.1 54
-  49.0053 2 51
+  49.0053 2.0 51
   50.0127 13.4 346
   51.0207 38.6 999
   52.0164 1.4 36
@@ -51,17 +50,17 @@ PK$PEAK: m/z int. rel.int.
   53.0102 0.5 12
   54.0326 0.6 15
   55.0267 0.9 23
-  56.0105 2 51
+  56.0105 2.0 51
   57.0434 0.8 20
   64.0154 2.3 59
-  65.0108 6 155
+  65.0108 6.0 155
   65.0341 0.5 12
   66.0198 0.7 18
-  67.0029 2 51
+  67.0029 2.0 51
   67.0276 0.7 18
   68.0104 3.1 80
   68.9945 2.3 59
-  69.0052 6 155
+  69.0052 6.0 155
   70.0277 0.5 12
   76.0146 0.4 10
   78.0315 11.5 297

@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111018412
 RECORD_TITLE: Clomazone; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Clomazone
-CH$COMPOUND_CLASS: Herbicide
+CH$COMPOUND_CLASS: Herbicide; Pharmaceutical
 CH$FORMULA: C12H14ClNO2
 CH$EXACT_MASS: 239.0713
 CH$SMILES: CC1(CON(C1=O)CC2=CC=CC=C2Cl)C
 CH$IUPAC: InChI=1S/C12H14ClNO2/c1-12(2)8-16-14(11(12)15)7-9-5-3-4-6-10(9)13/h3-6H,7-8H2,1-2H3
 CH$LINK: CAS 81777-89-1
 CH$LINK: INCHIKEY KIEDNEWSYUYDSN-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000035; Organic compounds; Benzenoids; Benzene and substituted derivatives; Halobenzenes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.289 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 240.0786
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004s-9300000000-6d04b14a706889787015
 PK$NUM_PEAK: 12
 PK$PEAK: m/z int. rel.int.
@@ -41,7 +40,7 @@ PK$PEAK: m/z int. rel.int.
   63.0206 44.8 154
   65.0363 12.1 41
   72.9814 34.6 119
-  74.9969 8 27
+  74.9969 8.0 27
   89.0362 282.6 974
   90.0441 104.2 359
   96.982 3.1 10

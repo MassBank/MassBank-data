@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311095367
 RECORD_TITLE: Clenbuterol; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Clenbuterol
-CH$COMPOUND_CLASS: Pharmaceutical
+CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product-Metabolite
 CH$FORMULA: C12H18Cl2N2O
 CH$EXACT_MASS: 276.0796
 CH$SMILES: CC(C)(C)NCC(c1cc(c(c(c1)Cl)N)Cl)O
 CH$IUPAC: InChI=1S/C12H18Cl2N2O/c1-12(2,3)16-6-10(17)7-4-8(13)11(15)9(14)5-7/h4-5,10,16-17H,6,15H2,1-3H3
 CH$LINK: CAS 37148-27-9
 CH$LINK: INCHIKEY STJMRWALKKWQGH-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001859; Organic compounds; Organoheterocyclic compounds; Pyridopyrimidines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,17 +30,16 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.115 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 277.0869
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00lr-0900000000-d3dced3337addd7bca40
 PK$NUM_PEAK: 23
 PK$PEAK: m/z int. rel.int.
   57.0753 13.8 57
-  77.0415 9 37
+  77.0415 9.0 37
   80.0511 2.9 12
   89.0401 3.1 12
-  104.0503 44 184
-  105.0581 23 96
+  104.0503 44.0 184
+  105.0581 23.0 96
   106.0656 21.9 91
   113.0152 5.3 22
   116.0496 12.9 53
@@ -48,7 +47,7 @@ PK$PEAK: m/z int. rel.int.
   127.0185 3.9 16
   131.0611 70.1 293
   132.0689 238.8 999
-  133.0761 44 184
+  133.0761 44.0 184
   140.0266 147.9 618
   141.0337 7.9 33
   151.0184 34.4 143

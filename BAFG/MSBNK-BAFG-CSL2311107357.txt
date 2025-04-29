@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107357
 RECORD_TITLE: Antipyrine; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Antipyrine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C11H12N2O
@@ -15,6 +14,7 @@ CH$SMILES: CN1N(C(=O)C=C1C)c2ccccc2
 CH$IUPAC: InChI=1S/C11H12N2O/c1-9-8-11(14)13(12(9)2)10-6-4-3-5-7-10/h3-8H,1-2H3
 CH$LINK: CAS 60-80-0
 CH$LINK: INCHIKEY VEQOALNAAJBPNY-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000087; Organic compounds; Organoheterocyclic compounds; Azoles; Pyrazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.261 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 189.1022
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a7i-6900000000-4bb8e273250666954bb2
 PK$NUM_PEAK: 62
 PK$PEAK: m/z int. rel.int.
@@ -40,12 +39,12 @@ PK$PEAK: m/z int. rel.int.
   58.0699 12.6 212
   65.0417 9.1 153
   68.0511 0.7 11
-  69.0607 2 33
+  69.0607 2.0 33
   77.0411 59.1 999
   78.048 2.5 42
   79.0563 6.9 116
   80.0512 0.7 11
-  81.046 4 67
+  81.046 4.0 67
   89.0403 0.9 15
   90.0467 1.2 20
   91.0546 11.6 196
@@ -57,7 +56,7 @@ PK$PEAK: m/z int. rel.int.
   95.061 6.5 109
   96.0486 0.8 13
   96.0683 3.8 64
-  98.0599 5 84
+  98.0599 5.0 84
   102.0462 1.6 27
   103.0541 7.4 125
   104.0492 27.7 468
@@ -74,7 +73,7 @@ PK$PEAK: m/z int. rel.int.
   127.0534 1.9 32
   128.0478 2.9 49
   129.0569 4.9 82
-  130.0643 24 405
+  130.0643 24.0 405
   131.0653 21.3 360
   131.0946 0.8 13
   132.0439 0.8 13
@@ -83,7 +82,7 @@ PK$PEAK: m/z int. rel.int.
   133.0742 0.8 13
   134.0472 1.1 18
   134.0954 1.1 18
-  143.0714 2 33
+  143.0714 2.0 33
   144.0796 7.4 125
   145.0741 13.1 221
   146.082 7.1 120
@@ -93,7 +92,7 @@ PK$PEAK: m/z int. rel.int.
   159.0542 0.9 15
   159.091 0.9 15
   161.1072 0.8 13
-  172.0734 1 16
+  172.0734 1.0 16
   173.0707 1.2 20
   174.0779 3.5 59
   189.1017 6.7 113

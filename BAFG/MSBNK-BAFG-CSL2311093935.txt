@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311093935
 RECORD_TITLE: Prometon; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Prometon
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C10H19N5O
@@ -15,6 +14,7 @@ CH$SMILES: COc1nc(NC(C)C)nc(NC(C)C)n1
 CH$IUPAC: InChI=1S/C10H19N5O/c1-6(2)11-8-13-9(12-7(3)4)15-10(14-8)16-5/h6-7H,1-5H3,(H2,11,12,13,14,15)
 CH$LINK: CAS 1610-18-0
 CH$LINK: INCHIKEY ISEUFVQQFVOBCY-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004105; Organic compounds; Organoheterocyclic compounds; Triazines; 1,3,5-triazines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.392 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 226.1662
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-9000000000-7bcfd0b00cc8f241907c
 PK$NUM_PEAK: 13
 PK$PEAK: m/z int. rel.int.
@@ -43,7 +42,7 @@ PK$PEAK: m/z int. rel.int.
   44.0297 0.6 19
   57.0509 6.7 215
   58.0344 2.5 80
-  68.0291 31 999
+  68.0291 31.0 999
   69.0127 24.9 802
   69.0579 0.7 22
   69.0724 0.4 12

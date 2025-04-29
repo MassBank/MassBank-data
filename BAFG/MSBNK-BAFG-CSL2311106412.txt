@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311106412
 RECORD_TITLE: Iotalamic acid; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Iotalamic acid
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C11H9I3N2O4
@@ -15,6 +14,7 @@ CH$SMILES: CNC(c1c(I)c(C(O)=O)c(I)c(NC(C)=O)c1I)=O
 CH$IUPAC: InChI=1S/C11H9I3N2O4/c1-3(17)16-9-7(13)4(10(18)15-2)6(12)5(8(9)14)11(19)20/h1-2H3,(H,15,18)(H,16,17)(H,19,20)
 CH$LINK: CAS 2276-90-6
 CH$LINK: INCHIKEY UXIGWFXRQKWHHA-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000176; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzoic acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.565 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 614.7769
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ufr-0639300000-95d4563f387c741d0b08
 PK$NUM_PEAK: 45
 PK$PEAK: m/z int. rel.int.
@@ -40,7 +39,7 @@ PK$PEAK: m/z int. rel.int.
   135.0325 0.4 22
   146.0258 0.5 27
   146.0479 0.9 50
-  158.0224 2 111
+  158.0224 2.0 111
   174.0163 0.8 44
   176.0324 0.6 33
   177.0418 17.9 999
@@ -49,14 +48,14 @@ PK$PEAK: m/z int. rel.int.
   192.051 0.4 22
   233.0535 0.6 33
   245.9449 0.4 22
-  257.945 2 111
+  257.945 2.0 111
   261.9305 0.8 44
   272.9233 1.5 83
   272.951 1.2 66
   273.9375 2.3 128
   283.919 0.6 33
-  284.9264 3 167
-  289.9279 2 111
+  284.9264 3.0 167
+  289.9279 2.0 111
   300.9478 4.9 273
   301.9311 15.8 881
   302.9384 2.5 139
@@ -64,7 +63,7 @@ PK$PEAK: m/z int. rel.int.
   314.9581 0.5 27
   318.9573 1.7 94
   327.906 0.4 22
-  329.927 2 111
+  329.927 2.0 111
   355.8375 0.4 22
   360.9694 5.5 306
   381.8232 0.5 27

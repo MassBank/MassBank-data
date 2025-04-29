@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111010050
 RECORD_TITLE: 6`-Hydroxymethyl Simvastatin; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 6`-Hydroxymethyl Simvastatin
 CH$COMPOUND_CLASS: Metabolite; Pharmaceutical
 CH$FORMULA: C25H38O6
@@ -15,6 +14,7 @@ CH$SMILES: CCC(C)(C)C(=O)OC1CC(C=C2C1C(C(C=C2)C)CCC3CC(CC(=O)O3)O)CO
 CH$IUPAC: InChI=1S/C25H38O6/c1-5-25(3,4)24(29)31-21-11-16(14-26)10-17-7-6-15(2)20(23(17)21)9-8-19-12-18(27)13-22(28)30-19/h6-7,10,15-16,18-21,23,26-27H,5,8-9,11-14H2,1-4H3
 CH$LINK: CAS 128241-03-2
 CH$LINK: INCHIKEY ATPFRGQBOVFFQM-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001244; Organic compounds; Organoheterocyclic compounds; Lactones; Delta valerolactones
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.786 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 435.2741
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0gdl-0900000000-3076e9b7538bfb75aff1
 PK$NUM_PEAK: 28
 PK$PEAK: m/z int. rel.int.
@@ -54,7 +53,7 @@ PK$PEAK: m/z int. rel.int.
   156.0956 1.6 262
   157.0994 0.8 131
   165.0711 4.2 687
-  166.0793 1 163
+  166.0793 1.0 163
   167.0832 2.1 343
   169.1022 0.8 131
   178.0771 2.2 360

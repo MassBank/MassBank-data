@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018220
 RECORD_TITLE: 4-(2,4-Dichlorophenoxy)butanoic acid; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 4-(2,4-Dichlorophenoxy)butanoic acid
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C10H10Cl2O3
@@ -15,6 +14,7 @@ CH$SMILES: C1=CC(=C(C=C1Cl)Cl)OCCCC(=O)O
 CH$IUPAC: InChI=1S/C10H10Cl2O3/c11-7-3-4-9(8(12)6-7)15-5-1-2-10(13)14/h3-4,6H,1-2,5H2,(H,13,14)
 CH$LINK: CAS 94-82-6
 CH$LINK: INCHIKEY YIVXMZJTEQBPQO-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000035; Organic compounds; Benzenoids; Benzene and substituted derivatives; Halobenzenes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.685 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 249.008
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00dr-9000000000-ee029b0898f9867aac63
 PK$NUM_PEAK: 24
 PK$PEAK: m/z int. rel.int.
@@ -39,12 +38,12 @@ PK$PEAK: m/z int. rel.int.
   37.0074 0.9 249
   38.0008 0.1 27
   38.0143 0.6 166
-  39.0235 3 832
+  39.0235 3.0 832
   41.0379 0.4 111
   42.0104 0.1 27
   43.0175 1.4 388
   44.9974 0.7 194
-  45.0333 1 277
+  45.0333 1.0 277
   46.9681 0.3 83
   48.9835 0.2 55
   51.0222 0.1 27

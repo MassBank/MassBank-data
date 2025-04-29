@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111017273
 RECORD_TITLE: Dichlorprop; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Dichlorprop
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C9H8Cl2O3
@@ -15,6 +14,7 @@ CH$SMILES: CC(C(=O)O)OC1=C(C=C(C=C1)Cl)Cl
 CH$IUPAC: InChI=1S/C9H8Cl2O3/c1-5(9(12)13)14-8-3-2-6(10)4-7(8)11/h2-5H,1H3,(H,12,13)
 CH$LINK: CAS 120-36-5
 CH$LINK: INCHIKEY MZHCENGPTKEIGP-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000095; Organic compounds; Organoheterocyclic compounds; Azoles; Thiazoles
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.098 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 232.9778
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-001i-9000000000-f66dbcf891b527d03d94
 PK$NUM_PEAK: 3
 PK$PEAK: m/z int. rel.int.

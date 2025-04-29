@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111010144
 RECORD_TITLE: Aminophenazone; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Aminophenazone
-CH$COMPOUND_CLASS: Pharmaceutical
+CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product-Metabolite
 CH$FORMULA: C13H17N3O
 CH$EXACT_MASS: 231.1372
 CH$SMILES: CC1=C(C(=O)N(N1C)C2=CC=CC=C2)N(C)C
 CH$IUPAC: InChI=1S/C13H17N3O/c1-10-12(14(2)3)13(17)16(15(10)4)11-8-6-5-7-9-11/h5-9H,1-4H3
 CH$LINK: CAS 58-15-1
 CH$LINK: INCHIKEY RMMXTBMQSGEXHJ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000087; Organic compounds; Organoheterocyclic compounds; Azoles; Pyrazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.71 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 232.1444
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-052b-9200000000-2fc920acee960504c705
 PK$NUM_PEAK: 39
 PK$PEAK: m/z int. rel.int.
@@ -53,7 +52,7 @@ PK$PEAK: m/z int. rel.int.
   87.0973 0.8 10
   91.0571 1.4 18
   96.0733 1.1 14
-  97.0797 77 999
+  97.0797 77.0 999
   98.0874 26.8 347
   99.0956 2.5 32
   104.0531 1.8 23
@@ -67,7 +66,7 @@ PK$PEAK: m/z int. rel.int.
   130.066 0.9 11
   132.0456 2.8 36
   132.0808 1.4 18
-  133.0784 1 12
+  133.0784 1.0 12
   146.0623 0.8 10
   149.1083 1.2 15
   159.0924 2.4 31

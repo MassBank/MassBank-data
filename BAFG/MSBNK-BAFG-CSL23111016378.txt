@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016378
 RECORD_TITLE: Etofibrate; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Etofibrate
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C18H18ClNO5
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)(C(=O)OCCOC(=O)C1=CN=CC=C1)OC2=CC=C(C=C2)Cl
 CH$IUPAC: InChI=1S/C18H18ClNO5/c1-18(2,25-15-7-5-14(19)6-8-15)17(22)24-11-10-23-16(21)13-4-3-9-20-12-13/h3-9,12H,10-11H2,1-2H3
 CH$LINK: CAS 31637-97-5
 CH$LINK: INCHIKEY XXRVYAFBUDSLJX-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000417; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenoxyacetic acid derivatives
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.631 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 364.0946
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0059-9100000000-eb6d6760e6f6a50a5f59
 PK$NUM_PEAK: 35
 PK$PEAK: m/z int. rel.int.
@@ -41,11 +40,11 @@ PK$PEAK: m/z int. rel.int.
   42.0452 3.7 21
   43.0171 2.7 15
   45.0326 4.1 23
-  49.0061 2 11
+  49.0061 2.0 11
   50.0139 10.3 58
   51.0217 27.3 155
   52.0171 8.6 48
-  52.0301 5 28
+  52.0301 5.0 28
   53.0376 29.3 166
   55.017 92.7 527
   65.0368 4.5 25

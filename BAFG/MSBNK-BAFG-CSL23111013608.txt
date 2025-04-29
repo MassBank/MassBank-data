@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111013608
 RECORD_TITLE: Methyl 3-hydroxybenzoate; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Methyl 3-hydroxybenzoate
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C8H8O3
@@ -15,6 +14,7 @@ CH$SMILES: COC(=O)C1=CC(=CC=C1)O
 CH$IUPAC: InChI=1S/C8H8O3/c1-11-8(10)6-3-2-4-7(9)5-6/h2-5,9H,1H3
 CH$LINK: CAS 19438-10-9
 CH$LINK: INCHIKEY YKUCHDXIBAQWSF-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000176; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzoic acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,25 +30,24 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.88 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 153.0546
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-9000000000-fcec00f57698cc035219
 PK$NUM_PEAK: 16
 PK$PEAK: m/z int. rel.int.
   37.0076 0.2 42
   38.0146 0.2 42
-  39.0227 1 212
+  39.0227 1.0 212
   41.0403 0.1 21
   51.022 0.2 42
   53.0015 0.2 42
   59.0123 0.3 63
   65.0381 4.7 999
-  66.0463 1 212
+  66.0463 1.0 212
   77.0394 1.1 233
   79.0183 0.2 42
   79.0551 0.2 42
   91.0547 0.1 21
   93.0334 1.2 255
-  94.0386 1 212
+  94.0386 1.0 212
   121.0345 0.3 63
 //

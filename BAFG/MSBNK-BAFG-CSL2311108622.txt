@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311108622
 RECORD_TITLE: Ethyl-N-(3-amino-2-methylphenyl)carbamate; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Ethyl-N-(3-amino-2-methylphenyl)carbamate
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C10H14N2O2
@@ -15,6 +14,7 @@ CH$SMILES: CCOC(=O)NC1=CC=CC(=C1C)N
 CH$IUPAC: InChI=1S/C10H14N2O2/c1-3-14-10(13)12-9-6-4-5-8(11)7(9)2/h4-6H,3,11H2,1-2H3,(H,12,13)
 CH$LINK: CAS 1016755-26-2
 CH$LINK: INCHIKEY CUARKGNESAJPQR-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004714; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylcarbamic acid esters
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.082 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 195.1128
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-9200000000-ff539807be5d55cec644
 PK$NUM_PEAK: 24
 PK$PEAK: m/z int. rel.int.
@@ -47,13 +46,13 @@ PK$PEAK: m/z int. rel.int.
   80.0542 22.1 291
   81.0621 9.5 125
   82.0572 0.8 10
-  89.0421 1 13
+  89.0421 1.0 13
   91.0465 3.3 43
   92.0535 1.1 14
   93.0613 2.3 30
   94.0686 3.7 48
   104.0519 3.3 43
-  105.0467 7 92
+  105.0467 7.0 92
   106.0652 12.6 166
   107.0628 8.4 110
   108.0704 12.2 161

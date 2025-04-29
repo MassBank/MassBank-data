@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111010091
 RECORD_TITLE: 2-Phenylbenzimidazole-5-sulfonic acid; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 2-Phenylbenzimidazole-5-sulfonic acid
 CH$COMPOUND_CLASS: Personal_care_product
 CH$FORMULA: C13H10N2O3S
@@ -15,6 +14,7 @@ CH$SMILES: C1=CC=C(C=C1)C2=NC3=C(N2)C=C(C=C3)S(=O)(=O)O
 CH$IUPAC: InChI=1S/C13H10N2O3S/c16-19(17,18)10-6-7-11-12(8-10)15-13(14-11)9-4-2-1-3-5-9/h1-8H,(H,14,15)(H,16,17,18)
 CH$LINK: CAS 27503-81-7
 CH$LINK: INCHIKEY UVCJGUGAGLDPAA-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000089; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.039 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 275.0485
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-000f-3900000000-7ba3d75a00fb9ebf3f25
 PK$NUM_PEAK: 32
 PK$PEAK: m/z int. rel.int.
@@ -43,7 +42,7 @@ PK$PEAK: m/z int. rel.int.
   66.0538 0.4 30
   77.0437 3.6 274
   81.0361 0.8 61
-  89.043 8 610
+  89.043 8.0 610
   90.0361 0.9 68
   90.0507 4.5 343
   91.0465 2.7 205
@@ -54,12 +53,12 @@ PK$PEAK: m/z int. rel.int.
   116.0508 0.5 38
   117.0568 0.7 53
   127.0551 1.4 106
-  138.0501 1 76
+  138.0501 1.0 76
   139.0552 10.6 808
-  140.0522 7 533
+  140.0522 7.0 533
   154.0652 1.3 99
   164.0503 1.7 129
-  165.0584 2 152
+  165.0584 2.0 152
   166.0655 13.1 999
   167.071 3.6 274
   168.0754 0.6 45

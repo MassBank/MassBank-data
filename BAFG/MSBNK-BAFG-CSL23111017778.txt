@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111017778
 RECORD_TITLE: Desmetryn; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Desmetryn
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C8H15N5S
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)NC1=NC(=NC(=N1)NC)SC
 CH$IUPAC: InChI=1S/C8H15N5S/c1-5(2)10-7-11-6(9-3)12-8(13-7)14-4/h5H,1-4H3,(H2,9,10,11,12,13)
 CH$LINK: CAS 1014-69-3
 CH$LINK: INCHIKEY HCRWJJJUKUVORR-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004105; Organic compounds; Organoheterocyclic compounds; Triazines; 1,3,5-triazines
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.281 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 214.1121
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-05ai-9400000000-12022c98a6c8c7a62431
 PK$NUM_PEAK: 16
 PK$PEAK: m/z int. rel.int.
@@ -40,7 +39,7 @@ PK$PEAK: m/z int. rel.int.
   43.0527 3.6 11
   55.0276 10.1 33
   57.0437 162.4 530
-  68.023 37 120
+  68.023 37.0 120
   74.0043 38.7 126
   82.0388 305.6 999
   88.0192 9.2 30

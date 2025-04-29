@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL231109211
 RECORD_TITLE: Benzyl-(1-hexyloxycarbonyl-undecyl)-dimethyl-ammonium; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Benzyl-(1-hexyloxycarbonyl-undecyl)-dimethyl-ammonium
 CH$FORMULA: [C27H48NO2]+
 CH$EXACT_MASS: 418.368
@@ -14,6 +13,7 @@ CH$SMILES: CCCCCCCCCCC(C(=O)OCCCCCC)[N+](C)(C)Cc1ccccc1
 CH$IUPAC: InChI=1S/C27H48NO2/c1-5-7-9-11-12-13-14-18-22-26(27(29)30-23-19-10-8-6-2)28(3,4)24-25-20-16-15-17-21-25/h15-17,20-21,26H,5-14,18-19,22-24H2,1-4H3/q+1
 CH$LINK: CAS 27587-56-0
 CH$LINK: INCHIKEY BDTUDUVSLLJWQK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.596 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 418.368
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0006-9000000000-7bc0ef4e30405c79c97c
 PK$NUM_PEAK: 2
 PK$PEAK: m/z int. rel.int.

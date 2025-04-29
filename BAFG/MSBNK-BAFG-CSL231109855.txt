@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL231109855
 RECORD_TITLE: (Methoxycarbonylmethyl)triphenylphosphonium; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: (Methoxycarbonylmethyl)triphenylphosphonium
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: [C21H20O2P]+
@@ -15,6 +14,7 @@ CH$SMILES: COC(=O)C[P+](c1ccccc1)(c2ccccc2)c3ccccc3
 CH$IUPAC: InChI=1S/C21H20O2P/c1-23-21(22)17-24(18-11-5-2-6-12-18,19-13-7-3-8-14-19)20-15-9-4-10-16-20/h2-16H,17H2,1H3/q+1
 CH$LINK: CAS 1779-58-4
 CH$LINK: INCHIKEY WAUPCPBLQVSZQD-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000147; Organic compounds; Phenylpropanoids and polyketides; Macrolides and analogues
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.721 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 335.1195
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-000i-0009000000-2b88e73817c645ddae9f
 PK$NUM_PEAK: 4
 PK$PEAK: m/z int. rel.int.
   262.0904 80.8 75
   279.0934 56.6 52
-  303.0934 361 337
-  335.1203 1068 999
+  303.0934 361.0 337
+  335.1203 1068.0 999
 //

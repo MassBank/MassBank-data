@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311093997
 RECORD_TITLE: Terbuthylazine; LC-ESI-QTOF; MS2; 140 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Terbuthylazine
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C9H16ClN5
@@ -15,6 +14,7 @@ CH$SMILES: CCNc1nc(Cl)nc(NC(C)(C)C)n1
 CH$IUPAC: InChI=1S/C9H16ClN5/c1-5-11-7-12-6(10)13-8(14-7)15-9(2,3)4/h5H2,1-4H3,(H2,11,12,13,14,15)
 CH$LINK: CAS 5915-41-3
 CH$LINK: INCHIKEY FZXISNSWEXTPMF-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001309; Organic compounds; Organophosphorus compounds; Organic phosphines and derivatives; Organophosphine oxides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.917 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 230.1167
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-03di-9000000000-61824636a02489c43456
 PK$NUM_PEAK: 9
 PK$PEAK: m/z int. rel.int.
@@ -39,9 +38,9 @@ PK$PEAK: m/z int. rel.int.
   42.0326 2.1 51
   42.0493 0.8 19
   43.0373 19.2 467
-  53.019 2 48
+  53.019 2.0 48
   58.0709 0.7 17
-  61.9836 41 999
+  61.9836 41.0 999
   68.0278 17.9 436
   86.9755 1.1 26
 //

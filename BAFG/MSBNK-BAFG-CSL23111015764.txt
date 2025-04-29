@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111015764
 RECORD_TITLE: Quinmerac; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Quinmerac
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C11H8ClNO2
@@ -15,6 +14,7 @@ CH$SMILES: Cc1cc2ccc(c(c2nc1)C(=O)O)Cl
 CH$IUPAC: InChI=1S/C11H8ClNO2/c1-6-4-7-2-3-8(12)9(11(14)15)10(7)13-5-6/h2-5H,1H3,(H,14,15)
 CH$LINK: CAS 90717-03-6
 CH$LINK: INCHIKEY ALZOLUNSQWINIR-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002552; Organic compounds; Organoheterocyclic compounds; Quinolines and derivatives; Quinoline carboxylic acids
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.013 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 222.0316
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-03di-9200000000-533df6ae578af6731817
 PK$NUM_PEAK: 48
 PK$PEAK: m/z int. rel.int.
@@ -80,7 +79,7 @@ PK$PEAK: m/z int. rel.int.
   114.0341 4.2 177
   114.0459 2.3 97
   115.0546 1.1 46
-  122.9995 1 42
+  122.9995 1.0 42
   138.0344 0.4 16
   140.0491 5.4 228
 //

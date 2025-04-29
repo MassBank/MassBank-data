@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095168
 RECORD_TITLE: Climbazole; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Climbazole
 CH$COMPOUND_CLASS: Pharmaceutical; Personal_care_product
 CH$FORMULA: C15H17ClN2O2
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)(C)C(=O)C(Oc1ccc(Cl)cc1)n2ccnc2
 CH$IUPAC: InChI=1S/C15H17ClN2O2/c1-15(2,3)13(19)14(18-9-8-17-10-18)20-12-6-4-11(16)5-7-12/h4-10,14H,1-3H3
 CH$LINK: CAS 38083-17-9
 CH$LINK: INCHIKEY OWEGWHBOCFMBLP-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001093; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Carboxylic acid derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.761 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 293.1051
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-092d-9700000000-376a5941eb85cc1a0a35
 PK$NUM_PEAK: 39
 PK$PEAK: m/z int. rel.int.

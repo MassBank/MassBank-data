@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018472
 RECORD_TITLE: Quinoxyfen; LC-ESI-QTOF; MS2; 150 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Quinoxyfen
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C15H8Cl2FNO
@@ -15,6 +14,7 @@ CH$SMILES: C1=CC(=CC=C1OC2=C3C(=CC(=CC3=NC=C2)Cl)Cl)F
 CH$IUPAC: InChI=1S/C15H8Cl2FNO/c16-9-7-12(17)15-13(8-9)19-6-5-14(15)20-11-3-1-10(18)2-4-11/h1-8H
 CH$LINK: CAS 124495-18-7
 CH$LINK: INCHIKEY WRPIRSINYZBGPK-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000011; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Carbohydrates and carbohydrate conjugates
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 15.195 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 308.004
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00di-9000000000-59e8fd433821166e0994
 PK$NUM_PEAK: 43
 PK$PEAK: m/z int. rel.int.
@@ -39,8 +38,8 @@ PK$PEAK: m/z int. rel.int.
   38.0143 5.4 22
   39.0222 4.1 16
   49.0061 7.2 29
-  50.0144 21 85
-  51.0219 6 24
+  50.0144 21.0 85
+  51.0219 6.0 24
   57.0124 3.4 13
   59.9974 6.3 25
   61.0059 28.3 115
@@ -48,9 +47,9 @@ PK$PEAK: m/z int. rel.int.
   63.0217 19.4 79
   68.0043 5.3 21
   69.0122 6.4 26
-  72.9843 14 57
-  73.0056 58 236
-  74.014 245 999
+  72.9843 14.0 57
+  73.0056 58.0 236
+  74.014 245.0 999
   75.0097 5.2 21
   75.0214 30.3 123
   76.0174 7.3 29
@@ -74,7 +73,7 @@ PK$PEAK: m/z int. rel.int.
   114.0329 2.7 11
   122.0152 2.5 10
   123.0051 7.7 31
-  161.0372 3 12
+  161.0372 3.0 12
   179.028 4.9 19
   180.0355 2.5 10
   181.0426 3.3 13

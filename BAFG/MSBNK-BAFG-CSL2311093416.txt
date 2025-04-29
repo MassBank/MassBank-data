@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311093416
 RECORD_TITLE: O-Desmethyl amisulpride; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: O-Desmethyl amisulpride
-CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product
+CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product; Transformation_product-Metabolite
 CH$FORMULA: C16H25N3O4S
 CH$EXACT_MASS: 355.1566
 CH$SMILES: CCN1CCCC1CNC(=O)c2cc(c(cc2O)N)S(=O)(=O)CC
 CH$IUPAC: InChI=1S/C16H25N3O4S/c1-3-19-7-5-6-11(19)10-18-16(21)12-8-15(24(22,23)4-2)13(17)9-14(12)20/h8-9,11,20H,3-7,10,17H2,1-2H3,(H,18,21)
 CH$LINK: CAS 148516-54-5
 CH$LINK: INCHIKEY XBIBUXBARDPHCJ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000176; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzoic acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.619 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 356.1639
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0bu0-9600000000-b21ad793048d248ebc7b
 PK$NUM_PEAK: 74
 PK$PEAK: m/z int. rel.int.
@@ -44,7 +43,7 @@ PK$PEAK: m/z int. rel.int.
   54.0384 1.1 17
   55.0251 1.1 17
   55.0597 6.1 97
-  56.0554 19 302
+  56.0554 19.0 302
   56.9843 0.8 12
   57.0738 0.7 11
   57.9931 0.7 11
@@ -57,16 +56,16 @@ PK$PEAK: m/z int. rel.int.
   67.022 1.1 17
   67.0462 1.5 23
   67.0576 3.3 52
-  68.0168 14 222
+  68.0168 14.0 222
   68.0535 1.9 30
   68.9833 2.3 36
   69.0606 0.7 11
-  69.0728 1 15
+  69.0728 1.0 15
   69.9876 0.7 11
   70.0686 3.4 54
   70.9984 4.6 73
   76.0217 0.9 14
-  77.0294 1 15
+  77.0294 1.0 15
   78.0361 2.3 36
   79.0205 0.8 12
   79.0447 7.9 125
@@ -75,7 +74,7 @@ PK$PEAK: m/z int. rel.int.
   80.0519 5.5 87
   82.0677 6.9 109
   82.9957 0.7 11
-  83.993 1 15
+  83.993 1.0 15
   84.0836 62.8 999
   84.9764 8.3 132
   86.9921 4.5 71
@@ -91,7 +90,7 @@ PK$PEAK: m/z int. rel.int.
   99.9864 18.2 289
   105.0219 3.4 54
   106.0281 1.5 23
-  107.0371 42 668
+  107.0371 42.0 668
   107.9907 16.3 259
   108.0204 10.7 170
   110.0977 3.4 54
@@ -100,8 +99,8 @@ PK$PEAK: m/z int. rel.int.
   126.0009 11.9 189
   126.9852 1.5 23
   133.0159 2.3 36
-  134.0231 1 15
-  135.0097 1 15
+  134.0231 1.0 15
+  135.0097 1.0 15
   135.032 19.7 313
   135.985 3.6 57
   136.0153 0.8 12

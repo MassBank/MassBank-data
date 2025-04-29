@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107835
 RECORD_TITLE: Abacavir; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Abacavir
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C14H18N6O
@@ -15,6 +14,7 @@ CH$SMILES: Nc1nc(NC2CC2)c3ncn([C@@H]4C[C@H](CO)C=C4)c3n1
 CH$IUPAC: InChI=1S/C14H18N6O/c15-14-18-12(17-9-2-3-9)11-13(19-14)20(7-16-11)10-4-1-8(5-10)6-21/h1,4,7-10,21H,2-3,5-6H2,(H3,15,17,18,19)/t8-,10+/m1/s1
 CH$LINK: CAS 136470-78-5
 CH$LINK: INCHIKEY MCGSCOLBFJQGHM-SCZZXKLOSA-N
+CH$LINK: ChemOnt CHEMONTID:0003738; Organic compounds; Nucleosides, nucleotides, and analogues; Nucleoside and nucleotide analogues; Cyclopentyl nucleosides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,19 +30,18 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.094 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 287.1615
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0zpl-2900000000-a6ca7eedbd7cc3e58f0f
 PK$NUM_PEAK: 37
 PK$PEAK: m/z int. rel.int.
-  58.0705 32 94
+  58.0705 32.0 94
   67.0582 21.5 63
   77.0421 105.9 312
   79.0577 155.3 458
   80.0267 5.5 16
   82.042 7.3 21
   92.0255 6.9 20
-  94.0409 4 11
+  94.0409 4.0 11
   95.0609 5.9 17
   105.0446 7.7 22
   106.0397 3.6 10
@@ -51,12 +50,12 @@ PK$PEAK: m/z int. rel.int.
   109.0513 130.1 383
   119.0347 21.9 64
   120.0553 10.8 31
-  121.0497 5 14
-  122.0709 15 44
+  121.0497 5.0 14
+  122.0709 15.0 44
   123.0538 4.6 13
   132.0549 12.7 37
   133.0378 8.5 25
-  133.0493 9 26
+  133.0493 9.0 26
   134.0465 270.4 797
   135.0528 4.8 14
   136.061 12.4 36

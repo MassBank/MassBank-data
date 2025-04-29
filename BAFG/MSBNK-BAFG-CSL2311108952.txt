@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311108952
 RECORD_TITLE: Acetylsulfamethoxazole; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Acetylsulfamethoxazole
-CH$COMPOUND_CLASS: Metabolite; Pharmaceutical
+CH$COMPOUND_CLASS: Metabolite; Pharmaceutical; Transformation_product-Metabolite
 CH$FORMULA: C12H13N3O4S
 CH$EXACT_MASS: 295.0627
 CH$SMILES: CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)NC(=O)C
 CH$IUPAC: InChI=1S/C12H13N3O4S/c1-8-7-12(14-19-8)15-20(17,18)11-5-3-10(4-6-11)13-9(2)16/h3-7H,1-2H3,(H,13,16)(H,14,15)
 CH$LINK: CAS 21312-10-7
 CH$LINK: INCHIKEY GXPIUNZCALHVBA-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000301; Organic compounds; Organoheterocyclic compounds; Benzofurans
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,18 +30,17 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.411 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 296.07
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-05o3-4900000000-e1831639fa9c9843ba09
 PK$NUM_PEAK: 38
 PK$PEAK: m/z int. rel.int.
   43.0327 0.8 12
   65.0459 30.9 499
-  77.0429 1 16
+  77.0429 1.0 16
   79.0575 0.9 14
   80.0552 1.9 30
   92.0525 12.4 200
-  93.0366 21 339
+  93.0366 21.0 339
   93.0595 10.1 163
   94.0673 6.3 101
   99.0577 4.3 69
@@ -54,18 +53,18 @@ PK$PEAK: m/z int. rel.int.
   133.065 0.7 11
   134.0608 61.8 999
   135.0679 0.7 11
-  136.0766 4 64
+  136.0766 4.0 64
   140.0187 0.7 11
   143.0573 0.8 12
-  146.0725 13 210
+  146.0725 13.0 210
   147.0787 8.5 137
   148.0864 1.4 22
   150.0534 1.6 25
-  156.0127 5 80
+  156.0127 5.0 80
   159.0564 0.8 12
   160.088 18.6 300
   161.0006 1.3 21
-  161.0704 1 16
+  161.0704 1.0 16
   162.0674 2.4 38
   176.0258 3.2 51
   188.082 2.2 35

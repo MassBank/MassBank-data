@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111010387
 RECORD_TITLE: Omeprazole sulfide 5-carboxylic acid; LC-ESI-QTOF; MS2; 20 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Omeprazole sulfide 5-carboxylic acid
 CH$COMPOUND_CLASS: Metabolite; Pharmaceutical
 CH$FORMULA: C17H17N3O4S
@@ -15,6 +14,7 @@ CH$SMILES: CC1=C(C(=CN=C1CSC2=NC3=C(N2)C=C(C=C3)OC)C(=O)O)OC
 CH$IUPAC: InChI=1S/C17H17N3O4S/c1-9-14(18-7-11(16(21)22)15(9)24-3)8-25-17-19-12-5-4-10(23-2)6-13(12)20-17/h4-7H,8H2,1-3H3,(H,19,20)(H,21,22)
 CH$LINK: CAS 103877-00-5
 CH$LINK: INCHIKEY BNOSHBGSJBEMGC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001604; Organic compounds; Lignans, neolignans and related compounds; Furanoid lignans; Tetrahydrofuran lignans
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.75 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 360.1013
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-03di-0109000000-283e7d35c6a586b43ff9
 PK$NUM_PEAK: 9
 PK$PEAK: m/z int. rel.int.

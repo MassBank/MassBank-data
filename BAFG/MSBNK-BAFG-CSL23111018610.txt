@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018610
 RECORD_TITLE: Diazepam; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Diazepam
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C16H13ClN2O
@@ -15,6 +14,7 @@ CH$SMILES: CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3
 CH$IUPAC: InChI=1S/C16H13ClN2O/c1-19-14-8-7-12(17)9-13(14)16(18-10-15(19)20)11-5-3-2-4-6-11/h2-9H,10H2,1H3
 CH$LINK: CAS 439-14-5
 CH$LINK: INCHIKEY AAOVKJBEBIDNHE-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004097; Organic compounds; Organoheterocyclic compounds; Benzodiazepines; 1,4-benzodiazepines
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.181 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 285.0789
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0006-1940000000-c05f6f0f18a03e8b443c
 PK$NUM_PEAK: 73
 PK$PEAK: m/z int. rel.int.
@@ -48,7 +47,7 @@ PK$PEAK: m/z int. rel.int.
   113.0143 11.5 11
   116.0482 62.4 62
   117.0564 114.1 114
-  118.0641 104 104
+  118.0641 104.0 104
   119.0717 68.8 68
   122.9981 10.5 10
   125.0143 138.1 138
@@ -77,7 +76,7 @@ PK$PEAK: m/z int. rel.int.
   172.0619 42.3 42
   177.0208 45.6 45
   178.0675 14.9 14
-  179.0363 66 66
+  179.0363 66.0 66
   179.0705 16.1 16
   180.0205 22.4 22
   180.08 67.7 67

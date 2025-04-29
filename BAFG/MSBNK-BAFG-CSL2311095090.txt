@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095090
 RECORD_TITLE: 5-Aminofluorescein; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 5-Aminofluorescein
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C20H13NO5
@@ -15,6 +14,7 @@ CH$SMILES: Nc1ccc2c(c1)C(=O)OC23c4ccc(O)cc4Oc5cc(O)ccc35
 CH$IUPAC: InChI=1S/C20H13NO5/c21-10-1-4-14-13(7-10)19(24)26-20(14)15-5-2-11(22)8-17(15)25-18-9-12(23)3-6-16(18)20/h1-9,22-23H,21H2
 CH$LINK: CAS 3326-34-9
 CH$LINK: INCHIKEY GZAJOEGTZDUSKS-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002083; Organic compounds; Organoheterocyclic compounds; Azolidines; Isoxazolidines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.159 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 348.0866
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udr-0192000000-436166de19deb3197711
 PK$NUM_PEAK: 124
 PK$PEAK: m/z int. rel.int.
@@ -59,7 +58,7 @@ PK$PEAK: m/z int. rel.int.
   179.0837 0.4 10
   180.0775 0.8 20
   181.063 0.7 18
-  182.0599 1 25
+  182.0599 1.0 25
   183.0664 1.5 38
   184.0517 0.8 20
   189.0678 3.7 95
@@ -83,7 +82,7 @@ PK$PEAK: m/z int. rel.int.
   213.0694 1.9 49
   214.052 0.5 12
   214.0792 0.7 18
-  215.0794 1 25
+  215.0794 1.0 25
   216.0796 1.9 49
   217.0666 0.8 20
   217.0872 7.2 186
@@ -93,7 +92,7 @@ PK$PEAK: m/z int. rel.int.
   219.1018 0.6 15
   220.0734 1.5 38
   220.1121 0.6 15
-  221.0591 1 25
+  221.0591 1.0 25
   222.072 0.5 12
   222.0903 0.4 10
   227.0388 0.4 10
@@ -102,7 +101,7 @@ PK$PEAK: m/z int. rel.int.
   228.0794 3.9 100
   229.0503 14.8 383
   230.0713 1.7 43
-  230.0945 3 77
+  230.0945 3.0 77
   231.0787 6.3 163
   232.0753 1.8 46
   233.0828 3.4 87
@@ -110,7 +109,7 @@ PK$PEAK: m/z int. rel.int.
   234.0914 1.4 36
   235.0707 0.5 12
   237.0515 1.1 28
-  240.0821 1 25
+  240.0821 1.0 25
   241.0656 0.9 23
   242.0693 1.6 41
   244.074 3.4 87
@@ -127,7 +126,7 @@ PK$PEAK: m/z int. rel.int.
   257.0593 3.1 80
   257.0822 5.6 144
   258.068 13.5 349
-  259.0738 8 207
+  259.0738 8.0 207
   260.0722 3.9 100
   261.0801 1.3 33
   262.0835 2.2 56
@@ -143,7 +142,7 @@ PK$PEAK: m/z int. rel.int.
   275.091 3.1 80
   276.1044 3.2 82
   284.0688 1.6 41
-  285.0551 6 155
+  285.0551 6.0 155
   286.0841 15.4 398
   287.0691 20.4 527
   288.0649 2.2 56

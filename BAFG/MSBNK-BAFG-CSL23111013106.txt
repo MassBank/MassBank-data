@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111013106
 RECORD_TITLE: Triclabendazole; LC-ESI-QTOF; MS2; 130 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Triclabendazole
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C14H9Cl3N2OS
@@ -15,6 +14,7 @@ CH$SMILES: CSc1[nH]c2cc(Cl)c(Oc3cccc(Cl)c3Cl)cc2n1
 CH$IUPAC: InChI=1S/C14H9Cl3N2OS/c1-21-14-18-9-5-8(16)12(6-10(9)19-14)20-11-4-2-3-7(15)13(11)17/h2-6H,1H3,(H,18,19)
 CH$LINK: CAS 68786-66-3
 CH$LINK: INCHIKEY NQPDXQQQCQDHHW-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000254; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Ethers
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.11 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 358.9574
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-9700000000-e83e51b76d31b91bc3df
 PK$NUM_PEAK: 94
 PK$PEAK: m/z int. rel.int.
@@ -62,16 +61,16 @@ PK$PEAK: m/z int. rel.int.
   81.9868 0.8 57
   83.9924 0.6 43
   84.984 2.7 195
-  85.9793 4 289
+  85.9793 4.0 289
   86.0172 0.5 36
   87.024 0.6 43
   88.0201 1.5 108
   90.0353 2.1 152
   91.0296 2.4 173
-  92.0363 2 144
+  92.0363 2.0 144
   92.9799 2.4 173
   93.9881 1.6 115
-  96.9846 1 72
+  96.9846 1.0 72
   97.9795 0.6 43
   97.9944 0.6 43
   98.0145 3.3 238
@@ -85,7 +84,7 @@ PK$PEAK: m/z int. rel.int.
   103.0283 1.1 79
   104.0418 0.8 57
   107.9912 1.5 108
-  108.9927 1 72
+  108.9927 1.0 72
   110.9971 0.9 65
   111.9963 1.9 137
   112.0241 0.5 36
@@ -100,15 +99,15 @@ PK$PEAK: m/z int. rel.int.
   127.0064 3.1 224
   127.0408 0.5 36
   128.9563 1.4 101
-  134.9999 1 72
-  136.0095 1 72
+  134.9999 1.0 72
+  136.0095 1.0 72
   137.0393 0.7 50
   138.0341 1.5 108
-  139.0069 1 72
+  139.0069 1.0 72
   139.042 1.5 108
   140.0495 2.4 173
   143.9681 0.5 36
-  146.9999 1 72
+  146.9999 1.0 72
   148.009 5.5 398
   150.0373 1.2 86
   151.0419 7.7 557

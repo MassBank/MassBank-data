@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095044
 RECORD_TITLE: Testosterone; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Testosterone
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C19H28O2
@@ -15,6 +14,7 @@ CH$SMILES: C[C@]12CC[C@H]3[C@@H](CCC4=CC(=O)CC[C@]34C)[C@@H]1CC[C@@H]2O
 CH$IUPAC: InChI=1S/C19H28O2/c1-18-9-7-13(20)11-12(18)3-4-14-15-5-6-17(21)19(15,2)10-8-16(14)18/h11,14-17,21H,3-10H2,1-2H3/t14-,15-,16-,17-,18-,19-/m0/s1
 CH$LINK: CAS 58-22-0
 CH$LINK: INCHIKEY MUMGGOZAMZWBJJ-DYKIIFRCSA-N
+CH$LINK: ChemOnt CHEMONTID:0003568; Organic compounds; Lipids and lipid-like molecules; Steroids and steroid derivatives; Androstane steroids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.968 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 289.2162
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a6s-9400000000-9ff6db8f8b938bafc91c
 PK$NUM_PEAK: 46
 PK$PEAK: m/z int. rel.int.
@@ -43,23 +42,23 @@ PK$PEAK: m/z int. rel.int.
   69.0392 0.6 12
   69.0744 4.5 91
   77.0434 18.6 378
-  79.0587 35 712
+  79.0587 35.0 712
   81.0373 1.2 24
   81.0739 20.9 425
   83.0527 2.2 44
   91.0578 17.1 347
   93.0724 6.2 126
-  94.0453 1 20
+  94.0453 1.0 20
   95.0503 0.5 10
   95.0874 3.6 73
   97.0679 49.1 999
-  97.0975 2 40
+  97.0975 2.0 40
   103.0549 1.2 24
   105.0718 11.3 229
   107.0509 1.3 26
   107.0866 1.4 28
   108.0584 0.6 12
-  109.0674 46 935
+  109.0674 46.0 935
   109.1079 0.5 10
   115.0566 1.8 36
   117.0731 2.3 46
@@ -74,7 +73,7 @@ PK$PEAK: m/z int. rel.int.
   133.1008 0.7 14
   141.0731 1.7 34
   142.0814 0.9 18
-  143.0899 1 20
+  143.0899 1.0 20
   145.1051 1.4 28
   155.0877 1.2 24
   156.0959 0.5 10

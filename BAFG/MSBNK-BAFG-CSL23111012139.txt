@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111012139
 RECORD_TITLE: 2-Hydroxy-n-methyl-n-phenylpropanamide; LC-ESI-QTOF; MS2; 100 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 2-Hydroxy-n-methyl-n-phenylpropanamide
 CH$FORMULA: C10H13NO2
 CH$EXACT_MASS: 179.0946
@@ -14,6 +13,7 @@ CH$SMILES: CC(C(=O)N(C)C1=CC=CC=C1)O
 CH$IUPAC: InChI=1S/C10H13NO2/c1-8(12)10(13)11(2)9-6-4-3-5-7-9/h3-8,12H,1-2H3
 CH$LINK: CAS 5455-67-4
 CH$LINK: INCHIKEY YOZNZNZSJNNALS-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000285; Organic compounds; Benzenoids; Benzene and substituted derivatives; Anilides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,15 +29,14 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.763 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 180.1019
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-9000000000-644be2af21f495091fd6
 PK$NUM_PEAK: 21
 PK$PEAK: m/z int. rel.int.
-  37.0072 1 38
+  37.0072 1.0 38
   38.0149 0.6 23
-  39.0227 3 115
-  45.0335 1 38
+  39.0227 3.0 115
+  45.0335 1.0 38
   49.0072 1.9 73
   50.015 14.2 547
   51.0232 25.9 999
@@ -46,7 +45,7 @@ PK$PEAK: m/z int. rel.int.
   63.0222 1.4 54
   65.0387 3.7 142
   66.0455 1.2 46
-  74.0165 1 38
+  74.0165 1.0 38
   75.0231 0.4 15
   77.0387 7.5 289
   78.0461 0.6 23

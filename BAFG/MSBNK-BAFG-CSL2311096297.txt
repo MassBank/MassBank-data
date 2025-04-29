@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311096297
 RECORD_TITLE: Amoxicillin; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Amoxicillin
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C16H19N3O5S
@@ -15,6 +14,7 @@ CH$SMILES: CC1(S[C@@H]2[C@@H](C(N2[C@H]1C(O)=O)=O)NC([C@@H](c3ccc(O)cc3)N)=O)C
 CH$IUPAC: InChI=1S/C16H19N3O5S/c1-16(2)11(15(23)24)19-13(22)10(14(19)25-16)18-12(21)9(17)7-3-5-8(20)6-4-7/h3-6,9-11,14,20H,17H2,1-2H3,(H,18,21)(H,23,24)/t9-,10-,11+,14-/m1/s1
 CH$LINK: CAS 26787-78-0
 CH$LINK: INCHIKEY LSQZJLSUYDQPKJ-NJBDSQKTSA-N
+CH$LINK: ChemOnt CHEMONTID:0000099; Organic compounds; Organoheterocyclic compounds; Azoles; Triazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.706 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 366.1118
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-052r-6900000000-ff73592de0fb3a2f939d
 PK$NUM_PEAK: 13
 PK$PEAK: m/z int. rel.int.
@@ -44,7 +43,7 @@ PK$PEAK: m/z int. rel.int.
   105.0323 0.6 176
   106.0429 0.5 146
   107.05 3.4 999
-  114.0021 1 293
+  114.0021 1.0 293
   116.0501 1.3 381
   133.0535 0.6 176
   137.0059 0.9 264

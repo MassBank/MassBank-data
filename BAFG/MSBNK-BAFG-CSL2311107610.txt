@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107610
 RECORD_TITLE: Carbamazepine; LC-ESI-QTOF; MS2; 150 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Carbamazepine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C15H12N2O
@@ -15,6 +14,7 @@ CH$SMILES: NC(=O)N1c2ccccc2C=Cc3ccccc13
 CH$IUPAC: InChI=1S/C15H12N2O/c16-15(18)17-13-7-3-1-5-11(13)9-10-12-6-2-4-8-14(12)17/h1-10H,(H2,16,18)
 CH$LINK: CAS 298-46-4
 CH$LINK: INCHIKEY FFGPTBGBLSHEPO-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000320; Organic compounds; Organoheterocyclic compounds; Benzazepines; Dibenzazepines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.87 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 237.1022
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0079-9400000000-1cfe6a77ed24d54d2490
 PK$NUM_PEAK: 43
 PK$PEAK: m/z int. rel.int.
@@ -42,16 +41,16 @@ PK$PEAK: m/z int. rel.int.
   74.0183 15.9 999
   75.0128 0.5 31
   75.0265 4.6 289
-  76.0338 1 62
+  76.0338 1.0 62
   77.0419 0.6 37
   84.0024 1.5 94
   85.0108 5.1 320
   86.0167 10.5 659
   87.0239 4.7 295
-  88.0187 1 62
+  88.0187 1.0 62
   88.0322 0.5 31
   89.0399 4.6 289
-  97.0078 2 125
+  97.0078 2.0 125
   98.016 9.8 615
   99.0231 1.7 106
   100.0252 0.7 43

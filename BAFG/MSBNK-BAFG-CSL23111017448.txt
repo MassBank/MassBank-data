@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111017448
 RECORD_TITLE: Cocaethylene; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Cocaethylene
 CH$COMPOUND_CLASS: Metabolite
 CH$FORMULA: C18H23NO4
@@ -15,6 +14,7 @@ CH$SMILES: CCOC(=O)C1C2CCC(N2C)CC1OC(=O)C3=CC=CC=C3
 CH$IUPAC: InChI=1S/C18H23NO4/c1-3-22-18(21)16-14-10-9-13(19(14)2)11-15(16)23-17(20)12-7-5-4-6-8-12/h4-8,13-16H,3,9-11H2,1-2H3
 CH$LINK: CAS 529-38-4
 CH$LINK: INCHIKEY NMPOSNRHZIWLLL-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000176; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzoic acids and derivatives
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.013 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 318.17
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0532-6900000000-1acc0617d9102dc1c1c9
 PK$NUM_PEAK: 31
 PK$PEAK: m/z int. rel.int.
@@ -41,7 +40,7 @@ PK$PEAK: m/z int. rel.int.
   67.055 8.6 78
   68.0504 3.5 32
   70.0659 1.5 13
-  77.04 18 165
+  77.04 18.0 165
   79.0553 1.4 12
   80.0499 1.2 11
   81.0706 1.4 12

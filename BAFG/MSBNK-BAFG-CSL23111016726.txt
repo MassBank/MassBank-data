@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016726
 RECORD_TITLE: Prosulfocarb; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Prosulfocarb
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C14H21NOS
@@ -15,6 +14,7 @@ CH$SMILES: CCCN(CCC)C(=O)SCC1=CC=CC=C1
 CH$IUPAC: InChI=1S/C14H21NOS/c1-3-10-15(11-4-2)14(16)17-12-13-8-6-5-7-9-13/h5-9H,3-4,10-12H2,1-2H3
 CH$LINK: CAS 52888-80-9
 CH$LINK: INCHIKEY NQLVQOSNDJXLKG-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000089; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 15.467 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 252.1417
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0006-9000000000-22cda2dc77252163e718
 PK$NUM_PEAK: 3
 PK$PEAK: m/z int. rel.int.
   43.0543 100.6 13
-  65.0385 126 16
+  65.0385 126.0 16
   91.0576 7467.5 999
 //

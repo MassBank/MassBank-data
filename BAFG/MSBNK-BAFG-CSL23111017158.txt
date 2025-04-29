@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111017158
 RECORD_TITLE: Cyprodinil; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Cyprodinil
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C14H15N3
@@ -15,6 +14,7 @@ CH$SMILES: CC1=CC(=NC(=N1)NC2=CC=CC=C2)C3CC3
 CH$IUPAC: InChI=1S/C14H15N3/c1-10-9-13(11-7-8-11)17-14(15-10)16-12-5-3-2-4-6-12/h2-6,9,11H,7-8H2,1H3,(H,15,16,17)
 CH$LINK: CAS 121552-61-2
 CH$LINK: INCHIKEY HAORKNGNJCEJBX-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000183; Organic compounds; Organoheterocyclic compounds; Indoles and derivatives; Tryptamines and derivatives
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,15 +30,14 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.83 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 226.1339
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0006-9500000000-755070550bfd2c5dca6f
 PK$NUM_PEAK: 86
 PK$PEAK: m/z int. rel.int.
-  39.0228 6 35
+  39.0228 6.0 35
   41.0386 5.2 31
   42.0338 9.1 54
-  44.0491 2 11
+  44.0491 2.0 11
   50.0151 3.5 20
   51.0227 11.5 68
   53.0382 5.7 34
@@ -53,8 +52,8 @@ PK$PEAK: m/z int. rel.int.
   78.0337 5.9 35
   78.0457 1.8 10
   79.054 30.8 184
-  80.0491 14 83
-  81.0571 2 11
+  80.0491 14.0 83
+  81.0571 2.0 11
   81.0692 9.4 56
   82.0646 4.9 29
   84.0805 2.1 12
@@ -65,7 +64,7 @@ PK$PEAK: m/z int. rel.int.
   92.0492 38.4 229
   93.0573 166.9 999
   94.0646 9.6 57
-  102.0332 3 17
+  102.0332 3.0 17
   104.0493 8.6 51
   105.044 4.5 26
   106.0644 25.6 153
@@ -76,7 +75,7 @@ PK$PEAK: m/z int. rel.int.
   115.0531 6.1 36
   116.0486 12.1 72
   117.0446 2.2 13
-  117.0568 10 59
+  117.0568 10.0 59
   118.0524 49.1 293
   119.0598 19.4 116
   127.0537 2.4 14
@@ -95,11 +94,11 @@ PK$PEAK: m/z int. rel.int.
   154.0637 2.5 14
   156.0668 3.9 23
   157.075 3.1 18
-  159.0919 2 11
+  159.0919 2.0 11
   165.0684 3.4 20
   166.0644 8.2 49
   167.0718 17.8 106
-  168.0688 9 53
+  168.0688 9.0 53
   169.074 7.4 44
   170.0829 1.7 10
   180.0792 2.4 14

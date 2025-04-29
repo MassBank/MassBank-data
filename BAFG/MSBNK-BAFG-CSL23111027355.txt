@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111027355
 RECORD_TITLE: 3,5-Dichloroaniline; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 3,5-Dichloroaniline
 CH$FORMULA: C6H5Cl2N
 CH$EXACT_MASS: 160.9799
@@ -14,6 +13,7 @@ CH$SMILES: C1=C(C=C(C=C1Cl)Cl)N
 CH$IUPAC: InChI=1S/C6H5Cl2N/c7-4-1-5(8)3-6(9)2-4/h1-3H,9H2
 CH$LINK: CAS 626-43-7
 CH$LINK: INCHIKEY UQRLKWGPEVNVHT-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000035; Organic compounds; Benzenoids; Benzene and substituted derivatives; Halobenzenes
 AC$INSTRUMENT: TripleTOF X500R SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.205 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 161.9872
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-0900000000-095092b4785ec92684ab
 PK$NUM_PEAK: 10
 PK$PEAK: m/z int. rel.int.
@@ -39,9 +38,9 @@ PK$PEAK: m/z int. rel.int.
   99.0002 13.4 18
   100.0079 38.8 54
   108.9843 82.4 116
-  126.0114 11 15
+  126.0114 11.0 15
   127.0181 705.5 999
-  144.9612 110 155
+  144.9612 110.0 155
   161.9875 124.2 175
   172.9673 39.6 56
 //

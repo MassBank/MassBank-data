@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111027406
 RECORD_TITLE: Guaifenesin; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Guaifenesin
 CH$FORMULA: C10H14O4
 CH$EXACT_MASS: 198.0892
@@ -14,6 +13,7 @@ CH$SMILES: COC1=CC=CC=C1OCC(CO)O
 CH$IUPAC: InChI=1S/C10H14O4/c1-13-9-4-2-3-5-10(9)14-7-8(12)6-11/h2-5,8,11-12H,6-7H2,1H3
 CH$LINK: CAS 93-14-1
 CH$LINK: INCHIKEY HSRJKNPTNIJEKV-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000138; Organic compounds; Benzenoids; Phenol ethers; Anisoles
 AC$INSTRUMENT: TripleTOF X500R SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.298 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 199.0965
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00fr-6900000000-ce3411b462df9e00a031
 PK$NUM_PEAK: 30
 PK$PEAK: m/z int. rel.int.
@@ -40,7 +39,7 @@ PK$PEAK: m/z int. rel.int.
   51.0237 0.5 134
   55.0534 0.2 54
   57.0329 0.6 161
-  65.0387 1 269
+  65.0387 1.0 269
   72.987 0.6 161
   77.0387 3.1 837
   79.0544 0.7 188

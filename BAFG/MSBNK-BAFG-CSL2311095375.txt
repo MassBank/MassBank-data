@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311095375
 RECORD_TITLE: Clenbuterol; LC-ESI-QTOF; MS2; 150 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Clenbuterol
-CH$COMPOUND_CLASS: Pharmaceutical
+CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product-Metabolite
 CH$FORMULA: C12H18Cl2N2O
 CH$EXACT_MASS: 276.0796
 CH$SMILES: CC(C)(C)NCC(c1cc(c(c(c1)Cl)N)Cl)O
 CH$IUPAC: InChI=1S/C12H18Cl2N2O/c1-12(2,3)16-6-10(17)7-4-8(13)11(15)9(14)5-7/h4-5,10,16-17H,6,15H2,1-3H3
 CH$LINK: CAS 37148-27-9
 CH$LINK: INCHIKEY STJMRWALKKWQGH-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001859; Organic compounds; Organoheterocyclic compounds; Pyridopyrimidines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.115 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 277.0869
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00b9-9100000000-47177cd8f759f1fc9369
 PK$NUM_PEAK: 24
 PK$PEAK: m/z int. rel.int.
@@ -42,7 +41,7 @@ PK$PEAK: m/z int. rel.int.
   58.0693 3.1 312
   64.0337 0.5 50
   72.9871 1.4 141
-  73.0106 1 100
+  73.0106 1.0 100
   74.0181 5.9 595
   75.0142 0.7 70
   75.0259 2.2 222

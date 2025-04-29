@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111011810
 RECORD_TITLE: Bis(1,2,2,6,6-pentamethyl-4-piperidyl) sebacate; LC-ESI-QTOF; MS2; 30 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Bis(1,2,2,6,6-pentamethyl-4-piperidyl) sebacate
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C30H56N2O4
@@ -15,6 +14,7 @@ CH$SMILES: CC1(CC(CC(N1C)(C)C)OC(=O)CCCCCCCCC(=O)OC2CC(N(C(C2)(C)C)C)(C)C)C
 CH$IUPAC: InChI=1S/C30H56N2O4/c1-27(2)19-23(20-28(3,4)31(27)9)35-25(33)17-15-13-11-12-14-16-18-26(34)36-24-21-29(5,6)32(10)30(7,8)22-24/h23-24H,11-22H2,1-10H3
 CH$LINK: CAS 41556-26-7
 CH$LINK: INCHIKEY RSOILICUEWXSLA-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004105; Organic compounds; Organoheterocyclic compounds; Triazines; 1,3,5-triazines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.48 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 509.4313
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4i-0000090000-7c3ceabf82d729be1ca6
 PK$NUM_PEAK: 4
 PK$PEAK: m/z int. rel.int.
   72.0812 3.7 14
-  154.1591 3 12
+  154.1591 3.0 12
   356.2805 4.9 19
   509.4311 248.2 999
 //

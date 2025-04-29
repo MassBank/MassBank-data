@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095146
 RECORD_TITLE: Enrofloxacin; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Enrofloxacin
 CH$COMPOUND_CLASS: Pharmaceutical; Antimicrobial
 CH$FORMULA: C19H22FN3O3
@@ -15,6 +14,7 @@ CH$SMILES: CCN1CCN(CC1)c2cc3N(C=C(C(O)=O)C(=O)c3cc2F)C4CC4
 CH$IUPAC: InChI=1S/C19H22FN3O3/c1-2-21-5-7-22(8-6-21)17-10-16-13(9-15(17)20)18(24)14(19(25)26)11-23(16)12-3-4-12/h9-12H,2-8H2,1H3,(H,25,26)
 CH$LINK: CAS 93106-60-6
 CH$LINK: INCHIKEY SPFYMRJSYKOXGV-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002552; Organic compounds; Organoheterocyclic compounds; Quinolines and derivatives; Quinoline carboxylic acids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.696 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 360.1718
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a59-2900000000-e0e1f9ff99fdb76a31e9
 PK$NUM_PEAK: 73
 PK$PEAK: m/z int. rel.int.
@@ -60,7 +59,7 @@ PK$PEAK: m/z int. rel.int.
   103.0559 0.5 83
   105.0124 0.5 83
   106.0195 0.8 133
-  107.0285 6 999
+  107.0285 6.0 999
   108.0331 1.9 316
   109.0446 0.7 116
   113.0382 0.6 99
@@ -82,7 +81,7 @@ PK$PEAK: m/z int. rel.int.
   133.0314 1.4 233
   133.0418 0.8 133
   134.0399 2.3 382
-  135.0477 1 166
+  135.0477 1.0 166
   139.0286 0.5 83
   139.0491 0.8 133
   140.0488 1.5 249
@@ -98,14 +97,14 @@ PK$PEAK: m/z int. rel.int.
   154.0622 1.3 216
   155.0605 0.9 149
   156.0569 0.5 83
-  158.0395 1 166
+  158.0395 1.0 166
   160.0469 1.6 266
   161.0501 0.9 149
   167.0591 0.6 99
   172.0547 2.3 382
   173.0527 0.9 149
   174.0338 0.8 133
-  174.0603 1 166
+  174.0603 1.0 166
   185.0615 0.7 116
   188.0247 0.4 66
 //

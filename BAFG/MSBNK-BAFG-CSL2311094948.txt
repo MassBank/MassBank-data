@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311094948
 RECORD_TITLE: Isorhamnetin; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Isorhamnetin
 CH$COMPOUND_CLASS: Pharmaceutical; Metabolite
 CH$FORMULA: C16H12O7
@@ -15,6 +14,7 @@ CH$SMILES: COc1cc(ccc1O)C2=C(O)C(=O)c3c(O)cc(O)cc3O2
 CH$IUPAC: InChI=1S/C16H12O7/c1-22-11-4-7(2-3-9(11)18)16-15(21)14(20)13-10(19)5-8(17)6-12(13)23-16/h2-6,17-19,21H,1H3
 CH$LINK: CAS 480-19-3
 CH$LINK: INCHIKEY IZQSVPBOUDKVDZ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001615; Organic compounds; Phenylpropanoids and polyketides; Flavonoids; Flavones
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.418 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 317.0656
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ufr-0490000000-de5685ca246132885fc2
 PK$NUM_PEAK: 44
 PK$PEAK: m/z int. rel.int.
@@ -48,11 +47,11 @@ PK$PEAK: m/z int. rel.int.
   137.0241 0.6 39
   152.01 0.5 32
   153.0179 15.2 999
-  155.0493 1 65
+  155.0493 1.0 65
   171.0412 0.6 39
   177.0174 0.5 32
-  179.0333 1 65
-  183.0443 1 65
+  179.0333 1.0 65
+  183.0443 1.0 65
   187.0376 0.6 39
   189.0545 0.9 59
   192.0425 0.8 52
@@ -78,5 +77,5 @@ PK$PEAK: m/z int. rel.int.
   285.0371 2.5 164
   287.0135 0.6 39
   301.0299 0.6 39
-  302.0425 2 131
+  302.0425 2.0 131
 //

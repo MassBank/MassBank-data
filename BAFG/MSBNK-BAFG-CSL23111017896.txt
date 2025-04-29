@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111017896
 RECORD_TITLE: Clodinafop-Propargyl; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Clodinafop-Propargyl
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C17H13ClFNO4
@@ -15,6 +14,7 @@ CH$SMILES: CC(C(=O)OCC#C)OC1=CC=C(C=C1)OC2=C(C=C(C=N2)Cl)F
 CH$IUPAC: InChI=1S/C17H13ClFNO4/c1-3-8-22-17(21)11(2)23-13-4-6-14(7-5-13)24-16-15(19)9-12(18)10-20-16/h1,4-7,9-11H,8H2,2H3
 CH$LINK: CAS 105512-06-9
 CH$LINK: INCHIKEY JBDHZKLJNAIJNC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004677; Organic compounds; Benzenoids; Benzene and substituted derivatives; 2-phenoxypropionic acid esters
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.951 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 350.059
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0076-4290000000-02d5a105e495ac030867
 PK$NUM_PEAK: 45
 PK$PEAK: m/z int. rel.int.
@@ -62,7 +61,7 @@ PK$PEAK: m/z int. rel.int.
   185.0617 1.5 31
   187.0404 1.5 31
   194.0136 0.9 18
-  202.0633 1 21
+  202.0633 1.0 21
   203.0715 2.7 56
   204.0444 0.6 12
   210.0101 1.2 25
@@ -72,7 +71,7 @@ PK$PEAK: m/z int. rel.int.
   220.0301 1.5 31
   222.0104 36.2 761
   222.0379 0.6 12
-  223.0162 1 21
+  223.0162 1.0 21
   230.058 0.8 16
   231.0679 1.5 31
   238.006 11.3 237

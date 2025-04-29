@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111011082
 RECORD_TITLE: Clothianidin; LC-ESI-QTOF; MS2; 130 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Clothianidin
 CH$COMPOUND_CLASS: Insecticide
 CH$FORMULA: C6H8ClN5O2S
@@ -15,6 +14,7 @@ CH$SMILES: CN=C(NCc1sc(Cl)nc1)N[N+]([O-])=O
 CH$IUPAC: InChI=1S/C6H8ClN5O2S/c1-8-6(11-12(13)14)10-3-4-2-9-5(7)15-4/h2H,3H2,1H3,(H2,8,10,11)
 CH$LINK: CAS 210880-92-5
 CH$LINK: INCHIKEY PGOOBECODWQEAB-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000095; Organic compounds; Organoheterocyclic compounds; Azoles; Thiazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.736 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 248.0014
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4i-9000000000-214d61ba151db40c5a6e
 PK$NUM_PEAK: 5
 PK$PEAK: m/z int. rel.int.

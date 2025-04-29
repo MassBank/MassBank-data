@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016175
 RECORD_TITLE: N-ethyl-4-menthane-3-carboxamide; LC-ESI-QTOF; MS2; 70 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: N-ethyl-4-menthane-3-carboxamide
 CH$COMPOUND_CLASS: Food_additive; Personal_care_product
 CH$FORMULA: C13H25NO
@@ -15,6 +14,7 @@ CH$SMILES: CCNC(=O)C1CC(CCC1C(C)C)C
 CH$IUPAC: InChI=1S/C13H25NO/c1-5-14-13(15)12-8-10(4)6-7-11(12)9(2)3/h9-12H,5-8H2,1-4H3,(H,14,15)
 CH$LINK: CAS 39711-79-0
 CH$LINK: INCHIKEY VUNOFAIHSALQQH-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001549; Organic compounds; Lipids and lipid-like molecules; Prenol lipids; Monoterpenoids
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.775 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 212.2009
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-052f-9000000000-15bbf7af47d337bcb1ae
 PK$NUM_PEAK: 44
 PK$PEAK: m/z int. rel.int.
@@ -45,7 +44,7 @@ PK$PEAK: m/z int. rel.int.
   43.018 2.4 30
   43.0539 4.2 54
   44.0131 77.4 999
-  44.0497 1 12
+  44.0497 1.0 12
   46.0286 5.2 67
   46.0654 1.5 19
   51.0227 2.8 36
@@ -59,7 +58,7 @@ PK$PEAK: m/z int. rel.int.
   57.0703 1.1 14
   58.0645 1.1 14
   65.0378 5.8 74
-  66.0471 1 12
+  66.0471 1.0 12
   67.0418 1.1 14
   67.0537 7.1 91
   69.0331 1.8 23
@@ -70,7 +69,7 @@ PK$PEAK: m/z int. rel.int.
   79.0538 8.1 104
   80.0487 2.2 28
   81.0324 2.7 34
-  81.0695 4 51
+  81.0695 4.0 51
   82.0643 2.3 29
   83.0482 1.5 19
   91.0541 6.2 80

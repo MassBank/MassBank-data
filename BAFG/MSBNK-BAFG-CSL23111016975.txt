@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111016975
 RECORD_TITLE: 4-Methyl-5-thiazoleethanol; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 4-Methyl-5-thiazoleethanol
 CH$COMPOUND_CLASS: Food_additive; Metabolite; Pharmaceutical
 CH$FORMULA: C6H9NOS
@@ -15,6 +14,7 @@ CH$SMILES: CC1=C(SC=N1)CCO
 CH$IUPAC: InChI=1S/C6H9NOS/c1-5-6(2-3-8)9-4-7-5/h4,8H,2-3H2,1H3
 CH$LINK: CAS 137-00-8
 CH$LINK: INCHIKEY BKAWJIRCKVUVED-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000369; Organic compounds; Benzenoids; Benzene and substituted derivatives; Diphenylmethanes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.251 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 144.0478
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-03di-9500000000-1325e83f4ab0dedb1167
 PK$NUM_PEAK: 34
 PK$PEAK: m/z int. rel.int.
@@ -39,7 +38,7 @@ PK$PEAK: m/z int. rel.int.
   39.023 2.8 60
   41.0261 0.6 13
   41.0393 0.9 19
-  42.034 7 151
+  42.034 7.0 151
   43.0415 0.5 10
   44.9793 8.4 182
   51.0231 0.7 15
@@ -57,10 +56,10 @@ PK$PEAK: m/z int. rel.int.
   70.9947 23.3 504
   72.0024 3.4 73
   78.0335 1.6 34
-  80.0488 8 173
+  80.0488 8.0 173
   81.0574 0.6 13
   84.0019 0.9 19
-  85.0104 14 303
+  85.0104 14.0 303
   86.0181 2.2 47
   96.0022 0.6 13
   97.01 0.5 10

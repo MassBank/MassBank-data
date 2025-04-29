@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111016510
 RECORD_TITLE: Leucomalachite green; LC-ESI-QTOF; MS2; 150 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Leucomalachite green
-CH$COMPOUND_CLASS: Metabolite
+CH$COMPOUND_CLASS: Metabolite; Antimicrobial; Fungicide; Transformation_product-Metabolite
 CH$FORMULA: C23H26N2
 CH$EXACT_MASS: 330.2096
 CH$SMILES: CN(C)C1=CC=C(C=C1)C(C2=CC=CC=C2)C3=CC=C(C=C3)N(C)C
 CH$IUPAC: InChI=1S/C23H26N2/c1-24(2)21-14-10-19(11-15-21)23(18-8-6-5-7-9-18)20-12-16-22(17-13-20)25(3)4/h5-17,23H,1-4H3
 CH$LINK: CAS 129-73-7
 CH$LINK: INCHIKEY WZKXBGJNNCGHIC-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0004524; Organic compounds; Benzenoids; Triphenyl compounds
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.974 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 331.2169
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-1910000000-de60f3ba102b5235cd9a
 PK$NUM_PEAK: 63
 PK$PEAK: m/z int. rel.int.
@@ -45,14 +44,14 @@ PK$PEAK: m/z int. rel.int.
   75.022 1.5 42
   76.0294 1.4 39
   77.0377 4.5 127
-  78.0451 1 28
+  78.0451 1.0 28
   86.0142 0.9 25
   87.0216 1.6 45
   89.0372 3.2 90
   91.0533 0.7 19
-  98.0139 1 28
+  98.0139 1.0 28
   99.021 0.7 19
-  101.0372 1 28
+  101.0372 1.0 28
   102.0456 2.7 76
   113.0367 1.6 45
   115.0524 6.1 172
@@ -63,9 +62,9 @@ PK$PEAK: m/z int. rel.int.
   129.0427 0.6 16
   137.0375 0.9 25
   139.0533 6.1 172
-  140.0485 1 28
+  140.0485 1.0 28
   149.0388 0.7 19
-  150.0449 7 198
+  150.0449 7.0 198
   151.0525 13.2 373
   152.0606 35.3 999
   153.0683 3.6 101
@@ -76,7 +75,7 @@ PK$PEAK: m/z int. rel.int.
   165.0684 8.3 234
   166.0686 0.9 25
   167.0728 0.4 11
-  177.0544 1 28
+  177.0544 1.0 28
   178.0638 1.3 36
   179.0639 1.5 42
   180.0795 0.6 16
@@ -88,7 +87,7 @@ PK$PEAK: m/z int. rel.int.
   201.0663 0.7 19
   202.079 0.7 19
   212.0621 0.4 11
-  213.0708 1 28
+  213.0708 1.0 28
   214.0616 0.4 11
   224.0594 2.7 76
   225.0669 1.3 36

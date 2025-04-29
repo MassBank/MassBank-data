@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111019016
 RECORD_TITLE: Acetochlor; LC-ESI-QTOF; MS2; 140 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Acetochlor
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C14H20ClNO2
@@ -15,6 +14,7 @@ CH$SMILES: CCC1=CC=CC(=C1N(COCC)C(=O)CCl)C
 CH$IUPAC: InChI=1S/C14H20ClNO2/c1-4-12-8-6-7-11(3)14(12)16(10-18-5-2)13(17)9-15/h6-8H,4-5,9-10H2,1-3H3
 CH$LINK: CAS 34256-82-1
 CH$LINK: INCHIKEY VTNQPKFIQCLBDU-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000285; Organic compounds; Benzenoids; Benzene and substituted derivatives; Anilides
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.251 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 270.1255
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0f79-9000000000-4340d41b1fb8c98f5456
 PK$NUM_PEAK: 10
 PK$PEAK: m/z int. rel.int.
@@ -43,6 +42,6 @@ PK$PEAK: m/z int. rel.int.
   62.0146 0.4 181
   63.0229 0.8 363
   65.0377 0.5 227
-  77.0371 1 454
+  77.0371 1.0 454
   89.0366 2.2 999
 //

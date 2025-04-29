@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111019046
 RECORD_TITLE: 2-Methylbenzimidazole; LC-ESI-QTOF; MS2; 60 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 2-Methylbenzimidazole
 CH$FORMULA: C8H8N2
 CH$EXACT_MASS: 132.0687
@@ -14,6 +13,7 @@ CH$SMILES: CC1=NC2=CC=CC=C2N1
 CH$IUPAC: InChI=1S/C8H8N2/c1-6-9-7-4-2-3-5-8(7)10-6/h2-5H,1H3,(H,9,10)
 CH$LINK: CAS 615-15-6
 CH$LINK: INCHIKEY LDZYRENCLPUXAX-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000294; Organic compounds; Organoheterocyclic compounds; Benzimidazoles
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,19 +29,18 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.68 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 133.076
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00kr-9000000000-f4f0fbfade048369c5d5
 PK$NUM_PEAK: 17
 PK$PEAK: m/z int. rel.int.
   35.999 2.2 27
-  37.0073 15 187
+  37.0073 15.0 187
   38.0151 12.6 157
   39.023 79.9 999
-  42.0335 1 12
+  42.0335 1.0 12
   50.0148 1.1 13
   51.0226 2.5 31
-  52.0177 2 25
+  52.0177 2.0 25
   62.0144 1.5 18
   63.0224 6.6 82
   64.0305 2.8 35

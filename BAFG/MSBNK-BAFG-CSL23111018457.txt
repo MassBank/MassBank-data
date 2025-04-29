@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018457
 RECORD_TITLE: Bisoprolol; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Bisoprolol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C18H31NO4
@@ -15,6 +14,7 @@ CH$SMILES: CC(C)NCC(COC1=CC=C(C=C1)COCCOC(C)C)O
 CH$IUPAC: InChI=1S/C18H31NO4/c1-14(2)19-11-17(20)13-23-18-7-5-16(6-8-18)12-21-9-10-22-15(3)4/h5-8,14-15,17,19-20H,9-13H2,1-4H3
 CH$LINK: CAS 66722-44-9
 CH$LINK: INCHIKEY VHYCDWMUTMEGQY-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002542; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzylethers
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.01 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 326.2326
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0600-9800000000-4b24b43600af9941ac3c
 PK$NUM_PEAK: 33
 PK$PEAK: m/z int. rel.int.
@@ -39,7 +38,7 @@ PK$PEAK: m/z int. rel.int.
   41.0386 5.6 20
   43.0538 8.1 30
   45.0331 27.4 102
-  56.0492 90 336
+  56.0492 90.0 336
   58.0645 8.5 31
   72.08 67.7 253
   74.0594 224.4 839
@@ -65,7 +64,7 @@ PK$PEAK: m/z int. rel.int.
   147.0787 32.3 120
   162.0894 19.5 72
   163.0742 9.3 34
-  204.138 8 29
+  204.138 8.0 29
   222.1466 3.5 13
   326.2313 62.3 233
 //

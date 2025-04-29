@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111011051
 RECORD_TITLE: Isorhamnetin; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Isorhamnetin
 CH$COMPOUND_CLASS: Pharmaceutical; Metabolite
 CH$FORMULA: C16H12O7
@@ -15,6 +14,7 @@ CH$SMILES: COc1cc(ccc1O)C2=C(O)C(=O)c3c(O)cc(O)cc3O2
 CH$IUPAC: InChI=1S/C16H12O7/c1-22-11-4-7(2-3-9(11)18)16-15(21)14(20)13-10(19)5-8(17)6-12(13)23-16/h2-6,17-19,21H,1H3
 CH$LINK: CAS 480-19-3
 CH$LINK: INCHIKEY IZQSVPBOUDKVDZ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001615; Organic compounds; Phenylpropanoids and polyketides; Flavonoids; Flavones
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,17 +30,16 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.418 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 315.051
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0r00-1950000000-4c61d879d88fcd99684c
 PK$NUM_PEAK: 36
 PK$PEAK: m/z int. rel.int.
-  65.0029 5 306
+  65.0029 5.0 306
   83.0135 7.4 453
   94.0057 1.2 73
   95.0132 0.9 55
   107.0144 11.8 723
-  108.0221 11 674
+  108.0221 11.0 674
   120.0224 3.4 208
   135.0099 2.6 159
   136.0179 4.7 288
@@ -53,7 +52,7 @@ PK$PEAK: m/z int. rel.int.
   164.0129 8.8 539
   171.0468 1.8 110
   174.0344 1.5 91
-  175.0442 1 61
+  175.0442 1.0 61
   183.0467 3.5 214
   187.0417 1.8 110
   189.0209 1.9 116

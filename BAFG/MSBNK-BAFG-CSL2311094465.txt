@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311094465
 RECORD_TITLE: N,N`-diphenyl-p-phenylenediamine; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: N,N`-diphenyl-p-phenylenediamine
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C18H16N2
@@ -15,6 +14,7 @@ CH$SMILES: N(c1ccccc1)c2ccc(Nc3ccccc3)cc2
 CH$IUPAC: InChI=1S/C18H16N2/c1-3-7-15(8-4-1)19-17-11-13-18(14-12-17)20-16-9-5-2-6-10-16/h1-14,19-20H
 CH$LINK: CAS 74-31-7
 CH$LINK: INCHIKEY UTGQNNCQYDRXCH-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000284; Organic compounds; Benzenoids; Benzene and substituted derivatives; Aniline and substituted anilines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 14.544 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 261.1386
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-001i-0900000000-7631ad7488cb059155e2
 PK$NUM_PEAK: 28
 PK$PEAK: m/z int. rel.int.
@@ -44,7 +43,7 @@ PK$PEAK: m/z int. rel.int.
   107.0615 126.4 259
   117.0571 4.9 10
   118.0531 18.6 38
-  128.061 11 22
+  128.061 11.0 22
   129.0692 23.7 48
   130.0705 19.6 40
   140.055 7.5 15
@@ -54,9 +53,9 @@ PK$PEAK: m/z int. rel.int.
   155.0698 5.7 11
   156.0803 24.6 50
   157.0863 22.3 45
-  166.0651 46 94
+  166.0651 46.0 94
   167.0726 45.1 92
-  168.0784 80 164
+  168.0784 80.0 164
   169.0845 32.5 66
   181.0757 6.3 12
   182.083 28.1 57

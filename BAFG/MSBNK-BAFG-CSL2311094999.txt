@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311094999
 RECORD_TITLE: Oxfendazole; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Oxfendazole
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C15H13N3O3S
@@ -15,6 +14,7 @@ CH$SMILES: COC(=O)Nc1[nH]c2cc(ccc2n1)[S](=O)c3ccccc3
 CH$IUPAC: InChI=1S/C15H13N3O3S/c1-21-15(19)18-14-16-12-8-7-11(9-13(12)17-14)22(20)10-5-3-2-4-6-10/h2-9H,1H3,(H2,16,17,18,19)
 CH$LINK: CAS 53716-50-0
 CH$LINK: INCHIKEY BEZZFPOZAYTVHN-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000294; Organic compounds; Organoheterocyclic compounds; Benzimidazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,12 +30,11 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.579 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 316.075
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-9600000000-e223db3130968349ab6f
 PK$NUM_PEAK: 44
 PK$PEAK: m/z int. rel.int.
-  51.0286 2 55
+  51.0286 2.0 55
   52.0222 1.6 44
   52.0344 0.7 19
   53.0326 0.5 13
@@ -52,7 +51,7 @@ PK$PEAK: m/z int. rel.int.
   79.0447 0.8 22
   89.0262 0.6 16
   90.0347 0.6 16
-  91.0423 1 27
+  91.0423 1.0 27
   92.0356 0.6 16
   94.9957 0.6 16
   102.0439 0.4 11
@@ -68,7 +67,7 @@ PK$PEAK: m/z int. rel.int.
   126.0445 0.5 13
   127.0539 1.1 30
   130.0394 1.8 49
-  131.0465 4 110
+  131.0465 4.0 110
   131.0641 0.5 13
   139.0526 0.7 19
   140.0484 1.3 35

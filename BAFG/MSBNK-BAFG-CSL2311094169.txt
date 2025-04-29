@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311094169
 RECORD_TITLE: Metamitron; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Metamitron
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C10H10N4O
@@ -15,6 +14,7 @@ CH$SMILES: CC1=NN=C(c2ccccc2)C(=O)N1N
 CH$IUPAC: InChI=1S/C10H10N4O/c1-7-12-13-9(10(15)14(7)11)8-5-3-2-4-6-8/h2-6H,11H2,1H3
 CH$LINK: CAS 41394-05-2
 CH$LINK: INCHIKEY VHCNQEUWZYOAEV-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000112; Organic compounds; Organic nitrogen compounds; Organonitrogen compounds; Hydrazines and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.783 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 203.0927
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0fb9-6910000000-149016ae671693d38ef9
 PK$NUM_PEAK: 34
 PK$PEAK: m/z int. rel.int.
@@ -55,7 +54,7 @@ PK$PEAK: m/z int. rel.int.
   105.0396 0.8 12
   105.0573 7.5 113
   106.0639 4.4 66
-  107.0579 1 15
+  107.0579 1.0 15
   116.0477 0.7 10
   117.0444 2.1 31
   118.052 5.5 83
@@ -65,7 +64,7 @@ PK$PEAK: m/z int. rel.int.
   145.039 4.5 68
   158.0722 2.5 37
   159.078 3.9 59
-  173.0699 1 15
+  173.0699 1.0 15
   174.078 11.7 177
   175.0971 39.1 592
   203.0917 21.7 328

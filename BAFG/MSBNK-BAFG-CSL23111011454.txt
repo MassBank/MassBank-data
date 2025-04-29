@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111011454
 RECORD_TITLE: Malachite green cation; LC-ESI-QTOF; MS2; 130 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Malachite green cation
-CH$COMPOUND_CLASS: Industrial_process; Pigment
+CH$COMPOUND_CLASS: Industrial_process; Pigment; Antimicrobial; Fungicide
 CH$FORMULA: [C23H25N2]+
 CH$EXACT_MASS: 329.2012
 CH$SMILES: CN(C)C1=CC=C(C=C1)C(=C2C=CC(=[N+](C)C)C=C2)C3=CC=CC=C3
 CH$IUPAC: InChI=1S/C23H25N2/c1-24(2)21-14-10-19(11-15-21)23(18-8-6-5-7-9-18)20-12-16-22(17-13-20)25(3)4/h5-17H,1-4H3/q+1
 CH$LINK: CAS 10309-95-2
 CH$LINK: INCHIKEY VFCNQNZNPKRXIT-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001831; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Carbonyl compounds
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,20 +30,19 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.29 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 329.2012
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-000i-0490000000-d198b08b84c0f1fe4d29
 PK$NUM_PEAK: 28
 PK$PEAK: m/z int. rel.int.
   89.0362 0.5 55
-  115.0542 1 111
+  115.0542 1.0 111
   139.0526 1.3 144
   151.0511 0.7 77
   152.0631 0.7 77
   162.0483 0.5 55
   163.0527 4.4 488
   164.0602 2.2 244
-  165.0697 2 222
+  165.0697 2.0 222
   176.0681 0.9 99
   187.0536 0.9 99
   188.0647 0.7 77
@@ -57,10 +56,10 @@ PK$PEAK: m/z int. rel.int.
   215.087 0.9 99
   224.0633 1.8 199
   225.0676 1.2 133
-  226.0792 3 333
+  226.0792 3.0 333
   236.0617 0.9 99
   237.0706 7.4 821
   238.0782 2.3 255
-  239.0851 9 999
+  239.0851 9.0 999
   251.0716 0.6 66
 //

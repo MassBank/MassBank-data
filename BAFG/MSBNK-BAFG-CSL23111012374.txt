@@ -1,13 +1,13 @@
 ACCESSION: MSBNK-BAFG-CSL23111012374
 RECORD_TITLE: Tetraoctylphosphonium; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Tetraoctylphosphonium
+CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: [C32H68P]+
 CH$EXACT_MASS: 483.5053
 CH$SMILES: CCCCCCCC[P+](CCCCCCCC)(CCCCCCCC)CCCCCCCC
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 16.405 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 483.5053
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-01t9-9420000000-632c269646cdd40d4cda
 PK$NUM_PEAK: 53
 PK$PEAK: m/z int. rel.int.
@@ -40,14 +39,14 @@ PK$PEAK: m/z int. rel.int.
   43.9814 3.3 73
   44.9891 4.7 104
   45.997 8.2 182
-  47.0046 3 66
+  47.0046 3.0 66
   48.0121 4.4 98
   55.0543 9.7 216
   56.9889 7.2 160
   57.0695 3.6 80
   59.0043 9.2 205
   61.0202 23.6 526
-  62.028 33 735
+  62.028 33.0 735
   69.0693 5.8 129
   73.0202 5.1 113
   74.0275 3.6 80
@@ -57,7 +56,7 @@ PK$PEAK: m/z int. rel.int.
   88.0422 5.2 115
   89.05 14.5 323
   90.0575 14.8 330
-  101.0501 7 156
+  101.0501 7.0 156
   102.0574 5.5 122
   103.066 12.7 283
   115.0653 9.4 209
@@ -75,7 +74,7 @@ PK$PEAK: m/z int. rel.int.
   187.1611 12.1 269
   199.1604 4.4 98
   201.177 8.8 196
-  213.1772 4 89
+  213.1772 4.0 89
   215.1934 8.9 198
   227.1979 2.7 60
   229.2084 10.9 243

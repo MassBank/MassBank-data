@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107991
 RECORD_TITLE: Triphenylphosphine sulfide; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Triphenylphosphine sulfide
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C18H15PS
@@ -15,6 +14,7 @@ CH$SMILES: S=[P](c1ccccc1)(c2ccccc2)c3ccccc3
 CH$IUPAC: InChI=1S/C18H15PS/c20-19(16-10-4-1-5-11-16,17-12-6-2-7-13-17)18-14-8-3-9-15-18/h1-15H
 CH$LINK: CAS 3878-45-3
 CH$LINK: INCHIKEY VYNGFCUGSYEOOZ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001814; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylphosphines and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,22 +30,21 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 14.508 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 295.0705
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00kr-0940000000-2e56a27e3d9161c9a4b6
 PK$NUM_PEAK: 13
 PK$PEAK: m/z int. rel.int.
   62.9503 3.3 19
   77.0424 2.1 12
-  107.0059 2 11
+  107.0059 2.0 11
   108.0126 8.1 48
   138.9773 167.9 999
   152.0623 1.9 11
   183.036 34.9 207
-  184.0407 2 11
+  184.0407 2.0 11
   185.0516 7.7 45
   217.0239 108.1 643
   261.0841 3.2 19
-  262.0902 3 17
+  262.0902 3.0 17
   295.0691 8.9 52
 //

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111012097
 RECORD_TITLE: Linezolid; LC-ESI-QTOF; MS2; 150 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Linezolid
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C16H20FN3O4
@@ -15,6 +14,7 @@ CH$SMILES: CC(=O)NCC1CN(C(=O)O1)C2=CC(=C(C=C2)N3CCOCC3)F
 CH$IUPAC: InChI=1S/C16H20FN3O4/c1-11(21)18-9-13-10-20(16(22)24-13)12-2-3-15(14(17)8-12)19-4-6-23-7-5-19/h2-3,8,13H,4-7,9-10H2,1H3,(H,18,21)
 CH$LINK: CAS 165800-03-3
 CH$LINK: INCHIKEY TYZROVQLWOKYKF-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000392; Organic compounds; Organoheterocyclic compounds; Oxazinanes; Morpholines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.936 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 338.1511
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ae9-9300000000-86284c97e84398aec148
 PK$NUM_PEAK: 46
 PK$PEAK: m/z int. rel.int.
@@ -63,7 +62,7 @@ PK$PEAK: m/z int. rel.int.
   91.0525 0.6 58
   94.0224 0.7 67
   95.03 3.1 300
-  96.0349 1 96
+  96.0349 1.0 96
   99.025 0.6 58
   100.0199 0.6 58
   101.0386 1.9 184

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311095145
 RECORD_TITLE: Enrofloxacin; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Enrofloxacin
 CH$COMPOUND_CLASS: Pharmaceutical; Antimicrobial
 CH$FORMULA: C19H22FN3O3
@@ -15,6 +14,7 @@ CH$SMILES: CCN1CCN(CC1)c2cc3N(C=C(C(O)=O)C(=O)c3cc2F)C4CC4
 CH$IUPAC: InChI=1S/C19H22FN3O3/c1-2-21-5-7-22(8-6-21)17-10-16-13(9-15(17)20)18(24)14(19(25)26)11-23(16)12-3-4-12/h9-12H,2-8H2,1H3,(H,25,26)
 CH$LINK: CAS 93106-60-6
 CH$LINK: INCHIKEY SPFYMRJSYKOXGV-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002552; Organic compounds; Organoheterocyclic compounds; Quinolines and derivatives; Quinoline carboxylic acids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.696 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 360.1718
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0006-0059000000-710539d9872103546eac
 PK$NUM_PEAK: 22
 PK$PEAK: m/z int. rel.int.
@@ -42,19 +41,19 @@ PK$PEAK: m/z int. rel.int.
   217.0387 5.2 20
   231.092 5.1 19
   243.0539 5.8 22
-  245.1076 54 209
+  245.1076 54.0 209
   257.106 3.5 13
   258.066 8.1 31
   271.0763 3.9 15
   285.1257 2.7 10
   286.098 65.2 252
   294.1246 3.4 13
-  294.1581 3 11
+  294.1581 3.0 11
   300.1148 4.7 18
   301.1224 2.9 11
   314.1317 4.6 17
   314.1642 5.5 21
-  316.1809 24 93
+  316.1809 24.0 93
   322.1504 3.3 12
   342.1612 257.8 999
 //

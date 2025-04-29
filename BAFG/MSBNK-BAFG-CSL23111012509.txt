@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111012509
 RECORD_TITLE: Tadalafil; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Tadalafil
-CH$COMPOUND_CLASS: Pharmaceutical
+CH$COMPOUND_CLASS: Pharmaceutical; Personal_care_product
 CH$FORMULA: C22H19N3O4
 CH$EXACT_MASS: 389.1376
 CH$SMILES: CN1CC(=O)N2C(C1=O)CC3=C(C2C4=CC5=C(C=C4)OCO5)NC6=CC=CC=C36
 CH$IUPAC: InChI=1S/C22H19N3O4/c1-24-10-19(26)25-16(22(24)27)9-14-13-4-2-3-5-15(13)23-20(14)21(25)12-6-7-17-18(8-12)29-11-28-17/h2-8,16,21,23H,9-11H2,1H3
 CH$LINK: CAS 171596-29-5
 CH$LINK: INCHIKEY WOXKDUGGOYFFRN-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001213; Organic compounds; Organoheterocyclic compounds; Indoles and derivatives; Pyridoindoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.801 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 390.1448
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-02ti-0490000000-3a3316962ec4f9d0089a
 PK$NUM_PEAK: 36
 PK$PEAK: m/z int. rel.int.
@@ -39,7 +38,7 @@ PK$PEAK: m/z int. rel.int.
   99.0554 0.9 19
   127.0495 0.9 19
   130.0658 2.9 62
-  135.0438 30 645
+  135.0438 30.0 645
   142.0641 0.7 15
   167.0657 0.6 12
   169.0765 32.8 706
@@ -51,7 +50,7 @@ PK$PEAK: m/z int. rel.int.
   193.0891 0.6 12
   195.0581 0.5 10
   197.071 13.2 284
-  204.0808 8 172
+  204.0808 8.0 172
   205.0888 9.5 204
   206.0961 2.6 55
   216.085 1.8 38

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111011755
 RECORD_TITLE: Azacyclonol; LC-ESI-QTOF; MS2; 80 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Azacyclonol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C18H21NO
@@ -15,6 +14,7 @@ CH$SMILES: OC(C1CCNCC1)(C2=CC=CC=C2)C3=CC=CC=C3
 CH$IUPAC: InChI=1S/C18H21NO/c20-18(15-7-3-1-4-8-15,16-9-5-2-6-10-16)17-11-13-19-14-12-17/h1-10,17,19-20H,11-14H2
 CH$LINK: CAS 115-46-8
 CH$LINK: INCHIKEY ZMISODWVFHHWNR-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001534; Organic compounds; Lipids and lipid-like molecules; Prenol lipids; Quinone and hydroquinone lipids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.644 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 268.1696
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00ou-7900000000-f600ac0d48ebafc1111b
 PK$NUM_PEAK: 48
 PK$PEAK: m/z int. rel.int.
@@ -42,7 +41,7 @@ PK$PEAK: m/z int. rel.int.
   51.0232 2.2 39
   56.0498 1.6 28
   63.0227 1.8 32
-  65.0389 23 409
+  65.0389 23.0 409
   67.0413 1.1 19
   68.0496 1.4 24
   75.0232 0.7 12
@@ -64,20 +63,20 @@ PK$PEAK: m/z int. rel.int.
   117.0713 1.4 24
   126.0462 2.5 44
   127.0546 12.5 222
-  128.0625 50 890
+  128.0625 50.0 890
   129.0694 1.6 28
   130.0681 1.2 21
-  139.0549 1 17
+  139.0549 1.0 17
   141.0699 2.7 48
   150.0489 0.6 10
   151.0565 2.5 44
-  152.0627 9 160
+  152.0627 9.0 160
   163.0558 0.7 12
   164.0623 1.2 21
   165.0703 14.8 263
-  176.0642 1 17
+  176.0642 1.0 17
   178.0789 4.3 76
-  189.0695 3 53
+  189.0695 3.0 53
   190.0787 0.8 14
   191.0891 1.1 19
   200.0625 0.7 12

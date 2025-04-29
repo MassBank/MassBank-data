@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107698
 RECORD_TITLE: Diclofenac; LC-ESI-QTOF; MS2; 130 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Diclofenac
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C14H11Cl2NO2
@@ -15,6 +14,7 @@ CH$SMILES: OC(Cc1c(Nc2c(Cl)cccc2Cl)cccc1)=O
 CH$IUPAC: InChI=1S/C14H11Cl2NO2/c15-10-5-3-6-11(16)14(10)17-12-7-2-1-4-9(12)8-13(18)19/h1-7,17H,8H2,(H,18,19)
 CH$LINK: CAS 15307-86-5
 CH$LINK: INCHIKEY DCOPUUMXTXDBNB-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000035; Organic compounds; Benzenoids; Benzene and substituted derivatives; Halobenzenes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,17 +30,16 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.622 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 296.024
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ufr-2900000000-b90b013f1732345b6545
 PK$NUM_PEAK: 27
 PK$PEAK: m/z int. rel.int.
   74.0188 2.2 161
   75.0256 2.7 198
-  76.0317 1 73
+  76.0317 1.0 73
   77.0413 3.5 257
   98.016 1.9 139
-  99.0234 2 146
+  99.0234 2.0 146
   100.0313 0.5 36
   101.0386 0.8 58
   102.0469 1.1 80
@@ -55,11 +54,11 @@ PK$PEAK: m/z int. rel.int.
   149.0389 1.8 132
   150.0464 13.6 999
   150.0807 0.5 36
-  151.0532 7 514
+  151.0532 7.0 514
   152.0604 2.3 168
   153.0545 0.8 58
   175.0434 1.2 88
   176.0499 1.4 102
-  177.0584 4 293
+  177.0584 4.0 293
   178.0645 1.5 110
 //

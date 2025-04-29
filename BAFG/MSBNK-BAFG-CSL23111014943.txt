@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111014943
 RECORD_TITLE: Cyclopropyltriphenylphosphonium; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Cyclopropyltriphenylphosphonium
 CH$FORMULA: [C21H20P]+
 CH$EXACT_MASS: 303.1297
@@ -14,6 +13,7 @@ CH$SMILES: C1CC1[P+](C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4
 CH$IUPAC: InChI=1S/C21H20P/c1-4-10-18(11-5-1)22(21-16-17-21,19-12-6-2-7-13-19)20-14-8-3-9-15-20/h1-15,21H,16-17H2/q+1
 CH$LINK: CAS 14114-05-7
 CH$LINK: INCHIKEY UMOWYCSSGJQQHE-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002500; Organic compounds; Hydrocarbons; Saturated hydrocarbons; Alkanes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.786 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 303.1297
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0pb9-1900000000-d7d96eef49457fb79df0
 PK$NUM_PEAK: 21
 PK$PEAK: m/z int. rel.int.
@@ -44,12 +43,12 @@ PK$PEAK: m/z int. rel.int.
   91.0565 50.4 91
   102.0489 39.2 71
   107.0071 547.8 999
-  115.0566 249 454
+  115.0566 249.0 454
   126.0487 73.4 133
   131.0064 31.8 57
   133.0223 48.8 88
-  139.0566 139 253
-  150.0482 48 87
+  139.0566 139.0 253
+  150.0482 48.0 87
   151.0564 161.8 295
   152.0647 447.2 815
   157.0223 223.6 407

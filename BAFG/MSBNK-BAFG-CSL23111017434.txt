@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111017434
 RECORD_TITLE: Pyrimethanil; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Pyrimethanil
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C12H13N3
@@ -15,6 +14,7 @@ CH$SMILES: CC1=CC(=NC(=N1)NC2=CC=CC=C2)C
 CH$IUPAC: InChI=1S/C12H13N3/c1-9-8-10(2)14-12(13-9)15-11-6-4-3-5-7-11/h3-8H,1-2H3,(H,13,14,15)
 CH$LINK: CAS 53112-28-0
 CH$LINK: INCHIKEY ZLIBICFPKPWGIZ-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001553; Organic compounds; Lipids and lipid-like molecules; Prenol lipids; Triterpenoids
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.225 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 200.1182
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-9000000000-d19ae39ce1430bbb3283
 PK$NUM_PEAK: 49
 PK$PEAK: m/z int. rel.int.
@@ -39,7 +38,7 @@ PK$PEAK: m/z int. rel.int.
   37.0073 2.9 72
   38.0152 2.1 52
   39.0231 9.1 228
-  40.0181 1 25
+  40.0181 1.0 25
   41.0259 1.5 37
   42.0339 17.9 450
   49.0072 2.7 67
@@ -50,14 +49,14 @@ PK$PEAK: m/z int. rel.int.
   54.0338 0.8 20
   61.0067 0.9 22
   62.0143 1.6 40
-  63.0227 4 100
+  63.0227 4.0 100
   64.0187 0.5 12
   65.0262 0.6 15
   65.0383 5.8 145
   66.0333 0.8 20
   66.0459 1.2 30
   67.029 5.4 135
-  67.0405 2 50
+  67.0405 2.0 50
   74.0143 1.8 45
   75.0224 1.9 47
   76.0184 0.8 20
@@ -76,7 +75,7 @@ PK$PEAK: m/z int. rel.int.
   102.0322 0.6 15
   102.0465 0.5 12
   113.0377 3.3 83
-  114.0322 1 25
+  114.0322 1.0 25
   114.0451 0.8 20
   115.0537 0.7 17
   126.0438 0.7 17

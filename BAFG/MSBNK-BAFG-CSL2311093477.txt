@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311093477
 RECORD_TITLE: Tramadol-N-oxide; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Tramadol-N-oxide
-CH$COMPOUND_CLASS: Pharmaceutical
+CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product-Metabolite
 CH$FORMULA: C16H25NO3
 CH$EXACT_MASS: 279.1834
 CH$SMILES: [O-][N+](C)(C)C[C@H]2CCCC[C@]2(O)c1cc(OC)ccc1
 CH$IUPAC: InChI=1S/C16H25NO3/c1-17(2,19)12-14-7-4-5-10-16(14,18)13-8-6-9-15(11-13)20-3/h6,8-9,11,14,18H,4-5,7,10,12H2,1-3H3/t14-,16+/m1/s1
 CH$LINK: CAS 147441-56-3
 CH$LINK: INCHIKEY HBXKSXMNNGHBEA-ZBFHGGJFSA-N
+CH$LINK: ChemOnt CHEMONTID:0000138; Organic compounds; Benzenoids; Phenol ethers; Anisoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,17 +30,16 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.334 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 280.1907
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0a4l-5900000000-35de0eea36a9f6ab82db
 PK$NUM_PEAK: 62
 PK$PEAK: m/z int. rel.int.
-  42.0436 3 26
+  42.0436 3.0 26
   55.0603 5.9 52
   56.0537 3.7 32
   58.0714 68.7 606
   62.0664 1.7 15
-  64.0357 3 26
+  64.0357 3.0 26
   65.0425 5.4 47
   67.0587 5.9 52
   68.0555 1.4 12
@@ -55,7 +54,7 @@ PK$PEAK: m/z int. rel.int.
   81.0606 1.5 13
   81.0721 3.5 30
   82.0686 6.8 60
-  83.0879 3 26
+  83.0879 3.0 26
   84.0826 11.4 100
   91.056 53.9 475
   92.0274 37.6 331
@@ -70,7 +69,7 @@ PK$PEAK: m/z int. rel.int.
   108.0798 5.3 46
   109.0648 9.2 81
   110.0965 8.8 77
-  115.0545 14 123
+  115.0545 14.0 123
   116.0619 6.4 56
   117.0698 5.8 51
   121.065 91.1 803
@@ -80,13 +79,13 @@ PK$PEAK: m/z int. rel.int.
   130.076 1.5 13
   131.0486 5.1 45
   132.0571 3.1 27
-  135.0447 111 979
-  141.0704 4 35
+  135.0447 111.0 979
+  141.0704 4.0 35
   143.0847 1.4 12
   144.057 33.7 297
   145.0641 14.3 126
   146.072 4.1 36
-  147.081 13 114
+  147.081 13.0 114
   155.0632 1.3 11
   157.065 3.3 29
   158.073 17.3 152

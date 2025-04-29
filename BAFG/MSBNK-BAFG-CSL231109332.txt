@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL231109332
 RECORD_TITLE: Methyl-tris(4-fluorophenyl)phosphonium; LC-ESI-QTOF; MS2; 130 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Methyl-tris(4-fluorophenyl)phosphonium
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: [C19H15F3P]+
@@ -15,6 +14,7 @@ CH$SMILES: C[P+](c1ccc(F)cc1)(c2ccc(F)cc2)c3ccc(F)cc3
 CH$IUPAC: InChI=1S/C19H15F3P/c1-23(17-8-2-14(20)3-9-17,18-10-4-15(21)5-11-18)19-12-6-16(22)7-13-19/h2-13H,1H3/q+1
 CH$LINK: CAS 18606-51-4
 CH$LINK: INCHIKEY RLZPVXZQPHPWED-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001814; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylphosphines and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,24 +30,23 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.52 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 331.0858
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00xs-3900000000-27ded683c9928f1050dc
 PK$NUM_PEAK: 47
 PK$PEAK: m/z int. rel.int.
   57.0184 1.5 58
   68.9743 1.8 70
   74.0184 8.1 316
-  74.9818 8 312
+  74.9818 8.0 312
   75.0251 4.5 175
   76.0323 1.9 74
   78.9744 2.5 97
   79.9823 5.2 202
-  83.0311 2 78
+  83.0311 2.0 78
   87.0236 1.7 66
   91.9811 1.4 54
   98.0156 9.8 382
-  98.9801 9 351
+  98.9801 9.0 351
   99.0243 3.9 152
   100.0313 1.7 66
   103.9802 1.9 74
@@ -72,12 +71,12 @@ PK$PEAK: m/z int. rel.int.
   168.0363 16.3 636
   169.0449 6.8 265
   170.0512 3.9 152
-  175.0124 2 78
+  175.0124 2.0 78
   179.0042 4.1 159
   180.0126 1.5 58
   187.0365 2.2 85
   188.0436 5.2 202
-  196.9947 3 117
+  196.9947 3.0 117
   198.0037 2.7 105
   199.0101 7.9 308
   217.0014 1.9 74

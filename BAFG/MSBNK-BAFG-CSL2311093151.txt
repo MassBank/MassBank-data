@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311093151
 RECORD_TITLE: Ethyldiphenylphosphine oxide; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Ethyldiphenylphosphine oxide
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C14H15OP
@@ -15,6 +14,7 @@ CH$SMILES: CC[P](=O)(c1ccccc1)c2ccccc2
 CH$IUPAC: InChI=1S/C14H15OP/c1-2-16(15,13-9-5-3-6-10-13)14-11-7-4-8-12-14/h3-12H,2H2,1H3
 CH$LINK: CAS 1733-57-9
 CH$LINK: INCHIKEY AKTGKEBIBGSCLD-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001322; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives; Pyridinecarboxylic acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.816 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 231.0933
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0udi-3900000000-5172cb15778169c75929
 PK$NUM_PEAK: 37
 PK$PEAK: m/z int. rel.int.
@@ -42,20 +41,20 @@ PK$PEAK: m/z int. rel.int.
   76.0358 1.3 25
   77.042 20.9 414
   78.0494 9.3 184
-  79.0556 1 19
+  79.0556 1.0 19
   80.9917 1.5 29
   83.0068 2.8 55
   89.0405 2.2 43
   91.0549 2.9 57
   102.0474 2.3 45
   107.0048 5.8 114
-  109.0218 1 19
+  109.0218 1.0 19
   115.0545 6.5 128
   126.0471 5.1 101
   127.0541 3.1 61
   128.0613 2.4 47
   131.0024 1.2 23
-  133.0195 1 19
+  133.0195 1.0 19
   139.0552 4.9 97
   150.0474 3.2 63
   151.0548 12.6 249
@@ -65,9 +64,9 @@ PK$PEAK: m/z int. rel.int.
   157.0201 6.8 134
   163.0545 1.3 25
   164.0635 1.7 33
-  165.0702 5 99
+  165.0702 5.0 99
   170.0288 4.3 85
-  180.0121 1 19
+  180.0121 1.0 19
   181.0208 6.8 134
   183.0354 5.7 112
   194.0283 2.2 43

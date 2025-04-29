@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311095016
 RECORD_TITLE: 5-(3,4,5-Trimethoxybenzoyl)-2,4-pyrimidinediamine; LC-ESI-QTOF; MS2; 90 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 5-(3,4,5-Trimethoxybenzoyl)-2,4-pyrimidinediamine
-CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product
+CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product; Transformation_product-Metabolite
 CH$FORMULA: C14H16N4O4
 CH$EXACT_MASS: 304.1172
 CH$SMILES: COc1cc(cc(c1OC)OC)C(=O)c2cnc(nc2N)N
 CH$IUPAC: InChI=1S/C14H16N4O4/c1-20-9-4-7(5-10(21-2)12(9)22-3)11(19)8-6-17-14(16)18-13(8)15/h4-6H,1-3H3,(H4,15,16,17,18)
 CH$LINK: CAS 30806-86-1
 CH$LINK: INCHIKEY GAAPPIKAFNZRLA-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001831; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Carbonyl compounds
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.86 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 305.1244
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014i-7900000000-7955a7d4b367c62a55a0
 PK$NUM_PEAK: 146
 PK$PEAK: m/z int. rel.int.
@@ -47,9 +46,9 @@ PK$PEAK: m/z int. rel.int.
   67.0199 0.8 26
   67.0318 2.1 69
   68.0181 30.3 999
-  68.0387 3 98
+  68.0387 3.0 98
   69.0037 1.4 46
-  69.0488 1 32
+  69.0488 1.0 32
   70.0325 2.3 75
   74.0188 0.6 19
   75.0247 1.7 56
@@ -57,17 +56,17 @@ PK$PEAK: m/z int. rel.int.
   77.026 0.6 19
   77.0406 9.8 323
   78.041 4.6 151
-  79.0213 1 32
+  79.0213 1.0 32
   79.0444 2.2 72
   80.0285 0.9 29
-  80.0519 5 164
+  80.0519 5.0 164
   81.0362 2.6 85
   82.0444 0.4 13
   83.0493 2.8 92
   88.0186 0.5 16
   88.0282 0.5 16
   89.0398 3.9 128
-  90.0349 4 131
+  90.0349 4.0 131
   91.0419 0.5 16
   91.053 0.9 29
   92.0251 4.4 145
@@ -77,15 +76,15 @@ PK$PEAK: m/z int. rel.int.
   93.0588 0.8 26
   94.0059 0.9 29
   94.0397 1.2 39
-  95.0244 11 362
+  95.0244 11.0 362
   95.0449 0.5 16
   99.0231 0.5 16
   100.0193 0.6 19
   101.0355 1.6 52
   102.0346 3.1 102
-  103.0365 3 98
+  103.0365 3.0 98
   104.0341 1.1 36
-  104.0472 3 98
+  104.0472 3.0 98
   105.0443 5.1 168
   106.0518 4.9 161
   107.0123 1.6 52
@@ -101,7 +100,7 @@ PK$PEAK: m/z int. rel.int.
   114.0332 4.3 141
   115.0393 0.6 19
   115.0474 0.4 13
-  116.0477 5 164
+  116.0477 5.0 164
   117.0234 0.5 16
   117.0427 2.4 79
   118.0335 1.6 52
@@ -109,11 +108,11 @@ PK$PEAK: m/z int. rel.int.
   118.0647 0.6 19
   119.0599 1.8 59
   120.0194 1.8 59
-  120.0538 2 65
-  121.0308 3 98
+  120.0538 2.0 65
+  121.0308 3.0 98
   121.0619 0.8 26
   122.0349 0.9 29
-  126.0336 1 32
+  126.0336 1.0 32
   127.0281 0.5 16
   127.037 0.7 23
   128.0487 2.3 75
@@ -128,7 +127,7 @@ PK$PEAK: m/z int. rel.int.
   134.0552 1.1 36
   135.0605 0.7 23
   136.0147 0.8 26
-  137.0212 1 32
+  137.0212 1.0 32
   137.0426 1.1 36
   141.0464 3.1 102
   142.0471 1.7 56
@@ -142,15 +141,15 @@ PK$PEAK: m/z int. rel.int.
   149.0229 0.5 16
   150.0504 0.4 13
   151.0374 0.6 19
-  153.0441 1 32
+  153.0441 1.0 32
   154.0426 1.4 46
   155.0565 1.2 39
-  156.0531 1 32
+  156.0531 1.0 32
   157.0403 1.2 39
   158.0455 1.8 59
   158.0674 0.8 26
   159.0571 0.7 23
-  159.0684 1 32
+  159.0684 1.0 32
   160.0473 1.2 39
   161.0804 1.5 49
   162.0691 0.5 16

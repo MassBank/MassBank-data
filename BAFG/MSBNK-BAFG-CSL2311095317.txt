@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311095317
 RECORD_TITLE: 1,7-Dimethylxanthine; LC-ESI-QTOF; MS2; 50 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 1,7-Dimethylxanthine
-CH$COMPOUND_CLASS: Pharmaceutical; Metabolite
+CH$COMPOUND_CLASS: Pharmaceutical; Metabolite; Natural_product
 CH$FORMULA: C7H8N4O2
 CH$EXACT_MASS: 180.0647
 CH$SMILES: Cn1cnc2NC(=O)N(C)C(=O)c12
 CH$IUPAC: InChI=1S/C7H8N4O2/c1-10-3-8-5-4(10)6(12)11(2)7(13)9-5/h3H,1-2H3,(H,9,13)
 CH$LINK: CAS 611-59-6
 CH$LINK: INCHIKEY QUNWUDVFRNGTCO-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000245; Organic compounds; Organoheterocyclic compounds; Imidazopyrimidines; Purines and purine derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.064 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 181.072
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-014l-9100000000-160690a10aa4adc7510d
 PK$NUM_PEAK: 22
 PK$PEAK: m/z int. rel.int.
@@ -39,8 +38,8 @@ PK$PEAK: m/z int. rel.int.
   53.0173 0.4 18
   53.0235 0.4 18
   54.0253 0.6 28
-  54.0377 1 47
-  55.0346 8 376
+  54.0377 1.0 47
+  55.0346 8.0 376
   56.0204 0.5 23
   67.0328 11.2 527
   67.0466 0.9 42
@@ -53,7 +52,7 @@ PK$PEAK: m/z int. rel.int.
   96.0563 3.8 179
   97.039 0.5 23
   109.0266 1.6 75
-  124.0505 9 424
+  124.0505 9.0 424
   153.0525 0.5 23
   154.0671 0.7 32
   181.0747 0.7 32

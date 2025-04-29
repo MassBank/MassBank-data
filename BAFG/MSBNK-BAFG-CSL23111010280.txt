@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111010280
 RECORD_TITLE: 2-Ethyl-6-methylaniline; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 2-Ethyl-6-methylaniline
-CH$COMPOUND_CLASS: Industrial_process
+CH$COMPOUND_CLASS: Industrial_process; Herbicide; Transformation_product-Metabolite
 CH$FORMULA: C9H13N
 CH$EXACT_MASS: 135.1048
 CH$SMILES: CCC1=CC=CC(=C1N)C
 CH$IUPAC: InChI=1S/C9H13N/c1-3-8-6-4-5-7(2)9(8)10/h4-6H,3,10H2,1-2H3
 CH$LINK: CAS 24549-06-2
 CH$LINK: INCHIKEY JJVKJJNCIILLRP-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001091; Organic compounds; Benzenoids; Benzene and substituted derivatives; Toluenes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,14 +30,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.958 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 136.1121
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0w29-9000000000-e6483a3c569ae6884d1d
 PK$NUM_PEAK: 13
 PK$PEAK: m/z int. rel.int.
   35.9993 0.6 65
   37.007 1.8 197
-  38.0146 1 109
+  38.0146 1.0 109
   39.0227 1.6 175
   49.0074 1.7 186
   50.0149 9.1 999

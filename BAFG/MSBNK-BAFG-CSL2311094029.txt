@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311094029
 RECORD_TITLE: Formononetin; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Formononetin
 CH$COMPOUND_CLASS: Metabolite; Metabolite; Pharmaceutical
 CH$FORMULA: C16H12O4
@@ -15,6 +14,7 @@ CH$SMILES: COc1ccc(cc1)C2=COc3cc(O)ccc3C2=O
 CH$IUPAC: InChI=1S/C16H12O4/c1-19-12-5-2-10(3-6-12)14-9-20-15-8-11(17)4-7-13(15)16(14)18/h2-9,17H,1H3
 CH$LINK: CAS 485-72-3
 CH$LINK: INCHIKEY HKQYGTCOTHHOMP-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002586; Organic compounds; Phenylpropanoids and polyketides; Isoflavonoids; O-methylated isoflavonoids
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.093 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 269.0808
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-00kr-9700000000-c28bd2fabd2075885bc8
 PK$NUM_PEAK: 40
 PK$PEAK: m/z int. rel.int.
@@ -39,13 +38,13 @@ PK$PEAK: m/z int. rel.int.
   53.0078 0.5 9
   60.0052 0.6 11
   61.0406 0.8 15
-  64.0357 3 58
+  64.0357 3.0 58
   65.0439 5.7 112
   69.0014 3.1 60
   73.0109 0.7 13
   74.0189 9.1 178
   75.0266 7.2 141
-  76.0341 3 58
+  76.0341 3.0 58
   77.0416 11.2 220
   78.0503 1.2 23
   81.0362 0.6 11
@@ -67,7 +66,7 @@ PK$PEAK: m/z int. rel.int.
   126.0464 5.7 112
   127.0554 1.2 23
   128.0642 0.9 17
-  138.0476 1 19
+  138.0476 1.0 19
   139.055 17.7 348
   139.0877 0.7 13
   141.071 0.7 13

@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL231109267
 RECORD_TITLE: Methyltriphenylphosphonium; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Methyltriphenylphosphonium
-CH$COMPOUND_CLASS: Pharmaceutical
+CH$COMPOUND_CLASS: Pharmaceutical; Industrial_process
 CH$FORMULA: [C19H18P]+
 CH$EXACT_MASS: 277.1141
 CH$SMILES: C[P+](c1ccccc1)(c2ccccc2)c3ccccc3
 CH$IUPAC: InChI=1S/C19H18P/c1-20(17-11-5-2-6-12-17,18-13-7-3-8-14-18)19-15-9-4-10-16-19/h2-16H,1H3/q+1
 CH$LINK: CAS 15912-74-0
 CH$LINK: INCHIKEY AZFQCTBZOPUVOW-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0001814; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylphosphines and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,14 +30,13 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.192 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 277.1141
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0zfr-1900000000-6ca8942336dade599d1f
 PK$NUM_PEAK: 21
 PK$PEAK: m/z int. rel.int.
   56.9936 4.2 55
-  65.0421 5 66
-  77.0405 7 93
+  65.0421 5.0 66
+  77.0405 7.0 93
   79.9835 6.2 82
   80.9908 10.7 142
   89.0392 13.2 175
@@ -54,6 +53,6 @@ PK$PEAK: m/z int. rel.int.
   152.0622 75.1 999
   156.014 4.8 63
   157.0201 33.2 441
-  181.0204 26 345
+  181.0204 26.0 345
   183.0352 14.8 196
 //

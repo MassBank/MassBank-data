@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111027383
 RECORD_TITLE: 3-Phenylpyridine; LC-ESI-QTOF; MS2; 40 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 3-Phenylpyridine
 CH$FORMULA: C11H9N
 CH$EXACT_MASS: 155.0735
@@ -14,6 +13,7 @@ CH$SMILES: C1=CC=C(C=C1)C2=CN=CC=C2
 CH$IUPAC: InChI=1S/C11H9N/c1-2-5-10(6-3-1)11-7-4-8-12-9-11/h1-9H
 CH$LINK: CAS 1008-88-4
 CH$LINK: INCHIKEY HJKGBRPNSJADMB-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002213; Organic compounds; Lipids and lipid-like molecules; Glycerophospholipids; Glycerophosphocholines
 AC$INSTRUMENT: TripleTOF X500R SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,8 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.684 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 156.0808
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-004i-1900000000-6621ca4ebd0c43a1b614
 PK$NUM_PEAK: 21
 PK$PEAK: m/z int. rel.int.
@@ -48,7 +47,7 @@ PK$PEAK: m/z int. rel.int.
   117.0576 15.9 36
   126.0468 18.7 42
   127.0546 187.8 430
-  128.0619 436 999
+  128.0619 436.0 999
   129.0701 41.8 95
   130.0658 9.6 21
   141.0581 5.8 13

@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311092759
 RECORD_TITLE: Olmesartan; LC-ESI-QTOF; MS2; 10 V
-DATE: 2023.11.09
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Olmesartan
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C24H26N6O3
@@ -15,6 +14,7 @@ CH$SMILES: CCCc1nc(c(n1Cc2ccc(cc2)c3ccccc3c4n[nH]nn4)C(O)=O)C(C)(C)O
 CH$IUPAC: InChI=1S/C24H26N6O3/c1-4-7-19-25-21(24(2,3)33)20(23(31)32)30(19)14-15-10-12-16(13-11-15)17-8-5-6-9-18(17)22-26-28-29-27-22/h5-6,8-13,33H,4,7,14H2,1-3H3,(H,31,32)(H,26,27,28,29)
 CH$LINK: CAS 144689-24-7
 CH$LINK: INCHIKEY VTRAEEWXHOVJFV-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000041; Organic compounds; Benzenoids; Benzene and substituted derivatives; Biphenyls and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,11 +30,10 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.356 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 445.1994
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0002-0000900000-124ffc119a648458f407
 PK$NUM_PEAK: 2
 PK$PEAK: m/z int. rel.int.
-  445.1982 978 999
+  445.1982 978.0 999
   445.2285 51.6 52
 //

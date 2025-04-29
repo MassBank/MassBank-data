@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL23111018814
 RECORD_TITLE: Hexazinone; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Hexazinone
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C12H20N4O2
@@ -15,6 +14,7 @@ CH$SMILES: CN1C(=NC(=O)N(C1=O)C2CCCCC2)N(C)C
 CH$IUPAC: InChI=1S/C12H20N4O2/c1-14(2)10-13-11(17)16(12(18)15(10)3)9-7-5-4-6-8-9/h9H,4-8H2,1-3H3
 CH$LINK: CAS 51235-04-2
 CH$LINK: INCHIKEY CAWXEEYDBZRFPE-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0002449; Organic compounds; Organic nitrogen compounds; Organonitrogen compounds; Amines
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,8 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.427 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 253.1659
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-066r-9000000000-de5a937e17c910d719ed
 PK$NUM_PEAK: 27
 PK$PEAK: m/z int. rel.int.
@@ -44,7 +43,7 @@ PK$PEAK: m/z int. rel.int.
   41.0125 1.1 21
   41.0387 2.6 51
   41.9971 0.7 13
-  42.0336 14 275
+  42.0336 14.0 275
   44.0126 1.7 33
   44.0492 2.6 51
   53.0129 0.7 13
@@ -53,13 +52,13 @@ PK$PEAK: m/z int. rel.int.
   56.0366 9.7 190
   57.0439 0.7 13
   58.0303 0.6 11
-  58.0647 1 19
-  60.9852 1 19
+  58.0647 1.0 19
+  60.9852 1.0 19
   69.0071 2.6 51
   69.0441 50.8 999
-  69.9918 6 117
+  69.9918 6.0 117
   70.0518 2.7 53
   71.0601 6.7 131
-  83.0239 1 19
+  83.0239 1.0 19
   85.0758 1.2 23
 //

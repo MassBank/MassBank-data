@@ -1,12 +1,11 @@
 ACCESSION: MSBNK-BAFG-CSL2311107905
 RECORD_TITLE: Iomeprol; LC-ESI-QTOF; MS2; 110 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Iomeprol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C17H22I3N3O8
@@ -15,6 +14,7 @@ CH$SMILES: CN(C(=O)CO)c1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)NCC(O)CO)c1I
 CH$IUPAC: InChI=1S/C17H22I3N3O8/c1-23(9(29)6-26)15-13(19)10(16(30)21-2-7(27)4-24)12(18)11(14(15)20)17(31)22-3-8(28)5-25/h7-8,24-28H,2-6H2,1H3,(H,21,30)(H,22,31)
 CH$LINK: CAS 78649-41-9
 CH$LINK: INCHIKEY NJKDOADNQSYQEV-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000176; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzoic acids and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.596 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 777.8614
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-000i-0590000000-d0c6bbfa9ca3c0d5af21
 PK$NUM_PEAK: 58
 PK$PEAK: m/z int. rel.int.
   90.0359 0.4 10
-  91.0415 1 27
+  91.0415 1.0 27
   92.053 0.6 16
   103.041 0.7 19
   104.0492 0.8 21
@@ -49,11 +48,11 @@ PK$PEAK: m/z int. rel.int.
   132.0431 1.5 40
   136.039 0.5 13
   146.0236 1.3 35
-  147.0305 1 27
+  147.0305 1.0 27
   148.0378 1.6 43
   149.0464 1.2 32
   159.0553 0.5 13
-  160.0382 1 27
+  160.0382 1.0 27
   161.0459 7.5 203
   162.0183 0.7 19
   162.0544 1.1 29
@@ -62,13 +61,13 @@ PK$PEAK: m/z int. rel.int.
   174.0444 0.7 19
   175.023 0.8 21
   175.0523 0.5 13
-  176.0354 1 27
+  176.0354 1.0 27
   177.0415 3.6 97
   178.0499 0.6 16
   179.0576 0.4 10
   187.0258 0.5 13
   187.0493 0.4 10
-  188.9168 1 27
+  188.9168 1.0 27
   204.0232 0.5 13
   204.9142 0.5 13
   205.028 0.5 13

@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111011702
 RECORD_TITLE: 10,11-Dihydro-10,11-epoxycarbamazepine; LC-ESI-QTOF; MS2; 120 V
-DATE: 2023.11.10
-AUTHORS: Kevin S. Jewell; Björn Ehlig; Arne Wick
+DATE: 2025.01.17
+AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
 LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2023 Federal Institute of Hydrology, Koblenz, Germany
+COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
 COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
-COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 10,11-Dihydro-10,11-epoxycarbamazepine
-CH$COMPOUND_CLASS: Metabolite
+CH$COMPOUND_CLASS: Metabolite; Pharmaceutical; Transformation_product-Metabolite
 CH$FORMULA: C15H12N2O2
 CH$EXACT_MASS: 252.0899
 CH$SMILES: C1=CC=C2C(=C1)C3C(O3)C4=CC=CC=C4N2C(=O)N
 CH$IUPAC: InChI=1S/C15H12N2O2/c16-15(18)17-11-7-3-1-5-9(11)13-14(19-13)10-6-2-4-8-12(10)17/h1-8,13-14H,(H2,16,18)
 CH$LINK: CAS 36507-30-9
 CH$LINK: INCHIKEY ZRWWEEVEIOGMMT-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000320; Organic compounds; Organoheterocyclic compounds; Benzazepines; Dibenzazepines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,13 +30,12 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.593 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 253.0972
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with Spectra 1.9.12 MsBackendMassbank 1.7.4
-MS$DATA_PROCESSING: WHOLE RMassBank 2.3.1
+MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
 PK$SPLASH: splash10-0ufr-4900000000-f7a9ade552af271db76a
 PK$NUM_PEAK: 76
 PK$PEAK: m/z int. rel.int.
   37.0072 0.6 11
-  39.0229 1 19
+  39.0229 1.0 19
   44.0126 1.5 28
   49.0065 1.2 23
   50.0148 7.3 140
@@ -53,10 +52,10 @@ PK$PEAK: m/z int. rel.int.
   76.0299 8.6 165
   77.0384 29.2 560
   78.0336 0.6 11
-  78.0454 4 76
+  78.0454 4.0 76
   85.0056 1.2 23
   86.0151 3.9 74
-  87.0226 8 153
+  87.0226 8.0 153
   88.0184 1.5 28
   88.0303 2.3 44
   89.038 13.7 263
@@ -64,7 +63,7 @@ PK$PEAK: m/z int. rel.int.
   91.0527 0.7 13
   97.0068 0.6 11
   98.0149 10.1 194
-  99.0223 9 172
+  99.0223 9.0 172
   100.0173 1.1 21
   100.0303 3.3 63
   101.0385 12.6 242
@@ -92,7 +91,7 @@ PK$PEAK: m/z int. rel.int.
   140.0483 10.7 205
   149.0378 5.1 97
   150.0461 48.1 924
-  151.0535 52 999
+  151.0535 52.0 999
   152.0614 34.2 657
   153.0581 6.5 124
   154.062 0.8 15
