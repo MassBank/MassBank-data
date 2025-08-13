@@ -40,24 +40,22 @@ jobs:
           # sh run.sh ../MassBank-data 15
           cd ..
 
-      #   - name: Check for changes
-      #     id: check_changes
-      #     run: |
-      #       if [[ -n "$(git diff --exit-code check-chemont..main)" ]]; then
-      #         echo "Changes detected."
-      #         echo "has_changes=true" >> $GITHUB_OUTPUT
-      #       else
-      #         echo "No changes detected."
-      #         echo "has_changes=false" >> $GITHUB_OUTPUT
-      #       fi
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if [[ -n "$(git diff --exit-code)" ]]; then
+            echo "Changes detected."
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "No changes detected."
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
 
       # Commit and Push Changes if there are any
       - name: Commit and Create Pull Request
-        # if: steps.check_changes.outputs.has_changes == 'true'
+        if: steps.check_changes.outputs.has_changes == 'true'
         run: |
-          cd MassBank-data
-          pwd
-          ls -a
+          cd MassBank-data         
           echo "Committing and pushing changes..."          
           # configure user
           git config --global user.name "${{ github.actor }}"
