@@ -32,34 +32,17 @@ jobs:
       - name: Run script to modify the MassBank records
         # working-directory: MassBank-ClassyFire
         run: |
-          echo "Running script to modify the MassBank records..."
-          #   echo "--> 1"
-          #   find . -name "MSBNK-*.txt"
+          echo "Running script to modify the MassBank records..."                    
 
-          #   echo "current dir"
-          #   ls -a
-          #   echo "parent dir"
-          #   ls -a ..
-
-          pip install -r MassBank-ClassyFire/requirements.txt
-
-          echo "test first script"
           cd MassBank-ClassyFire
-          python create_query_list.py ../MassBank-data
-          echo "test second script"
-          ls -a
-          ls results
-          echo "head:"
-          head results/query_list.tsv
-          echo "tail:"
-          tail results/query_list.tsv
-
-          echo "DONE!!!"
+          pip install -r requirements.txt
+          echo "Running run.sh ..."
+          sh run.sh ../MassBank-data 15
 
       - name: Check for changes
         id: check_changes
         run: |
-          if [[ -n "$(git diff --exit-code)" ]]; then
+          if [[ -n "$(git diff --exit-code check-chemont..main)" ]]; then
             echo "Changes detected."
             echo "has_changes=true" >> $GITHUB_OUTPUT
           else
