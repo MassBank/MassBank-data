@@ -17,20 +17,18 @@ jobs:
     steps:
       - name: Checkout MassBank ClassyFire repository
         uses: actions/checkout@v4
+        if: ${{ (github.ref != 'refs/heads/main') && (github.base_ref != 'main') }}
         with:
           repository: michaelwenk/MassBank-ClassyFire
           path: MassBank-ClassyFire
           fetch-depth: 1
           ref: main
-        if: ${{ (github.ref != 'refs/heads/main') && (github.base_ref != 'main') }}
 
       - name: Run script to modify the MassBank records
+        working-directory: MassBank-ClassyFire
         run: |
-          # Output paths          
-          pwd
-          ls -a 
-          ls MassBank-ClassyFire
-          ls -a ..
+          echo "Running script to modify the MassBank records..."
+          find * -name MSBNK-*.txt
           echo "DONE!!!"
 
       - name: Check for changes
@@ -39,7 +37,6 @@ jobs:
           if [[ -n "$(git diff --exit-code)" ]]; then
             echo "Changes detected."
             echo "has_changes=true" >> $GITHUB_OUTPUT
-            git diff --name-only check-chemont..main
           else
             echo "No changes detected."
             echo "has_changes=false" >> $GITHUB_OUTPUT
