@@ -33,19 +33,19 @@ jobs:
         run: |
           echo "Running script to modify the MassBank records..."                    
           cd MassBank-ClassyFire
-          # pip install -r requirements.txt
-          # echo "Running run.sh ..."
-          # sh run.sh ../MassBank-data 15
+          pip install -r requirements.txt
+          echo "Running run.sh ..."
+          sh run.sh ../MassBank-data 15
 
       - name: Check for changes
         id: check_changes
         run: |
           cd MassBank-data
           if [[ -n "$(git diff --exit-code)" ]]; then
-            echo "Changes detected."
+            echo "Changes detected -> PR will be created"
             echo "has_changes=true" >> $GITHUB_OUTPUT
           else
-            echo "No changes detected."
+            echo "No changes detected -> no PR creation"
             echo "has_changes=false" >> $GITHUB_OUTPUT
           fi
 
