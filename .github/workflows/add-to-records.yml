@@ -1,4 +1,4 @@
-name: Add to Records and Create Pull Request
+name: Post-Update Records and Create Pull Request
 
 on:
   push:
@@ -39,42 +39,41 @@ jobs:
           echo "Running run.sh ..."
           sh run.sh ../MassBank-data 15
 
-      - name: Check for changes
-        id: check_changes
+      #   - name: Check for changes
+      #     id: check_changes
+      #     run: |
+      #       if [[ -n "$(git diff --exit-code check-chemont..main)" ]]; then
+      #         echo "Changes detected."
+      #         echo "has_changes=true" >> $GITHUB_OUTPUT
+      #       else
+      #         echo "No changes detected."
+      #         echo "has_changes=false" >> $GITHUB_OUTPUT
+      #       fi
+
+      # Commit and Push Changes if there are any
+      - name: Commit and Create Pull Request
+        # if: steps.check_changes.outputs.has_changes == 'true'
         run: |
-          if [[ -n "$(git diff --exit-code check-chemont..main)" ]]; then
-            echo "Changes detected."
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-          else
-            echo "No changes detected."
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-          fi
+          # configure user
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
-    #   # Commit and Push Changes if there are any
-    #   - name: Commit and Create Pull Request
-    #     if: steps.check_changes.outputs.has_changes == 'true'
-    #     run: |
-    #       # configure user
-    #       git config --global user.name "${{ github.actor }}"
-    #       git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          # create branch name variable
+          branch="post-update-records-pull-request"
 
-    #       # create branch name variable
-    #       branch="update-version-pull-request"
+          # create a new branch for the changes
+          git checkout -b $branch
 
-    #       # create a new branch for the changes
-    #       git checkout -b $branch
+          # stage any file changes to be committed
+          git add .
 
-    #       # stage any file changes to be committed
-    #       git add version.txt
+          # make commit with staged changes
+          git commit -m "chore: PR with post-updated records"
 
-    #       version=$(head -n 1 version.txt)
-    #       # make commit with staged changes
-    #       git commit -m "chore: PR for new version $version"
+          # publish changes
+          git push origin $branch
 
-    #       # publish changes
-    #       git push origin $branch
-
-    #       # create pull request
-    #       gh pr create --base master --head $branch --title "Update version to $version" --body "This PR updates the version to $version"
-    #     env:
-    #       GH_TOKEN: ${{ secrets.ACTIONS_PAT }}
+          # create pull request
+          gh pr create --base main --head $branch --title "Post-Update records" --body "This PR updates the records in case of missing properties, e.g. ChemOnt annotations"
+        env:
+          GH_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
