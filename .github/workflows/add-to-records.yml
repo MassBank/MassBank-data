@@ -44,15 +44,15 @@ jobs:
           pip install -r MassBank-ClassyFire/requirements.txt
 
           echo "test first script"
-          python MassBank-ClassyFire/create_query_list.py MassBank-data
+          cd MassBank-ClassyFire
+          python create_query_list.py ../MassBank-data
           echo "test second script"
-          ls MassBank-ClassyFire
-          ls -a 
-          ls MassBank-ClassyFire/results
+          ls -a
+          ls results
           echo "head:"
-          head MassBank-ClassyFire/results/query_list.tsv
+          head results/query_list.tsv
           echo "tail:"
-          tail MassBank-ClassyFire/results/query_list.tsv
+          tail results/query_list.tsv
 
           echo "DONE!!!"
 
