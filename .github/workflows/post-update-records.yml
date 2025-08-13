@@ -29,18 +29,20 @@ jobs:
           fetch-depth: 1
           ref: main
 
-      - name: Run script to modify the MassBank records
-        run: |
-          echo "Running script to modify the MassBank records..."                    
-          cd MassBank-ClassyFire
-          pip install -r requirements.txt
-          echo "Running run.sh ..."
-          sh run.sh ../MassBank-data 15
+      # - name: Run script to modify the MassBank records
+      #   run: |
+      #     echo "Running script to modify the MassBank records..."
+      #     cd MassBank-ClassyFire
+      #     pip install -r requirements.txt
+      #     echo "Running run.sh with MassBank data folder and 15 seconds of waiting time before trying to fetch results from ClassyFire ..."
+      #     sh run.sh ../MassBank-data 15
 
       - name: Check for changes
         id: check_changes
         run: |
+          echo "Checking for changes in MassBank-data..."
           cd MassBank-data
+          echo "CH$LINK: ChemOnt CHEMONTID:0003411; Organic compounds; Organoheterocyclic compounds; Benzopyrans; 2-benzopyrans" >> AAFC/MSBNK-AAFC-AC000001.txt
           if [[ -n "$(git diff --exit-code)" ]]; then
             echo "Changes detected -> PR will be created"
             echo "has_changes=true" >> $GITHUB_OUTPUT
