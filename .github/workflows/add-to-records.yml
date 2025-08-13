@@ -15,6 +15,11 @@ jobs:
     runs-on: ubuntu-24.04
 
     steps:
+      - name: Checkout this repo's code
+        uses: actions/checkout@v4
+        with:
+          path: MassBank-data
+
       - name: Checkout MassBank ClassyFire repository
         uses: actions/checkout@v4
         if: ${{ (github.ref != 'refs/heads/main') && (github.base_ref != 'main') }}
