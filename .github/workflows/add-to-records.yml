@@ -36,13 +36,13 @@ jobs:
           #   echo "--> 1"
           #   find . -name "MSBNK-*.txt"
 
-          echo "current dir"
-          ls -a
-          echo "parent dir"
-          ls -a ..
+          #   echo "current dir"
+          #   ls -a
+          #   echo "parent dir"
+          #   ls -a ..
 
           echo "test first script"
-          sh MassBank-ClassyFire/scripts/create_query_list.py MassBank-data
+          sh MassBank-ClassyFire/create_query_list.py MassBank-data
           echo "test second script"
           ls MassBank-ClassyFire
           ls MassBank-ClassyFire/results
