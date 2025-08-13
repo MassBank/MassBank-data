@@ -28,7 +28,7 @@ jobs:
         working-directory: MassBank-ClassyFire
         run: |
           echo "Running script to modify the MassBank records..."
-          find * -name MSBNK-*.txt
+          find . -name "MSBNK-*.txt"
           echo "DONE!!!"
 
       - name: Check for changes
