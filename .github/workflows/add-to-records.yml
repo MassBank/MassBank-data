@@ -29,6 +29,8 @@ jobs:
           # Output paths          
           pwd
           ls -a 
+          ls MassBank-ClassyFire
+          ls -a ..
           echo "DONE!!!"
 
       - name: Check for changes
