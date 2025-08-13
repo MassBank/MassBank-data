@@ -35,9 +35,9 @@ jobs:
           echo "Running script to modify the MassBank records..."                    
 
           cd MassBank-ClassyFire
-          pip install -r requirements.txt
-          echo "Running run.sh ..."
-          sh run.sh ../MassBank-data 15
+          # pip install -r requirements.txt
+          # echo "Running run.sh ..."
+          # sh run.sh ../MassBank-data 15
           cd ..
 
       #   - name: Check for changes
@@ -55,6 +55,7 @@ jobs:
       - name: Commit and Create Pull Request
         # if: steps.check_changes.outputs.has_changes == 'true'
         run: |
+          cd MassBank-data
           pwd
           ls -a
           echo "Committing and pushing changes..."          
