@@ -41,6 +41,8 @@ jobs:
           #   echo "parent dir"
           #   ls -a ..
 
+          pip install -r MassBank-ClassyFire/requirements.txt
+
           echo "test first script"
           python MassBank-ClassyFire/create_query_list.py MassBank-data
           echo "test second script"
