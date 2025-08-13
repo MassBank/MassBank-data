@@ -38,6 +38,7 @@ jobs:
           pip install -r requirements.txt
           echo "Running run.sh ..."
           sh run.sh ../MassBank-data 15
+          cd ..
 
       #   - name: Check for changes
       #     id: check_changes
@@ -54,6 +55,9 @@ jobs:
       - name: Commit and Create Pull Request
         # if: steps.check_changes.outputs.has_changes == 'true'
         run: |
+          pwd
+          ls -a
+          echo "Committing and pushing changes..."          
           # configure user
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
