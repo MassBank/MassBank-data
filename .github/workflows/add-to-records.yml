@@ -39,7 +39,7 @@ jobs:
           if [[ -n "$(git diff --exit-code)" ]]; then
             echo "Changes detected."
             echo "has_changes=true" >> $GITHUB_OUTPUT
-            git diff
+            git diff --name-only check-chemont..main
           else
             echo "No changes detected."
             echo "has_changes=false" >> $GITHUB_OUTPUT
