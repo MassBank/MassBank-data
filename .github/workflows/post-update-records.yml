@@ -30,19 +30,17 @@ jobs:
           ref: main
 
       - name: Run script to modify the MassBank records
-        # working-directory: MassBank-ClassyFire
         run: |
           echo "Running script to modify the MassBank records..."                    
-
           cd MassBank-ClassyFire
           # pip install -r requirements.txt
           # echo "Running run.sh ..."
           # sh run.sh ../MassBank-data 15
-          cd ..
 
       - name: Check for changes
         id: check_changes
         run: |
+          cd MassBank-data
           if [[ -n "$(git diff --exit-code)" ]]; then
             echo "Changes detected."
             echo "has_changes=true" >> $GITHUB_OUTPUT
