@@ -42,7 +42,7 @@ jobs:
           #   ls -a ..
 
           echo "test first script"
-          sh MassBank-ClassyFire/create_query_list.py MassBank-data
+          python MassBank-ClassyFire/create_query_list.py MassBank-data
           echo "test second script"
           ls MassBank-ClassyFire
           ls MassBank-ClassyFire/results
