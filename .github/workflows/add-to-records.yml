@@ -19,16 +19,15 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: michaelwenk/MassBank-ClassyFire
-          path: temp/MassBank-ClassyFire
+          #   path: temp/MassBank-ClassyFire
           fetch-depth: 1
           ref: main
-        if: ${{ (github.ref == 'refs/heads/main') || (github.base_ref == 'main') }}
+        if: ${{ (github.ref != 'refs/heads/main') && (github.base_ref != 'main') }}
 
       - name: Run script to modify the MassBank records
         run: |
           # Output paths          
           ls -a 
-          ls temp/MassBank-ClassyFire
           echo "DONE!!!"
 
       - name: Check for changes
