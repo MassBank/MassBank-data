@@ -28,6 +28,12 @@ jobs:
         working-directory: MassBank-ClassyFire
         run: |
           echo "Running script to modify the MassBank records..."
+          echo "--> 1"
+          find . -name "MSBNK-*.txt"
+          echo "--> 2"
+          find .. -name "MSBNK-*.txt"
+          echo "--> 3"
+          cd 
           find . -name "MSBNK-*.txt"
           echo "DONE!!!"
 
