@@ -27,6 +27,7 @@ jobs:
       - name: Run script to modify the MassBank records
         run: |
           # Output paths          
+          pwd
           ls -a 
           echo "DONE!!!"
 
