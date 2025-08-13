@@ -47,6 +47,7 @@ jobs:
           python MassBank-ClassyFire/create_query_list.py MassBank-data
           echo "test second script"
           ls MassBank-ClassyFire
+          ls -a 
           ls MassBank-ClassyFire/results
           echo "head:"
           head MassBank-ClassyFire/results/query_list.tsv
