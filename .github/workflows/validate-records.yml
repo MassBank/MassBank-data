@@ -15,10 +15,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
 
       - name: Checkout massbank-web dev
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         with:
           repository: MassBank/MassBank-web
           path: .scripts/MassBank-web
@@ -27,7 +27,7 @@ jobs:
         if: ${{ (github.ref != 'refs/heads/main') && (github.base_ref != 'main') }}
 
       - name: Checkout massbank-web main
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         with:
           repository: MassBank/MassBank-web
           path: .scripts/MassBank-web
