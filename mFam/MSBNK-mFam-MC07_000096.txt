@@ -1,0 +1,37 @@
+ACCESSION: MSBNK-mFam-MC07_000096
+RECORD_TITLE: Glucosyl-ferulate; LC-ESI-QTOF; MS2; CE: 20-40eV;  [M+H]+
+DATE: 2023.02.10
+AUTHORS: Jean-Chrisologue Totozafy, Institut Jean-Pierre Bourgin, INRAE, AgroParisTech, Université Paris-Saclay, Versailles, France
+LICENSE: CC BY
+COPYRIGHT: Copyright (C) Jean-Chrisologue Totozafy, Institut Jean-Pierre Bourgin, INRAE, AgroParisTech, Université Paris-Saclay, Versailles, France
+PUBLICATION: A. Moreno-Pedraza, J. Gabriel, H. Treutler, R. Winkler and F. Vergara. Effects of water availability in the soil on tropane alkaloid production in cultivated Datura stramonium. Metabolites, 2019
+COMMENT: CONFIDENCE Predicted
+COMMENT: ID 41
+CH$NAME: Glucosyl-ferulate
+CH$COMPOUND_CLASS: Hydroxycinnamic acids and derivatives
+CH$FORMULA: C16H20O9
+CH$EXACT_MASS: 356.1107
+CH$SMILES: COC=1C=C(C=CC1O)C(=C(C(=O)OC2(C(C(C(C(CO)(O2)[H])(O)[H])(O)[H])(O)[H])[H])[H])[H]
+CH$IUPAC: InChI=1S/C16H20O9/c1-23-10-6-8(2-4-9(10)18)3-5-12(19)25-16-15(22)14(21)13(20)11(7-17)24-16/h2-6,11,13-18,20-22H,7H2,1H3
+CH$LINK: INCHIKEY JWRQVQWBNRGGPK-UHFFFAOYSA-N
+AC$INSTRUMENT: Impact II, Bruker; Dionex 3000, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40eV
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity CSHC18
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.753 min
+MS$FOCUSED_ION: BASE_PEAK 357.1181
+MS$FOCUSED_ION: PRECURSOR_M/Z 357.1181
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_INTENSITY 88483.5
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 3.7.1
+PK$SPLASH: splash10-004i-0900000000-9a90afd6429fe8f7e31f
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  95.0669 168 12
+  177.0842 13545 999
+//

@@ -1,0 +1,39 @@
+ACCESSION: MSBNK-mFam-MC07_000066
+RECORD_TITLE: 4',5,7-Trihydroxy-8-(6-O-acetyl-3-O-beta-D-glucopyranosyl-beta-D-glucopyranosyl)flavone; LC-ESI-QTOF; MS2; CE: 20-40eV;  [M+H]+
+DATE: 2023.02.10
+AUTHORS: Jean-Chrisologue Totozafy, Institut Jean-Pierre Bourgin, INRAE, AgroParisTech, Université Paris-Saclay, Versailles, France
+LICENSE: CC BY
+COPYRIGHT: Copyright (C) Jean-Chrisologue Totozafy, Institut Jean-Pierre Bourgin, INRAE, AgroParisTech, Université Paris-Saclay, Versailles, France
+PUBLICATION: A. Moreno-Pedraza, J. Gabriel, H. Treutler, R. Winkler and F. Vergara. Effects of water availability in the soil on tropane alkaloid production in cultivated Datura stramonium. Metabolites, 2019
+COMMENT: CONFIDENCE Predicted
+COMMENT: ID 10
+CH$NAME: 4',5,7-Trihydroxy-8-(6-O-acetyl-3-O-beta-D-glucopyranosyl-beta-D-glucopyranosyl)flavone
+CH$COMPOUND_CLASS: Flavonoid C- glycosides
+CH$FORMULA: C29H32O16
+CH$EXACT_MASS: 636.1690
+CH$SMILES: CC(=O)OCC1(C(C(C(C(C2=C(C=C(C=3C(C=C(C4=CC=C(C=C4)O)OC32)=O)O)O)(O1)[H])(O)[H])(OC5(C(C(C(C(CO)(O5)[H])(O)[H])(O)[H])(O)[H])[H])[H])(O)[H])[H]
+CH$IUPAC: InChI=1S/C29H32O16/c1-10(31)41-9-18-22(37)28(45-29-24(39)23(38)21(36)17(8-30)44-29)25(40)27(43-18)20-14(34)6-13(33)19-15(35)7-16(42-26(19)20)11-2-4-12(32)5-3-11/h2-7,17-18,21-25,27-30,32-34,36-40H,8-9H2,1H3
+CH$LINK: INCHIKEY LULMTKIRTYVDHQ-UHFFFAOYSA-N
+AC$INSTRUMENT: Impact II, Bruker; Dionex 3000, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40eV
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity CSHC18
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.756 min
+MS$FOCUSED_ION: BASE_PEAK 637.1756
+MS$FOCUSED_ION: PRECURSOR_M/Z 637.1756
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_INTENSITY 781840.4
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 3.7.1
+PK$SPLASH: splash10-004i-0203900000-7f550a3880464a9c7a4c
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  177.0372 1144 456
+  323.0723 1722 687
+  475.2494 1836 733
+  475.7916 2501 999
+//

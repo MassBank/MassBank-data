@@ -31,6 +31,7 @@
 | Literature_Specs          | Literature Spectra from different sources                               |                 | LIT            |                            |
 | MetaboLights              | Mass spectra from MetaboLights                                          |                 | ML             |                            |
 | Metabolon                 | Metabolon, Inc.                                                         | USA             | MT             |                            |
+| mFam                      | mFam Consortium                                                         |                 | MC             |                            |
 | MPI_for_Chemical_Ecology  | Max Planck Institute for Chemical Ecology                               | Germany         | CE             |                            |
 | MSSJ                      | Mass Spectrometry Society of Japan                                      | Japan           | MSJ            |                            |
 | NAIST                     | Grad Sch Info Sci, NAIST                                                | Japan           | KNA            |                            |
