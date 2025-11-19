@@ -1,6 +1,6 @@
 ACCESSION: MSBNK-Empa_Air_Pollution-EAP__ETHANE
 RECORD_TITLE: ethane; GC-EI-TOF; MS; EI 70 eV
-DATE: 2025.11.17
+DATE: 2025.11.19
 AUTHORS: Begley Alina, Constantin Lionel, Myriam Guillevic, Schlauri Paul, Schneider Livia, Reimann Stefan
 LICENSE: CC BY
 COPYRIGHT: Empa - Air Pollution / Environmental Technology
@@ -34,13 +34,8 @@ AC$CHROMATOGRAPHY: INLET_TYPE direct inlet
 AC$CHROMATOGRAPHY: TRANSFERLINE_TEMPERATURE 200 C
 AC$CHROMATOGRAPHY: KOVATS_RTI 200
 PK$SPLASH: splash10-004i-9000000000-bf642cfd2c96c56eb2e0
-PK$ANNOTATION: m/z error(ppm)
-  26.01452 3.74
-  27.02233 3.11
-  28.03033 6.56
-  29.03780 4.08
-  30.04589 3.93
-  31.04941 11.27
+PK$ANNOTATION: m/z formula_count exact_mass error(ppm) tentative_formula intensity_fraction
+  28.03033 1 28.03075 15.04 H4C2+ 0.98
 PK$NUM_PEAK: 6
 PK$PEAK: m/z int. rel.int.
   26.01452 92527.35 115

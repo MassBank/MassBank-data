@@ -1,6 +1,6 @@
 ACCESSION: MSBNK-Empa_Air_Pollution-EAP__SF6
 RECORD_TITLE: sulfur hexafluoride; GC-EI-TOF; MS; EI 70 eV
-DATE: 2025.11.17
+DATE: 2025.11.19
 AUTHORS: Begley Alina, Constantin Lionel, Myriam Guillevic, Schlauri Paul, Schneider Livia, Reimann Stefan
 LICENSE: CC BY
 COPYRIGHT: Empa - Air Pollution / Environmental Technology
@@ -34,17 +34,13 @@ AC$CHROMATOGRAPHY: INLET_TYPE direct inlet
 AC$CHROMATOGRAPHY: TRANSFERLINE_TEMPERATURE 200 C
 AC$CHROMATOGRAPHY: KOVATS_RTI 214
 PK$SPLASH: splash10-004i-1900000000-d74a728457ebacfb6a23
-PK$ANNOTATION: m/z error(ppm)
-  50.96879 16.03
-  53.98116 27.6
-  69.96717 19.56
-  88.96508 7.81
-  90.96047 26.89
-  107.96294 9.83
-  109.96037 41.6
-  126.96188 4.23
-  127.96093 36.04
-  128.95829 17.7
+PK$ANNOTATION: m/z formula_count exact_mass error(ppm) tentative_formula intensity_fraction
+  50.96879 1 50.96993 22.27 FS+ 1.00
+  69.96717 1 69.96833 16.56 F2S+ 1.00
+  88.96508 1 88.96673 18.56 F3S+ 1.00
+  90.96047 1 90.96253 22.62 F3[34S]+ 1.00
+  107.96294 1 107.96513 20.33 F4S+ 0.99
+  109.96037 1 109.96093 5.10 F4[34S]+ 1.00
 PK$NUM_PEAK: 10
 PK$PEAK: m/z int. rel.int.
   50.96879 1006.64 18
