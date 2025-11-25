@@ -1,17 +1,18 @@
 ACCESSION: MSBNK-Empa_Air_Pollution-EAP__N_HEXANE
-RECORD_TITLE: ; GC-EI-TOF; MS; EI 70 eV
+RECORD_TITLE: Hexane; GC-EI-TOF; MS; EI 70 eV
 DATE: 2025.11.25
 AUTHORS: Begley Alina, Constantin Lionel, Myriam Guillevic, Schlauri Paul, Schneider Livia, Reimann Stefan
 LICENSE: CC BY
 COPYRIGHT: Empa - Air Pollution / Environmental Technology
 PROJECT: HALOHUNTER Discovering halogenated compounds in the atmosphere with non-target screening of preconcentrated air samples
-CH$NAME: 
+CH$NAME: Hexane
 CH$NAME: n-hexane
 CH$COMPOUND_CLASS: CH
 CH$FORMULA: C6H14
 CH$EXACT_MASS: 86.10955
 CH$SMILES: CCCCCC
 CH$IUPAC: InChI=1S/C6H14/c1-3-5-6-4-2/h3-6H2,1-2H3
+CH$LINK: CAS 110-54-3
 CH$LINK: PUBCHEM CID:8058
 AC$INSTRUMENT: 7890B GC, Agilent; EI TOF, ToFWerk.
 AC$INSTRUMENT_TYPE: GC-EI-TOF
@@ -32,7 +33,6 @@ AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 40 C
 AC$CHROMATOGRAPHY: INLET_TYPE direct inlet
 AC$CHROMATOGRAPHY: TRANSFERLINE_TEMPERATURE 200 C
 AC$CHROMATOGRAPHY: KOVATS_RTI 600
-CH$LINK: CAS 110-54-3
 PK$SPLASH: splash10-0a4l-9000000000-e08c92563349be1112bb
 PK$ANNOTATION: m/z formula_count exact_mass error(ppm) tentative_formula intensity_fraction
   26.01535 1 26.01510 -9.55 H2C2+ 0.98
