@@ -31,6 +31,7 @@
 | Literature_Specs          | Literature Spectra from different sources                               |                 | LIT            |                            |
 | MetaboLights              | Mass spectra from MetaboLights                                          |                 | ML             |                            |
 | Metabolon                 | Metabolon, Inc.                                                         | USA             | MT             |                            |
+| mFam                      | mFam Consortium                                                         |                 | MC             |                            |
 | MPI_for_Chemical_Ecology  | Max Planck Institute for Chemical Ecology                               | Germany         | CE             |                            |
 | MSSJ                      | Mass Spectrometry Society of Japan                                      | Japan           | MSJ            |                            |
 | NAIST                     | Grad Sch Info Sci, NAIST                                                | Japan           | KNA            |                            |
@@ -47,6 +48,7 @@
 | SMB_Measured              | Mass spectra from Shin-MassBank                                         | Japan           | HSA            |                            |
 | Tottori_Univ              | Tottori University                                                      | Japan           | TT             |                            |
 | UFZ                       | Helmholtz Centre for Environmental Research  - UFZ                      | Germany         | UF, UA, UN, UP | SOLUTIONS, NATOXAQ, HBM4EU |
+| UmU                       | Umea University - Environmental Chemistry                               | Sweden          | UMU            | PARC, AI-PolyRisk          |
 | Univ_Connecticut          | University of Connecticut                                               | USA             | CO             |                            |
 | Univ_Toyama               | University of Toyama                                                    | Japan           | TY             |                            |
 | UOEH                      | University of Occupational and Environmental Health                     | Japan           | UO             |                            |

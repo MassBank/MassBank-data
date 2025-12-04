@@ -1,0 +1,36 @@
+ACCESSION: MSBNK-mFam-MC07_000069
+RECORD_TITLE: Isoswertisin 2''-acetate; LC-ESI-QTOF; MS2; CE: 20-40eV;  [M+H]+
+DATE: 2023.02.10
+AUTHORS: Jean-Chrisologue Totozafy, Institut Jean-Pierre Bourgin, INRAE, AgroParisTech, Université Paris-Saclay, Versailles, France
+LICENSE: CC BY
+COPYRIGHT: Copyright (C) Jean-Chrisologue Totozafy, Institut Jean-Pierre Bourgin, INRAE, AgroParisTech, Université Paris-Saclay, Versailles, France
+PUBLICATION: A. Moreno-Pedraza, J. Gabriel, H. Treutler, R. Winkler and F. Vergara. Effects of water availability in the soil on tropane alkaloid production in cultivated Datura stramonium. Metabolites, 2019
+COMMENT: CONFIDENCE Predicted
+COMMENT: ID 13
+CH$NAME: Isoswertisin 2''-acetate
+CH$COMPOUND_CLASS: Flavonoid C- glycosides
+CH$FORMULA: C24H24O11
+CH$EXACT_MASS: 488.1319
+CH$SMILES: CC(=O)OC1(C(C(C(CO)(OC1(C2=C(C=C(C=3C(C=C(C4=CC=C(C=C4)O)OC32)=O)O)OC)[H])[H])(O)[H])(O)[H])[H]
+CH$IUPAC: InChI=1S/C24H24O11/c1-10(26)33-24-21(31)20(30)17(9-25)35-23(24)19-16(32-2)8-14(29)18-13(28)7-15(34-22(18)19)11-3-5-12(27)6-4-11/h3-8,17,20-21,23-25,27,29-31H,9H2,1-2H3
+CH$LINK: INCHIKEY JQUDPNSJXPBHNN-UHFFFAOYSA-N
+AC$INSTRUMENT: Impact II, Bruker; Dionex 3000, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40eV
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity CSHC18
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.113 min
+MS$FOCUSED_ION: BASE_PEAK 489.1381
+MS$FOCUSED_ION: PRECURSOR_M/Z 489.1381
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_INTENSITY 9332.88
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 3.7.1
+PK$SPLASH: splash10-000i-0009000000-d2812f38ef46d7b76ef5
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  338.094 165 999
+//

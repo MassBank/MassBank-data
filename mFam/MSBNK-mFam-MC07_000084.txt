@@ -1,0 +1,38 @@
+ACCESSION: MSBNK-mFam-MC07_000084
+RECORD_TITLE: [3,4,5-trihydroxy-6-(2,3,4-trihydroxybutoxy)oxan-2-yl]methyl 3-(3-hydroxy-4-methoxyphenyl)prop-2-enoate; LC-ESI-QTOF; MS2; CE: 20-40eV;  [M+NH4]+
+DATE: 2023.02.10
+AUTHORS: Jean-Chrisologue Totozafy, Institut Jean-Pierre Bourgin, INRAE, AgroParisTech, Université Paris-Saclay, Versailles, France
+LICENSE: CC BY
+COPYRIGHT: Copyright (C) Jean-Chrisologue Totozafy, Institut Jean-Pierre Bourgin, INRAE, AgroParisTech, Université Paris-Saclay, Versailles, France
+PUBLICATION: A. Moreno-Pedraza, J. Gabriel, H. Treutler, R. Winkler and F. Vergara. Effects of water availability in the soil on tropane alkaloid production in cultivated Datura stramonium. Metabolites, 2019
+COMMENT: CONFIDENCE Predicted
+COMMENT: ID 28
+CH$NAME: [3,4,5-trihydroxy-6-(2,3,4-trihydroxybutoxy)oxan-2-yl]methyl 3-(3-hydroxy-4-methoxyphenyl)prop-2-enoate
+CH$COMPOUND_CLASS: Hydroxycinnamic acids and derivatives
+CH$FORMULA: C20H28O12
+CH$EXACT_MASS: 460.1581
+CH$SMILES: COC=1C=CC(C=CC(=O)OCC2C(C(C(C(OCC(C(CO)O)O)O2)O)O)O)=CC1O
+CH$IUPAC: InChI=1S/C20H28O12/c1-29-14-4-2-10(6-11(14)22)3-5-16(25)30-9-15-17(26)18(27)19(28)20(32-15)31-8-13(24)12(23)7-21/h2-6,12-13,15,17-24,26-28H,7-9H2,1H3
+CH$LINK: INCHIKEY VOTCODUGSKJXCZ-UHFFFAOYSA-N
+AC$INSTRUMENT: Impact II, Bruker; Dionex 3000, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40eV
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity CSHC18
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.950 min
+MS$FOCUSED_ION: BASE_PEAK 478.1914
+MS$FOCUSED_ION: PRECURSOR_M/Z 478.1914
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+NH4]+
+MS$FOCUSED_ION: PRECURSOR_INTENSITY 37859.75
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 3.7.1
+PK$SPLASH: splash10-0002-0090000000-4414d8e384083037fdc3
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  177.0784 146 7
+  177.4652 563 28
+  299.1283 19854.5 999
+//

@@ -1,0 +1,62 @@
+ACCESSION: MSBNK-mFam-MC07_000083
+RECORD_TITLE: [3,4,5-trihydroxy-6-(2,3,4-trihydroxy-3-methylbutoxy)oxan-2-yl]methyl 3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoate; LC-ESI-QTOF; MS2; CE: 20-40eV;  [M+H]+
+DATE: 2023.02.10
+AUTHORS: Jean-Chrisologue Totozafy, Institut Jean-Pierre Bourgin, INRAE, AgroParisTech, Université Paris-Saclay, Versailles, France
+LICENSE: CC BY
+COPYRIGHT: Copyright (C) Jean-Chrisologue Totozafy, Institut Jean-Pierre Bourgin, INRAE, AgroParisTech, Université Paris-Saclay, Versailles, France
+PUBLICATION: A. Moreno-Pedraza, J. Gabriel, H. Treutler, R. Winkler and F. Vergara. Effects of water availability in the soil on tropane alkaloid production in cultivated Datura stramonium. Metabolites, 2019
+COMMENT: CONFIDENCE Predicted
+COMMENT: ID 27
+CH$NAME: [3,4,5-trihydroxy-6-(2,3,4-trihydroxy-3-methylbutoxy)oxan-2-yl]methyl 3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoate
+CH$COMPOUND_CLASS: Hydroxycinnamic acids and derivatives
+CH$FORMULA: C22H32O13
+CH$EXACT_MASS: 504.1843
+CH$SMILES: CC(CO)(C(COC1C(C(C(C(COC(C=CC2=CC(=C(C(=C2)OC)O)OC)=O)O1)O)O)O)O)O
+CH$IUPAC: InChI=1S/C22H32O13/c1-22(30,10-23)15(24)9-34-21-20(29)19(28)18(27)14(35-21)8-33-16(25)5-4-11-6-12(31-2)17(26)13(7-11)32-3/h4-7,14-15,18-21,23-24,26-30H,8-10H2,1-3H3
+CH$LINK: INCHIKEY QEUKPBTVLOOFFW-UHFFFAOYSA-N
+AC$INSTRUMENT: Impact II, Bruker; Dionex 3000, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40eV
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity CSHC18
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.300 min
+MS$FOCUSED_ION: BASE_PEAK 505.1926
+MS$FOCUSED_ION: PRECURSOR_M/Z 505.1926
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_INTENSITY 11312
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 3.7.1
+PK$SPLASH: splash10-0udi-0236290000-facb82b9d92abf88c847
+PK$NUM_PEAK: 27
+PK$PEAK: m/z int. rel.int.
+  119.0489 118 17
+  122.0584 124 18
+  138.0894 126 19
+  145.0262 130 19
+  147.0445 138 20
+  150.0543 146 22
+  156.1156 148 22
+  166.0839 162 24
+  168.0649 168 25
+  175.0392 172 25
+  176.0425 194 29
+  177.0549 200 30
+  200.1197 226 34
+  207.0655 304 45
+  208.0674 338 51
+  209.6267 382 57
+  225.0755 524 79
+  251.0924 556 83
+  302.127 640 96
+  309.0927 668 100
+  343.1075 696 105
+  351.109 790 119
+  369.1187 964 145
+  370.1215 1046 157
+  441.1326 2190 330
+  504.2478 6616 999
+  505.1534 118 17
+//

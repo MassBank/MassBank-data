@@ -1,0 +1,84 @@
+name: Post-Update Records and Create Pull Request
+
+on:
+  push:
+    branches:
+      - dev
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  post-update-records:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout this repo's code
+        uses: actions/checkout@v5
+        with:
+          path: MassBank-data
+
+      - name: Checkout MassBank ClassyFire repository
+        uses: actions/checkout@v5
+        with:
+          repository: MassBank/MassBank-ClassyFire
+          path: MassBank-ClassyFire
+          ref: main
+
+      - name: Setup python
+        uses: actions/setup-python@v6
+        with:
+          python-version: 3.12
+
+      - name: Run script to modify the MassBank records
+        run: |
+          echo "Running script to modify the MassBank records..."
+          cd MassBank-ClassyFire
+          pip install -r requirements.txt
+          echo "Running run.sh with MassBank data folder ..."
+          ./run.sh ../MassBank-data 18000
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          echo "Checking for changes in MassBank-data..."
+          cd MassBank-data
+          if [[ -n "$(git diff --exit-code)" ]]; then
+            echo "Changes detected -> PR will be created"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "No changes detected -> no PR creation"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      # Commit and Push Changes if there are any
+      - name: Commit and Create Pull Request
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          cd MassBank-data         
+          echo "Committing and pushing changes..."          
+          # configure user
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+
+          # create branch name variable
+          branch="post-update-records-$(date +%Y%m%d-%H%M%S)-${GITHUB_RUN_ID}"
+
+          # create a new branch for the changes
+          git checkout -b $branch
+
+          # stage any file changes to be committed
+          git add .
+
+          # make commit with staged changes
+          git commit -m "chore: PR with post-updated records"
+
+          echo ${{ secrets.GITHUB_TOKEN }} | gh auth login --with-token
+
+          # push changes to a new branch on GitHub
+          git push origin $branch
+
+          # create pull request
+          gh pr create --base dev --head $branch --title "Post-Update records" --body "This PR updates the records in case of missing properties, e.g. ChemOnt annotations"

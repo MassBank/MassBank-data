@@ -1,0 +1,36 @@
+ACCESSION: MSBNK-mFam-MC07_000088
+RECORD_TITLE: Coniferyl ferulate; LC-ESI-QTOF; MS2; CE: 20-40eV;  [M+NH4]+
+DATE: 2023.02.10
+AUTHORS: Jean-Chrisologue Totozafy, Institut Jean-Pierre Bourgin, INRAE, AgroParisTech, Université Paris-Saclay, Versailles, France
+LICENSE: CC BY
+COPYRIGHT: Copyright (C) Jean-Chrisologue Totozafy, Institut Jean-Pierre Bourgin, INRAE, AgroParisTech, Université Paris-Saclay, Versailles, France
+PUBLICATION: A. Moreno-Pedraza, J. Gabriel, H. Treutler, R. Winkler and F. Vergara. Effects of water availability in the soil on tropane alkaloid production in cultivated Datura stramonium. Metabolites, 2019
+COMMENT: CONFIDENCE Predicted
+COMMENT: ID 33
+CH$NAME: Coniferyl ferulate
+CH$COMPOUND_CLASS: Hydroxycinnamic acids and derivatives
+CH$FORMULA: C20H20O6
+CH$EXACT_MASS: 356.1260
+CH$SMILES: COC=1C=C(C(=C(COC(C(=C(C=2C=CC(=C(C2)OC)O)[H])[H])=O)[H])[H])C=CC1O
+CH$IUPAC: InChI=1S/C20H20O6/c1-24-18-12-14(5-8-16(18)21)4-3-11-26-20(23)10-7-15-6-9-17(22)19(13-15)25-2/h3-10,12-13,21-22H,11H2,1-2H3
+CH$LINK: INCHIKEY PGLIMMMHQDNVRS-UHFFFAOYSA-N
+AC$INSTRUMENT: Impact II, Bruker; Dionex 3000, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40eV
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity CSHC18
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.065 min
+MS$FOCUSED_ION: BASE_PEAK 374.1602
+MS$FOCUSED_ION: PRECURSOR_M/Z 374.1602
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+NH4]+
+MS$FOCUSED_ION: PRECURSOR_INTENSITY 26768.63
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 3.7.1
+PK$SPLASH: splash10-000i-0900000000-1243776b0caa14232abb
+PK$NUM_PEAK: 1
+PK$PEAK: m/z int. rel.int.
+  138.061 178 999
+//

@@ -1,0 +1,37 @@
+ACCESSION: MSBNK-mFam-MC07_000072
+RECORD_TITLE: Putative_Monoacetylvitexin 4'-rhamnoside; LC-ESI-QTOF; MS2; CE: 20-40eV;  [M+H]+
+DATE: 2023.02.10
+AUTHORS: Jean-Chrisologue Totozafy, Institut Jean-Pierre Bourgin, INRAE, AgroParisTech, Université Paris-Saclay, Versailles, France
+LICENSE: CC BY
+COPYRIGHT: Copyright (C) Jean-Chrisologue Totozafy, Institut Jean-Pierre Bourgin, INRAE, AgroParisTech, Université Paris-Saclay, Versailles, France
+PUBLICATION: A. Moreno-Pedraza, J. Gabriel, H. Treutler, R. Winkler and F. Vergara. Effects of water availability in the soil on tropane alkaloid production in cultivated Datura stramonium. Metabolites, 2019
+COMMENT: CONFIDENCE Predicted
+COMMENT: ID 16
+CH$NAME: Putative_Monoacetylvitexin 4'-rhamnoside
+CH$COMPOUND_CLASS: Flavonoid C- glycosides
+CH$FORMULA: C29H32O15
+CH$EXACT_MASS: 620.1741
+CH$SMILES: CC1(C(C(C(C(O1)(OC2=CC=C(C=C2)C3=CC(C=4C(=CC(=C(C4O3)C5(C(C(C(C(CO)(O5)[H])(OC(C)=O)[H])(O)[H])(O)[H])[H])O)O)=O)[H])(O)[H])(O)[H])(O)[H])[H]
+CH$IUPAC: InChI=1S/C29H32O15/c1-10-21(35)22(36)25(39)29(40-10)42-13-5-3-12(4-6-13)17-8-16(34)19-14(32)7-15(33)20(27(19)43-17)28-24(38)23(37)26(41-11(2)31)18(9-30)44-28/h3-8,10,18,21-26,28-30,32-33,35-39H,9H2,1-2H3
+CH$LINK: INCHIKEY FLVYXUQAAOIESE-UHFFFAOYSA-N
+AC$INSTRUMENT: Impact II, Bruker; Dionex 3000, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40eV
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity CSHC18
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.888 min
+MS$FOCUSED_ION: BASE_PEAK 621.1824
+MS$FOCUSED_ION: PRECURSOR_M/Z 621.1824
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_INTENSITY 7685.5
+MS$DATA_PROCESSING: RECALIBRATE loess on assigned fragments and MS1
+MS$DATA_PROCESSING: REANALYZE Peaks with additional N2/O included
+MS$DATA_PROCESSING: WHOLE RMassBank 3.7.1
+PK$SPLASH: splash10-03di-0020900000-8864eaa253a35a3eb791
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  217.0688 140 276
+  460.154 505 999
+//
