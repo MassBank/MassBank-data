@@ -1,6 +1,6 @@
 ACCESSION: MSBNK-Empa_Air_Pollution-EAP__COS
 RECORD_TITLE: carbonyl sulfide; GC-EI-TOF; MS; EI 70 eV
-DATE: 2025.11.25
+DATE: 2025.12.10
 AUTHORS: Begley Alina, Constantin Lionel, Myriam Guillevic, Schlauri Paul, Schneider Livia, Reimann Stefan
 LICENSE: CC BY
 COPYRIGHT: Empa - Air Pollution / Environmental Technology
@@ -35,6 +35,16 @@ AC$CHROMATOGRAPHY: TRANSFERLINE_TEMPERATURE 200 C
 AC$CHROMATOGRAPHY: KOVATS_RTI 284
 PK$SPLASH: splash10-0a4i-9000000000-fdd2677fe19d937d8914
 PK$ANNOTATION: m/z formula_count exact_mass error(ppm) tentative_formula intensity_fraction
+  31.97092 1 31.97152 18.83 S+ 1.00
+  32.97039 1 32.97091 15.77 [33S]+ 0.69
+  33.96710 1 33.96732 6.43 [34S]+ 0.60
+  59.96535 1 59.96644 18.12 COS+ 1.00
+  60.96689 1 60.96582 -17.48 CO[33S]+ 0.45
+  60.96689 2 60.96979 47.59 [13C]OS+ 0.63
+  60.96689 3 60.97065 61.73 C[17O]S+ 0.02
+  61.96119 1 61.96223 16.83 CO[34S]+ 1.00
+  61.96119 2 61.97068 153.20 C[18O]S+ 0.05
+  62.96480 1 62.96559 12.51 [13C]O[34S]+ 1.00
 PK$NUM_PEAK: 13
 PK$PEAK: m/z int. rel.int.
   29.98353 4442.56 9
