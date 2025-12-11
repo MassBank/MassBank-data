@@ -1,0 +1,36 @@
+ACCESSION: MSBNK-MSSJ-MSJ04227
+RECORD_TITLE: (R)-Hexyl(methyl)(phenyl)silane; GC-FI-TOF; MS; POSITIVE; 10 kV
+DATE: 2025.09.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: Gu Zhan, et al., Enantioselective Construction of Silicon-Stereogenic Silanes by Scandium-Catalyzed Intermolecular Alkene Hydrosilylation. Angew. Chem. Int. Ed. 2018, 57, 12342 –12346. DOI: 10.1002/anie.201807493.
+COMMENT: The compound analyzed, CH$NAME, is identical to the substance "3ba" in Table 3. of the PUBLICATION.
+COMMENT: Original ID of the mass spectral data is A_20171220_zhan4MB/zgu_01-148.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Resolving power (FWHM, nominal) was 7000.
+COMMENT: Typical accuracy level of the m/z value expected was 10 ppm. Postrun m/z was adjusted with the known mass 206.1491.
+COMMENT: FI voltage was 10 kV. Temperature of the ion-source and GC-transfer line were 60 C and 200 C, respectively. 
+CH$NAME: (R)-Hexyl(methyl)(phenyl)silane
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C13H22Si
+CH$EXACT_MASS: 206.149077
+CH$SMILES: C[Si@H](CCCCCC)c1ccccc1
+CH$IUPAC: InChI=1S/C13H22Si/c1-3-4-5-9-12-14(2)13-10-7-6-8-11-13/h6-8,10-11,14H,3-5,9,12H2,1-2H3/t14-/m1/s1
+CH$LINK: INCHIKEY YKZPZJMFVOQAQL-CQSZACIVSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091J-413 USD364547H (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.32 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temperature for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.15 min
+PK$SPLASH: splash10-0a4i-0090000000-32cc2e6c81904ca03361
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  128.097 9.1301 91
+  206.149 100 999
+  207.153 18.2467 182
+//

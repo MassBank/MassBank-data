@@ -1,0 +1,98 @@
+ACCESSION: MSBNK-MSSJ-MSJ04268
+RECORD_TITLE: 2,3-Dihydro-1H-benzo[b]silole; GC-EI-TOF; MS; POSITIVE; 70 V
+DATE: 2025.09.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: G. Zhan, H.-L. Teng, Y. Luo, S.-J. Lou, M. Nishiura, and Z. Hou, Enantioselective Construction of Silicon-Stereogenic Silanes by Scandium-Catalyzed Intermolecular Alkene Hydrosilylation. Angew. Chem. Int. Ed. 2018, 57, 12342 –12346. DOI: 10.1002/anie.201807493.
+COMMENT: The compound analyzed, CH$NAME, is identical to the substance "1a" in Table 1 of the PUBLICATION.
+COMMENT: Original ID of the mass spectral data is A_20180228_zhan4MB/zgu-01-135.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Resolving power (FWHM, nominal) was 7000.
+COMMENT: Typical accuracy level of the m/z value expected was 5 ppm. Postrun m/z was adjusted with the known mass 134.0552.
+COMMENT: EI voltage was 70 V. Temperature of the ion-source and GC-transfer line were 200 C and 250 C, respectively.
+CH$NAME: 2,3-Dihydro-1H-benzo[b]silole
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C8H10Si
+CH$EXACT_MASS: 134.055177
+CH$SMILES: c1cccc2[SiH2]CCc12
+CH$IUPAC: InChI=1S/C8H10Si/c1-2-4-8-7(3-1)5-6-9-8/h1-4H,5-6,9H2
+CH$LINK: INCHIKEY JCIKEAKTEUDWIQ-UHFFFAOYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091J-413 USD364547H (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.32 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temperature for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.78 min
+PK$SPLASH: splash10-053r-3900000000-68675c33ba28b79a5cb5
+PK$NUM_PEAK: 65
+PK$PEAK: m/z int. rel.int.
+  27.024 2.1499 21
+  27.977 2.8341 28
+  28.006 6.4893 65
+  28.985 4.1246 41
+  31.990 3.7294 37
+  39.024 4.3458 43
+  41.992 0.9656 10
+  43.001 3.0810 31
+  50.016 2.6679 27
+  51.024 5.1183 51
+  52.030 1.3096 13
+  52.985 30.4809 305
+  53.039 1.0654 11
+  53.991 4.7308 47
+  55.001 6.8820 69
+  56.009 2.6883 27
+  63.024 3.4467 34
+  64.985 1.9043 19
+  65.039 2.2957 23
+  65.993 5.4572 55
+  66.021 1.4350 14
+  67.000 6.0340 60
+  68.003 0.6778 7
+  74.016 1.1255 11
+  75.024 1.1152 11
+  76.032 1.1664 12
+  76.985 8.3566 83
+  77.040 6.6901 67
+  77.992 3.8675 39
+  78.047 3.7882 38
+  79.001 10.2072 102
+  79.055 1.7457 17
+  80.006 2.3162 23
+  81.016 3.1986 32
+  89.039 1.6089 16
+  89.992 1.0730 11
+  91.001 1.1856 12
+  91.055 5.9138 59
+  92.009 0.9873 10
+  93.017 4.7986 48
+  94.017 0.5474 5
+  100.985 1.6230 16
+  102.048 2.1013 21
+  103.001 6.6735 67
+  103.055 5.9522 59
+  104.007 2.6896 27
+  104.063 5.4815 55
+  105.016 62.4057 623
+  105.071 5.1477 51
+  105.157 0.7392 7
+  106.024 60.9004 608
+  107.029 16.1453 161
+  108.027 2.5681 26
+  117.016 3.0272 30
+  118.022 0.9579 10
+  119.032 9.5460 95
+  120.034 1.3672 14
+  129.017 3.8713 39
+  130.024 6.0315 60
+  131.032 43.6143 436
+  132.039 22.3699 223
+  133.048 82.1665 821
+  134.055 100 999
+  135.057 13.8189 138
+  136.054 3.3623 34
+//

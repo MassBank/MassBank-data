@@ -1,0 +1,101 @@
+ACCESSION: MSBNK-MSSJ-MSJ04214
+RECORD_TITLE: Diethyl(phenylethynyl)silane; GC-EI-TOF; MS; POSITIVE; 70 V
+DATE: 2025.09.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: Yuanhong Ma, et al., B(C6F5)3/Amine-Catalyzed C(sp)−H Silylation of Terminal Alkynes with Hydrosilanes: Experimental and Theoretical Studies. Angew. Chem. Int. Ed. 2018, 57, 15222 –15226. DOI: 10.1002/anie.201809533.
+COMMENT: The compound analyzed, CH$NAME, is identical to the substance "3e" in Table 2. of the PUBLICATION.
+COMMENT: Original ID of the mass spectral data is A_20170819_ma4MB/MYH-1379.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Resolving power (FWHM, nominal) was 7000.
+COMMENT: Typical accuracy level of the m/z value expected was 5 ppm. Postrun m/z was adjusted with the known mass 188.1021.
+COMMENT: EI voltage was 70 V. Temperature of the ion-source and GC-transfer line were 200 C and 250 C, respectively. 
+CH$NAME: Diethyl(phenylethynyl)silane
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C12H16Si
+CH$EXACT_MASS: 188.102127
+CH$SMILES: CC[SiH](C#Cc1ccccc1)CC
+CH$IUPAC: InChI=1S/C12H16Si/c1-3-13(4-2)11-10-12-8-6-5-7-9-12/h5-9,13H,3-4H2,1-2H3
+CH$LINK: INCHIKEY ATXVIVOBXRRWKJ-UHFFFAOYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091J-413 USD364547H (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.32 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temperature for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.98 min
+PK$SPLASH: splash10-053r-4900000000-320f52b2437a32f14747
+PK$NUM_PEAK: 68
+PK$PEAK: m/z int. rel.int.
+  27.024 3.8572 39
+  27.975 0.6584 7
+  28.006 42.6567 426
+  28.032 1.7715 18
+  28.068 0.4513 5
+  28.985 3.008 30
+  29.039 3.7513 37
+  31.001 1.0015 10
+  31.989 14.0002 140
+  39.962 0.8666 9
+  43.000 4.1689 42
+  51.024 1.9193 19
+  52.985 14.9738 150
+  53.988 1.6936 17
+  55.000 2.9219 29
+  56.007 0.7921 8
+  57.016 3.3977 34
+  58.024 5.3984 54
+  59.028 0.741 7
+  63.023 0.891 9
+  65.516 1.796 18
+  65.993 1.1155 11
+  67.001 1.2818 13
+  75.023 0.6095 6
+  76.033 0.9782 10
+  76.985 5.0006 50
+  77.040 1.4552 15
+  77.991 1.6122 16
+  79.001 3.6943 37
+  79.531 0.9561 10
+  82.024 15.8881 159
+  83.026 1.7076 17
+  84.017 0.7177 7
+  86.056 1.1132 11
+  89.038 0.5514 6
+  89.992 0.8317 8
+  91.056 0.9527 10
+  100.985 1.2051 12
+  101.992 0.848 8
+  102.048 2.5951 26
+  103.001 8.2157 82
+  103.053 0.7503 7
+  104.006 2.1275 21
+  105.016 31.219 312
+  106.018 3.8955 39
+  107.017 1.4144 14
+  115.055 1.4156 14
+  117.017 1.0213 10
+  128.064 1.8495 18
+  129.017 24.0119 240
+  129.071 1.9449 19
+  130.023 8.7158 87
+  131.032 100 999
+  132.037 24.198 242
+  133.033 4.8715 49
+  134.038 0.6863 7
+  143.031 1.4901 15
+  145.048 2.6626 27
+  157.047 1.0003 10
+  158.056 1.1446 11
+  159.063 61.6099 615
+  160.068 14.2352 142
+  160.169 0.4409 4
+  161.065 3.1732 32
+  187.102 0.4432 4
+  188.102 10.5269 105
+  189.103 2.0147 20
+  190.102 0.6398 6
+//

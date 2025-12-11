@@ -1,0 +1,132 @@
+ACCESSION: MSBNK-MSSJ-MSJ04282
+RECORD_TITLE: 5-Methoxy-3-(4-pentenyl)-1H-indole; GC-EI-TOF; MS; POSITIVE; 70 V
+DATE: 2025.09.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: R. Murakami, D. Sekine, Y. Aoki, S. Kawamura and M. Sodeoka, Control of site selectivity in trifluoromethylation of alkenes bearing a pendant indolyl group: Synthesis of CF3-containing tetrahydrocarbazoles, Tetrahedron 75 (2019) 1327-1335. DOI: 10.1016/j.tet.2019.01.048.
+COMMENT: The compound analyzed, CH$NAME, is identical to the product of "2c" in Table 2 of the PUBLICATION.
+COMMENT: Original ID of the mass spectral data is A_20180928_sekine4MB/DS5OMe.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Resolving power (FWHM, nominal) was 7000.
+COMMENT: Typical accuracy level of the m/z value expected was 5 ppm. Postrun m/z was adjusted with the known mass 215.1310.
+COMMENT: EI voltage was 70 V. Temperature of the ion-source and GC-transfer line were 200 C and 250 C, respectively.
+CH$NAME: 5-Methoxy-3-(4-pentenyl)-1H-indole
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C14H17NO
+CH$EXACT_MASS: 215.131010
+CH$SMILES: COc1cc2c(cc1)[NH]cc2CCCC=C
+CH$IUPAC: InChI=1S/C14H17NO/c1-3-4-5-6-11-10-15-14-8-7-12(16-2)9-13(11)14/h3,7-10,15H,1,4-6H2,2H3
+CH$LINK: INCHIKEY KWLWHFDOYUNNJU-UHFFFAOYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091J-413 USD364547H (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.32 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temperature for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 10.40 min
+PK$SPLASH: splash10-03di-1910000000-813bc5d7472111fdf654
+PK$NUM_PEAK: 99
+PK$PEAK: m/z int. rel.int.
+  27.023 2.9326 29
+  28.018 0.9062 9
+  29.038 3.3469 33
+  39.023 4.5854 46
+  40.029 0.4535 5
+  41.038 2.5547 26
+  42.045 0.3838 4
+  50.015 0.6887 7
+  51.022 2.1952 22
+  52.023 0.7714 8
+  53.038 1.1669 12
+  54.045 0.3796 4
+  55.054 2.6315 26
+  58.528 0.2803 3
+  62.014 0.6052 6
+  63.022 2.7847 28
+  64.029 0.8890 9
+  65.037 1.1362 11
+  66.041 0.1592 2
+  67.053 0.3648 4
+  74.014 0.3885 4
+  75.022 1.0199 10
+  76.030 1.3683 14
+  77.038 4.3476 43
+  78.041 0.9404 9
+  79.048 0.2272 2
+  80.013 0.2418 2
+  80.044 0.1513 2
+  87.022 0.3112 3
+  88.029 0.4524 5
+  89.038 5.7496 57
+  90.045 4.4610 45
+  91.052 1.5363 15
+  93.549 0.3528 4
+  101.038 0.7002 7
+  102.045 2.2030 22
+  103.052 2.6326 26
+  104.050 1.5515 15
+  105.056 0.3004 3
+  107.565 0.3664 4
+  113.037 0.2487 2
+  114.044 0.4146 4
+  115.053 2.6993 27
+  116.049 3.2996 33
+  117.056 15.3954 154
+  118.061 2.1946 22
+  119.054 0.2108 2
+  127.052 0.4648 5
+  128.050 1.9042 19
+  129.057 2.3788 24
+  130.064 8.1222 81
+  130.157 0.1200 1
+  131.070 1.8087 18
+  132.044 0.9819 10
+  133.054 0.2786 3
+  140.049 0.3201 3
+  141.058 0.4678 5
+  142.065 0.9553 10
+  143.072 1.4535 15
+  144.044 2.2404 22
+  145.051 16.5494 165
+  146.058 4.4372 44
+  147.066 1.2132 12
+  148.075 0.6039 6
+  154.065 0.7776 8
+  155.072 0.5882 6
+  156.079 0.4294 4
+  157.085 0.1675 2
+  158.059 3.3167 33
+  159.067 2.9471 29
+  160.075 100 999
+  160.528 0.2112 2
+  160.702 0.2965 3
+  161.082 29.1314 291
+  161.616 0.2267 2
+  162.085 2.8349 28
+  162.573 0.1379 1
+  163.087 0.2461 2
+  167.072 0.3501 3
+  168.080 0.3286 3
+  170.060 0.3385 3
+  171.102 0.6008 6
+  172.075 1.2323 12
+  173.083 9.1066 91
+  174.089 2.4547 25
+  175.093 0.2580 3
+  184.075 0.2588 3
+  185.082 0.1974 2
+  186.091 3.5298 35
+  187.098 1.6315 16
+  188.102 0.2149 2
+  198.092 0.3237 3
+  199.098 0.3325 3
+  200.107 1.9508 19
+  201.111 0.2802 3
+  214.123 1.9729 20
+  215.131 27.2243 272
+  216.134 4.0524 40
+  217.137 0.3351 3
+//
