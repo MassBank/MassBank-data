@@ -47,6 +47,7 @@
 | RIKEN_ReSpect             | RIKEN Plant Science Center                                              | Japan           | PT, PS, PM     |                            |
 | SMB_Measured              | Mass spectra from Shin-MassBank                                         | Japan           | HSA            |                            |
 | Tottori_Univ              | Tottori University                                                      | Japan           | TT             |                            |
+| Qingdao_University        | Qingdao University, Qingdao                                             | China           | QDU            |                            |
 | UFZ                       | Helmholtz Centre for Environmental Research  - UFZ                      | Germany         | UF, UA, UN, UP | SOLUTIONS, NATOXAQ, HBM4EU |
 | UmU                       | Umea University - Environmental Chemistry                               | Sweden          | UMU            | PARC, AI-PolyRisk          |
 | Univ_Connecticut          | University of Connecticut                                               | USA             | CO             |                            |
