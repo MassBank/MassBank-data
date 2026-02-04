@@ -1,0 +1,41 @@
+ACCESSION: MSBNK-MSSJ-MSJ04289
+RECORD_TITLE: 13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,20-Heptadecafluoroicosan-11-amine; GC-FI-TOF; MS; POSITIVE; 10 kV
+DATE: 2025.09.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: W-C Wang, S-Y Chen, Y-W Yang, C-S Hsu and K Tajima, Face-on reorientation of pai-conjugated polymers in thin films by surface-segregated monolayers, J. Mater. Chem. A, 2020, 8, 6268. DOI: 10.1039/d0ta00030b.
+COMMENT: The compound analyzed, CH$NAME, is identical to the product of "3" in Scheme 1 of PUBLICATION.
+COMMENT: Original ID of the mass spectral data is A_20190204_wang4MB/C10H8F17-NH2.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Resolving power (FWHM, nominal) was 7000.
+COMMENT: Typical accuracy level of the m/z value expected was 10 ppm. Postrun m/z was adjusted with the known mass 603.1794.
+COMMENT: FI voltage was 10 kV. Temperature of the ion-source and GC-transfer line were 60 C and 250 C, respectively.
+CH$NAME: 13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,20-Heptadecafluoroicosan-11-amine
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C20H26F17N
+CH$EXACT_MASS: 603.179371
+CH$SMILES: FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)CC(N)CCCCCCCCCC
+CH$IUPAC: InChI=1S/C20H26F17N/c1-2-3-4-5-6-7-8-9-10-12(38)11-13(21,22)14(23,24)15(25,26)16(27,28)17(29,30)18(31,32)19(33,34)20(35,36)37/h12H,2-11,38H2,1H3
+CH$LINK: INCHIKEY DPUQHWLRQCUAPJ-UHFFFAOYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091J-413 USD364547H (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.32 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temperature for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.15 min
+PK$SPLASH: splash10-0udi-0000009000-bab39c4acb3dd2e49d53
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  462.019 5.0624 51
+  463.021 0.5563 6
+  476.030 7.1058 71
+  477.027 0.9518 10
+  602.170 1.2865 13
+  603.179 100 999
+  604.184 24.8538 248
+  605.185 3.5581 36
+//

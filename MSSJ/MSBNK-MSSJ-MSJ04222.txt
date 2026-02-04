@@ -1,0 +1,137 @@
+ACCESSION: MSBNK-MSSJ-MSJ04222
+RECORD_TITLE: (S)-N-(4-(2,3-Dihydro-1H-benzo[b]silol-1-yl)butyl)-N-methylaniline; GC-EI-TOF; MS; POSITIVE; 70 V
+DATE: 2025.09.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: Gu Zhan, et al., Enantioselective Construction of Silicon-Stereogenic Silanes by Scandium-Catalyzed Intermolecular Alkene Hydrosilylation. Angew. Chem. Int. Ed. 2018, 57, 12342 –12346. DOI: 10.1002/anie.201807493.
+COMMENT: Original ID of the mass spectral data is A_20171113_zhan4MB/zgu_01-164.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Resolving power (FWHM, nominal) was 7000.
+COMMENT: Typical accuracy level of the m/z value expected was 5 ppm. Postrun m/z was adjusted with the known mass 309.1913.
+COMMENT: EI voltage was 70 V. Temperature of the ion-source and GC-transfer line were 200 C and 250 C, respectively. 
+CH$NAME: (S)-N-(4-(2,3-Dihydro-1H-benzo[b]silol-1-yl)butyl)-N-methylaniline
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C20H27NSi
+CH$EXACT_MASS: 309.191272
+CH$SMILES: CN(Cc1ccccc1)CCCC[Si@H]1CCc2ccccc21
+CH$IUPAC: InChI=1S/C20H27NSi/c1-21(17-18-9-3-2-4-10-18)14-7-8-15-22-16-13-19-11-5-6-12-20(19)22/h2-6,9-12,22H,7-8,13-17H2,1H3/t22-/m0/s1
+CH$LINK: INCHIKEY VFVVZUSYGYNXGW-QFIPXVFZSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091J-413 USD364547H (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.32 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temperature for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 11.56 min
+PK$SPLASH: splash10-001l-7900000000-dc0483ebe5be6d3e53c5
+PK$NUM_PEAK: 105
+PK$PEAK: m/z int. rel.int.
+  28.007 0.8542 9
+  28.985 0.2383 2
+  29.040 0.3014 3
+  30.035 0.4242 4
+  31.990 0.4143 4
+  39.024 0.9929 10
+  41.040 0.6729 7
+  42.035 4.0595 41
+  43.001 0.8588 9
+  43.043 0.9173 9
+  44.051 2.3492 23
+  45.017 0.2108 2
+  51.024 0.5311 5
+  52.986 1.0065 10
+  53.989 0.138 1
+  55.001 0.5505 5
+  55.056 0.4081 4
+  56.000 0.1728 2
+  56.051 0.283 3
+  57.059 0.5528 6
+  58.013 0.1848 2
+  58.066 0.7339 7
+  63.025 0.474 5
+  65.040 4.8033 48
+  65.995 0.1772 2
+  66.043 0.2684 3
+  67.001 0.412 4
+  70.068 0.3314 3
+  71.032 0.1876 2
+  77.041 0.78 8
+  78.049 0.4671 5
+  79.002 0.5671 6
+  81.017 0.3744 4
+  84.082 0.4583 5
+  86.043 0.2473 2
+  89.041 0.8858 9
+  90.048 0.6821 7
+  91.056 100 999
+  91.524 0.2784 3
+  91.859 0.1827 2
+  92.059 7.6903 77
+  92.154 0.2014 2
+  92.590 0.13 1
+  93.016 0.4996 5
+  93.063 0.2913 3
+  98.099 0.4701 5
+  103.002 0.3738 4
+  103.055 0.2818 3
+  104.010 0.2638 3
+  104.062 0.3574 4
+  105.018 8.4842 85
+  105.072 0.3848 4
+  106.021 1.21 12
+  107.033 2.6264 26
+  108.034 0.3519 4
+  114.074 0.3791 4
+  115.057 0.4323 4
+  116.062 0.1519 2
+  117.018 0.4922 5
+  117.063 0.2539 3
+  118.024 0.3095 3
+  118.068 0.9243 9
+  119.034 0.6989 7
+  120.039 0.1641 2
+  120.082 3.2654 33
+  121.049 0.2627 3
+  121.089 1.6183 16
+  122.096 0.7869 8
+  129.018 0.4127 4
+  130.025 0.8307 8
+  131.034 12.3528 123
+  131.206 0.1265 1
+  132.038 2.7891 28
+  132.083 1.0803 11
+  133.049 8.689 87
+  134.052 1.3321 13
+  134.098 97.1355 970
+  134.512 0.2337 2
+  134.609 0.2535 3
+  134.966 0.1131 1
+  135.101 9.602 96
+  135.524 0.1463 1
+  135.911 0.1108 1
+  136.103 0.3793 4
+  143.034 0.4924 5
+  144.037 0.126 1
+  145.049 1.6195 16
+  146.055 0.697 7
+  146.099 0.3664 4
+  147.063 0.3489 3
+  160.061 0.1984 2
+  162.073 0.221 2
+  173.080 0.1975 2
+  176.090 0.1648 2
+  176.145 2.5064 25
+  177.149 0.3431 3
+  188.089 0.359 4
+  216.123 0.5618 6
+  218.137 13.1842 132
+  219.139 2.6055 26
+  220.137 0.5869 6
+  232.153 0.3758 4
+  309.191 2.2027 22
+  310.193 0.6065 6
+  311.190 0.1459 1
+//
