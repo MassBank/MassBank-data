@@ -1,0 +1,148 @@
+ACCESSION: MSBNK-MSSJ-MSJ04223
+RECORD_TITLE: (R)-9-(3-(2,3-Dihydro-1H-benzo[b]silol-1-yl)propyl)-9H-carbazole; GC-EI-TOF; MS; POSITIVE; 70 V
+DATE: 2025.09.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: Gu Zhan, et al., Enantioselective Construction of Silicon-Stereogenic Silanes by Scandium-Catalyzed Intermolecular Alkene Hydrosilylation. Angew. Chem. Int. Ed. 2018, 57, 12342 –12346. DOI: 10.1002/anie.201807493.
+COMMENT: The compound analyzed, CH$NAME, is identical to the substance "3n" in Table 2. of the PUBLICATION.
+COMMENT: Original ID of the mass spectral data is A_20171113_zhan4MB/zgu_01-173.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Resolving power (FWHM, nominal) was 7000.
+COMMENT: Typical accuracy level of the m/z value expected was 5 ppm. Postrun m/z was adjusted with the known mass 341.1600.
+COMMENT: EI voltage was 70 V. Temperature of the ion-source and GC-transfer line were 200 C and 250 C, respectively. 
+CH$NAME: (R)-9-(3-(2,3-Dihydro-1H-benzo[b]silol-1-yl)propyl)-9H-carbazole
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C23H23NSi
+CH$EXACT_MASS: 341.159972
+CH$SMILES: c1cccc2c1CC[Si@@H]2CCCn1c2ccccc2c2ccccc21
+CH$IUPAC: InChI=1S/C23H23NSi/c1-6-13-23-18(8-1)14-17-25(23)16-7-15-24-21-11-4-2-9-19(21)20-10-3-5-12-22(20)24/h1-6,8-13,25H,7,14-17H2/t25-/m0/s1
+CH$LINK: INCHIKEY UXQOHSAGSREMCD-VWLOTQADSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091J-413 USD364547H (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.32 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temperature for 7.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 13.56 min
+PK$SPLASH: splash10-001i-0902000000-c8b62cd80c1cb29c7079
+PK$NUM_PEAK: 115
+PK$PEAK: m/z int. rel.int.
+  28.985 0.2886 3
+  39.024 0.4293 4
+  43.001 0.5116 5
+  51.024 0.3306 3
+  52.986 1.3478 13
+  53.991 0.2066 2
+  55.001 0.6358 6
+  63.024 0.2942 3
+  65.040 0.2584 3
+  67.001 0.4028 4
+  77.040 0.9498 9
+  78.048 0.3599 4
+  79.002 0.6639 7
+  81.017 0.38 4
+  89.040 0.2816 3
+  90.044 0.2478 2
+  91.056 1.4168 14
+  93.017 0.3691 4
+  102.048 0.2535 3
+  103.002 0.4813 5
+  103.056 0.3252 3
+  104.009 0.3226 3
+  104.065 0.29 3
+  105.018 10.4195 104
+  106.021 1.5853 16
+  107.033 2.8644 29
+  108.036 0.4146 4
+  113.041 0.2844 3
+  115.056 0.774 8
+  116.056 0.2447 2
+  117.018 0.5054 5
+  118.025 0.2503 3
+  119.033 0.3801 4
+  126.048 0.4759 5
+  127.056 1.1655 12
+  128.059 0.3655 4
+  129.018 0.5236 5
+  130.026 1.1896 12
+  131.034 13.786 138
+  132.039 3.9151 39
+  133.049 10.048 100
+  134.053 1.8357 18
+  135.049 0.4289 4
+  138.048 0.1953 2
+  139.056 1.2891 13
+  140.053 2.0116 20
+  141.057 0.2546 3
+  143.033 0.386 4
+  145.048 0.8911 9
+  146.054 0.3699 4
+  147.063 0.5089 5
+  150.049 0.5032 5
+  151.056 3.7631 38
+  152.064 15.9113 159
+  153.068 4.5042 45
+  154.071 0.5453 5
+  156.565 0.3142 3
+  164.053 0.4657 5
+  165.068 0.462 5
+  166.068 3.4899 35
+  167.074 2.6085 26
+  168.079 0.5039 5
+  170.581 0.4827 5
+  175.095 0.2837 3
+  177.060 0.5598 6
+  178.068 3.0735 31
+  179.075 3.1575 32
+  180.082 100 999
+  180.745 0.2846 3
+  181.086 15.6865 157
+  181.701 0.1759 2
+  182.090 1.2213 12
+  191.076 0.5142 5
+  192.083 0.7537 8
+  193.037 0.2502 2
+  193.090 0.6221 6
+  194.044 1.1019 11
+  194.095 0.1892 2
+  195.049 0.4381 4
+  196.057 0.2674 3
+  204.083 0.9935 10
+  205.089 0.2926 3
+  206.044 0.6824 7
+  206.100 1.0065 10
+  207.042 0.3821 4
+  207.108 0.9899 10
+  208.057 0.2669 3
+  208.114 0.654 7
+  209.066 0.6379 6
+  220.059 0.6067 6
+  234.076 0.5909 6
+  236.090 1.9401 19
+  237.096 1.5224 15
+  238.099 0.3938 4
+  269.068 0.1905 2
+  270.075 0.4844 5
+  284.094 0.4151 4
+  285.099 0.2039 2
+  294.075 0.2273 2
+  296.090 0.8314 8
+  297.095 0.2954 3
+  298.105 6.4836 65
+  299.110 3.1868 32
+  300.113 0.9537 10
+  301.115 0.1965 2
+  310.106 0.1955 2
+  312.121 1.344 13
+  313.128 1.7442 17
+  314.131 0.5599 6
+  326.137 0.224 2
+  340.152 2.7973 28
+  341.160 32.5907 326
+  342.163 11.9843 120
+  343.164 2.9703 30
+  344.165 0.5505 5
+//

@@ -1,0 +1,44 @@
+ACCESSION: MSBNK-MSSJ-MSJ04287
+RECORD_TITLE: 1-Bromo-3,7,11,15-tetramethyl-hexadecane; GC-FI-TOF; MS; POSITIVE; 10 kV
+DATE: 2025.09.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: F. Wang, K. Nakano, H. Segawa, and K. Tajima, Phytol-Derived Alkyl Side Chains for Pai‑Conjugated Semiconducting Polymers, Chem. Mater. 2019, 31, 2097−2105. DOI: 10.1021/acs.chemmater.8b05240.
+COMMENT: The compound analyzed, CH$NAME, is identical to the product of "2" in Scheme S1 of the Supprting information for PUBLICATION.
+COMMENT: Original ID of the mass spectral data is A_20190124_wang4MB/P2.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Resolving power (FWHM, nominal) was 7000.
+COMMENT: Typical accuracy level of the m/z value expected was 10 ppm. Postrun m/z was adjusted with the known mass 360.2392.
+COMMENT: FI voltage was 10 kV. Temperature of the ion-source and GC-transfer line were 60 C and 200 C, respectively.
+CH$NAME: 1-Bromo-3,7,11,15-tetramethyl-hexadecane
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C20H41Br
+CH$EXACT_MASS: 360.239163
+CH$SMILES: CC(C)CCCC(C)CCCC(C)CCCC(C)CCBr
+CH$IUPAC: InChI=1S/C20H41Br/c1-17(2)9-6-10-18(3)11-7-12-19(4)13-8-14-20(5)15-16-21/h17-20H,6-16H2,1-5H3
+CH$LINK: INCHIKEY DNKBEUKCVDMKFH-UHFFFAOYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091J-413 USD364547H (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.32 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temperature for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 10.74 min
+PK$SPLASH: splash10-03di-0009000000-f3776d729df86c050f59
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  43.055 9.9505 99
+  275.137 1.8731 19
+  276.129 1.3876 14
+  277.136 1.7949 18
+  281.317 8.9106 89
+  282.319 2.0978 21
+  360.239 100 999
+  361.242 23.2774 233
+  362.237 99.5443 994
+  363.241 21.6048 216
+  364.243 2.1866 22
+//

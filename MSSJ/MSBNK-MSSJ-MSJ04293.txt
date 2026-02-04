@@ -1,0 +1,79 @@
+ACCESSION: MSBNK-MSSJ-MSJ04293
+RECORD_TITLE: Phenyl (3-phenylallyl)sulfane; GC-EI-TOF; MS; POSITIVE; 70 V
+DATE: 2025.09.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imaia, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: I. Nasibullin, H. Yoshioka, A. Mukaimine, A. Nakamura, Y. Kusakari, T.-C. Chang and K. Tanaka, Catalytic olefin metathesis in blood, Chem. Sci., 2023, 14, 11033–11039. DOI: 10.1039/d3sc03785a.
+COMMENT: The compound analyzed, CH$NAME, is identical to the product of "(II)35" in Fig. 3 of PUBLICATION.
+COMMENT: Original ID of the mass spectral data is A_20221013_yoshioka4MB/HY-79.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Resolving power (FWHM, nominal) was 7000.
+COMMENT: Typical accuracy level of the m/z value expected was 5 ppm. Postrun m/z was adjusted with the known mass 226.0816.
+COMMENT: EI voltage was 70 V. Temperature of the ion-source and GC-transfer line were 200 C and 250 C, respectively.
+CH$NAME: Phenyl (3-phenylallyl)sulfane
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C15H14S
+CH$EXACT_MASS: 226.081621
+CH$SMILES: C(/CSc1ccccc1)=C\c1ccccc1
+CH$IUPAC: InChI=1S/C15H14S/c1-3-8-14(9-4-1)10-7-13-16-15-11-5-2-6-12-15/h1-12H,13H2/b10-7+
+CH$LINK: INCHIKEY FEHPZIJSLMHZSJ-JXMROGBWSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.0/min
+AC$CHROMATOGRAPHY: COLUMN_NAME DB-5MS UI 122-5532UI US0462866H (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.25 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temperature for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 11.08 min
+PK$SPLASH: splash10-014i-2900000000-9e995eee0f1165d9c7c9
+PK$NUM_PEAK: 46
+PK$PEAK: m/z int. rel.int.
+  27.024 0.4652 5
+  28.006 0.4821 5
+  38.016 0.3110 3
+  39.024 6.6191 66
+  40.028 0.3035 3
+  41.039 0.4621 5
+  44.980 1.4905 15
+  50.016 1.0170 10
+  51.023 3.9724 40
+  52.031 0.6598 7
+  62.016 0.4997 5
+  63.023 2.5631 26
+  64.030 0.4905 5
+  65.039 7.7531 77
+  66.044 0.6511 7
+  68.980 1.7561 18
+  74.016 0.3463 3
+  75.023 0.5748 6
+  76.031 0.5738 6
+  77.039 2.5286 25
+  78.046 1.0490 10
+  81.988 0.4201 4
+  82.995 0.2742 3
+  89.039 2.3348 23
+  90.044 0.3311 3
+  91.055 14.2954 143
+  92.058 1.0733 11
+  102.047 1.1481 11
+  103.053 0.3464 3
+  108.004 0.7770 8
+  109.011 7.4910 75
+  110.016 0.8128 8
+  111.008 0.3138 3
+  114.046 0.2823 3
+  115.054 34.6638 346
+  115.328 0.4102 4
+  116.061 7.9241 79
+  117.070 100 999
+  117.605 0.2971 3
+  118.073 9.9180 99
+  118.366 0.1359 1
+  119.077 0.4459 4
+  147.027 0.4785 5
+  226.082 7.7604 78
+  227.085 1.3569 14
+  228.080 0.4132 4
+//

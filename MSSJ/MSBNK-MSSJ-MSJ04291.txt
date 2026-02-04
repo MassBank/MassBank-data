@@ -1,0 +1,144 @@
+ACCESSION: MSBNK-MSSJ-MSJ04291
+RECORD_TITLE: Methyl 3-(methylseleno)propionate; GC-EI-TOF; MS; POSITIVE; 70 V
+DATE: 2025.09.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imaia, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: K. Bulgarevich, S. Horiuchi, T. Ogaki, and K. Takimiya, 1,3,6,8-Tetrakis(methylchalcogeno)pyrenes: Effects of Chalcogen Atoms on the Crystal Structure and Transport Properties, Chem. Mater. 2022, 34, 6606−6616. DOI:10.1021/acs.chemmater.2c01544.
+COMMENT: The compound analyzed, CH$NAME, is identical to the product of "2" in Scheme 1 of PUBLICATION.
+COMMENT: Original ID of the mass spectral data is A_20210709_horiuchi/3-(methylseleno)-propanoic acid_ei.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Resolving power (FWHM, nominal) was 7000.
+COMMENT: Typical accuracy level of the m/z value expected was 5 ppm. Postrun m/z was adjusted with the known mass 181.9846.
+COMMENT: EI voltage was 70 V. Temperature of the ion-source and GC-transfer line were 200 C and 250 C, respectively.
+CH$NAME: Methyl 3-(methylseleno)propionate
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C5H10O2Se
+CH$EXACT_MASS: 181.984602
+CH$SMILES: O=C(OC)CC[Se]C
+CH$IUPAC: InChI=1S/C5H10O2Se/c1-7-5(6)3-4-8-2/h3-4H2,1-2H3
+CH$LINK: INCHIKEY OVFJJRZAJXIREI-UHFFFAOYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.0/min
+AC$CHROMATOGRAPHY: COLUMN_NAME DB-5MS 122-5532 USA360633H (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.32 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temperature for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.63 min
+PK$SPLASH: splash10-0abl-9700000000-535d998542f74c4eb449
+PK$NUM_PEAK: 111
+PK$PEAK: m/z int. rel.int.
+  26.016 9.9054 99
+  27.024 47.7052 477
+  28.006 0.6171 6
+  28.031 24.5872 246
+  29.003 10.1576 101
+  29.039 3.8874 39
+  30.011 2.3436 23
+  31.019 5.9499 59
+  39.024 3.7473 37
+  41.039 49.3421 493
+  41.129 0.3374 3
+  42.011 3.3992 34
+  42.043 1.7960 18
+  43.019 2.9466 29
+  43.055 1.1465 11
+  44.998 2.4199 24
+  45.034 32.6153 326
+  46.037 0.7147 7
+  53.003 1.5889 16
+  55.019 57.0005 569
+  56.025 5.4446 54
+  57.034 9.2887 93
+  58.041 1.5749 16
+  59.013 97.0150 969
+  59.050 5.2579 53
+  59.344 0.2967 3
+  60.018 2.4368 24
+  61.023 0.5003 5
+  75.483 0.7539 8
+  75.920 1.6367 16
+  76.924 2.2595 23
+  77.919 4.4918 45
+  78.926 3.3598 34
+  79.917 9.2789 93
+  80.925 7.0423 70
+  81.930 2.4558 25
+  82.940 4.0050 40
+  84.940 0.7173 7
+  87.045 100 999
+  87.463 0.2946 3
+  87.504 0.3633 4
+  88.051 9.5941 96
+  88.129 0.3366 3
+  88.928 4.8686 49
+  89.052 0.6821 7
+  89.932 7.1911 72
+  90.935 15.9605 159
+  91.939 16.5117 165
+  92.936 35.1888 352
+  93.933 23.7973 238
+  94.940 68.2247 682
+  95.947 14.4502 144
+  96.941 11.8129 118
+  97.948 2.3877 24
+  100.945 0.4430 4
+  101.933 0.7128 7
+  102.942 4.8177 48
+  103.944 5.1411 51
+  104.946 13.0087 130
+  105.956 8.8036 88
+  106.947 27.8422 278
+  107.948 9.0941 91
+  108.955 45.3793 453
+  109.955 2.1108 21
+  110.956 7.6035 76
+  115.969 0.9228 9
+  116.977 0.9712 10
+  117.966 9.9020 99
+  118.971 16.8971 169
+  119.966 30.6734 306
+  120.972 27.3405 273
+  121.964 56.8933 568
+  122.971 57.4071 573
+  123.965 10.5861 106
+  124.971 10.0481 100
+  125.964 0.6019 6
+  130.938 2.0944 21
+  131.938 1.8408 18
+  132.936 5.3340 53
+  133.936 0.4264 4
+  134.935 11.4003 114
+  135.940 0.6664 7
+  136.936 2.0267 20
+  138.966 3.0774 31
+  140.967 0.6355 6
+  146.968 2.4058 24
+  147.968 2.2547 23
+  148.967 6.0958 61
+  149.959 1.2644 13
+  150.966 12.9520 129
+  151.964 0.8428 8
+  152.967 2.2308 22
+  153.954 0.7054 7
+  162.964 1.7015 17
+  163.965 1.5269 15
+  164.962 4.3896 44
+  166.961 9.1977 92
+  167.965 0.4429 4
+  168.962 1.6769 17
+  175.991 1.5123 15
+  177.987 16.8025 168
+  178.091 0.3371 3
+  178.988 14.5911 146
+  179.985 44.2417 442
+  180.989 2.3280 23
+  181.985 93.8985 938
+  182.579 0.3345 3
+  182.650 0.3902 4
+  182.988 4.7383 47
+  183.985 16.5112 165
+  184.989 0.8998 9
+//
