@@ -1,17 +1,17 @@
 ACCESSION: MSBNK-SMB_Measured-HSA022R0286002
 RECORD_TITLE: Piperine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 219 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 mz 286.143856; int 295.038; delta(ppm) 0.917213
+COMMENT: PRECURSOR_IN_MS1 mz 286.143856; int 295.038; delta(ppm) 0.003628
 COMMENT: PROPOSED_MF SevenGoldenRules 0.302; C17H19NO3; [M+H]+; delta(ppm) 0.301610; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.415; C17H19NO3; [M+H]+; delta(ppm) 0.297363; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 36.378; C17H19NO3; [M+H]+; delta(ppm) 0.297363; Ranking 3;
@@ -20,7 +20,7 @@ COMMENT: PROPOSED_MF SIRIUS6_Sirius 61.793; C17H19NO3; [M+H]+; delta(ppm) 0.2973
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C17H19NO3; [M+H]+; delta(ppm) 0.297363; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 39.000; MXXWOMGUGJBKIW-YPCIICBESA-N; C17H19NO3; Massbank:AU252306 Piperine(2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 9.000; MXXWOMGUGJBKIW-UHFFFAOYSA-N; C17H19NO3; Piperine; Ranking 2;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.770; MXXWOMGUGJBKIW-YPCIICBESA-N; [M+H]+; O=C(\C=C\C=C\C1=CC2=C(OCO2)C=C1)N1CCCCC1; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.770; MXXWOMGUGJBKIW; [M+H]+; Piperine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.841; MXXWOMGUGJBKIW-YPCIICBESA-N; [M+H]+; Piperine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; MXXWOMGUGJBKIW-YPCIICBESA-N; [M+H]+; Piperine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.135; MXXWOMGUGJBKIW-YPCIICBESA-N; [M+H]+; (2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one; Ranking 2;
@@ -28,7 +28,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.609; MXXWOMGUGJBKIW; [M+H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.999; MXXWOMGUGJBKIW; [M+H]+; piperine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -6.187; MXXWOMGUGJBKIW; [M+H]+; Piperin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.992; MXXWOMGUGJBKIW; [M+H]+; Piperin; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 48 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0029377)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 48 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0029377)
 CH$NAME: Piperine
 CH$NAME: Piperin
 CH$NAME: 5-(1,3-benzodioxol-5-yl)-1-piperidino-penta-2,4-dien-1-one

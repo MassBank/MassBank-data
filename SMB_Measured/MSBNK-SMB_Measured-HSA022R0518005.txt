@@ -1,17 +1,17 @@
 ACCESSION: MSBNK-SMB_Measured-HSA022R0518005
 RECORD_TITLE: LysoPC(16:0); LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 39 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 mz 518.322048; int 62.404; delta(ppm) 0.394180
+COMMENT: PRECURSOR_IN_MS1 mz 518.322048; int 62.404; delta(ppm) 0.115847
 COMMENT: PROPOSED_MF SevenGoldenRules 0.569; C24H50NO7P; [M+Na]+; delta(ppm) 0.569314; Ranking 3;
 COMMENT: PROPOSED_MF MS-FINDER 3.145; C24H50NO7P; [M+Na]+; delta(ppm) 46413.418593; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 5002.221; C24H50NO7P; [M+Na]+; delta(ppm) 46413.418593; Ranking 1;
@@ -19,13 +19,13 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C24H50NO7P; [M+Na]+; delta(ppm) 46413
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 28.313; C24H50NO7P; [M+Na]+; delta(ppm) 46413.418593; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C24H50NO7P; [M+Na]+; delta(ppm) 46413.418593; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; ASWBNKHCZGQVJV-HSZRJFAPSA-N; C24H50NO7P; Spectral Match to 1-Hexadecanoyl-sn-glycero-3-phosphocholine from NIST14; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.533; ASWBNKHCZGQVJV-HSZRJFAPSA-N; [M+Na]+; LysoPC(16:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.535; ASWBNKHCZGQVJV-HSZRJFAPSA-N; [M+Na]+; LysoPC(16:0); Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; ASWBNKHCZGQVJV-HSZRJFAPSA-N; [M+Na]+; LysoPC(16:0); Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.622; ASWBNKHCZGQVJV; [M+Na]+; 1-16:0-lysoPC; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.620; ASWBNKHCZGQVJV; [M+Na]+; 1-16:0-lysoPC; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -161.902; ASWBNKHCZGQVJV; [M+Na]+; 1-Palmitoyl-sn-glycero-3-phosphocholine-d9; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.609; ASWBNKHCZGQVJV; [M+Na]+; 1-Palmitoyl-sn-glycero-3-phosphocholine-d9; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS5_CSI (FDR < 0.05); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 3 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0010382)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS5_CSI (FDR < 0.05); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 3 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0010382)
 CH$NAME: LysoPC(16:0)
 CH$NAME: (3-hexadecanoyloxy-2-hydroxypropyl) 2-(trimethylazaniumyl)ethyl phosphate
 CH$COMPOUND_CLASS: Natural product

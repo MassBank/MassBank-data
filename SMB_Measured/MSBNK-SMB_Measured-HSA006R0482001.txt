@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA006R0482001
 RECORD_TITLE: LysoPE(18:0/0:0); LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 32 product ion spectra among 31 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001264
 COMMENT: DATASET_TITLE Antibiotics and Dietary Minerals Lipidomics
 COMMENT: DATASET_AUTHORS Jacob Folz, University of California, Davis
-COMMENT: PRECURSOR_IN_MS1 mz 482.324192; int 14.996; delta(ppm) 0.095915
+COMMENT: PRECURSOR_IN_MS1 mz 482.324192; int 14.996; delta(ppm) -0.004085
 COMMENT: PROPOSED_MF SevenGoldenRules 0.166; C23H48NO7P; [M+H]+; delta(ppm) 0.166211; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.454; C23H48NO7P; [M+H]+; delta(ppm) 0.165191; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 5026.161; C23H48NO7P; [M+H]+; delta(ppm) 0.165191; Ranking 1;
@@ -20,7 +20,7 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C23H48NO7P; [M+H]+; delta(ppm) 0.1651
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 29.564; C23H48NO7P; [M+H]+; delta(ppm) 0.165191; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C23H48NO7P; [M+H]+; delta(ppm) 0.165191; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; BBYWOYAFBUOUFP-JOCHJYFZSA-N; C23H48NO7P; Spectral Match to 1-Stearoyl-2-hydroxy-sn-glycero-3-phosphoethanolamine from NIST14; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.715; BBYWOYAFBUOUFP-JOCHJYFZSA-N; [M+H]+; CCCCCCCCCCCCCCCCCC(=O)OC[C@@H](O)COP(O)(=O)OCCN; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.715; BBYWOYAFBUOUFP; [M+H]+; LysoPE(18:0/0:0); Ranking 2;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.668; BBYWOYAFBUOUFP-JOCHJYFZSA-N; [M+H]+; LysoPE(18:0/0:0); Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; BBYWOYAFBUOUFP-JOCHJYFZSA-N; [M+H]+; LysoPE(18:0/0:0); Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.000; BBYWOYAFBUOUFP-JOCHJYFZSA-N; [M+H]+; [(2R)-3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-hydroxypropyl] octadecanoate; Ranking 1;
@@ -28,7 +28,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.990; BBYWOYAFBUOUFP; [M+H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.448; BBYWOYAFBUOUFP; [M+H]+; 1-stearoyl-phosphatidylethenolamine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -50.763; BBYWOYAFBUOUFP; [M+H]+; 1-Stearoyl-Sn-Glycero-3-Phosphoethanolamine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.781; BBYWOYAFBUOUFP; [M+H]+; 1-Stearoyl-Sn-Glycero-3-Phosphoethanolamine; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0011130)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0011130)
 CH$NAME: LysoPE(18:0/0:0)
 CH$NAME: stearic acid [3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-hydroxy-propyl] ester
 CH$COMPOUND_CLASS: Natural product

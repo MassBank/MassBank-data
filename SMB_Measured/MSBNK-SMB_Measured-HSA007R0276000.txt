@@ -1,0 +1,75 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0276000
+RECORD_TITLE: Glutarylcarnitine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 37 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 276.142868; int 54.081; delta(ppm) -3.034532
+COMMENT: PROPOSED_MF SevenGoldenRules 1.661; C12H21NO6; [M+H]+; delta(ppm) -1.660994; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.475; C12H21NO6; [M+H]+; delta(ppm) -1.657979; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 15.933; C12H21NO6; [M+H]+; delta(ppm) -1.657979; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C12H21NO6; [M+H]+; delta(ppm) -1.657979; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 25.712; C12H21NO6; [M+H]+; delta(ppm) -1.657979; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C12H21NO6; [M+H]+; delta(ppm) -1.657979; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.131; NXJAXUYOQLTISD; [M+H]+; Glutarylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.057; NXJAXUYOQLTISD-IMWMWJONNA-N; [M+H]+; Glutarylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; NXJAXUYOQLTISD-IMWMWJONNA-N; [M+H]+; Glutarylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -17.529; NXJAXUYOQLTISD; [M+H]+; Glutarylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.617; NXJAXUYOQLTISD; [M+H]+; Glutarylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -83.771; NXJAXUYOQLTISD; [M+H]+; [(2R)-3-carboxy-2-(4-carboxybutanoyloxy)propyl]-dimethyl-(trideuteriomethyl)azanium; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.969; NXJAXUYOQLTISD; [M+H]+; [(2R)-3-carboxy-2-(4-carboxybutanoyloxy)propyl]-dimethyl-(trideuteriomethyl)azanium; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0013130)
+CH$NAME: Glutarylcarnitine
+CH$NAME: 3-(4-carboxybutanoyloxy)-4-(trimethylammonio)butyrate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C12H21NO6
+CH$EXACT_MASS: 275.136887
+CH$SMILES: C[N+](C)(C)CC(CC(=O)[O-])OC(=O)CCCC(=O)O
+CH$IUPAC: InChI=1S/C12H21NO6/c1-13(2,3)8-9(7-11(16)17)19-12(18)6-4-5-10(14)15/h9H,4-8H2,1-3H3,(H-,14,15,16,17)
+CH$LINK: HMDB HMDB0013130
+CH$LINK: INCHIKEY NXJAXUYOQLTISD-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:71464488
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.621
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 276.143706
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-9340000000-5224c579104de06f5dec
+PK$ANNOTATION: m/z int mzPAF cor n
+  60.080568 111 f{C3H10N1}/-3.46ppm,p-C9H12O6 0.6794 27
+  85.028030 999 f{C4H5O2}/-4.42ppm,p-C8H17N1O4 0.8593 36
+  115.038053 225 f{C5H7O3}/-7.98ppm,p-C7H15N1O3 0.5956 31
+  199.060011 258 f{C9H11O5}/-0.45ppm,p-C3H11N1O1 0.8021 34
+  217.070793 84 f{C9H13O6}/0.59ppm,p-C3H9N1 0.6298 29
+  276.143826 457 f{C12H22N1O6}/-1.22ppm,p 1.0000 37
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  60.080568 111.00 111
+  85.028030 999.00 999
+  115.038053 225.00 225
+  199.060011 258.00 258
+  217.070793 84.00 84
+  276.143826 457.00 457
+//

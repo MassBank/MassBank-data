@@ -1,0 +1,74 @@
+ACCESSION: MSBNK-SMB_Measured-HSA021R0230006
+RECORD_TITLE: Paracetamol sulfate; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 110 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 230.012839; int 74.157; delta(ppm) -0.065103
+COMMENT: PROPOSED_MF SevenGoldenRules 0.056; C8H9NO5S; [M-H]1; delta(ppm) -0.056272; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.393; C8H9NO5S; [M-H]-; delta(ppm) -0.056399; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 12.238; C8H9NO5S; [M-H]-; delta(ppm) -0.056399; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C8H9NO5S; [M-H]-; delta(ppm) -0.056399; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 17.544; C8H9NO5S; [M-H]-; delta(ppm) -0.056399; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C8H9NO5S; [M-H]-; delta(ppm) -0.056399; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.758; IGTYILLPRJOVFY; [M-H]-; Paracetamol sulfate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.658; IGTYILLPRJOVFY-UHFFFAOYSA-N; [M-H]-; Paracetamol sulfate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; IGTYILLPRJOVFY-UHFFFAOYSA-N; [M-H]-; Paracetamol sulfate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.946; IGTYILLPRJOVFY-UHFFFAOYSA-N; [M-H]-; (4-acetamidophenyl) hydrogen sulfate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -9.247; IGTYILLPRJOVFY; [M-H]-; Paracetamol sulfate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.557; IGTYILLPRJOVFY; [M-H]-; Paracetamol sulfate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -38.290; IGTYILLPRJOVFY; [M-H]-; (4-acetamidophenyl)oxidanesulfonic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.935; IGTYILLPRJOVFY; [M-H]-; (4-acetamidophenyl)oxidanesulfonic acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0059911)
+CH$NAME: Paracetamol sulfate
+CH$NAME: (4-acetamidophenyl) hydrogen sulfate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C8H9NO5S
+CH$EXACT_MASS: 231.020144
+CH$SMILES: CC(=O)NC1=CC=C(C=C1)OS(=O)(=O)O
+CH$IUPAC: InChI=1S/C8H9NO5S/c1-6(10)9-7-2-4-8(5-3-7)14-15(11,12)13/h2-5H,1H3,(H,9,10)(H,11,12,13)
+CH$LINK: HMDB HMDB0059911
+CH$LINK: INCHIKEY IGTYILLPRJOVFY-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:83939
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 2.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.519
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 230.012854
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0udi-1920000000-bca42f723770ddc16c7a
+PK$ANNOTATION: m/z int mzPAF cor n
+  79.957403 181 f{O3S1}/0.50ppm,p-C8H8N1O2 0.9903 110
+  107.037810 24 f{C6H5N1O1}/1.38ppm,p-C2H3O4S1 0.9570 81
+  108.045621 83 f{C6H6N1O1}/1.24ppm,p-C2H2O4S1 0.9852 105
+  150.056131 999 f{C8H8N1O2}/0.53ppm,p-O3S1 0.9950 110
+  230.013013 289 f{C8H8N1O5S1}/0.64ppm,p 1.0000 110
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  79.957403 181.00 181
+  107.037810 24.00 24
+  108.045621 83.00 83
+  150.056131 999.00 999
+  230.013013 289.00 289
+//

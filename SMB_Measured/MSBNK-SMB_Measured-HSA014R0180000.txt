@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA014R0180000
 RECORD_TITLE: Tyrosine; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 39 product ion spectra among 27 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS6402
 COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
 COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
-COMMENT: PRECURSOR_IN_MS1 mz 180.066593; int 33.922; delta(ppm) 0.785078
+COMMENT: PRECURSOR_IN_MS1 mz 180.066593; int 33.922; delta(ppm) 0.005617
 COMMENT: PROPOSED_MF SevenGoldenRules 0.144; C9H11NO3; [M-H]1; delta(ppm) -0.143588; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.217; C9H11NO3; [M-H]-; delta(ppm) -0.143238; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 30.830; C9H11NO3; [M-H]-; delta(ppm) -0.143238; Ranking 1;
@@ -21,15 +21,15 @@ COMMENT: PROPOSED_MF SIRIUS6_Sirius 37.626; C9H11NO3; [M-H]-; delta(ppm) -0.1432
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.999; C9H11NO3; [M-H]-; delta(ppm) -0.143238; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 14.000; OUYCCCASQSFEME-QMMMGPOBSA-N; C9H11NO3; TYROSINE; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; OUYCCCASQSFEME-UHFFFAOYSA-N; C9H11NO3; L-TYROSINE; Ranking 3;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.471; OUYCCCASQSFEME-QMMMGPOBSA-N; [M-H]-; N[C@@H](CC1=CC=C(O)C=C1)C(O)=O; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.471; OUYCCCASQSFEME; [M-H]-; L-Tyrosine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.730; OUYCCCASQSFEME-QMMMGPOBSA-N; [M-H]-; L-Tyrosine; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; OUYCCCASQSFEME-QMMMGPOBSA-N; [M-H]-; L-Tyrosine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.986; OUYCCCASQSFEME-QMMMGPOBSA-N; [M-H]-; L-Tyrosine; Ranking 5;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; OUYCCCASQSFEME-QMMMGPOBSA-N; [M-H]-; (2S)-2-amino-3-(4-hydroxyphenyl)propanoic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.979; OUYCCCASQSFEME; [M-H]-; tyrosine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.566; OUYCCCASQSFEME; [M-H]-; tyrosine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -66.658; OUYCCCASQSFEME; [M-H]-; L-Tyr; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.951; OUYCCCASQSFEME; [M-H]-; L-Tyr; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 17 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000158)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 17 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 5), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000158)
 CH$NAME: Tyrosine
 CH$NAME: Tyr
 CH$NAME: 2-amino-3-(4-hydroxyphenyl)propanoic acid

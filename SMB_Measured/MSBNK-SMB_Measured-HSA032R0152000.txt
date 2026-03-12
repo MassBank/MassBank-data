@@ -1,34 +1,34 @@
 ACCESSION: MSBNK-SMB_Measured-HSA032R0152000
 RECORD_TITLE: Guanine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Yu et al. Front Cell Infect Microbiol. 2022,11,763507
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 38 product ion spectra among 60 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS3233
 COMMENT: DATASET_TITLE The gut microbiome and metabolites are altered and interrelated in patients with rheumatoid arthritis
 COMMENT: DATASET_AUTHORS Die Yu, Juping Du, Xia Pu, Liyuan Zheng, Shuaishuai Chen, Na Wang, Jun Li, Shiyong Chen, Shaobiao Pan, Bo Shen
-COMMENT: PRECURSOR_IN_MS1 mz 152.056923; int 999.000; delta(ppm) 7.923566
+COMMENT: PRECURSOR_IN_MS1 mz 152.056923; int 999.000; delta(ppm) 0.223928
 COMMENT: PROPOSED_MF SevenGoldenRules 1.344; C5H5N5O; [M+H]+; delta(ppm) 1.343929; Ranking 2;
 COMMENT: PROPOSED_MF MS-FINDER 4.448; C5H5N5O; [M+H]+; delta(ppm) 1.333382; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 25.599; C5H5N5O; [M+H]+; delta(ppm) 1.333382; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C5H5N5O; [M+H]+; delta(ppm) 1.333382; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 37.573; C5H5N5O; [M+H]+; delta(ppm) 1.333382; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.984; C5H5N5O; [M+H]+; delta(ppm) 1.333382; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.991; C5H5N5O; [M+H]+; delta(ppm) 1.333382; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; UYTPUPDQBNUYGX-UHFFFAOYSA-N; C5H5N5O; Spectral Match to Guanine from NIST14; Ranking 2;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.193; UYTPUPDQBNUYGX-UHFFFAOYSA-N; [M+H]+; NC1=NC(=O)C2=C(N1)N=CN2; Ranking 4;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.088; UYTPUPDQBNUYGX; [M+H]+; Guanine; Ranking 3;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.005; UYTPUPDQBNUYGX-UHFFFAOYSA-N; [M+H]+; Guanine; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.783; UYTPUPDQBNUYGX-UHFFFAOYSA-N; [M+H]+; Guanine; Ranking 8;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.783; UYTPUPDQBNUYGX-UHFFFAOYSA-N; [M+H]+; Guanine; Ranking 10;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.802; UYTPUPDQBNUYGX-UHFFFAOYSA-N; [M+H]+; 2-amino-1,7-dihydropurin-6-one; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -17.699; UYTPUPDQBNUYGX; [M+H]+; Dew Pearl; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.825; UYTPUPDQBNUYGX; [M+H]+; Dew Pearl; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -43.586; UYTPUPDQBNUYGX; [M+H]+; Guanine; Ranking 1;
-COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.611; UYTPUPDQBNUYGX; [M+H]+; Guanine; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS5_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 3 spectra); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 8), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0000132)
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.610; UYTPUPDQBNUYGX; [M+H]+; Guanine; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS5_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 3 spectra); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 10), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0000132)
 CH$NAME: Guanine
 CH$NAME: 2-amino-3,7-dihydropurin-6-one
 CH$COMPOUND_CLASS: Natural product

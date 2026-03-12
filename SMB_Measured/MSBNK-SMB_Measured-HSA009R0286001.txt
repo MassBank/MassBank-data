@@ -1,35 +1,35 @@
 ACCESSION: MSBNK-SMB_Measured-HSA009R0286001
 RECORD_TITLE: Piperine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 738 product ion spectra among 248 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001171
 COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
 COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
-COMMENT: PRECURSOR_IN_MS1 mz 286.143760; int 69.329; delta(ppm) -0.922417
+COMMENT: PRECURSOR_IN_MS1 mz 286.143760; int 69.329; delta(ppm) 0.007072
 COMMENT: PROPOSED_MF SevenGoldenRules 0.039; C17H19NO3; [M+H]+; delta(ppm) -0.038578; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.320; C17H19NO3; [M+H]+; delta(ppm) -0.041627; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 40.561; C17H19NO3; [M+H]+; delta(ppm) -0.041627; Ranking 3;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C17H19NO3; [M+H]+; delta(ppm) -0.041627; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS6_Sirius 53.509; C17H19NO3; [M+H]+; delta(ppm) -0.041627; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 49.904; C17H19NO3; [M+H]+; delta(ppm) -0.041627; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C17H19NO3; [M+H]+; delta(ppm) -0.041627; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 19.000; MXXWOMGUGJBKIW-YPCIICBESA-N; C17H19NO3; Spectral Match to Piperine from NIST14; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 8.000; MXXWOMGUGJBKIW-UHFFFAOYSA-N; C17H19NO3; Massbank:PR310562 Piperine; Ranking 2;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.747; MXXWOMGUGJBKIW-YPCIICBESA-N; [M+H]+; O=C(\C=C\C=C\C1=CC2=C(OCO2)C=C1)N1CCCCC1; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.747; MXXWOMGUGJBKIW; [M+H]+; Piperine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.260; MXXWOMGUGJBKIW-YPCIICBESA-N; [M+H]+; Piperine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; MXXWOMGUGJBKIW-YPCIICBESA-N; [M+H]+; Piperine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.135; MXXWOMGUGJBKIW-YPCIICBESA-N; [M+H]+; (2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.669; MXXWOMGUGJBKIW; [M+H]+; piperine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.999; MXXWOMGUGJBKIW; [M+H]+; piperine; Ranking 1;
-COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -11.868; MXXWOMGUGJBKIW; [M+H]+; Piperin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -11.867; MXXWOMGUGJBKIW; [M+H]+; Piperin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.991; MXXWOMGUGJBKIW; [M+H]+; Piperin; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 27 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0029377)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 27 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0029377)
 CH$NAME: Piperine
 CH$NAME: Piperin
 CH$NAME: 5-(1,3-benzodioxol-5-yl)-1-piperidino-penta-2,4-dien-1-one
@@ -62,32 +62,34 @@ MS$FOCUSED_ION: ION_TYPE [M+H]+
 MS$FOCUSED_ION: PRECURSOR_M/Z 286.143758
 MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
 MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
-PK$SPLASH: splash10-000i-0490000000-62898c4b3c6885a484fd
+PK$SPLASH: splash10-0f79-0290000000-c6745f9e34ce5d244c10
 PK$ANNOTATION: m/z int mzPAF cor n
-  69.069930 25 f{C5H9}/0.77ppm,p-C12H11N1O3 0.9874 736
-  84.080729 24 f{C5H10N1}/-0.55ppm,p-C12H10O3 0.9900 732
-  86.096356 21 f{C5H12N1}/-0.81ppm,p-C12H8O3 0.9890 726
-  112.075742 61 f{C6H10N1O1}/0.46ppm,p-C11H10O2 0.9962 738
-  115.054405 36 f{C9H7}/1.55ppm,p-C8H13N1O3 0.9909 735
-  135.044145 198 f{C8H7O2}/0.66ppm,p-C9H13N1O1 0.9975 738
-  143.049213 64 f{C10H7O1}/0.50ppm,p-C7H13N1O2 0.9946 738
-  151.099291 19 f{C9H13N1O1}/0.83ppm,p-C8H7O2 0.9880 703
-  159.044069 17 f{C10H7O2}/0.08ppm,p-C7H13N1O1 0.9875 694
-  171.044121 72 f{C11H7O2}/0.38ppm,p-C6H13N1O1 0.9960 738
-  173.059773 49 f{C11H9O2}/0.39ppm,p-C6H11N1O1 0.9938 735
-  286.143746 999 f{C17H20N1O3}/-0.08ppm,p 1.0000 738
-PK$NUM_PEAK: 12
+  69.069930 23 f{C5H9}/0.77ppm,p-C12H11N1O3 0.9874 736
+  84.080729 22 f{C5H10N1}/-0.55ppm,p-C12H10O3 0.9900 732
+  86.096356 19 f{C5H12N1}/-0.81ppm,p-C12H8O3 0.9890 726
+  112.075742 55 f{C6H10N1O1}/0.46ppm,p-C11H10O2 0.9962 738
+  115.054405 33 f{C9H7}/1.55ppm,p-C8H13N1O3 0.9909 735
+  135.044145 180 f{C8H7O2}/0.66ppm,p-C9H13N1O1 0.9975 738
+  143.049213 58 f{C10H7O1}/0.50ppm,p-C7H13N1O2 0.9946 738
+  151.099291 17 f{C9H13N1O1}/0.83ppm,p-C8H7O2 0.9880 703
+  159.044069 15 f{C10H7O2}/0.08ppm,p-C7H13N1O1 0.9875 694
+  171.044121 66 f{C11H7O2}/0.38ppm,p-C6H13N1O1 0.9960 738
+  173.059773 45 f{C11H9O2}/0.39ppm,p-C6H11N1O1 0.9938 735
+  201.054671 999 f{C12H9O3}/0.25ppm,p-C5H11N1 0.9991 738
+  286.143746 911 f{C17H20N1O3}/-0.08ppm,p 1.0000 738
+PK$NUM_PEAK: 13
 PK$PEAK: m/z int. rel.int.
-  69.069930 25.00 25
-  84.080729 24.00 24
-  86.096356 21.00 21
-  112.075742 61.00 61
-  115.054405 36.00 36
-  135.044145 198.00 198
-  143.049213 64.00 64
-  151.099291 19.00 19
-  159.044069 17.00 17
-  171.044121 72.00 72
-  173.059773 49.00 49
-  286.143746 999.00 999
+  69.069930 23.00 23
+  84.080729 22.00 22
+  86.096356 19.00 19
+  112.075742 55.00 55
+  115.054405 33.00 33
+  135.044145 180.00 180
+  143.049213 58.00 58
+  151.099291 17.00 17
+  159.044069 15.00 15
+  171.044121 66.00 66
+  173.059773 45.00 45
+  201.054671 999.00 999
+  286.143746 911.00 911
 //

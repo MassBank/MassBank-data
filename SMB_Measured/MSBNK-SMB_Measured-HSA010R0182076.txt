@@ -1,33 +1,33 @@
 ACCESSION: MSBNK-SMB_Measured-HSA010R0182076
 RECORD_TITLE: Tyrosine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 12 product ion spectra among 101 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001914
 COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
 COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
-COMMENT: PRECURSOR_IN_MS1 mz 182.081227; int 13.762; delta(ppm) -0.980793
+COMMENT: PRECURSOR_IN_MS1 mz 182.081227; int 13.762; delta(ppm) -0.031172
 COMMENT: PROPOSED_MF SevenGoldenRules 0.353; C9H11NO3; [M+H]+; delta(ppm) 0.353447; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.413; C9H11NO3; [M+H]+; delta(ppm) 0.347888; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 59.629; C9H11NO3; [M+H]+; delta(ppm) 0.347888; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C9H11NO3; [M+H]+; delta(ppm) 0.347888; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 73.788; C9H11NO3; [M+H]+; delta(ppm) 0.347888; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H11NO3; [M+H]+; delta(ppm) 0.347888; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.484; OUYCCCASQSFEME-QMMMGPOBSA-N; [M+H]+; N[C@@H](CC1=CC=C(O)C=C1)C(O)=O; Ranking 4;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.484; OUYCCCASQSFEME; [M+H]+; L-Tyrosine; Ranking 4;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.561; OUYCCCASQSFEME-QMMMGPOBSA-N; [M+H]+; L-Tyrosine; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; OUYCCCASQSFEME-QMMMGPOBSA-N; [M+H]+; L-Tyrosine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.917; OUYCCCASQSFEME-QMMMGPOBSA-N; [M+H]+; L-Tyrosine; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.932; OUYCCCASQSFEME-QMMMGPOBSA-N; [M+H]+; (2S)-2-amino-3-(4-hydroxyphenyl)propanoic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.968; OUYCCCASQSFEME; [M+H]+; tyrosine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.621; OUYCCCASQSFEME; [M+H]+; tyrosine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -118.986; OUYCCCASQSFEME; [M+H]+; L-Tyr; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.924; OUYCCCASQSFEME; [M+H]+; L-Tyr; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000158)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000158)
 CH$NAME: Tyrosine
 CH$NAME: Tyr
 CH$NAME: 2-amino-3-(4-hydroxyphenyl)propanoic acid

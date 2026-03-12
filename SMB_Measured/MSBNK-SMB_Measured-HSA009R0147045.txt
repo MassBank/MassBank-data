@@ -1,38 +1,37 @@
 ACCESSION: MSBNK-SMB_Measured-HSA009R0147045
 RECORD_TITLE: Glutamine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 65 product ion spectra among 248 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001171
 COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
 COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 147.076404; int 2.645; delta(ppm) -0.020134
 COMMENT: PROPOSED_MF SevenGoldenRules 0.075; C5H10N2O3; [M+H]+; delta(ppm) -0.075307; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.068; C5H10N2O3; [M+H]+; delta(ppm) -0.079086; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 22.945; C5H10N2O3; [M+H]+; delta(ppm) -0.079086; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C5H10N2O3; [M+H]+; delta(ppm) -0.079086; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS6_Sirius 30.530; C5H10N2O3; [M+H]+; delta(ppm) -0.079086; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 30.532; C5H10N2O3; [M+H]+; delta(ppm) -0.079086; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C5H10N2O3; [M+H]+; delta(ppm) -0.079086; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 31.000; ZDXPYRJPNDTMRX-VKHMYHEASA-N; C5H10N2O3; GLUTAMINE; Ranking 1;
-COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 6.000; ZDXPYRJPNDTMRX-UHFFFAOYSA-N; C5H10N2O3; Massbank:PT102730 L-Glutamic acid 5-amideLevoglutamideCebrogenL-2-Aminoglutaramic acidQ(2S)-2,5-diamino-5-oxopentanoic acidGlumin(S)-2,5-Diamino-5-oxopentanoic acidL-GlutamineGln; Ranking 2;
-COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; ZDXPYRJPNDTMRX-GSVOUGTGSA-N; C5H10N2O3; Glutamine ; Ranking 3;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.889; ZDXPYRJPNDTMRX-VKHMYHEASA-N; [M+H]+; N[C@@H](CCC(N)=O)C(O)=O; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.593; ZDXPYRJPNDTMRX-VKHMYHEASA-N; [M+H]+; L-Glutamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 6.000; ZDXPYRJPNDTMRX-UHFFFAOYSA-N; C5H10N2O3; Massbank:PT102730 L-Glutamic acid 5-amideLevoglutamideCebrogenL-2-Aminoglutaramic acidQ(2S)-2,5-diamino-5-oxopentanoic acidGlumin(S)-2,5-Diamino-5-oxopentanoic acidL-GlutamineGln; Ranking 3;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; ZDXPYRJPNDTMRX-GSVOUGTGSA-N; C5H10N2O3; Glutamine ; Ranking 4;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.667; ZDXPYRJPNDTMRX; [M+H]+; L-Glutamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.622; ZDXPYRJPNDTMRX-VKHMYHEASA-N; [M+H]+; L-Glutamine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; ZDXPYRJPNDTMRX-VKHMYHEASA-N; [M+H]+; L-Glutamine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.464; ZDXPYRJPNDTMRX-VKHMYHEASA-N; [M+H]+; (2S)-2,5-diamino-5-oxopentanoic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -6.582; ZDXPYRJPNDTMRX; [M+H]+; glutamin; Ranking 1;
-COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.862; ZDXPYRJPNDTMRX; [M+H]+; glutamin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.862; ZDXPYRJPNDTMRX; [M+H]+; glutamin; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -77.747; ZDXPYRJPNDTMRX; [M+H]+; Hgln; Ranking 1;
-COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.920; ZDXPYRJPNDTMRX; [M+H]+; Hgln; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 37 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000641)
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.920; ZDXPYRJPNDTMRX; [M+H]+; Hgln; Ranking 2;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 37 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000641)
 CH$NAME: Glutamine
-CH$NAME: Hgln
 CH$NAME: 2,5-diamino-5-oxopentanoic acid
 CH$COMPOUND_CLASS: Natural product
 CH$FORMULA: C5H10N2O3

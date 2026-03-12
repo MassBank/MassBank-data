@@ -1,25 +1,25 @@
 ACCESSION: MSBNK-SMB_Measured-HSA031R0204000
 RECORD_TITLE: Indolelactic acid; LC-ESI-QTOF; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Yu et al. Front Cell Infect Microbiol. 2022,11,763507
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 13 product ion spectra among 59 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS3233
 COMMENT: DATASET_TITLE The gut microbiome and metabolites are altered and interrelated in patients with rheumatoid arthritis
 COMMENT: DATASET_AUTHORS Die Yu, Juping Du, Xia Pu, Liyuan Zheng, Shuaishuai Chen, Na Wang, Jun Li, Shiyong Chen, Shaobiao Pan, Bo Shen
-COMMENT: PRECURSOR_IN_MS1 mz 204.066578; int 999.000; delta(ppm) -8.838467
+COMMENT: PRECURSOR_IN_MS1 mz 204.066578; int 999.000; delta(ppm) -0.058046
 COMMENT: PROPOSED_MF SevenGoldenRules 0.132; C11H11NO3; [M-H]1; delta(ppm) -0.131660; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.534; C11H11NO3; [M-H]-; delta(ppm) -0.131292; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 46.340; C11H11NO3; [M-H]-; delta(ppm) -0.131292; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C11H11NO3; [M-H]-; delta(ppm) -0.131292; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 62.704; C11H11NO3; [M-H]-; delta(ppm) -0.131292; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.997; C11H11NO3; [M-H]-; delta(ppm) -0.131292; Ranking 3;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.467; XGILAAMKEQUXLS-UHFFFAOYNA-N; [M-H]-; OC(CC1=CNC2=C1C=CC=C2)C(O)=O; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.998; C11H11NO3; [M-H]-; delta(ppm) -0.131292; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.467; XGILAAMKEQUXLS; [M-H]-; Indolelactic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.543; XGILAAMKEQUXLS-UHFFFAOYNA-N; [M-H]-; Indolelactic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; XGILAAMKEQUXLS-UHFFFAOYNA-N; [M-H]-; Indolelactic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; XGILAAMKEQUXLS-UHFFFAOYSA-N; [M-H]-; 2-hydroxy-3-(1H-indol-3-yl)propanoic acid; Ranking 1;
@@ -27,7 +27,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -5.247; XGILAAMKEQUXLS; [M-H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.830; XGILAAMKEQUXLS; [M-H]-; bmse000409; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -11.115; XGILAAMKEQUXLS; [M-H]-; Indolelactate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.937; XGILAAMKEQUXLS; [M-H]-; Indolelactate; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000671)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000671)
 CH$NAME: Indolelactic acid
 CH$NAME: Indolelactate
 CH$NAME: 2-hydroxy-3-(1H-indol-3-yl)propanoic acid

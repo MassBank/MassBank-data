@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA007R0190001
 RECORD_TITLE: Kynurenic acid; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 59 product ion spectra among 60 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS417
 COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
 COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
-COMMENT: PRECURSOR_IN_MS1 mz 190.049581; int 416.608; delta(ppm) -4.354149
+COMMENT: PRECURSOR_IN_MS1 mz 190.049581; int 416.608; delta(ppm) -1.325950
 COMMENT: PROPOSED_MF SevenGoldenRules 0.190; C10H7NO3; [M+H]+; delta(ppm) -0.190433; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.674; C10H7NO3; [M+H]+; delta(ppm) -0.192205; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 36.152; C10H7NO3; [M+H]+; delta(ppm) -0.192205; Ranking 1;
@@ -27,7 +27,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -17.299; HCZHHEIFKROPDY; [M+H
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.592; HCZHHEIFKROPDY; [M+H]+; bmse000410; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -11.499; HCZHHEIFKROPDY; [M+H]+; Kynurenate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.920; HCZHHEIFKROPDY; [M+H]+; Kynurenate; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 16 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000715)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 16 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000715)
 CH$NAME: Kynurenic acid
 CH$NAME: Kynurenate
 CH$NAME: 4-oxo-1H-quinoline-2-carboxylic acid

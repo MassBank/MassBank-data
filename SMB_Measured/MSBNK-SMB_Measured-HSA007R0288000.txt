@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA007R0288000
 RECORD_TITLE: Octanoylcarnitine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 61 product ion spectra among 60 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS417
 COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
 COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
-COMMENT: PRECURSOR_IN_MS1 mz 288.216879; int 999.000; delta(ppm) -3.004208
+COMMENT: PRECURSOR_IN_MS1 mz 288.216879; int 999.000; delta(ppm) -0.652262
 COMMENT: PROPOSED_MF SevenGoldenRules 0.463; C15H29NO4; [M+H]+; delta(ppm) 0.463076; Ranking 2;
 COMMENT: PROPOSED_MF MS-FINDER 3.939; C15H29NO4; [M+H]+; delta(ppm) 0.458500; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 16.463; C15H29NO4; [M+H]+; delta(ppm) 0.458500; Ranking 1;
@@ -20,14 +20,14 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C15H29NO4; [M+H]+; delta(ppm) 0.45850
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 28.993; C15H29NO4; [M+H]+; delta(ppm) 0.458500; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C15H29NO4; [M+H]+; delta(ppm) 0.458500; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 5.000; CXTATJFJDMJMIY-CYBMUJFWSA-N; C15H29NO4; Massbank:RP025302 Octanoyl-L-CarnitineL-Octanoylcarnitine(3R)-3-octanoyloxy-4-(trimethylazaniumyl)butanoate; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.727; CXTATJFJDMJMIY-CYBMUJFWSA-N; [M+H]+; CCCCCCCC(=O)O[C@H](CC([O-])=O)C[N+](C)(C)C; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.178; CXTATJFJDMJMIY-CYBMUJFWSA-N; [M+H]+; L-Octanoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.727; CXTATJFJDMJMIY; [M+H]+; L-Octanoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.242; CXTATJFJDMJMIY-CYBMUJFWSA-N; [M+H]+; L-Octanoylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; CXTATJFJDMJMIY-CYBMUJFWSA-N; [M+H]+; L-Octanoylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -5.761; CXTATJFJDMJMIY; [M+H]+; Tocris-0605; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.898; CXTATJFJDMJMIY; [M+H]+; Tocris-0605; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -60.046; CXTATJFJDMJMIY; [M+H]+; Octanoylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.991; CXTATJFJDMJMIY; [M+H]+; Octanoylcarnitine; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 5 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000791)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 5 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000791)
 CH$NAME: Octanoylcarnitine
 CH$NAME: 3-caprylyloxy-4-(trimethylammonio)butyrate
 CH$COMPOUND_CLASS: Natural product
@@ -64,7 +64,7 @@ PK$ANNOTATION: m/z int mzPAF cor n
   85.028610 999 f{C4H5O2}/2.40ppm,p-C11H25N1O2 0.9824 54
   127.111819 47 f{C8H15O1}/0.61ppm,p-C7H15N1O3 0.9383 51
   144.101902 33 f{C7H14N1O2}/-0.02ppm,p-C8H16O2 0.9453 51
-  229.144399 77 f{C15H19N1O1}/-7.49ppm,p-H11O3 0.9708 56
+  229.144399 77 f{C12H21O4}/4.20ppm,p-C3H9N1 0.9708 56
   288.217901 250 f{C15H30N1O4}/3.35ppm,p 1.0000 61
 PK$NUM_PEAK: 7
 PK$PEAK: m/z int. rel.int.

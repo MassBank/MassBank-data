@@ -1,24 +1,24 @@
 ACCESSION: MSBNK-SMB_Measured-HSA009R0388000
 RECORD_TITLE: Octaethylene glycol; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 106 product ion spectra among 248 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001171
 COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
 COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
-COMMENT: PRECURSOR_IN_MS1 mz 388.254012; int 4.942; delta(ppm) -1.240049
+COMMENT: PRECURSOR_IN_MS1 mz 388.254012; int 4.942; delta(ppm) 0.000061
 COMMENT: PROPOSED_MF SevenGoldenRules 0.254; C16H34O9; [M+NH4]+; delta(ppm) -0.253903; Ranking 2;
 COMMENT: PROPOSED_MF MS-FINDER 3.785; C16H34O9; [M+NH4]+; delta(ppm) -0.247821; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 27.171; C16H34O9; [M+H3N+H]+; delta(ppm) -0.247821; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C16H34O9; [M+H3N+H]+; delta(ppm) -0.247821; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 45.729; C16H34O9; [M+H3N+H]+; delta(ppm) -0.247821; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C16H34O9; [M+H3N+H]+; delta(ppm) -0.247821; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.999; C16H34O9; [M+H3N+H]+; delta(ppm) -0.247821; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.051; GLZWNFNQMJAZGY-UHFFFAOYSA-N; [M+NH4]+; Octaethylene glycol; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; GLZWNFNQMJAZGY-UHFFFAOYSA-N; [M+NH4]+; Octaethylene glycol; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; GLZWNFNQMJAZGY-UHFFFAOYSA-N; [M+NH4]+; 2-[2-[2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethanol; Ranking 1;
@@ -26,7 +26,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -3.037; GLZWNFNQMJAZGY; [M+H3
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.568; GLZWNFNQMJAZGY; [M+H3N+H]+; PED-diol (n=8); Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -3.120; GLZWNFNQMJAZGY; [M+H3N+H]+; 3,6,9,12,15,18,21-heptaoxatricosane-1,23-diol; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.641; GLZWNFNQMJAZGY; [M+H3N+H]+; 3,6,9,12,15,18,21-heptaoxatricosane-1,23-diol; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0094680)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0094680)
 CH$NAME: Octaethylene glycol
 CH$NAME: 2-[2-[2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethanol
 CH$COMPOUND_CLASS: Non-Natural Product
@@ -58,20 +58,24 @@ MS$FOCUSED_ION: ION_TYPE [M+NH4]+
 MS$FOCUSED_ION: PRECURSOR_M/Z 388.254012
 MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
 MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
-PK$SPLASH: splash10-0080-7904000000-00b2890c5229841501b7
+PK$SPLASH: splash10-0080-7904000000-7c7827501c1cec670176
 PK$ANNOTATION: m/z int mzPAF cor n
   87.044097 35 f{C4H7O2}/0.47ppm,p-C12H31N1O7 0.8449 76
   89.059769 999 f{C4H9O2}/0.71ppm,p-C12H29N1O7 0.9542 106
   133.086023 853 f{C6H13O3}/0.77ppm,p-C10H25N1O6 0.9606 106
   177.112127 322 f{C8H17O4}/-0.05ppm,p-C8H21N1O5 0.9589 106
+  221.138371 48 f{C10H21O5}/0.09ppm,p-C6H17N1O4 0.9182 89
+  283.175393 45 f{C12H27O7}/0.93ppm,p-C4H11N1O2 0.8803 83
   327.201792 44 f{C14H31O8}/1.37ppm,p-C2H7N1O1 1.0000 78
   371.227451 521 f{C16H35O9}/-0.29ppm,p-H3N1 0.9554 106
-PK$NUM_PEAK: 6
+PK$NUM_PEAK: 8
 PK$PEAK: m/z int. rel.int.
   87.044097 35.00 35
   89.059769 999.00 999
   133.086023 853.00 853
   177.112127 322.00 322
+  221.138371 48.00 48
+  283.175393 45.00 45
   327.201792 44.00 44
   371.227451 521.00 521
 //

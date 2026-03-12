@@ -1,35 +1,35 @@
 ACCESSION: MSBNK-SMB_Measured-HSA009R0162048
 RECORD_TITLE: Carnitine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 10 product ion spectra among 248 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001171
 COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
 COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 162.112419; int 7.395; delta(ppm) 0.000178
 COMMENT: PROPOSED_MF SevenGoldenRules 0.310; C7H15NO3; [M+H]+; delta(ppm) -0.310356; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.804; C7H15NO3; [M+H]+; delta(ppm) -0.313263; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 24.387; C7H15NO3; [M+H]+; delta(ppm) -0.313263; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C7H15NO3; [M+H]+; delta(ppm) -0.313263; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS6_Sirius 34.166; C7H15NO3; [M+H]+; delta(ppm) -0.313263; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 34.202; C7H15NO3; [M+H]+; delta(ppm) -0.313263; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C7H15NO3; [M+H]+; delta(ppm) -0.313263; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 32.000; PHIQHXFUZVPYII-ZCFIWIBFSA-N; C7H15NO3; L-CARNITINE - 30.0 eV; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 13.000; PHIQHXFUZVPYII-UHFFFAOYSA-N; C7H15NO3; Carnitine - 20.00 eV; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 5.000; PHIQHXFUZVPYII-LURJTMIESA-N; C7H15NO3; L-CARNITINE; Ranking 3;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.123; PHIQHXFUZVPYII-ZCFIWIBFSA-N; [M+H]+; C[N+](C)(C)C[C@H](O)CC([O-])=O; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.123; PHIQHXFUZVPYII; [M+H]+; L-Carnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.265; PHIQHXFUZVPYII-ZCFIWIBFSA-N; [M+H]+; L-Carnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; PHIQHXFUZVPYII-ZCFIWIBFSA-N; [M+H]+; L-Carnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -3.965; PHIQHXFUZVPYII; [M+H]+; Carnitin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.999; PHIQHXFUZVPYII; [M+H]+; Carnitin; Ranking 1;
-COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -22.547; PHIQHXFUZVPYII; [M+H]+; (3-Carboxy-2-hydroxypropyl)-tris(trideuteriomethyl)azanium; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -22.537; PHIQHXFUZVPYII; [M+H]+; (3-Carboxy-2-hydroxypropyl)-tris(trideuteriomethyl)azanium; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.997; PHIQHXFUZVPYII; [M+H]+; (3-Carboxy-2-hydroxypropyl)-tris(trideuteriomethyl)azanium; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 50 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000062)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 50 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000062)
 CH$NAME: Carnitine
 CH$NAME: 3-hydroxy-4-(trimethylazaniumyl)butanoate
 CH$COMPOUND_CLASS: Natural product

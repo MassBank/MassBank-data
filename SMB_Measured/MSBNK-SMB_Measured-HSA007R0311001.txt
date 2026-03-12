@@ -1,0 +1,92 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0311001
+RECORD_TITLE: gamma-Glutamyltyrosine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 48 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 311.123434; int 697.286; delta(ppm) -2.143961
+COMMENT: PROPOSED_MF SevenGoldenRules 1.093; C14H18N2O6; [M+H]+; delta(ppm) 1.093136; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 4.149; C14H18N2O6; [M+H]+; delta(ppm) 1.087179; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 62.006; C14H18N2O6; [M+H]+; delta(ppm) 1.087179; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C14H18N2O6; [M+H]+; delta(ppm) 1.087179; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 91.538; C14H18N2O6; [M+H]+; delta(ppm) 1.087179; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C14H18N2O6; [M+H]+; delta(ppm) 1.087179; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.440; VVLXCWVSSLFQDS; [M+H]+; gamma-Glutamyltyrosine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.574; VVLXCWVSSLFQDS-DUJBIPCPNA-N; [M+H]+; gamma-Glutamyltyrosine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; VVLXCWVSSLFQDS-DUJBIPCPNA-N; [M+H]+; gamma-Glutamyltyrosine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -9.607; VVLXCWVSSLFQDS; [M+H]+; gamma-GLU-TYR; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.729; VVLXCWVSSLFQDS; [M+H]+; gamma-GLU-TYR; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -151.365; VVLXCWVSSLFQDS; [M+H]+; Gamma-Glu-Tyr; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.980; VVLXCWVSSLFQDS; [M+H]+; Gamma-Glu-Tyr; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0011741)
+CH$NAME: gamma-Glutamyltyrosine
+CH$NAME: Gamma-Glu-Tyr
+CH$NAME: 2-amino-5-[[1-carboxy-2-(4-hydroxyphenyl)ethyl]amino]-5-oxopentanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C14H18N2O6
+CH$EXACT_MASS: 310.116486
+CH$SMILES: C1=CC(=CC=C1CC(C(=O)O)NC(=O)CCC(C(=O)O)N)O
+CH$IUPAC: InChI=1S/C14H18N2O6/c15-10(13(19)20)5-6-12(18)16-11(14(21)22)7-8-1-3-9(17)4-2-8/h1-4,10-11,17H,5-7,15H2,(H,16,18)(H,19,20)(H,21,22)
+CH$LINK: HMDB HMDB0011741
+CH$LINK: INCHIKEY VVLXCWVSSLFQDS-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:5056755
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.923
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 311.124101
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-015i-1910000000-960e3a134342455ff3db
+PK$ANNOTATION: m/z int mzPAF cor n
+  84.043936 457 f{C4H6N1O1}/-5.41ppm,p-C10H13N1O5 0.7337 47
+  91.053905 175 f{C7H7}/-3.54ppm,p-C7H12N2O6 0.6352 37
+  95.049655 94 f{C6H7O1}/5.41ppm,p-C8H12N2O5 0.5818 35
+  119.048969 337 f{C8H7O1}/-1.45ppm,p-C6H12N2O5 0.5755 47
+  123.043823 468 f{C7H7O2}/-1.89ppm,p-C7H12N2O4 0.6778 48
+  130.049697 143 f{C5H8N1O3}/-1.33ppm,p-C9H11N1O3 0.7779 45
+  136.075611 999 f{C8H10N1O1}/-0.58ppm,p-C6H9N1O5 0.6185 48
+  147.043883 281 f{C9H7O2}/-1.18ppm,p-C5H12N2O4 0.6568 46
+  165.054710 889 f{C9H9O3}/0.54ppm,p-C5H10N2O3 0.6565 48
+  182.081151 554 f{C9H12N1O3}/-0.10ppm,p-C5H7N1O3 0.6467 48
+  202.086225 211 f{C12H12N1O2}/-0.15ppm,p-C2H7N1O4 0.7071 43
+  248.091730 124 f{C13H14N1O4}/-0.02ppm,p-C1H5N1O2 0.7511 45
+  294.097318 112 f{C14H16N1O6}/0.36ppm,p-H3N1 0.6603 44
+  311.123629 148 f{C14H19N2O6}/-0.43ppm,p 1.0000 48
+PK$NUM_PEAK: 14
+PK$PEAK: m/z int. rel.int.
+  84.043936 457.00 457
+  91.053905 175.00 175
+  95.049655 94.00 94
+  119.048969 337.00 337
+  123.043823 468.00 468
+  130.049697 143.00 143
+  136.075611 999.00 999
+  147.043883 281.00 281
+  165.054710 889.00 889
+  182.081151 554.00 554
+  202.086225 211.00 211
+  248.091730 124.00 124
+  294.097318 112.00 112
+  311.123629 148.00 148
+//

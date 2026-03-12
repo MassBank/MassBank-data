@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA007R0204000
 RECORD_TITLE: Acetylcarnitine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 228 product ion spectra among 60 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS417
 COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
 COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
-COMMENT: PRECURSOR_IN_MS1 mz 204.122852; int 587.609; delta(ppm) -3.499585
+COMMENT: PRECURSOR_IN_MS1 mz 204.122852; int 587.609; delta(ppm) -0.288921
 COMMENT: PROPOSED_MF SevenGoldenRules 0.606; C9H17NO4; [M+H]+; delta(ppm) -0.605566; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.833; C9H17NO4; [M+H]+; delta(ppm) -0.604878; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 16.167; C9H17NO4; [M+H]+; delta(ppm) -0.604878; Ranking 1;
@@ -22,14 +22,14 @@ COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H17NO4; [M+H]+; delta(ppm) -0.60487
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 22.000; RDHQFKQIGNGIED-MRVPVSSYSA-N; C9H17NO4; Acetylcarnitine - 40.0 eV; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 10.000; RDHQFKQIGNGIED-UHFFFAOYSA-N; C9H17NO4; Spectral Match to Acetyl-DL-carnitine from NIST14; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; RDHQFKQIGNGIED-QMMMGPOBSA-N; C9H17NO4; Massbank:RP025202 Acetyl-L-Carnitineacetyl-d-carnitine(3S)-3-acetyloxy-4-(trimethylazaniumyl)butanoate; Ranking 3;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.317; RDHQFKQIGNGIED-UHFFFAOYNA-N; [M+H]+; CC(=O)OC(CC([O-])=O)C[N+](C)(C)C; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.317; RDHQFKQIGNGIED; [M+H]+; L-Acetylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.858; RDHQFKQIGNGIED-UHFFFAOYNA-N; [M+H]+; L-Acetylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; RDHQFKQIGNGIED-UHFFFAOYNA-N; [M+H]+; L-Acetylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -7.397; RDHQFKQIGNGIED; [M+H]+; Branigen; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.985; RDHQFKQIGNGIED; [M+H]+; Branigen; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -15.327; RDHQFKQIGNGIED; [M+H]+; Acetylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.987; RDHQFKQIGNGIED; [M+H]+; Acetylcarnitine; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 34 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000201)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 34 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000201)
 CH$NAME: Acetylcarnitine
 CH$NAME: 3-acetyloxy-4-(trimethylazaniumyl)butanoate
 CH$COMPOUND_CLASS: Natural product

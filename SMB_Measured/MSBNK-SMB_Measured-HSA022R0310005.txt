@@ -1,24 +1,24 @@
 ACCESSION: MSBNK-SMB_Measured-HSA022R0310005
 RECORD_TITLE: Tyrosyl-Glutamine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 58 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 mz 310.139702; int 11.547; delta(ppm) 0.851169
+COMMENT: PRECURSOR_IN_MS1 mz 310.139702; int 11.547; delta(ppm) 0.003238
 COMMENT: PROPOSED_MF SevenGoldenRules 0.149; C14H19N3O5; [M+H]+; delta(ppm) -0.148804; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.041; C14H19N3O5; [M+H]+; delta(ppm) -0.148869; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 26.912; C14H19N3O5; [M+H]+; delta(ppm) -0.148869; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C14H19N3O5; [M+H]+; delta(ppm) -0.148869; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 43.275; C14H19N3O5; [M+H]+; delta(ppm) -0.148869; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C14H19N3O5; [M+H]+; delta(ppm) -0.148869; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.081; UBAQSAUDKMIEQZ-UHFFFAOYNA-N; [M+H]+; NC(CC1=CC=C(O)C=C1)C(=O)NC(CCC(N)=O)C(O)=O; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.081; UBAQSAUDKMIEQZ; [M+H]+; Tyrosyl-Glutamine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.499; UBAQSAUDKMIEQZ-UHFFFAOYNA-N; [M+H]+; Tyrosyl-Glutamine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.972; UBAQSAUDKMIEQZ-UHFFFAOYNA-N; [M+H]+; Tyrosyl-Glutamine; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.073; UBAQSAUDKMIEQZ-UHFFFAOYSA-N; [M+H]+; 5-amino-2-[[2-amino-3-(4-hydroxyphenyl)propanoyl]amino]-5-oxopentanoic acid; Ranking 2;
@@ -26,7 +26,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.156; UBAQSAUDKMIEQZ; [M+H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.950; UBAQSAUDKMIEQZ; [M+H]+; tyrosylglutamine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -176.732; UBAQSAUDKMIEQZ; [M+H]+; (2S)-5-amino-2-[[(2S)-2-azaniumyl-3-(4-hydroxyphenyl)propanoyl]amino]-5-oxopentanoate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.995; UBAQSAUDKMIEQZ; [M+H]+; (2S)-5-amino-2-[[(2S)-2-azaniumyl-3-(4-hydroxyphenyl)propanoyl]amino]-5-oxopentanoate; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0029103)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0029103)
 CH$NAME: Tyrosyl-Glutamine
 CH$NAME: 5-amino-2-[[2-amino-3-(4-hydroxyphenyl)propanoyl]amino]-5-oxopentanoic acid
 CH$COMPOUND_CLASS: Natural product

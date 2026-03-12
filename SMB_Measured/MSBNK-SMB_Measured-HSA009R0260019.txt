@@ -1,32 +1,32 @@
 ACCESSION: MSBNK-SMB_Measured-HSA009R0260019
 RECORD_TITLE: Hexanoylcarnitine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 98 product ion spectra among 248 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001171
 COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
 COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
-COMMENT: PRECURSOR_IN_MS1 mz 260.185607; int 3.025; delta(ppm) -1.120299
+COMMENT: PRECURSOR_IN_MS1 mz 260.185607; int 3.025; delta(ppm) 0.007693
 COMMENT: PROPOSED_MF SevenGoldenRules 0.112; C13H25NO4; [M+H]+; delta(ppm) -0.111892; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 2.882; C13H25NO4; [M+H]+; delta(ppm) -0.114245; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 30.064; C13H25NO4; [M+H]+; delta(ppm) -0.114245; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C13H25NO4; [M+H]+; delta(ppm) -0.114245; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 41.940; C13H25NO4; [M+H]+; delta(ppm) -0.114245; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C13H25NO4; [M+H]+; delta(ppm) -0.114245; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.676; VVPRQWTYSNDTEA-UHFFFAOYNA-N; [M+H]+; CCCCCC(=O)OC(CC([O-])=O)C[N+](C)(C)C; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.676; VVPRQWTYSNDTEA; [M+H]+; Hexanoylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.621; VVPRQWTYSNDTEA-UHFFFAOYNA-N; [M+H]+; Hexanoylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; VVPRQWTYSNDTEA-UHFFFAOYNA-N; [M+H]+; Hexanoylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.086; VVPRQWTYSNDTEA; [M+H]+; Tocris-0526; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.995; VVPRQWTYSNDTEA; [M+H]+; Tocris-0526; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -85.234; VVPRQWTYSNDTEA; [M+H]+; 2,2,3-Trideuterio-3-hexanoyloxy-4-(trimethylazaniumyl)butanoate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.659; VVPRQWTYSNDTEA; [M+H]+; 2,2,3-Trideuterio-3-hexanoyloxy-4-(trimethylazaniumyl)butanoate; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000705)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000705)
 CH$NAME: Hexanoylcarnitine
 CH$NAME: 3-caproyloxy-4-(trimethylammonio)butyrate
 CH$COMPOUND_CLASS: Natural product
@@ -58,18 +58,20 @@ MS$FOCUSED_ION: ION_TYPE [M+H]+
 MS$FOCUSED_ION: PRECURSOR_M/Z 260.185605
 MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
 MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
-PK$SPLASH: splash10-01p9-9060000000-7d1ef9498b9c8dab9cf0
+PK$SPLASH: splash10-01p9-9080000000-e5a2f7b02da714848c33
 PK$ANNOTATION: m/z int mzPAF cor n
   60.080666 79 f{C3H10N1}/-1.82ppm,p-C10H16O4 0.7717 98
   85.028445 999 f{C4H5O2}/0.46ppm,p-C9H21N1O2 0.9543 98
   99.080314 43 f{C6H11O1}/-1.28ppm,p-C7H15N1O3 0.6579 94
   144.102004 34 f{C7H14N1O2}/0.69ppm,p-C6H12O2 0.6394 82
+  201.112081 237 f{C10H17O4}/-0.27ppm,p-C3H9N1 0.9259 98
   260.185500 868 f{C13H26N1O4}/-0.52ppm,p 1.0000 98
-PK$NUM_PEAK: 5
+PK$NUM_PEAK: 6
 PK$PEAK: m/z int. rel.int.
   60.080666 79.00 79
   85.028445 999.00 999
   99.080314 43.00 43
   144.102004 34.00 34
+  201.112081 237.00 237
   260.185500 868.00 868
 //

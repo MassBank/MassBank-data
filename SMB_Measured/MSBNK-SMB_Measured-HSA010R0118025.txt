@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA010R0118025
 RECORD_TITLE: Indole; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 62 product ion spectra among 101 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001914
 COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
 COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
-COMMENT: PRECURSOR_IN_MS1 mz 118.065091; int 11.257; delta(ppm) -1.115620
+COMMENT: PRECURSOR_IN_MS1 mz 118.065091; int 11.257; delta(ppm) 0.033652
 COMMENT: PROPOSED_MF SevenGoldenRules 0.325; C8H7N; [M+H]+; delta(ppm) -0.324626; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.383; C8H7N; [M+H]+; delta(ppm) -0.327468; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 11.672; C8H7N; [M+H]+; delta(ppm) -0.327468; Ranking 1;
@@ -20,15 +20,15 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C8H7N; [M+H]+; delta(ppm) -0.327468; 
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 13.923; C8H7N; [M+H]+; delta(ppm) -0.327468; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C8H7N; [M+H]+; delta(ppm) -0.327468; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 15.000; SIKJAQJRHWYJAI-UHFFFAOYSA-N; C8H7N; INDOLE; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.758; SIKJAQJRHWYJAI-UHFFFAOYSA-N; [M+H]+; N1C=CC2=C1C=CC=C2; Ranking 4;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.758; SIKJAQJRHWYJAI; [M+H]+; Indole; Ranking 4;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.937; SIKJAQJRHWYJAI-UHFFFAOYSA-N; [M+H]+; Indole; Ranking 2;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.533; SIKJAQJRHWYJAI-UHFFFAOYSA-N; [M+H]+; Indole; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.501; SIKJAQJRHWYJAI-UHFFFAOYSA-N; [M+H]+; Indole; Ranking 6;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.501; SIKJAQJRHWYJAI-UHFFFAOYSA-N; [M+H]+; 1H-indole; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -15.155; SIKJAQJRHWYJAI; [M+H]+; 1H-Indole; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.649; SIKJAQJRHWYJAI; [M+H]+; 1H-Indole; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -18.627; SIKJAQJRHWYJAI; [M+H]+; Indol; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.803; SIKJAQJRHWYJAI; [M+H]+; Indol; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 15 spectra); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000738)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 15 spectra); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 6), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000738)
 CH$NAME: Indole
 CH$NAME: Indol
 CH$NAME: 1H-indole

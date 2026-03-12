@@ -1,17 +1,17 @@
 ACCESSION: MSBNK-SMB_Measured-HSA022R0415038
 RECORD_TITLE: nonaethylene glycol; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 10 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 mz 415.253682; int 191.026; delta(ppm) 0.370185
+COMMENT: PRECURSOR_IN_MS1 mz 415.253682; int 191.026; delta(ppm) -0.190149
 COMMENT: PROPOSED_MF SevenGoldenRules 0.029; C18H38O10; [M+H]+; delta(ppm) -0.028968; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 2.138; C18H38O10; [M+H]+; delta(ppm) -0.030979; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 15.957; C18H38O10; [M+H]+; delta(ppm) -0.030979; Ranking 1;
@@ -19,15 +19,15 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C18H38O10; [M+H]+; delta(ppm) -0.0309
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 25.736; C18H38O10; [M+H]+; delta(ppm) -0.030979; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C18H38O10; [M+H]+; delta(ppm) -0.030979; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 8.000; YZUUTMGDONTGTN-UHFFFAOYSA-N; C18H38O10; Spectral Match to Nonaethylene glycol from NIST14; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.539; YZUUTMGDONTGTN-UHFFFAOYSA-N; [M+H]+; OCCOCCOCCOCCOCCOCCOCCOCCOCCO; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.539; YZUUTMGDONTGTN; [M+H]+; nonaethylene glycol; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.020; YZUUTMGDONTGTN-UHFFFAOYSA-N; [M+H]+; nonaethylene glycol; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; YZUUTMGDONTGTN-UHFFFAOYSA-N; [M+H]+; nonaethylene glycol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.994; YZUUTMGDONTGTN-UHFFFAOYSA-N; [M+H]+; nonaethylene glycol; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; YZUUTMGDONTGTN-UHFFFAOYSA-N; [M+H]+; 2-[2-[2-[2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethanol; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -3.864; YZUUTMGDONTGTN; [M+H]+; Epitope ID:159256; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.882; YZUUTMGDONTGTN; [M+H]+; Epitope ID:159256; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -8.351; YZUUTMGDONTGTN; [M+H]+; 3,6,9,12,15,18,21,24-octaoxahexacosane-1,26-diol; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.755; YZUUTMGDONTGTN; [M+H]+; 3,6,9,12,15,18,21,24-octaoxahexacosane-1,26-diol; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 8 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3b; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 8 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1)
 CH$NAME: nonaethylene glycol
 CH$NAME: 2-[2-[2-[2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethanol
 CH$COMPOUND_CLASS: Non-Natural Product

@@ -1,33 +1,34 @@
 ACCESSION: MSBNK-SMB_Measured-HSA022R0139013
 RECORD_TITLE: Urocanic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 35 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 mz 139.050198; int 617.944; delta(ppm) 1.041008
+COMMENT: PRECURSOR_IN_MS1 mz 139.050198; int 617.944; delta(ppm) 0.129718
 COMMENT: PROPOSED_MF SevenGoldenRules 0.167; C6H6N2O2; [M+H]+; delta(ppm) -0.166615; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.421; C6H6N2O2; [M+H]+; delta(ppm) -0.171752; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS5_Sirius 35.188; C6H6N2O2; [M+H]+; delta(ppm) -0.171752; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 35.189; C6H6N2O2; [M+H]+; delta(ppm) -0.171752; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H6N2O2; [M+H]+; delta(ppm) -0.171752; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 44.654; C6H6N2O2; [M+H]+; delta(ppm) -0.171752; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H6N2O2; [M+H]+; delta(ppm) -0.171752; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 14.000; LOIYMIARKYCTBW-OWOJBTEDSA-N; C6H6N2O2; Urocanic acid - 40.0 eV; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; LOIYMIARKYCTBW-UHFFFAOYSA-N; C6H6N2O2; Massbank:PT104730 3-(1H-Imidazol-4-yl)-2-propenoic acid3-(4-Imidazolyl)acrylic acid4-Imidazoleacrylic acidurocanic acid(E)-3-(3H-imidazol-4-yl)prop-2-enoic acidUrocanateUrocaninic acid3-Imidazol-4-ylacrylic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.067; LOIYMIARKYCTBW; [M+H]+; Urocanic acid; Ranking 9;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.938; LOIYMIARKYCTBW-OWOJBTEDSA-N; [M+H]+; Urocanic acid; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.966; LOIYMIARKYCTBW-OWOJBTEDSA-N; [M+H]+; Urocanic acid; Ranking 5;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.966; LOIYMIARKYCTBW-OWOJBTEDSA-N; [M+H]+; Urocanic acid; Ranking 6;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.436; LOIYMIARKYCTBW-OWOJBTEDSA-N; [M+H]+; (E)-3-(1H-imidazol-5-yl)prop-2-enoic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -29.411; LOIYMIARKYCTBW; [M+H]+; urocanate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.717; LOIYMIARKYCTBW; [M+H]+; urocanate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -10.660; LOIYMIARKYCTBW; [M+H]+; Urocanic Acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.872; LOIYMIARKYCTBW; [M+H]+; Urocanic Acid; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 16 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 5), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000301)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 16 spectra); Supported by CFM-ID:MsfinderDB (Ranking 9), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 6), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000301)
 CH$NAME: Urocanic acid
 CH$NAME: 3-(1H-imidazol-5-yl)prop-2-enoic acid
 CH$COMPOUND_CLASS: Natural product

@@ -1,17 +1,17 @@
 ACCESSION: MSBNK-SMB_Measured-HSA020R0288001
 RECORD_TITLE: Octanoylcarnitine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 305 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 288.217221; int 346.884; delta(ppm) -0.308691
 COMMENT: PROPOSED_MF SevenGoldenRules 1.309; C15H29NO4; [M+H]+; delta(ppm) 1.309146; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.457; C15H29NO4; [M+H]+; delta(ppm) 1.301615; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 15.529; C15H29NO4; [M+H]+; delta(ppm) 1.301615; Ranking 1;
@@ -19,14 +19,14 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C15H29NO4; [M+H]+; delta(ppm) 1.30161
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 27.503; C15H29NO4; [M+H]+; delta(ppm) 1.301615; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C15H29NO4; [M+H]+; delta(ppm) 1.301615; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 5.000; CXTATJFJDMJMIY-CYBMUJFWSA-N; C15H29NO4; Massbank:RP025302 Octanoyl-L-CarnitineL-Octanoylcarnitine(3R)-3-octanoyloxy-4-(trimethylazaniumyl)butanoate; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.321; CXTATJFJDMJMIY-CYBMUJFWSA-N; [M+H]+; CCCCCCCC(=O)O[C@H](CC([O-])=O)C[N+](C)(C)C; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.321; CXTATJFJDMJMIY; [M+H]+; L-Octanoylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.029; CXTATJFJDMJMIY-CYBMUJFWSA-N; [M+H]+; L-Octanoylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; CXTATJFJDMJMIY-CYBMUJFWSA-N; [M+H]+; L-Octanoylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -3.499; CXTATJFJDMJMIY; [M+H]+; Tocris-0605; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.908; CXTATJFJDMJMIY; [M+H]+; Tocris-0605; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -75.722; CXTATJFJDMJMIY; [M+H]+; Octanoylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.992; CXTATJFJDMJMIY; [M+H]+; Octanoylcarnitine; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 5 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000791)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 5 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000791)
 CH$NAME: Octanoylcarnitine
 CH$NAME: 3-caprylyloxy-4-(trimethylammonio)butyrate
 CH$COMPOUND_CLASS: Natural product

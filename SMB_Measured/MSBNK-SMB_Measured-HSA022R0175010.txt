@@ -1,17 +1,17 @@
 ACCESSION: MSBNK-SMB_Measured-HSA022R0175010
 RECORD_TITLE: Arginine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 48 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 mz 175.118871; int 24.099; delta(ppm) 1.114012
+COMMENT: PRECURSOR_IN_MS1 mz 175.118871; int 24.099; delta(ppm) -0.022960
 COMMENT: PROPOSED_MF SevenGoldenRules 0.442; C6H14N4O2; [M+H]+; delta(ppm) -0.442245; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.454; C6H14N4O2; [M+H]+; delta(ppm) -0.440570; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 18.603; C6H14N4O2; [M+H]+; delta(ppm) -0.440570; Ranking 1;
@@ -20,15 +20,15 @@ COMMENT: PROPOSED_MF SIRIUS6_Sirius 28.382; C6H14N4O2; [M+H]+; delta(ppm) -0.440
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H14N4O2; [M+H]+; delta(ppm) -0.440570; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 29.000; ODKSFYDXXFIFQN-BYPYZUCNSA-N; C6H14N4O2; Massbank:RP001203 L-Arginine(2S)-2-amino-5-(diaminomethylideneazaniumyl)pentanoate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 19.000; ODKSFYDXXFIFQN-UHFFFAOYSA-N; C6H14N4O2; Massbank:CE000270 Arginine; Ranking 2;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.476; ODKSFYDXXFIFQN-BYPYZUCNSA-N; [M+H]+; N[C@@H](CCCNC(N)=N)C(O)=O; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.476; ODKSFYDXXFIFQN; [M+H]+; L-Arginine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.798; ODKSFYDXXFIFQN-BYPYZUCNSA-N; [M+H]+; L-Arginine; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.967; ODKSFYDXXFIFQN-BYPYZUCNSA-N; [M+H]+; L-Arginine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.967; ODKSFYDXXFIFQN-BYPYZUCNSA-N; [M+H]+; L-Arginine; Ranking 3;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; ODKSFYDXXFIFQN-BYPYZUCNSA-N; [M+H]+; (2S)-2-amino-5-(diaminomethylideneamino)pentanoic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -9.118; ODKSFYDXXFIFQN; [M+H]+; arginine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.624; ODKSFYDXXFIFQN; [M+H]+; arginine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -93.111; ODKSFYDXXFIFQN; [M+H]+; Harg; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.944; ODKSFYDXXFIFQN; [M+H]+; Harg; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 48 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000517)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 48 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000517)
 CH$NAME: Arginine
 CH$NAME: Harg
 CH$NAME: 2-amino-5-(diaminomethylideneamino)pentanoic acid

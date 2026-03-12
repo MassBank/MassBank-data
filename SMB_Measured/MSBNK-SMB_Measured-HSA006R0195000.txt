@@ -1,0 +1,78 @@
+ACCESSION: MSBNK-SMB_Measured-HSA006R0195000
+RECORD_TITLE: Tetraethylene glycol; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 22 product ion spectra among 31 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001264
+COMMENT: DATASET_TITLE Antibiotics and Dietary Minerals Lipidomics
+COMMENT: DATASET_AUTHORS Jacob Folz, University of California, Davis
+COMMENT: PRECURSOR_IN_MS1 mz 195.122762; int 31.610; delta(ppm) 0.051502
+COMMENT: PROPOSED_MF SevenGoldenRules 0.268; C8H18O5; [M+H]+; delta(ppm) 0.267882; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.231; C8H18O5; [M+H]+; delta(ppm) 0.265904; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 37.038; C8H18O5; [M+H]+; delta(ppm) 0.265904; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C8H18O5; [M+H]+; delta(ppm) 0.265904; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 46.915; C8H18O5; [M+H]+; delta(ppm) 0.265904; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C8H18O5; [M+H]+; delta(ppm) 0.265904; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; UWHCKJMYHZGTIT-UHFFFAOYSA-N; C8H18O5; Spectral Match to Tetraethylene glycol from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.747; UWHCKJMYHZGTIT; [M+H]+; Tetraethylene glycol; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.867; UWHCKJMYHZGTIT-UHFFFAOYSA-N; [M+H]+; Tetraethylene glycol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; UWHCKJMYHZGTIT-UHFFFAOYSA-N; [M+H]+; Tetraethylene glycol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; UWHCKJMYHZGTIT-UHFFFAOYSA-N; [M+H]+; 2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethanol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.140; UWHCKJMYHZGTIT; [M+H]+; Tetraglycol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.830; UWHCKJMYHZGTIT; [M+H]+; Tetraglycol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -2.137; UWHCKJMYHZGTIT; [M+H]+; 2-{2-[2-(2-hydroxyethoxy)ethoxy]ethoxy}ethan-1-ol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.871; UWHCKJMYHZGTIT; [M+H]+; 2-{2-[2-(2-hydroxyethoxy)ethoxy]ethoxy}ethan-1-ol; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0094708)
+CH$NAME: Tetraethylene glycol
+CH$NAME: 2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethanol
+CH$COMPOUND_CLASS: Non-Natural Product
+CH$FORMULA: C8H18O5
+CH$EXACT_MASS: 194.115424
+CH$SMILES: C(COCCOCCOCCO)O
+CH$IUPAC: InChI=1S/C8H18O5/c9-1-3-11-5-7-13-8-6-12-4-2-10/h9-10H,1-8H2
+CH$LINK: HMDB HMDB0094708
+CH$LINK: INCHIKEY UWHCKJMYHZGTIT-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:8200
+SP$SCIENTIFIC_NAME: Rattus norvegicus
+SP$LINK: NCBI-TAXONOMY 10116 
+SP$SAMPLE: Blood (plasma)
+AC$INSTRUMENT: Thermo Q Exactive HF hybrid Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY NCE 20.30.40
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity CSH C18 (100 by 2.1mm,1.7um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min 15% (B); 0-2 min 30% (B); 2-2.5 min 48% (B); 2.5-11 min 82% (B); 11-11.5 min 99% (B); 11.5-12 min 99% (B); 12-12.1 min 15% (B); and 12.1-15 min 15% (B)
+AC$CHROMATOGRAPHY: FLOW_RATE 0.6 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.432
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 195.122752
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-9400000000-e6819321d293c859160a
+PK$ANNOTATION: m/z int mzPAF cor n
+  89.059731 999 f{C4H9O2}/0.28ppm,p-C4H10O3 0.9503 22
+  107.070286 59 f{C4H11O3}/0.14ppm,p-C4H8O2 0.9390 22
+  133.085914 265 f{C6H13O3}/-0.05ppm,p-C2H6O2 0.9379 22
+  151.096529 43 f{C6H15O4}/0.29ppm,p-C2H4O1 0.9040 22
+  177.112200 21 f{C8H17O4}/0.37ppm,p-H2O1 0.9065 21
+  195.123114 162 f{C8H19O5}/2.12ppm,p 1.0000 22
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  89.059731 999.00 999
+  107.070286 59.00 59
+  133.085914 265.00 265
+  151.096529 43.00 43
+  177.112200 21.00 21
+  195.123114 162.00 162
+//

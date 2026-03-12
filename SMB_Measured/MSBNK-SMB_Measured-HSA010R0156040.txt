@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA010R0156040
 RECORD_TITLE: Histidine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 12 product ion spectra among 101 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001914
 COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
 COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
-COMMENT: PRECURSOR_IN_MS1 mz 156.076826; int 33.084; delta(ppm) -1.104405
+COMMENT: PRECURSOR_IN_MS1 mz 156.076826; int 33.084; delta(ppm) 0.005252
 COMMENT: PROPOSED_MF SevenGoldenRules 0.464; C6H9N3O2; [M+H]+; delta(ppm) 0.464308; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.674; C6H9N3O2; [M+H]+; delta(ppm) 0.461406; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 35.478; C6H9N3O2; [M+H]+; delta(ppm) 0.461406; Ranking 1;
@@ -21,7 +21,7 @@ COMMENT: PROPOSED_MF SIRIUS6_Sirius 37.646; C6H9N3O2; [M+H]+; delta(ppm) 0.46140
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H9N3O2; [M+H]+; delta(ppm) 0.461406; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 40.000; HNDVDQJCIGZPNO-YFKPBYRVSA-N; C6H9N3O2; HISTIDINE; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 15.000; HNDVDQJCIGZPNO-UHFFFAOYSA-N; C6H9N3O2; Spectral Match to L-Histidine from METLIN; Ranking 2;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.178; HNDVDQJCIGZPNO-YFKPBYRVSA-N; [M+H]+; N[C@@H](CC1=CN=CN1)C(O)=O; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.178; HNDVDQJCIGZPNO; [M+H]+; L-Histidine; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.137; HNDVDQJCIGZPNO-YFKPBYRVSA-N; [M+H]+; L-Histidine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; HNDVDQJCIGZPNO-YFKPBYRVSA-N; [M+H]+; L-Histidine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; HNDVDQJCIGZPNO-YFKPBYRVSA-N; [M+H]+; (2S)-2-amino-3-(1H-imidazol-5-yl)propanoic acid; Ranking 1;
@@ -29,7 +29,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -2.423; HNDVDQJCIGZPNO; [M+H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.962; HNDVDQJCIGZPNO; [M+H]+; histidin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -18.086; HNDVDQJCIGZPNO; [M+H]+; L-His; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.972; HNDVDQJCIGZPNO; [M+H]+; L-His; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 55 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000177)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 55 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000177)
 CH$NAME: Histidine
 CH$NAME: His
 CH$NAME: 2-amino-3-(1H-imidazol-5-yl)propionic acid

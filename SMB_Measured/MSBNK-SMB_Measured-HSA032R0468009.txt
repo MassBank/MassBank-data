@@ -1,33 +1,33 @@
 ACCESSION: MSBNK-SMB_Measured-HSA032R0468009
 RECORD_TITLE: LysoPC(14:0); LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Yu et al. Front Cell Infect Microbiol. 2022,11,763507
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 27 product ion spectra among 60 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS3233
 COMMENT: DATASET_TITLE The gut microbiome and metabolites are altered and interrelated in patients with rheumatoid arthritis
 COMMENT: DATASET_AUTHORS Die Yu, Juping Du, Xia Pu, Liyuan Zheng, Shuaishuai Chen, Na Wang, Jun Li, Shiyong Chen, Shaobiao Pan, Bo Shen
-COMMENT: PRECURSOR_IN_MS1 mz 468.309126; int 303.332; delta(ppm) 14.685745
+COMMENT: PRECURSOR_IN_MS1 mz 468.309126; int 303.332; delta(ppm) 0.248231
 COMMENT: PROPOSED_MF SevenGoldenRules 1.168; C22H46NO7P; [M+H]+; delta(ppm) 1.168410; Ranking 6;
 COMMENT: PROPOSED_MF MS-FINDER 4.300; C22H46NO7P; [M+H]+; delta(ppm) 1.165342; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS5_Sirius 4014.566; C22H46NO7P; [M+H]+; delta(ppm) 1.165342; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 4014.567; C22H46NO7P; [M+H]+; delta(ppm) 1.165342; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C22H46NO7P; [M+H]+; delta(ppm) 1.165342; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 27.019; C22H46NO7P; [M+H]+; delta(ppm) 1.165342; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C22H46NO7P; [M+H]+; delta(ppm) 1.165342; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 9.000; VXUOFDJKYGDUJI-OAQYLSRUSA-N; C22H46NO7P; Spectral Match to 1-Myristoyl-sn-glycero-3-phosphocholine from NIST14; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.355; VXUOFDJKYGDUJI-OAQYLSRUSA-N; [M+H]+; CCCCCCCCCCCCCC(=O)OC[C@@H](O)COP([O-])(=O)OCC[N+](C)(C)C; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.355; VXUOFDJKYGDUJI; [M+H]+; LysoPC(14:0); Ranking 2;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.861; VXUOFDJKYGDUJI-OAQYLSRUSA-N; [M+H]+; LysoPC(14:0); Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; VXUOFDJKYGDUJI-OAQYLSRUSA-N; [M+H]+; LysoPC(14:0); Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.961; VXUOFDJKYGDUJI; [M+H]+; Lyso-dmpc; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.539; VXUOFDJKYGDUJI; [M+H]+; Lyso-dmpc; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -109.829; VXUOFDJKYGDUJI; [M+H]+; [1-Myristoyl-glycerol-3-YL]phosphonylcholine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.597; VXUOFDJKYGDUJI; [M+H]+; [1-Myristoyl-glycerol-3-YL]phosphonylcholine; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS5_CSI (FDR < 0.05); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 9 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0010379)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS5_CSI (FDR < 0.05); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 9 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0010379)
 CH$NAME: LysoPC(14:0)
 CH$NAME: (2-hydroxy-3-tetradecanoyloxy-propyl) 2-(trimethylammonio)ethyl phosphate
 CH$COMPOUND_CLASS: Natural product
@@ -61,7 +61,7 @@ PK$SPLASH: splash10-0f89-0900200000-e581fd565a8557097715
 PK$ANNOTATION: m/z int mzPAF cor n
   86.095941 103 f{C5H12N1}/-5.63ppm,p-C17H35O7P1 0.6673 25
   104.106773 631 f{C5H14N1O1}/-2.09ppm,p-C17H33O6P1 0.9139 27
-  184.073218 999 f{C12H10N1O1}/-13.43ppm,p-C10H37O6P1 0.8850 27
+  184.073218 999 f{C5H15N1O4P1}/-0.55ppm,p-C17H32O3 0.8850 27
   285.243984 71 f{C20H31N1}/-3.92ppm,p-C2H16O7P1 0.8081 23
   450.296922 141 f{C22H45N1O6P1}/-2.17ppm,p-H2O1 0.8030 25
   468.308192 355 f{C22H47N1O7P1}/-0.58ppm,p 1.0000 27

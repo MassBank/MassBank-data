@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA010R0426008
 RECORD_TITLE: 3a,7a,12b-Trihydroxy-5b-cholanoic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 39 product ion spectra among 101 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001914
 COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
 COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
-COMMENT: PRECURSOR_IN_MS1 mz 426.321383; int 51.075; delta(ppm) -0.729934
+COMMENT: PRECURSOR_IN_MS1 mz 426.321383; int 51.075; delta(ppm) 0.068094
 COMMENT: PROPOSED_MF SevenGoldenRules 0.105; C24H40O5; [M+NH4]+; delta(ppm) -0.105318; Ranking 2;
 COMMENT: PROPOSED_MF MS-FINDER 4.045; C24H40O5; [M+NH4]+; delta(ppm) -0.107715; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 78.505; C24H40O5; [M+H3N+H]+; delta(ppm) -0.107715; Ranking 1;
@@ -22,13 +22,13 @@ COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C24H40O5; [M+H3N+H]+; delta(ppm) -0.1
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 39.000; BHQCQFFYRZLCQQ-OELDTZBJSA-N; C24H40O5; Spectral Match to Cholic acid from NIST14; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 14.000; BHQCQFFYRZLCQQ-UTLSPDKDSA-N; C24H40O5; URSOCHOLIC ACID; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 10.000; BHQCQFFYRZLCQQ-UHFFFAOYSA-N; C24H40O5; cholic acid CollisionEnergy:102040; Ranking 3;
-COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.215; BHQCQFFYRZLCQQ-QJNZGMAZNA-N; [M+NH4]+; 3a,7a,12b-Trihydroxy-5b-cholanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.228; BHQCQFFYRZLCQQ-QJNZGMAZNA-N; [M+NH4]+; 3a,7a,12b-Trihydroxy-5b-cholanoic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.932; BHQCQFFYRZLCQQ-OELDTZBJSA-N; [M+NH4]+; (4R)-4-[(3R,5S,7R,8R,9S,10S,12S,13R,14S,17R)-3,7,12-trihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl]pentanoic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.383; BHQCQFFYRZLCQQ; [M+H3N+H]+; Cholalin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.561; BHQCQFFYRZLCQQ; [M+H3N+H]+; Cholalin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -18.826; BHQCQFFYRZLCQQ; [M+H3N+H]+; Cholate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.967; BHQCQFFYRZLCQQ; [M+H3N+H]+; Cholate; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 63 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000312)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 63 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000312)
 CH$NAME: 3a,7a,12b-Trihydroxy-5b-cholanoic acid
 CH$NAME: Cholate
 CH$NAME: 4-(3,7,12-trihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl)valeric acid

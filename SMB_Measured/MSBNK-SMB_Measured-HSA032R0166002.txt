@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA032R0166002
 RECORD_TITLE: Phenylalanine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Yu et al. Front Cell Infect Microbiol. 2022,11,763507
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 41 product ion spectra among 60 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS3233
 COMMENT: DATASET_TITLE The gut microbiome and metabolites are altered and interrelated in patients with rheumatoid arthritis
 COMMENT: DATASET_AUTHORS Die Yu, Juping Du, Xia Pu, Liyuan Zheng, Shuaishuai Chen, Na Wang, Jun Li, Shiyong Chen, Shaobiao Pan, Bo Shen
-COMMENT: PRECURSOR_IN_MS1 mz 166.086851; int 620.108; delta(ppm) 7.829575
+COMMENT: PRECURSOR_IN_MS1 mz 166.086851; int 620.108; delta(ppm) -0.144551
 COMMENT: PROPOSED_MF SevenGoldenRules 3.756; C9H11NO2; [M+H]+; delta(ppm) 3.755764; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.018; C9H11NO2; [M+H]+; delta(ppm) 3.732794; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 88.975; C9H11NO2; [M+H]+; delta(ppm) 3.732794; Ranking 1;
@@ -28,7 +28,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.955; COLNVLDHVKWLRT; [M+H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.992; COLNVLDHVKWLRT; [M+H]+; Sabiden; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -77.280; COLNVLDHVKWLRT; [M+H]+; L-Phe; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.992; COLNVLDHVKWLRT; [M+H]+; L-Phe; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 60 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000159)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 60 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000159)
 CH$NAME: Phenylalanine
 CH$NAME: Phe
 CH$NAME: 2-amino-3-phenylpropanoic acid

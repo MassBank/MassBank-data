@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA015R0146002
 RECORD_TITLE: Spermidine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 19 product ion spectra among 27 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS6402
 COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
 COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
-COMMENT: PRECURSOR_IN_MS1 mz 146.165111; int 54.455; delta(ppm) 0.835108
+COMMENT: PRECURSOR_IN_MS1 mz 146.165111; int 54.455; delta(ppm) -0.003737
 COMMENT: PROPOSED_MF SevenGoldenRules 0.427; C7H19N3; [M+H]+; delta(ppm) -0.427121; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.562; C7H19N3; [M+H]+; delta(ppm) -0.424590; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 18.661; C7H19N3; [M+H]+; delta(ppm) -0.424590; Ranking 1;
@@ -20,14 +20,15 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C7H19N3; [M+H]+; delta(ppm) -0.424590
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 27.360; C7H19N3; [M+H]+; delta(ppm) -0.424590; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C7H19N3; [M+H]+; delta(ppm) -0.424590; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 37.000; ATHGHQPFGPMSJY-UHFFFAOYSA-N; C7H19N3; Spermidine CollisionEnergy:205060; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.416; ATHGHQPFGPMSJY-UHFFFAOYSA-N; [M+H]+; NCCCCNCCCN; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.416; ATHGHQPFGPMSJY; [M+H]+; Spermidine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.854; ATHGHQPFGPMSJY-UHFFFAOYSA-N; [M+H]+; Spermidine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; ATHGHQPFGPMSJY-UHFFFAOYSA-N; [M+H]+; Spermidine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; ATHGHQPFGPMSJY-UHFFFAOYSA-N; [M+H]+; N'-(3-aminopropyl)butane-1,4-diamine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.460; ATHGHQPFGPMSJY; [M+H]+; Spermidin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.391; ATHGHQPFGPMSJY; [M+H]+; Spermidin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -9.623; ATHGHQPFGPMSJY; [M+H]+; Spermidin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.804; ATHGHQPFGPMSJY; [M+H]+; Spermidin; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 37 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0001257)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 37 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0001257)
 CH$NAME: Spermidine
 CH$NAME: Spermidin
 CH$NAME: N'-(3-aminopropyl)butane-1,4-diamine

@@ -1,17 +1,17 @@
 ACCESSION: MSBNK-SMB_Measured-HSA020R0466004
 RECORD_TITLE: Glycocholic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 12 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 mz 466.315625; int 109.704; delta(ppm) 3.041550
+COMMENT: PRECURSOR_IN_MS1 mz 466.315625; int 109.704; delta(ppm) -0.036781
 COMMENT: PROPOSED_MF SevenGoldenRules 1.444; C26H43NO6; [M+H]+; delta(ppm) -1.444204; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 2.929; C26H43NO6; [M+H]+; delta(ppm) -1.442246; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 48.521; C26H43NO6; [M+H]+; delta(ppm) -1.442246; Ranking 1;
@@ -22,7 +22,7 @@ COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 26.000; RFDAIACWWDREDC-FRVQLJSFSA-N; 
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 8.000; RFDAIACWWDREDC-UHFFFAOYSA-N; C26H43NO6; Glycocholic acid CollisionEnergy:205060; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 7.000; RFDAIACWWDREDC-MZMBZMQMSA-N; C26H43NO6; GLYCOCHOLATE; Ranking 3;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; RFDAIACWWDREDC-RGWSMLPJSA-N; C26H43NO6; GLYCOCHOLATE; Ranking 4;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.247; RFDAIACWWDREDC-DKBOSRIJNA-N; [M+H]+; C[C@H](CCC(=O)NCC(O)=O)[C@H]1CC[C@H]2[C@@H]3[C@H](O)CC4C[C@H](O)CC[C@]4(C)[C@H]3C[C@H](O)[C@]12C; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.247; RFDAIACWWDREDC; [M+H]+; Glycocholic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.960; RFDAIACWWDREDC-DKBOSRIJNA-N; [M+H]+; Glycocholic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; RFDAIACWWDREDC-DKBOSRIJNA-N; [M+H]+; Glycocholic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; RFDAIACWWDREDC-FRVQLJSFSA-N; [M+H]+; 2-[[(4R)-4-[(3R,5S,7R,8R,9S,10S,12S,13R,14S,17R)-3,7,12-trihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl]pentanoyl]amino]acetic acid; Ranking 1;
@@ -30,7 +30,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.410; RFDAIACWWDREDC; [M+H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.356; RFDAIACWWDREDC; [M+H]+; bmse000651; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -10.693; RFDAIACWWDREDC; [M+H]+; Glycocholate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.873; RFDAIACWWDREDC; [M+H]+; Glycocholate; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 41 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000138)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 41 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000138)
 CH$NAME: Glycocholic acid
 CH$NAME: Glycocholate
 CH$NAME: 2-[4-(3,7,12-trihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoylamino]acetic acid

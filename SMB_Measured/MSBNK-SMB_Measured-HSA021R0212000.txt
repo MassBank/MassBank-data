@@ -1,29 +1,33 @@
 ACCESSION: MSBNK-SMB_Measured-HSA021R0212000
 RECORD_TITLE: Indoxyl sulfate; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 1996 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 212.002250; int 883.721; delta(ppm) 0.004805
+COMMENT: PROPOSED_MF SevenGoldenRules 0.258; C8H7NO4S; [M-H]1; delta(ppm) -0.258204; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.500; C8H7NO4S; [M-H]-; delta(ppm) -0.256067; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 10.684; C8H7NO4S; [M-H]-; delta(ppm) -0.256067; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C8H7NO4S; [M-H]-; delta(ppm) -0.256067; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 19.110; C8H7NO4S; [M-H]-; delta(ppm) -0.256067; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C8H7NO4S; [M-H]-; delta(ppm) -0.256067; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.429; BXFFHSIDQOFMLE-UHFFFAOYSA-N; [M-H]-; OS(=O)(=O)OC1=CNC2=CC=CC=C12; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 25.000; BXFFHSIDQOFMLE-UHFFFAOYSA-N; C8H7NO4S; Massbank:PR100831 3-IndoxylsulfateIOS3-Indolyl SulfateUrinary indicanindol-3-yl sulfate3-Indoxylsulfuric acid3-Sulfooxy-1H-Indole3-Indoxyl sulfate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.429; BXFFHSIDQOFMLE; [M-H]-; Indoxyl sulfate; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.893; BXFFHSIDQOFMLE-UHFFFAOYSA-N; [M-H]-; Indoxyl sulfate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.904; BXFFHSIDQOFMLE-UHFFFAOYSA-N; [M-H]-; Indoxyl sulfate; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.904; BXFFHSIDQOFMLE-UHFFFAOYSA-N; [M-H]-; 1H-indol-3-yl hydrogen sulfate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.274; BXFFHSIDQOFMLE; [M-H]-; Indoxyl sulfate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.395; BXFFHSIDQOFMLE; [M-H]-; Indoxyl sulfate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -3.297; BXFFHSIDQOFMLE; [M-H]-; Indican; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.993; BXFFHSIDQOFMLE; [M-H]-; Indican; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000682)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 25 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000682)
 CH$NAME: Indoxyl sulfate
 CH$NAME: Indican
 CH$NAME: 1H-indol-3-yl hydrogen sulfate

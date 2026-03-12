@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA002R0179000
 RECORD_TITLE: Glucose; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 124 product ion spectra among 22 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MB-POST
 COMMENT: DATASET_ID In preparaion
 COMMENT: DATASET_TITLE Test DDA dataset obtained from NIST1950 by HILIC/AEX-MS
 COMMENT: DATASET_AUTHORS Takahashi, M, Torigoe, T, Izumi, Y, Bamba, T., Kyoshu University
-COMMENT: PRECURSOR_IN_MS1 mz 179.056140; int 138.542; delta(ppm) -0.761871
+COMMENT: PRECURSOR_IN_MS1 mz 179.056140; int 138.542; delta(ppm) -0.016767
 COMMENT: PROPOSED_MF SevenGoldenRules 0.172; C6H12O6; [M-H]1; delta(ppm) 0.172162; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.948; C6H12O6; [M-H]-; delta(ppm) 0.174901; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 47.828; C6H12O6; [M-H]-; delta(ppm) 0.174901; Ranking 1;
@@ -31,7 +31,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -9.593; WQZGKKKJIJFFOK; [M-H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.355; WQZGKKKJIJFFOK; [M-H]-; D-allose; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -16.473; WQZGKKKJIJFFOK; [M-H]-; D-Glc; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.781; WQZGKKKJIJFFOK; [M-H]-; D-Glc; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 17 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0000122)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 17 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0000122)
 CH$NAME: Glucose
 CH$NAME: Glc
 CH$NAME: 6-(hydroxymethyl)oxane-2,3,4,5-tetrol

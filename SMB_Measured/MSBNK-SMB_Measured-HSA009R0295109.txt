@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA009R0295109
 RECORD_TITLE: gamma-Glutamylphenylalanine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 17 product ion spectra among 248 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001171
 COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
 COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
-COMMENT: PRECURSOR_IN_MS1 mz 295.128930; int 1.927; delta(ppm) -0.896316
+COMMENT: PRECURSOR_IN_MS1 mz 295.128930; int 1.927; delta(ppm) 0.021437
 COMMENT: PROPOSED_MF SevenGoldenRules 0.255; C14H18N2O5; [M+H]+; delta(ppm) 0.254997; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.025; C14H18N2O5; [M+H]+; delta(ppm) 0.253683; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 24.535; C14H18N2O5; [M+H]+; delta(ppm) 0.253683; Ranking 1;
@@ -21,7 +21,7 @@ COMMENT: PROPOSED_MF SIRIUS6_Sirius 40.892; C14H18N2O5; [M+H]+; delta(ppm) 0.253
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C14H18N2O5; [M+H]+; delta(ppm) 0.253683; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; XHHOHZPNYFQJKL-QWRGUYRKSA-N; C14H18N2O5; Spectral Match to Glu Phe from METLIN; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; XHHOHZPNYFQJKL-UHFFFAOYSA-N; C14H18N2O5; Massbank:PR311056 Glutamylphenylalanine (isomer of 1503); Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.196; XHHOHZPNYFQJKL-DUJBIPCPNA-N; [M+H]+; N[C@@H](CCC(=O)N[C@@H](CC1=CC=CC=C1)C(O)=O)C(O)=O; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.008; XHHOHZPNYFQJKL; [M+H]+; gamma-Glutamylphenylalanine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.273; XHHOHZPNYFQJKL-DUJBIPCPNA-N; [M+H]+; gamma-Glutamylphenylalanine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.619; XHHOHZPNYFQJKL-DUJBIPCPNA-N; [M+H]+; gamma-Glutamylphenylalanine; Ranking 3;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 0.958; XHHOHZPNYFQJKL-QWRGUYRKSA-N; [M+H]+; (2S)-2-amino-5-[[(1S)-1-carboxy-2-phenylethyl]amino]-5-oxopentanoic acid; Ranking 6;
@@ -29,7 +29,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -8.846; XHHOHZPNYFQJKL; [M+H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.844; XHHOHZPNYFQJKL; [M+H]+; gamma-GLU-PHE; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -94.508; XHHOHZPNYFQJKL; [M+H]+; 2-amino-4-[(1-carboxy-2-phenylethyl)carbamoyl]butanoic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.998; XHHOHZPNYFQJKL; [M+H]+; 2-amino-4-[(1-carboxy-2-phenylethyl)carbamoyl]butanoic acid; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 6); Biological context by HMDB (HMDB0000594)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 6); Biological context by HMDB (HMDB0000594)
 CH$NAME: gamma-Glutamylphenylalanine
 CH$NAME: 2-amino-5-[(1-carboxy-2-phenyl-ethyl)amino]-5-keto-valeric acid
 CH$COMPOUND_CLASS: Natural product

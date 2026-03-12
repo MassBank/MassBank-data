@@ -1,27 +1,27 @@
 ACCESSION: MSBNK-SMB_Measured-HSA009R0130065
 RECORD_TITLE: Pipecolic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 65 product ion spectra among 248 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001171
 COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
 COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 130.086344; int 3.308; delta(ppm) 0.022831
 COMMENT: PROPOSED_MF SevenGoldenRules 0.666; C6H11NO2; [M+H]+; delta(ppm) 0.666258; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.868; C6H11NO2; [M+H]+; delta(ppm) 0.660837; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS5_Sirius 19.112; C6H11NO2; [M+H]+; delta(ppm) 0.660837; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 19.113; C6H11NO2; [M+H]+; delta(ppm) 0.660837; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H11NO2; [M+H]+; delta(ppm) 0.660837; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 23.990; C6H11NO2; [M+H]+; delta(ppm) 0.660837; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H11NO2; [M+H]+; delta(ppm) 0.660837; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 6.000; HXEACLLIILLPRG-YFKPBYRVSA-N; C6H11NO2; PIPECOLATE - 20.0 eV; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; HXEACLLIILLPRG-UHFFFAOYSA-N; C6H11NO2; L-PIPECOLIC ACID; Ranking 2;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.182; HXEACLLIILLPRG-UHFFFAOYNA-N; [M+H]+; OC(=O)C1CCCCN1; Ranking 3;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.182; HXEACLLIILLPRG; [M+H]+; Pipecolic acid; Ranking 3;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.694; HXEACLLIILLPRG-UHFFFAOYNA-N; [M+H]+; Pipecolic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.955; HXEACLLIILLPRG-UHFFFAOYNA-N; [M+H]+; Pipecolic acid; Ranking 4;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.179; HXEACLLIILLPRG-UHFFFAOYSA-N; [M+H]+; piperidine-2-carboxylic acid; Ranking 2;
@@ -29,7 +29,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -17.379; HXEACLLIILLPRG; [M+H
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.694; HXEACLLIILLPRG; [M+H]+; l-homopro; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -70.997; HXEACLLIILLPRG; [M+H]+; Pipecolate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.843; HXEACLLIILLPRG; [M+H]+; Pipecolate; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 6 spectra); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 4), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0000070)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 6 spectra); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 4), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0000070)
 CH$NAME: Pipecolic acid
 CH$NAME: Pipecolate
 CH$NAME: piperidine-2-carboxylic acid

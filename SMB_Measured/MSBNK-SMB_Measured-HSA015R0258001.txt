@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA015R0258001
 RECORD_TITLE: Glycerophosphocholine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 48 product ion spectra among 27 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS6402
 COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
 COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
-COMMENT: PRECURSOR_IN_MS1 mz 258.110043; int 57.883; delta(ppm) 0.884989
+COMMENT: PRECURSOR_IN_MS1 mz 258.110043; int 57.883; delta(ppm) -0.108396
 COMMENT: PROPOSED_MF SevenGoldenRules 0.105; C8H20NO6P; [M+H]+; delta(ppm) -0.105016; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.380; C8H20NO6P; [M+H]+; delta(ppm) -0.107742; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 33.945; C8H20NO6P; [M+H]+; delta(ppm) -0.107742; Ranking 1;
@@ -21,14 +21,14 @@ COMMENT: PROPOSED_MF SIRIUS6_Sirius 52.503; C8H20NO6P; [M+H]+; delta(ppm) -0.107
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C8H20NO6P; [M+H]+; delta(ppm) -0.107742; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 23.000; SUHOQUVVVLNYQR-MRVPVSSYSA-N; C8H20NO6P; L-alpha-Glycerylphosphorylcholine - 40.0 eV; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; SUHOQUVVVLNYQR-QMMMGPOBSA-N; C8H20NO6P; SN-GLYCERO-3-PHOSPHOCHOLINE; Ranking 2;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.303; SUHOQUVVVLNYQR-SVGMAFHSNA-N; [M+H]+; C[N+](C)(C)CCOP([O-])(=O)OC[C@@H](O)CO; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.303; SUHOQUVVVLNYQR; [M+H]+; Glycerophosphocholine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.267; SUHOQUVVVLNYQR-SVGMAFHSNA-N; [M+H]+; Glycerophosphocholine; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; SUHOQUVVVLNYQR-SVGMAFHSNA-N; [M+H]+; Glycerophosphocholine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.962; SUHOQUVVVLNYQR-SVGMAFHSNA-N; [M+H]+; Glycerophosphocholine; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -5.879; SUHOQUVVVLNYQR; [M+H]+; Gliatilin (TN); Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.575; SUHOQUVVVLNYQR; [M+H]+; Gliatilin (TN); Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -20.092; SUHOQUVVVLNYQR; [M+H]+; 2-[2,3-bis(16O)(oxidanyl)propoxy-(16O)oxidanyl(31P)(31P)(16O)(31P)(16O)(16O)(31P)(16O)(16O)(16O)phosphoryl]oxyethyl-tri((112C)methyl)(14N)azanium; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.757; SUHOQUVVVLNYQR; [M+H]+; 2-[2,3-bis(16O)(oxidanyl)propoxy-(16O)oxidanyl(31P)(31P)(16O)(31P)(16O)(16O)(31P)(16O)(16O)(16O)phosphoryl]oxyethyl-tri((112C)methyl)(14N)azanium; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 26 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000086)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 26 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2); Biological context by HMDB (HMDB0000086)
 CH$NAME: Glycerophosphocholine
 CH$NAME: glyceryl 2-(trimethylammonio)ethyl phosphate
 CH$COMPOUND_CLASS: Natural product

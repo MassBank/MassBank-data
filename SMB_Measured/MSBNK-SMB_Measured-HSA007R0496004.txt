@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA007R0496004
 RECORD_TITLE: LysoPC(16:0); LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 18 product ion spectra among 60 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS417
 COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
 COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
-COMMENT: PRECURSOR_IN_MS1 mz 496.336157; int 33.927; delta(ppm) -7.868091
+COMMENT: PRECURSOR_IN_MS1 mz 496.336157; int 33.927; delta(ppm) -6.168074
 COMMENT: PROPOSED_MF SevenGoldenRules 1.100; C24H50NO7P; [M+H]+; delta(ppm) -1.100272; Ranking 2;
 COMMENT: PROPOSED_MF MS-FINDER 3.717; C24H50NO7P; [M+H]+; delta(ppm) -1.098820; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 2003.601; C24H50NO7P; [M+H]+; delta(ppm) -1.098820; Ranking 1;
@@ -21,14 +21,14 @@ COMMENT: PROPOSED_MF SIRIUS6_Sirius 8.990; C24H50NO7P; [M+H]+; delta(ppm) -1.098
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C24H50NO7P; [M+H]+; delta(ppm) -1.098820; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 6.000; ASWBNKHCZGQVJV-HSZRJFAPSA-N; C24H50NO7P; Spectral Match to Lyso-PC(16:0) from NIST14; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; ASWBNKHCZGQVJV-UHFFFAOYSA-N; C24H50NO7P; Massbank:PR310838 LPC 16:0; Ranking 2;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.042; ASWBNKHCZGQVJV-HSZRJFAPSA-N; [M+H]+; CCCCCCCCCCCCCCCC(=O)OC[C@@H](O)COP([O-])(=O)OCC[N+](C)(C)C; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.042; ASWBNKHCZGQVJV; [M+H]+; LysoPC(16:0); Ranking 2;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.270; ASWBNKHCZGQVJV-HSZRJFAPSA-N; [M+H]+; LysoPC(16:0); Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; ASWBNKHCZGQVJV-HSZRJFAPSA-N; [M+H]+; LysoPC(16:0); Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.429; ASWBNKHCZGQVJV; [M+H]+; 1-16:0-lysoPC; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.612; ASWBNKHCZGQVJV; [M+H]+; 1-16:0-lysoPC; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -184.417; ASWBNKHCZGQVJV; [M+H]+; 1-Palmitoyl-sn-glycero-3-phosphocholine-d9; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.674; ASWBNKHCZGQVJV; [M+H]+; 1-Palmitoyl-sn-glycero-3-phosphocholine-d9; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 8 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0010382)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 8 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0010382)
 CH$NAME: LysoPC(16:0)
 CH$NAME: (3-hexadecanoyloxy-2-hydroxypropyl) 2-(trimethylazaniumyl)ethyl phosphate
 CH$COMPOUND_CLASS: Natural product
@@ -61,7 +61,7 @@ MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dat
 PK$SPLASH: splash10-001j-0900300000-2b0247e8c38c8568e48f
 PK$ANNOTATION: m/z int mzPAF cor n
   104.107087 395 f{C5H14N1O1}/0.93ppm,p-C19H37O6P1 0.6969 17
-  184.074272 999 f{C12H10N1O1}/-7.71ppm,p-C12H41O6P1 0.8068 14
+  184.074272 999 f{C5H15N1O4P1}/5.17ppm,p-C19H36O3 0.8068 14
   496.338830 614 f{C24H51N1O7P1}/-1.88ppm,p 1.0000 18
 PK$NUM_PEAK: 3
 PK$PEAK: m/z int. rel.int.

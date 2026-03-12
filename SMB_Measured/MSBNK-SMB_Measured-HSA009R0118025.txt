@@ -1,33 +1,33 @@
 ACCESSION: MSBNK-SMB_Measured-HSA009R0118025
 RECORD_TITLE: Indole; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 103 product ion spectra among 248 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001171
 COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
 COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 118.065091; int 29.411; delta(ppm) 0.050932
 COMMENT: PROPOSED_MF SevenGoldenRules 0.342; C8H7N; [M+H]+; delta(ppm) -0.341712; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.416; C8H7N; [M+H]+; delta(ppm) -0.344408; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 11.738; C8H7N; [M+H]+; delta(ppm) -0.344408; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.999; C8H7N; [M+H]+; delta(ppm) -0.344408; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.996; C8H7N; [M+H]+; delta(ppm) -0.344408; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 17.018; C8H7N; [M+H]+; delta(ppm) -0.344408; Ranking 2;
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.704; C8H7N; [M+H]+; delta(ppm) -0.344408; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.758; SIKJAQJRHWYJAI-UHFFFAOYSA-N; [M+H]+; N1C=CC2=C1C=CC=C2; Ranking 4;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.982; C8H7N; [M+H]+; delta(ppm) -0.344408; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.758; SIKJAQJRHWYJAI; [M+H]+; Indole; Ranking 4;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.006; SIKJAQJRHWYJAI-UHFFFAOYSA-N; [M+H]+; Indole; Ranking 2;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.533; SIKJAQJRHWYJAI-UHFFFAOYSA-N; [M+H]+; Indole; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.501; SIKJAQJRHWYJAI-UHFFFAOYSA-N; [M+H]+; Indole; Ranking 6;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.501; SIKJAQJRHWYJAI-UHFFFAOYSA-N; [M+H]+; 1H-indole; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -13.404; SIKJAQJRHWYJAI; [M+H]+; 1H-Indole; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.637; SIKJAQJRHWYJAI; [M+H]+; 1H-Indole; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -17.538; SIKJAQJRHWYJAI; [M+H]+; Indol; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.805; SIKJAQJRHWYJAI; [M+H]+; Indol; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000738)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 6), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000738)
 CH$NAME: Indole
 CH$NAME: Indol
 CH$NAME: 1H-indole

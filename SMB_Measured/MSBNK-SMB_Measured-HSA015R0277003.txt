@@ -1,0 +1,87 @@
+ACCESSION: MSBNK-SMB_Measured-HSA015R0277003
+RECORD_TITLE: gamma-Glutamylglutamic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 16 product ion spectra among 27 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS6402
+COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
+COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
+COMMENT: PRECURSOR_IN_MS1 mz 277.103081; int 60.120; delta(ppm) 0.001958
+COMMENT: PROPOSED_MF SevenGoldenRules 0.192; C10H16N2O7; [M+H]+; delta(ppm) 0.191962; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.716; C10H16N2O7; [M+H]+; delta(ppm) 0.190142; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 44.094; C10H16N2O7; [M+H]+; delta(ppm) 0.190142; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C10H16N2O7; [M+H]+; delta(ppm) 0.190142; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 64.331; C10H16N2O7; [M+H]+; delta(ppm) 0.190142; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C10H16N2O7; [M+H]+; delta(ppm) 0.190142; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.403; OWQDWQKWSLFFFR; [M+H]+; gamma-Glutamylglutamic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.414; OWQDWQKWSLFFFR-IOMOGOHMNA-N; [M+H]+; gamma-Glutamylglutamic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.717; OWQDWQKWSLFFFR-IOMOGOHMNA-N; [M+H]+; gamma-Glutamylglutamic acid; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.268; OWQDWQKWSLFFFR-WDSKDSINSA-N; [M+H]+; (2S)-2-[[(4S)-4-amino-4-carboxybutanoyl]amino]pentanedioic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -3.910; OWQDWQKWSLFFFR; [M+H]+; gamma-GLU-GLU; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.482; OWQDWQKWSLFFFR; [M+H]+; gamma-GLU-GLU; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -88.841; OWQDWQKWSLFFFR; [M+H]+; Gamma-Glu-Glu; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.697; OWQDWQKWSLFFFR; [M+H]+; Gamma-Glu-Glu; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0011737)
+CH$NAME: gamma-Glutamylglutamic acid
+CH$NAME: Gamma-Glu-Glu
+CH$NAME: 2-[(4-amino-4-carboxy-butanoyl)amino]glutaric acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C10H16N2O7
+CH$EXACT_MASS: 276.095751
+CH$SMILES: C(CC(=O)NC(CCC(=O)O)C(=O)O)C(C(=O)O)N
+CH$IUPAC: InChI=1S/C10H16N2O7/c11-5(9(16)17)1-3-7(13)12-6(10(18)19)2-4-8(14)15/h5-6H,1-4,11H2,(H,12,13)(H,14,15)(H,16,17)(H,18,19)
+CH$LINK: HMDB HMDB0011737
+CH$LINK: INCHIKEY OWQDWQKWSLFFFR-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:558343
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Vanquish Flex UHPLC system, Thermo Fisher Scientific - Orbitrap Q Exactive Plus mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.50; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.285
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 277.103080
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-7910000000-54a16be6fa80cc0956bd
+PK$ANNOTATION: m/z int mzPAF cor n
+  56.049441 40 f{C3H6N1}/-0.62ppm,p-C7H11N1O7 0.7882 16
+  84.044388 999 f{C4H6N1O1}/-0.03ppm,p-C6H11N1O6 0.9294 16
+  85.028372 38 f{C4H5O2}/-0.40ppm,p-C6H12N2O5 0.7588 16
+  102.054904 217 f{C4H8N1O2}/-0.50ppm,p-C6H9N1O5 0.8706 16
+  130.049843 372 f{C5H8N1O3}/-0.20ppm,p-C5H9N1O4 0.9382 16
+  148.060390 552 f{C5H10N1O4}/-0.30ppm,p-C5H7N1O3 0.9235 16
+  168.065533 76 f{C8H10N1O3}/0.08ppm,p-C2H7N1O4 0.7235 16
+  196.060206 22 f{C9H10N1O4}/-1.17ppm,p-C1H7N1O3 0.7967 13
+  214.071057 59 f{C9H12N1O5}/0.27ppm,p-C1H5N1O2 0.8147 16
+  260.076330 59 f{C10H14N1O7}/-0.57ppm,p-H3N1 0.8471 16
+  277.103052 113 f{C10H17N2O7}/0.09ppm,p 1.0000 16
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  56.049441 40.00 40
+  84.044388 999.00 999
+  85.028372 38.00 38
+  102.054904 217.00 217
+  130.049843 372.00 372
+  148.060390 552.00 552
+  168.065533 76.00 76
+  196.060206 22.00 22
+  214.071057 59.00 59
+  260.076330 59.00 59
+  277.103052 113.00 113
+//

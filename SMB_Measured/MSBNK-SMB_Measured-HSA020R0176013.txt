@@ -1,17 +1,17 @@
 ACCESSION: MSBNK-SMB_Measured-HSA020R0176013
 RECORD_TITLE: Citrulline; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 102 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 176.103090; int 450.942; delta(ppm) 0.073989
 COMMENT: PROPOSED_MF SevenGoldenRules 0.628; C6H13N3O3; [M+H]+; delta(ppm) 0.628228; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.370; C6H13N3O3; [M+H]+; delta(ppm) 0.620462; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 62.961; C6H13N3O3; [M+H]+; delta(ppm) 0.620462; Ranking 1;
@@ -20,15 +20,15 @@ COMMENT: PROPOSED_MF SIRIUS6_Sirius 96.142; C6H13N3O3; [M+H]+; delta(ppm) 0.6204
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H13N3O3; [M+H]+; delta(ppm) 0.620462; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 31.000; RHGKLRLOHDJJDR-BYPYZUCNSA-N; C6H13N3O3; Massbank:PR100448 L-CitrullineCitOrn(carbamoyl)N5-Carbamoyl-L-ornithinedelta-UreidonorvalineL-2-Amino-5-ureidovaleric acid(S)-2-Amino-5-ureidopentanoic acidSitrulline; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 6.000; RHGKLRLOHDJJDR-UHFFFAOYSA-N; C6H13N3O3; Massbank:PT111890 delta-UreidonorvalineL-2-Amino-5-ureidovaleric acidN5-Carbamoyl-L-ornithineSitrullineL-CitrullineOrn(carbamoyl)Cit(S)-2-Amino-5-ureidopentanoic acid(2S)-2-amino-5-(carbamoylamino)pentanoic aci; Ranking 2;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.898; RHGKLRLOHDJJDR-BYPYZUCNSA-N; [M+H]+; N[C@@H](CCCNC(N)=O)C(O)=O; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.898; RHGKLRLOHDJJDR; [M+H]+; Citrulline; Ranking 3;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.125; RHGKLRLOHDJJDR-BYPYZUCNSA-N; [M+H]+; Citrulline; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; RHGKLRLOHDJJDR-BYPYZUCNSA-N; [M+H]+; Citrulline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.945; RHGKLRLOHDJJDR-BYPYZUCNSA-N; [M+H]+; Citrulline; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; RHGKLRLOHDJJDR-BYPYZUCNSA-N; [M+H]+; (2S)-2-amino-5-(carbamoylamino)pentanoic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.996; RHGKLRLOHDJJDR; [M+H]+; citrulina; Ranking 1;
-COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.862; RHGKLRLOHDJJDR; [M+H]+; citrulina; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.862; RHGKLRLOHDJJDR; [M+H]+; citrulina; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -24.072; RHGKLRLOHDJJDR; [M+H]+; Citrulina; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.820; RHGKLRLOHDJJDR; [M+H]+; Citrulina; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 37 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000904)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 37 spectra); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000904)
 CH$NAME: Citrulline
 CH$NAME: Citrulina
 CH$NAME: 2-amino-5-ureido-valeric acid

@@ -1,34 +1,34 @@
 ACCESSION: MSBNK-SMB_Measured-HSA009R0146068
 RECORD_TITLE: Spermidine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 36 product ion spectra among 248 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001171
 COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
 COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 146.165224; int 7.739; delta(ppm) -0.034533
 COMMENT: PROPOSED_MF SevenGoldenRules 0.379; C7H19N3; [M+H]+; delta(ppm) 0.378898; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.858; C7H19N3; [M+H]+; delta(ppm) 0.375875; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS5_Sirius 17.566; C7H19N3; [M+H]+; delta(ppm) 0.375875; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 17.567; C7H19N3; [M+H]+; delta(ppm) 0.375875; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C7H19N3; [M+H]+; delta(ppm) 0.375875; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 25.151; C7H19N3; [M+H]+; delta(ppm) 0.375875; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C7H19N3; [M+H]+; delta(ppm) 0.375875; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 36.000; ATHGHQPFGPMSJY-UHFFFAOYSA-N; C7H19N3; SPERMIDINE; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 2.128; ATHGHQPFGPMSJY-UHFFFAOYSA-N; [M+H]+; NCCCCNCCCN; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 9.326; ATHGHQPFGPMSJY-UHFFFAOYSA-N; [M+H]+; Spermidine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 2.128; ATHGHQPFGPMSJY; [M+H]+; Spermidine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 9.391; ATHGHQPFGPMSJY-UHFFFAOYSA-N; [M+H]+; Spermidine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; ATHGHQPFGPMSJY-UHFFFAOYSA-N; [M+H]+; Spermidine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; ATHGHQPFGPMSJY-UHFFFAOYSA-N; [M+H]+; N'-(3-aminopropyl)butane-1,4-diamine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -3.517; ATHGHQPFGPMSJY; [M+H]+; Spermidin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.530; ATHGHQPFGPMSJY; [M+H]+; Spermidin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -9.424; ATHGHQPFGPMSJY; [M+H]+; Spermidin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.829; ATHGHQPFGPMSJY; [M+H]+; Spermidin; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 36 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0001257)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 36 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0001257)
 CH$NAME: Spermidine
 CH$NAME: Spermidin
 CH$NAME: N'-(3-aminopropyl)butane-1,4-diamine

@@ -1,25 +1,25 @@
 ACCESSION: MSBNK-SMB_Measured-HSA022R0263000
 RECORD_TITLE: Prolylphenylalanine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 264 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 mz 263.139012; int 225.520; delta(ppm) 0.908011
+COMMENT: PRECURSOR_IN_MS1 mz 263.139012; int 225.520; delta(ppm) 0.011573
 COMMENT: PROPOSED_MF SevenGoldenRules 0.034; C14H18N2O3; [M+H]+; delta(ppm) -0.034334; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.076; C14H18N2O3; [M+H]+; delta(ppm) -0.037573; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS5_Sirius 14.086; C14H18N2O3; [M+H]+; delta(ppm) -0.037573; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 14.087; C14H18N2O3; [M+H]+; delta(ppm) -0.037573; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C14H18N2O3; [M+H]+; delta(ppm) -0.037573; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 19.476; C14H18N2O3; [M+H]+; delta(ppm) -0.037573; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C14H18N2O3; [M+H]+; delta(ppm) -0.037573; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.999; C14H18N2O3; [M+H]+; delta(ppm) -0.037573; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 6.000; IWIANZLCJVYEFX-RYUDHWBXSA-N; C14H18N2O3; Spectral Match to Pro-Phe from NIST14; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.061; IWIANZLCJVYEFX-UHFFFAOYNA-N; [M+H]+; OC(=O)C(CC1=CC=CC=C1)NC(=O)C1CCCN1; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.061; IWIANZLCJVYEFX; [M+H]+; Prolylphenylalanine; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.220; IWIANZLCJVYEFX-UHFFFAOYNA-N; [M+H]+; Prolylphenylalanine; Ranking 3;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; IWIANZLCJVYEFX-UHFFFAOYNA-N; [M+H]+; Prolylphenylalanine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.088; IWIANZLCJVYEFX-RYUDHWBXSA-N; [M+H]+; (2S)-3-phenyl-2-[[(2S)-pyrrolidine-2-carbonyl]amino]propanoic acid; Ranking 2;
@@ -27,7 +27,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.147; IWIANZLCJVYEFX; [M+H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.990; IWIANZLCJVYEFX; [M+H]+; prolylphenylalanine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -165.871; IWIANZLCJVYEFX; [M+H]+; 3-phenyl-2-[(pyrrolidin-2-yl)formamido]propanoic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.997; IWIANZLCJVYEFX; [M+H]+; 3-phenyl-2-[(pyrrolidin-2-yl)formamido]propanoic acid; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 6 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 3), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0011179)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 6 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 3), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0011179)
 CH$NAME: Prolylphenylalanine
 CH$NAME: 3-phenyl-2-(pyrrolidine-2-carbonylamino)propanoic acid
 CH$COMPOUND_CLASS: Natural product

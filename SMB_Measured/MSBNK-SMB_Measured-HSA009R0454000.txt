@@ -1,34 +1,34 @@
 ACCESSION: MSBNK-SMB_Measured-HSA009R0454000
 RECORD_TITLE: LysoPE(16:0/0:0); LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 370 product ion spectra among 248 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001171
 COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
 COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 454.292577; int 11.791; delta(ppm) -0.057166
 COMMENT: PROPOSED_MF SevenGoldenRules 0.465; C21H44NO7P; [M+H]+; delta(ppm) -0.465490; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.585; C21H44NO7P; [M+H]+; delta(ppm) -0.464892; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 8029.802; C21H44NO7P; [M+H]+; delta(ppm) -0.464892; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C21H44NO7P; [M+H]+; delta(ppm) -0.464892; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS6_Sirius 77.606; C21H44NO7P; [M+H]+; delta(ppm) -0.464892; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 76.427; C21H44NO7P; [M+H]+; delta(ppm) -0.464892; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C21H44NO7P; [M+H]+; delta(ppm) -0.464892; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 7.000; YVYMBNSKXOXSKW-HXUWFJFHSA-N; C21H44NO7P; Spectral Match to 1-Palmitoyl-2-hydroxy-sn-glycero-3-phosphoethanolamine from NIST14; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.304; YVYMBNSKXOXSKW-HXUWFJFHSA-N; [M+H]+; CCCCCCCCCCCCCCCC(=O)OC[C@@H](O)COP(O)(=O)OCCN; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.304; YVYMBNSKXOXSKW; [M+H]+; LysoPE(16:0/0:0); Ranking 2;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.448; YVYMBNSKXOXSKW-HXUWFJFHSA-N; [M+H]+; LysoPE(16:0/0:0); Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; YVYMBNSKXOXSKW-HXUWFJFHSA-N; [M+H]+; LysoPE(16:0/0:0); Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; YVYMBNSKXOXSKW-HXUWFJFHSA-N; [M+H]+; [(2R)-3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-hydroxypropyl] hexadecanoate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.373; YVYMBNSKXOXSKW; [M+H]+; 1-16:0-lysoPE; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.570; YVYMBNSKXOXSKW; [M+H]+; 1-16:0-lysoPE; Ranking 1;
-COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -69.145; YVYMBNSKXOXSKW; [M+H]+; 1-Hexadecanoyl-Sn-Glycero-3-Phosphoethanolamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -69.117; YVYMBNSKXOXSKW; [M+H]+; 1-Hexadecanoyl-Sn-Glycero-3-Phosphoethanolamine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.524; YVYMBNSKXOXSKW; [M+H]+; 1-Hexadecanoyl-Sn-Glycero-3-Phosphoethanolamine; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS5_CSI (FDR < 0.05); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 7 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0011503)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS5_CSI (FDR < 0.05); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 7 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0011503)
 CH$NAME: LysoPE(16:0/0:0)
 CH$NAME: palmitic acid [3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-hydroxy-propyl] ester
 CH$COMPOUND_CLASS: Natural product
@@ -60,7 +60,7 @@ MS$FOCUSED_ION: ION_TYPE [M+H]+
 MS$FOCUSED_ION: PRECURSOR_M/Z 454.292603
 MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
 MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
-PK$SPLASH: splash10-03di-3009000000-49348c2717c17eb15045
+PK$SPLASH: splash10-03di-3019000000-2d2ed2f0e2915ad24671
 PK$ANNOTATION: m/z int mzPAF cor n
   55.054218 6 f{C4H7}/-0.15ppm,p-C17H38N1O7P1 0.5460 260
   57.033435 12 f{C3H5O1}/-0.98ppm,p-C18H40N1O6P1 0.5577 319
@@ -76,6 +76,8 @@ PK$ANNOTATION: m/z int mzPAF cor n
   97.101107 14 f{C7H13}/-0.72ppm,p-C14H32N1O7P1 0.5715 333
   109.101309 26 f{C8H13}/1.21ppm,p-C13H32N1O7P1 0.5445 358
   123.116743 13 f{C9H15}/-0.68ppm,p-C12H30N1O7P1 0.5692 333
+  155.010575 58 f{C3H8O5P1}/1.23ppm,p-C18H37N1O2 0.5749 286
+  216.063116 23 f{C5H15N1O6P1}/-0.15ppm,p-C16H30O1 0.5463 304
   239.236884 19 f{C16H31O1}/-0.24ppm,p-C5H14N1O6P1 0.5693 332
   257.247637 13 f{C16H33O2}/0.51ppm,p-C5H12N1O5P1 0.5355 293
   282.279092 76 f{C18H36N1O1}/-0.17ppm,p-C3H9O6P1 0.4937 370
@@ -83,7 +85,7 @@ PK$ANNOTATION: m/z int mzPAF cor n
   393.240233 49 f{C19H38O6P1}/0.46ppm,p-C2H7N1O1 0.6430 265
   436.282606 32 f{C21H43N1O6P1}/0.82ppm,p-H2O1 0.6230 260
   454.293424 44 f{C21H45N1O7P1}/1.34ppm,p 1.0000 316
-PK$NUM_PEAK: 21
+PK$NUM_PEAK: 23
 PK$PEAK: m/z int. rel.int.
   55.054218 6.00 6
   57.033435 12.00 12
@@ -99,6 +101,8 @@ PK$PEAK: m/z int. rel.int.
   97.101107 14.00 14
   109.101309 26.00 26
   123.116743 13.00 13
+  155.010575 58.00 58
+  216.063116 23.00 23
   239.236884 19.00 19
   257.247637 13.00 13
   282.279092 76.00 76

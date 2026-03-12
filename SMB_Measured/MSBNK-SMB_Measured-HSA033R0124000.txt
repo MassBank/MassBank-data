@@ -1,17 +1,17 @@
 ACCESSION: MSBNK-SMB_Measured-HSA033R0124000
 RECORD_TITLE: Taurine; LC-ESI-QTOF; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Liang et al. J Pharm Biomed Anal. 2022, 214, 114718
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 145 product ion spectra among 50 DDA data files in the dataset described below.
 COMMENT: DATASET_ID MTBLS3854
 COMMENT: DATASET_TITLE Long-term low-dose ionizing radiation induced chromosome-aberration-specific metabolic phenotype changes in radiation workers
 COMMENT: DATASET_AUTHORS Xinjun Wang
-COMMENT: PRECURSOR_IN_MS1 mz 124.007546; int 768.742; delta(ppm) -1.118446
+COMMENT: PRECURSOR_IN_MS1 mz 124.007546; int 768.742; delta(ppm) -0.830451
 COMMENT: PROPOSED_MF SevenGoldenRules 2.088; C2H7NO3S; [M-H]1; delta(ppm) 2.087751; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.505; C2H7NO3S; [M-H]-; delta(ppm) 2.107416; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 9.969; C2H7NO3S; [M-H]-; delta(ppm) 2.107416; Ranking 1;
@@ -19,7 +19,7 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C2H7NO3S; [M-H]-; delta(ppm) 2.107416
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 21.303; C2H7NO3S; [M-H]-; delta(ppm) 2.107416; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C2H7NO3S; [M-H]-; delta(ppm) 2.107416; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 11.000; XOAAWQZATWQOTB-UHFFFAOYSA-N; C2H7NO3S; TAURINE; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.500; XOAAWQZATWQOTB-UHFFFAOYSA-N; [M-H]-; NCCS(O)(=O)=O; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.500; XOAAWQZATWQOTB; [M-H]-; Taurine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.305; XOAAWQZATWQOTB-UHFFFAOYSA-N; [M-H]-; Taurine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; XOAAWQZATWQOTB-UHFFFAOYSA-N; [M-H]-; Taurine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; XOAAWQZATWQOTB-UHFFFAOYSA-N; [M-H]-; 2-aminoethanesulfonic acid; Ranking 1;
@@ -27,7 +27,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.202; XOAAWQZATWQOTB; [M-H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.490; XOAAWQZATWQOTB; [M-H]-; Taurinum; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -1.947; XOAAWQZATWQOTB; [M-H]-; Taurine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.538; XOAAWQZATWQOTB; [M-H]-; Taurine; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS5_CSI (FDR < 0.05); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 11 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000251)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS5_CSI (FDR < 0.05); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 11 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000251)
 CH$NAME: Taurine
 CH$NAME: 2-aminoethanesulfonic acid
 CH$COMPOUND_CLASS: Natural product

@@ -1,32 +1,32 @@
 ACCESSION: MSBNK-SMB_Measured-HSA009R0328000
 RECORD_TITLE: N-(1-Deoxy-1-fructosyl)phenylalanine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 281 product ion spectra among 248 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001171
 COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
 COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
-COMMENT: PRECURSOR_IN_MS1 mz 328.139059; int 16.031; delta(ppm) -1.028951
+COMMENT: PRECURSOR_IN_MS1 mz 328.139059; int 16.031; delta(ppm) 0.003069
 COMMENT: PROPOSED_MF SevenGoldenRules 0.061; C15H21NO7; [M+H]+; delta(ppm) -0.061137; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.784; C15H21NO7; [M+H]+; delta(ppm) -0.062361; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 58.220; C15H21NO7; [M+H]+; delta(ppm) -0.062361; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C15H21NO7; [M+H]+; delta(ppm) -0.062361; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 109.729; C15H21NO7; [M+H]+; delta(ppm) -0.062361; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C15H21NO7; [M+H]+; delta(ppm) -0.062361; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.705; FAVRCIXPIVJIPN-TVXXKFDONA-N; [M+H]+; OC[C@H]1OC(O)(CN[C@@H](CC2=CC=CC=C2)C(O)=O)[C@@H](O)[C@@H]1O; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.705; FAVRCIXPIVJIPN; [M+H]+; N-(1-Deoxy-1-fructosyl)phenylalanine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.548; FAVRCIXPIVJIPN-TVXXKFDONA-N; [M+H]+; N-(1-Deoxy-1-fructosyl)phenylalanine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.994; FAVRCIXPIVJIPN-TVXXKFDONA-N; [M+H]+; N-(1-Deoxy-1-fructosyl)phenylalanine; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -29.393; FAVRCIXPIVJIPN; [M+H]+; nan; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.909; FAVRCIXPIVJIPN; [M+H]+; nan; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -44.623; FAVRCIXPIVJIPN; [M+H]+; N-(1-Deoxy-1-Fructosyl)Phenylalanine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.991; FAVRCIXPIVJIPN; [M+H]+; N-(1-Deoxy-1-Fructosyl)Phenylalanine; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2); Biological context by HMDB (HMDB0037846)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2); Biological context by HMDB (HMDB0037846)
 CH$NAME: N-(1-Deoxy-1-fructosyl)phenylalanine
 CH$NAME: 3-phenyl-2-[[2,3,4-trihydroxy-5-(hydroxymethyl)oxolan-2-yl]methylamino]propanoic acid
 CH$COMPOUND_CLASS: Natural product

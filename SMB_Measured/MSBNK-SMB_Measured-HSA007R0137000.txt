@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA007R0137000
 RECORD_TITLE: Hypoxanthine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 123 product ion spectra among 60 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS417
 COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
 COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
-COMMENT: PRECURSOR_IN_MS1 mz 137.045619; int 999.000; delta(ppm) -3.727433
+COMMENT: PRECURSOR_IN_MS1 mz 137.045619; int 999.000; delta(ppm) -1.386466
 COMMENT: PROPOSED_MF SevenGoldenRules 0.162; C5H4N4O; [M+H]+; delta(ppm) 0.161719; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.410; C5H4N4O; [M+H]+; delta(ppm) 0.158990; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 29.150; C5H4N4O; [M+H]+; delta(ppm) 0.158990; Ranking 1;
@@ -20,7 +20,7 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C5H4N4O; [M+H]+; delta(ppm) 0.158990;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 45.513; C5H4N4O; [M+H]+; delta(ppm) 0.158990; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C5H4N4O; [M+H]+; delta(ppm) 0.158990; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 7.000; FDGQSTZJBFJUBT-UHFFFAOYSA-N; C5H4N4O; HYPOXANTHINE; Ranking 2;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.371; FDGQSTZJBFJUBT-UHFFFAOYSA-N; [M+H]+; OC1=NC=NC2=C1NC=N2; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.371; FDGQSTZJBFJUBT; [M+H]+; Hypoxanthine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.242; FDGQSTZJBFJUBT-UHFFFAOYSA-N; [M+H]+; Hypoxanthine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.872; FDGQSTZJBFJUBT-UHFFFAOYSA-N; [M+H]+; Hypoxanthine; Ranking 7;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.357; FDGQSTZJBFJUBT-UHFFFAOYSA-N; [M+H]+; 1,7-dihydropurin-6-one; Ranking 2;
@@ -28,7 +28,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -20.475; FDGQSTZJBFJUBT; [M+H
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.570; FDGQSTZJBFJUBT; [M+H]+; Sarcine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -18.894; FDGQSTZJBFJUBT; [M+H]+; Sarkin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.888; FDGQSTZJBFJUBT; [M+H]+; Sarkin; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 7 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 7), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0000157)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 7 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 7), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0000157)
 CH$NAME: Hypoxanthine
 CH$NAME: Sarkin
 CH$NAME: 3,7-dihydropurin-6-one

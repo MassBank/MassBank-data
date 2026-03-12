@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA015R0116004
 RECORD_TITLE: Proline; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 24 product ion spectra among 27 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS6402
 COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
 COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
-COMMENT: PRECURSOR_IN_MS1 mz 116.070577; int 87.937; delta(ppm) 1.578626
+COMMENT: PRECURSOR_IN_MS1 mz 116.070577; int 87.937; delta(ppm) -0.000451
 COMMENT: PROPOSED_MF SevenGoldenRules 0.235; C5H9NO2; [M+H]+; delta(ppm) -0.234653; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.235; C5H9NO2; [M+H]+; delta(ppm) -0.232362; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 19.832; C5H9NO2; [M+H]+; delta(ppm) -0.232362; Ranking 1;
@@ -23,12 +23,13 @@ COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 42.000; ONIBWKKTOPOVIA-BYPYZUCNSA-N; 
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 29.000; ONIBWKKTOPOVIA-UHFFFAOYSA-N; C5H9NO2; Massbank:CE000637 Proline; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 20.000; ONIBWKKTOPOVIA-SCSAIBSYSA-N; C5H9NO2; d-Pro - 40.0 eV; Ranking 3;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.165; ONIBWKKTOPOVIA-BYPYZUCNSA-N; [M+H]+; L-Proline; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.993; ONIBWKKTOPOVIA-BYPYZUCNSA-N; [M+H]+; L-Proline; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.993; ONIBWKKTOPOVIA-BYPYZUCNSA-N; [M+H]+; L-Proline; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.993; ONIBWKKTOPOVIA-BYPYZUCNSA-N; [M+H]+; (2S)-pyrrolidine-2-carboxylic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -3.016; ONIBWKKTOPOVIA; [M+H]+; D-Prolin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.990; ONIBWKKTOPOVIA; [M+H]+; D-Prolin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -65.390; ONIBWKKTOPOVIA; [M+H]+; Hpro; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.934; ONIBWKKTOPOVIA; [M+H]+; Hpro; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 91 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2); Biological context by HMDB (HMDB0000162)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 91 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000162)
 CH$NAME: Proline
 CH$NAME: Hpro
 CH$NAME: pyrrolidine-2-carboxylic acid

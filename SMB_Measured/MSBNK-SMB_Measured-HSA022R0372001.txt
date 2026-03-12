@@ -1,0 +1,82 @@
+ACCESSION: MSBNK-SMB_Measured-HSA022R0372001
+RECORD_TITLE: Tetradecanoylcarnitine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 250 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 372.311126; int 56.718; delta(ppm) 0.085931
+COMMENT: PROPOSED_MF SevenGoldenRules 0.698; C21H41NO4; [M+H]+; delta(ppm) 0.697542; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.005; C21H41NO4; [M+H]+; delta(ppm) 0.695024; Ranking 2;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 16.721; C21H41NO4; [M+H]+; delta(ppm) 0.695024; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C21H41NO4; [M+H]+; delta(ppm) 0.695024; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 25.435; C21H41NO4; [M+H]+; delta(ppm) 0.695024; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C21H41NO4; [M+H]+; delta(ppm) 0.695024; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; PSHXNVGSVNEJBD-LJQANCHMSA-N; C21H41NO4; Massbank:RP025402 Tetradecanoyl-L-CarnitineL-Myristoylcarnitine(3R)-3-tetradecanoyloxy-4-(trimethylazaniumyl)butanoate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.021; PSHXNVGSVNEJBD; [M+H]+; Tetradecanoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.568; PSHXNVGSVNEJBD-LJQANCHMSA-N; [M+H]+; Tetradecanoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; PSHXNVGSVNEJBD-LJQANCHMSA-N; [M+H]+; Tetradecanoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.122; PSHXNVGSVNEJBD; [M+H]+; Tocris-0567; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.965; PSHXNVGSVNEJBD; [M+H]+; Tocris-0567; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -75.395; PSHXNVGSVNEJBD; [M+H]+; [(2R)-3-carboxy-2-tetradecanoyloxypropyl]-dimethyl-(trideuteriomethyl)azanium; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.689; PSHXNVGSVNEJBD; [M+H]+; [(2R)-3-carboxy-2-tetradecanoyloxypropyl]-dimethyl-(trideuteriomethyl)azanium; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0005066)
+CH$NAME: Tetradecanoylcarnitine
+CH$NAME: 3-tetradecanoyloxy-4-(trimethylammonio)butyrate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C21H41NO4
+CH$EXACT_MASS: 371.303559
+CH$SMILES: CCCCCCCCCCCCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C
+CH$IUPAC: InChI=1S/C21H41NO4/c1-5-6-7-8-9-10-11-12-13-14-15-16-21(25)26-19(17-20(23)24)18-22(2,3)4/h19H,5-18H2,1-4H3
+CH$LINK: HMDB HMDB0005066
+CH$LINK: INCHIKEY PSHXNVGSVNEJBD-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:6426854
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.843
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 372.311094
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-9004000000-66a1c2bb056a3f73cbf0
+PK$ANNOTATION: m/z int mzPAF cor n
+  81.069747 9 f{C6H9}/-1.60ppm,p-C15H33N1O4 0.8989 230
+  85.028421 999 f{C4H5O2}/0.18ppm,p-C17H37N1O2 0.9920 250
+  85.100996 6 f{C6H13}/-2.12ppm,p-C15H29N1O4 0.8910 202
+  95.085480 15 f{C7H11}/-0.49ppm,p-C14H31N1O4 0.9566 247
+  109.101049 8 f{C8H13}/-1.17ppm,p-C13H29N1O4 0.9131 224
+  144.101904 26 f{C7H14N1O2}/-0.01ppm,p-C14H28O2 0.9778 242
+  211.205589 20 f{C14H27O1}/-0.25ppm,p-C7H15N1O3 0.9798 238
+  313.237214 60 f{C18H33O4}/-0.39ppm,p-C3H9N1 0.9937 249
+  372.310694 421 f{C21H42N1O4}/-0.38ppm,p 1.0000 250
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  81.069747 9.00 9
+  85.028421 999.00 999
+  85.100996 6.00 6
+  95.085480 15.00 15
+  109.101049 8.00 8
+  144.101904 26.00 26
+  211.205589 20.00 20
+  313.237214 60.00 60
+  372.310694 421.00 421
+//

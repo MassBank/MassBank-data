@@ -1,0 +1,76 @@
+ACCESSION: MSBNK-SMB_Measured-HSA022R0231006
+RECORD_TITLE: Aspartyl-proline; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 20 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 231.097501; int 55.695; delta(ppm) 0.153516
+COMMENT: PROPOSED_MF SevenGoldenRules 0.361; C9H14N2O5; [M+H]+; delta(ppm) -0.360728; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.428; C9H14N2O5; [M+H]+; delta(ppm) -0.359170; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 30.300; C9H14N2O5; [M+H]+; delta(ppm) -0.359170; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C9H14N2O5; [M+H]+; delta(ppm) -0.359170; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 41.712; C9H14N2O5; [M+H]+; delta(ppm) -0.359170; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H14N2O5; [M+H]+; delta(ppm) -0.359170; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.747; UKGGPJNBONZZCM; [M+H]+; Aspartyl-L-proline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.278; UKGGPJNBONZZCM-WDSKDSINSA-N; [M+H]+; Aspartyl-L-proline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; UKGGPJNBONZZCM-WDSKDSINSA-N; [M+H]+; Aspartyl-L-proline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.667; UKGGPJNBONZZCM-WDSKDSINSA-N; [M+H]+; (2S)-1-[(2S)-2-amino-3-carboxypropanoyl]pyrrolidine-2-carboxylic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.577; UKGGPJNBONZZCM; [M+H]+; Aspartylproline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.986; UKGGPJNBONZZCM; [M+H]+; Aspartylproline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -91.331; UKGGPJNBONZZCM; [M+H]+; 1-(2-amino-3-carboxypropanoyl)pyrrolidine-2-carboxylic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.987; UKGGPJNBONZZCM; [M+H]+; 1-(2-amino-3-carboxypropanoyl)pyrrolidine-2-carboxylic acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0002335)
+CH$NAME: Aspartyl-proline
+CH$NAME: 1-(2-amino-3-carboxy-propanoyl)proline
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C9H14N2O5
+CH$EXACT_MASS: 230.090272
+CH$SMILES: C1CC(N(C1)C(=O)C(CC(=O)O)N)C(=O)O
+CH$IUPAC: InChI=1S/C9H14N2O5/c10-5(4-7(12)13)8(14)11-3-1-2-6(11)9(15)16/h5-6H,1-4,10H2,(H,12,13)(H,15,16)
+CH$LINK: HMDB HMDB0002335
+CH$LINK: INCHIKEY UKGGPJNBONZZCM-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:14647618
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.244
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 231.097465
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-01ba-5900000000-176e972314e93e47dc5e
+PK$ANNOTATION: m/z int mzPAF cor n
+  70.065225 665 f{C4H8N1}/1.41ppm,p-C5H7N1O5 0.8647 20
+  88.039369 479 f{C3H6N1O2}/0.73ppm,p-C6H9N1O3 1.0000 20
+  116.070710 999 f{C5H10N1O2}/0.90ppm,p-C4H5N1O3 0.8662 20
+  125.070822 206 f{C6H9N2O1}/-0.94ppm,p-C3H6O4 0.8526 19
+  171.076428 229 f{C7H11N2O3}/0.05ppm,p-C2H4O2 0.8481 20
+  196.060630 549 f{C9H10N1O4}/1.00ppm,p-H5N1O1 0.9053 20
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  70.065225 665.00 665
+  88.039369 479.00 479
+  116.070710 999.00 999
+  125.070822 206.00 206
+  171.076428 229.00 229
+  196.060630 549.00 549
+//

@@ -1,0 +1,74 @@
+ACCESSION: MSBNK-SMB_Measured-HSA031R0174001
+RECORD_TITLE: N-Acetyl-aspartic acid; LC-ESI-QTOF; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Yu et al. Front Cell Infect Microbiol. 2022,11,763507
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 37 product ion spectra among 59 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS3233
+COMMENT: DATASET_TITLE The gut microbiome and metabolites are altered and interrelated in patients with rheumatoid arthritis
+COMMENT: DATASET_AUTHORS Die Yu, Juping Du, Xia Pu, Liyuan Zheng, Shuaishuai Chen, Na Wang, Jun Li, Shiyong Chen, Shaobiao Pan, Bo Shen
+COMMENT: PRECURSOR_IN_MS1 mz 174.040909; int 999.000; delta(ppm) 0.178250
+COMMENT: PROPOSED_MF SevenGoldenRules 0.468; C6H9NO5; [M-H]1; delta(ppm) 0.468443; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 4.601; C6H9NO5; [M-H]-; delta(ppm) 0.471311; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 25.764; C6H9NO5; [M-H]-; delta(ppm) 0.471311; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H9NO5; [M-H]-; delta(ppm) 0.471311; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 35.543; C6H9NO5; [M-H]-; delta(ppm) 0.471311; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H9NO5; [M-H]-; delta(ppm) 0.471311; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 11.000; OTCCIMWXFLJLIA-BYPYZUCNSA-N; C6H9NO5; N-ACETYL-ASPARTIC ACID; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.400; OTCCIMWXFLJLIA; [M-H]-; N-Acetyl-L-aspartic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.538; OTCCIMWXFLJLIA-BYPYZUCNSA-N; [M-H]-; N-Acetyl-L-aspartic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.606; OTCCIMWXFLJLIA-BYPYZUCNSA-N; [M-H]-; N-Acetyl-L-aspartic acid; Ranking 7;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.738; OTCCIMWXFLJLIA-BYPYZUCNSA-N; [M-H]-; (2S)-2-acetamidobutanedioic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -6.541; OTCCIMWXFLJLIA; [M-H]-; bmse000423; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.777; OTCCIMWXFLJLIA; [M-H]-; bmse000423; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -28.690; OTCCIMWXFLJLIA; [M-H]-; Acetylaspartic Acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.948; OTCCIMWXFLJLIA; [M-H]-; Acetylaspartic Acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 11 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 7), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0000812)
+CH$NAME: N-Acetyl-aspartic acid
+CH$NAME: Acetylaspartic Acid
+CH$NAME: 2-acetamidosuccinic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H9NO5
+CH$EXACT_MASS: 175.048072
+CH$SMILES: CC(=O)NC(CC(=O)O)C(=O)O
+CH$IUPAC: InChI=1S/C6H9NO5/c1-3(8)7-4(6(11)12)2-5(9)10/h4H,2H2,1H3,(H,7,8)(H,9,10)(H,11,12)
+CH$LINK: HMDB HMDB0000812
+CH$LINK: INCHIKEY OTCCIMWXFLJLIA-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:97508
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: UPLC system, AB SCIEX - TripleTOF 5600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY -30 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -4.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 10.00; MS2(ppm) 15.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC T3 column (1.8 µm, 100 mm x 2.1 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-0.5 min, 5% B; 0.5-7.0 min, 100% B; 7.0-8.0 min, 100% B; 8.0-8.1 min, 5% B; 8.1-10.0 min, 5% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.257
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 174.040878
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-052r-9000000000-6916c98936f8ed0883f9
+PK$ANNOTATION: m/z int mzPAF cor n
+  41.998617 323 f{C1N1O1}/1.90ppm,p-C5H8O4 0.8995 36
+  58.029905 539 f{C2H4N1O1}/1.17ppm,p-C4H4O4 1.0000 37
+  71.013542 171 f{C3H3O2}/-4.37ppm,p-C3H5N1O3 0.7020 31
+  88.040483 999 f{C3H6N1O2}/0.92ppm,p-C3H2O3 0.9489 37
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  41.998617 323.00 323
+  58.029905 539.00 539
+  71.013542 171.00 171
+  88.040483 999.00 999
+//

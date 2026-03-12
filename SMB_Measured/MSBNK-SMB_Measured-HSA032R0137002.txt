@@ -1,33 +1,33 @@
 ACCESSION: MSBNK-SMB_Measured-HSA032R0137002
 RECORD_TITLE: Hypoxanthine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Yu et al. Front Cell Infect Microbiol. 2022,11,763507
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 11 product ion spectra among 60 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS3233
 COMMENT: DATASET_TITLE The gut microbiome and metabolites are altered and interrelated in patients with rheumatoid arthritis
 COMMENT: DATASET_AUTHORS Die Yu, Juping Du, Xia Pu, Liyuan Zheng, Shuaishuai Chen, Na Wang, Jun Li, Shiyong Chen, Shaobiao Pan, Bo Shen
-COMMENT: PRECURSOR_IN_MS1 mz 137.045944; int 787.907; delta(ppm) 7.590515
+COMMENT: PRECURSOR_IN_MS1 mz 137.045944; int 787.907; delta(ppm) -0.096622
 COMMENT: PROPOSED_MF SevenGoldenRules 1.250; C5H4N4O; [M+H]+; delta(ppm) 1.249645; Ranking 2;
 COMMENT: PROPOSED_MF MS-FINDER 4.276; C5H4N4O; [M+H]+; delta(ppm) 1.238921; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 29.816; C5H4N4O; [M+H]+; delta(ppm) 1.238921; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C5H4N4O; [M+H]+; delta(ppm) 1.238921; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 46.180; C5H4N4O; [M+H]+; delta(ppm) 1.238921; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.999; C5H4N4O; [M+H]+; delta(ppm) 1.238921; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C5H4N4O; [M+H]+; delta(ppm) 1.238921; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; FDGQSTZJBFJUBT-UHFFFAOYSA-N; C5H4N4O; HYPOXANTHINE; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.171; FDGQSTZJBFJUBT-UHFFFAOYSA-N; [M+H]+; OC1=NC=NC2=C1NC=N2; Ranking 3;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.981; FDGQSTZJBFJUBT; [M+H]+; Hypoxanthine; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.911; FDGQSTZJBFJUBT-UHFFFAOYSA-N; [M+H]+; Hypoxanthine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.359; FDGQSTZJBFJUBT-UHFFFAOYSA-N; [M+H]+; 1,7-dihydropurin-6-one; Ranking 3;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -14.705; FDGQSTZJBFJUBT; [M+H]+; Sarcine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.680; FDGQSTZJBFJUBT; [M+H]+; Sarcine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -12.763; FDGQSTZJBFJUBT; [M+H]+; Sarkin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.904; FDGQSTZJBFJUBT; [M+H]+; Sarkin; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 3 spectra); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 3); Biological context by HMDB (HMDB0000157)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 3 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 3); Biological context by HMDB (HMDB0000157)
 CH$NAME: Hypoxanthine
 CH$NAME: Sarkin
 CH$NAME: 3,7-dihydropurin-6-one

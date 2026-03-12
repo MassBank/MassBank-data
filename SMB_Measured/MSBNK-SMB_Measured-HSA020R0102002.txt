@@ -1,32 +1,32 @@
 ACCESSION: MSBNK-SMB_Measured-HSA020R0102002
 RECORD_TITLE: Triethylamine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 21 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 102.127793; int 57.931; delta(ppm) -0.102810
 COMMENT: PROPOSED_MF SevenGoldenRules 0.781; C6H15N; [M+H]+; delta(ppm) 0.781246; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.723; C6H15N; [M+H]+; delta(ppm) 0.764554; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 8.441; C6H15N; [M+H]+; delta(ppm) 0.764554; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H15N; [M+H]+; delta(ppm) 0.764554; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 13.830; C6H15N; [M+H]+; delta(ppm) 0.764554; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H15N; [M+H]+; delta(ppm) 0.764554; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.133; ZMANZCXQSJIPKH-UHFFFAOYSA-N; [M+H]+; CCN(CC)CC; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.133; ZMANZCXQSJIPKH; [M+H]+; Triethylamine; Ranking 4;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.206; ZMANZCXQSJIPKH-UHFFFAOYSA-N; [M+H]+; Triethylamine; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; ZMANZCXQSJIPKH-UHFFFAOYSA-N; [M+H]+; Triethylamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.945; ZMANZCXQSJIPKH-UHFFFAOYSA-N; [M+H]+; Triethylamine; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.912; ZMANZCXQSJIPKH-UHFFFAOYSA-N; [M+H]+; N,N-diethylethanamine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -34.543; ZMANZCXQSJIPKH; [M+H]+; Triethylamin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.526; ZMANZCXQSJIPKH; [M+H]+; Triethylamin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -16.827; ZMANZCXQSJIPKH; [M+H]+; triethylamine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.857; ZMANZCXQSJIPKH; [M+H]+; triethylamine; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0032539)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0032539)
 CH$NAME: Triethylamine
 CH$NAME: N,N-diethylethanamine
 CH$COMPOUND_CLASS: Natural product

@@ -1,33 +1,33 @@
 ACCESSION: MSBNK-SMB_Measured-HSA010R0123001
 RECORD_TITLE: Benzoic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 499 product ion spectra among 101 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001914
 COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
 COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
-COMMENT: PRECURSOR_IN_MS1 mz 123.044076; int 38.232; delta(ppm) -1.175100
+COMMENT: PRECURSOR_IN_MS1 mz 123.044076; int 38.232; delta(ppm) 0.024015
 COMMENT: PROPOSED_MF SevenGoldenRules 0.147; C7H6O2; [M+H]+; delta(ppm) 0.147496; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.353; C7H6O2; [M+H]+; delta(ppm) 0.139240; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS5_Sirius 39.411; C7H6O2; [M+H]+; delta(ppm) 0.139240; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 39.412; C7H6O2; [M+H]+; delta(ppm) 0.139240; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C7H6O2; [M+H]+; delta(ppm) 0.139240; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 49.191; C7H6O2; [M+H]+; delta(ppm) 0.139240; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C7H6O2; [M+H]+; delta(ppm) 0.139240; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; WPYMKLBDIGXBTP-UHFFFAOYSA-N; C7H6O2; benzoicacid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.321; WPYMKLBDIGXBTP; [M+H]+; Benzoic acid; Ranking 10;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.293; WPYMKLBDIGXBTP-UHFFFAOYSA-N; [M+H]+; Benzoic acid; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.640; WPYMKLBDIGXBTP-UHFFFAOYSA-N; [M+H]+; Benzoic acid; Ranking 9;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.640; WPYMKLBDIGXBTP-UHFFFAOYSA-N; [M+H]+; benzoic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -20.607; WPYMKLBDIGXBTP; [M+H]+; benzoate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.667; WPYMKLBDIGXBTP; [M+H]+; benzoate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -60.926; WPYMKLBDIGXBTP; [M+H]+; Benzoic Acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.582; WPYMKLBDIGXBTP; [M+H]+; Benzoic Acid; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS5_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 2 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 9), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0001870)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS5_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 2 spectra); Supported by CFM-ID:MsfinderDB (Ranking 10), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0001870)
 CH$NAME: Benzoic acid
 CH$NAME: benzoate
 CH$NAME: benzoic acid

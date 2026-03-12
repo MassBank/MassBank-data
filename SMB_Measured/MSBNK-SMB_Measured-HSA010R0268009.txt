@@ -1,0 +1,100 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0268009
+RECORD_TITLE: Metoprolol; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 26 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 268.190671; int 42.084; delta(ppm) -0.005431
+COMMENT: PROPOSED_MF SevenGoldenRules 0.176; C15H25NO3; [M+H]+; delta(ppm) -0.175909; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.145; C15H25NO3; [M+H]+; delta(ppm) -0.175632; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 36.841; C15H25NO3; [M+H]+; delta(ppm) -0.175632; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C15H25NO3; [M+H]+; delta(ppm) -0.175632; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 67.445; C15H25NO3; [M+H]+; delta(ppm) -0.175632; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C15H25NO3; [M+H]+; delta(ppm) -0.175632; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 11.000; IUBSYMUCCVWXPE-UHFFFAOYSA-N; C15H25NO3; metoprolol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.981; IUBSYMUCCVWXPE; [M+H]+; Metoprolol; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.671; IUBSYMUCCVWXPE-UHFFFAOYSA-N; [M+H]+; Metoprolol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.998; IUBSYMUCCVWXPE-UHFFFAOYSA-N; [M+H]+; Metoprolol; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; IUBSYMUCCVWXPE-UHFFFAOYSA-N; [M+H]+; 1-[4-(2-methoxyethyl)phenoxy]-3-(propan-2-ylamino)propan-2-ol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.265; IUBSYMUCCVWXPE; [M+H]+; Dutoprol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.799; IUBSYMUCCVWXPE; [M+H]+; Dutoprol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -20.867; IUBSYMUCCVWXPE; [M+H]+; 1-[4-(2-methoxyethyl)phenoxy]-3-[(propan-2-yl)amino]propan-2-ol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.980; IUBSYMUCCVWXPE; [M+H]+; 1-[4-(2-methoxyethyl)phenoxy]-3-[(propan-2-yl)amino]propan-2-ol; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 11 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0001932)
+CH$NAME: Metoprolol
+CH$NAME: 1-[4-(2-methoxyethyl)phenoxy]-3-(propan-2-ylamino)propan-2-ol
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C15H25NO3
+CH$EXACT_MASS: 267.183444
+CH$SMILES: CC(C)NCC(COC1=CC=C(C=C1)CCOC)O
+CH$IUPAC: InChI=1S/C15H25NO3/c1-12(2)16-10-14(17)11-19-15-6-4-13(5-7-15)8-9-18-3/h4-7,12,14,16-17H,8-11H2,1-3H3
+CH$LINK: HMDB HMDB0001932
+CH$LINK: INCHIKEY IUBSYMUCCVWXPE-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4171
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.230
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 268.190673
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-014i-1390000000-c39d124087836a164e72
+PK$ANNOTATION: m/z int mzPAF cor n
+  56.049441 24 f{C3H6N1}/-0.62ppm,p-C12H20O3 0.7409 26
+  72.080804 66 f{C4H10N1}/0.40ppm,p-C11H16O3 0.8612 26
+  74.060009 71 f{C3H8N1O1}/-0.42ppm,p-C12H18O2 0.7087 26
+  98.096349 65 f{C6H12N1}/-0.78ppm,p-C9H14O3 0.7983 26
+  116.106952 131 f{C6H14N1O1}/-0.33ppm,p-C9H12O2 0.9022 26
+  121.064812 51 f{C8H9O1}/0.17ppm,p-C7H17N1O2 0.8209 26
+  131.085681 8 f{C10H11}/1.17ppm,p-C5H15N1O3 0.5909 21
+  133.064861 41 f{C9H9O1}/0.52ppm,p-C6H17N1O2 0.7641 26
+  159.080519 60 f{C11H11O1}/0.49ppm,p-C4H15N1O2 0.7880 26
+  165.091038 16 f{C10H13O2}/0.19ppm,p-C5H13N1O1 0.5377 25
+  176.107250 22 f{C11H14N1O1}/1.47ppm,p-C4H12O2 0.7915 26
+  177.090958 12 f{C11H13O2}/-0.27ppm,p-C4H13N1O1 0.7426 24
+  191.106691 68 f{C12H15O2}/0.18ppm,p-C3H11N1O1 0.9009 26
+  194.117788 14 f{C11H16N1O2}/1.20ppm,p-C4H10O1 0.7415 26
+  218.154251 18 f{C14H20N1O1}/1.42ppm,p-C1H6O2 0.8961 26
+  226.143395 23 f{C12H20N1O3}/-1.66ppm,p-C3H6 0.8489 26
+  268.191081 999 f{C15H26N1O3}/1.35ppm,p 1.0000 26
+PK$NUM_PEAK: 17
+PK$PEAK: m/z int. rel.int.
+  56.049441 24.00 24
+  72.080804 66.00 66
+  74.060009 71.00 71
+  98.096349 65.00 65
+  116.106952 131.00 131
+  121.064812 51.00 51
+  131.085681 8.00 8
+  133.064861 41.00 41
+  159.080519 60.00 60
+  165.091038 16.00 16
+  176.107250 22.00 22
+  177.090958 12.00 12
+  191.106691 68.00 68
+  194.117788 14.00 14
+  218.154251 18.00 18
+  226.143395 23.00 23
+  268.191081 999.00 999
+//

@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA010R0279008
 RECORD_TITLE: Phe-Leu; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 113 product ion spectra among 101 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001914
 COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
 COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
-COMMENT: PRECURSOR_IN_MS1 mz 279.170283; int 30.323; delta(ppm) -0.344866
+COMMENT: PRECURSOR_IN_MS1 mz 279.170283; int 30.323; delta(ppm) 0.007249
 COMMENT: PROPOSED_MF SevenGoldenRules 0.137; C15H22N2O3; [M+H]+; delta(ppm) -0.136611; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.220; C15H22N2O3; [M+H]+; delta(ppm) -0.136170; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 23.358; C15H22N2O3; [M+H]+; delta(ppm) -0.136170; Ranking 1;
@@ -21,15 +21,15 @@ COMMENT: PROPOSED_MF SIRIUS6_Sirius 35.569; C15H22N2O3; [M+H]+; delta(ppm) -0.13
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C15H22N2O3; [M+H]+; delta(ppm) -0.136170; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; RFCVXVPWSPOMFJ-STQMWFEESA-N; C15H22N2O3; Spectral Match to Phe-Leu from NIST14; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; RFCVXVPWSPOMFJ-UHFFFAOYSA-N; C15H22N2O3; Spectral Match to Phe-Leu from NIST14; Ranking 3;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.677; RFCVXVPWSPOMFJ-STQMWFEESA-N; [M+H]+; CC(C)C[C@H](NC(=O)[C@@H](N)CC1=CC=CC=C1)C(O)=O; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.677; RFCVXVPWSPOMFJ; [M+H]+; Phe-Leu; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.122; RFCVXVPWSPOMFJ-STQMWFEESA-N; [M+H]+; Phe-Leu; Ranking 3;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.988; RFCVXVPWSPOMFJ-STQMWFEESA-N; [M+H]+; Phe-Leu; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.868; RFCVXVPWSPOMFJ-STQMWFEESA-N; [M+H]+; Phe-Leu; Ranking 3;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.512; RFCVXVPWSPOMFJ-STQMWFEESA-N; [M+H]+; (2S)-2-[[(2S)-2-amino-3-phenylpropanoyl]amino]-4-methylpentanoic acid; Ranking 4;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -9.328; RFCVXVPWSPOMFJ; [M+H]+; Phenylalanylleucine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.482; RFCVXVPWSPOMFJ; [M+H]+; Phenylalanylleucine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -66.056; RFCVXVPWSPOMFJ; [M+H]+; Phe-Leu; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.996; RFCVXVPWSPOMFJ; [M+H]+; Phe-Leu; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 3 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 3), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 4)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3b; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 3 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 3), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 4)
 CH$NAME: Phe-Leu
 CH$NAME: 4-methyl-2-(phenylalanylamino)valeric acid
 CH$COMPOUND_CLASS: Natural product

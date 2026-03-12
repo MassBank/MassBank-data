@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA010R0132111
 RECORD_TITLE: 4-Hydroxyproline; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 16 product ion spectra among 101 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001914
 COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
 COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
-COMMENT: PRECURSOR_IN_MS1 mz 132.065534; int 20.274; delta(ppm) -0.996324
+COMMENT: PRECURSOR_IN_MS1 mz 132.065534; int 20.274; delta(ppm) 0.261104
 COMMENT: PROPOSED_MF SevenGoldenRules 0.153; C5H9NO3; [M+H]+; delta(ppm) -0.152604; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.658; C5H9NO3; [M+H]+; delta(ppm) -0.155926; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 26.547; C5H9NO3; [M+H]+; delta(ppm) -0.155926; Ranking 1;
@@ -23,6 +23,7 @@ COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 31.000; PMMYEEVYMWASQN-QWWZWVQMSA-N; 
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 27.000; PMMYEEVYMWASQN-DMTCNVIQSA-N; C5H9NO3; L-Hydroxyproline - 30.0 eV; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 8.000; PMMYEEVYMWASQN-UHFFFAOYSA-N; C5H9NO3; Massbank:KNA00297 4-Hydroxy-L-prolineL-Hydroxyproline; Ranking 3;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 6.000; PMMYEEVYMWASQN-BKLSDQPFSA-N; C5H9NO3; TRANS-4-HYDROXY-L-PROLINE - 50.0 eV; Ranking 4;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.998; PMMYEEVYMWASQN; [M+H]+; 4-Hydroxyproline; Ranking 9;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.671; PMMYEEVYMWASQN-DMTCNVIQSA-N; [M+H]+; 4-Hydroxyproline; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.991; PMMYEEVYMWASQN-DMTCNVIQSA-N; [M+H]+; 4-Hydroxyproline; Ranking 3;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.829; PMMYEEVYMWASQN-DMTCNVIQSA-N; [M+H]+; (2S,4R)-4-hydroxypyrrolidine-2-carboxylic acid; Ranking 1;
@@ -30,7 +31,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -21.735; PMMYEEVYMWASQN; [M+H
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.508; PMMYEEVYMWASQN; [M+H]+; L-Hypro-d3; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -36.960; PMMYEEVYMWASQN; [M+H]+; Hypro; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.942; PMMYEEVYMWASQN; [M+H]+; Hypro; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 72 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000725)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 72 spectra); Supported by CFM-ID:MsfinderDB (Ranking 9), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000725)
 CH$NAME: 4-Hydroxyproline
 CH$NAME: Hypro
 CH$NAME: 4-hydroxypyrrolidine-2-carboxylic acid

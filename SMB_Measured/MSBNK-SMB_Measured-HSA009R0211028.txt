@@ -1,33 +1,33 @@
 ACCESSION: MSBNK-SMB_Measured-HSA009R0211028
 RECORD_TITLE: Cyclo(leucylprolyl); LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 130 product ion spectra among 248 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001171
 COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
 COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 211.144024; int 2.222; delta(ppm) -0.023639
 COMMENT: PROPOSED_MF SevenGoldenRules 0.357; C11H18N2O2; [M+H]+; delta(ppm) -0.356910; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.446; C11H18N2O2; [M+H]+; delta(ppm) -0.356462; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 27.637; C11H18N2O2; [M+H]+; delta(ppm) -0.356462; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C11H18N2O2; [M+H]+; delta(ppm) -0.356462; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 41.670; C11H18N2O2; [M+H]+; delta(ppm) -0.356462; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C11H18N2O2; [M+H]+; delta(ppm) -0.356462; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.999; C11H18N2O2; [M+H]+; delta(ppm) -0.356462; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; SZJNCZMRZAUNQT-UHFFFAOYSA-N; C11H18N2O2; Massbank:PR300806 Cyclo(proline-leucine); Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.586; SZJNCZMRZAUNQT-UHFFFAOYNA-N; [M+H]+; CC(C)CC1NC(=O)C2CCCN2C1=O; Ranking 3;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.586; SZJNCZMRZAUNQT; [M+H]+; L,L-Cyclo(leucylprolyl); Ranking 3;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.022; SZJNCZMRZAUNQT-UHFFFAOYNA-N; [M+H]+; L,L-Cyclo(leucylprolyl); Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.112; SZJNCZMRZAUNQT-IUCAKERBSA-N; [M+H]+; (3S,8aS)-3-(2-methylpropyl)-2,3,6,7,8,8a-hexahydropyrrolo[1,2-a]pyrazine-1,4-dione; Ranking 4;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -15.508; SZJNCZMRZAUNQT; [M+H]+; Gancidin W; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.679; SZJNCZMRZAUNQT; [M+H]+; Gancidin W; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -57.357; SZJNCZMRZAUNQT; [M+H]+; Gancidin W; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.942; SZJNCZMRZAUNQT; [M+H]+; Gancidin W; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 4); Biological context by HMDB (HMDB0034276)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 4); Biological context by HMDB (HMDB0034276)
 CH$NAME: Cyclo(leucylprolyl)
 CH$NAME: Gancidin W
 CH$NAME: 3-(2-methylpropyl)-2,3,6,7,8,8a-hexahydropyrrolo[1,2-a]pyrazine-1,4-dione

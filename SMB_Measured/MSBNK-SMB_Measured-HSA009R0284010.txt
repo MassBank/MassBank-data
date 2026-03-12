@@ -1,0 +1,84 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0284010
+RECORD_TITLE: alpha-Hydroxymetoprolol; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 29 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 284.185685; int 16.984; delta(ppm) 0.038415
+COMMENT: PROPOSED_MF SevenGoldenRules 0.141; C15H25NO4; [M+H]+; delta(ppm) 0.141254; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.109; C15H25NO4; [M+H]+; delta(ppm) 0.138203; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 14.727; C15H25NO4; [M+H]+; delta(ppm) 0.138203; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C15H25NO4; [M+H]+; delta(ppm) 0.138203; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 30.065; C15H25NO4; [M+H]+; delta(ppm) 0.138203; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.999; C15H25NO4; [M+H]+; delta(ppm) 0.138203; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.140; OFRYBPCSEMMZHR; [M+H]+; alpha-Hydroxymetoprolol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.507; OFRYBPCSEMMZHR-UHFFFAOYNA-N; [M+H]+; alpha-Hydroxymetoprolol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; OFRYBPCSEMMZHR-UHFFFAOYNA-N; [M+H]+; alpha-Hydroxymetoprolol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.558; OFRYBPCSEMMZHR-UHFFFAOYSA-N; [M+H]+; 1-[4-(1-hydroxy-2-methoxyethyl)phenoxy]-3-(propan-2-ylamino)propan-2-ol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -33.513; OFRYBPCSEMMZHR; [M+H]+; 3-Hmpip; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.659; OFRYBPCSEMMZHR; [M+H]+; 3-Hmpip; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -42.430; OFRYBPCSEMMZHR; [M+H]+; alpha-Hydroxy Metoprolol-d5 (Mixture of Diastereomers); Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.986; OFRYBPCSEMMZHR; [M+H]+; alpha-Hydroxy Metoprolol-d5 (Mixture of Diastereomers); Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0060994)
+CH$NAME: alpha-Hydroxymetoprolol
+CH$NAME: 1-[4-(1-hydroxy-2-methoxyethyl)phenoxy]-3-(propan-2-ylamino)propan-2-ol
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C15H25NO4
+CH$EXACT_MASS: 283.178358
+CH$SMILES: CC(C)NCC(COC1=CC=C(C=C1)C(COC)O)O
+CH$IUPAC: InChI=1S/C15H25NO4/c1-11(2)16-8-13(17)9-20-14-6-4-12(5-7-14)15(18)10-19-3/h4-7,11,13,15-18H,8-10H2,1-3H3
+CH$LINK: HMDB HMDB0060994
+CH$LINK: INCHIKEY OFRYBPCSEMMZHR-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:114962
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.231
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 284.185674
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-2190000000-2ae9e09518b5b1a0a226
+PK$ANNOTATION: m/z int mzPAF cor n
+  56.049505 24 f{C3H6N1}/0.52ppm,p-C12H20O4 0.8281 23
+  72.080807 56 f{C4H10N1}/0.44ppm,p-C11H16O4 0.9734 29
+  74.060112 93 f{C3H8N1O1}/0.96ppm,p-C12H18O3 0.9527 29
+  98.096405 59 f{C6H12N1}/-0.21ppm,p-C9H14O4 0.9813 29
+  116.107121 137 f{C6H14N1O1}/1.13ppm,p-C9H12O3 0.9778 29
+  133.064805 36 f{C9H9O1}/0.10ppm,p-C6H17N1O3 0.9431 28
+  151.075524 18 f{C9H11O2}/1.11ppm,p-C6H15N1O2 0.8701 21
+  207.101746 33 f{C12H15O3}/0.85ppm,p-C3H11N1O1 0.8547 27
+  284.186130 999 f{C15H26N1O4}/1.74ppm,p 1.0000 29
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  56.049505 24.00 24
+  72.080807 56.00 56
+  74.060112 93.00 93
+  98.096405 59.00 59
+  116.107121 137.00 137
+  133.064805 36.00 36
+  151.075524 18.00 18
+  207.101746 33.00 33
+  284.186130 999.00 999
+//

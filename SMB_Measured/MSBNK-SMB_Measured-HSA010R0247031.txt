@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA010R0247031
 RECORD_TITLE: Lenticin; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 18 product ion spectra among 101 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001914
 COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
 COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
-COMMENT: PRECURSOR_IN_MS1 mz 247.144103; int 82.851; delta(ppm) -0.553570
+COMMENT: PRECURSOR_IN_MS1 mz 247.144103; int 82.851; delta(ppm) -0.004360
 COMMENT: PROPOSED_MF SevenGoldenRules 0.004; C14H18N2O2; [M+H]+; delta(ppm) 0.004063; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.070; C14H18N2O2; [M+H]+; delta(ppm) 0.002974; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 25.760; C14H18N2O2; [M+H]+; delta(ppm) 0.002974; Ranking 1;
@@ -20,14 +20,14 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C14H18N2O2; [M+H]+; delta(ppm) 0.0029
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 37.775; C14H18N2O2; [M+H]+; delta(ppm) 0.002974; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C14H18N2O2; [M+H]+; delta(ppm) 0.002974; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 7.000; AOHCBEAZXHZMOR-UHFFFAOYSA-N; C14H18N2O2; Hypaphorine; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.967; AOHCBEAZXHZMOR-UGPWUYPHNA-N; [M+H]+; C[N+](C)(C)[C@@H](CC1=CNC2=C1C=CC=C2)C([O-])=O; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.967; AOHCBEAZXHZMOR; [M+H]+; Lenticin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.937; AOHCBEAZXHZMOR-UGPWUYPHNA-N; [M+H]+; Lenticin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.875; AOHCBEAZXHZMOR-UGPWUYPHNA-N; [M+H]+; Lenticin; Ranking 6;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -14.947; AOHCBEAZXHZMOR; [M+H]+; Lenticin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.891; AOHCBEAZXHZMOR; [M+H]+; Lenticin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -48.218; AOHCBEAZXHZMOR; [M+H]+; (2R)-3-(1H-indol-3-yl)-2-(trimethylazaniumyl)propanoate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.994; AOHCBEAZXHZMOR; [M+H]+; (2R)-3-(1H-indol-3-yl)-2-(trimethylazaniumyl)propanoate; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 7 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 6); Biological context by HMDB (HMDB0061115)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 7 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 6); Biological context by HMDB (HMDB0061115)
 CH$NAME: Lenticin
 CH$NAME: 3-(1H-indol-3-yl)-2-(trimethylazaniumyl)propanoate
 CH$COMPOUND_CLASS: Natural product

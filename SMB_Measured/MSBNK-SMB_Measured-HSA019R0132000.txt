@@ -1,17 +1,17 @@
 ACCESSION: MSBNK-SMB_Measured-HSA019R0132000
 RECORD_TITLE: Aspartic acid; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 730 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 132.030219; int 262.310; delta(ppm) 0.030305
 COMMENT: PROPOSED_MF SevenGoldenRules 0.128; C4H7NO4; [M-H]1; delta(ppm) -0.127784; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.946; C4H7NO4; [M-H]-; delta(ppm) -0.123357; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 22.889; C4H7NO4; [M-H]-; delta(ppm) -0.123357; Ranking 1;
@@ -21,7 +21,7 @@ COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C4H7NO4; [M-H]-; delta(ppm) -0.123357
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 24.000; CKLJMWTZIZZHCS-REOHCLBHSA-N; C4H7NO4; 56-84-8 CollisionEnergy:102040; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 18.000; CKLJMWTZIZZHCS-UHFFFAOYSA-N; C4H7NO4; D-ASPARTATE; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 15.000; CKLJMWTZIZZHCS-UWTATZPHSA-N; C4H7NO4; 1783-96-6 CollisionEnergy:102040; Ranking 3;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.924; CKLJMWTZIZZHCS-REOHCLBHSA-N; [M-H]-; N[C@@H](CC(O)=O)C(O)=O; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.924; CKLJMWTZIZZHCS; [M-H]-; L-Aspartic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.747; CKLJMWTZIZZHCS-REOHCLBHSA-N; [M-H]-; L-Aspartic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; CKLJMWTZIZZHCS-REOHCLBHSA-N; [M-H]-; L-Aspartic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; CKLJMWTZIZZHCS-REOHCLBHSA-N; [M-H]-; (2S)-2-aminobutanedioic acid; Ranking 1;
@@ -29,7 +29,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.584; CKLJMWTZIZZHCS; [M-H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.914; CKLJMWTZIZZHCS; [M-H]-; aspartate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -26.289; CKLJMWTZIZZHCS; [M-H]-; L-Asp; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.940; CKLJMWTZIZZHCS; [M-H]-; L-Asp; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 57 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000191)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 57 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000191)
 CH$NAME: Aspartic acid
 CH$NAME: Asp
 CH$NAME: 2-aminobutanedioic acid

@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA032R0190001
 RECORD_TITLE: Kynurenic acid; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Yu et al. Front Cell Infect Microbiol. 2022,11,763507
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 34 product ion spectra among 60 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS3233
 COMMENT: DATASET_TITLE The gut microbiome and metabolites are altered and interrelated in patients with rheumatoid arthritis
 COMMENT: DATASET_AUTHORS Die Yu, Juping Du, Xia Pu, Liyuan Zheng, Shuaishuai Chen, Na Wang, Jun Li, Shiyong Chen, Shaobiao Pan, Bo Shen
-COMMENT: PRECURSOR_IN_MS1 mz 190.049948; int 308.784; delta(ppm) 8.810633
+COMMENT: PRECURSOR_IN_MS1 mz 190.049948; int 308.784; delta(ppm) 0.020988
 COMMENT: PROPOSED_MF SevenGoldenRules 0.397; C10H7NO3; [M+H]+; delta(ppm) 0.396736; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.924; C10H7NO3; [M+H]+; delta(ppm) 0.391852; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 33.053; C10H7NO3; [M+H]+; delta(ppm) 0.391852; Ranking 1;
@@ -20,7 +20,7 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C10H7NO3; [M+H]+; delta(ppm) 0.391852
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 42.832; C10H7NO3; [M+H]+; delta(ppm) 0.391852; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C10H7NO3; [M+H]+; delta(ppm) 0.391852; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 15.000; HCZHHEIFKROPDY-UHFFFAOYSA-N; C10H7NO3; KYNURENIC ACID; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.600; HCZHHEIFKROPDY-UHFFFAOYSA-N; [M+H]+; OC(=O)C1=CC(=O)C2=CC=CC=C2N1; Ranking 5;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.600; HCZHHEIFKROPDY; [M+H]+; Kynurenic acid; Ranking 4;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.150; HCZHHEIFKROPDY-UHFFFAOYSA-N; [M+H]+; Kynurenic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.975; HCZHHEIFKROPDY-UHFFFAOYSA-N; [M+H]+; Kynurenic acid; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.281; HCZHHEIFKROPDY-UHFFFAOYSA-N; [M+H]+; 4-oxo-1H-quinoline-2-carboxylic acid; Ranking 1;
@@ -28,7 +28,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -8.888; HCZHHEIFKROPDY; [M+H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.722; HCZHHEIFKROPDY; [M+H]+; bmse000410; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -8.324; HCZHHEIFKROPDY; [M+H]+; Kynurenate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.938; HCZHHEIFKROPDY; [M+H]+; Kynurenate; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 15 spectra); Supported by CFM-ID:MsfinderDB (Ranking 5), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000715)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 15 spectra); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000715)
 CH$NAME: Kynurenic acid
 CH$NAME: Kynurenate
 CH$NAME: 4-oxo-1H-quinoline-2-carboxylic acid

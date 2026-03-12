@@ -1,17 +1,17 @@
 ACCESSION: MSBNK-SMB_Measured-HSA021R0135019
 RECORD_TITLE: Erythronic acid; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 243 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 135.030035; int 49.830; delta(ppm) 0.355303
 COMMENT: PROPOSED_MF SevenGoldenRules 0.662; C4H8O5; [M-H]1; delta(ppm) 0.661583; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.193; C4H8O5; [M-H]-; delta(ppm) 0.667013; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 60.495; C4H8O5; [M-H]-; delta(ppm) 0.667013; Ranking 1;
@@ -19,7 +19,7 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C4H8O5; [M-H]-; delta(ppm) 0.667013; 
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 73.252; C4H8O5; [M-H]-; delta(ppm) 0.667013; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C4H8O5; [M-H]-; delta(ppm) 0.667013; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 12.000; JPIJQSOTBSSVTP-STHAYSLISA-N; C4H8O5; Spectral Match to Threonic acid from NIST14; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.158; JPIJQSOTBSSVTP-MZTXYVAJNA-N; [M-H]-; OC[C@@H](O)[C@@H](O)C(O)=O; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.158; JPIJQSOTBSSVTP; [M-H]-; Erythronic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.867; JPIJQSOTBSSVTP-MZTXYVAJNA-N; [M-H]-; Erythronic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; JPIJQSOTBSSVTP-MZTXYVAJNA-N; [M-H]-; Erythronic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; JPIJQSOTBSSVTP-STHAYSLISA-N; [M-H]-; (2R,3S)-2,3,4-trihydroxybutanoic acid; Ranking 1;
@@ -27,7 +27,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -6.464; JPIJQSOTBSSVTP; [M-H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.463; JPIJQSOTBSSVTP; [M-H]-; Threonate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -8.888; JPIJQSOTBSSVTP; [M-H]-; L-Threonate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.855; JPIJQSOTBSSVTP; [M-H]-; L-Threonate; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 12 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000613)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 12 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000613)
 CH$NAME: Erythronic acid
 CH$NAME: Threonate
 CH$NAME: 2,3,4-trihydroxybutyric acid

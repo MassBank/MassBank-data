@@ -1,25 +1,25 @@
 ACCESSION: MSBNK-SMB_Measured-HSA022R0176004
 RECORD_TITLE: Indoleacetic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 197 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 mz 176.070682; int 175.640; delta(ppm) 1.319577
+COMMENT: PRECURSOR_IN_MS1 mz 176.070682; int 175.640; delta(ppm) 0.181846
 COMMENT: PROPOSED_MF SevenGoldenRules 0.257; C10H9NO2; [M+H]+; delta(ppm) 0.257050; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.767; C10H9NO2; [M+H]+; delta(ppm) 0.255747; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 23.991; C10H9NO2; [M+H]+; delta(ppm) 0.255747; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C10H9NO2; [M+H]+; delta(ppm) 0.255747; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 30.907; C10H9NO2; [M+H]+; delta(ppm) 0.255747; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.998; C10H9NO2; [M+H]+; delta(ppm) 0.255747; Ranking 2;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.999; C10H9NO2; [M+H]+; delta(ppm) 0.255747; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 73.000; SEOVTRFCIGRIMH-UHFFFAOYSA-N; C10H9NO2; INDOLEACETIC ACID; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.490; SEOVTRFCIGRIMH-UHFFFAOYSA-N; [M+H]+; OC(=O)CC1=CNC2=C1C=CC=C2; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.490; SEOVTRFCIGRIMH; [M+H]+; Indoleacetic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.410; SEOVTRFCIGRIMH-UHFFFAOYSA-N; [M+H]+; Indoleacetic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.913; SEOVTRFCIGRIMH-UHFFFAOYSA-N; [M+H]+; Indoleacetic acid; Ranking 5;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.943; SEOVTRFCIGRIMH-UHFFFAOYSA-N; [M+H]+; 2-(1H-indol-3-yl)acetic acid; Ranking 1;
@@ -27,7 +27,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -5.643; SEOVTRFCIGRIMH; [M+H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.942; SEOVTRFCIGRIMH; [M+H]+; beta-IAA; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -16.542; SEOVTRFCIGRIMH; [M+H]+; Heteroauxin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.966; SEOVTRFCIGRIMH; [M+H]+; Heteroauxin; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 73 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 5), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000197)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 73 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 5), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000197)
 CH$NAME: Indoleacetic acid
 CH$NAME: Heteroauxin
 CH$NAME: 2-(1H-indol-3-yl)acetic acid

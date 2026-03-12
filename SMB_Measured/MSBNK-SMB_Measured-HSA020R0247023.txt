@@ -1,30 +1,30 @@
 ACCESSION: MSBNK-SMB_Measured-HSA020R0247023
 RECORD_TITLE: Lenticin; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 19 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 247.144209; int 8.582; delta(ppm) 0.125456
 COMMENT: PROPOSED_MF SevenGoldenRules 0.301; C14H18N2O2; [M+H]+; delta(ppm) 0.300646; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.782; C14H18N2O2; [M+H]+; delta(ppm) 0.298349; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 34.875; C14H18N2O2; [M+H]+; delta(ppm) 0.298349; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C14H18N2O2; [M+H]+; delta(ppm) 0.298349; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 34.635; C14H18N2O2; [M+H]+; delta(ppm) 0.298349; Ranking 3;
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.556; C14H18N2O2; [M+H]+; delta(ppm) 0.298349; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.543; AOHCBEAZXHZMOR-UGPWUYPHNA-N; [M+H]+; C[N+](C)(C)[C@@H](CC1=CNC2=C1C=CC=C2)C([O-])=O; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.590; C14H18N2O2; [M+H]+; delta(ppm) 0.298349; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.543; AOHCBEAZXHZMOR; [M+H]+; Lenticin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.397; AOHCBEAZXHZMOR-UGPWUYPHNA-N; [M+H]+; Lenticin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -20.586; AOHCBEAZXHZMOR; [M+H]+; Lenticin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.842; AOHCBEAZXHZMOR; [M+H]+; Lenticin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -74.261; AOHCBEAZXHZMOR; [M+H]+; (2R)-3-(1H-indol-3-yl)-2-(trimethylazaniumyl)propanoate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.924; AOHCBEAZXHZMOR; [M+H]+; (2R)-3-(1H-indol-3-yl)-2-(trimethylazaniumyl)propanoate; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0061115)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0061115)
 CH$NAME: Lenticin
 CH$NAME: 3-(1H-indol-3-yl)-2-(trimethylazaniumyl)propanoate
 CH$COMPOUND_CLASS: Natural product

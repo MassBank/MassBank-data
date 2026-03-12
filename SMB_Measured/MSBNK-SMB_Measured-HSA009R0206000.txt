@@ -1,0 +1,90 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0206000
+RECORD_TITLE: Indolelactic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 237 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 206.081138; int 25.336; delta(ppm) -0.014360
+COMMENT: PROPOSED_MF SevenGoldenRules 0.137; C11H11NO3; [M+H]+; delta(ppm) -0.136536; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.674; C11H11NO3; [M+H]+; delta(ppm) -0.139053; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 94.139; C11H11NO3; [M+H]+; delta(ppm) -0.139053; Ranking 2;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.901; C11H11NO3; [M+H]+; delta(ppm) -0.139053; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 85.562; C11H11NO3; [M+H]+; delta(ppm) -0.139053; Ranking 3;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.999; C11H11NO3; [M+H]+; delta(ppm) -0.139053; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 9.000; XGILAAMKEQUXLS-UHFFFAOYSA-N; C11H11NO3; Spectral Match to DL-Indole-3-lactic acid from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.828; XGILAAMKEQUXLS; [M+H]+; Indolelactic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.695; XGILAAMKEQUXLS-UHFFFAOYNA-N; [M+H]+; Indolelactic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.984; XGILAAMKEQUXLS-UHFFFAOYNA-N; [M+H]+; Indolelactic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; XGILAAMKEQUXLS-UHFFFAOYSA-N; [M+H]+; 2-hydroxy-3-(1H-indol-3-yl)propanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -7.184; XGILAAMKEQUXLS; [M+H]+; bmse000409; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.852; XGILAAMKEQUXLS; [M+H]+; bmse000409; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -30.871; XGILAAMKEQUXLS; [M+H]+; Indolelactate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.973; XGILAAMKEQUXLS; [M+H]+; Indolelactate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 9 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000671)
+CH$NAME: Indolelactic acid
+CH$NAME: Indolelactate
+CH$NAME: 2-hydroxy-3-(1H-indol-3-yl)propanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C11H11NO3
+CH$EXACT_MASS: 205.073893
+CH$SMILES: C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)O
+CH$IUPAC: InChI=1S/C11H11NO3/c13-10(11(14)15)5-7-6-12-9-4-2-1-3-8(7)9/h1-4,6,10,12-13H,5H2,(H,14,15)
+CH$LINK: HMDB HMDB0000671
+CH$LINK: INCHIKEY XGILAAMKEQUXLS-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:92904
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.178
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 206.081141
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-07cj-0910000000-95950e63e0d5db405c70
+PK$ANNOTATION: m/z int mzPAF cor n
+  118.065168 636 f{C8H8N1}/0.36ppm,p-C3H4O3 0.9945 237
+  130.065290 542 f{C9H8N1}/1.26ppm,p-C2H4O3 0.9946 237
+  132.080892 154 f{C9H10N1}/0.88ppm,p-C2H2O3 0.9894 237
+  142.065302 25 f{C10H8N1}/1.24ppm,p-C1H4O3 0.9387 217
+  143.073193 14 f{C10H9N1}/1.69ppm,p-C1H3O3 0.8775 194
+  144.080834 132 f{C10H10N1}/0.41ppm,p-C1H2O3 0.9895 237
+  146.060146 532 f{C9H8N1O1}/0.72ppm,p-C2H4O2 0.9956 237
+  160.075830 966 f{C10H10N1O1}/0.87ppm,p-C1H2O2 0.9963 237
+  170.060080 339 f{C11H8N1O1}/0.23ppm,p-H4O2 0.9950 237
+  188.070728 999 f{C11H10N1O2}/0.65ppm,p-H2O1 0.9972 237
+  206.081196 900 f{C11H12N1O3}/0.13ppm,p 1.0000 237
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  118.065168 636.00 636
+  130.065290 542.00 542
+  132.080892 154.00 154
+  142.065302 25.00 25
+  143.073193 14.00 14
+  144.080834 132.00 132
+  146.060146 532.00 532
+  160.075830 966.00 966
+  170.060080 339.00 339
+  188.070728 999.00 999
+  206.081196 900.00 900
+//

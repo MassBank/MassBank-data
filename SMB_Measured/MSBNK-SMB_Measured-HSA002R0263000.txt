@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA002R0263000
 RECORD_TITLE: Alpha-N-Phenylacetyl-glutamine; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 38 product ion spectra among 22 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MB-POST
 COMMENT: DATASET_ID In preparaion
 COMMENT: DATASET_TITLE Test DDA dataset obtained from NIST1950 by HILIC/AEX-MS
 COMMENT: DATASET_AUTHORS Takahashi, M, Torigoe, T, Izumi, Y, Bamba, T., Kyoshu University
-COMMENT: PRECURSOR_IN_MS1 mz 263.103668; int 135.858; delta(ppm) -1.081369
+COMMENT: PRECURSOR_IN_MS1 mz 263.103668; int 135.858; delta(ppm) 0.049265
 COMMENT: PROPOSED_MF SevenGoldenRules 0.288; C13H16N2O4; [M-H]1; delta(ppm) -0.287758; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.394; C13H16N2O4; [M-H]-; delta(ppm) -0.287268; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 15.430; C13H16N2O4; [M-H]-; delta(ppm) -0.287268; Ranking 1;
@@ -20,15 +20,15 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C13H16N2O4; [M-H]-; delta(ppm) -0.287
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 20.820; C13H16N2O4; [M-H]-; delta(ppm) -0.287268; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.998; C13H16N2O4; [M-H]-; delta(ppm) -0.287268; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; JFLIEFSWGNOPJJ-JTQLQIEISA-N; C13H16N2O4; PHENYLACETYL-GLUTAMINE; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.089; JFLIEFSWGNOPJJ-JTQLQIEISA-N; [M-H]-; NC(=O)CC[C@H](NC(=O)CC1=CC=CC=C1)C(O)=O; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.089; JFLIEFSWGNOPJJ; [M-H]-; Alpha-N-Phenylacetyl-L-glutamine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.760; JFLIEFSWGNOPJJ-JTQLQIEISA-N; [M-H]-; Alpha-N-Phenylacetyl-L-glutamine; Ranking 2;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.736; JFLIEFSWGNOPJJ-JTQLQIEISA-N; [M-H]-; Alpha-N-Phenylacetyl-L-glutamine; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.736; JFLIEFSWGNOPJJ-JTQLQIEISA-N; [M-H]-; Alpha-N-Phenylacetyl-L-glutamine; Ranking 4;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.738; JFLIEFSWGNOPJJ-JTQLQIEISA-N; [M-H]-; (2S)-5-amino-5-oxo-2-[(2-phenylacetyl)amino]pentanoic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -12.938; JFLIEFSWGNOPJJ; [M-H]-; PA-L-Glutamine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.955; JFLIEFSWGNOPJJ; [M-H]-; PA-L-Glutamine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -95.977; JFLIEFSWGNOPJJ; [M-H]-; Phenylacetylglutamine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.994; JFLIEFSWGNOPJJ; [M-H]-; Phenylacetylglutamine; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 3 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0006344)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 3 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 4), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0006344)
 CH$NAME: Alpha-N-Phenylacetyl-glutamine
 CH$NAME: Phenylacetylglutamine
 CH$NAME: 5-amino-5-keto-2-[(2-phenylacetyl)amino]valeric acid

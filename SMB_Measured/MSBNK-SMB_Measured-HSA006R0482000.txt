@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA006R0482000
 RECORD_TITLE: LysoPC(15:0); LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 33 product ion spectra among 31 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001264
 COMMENT: DATASET_TITLE Antibiotics and Dietary Minerals Lipidomics
 COMMENT: DATASET_AUTHORS Jacob Folz, University of California, Davis
-COMMENT: PRECURSOR_IN_MS1 mz 482.323967; int 25.486; delta(ppm) 0.104208
+COMMENT: PRECURSOR_IN_MS1 mz 482.323967; int 25.486; delta(ppm) 0.004208
 COMMENT: PROPOSED_MF SevenGoldenRules 0.310; C23H48NO7P; [M+H]+; delta(ppm) -0.309567; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.863; C23H48NO7P; [M+H]+; delta(ppm) -0.309594; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 6017.383; C23H48NO7P; [M+H]+; delta(ppm) -0.309594; Ranking 1;
@@ -20,14 +20,14 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C23H48NO7P; [M+H]+; delta(ppm) -0.309
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 34.280; C23H48NO7P; [M+H]+; delta(ppm) -0.309594; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C23H48NO7P; [M+H]+; delta(ppm) -0.309594; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 5.000; RJZVWDTYEWCUAR-JOCHJYFZSA-N; C23H48NO7P; Spectral Match to 1-Pentadecanoyl-sn-glycero-3-phosphocholine from NIST14; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.438; RJZVWDTYEWCUAR-JOCHJYFZSA-N; [M+H]+; CCCCCCCCCCCCCCC(=O)OC[C@@H](O)COP([O-])(=O)OCC[N+](C)(C)C; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.438; RJZVWDTYEWCUAR; [M+H]+; LysoPC(15:0); Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.869; RJZVWDTYEWCUAR-JOCHJYFZSA-N; [M+H]+; LysoPC(15:0); Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; RJZVWDTYEWCUAR-JOCHJYFZSA-N; [M+H]+; LysoPC(15:0); Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.019; RJZVWDTYEWCUAR; [M+H]+; Lysophosphatidylcholine(15:0/0:0); Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.475; RJZVWDTYEWCUAR; [M+H]+; Lysophosphatidylcholine(15:0/0:0); Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -138.904; RJZVWDTYEWCUAR; [M+H]+; 1-Pentadecanoyl-sn-glycero-3-phosphocholine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.547; RJZVWDTYEWCUAR; [M+H]+; 1-Pentadecanoyl-sn-glycero-3-phosphocholine; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS5_CSI (FDR < 0.05); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 5 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0010381)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS5_CSI (FDR < 0.05); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 5 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0010381)
 CH$NAME: LysoPC(15:0)
 CH$NAME: (2-hydroxy-3-pentadecanoyloxy-propyl) 2-(trimethylammonio)ethyl phosphate
 CH$COMPOUND_CLASS: Natural product

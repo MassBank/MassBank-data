@@ -1,0 +1,85 @@
+ACCESSION: MSBNK-SMB_Measured-HSA020R0304000
+RECORD_TITLE: Hept-3-enoylcarnitine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 712 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 304.211881; int 43.352; delta(ppm) 0.003414
+COMMENT: PROPOSED_MF SevenGoldenRules 0.102; C15H29NO5; [M+H]+; delta(ppm) 0.102241; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 2.992; C15H29NO5; [M+H]+; delta(ppm) 0.100343; Ranking 2;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 28.804; C15H29NO5; [M+H]+; delta(ppm) 0.100343; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C15H29NO5; [M+H]+; delta(ppm) 0.100343; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 49.557; C15H29NO5; [M+H]+; delta(ppm) 0.100343; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C15H29NO5; [M+H]+; delta(ppm) 0.100343; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.074; LUBMSOHGUAAXAM; [M+H]+; 3-hydroxyoctanoyl carnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.037; LUBMSOHGUAAXAM-UHFFFAOYNA-N; [M+H]+; 3-hydroxyoctanoyl carnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; LUBMSOHGUAAXAM-UHFFFAOYNA-N; [M+H]+; 3-hydroxyoctanoyl carnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -20.304; LUBMSOHGUAAXAM; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.532; LUBMSOHGUAAXAM; [M+H]+; nan; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -68.285; LUBMSOHGUAAXAM; [M+H]+; [(3R)-3-Hydroxyoctanoyl]-L-carnitine-(N-methyl-D3); Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.891; LUBMSOHGUAAXAM; [M+H]+; [(3R)-3-Hydroxyoctanoyl]-L-carnitine-(N-methyl-D3); Ranking 2;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 3); Biological context by HMDB (HMDB0061634)
+CH$NAME: Hept-3-enoylcarnitine
+CH$NAME: 3-(3-hydroxyoctanoyloxy)-4-(trimethylammonio)butyrate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C15H29NO5
+CH$EXACT_MASS: 303.204573
+CH$SMILES: CCCCCC(CC(=O)OC(CC(=O)[O-])C[N+](C)(C)C)O
+CH$IUPAC: InChI=1S/C15H29NO5/c1-5-6-7-8-12(17)9-15(20)21-13(10-14(18)19)11-16(2,3)4/h12-13,17H,5-11H2,1-4H3
+CH$LINK: HMDB HMDB0061634
+CH$LINK: INCHIKEY LUBMSOHGUAAXAM-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:86583357
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 2.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Xbridge BEH HILIC (75 x 2.1mm,2.5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min-85% B, 2 min-10% B, 14 min- 10% B, 14.1 min- 85% B, 16 min- 85%B.
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.329
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 304.211880
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-9103000000-e770b68574bb695b95bd
+PK$ANNOTATION: m/z int mzPAF cor n
+  83.085424 24 f{C6H11}/-1.24ppm,p-C9H19N1O5 0.9361 701
+  85.028397 999 f{C4H5O2}/-0.10ppm,p-C11H25N1O3 0.9826 712
+  97.101142 34 f{C7H13}/-0.36ppm,p-C8H17N1O5 0.9591 707
+  103.038929 39 f{C4H7O3}/-0.40ppm,p-C11H23N1O2 0.9594 708
+  125.096051 50 f{C8H13O1}/-0.33ppm,p-C7H17N1O4 0.9721 710
+  143.106433 13 f{C8H15O2}/-1.56ppm,p-C7H15N1O3 0.9042 663
+  144.101788 34 f{C7H14N1O2}/-0.81ppm,p-C8H16O3 0.9628 707
+  145.049463 72 f{C6H9O4}/-0.50ppm,p-C9H21N1O1 0.9744 712
+  227.127623 32 f{C12H19O4}/-0.71ppm,p-C3H11N1O1 0.9578 705
+  245.138171 31 f{C12H21O5}/-0.73ppm,p-C3H9N1 0.9645 700
+  304.211549 397 f{C15H30N1O5}/-0.99ppm,p 1.0000 711
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  83.085424 24.00 24
+  85.028397 999.00 999
+  97.101142 34.00 34
+  103.038929 39.00 39
+  125.096051 50.00 50
+  143.106433 13.00 13
+  144.101788 34.00 34
+  145.049463 72.00 72
+  227.127623 32.00 32
+  245.138171 31.00 31
+  304.211549 397.00 397
+//

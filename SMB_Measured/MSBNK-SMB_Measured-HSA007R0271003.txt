@@ -1,0 +1,80 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0271003
+RECORD_TITLE: 3-(Cystein-yl)acetaminophen; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 13 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 271.074243; int 787.080; delta(ppm) -2.431877
+COMMENT: PROPOSED_MF SevenGoldenRules 0.733; C11H14N2O4S; [M+H]+; delta(ppm) 0.733150; Ranking 3;
+COMMENT: PROPOSED_MF MS-FINDER 4.203; C11H14N2O4S; [M+H]+; delta(ppm) 0.729019; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 32.574; C11H14N2O4S; [M+H]+; delta(ppm) 0.729019; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C11H14N2O4S; [M+H]+; delta(ppm) 0.729019; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 48.937; C11H14N2O4S; [M+H]+; delta(ppm) 0.729019; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C11H14N2O4S; [M+H]+; delta(ppm) 0.729019; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.064; LLHICPSCVFRWDT; [M+H]+; 3-(Cystein-S-yl)acetaminophen; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.357; LLHICPSCVFRWDT-SVGMAFHSNA-N; [M+H]+; 3-(Cystein-S-yl)acetaminophen; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.979; LLHICPSCVFRWDT-SVGMAFHSNA-N; [M+H]+; 3-(Cystein-S-yl)acetaminophen; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.979; LLHICPSCVFRWDT-UHFFFAOYSA-N; [M+H]+; 3-(5-acetamido-2-hydroxyphenyl)sulfanyl-2-aminopropanoic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -36.855; LLHICPSCVFRWDT; [M+H]+; 3-(Cystein-S-yl)paracetamol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.584; LLHICPSCVFRWDT; [M+H]+; 3-(Cystein-S-yl)paracetamol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -80.128; LLHICPSCVFRWDT; [M+H]+; S-(5-Acetamido-2-Hydroxyphenyl)Cysteine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.966; LLHICPSCVFRWDT; [M+H]+; S-(5-Acetamido-2-Hydroxyphenyl)Cysteine; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0240217)
+CH$NAME: 3-(Cystein-yl)acetaminophen
+CH$NAME: 3-(5-acetamido-2-hydroxyphenyl)sulfanyl-2-aminopropanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C11H14N2O4S
+CH$EXACT_MASS: 270.067428
+CH$SMILES: CC(=O)NC1=CC(=C(C=C1)O)SCC(C(=O)O)N
+CH$IUPAC: InChI=1S/C11H14N2O4S/c1-6(14)13-7-2-3-9(15)10(4-7)18-5-8(12)11(16)17/h2-4,8,15H,5,12H2,1H3,(H,13,14)(H,16,17)
+CH$LINK: HMDB HMDB0240217
+CH$LINK: INCHIKEY LLHICPSCVFRWDT-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:5233914
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.753
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 271.074902
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0006-0910000000-55a53e3ed9c8f862d9d3
+PK$ANNOTATION: m/z int mzPAF cor n
+  96.044501 94 f{C5H6N1O1}/1.16ppm,p-C6H9N1O3S1 0.8667 10
+  140.016101 999 f{C6H6N1O1S1}/-2.57ppm,p-C5H9N1O3 0.9436 13
+  149.005364 48 f{C8H5O1S1}/-1.33ppm,p-C3H10N2O3 0.8000 12
+  166.031779 147 f{C8H8N1O1S1}/-2.00ppm,p-C3H7N1O3 0.8776 13
+  182.026664 209 f{C8H8N1O2S1}/-1.99ppm,p-C3H7N1O2 0.9629 13
+  208.042758 182 f{C10H10N1O2S1}/0.39ppm,p-C1H5N1O2 0.9656 13
+  225.068799 28 f{C10H13N2O2S1}/-1.89ppm,p-C1H2O2 0.8899 11
+  271.074421 33 f{C11H15N2O4S1}/-1.05ppm,p 1.0000 13
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  96.044501 94.00 94
+  140.016101 999.00 999
+  149.005364 48.00 48
+  166.031779 147.00 147
+  182.026664 209.00 209
+  208.042758 182.00 182
+  225.068799 28.00 28
+  271.074421 33.00 33
+//

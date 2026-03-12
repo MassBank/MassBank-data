@@ -1,17 +1,17 @@
 ACCESSION: MSBNK-SMB_Measured-HSA022R0190009
 RECORD_TITLE: Homocitrulline; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 36 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 mz 190.118539; int 23.315; delta(ppm) 0.967053
+COMMENT: PRECURSOR_IN_MS1 mz 190.118539; int 23.315; delta(ppm) -0.120822
 COMMENT: PROPOSED_MF SevenGoldenRules 0.291; C7H15N3O3; [M+H]+; delta(ppm) -0.290834; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.280; C7H15N3O3; [M+H]+; delta(ppm) -0.293494; Ranking 2;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 39.119; C7H15N3O3; [M+H]+; delta(ppm) -0.293494; Ranking 1;
@@ -19,7 +19,7 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C7H15N3O3; [M+H]+; delta(ppm) -0.2934
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 59.872; C7H15N3O3; [M+H]+; delta(ppm) -0.293494; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C7H15N3O3; [M+H]+; delta(ppm) -0.293494; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 10.000; XIGSAGMEBXLVJJ-YFKPBYRVSA-N; C7H15N3O3; Homocitrulline - 40.0 eV; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.028; XIGSAGMEBXLVJJ-YFKPBYRVSA-N; [M+H]+; N[C@@H](CCCCNC(N)=O)C(O)=O; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.028; XIGSAGMEBXLVJJ; [M+H]+; Homocitrulline; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.947; XIGSAGMEBXLVJJ-YFKPBYRVSA-N; [M+H]+; Homocitrulline; Ranking 3;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; XIGSAGMEBXLVJJ-YFKPBYRVSA-N; [M+H]+; Homocitrulline; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; XIGSAGMEBXLVJJ-YFKPBYRVSA-N; [M+H]+; (2S)-2-amino-6-(carbamoylamino)hexanoic acid; Ranking 1;
@@ -27,7 +27,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -9.947; XIGSAGMEBXLVJJ; [M+H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.916; XIGSAGMEBXLVJJ; [M+H]+; bmse000442; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -77.915; XIGSAGMEBXLVJJ; [M+H]+; Homocitrulline; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.913; XIGSAGMEBXLVJJ; [M+H]+; Homocitrulline; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 10 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 3), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000679)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 10 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 3), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000679)
 CH$NAME: Homocitrulline
 CH$NAME: 2-amino-6-ureido-hexanoic acid
 CH$COMPOUND_CLASS: Natural product

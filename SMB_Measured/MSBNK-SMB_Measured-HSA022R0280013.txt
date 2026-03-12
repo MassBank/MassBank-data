@@ -1,30 +1,30 @@
 ACCESSION: MSBNK-SMB_Measured-HSA022R0280013
 RECORD_TITLE: Glycerophosphocholine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 64 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 mz 280.091923; int 8.421; delta(ppm) 0.173389
+COMMENT: PRECURSOR_IN_MS1 mz 280.091923; int 8.421; delta(ppm) -0.756755
 COMMENT: PROPOSED_MF SevenGoldenRules 0.370; C8H20NO6P; [M+Na]+; delta(ppm) 0.369502; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.091; C8H20NO6P; [M+Na]+; delta(ppm) 89419.128368; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 17.084; C8H20NO6P; [M+Na]+; delta(ppm) 89419.128368; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.935; C8H20NO6P; [M+Na]+; delta(ppm) 89419.128368; Ranking 2;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.928; C8H20NO6P; [M+Na]+; delta(ppm) 89419.128368; Ranking 2;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 24.058; C8H20NO6P; [M+Na]+; delta(ppm) 89419.128368; Ranking 2;
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.985; C8H20NO6P; [M+Na]+; delta(ppm) 89419.128368; Ranking 2;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.983; C8H20NO6P; [M+Na]+; delta(ppm) 89419.128368; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.653; SUHOQUVVVLNYQR-SVGMAFHSNA-N; [M+Na]+; Glycerophosphocholine; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; SUHOQUVVVLNYQR-SVGMAFHSNA-N; [M+Na]+; Glycerophosphocholine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.982; SUHOQUVVVLNYQR-SVGMAFHSNA-N; [M+Na]+; Glycerophosphocholine; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -12.802; SUHOQUVVVLNYQR; [M+Na]+; Gliatilin (TN); Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.986; SUHOQUVVVLNYQR; [M+Na]+; Gliatilin (TN); Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -45.824; SUHOQUVVVLNYQR; [M+Na]+; 2-[2,3-bis(16O)(oxidanyl)propoxy-(16O)oxidanyl(31P)(31P)(16O)(31P)(16O)(16O)(31P)(16O)(16O)(16O)phosphoryl]oxyethyl-tri((112C)methyl)(14N)azanium; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.941; SUHOQUVVVLNYQR; [M+Na]+; 2-[2,3-bis(16O)(oxidanyl)propoxy-(16O)oxidanyl(31P)(31P)(16O)(31P)(16O)(16O)(31P)(16O)(16O)(16O)phosphoryl]oxyethyl-tri((112C)methyl)(14N)azanium; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000086)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2); Biological context by HMDB (HMDB0000086)
 CH$NAME: Glycerophosphocholine
 CH$NAME: glyceryl 2-(trimethylammonio)ethyl phosphate
 CH$COMPOUND_CLASS: Natural product

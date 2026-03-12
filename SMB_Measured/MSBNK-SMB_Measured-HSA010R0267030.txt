@@ -1,0 +1,88 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0267030
+RECORD_TITLE: Threoninyl-Phenylalanine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 20 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 267.133885; int 12.567; delta(ppm) -0.031749
+COMMENT: PROPOSED_MF SevenGoldenRules 0.150; C13H18N2O4; [M+H]+; delta(ppm) -0.150304; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.069; C13H18N2O4; [M+H]+; delta(ppm) -0.151643; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 41.758; C13H18N2O4; [M+H]+; delta(ppm) -0.151643; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C13H18N2O4; [M+H]+; delta(ppm) -0.151643; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 66.900; C13H18N2O4; [M+H]+; delta(ppm) -0.151643; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C13H18N2O4; [M+H]+; delta(ppm) -0.151643; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; IQHUITKNHOKGFC-MIMYLULJSA-N; C13H18N2O4; Spectral Match to Thr-Phe from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.394; IQHUITKNHOKGFC; [M+H]+; Threoninyl-Phenylalanine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.684; IQHUITKNHOKGFC-UHFFFAOYNA-N; [M+H]+; Threoninyl-Phenylalanine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.435; IQHUITKNHOKGFC-MIMYLULJSA-N; [M+H]+; (2S)-2-[[(2S,3R)-2-amino-3-hydroxybutanoyl]amino]-3-phenylpropanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.666; IQHUITKNHOKGFC; [M+H]+; threonylphenylalanine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.994; IQHUITKNHOKGFC; [M+H]+; threonylphenylalanine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -10.665; IQHUITKNHOKGFC; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.999; IQHUITKNHOKGFC; [M+H]+; nan; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 2 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0029068)
+CH$NAME: Threoninyl-Phenylalanine
+CH$NAME: 2-[[2-amino-3-hydroxybutanoyl]amino]-3-phenylpropanoic acid
+CH$NAME: 2-[(2-ammonio-3-hydroxy-butanoyl)amino]-3-phenyl-propionate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C13H18N2O4
+CH$EXACT_MASS: 266.126657
+CH$SMILES: CC(C(C(=O)NC(CC1=CC=CC=C1)C(=O)[O-])[NH3+])O
+CH$IUPAC: InChI=1S/C13H18N2O4/c1-8(16)11(14)12(17)15-10(13(18)19)7-9-5-3-2-4-6-9/h2-6,8,10-11,16H,7,14H2,1H3,(H,15,17)(H,18,19)
+CH$LINK: HMDB HMDB0029068
+CH$LINK: INCHIKEY IQHUITKNHOKGFC-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4099798
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.583
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 267.133893
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-5910000000-8298dc00ecea6c67e8ae
+PK$ANNOTATION: m/z int mzPAF cor n
+  56.049465 92 f{C3H6N1}/-0.19ppm,p-C10H13N1O4 1.0000 20
+  58.064958 27 f{C3H8N1}/-2.89ppm,p-C10H11N1O4 0.7023 20
+  74.060019 903 f{C3H8N1O1}/-0.29ppm,p-C10H11N1O3 0.8617 20
+  91.054289 18 f{C7H7}/0.68ppm,p-C6H12N2O4 0.7500 16
+  101.070823 20 f{C4H9N2O1}/-1.15ppm,p-C9H10O3 0.7143 15
+  120.080874 999 f{C8H10N1}/0.82ppm,p-C5H9N1O4 0.7023 20
+  166.086194 808 f{C9H12N1O2}/-0.37ppm,p-C4H7N1O2 0.8331 20
+  176.107160 25 f{C11H14N1O1}/0.96ppm,p-C2H5N1O3 0.6647 16
+  203.116924 39 f{C12H15N2O1}/-4.75ppm,p-C1H4O3 0.5735 17
+  221.129419 162 f{C12H17N2O2}/4.36ppm,p-C1H2O2 0.9023 20
+  249.123428 124 f{C13H17N2O3}/0.24ppm,p-H2O1 0.6331 20
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  56.049465 92.00 92
+  58.064958 27.00 27
+  74.060019 903.00 903
+  91.054289 18.00 18
+  101.070823 20.00 20
+  120.080874 999.00 999
+  166.086194 808.00 808
+  176.107160 25.00 25
+  203.116924 39.00 39
+  221.129419 162.00 162
+  249.123428 124.00 124
+//

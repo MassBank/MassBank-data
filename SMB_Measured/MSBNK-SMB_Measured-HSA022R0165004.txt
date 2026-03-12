@@ -1,24 +1,24 @@
 ACCESSION: MSBNK-SMB_Measured-HSA022R0165004
 RECORD_TITLE: 2-Hydroxycinnamic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 954 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 mz 165.054649; int 382.193; delta(ppm) 1.053787
+COMMENT: PRECURSOR_IN_MS1 mz 165.054649; int 382.193; delta(ppm) -0.012166
 COMMENT: PROPOSED_MF SevenGoldenRules 0.189; C9H8O3; [M+H]+; delta(ppm) 0.188970; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.540; C9H8O3; [M+H]+; delta(ppm) 0.184466; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 58.165; C9H8O3; [M+H]+; delta(ppm) 0.184466; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C9H8O3; [M+H]+; delta(ppm) 0.184466; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 76.724; C9H8O3; [M+H]+; delta(ppm) 0.184466; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H8O3; [M+H]+; delta(ppm) 0.184466; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.317; PMOWTIHVNWZYFI-AATRIKPKSA-N; [M+H]+; OC(=O)\C=C\C1=CC=CC=C1O; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.317; PMOWTIHVNWZYFI; [M+H]+; 2-Hydroxycinnamic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.519; PMOWTIHVNWZYFI-AATRIKPKSA-N; [M+H]+; 2-Hydroxycinnamic acid; Ranking 3;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.994; PMOWTIHVNWZYFI-AATRIKPKSA-N; [M+H]+; 2-Hydroxycinnamic acid; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.157; PMOWTIHVNWZYFI-AATRIKPKSA-N; [M+H]+; (E)-3-(2-hydroxyphenyl)prop-2-enoic acid; Ranking 4;
@@ -26,7 +26,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -20.210; PMOWTIHVNWZYFI; [M+H
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.389; PMOWTIHVNWZYFI; [M+H]+; bmse000347; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -29.949; PMOWTIHVNWZYFI; [M+H]+; Coumaric Acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.772; PMOWTIHVNWZYFI; [M+H]+; Coumaric Acid; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 3), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 4); Biological context by HMDB (HMDB0002641)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 3), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 4); Biological context by HMDB (HMDB0002641)
 CH$NAME: 2-Hydroxycinnamic acid
 CH$NAME: Coumaric Acid
 CH$NAME: 3-(2-hydroxyphenyl)acrylic acid

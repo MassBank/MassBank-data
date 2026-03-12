@@ -1,17 +1,17 @@
 ACCESSION: MSBNK-SMB_Measured-HSA019R0243001
 RECORD_TITLE: Uridine; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 547 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 243.062372; int 154.235; delta(ppm) 0.061603
 COMMENT: PROPOSED_MF SevenGoldenRules 0.397; C9H12N2O6; [M-H]1; delta(ppm) 0.397428; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.760; C9H12N2O6; [M-H]-; delta(ppm) 0.400318; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 45.645; C9H12N2O6; [M-H]-; delta(ppm) 0.400318; Ranking 1;
@@ -20,15 +20,15 @@ COMMENT: PROPOSED_MF SIRIUS6_Sirius 77.101; C9H12N2O6; [M-H]-; delta(ppm) 0.4003
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H12N2O6; [M-H]-; delta(ppm) 0.400318; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 13.000; DRTQHJPVMGBUCF-XVFCMESISA-N; C9H12N2O6; Uridine - 40.0 eV; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 7.000; DRTQHJPVMGBUCF-UHFFFAOYSA-N; C9H12N2O6; URIDINE; Ranking 2;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.725; DRTQHJPVMGBUCF-NHBCCFCANA-N; [M-H]-; OC[C@H]1O[C@H]([C@H](O)[C@@H]1O)N1C=CC(=O)NC1=O; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.809; DRTQHJPVMGBUCF-NHBCCFCANA-N; [M-H]-; Uridine; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.694; DRTQHJPVMGBUCF-NHBCCFCANA-N; [M-H]-; Uridine; Ranking 5;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.725; DRTQHJPVMGBUCF; [M-H]-; Uridine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.498; DRTQHJPVMGBUCF-NHBCCFCANA-N; [M-H]-; Uridine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.587; DRTQHJPVMGBUCF-NHBCCFCANA-N; [M-H]-; Uridine; Ranking 6;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.825; DRTQHJPVMGBUCF-XVFCMESISA-N; [M-H]-; 1-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]pyrimidine-2,4-dione; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.141; DRTQHJPVMGBUCF; [M-H]-; b-Uridine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.605; DRTQHJPVMGBUCF; [M-H]-; b-Uridine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -10.647; DRTQHJPVMGBUCF; [M-H]-; Uridin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.891; DRTQHJPVMGBUCF; [M-H]-; Uridin; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 20 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 5), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000296)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 20 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 6), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000296)
 CH$NAME: Uridine
 CH$NAME: Uridin
 CH$NAME: 1-[3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]pyrimidine-2,4-dione

@@ -1,34 +1,34 @@
 ACCESSION: MSBNK-SMB_Measured-HSA009R0202019
 RECORD_TITLE: 4-hydroxy-2,2,6,6-tetramethylpiperidine-1-ethanol; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 37 product ion spectra among 248 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001171
 COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
 COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 202.180124; int 14.033; delta(ppm) 0.014634
 COMMENT: PROPOSED_MF SevenGoldenRules 0.169; C11H23NO2; [M+H]+; delta(ppm) -0.169009; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.454; C11H23NO2; [M+H]+; delta(ppm) -0.170229; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 32.076; C11H23NO2; [M+H]+; delta(ppm) -0.170229; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C11H23NO2; [M+H]+; delta(ppm) -0.170229; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS6_Sirius 50.152; C11H23NO2; [M+H]+; delta(ppm) -0.170229; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 50.059; C11H23NO2; [M+H]+; delta(ppm) -0.170229; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C11H23NO2; [M+H]+; delta(ppm) -0.170229; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; STEYNUVPFMIUOY-UHFFFAOYSA-N; C11H23NO2; Massbank:AU252101 4-Hydroxy-1-(2-hydroxyethyl)-2,2,6,6-tetramethylpiperidine1-Piperidineethanol, 4-hydroxy-2,2,6,6-tetramethyl-1-(2-hydroxyethyl)-2,2,6,6-tetramethylpiperidin-4-ol; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.556; STEYNUVPFMIUOY-UHFFFAOYSA-N; [M+H]+; CC1(C)CC(O)CC(C)(C)N1CCO; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.707; STEYNUVPFMIUOY-UHFFFAOYSA-N; [M+H]+; 4-hydroxy-2,2,6,6-tetramethylpiperidine-1-ethanol; Ranking 2;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.649; STEYNUVPFMIUOY-UHFFFAOYSA-N; [M+H]+; 4-hydroxy-2,2,6,6-tetramethylpiperidine-1-ethanol; Ranking 4;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.556; STEYNUVPFMIUOY; [M+H]+; 4-hydroxy-2,2,6,6-tetramethylpiperidine-1-ethanol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.707; STEYNUVPFMIUOY-UHFFFAOYSA-N; [M+H]+; 4-hydroxy-2,2,6,6-tetramethylpiperidine-1-ethanol; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.649; STEYNUVPFMIUOY-UHFFFAOYSA-N; [M+H]+; 4-hydroxy-2,2,6,6-tetramethylpiperidine-1-ethanol; Ranking 5;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.706; STEYNUVPFMIUOY-UHFFFAOYSA-N; [M+H]+; 1-(2-hydroxyethyl)-2,2,6,6-tetramethylpiperidin-4-ol; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -85.992; STEYNUVPFMIUOY; [M+H]+; 4-Hydroxy-2,2,6,6-tetramethyl-1-piperidineethanol; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.462; STEYNUVPFMIUOY; [M+H]+; 4-Hydroxy-2,2,6,6-tetramethyl-1-piperidineethanol; Ranking 1;
-COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -85.924; STEYNUVPFMIUOY; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -85.922; STEYNUVPFMIUOY; [M+H]+; nan; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.802; STEYNUVPFMIUOY; [M+H]+; nan; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 2 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 4), MetFrag:PubchemLite (Ranking 2)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3b; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 2 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 3), MetFrag:MsfinderDB (Ranking 5), MetFrag:PubchemLite (Ranking 2)
 CH$NAME: 4-hydroxy-2,2,6,6-tetramethylpiperidine-1-ethanol
 CH$NAME: 1-(2-hydroxyethyl)-2,2,6,6-tetramethylpiperidin-4-ol
 CH$COMPOUND_CLASS: Non-Natural Product

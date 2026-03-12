@@ -1,17 +1,17 @@
 ACCESSION: MSBNK-SMB_Measured-HSA022R0247014
 RECORD_TITLE: Aspartyl-Leucine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 24 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 mz 247.128865; int 171.523; delta(ppm) 0.452660
+COMMENT: PRECURSOR_IN_MS1 mz 247.128865; int 171.523; delta(ppm) -0.414323
 COMMENT: PROPOSED_MF SevenGoldenRules 0.488; C10H18N2O5; [M+H]+; delta(ppm) 0.487564; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.200; C10H18N2O5; [M+H]+; delta(ppm) 0.485047; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 37.594; C10H18N2O5; [M+H]+; delta(ppm) 0.485047; Ranking 1;
@@ -19,15 +19,15 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C10H18N2O5; [M+H]+; delta(ppm) 0.4850
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 60.542; C10H18N2O5; [M+H]+; delta(ppm) 0.485047; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C10H18N2O5; [M+H]+; delta(ppm) 0.485047; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; ZVDPYSVOZFINEE-BQBZGAKWSA-N; C10H18N2O5; Spectral Match to Asp-Leu from NIST14; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.768; ZVDPYSVOZFINEE-UHFFFAOYNA-N; [M+H]+; CC(C)CC(NC(=O)C(N)CC(O)=O)C(O)=O; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.768; ZVDPYSVOZFINEE; [M+H]+; Aspartyl-Leucine; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.130; ZVDPYSVOZFINEE-UHFFFAOYNA-N; [M+H]+; Aspartyl-Leucine; Ranking 3;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.930; ZVDPYSVOZFINEE-UHFFFAOYNA-N; [M+H]+; Aspartyl-Leucine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.822; ZVDPYSVOZFINEE-UHFFFAOYNA-N; [M+H]+; Aspartyl-Leucine; Ranking 5;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.121; ZVDPYSVOZFINEE-UHFFFAOYSA-N; [M+H]+; 2-[(2-amino-3-carboxypropanoyl)amino]-4-methylpentanoic acid; Ranking 6;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -7.015; ZVDPYSVOZFINEE; [M+H]+; Aspartyl-Leucine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.717; ZVDPYSVOZFINEE; [M+H]+; Aspartyl-Leucine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -71.237; ZVDPYSVOZFINEE; [M+H]+; 2-(2-amino-3-carboxypropanamido)-4-methylpentanoic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.960; ZVDPYSVOZFINEE; [M+H]+; 2-(2-amino-3-carboxypropanamido)-4-methylpentanoic acid; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 3), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 6); Biological context by HMDB (HMDB0028757)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 3), MetFrag:MsfinderDB (Ranking 5), MetFrag:PubchemLite (Ranking 6); Biological context by HMDB (HMDB0028757)
 CH$NAME: Aspartyl-Leucine
 CH$NAME: 2-[(2-amino-3-carboxypropanoyl)amino]-4-methylpentanoic acid
 CH$COMPOUND_CLASS: Natural product

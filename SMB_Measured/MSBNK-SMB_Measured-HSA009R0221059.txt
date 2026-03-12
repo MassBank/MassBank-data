@@ -1,33 +1,33 @@
 ACCESSION: MSBNK-SMB_Measured-HSA009R0221059
 RECORD_TITLE: 5-Hydroxy-tryptophan; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 31 product ion spectra among 248 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001171
 COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
 COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
-COMMENT: PRECURSOR_IN_MS1 mz 221.092026; int 2.520; delta(ppm) -1.137499
+COMMENT: PRECURSOR_IN_MS1 mz 221.092026; int 2.520; delta(ppm) 0.289444
 COMMENT: PROPOSED_MF SevenGoldenRules 0.482; C11H12N2O3; [M+H]+; delta(ppm) -0.481633; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.086; C11H12N2O3; [M+H]+; delta(ppm) -0.482584; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 26.531; C11H12N2O3; [M+H]+; delta(ppm) -0.482584; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C11H12N2O3; [M+H]+; delta(ppm) -0.482584; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 34.085; C11H12N2O3; [M+H]+; delta(ppm) -0.482584; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C11H12N2O3; [M+H]+; delta(ppm) -0.482584; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.808; LDCYZAJDBXYCGN-UHFFFAOYNA-N; [M+H]+; NC(CC1=CNC2=C1C=C(O)C=C2)C(O)=O; Ranking 4;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.808; LDCYZAJDBXYCGN; [M+H]+; 5-Hydroxy-L-tryptophan; Ranking 4;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.553; LDCYZAJDBXYCGN-UHFFFAOYNA-N; [M+H]+; 5-Hydroxy-L-tryptophan; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.991; LDCYZAJDBXYCGN-UHFFFAOYNA-N; [M+H]+; 5-Hydroxy-L-tryptophan; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.991; LDCYZAJDBXYCGN-UHFFFAOYNA-N; [M+H]+; 5-Hydroxy-L-tryptophan; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.991; LDCYZAJDBXYCGN-VIFPVBQESA-N; [M+H]+; (2S)-2-amino-3-(5-hydroxy-1H-indol-3-yl)propanoic acid; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -13.405; LDCYZAJDBXYCGN; [M+H]+; Levothym; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.790; LDCYZAJDBXYCGN; [M+H]+; Levothym; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -51.566; LDCYZAJDBXYCGN; [M+H]+; Tript-Oh; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.987; LDCYZAJDBXYCGN; [M+H]+; Tript-Oh; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0000472)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0000472)
 CH$NAME: 5-Hydroxy-tryptophan
 CH$NAME: Tript-Oh
 CH$NAME: 2-amino-3-(5-hydroxy-1H-indol-3-yl)propanoic acid

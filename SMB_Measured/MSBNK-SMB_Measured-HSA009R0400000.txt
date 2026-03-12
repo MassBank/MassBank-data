@@ -1,34 +1,34 @@
 ACCESSION: MSBNK-SMB_Measured-HSA009R0400000
 RECORD_TITLE: Palmitoylcarnitine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 364 product ion spectra among 248 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001171
 COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
 COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
-COMMENT: PRECURSOR_IN_MS1 mz 400.342017; int 20.051; delta(ppm) -1.289503
+COMMENT: PRECURSOR_IN_MS1 mz 400.342017; int 20.051; delta(ppm) -0.007549
 COMMENT: PROPOSED_MF SevenGoldenRules 0.288; C23H45NO4; [M+H]+; delta(ppm) -0.287979; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.671; C23H45NO4; [M+H]+; delta(ppm) -0.288161; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS5_Sirius 30.159; C23H45NO4; [M+H]+; delta(ppm) -0.288161; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 30.160; C23H45NO4; [M+H]+; delta(ppm) -0.288161; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C23H45NO4; [M+H]+; delta(ppm) -0.288161; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS6_Sirius 49.082; C23H45NO4; [M+H]+; delta(ppm) -0.288161; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 47.792; C23H45NO4; [M+H]+; delta(ppm) -0.288161; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C23H45NO4; [M+H]+; delta(ppm) -0.288161; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 4.000; XOMRRQXKHMYMOC-UHFFFAOYSA-N; C23H45NO4; Palmitoylcarnitine -  eV; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; XOMRRQXKHMYMOC-OAQYLSRUSA-N; C23H45NO4; Massbank:RP025002 Palmitoyl-L-CarnitineL-Palmitoylcarnitine(3R)-3-hexadecanoyloxy-4-(trimethylazaniumyl)butanoate; Ranking 2;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.201; XOMRRQXKHMYMOC-OAQYLSRUSA-N; [M+H]+; CCCCCCCCCCCCCCCC(=O)O[C@H](CC([O-])=O)C[N+](C)(C)C; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.201; XOMRRQXKHMYMOC; [M+H]+; L-Palmitoylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.838; XOMRRQXKHMYMOC-OAQYLSRUSA-N; [M+H]+; L-Palmitoylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; XOMRRQXKHMYMOC-OAQYLSRUSA-N; [M+H]+; L-Palmitoylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.232; XOMRRQXKHMYMOC; [M+H]+; Tocris-0609; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.861; XOMRRQXKHMYMOC; [M+H]+; Tocris-0609; Ranking 1;
-COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -50.705; XOMRRQXKHMYMOC; [M+H]+; [(2R)-3-carboxy-2-(114C)hexadecanoyloxypropyl]-trimethylazanium; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -50.703; XOMRRQXKHMYMOC; [M+H]+; [(2R)-3-carboxy-2-(114C)hexadecanoyloxypropyl]-trimethylazanium; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.691; XOMRRQXKHMYMOC; [M+H]+; [(2R)-3-carboxy-2-(114C)hexadecanoyloxypropyl]-trimethylazanium; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 4 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000222)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 4 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000222)
 CH$NAME: Palmitoylcarnitine
 CH$NAME: 3-hexadecanoyloxy-4-(trimethylazaniumyl)butanoate
 CH$COMPOUND_CLASS: Natural product
@@ -76,7 +76,7 @@ PK$ANNOTATION: m/z int mzPAF cor n
   144.102034 35 f{C7H14N1O2}/0.90ppm,p-C16H32O2 0.9949 364
   239.236829 28 f{C16H31O1}/-0.47ppm,p-C7H15N1O3 0.9946 363
   283.263818 9 f{C18H35O2}/2.34ppm,p-C5H11N1O2 0.7540 276
-  341.268831 90 f{C23H35N1O1}/-7.28ppm,p-H11O3 0.9984 364
+  341.268831 90 f{C20H37O4}/0.57ppm,p-C3H9N1 0.9984 364
   400.342620 820 f{C23H46N1O4}/1.21ppm,p 1.0000 364
 PK$NUM_PEAK: 16
 PK$PEAK: m/z int. rel.int.

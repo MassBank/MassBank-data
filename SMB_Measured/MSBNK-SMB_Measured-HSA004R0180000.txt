@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA004R0180000
 RECORD_TITLE: Tyrosine; LC-ESI-QTOF; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 17 product ion spectra among 48 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002338
 COMMENT: DATASET_TITLE Interplay Between Cruciferous Vegetables and the Gut Microbiome: A Multi-Omic Approach
 COMMENT: DATASET_AUTHORS Bouranis John, Oregon State University
-COMMENT: PRECURSOR_IN_MS1 mz 180.066699; int 999.000; delta(ppm) 0.435950
+COMMENT: PRECURSOR_IN_MS1 mz 180.066699; int 999.000; delta(ppm) -0.261718
 COMMENT: PROPOSED_MF SevenGoldenRules 0.712; C9H11NO3; [M-H]1; delta(ppm) 0.712416; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.613; C9H11NO3; [M-H]-; delta(ppm) 0.717554; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 27.756; C9H11NO3; [M-H]-; delta(ppm) 0.717554; Ranking 1;
@@ -21,7 +21,7 @@ COMMENT: PROPOSED_MF SIRIUS6_Sirius 37.535; C9H11NO3; [M-H]-; delta(ppm) 0.71755
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H11NO3; [M-H]-; delta(ppm) 0.717554; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; OUYCCCASQSFEME-UHFFFAOYSA-N; C9H11NO3; Massbank:BML01101 Tyrosine; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; OUYCCCASQSFEME-QMMMGPOBSA-N; C9H11NO3; TYROSINE; Ranking 2;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.965; OUYCCCASQSFEME-QMMMGPOBSA-N; [M-H]-; N[C@@H](CC1=CC=C(O)C=C1)C(O)=O; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.872; OUYCCCASQSFEME; [M-H]-; L-Tyrosine; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.424; OUYCCCASQSFEME-QMMMGPOBSA-N; [M-H]-; L-Tyrosine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; OUYCCCASQSFEME-QMMMGPOBSA-N; [M-H]-; L-Tyrosine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; OUYCCCASQSFEME-QMMMGPOBSA-N; [M-H]-; (2S)-2-amino-3-(4-hydroxyphenyl)propanoic acid; Ranking 1;
@@ -29,7 +29,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.365; OUYCCCASQSFEME; [M-H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.534; OUYCCCASQSFEME; [M-H]-; tyrosine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -69.050; OUYCCCASQSFEME; [M-H]-; L-Tyr; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.947; OUYCCCASQSFEME; [M-H]-; L-Tyr; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000158)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000158)
 CH$NAME: Tyrosine
 CH$NAME: Tyr
 CH$NAME: 2-amino-3-(4-hydroxyphenyl)propanoic acid

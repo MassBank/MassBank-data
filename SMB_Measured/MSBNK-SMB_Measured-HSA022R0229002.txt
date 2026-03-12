@@ -1,0 +1,73 @@
+ACCESSION: MSBNK-SMB_Measured-HSA022R0229002
+RECORD_TITLE: Prolylhydroxyproline; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 529 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 229.118164; int 48.978; delta(ppm) -0.017293
+COMMENT: PROPOSED_MF SevenGoldenRules 0.504; C10H16N2O4; [M+H]+; delta(ppm) -0.504141; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.637; C10H16N2O4; [M+H]+; delta(ppm) -0.503867; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 14.514; C10H16N2O4; [M+H]+; delta(ppm) -0.503867; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C10H16N2O4; [M+H]+; delta(ppm) -0.503867; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 22.099; C10H16N2O4; [M+H]+; delta(ppm) -0.503867; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C10H16N2O4; [M+H]+; delta(ppm) -0.503867; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.402; ONPXCLZMBSJLSP; [M+H]+; Prolylhydroxyproline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.824; ONPXCLZMBSJLSP-CSMHCCOUSA-N; [M+H]+; Prolylhydroxyproline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; ONPXCLZMBSJLSP-CSMHCCOUSA-N; [M+H]+; Prolylhydroxyproline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.435; ONPXCLZMBSJLSP-CSMHCCOUSA-N; [M+H]+; (2S,4R)-4-hydroxy-1-[(2S)-pyrrolidine-2-carbonyl]pyrrolidine-2-carboxylic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -36.865; ONPXCLZMBSJLSP; [M+H]+; Prolylhydroxyproline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.620; ONPXCLZMBSJLSP; [M+H]+; Prolylhydroxyproline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -49.143; ONPXCLZMBSJLSP; [M+H]+; Pro-Hyp; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.993; ONPXCLZMBSJLSP; [M+H]+; Pro-Hyp; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0006695)
+CH$NAME: Prolylhydroxyproline
+CH$NAME: Pro-Hyp
+CH$NAME: 4-hydroxy-1-prolyl-proline
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C10H16N2O4
+CH$EXACT_MASS: 228.111007
+CH$SMILES: C1CC(NC1)C(=O)N2CC(CC2C(=O)O)O
+CH$IUPAC: InChI=1S/C10H16N2O4/c13-6-4-8(10(15)16)12(5-6)9(14)7-2-1-3-11-7/h6-8,11,13H,1-5H2,(H,15,16)
+CH$LINK: HMDB HMDB0006695
+CH$LINK: INCHIKEY ONPXCLZMBSJLSP-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:3952518
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.919
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 229.118168
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-9110000000-a75b25ec0a48e3a48a5f
+PK$ANNOTATION: m/z int mzPAF cor n
+  70.065175 999 f{C4H8N1}/0.70ppm,p-C6H9N1O4 0.9592 529
+  86.059920 51 f{C4H8N1O1}/-1.40ppm,p-C6H9N1O3 0.8951 461
+  132.065526 194 f{C5H10N1O3}/0.05ppm,p-C5H7N1O1 0.9648 529
+  229.118209 129 f{C10H17N2O4}/-0.33ppm,p 1.0000 526
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  70.065175 999.00 999
+  86.059920 51.00 51
+  132.065526 194.00 194
+  229.118209 129.00 129
+//

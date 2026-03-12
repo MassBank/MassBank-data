@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA015R0132001
 RECORD_TITLE: Creatine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 24 product ion spectra among 27 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS6402
 COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
 COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
-COMMENT: PRECURSOR_IN_MS1 mz 132.076712; int 841.721; delta(ppm) 0.830179
+COMMENT: PRECURSOR_IN_MS1 mz 132.076712; int 841.721; delta(ppm) -0.076847
 COMMENT: PROPOSED_MF SevenGoldenRules 0.237; C4H9N3O2; [M+H]+; delta(ppm) -0.236516; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.497; C4H9N3O2; [M+H]+; delta(ppm) -0.234600; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 20.085; C4H9N3O2; [M+H]+; delta(ppm) -0.234600; Ranking 1;
@@ -20,14 +20,15 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C4H9N3O2; [M+H]+; delta(ppm) -0.23460
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 22.594; C4H9N3O2; [M+H]+; delta(ppm) -0.234600; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C4H9N3O2; [M+H]+; delta(ppm) -0.234600; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 39.000; CVSVTCORWBXHQV-UHFFFAOYSA-N; C4H9N3O2; CREATINE; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.889; CVSVTCORWBXHQV-UHFFFAOYSA-N; [M+H]+; CN(CC(O)=O)C(N)=N; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.889; CVSVTCORWBXHQV; [M+H]+; Creatine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.332; CVSVTCORWBXHQV-UHFFFAOYSA-N; [M+H]+; Creatine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.907; CVSVTCORWBXHQV-UHFFFAOYSA-N; [M+H]+; Creatine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; CVSVTCORWBXHQV-UHFFFAOYSA-N; [M+H]+; 2-[carbamimidoyl(methyl)amino]acetic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -14.206; CVSVTCORWBXHQV; [M+H]+; creatine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.785; CVSVTCORWBXHQV; [M+H]+; creatine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -11.880; CVSVTCORWBXHQV; [M+H]+; Creatin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.913; CVSVTCORWBXHQV; [M+H]+; Creatin; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 39 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2); Biological context by HMDB (HMDB0000064)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 39 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000064)
 CH$NAME: Creatine
 CH$NAME: Creatin
 CH$NAME: 2-[carbamimidoyl(methyl)amino]acetic acid

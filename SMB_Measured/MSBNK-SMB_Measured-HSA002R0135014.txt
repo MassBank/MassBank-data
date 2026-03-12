@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA002R0135014
 RECORD_TITLE: Erythronic acid; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 87 product ion spectra among 22 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MB-POST
 COMMENT: DATASET_ID In preparaion
 COMMENT: DATASET_TITLE Test DDA dataset obtained from NIST1950 by HILIC/AEX-MS
 COMMENT: DATASET_AUTHORS Takahashi, M, Torigoe, T, Izumi, Y, Bamba, T., Kyoshu University
-COMMENT: PRECURSOR_IN_MS1 mz 135.029930; int 39.086; delta(ppm) -0.453001
+COMMENT: PRECURSOR_IN_MS1 mz 135.029930; int 39.086; delta(ppm) -0.029528
 COMMENT: PROPOSED_MF SevenGoldenRules 0.272; C4H8O5; [M-H]1; delta(ppm) 0.271984; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 2.999; C4H8O5; [M-H]-; delta(ppm) 0.274507; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 23.504; C4H8O5; [M-H]-; delta(ppm) 0.274507; Ranking 1;
@@ -20,7 +20,7 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C4H8O5; [M-H]-; delta(ppm) 0.274507; 
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 27.074; C4H8O5; [M-H]-; delta(ppm) 0.274507; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C4H8O5; [M-H]-; delta(ppm) 0.274507; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 7.000; JPIJQSOTBSSVTP-STHAYSLISA-N; C4H8O5; L-threonic acid - 40.0 eV; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.864; JPIJQSOTBSSVTP-MZTXYVAJNA-N; [M-H]-; OC[C@@H](O)[C@@H](O)C(O)=O; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.864; JPIJQSOTBSSVTP; [M-H]-; Erythronic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.668; JPIJQSOTBSSVTP-MZTXYVAJNA-N; [M-H]-; Erythronic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; JPIJQSOTBSSVTP-MZTXYVAJNA-N; [M-H]-; Erythronic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; JPIJQSOTBSSVTP-STHAYSLISA-N; [M-H]-; (2R,3S)-2,3,4-trihydroxybutanoic acid; Ranking 1;
@@ -28,7 +28,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -14.287; JPIJQSOTBSSVTP; [M-H
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.405; JPIJQSOTBSSVTP; [M-H]-; Threonate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -22.016; JPIJQSOTBSSVTP; [M-H]-; L-Threonate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.709; JPIJQSOTBSSVTP; [M-H]-; L-Threonate; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 7 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000613)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 7 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000613)
 CH$NAME: Erythronic acid
 CH$NAME: Threonate
 CH$NAME: 2,3,4-trihydroxybutyric acid

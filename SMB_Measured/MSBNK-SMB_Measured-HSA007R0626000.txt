@@ -1,0 +1,80 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0626000
+RECORD_TITLE: Glycochenodeoxycholic acid 3-glucuronide; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 121 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 626.353033; int 999.000; delta(ppm) -1.117553
+COMMENT: PROPOSED_MF SevenGoldenRules 0.392; C32H51NO11; [M+H]+; delta(ppm) 0.391783; Ranking 4;
+COMMENT: PROPOSED_MF MS-FINDER 3.810; C32H51NO11; [M+H]+; delta(ppm) 0.389703; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 22.720; C32H51NO11; [M+H]+; delta(ppm) 0.389703; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C32H51NO11; [M+H]+; delta(ppm) 0.389703; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 29.694; C32H51NO11; [M+H]+; delta(ppm) 0.389703; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C32H51NO11; [M+H]+; delta(ppm) 0.389703; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.394; ABFZMYIIUREPLL; [M+H]+; Glycochenodeoxycholic acid 3-glucuronide; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.977; ABFZMYIIUREPLL-ZWDGUQLWSA-N; [M+H]+; Glycochenodeoxycholic acid 3-glucuronide; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; ABFZMYIIUREPLL-ZWDGUQLWSA-N; [M+H]+; Glycochenodeoxycholic acid 3-glucuronide; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.000; ABFZMYIIUREPLL-ZWDGUQLWSA-N; [M+H]+; (2S,3S,4S,5R,6R)-6-[[(3R,5R,7R,8R,9S,10S,13R,14S)-17-[(2R)-5-(carboxymethylamino)-5-oxopentan-2-yl]-7-hydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-3-yl]oxy]-3,4,5-trihydroxyoxane-2-carboxylic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -44.011; ABFZMYIIUREPLL; [M+H]+; Glycochenodeoxycholic acid 3-glucuronide; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 1.000; ABFZMYIIUREPLL; [M+H]+; Glycochenodeoxycholic acid 3-glucuronide; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -112.610; ABFZMYIIUREPLL; [M+H]+; 6-[(1-{4-[(carboxymethyl)carbamoyl]butan-2-yl}-4-hydroxy-9a,11a-dimethyl-hexadecahydro-1H-cyclopenta[a]phenanthren-7-yl)oxy]-3,4,5-trihydroxyoxane-2-carboxylic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 1.000; ABFZMYIIUREPLL; [M+H]+; 6-[(1-{4-[(carboxymethyl)carbamoyl]butan-2-yl}-4-hydroxy-9a,11a-dimethyl-hexadecahydro-1H-cyclopenta[a]phenanthren-7-yl)oxy]-3,4,5-trihydroxyoxane-2-carboxylic acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0002579)
+CH$NAME: Glycochenodeoxycholic acid 3-glucuronide
+CH$NAME: 6-[[17-[4-(carboxymethylamino)-4-keto-1-methyl-butyl]-7-hydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-3-yl]oxy]-3,4,5-trihydroxy-tetrahydropyran-2-carboxylic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C32H51NO11
+CH$EXACT_MASS: 625.346211
+CH$SMILES: CC(CCC(=O)NCC(=O)O)C1CCC2C1(CCC3C2C(CC4C3(CCC(C4)OC5C(C(C(C(O5)C(=O)O)O)O)O)C)O)C
+CH$IUPAC: InChI=1S/C32H51NO11/c1-15(4-7-22(35)33-14-23(36)37)18-5-6-19-24-20(9-11-32(18,19)3)31(2)10-8-17(12-16(31)13-21(24)34)43-30-27(40)25(38)26(39)28(44-30)29(41)42/h15-21,24-28,30,34,38-40H,4-14H2,1-3H3,(H,33,35)(H,36,37)(H,41,42)
+CH$LINK: HMDB HMDB0002579
+CH$LINK: INCHIKEY ABFZMYIIUREPLL-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:74981457
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 11.893
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 626.353732
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-0000900000-85410e910f75e894679e
+PK$ANNOTATION: m/z int mzPAF cor n
+  158.080674 50 f{C7H12N1O3}/-3.14ppm,p-C25H40O8 0.4986 90
+  215.179082 40 f{C16H23}/-1.60ppm,p-C16H29N1O11 0.7716 85
+  339.268522 166 f{C24H35O1}/0.82ppm,p-C8H17N1O10 0.7823 106
+  414.299891 999 f{C26H40N1O3}/-0.92ppm,p-C6H12O8 0.8244 117
+  432.310735 371 f{C26H42N1O4}/-0.23ppm,p-C6H10O7 0.8304 114
+  450.320689 152 f{C26H44N1O5}/-1.58ppm,p-C6H8O6 0.9038 118
+  590.331029 67 f{C32H48N1O9}/-2.25ppm,p-H4O2 0.8761 95
+  626.353357 68 f{C32H52N1O11}/-0.21ppm,p 1.0000 85
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  158.080674 50.00 50
+  215.179082 40.00 40
+  339.268522 166.00 166
+  414.299891 999.00 999
+  432.310735 371.00 371
+  450.320689 152.00 152
+  590.331029 67.00 67
+  626.353357 68.00 68
+//

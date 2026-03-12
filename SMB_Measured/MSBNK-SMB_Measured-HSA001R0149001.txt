@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA001R0149001
 RECORD_TITLE: phthalic anhydride; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 63 product ion spectra among 22 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MB-POST
 COMMENT: DATASET_ID MPST000004
 COMMENT: DATASET_TITLE Annotation of various metabolites in SRM 1950 human serum
 COMMENT: DATASET_AUTHORS Masatomo Takahashi, Yoshihiro Izumi, Kyoshu University
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 149.023261; int 74.182; delta(ppm) 0.006467
 COMMENT: PROPOSED_MF SevenGoldenRules 0.399; C8H4O3; [M+H]+; delta(ppm) -0.398606; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.624; C8H4O3; [M+H]+; delta(ppm) -0.398766; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 16.151; C8H4O3; [M+H]+; delta(ppm) -0.398766; Ranking 1;
@@ -20,15 +20,15 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C8H4O3; [M+H]+; delta(ppm) -0.398766;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 21.283; C8H4O3; [M+H]+; delta(ppm) -0.398766; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C8H4O3; [M+H]+; delta(ppm) -0.398766; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 5.000; LGRFSURHDFAFJT-UHFFFAOYSA-N; C8H4O3; Massbank:FIO00302 Phthalic anhydride; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.571; LGRFSURHDFAFJT-UHFFFAOYSA-N; [M+H]+; O=C1OC(=O)C2=CC=CC=C12; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.571; LGRFSURHDFAFJT; [M+H]+; phthalic anhydride; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.718; LGRFSURHDFAFJT-UHFFFAOYSA-N; [M+H]+; phthalic anhydride; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; LGRFSURHDFAFJT-UHFFFAOYSA-N; [M+H]+; phthalic anhydride; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.828; LGRFSURHDFAFJT-UHFFFAOYSA-N; [M+H]+; phthalic anhydride; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; LGRFSURHDFAFJT-UHFFFAOYSA-N; [M+H]+; 2-benzofuran-1,3-dione; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -5.700; LGRFSURHDFAFJT; [M+H]+; Wiltrol P; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.892; LGRFSURHDFAFJT; [M+H]+; Wiltrol P; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -22.873; LGRFSURHDFAFJT; [M+H]+; Phthalic Anhydride; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.870; LGRFSURHDFAFJT; [M+H]+; Phthalic Anhydride; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 5 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3b; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 5 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1)
 CH$NAME: phthalic anhydride
 CH$NAME: 2-benzofuran-1,3-dione
 CH$COMPOUND_CLASS: Non-Natural Product

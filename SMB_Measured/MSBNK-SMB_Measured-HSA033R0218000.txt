@@ -1,17 +1,17 @@
 ACCESSION: MSBNK-SMB_Measured-HSA033R0218000
 RECORD_TITLE: Pantothenic acid; LC-ESI-QTOF; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Liang et al. J Pharm Biomed Anal. 2022, 214, 114718
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 56 product ion spectra among 50 DDA data files in the dataset described below.
 COMMENT: DATASET_ID MTBLS3854
 COMMENT: DATASET_TITLE Long-term low-dose ionizing radiation induced chromosome-aberration-specific metabolic phenotype changes in radiation workers
 COMMENT: DATASET_AUTHORS Xinjun Wang
-COMMENT: PRECURSOR_IN_MS1 mz 218.103079; int 175.143; delta(ppm) -0.879836
+COMMENT: PRECURSOR_IN_MS1 mz 218.103079; int 175.143; delta(ppm) 0.495218
 COMMENT: PROPOSED_MF SevenGoldenRules 1.944; C9H17NO5; [M-H]1; delta(ppm) -1.944227; Ranking 2;
 COMMENT: PROPOSED_MF MS-FINDER 4.499; C9H17NO5; [M-H]-; delta(ppm) -1.949662; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 40.665; C9H17NO5; [M-H]-; delta(ppm) -1.949662; Ranking 1;
@@ -19,7 +19,7 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C9H17NO5; [M-H]-; delta(ppm) -1.94966
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 54.882; C9H17NO5; [M-H]-; delta(ppm) -1.949662; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H17NO5; [M-H]-; delta(ppm) -1.949662; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 9.000; GHOKWGTUZJEAQD-ZETCQYMHSA-N; C9H17NO5; Massbank:LU087054 PantothenatePantothenic acid3-[[(2R)-2,4-dihydroxy-3,3-dimethylbutanoyl]amino]propanoic acid; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.096; GHOKWGTUZJEAQD-UHFFFAOYSA-N; [M-H]-; CC(C)(CO)C(O)C(=O)NCCC(O)=O; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.904; GHOKWGTUZJEAQD; [M-H]-; Pantothenic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.588; GHOKWGTUZJEAQD-UHFFFAOYSA-N; [M-H]-; Pantothenic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; GHOKWGTUZJEAQD-UHFFFAOYSA-N; [M-H]-; Pantothenic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; GHOKWGTUZJEAQD-ZETCQYMHSA-N; [M-H]-; 3-[[(2R)-2,4-dihydroxy-3,3-dimethylbutanoyl]amino]propanoic acid; Ranking 1;
@@ -27,7 +27,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.544; GHOKWGTUZJEAQD; [M-H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.855; GHOKWGTUZJEAQD; [M-H]-; vitamin B5; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -7.093; GHOKWGTUZJEAQD; [M-H]-; Pantothenate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.942; GHOKWGTUZJEAQD; [M-H]-; Pantothenate; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 9 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000210)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 9 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000210)
 CH$NAME: Pantothenic acid
 CH$NAME: Pantothenate
 CH$NAME: 3-[(2,4-dihydroxy-3,3-dimethylbutanoyl)amino]propanoic acid

@@ -1,33 +1,33 @@
 ACCESSION: MSBNK-SMB_Measured-HSA020R0152000
 RECORD_TITLE: Guanine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 143 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 152.056713; int 57.590; delta(ppm) -0.006424
 COMMENT: PROPOSED_MF SevenGoldenRules 0.185; C5H5N5O; [M+H]+; delta(ppm) 0.185370; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.791; C5H5N5O; [M+H]+; delta(ppm) 0.182495; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 7.037; C5H5N5O; [M+H]+; delta(ppm) 0.182495; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.999; C5H5N5O; [M+H]+; delta(ppm) 0.182495; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C5H5N5O; [M+H]+; delta(ppm) 0.182495; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 11.787; C5H5N5O; [M+H]+; delta(ppm) 0.182495; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.998; C5H5N5O; [M+H]+; delta(ppm) 0.182495; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.997; C5H5N5O; [M+H]+; delta(ppm) 0.182495; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 30.000; UYTPUPDQBNUYGX-UHFFFAOYSA-N; C5H5N5O; Guanine - 40.0 eV; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.250; UYTPUPDQBNUYGX-UHFFFAOYSA-N; [M+H]+; NC1=NC(=O)C2=C(N1)N=CN2; Ranking 3;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.250; UYTPUPDQBNUYGX; [M+H]+; Guanine; Ranking 3;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.574; UYTPUPDQBNUYGX-UHFFFAOYSA-N; [M+H]+; Guanine; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.781; UYTPUPDQBNUYGX-UHFFFAOYSA-N; [M+H]+; Guanine; Ranking 5;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.743; UYTPUPDQBNUYGX-UHFFFAOYSA-N; [M+H]+; Guanine; Ranking 6;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.743; UYTPUPDQBNUYGX-UHFFFAOYSA-N; [M+H]+; 2-amino-1,7-dihydropurin-6-one; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -13.860; UYTPUPDQBNUYGX; [M+H]+; Dew Pearl; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.864; UYTPUPDQBNUYGX; [M+H]+; Dew Pearl; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -44.553; UYTPUPDQBNUYGX; [M+H]+; Guanine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.739; UYTPUPDQBNUYGX; [M+H]+; Guanine; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 30 spectra); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 5), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000132)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 30 spectra); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 6), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000132)
 CH$NAME: Guanine
 CH$NAME: 2-amino-3,7-dihydropurin-6-one
 CH$COMPOUND_CLASS: Natural product

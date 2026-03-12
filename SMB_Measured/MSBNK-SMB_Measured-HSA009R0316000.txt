@@ -1,33 +1,33 @@
 ACCESSION: MSBNK-SMB_Measured-HSA009R0316000
 RECORD_TITLE: Decanoylcarnitine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 571 product ion spectra among 248 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001171
 COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
 COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
-COMMENT: PRECURSOR_IN_MS1 mz 316.248263; int 32.933; delta(ppm) -0.990830
+COMMENT: PRECURSOR_IN_MS1 mz 316.248263; int 32.933; delta(ppm) 0.000029
 COMMENT: PROPOSED_MF SevenGoldenRules 0.089; C17H33NO4; [M+H]+; delta(ppm) 0.088821; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.855; C17H33NO4; [M+H]+; delta(ppm) 0.088601; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 21.338; C17H33NO4; [M+H]+; delta(ppm) 0.088601; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C17H33NO4; [M+H]+; delta(ppm) 0.088601; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS6_Sirius 28.129; C17H33NO4; [M+H]+; delta(ppm) 0.088601; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 28.030; C17H33NO4; [M+H]+; delta(ppm) 0.088601; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C17H33NO4; [M+H]+; delta(ppm) 0.088601; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 4.000; LZOSYCMHQXPBFU-UHFFFAOYSA-N; C17H33NO4; Massbank:RP024902 Decanoyl-L-CarnitineDecanoylcarnitine3-decanoyloxy-4-(trimethylazaniumyl)butanoate; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.427; LZOSYCMHQXPBFU-UHFFFAOYNA-N; [M+H]+; CCCCCCCCCC(=O)OC(CC([O-])=O)C[N+](C)(C)C; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.427; LZOSYCMHQXPBFU; [M+H]+; Decanoylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.049; LZOSYCMHQXPBFU-UHFFFAOYNA-N; [M+H]+; Decanoylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; LZOSYCMHQXPBFU-UHFFFAOYNA-N; [M+H]+; Decanoylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.983; LZOSYCMHQXPBFU; [M+H]+; Tocris-0477; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.768; LZOSYCMHQXPBFU; [M+H]+; Tocris-0477; Ranking 1;
-COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -39.247; LZOSYCMHQXPBFU; [M+H]+; [(2R)-3-carboxy-2-(10,10,10-trideuteriodecanoyloxy)propyl]-trimethylazanium; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -39.244; LZOSYCMHQXPBFU; [M+H]+; [(2R)-3-carboxy-2-(10,10,10-trideuteriodecanoyloxy)propyl]-trimethylazanium; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.764; LZOSYCMHQXPBFU; [M+H]+; [(2R)-3-carboxy-2-(10,10,10-trideuteriodecanoyloxy)propyl]-trimethylazanium; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 4 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000651)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 4 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000651)
 CH$NAME: Decanoylcarnitine
 CH$NAME: 3-decanoyloxy-4-(trimethylazaniumyl)butanoate
 CH$COMPOUND_CLASS: Natural product
@@ -59,7 +59,7 @@ MS$FOCUSED_ION: ION_TYPE [M+H]+
 MS$FOCUSED_ION: PRECURSOR_M/Z 316.248263
 MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
 MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
-PK$SPLASH: splash10-00kr-9006000000-971d51bb12df34b3bae1
+PK$SPLASH: splash10-00kr-9016000000-ab2b3574985c67f08fd6
 PK$ANNOTATION: m/z int mzPAF cor n
   60.080851 80 f{C3H10N1}/1.26ppm,p-C14H24O4 0.9949 571
   71.085631 13 f{C5H11}/1.47ppm,p-C12H23N1O4 0.9795 449
@@ -67,8 +67,9 @@ PK$ANNOTATION: m/z int mzPAF cor n
   95.085585 11 f{C7H11}/0.61ppm,p-C10H23N1O4 0.9802 416
   144.101984 33 f{C7H14N1O2}/0.55ppm,p-C10H20O2 0.9930 565
   155.143225 59 f{C10H19O1}/1.18ppm,p-C7H15N1O3 0.9950 570
+  257.174727 152 f{C14H25O4}/-0.03ppm,p-C3H9N1 0.9982 571
   316.248396 820 f{C17H34N1O4}/0.51ppm,p 1.0000 571
-PK$NUM_PEAK: 7
+PK$NUM_PEAK: 8
 PK$PEAK: m/z int. rel.int.
   60.080851 80.00 80
   71.085631 13.00 13
@@ -76,5 +77,6 @@ PK$PEAK: m/z int. rel.int.
   95.085585 11.00 11
   144.101984 33.00 33
   155.143225 59.00 59
+  257.174727 152.00 152
   316.248396 820.00 820
 //

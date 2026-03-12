@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA007R0281000
 RECORD_TITLE: Aspartylphenylalanine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 53 product ion spectra among 60 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS417
 COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
 COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
-COMMENT: PRECURSOR_IN_MS1 mz 281.112490; int 876.236; delta(ppm) -4.706674
+COMMENT: PRECURSOR_IN_MS1 mz 281.112490; int 876.236; delta(ppm) -2.209001
 COMMENT: PROPOSED_MF SevenGoldenRules 0.311; C13H16N2O5; [M+H]+; delta(ppm) -0.310597; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.194; C13H16N2O5; [M+H]+; delta(ppm) -0.309723; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 65.059; C13H16N2O5; [M+H]+; delta(ppm) -0.309723; Ranking 1;
@@ -21,7 +21,7 @@ COMMENT: PROPOSED_MF SIRIUS6_Sirius 109.955; C13H16N2O5; [M+H]+; delta(ppm) -0.3
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C13H16N2O5; [M+H]+; delta(ppm) -0.309723; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 5.000; YZQCXOFQZKCETR-UWVGGRQHSA-N; C13H16N2O5; ASP-PHE; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; YZQCXOFQZKCETR-UHFFFAOYSA-N; C13H16N2O5; Spectral Match to .alpha.-L-Asp-L-Phe from NIST14; Ranking 2;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.920; YZQCXOFQZKCETR-WSYQHHSTNA-N; [M+H]+; N[C@@H](CC(O)=O)C(=O)N[C@@H](CC1=CC=CC=C1)C(O)=O; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.920; YZQCXOFQZKCETR; [M+H]+; Aspartylphenylalanine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.362; YZQCXOFQZKCETR-WSYQHHSTNA-N; [M+H]+; Aspartylphenylalanine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.940; YZQCXOFQZKCETR-WSYQHHSTNA-N; [M+H]+; Aspartylphenylalanine; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.440; YZQCXOFQZKCETR-UWVGGRQHSA-N; [M+H]+; (3S)-3-amino-4-[[(1S)-1-carboxy-2-phenylethyl]amino]-4-oxobutanoic acid; Ranking 1;
@@ -29,7 +29,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -2.543; YZQCXOFQZKCETR; [M+H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.926; YZQCXOFQZKCETR; [M+H]+; alpha-Asp-Phe; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -22.630; YZQCXOFQZKCETR; [M+H]+; Asp-Phe; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.997; YZQCXOFQZKCETR; [M+H]+; Asp-Phe; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 8 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000706)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 8 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000706)
 CH$NAME: Aspartylphenylalanine
 CH$NAME: Asp-Phe
 CH$NAME: 3-amino-4-[(1-carboxy-2-phenylethyl)amino]-4-oxobutanoic acid

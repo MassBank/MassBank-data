@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA001R0156006
 RECORD_TITLE: Histidine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 93 product ion spectra among 22 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MB-POST
 COMMENT: DATASET_ID MPST000004
 COMMENT: DATASET_TITLE Annotation of various metabolites in SRM 1950 human serum
 COMMENT: DATASET_AUTHORS Masatomo Takahashi, Yoshihiro Izumi, Kyoshu University
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 156.076789; int 140.810; delta(ppm) 0.019290
 COMMENT: PROPOSED_MF SevenGoldenRules 0.213; C6H9N3O2; [M+H]+; delta(ppm) 0.212808; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.763; C6H9N3O2; [M+H]+; delta(ppm) 0.211529; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 33.588; C6H9N3O2; [M+H]+; delta(ppm) 0.211529; Ranking 1;
@@ -21,7 +21,7 @@ COMMENT: PROPOSED_MF SIRIUS6_Sirius 44.550; C6H9N3O2; [M+H]+; delta(ppm) 0.21152
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H9N3O2; [M+H]+; delta(ppm) 0.211529; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 39.000; HNDVDQJCIGZPNO-YFKPBYRVSA-N; C6H9N3O2; L-HISTIDINE - 20.0 eV; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 14.000; HNDVDQJCIGZPNO-UHFFFAOYSA-N; C6H9N3O2; L-HISTIDINE; Ranking 2;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.390; HNDVDQJCIGZPNO-YFKPBYRVSA-N; [M+H]+; N[C@@H](CC1=CN=CN1)C(O)=O; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.390; HNDVDQJCIGZPNO; [M+H]+; L-Histidine; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.786; HNDVDQJCIGZPNO-YFKPBYRVSA-N; [M+H]+; L-Histidine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.998; HNDVDQJCIGZPNO-YFKPBYRVSA-N; [M+H]+; L-Histidine; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.998; HNDVDQJCIGZPNO-YFKPBYRVSA-N; [M+H]+; (2S)-2-amino-3-(1H-imidazol-5-yl)propanoic acid; Ranking 1;
@@ -29,7 +29,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -2.529; HNDVDQJCIGZPNO; [M+H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.968; HNDVDQJCIGZPNO; [M+H]+; histidin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -8.398; HNDVDQJCIGZPNO; [M+H]+; L-His; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.995; HNDVDQJCIGZPNO; [M+H]+; L-His; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 53 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000177)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 53 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000177)
 CH$NAME: Histidine
 CH$NAME: His
 CH$NAME: 2-amino-3-(1H-imidazol-5-yl)propionic acid

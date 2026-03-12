@@ -1,33 +1,33 @@
 ACCESSION: MSBNK-SMB_Measured-HSA009R0294000
 RECORD_TITLE: N-(1-Deoxy-1-fructosyl)isoleucine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 650 product ion spectra among 248 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001171
 COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
 COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
-COMMENT: PRECURSOR_IN_MS1 mz 294.154685; int 27.087; delta(ppm) -0.924529
+COMMENT: PRECURSOR_IN_MS1 mz 294.154685; int 27.087; delta(ppm) -0.010148
 COMMENT: PROPOSED_MF SevenGoldenRules 0.136; C12H23NO7; [M+H]+; delta(ppm) -0.136450; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.588; C12H23NO7; [M+H]+; delta(ppm) -0.137774; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 49.087; C12H23NO7; [M+H]+; delta(ppm) -0.137774; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C12H23NO7; [M+H]+; delta(ppm) -0.137774; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS6_Sirius 84.210; C12H23NO7; [M+H]+; delta(ppm) -0.137774; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 84.211; C12H23NO7; [M+H]+; delta(ppm) -0.137774; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C12H23NO7; [M+H]+; delta(ppm) -0.137774; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; VYGRYVGDPYFVCA-UHFFFAOYSA-N; C12H23NO7; Massbank:PR310825 N-Fructosyl isoleucine; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.767; VYGRYVGDPYFVCA-PZIRIOGLNA-N; [M+H]+; CCC(C)[C@H](NCC1(O)O[C@H](CO)[C@@H](O)[C@@H]1O)C(O)=O; Ranking 2;
-COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.614; VYGRYVGDPYFVCA-PZIRIOGLNA-N; [M+H]+; N-(1-Deoxy-1-fructosyl)isoleucine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.767; VYGRYVGDPYFVCA; [M+H]+; N-(1-Deoxy-1-fructosyl)isoleucine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.707; VYGRYVGDPYFVCA-PZIRIOGLNA-N; [M+H]+; N-(1-Deoxy-1-fructosyl)isoleucine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; VYGRYVGDPYFVCA-PZIRIOGLNA-N; [M+H]+; N-(1-Deoxy-1-fructosyl)isoleucine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -31.470; VYGRYVGDPYFVCA; [M+H]+; nan; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.514; VYGRYVGDPYFVCA; [M+H]+; nan; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -42.417; VYGRYVGDPYFVCA; [M+H]+; 3-methyl-2-({[2,3,4-trihydroxy-5-(hydroxymethyl)oxolan-2-yl]methyl}amino)pentanoic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.720; VYGRYVGDPYFVCA; [M+H]+; 3-methyl-2-({[2,3,4-trihydroxy-5-(hydroxymethyl)oxolan-2-yl]methyl}amino)pentanoic acid; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 2 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0039780)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 2 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0039780)
 CH$NAME: N-(1-Deoxy-1-fructosyl)isoleucine
 CH$NAME: 3-methyl-2-[[2,3,4-trihydroxy-5-(hydroxymethyl)oxolan-2-yl]methylamino]pentanoic acid
 CH$COMPOUND_CLASS: Natural product

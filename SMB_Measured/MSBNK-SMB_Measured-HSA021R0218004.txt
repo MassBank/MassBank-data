@@ -1,24 +1,24 @@
 ACCESSION: MSBNK-SMB_Measured-HSA021R0218004
 RECORD_TITLE: Pantothenic acid; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 192 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 218.103380; int 41.432; delta(ppm) 0.050521
 COMMENT: PROPOSED_MF SevenGoldenRules 0.128; C9H17NO5; [M-H]1; delta(ppm) -0.127789; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.362; C9H17NO5; [M-H]-; delta(ppm) -0.124839; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 12.007; C9H17NO5; [M-H]-; delta(ppm) -0.124839; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C9H17NO5; [M-H]-; delta(ppm) -0.124839; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 15.549; C9H17NO5; [M-H]-; delta(ppm) -0.124839; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H17NO5; [M-H]-; delta(ppm) -0.124839; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.847; GHOKWGTUZJEAQD-UHFFFAOYSA-N; [M-H]-; CC(C)(CO)C(O)C(=O)NCCC(O)=O; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.847; GHOKWGTUZJEAQD; [M-H]-; Pantothenic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.934; GHOKWGTUZJEAQD-UHFFFAOYSA-N; [M-H]-; Pantothenic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; GHOKWGTUZJEAQD-UHFFFAOYSA-N; [M-H]-; Pantothenic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; GHOKWGTUZJEAQD-ZETCQYMHSA-N; [M-H]-; 3-[[(2R)-2,4-dihydroxy-3,3-dimethylbutanoyl]amino]propanoic acid; Ranking 1;
@@ -26,7 +26,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -16.534; GHOKWGTUZJEAQD; [M-H
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.649; GHOKWGTUZJEAQD; [M-H]-; vitamin B5; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -26.148; GHOKWGTUZJEAQD; [M-H]-; Pantothenate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.828; GHOKWGTUZJEAQD; [M-H]-; Pantothenate; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000210)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000210)
 CH$NAME: Pantothenic acid
 CH$NAME: Pantothenate
 CH$NAME: 3-[(2,4-dihydroxy-3,3-dimethylbutanoyl)amino]propanoic acid

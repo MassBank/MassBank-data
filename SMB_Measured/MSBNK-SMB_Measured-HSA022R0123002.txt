@@ -1,17 +1,17 @@
 ACCESSION: MSBNK-SMB_Measured-HSA022R0123002
 RECORD_TITLE: Niacinamide; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 194 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 mz 123.055315; int 13.739; delta(ppm) 0.906449
+COMMENT: PRECURSOR_IN_MS1 mz 123.055315; int 13.739; delta(ppm) -0.024046
 COMMENT: PROPOSED_MF SevenGoldenRules 0.238; C6H6N2O; [M+H]+; delta(ppm) 0.237611; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.509; C6H6N2O; [M+H]+; delta(ppm) 0.233553; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 18.642; C6H6N2O; [M+H]+; delta(ppm) 0.233553; Ranking 1;
@@ -19,7 +19,7 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H6N2O; [M+H]+; delta(ppm) 0.233553;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 24.421; C6H6N2O; [M+H]+; delta(ppm) 0.233553; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H6N2O; [M+H]+; delta(ppm) 0.233553; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 38.000; DFPAKSUCGFBDDF-UHFFFAOYSA-N; C6H6N2O; Spectral Match to Niacinamide from NIST14; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.276; DFPAKSUCGFBDDF-UHFFFAOYSA-N; [M+H]+; NC(=O)C1=CC=CN=C1; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.276; DFPAKSUCGFBDDF; [M+H]+; Niacinamide; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.079; DFPAKSUCGFBDDF-UHFFFAOYSA-N; [M+H]+; Niacinamide; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.992; DFPAKSUCGFBDDF-UHFFFAOYSA-N; [M+H]+; Niacinamide; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.992; DFPAKSUCGFBDDF-UHFFFAOYSA-N; [M+H]+; pyridine-3-carboxamide; Ranking 1;
@@ -27,7 +27,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -9.876; DFPAKSUCGFBDDF; [M+H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.426; DFPAKSUCGFBDDF; [M+H]+; Amide PP; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -23.237; DFPAKSUCGFBDDF; [M+H]+; Niacin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.894; DFPAKSUCGFBDDF; [M+H]+; Niacin; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 38 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0001406)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 38 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0001406)
 CH$NAME: Niacinamide
 CH$NAME: Niacin
 CH$NAME: pyridine-3-carboxamide

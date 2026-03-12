@@ -1,17 +1,17 @@
 ACCESSION: MSBNK-SMB_Measured-HSA022R0147002
 RECORD_TITLE: Lysine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 285 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 mz 147.112875; int 93.370; delta(ppm) 1.232606
+COMMENT: PRECURSOR_IN_MS1 mz 147.112875; int 93.370; delta(ppm) 0.305967
 COMMENT: PROPOSED_MF SevenGoldenRules 0.178; C6H14N2O2; [M+H]+; delta(ppm) 0.177954; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.636; C6H14N2O2; [M+H]+; delta(ppm) 0.175802; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 20.662; C6H14N2O2; [M+H]+; delta(ppm) 0.175802; Ranking 1;
@@ -20,7 +20,7 @@ COMMENT: PROPOSED_MF SIRIUS6_Sirius 26.051; C6H14N2O2; [M+H]+; delta(ppm) 0.1758
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H14N2O2; [M+H]+; delta(ppm) 0.175802; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 44.000; KDXKERNSBIXSRK-YFKPBYRVSA-N; C6H14N2O2; Spectral Match to L-Lysine from NIST14; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 23.000; KDXKERNSBIXSRK-UHFFFAOYSA-N; C6H14N2O2; DL-Lysine CollisionEnergy:102040; Ranking 2;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.004; KDXKERNSBIXSRK-MLHKIVSYNA-N; [M+H]+; NCCCC[C@H](N)C(O)=O; Ranking 5;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.004; KDXKERNSBIXSRK; [M+H]+; L-Lysine; Ranking 5;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.401; KDXKERNSBIXSRK-MLHKIVSYNA-N; [M+H]+; L-Lysine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.831; KDXKERNSBIXSRK-MLHKIVSYNA-N; [M+H]+; L-Lysine; Ranking 3;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; KDXKERNSBIXSRK-YFKPBYRVSA-N; [M+H]+; (2S)-2,6-diaminohexanoic acid; Ranking 1;
@@ -28,7 +28,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.497; KDXKERNSBIXSRK; [M+H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.868; KDXKERNSBIXSRK; [M+H]+; lysinium; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -50.408; KDXKERNSBIXSRK; [M+H]+; Lysin; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.993; KDXKERNSBIXSRK; [M+H]+; Lysin; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 67 spectra); Supported by CFM-ID:MsfinderDB (Ranking 5), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000182)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 67 spectra); Supported by CFM-ID:MsfinderDB (Ranking 5), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000182)
 CH$NAME: Lysine
 CH$NAME: Lysin
 CH$NAME: 2,6-diaminohexanoic acid

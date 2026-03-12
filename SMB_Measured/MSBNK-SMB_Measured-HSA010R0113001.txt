@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA010R0113001
 RECORD_TITLE: Uracil; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 1015 product ion spectra among 101 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001914
 COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
 COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
-COMMENT: PRECURSOR_IN_MS1 mz 113.034536; int 368.042; delta(ppm) -1.072250
+COMMENT: PRECURSOR_IN_MS1 mz 113.034536; int 368.042; delta(ppm) 0.026661
 COMMENT: PROPOSED_MF SevenGoldenRules 0.179; C4H4N2O2; [M+H]+; delta(ppm) -0.178528; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.775; C4H4N2O2; [M+H]+; delta(ppm) -0.184176; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 20.016; C4H4N2O2; [M+H]+; delta(ppm) -0.184176; Ranking 1;
@@ -20,7 +20,6 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C4H4N2O2; [M+H]+; delta(ppm) -0.18417
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 25.473; C4H4N2O2; [M+H]+; delta(ppm) -0.184176; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C4H4N2O2; [M+H]+; delta(ppm) -0.184176; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 14.000; ISAKRJDGNUQOIC-UHFFFAOYSA-N; C4H4N2O2; URACIL; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.404; ISAKRJDGNUQOIC-UHFFFAOYSA-N; [M+H]+; O=C1NC=CC(=O)N1; Ranking 5;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.665; ISAKRJDGNUQOIC-UHFFFAOYSA-N; [M+H]+; Uracil; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.412; ISAKRJDGNUQOIC-UHFFFAOYSA-N; [M+H]+; Uracil; Ranking 10;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.344; ISAKRJDGNUQOIC-UHFFFAOYSA-N; [M+H]+; 1H-pyrimidine-2,4-dione; Ranking 1;
@@ -28,7 +27,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.417; ISAKRJDGNUQOIC; [M+H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.943; ISAKRJDGNUQOIC; [M+H]+; Hybar X; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -5.379; ISAKRJDGNUQOIC; [M+H]+; Uracil; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.952; ISAKRJDGNUQOIC; [M+H]+; Uracil; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 14 spectra); Supported by CFM-ID:MsfinderDB (Ranking 5), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 10), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000300)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 14 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 10), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000300)
 CH$NAME: Uracil
 CH$NAME: 1H-pyrimidine-2,4-dione
 CH$COMPOUND_CLASS: Natural product

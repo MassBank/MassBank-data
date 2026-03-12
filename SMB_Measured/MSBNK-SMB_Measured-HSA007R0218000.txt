@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA007R0218000
 RECORD_TITLE: Propionylcarnitine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 152 product ion spectra among 60 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS417
 COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
 COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
-COMMENT: PRECURSOR_IN_MS1 mz 218.138340; int 999.000; delta(ppm) -4.446778
+COMMENT: PRECURSOR_IN_MS1 mz 218.138340; int 999.000; delta(ppm) -1.054388
 COMMENT: PROPOSED_MF SevenGoldenRules 0.525; C10H19NO4; [M+H]+; delta(ppm) -0.525028; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.413; C10H19NO4; [M+H]+; delta(ppm) -0.525049; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 21.873; C10H19NO4; [M+H]+; delta(ppm) -0.525049; Ranking 1;
@@ -20,14 +20,14 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C10H19NO4; [M+H]+; delta(ppm) -0.5250
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 35.550; C10H19NO4; [M+H]+; delta(ppm) -0.525049; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C10H19NO4; [M+H]+; delta(ppm) -0.525049; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 4.000; UFAHZIUFPNSHSL-UHFFFAOYSA-N; C10H19NO4; PROPIONYLCARNITINE; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.711; UFAHZIUFPNSHSL-UHFFFAOYNA-N; [M+H]+; CCC(=O)OC(CC([O-])=O)C[N+](C)(C)C; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.711; UFAHZIUFPNSHSL; [M+H]+; Propionylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.096; UFAHZIUFPNSHSL-UHFFFAOYNA-N; [M+H]+; Propionylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; UFAHZIUFPNSHSL-UHFFFAOYNA-N; [M+H]+; Propionylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -5.059; UFAHZIUFPNSHSL; [M+H]+; Tocris-0611; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.993; UFAHZIUFPNSHSL; [M+H]+; Tocris-0611; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -35.562; UFAHZIUFPNSHSL; [M+H]+; Propionylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.988; UFAHZIUFPNSHSL; [M+H]+; Propionylcarnitine; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 4 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000824)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 4 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000824)
 CH$NAME: Propionylcarnitine
 CH$NAME: 3-propanoyloxy-4-(trimethylazaniumyl)butanoate
 CH$COMPOUND_CLASS: Natural product
@@ -57,20 +57,22 @@ MS$FOCUSED_ION: ION_TYPE [M+H]+
 MS$FOCUSED_ION: PRECURSOR_M/Z 218.138570
 MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
 MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
-PK$SPLASH: splash10-000i-9000000000-7a0426ec47e8ea2907a9
+PK$SPLASH: splash10-000i-9000000000-33c25679637301447a29
 PK$ANNOTATION: m/z int mzPAF cor n
   57.033618 39 f{C3H5O1}/2.23ppm,p-C7H15N1O3 0.9431 114
   60.080631 48 f{C3H10N1}/-2.41ppm,p-C7H10O4 0.9236 125
   84.080801 23 f{C5H10N1}/0.30ppm,p-C5H10O4 0.8351 114
   85.028355 999 f{C4H5O2}/-0.60ppm,p-C6H15N1O2 0.9768 151
   144.101882 30 f{C7H14N1O2}/-0.16ppm,p-C3H6O2 0.9395 121
+  159.065442 61 f{C7H11O4}/1.61ppm,p-C3H9N1 0.9584 122
   218.138650 111 f{C10H20N1O4}/-0.16ppm,p 1.0000 149
-PK$NUM_PEAK: 6
+PK$NUM_PEAK: 7
 PK$PEAK: m/z int. rel.int.
   57.033618 39.00 39
   60.080631 48.00 48
   84.080801 23.00 23
   85.028355 999.00 999
   144.101882 30.00 30
+  159.065442 61.00 61
   218.138650 111.00 111
 //

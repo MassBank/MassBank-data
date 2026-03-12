@@ -1,26 +1,26 @@
 ACCESSION: MSBNK-SMB_Measured-HSA007R0261000
 RECORD_TITLE: gamma-Glutamylleucine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 78 product ion spectra among 60 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS417
 COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
 COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
-COMMENT: PRECURSOR_IN_MS1 mz 261.144084; int 999.000; delta(ppm) -4.592035
+COMMENT: PRECURSOR_IN_MS1 mz 261.144084; int 999.000; delta(ppm) -1.684747
 COMMENT: PROPOSED_MF SevenGoldenRules 0.100; C11H20N2O5; [M+H]+; delta(ppm) 0.099947; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 4.191; C11H20N2O5; [M+H]+; delta(ppm) 0.098816; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS5_Sirius 34.220; C11H20N2O5; [M+H]+; delta(ppm) 0.098816; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 34.221; C11H20N2O5; [M+H]+; delta(ppm) 0.098816; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C11H20N2O5; [M+H]+; delta(ppm) 0.098816; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 52.779; C11H20N2O5; [M+H]+; delta(ppm) 0.098816; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C11H20N2O5; [M+H]+; delta(ppm) 0.098816; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; MYFMARDICOWMQP-JAMMHHFISA-N; C11H20N2O5; ReSpect:PM017301 gamma-L-Glutamyl-L-leucine; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.155; MYFMARDICOWMQP-YZYOREDDNA-N; [M+H]+; CC(C)C[C@H](NC(=O)CC[C@H](N)C(O)=O)C(O)=O; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.874; MYFMARDICOWMQP; [M+H]+; gamma-Glutamylleucine; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.730; MYFMARDICOWMQP-YZYOREDDNA-N; [M+H]+; gamma-Glutamylleucine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.800; MYFMARDICOWMQP-YZYOREDDNA-N; [M+H]+; gamma-Glutamylleucine; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.794; MYFMARDICOWMQP-YUMQZZPRSA-N; [M+H]+; (2S)-2-[[(4S)-4-amino-4-carboxybutanoyl]amino]-4-methylpentanoic acid; Ranking 1;
@@ -28,7 +28,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -9.600; MYFMARDICOWMQP; [M+H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.555; MYFMARDICOWMQP; [M+H]+; gamma-Glu-leu; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -40.766; MYFMARDICOWMQP; [M+H]+; Gamma-Glu-Leu; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.996; MYFMARDICOWMQP; [M+H]+; Gamma-Glu-Leu; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0011171)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0011171)
 CH$NAME: gamma-Glutamylleucine
 CH$NAME: Gamma-Glu-Leu
 CH$NAME: 2-[(4-amino-4-carboxybutanoyl)amino]-4-methylpentanoic acid
@@ -59,20 +59,22 @@ MS$FOCUSED_ION: ION_TYPE [M+H]+
 MS$FOCUSED_ION: PRECURSOR_M/Z 261.144524
 MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
 MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
-PK$SPLASH: splash10-001r-9310000000-0def8e9f54b2d0da4dab
+PK$SPLASH: splash10-001r-9410000000-f020e3f1837640902eda
 PK$ANNOTATION: m/z int mzPAF cor n
   84.044236 791 f{C4H6N1O1}/-1.84ppm,p-C7H15N1O4 0.8643 77
   86.096323 999 f{C5H12N1}/-1.19ppm,p-C6H9N1O5 0.8762 75
+  130.050447 165 f{C5H8N1O3}/4.44ppm,p-C6H13N1O2 0.8249 55
   132.101645 410 f{C6H14N1O2}/-1.97ppm,p-C5H7N1O3 0.8754 76
   142.049454 92 f{C6H8N1O3}/-2.92ppm,p-C5H13N1O2 0.8045 57
   170.116453 54 f{C9H16N1O2}/-6.48ppm,p-C2H5N1O3 0.4935 66
   198.113244 198 f{C10H16N1O3}/3.91ppm,p-C1H5N1O2 0.7876 56
   244.118572 133 f{C11H18N1O5}/2.55ppm,p-H3N1 0.8190 60
   261.144158 127 f{C11H21N2O5}/-1.30ppm,p 1.0000 60
-PK$NUM_PEAK: 8
+PK$NUM_PEAK: 9
 PK$PEAK: m/z int. rel.int.
   84.044236 791.00 791
   86.096323 999.00 999
+  130.050447 165.00 165
   132.101645 410.00 410
   142.049454 92.00 92
   170.116453 54.00 54

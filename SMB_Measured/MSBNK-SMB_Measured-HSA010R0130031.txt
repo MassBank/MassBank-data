@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA010R0130031
 RECORD_TITLE: Pipecolic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 96 product ion spectra among 101 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001914
 COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
 COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
-COMMENT: PRECURSOR_IN_MS1 mz 130.086241; int 7.276; delta(ppm) -1.269701
+COMMENT: PRECURSOR_IN_MS1 mz 130.086241; int 7.276; delta(ppm) -0.000091
 COMMENT: PROPOSED_MF SevenGoldenRules 0.108; C6H11NO2; [M+H]+; delta(ppm) -0.108461; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 5.186; C6H11NO2; [M+H]+; delta(ppm) -0.107884; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 18.826; C6H11NO2; [M+H]+; delta(ppm) -0.107884; Ranking 1;
@@ -21,7 +21,7 @@ COMMENT: PROPOSED_MF SIRIUS6_Sirius 24.209; C6H11NO2; [M+H]+; delta(ppm) -0.1078
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H11NO2; [M+H]+; delta(ppm) -0.107884; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 44.000; HXEACLLIILLPRG-YFKPBYRVSA-N; C6H11NO2; (S)-(-)-pipecolic acid - 40.0 eV; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 13.000; HXEACLLIILLPRG-UHFFFAOYSA-N; C6H11NO2; PIPECOLATE; Ranking 2;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.182; HXEACLLIILLPRG-UHFFFAOYNA-N; [M+H]+; OC(=O)C1CCCCN1; Ranking 3;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.182; HXEACLLIILLPRG; [M+H]+; Pipecolic acid; Ranking 3;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 9.029; HXEACLLIILLPRG-UHFFFAOYNA-N; [M+H]+; Pipecolic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.953; HXEACLLIILLPRG-UHFFFAOYNA-N; [M+H]+; Pipecolic acid; Ranking 5;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.183; HXEACLLIILLPRG-UHFFFAOYSA-N; [M+H]+; piperidine-2-carboxylic acid; Ranking 2;
@@ -29,7 +29,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -16.657; HXEACLLIILLPRG; [M+H
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.699; HXEACLLIILLPRG; [M+H]+; l-homopro; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -66.898; HXEACLLIILLPRG; [M+H]+; Pipecolate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.882; HXEACLLIILLPRG; [M+H]+; Pipecolate; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 57 spectra); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 5), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0000070)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 57 spectra); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 5), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0000070)
 CH$NAME: Pipecolic acid
 CH$NAME: Pipecolate
 CH$NAME: piperidine-2-carboxylic acid

@@ -1,32 +1,32 @@
 ACCESSION: MSBNK-SMB_Measured-HSA020R0185000
 RECORD_TITLE: N-(3-acetamidopropyl)pyrrolidin-2-one; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 316 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 185.128646; int 320.194; delta(ppm) -0.302668
 COMMENT: PROPOSED_MF SevenGoldenRules 1.347; C9H16N2O2; [M+H]+; delta(ppm) 1.346937; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.408; C9H16N2O2; [M+H]+; delta(ppm) 1.338524; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 37.514; C9H16N2O2; [M+H]+; delta(ppm) 1.338524; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C9H16N2O2; [M+H]+; delta(ppm) 1.338524; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 51.683; C9H16N2O2; [M+H]+; delta(ppm) 1.338524; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H16N2O2; [M+H]+; delta(ppm) 1.338524; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.193; OAUYENAPBFTAQT-UHFFFAOYSA-N; [M+H]+; CC(=O)NCCCN1CCCC1=O; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.490; OAUYENAPBFTAQT-UHFFFAOYSA-N; [M+H]+; N-(3-acetamidopropyl)pyrrolidin-2-one; Ranking 3;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.193; OAUYENAPBFTAQT; [M+H]+; N-(3-acetamidopropyl)pyrrolidin-2-one; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.490; OAUYENAPBFTAQT-UHFFFAOYSA-N; [M+H]+; N-(3-acetamidopropyl)pyrrolidin-2-one; Ranking 4;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; OAUYENAPBFTAQT-UHFFFAOYSA-N; [M+H]+; N-(3-acetamidopropyl)pyrrolidin-2-one; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.856; OAUYENAPBFTAQT-UHFFFAOYSA-N; [M+H]+; N-[3-(2-oxopyrrolidin-1-yl)propyl]acetamide; Ranking 3;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -45.432; OAUYENAPBFTAQT; [M+H]+; Acisoga; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.928; OAUYENAPBFTAQT; [M+H]+; Acisoga; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -102.778; OAUYENAPBFTAQT; [M+H]+; Acisoga; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.772; OAUYENAPBFTAQT; [M+H]+; Acisoga; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 3), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 3); Biological context by HMDB (HMDB0061384)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 4), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 3); Biological context by HMDB (HMDB0061384)
 CH$NAME: N-(3-acetamidopropyl)pyrrolidin-2-one
 CH$NAME: Acisoga
 CH$NAME: N-[3-(2-oxopyrrolidin-1-yl)propyl]acetamide

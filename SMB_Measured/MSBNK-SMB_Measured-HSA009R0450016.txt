@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA009R0450016
 RECORD_TITLE: Chenodeoxycholic acid glycine conjugate; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 10 product ion spectra among 248 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001171
 COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
 COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
-COMMENT: PRECURSOR_IN_MS1 mz 450.321312; int 5.157; delta(ppm) -1.457230
+COMMENT: PRECURSOR_IN_MS1 mz 450.321312; int 5.157; delta(ppm) -0.002270
 COMMENT: PROPOSED_MF SevenGoldenRules 0.191; C26H43NO5; [M+H]+; delta(ppm) -0.191403; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.913; C26H43NO5; [M+H]+; delta(ppm) -0.193020; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 21.796; C26H43NO5; [M+H]+; delta(ppm) -0.193020; Ranking 1;
@@ -23,15 +23,15 @@ COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 10.000; GHCZAUBVMUEKKP-GYPHWSFCSA-N; 
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 7.000; GHCZAUBVMUEKKP-XROMFQGDSA-N; C26H43NO5; glycoursodeoxycholic acid; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; GHCZAUBVMUEKKP-UHFFFAOYSA-N; C26H43NO5; GlycoursodeoxycholicAcid; Ranking 3;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; GHCZAUBVMUEKKP-NHIHLBCISA-N; C26H43NO5; Massbank:RP005502 Glycoursodeoxycholic acid2-[[(4R)-4-[(3R,5S,7S,10S,13R,17R)-3,7-dihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl]pentanoyl]amino]acetic acid; Ranking 4;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.296; GHCZAUBVMUEKKP-YDVLHWCRNA-N; [M+H]+; C[C@H](CCC(=O)NCC(O)=O)[C@H]1CCC2C3[C@H](O)C[C@@H]4C[C@H](O)CC[C@]4(C)C3CC[C@]12C; Ranking 3;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.296; GHCZAUBVMUEKKP; [M+H]+; Chenodeoxycholic acid glycine conjugate; Ranking 3;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.995; GHCZAUBVMUEKKP-YDVLHWCRNA-N; [M+H]+; Chenodeoxycholic acid glycine conjugate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.975; GHCZAUBVMUEKKP-YDVLHWCRNA-N; [M+H]+; Chenodeoxycholic acid glycine conjugate; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.935; GHCZAUBVMUEKKP-GYPHWSFCSA-N; [M+H]+; 2-[[(4R)-4-[(3R,5S,7R,8R,9S,10S,13R,14S,17R)-3,7-dihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl]pentanoyl]amino]acetic acid; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.947; GHCZAUBVMUEKKP; [M+H]+; Glycoursodeoxycholate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.413; GHCZAUBVMUEKKP; [M+H]+; Glycoursodeoxycholate; Ranking 1;
-COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -11.854; GHCZAUBVMUEKKP; [M+H]+; Gudca; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -11.855; GHCZAUBVMUEKKP; [M+H]+; Gudca; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.830; GHCZAUBVMUEKKP; [M+H]+; Gudca; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 20 spectra); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0000637)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 20 spectra); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0000637)
 CH$NAME: Chenodeoxycholic acid glycine conjugate
 CH$NAME: Gudca
 CH$NAME: 2-[4-(3,7-dihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoylamino]acetic acid

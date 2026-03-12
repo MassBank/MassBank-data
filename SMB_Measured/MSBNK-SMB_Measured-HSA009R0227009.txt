@@ -1,33 +1,33 @@
 ACCESSION: MSBNK-SMB_Measured-HSA009R0227009
 RECORD_TITLE: UNPD213667; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 238 product ion spectra among 248 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001171
 COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
 COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
-COMMENT: PRECURSOR_IN_MS1 mz 227.102594; int 14.807; delta(ppm) -1.363272
+COMMENT: PRECURSOR_IN_MS1 mz 227.102594; int 14.807; delta(ppm) 0.017708
 COMMENT: PROPOSED_MF SevenGoldenRules 0.195; C10H14N2O4; [M+H]+; delta(ppm) -0.194608; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.818; C10H14N2O4; [M+H]+; delta(ppm) -0.195424; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 43.963; C10H14N2O4; [M+H]+; delta(ppm) -0.195424; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C10H14N2O4; [M+H]+; delta(ppm) -0.195424; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS6_Sirius 57.845; C10H14N2O4; [M+H]+; delta(ppm) -0.195424; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.998; C10H14N2O4; [M+H]+; delta(ppm) -0.195424; Ranking 2;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 56.869; C10H14N2O4; [M+H]+; delta(ppm) -0.195424; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.999; C10H14N2O4; [M+H]+; delta(ppm) -0.195424; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; PFEJJYZYEFRQEA-UHFFFAOYSA-N; C10H14N2O4; Spectral Match to PyroGlu-Pro from NIST14; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.040; PFEJJYZYEFRQEA-NKWVEPMBSA-N; [M+H]+; OC(=O)[C@H]1CCCN1C(=O)[C@@H]1CCC(=O)N1; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.040; PFEJJYZYEFRQEA; [M+H]+; UNPD213667; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.442; PFEJJYZYEFRQEA-NKWVEPMBSA-N; [M+H]+; UNPD213667; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; PFEJJYZYEFRQEA-NKWVEPMBSA-N; [M+H]+; UNPD213667; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -6.966; PFEJJYZYEFRQEA; [M+H]+; L-Proline, 5-oxo-L-prolyl-; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.981; PFEJJYZYEFRQEA; [M+H]+; L-Proline, 5-oxo-L-prolyl-; Ranking 1;
-COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -26.725; PFEJJYZYEFRQEA; [M+H]+; 1-(5-oxopyrrolidine-2-carbonyl)pyrrolidine-2-carboxylic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -26.785; PFEJJYZYEFRQEA; [M+H]+; 1-(5-oxopyrrolidine-2-carbonyl)pyrrolidine-2-carboxylic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.999; PFEJJYZYEFRQEA; [M+H]+; 1-(5-oxopyrrolidine-2-carbonyl)pyrrolidine-2-carboxylic acid; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 2 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 1)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3b; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 2 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 1)
 CH$NAME: UNPD213667
 CH$NAME: 1-(5-oxopyrrolidine-2-carbonyl)pyrrolidine-2-carboxylic acid
 CH$COMPOUND_CLASS: Natural product

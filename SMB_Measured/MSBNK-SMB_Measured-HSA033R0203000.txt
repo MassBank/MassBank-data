@@ -1,17 +1,17 @@
 ACCESSION: MSBNK-SMB_Measured-HSA033R0203000
 RECORD_TITLE: Tryptophan; LC-ESI-QTOF; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Liang et al. J Pharm Biomed Anal. 2022, 214, 114718
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 150 product ion spectra among 50 DDA data files in the dataset described below.
 COMMENT: DATASET_ID MTBLS3854
 COMMENT: DATASET_TITLE Long-term low-dose ionizing radiation induced chromosome-aberration-specific metabolic phenotype changes in radiation workers
 COMMENT: DATASET_AUTHORS Xinjun Wang
-COMMENT: PRECURSOR_IN_MS1 mz 203.083194; int 709.720; delta(ppm) -1.011967
+COMMENT: PRECURSOR_IN_MS1 mz 203.083194; int 709.720; delta(ppm) 0.516958
 COMMENT: PROPOSED_MF SevenGoldenRules 2.386; C11H12N2O2; [M-H]1; delta(ppm) 2.386198; Ranking 2;
 COMMENT: PROPOSED_MF MS-FINDER 4.414; C11H12N2O2; [M-H]-; delta(ppm) 2.401931; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 27.589; C11H12N2O2; [M-H]-; delta(ppm) 2.401931; Ranking 1;
@@ -21,7 +21,7 @@ COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C11H12N2O2; [M-H]-; delta(ppm) 2.4019
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 20.000; QIVBCDIJIAJPQS-VIFPVBQESA-N; C11H12N2O2; Massbank:KO001870 TrpTryptophanL-Tryptophan(S)-alpha-Amino-beta-(3-indolyl)-propionic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 11.000; QIVBCDIJIAJPQS-UHFFFAOYSA-N; C11H12N2O2; Massbank:CE000336 Tryptophan; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 8.000; QIVBCDIJIAJPQS-SECBINFHSA-N; C11H12N2O2; D-(+)-tryptophan - 40.0 eV; Ranking 3;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.962; QIVBCDIJIAJPQS-VIFPVBQESA-N; [M-H]-; N[C@@H](CC1=CNC2=CC=CC=C12)C(O)=O; Ranking 5;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.474; QIVBCDIJIAJPQS; [M-H]-; L-Tryptophan; Ranking 8;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.655; QIVBCDIJIAJPQS-VIFPVBQESA-N; [M-H]-; L-Tryptophan; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; QIVBCDIJIAJPQS-VIFPVBQESA-N; [M-H]-; L-Tryptophan; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; QIVBCDIJIAJPQS-VIFPVBQESA-N; [M-H]-; (2S)-2-amino-3-(1H-indol-3-yl)propanoic acid; Ranking 1;
@@ -29,7 +29,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.021; QIVBCDIJIAJPQS; [M-H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.984; QIVBCDIJIAJPQS; [M-H]-; Pacitron; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -23.417; QIVBCDIJIAJPQS; [M-H]-; Htrp; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.989; QIVBCDIJIAJPQS; [M-H]-; Htrp; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 39 spectra); Supported by CFM-ID:MsfinderDB (Ranking 5), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000929)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 39 spectra); Supported by CFM-ID:MsfinderDB (Ranking 8), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000929)
 CH$NAME: Tryptophan
 CH$NAME: Htrp
 CH$NAME: 2-amino-3-(1H-indol-3-yl)propanoic acid

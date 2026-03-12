@@ -1,0 +1,83 @@
+ACCESSION: MSBNK-SMB_Measured-HSA014R0174001
+RECORD_TITLE: N-Acetyl-aspartic acid; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 24 product ion spectra among 27 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS6402
+COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
+COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
+COMMENT: PRECURSOR_IN_MS1 mz 174.040805; int 30.620; delta(ppm) 0.069833
+COMMENT: PROPOSED_MF SevenGoldenRules 0.023; C6H9NO5; [M-H]1; delta(ppm) -0.022851; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.655; C6H9NO5; [M-H]-; delta(ppm) -0.022826; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 35.700; C6H9NO5; [M-H]-; delta(ppm) -0.022826; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H9NO5; [M-H]-; delta(ppm) -0.022826; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 51.479; C6H9NO5; [M-H]-; delta(ppm) -0.022826; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H9NO5; [M-H]-; delta(ppm) -0.022826; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 19.000; OTCCIMWXFLJLIA-BYPYZUCNSA-N; C6H9NO5; N-Acetyl-L-aspartic acid - 40.0 eV; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; OTCCIMWXFLJLIA-UHFFFAOYSA-N; C6H9NO5; Massbank:PR100851 N-Acetyl-DL-aspartic acidAc-AspNAAN-Acetyl-aspartateN-Acetylaspartate2-acetamidobutanedioic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.429; OTCCIMWXFLJLIA; [M-H]-; N-Acetyl-L-aspartic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.219; OTCCIMWXFLJLIA-BYPYZUCNSA-N; [M-H]-; N-Acetyl-L-aspartic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; OTCCIMWXFLJLIA-BYPYZUCNSA-N; [M-H]-; N-Acetyl-L-aspartic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; OTCCIMWXFLJLIA-BYPYZUCNSA-N; [M-H]-; (2S)-2-acetamidobutanedioic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -2.262; OTCCIMWXFLJLIA; [M-H]-; bmse000423; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.906; OTCCIMWXFLJLIA; [M-H]-; bmse000423; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -19.494; OTCCIMWXFLJLIA; [M-H]-; Acetylaspartic Acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.985; OTCCIMWXFLJLIA; [M-H]-; Acetylaspartic Acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 21 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000812)
+CH$NAME: N-Acetyl-aspartic acid
+CH$NAME: Acetylaspartic Acid
+CH$NAME: 2-acetamidosuccinic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H9NO5
+CH$EXACT_MASS: 175.048072
+CH$SMILES: CC(=O)NC(CC(=O)O)C(=O)O
+CH$IUPAC: InChI=1S/C6H9NO5/c1-3(8)7-4(6(11)12)2-5(9)10/h4H,2H2,1H3,(H,7,8)(H,9,10)(H,11,12)
+CH$LINK: HMDB HMDB0000812
+CH$LINK: INCHIKEY OTCCIMWXFLJLIA-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:97508
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Vanquish Flex UHPLC system, Thermo Fisher Scientific - Orbitrap Q Exactive Plus mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.50; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.543
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 174.040792
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-052r-9200000000-3ee4caa25061f1aa95a8
+PK$ANNOTATION: m/z int mzPAF cor n
+  58.029814 360 f{C2H4N1O1}/-0.41ppm,p-C4H4O4 0.8554 24
+  59.013798 173 f{C2H3O2}/-0.93ppm,p-C4H5N1O3 0.8758 24
+  71.013867 88 f{C3H3O2}/0.20ppm,p-C3H5N1O3 0.7597 22
+  88.040496 999 f{C3H6N1O2}/1.07ppm,p-C3H2O3 0.8532 24
+  114.019679 133 f{C4H4N1O3}/0.11ppm,p-C2H4O2 0.8137 24
+  115.003700 108 f{C4H3O4}/0.16ppm,p-C2H5N1O1 0.8571 23
+  130.050987 153 f{C5H8N1O3}/0.15ppm,p-C1O2 0.8871 24
+  174.040847 124 f{C6H8N1O5}/0.30ppm,p 1.0000 22
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  58.029814 360.00 360
+  59.013798 173.00 173
+  71.013867 88.00 88
+  88.040496 999.00 999
+  114.019679 133.00 133
+  115.003700 108.00 108
+  130.050987 153.00 153
+  174.040847 124.00 124
+//

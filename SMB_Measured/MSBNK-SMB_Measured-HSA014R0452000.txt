@@ -1,27 +1,27 @@
 ACCESSION: MSBNK-SMB_Measured-HSA014R0452000
 RECORD_TITLE: LysoPE(16:0/0:0); LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 14 product ion spectra among 27 DDA data files in the dataset described below.
 COMMENT: REPOSITORY MetaboLights
 COMMENT: DATASET_ID MTBLS6402
 COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
 COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
-COMMENT: PRECURSOR_IN_MS1 mz 452.278281; int 42.318; delta(ppm) 0.696462
+COMMENT: PRECURSOR_IN_MS1 mz 452.278281; int 42.318; delta(ppm) -0.003538
 COMMENT: PROPOSED_MF SevenGoldenRules 0.046; C21H44NO7P; [M-H]1; delta(ppm) 0.046328; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.718; C21H44NO7P; [M-H]-; delta(ppm) 0.047906; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 11.915; C21H44NO7P; [M-H]-; delta(ppm) 0.047906; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.954; C21H44NO7P; [M-H]-; delta(ppm) 0.047906; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.949; C21H44NO7P; [M-H]-; delta(ppm) 0.047906; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 23.889; C21H44NO7P; [M-H]-; delta(ppm) 0.047906; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C21H44NO7P; [M-H]-; delta(ppm) 0.047906; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.999; C21H44NO7P; [M-H]-; delta(ppm) 0.047906; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 5.000; YVYMBNSKXOXSKW-HXUWFJFHSA-N; C21H44NO7P; Spectral Match to 1-Palmitoyl-2-hydroxy-sn-glycero-3-phosphoethanolamine from NIST14; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; YVYMBNSKXOXSKW-UHFFFAOYSA-N; C21H44NO7P; Massbank:PR309148 LPE 16:0; Ranking 2;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.268; YVYMBNSKXOXSKW-HXUWFJFHSA-N; [M-H]-; CCCCCCCCCCCCCCCC(=O)OC[C@@H](O)COP(O)(=O)OCCN; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.268; YVYMBNSKXOXSKW; [M-H]-; LysoPE(16:0/0:0); Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.417; YVYMBNSKXOXSKW-HXUWFJFHSA-N; [M-H]-; LysoPE(16:0/0:0); Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; YVYMBNSKXOXSKW-HXUWFJFHSA-N; [M-H]-; LysoPE(16:0/0:0); Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; YVYMBNSKXOXSKW-HXUWFJFHSA-N; [M-H]-; [(2R)-3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-hydroxypropyl] hexadecanoate; Ranking 1;
@@ -29,7 +29,7 @@ COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -2.152; YVYMBNSKXOXSKW; [M-H]
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.782; YVYMBNSKXOXSKW; [M-H]-; 1-16:0-lysoPE; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -67.200; YVYMBNSKXOXSKW; [M-H]-; 1-Hexadecanoyl-Sn-Glycero-3-Phosphoethanolamine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.376; YVYMBNSKXOXSKW; [M-H]-; 1-Hexadecanoyl-Sn-Glycero-3-Phosphoethanolamine; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS5_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 7 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0011503)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS5_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 7 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0011503)
 CH$NAME: LysoPE(16:0/0:0)
 CH$NAME: 1-16:0-lysoPE
 CH$NAME: palmitic acid [3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-hydroxy-propyl] ester

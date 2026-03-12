@@ -1,0 +1,77 @@
+ACCESSION: MSBNK-SMB_Measured-HSA020R0197001
+RECORD_TITLE: Arginine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 282 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 197.100896; int 38.636; delta(ppm) 0.005276
+COMMENT: PROPOSED_MF SevenGoldenRules 0.006; C6H14N4O2; [M+Na]+; delta(ppm) 0.005743; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.685; C6H14N4O2; [M+Na]+; delta(ppm) 132040.773385; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 25.661; C6H14N4O2; [M+Na]+; delta(ppm) 132040.773385; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H14N4O2; [M+Na]+; delta(ppm) 132040.773385; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 37.635; C6H14N4O2; [M+Na]+; delta(ppm) 132040.773385; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H14N4O2; [M+Na]+; delta(ppm) 132040.773385; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; ODKSFYDXXFIFQN-BYPYZUCNSA-N; C6H14N4O2; L-arginine CollisionEnergy:102040; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.426; ODKSFYDXXFIFQN-BYPYZUCNSA-N; [M+Na]+; L-Arginine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; ODKSFYDXXFIFQN-BYPYZUCNSA-N; [M+Na]+; L-Arginine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; ODKSFYDXXFIFQN-BYPYZUCNSA-N; [M+Na]+; (2S)-2-amino-5-(diaminomethylideneamino)pentanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -3.445; ODKSFYDXXFIFQN; [M+Na]+; arginine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.742; ODKSFYDXXFIFQN; [M+Na]+; arginine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -68.453; ODKSFYDXXFIFQN; [M+Na]+; Harg; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.950; ODKSFYDXXFIFQN; [M+Na]+; Harg; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 3 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000517)
+CH$NAME: Arginine
+CH$NAME: Harg
+CH$NAME: 2-amino-5-(diaminomethylideneamino)pentanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H14N4O2
+CH$EXACT_MASS: 174.111676
+CH$SMILES: C(CC(C(=O)O)N)CN=C(N)N
+CH$IUPAC: InChI=1S/C6H14N4O2/c7-4(5(11)12)2-1-3-10-6(8)9/h4H,1-3,7H2,(H,11,12)(H4,8,9,10)
+CH$LINK: HMDB HMDB0000517
+CH$LINK: INCHIKEY ODKSFYDXXFIFQN-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:232
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 2.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Xbridge BEH HILIC (75 x 2.1mm,2.5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min-85% B, 2 min-10% B, 14 min- 10% B, 14.1 min- 85% B, 16 min- 85%B.
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.980
+MS$FOCUSED_ION: ION_TYPE [M+Na]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 197.100895
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-002r-0900000000-630a2844563e5a9d5b9f
+PK$ANNOTATION: m/z int mzPAF cor n
+  137.068400 651 f{C5H10N2O1Na1}/-1.18ppm,p-C1H4N2O1 0.7077 282
+  138.052416 606 f{C5H9N1O2Na1}/-1.17ppm,p-C1H5N3 0.6990 282
+  162.063508 214 f{C6H9N3O1Na1}/-1.98ppm,p-H5N1O1 0.6364 280
+  179.090133 999 f{C6H12N4O1Na1}/-1.28ppm,p-H2O1 0.7432 282
+  180.074109 369 f{C6H11N3O2Na1}/-1.52ppm,p-H3N1 0.7347 280
+  197.100581 161 f{C6H14N4O2Na1}/-1.82ppm,p 1.0000 247
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  137.068400 651.00 651
+  138.052416 606.00 606
+  162.063508 214.00 214
+  179.090133 999.00 999
+  180.074109 369.00 369
+  197.100581 161.00 161
+//

@@ -1,17 +1,17 @@
 ACCESSION: MSBNK-SMB_Measured-HSA020R0262005
 RECORD_TITLE: Succinylcarnitine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 136 product ion spectra among 286 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST002044
 COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 262.128436; int 300.385; delta(ppm) -0.003900
 COMMENT: PROPOSED_MF SevenGoldenRules 0.291; C11H19NO6; [M+H]+; delta(ppm) -0.291053; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.566; C11H19NO6; [M+H]+; delta(ppm) -0.292900; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 20.460; C11H19NO6; [M+H]+; delta(ppm) -0.292900; Ranking 1;
@@ -19,14 +19,14 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C11H19NO6; [M+H]+; delta(ppm) -0.2929
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 31.478; C11H19NO6; [M+H]+; delta(ppm) -0.292900; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C11H19NO6; [M+H]+; delta(ppm) -0.292900; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; HAEVNYBCYZZDFL-UHFFFAOYSA-N; C11H19NO6; O-succinylcarnitine; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.413; HAEVNYBCYZZDFL-SVGMAFHSNA-N; [M+H]+; C[N+](C)(C)C[C@@H](CC([O-])=O)OC(=O)CCC(O)=O; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.413; HAEVNYBCYZZDFL; [M+H]+; Succinylcarnitine; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.721; HAEVNYBCYZZDFL-SVGMAFHSNA-N; [M+H]+; Succinylcarnitine; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; HAEVNYBCYZZDFL-SVGMAFHSNA-N; [M+H]+; Succinylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -30.915; HAEVNYBCYZZDFL; [M+H]+; succinylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.685; HAEVNYBCYZZDFL; [M+H]+; succinylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -73.474; HAEVNYBCYZZDFL; [M+H]+; Succinylcarnitine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.938; HAEVNYBCYZZDFL; [M+H]+; Succinylcarnitine; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0061717)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0061717)
 CH$NAME: Succinylcarnitine
 CH$NAME: 3-(3-carboxypropanoyloxy)-4-(trimethylazaniumyl)butanoate
 CH$COMPOUND_CLASS: Natural product

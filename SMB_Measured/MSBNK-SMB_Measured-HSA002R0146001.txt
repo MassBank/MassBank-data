@@ -1,0 +1,80 @@
+ACCESSION: MSBNK-SMB_Measured-HSA002R0146001
+RECORD_TITLE: N-Acetylserine; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 26 product ion spectra among 22 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MB-POST
+COMMENT: DATASET_ID In preparaion
+COMMENT: DATASET_TITLE Test DDA dataset obtained from NIST1950 by HILIC/AEX-MS
+COMMENT: DATASET_AUTHORS Takahashi, M, Torigoe, T, Izumi, Y, Bamba, T., Kyoshu University
+COMMENT: PRECURSOR_IN_MS1 mz 146.045926; int 59.352; delta(ppm) -0.008235
+COMMENT: PROPOSED_MF SevenGoldenRules 0.306; C5H9NO4; [M-H]1; delta(ppm) 0.306012; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.781; C5H9NO4; [M-H]-; delta(ppm) 0.312569; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 35.630; C5H9NO4; [M-H]-; delta(ppm) 0.312569; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C5H9NO4; [M-H]-; delta(ppm) 0.312569; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 47.319; C5H9NO4; [M-H]-; delta(ppm) 0.312569; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C5H9NO4; [M-H]-; delta(ppm) 0.312569; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 6.000; JJIHLJJYMXLCOY-UHFFFAOYSA-N; C5H9NO4; 2-acetamido-3-hydroxypropanoic acid CollisionEnergy:102040; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; JJIHLJJYMXLCOY-BYPYZUCNSA-N; C5H9NO4; N-ACETYLSERINE; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.317; JJIHLJJYMXLCOY-BYPYZUCNSA-N; [M-H]-; N-Acetylserine; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.997; JJIHLJJYMXLCOY-BYPYZUCNSA-N; [M-H]-; N-Acetylserine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -16.093; JJIHLJJYMXLCOY; [M-H]-; N-Acetylserine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.397; JJIHLJJYMXLCOY; [M-H]-; N-Acetylserine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -5.612; JJIHLJJYMXLCOY; [M-H]-; N-Acetylserine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.935; JJIHLJJYMXLCOY; [M-H]-; N-Acetylserine; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 6 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 3), MetFrag:MsfinderDB (Ranking 2); Biological context by HMDB (HMDB0002931)
+CH$NAME: N-Acetylserine
+CH$NAME: 2-acetamido-3-hydroxypropanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C5H9NO4
+CH$EXACT_MASS: 147.053158
+CH$SMILES: CC(=O)NC(CO)C(=O)O
+CH$IUPAC: InChI=1S/C5H9NO4/c1-3(8)6-4(2-7)5(9)10/h4,7H,2H2,1H3,(H,6,8)(H,9,10)
+CH$LINK: HMDB HMDB0002931
+CH$LINK: INCHIKEY JJIHLJJYMXLCOY-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:352294
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Nexera X2 UHPLC system, Shimadzu - Q Exactive Orbitrap, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 V
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME GL-HilicAex 2.1 x 150 mm, 5 mm (Resonac)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 15.5 min: 40, 16.5 min: 0, 26.5 min: 0, 27.5 min: 95, 35 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 10.159
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 146.045927
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-9400000000-068efb7a78a5f960b563
+PK$ANNOTATION: m/z int mzPAF cor n
+  70.029821 184 f{C3H4N1O1}/-0.23ppm,p-C2H4O3 0.7046 26
+  74.024778 999 f{C2H4N1O2}/0.35ppm,p-C3H4O2 0.9171 26
+  84.045481 468 f{C4H6N1O1}/-0.08ppm,p-C1H2O3 0.7723 26
+  98.024747 285 f{C4H4N1O2}/-0.05ppm,p-C1H4O2 0.8421 26
+  104.035342 141 f{C3H6N1O3}/0.24ppm,p-C2H2O1 0.5576 26
+  116.035315 536 f{C4H6N1O3}/-0.01ppm,p-C1H2O1 0.8844 26
+  146.045604 251 f{C5H8N1O4}/-1.90ppm,p 1.0000 26
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  70.029821 184.00 184
+  74.024778 999.00 999
+  84.045481 468.00 468
+  98.024747 285.00 285
+  104.035342 141.00 141
+  116.035315 536.00 536
+  146.045604 251.00 251
+//

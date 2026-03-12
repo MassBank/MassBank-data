@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA009R0130007
 RECORD_TITLE: Pyroglutamic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 1511 product ion spectra among 248 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001171
 COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
 COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
-COMMENT: PRECURSOR_IN_MS1 ND
+COMMENT: PRECURSOR_IN_MS1 mz 130.049914; int 903.379; delta(ppm) 0.084316
 COMMENT: PROPOSED_MF SevenGoldenRules 0.263; C5H7NO3; [M+H]+; delta(ppm) 0.263479; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 5.144; C5H7NO3; [M+H]+; delta(ppm) 0.257374; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 21.803; C5H7NO3; [M+H]+; delta(ppm) 0.257374; Ranking 1;
@@ -22,15 +22,15 @@ COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C5H7NO3; [M+H]+; delta(ppm) 0.257374;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 32.000; ODHCTXKNWHHXJC-VKHMYHEASA-N; C5H7NO3; PYROGLUTAMIC ACID; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 31.000; ODHCTXKNWHHXJC-UHFFFAOYSA-N; C5H7NO3; Massbank:PT102870 L-a-Aminoglutaric Acid Lactam(S)-5-Oxo-2-pyrrolidinecarboxylic acidpyroGluPidolic acidL-Pyroglutamic acidL-Glutimic acidPyroglutamate(S)-()-2-Pyrrolidone-5-carboxylic acidL-5-Oxo-2-pyrrolidin; Ranking 2;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 12.000; ODHCTXKNWHHXJC-GSVOUGTGSA-N; C5H7NO3; PYROGLUTAMIC ACID; Ranking 3;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.267; ODHCTXKNWHHXJC-VKHMYHEASA-N; [M+H]+; OC(=O)[C@@H]1CCC(=O)N1; Ranking 4;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.267; ODHCTXKNWHHXJC; [M+H]+; Pyroglutamic acid; Ranking 6;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 9.306; ODHCTXKNWHHXJC-VKHMYHEASA-N; [M+H]+; Pyroglutamic acid; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.940; ODHCTXKNWHHXJC-VKHMYHEASA-N; [M+H]+; Pyroglutamic acid; Ranking 4;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.940; ODHCTXKNWHHXJC-VKHMYHEASA-N; [M+H]+; Pyroglutamic acid; Ranking 5;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.984; ODHCTXKNWHHXJC-VKHMYHEASA-N; [M+H]+; (2S)-5-oxopyrrolidine-2-carboxylic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -7.658; ODHCTXKNWHHXJC; [M+H]+; Pidolate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.981; ODHCTXKNWHHXJC; [M+H]+; Pidolate; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -70.586; ODHCTXKNWHHXJC; [M+H]+; Pidolic Acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.993; ODHCTXKNWHHXJC; [M+H]+; Pidolic Acid; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 75 spectra); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 4), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000267)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 75 spectra); Supported by CFM-ID:MsfinderDB (Ranking 6), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 5), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000267)
 CH$NAME: Pyroglutamic acid
 CH$NAME: Pidolic Acid
 CH$NAME: 5-oxopyrrolidine-2-carboxylic acid

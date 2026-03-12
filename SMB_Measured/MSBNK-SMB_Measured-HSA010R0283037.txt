@@ -1,18 +1,18 @@
 ACCESSION: MSBNK-SMB_Measured-HSA010R0283037
 RECORD_TITLE: Hexaethylene glycol; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 10 product ion spectra among 101 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001914
 COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
 COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
-COMMENT: PRECURSOR_IN_MS1 mz 283.174992; int 3.173; delta(ppm) -0.327306
+COMMENT: PRECURSOR_IN_MS1 mz 283.174992; int 3.173; delta(ppm) 0.000163
 COMMENT: PROPOSED_MF SevenGoldenRules 0.486; C12H26O7; [M+H]+; delta(ppm) -0.485527; Ranking 1;
 COMMENT: PROPOSED_MF MS-FINDER 3.857; C12H26O7; [M+H]+; delta(ppm) -0.485972; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 30.119; C12H26O7; [M+H]+; delta(ppm) -0.485972; Ranking 1;
@@ -20,15 +20,15 @@ COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C12H26O7; [M+H]+; delta(ppm) -0.48597
 COMMENT: PROPOSED_MF SIRIUS6_Sirius 46.483; C12H26O7; [M+H]+; delta(ppm) -0.485972; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C12H26O7; [M+H]+; delta(ppm) -0.485972; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; IIRDTKBZINWQAW-UHFFFAOYSA-N; C12H26O7; Spectral Match to Hexaethylene glycol from NIST14; Ranking 1;
-COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.026; IIRDTKBZINWQAW-UHFFFAOYSA-N; [M+H]+; OCCOCCOCCOCCOCCOCCO; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.026; IIRDTKBZINWQAW; [M+H]+; Hexaethylene glycol; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.048; IIRDTKBZINWQAW-UHFFFAOYSA-N; [M+H]+; Hexaethylene glycol; Ranking 1;
-COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; IIRDTKBZINWQAW-UHFFFAOYSA-N; [M+H]+; Hexaethylene glycol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.991; IIRDTKBZINWQAW-UHFFFAOYSA-N; [M+H]+; Hexaethylene glycol; Ranking 2;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; IIRDTKBZINWQAW-UHFFFAOYSA-N; [M+H]+; 2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethanol; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.419; IIRDTKBZINWQAW; [M+H]+; Hexagol; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.924; IIRDTKBZINWQAW; [M+H]+; Hexagol; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -3.056; IIRDTKBZINWQAW; [M+H]+; 3,6,9,12,15-pentaoxaheptadecane-1,17-diol; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.869; IIRDTKBZINWQAW; [M+H]+; 3,6,9,12,15-pentaoxaheptadecane-1,17-diol; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0061822)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0061822)
 CH$NAME: Hexaethylene glycol
 CH$NAME: 2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethanol
 CH$COMPOUND_CLASS: Non-Natural Product

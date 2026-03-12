@@ -1,31 +1,31 @@
 ACCESSION: MSBNK-SMB_Measured-HSA009R0335003
 RECORD_TITLE: Phenylalanylphenylalanine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
-DATE: 2025.09.27
+DATE: 2026.03.07
 AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
 LICENSE: CC BY-NC-SA
 PUBLICATION: Shin-MassBank project in preparation
 PROJECT: Shin-MassBank project supported by JST
-COMMENT: Annotation confidence level 3. The metabolite structure was manually curated by the Shin-MassBank project. This metabolite is found from more than five datasets with confidence level 3
-COMMENT: The metabolite structure was automatically characterized by the Shin-MassBank project (see COMMENT: CONFIDENCE). One of the possible structures is shown. The record should be used with caution.
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
 COMMENT: This is an averaged mass spectra data created by averaging 395 product ion spectra among 248 DDA data files in the dataset described below.
 COMMENT: REPOSITORY Metabolomics Workbench
 COMMENT: DATASET_ID ST001171
 COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
 COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
-COMMENT: PRECURSOR_IN_MS1 mz 335.136451; int 16.137; delta(ppm) -1.071016
+COMMENT: PRECURSOR_IN_MS1 mz 335.136451; int 16.137; delta(ppm) -0.014774
 COMMENT: PROPOSED_MF SevenGoldenRules 0.497; C18H20N2O3; [M+Na]+; delta(ppm) -0.496561; Ranking 2;
 COMMENT: PROPOSED_MF MS-FINDER 4.445; C18H20N2O3; [M+Na]+; delta(ppm) 73649.990474; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Sirius 6.806; C18H20N2O3; [M+Na]+; delta(ppm) 73649.990474; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C18H20N2O3; [M+Na]+; delta(ppm) 73649.990474; Ranking 1;
-COMMENT: PROPOSED_MF SIRIUS6_Sirius 12.195; C18H20N2O3; [M+Na]+; delta(ppm) 73649.990474; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 8.693; C18H20N2O3; [M+Na]+; delta(ppm) 73649.990474; Ranking 1;
 COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C18H20N2O3; [M+Na]+; delta(ppm) 73649.990474; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.267; GKZIWHRNKRBEOH-UHFFFAOYNA-N; [M+Na]+; Phenylalanylphenylalanine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.116; GKZIWHRNKRBEOH-HOTGVXAUSA-N; [M+Na]+; (2S)-2-[[(2S)-2-amino-3-phenylpropanoyl]amino]-3-phenylpropanoic acid; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -8.122; GKZIWHRNKRBEOH; [M+Na]+; Di-L-phenylalanine; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.964; GKZIWHRNKRBEOH; [M+Na]+; Di-L-phenylalanine; Ranking 1;
-COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -87.183; GKZIWHRNKRBEOH; [M+Na]+; Phe-Phe; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -87.135; GKZIWHRNKRBEOH; [M+Na]+; Phe-Phe; Ranking 1;
 COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.984; GKZIWHRNKRBEOH; [M+Na]+; Phe-Phe; Ranking 1;
-COMMENT: CONFIDENCE Tentative candidate (Level 3); Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0013302)
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0013302)
 CH$NAME: Phenylalanylphenylalanine
 CH$NAME: Phe-Phe
 CH$NAME: 2-[(2-amino-3-phenylpropanoyl)amino]-3-phenylpropanoic acid
