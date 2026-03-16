@@ -1,0 +1,86 @@
+ACCESSION: MSBNK-SMB_Measured-HSA005R0203006
+RECORD_TITLE: Tryptophan; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 30 product ion spectra among 31 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001264
+COMMENT: DATASET_TITLE Antibiotics and Dietary Minerals Lipidomics
+COMMENT: DATASET_AUTHORS Jacob Folz, University of California, Davis
+COMMENT: PRECURSOR_IN_MS1 mz 203.082566; int 25.973; delta(ppm) -0.033033
+COMMENT: PROPOSED_MF SevenGoldenRules 0.147; C11H12N2O2; [M-H]1; delta(ppm) -0.146994; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.131; C11H12N2O2; [M-H]-; delta(ppm) -0.143832; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 24.949; C11H12N2O2; [M-H]-; delta(ppm) -0.143832; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C11H12N2O2; [M-H]-; delta(ppm) -0.143832; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 42.432; C11H12N2O2; [M-H]-; delta(ppm) -0.143832; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.995; C11H12N2O2; [M-H]-; delta(ppm) -0.143832; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 19.000; QIVBCDIJIAJPQS-VIFPVBQESA-N; C11H12N2O2; tryptophan CollisionEnergy:102040; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 16.000; QIVBCDIJIAJPQS-UHFFFAOYSA-N; C11H12N2O2; D-Tryptophan CollisionEnergy:102040; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 10.000; QIVBCDIJIAJPQS-SECBINFHSA-N; C11H12N2O2; D-Tryptophan CollisionEnergy:102040; Ranking 3;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.045; QIVBCDIJIAJPQS; [M-H]-; L-Tryptophan; Ranking 4;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.769; QIVBCDIJIAJPQS-VIFPVBQESA-N; [M-H]-; L-Tryptophan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; QIVBCDIJIAJPQS-VIFPVBQESA-N; [M-H]-; L-Tryptophan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; QIVBCDIJIAJPQS-VIFPVBQESA-N; [M-H]-; (2S)-2-amino-3-(1H-indol-3-yl)propanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.607; QIVBCDIJIAJPQS; [M-H]-; Pacitron; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.984; QIVBCDIJIAJPQS; [M-H]-; Pacitron; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -35.512; QIVBCDIJIAJPQS; [M-H]-; Htrp; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.989; QIVBCDIJIAJPQS; [M-H]-; Htrp; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 45 spectra); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000929)
+CH$NAME: Tryptophan
+CH$NAME: Htrp
+CH$NAME: 2-amino-3-(1H-indol-3-yl)propanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C11H12N2O2
+CH$EXACT_MASS: 204.089878
+CH$SMILES: C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N
+CH$IUPAC: InChI=1S/C11H12N2O2/c12-9(11(14)15)5-7-6-13-10-4-2-1-3-8(7)10/h1-4,6,9,13H,5,12H2,(H,14,15)
+CH$LINK: HMDB HMDB0000929
+CH$LINK: INCHIKEY QIVBCDIJIAJPQS-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:1148
+SP$LINK: NCBI-TAXONOMY 10116 
+SP$SAMPLE: Blood (plasma)
+AC$INSTRUMENT: Thermo Q Exactive HF hybrid Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY NCE 20.30.40
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity CSH C18 (100 by 2.1mm,1.7um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min 15% (B); 0-2 min 30% (B); 2-2.5 min 48% (B); 2.5-11 min 82% (B); 11-11.5 min 99% (B); 11.5-12 min 99% (B); 12-12.1 min 15% (B); and 12.1-15 min 15% (B)
+AC$CHROMATOGRAPHY: FLOW_RATE 0.6 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.450
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 203.082572
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0uxr-2960000000-4b79eb3badf7a6d8fd64
+PK$ANNOTATION: m/z int mzPAF cor n
+  72.009001 168 f{C2H2N1O2}/-1.41ppm,p-C9H9N1 0.9015 29
+  74.024627 244 f{C2H4N1O2}/-1.68ppm,p-C9H7N1 0.9021 30
+  116.050495 829 f{C8H6N1}/-0.67ppm,p-C3H5N1O2 0.9453 30
+  129.058301 9 f{C9H7N1}/-0.75ppm,p-C2H4N1O2 0.5957 24
+  130.066048 22 f{C9H8N1}/-1.34ppm,p-C2H3N1O2 0.5855 27
+  142.066049 240 f{C10H8N1}/-1.23ppm,p-C1H3N1O2 0.9328 30
+  159.092666 253 f{C10H11N2}/-0.66ppm,p-C1O2 0.9733 30
+  186.056003 49 f{C11H8N1O2}/-0.27ppm,p-H3N1 0.8493 29
+  203.082535 999 f{C11H11N2O2}/-0.33ppm,p 1.0000 30
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  72.009001 168.00 168
+  74.024627 244.00 244
+  116.050495 829.00 829
+  129.058301 9.00 9
+  130.066048 22.00 22
+  142.066049 240.00 240
+  159.092666 253.00 253
+  186.056003 49.00 49
+  203.082535 999.00 999
+//

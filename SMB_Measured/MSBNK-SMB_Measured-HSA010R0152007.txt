@@ -1,0 +1,74 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0152007
+RECORD_TITLE: Guanine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 442 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 152.056714; int 223.174; delta(ppm) -0.026617
+COMMENT: PROPOSED_MF SevenGoldenRules 0.212; C5H5N5O; [M+H]+; delta(ppm) 0.211851; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.964; C5H5N5O; [M+H]+; delta(ppm) 0.208801; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 11.336; C5H5N5O; [M+H]+; delta(ppm) 0.208801; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C5H5N5O; [M+H]+; delta(ppm) 0.208801; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 12.920; C5H5N5O; [M+H]+; delta(ppm) 0.208801; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.999; C5H5N5O; [M+H]+; delta(ppm) 0.208801; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 36.000; UYTPUPDQBNUYGX-UHFFFAOYSA-N; C5H5N5O; Spectral Match to Guanine from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.800; UYTPUPDQBNUYGX; [M+H]+; Guanine; Ranking 4;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.034; UYTPUPDQBNUYGX-UHFFFAOYSA-N; [M+H]+; Guanine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.749; UYTPUPDQBNUYGX-UHFFFAOYSA-N; [M+H]+; Guanine; Ranking 6;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.749; UYTPUPDQBNUYGX-UHFFFAOYSA-N; [M+H]+; 2-amino-1,7-dihydropurin-6-one; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -13.748; UYTPUPDQBNUYGX; [M+H]+; Dew Pearl; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.777; UYTPUPDQBNUYGX; [M+H]+; Dew Pearl; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -24.786; UYTPUPDQBNUYGX; [M+H]+; Guanine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.652; UYTPUPDQBNUYGX; [M+H]+; Guanine; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 36 spectra); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 6), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000132)
+CH$NAME: Guanine
+CH$NAME: 2-amino-3,7-dihydropurin-6-one
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C5H5N5O
+CH$EXACT_MASS: 151.049410
+CH$SMILES: C1=NC2=C(N1)C(=O)N=C(N2)N
+CH$IUPAC: InChI=1S/C5H5N5O/c6-5-9-3-2(4(11)10-5)7-1-8-3/h1H,(H4,6,7,8,9,10,11)
+CH$LINK: HMDB HMDB0000132
+CH$LINK: INCHIKEY UYTPUPDQBNUYGX-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:764
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.082
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 152.056718
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0udi-0900000000-f7a6a1cba5e37b05e1d2
+PK$ANNOTATION: m/z int mzPAF cor n
+  109.050719 6 f{C4H5N4}/-1.41ppm,p-C1H1N1O1 0.9889 415
+  110.034949 33 f{C4H4N3O1}/0.55ppm,p-C1H2N2 0.9933 442
+  135.030009 93 f{C5H3N4O1}/-0.95ppm,p-H3N1 0.9852 441
+  152.056506 999 f{C5H6N5O1}/-1.18ppm,p 1.0000 439
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  109.050719 6.00 6
+  110.034949 33.00 33
+  135.030009 93.00 93
+  152.056506 999.00 999
+//

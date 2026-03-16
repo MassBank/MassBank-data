@@ -1,0 +1,95 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0294003
+RECORD_TITLE: N-(1-Deoxy-1-fructosyl)isoleucine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 14 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 294.154449; int 999.000; delta(ppm) -2.389635
+COMMENT: PROPOSED_MF SevenGoldenRules 1.446; C12H23NO7; [M+H]+; delta(ppm) 1.446369; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 3.421; C12H23NO7; [M+H]+; delta(ppm) 1.439627; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 48.598; C12H23NO7; [M+H]+; delta(ppm) 1.439627; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C12H23NO7; [M+H]+; delta(ppm) 1.439627; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 80.325; C12H23NO7; [M+H]+; delta(ppm) 1.439627; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C12H23NO7; [M+H]+; delta(ppm) 1.439627; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.818; VYGRYVGDPYFVCA; [M+H]+; N-(1-Deoxy-1-fructosyl)isoleucine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.942; VYGRYVGDPYFVCA-PZIRIOGLNA-N; [M+H]+; N-(1-Deoxy-1-fructosyl)isoleucine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.999; VYGRYVGDPYFVCA-PZIRIOGLNA-N; [M+H]+; N-(1-Deoxy-1-fructosyl)isoleucine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -60.371; VYGRYVGDPYFVCA; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.466; VYGRYVGDPYFVCA; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -48.579; VYGRYVGDPYFVCA; [M+H]+; 3-methyl-2-({[2,3,4-trihydroxy-5-(hydroxymethyl)oxolan-2-yl]methyl}amino)pentanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.654; VYGRYVGDPYFVCA; [M+H]+; 3-methyl-2-({[2,3,4-trihydroxy-5-(hydroxymethyl)oxolan-2-yl]methyl}amino)pentanoic acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 2); Biological context by HMDB (HMDB0039780)
+CH$NAME: N-(1-Deoxy-1-fructosyl)isoleucine
+CH$NAME: 3-methyl-2-[[2,3,4-trihydroxy-5-(hydroxymethyl)oxolan-2-yl]methylamino]pentanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C12H23NO7
+CH$EXACT_MASS: 293.147452
+CH$SMILES: CCC(C)C(C(=O)O)NCC1(C(C(C(O1)CO)O)O)O
+CH$IUPAC: InChI=1S/C12H23NO7/c1-3-6(2)8(11(17)18)13-5-12(19)10(16)9(15)7(4-14)20-12/h6-10,13-16,19H,3-5H2,1-2H3,(H,17,18)
+CH$LINK: HMDB HMDB0039780
+CH$LINK: INCHIKEY VYGRYVGDPYFVCA-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:139292115
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.114
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 294.155152
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0569-3290000000-086ec45aeaeabd4b6d00
+PK$ANNOTATION: m/z int mzPAF cor n
+  69.032988 81 f{C4H5O1}/-7.29ppm,p-C8H19N1O6 0.8000 12
+  86.095831 393 f{C5H12N1}/-6.90ppm,p-C7H12O7 0.6218 14
+  87.031483 193 f{C3H5N1O2}/0.03ppm,p-C9H19O5 0.7237 13
+  88.039365 355 f{C3H6N1O2}/0.68ppm,p-C9H18O5 0.9364 12
+  112.040047 214 f{C5H6N1O2}/6.62ppm,p-C7H18O5 0.9432 12
+  132.102091 283 f{C6H14N1O2}/1.41ppm,p-C6H10O5 0.9297 13
+  144.101011 108 f{C7H14N1O2}/-6.21ppm,p-C5H10O5 0.9348 13
+  156.065656 72 f{C7H10N1O3}/0.87ppm,p-C5H14O4 0.7305 10
+  161.069305 155 f{C6H11N1O4}/6.49ppm,p-C6H13O3 0.6507 12
+  168.101968 65 f{C9H14N1O2}/0.37ppm,p-C3H10O5 0.6959 12
+  210.113242 141 f{C11H16N1O3}/3.67ppm,p-C1H8O4 0.8253 11
+  230.137902 999 f{C11H20N1O4}/-3.40ppm,p-C1H4O3 0.8065 14
+  248.148992 151 f{C11H22N1O5}/-1.04ppm,p-C1H2O2 0.8739 12
+  258.133602 824 f{C12H20N1O5}/0.01ppm,p-H4O2 0.9125 14
+  276.144766 833 f{C12H22N1O6}/2.18ppm,p-H2O1 0.7789 14
+  294.153212 64 f{C12H24N1O7}/-5.16ppm,p 1.0000 11
+PK$NUM_PEAK: 16
+PK$PEAK: m/z int. rel.int.
+  69.032988 81.00 81
+  86.095831 393.00 393
+  87.031483 193.00 193
+  88.039365 355.00 355
+  112.040047 214.00 214
+  132.102091 283.00 283
+  144.101011 108.00 108
+  156.065656 72.00 72
+  161.069305 155.00 155
+  168.101968 65.00 65
+  210.113242 141.00 141
+  230.137902 999.00 999
+  248.148992 151.00 151
+  258.133602 824.00 824
+  276.144766 833.00 833
+  294.153212 64.00 64
+//

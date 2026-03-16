@@ -1,0 +1,72 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0260000
+RECORD_TITLE: Hexanoylcarnitine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 90 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 260.185197; int 999.000; delta(ppm) -0.749506
+COMMENT: PROPOSED_MF SevenGoldenRules 0.934; C13H25NO4; [M+H]+; delta(ppm) -0.933721; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.848; C13H25NO4; [M+H]+; delta(ppm) -0.932891; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 10.885; C13H25NO4; [M+H]+; delta(ppm) -0.932891; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C13H25NO4; [M+H]+; delta(ppm) -0.932891; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 18.076; C13H25NO4; [M+H]+; delta(ppm) -0.932891; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C13H25NO4; [M+H]+; delta(ppm) -0.932891; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; VVPRQWTYSNDTEA-LLVKDONJSA-N; C13H25NO4; Massbank:RP025502 Hexanoyl-L-CarnitineL-Hexanoylcarnitine(3R)-3-hexanoyloxy-4-(trimethylazaniumyl)butanoate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.571; VVPRQWTYSNDTEA; [M+H]+; Hexanoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.396; VVPRQWTYSNDTEA-UHFFFAOYNA-N; [M+H]+; Hexanoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; VVPRQWTYSNDTEA-UHFFFAOYNA-N; [M+H]+; Hexanoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -6.162; VVPRQWTYSNDTEA; [M+H]+; Tocris-0526; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.964; VVPRQWTYSNDTEA; [M+H]+; Tocris-0526; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -80.885; VVPRQWTYSNDTEA; [M+H]+; 2,2,3-Trideuterio-3-hexanoyloxy-4-(trimethylazaniumyl)butanoate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.693; VVPRQWTYSNDTEA; [M+H]+; 2,2,3-Trideuterio-3-hexanoyloxy-4-(trimethylazaniumyl)butanoate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 2 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000705)
+CH$NAME: Hexanoylcarnitine
+CH$NAME: 3-caproyloxy-4-(trimethylammonio)butyrate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C13H25NO4
+CH$EXACT_MASS: 259.178358
+CH$SMILES: CCCCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C
+CH$IUPAC: InChI=1S/C13H25NO4/c1-5-6-7-8-13(17)18-11(9-12(15)16)10-14(2,3)4/h11H,5-10H2,1-4H3
+CH$LINK: HMDB HMDB0000705
+CH$LINK: INCHIKEY VVPRQWTYSNDTEA-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:6426853
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.859
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 260.185392
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-9020000000-2ef77879495ab5747d51
+PK$ANNOTATION: m/z int mzPAF cor n
+  85.028445 999 f{C4H5O2}/0.46ppm,p-C9H21N1O2 0.9607 88
+  144.102012 37 f{C7H14N1O2}/0.74ppm,p-C6H12O2 0.8001 69
+  201.112173 102 f{C10H17O4}/0.19ppm,p-C3H9N1 0.8746 84
+  260.185799 208 f{C13H26N1O4}/0.63ppm,p 1.0000 87
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  85.028445 999.00 999
+  144.102012 37.00 37
+  201.112173 102.00 102
+  260.185799 208.00 208
+//

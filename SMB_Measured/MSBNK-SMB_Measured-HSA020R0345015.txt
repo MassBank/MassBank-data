@@ -1,0 +1,83 @@
+ACCESSION: MSBNK-SMB_Measured-HSA020R0345015
+RECORD_TITLE: Acetaminophen glucuronide; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 204 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 345.128760; int 68.176; delta(ppm) -0.034845
+COMMENT: PROPOSED_MF SevenGoldenRules 1.431; C14H17NO8; [M+NH4]+; delta(ppm) -1.430777; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 3.833; C14H17NO8; [M+NH4]+; delta(ppm) -1.361985; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 28.635; C14H17NO8; [M+H3N+H]+; delta(ppm) -1.361985; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C14H17NO8; [M+H3N+H]+; delta(ppm) -1.361985; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 49.388; C14H17NO8; [M+H3N+H]+; delta(ppm) -1.361985; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C14H17NO8; [M+H3N+H]+; delta(ppm) -1.361985; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.852; IPROLSVTVHAQLE-BYNIDDHOSA-N; [M+NH4]+; Acetaminophen glucuronide; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; IPROLSVTVHAQLE-BYNIDDHOSA-N; [M+NH4]+; Acetaminophen glucuronide; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; IPROLSVTVHAQLE-BYNIDDHOSA-N; [M+NH4]+; (2S,3S,4S,5R,6S)-6-(4-acetamidophenoxy)-3,4,5-trihydroxyoxane-2-carboxylic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -16.320; IPROLSVTVHAQLE; [M+H3N+H]+; Oprea1_246712; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.662; IPROLSVTVHAQLE; [M+H3N+H]+; Oprea1_246712; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -53.491; IPROLSVTVHAQLE; [M+H3N+H]+; 6-(4-acetamidophenoxy)-3,4,5-trihydroxyoxane-2-carboxylic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.739; IPROLSVTVHAQLE; [M+H3N+H]+; 6-(4-acetamidophenoxy)-3,4,5-trihydroxyoxane-2-carboxylic acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0010316)
+CH$NAME: Acetaminophen glucuronide
+CH$NAME: 6-(4-acetamidophenoxy)-3,4,5-trihydroxy-tetrahydropyran-2-carboxylic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C14H17NO8
+CH$EXACT_MASS: 327.095416
+CH$SMILES: CC(=O)NC1=CC=C(C=C1)OC2C(C(C(C(O2)C(=O)O)O)O)O
+CH$IUPAC: InChI=1S/C14H17NO8/c1-6(16)15-7-2-4-8(5-3-7)22-14-11(19)9(17)10(18)12(23-14)13(20)21/h2-5,9-12,14,17-19H,1H3,(H,15,16)(H,20,21)
+CH$LINK: HMDB HMDB0010316
+CH$LINK: INCHIKEY IPROLSVTVHAQLE-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4022661
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 2.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Xbridge BEH HILIC (75 x 2.1mm,2.5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min-85% B, 2 min-10% B, 14 min- 10% B, 14.1 min- 85% B, 16 min- 85%B.
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.829
+MS$FOCUSED_ION: ION_TYPE [M+NH4]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 345.128772
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0udi-0900000000-682f1640043434e73de4
+PK$ANNOTATION: m/z int mzPAF cor n
+  85.028552 36 f{C4H5O2}/1.72ppm,p-C10H16N2O6 0.9972 204
+  95.012914 10 f{C5H3O2}/1.66ppm,p-C9H18N2O6 0.9855 180
+  103.039094 4 f{C4H7O3}/1.20ppm,p-C10H14N2O5 0.9708 144
+  110.060273 105 f{C6H8N1O1}/2.11ppm,p-C8H13N1O7 0.9981 204
+  113.023538 24 f{C5H5O3}/1.92ppm,p-C9H16N2O5 0.9955 203
+  131.034095 9 f{C5H7O4}/1.60ppm,p-C9H14N2O4 0.9896 169
+  141.018454 36 f{C6H5O4}/1.55ppm,p-C8H16N2O4 0.9968 204
+  152.070817 999 f{C8H10N1O2}/1.39ppm,p-C6H11N1O6 1.0000 204
+  159.029053 12 f{C6H7O5}/1.59ppm,p-C8H14N2O3 0.9897 182
+  328.102966 11 f{C14H18N1O8}/0.83ppm,p-H3N1 0.9893 181
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  85.028552 36.00 36
+  95.012914 10.00 10
+  103.039094 4.00 4
+  110.060273 105.00 105
+  113.023538 24.00 24
+  131.034095 9.00 9
+  141.018454 36.00 36
+  152.070817 999.00 999
+  159.029053 12.00 12
+  328.102966 11.00 11
+//

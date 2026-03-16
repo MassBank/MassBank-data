@@ -1,0 +1,72 @@
+ACCESSION: MSBNK-SMB_Measured-HSA004R0124000
+RECORD_TITLE: Taurine; LC-ESI-QTOF; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 72 product ion spectra among 48 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002338
+COMMENT: DATASET_TITLE Interplay Between Cruciferous Vegetables and the Gut Microbiome: A Multi-Omic Approach
+COMMENT: DATASET_AUTHORS Bouranis John, Oregon State University
+COMMENT: PRECURSOR_IN_MS1 mz 124.007145; int 349.297; delta(ppm) -1.080811
+COMMENT: PROPOSED_MF SevenGoldenRules 0.872; C2H7NO3S; [M-H]1; delta(ppm) -0.871898; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.852; C2H7NO3S; [M-H]-; delta(ppm) -0.876277; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 12.729; C2H7NO3S; [M-H]-; delta(ppm) -0.876277; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C2H7NO3S; [M-H]-; delta(ppm) -0.876277; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 19.935; C2H7NO3S; [M-H]-; delta(ppm) -0.876277; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C2H7NO3S; [M-H]-; delta(ppm) -0.876277; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 11.000; XOAAWQZATWQOTB-UHFFFAOYSA-N; C2H7NO3S; TAURINE; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.000; XOAAWQZATWQOTB; [M-H]-; Taurine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.875; XOAAWQZATWQOTB-UHFFFAOYSA-N; [M-H]-; Taurine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; XOAAWQZATWQOTB-UHFFFAOYSA-N; [M-H]-; Taurine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; XOAAWQZATWQOTB-UHFFFAOYSA-N; [M-H]-; 2-aminoethanesulfonic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -3.288; XOAAWQZATWQOTB; [M-H]-; Taurinum; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.534; XOAAWQZATWQOTB; [M-H]-; Taurinum; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -3.384; XOAAWQZATWQOTB; [M-H]-; Taurine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.486; XOAAWQZATWQOTB; [M-H]-; Taurine; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS5_CSI (FDR < 0.05); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 11 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000251)
+CH$NAME: Taurine
+CH$NAME: 2-aminoethanesulfonic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C2H7NO3S
+CH$EXACT_MASS: 125.014664
+CH$SMILES: C(CS(=O)(=O)O)N
+CH$IUPAC: InChI=1S/C2H7NO3S/c3-1-2-7(4,5)6/h1-3H2,(H,4,5,6)
+CH$LINK: HMDB HMDB0000251
+CH$LINK: INCHIKEY XOAAWQZATWQOTB-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:1123
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cultured cells
+AC$INSTRUMENT: ABI Sciex 5600 TripleTOF
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME GL Sciences Inertsil1 Phenyl-3 (4.6 x 150mm,5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient started with 5% B and was held for 1 min at 5% B, followed by a 11-min linear gradient from 5% to 30% B. The gradient was increased linearly to 100% B at 23 min, held for 5 min at 100% B and, finally, stepped back to 5% B to equilibrate the column.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.565
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 124.007279
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-004i-9000000000-beeddf5a58c9617b0283
+PK$ANNOTATION: m/z int mzPAF cor n
+  63.962268 10 f{O2S1}/-2.83ppm,p-C2H6N1O1 0.6223 57
+  79.957170 999 f{O3S1}/-2.42ppm,p-C2H6N1 0.9100 69
+  106.980384 8 f{C2H3O3S1}/-4.25ppm,p-H3N1 0.7799 58
+  124.006540 48 f{C2H6N1O3S1}/-6.84ppm,p 1.0000 71
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  63.962268 10.00 10
+  79.957170 999.00 999
+  106.980384 8.00 8
+  124.006540 48.00 48
+//

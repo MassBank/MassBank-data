@@ -1,0 +1,116 @@
+ACCESSION: MSBNK-SMB_Measured-HSA022R0626003
+RECORD_TITLE: Glycochenodeoxycholic acid 3-glucuronide; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 25 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 626.353281; int 43.564; delta(ppm) 0.057229
+COMMENT: PROPOSED_MF SevenGoldenRules 0.387; C32H51NO11; [M+H]+; delta(ppm) -0.386986; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 2.887; C32H51NO11; [M+H]+; delta(ppm) -0.387813; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 56.272; C32H51NO11; [M+H]+; delta(ppm) -0.387813; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.999; C32H51NO11; [M+H]+; delta(ppm) -0.387813; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 109.455; C32H51NO11; [M+H]+; delta(ppm) -0.387813; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.993; C32H51NO11; [M+H]+; delta(ppm) -0.387813; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.233; ABFZMYIIUREPLL; [M+H]+; Glycochenodeoxycholic acid 3-glucuronide; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.846; ABFZMYIIUREPLL-ZWDGUQLWSA-N; [M+H]+; Glycochenodeoxycholic acid 3-glucuronide; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; ABFZMYIIUREPLL-ZWDGUQLWSA-N; [M+H]+; Glycochenodeoxycholic acid 3-glucuronide; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.000; ABFZMYIIUREPLL-ZWDGUQLWSA-N; [M+H]+; (2S,3S,4S,5R,6R)-6-[[(3R,5R,7R,8R,9S,10S,13R,14S)-17-[(2R)-5-(carboxymethylamino)-5-oxopentan-2-yl]-7-hydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-3-yl]oxy]-3,4,5-trihydroxyoxane-2-carboxylic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -65.554; ABFZMYIIUREPLL; [M+H]+; Glycochenodeoxycholic acid 3-glucuronide; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 1.000; ABFZMYIIUREPLL; [M+H]+; Glycochenodeoxycholic acid 3-glucuronide; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -126.211; ABFZMYIIUREPLL; [M+H]+; 6-[(1-{4-[(carboxymethyl)carbamoyl]butan-2-yl}-4-hydroxy-9a,11a-dimethyl-hexadecahydro-1H-cyclopenta[a]phenanthren-7-yl)oxy]-3,4,5-trihydroxyoxane-2-carboxylic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 1.000; ABFZMYIIUREPLL; [M+H]+; 6-[(1-{4-[(carboxymethyl)carbamoyl]butan-2-yl}-4-hydroxy-9a,11a-dimethyl-hexadecahydro-1H-cyclopenta[a]phenanthren-7-yl)oxy]-3,4,5-trihydroxyoxane-2-carboxylic acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0002579)
+CH$NAME: Glycochenodeoxycholic acid 3-glucuronide
+CH$NAME: 6-[[17-[4-(carboxymethylamino)-4-keto-1-methyl-butyl]-7-hydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-3-yl]oxy]-3,4,5-trihydroxy-tetrahydropyran-2-carboxylic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C32H51NO11
+CH$EXACT_MASS: 625.346211
+CH$SMILES: CC(CCC(=O)NCC(=O)O)C1CCC2C1(CCC3C2C(CC4C3(CCC(C4)OC5C(C(C(C(O5)C(=O)O)O)O)O)C)O)C
+CH$IUPAC: InChI=1S/C32H51NO11/c1-15(4-7-22(35)33-14-23(36)37)18-5-6-19-24-20(9-11-32(18,19)3)31(2)10-8-17(12-16(31)13-21(24)34)43-30-27(40)25(38)26(39)28(44-30)29(41)42/h15-21,24-28,30,34,38-40H,4-14H2,1-3H3,(H,33,35)(H,36,37)(H,41,42)
+CH$LINK: HMDB HMDB0002579
+CH$LINK: INCHIKEY ABFZMYIIUREPLL-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:74981457
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.685
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 626.353245
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-1412900000-bd0771c4df5ebe3a7e2b
+PK$ANNOTATION: m/z int mzPAF cor n
+  76.039253 101 f{C2H6N1O2}/-0.68ppm,p-C30H46O9 0.7698 25
+  81.069657 37 f{C6H9}/-2.71ppm,p-C26H43N1O11 0.7095 25
+  85.064605 30 f{C5H9O1}/-2.19ppm,p-C27H43N1O10 0.6519 23
+  93.069725 23 f{C7H9}/-1.63ppm,p-C25H43N1O11 0.6722 21
+  95.085337 39 f{C7H11}/-2.00ppm,p-C25H41N1O11 0.6409 24
+  107.085287 40 f{C8H11}/-2.24ppm,p-C24H41N1O11 0.7332 25
+  109.100949 26 f{C8H13}/-2.08ppm,p-C24H39N1O11 0.5312 22
+  119.085222 29 f{C9H11}/-2.56ppm,p-C23H41N1O11 0.6947 22
+  121.100929 39 f{C9H13}/-2.05ppm,p-C23H39N1O11 0.7222 24
+  133.100903 37 f{C10H13}/-2.05ppm,p-C22H39N1O11 1.0000 23
+  135.116660 52 f{C10H15}/-1.24ppm,p-C22H37N1O11 0.6630 25
+  145.100847 31 f{C11H13}/-2.27ppm,p-C21H39N1O11 0.6719 20
+  147.116566 46 f{C11H15}/-1.77ppm,p-C21H37N1O11 0.7223 25
+  149.132200 44 f{C11H17}/-1.86ppm,p-C21H35N1O11 0.6690 25
+  158.081015 71 f{C7H12N1O3}/-0.98ppm,p-C25H40O8 0.8498 25
+  159.116558 35 f{C12H15}/-1.69ppm,p-C20H37N1O11 0.6052 23
+  161.132348 60 f{C12H17}/-0.80ppm,p-C20H35N1O11 0.6996 25
+  175.147833 50 f{C13H19}/-1.68ppm,p-C19H33N1O11 0.7322 25
+  177.127048 28 f{C12H17O1}/-1.94ppm,p-C20H35N1O10 0.4922 23
+  189.163511 34 f{C14H21}/-1.41ppm,p-C18H31N1O11 0.5509 21
+  201.163597 77 f{C15H21}/-0.90ppm,p-C17H31N1O11 0.7737 25
+  215.179279 75 f{C16H23}/-0.69ppm,p-C16H29N1O11 0.5405 25
+  321.257568 136 f{C24H33}/-0.34ppm,p-C8H19N1O11 0.7312 25
+  339.268073 203 f{C24H35O1}/-0.50ppm,p-C8H17N1O10 0.7233 25
+  414.299982 999 f{C26H40N1O3}/-0.70ppm,p-C6H12O8 0.6848 25
+  432.310702 190 f{C26H42N1O4}/-0.31ppm,p-C6H10O7 0.5089 25
+PK$NUM_PEAK: 26
+PK$PEAK: m/z int. rel.int.
+  76.039253 101.00 101
+  81.069657 37.00 37
+  85.064605 30.00 30
+  93.069725 23.00 23
+  95.085337 39.00 39
+  107.085287 40.00 40
+  109.100949 26.00 26
+  119.085222 29.00 29
+  121.100929 39.00 39
+  133.100903 37.00 37
+  135.116660 52.00 52
+  145.100847 31.00 31
+  147.116566 46.00 46
+  149.132200 44.00 44
+  158.081015 71.00 71
+  159.116558 35.00 35
+  161.132348 60.00 60
+  175.147833 50.00 50
+  177.127048 28.00 28
+  189.163511 34.00 34
+  201.163597 77.00 77
+  215.179279 75.00 75
+  321.257568 136.00 136
+  339.268073 203.00 203
+  414.299982 999.00 999
+  432.310702 190.00 190
+//

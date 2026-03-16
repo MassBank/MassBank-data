@@ -1,0 +1,74 @@
+ACCESSION: MSBNK-SMB_Measured-HSA002R0135014
+RECORD_TITLE: Erythronic acid; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 87 product ion spectra among 22 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MB-POST
+COMMENT: DATASET_ID In preparaion
+COMMENT: DATASET_TITLE Test DDA dataset obtained from NIST1950 by HILIC/AEX-MS
+COMMENT: DATASET_AUTHORS Takahashi, M, Torigoe, T, Izumi, Y, Bamba, T., Kyoshu University
+COMMENT: PRECURSOR_IN_MS1 mz 135.029930; int 39.086; delta(ppm) -0.029528
+COMMENT: PROPOSED_MF SevenGoldenRules 0.272; C4H8O5; [M-H]1; delta(ppm) 0.271984; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 2.999; C4H8O5; [M-H]-; delta(ppm) 0.274507; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 23.504; C4H8O5; [M-H]-; delta(ppm) 0.274507; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C4H8O5; [M-H]-; delta(ppm) 0.274507; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 27.074; C4H8O5; [M-H]-; delta(ppm) 0.274507; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C4H8O5; [M-H]-; delta(ppm) 0.274507; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 7.000; JPIJQSOTBSSVTP-STHAYSLISA-N; C4H8O5; L-threonic acid - 40.0 eV; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.864; JPIJQSOTBSSVTP; [M-H]-; Erythronic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.668; JPIJQSOTBSSVTP-MZTXYVAJNA-N; [M-H]-; Erythronic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; JPIJQSOTBSSVTP-MZTXYVAJNA-N; [M-H]-; Erythronic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; JPIJQSOTBSSVTP-STHAYSLISA-N; [M-H]-; (2R,3S)-2,3,4-trihydroxybutanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -14.287; JPIJQSOTBSSVTP; [M-H]-; Threonate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.405; JPIJQSOTBSSVTP; [M-H]-; Threonate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -22.016; JPIJQSOTBSSVTP; [M-H]-; L-Threonate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.709; JPIJQSOTBSSVTP; [M-H]-; L-Threonate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 7 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000613)
+CH$NAME: Erythronic acid
+CH$NAME: Threonate
+CH$NAME: 2,3,4-trihydroxybutyric acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C4H8O5
+CH$EXACT_MASS: 136.037173
+CH$SMILES: C(C(C(C(=O)O)O)O)O
+CH$IUPAC: InChI=1S/C4H8O5/c5-1-2(6)3(7)4(8)9/h2-3,5-7H,1H2,(H,8,9)
+CH$LINK: HMDB HMDB0000613
+CH$LINK: INCHIKEY JPIJQSOTBSSVTP-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:439535
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Nexera X2 UHPLC system, Shimadzu - Q Exactive Orbitrap, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 V
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME GL-HilicAex 2.1 x 150 mm, 5 mm (Resonac)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 15.5 min: 40, 16.5 min: 0, 26.5 min: 0, 27.5 min: 95, 35 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 12.401
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 135.029934
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-004r-9400000000-7ee0a50ba99578458385
+PK$ANNOTATION: m/z int mzPAF cor n
+  72.993114 127 f{C2H1O3}/-0.05ppm,p-C2H6O2 0.4861 79
+  75.008761 999 f{C2H3O3}/-0.08ppm,p-C2H4O2 0.8679 87
+  135.029957 617 f{C4H7O5}/0.45ppm,p 1.0000 87
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  72.993114 127.00 127
+  75.008761 999.00 999
+  135.029957 617.00 617
+//

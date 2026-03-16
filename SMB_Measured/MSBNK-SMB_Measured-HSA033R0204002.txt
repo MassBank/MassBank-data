@@ -1,0 +1,75 @@
+ACCESSION: MSBNK-SMB_Measured-HSA033R0204002
+RECORD_TITLE: Indolelactic acid; LC-ESI-QTOF; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Liang et al. J Pharm Biomed Anal. 2022, 214, 114718
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 17 product ion spectra among 50 DDA data files in the dataset described below.
+COMMENT: DATASET_ID MTBLS3854
+COMMENT: DATASET_TITLE Long-term low-dose ionizing radiation induced chromosome-aberration-specific metabolic phenotype changes in radiation workers
+COMMENT: DATASET_AUTHORS Xinjun Wang
+COMMENT: PRECURSOR_IN_MS1 mz 204.066102; int 15.719; delta(ppm) 0.452971
+COMMENT: PROPOSED_MF SevenGoldenRules 2.960; C11H11NO3; [M-H]1; delta(ppm) -2.959917; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.387; C11H11NO3; [M-H]-; delta(ppm) -2.973502; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 35.028; C11H11NO3; [M-H]-; delta(ppm) -2.973502; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C11H11NO3; [M-H]-; delta(ppm) -2.973502; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 47.002; C11H11NO3; [M-H]-; delta(ppm) -2.973502; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C11H11NO3; [M-H]-; delta(ppm) -2.973502; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.800; XGILAAMKEQUXLS; [M-H]-; Indolelactic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.002; XGILAAMKEQUXLS-UHFFFAOYNA-N; [M-H]-; Indolelactic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; XGILAAMKEQUXLS-UHFFFAOYNA-N; [M-H]-; Indolelactic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; XGILAAMKEQUXLS-UHFFFAOYSA-N; [M-H]-; 2-hydroxy-3-(1H-indol-3-yl)propanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -10.344; XGILAAMKEQUXLS; [M-H]-; bmse000409; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.732; XGILAAMKEQUXLS; [M-H]-; bmse000409; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -36.041; XGILAAMKEQUXLS; [M-H]-; Indolelactate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.923; XGILAAMKEQUXLS; [M-H]-; Indolelactate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000671)
+CH$NAME: Indolelactic acid
+CH$NAME: Indolelactate
+CH$NAME: 2-hydroxy-3-(1H-indol-3-yl)propanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C11H11NO3
+CH$EXACT_MASS: 205.073893
+CH$SMILES: C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)O
+CH$IUPAC: InChI=1S/C11H11NO3/c13-10(11(14)15)5-7-6-12-9-4-2-1-3-8(7)9/h1-4,6,10,12-13H,5H2,(H,14,15)
+CH$LINK: HMDB HMDB0000671
+CH$LINK: INCHIKEY XGILAAMKEQUXLS-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:92904
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Plasma
+AC$INSTRUMENT: Agilent 1290 liquid chromatography system, Agilent Technologies - TripleTOF 6600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 9.00; MS2(ppm) 18.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC BEH C18 column (1.7 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 7.0 min: 65, 8.0 min: 40, 9.0 min: 40, 9.1 min: 95, 12.0 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.910
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 204.066010
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-05ru-0900000000-18e2cceaed6ae964a093
+PK$ANNOTATION: m/z int mzPAF cor n
+  116.050163 554 f{C8H6N1}/-3.53ppm,p-C3H4O3 0.6190 15
+  128.050381 999 f{C9H6N1}/-1.50ppm,p-C2H4O3 1.0000 17
+  130.065976 790 f{C9H8N1}/-1.89ppm,p-C2H2O3 0.7785 16
+  142.067005 608 f{C10H8N1}/5.50ppm,p-C1H2O3 0.6554 16
+  158.062168 651 f{C10H8N1O1}/6.52ppm,p-C1H2O2 0.7611 17
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  116.050163 554.00 554
+  128.050381 999.00 999
+  130.065976 790.00 790
+  142.067005 608.00 608
+  158.062168 651.00 651
+//

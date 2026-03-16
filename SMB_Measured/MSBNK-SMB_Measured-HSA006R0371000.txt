@@ -1,0 +1,82 @@
+ACCESSION: MSBNK-SMB_Measured-HSA006R0371000
+RECORD_TITLE: Diethylhexyl adipate; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 109 product ion spectra among 31 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001264
+COMMENT: DATASET_TITLE Antibiotics and Dietary Minerals Lipidomics
+COMMENT: DATASET_AUTHORS Jacob Folz, University of California, Davis
+COMMENT: PRECURSOR_IN_MS1 mz 371.315492; int 24.236; delta(ppm) -0.008009
+COMMENT: PROPOSED_MF SevenGoldenRules 0.248; C22H42O4; [M+H]+; delta(ppm) -0.248442; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.415; C22H42O4; [M+H]+; delta(ppm) -0.248467; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 40.272; C22H42O4; [M+H]+; delta(ppm) -0.248467; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C22H42O4; [M+H]+; delta(ppm) -0.248467; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 58.831; C22H42O4; [M+H]+; delta(ppm) -0.248467; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C22H42O4; [M+H]+; delta(ppm) -0.248467; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 7.000; SAOKZLXYCUGLFA-UHFFFAOYSA-N; C22H42O4; Spectral Match to Hexanedioic acid, bis(2-ethylhexyl) ester from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.745; SAOKZLXYCUGLFA; [M+H]+; Diethylhexyl adipate; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.547; SAOKZLXYCUGLFA-UHFFFAOYNA-N; [M+H]+; Diethylhexyl adipate; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.988; SAOKZLXYCUGLFA-UHFFFAOYNA-N; [M+H]+; Diethylhexyl adipate; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.988; SAOKZLXYCUGLFA-UHFFFAOYSA-N; [M+H]+; bis(2-ethylhexyl) hexanedioate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -8.860; SAOKZLXYCUGLFA; [M+H]+; Mollan S; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.610; SAOKZLXYCUGLFA; [M+H]+; Mollan S; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -35.805; SAOKZLXYCUGLFA; [M+H]+; Bis(2-Ethylhexyl) Hexanedioate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.881; SAOKZLXYCUGLFA; [M+H]+; Bis(2-Ethylhexyl) Hexanedioate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 7 spectra); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0040270)
+CH$NAME: Diethylhexyl adipate
+CH$NAME: bis(2-ethylhexyl) hexanedioate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C22H42O4
+CH$EXACT_MASS: 370.308310
+CH$SMILES: CCCCC(CC)COC(=O)CCCCC(=O)OCC(CC)CCCC
+CH$IUPAC: InChI=1S/C22H42O4/c1-5-9-13-19(7-3)17-25-21(23)15-11-12-16-22(24)26-18-20(8-4)14-10-6-2/h19-20H,5-18H2,1-4H3
+CH$LINK: HMDB HMDB0040270
+CH$LINK: INCHIKEY SAOKZLXYCUGLFA-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:7641
+SP$SCIENTIFIC_NAME: Rattus norvegicus
+SP$LINK: NCBI-TAXONOMY 10116 
+SP$SAMPLE: Blood (plasma)
+AC$INSTRUMENT: Thermo Q Exactive HF hybrid Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY NCE 20.30.40
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity CSH C18 (100 by 2.1mm,1.7um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min 15% (B); 0-2 min 30% (B); 2-2.5 min 48% (B); 2.5-11 min 82% (B); 11-11.5 min 99% (B); 11.5-12 min 99% (B); 12-12.1 min 15% (B); and 12.1-15 min 15% (B)
+AC$CHROMATOGRAPHY: FLOW_RATE 0.6 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.454
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 371.315494
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-01ta-0900000000-ca11636d9209b7a0c040
+PK$ANNOTATION: m/z int mzPAF cor n
+  71.085594 187 f{C5H11}/0.95ppm,p-C17H32O4 0.9853 108
+  83.049168 48 f{C5H7O1}/0.33ppm,p-C17H36O3 0.9557 109
+  101.059749 460 f{C5H9O2}/0.43ppm,p-C17H34O2 0.9928 109
+  111.044044 556 f{C6H7O2}/-0.10ppm,p-C16H36O2 1.0000 109
+  129.054545 999 f{C6H9O3}/-0.58ppm,p-C16H34O1 0.9892 109
+  147.065157 728 f{C6H11O4}/-0.20ppm,p-C16H32 0.9733 109
+  241.179979 20 f{C14H25O3}/0.66ppm,p-C8H18O1 0.8301 93
+  259.190620 13 f{C14H27O4}/0.91ppm,p-C8H16 0.7487 82
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  71.085594 187.00 187
+  83.049168 48.00 48
+  101.059749 460.00 460
+  111.044044 556.00 556
+  129.054545 999.00 999
+  147.065157 728.00 728
+  241.179979 20.00 20
+  259.190620 13.00 13
+//

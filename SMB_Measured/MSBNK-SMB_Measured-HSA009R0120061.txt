@@ -1,0 +1,72 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0120061
+RECORD_TITLE: Threonine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 10 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 120.065495; int 12.938; delta(ppm) 0.150072
+COMMENT: PROPOSED_MF SevenGoldenRules 0.353; C4H9NO3; [M+H]+; delta(ppm) -0.352769; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.768; C4H9NO3; [M+H]+; delta(ppm) -0.354743; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 15.854; C4H9NO3; [M+H]+; delta(ppm) -0.354743; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C4H9NO3; [M+H]+; delta(ppm) -0.354743; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 21.244; C4H9NO3; [M+H]+; delta(ppm) -0.354743; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C4H9NO3; [M+H]+; delta(ppm) -0.354743; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.065; AYFVYJQAPQTCCC-FGNFWGHYNA-N; [M+H]+; L-Threonine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.666; AYFVYJQAPQTCCC-FGNFWGHYNA-N; [M+H]+; L-Threonine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.754; AYFVYJQAPQTCCC-GBXIJSLDSA-N; [M+H]+; (2S,3R)-2-amino-3-hydroxybutanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -25.508; AYFVYJQAPQTCCC; [M+H]+; Threonin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.507; AYFVYJQAPQTCCC; [M+H]+; Threonin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -38.848; AYFVYJQAPQTCCC; [M+H]+; L-Thr; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.907; AYFVYJQAPQTCCC; [M+H]+; L-Thr; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000167)
+CH$NAME: Threonine
+CH$NAME: Thr
+CH$NAME: 2-amino-3-hydroxybutanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C4H9NO3
+CH$EXACT_MASS: 119.058243
+CH$SMILES: CC(C(C(=O)O)N)O
+CH$IUPAC: InChI=1S/C4H9NO3/c1-2(6)3(5)4(7)8/h2-3,6H,5H2,1H3,(H,7,8)
+CH$LINK: HMDB HMDB0000167
+CH$LINK: INCHIKEY AYFVYJQAPQTCCC-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:205
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.770
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 120.065477
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0kmi-3900000000-d0b1cdce7272a63b9b30
+PK$ANNOTATION: m/z int mzPAF cor n
+  58.065184 715 f{C3H8N1}/1.00ppm,p-C1H2O3 0.9762 8
+  102.055103 714 f{C4H8N1O2}/1.45ppm,p-H2O1 0.8061 10
+  120.065481 999 f{C4H10N1O3}/-0.32ppm,p 1.0000 10
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  58.065184 715.00 715
+  102.055103 714.00 714
+  120.065481 999.00 999
+//

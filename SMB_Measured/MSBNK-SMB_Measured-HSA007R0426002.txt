@@ -1,0 +1,96 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0426002
+RECORD_TITLE: 3a,7a,12b-Trihydroxy-5b-cholanoic acid; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 21 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 426.320925; int 370.719; delta(ppm) -0.211124
+COMMENT: PROPOSED_MF SevenGoldenRules 0.936; C24H40O5; [M+NH4]+; delta(ppm) -0.935616; Ranking 5;
+COMMENT: PROPOSED_MF MS-FINDER 4.319; C24H40O5; [M+NH4]+; delta(ppm) -0.902889; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 42.776; C24H40O5; [M+H3N+H]+; delta(ppm) -0.902889; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C24H40O5; [M+H3N+H]+; delta(ppm) -0.902889; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 60.318; C24H40O5; [M+H3N+H]+; delta(ppm) -0.902889; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C24H40O5; [M+H3N+H]+; delta(ppm) -0.902889; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 35.000; BHQCQFFYRZLCQQ-OELDTZBJSA-N; C24H40O5; Spectral Match to Cholic acid from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 11.000; BHQCQFFYRZLCQQ-UTLSPDKDSA-N; C24H40O5; URSOCHOLIC ACID; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 10.000; BHQCQFFYRZLCQQ-UHFFFAOYSA-N; C24H40O5; cholic acid CollisionEnergy:102040; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.424; BHQCQFFYRZLCQQ-QJNZGMAZNA-N; [M+NH4]+; 3a,7a,12b-Trihydroxy-5b-cholanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.954; BHQCQFFYRZLCQQ-OELDTZBJSA-N; [M+NH4]+; (4R)-4-[(3R,5S,7R,8R,9S,10S,12S,13R,14S,17R)-3,7,12-trihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl]pentanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.307; BHQCQFFYRZLCQQ; [M+H3N+H]+; Cholalin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.585; BHQCQFFYRZLCQQ; [M+H3N+H]+; Cholalin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -8.511; BHQCQFFYRZLCQQ; [M+H3N+H]+; Cholate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.983; BHQCQFFYRZLCQQ; [M+H3N+H]+; Cholate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 56 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000312)
+CH$NAME: 3a,7a,12b-Trihydroxy-5b-cholanoic acid
+CH$NAME: Cholate
+CH$NAME: 4-(3,7,12-trihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl)valeric acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C24H40O5
+CH$EXACT_MASS: 408.287574
+CH$SMILES: CC(CCC(=O)O)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C
+CH$IUPAC: InChI=1S/C24H40O5/c1-13(4-7-21(28)29)16-5-6-17-22-18(12-20(27)24(16,17)3)23(2)9-8-15(25)10-14(23)11-19(22)26/h13-20,22,25-27H,4-12H2,1-3H3,(H,28,29)
+CH$LINK: HMDB HMDB0000312
+CH$LINK: INCHIKEY BHQCQFFYRZLCQQ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:303
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 13.233
+MS$FOCUSED_ION: ION_TYPE [M+NH4]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 426.321015
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0a4i-0019000000-52912dd48543b11de873
+PK$ANNOTATION: m/z int mzPAF cor n
+  159.116457 49 f{C12H15}/-2.33ppm,p-C12H29N1O5 0.8020 15
+  173.132276 27 f{C13H17}/-1.16ppm,p-C11H27N1O5 0.7654 16
+  209.131553 28 f{C16H17}/-4.42ppm,p-C8H27N1O5 0.8333 15
+  213.163453 59 f{C16H21}/-1.52ppm,p-C8H23N1O5 0.9548 18
+  227.143190 42 f{C16H19O1}/0.65ppm,p-C8H25N1O4 0.9052 17
+  227.179785 38 f{C17H23}/1.57ppm,p-C7H21N1O5 0.7916 15
+  245.152951 61 f{C16H21O2}/-2.67ppm,p-C8H23N1O3 0.7865 17
+  259.167601 29 f{C17H23O2}/-6.39ppm,p-C7H21N1O3 0.8518 15
+  261.184497 30 f{C17H25O2}/-1.57ppm,p-C7H19N1O3 0.8362 15
+  319.241733 55 f{C24H31}/-0.92ppm,p-H13N1O5 0.9235 16
+  337.253399 93 f{C24H33O1}/2.39ppm,p-H11N1O4 0.8573 18
+  355.262908 999 f{C24H35O2}/-0.70ppm,p-H9N1O3 0.9088 21
+  373.273782 384 f{C24H37O3}/0.16ppm,p-H7N1O2 0.9275 21
+  391.283769 44 f{C24H39O4}/-1.32ppm,p-H5N1O1 0.8792 15
+  426.321871 90 f{C24H44N1O5}/1.10ppm,p 1.0000 18
+PK$NUM_PEAK: 15
+PK$PEAK: m/z int. rel.int.
+  159.116457 49.00 49
+  173.132276 27.00 27
+  209.131553 28.00 28
+  213.163453 59.00 59
+  227.143190 42.00 42
+  227.179785 38.00 38
+  245.152951 61.00 61
+  259.167601 29.00 29
+  261.184497 30.00 30
+  319.241733 55.00 55
+  337.253399 93.00 93
+  355.262908 999.00 999
+  373.273782 384.00 384
+  391.283769 44.00 44
+  426.321871 90.00 90
+//

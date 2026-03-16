@@ -1,0 +1,85 @@
+ACCESSION: MSBNK-SMB_Measured-HSA022R0432001
+RECORD_TITLE: nonaethylene glycol; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 452 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 432.280457; int 374.762; delta(ppm) 0.351682
+COMMENT: PROPOSED_MF SevenGoldenRules 0.036; C18H38O10; [M+NH4]+; delta(ppm) -0.036210; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 3.467; C18H38O10; [M+NH4]+; delta(ppm) -0.041564; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 33.907; C18H38O10; [M+H3N+H]+; delta(ppm) -0.041564; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C18H38O10; [M+H3N+H]+; delta(ppm) -0.041564; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 59.050; C18H38O10; [M+H3N+H]+; delta(ppm) -0.041564; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C18H38O10; [M+H3N+H]+; delta(ppm) -0.041564; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 8.000; YZUUTMGDONTGTN-UHFFFAOYSA-N; C18H38O10; Spectral Match to Nonaethylene glycol from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.054; YZUUTMGDONTGTN-UHFFFAOYSA-N; [M+NH4]+; nonaethylene glycol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.993; YZUUTMGDONTGTN-UHFFFAOYSA-N; [M+NH4]+; nonaethylene glycol; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; YZUUTMGDONTGTN-UHFFFAOYSA-N; [M+NH4]+; 2-[2-[2-[2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethanol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.005; YZUUTMGDONTGTN; [M+H3N+H]+; Epitope ID:159256; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.987; YZUUTMGDONTGTN; [M+H3N+H]+; Epitope ID:159256; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -2.052; YZUUTMGDONTGTN; [M+H3N+H]+; 3,6,9,12,15,18,21,24-octaoxahexacosane-1,26-diol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.779; YZUUTMGDONTGTN; [M+H3N+H]+; 3,6,9,12,15,18,21,24-octaoxahexacosane-1,26-diol; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3b; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 8 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1)
+CH$NAME: nonaethylene glycol
+CH$NAME: 2-[2-[2-[2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethanol
+CH$COMPOUND_CLASS: Non-Natural Product
+CH$FORMULA: C18H38O10
+CH$EXACT_MASS: 414.246497
+CH$SMILES: C(COCCOCCOCCOCCOCCOCCOCCOCCO)O
+CH$IUPAC: InChI=1S/C18H38O10/c19-1-3-21-5-7-23-9-11-25-13-15-27-17-18-28-16-14-26-12-10-24-8-6-22-4-2-20/h19-20H,1-18H2
+CH$LINK: INCHIKEY YZUUTMGDONTGTN-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4867
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.519
+MS$FOCUSED_ION: ION_TYPE [M+NH4]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 432.280305
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0019-9700200000-fa829031041c9c213fc3
+PK$ANNOTATION: m/z int mzPAF cor n
+  87.044069 54 f{C4H7O2}/0.15ppm,p-C14H35N1O8 0.9972 412
+  89.059736 999 f{C4H9O2}/0.34ppm,p-C14H33N1O8 1.0000 452
+  131.070274 21 f{C6H11O3}/0.03ppm,p-C12H31N1O7 0.9924 368
+  133.085928 664 f{C6H13O3}/0.06ppm,p-C12H29N1O7 0.9995 452
+  177.112102 200 f{C8H17O4}/-0.19ppm,p-C10H25N1O6 0.9988 450
+  221.138294 41 f{C10H21O5}/-0.26ppm,p-C8H21N1O5 0.9952 398
+  265.164583 12 f{C12H25O6}/0.07ppm,p-C6H17N1O4 0.9817 319
+  283.175118 17 f{C12H27O7}/-0.04ppm,p-C6H15N1O3 0.9887 338
+  327.201242 24 f{C14H31O8}/-0.31ppm,p-C4H11N1O2 0.9923 373
+  371.227526 27 f{C16H35O9}/-0.09ppm,p-C2H7N1O1 0.9926 372
+  415.253631 263 f{C18H39O10}/-0.35ppm,p-H3N1 0.9979 452
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  87.044069 54.00 54
+  89.059736 999.00 999
+  131.070274 21.00 21
+  133.085928 664.00 664
+  177.112102 200.00 200
+  221.138294 41.00 41
+  265.164583 12.00 12
+  283.175118 17.00 17
+  327.201242 24.00 24
+  371.227526 27.00 27
+  415.253631 263.00 263
+//

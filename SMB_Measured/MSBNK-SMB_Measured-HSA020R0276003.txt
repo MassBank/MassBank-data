@@ -1,0 +1,79 @@
+ACCESSION: MSBNK-SMB_Measured-HSA020R0276003
+RECORD_TITLE: Glutarylcarnitine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 244 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 276.144145; int 457.917; delta(ppm) 0.010952
+COMMENT: PROPOSED_MF SevenGoldenRules 0.076; C12H21NO6; [M+H]+; delta(ppm) -0.076326; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.400; C12H21NO6; [M+H]+; delta(ppm) -0.079093; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 28.269; C12H21NO6; [M+H]+; delta(ppm) -0.079093; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C12H21NO6; [M+H]+; delta(ppm) -0.079093; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 43.336; C12H21NO6; [M+H]+; delta(ppm) -0.079093; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C12H21NO6; [M+H]+; delta(ppm) -0.079093; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.459; NXJAXUYOQLTISD; [M+H]+; Glutarylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.709; NXJAXUYOQLTISD-IMWMWJONNA-N; [M+H]+; Glutarylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; NXJAXUYOQLTISD-IMWMWJONNA-N; [M+H]+; Glutarylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -11.477; NXJAXUYOQLTISD; [M+H]+; Glutarylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.678; NXJAXUYOQLTISD; [M+H]+; Glutarylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -79.515; NXJAXUYOQLTISD; [M+H]+; [(2R)-3-carboxy-2-(4-carboxybutanoyloxy)propyl]-dimethyl-(trideuteriomethyl)azanium; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.977; NXJAXUYOQLTISD; [M+H]+; [(2R)-3-carboxy-2-(4-carboxybutanoyloxy)propyl]-dimethyl-(trideuteriomethyl)azanium; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0013130)
+CH$NAME: Glutarylcarnitine
+CH$NAME: 3-(4-carboxybutanoyloxy)-4-(trimethylammonio)butyrate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C12H21NO6
+CH$EXACT_MASS: 275.136887
+CH$SMILES: C[N+](C)(C)CC(CC(=O)[O-])OC(=O)CCCC(=O)O
+CH$IUPAC: InChI=1S/C12H21NO6/c1-13(2,3)8-9(7-11(16)17)19-12(18)6-4-5-10(14)15/h9H,4-8H2,1-3H3,(H-,14,15,16,17)
+CH$LINK: HMDB HMDB0013130
+CH$LINK: INCHIKEY NXJAXUYOQLTISD-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:71464488
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 2.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Xbridge BEH HILIC (75 x 2.1mm,2.5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min-85% B, 2 min-10% B, 14 min- 10% B, 14.1 min- 85% B, 16 min- 85%B.
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.236
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 276.144142
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-9240000000-73bbe818ffde7093c0be
+PK$ANNOTATION: m/z int mzPAF cor n
+  85.028402 999 f{C4H5O2}/-0.04ppm,p-C8H17N1O4 0.9904 244
+  87.044030 175 f{C4H7O2}/-0.30ppm,p-C8H15N1O4 0.9502 231
+  103.038839 56 f{C4H7O3}/-1.27ppm,p-C8H15N1O3 0.9407 201
+  115.038918 151 f{C5H7O3}/-0.46ppm,p-C7H15N1O3 0.9768 240
+  144.101788 42 f{C7H14N1O2}/-0.81ppm,p-C5H8O4 0.9566 188
+  199.059932 40 f{C9H11O5}/-0.84ppm,p-C3H11N1O1 0.9589 184
+  217.070586 203 f{C9H13O6}/-0.36ppm,p-C3H9N1 0.9668 241
+  276.143887 381 f{C12H22N1O6}/-1.00ppm,p 1.0000 243
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  85.028402 999.00 999
+  87.044030 175.00 175
+  103.038839 56.00 56
+  115.038918 151.00 151
+  144.101788 42.00 42
+  199.059932 40.00 40
+  217.070586 203.00 203
+  276.143887 381.00 381
+//

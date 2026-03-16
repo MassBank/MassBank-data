@@ -1,0 +1,85 @@
+ACCESSION: MSBNK-SMB_Measured-HSA001R0300023
+RECORD_TITLE: Hexaethylene glycol; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 13 product ion spectra among 22 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MB-POST
+COMMENT: DATASET_ID MPST000004
+COMMENT: DATASET_TITLE Annotation of various metabolites in SRM 1950 human serum
+COMMENT: DATASET_AUTHORS Masatomo Takahashi, Yoshihiro Izumi, Kyoshu University
+COMMENT: PRECURSOR_IN_MS1 mz 300.201799; int 383.130; delta(ppm) -0.003491
+COMMENT: PROPOSED_MF SevenGoldenRules 0.439; C12H26O7; [M+NH4]+; delta(ppm) 0.439455; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 3.645; C12H26O7; [M+NH4]+; delta(ppm) 0.404000; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 36.055; C12H26O7; [M+H3N+H]+; delta(ppm) 0.404000; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C12H26O7; [M+H3N+H]+; delta(ppm) 0.404000; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 56.808; C12H26O7; [M+H3N+H]+; delta(ppm) 0.404000; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C12H26O7; [M+H3N+H]+; delta(ppm) 0.404000; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.734; IIRDTKBZINWQAW-UHFFFAOYSA-N; [M+NH4]+; Hexaethylene glycol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.989; IIRDTKBZINWQAW-UHFFFAOYSA-N; [M+NH4]+; Hexaethylene glycol; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; IIRDTKBZINWQAW-UHFFFAOYSA-N; [M+NH4]+; 2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethanol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.433; IIRDTKBZINWQAW; [M+H3N+H]+; Hexagol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.837; IIRDTKBZINWQAW; [M+H3N+H]+; Hexagol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -3.429; IIRDTKBZINWQAW; [M+H3N+H]+; 3,6,9,12,15-pentaoxaheptadecane-1,17-diol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.808; IIRDTKBZINWQAW; [M+H3N+H]+; 3,6,9,12,15-pentaoxaheptadecane-1,17-diol; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0061822)
+CH$NAME: Hexaethylene glycol
+CH$NAME: 2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethanol
+CH$COMPOUND_CLASS: Non-Natural Product
+CH$FORMULA: C12H26O7
+CH$EXACT_MASS: 282.167853
+CH$SMILES: C(COCCOCCOCCOCCOCCO)O
+CH$IUPAC: InChI=1S/C12H26O7/c13-1-3-15-5-7-17-9-11-19-12-10-18-8-6-16-4-2-14/h13-14H,1-12H2
+CH$LINK: HMDB HMDB0061822
+CH$LINK: INCHIKEY IIRDTKBZINWQAW-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:17472
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Nexera X2 UHPLC system, Shimadzu - Q Exactive Orbitrap, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 V
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME GL-HilicAex 2.1 x 150 mm, 5 mm (Resonac)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 15.5 min: 40, 16.5 min: 0, 26.5 min: 0, 27.5 min: 95, 35 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.144
+MS$FOCUSED_ION: ION_TYPE [M+NH4]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 300.201800
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-2490000000-de84731c8fb5c13f00b5
+PK$ANNOTATION: m/z int mzPAF cor n
+  89.059710 242 f{C4H9O2}/0.05ppm,p-C8H21N1O5 0.8516 13
+  107.070207 6 f{C4H11O3}/-0.60ppm,p-C8H19N1O4 0.8182 12
+  133.085947 305 f{C6H13O3}/0.20ppm,p-C6H17N1O4 0.8352 13
+  151.096275 6 f{C6H15O4}/-1.39ppm,p-C6H15N1O3 0.7413 12
+  177.112097 168 f{C8H17O4}/-0.22ppm,p-C4H13N1O3 0.8516 13
+  195.122750 32 f{C8H19O5}/0.26ppm,p-C4H11N1O2 0.8187 13
+  221.138346 14 f{C10H21O5}/-0.02ppm,p-C2H9N1O2 0.8736 13
+  239.148873 30 f{C10H23O6}/-0.17ppm,p-C2H7N1O1 0.7967 13
+  283.174977 999 f{C12H27O7}/-0.54ppm,p-H3N1 0.8407 13
+  300.201319 19 f{C12H30N1O7}/-1.20ppm,p 1.0000 13
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  89.059710 242.00 242
+  107.070207 6.00 6
+  133.085947 305.00 305
+  151.096275 6.00 6
+  177.112097 168.00 168
+  195.122750 32.00 32
+  221.138346 14.00 14
+  239.148873 30.00 30
+  283.174977 999.00 999
+  300.201319 19.00 19
+//

@@ -1,0 +1,85 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0262003
+RECORD_TITLE: Succinylcarnitine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 245 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 262.128480; int 13.578; delta(ppm) -0.000168
+COMMENT: PROPOSED_MF SevenGoldenRules 0.126; C11H19NO6; [M+H]+; delta(ppm) -0.126378; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.639; C11H19NO6; [M+H]+; delta(ppm) -0.128858; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 42.639; C11H19NO6; [M+H]+; delta(ppm) -0.128858; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C11H19NO6; [M+H]+; delta(ppm) -0.128858; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 65.198; C11H19NO6; [M+H]+; delta(ppm) -0.128858; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C11H19NO6; [M+H]+; delta(ppm) -0.128858; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.039; HAEVNYBCYZZDFL; [M+H]+; Succinylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.475; HAEVNYBCYZZDFL-SVGMAFHSNA-N; [M+H]+; Succinylcarnitine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; HAEVNYBCYZZDFL-SVGMAFHSNA-N; [M+H]+; Succinylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -32.167; HAEVNYBCYZZDFL; [M+H]+; succinylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.650; HAEVNYBCYZZDFL; [M+H]+; succinylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -63.718; HAEVNYBCYZZDFL; [M+H]+; Succinylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.923; HAEVNYBCYZZDFL; [M+H]+; Succinylcarnitine; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0061717)
+CH$NAME: Succinylcarnitine
+CH$NAME: 3-(3-carboxypropanoyloxy)-4-(trimethylazaniumyl)butanoate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C11H19NO6
+CH$EXACT_MASS: 261.121237
+CH$SMILES: C[N+](C)(C)CC(CC(=O)[O-])OC(=O)CCC(=O)O
+CH$IUPAC: InChI=1S/C11H19NO6/c1-12(2,3)7-8(6-10(15)16)18-11(17)5-4-9(13)14/h8H,4-7H2,1-3H3,(H-,13,14,15,16)
+CH$LINK: HMDB HMDB0061717
+CH$LINK: INCHIKEY HAEVNYBCYZZDFL-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:71464481
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.326
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 262.128480
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03dr-6190000000-89d94ff16d04abe89288
+PK$ANNOTATION: m/z int mzPAF cor n
+  60.080851 103 f{C3H10N1}/1.26ppm,p-C8H10O6 0.9878 245
+  84.044414 30 f{C4H6N1O1}/0.28ppm,p-C7H14O5 0.5023 240
+  85.028455 644 f{C4H5O2}/0.58ppm,p-C7H15N1O4 0.9940 245
+  101.023421 40 f{C4H5O3}/1.00ppm,p-C7H15N1O3 0.9657 245
+  103.039033 63 f{C4H7O3}/0.61ppm,p-C7H13N1O3 0.9747 245
+  119.033994 13 f{C4H7O4}/0.91ppm,p-C7H13N1O2 0.8721 236
+  144.102074 45 f{C7H14N1O2}/1.17ppm,p-C4H6O4 0.9713 245
+  185.044505 25 f{C8H9O5}/0.30ppm,p-C3H11N1O1 0.9388 244
+  203.054903 90 f{C8H11O6}/-0.55ppm,p-C3H9N1 0.9849 245
+  262.128492 999 f{C11H20N1O6}/-0.08ppm,p 1.0000 245
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  60.080851 103.00 103
+  84.044414 30.00 30
+  85.028455 644.00 644
+  101.023421 40.00 40
+  103.039033 63.00 63
+  119.033994 13.00 13
+  144.102074 45.00 45
+  185.044505 25.00 25
+  203.054903 90.00 90
+  262.128492 999.00 999
+//

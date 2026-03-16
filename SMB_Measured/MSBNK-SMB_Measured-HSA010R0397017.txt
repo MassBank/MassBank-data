@@ -1,0 +1,74 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0397017
+RECORD_TITLE: MG(18:0/0:0/0:0); LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 21 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 397.271319; int 15.193; delta(ppm) -0.002354
+COMMENT: PROPOSED_MF SevenGoldenRules 0.413; C21H42O4; [M+K]+; delta(ppm) -0.413052; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 3.481; C21H42O4; [M+K]+; delta(ppm) 108743.273209; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 24.409; C21H42O4; [M+K]+; delta(ppm) 108743.273209; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C21H42O4; [M+K]+; delta(ppm) 108743.273209; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 30.822; C21H42O4; [M+K]+; delta(ppm) 108743.273209; Ranking 2;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C21H42O4; [M+K]+; delta(ppm) 108743.273209; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.342; VBICKXHEKHSIBG-FQEVSTJZSA-N; [M+K]+; MG(18:0/0:0/0:0); Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; VBICKXHEKHSIBG-FQEVSTJZSA-N; [M+K]+; MG(18:0/0:0/0:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; VBICKXHEKHSIBG-UHFFFAOYSA-N; [M+K]+; 2,3-dihydroxypropyl octadecanoate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -20.304; VBICKXHEKHSIBG; [M+K]+; Sandin EU; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.557; VBICKXHEKHSIBG; [M+K]+; Sandin EU; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -140.346; VBICKXHEKHSIBG; [M+K]+; Glyceryl Monostearate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.644; VBICKXHEKHSIBG; [M+K]+; Glyceryl Monostearate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0011131)
+CH$NAME: MG(18:0/0:0/0:0)
+CH$NAME: 2,3-dihydroxypropyl octadecanoate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C21H42O4
+CH$EXACT_MASS: 358.308310
+CH$SMILES: CCCCCCCCCCCCCCCCCC(=O)OCC(CO)O
+CH$IUPAC: InChI=1S/C21H42O4/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-21(24)25-19-20(23)18-22/h20,22-23H,2-19H2,1H3
+CH$LINK: HMDB HMDB0011131
+CH$LINK: INCHIKEY VBICKXHEKHSIBG-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:24699
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 16.644
+MS$FOCUSED_ION: ION_TYPE [M+K]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 397.271320
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0002-9200000000-bb3446cd3faf6f74cf26
+PK$ANNOTATION: m/z int mzPAF cor n
+  71.085517 500 f{C5H11}/-0.14ppm,p-C16H31O4K1 0.5711 18
+  81.069705 782 f{C6H9}/-2.12ppm,p-C15H33O4K1 0.6737 20
+  95.085396 999 f{C7H11}/-1.38ppm,p-C14H31O4K1 0.6090 21
+  97.100767 637 f{C7H13}/-4.22ppm,p-C14H29O4K1 0.6857 15
+  109.100943 736 f{C8H13}/-2.14ppm,p-C13H29O4K1 1.0000 20
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  71.085517 500.00 500
+  81.069705 782.00 782
+  95.085396 999.00 999
+  97.100767 637.00 637
+  109.100943 736.00 736
+//

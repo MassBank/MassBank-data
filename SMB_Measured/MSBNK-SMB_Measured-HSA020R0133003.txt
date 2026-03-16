@@ -1,0 +1,79 @@
+ACCESSION: MSBNK-SMB_Measured-HSA020R0133003
+RECORD_TITLE: Asparagine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 475 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 133.060885; int 132.308; delta(ppm) 0.029785
+COMMENT: PROPOSED_MF SevenGoldenRules 0.856; C4H8N2O3; [M+H]+; delta(ppm) 0.855713; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.938; C4H8N2O3; [M+H]+; delta(ppm) 0.844968; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 39.350; C4H8N2O3; [M+H]+; delta(ppm) 0.844968; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C4H8N2O3; [M+H]+; delta(ppm) 0.844968; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 49.449; C4H8N2O3; [M+H]+; delta(ppm) 0.844968; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C4H8N2O3; [M+H]+; delta(ppm) 0.844968; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 24.000; DCXYFEDJOCDNAF-REOHCLBHSA-N; C4H8N2O3; L-(-)-Asparagine - 40.0 eV; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 6.000; DCXYFEDJOCDNAF-UHFFFAOYSA-N; C4H8N2O3; Massbank:PB000458 Asparagine2,4-diamino-4-oxobutanoic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; DCXYFEDJOCDNAF-UWTATZPHSA-N; C4H8N2O3; Massbank:KO002061 Asn2-Aminosuccinamic acidL-Asparagine; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.947; DCXYFEDJOCDNAF-REOHCLBHSA-N; [M+H]+; L-Asparagine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.992; DCXYFEDJOCDNAF-REOHCLBHSA-N; [M+H]+; L-Asparagine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.585; DCXYFEDJOCDNAF-REOHCLBHSA-N; [M+H]+; (2S)-2,4-diamino-4-oxobutanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.844; DCXYFEDJOCDNAF; [M+H]+; agedoite; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.950; DCXYFEDJOCDNAF; [M+H]+; agedoite; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -25.219; DCXYFEDJOCDNAF; [M+H]+; Hasp; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.995; DCXYFEDJOCDNAF; [M+H]+; Hasp; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 30 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000168)
+CH$NAME: Asparagine
+CH$NAME: Hasp
+CH$NAME: 2,4-diamino-4-keto-butyric acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C4H8N2O3
+CH$EXACT_MASS: 132.053492
+CH$SMILES: C(C(C(=O)O)N)C(=O)N
+CH$IUPAC: InChI=1S/C4H8N2O3/c5-2(4(8)9)1-3(6)7/h2H,1,5H2,(H2,6,7)(H,8,9)
+CH$LINK: HMDB HMDB0000168
+CH$LINK: INCHIKEY DCXYFEDJOCDNAF-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:236
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 2.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Xbridge BEH HILIC (75 x 2.1mm,2.5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min-85% B, 2 min-10% B, 14 min- 10% B, 14.1 min- 85% B, 16 min- 85%B.
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.747
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 133.060881
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-9000000000-6a51a001e20efa877f79
+PK$ANNOTATION: m/z int mzPAF cor n
+  70.028698 65 f{C3H4N1O1}/-0.61ppm,p-C1H5N1O2 0.8801 421
+  74.023691 999 f{C2H4N1O2}/0.49ppm,p-C2H5N1O1 0.9221 475
+  87.055330 389 f{C3H7N2O1}/0.47ppm,p-C1H2O2 0.9403 475
+  88.039274 106 f{C3H6N1O2}/-0.35ppm,p-C1H3N1O1 0.9146 459
+  116.034153 91 f{C4H6N1O3}/-0.57ppm,p-H3N1 0.9267 449
+  133.060696 61 f{C4H9N2O3}/-0.55ppm,p 1.0000 398
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  70.028698 65.00 65
+  74.023691 999.00 999
+  87.055330 389.00 389
+  88.039274 106.00 106
+  116.034153 91.00 91
+  133.060696 61.00 61
+//

@@ -1,0 +1,80 @@
+ACCESSION: MSBNK-SMB_Measured-HSA032R0371003
+RECORD_TITLE: Diethylhexyl adipate; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Yu et al. Front Cell Infect Microbiol. 2022,11,763507
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 39 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS3233
+COMMENT: DATASET_TITLE The gut microbiome and metabolites are altered and interrelated in patients with rheumatoid arthritis
+COMMENT: DATASET_AUTHORS Die Yu, Juping Du, Xia Pu, Liyuan Zheng, Shuaishuai Chen, Na Wang, Jun Li, Shiyong Chen, Shaobiao Pan, Bo Shen
+COMMENT: PRECURSOR_IN_MS1 mz 371.315364; int 308.087; delta(ppm) -0.105062
+COMMENT: PROPOSED_MF SevenGoldenRules 0.494; C22H42O4; [M+H]+; delta(ppm) -0.494183; Ranking 3;
+COMMENT: PROPOSED_MF MS-FINDER 3.451; C22H42O4; [M+H]+; delta(ppm) -0.493542; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 49.663; C22H42O4; [M+H]+; delta(ppm) -0.493542; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C22H42O4; [M+H]+; delta(ppm) -0.493542; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 68.221; C22H42O4; [M+H]+; delta(ppm) -0.493542; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C22H42O4; [M+H]+; delta(ppm) -0.493542; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.677; SAOKZLXYCUGLFA; [M+H]+; Diethylhexyl adipate; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.067; SAOKZLXYCUGLFA-UHFFFAOYNA-N; [M+H]+; Diethylhexyl adipate; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.981; SAOKZLXYCUGLFA-UHFFFAOYNA-N; [M+H]+; Diethylhexyl adipate; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.981; SAOKZLXYCUGLFA-UHFFFAOYSA-N; [M+H]+; bis(2-ethylhexyl) hexanedioate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -10.556; SAOKZLXYCUGLFA; [M+H]+; Mollan S; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.401; SAOKZLXYCUGLFA; [M+H]+; Mollan S; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -77.162; SAOKZLXYCUGLFA; [M+H]+; Bis(2-Ethylhexyl) Hexanedioate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.847; SAOKZLXYCUGLFA; [M+H]+; Bis(2-Ethylhexyl) Hexanedioate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0040270)
+CH$NAME: Diethylhexyl adipate
+CH$NAME: bis(2-ethylhexyl) hexanedioate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C22H42O4
+CH$EXACT_MASS: 370.308310
+CH$SMILES: CCCCC(CC)COC(=O)CCCCC(=O)OCC(CC)CCCC
+CH$IUPAC: InChI=1S/C22H42O4/c1-5-9-13-19(7-3)17-25-21(23)15-11-12-16-22(24)26-18-20(8-4)14-10-6-2/h19-20H,5-18H2,1-4H3
+CH$LINK: HMDB HMDB0040270
+CH$LINK: INCHIKEY SAOKZLXYCUGLFA-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:7641
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: UPLC system, AB SCIEX - TripleTOF 5600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 5.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 13.00; MS2(ppm) 20.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC T3 column (1.8 µm, 100 mm x 2.1 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-0.5 min, 5% B; 0.5-7.0 min,` 100% B; 7.0-8.0 min, 100% B; 8.0-8.1 min, 5% B; 8.1-10.0 min, 5% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.206
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 371.315403
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0h00-2900000000-7aebc475c3b5844a880a
+PK$ANNOTATION: m/z int mzPAF cor n
+  55.053802 108 f{C4H7}/-7.71ppm,p-C18H36O4 0.7418 39
+  57.069737 148 f{C4H9}/-2.45ppm,p-C18H34O4 0.8238 36
+  71.085566 218 f{C5H11}/0.55ppm,p-C17H32O4 0.8067 38
+  83.048883 155 f{C5H7O1}/-3.11ppm,p-C17H36O3 0.7942 38
+  101.059633 625 f{C5H9O2}/-0.73ppm,p-C17H34O2 0.9030 39
+  111.043719 609 f{C6H7O2}/-3.03ppm,p-C16H36O2 0.9131 39
+  129.054181 999 f{C6H9O3}/-3.41ppm,p-C16H34O1 1.0000 39
+  147.065938 85 f{C6H11O4}/5.12ppm,p-C16H32 0.6844 35
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  55.053802 108.00 108
+  57.069737 148.00 148
+  71.085566 218.00 218
+  83.048883 155.00 155
+  101.059633 625.00 625
+  111.043719 609.00 609
+  129.054181 999.00 999
+  147.065938 85.00 85
+//

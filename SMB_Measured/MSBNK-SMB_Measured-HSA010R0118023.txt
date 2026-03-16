@@ -1,0 +1,77 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0118023
+RECORD_TITLE: Indole; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 69 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 118.065076; int 16.735; delta(ppm) -0.025638
+COMMENT: PROPOSED_MF SevenGoldenRules 0.393; C8H7N; [M+H]+; delta(ppm) -0.392968; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.533; C8H7N; [M+H]+; delta(ppm) -0.395228; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 13.593; C8H7N; [M+H]+; delta(ppm) -0.395228; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C8H7N; [M+H]+; delta(ppm) -0.395228; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 21.549; C8H7N; [M+H]+; delta(ppm) -0.395228; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.997; C8H7N; [M+H]+; delta(ppm) -0.395228; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 9.000; SIKJAQJRHWYJAI-UHFFFAOYSA-N; C8H7N; Massbank:PT100900 2,3-BenzpyrroleKetole1-Benzazole1H-indole1-AzaindeneIndole; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.618; SIKJAQJRHWYJAI; [M+H]+; Indole; Ranking 4;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.020; SIKJAQJRHWYJAI-UHFFFAOYSA-N; [M+H]+; Indole; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.490; SIKJAQJRHWYJAI-UHFFFAOYSA-N; [M+H]+; Indole; Ranking 10;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.490; SIKJAQJRHWYJAI-UHFFFAOYSA-N; [M+H]+; 1H-indole; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -22.881; SIKJAQJRHWYJAI; [M+H]+; 1H-Indole; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.546; SIKJAQJRHWYJAI; [M+H]+; 1H-Indole; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -20.369; SIKJAQJRHWYJAI; [M+H]+; Indol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.818; SIKJAQJRHWYJAI; [M+H]+; Indol; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 9 spectra); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 10), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000738)
+CH$NAME: Indole
+CH$NAME: Indol
+CH$NAME: 1H-indole
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C8H7N
+CH$EXACT_MASS: 117.057849
+CH$SMILES: C1=CC=C2C(=C1)C=CN2
+CH$IUPAC: InChI=1S/C8H7N/c1-2-4-8-7(3-1)5-6-9-8/h1-6,9H
+CH$LINK: HMDB HMDB0000738
+CH$LINK: INCHIKEY SIKJAQJRHWYJAI-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:798
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.334
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 118.065079
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-014i-1900000000-6c603879f9dad316827e
+PK$ANNOTATION: m/z int mzPAF cor n
+  55.054243 4 f{C4H7}/0.30ppm,p-C4H1N1 0.4863 64
+  58.065140 33 f{C3H8N1}/0.25ppm,p-C5 0.2948 69
+  91.054243 109 f{C7H7}/0.18ppm,p-C1H1N1 0.9889 69
+  117.057291 18 f{C8H7N1}/-0.08ppm,p-H1 0.9479 69
+  118.065072 999 f{C8H8N1}/-0.46ppm,p 1.0000 69
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  55.054243 4.00 4
+  58.065140 33.00 33
+  91.054243 109.00 109
+  117.057291 18.00 18
+  118.065072 999.00 999
+//

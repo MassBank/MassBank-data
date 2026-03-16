@@ -1,0 +1,78 @@
+ACCESSION: MSBNK-SMB_Measured-HSA005R0452000
+RECORD_TITLE: LysoPE(16:0/0:0); LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 58 product ion spectra among 31 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001264
+COMMENT: DATASET_TITLE Antibiotics and Dietary Minerals Lipidomics
+COMMENT: DATASET_AUTHORS Jacob Folz, University of California, Davis
+COMMENT: PRECURSOR_IN_MS1 mz 452.278298; int 8.504; delta(ppm) 0.008895
+COMMENT: PROPOSED_MF SevenGoldenRules 0.071; C21H44NO7P; [M-H]1; delta(ppm) 0.070596; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.106; C21H44NO7P; [M-H]-; delta(ppm) 0.072227; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 7.107; C21H44NO7P; [M-H]-; delta(ppm) 0.072227; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.993; C21H44NO7P; [M-H]-; delta(ppm) 0.072227; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 18.660; C21H44NO7P; [M-H]-; delta(ppm) 0.072227; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C21H44NO7P; [M-H]-; delta(ppm) 0.072227; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 5.000; YVYMBNSKXOXSKW-HXUWFJFHSA-N; C21H44NO7P; Spectral Match to 1-Palmitoyl-2-hydroxy-sn-glycero-3-phosphoethanolamine from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; YVYMBNSKXOXSKW-UHFFFAOYSA-N; C21H44NO7P; Massbank:PR309148 LPE 16:0; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.476; YVYMBNSKXOXSKW; [M-H]-; LysoPE(16:0/0:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.403; YVYMBNSKXOXSKW-HXUWFJFHSA-N; [M-H]-; LysoPE(16:0/0:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; YVYMBNSKXOXSKW-HXUWFJFHSA-N; [M-H]-; LysoPE(16:0/0:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; YVYMBNSKXOXSKW-HXUWFJFHSA-N; [M-H]-; [(2R)-3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-hydroxypropyl] hexadecanoate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.786; YVYMBNSKXOXSKW; [M-H]-; 1-16:0-lysoPE; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.480; YVYMBNSKXOXSKW; [M-H]-; 1-16:0-lysoPE; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -89.362; YVYMBNSKXOXSKW; [M-H]-; 1-Hexadecanoyl-Sn-Glycero-3-Phosphoethanolamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.386; YVYMBNSKXOXSKW; [M-H]-; 1-Hexadecanoyl-Sn-Glycero-3-Phosphoethanolamine; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS5_CSI (FDR < 0.05); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 7 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0011503)
+CH$NAME: LysoPE(16:0/0:0)
+CH$NAME: palmitic acid [3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-hydroxy-propyl] ester
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C21H44NO7P
+CH$EXACT_MASS: 453.285540
+CH$SMILES: CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OCCN)O
+CH$IUPAC: InChI=1S/C21H44NO7P/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-21(24)27-18-20(23)19-29-30(25,26)28-17-16-22/h20,23H,2-19,22H2,1H3,(H,25,26)
+CH$LINK: HMDB HMDB0011503
+CH$LINK: INCHIKEY YVYMBNSKXOXSKW-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:89229
+SP$LINK: NCBI-TAXONOMY 10116 
+SP$SAMPLE: Blood (plasma)
+AC$INSTRUMENT: Thermo Q Exactive HF hybrid Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY NCE 20.30.40
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity CSH C18 (100 by 2.1mm,1.7um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min 15% (B); 0-2 min 30% (B); 2-2.5 min 48% (B); 2.5-11 min 82% (B); 11-11.5 min 99% (B); 11.5-12 min 99% (B); 12-12.1 min 15% (B); and 12.1-15 min 15% (B)
+AC$CHROMATOGRAPHY: FLOW_RATE 0.6 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.445
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 452.278294
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0a4i-0190200000-6eca8f223b8b449bbb74
+PK$ANNOTATION: m/z int mzPAF cor n
+  78.958926 30 f{O3P1}/-1.60ppm,p-C21H43N1O4 0.8154 57
+  140.011538 23 f{C6H4O4}/0.22ppm,p-C15H39N1O3P1 0.7817 55
+  196.037896 94 f{C5H11N1O5P1}/-0.69ppm,p-C16H32O2 0.9056 58
+  214.048428 16 f{C9H10O6}/0.66ppm,p-C12H33N1O1P1 0.8108 53
+  255.232734 999 f{C16H31O2}/-0.86ppm,p-C5H12N1O5P1 0.9350 58
+  452.278010 248 f{C21H43N1O7P1}/-0.56ppm,p 1.0000 58
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  78.958926 30.00 30
+  140.011538 23.00 23
+  196.037896 94.00 94
+  214.048428 16.00 16
+  255.232734 999.00 999
+  452.278010 248.00 248
+//

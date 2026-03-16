@@ -1,0 +1,72 @@
+ACCESSION: MSBNK-SMB_Measured-HSA015R0102001
+RECORD_TITLE: Triethylamine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 643 product ion spectra among 27 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS6402
+COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
+COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
+COMMENT: PRECURSOR_IN_MS1 mz 102.127696; int 205.218; delta(ppm) 0.029707
+COMMENT: PROPOSED_MF SevenGoldenRules 0.326; C6H15N; [M+H]+; delta(ppm) -0.326344; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.376; C6H15N; [M+H]+; delta(ppm) -0.332112; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 20.812; C6H15N; [M+H]+; delta(ppm) -0.332112; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H15N; [M+H]+; delta(ppm) -0.332112; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 25.800; C6H15N; [M+H]+; delta(ppm) -0.332112; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H15N; [M+H]+; delta(ppm) -0.332112; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.582; ZMANZCXQSJIPKH; [M+H]+; Triethylamine; Ranking 10;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.580; ZMANZCXQSJIPKH-UHFFFAOYSA-N; [M+H]+; Triethylamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.873; ZMANZCXQSJIPKH-UHFFFAOYSA-N; [M+H]+; Triethylamine; Ranking 6;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.850; ZMANZCXQSJIPKH-UHFFFAOYSA-N; [M+H]+; N,N-diethylethanamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -21.148; ZMANZCXQSJIPKH; [M+H]+; Triethylamin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.762; ZMANZCXQSJIPKH; [M+H]+; Triethylamin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -11.262; ZMANZCXQSJIPKH; [M+H]+; triethylamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.885; ZMANZCXQSJIPKH; [M+H]+; triethylamine; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 10), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 6), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0032539)
+CH$NAME: Triethylamine
+CH$NAME: N,N-diethylethanamine
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H15N
+CH$EXACT_MASS: 101.120449
+CH$SMILES: CCN(CC)CC
+CH$IUPAC: InChI=1S/C6H15N/c1-4-7(5-2)6-3/h4-6H2,1-3H3
+CH$LINK: HMDB HMDB0032539
+CH$LINK: INCHIKEY ZMANZCXQSJIPKH-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:8471
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Vanquish Flex UHPLC system, Thermo Fisher Scientific - Orbitrap Q Exactive Plus mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.50; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
+AC$CHROMATOGRAPHY: RETENTION_TIME 13.911
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 102.127692
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0udi-4900000000-f1ffda08a7c49c9984d3
+PK$ANNOTATION: m/z int mzPAF cor n
+  58.065099 145 f{C3H8N1}/-0.45ppm,p-C3H8 0.9220 643
+  72.080710 60 f{C4H10N1}/-0.91ppm,p-C2H6 0.7727 643
+  74.096370 285 f{C4H12N1}/-0.75ppm,p-C2H4 0.9577 643
+  102.127681 999 f{C6H16N1}/-0.43ppm,p 1.0000 643
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  58.065099 145.00 145
+  72.080710 60.00 60
+  74.096370 285.00 285
+  102.127681 999.00 999
+//

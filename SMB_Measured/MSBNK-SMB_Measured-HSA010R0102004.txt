@@ -1,0 +1,74 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0102004
+RECORD_TITLE: Triethylamine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 402 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 102.127735; int 394.162; delta(ppm) 0.049355
+COMMENT: PROPOSED_MF SevenGoldenRules 0.049; C6H15N; [M+H]+; delta(ppm) 0.049446; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.493; C6H15N; [M+H]+; delta(ppm) 0.039972; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 23.948; C6H15N; [M+H]+; delta(ppm) 0.039972; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H15N; [M+H]+; delta(ppm) 0.039972; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 31.139; C6H15N; [M+H]+; delta(ppm) 0.039972; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H15N; [M+H]+; delta(ppm) 0.039972; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.590; ZMANZCXQSJIPKH-UHFFFAOYSA-N; [M+H]+; Triethylamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.940; ZMANZCXQSJIPKH-UHFFFAOYSA-N; [M+H]+; Triethylamine; Ranking 6;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.865; ZMANZCXQSJIPKH-UHFFFAOYSA-N; [M+H]+; N,N-diethylethanamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -33.178; ZMANZCXQSJIPKH; [M+H]+; Triethylamin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.569; ZMANZCXQSJIPKH; [M+H]+; Triethylamin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -17.352; ZMANZCXQSJIPKH; [M+H]+; triethylamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.865; ZMANZCXQSJIPKH; [M+H]+; triethylamine; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 6), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0032539)
+CH$NAME: Triethylamine
+CH$NAME: N,N-diethylethanamine
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H15N
+CH$EXACT_MASS: 101.120449
+CH$SMILES: CCN(CC)CC
+CH$IUPAC: InChI=1S/C6H15N/c1-4-7(5-2)6-3/h4-6H2,1-3H3
+CH$LINK: HMDB HMDB0032539
+CH$LINK: INCHIKEY ZMANZCXQSJIPKH-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:8471
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.174
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 102.127730
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0udi-1900000000-8f6e5669c7b2c47197fb
+PK$ANNOTATION: m/z int mzPAF cor n
+  56.049475 12 f{C3H6N1}/-0.01ppm,p-C3H10 0.7512 314
+  58.065120 40 f{C3H8N1}/-0.09ppm,p-C3H8 0.9966 401
+  72.080808 22 f{C4H10N1}/0.45ppm,p-C2H6 0.9945 402
+  74.096419 135 f{C4H12N1}/-0.10ppm,p-C2H4 0.9990 401
+  102.127736 999 f{C6H16N1}/0.10ppm,p 1.0000 401
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  56.049475 12.00 12
+  58.065120 40.00 40
+  72.080808 22.00 22
+  74.096419 135.00 135
+  102.127736 999.00 999
+//

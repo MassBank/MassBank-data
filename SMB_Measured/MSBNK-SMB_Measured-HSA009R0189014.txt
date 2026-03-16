@@ -1,0 +1,77 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0189014
+RECORD_TITLE: N6,N6,N6-Trimethyl-lysine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 221 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 189.159753; int 36.125; delta(ppm) -0.010832
+COMMENT: PROPOSED_MF SevenGoldenRules 0.005; C9H20N2O2; [M+H]+; delta(ppm) 0.005315; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.696; C9H20N2O2; [M+H]+; delta(ppm) 0.003549; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 25.763; C9H20N2O2; [M+H]+; delta(ppm) 0.003549; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C9H20N2O2; [M+H]+; delta(ppm) 0.003549; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 33.271; C9H20N2O2; [M+H]+; delta(ppm) 0.003549; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H20N2O2; [M+H]+; delta(ppm) 0.003549; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 5.000; MXNRLFUSFKVQSK-QMMMGPOBSA-N; C9H20N2O2; NEPSILON,NEPSILON,NEPSILON-TRIMETHYLLYSINE; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; MXNRLFUSFKVQSK-UHFFFAOYSA-N; C9H20N2O2; NEPSILON,NEPSILON,NEPSILON-TRIMETHYLLYSINE; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.892; MXNRLFUSFKVQSK; [M+H]+; N6,N6,N6-Trimethyl-L-lysine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.934; MXNRLFUSFKVQSK-QMMMGPOBSA-N; [M+H]+; N6,N6,N6-Trimethyl-L-lysine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.925; MXNRLFUSFKVQSK-QMMMGPOBSA-N; [M+H]+; N6,N6,N6-Trimethyl-L-lysine; Ranking 4;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -11.840; MXNRLFUSFKVQSK; [M+H]+; Laminine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.878; MXNRLFUSFKVQSK; [M+H]+; Laminine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -57.468; MXNRLFUSFKVQSK; [M+H]+; 2-amino-6-(trimethylazaniumyl)hexanoate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.804; MXNRLFUSFKVQSK; [M+H]+; 2-amino-6-(trimethylazaniumyl)hexanoate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 5 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 4); Biological context by HMDB (HMDB0001325)
+CH$NAME: N6,N6,N6-Trimethyl-lysine
+CH$NAME: 2-amino-6-(trimethylammonio)hexanoate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C9H20N2O2
+CH$EXACT_MASS: 188.152478
+CH$SMILES: C[N+](C)(C)CCCCC(C(=O)[O-])N
+CH$IUPAC: InChI=1S/C9H20N2O2/c1-11(2,3)7-5-4-6-8(10)9(12)13/h8H,4-7,10H2,1-3H3
+CH$LINK: HMDB HMDB0001325
+CH$LINK: INCHIKEY MXNRLFUSFKVQSK-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:159659
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.593
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 189.159755
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-4900000000-5d0ad85a5b0daa0f061a
+PK$ANNOTATION: m/z int mzPAF cor n
+  60.080861 279 f{C3H10N1}/1.42ppm,p-C6H11N1O2 0.9961 220
+  84.080844 748 f{C5H10N1}/0.81ppm,p-C4H11N1O2 0.9961 221
+  130.086450 999 f{C6H12N1O2}/1.50ppm,p-C3H9N1 0.9981 221
+  144.138404 39 f{C8H18N1O1}/0.79ppm,p-C1H3N1O1 0.9882 220
+  189.159829 871 f{C9H21N2O2}/0.40ppm,p 1.0000 220
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  60.080861 279.00 279
+  84.080844 748.00 748
+  130.086450 999.00 999
+  144.138404 39.00 39
+  189.159829 871.00 871
+//

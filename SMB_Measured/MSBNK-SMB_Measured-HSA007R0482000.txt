@@ -1,0 +1,87 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0482000
+RECORD_TITLE: LysoPE(18:0/0:0); LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 73 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 482.322615; int 69.732; delta(ppm) -3.288243
+COMMENT: PROPOSED_MF SevenGoldenRules 0.181; C23H48NO7P; [M+H]+; delta(ppm) 0.180754; Ranking 3;
+COMMENT: PROPOSED_MF MS-FINDER 3.878; C23H48NO7P; [M+H]+; delta(ppm) 0.179704; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 4020.240; C23H48NO7P; [M+H]+; delta(ppm) 0.179704; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C23H48NO7P; [M+H]+; delta(ppm) 0.179704; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 33.188; C23H48NO7P; [M+H]+; delta(ppm) 0.179704; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C23H48NO7P; [M+H]+; delta(ppm) 0.179704; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; BBYWOYAFBUOUFP-JOCHJYFZSA-N; C23H48NO7P; Spectral Match to 1-Stearoyl-2-hydroxy-sn-glycero-3-phosphoethanolamine from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.186; BBYWOYAFBUOUFP; [M+H]+; LysoPE(18:0/0:0); Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.767; BBYWOYAFBUOUFP-JOCHJYFZSA-N; [M+H]+; LysoPE(18:0/0:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; BBYWOYAFBUOUFP-JOCHJYFZSA-N; [M+H]+; LysoPE(18:0/0:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.000; BBYWOYAFBUOUFP-JOCHJYFZSA-N; [M+H]+; [(2R)-3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-hydroxypropyl] octadecanoate; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -3.584; BBYWOYAFBUOUFP; [M+H]+; 1-stearoyl-phosphatidylethenolamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.434; BBYWOYAFBUOUFP; [M+H]+; 1-stearoyl-phosphatidylethenolamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -47.627; BBYWOYAFBUOUFP; [M+H]+; 1-Stearoyl-Sn-Glycero-3-Phosphoethanolamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.771; BBYWOYAFBUOUFP; [M+H]+; 1-Stearoyl-Sn-Glycero-3-Phosphoethanolamine; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0011130)
+CH$NAME: LysoPE(18:0/0:0)
+CH$NAME: stearic acid [3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-hydroxy-propyl] ester
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C23H48NO7P
+CH$EXACT_MASS: 481.316840
+CH$SMILES: CCCCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OCCN)O
+CH$IUPAC: InChI=1S/C23H48NO7P/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-23(26)29-20-22(25)21-31-32(27,28)30-19-18-24/h22,25H,2-21,24H2,1H3,(H,27,28)
+CH$LINK: HMDB HMDB0011130
+CH$LINK: INCHIKEY BBYWOYAFBUOUFP-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:45479288
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 16.005
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 482.324201
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0006-2009000000-ae2906e69687da47711f
+PK$ANNOTATION: m/z int mzPAF cor n
+  44.049680 173 f{C2H6N1}/4.64ppm,p-C21H43O7P1 0.9671 54
+  71.085708 31 f{C5H11}/2.55ppm,p-C18H38N1O7P1 0.8115 61
+  81.070239 21 f{C6H9}/4.46ppm,p-C17H40N1O7P1 0.8369 53
+  85.101275 30 f{C6H13}/1.15ppm,p-C17H36N1O7P1 0.8685 55
+  95.085605 34 f{C7H11}/0.82ppm,p-C16H38N1O7P1 0.8277 62
+  109.101813 23 f{C8H13}/5.83ppm,p-C15H36N1O7P1 0.8289 56
+  111.116493 13 f{C8H15}/-3.00ppm,p-C15H34N1O7P1 0.7273 56
+  267.268110 20 f{C18H35O1}/-0.50ppm,p-C5H14N1O6P1 0.8207 60
+  310.310081 65 f{C20H40N1O1}/-1.16ppm,p-C3H9O6P1 0.9520 69
+  341.305587 999 f{C21H41O3}/1.66ppm,p-C2H8N1O4P1 0.9583 73
+  482.324815 118 f{C23H49N1O7P1}/1.45ppm,p 1.0000 67
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  44.049680 173.00 173
+  71.085708 31.00 31
+  81.070239 21.00 21
+  85.101275 30.00 30
+  95.085605 34.00 34
+  109.101813 23.00 23
+  111.116493 13.00 13
+  267.268110 20.00 20
+  310.310081 65.00 65
+  341.305587 999.00 999
+  482.324815 118.00 118
+//

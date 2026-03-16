@@ -1,0 +1,91 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0352000
+RECORD_TITLE: Phenylalanyl-Tryptophan; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 94 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 352.165182; int 999.000; delta(ppm) -1.169856
+COMMENT: PROPOSED_MF SevenGoldenRules 0.074; C20H21N3O3; [M+H]+; delta(ppm) 0.074041; Ranking 3;
+COMMENT: PROPOSED_MF MS-FINDER 4.215; C20H21N3O3; [M+H]+; delta(ppm) 0.073857; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 38.611; C20H21N3O3; [M+H]+; delta(ppm) 0.073857; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C20H21N3O3; [M+H]+; delta(ppm) 0.073857; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 65.769; C20H21N3O3; [M+H]+; delta(ppm) 0.073857; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C20H21N3O3; [M+H]+; delta(ppm) 0.073857; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; JMCOUWKXLXDERB-WMZOPIPTSA-N; C20H21N3O3; Spectral Match to Phe-Trp from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.271; JMCOUWKXLXDERB; [M+H]+; Phenylalanyl-Tryptophan; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.687; JMCOUWKXLXDERB-UHFFFAOYNA-N; [M+H]+; Phenylalanyl-Tryptophan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; JMCOUWKXLXDERB-UHFFFAOYNA-N; [M+H]+; Phenylalanyl-Tryptophan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.667; JMCOUWKXLXDERB-WMZOPIPTSA-N; [M+H]+; (2S)-2-[[(2S)-2-amino-3-phenylpropanoyl]amino]-3-(1H-indol-3-yl)propanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.489; JMCOUWKXLXDERB; [M+H]+; Phenylalanyltryptophan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.830; JMCOUWKXLXDERB; [M+H]+; Phenylalanyltryptophan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -152.474; JMCOUWKXLXDERB; [M+H]+; 2-(2-azaniumyl-3-phenylpropanamido)-3-(1H-indol-3-yl)propanoate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.881; JMCOUWKXLXDERB; [M+H]+; 2-(2-azaniumyl-3-phenylpropanamido)-3-(1H-indol-3-yl)propanoate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 2 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0029006)
+CH$NAME: Phenylalanyl-Tryptophan
+CH$NAME: 3-(1H-indol-3-yl)-2-(phenylalanylamino)propionic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C20H21N3O3
+CH$EXACT_MASS: 351.158292
+CH$SMILES: C1=CC=C(C=C1)CC(C(=O)NC(CC2=CNC3=CC=CC=C32)C(=O)O)N
+CH$IUPAC: InChI=1S/C20H21N3O3/c21-16(10-13-6-2-1-3-7-13)19(24)23-18(20(25)26)11-14-12-22-17-9-5-4-8-15(14)17/h1-9,12,16,18,22H,10-11,21H2,(H,23,24)(H,25,26)
+CH$LINK: HMDB HMDB0029006
+CH$LINK: INCHIKEY JMCOUWKXLXDERB-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:14410593
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.670
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 352.165594
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00dr-0910000000-3157b715dc15b2344f27
+PK$ANNOTATION: m/z int mzPAF cor n
+  103.053849 73 f{C8H7}/-3.67ppm,p-C12H15N3O3 0.8982 80
+  118.065015 44 f{C8H8N1}/-0.94ppm,p-C12H14N2O3 0.8459 76
+  120.080823 999 f{C8H10N1}/0.39ppm,p-C12H12N2O3 0.9634 94
+  130.065307 35 f{C9H8N1}/1.39ppm,p-C11H14N2O3 0.8880 69
+  132.080855 29 f{C9H10N1}/0.60ppm,p-C11H12N2O3 0.8426 71
+  146.060039 166 f{C9H8N1O1}/-0.01ppm,p-C11H14N2O2 0.9348 93
+  159.091847 60 f{C10H11N2}/1.08ppm,p-C10H11N1O3 0.9330 81
+  170.060648 24 f{C11H8N1O1}/3.57ppm,p-C9H14N2O2 0.8456 68
+  175.086180 60 f{C10H11N2O1}/-2.34ppm,p-C10H11N1O2 0.8929 75
+  188.071133 612 f{C11H10N1O2}/2.81ppm,p-C9H12N2O1 0.9652 93
+  205.097423 287 f{C11H13N2O2}/1.31ppm,p-C9H9N1O1 0.9718 93
+  306.159250 30 f{C19H20N3O1}/-2.74ppm,p-C1H2O2 0.8504 80
+  352.166001 169 f{C20H22N3O3}/1.23ppm,p 1.0000 88
+PK$NUM_PEAK: 13
+PK$PEAK: m/z int. rel.int.
+  103.053849 73.00 73
+  118.065015 44.00 44
+  120.080823 999.00 999
+  130.065307 35.00 35
+  132.080855 29.00 29
+  146.060039 166.00 166
+  159.091847 60.00 60
+  170.060648 24.00 24
+  175.086180 60.00 60
+  188.071133 612.00 612
+  205.097423 287.00 287
+  306.159250 30.00 30
+  352.166001 169.00 169
+//

@@ -1,0 +1,75 @@
+ACCESSION: MSBNK-SMB_Measured-HSA020R0198000
+RECORD_TITLE: Citrulline; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 555 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 198.085057; int 360.139; delta(ppm) -0.005142
+COMMENT: PROPOSED_MF SevenGoldenRules 0.851; C6H13N3O3; [M+Na]+; delta(ppm) 0.850963; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.888; C6H13N3O3; [M+Na]+; delta(ppm) 131299.560583; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 27.209; C6H13N3O3; [M+Na]+; delta(ppm) 131299.560583; Ranking 2;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H13N3O3; [M+Na]+; delta(ppm) 131299.560583; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 36.270; C6H13N3O3; [M+Na]+; delta(ppm) 131299.560583; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H13N3O3; [M+Na]+; delta(ppm) 131299.560583; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 4.000; RHGKLRLOHDJJDR-BYPYZUCNSA-N; C6H13N3O3; CITRULLINE; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.365; RHGKLRLOHDJJDR-BYPYZUCNSA-N; [M+Na]+; Citrulline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; RHGKLRLOHDJJDR-BYPYZUCNSA-N; [M+Na]+; Citrulline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; RHGKLRLOHDJJDR-BYPYZUCNSA-N; [M+Na]+; (2S)-2-amino-5-(carbamoylamino)pentanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.602; RHGKLRLOHDJJDR; [M+Na]+; citrulina; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.910; RHGKLRLOHDJJDR; [M+Na]+; citrulina; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -57.557; RHGKLRLOHDJJDR; [M+Na]+; Citrulina; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.819; RHGKLRLOHDJJDR; [M+Na]+; Citrulina; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 4 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000904)
+CH$NAME: Citrulline
+CH$NAME: Citrulina
+CH$NAME: 2-amino-5-ureido-valeric acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H13N3O3
+CH$EXACT_MASS: 175.095691
+CH$SMILES: C(CC(C(=O)O)N)CNC(=O)N
+CH$IUPAC: InChI=1S/C6H13N3O3/c7-4(5(10)11)2-1-3-9-6(8)12/h4H,1-3,7H2,(H,10,11)(H3,8,9,12)
+CH$LINK: HMDB HMDB0000904
+CH$LINK: INCHIKEY RHGKLRLOHDJJDR-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:833
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 2.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Xbridge BEH HILIC (75 x 2.1mm,2.5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min-85% B, 2 min-10% B, 14 min- 10% B, 14.1 min- 85% B, 16 min- 85%B.
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.965
+MS$FOCUSED_ION: ION_TYPE [M+Na]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 198.085058
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0uds-0900000000-9c4fcff4b83fc89bdcc0
+PK$ANNOTATION: m/z int mzPAF cor n
+  138.052636 672 f{C5H9N1O2Na1}/0.74ppm,p-C1H4N2O1 0.9841 552
+  153.063512 999 f{C5H10N2O2Na1}/0.49ppm,p-C1H3N1O1 0.9824 554
+  155.079102 214 f{C5H12N2O2Na1}/0.02ppm,p-C1H1N1O1 0.9687 537
+  181.058410 377 f{C6H10N2O3Na1}/0.29ppm,p-H3N1 0.9821 549
+  198.084996 828 f{C6H13N3O3Na1}/0.48ppm,p 1.0000 555
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  138.052636 672.00 672
+  153.063512 999.00 999
+  155.079102 214.00 214
+  181.058410 377.00 377
+  198.084996 828.00 828
+//

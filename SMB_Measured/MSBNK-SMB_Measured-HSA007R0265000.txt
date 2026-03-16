@@ -1,0 +1,90 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0265000
+RECORD_TITLE: Alpha-N-Phenylacetyl-glutamine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 137 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 265.117579; int 999.000; delta(ppm) -2.689217
+COMMENT: PROPOSED_MF SevenGoldenRules 0.034; C13H16N2O4; [M+H]+; delta(ppm) 0.034077; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.303; C13H16N2O4; [M+H]+; delta(ppm) 0.032268; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 44.372; C13H16N2O4; [M+H]+; delta(ppm) 0.032268; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C13H16N2O4; [M+H]+; delta(ppm) 0.032268; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 69.514; C13H16N2O4; [M+H]+; delta(ppm) 0.032268; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C13H16N2O4; [M+H]+; delta(ppm) 0.032268; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 4.000; JFLIEFSWGNOPJJ-JTQLQIEISA-N; C13H16N2O4; PHENYLACETYL-GLUTAMINE; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.135; JFLIEFSWGNOPJJ; [M+H]+; Alpha-N-Phenylacetyl-L-glutamine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.033; JFLIEFSWGNOPJJ-JTQLQIEISA-N; [M+H]+; Alpha-N-Phenylacetyl-L-glutamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; JFLIEFSWGNOPJJ-JTQLQIEISA-N; [M+H]+; Alpha-N-Phenylacetyl-L-glutamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; JFLIEFSWGNOPJJ-JTQLQIEISA-N; [M+H]+; (2S)-5-amino-5-oxo-2-[(2-phenylacetyl)amino]pentanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.554; JFLIEFSWGNOPJJ; [M+H]+; PA-L-Glutamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.999; JFLIEFSWGNOPJJ; [M+H]+; PA-L-Glutamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -15.341; JFLIEFSWGNOPJJ; [M+H]+; Phenylacetylglutamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.998; JFLIEFSWGNOPJJ; [M+H]+; Phenylacetylglutamine; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 4 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0006344)
+CH$NAME: Alpha-N-Phenylacetyl-glutamine
+CH$NAME: Phenylacetylglutamine
+CH$NAME: 5-amino-5-keto-2-[(2-phenylacetyl)amino]valeric acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C13H16N2O4
+CH$EXACT_MASS: 264.111007
+CH$SMILES: C1=CC=C(C=C1)CC(=O)NC(CCC(=O)N)C(=O)O
+CH$IUPAC: InChI=1S/C13H16N2O4/c14-11(16)7-6-10(13(18)19)15-12(17)8-9-4-2-1-3-5-9/h1-5,10H,6-8H2,(H2,14,16)(H,15,17)(H,18,19)
+CH$LINK: HMDB HMDB0006344
+CH$LINK: INCHIKEY JFLIEFSWGNOPJJ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:306137
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.652
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 265.118292
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-7900000000-7a180ee9347a6ed4144b
+PK$ANNOTATION: m/z int mzPAF cor n
+  83.060397 94 f{C4H7N2}/0.27ppm,p-C9H10O4 0.8981 127
+  84.044536 659 f{C4H6N1O1}/1.73ppm,p-C9H11N1O3 0.8980 136
+  91.054590 462 f{C7H7}/3.99ppm,p-C6H10N2O4 0.9127 112
+  101.070916 42 f{C4H9N2O1}/-0.23ppm,p-C9H8O3 0.9004 122
+  129.065937 108 f{C5H9N2O2}/0.65ppm,p-C8H8O2 0.9286 129
+  130.050122 999 f{C5H8N1O3}/1.94ppm,p-C8H9N1O1 0.9155 136
+  136.075906 165 f{C8H10N1O1}/1.59ppm,p-C5H7N1O3 0.9070 134
+  147.076317 97 f{C5H11N2O3}/-0.69ppm,p-C8H6O1 0.9045 128
+  219.112885 9 f{C12H15N2O2}/0.37ppm,p-C1H2O2 0.8492 105
+  247.107525 13 f{C13H15N2O3}/-0.78ppm,p-H2O1 0.8681 112
+  248.091010 17 f{C13H14N1O4}/-2.92ppm,p-H3N1 0.8846 119
+  265.118268 21 f{C13H17N2O4}/-0.06ppm,p 1.0000 125
+PK$NUM_PEAK: 12
+PK$PEAK: m/z int. rel.int.
+  83.060397 94.00 94
+  84.044536 659.00 659
+  91.054590 462.00 462
+  101.070916 42.00 42
+  129.065937 108.00 108
+  130.050122 999.00 999
+  136.075906 165.00 165
+  147.076317 97.00 97
+  219.112885 9.00 9
+  247.107525 13.00 13
+  248.091010 17.00 17
+  265.118268 21.00 21
+//

@@ -1,0 +1,85 @@
+ACCESSION: MSBNK-SMB_Measured-HSA014R0218000
+RECORD_TITLE: Pantothenic acid; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 41 product ion spectra among 27 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS6402
+COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
+COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
+COMMENT: PRECURSOR_IN_MS1 mz 218.103466; int 97.276; delta(ppm) 0.050455
+COMMENT: PROPOSED_MF SevenGoldenRules 0.265; C9H17NO5; [M-H]1; delta(ppm) 0.264706; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.614; C9H17NO5; [M-H]-; delta(ppm) 0.269469; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 37.596; C9H17NO5; [M-H]-; delta(ppm) 0.269469; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C9H17NO5; [M-H]-; delta(ppm) 0.269469; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 56.155; C9H17NO5; [M-H]-; delta(ppm) 0.269469; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H17NO5; [M-H]-; delta(ppm) 0.269469; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 32.000; GHOKWGTUZJEAQD-ZETCQYMHSA-N; C9H17NO5; PANTOTHENIC ACID; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 10.000; GHOKWGTUZJEAQD-UHFFFAOYSA-N; C9H17NO5; pantothenic acid CollisionEnergy:205060; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.988; GHOKWGTUZJEAQD; [M-H]-; Pantothenic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.302; GHOKWGTUZJEAQD-UHFFFAOYSA-N; [M-H]-; Pantothenic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; GHOKWGTUZJEAQD-UHFFFAOYSA-N; [M-H]-; Pantothenic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; GHOKWGTUZJEAQD-ZETCQYMHSA-N; [M-H]-; 3-[[(2R)-2,4-dihydroxy-3,3-dimethylbutanoyl]amino]propanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -3.521; GHOKWGTUZJEAQD; [M-H]-; vitamin B5; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.850; GHOKWGTUZJEAQD; [M-H]-; vitamin B5; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -5.140; GHOKWGTUZJEAQD; [M-H]-; Pantothenate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.957; GHOKWGTUZJEAQD; [M-H]-; Pantothenate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 42 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000210)
+CH$NAME: Pantothenic acid
+CH$NAME: Pantothenate
+CH$NAME: 3-[(2,4-dihydroxy-3,3-dimethylbutanoyl)amino]propanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C9H17NO5
+CH$EXACT_MASS: 219.110673
+CH$SMILES: CC(C)(CO)C(C(=O)NCCC(=O)O)O
+CH$IUPAC: InChI=1S/C9H17NO5/c1-9(2,5-11)7(14)8(15)10-4-3-6(12)13/h7,11,14H,3-5H2,1-2H3,(H,10,15)(H,12,13)
+CH$LINK: HMDB HMDB0000210
+CH$LINK: INCHIKEY GHOKWGTUZJEAQD-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:988
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Vanquish Flex UHPLC system, Thermo Fisher Scientific - Orbitrap Q Exactive Plus mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.50; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.280
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 218.103455
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-9310000000-fe9bd2c7c47c1df62c6d
+PK$ANNOTATION: m/z int mzPAF cor n
+  59.013776 24 f{C2H3O2}/-1.31ppm,p-C7H13N1O3 0.8852 41
+  71.013911 107 f{C3H3O2}/0.82ppm,p-C6H13N1O3 0.9472 41
+  71.050281 172 f{C4H7O1}/0.60ppm,p-C5H9N1O4 0.9355 41
+  88.040486 999 f{C3H6N1O2}/0.96ppm,p-C6H10O3 0.9765 41
+  99.045194 53 f{C5H7O2}/0.41ppm,p-C4H9N1O3 0.8646 41
+  116.071666 23 f{C5H10N1O2}/-0.31ppm,p-C4H6O3 0.8669 41
+  129.055783 10 f{C6H9O3}/0.51ppm,p-C3H7N1O2 0.8221 35
+  146.082332 428 f{C6H12N1O3}/0.45ppm,p-C3H4O2 0.9686 41
+  218.103459 183 f{C9H16N1O5}/0.29ppm,p 1.0000 41
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  59.013776 24.00 24
+  71.013911 107.00 107
+  71.050281 172.00 172
+  88.040486 999.00 999
+  99.045194 53.00 53
+  116.071666 23.00 23
+  129.055783 10.00 10
+  146.082332 428.00 428
+  218.103459 183.00 183
+//

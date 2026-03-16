@@ -1,0 +1,82 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0202011
+RECORD_TITLE: 4-hydroxy-2,2,6,6-tetramethylpiperidine-1-ethanol; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 76 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 202.180104; int 29.048; delta(ppm) -0.010096
+COMMENT: PROPOSED_MF SevenGoldenRules 0.244; C11H23NO2; [M+H]+; delta(ppm) -0.243572; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.999; C11H23NO2; [M+H]+; delta(ppm) -0.244421; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 21.559; C11H23NO2; [M+H]+; delta(ppm) -0.244421; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C11H23NO2; [M+H]+; delta(ppm) -0.244421; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 33.022; C11H23NO2; [M+H]+; delta(ppm) -0.244421; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C11H23NO2; [M+H]+; delta(ppm) -0.244421; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; STEYNUVPFMIUOY-UHFFFAOYSA-N; C11H23NO2; Massbank:AU252101 4-Hydroxy-1-(2-hydroxyethyl)-2,2,6,6-tetramethylpiperidine1-Piperidineethanol, 4-hydroxy-2,2,6,6-tetramethyl-1-(2-hydroxyethyl)-2,2,6,6-tetramethylpiperidin-4-ol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.863; STEYNUVPFMIUOY; [M+H]+; 4-hydroxy-2,2,6,6-tetramethylpiperidine-1-ethanol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.725; STEYNUVPFMIUOY-UHFFFAOYSA-N; [M+H]+; 4-hydroxy-2,2,6,6-tetramethylpiperidine-1-ethanol; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.955; STEYNUVPFMIUOY-UHFFFAOYSA-N; [M+H]+; 4-hydroxy-2,2,6,6-tetramethylpiperidine-1-ethanol; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.759; STEYNUVPFMIUOY-UHFFFAOYSA-N; [M+H]+; 1-(2-hydroxyethyl)-2,2,6,6-tetramethylpiperidin-4-ol; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -36.548; STEYNUVPFMIUOY; [M+H]+; 4-Hydroxy-2,2,6,6-tetramethyl-1-piperidineethanol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.882; STEYNUVPFMIUOY; [M+H]+; 4-Hydroxy-2,2,6,6-tetramethyl-1-piperidineethanol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -112.628; STEYNUVPFMIUOY; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.636; STEYNUVPFMIUOY; [M+H]+; nan; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3b; Proposed by SIRIUS5_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 2 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 2)
+CH$NAME: 4-hydroxy-2,2,6,6-tetramethylpiperidine-1-ethanol
+CH$NAME: 1-(2-hydroxyethyl)-2,2,6,6-tetramethylpiperidin-4-ol
+CH$COMPOUND_CLASS: Non-Natural Product
+CH$FORMULA: C11H23NO2
+CH$EXACT_MASS: 201.172879
+CH$SMILES: CC1(CC(CC(N1CCO)(C)C)O)C
+CH$IUPAC: InChI=1S/C11H23NO2/c1-10(2)7-9(14)8-11(3,4)12(10)5-6-13/h9,13-14H,5-8H2,1-4H3
+CH$LINK: INCHIKEY STEYNUVPFMIUOY-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:104301
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.529
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 202.180106
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0udi-1290000000-ec6b5c1ac5d6dff1798a
+PK$ANNOTATION: m/z int mzPAF cor n
+  62.060114 71 f{C2H8N1O1}/1.19ppm,p-C9H16O1 0.9841 76
+  70.065230 55 f{C4H8N1}/1.49ppm,p-C7H16O2 0.3384 75
+  85.064855 17 f{C5H9O1}/0.75ppm,p-C6H15N1O1 0.9485 74
+  88.075568 15 f{C4H10N1O1}/-1.39ppm,p-C7H14O1 0.6670 66
+  102.091412 290 f{C5H12N1O1}/0.70ppm,p-C6H12O1 0.9948 76
+  123.116778 17 f{C9H15}/-0.40ppm,p-C2H9N1O2 0.9547 74
+  146.117736 13 f{C7H16N1O2}/1.24ppm,p-C4H8 0.9724 64
+  202.180192 999 f{C11H24N1O2}/0.18ppm,p 1.0000 76
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  62.060114 71.00 71
+  70.065230 55.00 55
+  85.064855 17.00 17
+  88.075568 15.00 15
+  102.091412 290.00 290
+  123.116778 17.00 17
+  146.117736 13.00 13
+  202.180192 999.00 999
+//

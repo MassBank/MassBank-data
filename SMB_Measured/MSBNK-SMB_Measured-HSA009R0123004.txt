@@ -1,0 +1,73 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0123004
+RECORD_TITLE: Benzoic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 1324 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 123.044045; int 8.617; delta(ppm) 0.008035
+COMMENT: PROPOSED_MF SevenGoldenRules 0.090; C7H6O2; [M+H]+; delta(ppm) -0.090137; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.047; C7H6O2; [M+H]+; delta(ppm) -0.096448; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 33.779; C7H6O2; [M+H]+; delta(ppm) -0.096448; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C7H6O2; [M+H]+; delta(ppm) -0.096448; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 41.362; C7H6O2; [M+H]+; delta(ppm) -0.096448; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C7H6O2; [M+H]+; delta(ppm) -0.096448; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 7.000; WPYMKLBDIGXBTP-UHFFFAOYSA-N; C7H6O2; Benzoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.276; WPYMKLBDIGXBTP; [M+H]+; Benzoic acid; Ranking 7;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.921; WPYMKLBDIGXBTP-UHFFFAOYSA-N; [M+H]+; Benzoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.671; WPYMKLBDIGXBTP-UHFFFAOYSA-N; [M+H]+; Benzoic acid; Ranking 10;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.671; WPYMKLBDIGXBTP-UHFFFAOYSA-N; [M+H]+; benzoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -22.431; WPYMKLBDIGXBTP; [M+H]+; benzoate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.651; WPYMKLBDIGXBTP; [M+H]+; benzoate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -59.818; WPYMKLBDIGXBTP; [M+H]+; Benzoic Acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.668; WPYMKLBDIGXBTP; [M+H]+; Benzoic Acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 7 spectra); Supported by CFM-ID:MsfinderDB (Ranking 7), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 10), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0001870)
+CH$NAME: Benzoic acid
+CH$NAME: benzoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C7H6O2
+CH$EXACT_MASS: 122.036779
+CH$SMILES: C1=CC=C(C=C1)C(=O)O
+CH$IUPAC: InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)
+CH$LINK: HMDB HMDB0001870
+CH$LINK: INCHIKEY WPYMKLBDIGXBTP-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:243
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.985
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 123.044044
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0002-9000000000-bda1cf8411a7a4ae2c54
+PK$ANNOTATION: m/z int mzPAF cor n
+  67.053948 109 f{C5H7}/-4.16ppm,p-C2O2 0.3199 1299
+  79.054269 274 f{C6H7}/0.54ppm,p-C1O2 0.5536 1259
+  95.049175 999 f{C6H7O1}/0.36ppm,p-C1O1 1.0000 1324
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  67.053948 109.00 109
+  79.054269 274.00 274
+  95.049175 999.00 999
+//

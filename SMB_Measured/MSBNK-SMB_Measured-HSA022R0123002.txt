@@ -1,0 +1,76 @@
+ACCESSION: MSBNK-SMB_Measured-HSA022R0123002
+RECORD_TITLE: Niacinamide; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 194 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 123.055315; int 13.739; delta(ppm) -0.024046
+COMMENT: PROPOSED_MF SevenGoldenRules 0.238; C6H6N2O; [M+H]+; delta(ppm) 0.237611; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.509; C6H6N2O; [M+H]+; delta(ppm) 0.233553; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 18.642; C6H6N2O; [M+H]+; delta(ppm) 0.233553; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H6N2O; [M+H]+; delta(ppm) 0.233553; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 24.421; C6H6N2O; [M+H]+; delta(ppm) 0.233553; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H6N2O; [M+H]+; delta(ppm) 0.233553; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 38.000; DFPAKSUCGFBDDF-UHFFFAOYSA-N; C6H6N2O; Spectral Match to Niacinamide from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.276; DFPAKSUCGFBDDF; [M+H]+; Niacinamide; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.079; DFPAKSUCGFBDDF-UHFFFAOYSA-N; [M+H]+; Niacinamide; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.992; DFPAKSUCGFBDDF-UHFFFAOYSA-N; [M+H]+; Niacinamide; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.992; DFPAKSUCGFBDDF-UHFFFAOYSA-N; [M+H]+; pyridine-3-carboxamide; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -9.876; DFPAKSUCGFBDDF; [M+H]+; Amide PP; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.426; DFPAKSUCGFBDDF; [M+H]+; Amide PP; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -23.237; DFPAKSUCGFBDDF; [M+H]+; Niacin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.894; DFPAKSUCGFBDDF; [M+H]+; Niacin; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 38 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0001406)
+CH$NAME: Niacinamide
+CH$NAME: Niacin
+CH$NAME: pyridine-3-carboxamide
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H6N2O
+CH$EXACT_MASS: 122.048013
+CH$SMILES: C1=CC(=CN=C1)C(=O)N
+CH$IUPAC: InChI=1S/C6H6N2O/c7-6(9)5-2-1-3-8-4-5/h1-4H,(H2,7,9)
+CH$LINK: HMDB HMDB0001406
+CH$LINK: INCHIKEY DFPAKSUCGFBDDF-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:936
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.517
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 123.055318
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00e9-9600000000-ef6eb8370057434a5dfe
+PK$ANNOTATION: m/z int mzPAF cor n
+  78.033681 79 f{C5H4N1}/-1.85ppm,p-C1H3N1O1 0.8219 147
+  80.049483 810 f{C5H6N1}/0.09ppm,p-C1H1N1O1 0.9703 194
+  95.049020 205 f{C6H7O1}/-1.28ppm,p-N2 0.1975 193
+  96.044319 242 f{C5H6N1O1}/-0.74ppm,p-C1H1N1 0.9276 194
+  123.055231 999 f{C6H7N2O1}/-0.48ppm,p 1.0000 194
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  78.033681 79.00 79
+  80.049483 810.00 810
+  95.049020 205.00 205
+  96.044319 242.00 242
+  123.055231 999.00 999
+//

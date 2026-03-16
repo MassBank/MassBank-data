@@ -1,0 +1,71 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0227003
+RECORD_TITLE: UNPD213667; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 10 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 227.102146; int 322.897; delta(ppm) -2.034503
+COMMENT: PROPOSED_MF SevenGoldenRules 0.111; C10H14N2O4; [M+H]+; delta(ppm) -0.110573; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.210; C10H14N2O4; [M+H]+; delta(ppm) -0.111761; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 17.508; C10H14N2O4; [M+H]+; delta(ppm) -0.111761; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C10H14N2O4; [M+H]+; delta(ppm) -0.111761; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 25.093; C10H14N2O4; [M+H]+; delta(ppm) -0.111761; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.998; C10H14N2O4; [M+H]+; delta(ppm) -0.111761; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; PFEJJYZYEFRQEA-UHFFFAOYSA-N; C10H14N2O4; Spectral Match to PyroGlu-Pro from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.261; PFEJJYZYEFRQEA; [M+H]+; UNPD213667; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.090; PFEJJYZYEFRQEA-NKWVEPMBSA-N; [M+H]+; UNPD213667; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; PFEJJYZYEFRQEA-NKWVEPMBSA-N; [M+H]+; UNPD213667; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -18.314; PFEJJYZYEFRQEA; [M+H]+; L-Proline, 5-oxo-L-prolyl-; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.979; PFEJJYZYEFRQEA; [M+H]+; L-Proline, 5-oxo-L-prolyl-; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -109.064; PFEJJYZYEFRQEA; [M+H]+; 1-(5-oxopyrrolidine-2-carbonyl)pyrrolidine-2-carboxylic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.997; PFEJJYZYEFRQEA; [M+H]+; 1-(5-oxopyrrolidine-2-carbonyl)pyrrolidine-2-carboxylic acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3b; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 2 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1)
+CH$NAME: UNPD213667
+CH$NAME: 1-(5-oxopyrrolidine-2-carbonyl)pyrrolidine-2-carboxylic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C10H14N2O4
+CH$EXACT_MASS: 226.095357
+CH$SMILES: C1CC(N(C1)C(=O)C2CCC(=O)N2)C(=O)O
+CH$IUPAC: InChI=1S/C10H14N2O4/c13-8-4-3-6(11-8)9(14)12-5-1-2-7(12)10(15)16/h6-7H,1-5H2,(H,11,13)(H,15,16)
+CH$LINK: INCHIKEY PFEJJYZYEFRQEA-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:13306588
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.980
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 227.102608
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00lr-9720000000-de055228d65d1dcd9585
+PK$ANNOTATION: m/z int mzPAF cor n
+  84.044254 999 f{C4H6N1O1}/-1.62ppm,p-C6H9N1O3 0.7356 10
+  116.070310 857 f{C5H10N1O2}/-2.54ppm,p-C5H5N1O2 0.8403 9
+  209.090061 70 f{C10H13N2O3}/-9.60ppm,p-H2O1 0.7737 10
+  227.102214 155 f{C10H15N2O4}/-1.85ppm,p 1.0000 10
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  84.044254 999.00 999
+  116.070310 857.00 857
+  209.090061 70.00 70
+  227.102214 155.00 155
+//

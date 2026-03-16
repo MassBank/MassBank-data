@@ -1,0 +1,83 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0205185
+RECORD_TITLE: Serylvaline; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 10 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 205.118248; int 13.602; delta(ppm) 0.000144
+COMMENT: PROPOSED_MF SevenGoldenRules 0.171; C8H16N2O4; [M+H]+; delta(ppm) -0.171475; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.455; C8H16N2O4; [M+H]+; delta(ppm) -0.172803; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 44.905; C8H16N2O4; [M+H]+; delta(ppm) -0.172803; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C8H16N2O4; [M+H]+; delta(ppm) -0.172803; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 58.605; C8H16N2O4; [M+H]+; delta(ppm) -0.172803; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C8H16N2O4; [M+H]+; delta(ppm) -0.172803; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; ILVGMCVCQBJPSH-WDSKDSINSA-N; C8H16N2O4; Spectral Match to Ser-Val from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.400; ILVGMCVCQBJPSH; [M+H]+; Serylvaline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.860; ILVGMCVCQBJPSH-UHFFFAOYNA-N; [M+H]+; Serylvaline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.322; ILVGMCVCQBJPSH-WDSKDSINSA-N; [M+H]+; (2S)-2-[[(2S)-2-amino-3-hydroxypropanoyl]amino]-3-methylbutanoic acid; Ranking 5;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -2.120; ILVGMCVCQBJPSH; [M+H]+; serylvaline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.924; ILVGMCVCQBJPSH; [M+H]+; serylvaline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -13.641; ILVGMCVCQBJPSH; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.960; ILVGMCVCQBJPSH; [M+H]+; nan; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 2 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 5); Biological context by HMDB (HMDB0029052)
+CH$NAME: Serylvaline
+CH$NAME: 2-[[2-amino-3-hydroxypropanoyl]amino]-3-methylbutanoic acid
+CH$NAME: 2-[(2-amino-3-hydroxy-propanoyl)amino]-3-methyl-butyric acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C8H16N2O4
+CH$EXACT_MASS: 204.111007
+CH$SMILES: CC(C)C(C(=O)O)NC(=O)C(CO)N
+CH$IUPAC: InChI=1S/C8H16N2O4/c1-4(2)6(8(13)14)10-7(12)5(9)3-11/h4-6,11H,3,9H2,1-2H3,(H,10,12)(H,13,14)
+CH$LINK: HMDB HMDB0029052
+CH$LINK: INCHIKEY ILVGMCVCQBJPSH-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:18218242
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.518
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 205.118248
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0cdi-5910000000-37f94b2b742f5df4a056
+PK$ANNOTATION: m/z int mzPAF cor n
+  60.044481 830 f{C2H6N1O1}/1.51ppm,p-C6H11N1O3 0.9879 10
+  72.080883 412 f{C4H10N1}/1.49ppm,p-C4H7N1O4 0.9515 10
+  87.055223 48 f{C3H7N2O1}/-0.76ppm,p-C5H10O3 0.9394 10
+  114.091515 77 f{C6H12N1O1}/1.53ppm,p-C2H5N1O3 0.9636 10
+  118.086299 999 f{C5H12N1O2}/0.37ppm,p-C3H5N1O2 1.0000 10
+  159.112919 958 f{C7H15N2O2}/0.72ppm,p-C1H2O2 1.0000 10
+  187.107810 155 f{C8H15N2O3}/0.49ppm,p-H2O1 0.9636 10
+  205.118691 383 f{C8H17N2O4}/1.99ppm,p 1.0000 10
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  60.044481 830.00 830
+  72.080883 412.00 412
+  87.055223 48.00 48
+  114.091515 77.00 77
+  118.086299 999.00 999
+  159.112919 958.00 958
+  187.107810 155.00 155
+  205.118691 383.00 383
+//

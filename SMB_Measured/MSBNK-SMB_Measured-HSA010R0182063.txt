@@ -1,0 +1,86 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0182063
+RECORD_TITLE: Tyrosine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 15 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 182.081157; int 34.879; delta(ppm) 0.000133
+COMMENT: PROPOSED_MF SevenGoldenRules 0.066; C9H11NO3; [M+H]+; delta(ppm) -0.066271; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.714; C9H11NO3; [M+H]+; delta(ppm) -0.069509; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 65.834; C9H11NO3; [M+H]+; delta(ppm) -0.069509; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C9H11NO3; [M+H]+; delta(ppm) -0.069509; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 86.587; C9H11NO3; [M+H]+; delta(ppm) -0.069509; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H11NO3; [M+H]+; delta(ppm) -0.069509; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 12.000; OUYCCCASQSFEME-UHFFFAOYSA-N; C9H11NO3; Massbank:PT100563 L-Tyr(-)-alpha-Amino-p-hydroxyhydrocinnamic acidL-2-Amino-3-p-hydroxyphenylpropanoic acidL-Tyrosine(S)-2-Amino-3-(4-hydroxyphenyl)propionic acid4-Hydroxyphenylalanine(2S)-2-amino-3-(4-hydroxyphe; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; OUYCCCASQSFEME-QMMMGPOBSA-N; C9H11NO3; Spectral Match to L-Tyrosine from NIST14; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.940; OUYCCCASQSFEME; [M+H]+; L-Tyrosine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.074; OUYCCCASQSFEME-QMMMGPOBSA-N; [M+H]+; L-Tyrosine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.933; OUYCCCASQSFEME-QMMMGPOBSA-N; [M+H]+; L-Tyrosine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.953; OUYCCCASQSFEME-QMMMGPOBSA-N; [M+H]+; (2S)-2-amino-3-(4-hydroxyphenyl)propanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -3.198; OUYCCCASQSFEME; [M+H]+; tyrosine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.677; OUYCCCASQSFEME; [M+H]+; tyrosine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -93.218; OUYCCCASQSFEME; [M+H]+; L-Tyr; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.992; OUYCCCASQSFEME; [M+H]+; L-Tyr; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 15 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000158)
+CH$NAME: Tyrosine
+CH$NAME: Tyr
+CH$NAME: 2-amino-3-(4-hydroxyphenyl)propanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C9H11NO3
+CH$EXACT_MASS: 181.073893
+CH$SMILES: C1=CC(=CC=C1CC(C(=O)O)N)O
+CH$IUPAC: InChI=1S/C9H11NO3/c10-8(9(12)13)5-6-1-3-7(11)4-2-6/h1-4,8,11H,5,10H2,(H,12,13)
+CH$LINK: HMDB HMDB0000158
+CH$LINK: INCHIKEY OUYCCCASQSFEME-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:1153
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.248
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 182.081157
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001r-0900000000-4d272759ab3d0602c230
+PK$ANNOTATION: m/z int mzPAF cor n
+  84.080273 9 f{C5H10N1}/-5.98ppm,p-C4H2O3 0.6818 11
+  91.053960 24 f{C7H7}/-2.93ppm,p-C2H5N1O3 0.8393 15
+  95.048723 10 f{C6H7O1}/-4.40ppm,p-C3H5N1O2 0.8352 13
+  119.049178 95 f{C8H7O1}/0.31ppm,p-C1H5N1O2 0.7786 15
+  123.044041 165 f{C7H7O2}/-0.12ppm,p-C2H5N1O1 0.7643 15
+  136.075590 549 f{C8H10N1O1}/-0.74ppm,p-C1H2O2 0.8357 15
+  147.043942 86 f{C9H7O2}/-0.78ppm,p-H5N1O1 0.7750 15
+  165.054485 254 f{C9H9O3}/-0.82ppm,p-H3N1 0.7714 15
+  182.080110 999 f{C9H12N1O3}/-5.82ppm,p 1.0000 15
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  84.080273 9.00 9
+  91.053960 24.00 24
+  95.048723 10.00 10
+  119.049178 95.00 95
+  123.044041 165.00 165
+  136.075590 549.00 549
+  147.043942 86.00 86
+  165.054485 254.00 254
+  182.080110 999.00 999
+//

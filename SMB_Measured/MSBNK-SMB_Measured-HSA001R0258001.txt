@@ -1,0 +1,77 @@
+ACCESSION: MSBNK-SMB_Measured-HSA001R0258001
+RECORD_TITLE: Glycerophosphocholine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 54 product ion spectra among 22 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MB-POST
+COMMENT: DATASET_ID MPST000004
+COMMENT: DATASET_TITLE Annotation of various metabolites in SRM 1950 human serum
+COMMENT: DATASET_AUTHORS Masatomo Takahashi, Yoshihiro Izumi, Kyoshu University
+COMMENT: PRECURSOR_IN_MS1 mz 258.110147; int 25.024; delta(ppm) 0.003733
+COMMENT: PROPOSED_MF SevenGoldenRules 0.187; C8H20NO6P; [M+H]+; delta(ppm) 0.186696; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.438; C8H20NO6P; [M+H]+; delta(ppm) 0.182832; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 11.696; C8H20NO6P; [M+H]+; delta(ppm) 0.182832; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C8H20NO6P; [M+H]+; delta(ppm) 0.182832; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 18.661; C8H20NO6P; [M+H]+; delta(ppm) 0.182832; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.999; C8H20NO6P; [M+H]+; delta(ppm) 0.182832; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; SUHOQUVVVLNYQR-MRVPVSSYSA-N; C8H20NO6P; SN-GLYCERO-3-PHOSPHOCHOLINE; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; SUHOQUVVVLNYQR-QMMMGPOBSA-N; C8H20NO6P; SN-GLYCERO-3-PHOSPHOCHOLINE; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.462; SUHOQUVVVLNYQR; [M+H]+; Glycerophosphocholine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.405; SUHOQUVVVLNYQR-SVGMAFHSNA-N; [M+H]+; Glycerophosphocholine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.971; SUHOQUVVVLNYQR-SVGMAFHSNA-N; [M+H]+; Glycerophosphocholine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -12.374; SUHOQUVVVLNYQR; [M+H]+; Gliatilin (TN); Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.553; SUHOQUVVVLNYQR; [M+H]+; Gliatilin (TN); Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -25.797; SUHOQUVVVLNYQR; [M+H]+; 2-[2,3-bis(16O)(oxidanyl)propoxy-(16O)oxidanyl(31P)(31P)(16O)(31P)(16O)(16O)(31P)(16O)(16O)(16O)phosphoryl]oxyethyl-tri((112C)methyl)(14N)azanium; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.737; SUHOQUVVVLNYQR; [M+H]+; 2-[2,3-bis(16O)(oxidanyl)propoxy-(16O)oxidanyl(31P)(31P)(16O)(31P)(16O)(16O)(31P)(16O)(16O)(16O)phosphoryl]oxyethyl-tri((112C)methyl)(14N)azanium; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2); Biological context by HMDB (HMDB0000086)
+CH$NAME: Glycerophosphocholine
+CH$NAME: glyceryl 2-(trimethylammonio)ethyl phosphate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C8H20NO6P
+CH$EXACT_MASS: 257.102824
+CH$SMILES: C[N+](C)(C)CCOP(=O)([O-])OCC(CO)O
+CH$IUPAC: InChI=1S/C8H20NO6P/c1-9(2,3)4-5-14-16(12,13)15-7-8(11)6-10/h8,10-11H,4-7H2,1-3H3
+CH$LINK: HMDB HMDB0000086
+CH$LINK: INCHIKEY SUHOQUVVVLNYQR-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:11234
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Nexera X2 UHPLC system, Shimadzu - Q Exactive Orbitrap, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 V
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME GL-HilicAex 2.1 x 150 mm, 5 mm (Resonac)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 15.5 min: 40, 16.5 min: 0, 26.5 min: 0, 27.5 min: 95, 35 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.459
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 258.110146
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0pb9-0790000000-cbe3ed6759bc858f480d
+PK$ANNOTATION: m/z int mzPAF cor n
+  86.096394 16 f{C5H12N1}/-0.37ppm,p-C3H9O6P1 0.7754 52
+  104.107014 840 f{C5H14N1O1}/0.23ppm,p-C3H7O5P1 0.9873 54
+  124.999868 19 f{C2H6O4P1}/0.38ppm,p-C6H15N1O2 0.7681 53
+  184.073359 22 f{C5H15N1O4P1}/0.21ppm,p-C3H6O2 0.8747 54
+  258.110089 999 f{C8H21N1O6P1}/-0.04ppm,p 1.0000 54
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  86.096394 16.00 16
+  104.107014 840.00 840
+  124.999868 19.00 19
+  184.073359 22.00 22
+  258.110089 999.00 999
+//

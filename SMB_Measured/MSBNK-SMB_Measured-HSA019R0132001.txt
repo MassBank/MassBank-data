@@ -1,0 +1,73 @@
+ACCESSION: MSBNK-SMB_Measured-HSA019R0132001
+RECORD_TITLE: Aspartic acid; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 590 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 132.030219; int 31.018; delta(ppm) 0.030305
+COMMENT: PROPOSED_MF SevenGoldenRules 0.128; C4H7NO4; [M-H]1; delta(ppm) -0.127784; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.842; C4H7NO4; [M-H]-; delta(ppm) -0.123357; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 24.388; C4H7NO4; [M-H]-; delta(ppm) -0.123357; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C4H7NO4; [M-H]-; delta(ppm) -0.123357; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 29.999; C4H7NO4; [M-H]-; delta(ppm) -0.123357; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C4H7NO4; [M-H]-; delta(ppm) -0.123357; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.286; CKLJMWTZIZZHCS; [M-H]-; L-Aspartic acid; Ranking 4;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.697; CKLJMWTZIZZHCS-REOHCLBHSA-N; [M-H]-; L-Aspartic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.848; CKLJMWTZIZZHCS-REOHCLBHSA-N; [M-H]-; L-Aspartic acid; Ranking 7;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.827; CKLJMWTZIZZHCS-REOHCLBHSA-N; [M-H]-; (2S)-2-aminobutanedioic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -20.459; CKLJMWTZIZZHCS; [M-H]-; aspartate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.519; CKLJMWTZIZZHCS; [M-H]-; aspartate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -42.737; CKLJMWTZIZZHCS; [M-H]-; L-Asp; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.641; CKLJMWTZIZZHCS; [M-H]-; L-Asp; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 7), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000191)
+CH$NAME: Aspartic acid
+CH$NAME: Asp
+CH$NAME: 2-aminobutanedioic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C4H7NO4
+CH$EXACT_MASS: 133.037508
+CH$SMILES: C(C(C(=O)O)N)C(=O)O
+CH$IUPAC: InChI=1S/C4H7NO4/c5-2(4(8)9)1-3(6)7/h2H,1,5H2,(H,6,7)(H,8,9)
+CH$LINK: HMDB HMDB0000191
+CH$LINK: INCHIKEY CKLJMWTZIZZHCS-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:424
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.50; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Xbridge BEH HILIC (75 x 2.1mm,2.5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min-85% B, 2 min-10% B, 14 min- 10% B, 14.1 min- 85% B, 16 min- 85%B.
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.353
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 132.030215
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03k9-4900000000-f7f2c77061234b7fc370
+PK$ANNOTATION: m/z int mzPAF cor n
+  70.029831 262 f{C3H4N1O1}/-0.10ppm,p-C1H2O3 0.9633 589
+  72.993116 271 f{C2H1O3}/-0.02ppm,p-C2H5N1O1 0.9562 590
+  114.019705 999 f{C4H4N1O3}/0.34ppm,p-H2O1 0.9697 590
+  132.030187 172 f{C4H6N1O4}/-0.34ppm,p 1.0000 578
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  70.029831 262.00 262
+  72.993116 271.00 271
+  114.019705 999.00 999
+  132.030187 172.00 172
+//

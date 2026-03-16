@@ -1,0 +1,80 @@
+ACCESSION: MSBNK-SMB_Measured-HSA022R0384000
+RECORD_TITLE: Succinyladenosine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 345 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 384.114900; int 220.291; delta(ppm) -0.002495
+COMMENT: PROPOSED_MF SevenGoldenRules 0.230; C14H17N5O8; [M+H]+; delta(ppm) -0.229700; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.700; C14H17N5O8; [M+H]+; delta(ppm) -0.229065; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 25.791; C14H17N5O8; [M+H]+; delta(ppm) -0.229065; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C14H17N5O8; [M+H]+; delta(ppm) -0.229065; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 42.154; C14H17N5O8; [M+H]+; delta(ppm) -0.229065; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C14H17N5O8; [M+H]+; delta(ppm) -0.229065; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.638; VKGZCEJTCKHMRL; [M+H]+; Succinyladenosine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.285; VKGZCEJTCKHMRL-DMBDNJCHNA-N; [M+H]+; Succinyladenosine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; VKGZCEJTCKHMRL-DMBDNJCHNA-N; [M+H]+; Succinyladenosine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; VKGZCEJTCKHMRL-VWJPMABRSA-N; [M+H]+; (2S)-2-[[9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]purin-6-yl]amino]butanedioic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -13.281; VKGZCEJTCKHMRL; [M+H]+; Succinoadenosine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.791; VKGZCEJTCKHMRL; [M+H]+; Succinoadenosine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -37.233; VKGZCEJTCKHMRL; [M+H]+; 2-({9-[3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-9H-purin-6-yl}amino)butanedioic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.822; VKGZCEJTCKHMRL; [M+H]+; 2-({9-[3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-9H-purin-6-yl}amino)butanedioic acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000912)
+CH$NAME: Succinyladenosine
+CH$NAME: 2-[[9-(3,4-dihydroxy-5-methylol-tetrahydrofuran-2-yl)purin-6-yl]amino]succinic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C14H17N5O8
+CH$EXACT_MASS: 383.107713
+CH$SMILES: C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)CO)O)O)NC(CC(=O)O)C(=O)O
+CH$IUPAC: InChI=1S/C14H17N5O8/c20-2-6-9(23)10(24)13(27-6)19-4-17-8-11(15-3-16-12(8)19)18-5(14(25)26)1-7(21)22/h3-6,9-10,13,20,23-24H,1-2H2,(H,21,22)(H,25,26)(H,15,16,18)
+CH$LINK: HMDB HMDB0000912
+CH$LINK: INCHIKEY VKGZCEJTCKHMRL-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:14803430
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.474
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 384.114901
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0udi-0391000000-89180377335a077f59ba
+PK$ANNOTATION: m/z int mzPAF cor n
+  136.061754 117 f{C5H6N5}/-0.13ppm,p-C9H12O8 0.9709 340
+  162.077384 205 f{C7H8N5}/-0.24ppm,p-C7H10O8 0.9765 345
+  188.056592 70 f{C8H6N5O1}/-0.50ppm,p-C6H12O7 0.9593 320
+  192.051532 112 f{C7H6N5O2}/-0.36ppm,p-C7H12O6 0.9700 338
+  206.067126 69 f{C8H8N5O2}/-0.60ppm,p-C6H10O6 0.9598 315
+  234.062082 98 f{C9H8N5O3}/-0.36ppm,p-C5H10O5 0.9674 340
+  252.072648 999 f{C9H10N5O4}/-0.33ppm,p-C5H8O4 0.9865 345
+  384.114742 133 f{C14H18N5O8}/-0.64ppm,p 1.0000 340
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  136.061754 117.00 117
+  162.077384 205.00 205
+  188.056592 70.00 70
+  192.051532 112.00 112
+  206.067126 69.00 69
+  234.062082 98.00 98
+  252.072648 999.00 999
+  384.114742 133.00 133
+//

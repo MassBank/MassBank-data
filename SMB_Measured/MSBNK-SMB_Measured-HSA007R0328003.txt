@@ -1,0 +1,82 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0328003
+RECORD_TITLE: 5''-O-Prop-2-Yn-1-Yladenosine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 20 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 328.102226; int 919.832; delta(ppm) -1.295376
+COMMENT: PROPOSED_MF SevenGoldenRules 0.128; C14H17NO8; [M+H]+; delta(ppm) -0.128403; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 4.188; C14H17NO8; [M+H]+; delta(ppm) -0.127879; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 27.995; C14H17NO8; [M+H]+; delta(ppm) -0.127879; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C14H17NO8; [M+H]+; delta(ppm) -0.127879; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 48.629; C14H17NO8; [M+H]+; delta(ppm) -0.127879; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C14H17NO8; [M+H]+; delta(ppm) -0.127879; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.612; IPROLSVTVHAQLE; [M+H]+; Acetaminophen glucuronide; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.214; IPROLSVTVHAQLE-BYNIDDHOSA-N; [M+H]+; Acetaminophen glucuronide; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; IPROLSVTVHAQLE-BYNIDDHOSA-N; [M+H]+; Acetaminophen glucuronide; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; IPROLSVTVHAQLE-BYNIDDHOSA-N; [M+H]+; (2S,3S,4S,5R,6S)-6-(4-acetamidophenoxy)-3,4,5-trihydroxyoxane-2-carboxylic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -10.035; IPROLSVTVHAQLE; [M+H]+; Oprea1_246712; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.672; IPROLSVTVHAQLE; [M+H]+; Oprea1_246712; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -40.502; IPROLSVTVHAQLE; [M+H]+; 6-(4-acetamidophenoxy)-3,4,5-trihydroxyoxane-2-carboxylic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.764; IPROLSVTVHAQLE; [M+H]+; 6-(4-acetamidophenoxy)-3,4,5-trihydroxyoxane-2-carboxylic acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 9); Biological context by HMDB (HMDB0010316)
+CH$NAME: 5''-O-Prop-2-Yn-1-Yladenosine
+CH$NAME: 6-(4-acetamidophenoxy)-3,4,5-trihydroxy-tetrahydropyran-2-carboxylic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C14H17NO8
+CH$EXACT_MASS: 327.095416
+CH$SMILES: CC(=O)NC1=CC=C(C=C1)OC2C(C(C(C(O2)C(=O)O)O)O)O
+CH$IUPAC: InChI=1S/C14H17NO8/c1-6(16)15-7-2-4-8(5-3-7)22-14-11(19)9(17)10(18)12(23-14)13(20)21/h2-5,9-12,14,17-19H,1H3,(H,15,16)(H,20,21)
+CH$LINK: HMDB HMDB0010316
+CH$LINK: INCHIKEY IPROLSVTVHAQLE-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4022661
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.880
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 328.102651
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0udi-0900000000-bc1aa9bf83e421a1cbda
+PK$ANNOTATION: m/z int mzPAF cor n
+  71.012344 11 f{C3H3O2}/-5.79ppm,p-C11H15N1O6 0.9481 16
+  73.028437 20 f{C3H5O2}/0.42ppm,p-C11H13N1O6 0.9736 15
+  85.028422 54 f{C4H5O2}/0.19ppm,p-C10H13N1O6 0.9761 18
+  95.012330 24 f{C5H3O2}/-4.48ppm,p-C9H15N1O6 0.9517 16
+  110.060169 242 f{C6H8N1O1}/1.16ppm,p-C8H10O7 1.0000 19
+  113.023122 45 f{C5H5O3}/-1.76ppm,p-C9H13N1O5 0.9859 18
+  141.018450 55 f{C6H5O4}/1.52ppm,p-C8H13N1O4 0.9543 20
+  152.070495 999 f{C8H10N1O2}/-0.72ppm,p-C6H8O6 0.9961 20
+  159.028016 21 f{C6H7O5}/-4.93ppm,p-C8H11N1O3 0.9587 19
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  71.012344 11.00 11
+  73.028437 20.00 20
+  85.028422 54.00 54
+  95.012330 24.00 24
+  110.060169 242.00 242
+  113.023122 45.00 45
+  141.018450 55.00 55
+  152.070495 999.00 999
+  159.028016 21.00 21
+//

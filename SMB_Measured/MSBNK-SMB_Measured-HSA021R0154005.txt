@@ -1,0 +1,85 @@
+ACCESSION: MSBNK-SMB_Measured-HSA021R0154005
+RECORD_TITLE: Histidine; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 62 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 154.062192; int 12.390; delta(ppm) -0.187987
+COMMENT: PROPOSED_MF SevenGoldenRules 0.129; C6H9N3O2; [M-H]1; delta(ppm) 0.128974; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.372; C6H9N3O2; [M-H]-; delta(ppm) 0.135521; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 60.558; C6H9N3O2; [M-H]-; delta(ppm) 0.135521; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H9N3O2; [M-H]-; delta(ppm) 0.135521; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 81.312; C6H9N3O2; [M-H]-; delta(ppm) 0.135521; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H9N3O2; [M-H]-; delta(ppm) 0.135521; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.590; HNDVDQJCIGZPNO; [M-H]-; L-Histidine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.245; HNDVDQJCIGZPNO-YFKPBYRVSA-N; [M-H]-; L-Histidine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.998; HNDVDQJCIGZPNO-YFKPBYRVSA-N; [M-H]-; L-Histidine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.998; HNDVDQJCIGZPNO-YFKPBYRVSA-N; [M-H]-; (2S)-2-amino-3-(1H-imidazol-5-yl)propanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.642; HNDVDQJCIGZPNO; [M-H]-; histidin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.930; HNDVDQJCIGZPNO; [M-H]-; histidin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -5.087; HNDVDQJCIGZPNO; [M-H]-; L-His; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.932; HNDVDQJCIGZPNO; [M-H]-; L-His; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000177)
+CH$NAME: Histidine
+CH$NAME: His
+CH$NAME: 2-amino-3-(1H-imidazol-5-yl)propionic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H9N3O2
+CH$EXACT_MASS: 155.069477
+CH$SMILES: C1=C(NC=N1)CC(C(=O)O)N
+CH$IUPAC: InChI=1S/C6H9N3O2/c7-5(6(10)11)1-4-2-8-3-9-4/h2-3,5H,1,7H2,(H,8,9)(H,10,11)
+CH$LINK: HMDB HMDB0000177
+CH$LINK: INCHIKEY HNDVDQJCIGZPNO-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:773
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 2.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.722
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 154.062221
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0udl-7900000000-90fb2f0065ef6522cc0d
+PK$ANNOTATION: m/z int mzPAF cor n
+  67.030044 58 f{C3H3N2}/-1.91ppm,p-C3H5N1O2 0.7922 45
+  72.008992 70 f{C2H2N1O2}/-1.53ppm,p-C4H6N2 0.7871 49
+  80.037948 105 f{C4H4N2}/-0.61ppm,p-C2H4N1O2 0.8307 59
+  81.045806 164 f{C4H5N2}/-0.20ppm,p-C2H3N1O2 0.8882 62
+  93.045978 965 f{C5H5N2}/1.67ppm,p-C1H3N1O2 0.9404 62
+  108.056731 81 f{C5H6N3}/0.10ppm,p-C1H2O2 0.7740 57
+  110.072389 151 f{C5H8N3}/0.16ppm,p-C1O2 0.8425 62
+  136.051602 94 f{C6H6N3O1}/-0.25ppm,p-H2O1 0.8063 59
+  137.035772 389 f{C6H5N2O2}/0.88ppm,p-H3N1 0.9313 62
+  154.062322 999 f{C6H8N3O2}/0.79ppm,p 1.0000 62
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  67.030044 58.00 58
+  72.008992 70.00 70
+  80.037948 105.00 105
+  81.045806 164.00 164
+  93.045978 965.00 965
+  108.056731 81.00 81
+  110.072389 151.00 151
+  136.051602 94.00 94
+  137.035772 389.00 389
+  154.062322 999.00 999
+//

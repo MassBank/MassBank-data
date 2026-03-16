@@ -1,0 +1,74 @@
+ACCESSION: MSBNK-SMB_Measured-HSA020R0162006
+RECORD_TITLE: Allylcysteine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 47 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 162.058314; int 53.100; delta(ppm) -0.018546
+COMMENT: PROPOSED_MF SevenGoldenRules 0.050; C6H11NO2S; [M+H]+; delta(ppm) -0.049674; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.343; C6H11NO2S; [M+H]+; delta(ppm) -0.049576; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 36.381; C6H11NO2S; [M+H]+; delta(ppm) -0.049576; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H11NO2S; [M+H]+; delta(ppm) -0.049576; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 44.649; C6H11NO2S; [M+H]+; delta(ppm) -0.049576; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H11NO2S; [M+H]+; delta(ppm) -0.049576; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.762; ZFAHNWWNDFHPOH; [M+H]+; S-Allylcysteine; Ranking 4;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.062; ZFAHNWWNDFHPOH-UHFFFAOYNA-N; [M+H]+; S-Allylcysteine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; ZFAHNWWNDFHPOH-UHFFFAOYNA-N; [M+H]+; S-Allylcysteine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; ZFAHNWWNDFHPOH-YFKPBYRVSA-N; [M+H]+; (2R)-2-amino-3-prop-2-enylsulfanylpropanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -13.012; ZFAHNWWNDFHPOH; [M+H]+; S-Allylcysteine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.734; ZFAHNWWNDFHPOH; [M+H]+; S-Allylcysteine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -35.416; ZFAHNWWNDFHPOH; [M+H]+; S-Allylcysteine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.873; ZFAHNWWNDFHPOH; [M+H]+; S-Allylcysteine; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0034323)
+CH$NAME: Allylcysteine
+CH$NAME: 3-(allylthio)-2-amino-propionic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H11NO2S
+CH$EXACT_MASS: 161.051050
+CH$SMILES: C=CCSCC(C(=O)O)N
+CH$IUPAC: InChI=1S/C6H11NO2S/c1-2-3-10-4-5(7)6(8)9/h2,5H,1,3-4,7H2,(H,8,9)
+CH$LINK: HMDB HMDB0034323
+CH$LINK: INCHIKEY ZFAHNWWNDFHPOH-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:98280
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 2.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Xbridge BEH HILIC (75 x 2.1mm,2.5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min-85% B, 2 min-10% B, 14 min- 10% B, 14.1 min- 85% B, 16 min- 85%B.
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.885
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 162.058318
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00dj-9300000000-90c5c6b9f9feedbe44dd
+PK$ANNOTATION: m/z int mzPAF cor n
+  73.010698 999 f{C3H5S1}/0.69ppm,p-C3H7N1O2 0.9547 47
+  86.989765 108 f{C3H3O1S1}/-1.69ppm,p-C3H9N1O1 0.7186 38
+  99.026251 266 f{C5H7S1}/-0.47ppm,p-C1H5N1O2 0.8779 47
+  116.052663 107 f{C5H10N1S1}/-1.58ppm,p-C1H2O2 0.6251 40
+  145.031793 455 f{C6H9O2S1}/0.11ppm,p-H3N1 1.0000 47
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  73.010698 999.00 999
+  86.989765 108.00 108
+  99.026251 266.00 266
+  116.052663 107.00 107
+  145.031793 455.00 455
+//

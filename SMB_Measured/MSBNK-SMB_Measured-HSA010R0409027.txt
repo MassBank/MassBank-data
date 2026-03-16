@@ -1,0 +1,79 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0409027
+RECORD_TITLE: 3a,7a,12b-Trihydroxy-5b-cholanoic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 11 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 409.294777; int 11.599; delta(ppm) -0.001187
+COMMENT: PROPOSED_MF SevenGoldenRules 0.179; C24H40O5; [M+H]+; delta(ppm) -0.178796; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.058; C24H40O5; [M+H]+; delta(ppm) -0.180354; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 17.324; C24H40O5; [M+H]+; delta(ppm) -0.180354; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C24H40O5; [M+H]+; delta(ppm) -0.180354; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 29.298; C24H40O5; [M+H]+; delta(ppm) -0.180354; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C24H40O5; [M+H]+; delta(ppm) -0.180354; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 27.000; BHQCQFFYRZLCQQ-OELDTZBJSA-N; C24H40O5; Spectral Match to Cholic acid from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 12.000; BHQCQFFYRZLCQQ-UTLSPDKDSA-N; C24H40O5; URSOCHOLIC ACID; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 4.000; BHQCQFFYRZLCQQ-UHFFFAOYSA-N; C24H40O5; CholicAcid; Ranking 4;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; BHQCQFFYRZLCQQ-KRHHAYMPSA-N; C24H40O5; (R)-4-((3R,5S,7R,8R,9S,10S,12R,13R,14S,17R)-3,7,12-trihydroxy-10,13-dimethylhexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoic acid; Ranking 6;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.710; BHQCQFFYRZLCQQ-QJNZGMAZNA-N; [M+H]+; 3a,7a,12b-Trihydroxy-5b-cholanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.000; BHQCQFFYRZLCQQ-QJNZGMAZNA-N; [M+H]+; 3a,7a,12b-Trihydroxy-5b-cholanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.000; BHQCQFFYRZLCQQ-OELDTZBJSA-N; [M+H]+; (4R)-4-[(3R,5S,7R,8R,9S,10S,12S,13R,14S,17R)-3,7,12-trihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl]pentanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -5.814; BHQCQFFYRZLCQQ; [M+H]+; Cholalin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.384; BHQCQFFYRZLCQQ; [M+H]+; Cholalin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -33.900; BHQCQFFYRZLCQQ; [M+H]+; Cholate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.950; BHQCQFFYRZLCQQ; [M+H]+; Cholate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 43 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000312)
+CH$NAME: 3a,7a,12b-Trihydroxy-5b-cholanoic acid
+CH$NAME: Cholate
+CH$NAME: 4-(3,7,12-trihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl)valeric acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C24H40O5
+CH$EXACT_MASS: 408.287574
+CH$SMILES: CC(CCC(=O)O)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C
+CH$IUPAC: InChI=1S/C24H40O5/c1-13(4-7-21(28)29)16-5-6-17-22-18(12-20(27)24(16,17)3)23(2)9-8-15(25)10-14(23)11-19(22)26/h13-20,22,25-27H,4-12H2,1-3H3,(H,28,29)
+CH$LINK: HMDB HMDB0000312
+CH$LINK: INCHIKEY BHQCQFFYRZLCQQ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:303
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 14.100
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 409.294777
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0a4i-0009000000-09bc0bae347ceb757ca9
+PK$ANNOTATION: m/z int mzPAF cor n
+  159.116889 70 f{C12H15}/0.39ppm,p-C12H26O5 0.7381 11
+  185.132146 36 f{C14H17}/-1.79ppm,p-C10H24O5 0.7143 11
+  211.148265 21 f{C16H19}/0.65ppm,p-C8H22O5 0.8286 9
+  213.164200 76 f{C16H21}/1.98ppm,p-C8H20O5 0.6905 11
+  355.263237 999 f{C24H35O2}/0.23ppm,p-H6O3 0.6905 11
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  159.116889 70.00 70
+  185.132146 36.00 36
+  211.148265 21.00 21
+  213.164200 76.00 76
+  355.263237 999.00 999
+//

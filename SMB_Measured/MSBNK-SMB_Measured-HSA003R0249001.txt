@@ -1,0 +1,73 @@
+ACCESSION: MSBNK-SMB_Measured-HSA003R0249001
+RECORD_TITLE: Valyl-Methionine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 33 product ion spectra among 52 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002338
+COMMENT: DATASET_TITLE Interplay Between Cruciferous Vegetables and the Gut Microbiome: A Multi-Omic Approach
+COMMENT: DATASET_AUTHORS Bouranis John, Oregon State University
+COMMENT: PRECURSOR_IN_MS1 mz 249.127237; int 51.519; delta(ppm) -0.333184
+COMMENT: PROPOSED_MF MS-FINDER 3.824; C10H20N2O3S; [M+H]+; delta(ppm) 2.328330; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 23.746; C10H20N2O3S; [M+H]+; delta(ppm) 2.328330; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C10H20N2O3S; [M+H]+; delta(ppm) 2.328330; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 37.915; C10H20N2O3S; [M+H]+; delta(ppm) 2.328330; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C10H20N2O3S; [M+H]+; delta(ppm) 2.328330; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.066; YSGSDAIMSCVPHG; [M+H]+; Valyl-Methionine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.883; YSGSDAIMSCVPHG-UHFFFAOYNA-N; [M+H]+; Valyl-Methionine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.693; YSGSDAIMSCVPHG; [M+H]+; valylmethionine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.998; YSGSDAIMSCVPHG; [M+H]+; valylmethionine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -89.645; YSGSDAIMSCVPHG; [M+H]+; 2-(2-amino-3-methylbutanamido)-4-(methylsulfanyl)butanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 1.000; YSGSDAIMSCVPHG; [M+H]+; 2-(2-amino-3-methylbutanamido)-4-(methylsulfanyl)butanoic acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0029133)
+CH$NAME: Valyl-Methionine
+CH$NAME: 2-(2-amino-3-methylbutanamido)-4-(methylsulfanyl)butanoic acid
+CH$NAME: 2-[(2-amino-3-methylbutanoyl)amino]-4-methylsulfanylbutanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C10H20N2O3S
+CH$EXACT_MASS: 248.119464
+CH$SMILES: CC(C)C(C(=O)NC(CCSC)C(=O)O)N
+CH$IUPAC: InChI=1S/C10H20N2O3S/c1-6(2)8(11)9(13)12-7(10(14)15)4-5-16-3/h6-8H,4-5,11H2,1-3H3,(H,12,13)(H,14,15)
+CH$LINK: HMDB HMDB0029133
+CH$LINK: INCHIKEY YSGSDAIMSCVPHG-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:292427
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cultured cells
+AC$INSTRUMENT: ABI Sciex 5600 TripleTOF
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME GL Sciences Inertsil1 Phenyl-3 (4.6 x 150mm,5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient started with 5% B and was held for 1 min at 5% B, followed by a 11-min linear gradient from 5% to 30% B. The gradient was increased linearly to 100% B at 23 min, held for 5 min at 100% B and, finally, stepped back to 5% B to equilibrate the column.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 10.033
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 249.127320
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-05fr-9100000000-b72cf736ee2317b165fc
+PK$ANNOTATION: m/z int mzPAF cor n
+  55.054342 446 f{C4H7}/2.09ppm,p-C6H14N2O3S1 0.8379 33
+  56.049349 112 f{C3H6N1}/-2.27ppm,p-C7H15N1O3S1 0.6308 31
+  72.080782 999 f{C4H10N1}/0.08ppm,p-C6H11N1O3S1 1.0000 33
+  104.052760 102 f{C4H10N1S1}/-0.84ppm,p-C6H11N1O3 0.7023 31
+  133.031004 113 f{C5H9O2S1}/-5.81ppm,p-C5H12N2O1 0.6368 29
+  150.057838 85 f{C5H12N1O2S1}/-3.25ppm,p-C5H9N1O1 0.5189 26
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  55.054342 446.00 446
+  56.049349 112.00 112
+  72.080782 999.00 999
+  104.052760 102.00 102
+  133.031004 113.00 113
+  150.057838 85.00 85
+//

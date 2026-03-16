@@ -1,0 +1,83 @@
+ACCESSION: MSBNK-SMB_Measured-HSA019R0154000
+RECORD_TITLE: Histidine; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 4477 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 154.062188; int 393.979; delta(ppm) 0.013036
+COMMENT: PROPOSED_MF SevenGoldenRules 0.097; C6H9N3O2; [M-H]1; delta(ppm) -0.096731; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.944; C6H9N3O2; [M-H]-; delta(ppm) -0.091660; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 40.867; C6H9N3O2; [M-H]-; delta(ppm) -0.091660; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H9N3O2; [M-H]-; delta(ppm) -0.091660; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 54.501; C6H9N3O2; [M-H]-; delta(ppm) -0.091660; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H9N3O2; [M-H]-; delta(ppm) -0.091660; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 16.000; HNDVDQJCIGZPNO-YFKPBYRVSA-N; C6H9N3O2; L-Histidine - 40.0 eV; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 4.000; HNDVDQJCIGZPNO-UHFFFAOYSA-N; C6H9N3O2; Massbank:PT200510 (2S)-2-amino-3-(3H-imidazol-4-yl)propanoic acidL-HistidineGlyoxaline-5-alanineL-alpha-Amino-beta-imidazolepropionic Acid(S)-2-Amino-3-(4-imidazolyl)propionic acidL-His; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.641; HNDVDQJCIGZPNO; [M-H]-; L-Histidine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.329; HNDVDQJCIGZPNO-YFKPBYRVSA-N; [M-H]-; L-Histidine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; HNDVDQJCIGZPNO-YFKPBYRVSA-N; [M-H]-; L-Histidine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; HNDVDQJCIGZPNO-YFKPBYRVSA-N; [M-H]-; (2S)-2-amino-3-(1H-imidazol-5-yl)propanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.924; HNDVDQJCIGZPNO; [M-H]-; histidin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.942; HNDVDQJCIGZPNO; [M-H]-; histidin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -9.251; HNDVDQJCIGZPNO; [M-H]-; L-His; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.936; HNDVDQJCIGZPNO; [M-H]-; L-His; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 20 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000177)
+CH$NAME: Histidine
+CH$NAME: His
+CH$NAME: 2-amino-3-(1H-imidazol-5-yl)propionic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H9N3O2
+CH$EXACT_MASS: 155.069477
+CH$SMILES: C1=C(NC=N1)CC(C(=O)O)N
+CH$IUPAC: InChI=1S/C6H9N3O2/c7-5(6(10)11)1-4-2-8-3-9-4/h2-3,5H,1,7H2,(H,8,9)(H,10,11)
+CH$LINK: HMDB HMDB0000177
+CH$LINK: INCHIKEY HNDVDQJCIGZPNO-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:773
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.50; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Xbridge BEH HILIC (75 x 2.1mm,2.5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min-85% B, 2 min-10% B, 14 min- 10% B, 14.1 min- 85% B, 16 min- 85%B.
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.278
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 154.062186
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0f6x-6900000000-404d808dbe6bf463fbb0
+PK$ANNOTATION: m/z int mzPAF cor n
+  80.037980 106 f{C4H4N2}/-0.20ppm,p-C2H4N1O2 0.9689 3811
+  81.045835 177 f{C4H5N2}/0.16ppm,p-C2H3N1O2 0.9850 4248
+  93.045884 999 f{C5H5N2}/0.67ppm,p-C1H3N1O2 0.9952 4477
+  108.056751 82 f{C5H6N3}/0.28ppm,p-C1H2O2 0.9649 3395
+  110.072396 157 f{C5H8N3}/0.23ppm,p-C1O2 0.9833 4129
+  136.051572 98 f{C6H6N3O1}/-0.47ppm,p-H2O1 0.9720 3598
+  137.035636 387 f{C6H5N2O2}/-0.11ppm,p-H3N1 0.9913 4476
+  154.062187 940 f{C6H8N3O2}/-0.08ppm,p 1.0000 4477
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  80.037980 106.00 106
+  81.045835 177.00 177
+  93.045884 999.00 999
+  108.056751 82.00 82
+  110.072396 157.00 157
+  136.051572 98.00 98
+  137.035636 387.00 387
+  154.062187 940.00 940
+//

@@ -1,0 +1,76 @@
+ACCESSION: MSBNK-SMB_Measured-HSA019R0239005
+RECORD_TITLE: 3-Carboxy-4-methyl-5-propyl-2-furanpropionic acid; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 697 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 239.092499; int 508.263; delta(ppm) 0.016878
+COMMENT: PROPOSED_MF SevenGoldenRules 0.012; C12H16O5; [M-H]1; delta(ppm) -0.012495; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.579; C12H16O5; [M-H]-; delta(ppm) -0.009153; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 24.499; C12H16O5; [M-H]-; delta(ppm) -0.009153; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C12H16O5; [M-H]-; delta(ppm) -0.009153; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 34.278; C12H16O5; [M-H]-; delta(ppm) -0.009153; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C12H16O5; [M-H]-; delta(ppm) -0.009153; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; WMCQWXZMVIETAO-UHFFFAOYSA-N; C12H16O5; Spectral Match to CMPF from METLIN; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.374; WMCQWXZMVIETAO; [M-H]-; 3-Carboxy-4-methyl-5-propyl-2-furanpropionic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.014; WMCQWXZMVIETAO-UHFFFAOYSA-N; [M-H]-; 3-Carboxy-4-methyl-5-propyl-2-furanpropionic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; WMCQWXZMVIETAO-UHFFFAOYSA-N; [M-H]-; 3-Carboxy-4-methyl-5-propyl-2-furanpropionic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.288; WMCQWXZMVIETAO-UHFFFAOYSA-N; [M-H]-; 2-(2-carboxyethyl)-4-methyl-5-propylfuran-3-carboxylic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -17.483; WMCQWXZMVIETAO; [M-H]-; Cmpfpa; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.783; WMCQWXZMVIETAO; [M-H]-; Cmpfpa; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -16.716; WMCQWXZMVIETAO; [M-H]-; Cmpf; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.356; WMCQWXZMVIETAO; [M-H]-; Cmpf; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS5_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 3 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0061112)
+CH$NAME: 3-Carboxy-4-methyl-5-propyl-2-furanpropionic acid
+CH$NAME: Cmpfpa
+CH$NAME: 2-(2-carboxyethyl)-4-methyl-5-propylfuran-3-carboxylic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C12H16O5
+CH$EXACT_MASS: 240.099774
+CH$SMILES: CCCC1=C(C(=C(O1)CCC(=O)O)C(=O)O)C
+CH$IUPAC: InChI=1S/C12H16O5/c1-3-4-8-7(2)11(12(15)16)9(17-8)5-6-10(13)14/h3-6H2,1-2H3,(H,13,14)(H,15,16)
+CH$LINK: HMDB HMDB0061112
+CH$LINK: INCHIKEY WMCQWXZMVIETAO-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:123979
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.50; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Xbridge BEH HILIC (75 x 2.1mm,2.5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min-85% B, 2 min-10% B, 14 min- 10% B, 14.1 min- 85% B, 16 min- 85%B.
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.114
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 239.092495
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0f6t-0900000000-f498c79a1327adf8e667
+PK$ANNOTATION: m/z int mzPAF cor n
+  135.081508 40 f{C9H11O1}/-0.22ppm,p-C3H4O4 0.9800 543
+  149.097150 37 f{C10H13O1}/-0.26ppm,p-C2H2O4 0.9784 539
+  151.112817 602 f{C10H15O1}/-0.14ppm,p-C2O4 0.9949 697
+  195.102644 999 f{C11H15O3}/-0.12ppm,p-C1O2 0.9959 697
+  239.092472 169 f{C12H15O5}/-0.10ppm,p 1.0000 691
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  135.081508 40.00 40
+  149.097150 37.00 37
+  151.112817 602.00 602
+  195.102644 999.00 999
+  239.092472 169.00 169
+//

@@ -1,0 +1,78 @@
+ACCESSION: MSBNK-SMB_Measured-HSA015R0130000
+RECORD_TITLE: Pyroglutamic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 92 product ion spectra among 27 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS6402
+COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
+COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
+COMMENT: PRECURSOR_IN_MS1 mz 130.049828; int 217.460; delta(ppm) 0.000331
+COMMENT: PROPOSED_MF SevenGoldenRules 0.318; C5H7NO3; [M+H]+; delta(ppm) -0.317725; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.732; C5H7NO3; [M+H]+; delta(ppm) -0.319328; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 32.886; C5H7NO3; [M+H]+; delta(ppm) -0.319328; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C5H7NO3; [M+H]+; delta(ppm) -0.319328; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 35.971; C5H7NO3; [M+H]+; delta(ppm) -0.319328; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C5H7NO3; [M+H]+; delta(ppm) -0.319328; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 32.000; ODHCTXKNWHHXJC-UHFFFAOYSA-N; C5H7NO3; 5-OXO-D-PROLINE - 50.0 eV; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 32.000; ODHCTXKNWHHXJC-VKHMYHEASA-N; C5H7NO3; PYROGLUTAMIC ACID; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 12.000; ODHCTXKNWHHXJC-GSVOUGTGSA-N; C5H7NO3; D-Pyroglutamic acid CollisionEnergy:102040; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.811; ODHCTXKNWHHXJC; [M+H]+; Pyroglutamic acid; Ranking 9;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.666; ODHCTXKNWHHXJC-VKHMYHEASA-N; [M+H]+; Pyroglutamic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.974; ODHCTXKNWHHXJC-VKHMYHEASA-N; [M+H]+; Pyroglutamic acid; Ranking 4;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.974; ODHCTXKNWHHXJC-VKHMYHEASA-N; [M+H]+; (2S)-5-oxopyrrolidine-2-carboxylic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -10.443; ODHCTXKNWHHXJC; [M+H]+; Pidolate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.958; ODHCTXKNWHHXJC; [M+H]+; Pidolate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -69.324; ODHCTXKNWHHXJC; [M+H]+; Pidolic Acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.960; ODHCTXKNWHHXJC; [M+H]+; Pidolic Acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 76 spectra); Supported by CFM-ID:MsfinderDB (Ranking 9), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 4), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000267)
+CH$NAME: Pyroglutamic acid
+CH$NAME: Pidolic Acid
+CH$NAME: 5-oxopyrrolidine-2-carboxylic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C5H7NO3
+CH$EXACT_MASS: 129.042593
+CH$SMILES: C1CC(=O)NC1C(=O)O
+CH$IUPAC: InChI=1S/C5H7NO3/c7-4-2-1-3(6-4)5(8)9/h3H,1-2H2,(H,6,7)(H,8,9)
+CH$LINK: HMDB HMDB0000267
+CH$LINK: INCHIKEY ODHCTXKNWHHXJC-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:499
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Vanquish Flex UHPLC system, Thermo Fisher Scientific - Orbitrap Q Exactive Plus mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.50; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.204
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 130.049828
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-9000000000-fa33c49bede9671cd827
+PK$ANNOTATION: m/z int mzPAF cor n
+  56.049464 57 f{C3H6N1}/-0.21ppm,p-C2H2O3 0.9323 92
+  58.065099 26 f{C3H8N1}/-0.45ppm,p-C2O3 0.7202 74
+  84.044405 999 f{C4H6N1O1}/0.18ppm,p-C1H2O2 0.9799 92
+  85.028402 30 f{C4H5O2}/-0.04ppm,p-C1H3N1O1 0.9105 66
+  130.049839 98 f{C5H8N1O3}/-0.24ppm,p 1.0000 92
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  56.049464 57.00 57
+  58.065099 26.00 26
+  84.044405 999.00 999
+  85.028402 30.00 30
+  130.049839 98.00 98
+//

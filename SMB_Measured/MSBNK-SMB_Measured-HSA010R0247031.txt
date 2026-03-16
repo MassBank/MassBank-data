@@ -1,0 +1,85 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0247031
+RECORD_TITLE: Lenticin; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 18 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 247.144103; int 82.851; delta(ppm) -0.004360
+COMMENT: PROPOSED_MF SevenGoldenRules 0.004; C14H18N2O2; [M+H]+; delta(ppm) 0.004063; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.070; C14H18N2O2; [M+H]+; delta(ppm) 0.002974; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 25.760; C14H18N2O2; [M+H]+; delta(ppm) 0.002974; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C14H18N2O2; [M+H]+; delta(ppm) 0.002974; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 37.775; C14H18N2O2; [M+H]+; delta(ppm) 0.002974; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C14H18N2O2; [M+H]+; delta(ppm) 0.002974; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 7.000; AOHCBEAZXHZMOR-UHFFFAOYSA-N; C14H18N2O2; Hypaphorine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.967; AOHCBEAZXHZMOR; [M+H]+; Lenticin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.937; AOHCBEAZXHZMOR-UGPWUYPHNA-N; [M+H]+; Lenticin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.875; AOHCBEAZXHZMOR-UGPWUYPHNA-N; [M+H]+; Lenticin; Ranking 6;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -14.947; AOHCBEAZXHZMOR; [M+H]+; Lenticin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.891; AOHCBEAZXHZMOR; [M+H]+; Lenticin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -48.218; AOHCBEAZXHZMOR; [M+H]+; (2R)-3-(1H-indol-3-yl)-2-(trimethylazaniumyl)propanoate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.994; AOHCBEAZXHZMOR; [M+H]+; (2R)-3-(1H-indol-3-yl)-2-(trimethylazaniumyl)propanoate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 7 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 6); Biological context by HMDB (HMDB0061115)
+CH$NAME: Lenticin
+CH$NAME: 3-(1H-indol-3-yl)-2-(trimethylazaniumyl)propanoate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C14H18N2O2
+CH$EXACT_MASS: 246.136828
+CH$SMILES: C[N+](C)(C)C(CC1=CNC2=CC=CC=C21)C(=O)[O-]
+CH$IUPAC: InChI=1S/C14H18N2O2/c1-16(2,3)13(14(17)18)8-10-9-15-12-7-5-4-6-11(10)12/h4-7,9,13,15H,8H2,1-3H3
+CH$LINK: HMDB HMDB0061115
+CH$LINK: INCHIKEY AOHCBEAZXHZMOR-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:3861164
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.708
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 247.144105
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-1900000000-8c59de1d87979232920f
+PK$ANNOTATION: m/z int mzPAF cor n
+  60.080801 253 f{C3H10N1}/0.42ppm,p-C11H9N1O2 0.9560 17
+  118.065226 28 f{C8H8N1}/0.85ppm,p-C6H11N1O2 0.9516 18
+  120.081024 27 f{C8H10N1}/2.07ppm,p-C6H9N1O2 0.6176 18
+  142.065568 4 f{C10H8N1}/3.11ppm,p-C4H11N1O2 0.9451 15
+  144.080861 66 f{C10H10N1}/0.59ppm,p-C4H9N1O2 0.9780 18
+  146.060092 383 f{C9H8N1O1}/0.36ppm,p-C5H11N1O1 0.9648 18
+  160.075993 4 f{C10H10N1O1}/1.89ppm,p-C4H9N1O1 0.7483 15
+  170.059971 22 f{C11H8N1O1}/-0.41ppm,p-C3H11N1O1 0.9780 18
+  188.070620 999 f{C11H10N1O2}/0.08ppm,p-C3H9N1 0.9780 18
+  247.145805 66 f{C14H19N2O2}/6.88ppm,p 1.0000 14
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  60.080801 253.00 253
+  118.065226 28.00 28
+  120.081024 27.00 27
+  142.065568 4.00 4
+  144.080861 66.00 66
+  146.060092 383.00 383
+  160.075993 4.00 4
+  170.059971 22.00 22
+  188.070620 999.00 999
+  247.145805 66.00 66
+//

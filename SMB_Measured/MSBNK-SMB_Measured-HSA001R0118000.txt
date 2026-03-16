@@ -1,0 +1,72 @@
+ACCESSION: MSBNK-SMB_Measured-HSA001R0118000
+RECORD_TITLE: Betaine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 442 product ion spectra among 22 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MB-POST
+COMMENT: DATASET_ID MPST000004
+COMMENT: DATASET_TITLE Annotation of various metabolites in SRM 1950 human serum
+COMMENT: DATASET_AUTHORS Masatomo Takahashi, Yoshihiro Izumi, Kyoshu University
+COMMENT: PRECURSOR_IN_MS1 mz 118.086203; int 84.662; delta(ppm) 0.033774
+COMMENT: PROPOSED_MF SevenGoldenRules 0.478; C5H11NO2; [M+H]+; delta(ppm) -0.478310; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.774; C5H11NO2; [M+H]+; delta(ppm) -0.474519; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 6.167; C5H11NO2; [M+H]+; delta(ppm) -0.474519; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C5H11NO2; [M+H]+; delta(ppm) -0.474519; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 7.557; C5H11NO2; [M+H]+; delta(ppm) -0.474519; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C5H11NO2; [M+H]+; delta(ppm) -0.474519; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 123.000; KWIUHFFTVRNATP-UHFFFAOYSA-N; C5H11NO2; BETAINE; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 2.000; KWIUHFFTVRNATP; [M+H]+; Betaine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.732; KWIUHFFTVRNATP-UHFFFAOYSA-N; [M+H]+; Betaine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.931; KWIUHFFTVRNATP-UHFFFAOYSA-N; [M+H]+; Betaine; Ranking 4;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -15.000; KWIUHFFTVRNATP; [M+H]+; Abromine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.790; KWIUHFFTVRNATP; [M+H]+; Abromine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -62.307; KWIUHFFTVRNATP; [M+H]+; (carboxymethyl)trimethylazanium; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.881; KWIUHFFTVRNATP; [M+H]+; (carboxymethyl)trimethylazanium; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 123 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 4); Biological context by HMDB (HMDB0000043)
+CH$NAME: Betaine
+CH$NAME: 2-(trimethylazaniumyl)acetate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C5H11NO2
+CH$EXACT_MASS: 117.078979
+CH$SMILES: C[N+](C)(C)CC(=O)[O-]
+CH$IUPAC: InChI=1S/C5H11NO2/c1-6(2,3)4-5(7)8/h4H2,1-3H3
+CH$LINK: HMDB HMDB0000043
+CH$LINK: INCHIKEY KWIUHFFTVRNATP-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:247
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Nexera X2 UHPLC system, Shimadzu - Q Exactive Orbitrap, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 V
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME GL-HilicAex 2.1 x 150 mm, 5 mm (Resonac)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 15.5 min: 40, 16.5 min: 0, 26.5 min: 0, 27.5 min: 95, 35 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 22.243
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 118.086199
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-014i-0900000000-4eb32361a9c2336e9a22
+PK$ANNOTATION: m/z int mzPAF cor n
+  58.065124 54 f{C3H8N1}/-0.03ppm,p-C2H4O2 0.3364 442
+  59.072932 36 f{C3H9N1}/-0.31ppm,p-C2H3O2 0.3529 442
+  118.086286 999 f{C5H12N1O2}/0.26ppm,p 1.0000 442
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  58.065124 54.00 54
+  59.072932 36.00 36
+  118.086286 999.00 999
+//

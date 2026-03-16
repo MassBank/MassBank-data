@@ -1,0 +1,76 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0132111
+RECORD_TITLE: 4-Hydroxyproline; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 16 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 132.065534; int 20.274; delta(ppm) 0.261104
+COMMENT: PROPOSED_MF SevenGoldenRules 0.153; C5H9NO3; [M+H]+; delta(ppm) -0.152604; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.658; C5H9NO3; [M+H]+; delta(ppm) -0.155926; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 26.547; C5H9NO3; [M+H]+; delta(ppm) -0.155926; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C5H9NO3; [M+H]+; delta(ppm) -0.155926; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 34.131; C5H9NO3; [M+H]+; delta(ppm) -0.155926; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C5H9NO3; [M+H]+; delta(ppm) -0.155926; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 31.000; PMMYEEVYMWASQN-QWWZWVQMSA-N; C5H9NO3; CIS-4-HYDROXY-D-PROLINE - 60.0 eV; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 27.000; PMMYEEVYMWASQN-DMTCNVIQSA-N; C5H9NO3; L-Hydroxyproline - 30.0 eV; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 8.000; PMMYEEVYMWASQN-UHFFFAOYSA-N; C5H9NO3; Massbank:KNA00297 4-Hydroxy-L-prolineL-Hydroxyproline; Ranking 3;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 6.000; PMMYEEVYMWASQN-BKLSDQPFSA-N; C5H9NO3; TRANS-4-HYDROXY-L-PROLINE - 50.0 eV; Ranking 4;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.998; PMMYEEVYMWASQN; [M+H]+; 4-Hydroxyproline; Ranking 9;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.671; PMMYEEVYMWASQN-DMTCNVIQSA-N; [M+H]+; 4-Hydroxyproline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.991; PMMYEEVYMWASQN-DMTCNVIQSA-N; [M+H]+; 4-Hydroxyproline; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.829; PMMYEEVYMWASQN-DMTCNVIQSA-N; [M+H]+; (2S,4R)-4-hydroxypyrrolidine-2-carboxylic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -21.735; PMMYEEVYMWASQN; [M+H]+; L-Hypro-d3; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.508; PMMYEEVYMWASQN; [M+H]+; L-Hypro-d3; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -36.960; PMMYEEVYMWASQN; [M+H]+; Hypro; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.942; PMMYEEVYMWASQN; [M+H]+; Hypro; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 72 spectra); Supported by CFM-ID:MsfinderDB (Ranking 9), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000725)
+CH$NAME: 4-Hydroxyproline
+CH$NAME: Hypro
+CH$NAME: 4-hydroxypyrrolidine-2-carboxylic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C5H9NO3
+CH$EXACT_MASS: 131.058243
+CH$SMILES: C1C(CNC1C(=O)O)O
+CH$IUPAC: InChI=1S/C5H9NO3/c7-3-1-4(5(8)9)6-2-3/h3-4,6-7H,1-2H2,(H,8,9)
+CH$LINK: HMDB HMDB0000725
+CH$LINK: INCHIKEY PMMYEEVYMWASQN-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:825
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.667
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 132.065499
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-9000000000-54a033d92adcd528854a
+PK$ANNOTATION: m/z int mzPAF cor n
+  68.049614 210 f{C4H6N1}/2.04ppm,p-C1H4O3 1.0000 12
+  84.044409 224 f{C4H6N1O1}/0.23ppm,p-C1H4O2 0.6993 12
+  86.060135 999 f{C4H8N1O1}/1.10ppm,p-C1H2O2 0.7063 15
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  68.049614 210.00 210
+  84.044409 224.00 224
+  86.060135 999.00 999
+//

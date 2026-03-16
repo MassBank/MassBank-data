@@ -1,0 +1,74 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0132007
+RECORD_TITLE: Creatine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 17 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 132.076588; int 434.430; delta(ppm) -0.570907
+COMMENT: PROPOSED_MF SevenGoldenRules 0.687; C4H9N3O2; [M+H]+; delta(ppm) -0.686659; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.498; C4H9N3O2; [M+H]+; delta(ppm) -0.681310; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 21.088; C4H9N3O2; [M+H]+; delta(ppm) -0.681310; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C4H9N3O2; [M+H]+; delta(ppm) -0.681310; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 28.672; C4H9N3O2; [M+H]+; delta(ppm) -0.681310; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C4H9N3O2; [M+H]+; delta(ppm) -0.681310; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 8.000; CVSVTCORWBXHQV-UHFFFAOYSA-N; C4H9N3O2; CREATINE; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.221; CVSVTCORWBXHQV; [M+H]+; Creatine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.934; CVSVTCORWBXHQV-UHFFFAOYSA-N; [M+H]+; Creatine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; CVSVTCORWBXHQV-UHFFFAOYSA-N; [M+H]+; Creatine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; CVSVTCORWBXHQV-UHFFFAOYSA-N; [M+H]+; 2-[carbamimidoyl(methyl)amino]acetic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -31.935; CVSVTCORWBXHQV; [M+H]+; creatine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.601; CVSVTCORWBXHQV; [M+H]+; creatine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -28.988; CVSVTCORWBXHQV; [M+H]+; Creatin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.827; CVSVTCORWBXHQV; [M+H]+; Creatin; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 8 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000064)
+CH$NAME: Creatine
+CH$NAME: Creatin
+CH$NAME: 2-[carbamimidoyl(methyl)amino]acetic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C4H9N3O2
+CH$EXACT_MASS: 131.069477
+CH$SMILES: CN(CC(=O)O)C(=N)N
+CH$IUPAC: InChI=1S/C4H9N3O2/c1-7(4(5)6)2-3(8)9/h2H2,1H3,(H3,5,6)(H,8,9)
+CH$LINK: HMDB HMDB0000064
+CH$LINK: INCHIKEY CVSVTCORWBXHQV-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:586
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.804
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 132.076663
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0006-9100000000-11db0187d2962800d0d6
+PK$ANNOTATION: m/z int mzPAF cor n
+  44.049301 999 f{C2H6N1}/-3.95ppm,p-C2H4N2O2 0.8951 12
+  87.055210 51 f{C3H7N2O1}/-0.91ppm,p-C1H3N1O1 0.9263 12
+  90.054823 512 f{C3H8N1O2}/-1.46ppm,p-C1H2N2 0.9700 17
+  132.076258 222 f{C4H10N3O2}/-3.74ppm,p 1.0000 17
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  44.049301 999.00 999
+  87.055210 51.00 51
+  90.054823 512.00 512
+  132.076258 222.00 222
+//

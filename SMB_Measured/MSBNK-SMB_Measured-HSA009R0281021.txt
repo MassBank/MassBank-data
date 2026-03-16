@@ -1,0 +1,91 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0281021
+RECORD_TITLE: Aspartylphenylalanine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 69 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 281.113289; int 4.767; delta(ppm) -0.003584
+COMMENT: PROPOSED_MF SevenGoldenRules 0.328; C13H16N2O5; [M+H]+; delta(ppm) 0.328447; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.567; C13H16N2O5; [M+H]+; delta(ppm) 0.327032; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 83.994; C13H16N2O5; [M+H]+; delta(ppm) 0.327032; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C13H16N2O5; [M+H]+; delta(ppm) 0.327032; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 111.331; C13H16N2O5; [M+H]+; delta(ppm) 0.327032; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C13H16N2O5; [M+H]+; delta(ppm) 0.327032; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.659; YZQCXOFQZKCETR; [M+H]+; Aspartylphenylalanine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.511; YZQCXOFQZKCETR-WSYQHHSTNA-N; [M+H]+; Aspartylphenylalanine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.951; YZQCXOFQZKCETR-WSYQHHSTNA-N; [M+H]+; Aspartylphenylalanine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.451; YZQCXOFQZKCETR-UWVGGRQHSA-N; [M+H]+; (3S)-3-amino-4-[[(1S)-1-carboxy-2-phenylethyl]amino]-4-oxobutanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.752; YZQCXOFQZKCETR; [M+H]+; alpha-Asp-Phe; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.912; YZQCXOFQZKCETR; [M+H]+; alpha-Asp-Phe; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -77.725; YZQCXOFQZKCETR; [M+H]+; Asp-Phe; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.994; YZQCXOFQZKCETR; [M+H]+; Asp-Phe; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000706)
+CH$NAME: Aspartylphenylalanine
+CH$NAME: Asp-Phe
+CH$NAME: 3-amino-4-[(1-carboxy-2-phenylethyl)amino]-4-oxobutanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C13H16N2O5
+CH$EXACT_MASS: 280.105922
+CH$SMILES: C1=CC=C(C=C1)CC(C(=O)O)NC(=O)C(CC(=O)O)N
+CH$IUPAC: InChI=1S/C13H16N2O5/c14-9(7-11(16)17)12(18)15-10(13(19)20)6-8-4-2-1-3-5-8/h1-5,9-10H,6-7,14H2,(H,15,18)(H,16,17)(H,19,20)
+CH$LINK: HMDB HMDB0000706
+CH$LINK: INCHIKEY YZQCXOFQZKCETR-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:3317082
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.883
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 281.113290
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00y0-1940000000-625b5b2cb6dd8f09b842
+PK$ANNOTATION: m/z int mzPAF cor n
+  88.039408 303 f{C3H6N1O2}/1.17ppm,p-C10H11N1O3 1.0000 69
+  91.054551 66 f{C7H7}/3.56ppm,p-C6H10N2O5 0.8758 65
+  120.080890 987 f{C8H10N1}/0.95ppm,p-C5H7N1O5 0.9217 69
+  130.065855 55 f{C9H8N1}/5.61ppm,p-C4H9N1O5 0.6958 58
+  166.086396 999 f{C9H12N1O2}/0.85ppm,p-C4H5N1O3 0.9399 69
+  172.076142 58 f{C11H10N1O1}/2.63ppm,p-C2H7N1O4 0.7061 49
+  175.086695 289 f{C10H11N2O1}/0.60ppm,p-C3H6O4 0.9193 69
+  200.070700 351 f{C12H10N1O2}/0.48ppm,p-C1H7N1O3 0.9346 69
+  221.091961 214 f{C11H13N2O3}/-0.49ppm,p-C2H4O2 0.9086 69
+  235.107515 398 f{C12H15N2O3}/-0.87ppm,p-C1H2O2 0.8771 69
+  246.076246 260 f{C13H12N1O4}/0.66ppm,p-H5N1O1 0.8757 69
+  263.102623 95 f{C13H15N2O4}/-0.04ppm,p-H2O1 0.7377 66
+PK$NUM_PEAK: 12
+PK$PEAK: m/z int. rel.int.
+  88.039408 303.00 303
+  91.054551 66.00 66
+  120.080890 987.00 987
+  130.065855 55.00 55
+  166.086396 999.00 999
+  172.076142 58.00 58
+  175.086695 289.00 289
+  200.070700 351.00 351
+  221.091961 214.00 214
+  235.107515 398.00 398
+  246.076246 260.00 260
+  263.102623 95.00 95
+//

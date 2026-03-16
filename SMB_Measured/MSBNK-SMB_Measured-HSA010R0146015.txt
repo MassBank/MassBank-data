@@ -1,0 +1,83 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0146015
+RECORD_TITLE: Spermidine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 55 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 146.165142; int 130.450; delta(ppm) -0.020461
+COMMENT: PROPOSED_MF SevenGoldenRules 0.200; C7H19N3; [M+H]+; delta(ppm) -0.199782; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.595; C7H19N3; [M+H]+; delta(ppm) -0.198818; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 49.628; C7H19N3; [M+H]+; delta(ppm) -0.198818; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C7H19N3; [M+H]+; delta(ppm) -0.198818; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 63.832; C7H19N3; [M+H]+; delta(ppm) -0.198818; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C7H19N3; [M+H]+; delta(ppm) -0.198818; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 35.000; ATHGHQPFGPMSJY-UHFFFAOYSA-N; C7H19N3; SPERMIDINE - 40.0 eV; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.069; ATHGHQPFGPMSJY; [M+H]+; Spermidine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.098; ATHGHQPFGPMSJY-UHFFFAOYSA-N; [M+H]+; Spermidine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; ATHGHQPFGPMSJY-UHFFFAOYSA-N; [M+H]+; Spermidine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; ATHGHQPFGPMSJY-UHFFFAOYSA-N; [M+H]+; N'-(3-aminopropyl)butane-1,4-diamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -2.465; ATHGHQPFGPMSJY; [M+H]+; Spermidin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.400; ATHGHQPFGPMSJY; [M+H]+; Spermidin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -6.053; ATHGHQPFGPMSJY; [M+H]+; Spermidin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.800; ATHGHQPFGPMSJY; [M+H]+; Spermidin; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 35 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0001257)
+CH$NAME: Spermidine
+CH$NAME: Spermidin
+CH$NAME: N'-(3-aminopropyl)butane-1,4-diamine
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C7H19N3
+CH$EXACT_MASS: 145.157898
+CH$SMILES: C(CCNCCCN)CN
+CH$IUPAC: InChI=1S/C7H19N3/c8-4-1-2-6-10-7-3-5-9/h10H,1-9H2
+CH$LINK: HMDB HMDB0001257
+CH$LINK: INCHIKEY ATHGHQPFGPMSJY-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:1102
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.522
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 146.165145
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-9400000000-ff3d03ae9e8840033db8
+PK$ANNOTATION: m/z int mzPAF cor n
+  58.065110 55 f{C3H8N1}/-0.27ppm,p-C4H12N2 0.9572 55
+  70.065141 55 f{C4H8N1}/0.21ppm,p-C3H12N2 0.5481 41
+  72.080808 999 f{C4H10N1}/0.45ppm,p-C3H10N2 0.9872 55
+  75.091649 61 f{C3H11N2}/-0.34ppm,p-C4H9N1 0.9734 55
+  84.080771 112 f{C5H10N1}/-0.06ppm,p-C2H10N2 0.8364 55
+  112.112110 370 f{C7H14N1}/0.30ppm,p-H6N2 0.9869 55
+  129.138606 173 f{C7H17N2}/-0.15ppm,p-H3N1 0.9845 55
+  146.165253 136 f{C7H20N3}/0.54ppm,p 1.0000 55
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  58.065110 55.00 55
+  70.065141 55.00 55
+  72.080808 999.00 999
+  75.091649 61.00 61
+  84.080771 112.00 112
+  112.112110 370.00 370
+  129.138606 173.00 173
+  146.165253 136.00 136
+//

@@ -1,0 +1,76 @@
+ACCESSION: MSBNK-SMB_Measured-HSA002R0133001
+RECORD_TITLE: Malic acid; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 55 product ion spectra among 22 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MB-POST
+COMMENT: DATASET_ID In preparaion
+COMMENT: DATASET_TITLE Test DDA dataset obtained from NIST1950 by HILIC/AEX-MS
+COMMENT: DATASET_AUTHORS Takahashi, M, Torigoe, T, Izumi, Y, Bamba, T., Kyoshu University
+COMMENT: PRECURSOR_IN_MS1 mz 133.014249; int 62.241; delta(ppm) 0.022477
+COMMENT: PROPOSED_MF SevenGoldenRules 0.007; C4H6O5; [M-H]1; delta(ppm) -0.007461; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.198; C4H6O5; [M-H]-; delta(ppm) -0.006537; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 24.692; C4H6O5; [M-H]-; delta(ppm) -0.006537; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C4H6O5; [M-H]-; delta(ppm) -0.006537; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 27.834; C4H6O5; [M-H]-; delta(ppm) -0.006537; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C4H6O5; [M-H]-; delta(ppm) -0.006537; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 19.000; BJEPYKJPYRNKOW-REOHCLBHSA-N; C4H6O5; (S)-MALATE; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 10.000; BJEPYKJPYRNKOW-UHFFFAOYSA-N; C4H6O5; MALIC ACID; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 5.000; BJEPYKJPYRNKOW-UWTATZPHSA-N; C4H6O5; MALIC ACID; Ranking 3;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.333; BJEPYKJPYRNKOW; [M-H]-; L-Malic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.212; BJEPYKJPYRNKOW-RUOZJJLTNA-N; [M-H]-; L-Malic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.962; BJEPYKJPYRNKOW-RUOZJJLTNA-N; [M-H]-; L-Malic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; BJEPYKJPYRNKOW-UHFFFAOYSA-N; [M-H]-; 2-hydroxybutanedioic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -3.507; BJEPYKJPYRNKOW; [M-H]-; L-malate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.439; BJEPYKJPYRNKOW; [M-H]-; L-malate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -4.070; BJEPYKJPYRNKOW; [M-H]-; Malate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.865; BJEPYKJPYRNKOW; [M-H]-; Malate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 34 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000156)
+CH$NAME: Malic acid
+CH$NAME: Malate
+CH$NAME: 2-hydroxybutanedioic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C4H6O5
+CH$EXACT_MASS: 134.021523
+CH$SMILES: C(C(C(=O)O)O)C(=O)O
+CH$IUPAC: InChI=1S/C4H6O5/c5-2(4(8)9)1-3(6)7/h2,5H,1H2,(H,6,7)(H,8,9)
+CH$LINK: HMDB HMDB0000156
+CH$LINK: INCHIKEY BJEPYKJPYRNKOW-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:525
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Nexera X2 UHPLC system, Shimadzu - Q Exactive Orbitrap, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 V
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME GL-HilicAex 2.1 x 150 mm, 5 mm (Resonac)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 15.5 min: 40, 16.5 min: 0, 26.5 min: 0, 27.5 min: 95, 35 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 19.852
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 133.014246
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-014i-3900000000-3d65b75d111f52948223
+PK$ANNOTATION: m/z int mzPAF cor n
+  71.013886 474 f{C3H3O2}/0.47ppm,p-C1H2O3 0.8029 55
+  115.003664 999 f{C4H3O4}/-0.16ppm,p-H2O1 0.8480 55
+  133.014222 349 f{C4H5O5}/-0.19ppm,p 1.0000 54
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  71.013886 474.00 474
+  115.003664 999.00 999
+  133.014222 349.00 349
+//

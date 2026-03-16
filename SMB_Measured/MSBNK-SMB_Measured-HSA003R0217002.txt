@@ -1,0 +1,75 @@
+ACCESSION: MSBNK-SMB_Measured-HSA003R0217002
+RECORD_TITLE: Threoninyl-Proline; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 83 product ion spectra among 52 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002338
+COMMENT: DATASET_TITLE Interplay Between Cruciferous Vegetables and the Gut Microbiome: A Multi-Omic Approach
+COMMENT: DATASET_AUTHORS Bouranis John, Oregon State University
+COMMENT: PRECURSOR_IN_MS1 mz 217.118639; int 279.764; delta(ppm) -0.105800
+COMMENT: PROPOSED_MF SevenGoldenRules 1.749; C9H16N2O4; [M+H]+; delta(ppm) 1.749098; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.345; C9H16N2O4; [M+H]+; delta(ppm) 1.738936; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 34.803; C9H16N2O4; [M+H]+; delta(ppm) 1.738936; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C9H16N2O4; [M+H]+; delta(ppm) 1.738936; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 48.972; C9H16N2O4; [M+H]+; delta(ppm) 1.738936; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H16N2O4; [M+H]+; delta(ppm) 1.738936; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.342; QOLYAJSZHIJCTO; [M+H]+; Threoninyl-Proline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.691; QOLYAJSZHIJCTO-UHFFFAOYNA-N; [M+H]+; Threoninyl-Proline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.963; QOLYAJSZHIJCTO-UHFFFAOYNA-N; [M+H]+; Threoninyl-Proline; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.503; QOLYAJSZHIJCTO-VQVTYTSYSA-N; [M+H]+; (2S)-1-[(2S,3R)-2-amino-3-hydroxybutanoyl]pyrrolidine-2-carboxylic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -5.476; QOLYAJSZHIJCTO; [M+H]+; threonylproline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.979; QOLYAJSZHIJCTO; [M+H]+; threonylproline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -108.603; QOLYAJSZHIJCTO; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.966; QOLYAJSZHIJCTO; [M+H]+; nan; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0029069)
+CH$NAME: Threoninyl-Proline
+CH$NAME: 1-(2-amino-3-hydroxy-butanoyl)proline
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C9H16N2O4
+CH$EXACT_MASS: 216.111007
+CH$SMILES: CC(C(C(=O)N1CCCC1C(=O)O)N)O
+CH$IUPAC: InChI=1S/C9H16N2O4/c1-5(12)7(10)8(13)11-4-2-3-6(11)9(14)15/h5-7,12H,2-4,10H2,1H3,(H,14,15)
+CH$LINK: HMDB HMDB0029069
+CH$LINK: INCHIKEY QOLYAJSZHIJCTO-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:14647614
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cultured cells
+AC$INSTRUMENT: ABI Sciex 5600 TripleTOF
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME GL Sciences Inertsil1 Phenyl-3 (4.6 x 150mm,5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient started with 5% B and was held for 1 min at 5% B, followed by a 11-min linear gradient from 5% to 30% B. The gradient was increased linearly to 100% B at 23 min, held for 5 min at 100% B and, finally, stepped back to 5% B to equilibrate the column.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.310
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 217.118661
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-9300000000-8ac60efe7be095189c06
+PK$ANNOTATION: m/z int mzPAF cor n
+  56.049383 329 f{C3H6N1}/-1.64ppm,p-C6H11N1O4 0.9287 82
+  57.033545 137 f{C3H5O1}/0.95ppm,p-C6H12N2O3 0.8727 71
+  70.065155 999 f{C4H8N1}/0.41ppm,p-C5H9N1O4 1.0000 83
+  74.059959 445 f{C3H8N1O1}/-1.10ppm,p-C6H9N1O3 0.8952 83
+  84.044624 58 f{C4H6N1O1}/2.78ppm,p-C5H11N1O3 0.4679 70
+  116.070421 670 f{C5H10N1O2}/-1.58ppm,p-C4H7N1O2 0.9194 83
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  56.049383 329.00 329
+  57.033545 137.00 137
+  70.065155 999.00 999
+  74.059959 445.00 445
+  84.044624 58.00 58
+  116.070421 670.00 670
+//

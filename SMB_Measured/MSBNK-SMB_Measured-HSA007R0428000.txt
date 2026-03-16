@@ -1,0 +1,76 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0428000
+RECORD_TITLE: Stearoylcarnitine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 51 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 428.372465; int 92.853; delta(ppm) -2.416150
+COMMENT: PROPOSED_MF SevenGoldenRules 0.152; C25H49NO4; [M+H]+; delta(ppm) 0.152094; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 3.902; C25H49NO4; [M+H]+; delta(ppm) 0.150592; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 5.101; C25H49NO4; [M+H]+; delta(ppm) 0.150592; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C25H49NO4; [M+H]+; delta(ppm) 0.150592; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 11.303; C25H49NO4; [M+H]+; delta(ppm) 0.150592; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C25H49NO4; [M+H]+; delta(ppm) 0.150592; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; FNPHNLNTJNMAEE-UHFFFAOYSA-N; C25H49NO4; Massbank:RP025602 Stearoyl-L-Carnitinestearoylcarnitine3-octadecanoyloxy-4-(trimethylazaniumyl)butanoate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.394; FNPHNLNTJNMAEE; [M+H]+; Stearoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.290; FNPHNLNTJNMAEE-UHFFFAOYNA-N; [M+H]+; Stearoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; FNPHNLNTJNMAEE-UHFFFAOYNA-N; [M+H]+; Stearoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -2.285; FNPHNLNTJNMAEE; [M+H]+; Lopac-S-2381; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.801; FNPHNLNTJNMAEE; [M+H]+; Lopac-S-2381; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -45.492; FNPHNLNTJNMAEE; [M+H]+; [3-Carboxylato-2-(stearoyloxy)propyl]trimethylaminium; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.712; FNPHNLNTJNMAEE; [M+H]+; [3-Carboxylato-2-(stearoyloxy)propyl]trimethylaminium; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000848)
+CH$NAME: Stearoylcarnitine
+CH$NAME: 3-octadecanoyloxy-4-(trimethylazaniumyl)butanoate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C25H49NO4
+CH$EXACT_MASS: 427.366159
+CH$SMILES: CCCCCCCCCCCCCCCCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C
+CH$IUPAC: InChI=1S/C25H49NO4/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-25(29)30-23(21-24(27)28)22-26(2,3)4/h23H,5-22H2,1-4H3
+CH$LINK: HMDB HMDB0000848
+CH$LINK: INCHIKEY FNPHNLNTJNMAEE-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:6426855
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 14.649
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 428.373500
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-004r-7000900000-b690113ccd412d5c3c3d
+PK$ANNOTATION: m/z int mzPAF cor n
+  60.080941 53 f{C3H10N1}/2.75ppm,p-C22H40O4 0.9057 37
+  85.028960 800 f{C4H5O2}/6.52ppm,p-C21H45N1O2 0.9711 48
+  144.101927 40 f{C7H14N1O2}/0.15ppm,p-C18H36O2 0.8424 44
+  267.268540 33 f{C18H35O1}/1.11ppm,p-C7H15N1O3 0.8937 48
+  369.300471 100 f{C22H41O4}/1.45ppm,p-C3H9N1 0.9362 51
+  428.374203 999 f{C25H50N1O4}/1.79ppm,p 1.0000 51
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  60.080941 53.00 53
+  85.028960 800.00 800
+  144.101927 40.00 40
+  267.268540 33.00 33
+  369.300471 100.00 100
+  428.374203 999.00 999
+//

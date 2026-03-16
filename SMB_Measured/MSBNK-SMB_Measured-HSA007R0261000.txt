@@ -1,0 +1,84 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0261000
+RECORD_TITLE: gamma-Glutamylleucine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 78 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 261.144084; int 999.000; delta(ppm) -1.684747
+COMMENT: PROPOSED_MF SevenGoldenRules 0.100; C11H20N2O5; [M+H]+; delta(ppm) 0.099947; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.191; C11H20N2O5; [M+H]+; delta(ppm) 0.098816; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 34.221; C11H20N2O5; [M+H]+; delta(ppm) 0.098816; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C11H20N2O5; [M+H]+; delta(ppm) 0.098816; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 52.779; C11H20N2O5; [M+H]+; delta(ppm) 0.098816; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C11H20N2O5; [M+H]+; delta(ppm) 0.098816; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; MYFMARDICOWMQP-JAMMHHFISA-N; C11H20N2O5; ReSpect:PM017301 gamma-L-Glutamyl-L-leucine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.874; MYFMARDICOWMQP; [M+H]+; gamma-Glutamylleucine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.730; MYFMARDICOWMQP-YZYOREDDNA-N; [M+H]+; gamma-Glutamylleucine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.800; MYFMARDICOWMQP-YZYOREDDNA-N; [M+H]+; gamma-Glutamylleucine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.794; MYFMARDICOWMQP-YUMQZZPRSA-N; [M+H]+; (2S)-2-[[(4S)-4-amino-4-carboxybutanoyl]amino]-4-methylpentanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -9.600; MYFMARDICOWMQP; [M+H]+; gamma-Glu-leu; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.555; MYFMARDICOWMQP; [M+H]+; gamma-Glu-leu; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -40.766; MYFMARDICOWMQP; [M+H]+; Gamma-Glu-Leu; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.996; MYFMARDICOWMQP; [M+H]+; Gamma-Glu-Leu; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0011171)
+CH$NAME: gamma-Glutamylleucine
+CH$NAME: Gamma-Glu-Leu
+CH$NAME: 2-[(4-amino-4-carboxybutanoyl)amino]-4-methylpentanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C11H20N2O5
+CH$EXACT_MASS: 260.137222
+CH$SMILES: CC(C)CC(C(=O)O)NC(=O)CCC(C(=O)O)N
+CH$IUPAC: InChI=1S/C11H20N2O5/c1-6(2)5-8(11(17)18)13-9(14)4-3-7(12)10(15)16/h6-8H,3-5,12H2,1-2H3,(H,13,14)(H,15,16)(H,17,18)
+CH$LINK: HMDB HMDB0011171
+CH$LINK: INCHIKEY MYFMARDICOWMQP-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4524287
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.258
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 261.144524
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001r-9410000000-f020e3f1837640902eda
+PK$ANNOTATION: m/z int mzPAF cor n
+  84.044236 791 f{C4H6N1O1}/-1.84ppm,p-C7H15N1O4 0.8643 77
+  86.096323 999 f{C5H12N1}/-1.19ppm,p-C6H9N1O5 0.8762 75
+  130.050447 165 f{C5H8N1O3}/4.44ppm,p-C6H13N1O2 0.8249 55
+  132.101645 410 f{C6H14N1O2}/-1.97ppm,p-C5H7N1O3 0.8754 76
+  142.049454 92 f{C6H8N1O3}/-2.92ppm,p-C5H13N1O2 0.8045 57
+  170.116453 54 f{C9H16N1O2}/-6.48ppm,p-C2H5N1O3 0.4935 66
+  198.113244 198 f{C10H16N1O3}/3.91ppm,p-C1H5N1O2 0.7876 56
+  244.118572 133 f{C11H18N1O5}/2.55ppm,p-H3N1 0.8190 60
+  261.144158 127 f{C11H21N2O5}/-1.30ppm,p 1.0000 60
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  84.044236 791.00 791
+  86.096323 999.00 999
+  130.050447 165.00 165
+  132.101645 410.00 410
+  142.049454 92.00 92
+  170.116453 54.00 54
+  198.113244 198.00 198
+  244.118572 133.00 133
+  261.144158 127.00 127
+//

@@ -1,0 +1,101 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0220000
+RECORD_TITLE: Pantothenic acid; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 24 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 220.117266; int 999.000; delta(ppm) -2.429976
+COMMENT: PROPOSED_MF SevenGoldenRules 0.680; C9H17NO5; [M+H]+; delta(ppm) -0.680022; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.038; C9H17NO5; [M+H]+; delta(ppm) -0.677326; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 75.694; C9H17NO5; [M+H]+; delta(ppm) -0.677326; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C9H17NO5; [M+H]+; delta(ppm) -0.677326; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 111.811; C9H17NO5; [M+H]+; delta(ppm) -0.677326; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H17NO5; [M+H]+; delta(ppm) -0.677326; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 22.000; GHOKWGTUZJEAQD-ZETCQYMHSA-N; C9H17NO5; PANTOTHENIC ACID; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 18.000; GHOKWGTUZJEAQD-UHFFFAOYSA-N; C9H17NO5; PANTOTHENIC ACID; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.010; GHOKWGTUZJEAQD; [M+H]+; Pantothenic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.585; GHOKWGTUZJEAQD-UHFFFAOYSA-N; [M+H]+; Pantothenic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.998; GHOKWGTUZJEAQD-UHFFFAOYSA-N; [M+H]+; Pantothenic acid; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; GHOKWGTUZJEAQD-ZETCQYMHSA-N; [M+H]+; 3-[[(2R)-2,4-dihydroxy-3,3-dimethylbutanoyl]amino]propanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.465; GHOKWGTUZJEAQD; [M+H]+; vitamin B5; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.961; GHOKWGTUZJEAQD; [M+H]+; vitamin B5; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -4.990; GHOKWGTUZJEAQD; [M+H]+; Pantothenate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.998; GHOKWGTUZJEAQD; [M+H]+; Pantothenate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 40 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000210)
+CH$NAME: Pantothenic acid
+CH$NAME: Pantothenate
+CH$NAME: 3-[(2,4-dihydroxy-3,3-dimethylbutanoyl)amino]propanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C9H17NO5
+CH$EXACT_MASS: 219.110673
+CH$SMILES: CC(C)(CO)C(C(=O)NCCC(=O)O)O
+CH$IUPAC: InChI=1S/C9H17NO5/c1-9(2,5-11)7(14)8(15)10-4-3-6(12)13/h7,11,14H,3-5H2,1-2H3,(H,10,15)(H,12,13)
+CH$LINK: HMDB HMDB0000210
+CH$LINK: INCHIKEY GHOKWGTUZJEAQD-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:988
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.171
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 220.117800
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-006x-9320000000-80c4f48fef1d8eb20900
+PK$ANNOTATION: m/z int mzPAF cor n
+  43.017580 164 f{C2H3O1}/-6.07ppm,p-C7H15N1O4 0.7638 21
+  57.069809 95 f{C4H9}/-1.19ppm,p-C5H9N1O5 0.6102 19
+  67.053999 129 f{C5H7}/-3.40ppm,p-C4H11N1O5 0.5419 19
+  69.069437 66 f{C5H9}/-6.37ppm,p-C4H9N1O5 0.6769 18
+  70.028827 176 f{C3H4N1O1}/1.24ppm,p-C6H14O4 0.6141 24
+  72.044251 314 f{C3H6N1O1}/-1.94ppm,p-C6H12O4 0.5078 23
+  90.054873 999 f{C3H8N1O2}/-0.91ppm,p-C6H10O3 0.7919 24
+  95.048616 168 f{C6H7O1}/-5.52ppm,p-C3H11N1O4 0.6150 23
+  98.023509 378 f{C4H4N1O2}/-1.49ppm,p-C5H14O3 0.7000 23
+  103.075035 127 f{C5H11O2}/-3.12ppm,p-C4H7N1O3 0.5132 24
+  113.058895 109 f{C6H9O2}/-7.17ppm,p-C3H9N1O3 0.5243 19
+  124.075278 402 f{C7H10N1O1}/-3.32ppm,p-C2H8O4 0.7227 22
+  142.086664 168 f{C7H12N1O2}/2.88ppm,p-C2H6O3 0.7054 17
+  174.112023 38 f{C8H16N1O3}/-2.56ppm,p-C1H2O2 0.6270 19
+  184.096122 252 f{C9H14N1O3}/-3.79ppm,p-H4O2 0.5500 24
+  202.106865 309 f{C9H16N1O4}/-2.57ppm,p-H2O1 0.6929 24
+  220.118002 249 f{C9H18N1O5}/0.24ppm,p 1.0000 23
+PK$NUM_PEAK: 17
+PK$PEAK: m/z int. rel.int.
+  43.017580 164.00 164
+  57.069809 95.00 95
+  67.053999 129.00 129
+  69.069437 66.00 66
+  70.028827 176.00 176
+  72.044251 314.00 314
+  90.054873 999.00 999
+  95.048616 168.00 168
+  98.023509 378.00 378
+  103.075035 127.00 127
+  113.058895 109.00 109
+  124.075278 402.00 402
+  142.086664 168.00 168
+  174.112023 38.00 38
+  184.096122 252.00 252
+  202.106865 309.00 309
+  220.118002 249.00 249
+//

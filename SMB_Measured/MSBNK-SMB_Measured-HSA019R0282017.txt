@@ -1,0 +1,71 @@
+ACCESSION: MSBNK-SMB_Measured-HSA019R0282017
+RECORD_TITLE: Guanosine; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 25 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 282.084413; int 5.229; delta(ppm) 0.007640
+COMMENT: PROPOSED_MF SevenGoldenRules 0.064; C10H13N5O5; [M-H]1; delta(ppm) 0.063584; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.102; C10H13N5O5; [M-H]-; delta(ppm) 0.066896; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 12.711; C10H13N5O5; [M-H]-; delta(ppm) 0.066896; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.995; C10H13N5O5; [M-H]-; delta(ppm) 0.066896; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 18.101; C10H13N5O5; [M-H]-; delta(ppm) 0.066896; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C10H13N5O5; [M-H]-; delta(ppm) 0.066896; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.156; NYHBQMYGNKIUIF; [M-H]-; Guanosine; Ranking 4;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.462; NYHBQMYGNKIUIF-SBTUYZBDNA-N; [M-H]-; Guanosine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.930; NYHBQMYGNKIUIF-SBTUYZBDNA-N; [M-H]-; Guanosine; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.955; NYHBQMYGNKIUIF-UUOKFMHZSA-N; [M-H]-; 2-amino-9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-1H-purin-6-one; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.413; NYHBQMYGNKIUIF; [M-H]-; Guanosin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.431; NYHBQMYGNKIUIF; [M-H]-; Guanosin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -26.483; NYHBQMYGNKIUIF; [M-H]-; Guanosin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.802; NYHBQMYGNKIUIF; [M-H]-; Guanosin; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000133)
+CH$NAME: Guanosine
+CH$NAME: Guanosin
+CH$NAME: 2-amino-9-(3,4-dihydroxy-5-methylol-tetrahydrofuran-2-yl)-3H-purin-6-one
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C10H13N5O5
+CH$EXACT_MASS: 283.091669
+CH$SMILES: C1=NC2=C(N1C3C(C(C(O3)CO)O)O)NC(=NC2=O)N
+CH$IUPAC: InChI=1S/C10H13N5O5/c11-10-13-7-4(8(19)14-10)12-2-15(7)9-6(18)5(17)3(1-16)20-9/h2-3,5-6,9,16-18H,1H2,(H3,11,13,14,19)
+CH$LINK: HMDB HMDB0000133
+CH$LINK: INCHIKEY NYHBQMYGNKIUIF-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:765
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.50; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Xbridge BEH HILIC (75 x 2.1mm,2.5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min-85% B, 2 min-10% B, 14 min- 10% B, 14.1 min- 85% B, 16 min- 85%B.
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.803
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 282.084411
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0udi-0910000000-b47d27909c9df7711df8
+PK$ANNOTATION: m/z int mzPAF cor n
+  133.015557 265 f{C5H1N4O1}/-0.20ppm,p-C5H11N1O4 0.8209 25
+  150.042196 999 f{C5H4N5O1}/0.42ppm,p-C5H8O4 0.8148 25
+  282.084309 186 f{C10H12N5O5}/-0.29ppm,p 1.0000 24
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  133.015557 265.00 265
+  150.042196 999.00 999
+  282.084309 186.00 186
+//

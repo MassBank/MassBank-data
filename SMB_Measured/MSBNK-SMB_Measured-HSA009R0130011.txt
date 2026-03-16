@@ -1,0 +1,76 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0130011
+RECORD_TITLE: Pipecolic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 1058 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 130.086344; int 8.440; delta(ppm) 0.022831
+COMMENT: PROPOSED_MF SevenGoldenRules 0.666; C6H11NO2; [M+H]+; delta(ppm) 0.666258; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.112; C6H11NO2; [M+H]+; delta(ppm) 0.660837; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 23.030; C6H11NO2; [M+H]+; delta(ppm) 0.660837; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H11NO2; [M+H]+; delta(ppm) 0.660837; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 30.296; C6H11NO2; [M+H]+; delta(ppm) 0.660837; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H11NO2; [M+H]+; delta(ppm) 0.660837; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 23.000; HXEACLLIILLPRG-YFKPBYRVSA-N; C6H11NO2; PIPECOLIC ACID; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 7.000; HXEACLLIILLPRG-UHFFFAOYSA-N; C6H11NO2; L-PIPECOLIC ACID; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.024; HXEACLLIILLPRG; [M+H]+; Pipecolic acid; Ranking 10;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.649; HXEACLLIILLPRG-UHFFFAOYNA-N; [M+H]+; Pipecolic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.143; HXEACLLIILLPRG-UHFFFAOYSA-N; [M+H]+; piperidine-2-carboxylic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -18.652; HXEACLLIILLPRG; [M+H]+; l-homopro; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.663; HXEACLLIILLPRG; [M+H]+; l-homopro; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -93.421; HXEACLLIILLPRG; [M+H]+; Pipecolate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.772; HXEACLLIILLPRG; [M+H]+; Pipecolate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 30 spectra); Supported by CFM-ID:MsfinderDB (Ranking 10), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0000070)
+CH$NAME: Pipecolic acid
+CH$NAME: Pipecolate
+CH$NAME: piperidine-2-carboxylic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H11NO2
+CH$EXACT_MASS: 129.078979
+CH$SMILES: C1CCNC(C1)C(=O)O
+CH$IUPAC: InChI=1S/C6H11NO2/c8-6(9)5-3-1-2-4-7-5/h5,7H,1-4H2,(H,8,9)
+CH$LINK: HMDB HMDB0000070
+CH$LINK: INCHIKEY HXEACLLIILLPRG-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:849
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.626
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 130.086341
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-9300000000-64fdf735b0f2b14541e3
+PK$ANNOTATION: m/z int mzPAF cor n
+  70.065240 116 f{C4H8N1}/1.63ppm,p-C2H4O2 0.3318 933
+  84.044444 536 f{C4H6N1O1}/0.64ppm,p-C2H6O1 0.6014 1037
+  84.080854 999 f{C5H10N1}/0.93ppm,p-C1H2O2 0.9066 1058
+  130.086540 649 f{C6H12N1O2}/2.19ppm,p 1.0000 1050
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  70.065240 116.00 116
+  84.044444 536.00 536
+  84.080854 999.00 999
+  130.086540 649.00 649
+//

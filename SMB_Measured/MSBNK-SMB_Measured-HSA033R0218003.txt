@@ -1,0 +1,76 @@
+ACCESSION: MSBNK-SMB_Measured-HSA033R0218003
+RECORD_TITLE: Pantothenic acid; LC-ESI-QTOF; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Liang et al. J Pharm Biomed Anal. 2022, 214, 114718
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 10 product ion spectra among 50 DDA data files in the dataset described below.
+COMMENT: DATASET_ID MTBLS3854
+COMMENT: DATASET_TITLE Long-term low-dose ionizing radiation induced chromosome-aberration-specific metabolic phenotype changes in radiation workers
+COMMENT: DATASET_AUTHORS Xinjun Wang
+COMMENT: PRECURSOR_IN_MS1 mz 218.102957; int 146.295; delta(ppm) -0.110000
+COMMENT: PROPOSED_MF SevenGoldenRules 1.899; C9H17NO5; [M-H]1; delta(ppm) -1.898588; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 4.472; C9H17NO5; [M-H]-; delta(ppm) -1.903812; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 45.275; C9H17NO5; [M-H]-; delta(ppm) -1.903812; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C9H17NO5; [M-H]-; delta(ppm) -1.903812; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 59.657; C9H17NO5; [M-H]-; delta(ppm) -1.903812; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H17NO5; [M-H]-; delta(ppm) -1.903812; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 8.000; GHOKWGTUZJEAQD-ZETCQYMHSA-N; C9H17NO5; PANTOTHENIC ACID; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.625; GHOKWGTUZJEAQD; [M-H]-; Pantothenic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.003; GHOKWGTUZJEAQD-UHFFFAOYSA-N; [M-H]-; Pantothenic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; GHOKWGTUZJEAQD-UHFFFAOYSA-N; [M-H]-; Pantothenic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; GHOKWGTUZJEAQD-ZETCQYMHSA-N; [M-H]-; 3-[[(2R)-2,4-dihydroxy-3,3-dimethylbutanoyl]amino]propanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.896; GHOKWGTUZJEAQD; [M-H]-; vitamin B5; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.830; GHOKWGTUZJEAQD; [M-H]-; vitamin B5; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -6.891; GHOKWGTUZJEAQD; [M-H]-; Pantothenate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.939; GHOKWGTUZJEAQD; [M-H]-; Pantothenate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 8 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000210)
+CH$NAME: Pantothenic acid
+CH$NAME: Pantothenate
+CH$NAME: 3-[(2,4-dihydroxy-3,3-dimethylbutanoyl)amino]propanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C9H17NO5
+CH$EXACT_MASS: 219.110673
+CH$SMILES: CC(C)(CO)C(C(=O)NCCC(=O)O)O
+CH$IUPAC: InChI=1S/C9H17NO5/c1-9(2,5-11)7(14)8(15)10-4-3-6(12)13/h7,11,14H,3-5H2,1-2H3,(H,10,15)(H,12,13)
+CH$LINK: HMDB HMDB0000210
+CH$LINK: INCHIKEY GHOKWGTUZJEAQD-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:988
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Plasma
+AC$INSTRUMENT: Agilent 1290 liquid chromatography system, Agilent Technologies - TripleTOF 6600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 9.00; MS2(ppm) 18.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC BEH C18 column (1.7 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 7.0 min: 65, 8.0 min: 40, 9.0 min: 40, 9.1 min: 95, 12.0 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.360
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 218.102981
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00ds-9200000000-ae65c78b6723d37219df
+PK$ANNOTATION: m/z int mzPAF cor n
+  71.012596 201 f{C3H3O2}/-17.70ppm,p-C6H13N1O3 0.7782 9
+  71.049195 957 f{C4H7O1}/-14.68ppm,p-C5H9N1O4 1.0000 10
+  88.039218 999 f{C3H6N1O2}/-13.45ppm,p-C6H10O3 0.8545 10
+  99.044134 336 f{C5H7O2}/-10.29ppm,p-C4H9N1O3 0.7818 10
+  146.081069 804 f{C6H12N1O3}/-8.20ppm,p-C3H4O2 0.7173 10
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  71.012596 201.00 201
+  71.049195 957.00 957
+  88.039218 999.00 999
+  99.044134 336.00 336
+  146.081069 804.00 804
+//
