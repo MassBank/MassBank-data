@@ -1,0 +1,85 @@
+ACCESSION: MSBNK-SMB_Measured-HSA022R0195005
+RECORD_TITLE: Caffeine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 1036 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 195.087672; int 999.000; delta(ppm) -0.087059
+COMMENT: PROPOSED_MF SevenGoldenRules 0.191; C8H10N4O2; [M+H]+; delta(ppm) 0.190643; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.534; C8H10N4O2; [M+H]+; delta(ppm) 0.189533; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 29.583; C8H10N4O2; [M+H]+; delta(ppm) 0.189533; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C8H10N4O2; [M+H]+; delta(ppm) 0.189533; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 46.957; C8H10N4O2; [M+H]+; delta(ppm) 0.189533; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C8H10N4O2; [M+H]+; delta(ppm) 0.189533; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 84.000; RYYVLZVUVIJVGH-UHFFFAOYSA-N; C8H10N4O2; caffeine CollisionEnergy:205060; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.108; RYYVLZVUVIJVGH; [M+H]+; Caffeine; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.150; RYYVLZVUVIJVGH-UHFFFAOYSA-N; [M+H]+; Caffeine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.910; RYYVLZVUVIJVGH-UHFFFAOYSA-N; [M+H]+; Caffeine; Ranking 5;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.963; RYYVLZVUVIJVGH-UHFFFAOYSA-N; [M+H]+; 1,3,7-trimethylpurine-2,6-dione; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -6.500; RYYVLZVUVIJVGH; [M+H]+; Caffeina; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.490; RYYVLZVUVIJVGH; [M+H]+; Caffeina; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -5.614; RYYVLZVUVIJVGH; [M+H]+; Thein; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.906; RYYVLZVUVIJVGH; [M+H]+; Thein; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 84 spectra); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 5), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0001847)
+CH$NAME: Caffeine
+CH$NAME: Thein
+CH$NAME: 1,3,7-trimethylpurine-2,6-dione
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C8H10N4O2
+CH$EXACT_MASS: 194.080376
+CH$SMILES: CN1C=NC2=C1C(=O)N(C(=O)N2C)C
+CH$IUPAC: InChI=1S/C8H10N4O2/c1-10-4-9-6-5(10)7(13)12(3)8(14)11(6)2/h4H,1-3H3
+CH$LINK: HMDB HMDB0001847
+CH$LINK: INCHIKEY RYYVLZVUVIJVGH-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:2519
+CH$LINK: ChemOnt CHEMONTID:0000245; Organic compounds; Organoheterocyclic compounds; Imidazopyrimidines; Purines and purine derivatives
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.019
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 195.087689
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000j-0900000000-a55e1800b6ba06a957cb
+PK$ANNOTATION: m/z int mzPAF cor n
+  69.044706 41 f{C3H5N2}/-0.26ppm,p-C5H6N2O2 0.7913 987
+  83.060394 81 f{C4H7N2}/0.23ppm,p-C4H4N2O2 0.9865 1036
+  89.059706 114 f{C4H9O2}/0.00ppm,p-C4H2N4 0.1577 1031
+  109.039619 28 f{C5H5N2O1}/-0.19ppm,p-C3H6N2O1 0.9757 940
+  110.071338 242 f{C5H8N3}/0.59ppm,p-C3H3N1O2 0.9948 1036
+  111.055278 16 f{C5H7N2O1}/-0.10ppm,p-C3H4N2O1 0.9675 754
+  123.042670 35 f{C5H5N3O1}/-0.35ppm,p-C3H6N1O1 0.9749 984
+  138.066249 999 f{C6H8N3O1}/0.44ppm,p-C2H3N1O1 0.9976 1036
+  195.087693 990 f{C8H11N4O2}/0.21ppm,p 1.0000 1036
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  69.044706 41.00 41
+  83.060394 81.00 81
+  89.059706 114.00 114
+  109.039619 28.00 28
+  110.071338 242.00 242
+  111.055278 16.00 16
+  123.042670 35.00 35
+  138.066249 999.00 999
+  195.087693 990.00 990
+//

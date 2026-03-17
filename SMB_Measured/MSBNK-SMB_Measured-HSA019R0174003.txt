@@ -1,0 +1,82 @@
+ACCESSION: MSBNK-SMB_Measured-HSA019R0174003
+RECORD_TITLE: N-Acetyl-aspartic acid; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 168 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 174.040811; int 99.593; delta(ppm) 0.114943
+COMMENT: PROPOSED_MF SevenGoldenRules 0.029; C6H9NO5; [M-H]1; delta(ppm) -0.028564; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.749; C6H9NO5; [M-H]-; delta(ppm) -0.028571; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 32.859; C6H9NO5; [M-H]-; delta(ppm) -0.028571; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H9NO5; [M-H]-; delta(ppm) -0.028571; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 44.925; C6H9NO5; [M-H]-; delta(ppm) -0.028571; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H9NO5; [M-H]-; delta(ppm) -0.028571; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 15.000; OTCCIMWXFLJLIA-BYPYZUCNSA-N; C6H9NO5; N-ACETYL-ASPARTIC ACID; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; OTCCIMWXFLJLIA-UHFFFAOYSA-N; C6H9NO5; Massbank:PR100851 N-Acetyl-DL-aspartic acidAc-AspNAAN-Acetyl-aspartateN-Acetylaspartate2-acetamidobutanedioic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.143; OTCCIMWXFLJLIA; [M-H]-; N-Acetyl-L-aspartic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.611; OTCCIMWXFLJLIA-BYPYZUCNSA-N; [M-H]-; N-Acetyl-L-aspartic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; OTCCIMWXFLJLIA-BYPYZUCNSA-N; [M-H]-; N-Acetyl-L-aspartic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; OTCCIMWXFLJLIA-BYPYZUCNSA-N; [M-H]-; (2S)-2-acetamidobutanedioic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -7.948; OTCCIMWXFLJLIA; [M-H]-; bmse000423; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.660; OTCCIMWXFLJLIA; [M-H]-; bmse000423; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -43.815; OTCCIMWXFLJLIA; [M-H]-; Acetylaspartic Acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.930; OTCCIMWXFLJLIA; [M-H]-; Acetylaspartic Acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 17 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000812)
+CH$NAME: N-Acetyl-aspartic acid
+CH$NAME: Acetylaspartic Acid
+CH$NAME: 2-acetamidosuccinic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H9NO5
+CH$EXACT_MASS: 175.048072
+CH$SMILES: CC(=O)NC(CC(=O)O)C(=O)O
+CH$IUPAC: InChI=1S/C6H9NO5/c1-3(8)7-4(6(11)12)2-5(9)10/h4H,2H2,1H3,(H,7,8)(H,9,10)(H,11,12)
+CH$LINK: HMDB HMDB0000812
+CH$LINK: INCHIKEY OTCCIMWXFLJLIA-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:97508
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.50; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Xbridge BEH HILIC (75 x 2.1mm,2.5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min-85% B, 2 min-10% B, 14 min- 10% B, 14.1 min- 85% B, 16 min- 85%B.
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.201
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 174.040791
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-9400000000-6742e2262aaa06f6a1b8
+PK$ANNOTATION: m/z int mzPAF cor n
+  71.013736 50 f{C3H3O2}/-1.65ppm,p-C3H5N1O3 0.8758 143
+  88.040465 999 f{C3H6N1O2}/0.72ppm,p-C3H2O3 0.9559 168
+  112.040276 49 f{C5H6N1O2}/-1.12ppm,p-C1H2O3 0.8392 138
+  114.019595 118 f{C4H4N1O3}/-0.62ppm,p-C2H4O2 0.9146 167
+  115.003618 88 f{C4H3O4}/-0.56ppm,p-C2H5N1O1 0.9073 163
+  130.050931 149 f{C5H8N1O3}/-0.28ppm,p-C1O2 0.9501 168
+  174.040700 152 f{C6H8N1O5}/-0.55ppm,p 1.0000 167
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  71.013736 50.00 50
+  88.040465 999.00 999
+  112.040276 49.00 49
+  114.019595 118.00 118
+  115.003618 88.00 88
+  130.050931 149.00 149
+  174.040700 152.00 152
+//

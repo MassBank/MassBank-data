@@ -1,0 +1,83 @@
+ACCESSION: MSBNK-SMB_Measured-HSA015R0239003
+RECORD_TITLE: pentaethylene glycol; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 25 product ion spectra among 27 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS6402
+COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
+COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
+COMMENT: PRECURSOR_IN_MS1 mz 239.148860; int 225.193; delta(ppm) -0.035185
+COMMENT: PROPOSED_MF SevenGoldenRules 0.193; C10H22O6; [M+H]+; delta(ppm) -0.193162; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.600; C10H22O6; [M+H]+; delta(ppm) -0.195969; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 39.355; C10H22O6; [M+H]+; delta(ppm) -0.195969; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C10H22O6; [M+H]+; delta(ppm) -0.195969; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 57.913; C10H22O6; [M+H]+; delta(ppm) -0.195969; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C10H22O6; [M+H]+; delta(ppm) -0.195969; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; JLFNLZLINWHATN-UHFFFAOYSA-N; C10H22O6; Massbank:LU086203 Pentaethylene glycol2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethanol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.959; JLFNLZLINWHATN; [M+H]+; pentaethylene glycol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.040; JLFNLZLINWHATN-UHFFFAOYSA-N; [M+H]+; pentaethylene glycol; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; JLFNLZLINWHATN-UHFFFAOYSA-N; [M+H]+; pentaethylene glycol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; JLFNLZLINWHATN-UHFFFAOYSA-N; [M+H]+; 2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethanol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.438; JLFNLZLINWHATN; [M+H]+; Pentaglycol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.910; JLFNLZLINWHATN; [M+H]+; Pentaglycol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -1.835; JLFNLZLINWHATN; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.896; JLFNLZLINWHATN; [M+H]+; nan; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3b; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 3 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1)
+CH$NAME: pentaethylene glycol
+CH$NAME: 2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethanol
+CH$COMPOUND_CLASS: Non-Natural Product
+CH$FORMULA: C10H22O6
+CH$EXACT_MASS: 238.141638
+CH$SMILES: C(COCCOCCOCCOCCO)O
+CH$IUPAC: InChI=1S/C10H22O6/c11-1-3-13-5-7-15-9-10-16-8-6-14-4-2-12/h11-12H,1-10H2
+CH$LINK: INCHIKEY JLFNLZLINWHATN-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:62551
+CH$LINK: ChemOnt CHEMONTID:0000254; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Ethers
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Vanquish Flex UHPLC system, Thermo Fisher Scientific - Orbitrap Q Exactive Plus mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.50; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.449
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 239.148868
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-9400000000-6219fb903ee87a60fb04
+PK$ANNOTATION: m/z int mzPAF cor n
+  73.064752 5 f{C4H9O1}/-0.54ppm,p-C6H14O5 0.6215 23
+  87.044065 13 f{C4H7O2}/0.10ppm,p-C6H16O4 0.9017 25
+  89.059711 999 f{C4H9O2}/0.06ppm,p-C6H14O4 0.9643 25
+  107.070205 14 f{C4H11O3}/-0.62ppm,p-C6H12O3 0.8087 24
+  133.085882 387 f{C6H13O3}/-0.29ppm,p-C4H10O3 0.9417 25
+  151.096532 27 f{C6H15O4}/0.31ppm,p-C4H8O2 0.8565 25
+  177.112128 39 f{C8H17O4}/-0.04ppm,p-C2H6O2 0.9191 25
+  195.122956 25 f{C8H19O5}/1.31ppm,p-C2H4O1 0.8800 25
+  239.149120 76 f{C10H23O6}/0.86ppm,p 1.0000 24
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  73.064752 5.00 5
+  87.044065 13.00 13
+  89.059711 999.00 999
+  107.070205 14.00 14
+  133.085882 387.00 387
+  151.096532 27.00 27
+  177.112128 39.00 39
+  195.122956 25.00 25
+  239.149120 76.00 76
+//

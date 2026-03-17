@@ -1,0 +1,85 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0274000
+RECORD_TITLE: 2-[dodecyl(2-hydroxyethyl)amino]ethanol; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 228 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 274.273973; int 25.334; delta(ppm) 0.123915
+COMMENT: PROPOSED_MF SevenGoldenRules 0.424; C16H35NO2; [M+H]+; delta(ppm) -0.424494; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 2.680; C16H35NO2; [M+H]+; delta(ppm) -0.425851; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 18.933; C16H35NO2; [M+H]+; delta(ppm) -0.425851; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C16H35NO2; [M+H]+; delta(ppm) -0.425851; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 26.171; C16H35NO2; [M+H]+; delta(ppm) -0.425851; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C16H35NO2; [M+H]+; delta(ppm) -0.425851; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; NKFNBVMJTSYZDV-UHFFFAOYSA-N; C16H35NO2; Massbank:LU030802 Lauryldiethanolamine2-[dodecyl(2-hydroxyethyl)amino]ethanol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.026; NKFNBVMJTSYZDV; [M+H]+; nan; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.675; NKFNBVMJTSYZDV-UHFFFAOYSA-N; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; NKFNBVMJTSYZDV-UHFFFAOYSA-N; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; NKFNBVMJTSYZDV-UHFFFAOYSA-N; [M+H]+; 2-[dodecyl(2-hydroxyethyl)amino]ethanol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -14.649; NKFNBVMJTSYZDV; [M+H]+; Lauryldiethanolamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.652; NKFNBVMJTSYZDV; [M+H]+; Lauryldiethanolamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -31.649; NKFNBVMJTSYZDV; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.690; NKFNBVMJTSYZDV; [M+H]+; nan; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3b; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 2 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1)
+CH$NAME: 2-[dodecyl(2-hydroxyethyl)amino]ethanol
+CH$COMPOUND_CLASS: Non-Natural Product
+CH$FORMULA: C16H35NO2
+CH$EXACT_MASS: 273.266779
+CH$SMILES: CCCCCCCCCCCCN(CCO)CCO
+CH$IUPAC: InChI=1S/C16H35NO2/c1-2-3-4-5-6-7-8-9-10-11-12-17(13-15-18)14-16-19/h18-19H,2-16H2,1H3
+CH$LINK: INCHIKEY NKFNBVMJTSYZDV-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:352309
+CH$LINK: ChemOnt CHEMONTID:0002449; Organic compounds; Organic nitrogen compounds; Organonitrogen compounds; Amines
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 11.955
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 274.273939
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-0090000000-b1bae8336cc5eba50818
+PK$ANNOTATION: m/z int mzPAF cor n
+  57.069847 12 f{C4H9}/-0.51ppm,p-C12H27N1O2 0.9887 227
+  70.065151 19 f{C4H8N1}/0.36ppm,p-C12H28O2 0.9921 228
+  71.085492 7 f{C5H11}/-0.49ppm,p-C11H25N1O2 0.9823 226
+  85.101031 3 f{C6H13}/-1.71ppm,p-C10H23N1O2 0.9700 182
+  88.075662 52 f{C4H10N1O1}/-0.32ppm,p-C12H26O1 0.9967 228
+  102.091276 16 f{C5H12N1O1}/-0.63ppm,p-C11H24O1 0.9912 228
+  106.086298 43 f{C4H12N1O2}/0.40ppm,p-C12H24 0.9975 228
+  230.247533 5 f{C14H32N1O1}/-1.34ppm,p-C2H4O1 0.9813 213
+  256.263503 46 f{C16H34N1O1}/0.04ppm,p-H2O1 0.9956 228
+  274.273917 999 f{C16H36N1O2}/-0.50ppm,p 1.0000 228
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  57.069847 12.00 12
+  70.065151 19.00 19
+  71.085492 7.00 7
+  85.101031 3.00 3
+  88.075662 52.00 52
+  102.091276 16.00 16
+  106.086298 43.00 43
+  230.247533 5.00 5
+  256.263503 46.00 46
+  274.273917 999.00 999
+//

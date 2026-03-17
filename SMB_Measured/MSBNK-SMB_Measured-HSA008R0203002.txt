@@ -1,0 +1,83 @@
+ACCESSION: MSBNK-SMB_Measured-HSA008R0203002
+RECORD_TITLE: Tryptophan; LC-ESI-QTOF; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 68 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 203.082230; int 999.000; delta(ppm) -3.062818
+COMMENT: PROPOSED_MF SevenGoldenRules 1.225; C11H12N2O2; [M-H]1; delta(ppm) 1.224949; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.621; C11H12N2O2; [M-H]-; delta(ppm) 1.234918; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 30.936; C11H12N2O2; [M-H]-; delta(ppm) 1.234918; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C11H12N2O2; [M-H]-; delta(ppm) 1.234918; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 44.700; C11H12N2O2; [M-H]-; delta(ppm) 1.234918; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.999; C11H12N2O2; [M-H]-; delta(ppm) 1.234918; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 26.000; QIVBCDIJIAJPQS-VIFPVBQESA-N; C11H12N2O2; L-Tryptophan - 40.0 eV; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 16.000; QIVBCDIJIAJPQS-UHFFFAOYSA-N; C11H12N2O2; MoNA:3174401 2-amino-3-(1H-indol-3-yl)propanoic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 10.000; QIVBCDIJIAJPQS-SECBINFHSA-N; C11H12N2O2; D-(+)-tryptophan - 40.0 eV; Ranking 3;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.267; QIVBCDIJIAJPQS; [M-H]-; L-Tryptophan; Ranking 4;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 9.034; QIVBCDIJIAJPQS-VIFPVBQESA-N; [M-H]-; L-Tryptophan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; QIVBCDIJIAJPQS-VIFPVBQESA-N; [M-H]-; L-Tryptophan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; QIVBCDIJIAJPQS-VIFPVBQESA-N; [M-H]-; (2S)-2-amino-3-(1H-indol-3-yl)propanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.082; QIVBCDIJIAJPQS; [M-H]-; Pacitron; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.984; QIVBCDIJIAJPQS; [M-H]-; Pacitron; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -40.406; QIVBCDIJIAJPQS; [M-H]-; Htrp; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.989; QIVBCDIJIAJPQS; [M-H]-; Htrp; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 52 spectra); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000929)
+CH$NAME: Tryptophan
+CH$NAME: Htrp
+CH$NAME: 2-amino-3-(1H-indol-3-yl)propanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C11H12N2O2
+CH$EXACT_MASS: 204.089878
+CH$SMILES: C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N
+CH$IUPAC: InChI=1S/C11H12N2O2/c12-9(11(14)15)5-7-6-13-10-4-2-1-3-8(7)10/h1-4,6,9,13H,5,12H2,(H,14,15)
+CH$LINK: HMDB HMDB0000929
+CH$LINK: INCHIKEY QIVBCDIJIAJPQS-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:1148
+CH$LINK: ChemOnt CHEMONTID:0001290; Organic compounds; Organoheterocyclic compounds; Indoles and derivatives; Indolyl carboxylic acids and derivatives
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.002
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 203.082852
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-014i-0910000000-f5115f0b40a8d96bd268
+PK$ANNOTATION: m/z int mzPAF cor n
+  74.024408 156 f{C2H4N1O2}/-4.65ppm,p-C9H7N1 0.8437 50
+  116.050525 999 f{C8H6N1}/-0.41ppm,p-C3H5N1O2 0.9085 62
+  130.066300 53 f{C9H8N1}/0.60ppm,p-C2H3N1O2 0.7707 50
+  142.065905 296 f{C10H8N1}/-2.24ppm,p-C1H3N1O2 0.8896 66
+  159.092396 101 f{C10H11N2}/-2.37ppm,p-C1O2 0.8699 63
+  186.055670 40 f{C11H8N1O2}/-2.05ppm,p-H3N1 0.6578 60
+  203.082355 255 f{C11H11N2O2}/-1.21ppm,p 1.0000 67
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  74.024408 156.00 156
+  116.050525 999.00 999
+  130.066300 53.00 53
+  142.065905 296.00 296
+  159.092396 101.00 101
+  186.055670 40.00 40
+  203.082355 255.00 255
+//

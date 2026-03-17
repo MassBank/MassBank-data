@@ -1,0 +1,73 @@
+ACCESSION: MSBNK-SMB_Measured-HSA032R0286004
+RECORD_TITLE: Piperine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Yu et al. Front Cell Infect Microbiol. 2022,11,763507
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 11 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS3233
+COMMENT: DATASET_TITLE The gut microbiome and metabolites are altered and interrelated in patients with rheumatoid arthritis
+COMMENT: DATASET_AUTHORS Die Yu, Juping Du, Xia Pu, Liyuan Zheng, Shuaishuai Chen, Na Wang, Jun Li, Shiyong Chen, Shaobiao Pan, Bo Shen
+COMMENT: PRECURSOR_IN_MS1 mz 286.144416; int 37.867; delta(ppm) 0.590451
+COMMENT: PROPOSED_MF SevenGoldenRules 1.676; C17H19NO3; [M+H]+; delta(ppm) 1.676387; Ranking 3;
+COMMENT: PROPOSED_MF MS-FINDER 4.535; C17H19NO3; [M+H]+; delta(ppm) 1.667304; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 27.158; C17H19NO3; [M+H]+; delta(ppm) 1.667304; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C17H19NO3; [M+H]+; delta(ppm) 1.667304; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 34.743; C17H19NO3; [M+H]+; delta(ppm) 1.667304; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.964; C17H19NO3; [M+H]+; delta(ppm) 1.667304; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.901; MXXWOMGUGJBKIW-YPCIICBESA-N; [M+H]+; Piperine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.985; MXXWOMGUGJBKIW-YPCIICBESA-N; [M+H]+; Piperine; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.131; MXXWOMGUGJBKIW-YPCIICBESA-N; [M+H]+; (2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one; Ranking 4;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -71.316; MXXWOMGUGJBKIW; [M+H]+; piperine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.918; MXXWOMGUGJBKIW; [M+H]+; piperine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -143.898; MXXWOMGUGJBKIW; [M+H]+; Piperin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.884; MXXWOMGUGJBKIW; [M+H]+; Piperin; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 4); Biological context by HMDB (HMDB0029377)
+CH$NAME: Piperine
+CH$NAME: Piperin
+CH$NAME: 5-(1,3-benzodioxol-5-yl)-1-piperidino-penta-2,4-dien-1-one
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C17H19NO3
+CH$EXACT_MASS: 285.136493
+CH$SMILES: C1CCN(CC1)C(=O)C=CC=CC2=CC3=C(C=C2)OCO3
+CH$IUPAC: InChI=1S/C17H19NO3/c19-17(18-10-4-1-5-11-18)7-3-2-6-14-8-9-15-16(12-14)21-13-20-15/h2-3,6-9,12H,1,4-5,10-11,13H2
+CH$LINK: HMDB HMDB0029377
+CH$LINK: INCHIKEY MXXWOMGUGJBKIW-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4840
+CH$LINK: ChemOnt CHEMONTID:0000279; Organic compounds; Alkaloids and derivatives
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: UPLC system, AB SCIEX - TripleTOF 5600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 5.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 13.00; MS2(ppm) 20.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC T3 column (1.8 µm, 100 mm x 2.1 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-0.5 min, 5% B; 0.5-7.0 min,` 100% B; 7.0-8.0 min, 100% B; 8.0-8.1 min, 5% B; 8.1-10.0 min, 5% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.065
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 286.144247
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00rf-0920000000-ce28f464c0a7df5f22e8
+PK$ANNOTATION: m/z int mzPAF cor n
+  115.054526 929 f{C9H7}/2.60ppm,p-C8H13N1O3 0.9398 8
+  143.050708 999 f{C10H7O1}/10.95ppm,p-C7H13N1O2 0.7589 11
+  171.045107 846 f{C11H7O2}/6.14ppm,p-C6H13N1O1 0.8621 9
+  286.146287 687 f{C17H20N1O3}/8.80ppm,p 1.0000 11
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  115.054526 929.00 929
+  143.050708 999.00 999
+  171.045107 846.00 846
+  286.146287 687.00 687
+//

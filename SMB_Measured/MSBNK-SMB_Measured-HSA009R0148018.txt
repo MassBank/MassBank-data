@@ -1,0 +1,76 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0148018
+RECORD_TITLE: Glutamic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 128 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 148.060434; int 13.351; delta(ppm) -0.087790
+COMMENT: PROPOSED_MF SevenGoldenRules 0.088; C5H9NO4; [M+H]+; delta(ppm) 0.088403; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.647; C5H9NO4; [M+H]+; delta(ppm) 0.086354; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 30.593; C5H9NO4; [M+H]+; delta(ppm) 0.086354; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C5H9NO4; [M+H]+; delta(ppm) 0.086354; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 40.362; C5H9NO4; [M+H]+; delta(ppm) 0.086354; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C5H9NO4; [M+H]+; delta(ppm) 0.086354; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.927; WHUUTDBJXJRKMK; [M+H]+; L-Glutamic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.923; WHUUTDBJXJRKMK-VKHMYHEASA-N; [M+H]+; L-Glutamic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.866; WHUUTDBJXJRKMK-VKHMYHEASA-N; [M+H]+; L-Glutamic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.866; WHUUTDBJXJRKMK-VKHMYHEASA-N; [M+H]+; (2S)-2-aminopentanedioic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -2.997; WHUUTDBJXJRKMK; [M+H]+; Glutamat; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.894; WHUUTDBJXJRKMK; [M+H]+; Glutamat; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -69.756; WHUUTDBJXJRKMK; [M+H]+; L-Glu; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.994; WHUUTDBJXJRKMK; [M+H]+; L-Glu; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000148)
+CH$NAME: Glutamic acid
+CH$NAME: Glu
+CH$NAME: 2-aminopentanedioic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C5H9NO4
+CH$EXACT_MASS: 147.053158
+CH$SMILES: C(CC(=O)O)C(C(=O)O)N
+CH$IUPAC: InChI=1S/C5H9NO4/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H,7,8)(H,9,10)
+CH$LINK: HMDB HMDB0000148
+CH$LINK: INCHIKEY WHUUTDBJXJRKMK-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:611
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.968
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 148.060447
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-9600000000-04a96091cd4535aca474
+PK$ANNOTATION: m/z int mzPAF cor n
+  84.044484 999 f{C4H6N1O1}/1.12ppm,p-C1H4O3 1.0000 128
+  84.080754 117 f{C5H10N1}/-0.26ppm,p-O4 0.3196 126
+  102.055042 408 f{C4H8N1O2}/0.85ppm,p-C1H2O2 0.9154 128
+  130.049840 364 f{C5H8N1O3}/-0.23ppm,p-H2O1 0.9079 128
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  84.044484 999.00 999
+  84.080754 117.00 117
+  102.055042 408.00 408
+  130.049840 364.00 364
+//

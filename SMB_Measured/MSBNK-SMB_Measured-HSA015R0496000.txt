@@ -1,0 +1,96 @@
+ACCESSION: MSBNK-SMB_Measured-HSA015R0496000
+RECORD_TITLE: LysoPC(16:0); LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 21 product ion spectra among 27 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS6402
+COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
+COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
+COMMENT: PRECURSOR_IN_MS1 mz 496.339865; int 52.870; delta(ppm) 0.019538
+COMMENT: PROPOSED_MF SevenGoldenRules 0.186; C24H50NO7P; [M+H]+; delta(ppm) 0.185734; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.405; C24H50NO7P; [M+H]+; delta(ppm) 0.184575; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 5075.218; C24H50NO7P; [M+H]+; delta(ppm) 0.184575; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C24H50NO7P; [M+H]+; delta(ppm) 0.184575; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 104.833; C24H50NO7P; [M+H]+; delta(ppm) 0.184575; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C24H50NO7P; [M+H]+; delta(ppm) 0.184575; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 8.000; ASWBNKHCZGQVJV-HSZRJFAPSA-N; C24H50NO7P; Spectral Match to Lyso-PC(16:0) from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; ASWBNKHCZGQVJV-UHFFFAOYSA-N; C24H50NO7P; Massbank:RP012103 PC(16:0/0:0)Palmitoyllysolectithin(3-hexadecanoyloxy-2-hydroxypropyl) 2-(trimethylazaniumyl)ethyl phosphate; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.218; ASWBNKHCZGQVJV; [M+H]+; LysoPC(16:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.988; ASWBNKHCZGQVJV-HSZRJFAPSA-N; [M+H]+; LysoPC(16:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; ASWBNKHCZGQVJV-HSZRJFAPSA-N; [M+H]+; LysoPC(16:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.460; ASWBNKHCZGQVJV; [M+H]+; 1-16:0-lysoPC; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.650; ASWBNKHCZGQVJV; [M+H]+; 1-16:0-lysoPC; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -128.631; ASWBNKHCZGQVJV; [M+H]+; 1-Palmitoyl-sn-glycero-3-phosphocholine-d9; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.669; ASWBNKHCZGQVJV; [M+H]+; 1-Palmitoyl-sn-glycero-3-phosphocholine-d9; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 8 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0010382)
+CH$NAME: LysoPC(16:0)
+CH$NAME: (3-hexadecanoyloxy-2-hydroxypropyl) 2-(trimethylazaniumyl)ethyl phosphate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C24H50NO7P
+CH$EXACT_MASS: 495.332490
+CH$SMILES: CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)O
+CH$IUPAC: InChI=1S/C24H50NO7P/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-24(27)30-21-23(26)22-32-33(28,29)31-20-19-25(2,3)4/h23,26H,5-22H2,1-4H3
+CH$LINK: HMDB HMDB0010382
+CH$LINK: INCHIKEY ASWBNKHCZGQVJV-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:86554
+CH$LINK: ChemOnt CHEMONTID:0002213; Organic compounds; Lipids and lipid-like molecules; Glycerophospholipids; Glycerophosphocholines
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Vanquish Flex UHPLC system, Thermo Fisher Scientific - Orbitrap Q Exactive Plus mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.50; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
+AC$CHROMATOGRAPHY: RETENTION_TIME 16.199
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 496.339856
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0f89-3900100000-fa4d38a6c50ae4443085
+PK$ANNOTATION: m/z int mzPAF cor n
+  56.049410 12 f{C3H6N1}/-1.17ppm,p-C21H45O7P1 0.7792 18
+  57.069853 35 f{C4H9}/-0.42ppm,p-C20H42N1O7P1 0.8883 21
+  58.065056 12 f{C3H8N1}/-1.19ppm,p-C21H43O7P1 0.6422 17
+  60.080752 171 f{C3H10N1}/-0.39ppm,p-C21H41O7P1 0.9208 21
+  71.072894 60 f{C4H9N1}/-0.80ppm,p-C20H42O7P1 0.8870 21
+  71.085471 18 f{C5H11}/-0.79ppm,p-C19H40N1O7P1 0.7198 20
+  81.069868 10 f{C6H9}/-0.10ppm,p-C18H42N1O7P1 0.8571 15
+  86.096443 479 f{C5H12N1}/0.20ppm,p-C19H39O7P1 0.8896 21
+  98.984074 33 f{H4O4P1}/-0.97ppm,p-C24H47N1O3 0.8377 21
+  104.106932 978 f{C5H14N1O1}/-0.56ppm,p-C19H37O6P1 0.9636 21
+  124.999766 257 f{C2H6O4P1}/-0.43ppm,p-C22H45N1O3 0.8818 21
+  184.073344 999 f{C5H15N1O4P1}/0.14ppm,p-C19H36O3 0.8792 21
+  313.273348 16 f{C19H37O3}/-1.19ppm,p-C5H14N1O4P1 0.8947 20
+  478.329534 97 f{C24H49N1O6P1}/0.70ppm,p-H2O1 0.9325 21
+  496.340264 271 f{C24H51N1O7P1}/1.01ppm,p 1.0000 21
+PK$NUM_PEAK: 15
+PK$PEAK: m/z int. rel.int.
+  56.049410 12.00 12
+  57.069853 35.00 35
+  58.065056 12.00 12
+  60.080752 171.00 171
+  71.072894 60.00 60
+  71.085471 18.00 18
+  81.069868 10.00 10
+  86.096443 479.00 479
+  98.984074 33.00 33
+  104.106932 978.00 978
+  124.999766 257.00 257
+  184.073344 999.00 999
+  313.273348 16.00 16
+  478.329534 97.00 97
+  496.340264 271.00 271
+//

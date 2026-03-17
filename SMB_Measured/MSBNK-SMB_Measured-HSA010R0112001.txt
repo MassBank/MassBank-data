@@ -1,0 +1,78 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0112001
+RECORD_TITLE: Cytosine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 90 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 112.050538; int 104.941; delta(ppm) 0.035468
+COMMENT: PROPOSED_MF SevenGoldenRules 0.036; C4H5N3O; [M+H]+; delta(ppm) -0.036022; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.895; C4H5N3O; [M+H]+; delta(ppm) -0.037801; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 8.770; C4H5N3O; [M+H]+; delta(ppm) -0.037801; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C4H5N3O; [M+H]+; delta(ppm) -0.037801; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 16.991; C4H5N3O; [M+H]+; delta(ppm) -0.037801; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C4H5N3O; [M+H]+; delta(ppm) -0.037801; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 31.000; OPTASPLRGRRNAP-UHFFFAOYSA-N; C4H5N3O; CYTOSINE - 40.0 eV; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.543; OPTASPLRGRRNAP; [M+H]+; Cytosine; Ranking 9;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.829; OPTASPLRGRRNAP-UHFFFAOYSA-N; [M+H]+; Cytosine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.852; OPTASPLRGRRNAP-UHFFFAOYSA-N; [M+H]+; Cytosine; Ranking 6;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.846; OPTASPLRGRRNAP-UHFFFAOYSA-N; [M+H]+; 6-amino-1H-pyrimidin-2-one; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -15.861; OPTASPLRGRRNAP; [M+H]+; cytosine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.493; OPTASPLRGRRNAP; [M+H]+; cytosine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -16.985; OPTASPLRGRRNAP; [M+H]+; Zytosin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.695; OPTASPLRGRRNAP; [M+H]+; Zytosin; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 31 spectra); Supported by CFM-ID:MsfinderDB (Ranking 9), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 6), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000630)
+CH$NAME: Cytosine
+CH$NAME: Zytosin
+CH$NAME: 6-amino-1H-pyrimidin-2-one
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C4H5N3O
+CH$EXACT_MASS: 111.043262
+CH$SMILES: C1=C(NC(=O)N=C1)N
+CH$IUPAC: InChI=1S/C4H5N3O/c5-3-1-2-6-4(8)7-3/h1-2H,(H3,5,6,7,8)
+CH$LINK: HMDB HMDB0000630
+CH$LINK: INCHIKEY OPTASPLRGRRNAP-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:597
+CH$LINK: ChemOnt CHEMONTID:0000075; Organic compounds; Organoheterocyclic compounds; Diazines; Pyrimidines and pyrimidine derivatives
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.884
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 112.050534
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-1900000000-8b45cb8bf964720b24c1
+PK$ANNOTATION: m/z int mzPAF cor n
+  69.044740 27 f{C3H5N2}/0.23ppm,p-C1H1N1O1 0.9965 90
+  70.028800 26 f{C3H4N1O1}/0.85ppm,p-C1H2N2 0.2916 77
+  94.039994 14 f{C4H4N3}/0.22ppm,p-H2O1 0.9881 89
+  95.024014 102 f{C4H3N2O1}/0.26ppm,p-H3N1 0.9955 90
+  112.050435 999 f{C4H6N3O1}/-0.92ppm,p 1.0000 90
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  69.044740 27.00 27
+  70.028800 26.00 26
+  94.039994 14.00 14
+  95.024014 102.00 102
+  112.050435 999.00 999
+//

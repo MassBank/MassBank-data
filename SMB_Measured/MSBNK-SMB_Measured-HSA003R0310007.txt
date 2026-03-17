@@ -1,0 +1,78 @@
+ACCESSION: MSBNK-SMB_Measured-HSA003R0310007
+RECORD_TITLE: Tyrosyl-Glutamine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 13 product ion spectra among 52 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002338
+COMMENT: DATASET_TITLE Interplay Between Cruciferous Vegetables and the Gut Microbiome: A Multi-Omic Approach
+COMMENT: DATASET_AUTHORS Bouranis John, Oregon State University
+COMMENT: PRECURSOR_IN_MS1 mz 310.140574; int 78.490; delta(ppm) 0.115570
+COMMENT: PROPOSED_MF SevenGoldenRules 2.562; C14H19N3O5; [M+H]+; delta(ppm) 2.562002; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 4.066; C14H19N3O5; [M+H]+; delta(ppm) 2.553139; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 27.209; C14H19N3O5; [M+H]+; delta(ppm) 2.553139; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C14H19N3O5; [M+H]+; delta(ppm) 2.553139; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 43.419; C14H19N3O5; [M+H]+; delta(ppm) 2.553139; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C14H19N3O5; [M+H]+; delta(ppm) 2.553139; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.081; UBAQSAUDKMIEQZ; [M+H]+; Tyrosyl-Glutamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.572; UBAQSAUDKMIEQZ-UHFFFAOYNA-N; [M+H]+; Tyrosyl-Glutamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; UBAQSAUDKMIEQZ-UHFFFAOYNA-N; [M+H]+; Tyrosyl-Glutamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.101; UBAQSAUDKMIEQZ-UHFFFAOYSA-N; [M+H]+; 5-amino-2-[[2-amino-3-(4-hydroxyphenyl)propanoyl]amino]-5-oxopentanoic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.238; UBAQSAUDKMIEQZ; [M+H]+; tyrosylglutamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.959; UBAQSAUDKMIEQZ; [M+H]+; tyrosylglutamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -188.544; UBAQSAUDKMIEQZ; [M+H]+; (2S)-5-amino-2-[[(2S)-2-azaniumyl-3-(4-hydroxyphenyl)propanoyl]amino]-5-oxopentanoate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.973; UBAQSAUDKMIEQZ; [M+H]+; (2S)-5-amino-2-[[(2S)-2-azaniumyl-3-(4-hydroxyphenyl)propanoyl]amino]-5-oxopentanoate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0029103)
+CH$NAME: Tyrosyl-Glutamine
+CH$NAME: 5-amino-2-[[2-amino-3-(4-hydroxyphenyl)propanoyl]amino]-5-oxopentanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C14H19N3O5
+CH$EXACT_MASS: 309.132471
+CH$SMILES: C1=CC(=CC=C1CC(C(=O)NC(CCC(=O)N)C(=O)O)N)O
+CH$IUPAC: InChI=1S/C14H19N3O5/c15-10(7-8-1-3-9(18)4-2-8)13(20)17-11(14(21)22)5-6-12(16)19/h1-4,10-11,18H,5-7,15H2,(H2,16,19)(H,17,20)(H,21,22)
+CH$LINK: HMDB HMDB0029103
+CH$LINK: INCHIKEY UBAQSAUDKMIEQZ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:19421321
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cultured cells
+AC$INSTRUMENT: ABI Sciex 5600 TripleTOF
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME GL Sciences Inertsil1 Phenyl-3 (4.6 x 150mm,5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient started with 5% B and was held for 1 min at 5% B, followed by a 11-min linear gradient from 5% to 30% B. The gradient was increased linearly to 100% B at 23 min, held for 5 min at 100% B and, finally, stepped back to 5% B to equilibrate the column.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.436
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 310.140539
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0019-2900000000-567923eaf4c2136b9434
+PK$ANNOTATION: m/z int mzPAF cor n
+  84.044370 293 f{C4H6N1O1}/-0.24ppm,p-C10H14N2O4 0.8772 13
+  91.054121 336 f{C7H7}/-1.16ppm,p-C7H13N3O5 1.0000 13
+  119.048939 331 f{C8H7O1}/-1.70ppm,p-C6H13N3O4 0.8566 13
+  130.049453 646 f{C5H8N1O3}/-3.20ppm,p-C9H12N2O2 0.9063 13
+  136.075561 999 f{C8H10N1O1}/-0.95ppm,p-C6H10N2O4 0.8871 13
+  147.043729 99 f{C9H7O2}/-2.22ppm,p-C5H13N3O3 0.6620 13
+  147.076316 243 f{C5H11N2O3}/-0.70ppm,p-C9H9N1O2 0.8798 13
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  84.044370 293.00 293
+  91.054121 336.00 336
+  119.048939 331.00 331
+  130.049453 646.00 646
+  136.075561 999.00 999
+  147.043729 99.00 99
+  147.076316 243.00 243
+//

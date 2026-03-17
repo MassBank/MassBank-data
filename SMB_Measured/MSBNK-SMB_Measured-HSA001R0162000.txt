@@ -1,0 +1,81 @@
+ACCESSION: MSBNK-SMB_Measured-HSA001R0162000
+RECORD_TITLE: Carnitine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 164 product ion spectra among 22 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MB-POST
+COMMENT: DATASET_ID MPST000004
+COMMENT: DATASET_TITLE Annotation of various metabolites in SRM 1950 human serum
+COMMENT: DATASET_AUTHORS Masatomo Takahashi, Yoshihiro Izumi, Kyoshu University
+COMMENT: PRECURSOR_IN_MS1 mz 162.112445; int 999.000; delta(ppm) 0.024834
+COMMENT: PROPOSED_MF SevenGoldenRules 0.174; C7H15NO3; [M+H]+; delta(ppm) -0.173800; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.750; C7H15NO3; [M+H]+; delta(ppm) -0.177555; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 20.903; C7H15NO3; [M+H]+; delta(ppm) -0.177555; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C7H15NO3; [M+H]+; delta(ppm) -0.177555; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 35.072; C7H15NO3; [M+H]+; delta(ppm) -0.177555; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C7H15NO3; [M+H]+; delta(ppm) -0.177555; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 32.000; PHIQHXFUZVPYII-ZCFIWIBFSA-N; C7H15NO3; CARNITINE; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 13.000; PHIQHXFUZVPYII-UHFFFAOYSA-N; C7H15NO3; Massbank:RP022201 L-CarnitineDL-Carnitine3-hydroxy-4-(trimethylazaniumyl)butanoate; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 5.000; PHIQHXFUZVPYII-LURJTMIESA-N; C7H15NO3; L-CARNITINE; Ranking 3;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.289; PHIQHXFUZVPYII; [M+H]+; L-Carnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.742; PHIQHXFUZVPYII-ZCFIWIBFSA-N; [M+H]+; L-Carnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.996; PHIQHXFUZVPYII-ZCFIWIBFSA-N; [M+H]+; L-Carnitine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.117; PHIQHXFUZVPYII; [M+H]+; Carnitin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.999; PHIQHXFUZVPYII; [M+H]+; Carnitin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -17.341; PHIQHXFUZVPYII; [M+H]+; (3-Carboxy-2-hydroxypropyl)-tris(trideuteriomethyl)azanium; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.997; PHIQHXFUZVPYII; [M+H]+; (3-Carboxy-2-hydroxypropyl)-tris(trideuteriomethyl)azanium; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 50 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2); Biological context by HMDB (HMDB0000062)
+CH$NAME: Carnitine
+CH$NAME: 3-hydroxy-4-(trimethylazaniumyl)butanoate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C7H15NO3
+CH$EXACT_MASS: 161.105193
+CH$SMILES: C[N+](C)(C)CC(CC(=O)[O-])O
+CH$IUPAC: InChI=1S/C7H15NO3/c1-8(2,3)5-6(9)4-7(10)11/h6,9H,4-5H2,1-3H3
+CH$LINK: HMDB HMDB0000062
+CH$LINK: INCHIKEY PHIQHXFUZVPYII-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:288
+CH$LINK: ChemOnt CHEMONTID:0000503; Organic compounds; Organic nitrogen compounds; Organonitrogen compounds; Quaternary ammonium salts
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Nexera X2 UHPLC system, Shimadzu - Q Exactive Orbitrap, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 V
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME GL-HilicAex 2.1 x 150 mm, 5 mm (Resonac)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 15.5 min: 40, 16.5 min: 0, 26.5 min: 0, 27.5 min: 95, 35 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.685
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 162.112441
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-0900000000-b77c85b018a3f7d78179
+PK$ANNOTATION: m/z int mzPAF cor n
+  60.080831 74 f{C3H10N1}/0.91ppm,p-C4H6O3 0.9987 164
+  85.028340 16 f{C4H5O2}/-0.77ppm,p-C3H11N1O1 0.9959 164
+  86.059953 8 f{C4H8N1O1}/-1.01ppm,p-C3H8O2 0.4550 130
+  102.091316 25 f{C5H12N1O1}/-0.24ppm,p-C2H4O2 0.9967 164
+  103.038945 101 f{C4H7O3}/-0.25ppm,p-C3H9N1 0.9991 164
+  162.112400 999 f{C7H16N1O3}/-0.43ppm,p 1.0000 164
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  60.080831 74.00 74
+  85.028340 16.00 16
+  86.059953 8.00 8
+  102.091316 25.00 25
+  103.038945 101.00 101
+  162.112400 999.00 999
+//

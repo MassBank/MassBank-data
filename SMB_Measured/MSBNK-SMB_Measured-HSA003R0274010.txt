@@ -1,0 +1,81 @@
+ACCESSION: MSBNK-SMB_Measured-HSA003R0274010
+RECORD_TITLE: Valyl-Arginine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 13 product ion spectra among 52 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002338
+COMMENT: DATASET_TITLE Interplay Between Cruciferous Vegetables and the Gut Microbiome: A Multi-Omic Approach
+COMMENT: DATASET_AUTHORS Bouranis John, Oregon State University
+COMMENT: PRECURSOR_IN_MS1 mz 274.188376; int 68.314; delta(ppm) -0.356870
+COMMENT: PROPOSED_MF SevenGoldenRules 4.056; C11H23N5O3; [M+H]+; delta(ppm) 4.055916; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.804; C11H23N5O3; [M+H]+; delta(ppm) 4.040782; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 28.878; C11H23N5O3; [M+H]+; delta(ppm) 4.040782; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C11H23N5O3; [M+H]+; delta(ppm) 4.040782; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 41.877; C11H23N5O3; [M+H]+; delta(ppm) 4.040782; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C11H23N5O3; [M+H]+; delta(ppm) 4.040782; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.998; IBIDRSSEHFLGSD; [M+H]+; Valyl-Arginine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.067; IBIDRSSEHFLGSD-UHFFFAOYNA-N; [M+H]+; Valyl-Arginine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; IBIDRSSEHFLGSD-UHFFFAOYNA-N; [M+H]+; Valyl-Arginine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.500; IBIDRSSEHFLGSD-YUMQZZPRSA-N; [M+H]+; (2S)-2-[[(2S)-2-amino-3-methylbutanoyl]amino]-5-(diaminomethylideneamino)pentanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -5.940; IBIDRSSEHFLGSD; [M+H]+; valylarginine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.707; IBIDRSSEHFLGSD; [M+H]+; valylarginine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -128.373; IBIDRSSEHFLGSD; [M+H]+; Valylarginine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.607; IBIDRSSEHFLGSD; [M+H]+; Valylarginine; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS5_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0029121)
+CH$NAME: Valyl-Arginine
+CH$NAME: valylarginine
+CH$NAME: 2-[(2-amino-3-methyl-butanoyl)amino]-5-guanidino-valeric acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C11H23N5O3
+CH$EXACT_MASS: 273.180090
+CH$SMILES: CC(C)C(C(=O)NC(CCCN=C(N)N)C(=O)O)N
+CH$IUPAC: InChI=1S/C11H23N5O3/c1-6(2)8(12)9(17)16-7(10(18)19)4-3-5-15-11(13)14/h6-8H,3-5,12H2,1-2H3,(H,16,17)(H,18,19)(H4,13,14,15)
+CH$LINK: HMDB HMDB0029121
+CH$LINK: INCHIKEY IBIDRSSEHFLGSD-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4266827
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cultured cells
+AC$INSTRUMENT: ABI Sciex 5600 TripleTOF
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME GL Sciences Inertsil1 Phenyl-3 (4.6 x 150mm,5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient started with 5% B and was held for 1 min at 5% B, followed by a 11-min linear gradient from 5% to 30% B. The gradient was increased linearly to 100% B at 23 min, held for 5 min at 100% B and, finally, stepped back to 5% B to equilibrate the column.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.628
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 274.188474
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-004i-0910000000-fe79a072b44b8261d89b
+PK$ANNOTATION: m/z int mzPAF cor n
+  112.086704 215 f{C5H10N3}/-1.96ppm,p-C6H14N2O3 0.7306 13
+  142.097178 221 f{C6H12N3O1}/-2.19ppm,p-C5H12N2O2 0.7719 13
+  157.108649 66 f{C6H13N4O1}/1.67ppm,p-C5H11N1O2 0.8764 13
+  158.092519 360 f{C6H12N3O2}/0.74ppm,p-C5H12N2O1 0.6855 13
+  175.118913 999 f{C6H15N4O2}/-0.22ppm,p-C5H9N1O1 0.6777 13
+  198.113364 20 f{C10H16N1O3}/4.51ppm,p-C1H8N4 0.6994 12
+  257.161111 88 f{C11H21N4O3}/1.14ppm,p-H3N1 0.6466 13
+  274.187980 247 f{C11H24N5O3}/2.24ppm,p 1.0000 13
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  112.086704 215.00 215
+  142.097178 221.00 221
+  157.108649 66.00 66
+  158.092519 360.00 360
+  175.118913 999.00 999
+  198.113364 20.00 20
+  257.161111 88.00 88
+  274.187980 247.00 247
+//

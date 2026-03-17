@@ -1,0 +1,85 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0279001
+RECORD_TITLE: Phe-Leu; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 331 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 279.170343; int 97.922; delta(ppm) 0.003667
+COMMENT: PROPOSED_MF SevenGoldenRules 0.083; C15H22N2O3; [M+H]+; delta(ppm) 0.082685; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.293; C15H22N2O3; [M+H]+; delta(ppm) 0.082335; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 26.003; C15H22N2O3; [M+H]+; delta(ppm) 0.082335; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C15H22N2O3; [M+H]+; delta(ppm) 0.082335; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 40.171; C15H22N2O3; [M+H]+; delta(ppm) 0.082335; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C15H22N2O3; [M+H]+; delta(ppm) 0.082335; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; RFCVXVPWSPOMFJ-STQMWFEESA-N; C15H22N2O3; Spectral Match to Phe-Leu from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; RFCVXVPWSPOMFJ-UHFFFAOYSA-N; C15H22N2O3; Spectral Match to Phe-Leu from NIST14; Ranking 3;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.582; RFCVXVPWSPOMFJ; [M+H]+; Phe-Leu; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.242; RFCVXVPWSPOMFJ-STQMWFEESA-N; [M+H]+; Phe-Leu; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.866; RFCVXVPWSPOMFJ-STQMWFEESA-N; [M+H]+; Phe-Leu; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.512; RFCVXVPWSPOMFJ-STQMWFEESA-N; [M+H]+; (2S)-2-[[(2S)-2-amino-3-phenylpropanoyl]amino]-4-methylpentanoic acid; Ranking 4;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -8.736; RFCVXVPWSPOMFJ; [M+H]+; Phenylalanylleucine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.453; RFCVXVPWSPOMFJ; [M+H]+; Phenylalanylleucine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -78.146; RFCVXVPWSPOMFJ; [M+H]+; Phe-Leu; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.968; RFCVXVPWSPOMFJ; [M+H]+; Phe-Leu; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3b; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 3 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 3), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 4)
+CH$NAME: Phe-Leu
+CH$NAME: 4-methyl-2-(phenylalanylamino)valeric acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C15H22N2O3
+CH$EXACT_MASS: 278.163043
+CH$SMILES: CC(C)CC(C(=O)O)NC(=O)C(CC1=CC=CC=C1)N
+CH$IUPAC: InChI=1S/C15H22N2O3/c1-10(2)8-13(15(19)20)17-14(18)12(16)9-11-6-4-3-5-7-11/h3-7,10,12-13H,8-9,16H2,1-2H3,(H,17,18)(H,19,20)
+CH$LINK: INCHIKEY RFCVXVPWSPOMFJ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4078229
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.743
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 279.170342
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-0900000000-a45793a2e1064d413a71
+PK$ANNOTATION: m/z int mzPAF cor n
+  70.065111 18 f{C4H8N1}/-0.21ppm,p-C11H15N1O3 0.1821 302
+  86.096402 76 f{C5H12N1}/-0.28ppm,p-C10H11N1O3 0.9237 331
+  91.054873 3 f{C7H7}/7.10ppm,p-C8H16N2O3 0.9493 245
+  93.069774 3 f{C7H9}/-1.11ppm,p-C8H14N2O3 0.9802 281
+  103.054277 9 f{C8H7}/0.48ppm,p-C7H16N2O3 0.9866 327
+  120.080783 999 f{C8H10N1}/0.06ppm,p-C7H13N1O3 0.9946 331
+  132.101937 39 f{C6H14N1O2}/0.24ppm,p-C9H9N1O1 0.9909 331
+  233.164925 30 f{C14H21N2O1}/0.36ppm,p-C1H2O2 0.9526 299
+  279.170742 78 f{C15H23N2O3}/1.51ppm,p 1.0000 270
+PK$NUM_PEAK: 9
+PK$PEAK: m/z int. rel.int.
+  70.065111 18.00 18
+  86.096402 76.00 76
+  91.054873 3.00 3
+  93.069774 3.00 3
+  103.054277 9.00 9
+  120.080783 999.00 999
+  132.101937 39.00 39
+  233.164925 30.00 30
+  279.170742 78.00 78
+//

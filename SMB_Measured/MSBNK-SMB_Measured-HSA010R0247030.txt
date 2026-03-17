@@ -1,0 +1,99 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0247030
+RECORD_TITLE: Aspartyl-Leucine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 19 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 247.128822; int 20.484; delta(ppm) 0.051185
+COMMENT: PROPOSED_MF SevenGoldenRules 0.154; C10H18N2O5; [M+H]+; delta(ppm) -0.154395; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.528; C10H18N2O5; [M+H]+; delta(ppm) -0.154296; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 73.528; C10H18N2O5; [M+H]+; delta(ppm) -0.154296; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C10H18N2O5; [M+H]+; delta(ppm) -0.154296; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 109.645; C10H18N2O5; [M+H]+; delta(ppm) -0.154296; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C10H18N2O5; [M+H]+; delta(ppm) -0.154296; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; ZVDPYSVOZFINEE-BQBZGAKWSA-N; C10H18N2O5; Spectral Match to Asp-Leu from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.783; ZVDPYSVOZFINEE; [M+H]+; Aspartyl-Leucine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.403; ZVDPYSVOZFINEE-UHFFFAOYNA-N; [M+H]+; Aspartyl-Leucine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.846; ZVDPYSVOZFINEE-UHFFFAOYNA-N; [M+H]+; Aspartyl-Leucine; Ranking 7;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.121; ZVDPYSVOZFINEE-UHFFFAOYSA-N; [M+H]+; 2-[(2-amino-3-carboxypropanoyl)amino]-4-methylpentanoic acid; Ranking 6;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -7.938; ZVDPYSVOZFINEE; [M+H]+; Aspartyl-Leucine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.674; ZVDPYSVOZFINEE; [M+H]+; Aspartyl-Leucine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -49.070; ZVDPYSVOZFINEE; [M+H]+; 2-(2-amino-3-carboxypropanamido)-4-methylpentanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.964; ZVDPYSVOZFINEE; [M+H]+; 2-(2-amino-3-carboxypropanamido)-4-methylpentanoic acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 7), MetFrag:PubchemLite (Ranking 6); Biological context by HMDB (HMDB0028757)
+CH$NAME: Aspartyl-Leucine
+CH$NAME: 2-[(2-amino-3-carboxypropanoyl)amino]-4-methylpentanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C10H18N2O5
+CH$EXACT_MASS: 246.121572
+CH$SMILES: CC(C)CC(C(=O)O)NC(=O)C(CC(=O)O)N
+CH$IUPAC: InChI=1S/C10H18N2O5/c1-5(2)3-7(10(16)17)12-9(15)6(11)4-8(13)14/h5-7H,3-4,11H2,1-2H3,(H,12,15)(H,13,14)(H,16,17)
+CH$LINK: HMDB HMDB0028757
+CH$LINK: INCHIKEY ZVDPYSVOZFINEE-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:332962
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.906
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 247.128810
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0f80-5950000000-c7e2cb5804661f705c4c
+PK$ANNOTATION: m/z int mzPAF cor n
+  70.028762 71 f{C3H4N1O1}/0.31ppm,p-C7H15N1O4 0.8549 19
+  86.096382 999 f{C5H12N1}/-0.51ppm,p-C5H7N1O5 0.9121 19
+  88.039337 502 f{C3H6N1O2}/0.36ppm,p-C7H13N1O3 0.9385 19
+  110.023295 102 f{C5H4N1O2}/-3.27ppm,p-C5H15N1O3 1.0000 14
+  113.107171 51 f{C6H13N2}/-1.36ppm,p-C4H6O5 0.8392 14
+  132.101954 997 f{C6H14N1O2}/0.37ppm,p-C4H5N1O3 0.9253 19
+  136.075632 121 f{C8H10N1O1}/-0.43ppm,p-C2H9N1O4 0.6993 16
+  141.102011 315 f{C7H13N2O1}/-1.62ppm,p-C3H6O4 0.9429 19
+  155.117565 67 f{C8H15N2O1}/-2.09ppm,p-C2H4O4 0.7818 15
+  156.102046 74 f{C8H14N1O2}/0.91ppm,p-C2H5N1O3 0.8945 18
+  166.086321 473 f{C9H12N1O2}/0.40ppm,p-C1H7N1O3 0.8637 19
+  183.113280 184 f{C9H15N2O2}/2.60ppm,p-C1H4O3 0.9033 19
+  187.108293 309 f{C8H15N2O3}/3.07ppm,p-C2H4O2 0.9385 19
+  201.124139 969 f{C9H17N2O3}/3.83ppm,p-C1H2O2 0.9473 19
+  212.091656 399 f{C10H14N1O4}/-0.37ppm,p-H5N1O1 0.9429 19
+  229.117721 176 f{C10H17N2O4}/-2.45ppm,p-H2O1 0.9176 18
+PK$NUM_PEAK: 16
+PK$PEAK: m/z int. rel.int.
+  70.028762 71.00 71
+  86.096382 999.00 999
+  88.039337 502.00 502
+  110.023295 102.00 102
+  113.107171 51.00 51
+  132.101954 997.00 997
+  136.075632 121.00 121
+  141.102011 315.00 315
+  155.117565 67.00 67
+  156.102046 74.00 74
+  166.086321 473.00 473
+  183.113280 184.00 184
+  187.108293 309.00 309
+  201.124139 969.00 969
+  212.091656 399.00 399
+  229.117721 176.00 176
+//

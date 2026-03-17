@@ -1,0 +1,75 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0190002
+RECORD_TITLE: Kynurenic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 267 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 190.049894; int 19.654; delta(ppm) 0.010285
+COMMENT: PROPOSED_MF SevenGoldenRules 0.122; C10H7NO3; [M+H]+; delta(ppm) 0.121666; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.489; C10H7NO3; [M+H]+; delta(ppm) 0.118239; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 14.630; C10H7NO3; [M+H]+; delta(ppm) 0.118239; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C10H7NO3; [M+H]+; delta(ppm) 0.118239; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 20.020; C10H7NO3; [M+H]+; delta(ppm) 0.118239; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C10H7NO3; [M+H]+; delta(ppm) 0.118239; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 23.000; HCZHHEIFKROPDY-UHFFFAOYSA-N; C10H7NO3; KYNURENIC ACID; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.735; HCZHHEIFKROPDY; [M+H]+; Kynurenic acid; Ranking 6;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.997; HCZHHEIFKROPDY-UHFFFAOYSA-N; [M+H]+; Kynurenic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.875; HCZHHEIFKROPDY-UHFFFAOYSA-N; [M+H]+; Kynurenic acid; Ranking 4;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.215; HCZHHEIFKROPDY-UHFFFAOYSA-N; [M+H]+; 4-oxo-1H-quinoline-2-carboxylic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -14.139; HCZHHEIFKROPDY; [M+H]+; bmse000410; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.657; HCZHHEIFKROPDY; [M+H]+; bmse000410; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -6.935; HCZHHEIFKROPDY; [M+H]+; Kynurenate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.940; HCZHHEIFKROPDY; [M+H]+; Kynurenate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 23 spectra); Supported by CFM-ID:MsfinderDB (Ranking 6), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 4), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000715)
+CH$NAME: Kynurenic acid
+CH$NAME: Kynurenate
+CH$NAME: 4-oxo-1H-quinoline-2-carboxylic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C10H7NO3
+CH$EXACT_MASS: 189.042593
+CH$SMILES: C1=CC=C2C(=C1)C(=O)C=C(N2)C(=O)O
+CH$IUPAC: InChI=1S/C10H7NO3/c12-9-5-8(10(13)14)11-7-4-2-1-3-6(7)9/h1-5H,(H,11,12)(H,13,14)
+CH$LINK: HMDB HMDB0000715
+CH$LINK: INCHIKEY HCZHHEIFKROPDY-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:3845
+CH$LINK: ChemOnt CHEMONTID:0002552; Organic compounds; Organoheterocyclic compounds; Quinolines and derivatives; Quinoline carboxylic acids
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.468
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 190.049892
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-01ox-0900000000-8dd2eaca7007f8d38a1a
+PK$ANNOTATION: m/z int mzPAF cor n
+  144.044564 29 f{C9H6N1O1}/1.21ppm,p-C1H2O2 0.9545 251
+  162.055052 952 f{C9H8N1O2}/0.60ppm,p-C1O1 0.9972 267
+  190.049950 999 f{C10H8N1O3}/0.42ppm,p 1.0000 267
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  144.044564 29.00 29
+  162.055052 952.00 952
+  190.049950 999.00 999
+//

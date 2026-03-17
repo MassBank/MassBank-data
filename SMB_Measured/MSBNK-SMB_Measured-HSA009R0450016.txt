@@ -1,0 +1,86 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0450016
+RECORD_TITLE: Chenodeoxycholic acid glycine conjugate; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 10 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 450.321312; int 5.157; delta(ppm) -0.002270
+COMMENT: PROPOSED_MF SevenGoldenRules 0.191; C26H43NO5; [M+H]+; delta(ppm) -0.191403; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.913; C26H43NO5; [M+H]+; delta(ppm) -0.193020; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 21.796; C26H43NO5; [M+H]+; delta(ppm) -0.193020; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C26H43NO5; [M+H]+; delta(ppm) -0.193020; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 24.160; C26H43NO5; [M+H]+; delta(ppm) -0.193020; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C26H43NO5; [M+H]+; delta(ppm) -0.193020; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 10.000; GHCZAUBVMUEKKP-GYPHWSFCSA-N; C26H43NO5; GLYCOCHENODEOXYCHOLIC ACID; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 7.000; GHCZAUBVMUEKKP-XROMFQGDSA-N; C26H43NO5; glycoursodeoxycholic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; GHCZAUBVMUEKKP-UHFFFAOYSA-N; C26H43NO5; GlycoursodeoxycholicAcid; Ranking 3;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; GHCZAUBVMUEKKP-NHIHLBCISA-N; C26H43NO5; Massbank:RP005502 Glycoursodeoxycholic acid2-[[(4R)-4-[(3R,5S,7S,10S,13R,17R)-3,7-dihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl]pentanoyl]amino]acetic acid; Ranking 4;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.296; GHCZAUBVMUEKKP; [M+H]+; Chenodeoxycholic acid glycine conjugate; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.995; GHCZAUBVMUEKKP-YDVLHWCRNA-N; [M+H]+; Chenodeoxycholic acid glycine conjugate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.975; GHCZAUBVMUEKKP-YDVLHWCRNA-N; [M+H]+; Chenodeoxycholic acid glycine conjugate; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.935; GHCZAUBVMUEKKP-GYPHWSFCSA-N; [M+H]+; 2-[[(4R)-4-[(3R,5S,7R,8R,9S,10S,13R,14S,17R)-3,7-dihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl]pentanoyl]amino]acetic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.947; GHCZAUBVMUEKKP; [M+H]+; Glycoursodeoxycholate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.413; GHCZAUBVMUEKKP; [M+H]+; Glycoursodeoxycholate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -11.855; GHCZAUBVMUEKKP; [M+H]+; Gudca; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.830; GHCZAUBVMUEKKP; [M+H]+; Gudca; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 20 spectra); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0000637)
+CH$NAME: Chenodeoxycholic acid glycine conjugate
+CH$NAME: Gudca
+CH$NAME: 2-[4-(3,7-dihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoylamino]acetic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C26H43NO5
+CH$EXACT_MASS: 449.314123
+CH$SMILES: CC(CCC(=O)NCC(=O)O)C1CCC2C1(CCC3C2C(CC4C3(CCC(C4)O)C)O)C
+CH$IUPAC: InChI=1S/C26H43NO5/c1-15(4-7-22(30)27-14-23(31)32)18-5-6-19-24-20(9-11-26(18,19)3)25(2)10-8-17(28)12-16(25)13-21(24)29/h15-21,24,28-29H,4-14H2,1-3H3,(H,27,30)(H,31,32)
+CH$LINK: HMDB HMDB0000637
+CH$LINK: INCHIKEY GHCZAUBVMUEKKP-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:27929
+CH$LINK: ChemOnt CHEMONTID:0001445; Organic compounds; Lipids and lipid-like molecules; Steroids and steroid derivatives; Bile acids, alcohols and derivatives
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 12.668
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 450.321313
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-1222900000-7dd8d0527da59f773a68
+PK$ANNOTATION: m/z int mzPAF cor n
+  76.039280 220 f{C2H6N1O2}/-0.33ppm,p-C24H38O3 0.7333 10
+  147.117045 118 f{C11H15}/1.48ppm,p-C15H29N1O5 0.7818 10
+  158.081758 160 f{C7H12N1O3}/3.72ppm,p-C19H32O2 1.0000 10
+  201.163947 183 f{C15H21}/0.85ppm,p-C11H23N1O5 0.7818 10
+  215.179831 130 f{C16H23}/1.88ppm,p-C10H21N1O5 0.8545 10
+  321.257545 270 f{C24H33}/-0.41ppm,p-C2H11N1O5 0.9030 10
+  414.300733 999 f{C26H40N1O3}/1.12ppm,p-H4O2 0.8788 10
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  76.039280 220.00 220
+  147.117045 118.00 118
+  158.081758 160.00 160
+  201.163947 183.00 183
+  215.179831 130.00 130
+  321.257545 270.00 270
+  414.300733 999.00 999
+//

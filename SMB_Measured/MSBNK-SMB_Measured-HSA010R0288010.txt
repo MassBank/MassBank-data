@@ -1,0 +1,95 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0288010
+RECORD_TITLE: Lauroyl diethanolamide; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 46 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 288.253274; int 12.252; delta(ppm) -0.017418
+COMMENT: PROPOSED_MF SevenGoldenRules 0.143; C16H33NO3; [M+H]+; delta(ppm) -0.142735; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.549; C16H33NO3; [M+H]+; delta(ppm) -0.143478; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 67.445; C16H33NO3; [M+H]+; delta(ppm) -0.143478; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C16H33NO3; [M+H]+; delta(ppm) -0.143478; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 96.978; C16H33NO3; [M+H]+; delta(ppm) -0.143478; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C16H33NO3; [M+H]+; delta(ppm) -0.143478; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; AOMUHOFOVNGZAN-UHFFFAOYSA-N; C16H33NO3; MassbankEU:SM876702 Lauryl diethanolamideN,N-bis(2-hydroxyethyl)dodecanamide; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.131; AOMUHOFOVNGZAN; [M+H]+; Lauroyl diethanolamide; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.220; AOMUHOFOVNGZAN-UHFFFAOYSA-N; [M+H]+; Lauroyl diethanolamide; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.817; AOMUHOFOVNGZAN-UHFFFAOYSA-N; [M+H]+; Lauroyl diethanolamide; Ranking 4;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; AOMUHOFOVNGZAN-UHFFFAOYSA-N; [M+H]+; N,N-bis(2-hydroxyethyl)dodecanamide; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -55.044; AOMUHOFOVNGZAN; [M+H]+; Lalmin D; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.657; AOMUHOFOVNGZAN; [M+H]+; Lalmin D; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -22.569; AOMUHOFOVNGZAN; [M+H]+; N,N-Bis(2-Hydroxyethyl)Dodecanamide; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.821; AOMUHOFOVNGZAN; [M+H]+; N,N-Bis(2-Hydroxyethyl)Dodecanamide; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 4), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0032358)
+CH$NAME: Lauroyl diethanolamide
+CH$NAME: N,N-bis(2-hydroxyethyl)dodecanamide
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C16H33NO3
+CH$EXACT_MASS: 287.246044
+CH$SMILES: CCCCCCCCCCCC(=O)N(CCO)CCO
+CH$IUPAC: InChI=1S/C16H33NO3/c1-2-3-4-5-6-7-8-9-10-11-16(20)17(12-14-18)13-15-19/h18-19H,2-15H2,1H3
+CH$LINK: HMDB HMDB0032358
+CH$LINK: INCHIKEY AOMUHOFOVNGZAN-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:8430
+CH$LINK: ChemOnt CHEMONTID:0000331; Organic compounds; Lipids and lipid-like molecules; Fatty Acyls; Fatty amides
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 13.984
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 288.253279
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0a4r-6950000000-4bd921d7af652fb96900
+PK$ANNOTATION: m/z int mzPAF cor n
+  57.069817 22 f{C4H9}/-1.04ppm,p-C12H25N1O3 0.9761 46
+  67.054198 8 f{C5H7}/-0.43ppm,p-C11H27N1O3 0.7096 36
+  70.065156 71 f{C4H8N1}/0.43ppm,p-C12H26O3 0.9907 46
+  71.085547 15 f{C5H11}/0.28ppm,p-C11H23N1O3 0.9654 44
+  81.069840 16 f{C6H9}/-0.45ppm,p-C10H25N1O3 0.7960 46
+  83.085461 9 f{C6H11}/-0.79ppm,p-C10H23N1O3 0.8431 43
+  85.101146 11 f{C6H13}/-0.36ppm,p-C10H21N1O3 0.9157 36
+  88.075672 534 f{C4H10N1O1}/-0.21ppm,p-C12H24O2 0.9925 46
+  95.085599 27 f{C7H11}/0.76ppm,p-C9H23N1O3 0.9449 46
+  106.086288 999 f{C4H12N1O2}/0.31ppm,p-C12H22O1 0.9941 46
+  109.101239 17 f{C8H13}/0.57ppm,p-C8H21N1O3 0.9358 46
+  227.200436 280 f{C14H27O2}/-0.53ppm,p-C2H7N1O1 0.9947 46
+  270.243569 39 f{C16H32N1O2}/3.01ppm,p-H2O1 0.9848 44
+  288.254160 297 f{C16H34N1O3}/2.91ppm,p 1.0000 39
+PK$NUM_PEAK: 14
+PK$PEAK: m/z int. rel.int.
+  57.069817 22.00 22
+  67.054198 8.00 8
+  70.065156 71.00 71
+  71.085547 15.00 15
+  81.069840 16.00 16
+  83.085461 9.00 9
+  85.101146 11.00 11
+  88.075672 534.00 534
+  95.085599 27.00 27
+  106.086288 999.00 999
+  109.101239 17.00 17
+  227.200436 280.00 280
+  270.243569 39.00 39
+  288.254160 297.00 297
+//

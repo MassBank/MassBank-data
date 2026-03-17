@@ -1,0 +1,76 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0265035
+RECORD_TITLE: Valyl-Phenylalanine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 14 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 265.154647; int 12.445; delta(ppm) 0.047695
+COMMENT: PROPOSED_MF SevenGoldenRules 0.133; C14H20N2O3; [M+H]+; delta(ppm) -0.132502; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.664; C14H20N2O3; [M+H]+; delta(ppm) -0.131813; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 32.100; C14H20N2O3; [M+H]+; delta(ppm) -0.131813; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C14H20N2O3; [M+H]+; delta(ppm) -0.131813; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 34.269; C14H20N2O3; [M+H]+; delta(ppm) -0.131813; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C14H20N2O3; [M+H]+; delta(ppm) -0.131813; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; GJNDXQBALKCYSZ-UHFFFAOYSA-N; C14H20N2O3; NCGC00380373-01!2-[(2-amino-3-methylbutanoyl)amino]-3-phenylpropanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; GJNDXQBALKCYSZ-RYUDHWBXSA-N; C14H20N2O3; Spectral Match to Val-Phe from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.896; GJNDXQBALKCYSZ; [M+H]+; Valyl-Phenylalanine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.924; GJNDXQBALKCYSZ-UHFFFAOYNA-N; [M+H]+; Valyl-Phenylalanine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.198; GJNDXQBALKCYSZ-RYUDHWBXSA-N; [M+H]+; (2S)-2-[[(2S)-2-amino-3-methylbutanoyl]amino]-3-phenylpropanoic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.021; GJNDXQBALKCYSZ; [M+H]+; valylphenylalanine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.985; GJNDXQBALKCYSZ; [M+H]+; valylphenylalanine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -86.471; GJNDXQBALKCYSZ; [M+H]+; 2-(2-amino-3-methylbutanamido)-3-phenylpropanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.996; GJNDXQBALKCYSZ; [M+H]+; 2-(2-amino-3-methylbutanamido)-3-phenylpropanoic acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0029134)
+CH$NAME: Valyl-Phenylalanine
+CH$NAME: 2-(2-amino-3-methylbutanamido)-3-phenylpropanoic acid
+CH$NAME: 2-[(2-amino-3-methyl-butanoyl)amino]-3-phenyl-propionic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C14H20N2O3
+CH$EXACT_MASS: 264.147393
+CH$SMILES: CC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)O)N
+CH$IUPAC: InChI=1S/C14H20N2O3/c1-9(2)12(15)13(17)16-11(14(18)19)8-10-6-4-3-5-7-10/h3-7,9,11-12H,8,15H2,1-2H3,(H,16,17)(H,18,19)
+CH$LINK: HMDB HMDB0029134
+CH$LINK: INCHIKEY GJNDXQBALKCYSZ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:144746
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.675
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 265.154634
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-9700000000-e4b52cb20142e386ee67
+PK$ANNOTATION: m/z int mzPAF cor n
+  55.054214 56 f{C4H7}/-0.23ppm,p-C10H14N2O3 0.6909 13
+  72.080815 999 f{C4H10N1}/0.55ppm,p-C10H11N1O3 0.6853 14
+  120.080793 599 f{C8H10N1}/0.14ppm,p-C6H11N1O3 0.8741 14
+  166.086382 256 f{C9H12N1O2}/0.76ppm,p-C5H9N1O1 0.6993 14
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  55.054214 56.00 56
+  72.080815 999.00 999
+  120.080793 599.00 599
+  166.086382 256.00 256
+//

@@ -1,0 +1,77 @@
+ACCESSION: MSBNK-SMB_Measured-HSA032R0130001
+RECORD_TITLE: Pyroglutamic acid; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Yu et al. Front Cell Infect Microbiol. 2022,11,763507
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 118 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS3233
+COMMENT: DATASET_TITLE The gut microbiome and metabolites are altered and interrelated in patients with rheumatoid arthritis
+COMMENT: DATASET_AUTHORS Die Yu, Juping Du, Xia Pu, Liyuan Zheng, Shuaishuai Chen, Na Wang, Jun Li, Shiyong Chen, Shaobiao Pan, Bo Shen
+COMMENT: PRECURSOR_IN_MS1 mz 130.050271; int 702.804; delta(ppm) 0.277050
+COMMENT: PROPOSED_MF SevenGoldenRules 2.836; C5H7NO3; [M+H]+; delta(ppm) 2.836265; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.755; C5H7NO3; [M+H]+; delta(ppm) 2.810240; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 35.034; C5H7NO3; [M+H]+; delta(ppm) 2.810240; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C5H7NO3; [M+H]+; delta(ppm) 2.810240; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 44.813; C5H7NO3; [M+H]+; delta(ppm) 2.810240; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C5H7NO3; [M+H]+; delta(ppm) 2.810240; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 26.000; ODHCTXKNWHHXJC-VKHMYHEASA-N; C5H7NO3; PYROGLUTAMIC ACID; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 17.000; ODHCTXKNWHHXJC-UHFFFAOYSA-N; C5H7NO3; 5-OXO-D-PROLINE - 70.0 eV; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 11.000; ODHCTXKNWHHXJC-GSVOUGTGSA-N; C5H7NO3; PYROGLUTAMIC ACID; Ranking 3;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.533; ODHCTXKNWHHXJC; [M+H]+; Pyroglutamic acid; Ranking 4;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.668; ODHCTXKNWHHXJC-VKHMYHEASA-N; [M+H]+; Pyroglutamic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.878; ODHCTXKNWHHXJC-VKHMYHEASA-N; [M+H]+; Pyroglutamic acid; Ranking 7;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.878; ODHCTXKNWHHXJC-VKHMYHEASA-N; [M+H]+; (2S)-5-oxopyrrolidine-2-carboxylic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -15.972; ODHCTXKNWHHXJC; [M+H]+; Pidolate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.955; ODHCTXKNWHHXJC; [M+H]+; Pidolate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -105.473; ODHCTXKNWHHXJC; [M+H]+; Pidolic Acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.918; ODHCTXKNWHHXJC; [M+H]+; Pidolic Acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 54 spectra); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 7), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000267)
+CH$NAME: Pyroglutamic acid
+CH$NAME: Pidolic Acid
+CH$NAME: 5-oxopyrrolidine-2-carboxylic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C5H7NO3
+CH$EXACT_MASS: 129.042593
+CH$SMILES: C1CC(=O)NC1C(=O)O
+CH$IUPAC: InChI=1S/C5H7NO3/c7-4-2-1-3(6-4)5(8)9/h3H,1-2H2,(H,6,7)(H,8,9)
+CH$LINK: HMDB HMDB0000267
+CH$LINK: INCHIKEY ODHCTXKNWHHXJC-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:499
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: UPLC system, AB SCIEX - TripleTOF 5600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 5.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 13.00; MS2(ppm) 20.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC T3 column (1.8 µm, 100 mm x 2.1 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-0.5 min, 5% B; 0.5-7.0 min,` 100% B; 7.0-8.0 min, 100% B; 8.0-8.1 min, 5% B; 8.1-10.0 min, 5% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.979
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 130.050235
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-053r-9000000000-a0102d2cd864eb70b7e8
+PK$ANNOTATION: m/z int mzPAF cor n
+  39.022861 93 f{C3H3}/-1.67ppm,p-C2H5N1O3 0.8230 96
+  41.038557 252 f{C3H5}/-0.47ppm,p-C2H3N1O3 0.8703 111
+  56.049379 534 f{C3H6N1}/-1.72ppm,p-C2H2O3 1.0000 111
+  84.044303 999 f{C4H6N1O1}/-1.03ppm,p-C1H2O2 0.9249 115
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  39.022861 93.00 93
+  41.038557 252.00 252
+  56.049379 534.00 534
+  84.044303 999.00 999
+//

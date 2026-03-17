@@ -1,0 +1,98 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0312000
+RECORD_TITLE: Piperettine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 180 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 312.159395; int 45.889; delta(ppm) -0.006296
+COMMENT: PROPOSED_MF SevenGoldenRules 0.074; C19H21NO3; [M+H]+; delta(ppm) -0.073919; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.147; C19H21NO3; [M+H]+; delta(ppm) -0.073601; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 46.698; C19H21NO3; [M+H]+; delta(ppm) -0.073601; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C19H21NO3; [M+H]+; delta(ppm) -0.073601; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 80.620; C19H21NO3; [M+H]+; delta(ppm) -0.073601; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C19H21NO3; [M+H]+; delta(ppm) -0.073601; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.903; DLKOUKNODPCIHZ; [M+H]+; Piperettine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.662; DLKOUKNODPCIHZ-UMYWTXKFSA-N; [M+H]+; Piperettine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; DLKOUKNODPCIHZ-UMYWTXKFSA-N; [M+H]+; Piperettine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.293; DLKOUKNODPCIHZ-UMYWTXKFSA-N; [M+H]+; (2E,4E,6E)-7-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylhepta-2,4,6-trien-1-one; Ranking 3;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -34.853; DLKOUKNODPCIHZ; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.999; DLKOUKNODPCIHZ; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -46.703; DLKOUKNODPCIHZ; [M+H]+; 7-(2H-1,3-benzodioxol-5-yl)-1-(piperidin-1-yl)hepta-2,4,6-trien-1-one; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.997; DLKOUKNODPCIHZ; [M+H]+; 7-(2H-1,3-benzodioxol-5-yl)-1-(piperidin-1-yl)hepta-2,4,6-trien-1-one; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 3); Biological context by HMDB (HMDB0034371)
+CH$NAME: Piperettine
+CH$NAME: 7-(1,3-benzodioxol-5-yl)-1-piperidino-hepta-2,4,6-trien-1-one
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C19H21NO3
+CH$EXACT_MASS: 311.152144
+CH$SMILES: C1CCN(CC1)C(=O)C=CC=CC=CC2=CC3=C(C=C2)OCO3
+CH$IUPAC: InChI=1S/C19H21NO3/c21-19(20-12-6-3-7-13-20)9-5-2-1-4-8-16-10-11-17-18(14-16)23-15-22-17/h1-2,4-5,8-11,14H,3,6-7,12-13,15H2
+CH$LINK: HMDB HMDB0034371
+CH$LINK: INCHIKEY DLKOUKNODPCIHZ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:91274708
+CH$LINK: ChemOnt CHEMONTID:0000296; Organic compounds; Organoheterocyclic compounds; Benzodioxoles
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 13.654
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 312.159397
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-01t9-0951000000-b7cda44f245213afd978
+PK$ANNOTATION: m/z int mzPAF cor n
+  69.069911 94 f{C5H9}/0.50ppm,p-C14H13N1O3 0.9794 180
+  84.080721 42 f{C5H10N1}/-0.65ppm,p-C14H12O3 0.9943 180
+  86.096372 53 f{C5H12N1}/-0.63ppm,p-C14H10O3 0.9955 180
+  103.054367 10 f{C8H7}/1.36ppm,p-C11H15N1O3 0.9778 147
+  112.075720 517 f{C6H10N1O1}/0.26ppm,p-C13H12O2 0.9686 180
+  131.049217 75 f{C9H7O1}/0.58ppm,p-C10H15N1O2 0.9974 180
+  138.091410 14 f{C8H12N1O1}/0.50ppm,p-C11H10O2 0.9890 161
+  141.069841 193 f{C11H9}/-0.25ppm,p-C8H13N1O3 0.9980 180
+  161.059671 57 f{C10H9O2}/-0.22ppm,p-C9H13N1O1 0.9965 180
+  164.107027 58 f{C10H14N1O1}/0.22ppm,p-C9H8O2 0.9621 180
+  169.064805 486 f{C12H9O1}/0.08ppm,p-C7H13N1O2 0.9985 180
+  187.075225 10 f{C12H11O2}/-0.70ppm,p-C7H11N1O1 0.9762 142
+  197.059691 176 f{C13H9O2}/-0.08ppm,p-C6H13N1O1 0.9983 180
+  199.075362 189 f{C13H11O2}/0.03ppm,p-C6H11N1O1 0.9984 180
+  227.070231 999 f{C14H11O3}/-0.18ppm,p-C5H11N1 0.9960 180
+  312.158737 377 f{C19H22N1O3}/-2.19ppm,p 1.0000 170
+PK$NUM_PEAK: 16
+PK$PEAK: m/z int. rel.int.
+  69.069911 94.00 94
+  84.080721 42.00 42
+  86.096372 53.00 53
+  103.054367 10.00 10
+  112.075720 517.00 517
+  131.049217 75.00 75
+  138.091410 14.00 14
+  141.069841 193.00 193
+  161.059671 57.00 57
+  164.107027 58.00 58
+  169.064805 486.00 486
+  187.075225 10.00 10
+  197.059691 176.00 176
+  199.075362 189.00 189
+  227.070231 999.00 999
+  312.158737 377.00 377
+//

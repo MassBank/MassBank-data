@@ -1,0 +1,87 @@
+ACCESSION: MSBNK-SMB_Measured-HSA020R0274004
+RECORD_TITLE: Valyl-Arginine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 33 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 274.187533; int 31.672; delta(ppm) -0.120195
+COMMENT: PROPOSED_MF SevenGoldenRules 0.732; C11H23N5O3; [M+H]+; delta(ppm) 0.732117; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.268; C11H23N5O3; [M+H]+; delta(ppm) 0.729178; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 28.721; C11H23N5O3; [M+H]+; delta(ppm) 0.729178; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C11H23N5O3; [M+H]+; delta(ppm) 0.729178; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 49.474; C11H23N5O3; [M+H]+; delta(ppm) 0.729178; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C11H23N5O3; [M+H]+; delta(ppm) 0.729178; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; IBIDRSSEHFLGSD-YUMQZZPRSA-N; C11H23N5O3; Spectral Match to Val-Arg from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.134; IBIDRSSEHFLGSD; [M+H]+; Valyl-Arginine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.447; IBIDRSSEHFLGSD-UHFFFAOYNA-N; [M+H]+; Valyl-Arginine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; IBIDRSSEHFLGSD-UHFFFAOYNA-N; [M+H]+; Valyl-Arginine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.500; IBIDRSSEHFLGSD-YUMQZZPRSA-N; [M+H]+; (2S)-2-[[(2S)-2-amino-3-methylbutanoyl]amino]-5-(diaminomethylideneamino)pentanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.049; IBIDRSSEHFLGSD; [M+H]+; valylarginine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.874; IBIDRSSEHFLGSD; [M+H]+; valylarginine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -129.585; IBIDRSSEHFLGSD; [M+H]+; Valylarginine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.905; IBIDRSSEHFLGSD; [M+H]+; Valylarginine; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 2 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0029121)
+CH$NAME: Valyl-Arginine
+CH$NAME: Valylarginine
+CH$NAME: 2-[(2-amino-3-methyl-butanoyl)amino]-5-guanidino-valeric acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C11H23N5O3
+CH$EXACT_MASS: 273.180090
+CH$SMILES: CC(C)C(C(=O)NC(CCCN=C(N)N)C(=O)O)N
+CH$IUPAC: InChI=1S/C11H23N5O3/c1-6(2)8(12)9(17)16-7(10(18)19)4-3-5-15-11(13)14/h6-8H,3-5,12H2,1-2H3,(H,16,17)(H,18,19)(H4,13,14,15)
+CH$LINK: HMDB HMDB0029121
+CH$LINK: INCHIKEY IBIDRSSEHFLGSD-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4266827
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 2.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Xbridge BEH HILIC (75 x 2.1mm,2.5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min-85% B, 2 min-10% B, 14 min- 10% B, 14.1 min- 85% B, 16 min- 85%B.
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.643
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 274.187566
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-5950000000-ec20870125b9653f43cb
+PK$ANNOTATION: m/z int mzPAF cor n
+  70.065177 348 f{C4H8N1}/0.74ppm,p-C7H16N4O3 0.9258 33
+  72.080834 628 f{C4H10N1}/0.81ppm,p-C7H14N4O3 0.9475 33
+  112.086887 100 f{C5H10N3}/-0.33ppm,p-C6H14N2O3 0.8725 28
+  116.070673 258 f{C5H10N1O2}/0.58ppm,p-C6H14N4O1 0.9238 33
+  130.097403 102 f{C5H12N3O1}/-0.66ppm,p-C6H12N2O2 0.8462 28
+  142.097488 190 f{C6H12N3O1}/-0.00ppm,p-C5H12N2O2 0.9024 33
+  158.092347 212 f{C6H12N3O2}/-0.35ppm,p-C5H12N2O1 0.9368 33
+  175.119076 865 f{C6H15N4O2}/0.71ppm,p-C5H9N1O1 0.9318 33
+  257.160726 137 f{C11H21N4O3}/-0.35ppm,p-H3N1 0.8710 32
+  274.187389 999 f{C11H24N5O3}/0.08ppm,p 1.0000 33
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  70.065177 348.00 348
+  72.080834 628.00 628
+  112.086887 100.00 100
+  116.070673 258.00 258
+  130.097403 102.00 102
+  142.097488 190.00 190
+  158.092347 212.00 212
+  175.119076 865.00 865
+  257.160726 137.00 137
+  274.187389 999.00 999
+//

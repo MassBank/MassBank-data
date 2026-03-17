@@ -1,0 +1,72 @@
+ACCESSION: MSBNK-SMB_Measured-HSA001R0248000
+RECORD_TITLE: Hydroxybutyrylcarnitine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 40 product ion spectra among 22 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MB-POST
+COMMENT: DATASET_ID MPST000004
+COMMENT: DATASET_TITLE Annotation of various metabolites in SRM 1950 human serum
+COMMENT: DATASET_AUTHORS Masatomo Takahashi, Yoshihiro Izumi, Kyoshu University
+COMMENT: PRECURSOR_IN_MS1 mz 248.149432; int 13.051; delta(ppm) -0.004022
+COMMENT: PROPOSED_MF SevenGoldenRules 0.745; C11H21NO5; [M+H]+; delta(ppm) 0.744511; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.099; C11H21NO5; [M+H]+; delta(ppm) 0.740606; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 1.399; C11H21NO5; [M+H]+; delta(ppm) 0.740606; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.930; C11H21NO5; [M+H]+; delta(ppm) 0.740606; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 5.034; C11H21NO5; [M+H]+; delta(ppm) 0.740606; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.991; C11H21NO5; [M+H]+; delta(ppm) 0.740606; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.156; UEFRDQSMQXDWTO; [M+H]+; Hydroxybutyrylcarnitine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.441; UEFRDQSMQXDWTO-GKAPJAKFSA-N; [M+H]+; Hydroxybutyrylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; UEFRDQSMQXDWTO-GKAPJAKFSA-N; [M+H]+; Hydroxybutyrylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -7.705; UEFRDQSMQXDWTO; [M+H]+; Hydroxybutyrylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.647; UEFRDQSMQXDWTO; [M+H]+; Hydroxybutyrylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -34.080; UEFRDQSMQXDWTO; [M+H]+; Hydroxybutyrylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.985; UEFRDQSMQXDWTO; [M+H]+; Hydroxybutyrylcarnitine; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0013127)
+CH$NAME: Hydroxybutyrylcarnitine
+CH$NAME: 3-(3-hydroxybutanoyloxy)-4-(trimethylazaniumyl)butanoate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C11H21NO5
+CH$EXACT_MASS: 247.141973
+CH$SMILES: CC(CC(=O)OC(CC(=O)[O-])C[N+](C)(C)C)O
+CH$IUPAC: InChI=1S/C11H21NO5/c1-8(13)5-11(16)17-9(6-10(14)15)7-12(2,3)4/h8-9,13H,5-7H2,1-4H3
+CH$LINK: HMDB HMDB0013127
+CH$LINK: INCHIKEY UEFRDQSMQXDWTO-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:71464477
+CH$LINK: ChemOnt CHEMONTID:0000324; Organic compounds; Lipids and lipid-like molecules; Fatty Acyls; Fatty acid esters
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Nexera X2 UHPLC system, Shimadzu - Q Exactive Orbitrap, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 V
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME GL-HilicAex 2.1 x 150 mm, 5 mm (Resonac)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 15.5 min: 40, 16.5 min: 0, 26.5 min: 0, 27.5 min: 95, 35 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.735
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 248.149433
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0002-0090000000-b6b671b64758bdc54db4
+PK$ANNOTATION: m/z int mzPAF cor n
+  85.028170 86 f{C4H5O2}/-2.77ppm,p-C7H17N1O3 0.8619 40
+  189.075077 68 f{C8H13O5}/-3.56ppm,p-C3H9N1 0.5794 36
+  248.148523 999 f{C11H22N1O5}/-2.93ppm,p 1.0000 40
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  85.028170 86.00 86
+  189.075077 68.00 68
+  248.148523 999.00 999
+//

@@ -1,0 +1,88 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0327034
+RECORD_TITLE: Heptaethylene glycol; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 32 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 327.201071; int 24.777; delta(ppm) 0.049022
+COMMENT: PROPOSED_MF SevenGoldenRules 0.886; C14H30O8; [M+H]+; delta(ppm) -0.885976; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.747; C14H30O8; [M+H]+; delta(ppm) -0.884363; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 33.469; C14H30O8; [M+H]+; delta(ppm) -0.884363; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C14H30O8; [M+H]+; delta(ppm) -0.884363; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 54.086; C14H30O8; [M+H]+; delta(ppm) -0.884363; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C14H30O8; [M+H]+; delta(ppm) -0.884363; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.242; XPJRQAIZZQMSCM; [M+H]+; Heptaethylene glycol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.821; XPJRQAIZZQMSCM-UHFFFAOYSA-N; [M+H]+; Heptaethylene glycol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.998; XPJRQAIZZQMSCM-UHFFFAOYSA-N; [M+H]+; Heptaethylene glycol; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; XPJRQAIZZQMSCM-UHFFFAOYSA-N; [M+H]+; 2-[2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethanol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.683; XPJRQAIZZQMSCM; [M+H]+; Epitope ID:161055; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.728; XPJRQAIZZQMSCM; [M+H]+; Epitope ID:161055; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -2.348; XPJRQAIZZQMSCM; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.719; XPJRQAIZZQMSCM; [M+H]+; nan; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0061835)
+CH$NAME: Heptaethylene glycol
+CH$NAME: 2-[2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethanol
+CH$COMPOUND_CLASS: Non-Natural Product
+CH$FORMULA: C14H30O8
+CH$EXACT_MASS: 326.194068
+CH$SMILES: C(COCCOCCOCCOCCOCCOCCO)O
+CH$IUPAC: InChI=1S/C14H30O8/c15-1-3-17-5-7-19-9-11-21-13-14-22-12-10-20-8-6-18-4-2-16/h15-16H,1-14H2
+CH$LINK: HMDB HMDB0061835
+CH$LINK: INCHIKEY XPJRQAIZZQMSCM-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:79718
+CH$LINK: ChemOnt CHEMONTID:0000254; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Ethers
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 12.968
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 327.201055
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0019-9700000000-8226f149913220648435
+PK$ANNOTATION: m/z int mzPAF cor n
+  73.064808 9 f{C4H9O1}/0.23ppm,p-C10H22O7 0.5033 32
+  87.044052 33 f{C4H7O2}/-0.05ppm,p-C10H24O6 0.7819 32
+  89.059692 999 f{C4H9O2}/-0.15ppm,p-C10H22O6 0.8999 32
+  131.070162 10 f{C6H11O3}/-0.83ppm,p-C8H20O5 0.7187 29
+  133.085948 696 f{C6H13O3}/0.20ppm,p-C8H18O5 0.8871 32
+  177.112189 159 f{C8H17O4}/0.30ppm,p-C6H14O4 0.8574 32
+  195.122509 10 f{C8H19O5}/-0.98ppm,p-C6H12O3 0.5692 26
+  221.137921 18 f{C10H21O5}/-1.94ppm,p-C4H10O3 0.7650 32
+  239.148698 21 f{C10H23O6}/-0.91ppm,p-C4H8O2 0.7673 30
+  283.174775 23 f{C12H27O7}/-1.25ppm,p-C2H4O1 0.7899 31
+  327.200757 113 f{C14H31O8}/-1.80ppm,p 1.0000 32
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  73.064808 9.00 9
+  87.044052 33.00 33
+  89.059692 999.00 999
+  131.070162 10.00 10
+  133.085948 696.00 696
+  177.112189 159.00 159
+  195.122509 10.00 10
+  221.137921 18.00 18
+  239.148698 21.00 21
+  283.174775 23.00 23
+  327.200757 113.00 113
+//

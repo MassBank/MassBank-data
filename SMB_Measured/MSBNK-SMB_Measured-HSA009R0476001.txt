@@ -1,0 +1,80 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0476001
+RECORD_TITLE: decaethylene glycol; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 78 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 476.306720; int 4.782; delta(ppm) 0.071474
+COMMENT: PROPOSED_MF SevenGoldenRules 0.329; C20H42O11; [M+NH4]+; delta(ppm) 0.329498; Ranking 4;
+COMMENT: PROPOSED_MF MS-FINDER 3.311; C20H42O11; [M+NH4]+; delta(ppm) 0.311319; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 19.379; C20H42O11; [M+H3N+H]+; delta(ppm) 0.311319; Ranking 2;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C20H42O11; [M+H3N+H]+; delta(ppm) 0.311319; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 35.758; C20H42O11; [M+H3N+H]+; delta(ppm) 0.311319; Ranking 2;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.684; C20H42O11; [M+H3N+H]+; delta(ppm) 0.311319; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 6.000; DTPCFIHYWYONMD-UHFFFAOYSA-N; C20H42O11; Spectral Match to Decaethylene glycol from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.368; DTPCFIHYWYONMD-UHFFFAOYSA-N; [M+NH4]+; decaethylene glycol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; DTPCFIHYWYONMD-UHFFFAOYSA-N; [M+NH4]+; decaethylene glycol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.000; DTPCFIHYWYONMD-UHFFFAOYSA-N; [M+NH4]+; 2-[2-[2-[2-[2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethanol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -3.546; DTPCFIHYWYONMD; [M+H3N+H]+; Polyoxyethylene (10); Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.579; DTPCFIHYWYONMD; [M+H3N+H]+; Polyoxyethylene (10); Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -6.091; DTPCFIHYWYONMD; [M+H3N+H]+; 3,6,9,12,15,18,21,24,27-nonaoxanonacosane-1,29-diol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.968; DTPCFIHYWYONMD; [M+H3N+H]+; 3,6,9,12,15,18,21,24,27-nonaoxanonacosane-1,29-diol; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3b; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 6 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1)
+CH$NAME: decaethylene glycol
+CH$NAME: 2-[2-[2-[2-[2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethanol
+CH$COMPOUND_CLASS: Non-Natural Product
+CH$FORMULA: C20H42O11
+CH$EXACT_MASS: 458.272712
+CH$SMILES: C(COCCOCCOCCOCCOCCOCCOCCOCCOCCO)O
+CH$IUPAC: InChI=1S/C20H42O11/c21-1-3-23-5-7-25-9-11-27-13-15-29-17-19-31-20-18-30-16-14-28-12-10-26-8-6-24-4-2-22/h21-22H,1-20H2
+CH$LINK: INCHIKEY DTPCFIHYWYONMD-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:79689
+CH$LINK: ChemOnt CHEMONTID:0000254; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Ethers
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.795
+MS$FOCUSED_ION: ION_TYPE [M+NH4]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 476.306686
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0019-7900200000-3fbd69354530d98f6cb1
+PK$ANNOTATION: m/z int mzPAF cor n
+  87.044097 63 f{C4H7O2}/0.47ppm,p-C16H39N1O9 0.9802 74
+  89.059769 999 f{C4H9O2}/0.71ppm,p-C16H37N1O9 0.9936 78
+  131.070501 34 f{C6H11O3}/1.76ppm,p-C14H35N1O8 0.9189 59
+  133.086043 865 f{C6H13O3}/0.92ppm,p-C14H33N1O8 0.9948 78
+  177.112247 329 f{C8H17O4}/0.63ppm,p-C12H29N1O7 1.0000 78
+  221.138461 62 f{C10H21O5}/0.50ppm,p-C10H25N1O6 0.9675 70
+  459.280089 298 f{C20H43O11}/0.22ppm,p-H3N1 0.9922 77
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  87.044097 63.00 63
+  89.059769 999.00 999
+  131.070501 34.00 34
+  133.086043 865.00 865
+  177.112247 329.00 329
+  221.138461 62.00 62
+  459.280089 298.00 298
+//

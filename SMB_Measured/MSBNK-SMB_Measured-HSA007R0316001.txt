@@ -1,0 +1,79 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0316001
+RECORD_TITLE: Decanoylcarnitine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 31 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 316.247700; int 999.000; delta(ppm) -2.811011
+COMMENT: PROPOSED_MF SevenGoldenRules 1.123; C17H33NO4; [M+H]+; delta(ppm) 1.122949; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 3.615; C17H33NO4; [M+H]+; delta(ppm) 1.119437; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 21.917; C17H33NO4; [M+H]+; delta(ppm) 1.119437; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C17H33NO4; [M+H]+; delta(ppm) 1.119437; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 30.086; C17H33NO4; [M+H]+; delta(ppm) 1.119437; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C17H33NO4; [M+H]+; delta(ppm) 1.119437; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 5.000; LZOSYCMHQXPBFU-UHFFFAOYSA-N; C17H33NO4; DECANOYLCARNITINE; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.772; LZOSYCMHQXPBFU; [M+H]+; Decanoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.787; LZOSYCMHQXPBFU-UHFFFAOYNA-N; [M+H]+; Decanoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; LZOSYCMHQXPBFU-UHFFFAOYNA-N; [M+H]+; Decanoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.943; LZOSYCMHQXPBFU; [M+H]+; Tocris-0477; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.770; LZOSYCMHQXPBFU; [M+H]+; Tocris-0477; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -29.169; LZOSYCMHQXPBFU; [M+H]+; [(2R)-3-carboxy-2-(10,10,10-trideuteriodecanoyloxy)propyl]-trimethylazanium; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.784; LZOSYCMHQXPBFU; [M+H]+; [(2R)-3-carboxy-2-(10,10,10-trideuteriodecanoyloxy)propyl]-trimethylazanium; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 5 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000651)
+CH$NAME: Decanoylcarnitine
+CH$NAME: 3-decanoyloxy-4-(trimethylazaniumyl)butanoate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C17H33NO4
+CH$EXACT_MASS: 315.240959
+CH$SMILES: CCCCCCCCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C
+CH$IUPAC: InChI=1S/C17H33NO4/c1-5-6-7-8-9-10-11-12-17(21)22-15(13-16(19)20)14-18(2,3)4/h15H,5-14H2,1-4H3
+CH$LINK: HMDB HMDB0000651
+CH$LINK: INCHIKEY LZOSYCMHQXPBFU-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:10245190
+CH$LINK: ChemOnt CHEMONTID:0000324; Organic compounds; Lipids and lipid-like molecules; Fatty Acyls; Fatty acid esters
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 11.665
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 316.248589
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-9002000000-76bbf92e563e899dc1fa
+PK$ANNOTATION: m/z int mzPAF cor n
+  60.080706 59 f{C3H10N1}/-1.16ppm,p-C14H24O4 0.9513 23
+  85.028795 999 f{C4H5O2}/4.57ppm,p-C13H29N1O2 0.9842 31
+  95.085293 16 f{C7H11}/-2.46ppm,p-C10H23N1O4 0.8782 28
+  144.101720 33 f{C7H14N1O2}/-1.28ppm,p-C10H20O2 0.9417 29
+  155.143349 49 f{C10H19O1}/1.98ppm,p-C7H15N1O3 0.9508 29
+  257.174986 82 f{C14H25O4}/0.97ppm,p-C3H9N1 0.9909 30
+  316.248472 325 f{C17H34N1O4}/0.75ppm,p 1.0000 31
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  60.080706 59.00 59
+  85.028795 999.00 999
+  95.085293 16.00 16
+  144.101720 33.00 33
+  155.143349 49.00 49
+  257.174986 82.00 82
+  316.248472 325.00 325
+//

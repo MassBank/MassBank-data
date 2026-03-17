@@ -1,0 +1,73 @@
+ACCESSION: MSBNK-SMB_Measured-HSA022R0184001
+RECORD_TITLE: 4-Pyridoxic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 56 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 184.060466; int 308.312; delta(ppm) 0.026985
+COMMENT: PROPOSED_MF SevenGoldenRules 0.147; C8H9NO4; [M+H]+; delta(ppm) 0.147498; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.307; C8H9NO4; [M+H]+; delta(ppm) 0.145526; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 26.488; C8H9NO4; [M+H]+; delta(ppm) 0.145526; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C8H9NO4; [M+H]+; delta(ppm) 0.145526; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 28.870; C8H9NO4; [M+H]+; delta(ppm) 0.145526; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.998; C8H9NO4; [M+H]+; delta(ppm) 0.145526; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 31.000; HXACOUQIXZGNBF-UHFFFAOYSA-N; C8H9NO4; 4-Pyridoxic acid CollisionEnergy:205060; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.800; HXACOUQIXZGNBF; [M+H]+; 4-Pyridoxic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.328; HXACOUQIXZGNBF-UHFFFAOYSA-N; [M+H]+; 4-Pyridoxic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.910; HXACOUQIXZGNBF-UHFFFAOYSA-N; [M+H]+; 4-Pyridoxic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.678; HXACOUQIXZGNBF-UHFFFAOYSA-N; [M+H]+; 3-hydroxy-5-(hydroxymethyl)-2-methylpyridine-4-carboxylic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -14.488; HXACOUQIXZGNBF; [M+H]+; bmse000930; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.604; HXACOUQIXZGNBF; [M+H]+; bmse000930; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -24.492; HXACOUQIXZGNBF; [M+H]+; 4-Pyridoxate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.876; HXACOUQIXZGNBF; [M+H]+; 4-Pyridoxate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 31 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000017)
+CH$NAME: 4-Pyridoxic acid
+CH$NAME: 4-Pyridoxate
+CH$NAME: 3-hydroxy-5-(hydroxymethyl)-2-methylpyridine-4-carboxylic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C8H9NO4
+CH$EXACT_MASS: 183.053158
+CH$SMILES: CC1=NC=C(C(=C1O)C(=O)O)CO
+CH$IUPAC: InChI=1S/C8H9NO4/c1-4-7(11)6(8(12)13)5(3-10)2-9-4/h2,10-11H,3H2,1H3,(H,12,13)
+CH$LINK: HMDB HMDB0000017
+CH$LINK: INCHIKEY HXACOUQIXZGNBF-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:6723
+CH$LINK: ChemOnt CHEMONTID:0001322; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives; Pyridinecarboxylic acids and derivatives
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.058
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 184.060461
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00kb-0900000000-e3bfd6d57d8cbf7d5ba2
+PK$ANNOTATION: m/z int mzPAF cor n
+  148.039358 999 f{C8H6N1O2}/0.36ppm,p-H4O2 0.8899 56
+  166.049933 803 f{C8H8N1O3}/0.38ppm,p-H2O1 0.8970 56
+  184.060352 88 f{C8H10N1O4}/-0.45ppm,p 1.0000 46
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  148.039358 999.00 999
+  166.049933 803.00 803
+  184.060352 88.00 88
+//

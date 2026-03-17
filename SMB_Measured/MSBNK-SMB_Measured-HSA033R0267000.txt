@@ -1,0 +1,76 @@
+ACCESSION: MSBNK-SMB_Measured-HSA033R0267000
+RECORD_TITLE: Inosine; LC-ESI-QTOF; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Liang et al. J Pharm Biomed Anal. 2022, 214, 114718
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 164 product ion spectra among 50 DDA data files in the dataset described below.
+COMMENT: DATASET_ID MTBLS3854
+COMMENT: DATASET_TITLE Long-term low-dose ionizing radiation induced chromosome-aberration-specific metabolic phenotype changes in radiation workers
+COMMENT: DATASET_AUTHORS Xinjun Wang
+COMMENT: PRECURSOR_IN_MS1 mz 267.073209; int 174.560; delta(ppm) 0.018763
+COMMENT: PROPOSED_MF SevenGoldenRules 1.082; C10H12N4O5; [M-H]1; delta(ppm) -1.081765; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 4.882; C10H12N4O5; [M-H]-; delta(ppm) -1.082438; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 16.860; C10H12N4O5; [M-H]-; delta(ppm) -1.082438; Ranking 2;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 0.972; C10H12N4O5; [M-H]-; delta(ppm) -1.082438; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 22.253; C10H12N4O5; [M-H]-; delta(ppm) -1.082438; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.978; C10H12N4O5; [M-H]-; delta(ppm) -1.082438; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 30.000; UGQMRVRMYYASKQ-KQYNXXCUSA-N; C10H12N4O5; Massbank:KO001173 Inosine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 7.000; UGQMRVRMYYASKQ-UHFFFAOYSA-N; C10H12N4O5; Massbank:PS025609 9-beta-D-ribofuranosylhypoxanthineINO()-InosineOxiaminTrophicardylRibonosineInosineHypoxanthine 9-beta-D-ribofuranosidebeta-InosineHypoxanthine ribonucleoside; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.302; UGQMRVRMYYASKQ; [M-H]-; Inosine; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.790; UGQMRVRMYYASKQ-KQYNXXCUSA-N; [M-H]-; Inosine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.968; UGQMRVRMYYASKQ-KQYNXXCUSA-N; [M-H]-; Inosine; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; UGQMRVRMYYASKQ-KQYNXXCUSA-N; [M-H]-; 9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-1H-purin-6-one; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.815; UGQMRVRMYYASKQ; [M-H]-; Inosinum; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.465; UGQMRVRMYYASKQ; [M-H]-; Inosinum; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -20.335; UGQMRVRMYYASKQ; [M-H]-; Inosin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.804; UGQMRVRMYYASKQ; [M-H]-; Inosin; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 37 spectra); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000195)
+CH$NAME: Inosine
+CH$NAME: Inosin
+CH$NAME: 9-[3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-3H-purin-6-one
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C10H12N4O5
+CH$EXACT_MASS: 268.080769
+CH$SMILES: C1=NC(=O)C2=C(N1)N(C=N2)C3C(C(C(O3)CO)O)O
+CH$IUPAC: InChI=1S/C10H12N4O5/c15-1-4-6(16)7(17)10(19-4)14-3-13-5-8(14)11-2-12-9(5)18/h2-4,6-7,10,15-17H,1H2,(H,11,12,18)
+CH$LINK: HMDB HMDB0000195
+CH$LINK: INCHIKEY UGQMRVRMYYASKQ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:804
+CH$LINK: ChemOnt CHEMONTID:0000479; Organic compounds; Nucleosides, nucleotides, and analogues; Purine nucleosides
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Plasma
+AC$INSTRUMENT: Agilent 1290 liquid chromatography system, Agilent Technologies - TripleTOF 6600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 9.00; MS2(ppm) 18.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC BEH C18 column (1.7 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 7.0 min: 65, 8.0 min: 40, 9.0 min: 40, 9.1 min: 95, 12.0 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.489
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 267.073204
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-0900000000-0223aa2b28d92f567f6b
+PK$ANNOTATION: m/z int mzPAF cor n
+  92.024519 74 f{C4H2N3}/-9.79ppm,p-C6H9N1O5 0.7707 141
+  108.019315 64 f{C4H2N3O1}/-9.44ppm,p-C6H9N1O4 0.7206 144
+  135.030234 999 f{C4H7O5}/2.49ppm,p-C6H4N4 0.8010 164
+  267.072983 44 f{C10H11N4O5}/-1.91ppm,p 1.0000 120
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  92.024519 74.00 74
+  108.019315 64.00 64
+  135.030234 999.00 999
+  267.072983 44.00 44
+//

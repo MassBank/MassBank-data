@@ -1,0 +1,79 @@
+ACCESSION: MSBNK-SMB_Measured-HSA022R0137014
+RECORD_TITLE: Hypoxanthine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 599 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 137.045812; int 999.000; delta(ppm) 0.014927
+COMMENT: PROPOSED_MF SevenGoldenRules 0.169; C5H4N4O; [M+H]+; delta(ppm) 0.169070; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.527; C5H4N4O; [M+H]+; delta(ppm) 0.166287; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 35.638; C5H4N4O; [M+H]+; delta(ppm) 0.166287; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C5H4N4O; [M+H]+; delta(ppm) 0.166287; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 46.765; C5H4N4O; [M+H]+; delta(ppm) 0.166287; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C5H4N4O; [M+H]+; delta(ppm) 0.166287; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 34.000; FDGQSTZJBFJUBT-UHFFFAOYSA-N; C5H4N4O; HYPOXANTHINE - 60.0 eV; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.949; FDGQSTZJBFJUBT; [M+H]+; Hypoxanthine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.090; FDGQSTZJBFJUBT-UHFFFAOYSA-N; [M+H]+; Hypoxanthine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.843; FDGQSTZJBFJUBT-UHFFFAOYSA-N; [M+H]+; Hypoxanthine; Ranking 10;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.330; FDGQSTZJBFJUBT-UHFFFAOYSA-N; [M+H]+; 1,7-dihydropurin-6-one; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -22.482; FDGQSTZJBFJUBT; [M+H]+; Sarcine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.487; FDGQSTZJBFJUBT; [M+H]+; Sarcine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -20.759; FDGQSTZJBFJUBT; [M+H]+; Sarkin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.875; FDGQSTZJBFJUBT; [M+H]+; Sarkin; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 34 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 10), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0000157)
+CH$NAME: Hypoxanthine
+CH$NAME: Sarkin
+CH$NAME: 3,7-dihydropurin-6-one
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C5H4N4O
+CH$EXACT_MASS: 136.038511
+CH$SMILES: C1=NC2=C(N1)C(=O)N=CN2
+CH$IUPAC: InChI=1S/C5H4N4O/c10-5-3-4(7-1-6-3)8-2-9-5/h1-2H,(H2,6,7,8,9,10)
+CH$LINK: HMDB HMDB0000157
+CH$LINK: INCHIKEY FDGQSTZJBFJUBT-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:790
+CH$LINK: ChemOnt CHEMONTID:0000245; Organic compounds; Organoheterocyclic compounds; Imidazopyrimidines; Purines and purine derivatives
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.645
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 137.045810
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-1900000000-7ff476b25399ba09ffea
+PK$ANNOTATION: m/z int mzPAF cor n
+  82.039990 55 f{C3H4N3}/0.20ppm,p-C2H1N1O1 0.9687 598
+  92.024303 21 f{C4H2N3}/-0.22ppm,p-C1H3N1O1 0.9446 577
+  94.040031 106 f{C4H4N3}/0.61ppm,p-C1H1N1O1 0.9873 599
+  110.034928 204 f{C4H4N3O1}/0.37ppm,p-C1H1N1 0.9918 599
+  119.035205 176 f{C5H3N4}/-0.15ppm,p-H2O1 0.9905 599
+  137.045806 999 f{C5H5N4O1}/0.14ppm,p 1.0000 599
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  82.039990 55.00 55
+  92.024303 21.00 21
+  94.040031 106.00 106
+  110.034928 204.00 204
+  119.035205 176.00 176
+  137.045806 999.00 999
+//

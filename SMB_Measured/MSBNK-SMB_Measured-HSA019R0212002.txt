@@ -1,0 +1,83 @@
+ACCESSION: MSBNK-SMB_Measured-HSA019R0212002
+RECORD_TITLE: Indoxyl sulfate; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 289 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 212.002401; int 94.681; delta(ppm) -0.363151
+COMMENT: PROPOSED_MF SevenGoldenRules 0.822; C8H7NO4S; [M-H]1; delta(ppm) 0.821559; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.273; C8H7NO4S; [M-H]-; delta(ppm) 0.828827; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 27.149; C8H7NO4S; [M-H]-; delta(ppm) 0.828827; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C8H7NO4S; [M-H]-; delta(ppm) 0.828827; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 26.841; C8H7NO4S; [M-H]-; delta(ppm) 0.828827; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.957; C8H7NO4S; [M-H]-; delta(ppm) 0.828827; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 22.000; BXFFHSIDQOFMLE-UHFFFAOYSA-N; C8H7NO4S; Indoxyl sulfate - 40.0 eV; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.000; BXFFHSIDQOFMLE; [M-H]-; Indoxyl sulfate; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.584; BXFFHSIDQOFMLE-UHFFFAOYSA-N; [M-H]-; Indoxyl sulfate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.905; BXFFHSIDQOFMLE-UHFFFAOYSA-N; [M-H]-; Indoxyl sulfate; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.905; BXFFHSIDQOFMLE-UHFFFAOYSA-N; [M-H]-; 1H-indol-3-yl hydrogen sulfate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -3.657; BXFFHSIDQOFMLE; [M-H]-; Indoxyl sulfate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.414; BXFFHSIDQOFMLE; [M-H]-; Indoxyl sulfate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -3.295; BXFFHSIDQOFMLE; [M-H]-; Indican; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.993; BXFFHSIDQOFMLE; [M-H]-; Indican; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 22 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000682)
+CH$NAME: Indoxyl sulfate
+CH$NAME: Indican
+CH$NAME: 1H-indol-3-yl hydrogen sulfate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C8H7NO4S
+CH$EXACT_MASS: 213.009579
+CH$SMILES: C1=CC=C2C(=C1)C(=CN2)OS(=O)(=O)O
+CH$IUPAC: InChI=1S/C8H7NO4S/c10-14(11,12)13-8-5-9-7-4-2-1-3-6(7)8/h1-5,9H,(H,10,11,12)
+CH$LINK: HMDB HMDB0000682
+CH$LINK: INCHIKEY BXFFHSIDQOFMLE-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:10258
+CH$LINK: ChemOnt CHEMONTID:0004258; Organic compounds; Organic acids and derivatives; Organic sulfuric acids and derivatives; Arylsulfates
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.50; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Xbridge BEH HILIC (75 x 2.1mm,2.5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min-85% B, 2 min-10% B, 14 min- 10% B, 14.1 min- 85% B, 16 min- 85%B.
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.594
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 212.002478
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-01si-9230000000-2482acbb450e7506fbb6
+PK$ANNOTATION: m/z int mzPAF cor n
+  79.957430 999 f{O3S1}/0.83ppm,p-C8H6N1O1 0.9979 289
+  80.965255 504 f{H1O3S1}/0.82ppm,p-C8H5N1O1 0.9984 289
+  92.050681 57 f{C6H6N1}/1.17ppm,p-C2O4S1 0.9965 282
+  104.050630 3 f{C7H6N1}/0.55ppm,p-C1O4S1 0.9024 225
+  120.045547 5 f{C7H6N1O1}/0.50ppm,p-C1O3S1 0.9717 253
+  131.037737 4 f{C8H5N1O1}/0.57ppm,p-H1O3S1 0.9531 250
+  132.045516 504 f{C8H6N1O1}/0.22ppm,p-O3S1 0.9983 289
+  212.002340 692 f{C8H6N1O4S1}/0.18ppm,p 1.0000 289
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  79.957430 999.00 999
+  80.965255 504.00 504
+  92.050681 57.00 57
+  104.050630 3.00 3
+  120.045547 5.00 5
+  131.037737 4.00 4
+  132.045516 504.00 504
+  212.002340 692.00 692
+//

@@ -1,0 +1,95 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0426010
+RECORD_TITLE: Oleoylcarnitine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 36 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 426.357571; int 5.295; delta(ppm) 0.007056
+COMMENT: PROPOSED_MF SevenGoldenRules 0.510; C25H47NO4; [M+H]+; delta(ppm) -0.510168; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.075; C25H47NO4; [M+H]+; delta(ppm) -0.509963; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 33.757; C25H47NO4; [M+H]+; delta(ppm) -0.509963; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C25H47NO4; [M+H]+; delta(ppm) -0.509963; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 51.486; C25H47NO4; [M+H]+; delta(ppm) -0.509963; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C25H47NO4; [M+H]+; delta(ppm) -0.509963; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; IPOLTUVFXFHAHI-WHIOSMTNSA-N; C25H47NO4; Massbank:RP025103 Oleoyl-L-Carnitine(3R)-3-[(Z)-octadec-9-enoyl]oxy-4-(trimethylazaniumyl)butanoate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.349; IPOLTUVFXFHAHI; [M+H]+; Oleoylcarnitine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.567; IPOLTUVFXFHAHI-IQZBKSPKNA-N; [M+H]+; Oleoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; IPOLTUVFXFHAHI-IQZBKSPKNA-N; [M+H]+; Oleoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -3.415; IPOLTUVFXFHAHI; [M+H]+; Oleoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.402; IPOLTUVFXFHAHI; [M+H]+; Oleoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -118.181; IPOLTUVFXFHAHI; [M+H]+; (3R)-3-[(E)-octadec-9-enoyl]oxy-4-(trimethylazaniumyl)butanoate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.651; IPOLTUVFXFHAHI; [M+H]+; (3R)-3-[(E)-octadec-9-enoyl]oxy-4-(trimethylazaniumyl)butanoate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 3 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0005065)
+CH$NAME: Oleoylcarnitine
+CH$NAME: 3-octadec-9-enoyloxy-4-(trimethylammonio)butyrate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C25H47NO4
+CH$EXACT_MASS: 425.350509
+CH$SMILES: CCCCCCCCC=CCCCCCCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C
+CH$IUPAC: InChI=1S/C25H47NO4/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-25(29)30-23(21-24(27)28)22-26(2,3)4/h12-13,23H,5-11,14-22H2,1-4H3
+CH$LINK: HMDB HMDB0005065
+CH$LINK: INCHIKEY IPOLTUVFXFHAHI-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:166951
+CH$LINK: ChemOnt CHEMONTID:0000324; Organic compounds; Lipids and lipid-like molecules; Fatty Acyls; Fatty acid esters
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 14.709
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 426.357568
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-9000000000-603231ca998318fdcd7c
+PK$ANNOTATION: m/z int mzPAF cor n
+  57.069706 39 f{C4H9}/-3.00ppm,p-C21H39N1O4 0.4332 36
+  60.080816 108 f{C3H10N1}/0.68ppm,p-C22H38O4 1.0000 36
+  69.069710 39 f{C5H9}/-2.42ppm,p-C20H39N1O4 0.4963 36
+  81.069696 45 f{C6H9}/-2.23ppm,p-C19H39N1O4 0.5712 36
+  83.085173 38 f{C6H11}/-4.26ppm,p-C19H37N1O4 0.6445 36
+  85.028425 999 f{C4H5O2}/0.23ppm,p-C21H43N1O2 0.9436 36
+  95.085305 46 f{C7H11}/-2.33ppm,p-C18H37N1O4 0.5879 36
+  97.100892 27 f{C7H13}/-2.93ppm,p-C18H35N1O4 0.5233 36
+  107.085372 26 f{C8H11}/-1.44ppm,p-C17H37N1O4 0.5091 36
+  109.100994 25 f{C8H13}/-1.67ppm,p-C17H35N1O4 0.4728 36
+  121.100971 29 f{C9H13}/-1.70ppm,p-C16H35N1O4 0.7202 35
+  135.116665 23 f{C10H15}/-1.20ppm,p-C15H33N1O4 0.4899 35
+  144.101769 42 f{C7H14N1O2}/-0.94ppm,p-C18H34O2 0.9288 34
+  367.283223 51 f{C22H39O4}/-2.90ppm,p-C3H9N1 0.7289 27
+PK$NUM_PEAK: 14
+PK$PEAK: m/z int. rel.int.
+  57.069706 39.00 39
+  60.080816 108.00 108
+  69.069710 39.00 39
+  81.069696 45.00 45
+  83.085173 38.00 38
+  85.028425 999.00 999
+  95.085305 46.00 46
+  97.100892 27.00 27
+  107.085372 26.00 26
+  109.100994 25.00 25
+  121.100971 29.00 29
+  135.116665 23.00 23
+  144.101769 42.00 42
+  367.283223 51.00 51
+//

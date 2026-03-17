@@ -1,0 +1,82 @@
+ACCESSION: MSBNK-SMB_Measured-HSA022R0165004
+RECORD_TITLE: 2-Hydroxycinnamic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 954 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 165.054649; int 382.193; delta(ppm) -0.012166
+COMMENT: PROPOSED_MF SevenGoldenRules 0.189; C9H8O3; [M+H]+; delta(ppm) 0.188970; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.540; C9H8O3; [M+H]+; delta(ppm) 0.184466; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 58.165; C9H8O3; [M+H]+; delta(ppm) 0.184466; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C9H8O3; [M+H]+; delta(ppm) 0.184466; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 76.724; C9H8O3; [M+H]+; delta(ppm) 0.184466; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H8O3; [M+H]+; delta(ppm) 0.184466; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.317; PMOWTIHVNWZYFI; [M+H]+; 2-Hydroxycinnamic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.519; PMOWTIHVNWZYFI-AATRIKPKSA-N; [M+H]+; 2-Hydroxycinnamic acid; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.994; PMOWTIHVNWZYFI-AATRIKPKSA-N; [M+H]+; 2-Hydroxycinnamic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.157; PMOWTIHVNWZYFI-AATRIKPKSA-N; [M+H]+; (E)-3-(2-hydroxyphenyl)prop-2-enoic acid; Ranking 4;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -20.210; PMOWTIHVNWZYFI; [M+H]+; bmse000347; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.389; PMOWTIHVNWZYFI; [M+H]+; bmse000347; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -29.949; PMOWTIHVNWZYFI; [M+H]+; Coumaric Acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.772; PMOWTIHVNWZYFI; [M+H]+; Coumaric Acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 3), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 4); Biological context by HMDB (HMDB0002641)
+CH$NAME: 2-Hydroxycinnamic acid
+CH$NAME: Coumaric Acid
+CH$NAME: 3-(2-hydroxyphenyl)acrylic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C9H8O3
+CH$EXACT_MASS: 164.047344
+CH$SMILES: C1=CC=C(C(=C1)C=CC(=O)O)O
+CH$IUPAC: InChI=1S/C9H8O3/c10-8-4-2-1-3-7(8)5-6-9(11)12/h1-6,10H,(H,11,12)
+CH$LINK: HMDB HMDB0002641
+CH$LINK: INCHIKEY PMOWTIHVNWZYFI-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:11968
+CH$LINK: ChemOnt CHEMONTID:0001391; Organic compounds; Phenylpropanoids and polyketides; Cinnamic acids and derivatives; Hydroxycinnamic acids and derivatives
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.386
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 165.054651
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-006t-9800000000-c12b24cbb20140de786a
+PK$ANNOTATION: m/z int mzPAF cor n
+  77.038593 119 f{C6H5}/0.21ppm,p-C3H4O3 0.8967 938
+  91.054264 286 f{C7H7}/0.41ppm,p-C2H2O3 0.9927 954
+  95.049200 999 f{C6H7O1}/0.61ppm,p-C3H2O2 1.0000 954
+  103.054153 45 f{C8H7}/-0.72ppm,p-C1H2O3 0.9519 864
+  109.064679 27 f{C7H9O1}/-1.03ppm,p-C2O2 0.9072 799
+  119.049120 399 f{C8H7O1}/-0.18ppm,p-C1H2O2 0.9931 954
+  123.044050 693 f{C7H7O2}/-0.04ppm,p-C2H2O1 0.9935 954
+  147.044048 93 f{C9H7O2}/-0.05ppm,p-H2O1 0.9760 910
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  77.038593 119.00 119
+  91.054264 286.00 286
+  95.049200 999.00 999
+  103.054153 45.00 45
+  109.064679 27.00 27
+  119.049120 399.00 399
+  123.044050 693.00 693
+  147.044048 93.00 93
+//

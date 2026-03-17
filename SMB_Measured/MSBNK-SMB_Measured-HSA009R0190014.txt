@@ -1,0 +1,77 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0190014
+RECORD_TITLE: Indole-3-propionic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 44 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 190.086314; int 6.297; delta(ppm) -0.084036
+COMMENT: PROPOSED_MF SevenGoldenRules 0.397; C11H11NO2; [M+H]+; delta(ppm) 0.396659; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.572; C11H11NO2; [M+H]+; delta(ppm) 0.394378; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 26.165; C11H11NO2; [M+H]+; delta(ppm) 0.394378; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C11H11NO2; [M+H]+; delta(ppm) 0.394378; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 33.180; C11H11NO2; [M+H]+; delta(ppm) 0.394378; Ranking 2;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.691; C11H11NO2; [M+H]+; delta(ppm) 0.394378; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 22.000; GOLXRNDWAUTYKT-UHFFFAOYSA-N; C11H11NO2; INDOLEPROPIONIC ACID; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.911; GOLXRNDWAUTYKT; [M+H]+; Indole-3-propionic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.525; GOLXRNDWAUTYKT-UHFFFAOYSA-N; [M+H]+; Indole-3-propionic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; GOLXRNDWAUTYKT-UHFFFAOYSA-N; [M+H]+; Indole-3-propionic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.584; GOLXRNDWAUTYKT-UHFFFAOYSA-N; [M+H]+; 3-(1H-indol-3-yl)propanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -8.647; GOLXRNDWAUTYKT; [M+H]+; Oxigon; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.879; GOLXRNDWAUTYKT; [M+H]+; Oxigon; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -51.929; GOLXRNDWAUTYKT; [M+H]+; Indolepropionate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.801; GOLXRNDWAUTYKT; [M+H]+; Indolepropionate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 22 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0002302)
+CH$NAME: Indole-3-propionic acid
+CH$NAME: Indolepropionate
+CH$NAME: 3-(1H-indol-3-yl)propanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C11H11NO2
+CH$EXACT_MASS: 189.078979
+CH$SMILES: C1=CC=C2C(=C1)C(=CN2)CCC(=O)O
+CH$IUPAC: InChI=1S/C11H11NO2/c13-11(14)6-5-8-7-12-10-4-2-1-3-9(8)10/h1-4,7,12H,5-6H2,(H,13,14)
+CH$LINK: HMDB HMDB0002302
+CH$LINK: INCHIKEY GOLXRNDWAUTYKT-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:3744
+CH$LINK: ChemOnt CHEMONTID:0001290; Organic compounds; Organoheterocyclic compounds; Indoles and derivatives; Indolyl carboxylic acids and derivatives
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 9.205
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 190.086330
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-0900000000-7d6978afa2a4f0b49ee8
+PK$ANNOTATION: m/z int mzPAF cor n
+  55.017898 50 f{C3H3O1}/1.03ppm,p-C8H9N1O1 0.9185 31
+  130.065330 999 f{C9H8N1}/1.57ppm,p-C2H4O2 0.3488 44
+  172.075792 211 f{C11H10N1O1}/0.59ppm,p-H2O1 0.9512 32
+  190.085675 149 f{C11H12N1O2}/-3.05ppm,p 1.0000 44
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  55.017898 50.00 50
+  130.065330 999.00 999
+  172.075792 211.00 211
+  190.085675 149.00 149
+//

@@ -1,0 +1,39 @@
+ACCESSION: MSBNK-MSSJ-MSJ04305
+RECORD_TITLE: 1-(2-Allyl-3-fluorophenyl)prop-2-en-1-ol; GC-FI-TOF; MS; POSITIVE; 10 kV
+DATE: 2025.09.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imaia, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: I. Nasibullin, H. Yoshioka, A. Mukaimine, A. Nakamura, Y. Kusakari, T.-C. Chang and K. Tanaka, Catalytic olefin metathesis in blood, Chem. Sci., 2023, 14, 11033–11039. DOI: 10.1039/d3sc03785a.
+COMMENT: The compound analyzed, CH$NAME, is identical to the product of (B) R1=H "25" in Fig 3 of PUBLICATION.
+COMMENT: Original ID of the mass spectral data is A_20221031_mukaimine4MB/2211_IN-3.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Resolving power (FWHM, nominal) was 7000.
+COMMENT: Typical accuracy level of the m/z value expected was 10 ppm. Postrun m/z was adjusted with the known mass 192.0950.
+COMMENT: FI voltage was 10 kV. Temperature of the GC-transfer line was 250 C.
+CH$NAME: 1-(2-Allyl-3-fluorophenyl)prop-2-en-1-ol
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C12H13FO
+CH$EXACT_MASS: 192.095043
+CH$SMILES: Fc1cccc(c1CC=C)C(O)C=C
+CH$IUPAC: InChI=1S/C12H13FO/c1-3-6-9-10(12(14)4-2)7-5-8-11(9)13/h3-5,7-8,12,14H,1-2,6H2
+CH$LINK: INCHIKEY BSTIWHBOXZFZAE-UHFFFAOYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.0/min
+AC$CHROMATOGRAPHY: COLUMN_NAME DB-5MS UI 122-5532UI US0462866H (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.25 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temperature for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.57 min
+PK$SPLASH: splash10-0006-0900000000-4069950c3dcaee1cf4ed
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  146.050 13.0789 131
+  164.064 20.1268 201
+  174.085 50.8795 508
+  175.091 13.0190 130
+  192.095 100 999
+  193.098 17.1952 172
+//

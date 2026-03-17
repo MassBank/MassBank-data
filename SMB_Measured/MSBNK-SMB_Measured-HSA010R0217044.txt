@@ -1,0 +1,78 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0217044
+RECORD_TITLE: Valyl-Valine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 20 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 217.154753; int 26.287; delta(ppm) 0.046190
+COMMENT: PROPOSED_MF SevenGoldenRules 0.342; C10H20N2O3; [M+H]+; delta(ppm) 0.342359; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.734; C10H20N2O3; [M+H]+; delta(ppm) 0.340998; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 28.014; C10H20N2O3; [M+H]+; delta(ppm) 0.340998; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C10H20N2O3; [M+H]+; delta(ppm) 0.340998; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 36.756; C10H20N2O3; [M+H]+; delta(ppm) 0.340998; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C10H20N2O3; [M+H]+; delta(ppm) 0.340998; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; KRNYOVHEKOBTEF-YUMQZZPRSA-N; C10H20N2O3; Spectral Match to Val-Val from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.197; KRNYOVHEKOBTEF; [M+H]+; Valyl-Valine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.417; KRNYOVHEKOBTEF-UHFFFAOYNA-N; [M+H]+; Valyl-Valine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.926; KRNYOVHEKOBTEF-UHFFFAOYNA-N; [M+H]+; Valyl-Valine; Ranking 4;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.822; KRNYOVHEKOBTEF-YUMQZZPRSA-N; [M+H]+; (2S)-2-[[(2S)-2-amino-3-methylbutanoyl]amino]-3-methylbutanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.496; KRNYOVHEKOBTEF; [M+H]+; Valylvaline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.983; KRNYOVHEKOBTEF; [M+H]+; Valylvaline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -25.441; KRNYOVHEKOBTEF; [M+H]+; Val-Val; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.992; KRNYOVHEKOBTEF; [M+H]+; Val-Val; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 4), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0029140)
+CH$NAME: Valyl-Valine
+CH$NAME: Val-Val
+CH$NAME: 2-[(2-amino-3-methyl-butanoyl)amino]-3-methyl-butyric acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C10H20N2O3
+CH$EXACT_MASS: 216.147392
+CH$SMILES: CC(C)C(C(=O)NC(C(C)C)C(=O)O)N
+CH$IUPAC: InChI=1S/C10H20N2O3/c1-5(2)7(11)9(13)12-8(6(3)4)10(14)15/h5-8H,11H2,1-4H3,(H,12,13)(H,14,15)
+CH$LINK: HMDB HMDB0029140
+CH$LINK: INCHIKEY KRNYOVHEKOBTEF-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:409682
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.184
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 217.154743
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-9000000000-f4ef01caf31bbfcc6cef
+PK$ANNOTATION: m/z int mzPAF cor n
+  55.054194 44 f{C4H7}/-0.59ppm,p-C6H14N2O3 0.9319 19
+  70.065170 39 f{C4H8N1}/0.63ppm,p-C6H13N1O3 0.5965 20
+  72.080812 999 f{C4H10N1}/0.50ppm,p-C6H11N1O3 0.9702 20
+  118.086229 59 f{C5H12N1O2}/-0.22ppm,p-C5H9N1O1 1.0000 19
+  171.148969 44 f{C9H19N2O1}/-1.29ppm,p-C1H2O2 0.8369 19
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  55.054194 44.00 44
+  70.065170 39.00 39
+  72.080812 999.00 999
+  118.086229 59.00 59
+  171.148969 44.00 44
+//

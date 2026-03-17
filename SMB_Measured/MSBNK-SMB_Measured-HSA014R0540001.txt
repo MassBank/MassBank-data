@@ -1,0 +1,77 @@
+ACCESSION: MSBNK-SMB_Measured-HSA014R0540001
+RECORD_TITLE: LysoPC(16:0); LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 29 product ion spectra among 27 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS6402
+COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
+COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
+COMMENT: PRECURSOR_IN_MS1 mz 540.330659; int 71.888; delta(ppm) -0.030907
+COMMENT: PROPOSED_MF SevenGoldenRules 0.026; C24H50NO7P; [M+FA-H]1; delta(ppm) -0.026245; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 3.805; C24H50NO7P; [M+FA-H]-; delta(ppm) -0.027450; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 6008.647; C24H50NO7P; [M+CH2O2-H]-; delta(ppm) -0.027450; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C24H50NO7P; [M+CH2O2-H]-; delta(ppm) -0.027450; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 25.011; C24H50NO7P; [M+CH2O2-H]-; delta(ppm) -0.027450; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C24H50NO7P; [M+CH2O2-H]-; delta(ppm) -0.027450; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; ASWBNKHCZGQVJV-UHFFFAOYSA-N; C24H50NO7P; Massbank:PR309152 LPC 16:0; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.865; ASWBNKHCZGQVJV-HSZRJFAPSA-N; [M+FA-H]-; LysoPC(16:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; ASWBNKHCZGQVJV-HSZRJFAPSA-N; [M+FA-H]-; LysoPC(16:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -6.113; ASWBNKHCZGQVJV; [M+CH2O2-H]-; 1-16:0-lysoPC; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.398; ASWBNKHCZGQVJV; [M+CH2O2-H]-; 1-16:0-lysoPC; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -5.753; ASWBNKHCZGQVJV; [M+CH2O2-H]-; 1-Palmitoyl-sn-glycero-3-phosphocholine-d9; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.416; ASWBNKHCZGQVJV; [M+CH2O2-H]-; 1-Palmitoyl-sn-glycero-3-phosphocholine-d9; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS5_CSI (FDR < 0.05); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0010382)
+CH$NAME: LysoPC(16:0)
+CH$NAME: (3-hexadecanoyloxy-2-hydroxypropyl) 2-(trimethylazaniumyl)ethyl phosphate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C24H50NO7P
+CH$EXACT_MASS: 495.332490
+CH$SMILES: CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)O
+CH$IUPAC: InChI=1S/C24H50NO7P/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-24(27)30-21-23(26)22-32-33(28,29)31-20-19-25(2,3)4/h23,26H,5-22H2,1-4H3
+CH$LINK: HMDB HMDB0010382
+CH$LINK: INCHIKEY ASWBNKHCZGQVJV-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:86554
+CH$LINK: ChemOnt CHEMONTID:0002213; Organic compounds; Lipids and lipid-like molecules; Glycerophospholipids; Glycerophosphocholines
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Vanquish Flex UHPLC system, Thermo Fisher Scientific - Orbitrap Q Exactive Plus mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.50; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
+AC$CHROMATOGRAPHY: RETENTION_TIME 16.235
+MS$FOCUSED_ION: PRECURSOR_M/Z 540.330676
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0a4i-1090300000-fdc6a79147ccf4aa05c7
+PK$ANNOTATION: m/z int mzPAF cor n
+  78.959142 159 f{O3P1}/1.13ppm,p-C25H51N1O6 0.8877 29
+  152.995899 29 f{C3H6O5P1}/0.44ppm,p-C22H45N1O4 0.8269 25
+  168.043285 28 f{C4H11N1O4P1}/1.00ppm,p-C21H40O5 0.8113 24
+  224.069398 70 f{C7H15N1O5P1}/0.30ppm,p-C18H36O4 0.8822 27
+  242.079956 21 f{C7H17N1O6P1}/0.25ppm,p-C18H34O3 0.6870 21
+  255.233179 999 f{C16H31O2}/0.88ppm,p-C9H20N1O7P1 0.8921 29
+  480.309603 385 f{C23H47N1O7P1}/0.09ppm,p-C2H4O2 0.9365 29
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  78.959142 159.00 159
+  152.995899 29.00 29
+  168.043285 28.00 28
+  224.069398 70.00 70
+  242.079956 21.00 21
+  255.233179 999.00 999
+  480.309603 385.00 385
+//

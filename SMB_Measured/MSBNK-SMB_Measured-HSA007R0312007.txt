@@ -1,0 +1,87 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0312007
+RECORD_TITLE: Piperettine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 20 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 312.158615; int 151.112; delta(ppm) -1.669045
+COMMENT: PROPOSED_MF SevenGoldenRules 0.913; C19H21NO3; [M+H]+; delta(ppm) -0.912738; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 4.212; C19H21NO3; [M+H]+; delta(ppm) -0.909712; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 38.379; C19H21NO3; [M+H]+; delta(ppm) -0.909712; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C19H21NO3; [M+H]+; delta(ppm) -0.909712; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 58.755; C19H21NO3; [M+H]+; delta(ppm) -0.909712; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.999; C19H21NO3; [M+H]+; delta(ppm) -0.909712; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.783; DLKOUKNODPCIHZ; [M+H]+; Piperettine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.403; DLKOUKNODPCIHZ-UMYWTXKFSA-N; [M+H]+; Piperettine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; DLKOUKNODPCIHZ-UMYWTXKFSA-N; [M+H]+; Piperettine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.293; DLKOUKNODPCIHZ-UMYWTXKFSA-N; [M+H]+; (2E,4E,6E)-7-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylhepta-2,4,6-trien-1-one; Ranking 3;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -61.056; DLKOUKNODPCIHZ; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.979; DLKOUKNODPCIHZ; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -107.631; DLKOUKNODPCIHZ; [M+H]+; 7-(2H-1,3-benzodioxol-5-yl)-1-(piperidin-1-yl)hepta-2,4,6-trien-1-one; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.965; DLKOUKNODPCIHZ; [M+H]+; 7-(2H-1,3-benzodioxol-5-yl)-1-(piperidin-1-yl)hepta-2,4,6-trien-1-one; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 3); Biological context by HMDB (HMDB0034371)
+CH$NAME: Piperettine
+CH$NAME: 7-(1,3-benzodioxol-5-yl)-1-piperidino-hepta-2,4,6-trien-1-one
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C19H21NO3
+CH$EXACT_MASS: 311.152144
+CH$SMILES: C1CCN(CC1)C(=O)C=CC=CC=CC2=CC3=C(C=C2)OCO3
+CH$IUPAC: InChI=1S/C19H21NO3/c21-19(20-12-6-3-7-13-20)9-5-2-1-4-8-16-10-11-17-18(14-16)23-15-22-17/h1-2,4-5,8-11,14H,3,6-7,12-13,15H2
+CH$LINK: HMDB HMDB0034371
+CH$LINK: INCHIKEY DLKOUKNODPCIHZ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:91274708
+CH$LINK: ChemOnt CHEMONTID:0000296; Organic compounds; Organoheterocyclic compounds; Benzodioxoles
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 14.554
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 312.159136
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-02vl-0920000000-08f6c515fe88a8cb14e7
+PK$ANNOTATION: m/z int mzPAF cor n
+  69.069927 114 f{C5H9}/0.73ppm,p-C14H13N1O3 0.8989 17
+  86.096392 93 f{C5H12N1}/-0.39ppm,p-C14H10O3 0.9003 17
+  103.054335 119 f{C8H7}/1.05ppm,p-C11H15N1O3 0.8810 19
+  112.075897 384 f{C6H10N1O1}/1.85ppm,p-C13H12O2 0.9215 19
+  115.054424 112 f{C9H7}/1.71ppm,p-C10H15N1O3 0.8014 16
+  141.070138 801 f{C11H9}/1.85ppm,p-C8H13N1O3 0.9191 20
+  169.065475 999 f{C12H9O1}/4.05ppm,p-C7H13N1O2 0.9127 15
+  197.059933 309 f{C13H9O2}/1.15ppm,p-C6H13N1O1 0.9072 20
+  199.076163 297 f{C13H11O2}/4.05ppm,p-C6H11N1O1 0.9017 19
+  227.070631 907 f{C14H11O3}/1.59ppm,p-C5H11N1 0.9543 20
+  312.159418 253 f{C19H22N1O3}/-0.01ppm,p 1.0000 19
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  69.069927 114.00 114
+  86.096392 93.00 93
+  103.054335 119.00 119
+  112.075897 384.00 384
+  115.054424 112.00 112
+  141.070138 801.00 801
+  169.065475 999.00 999
+  197.059933 309.00 309
+  199.076163 297.00 297
+  227.070631 907.00 907
+  312.159418 253.00 253
+//

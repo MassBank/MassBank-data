@@ -1,0 +1,92 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0415002
+RECORD_TITLE: nonaethylene glycol; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 149 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 415.253772; int 163.071; delta(ppm) -0.012002
+COMMENT: PROPOSED_MF SevenGoldenRules 0.010; C18H38O10; [M+H]+; delta(ppm) 0.009656; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.560; C18H38O10; [M+H]+; delta(ppm) 0.007552; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 29.297; C18H38O10; [M+H]+; delta(ppm) 0.007552; Ranking 3;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C18H38O10; [M+H]+; delta(ppm) 0.007552; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 58.656; C18H38O10; [M+H]+; delta(ppm) 0.007552; Ranking 4;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C18H38O10; [M+H]+; delta(ppm) 0.007552; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 7.000; YZUUTMGDONTGTN-UHFFFAOYSA-N; C18H38O10; Spectral Match to Nonaethylene glycol from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.778; YZUUTMGDONTGTN; [M+H]+; nonaethylene glycol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.258; YZUUTMGDONTGTN-UHFFFAOYSA-N; [M+H]+; nonaethylene glycol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.994; YZUUTMGDONTGTN-UHFFFAOYSA-N; [M+H]+; nonaethylene glycol; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; YZUUTMGDONTGTN-UHFFFAOYSA-N; [M+H]+; 2-[2-[2-[2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethanol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.771; YZUUTMGDONTGTN; [M+H]+; Epitope ID:159256; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.948; YZUUTMGDONTGTN; [M+H]+; Epitope ID:159256; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -1.545; YZUUTMGDONTGTN; [M+H]+; 3,6,9,12,15,18,21,24-octaoxahexacosane-1,26-diol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.769; YZUUTMGDONTGTN; [M+H]+; 3,6,9,12,15,18,21,24-octaoxahexacosane-1,26-diol; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3b; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 7 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1)
+CH$NAME: nonaethylene glycol
+CH$NAME: 2-[2-[2-[2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethanol
+CH$COMPOUND_CLASS: Non-Natural Product
+CH$FORMULA: C18H38O10
+CH$EXACT_MASS: 414.246497
+CH$SMILES: C(COCCOCCOCCOCCOCCOCCOCCOCCO)O
+CH$IUPAC: InChI=1S/C18H38O10/c19-1-3-21-5-7-23-9-11-25-13-15-27-17-18-28-16-14-26-12-10-24-8-6-22-4-2-20/h19-20H,1-18H2
+CH$LINK: INCHIKEY YZUUTMGDONTGTN-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4867
+CH$LINK: ChemOnt CHEMONTID:0000254; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Ethers
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.498
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 415.253777
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0019-9700000000-118a457906b32bdeba2a
+PK$ANNOTATION: m/z int mzPAF cor n
+  73.064798 11 f{C4H9O1}/0.10ppm,p-C14H30O9 0.9886 127
+  87.044062 50 f{C4H7O2}/0.07ppm,p-C14H32O8 0.9873 149
+  89.059692 999 f{C4H9O2}/-0.15ppm,p-C14H30O8 0.9884 149
+  117.090732 6 f{C6H13O2}/-2.34ppm,p-C12H26O8 0.9805 109
+  131.070207 21 f{C6H11O3}/-0.49ppm,p-C12H28O7 0.9882 148
+  133.085968 712 f{C6H13O3}/0.35ppm,p-C12H26O7 0.9890 149
+  175.096288 9 f{C8H15O4}/-1.13ppm,p-C10H24O6 0.9852 116
+  177.112159 184 f{C8H17O4}/0.13ppm,p-C10H22O6 0.9905 149
+  221.138066 24 f{C10H21O5}/-1.28ppm,p-C8H18O5 0.9888 149
+  239.148649 7 f{C10H23O6}/-1.11ppm,p-C8H16O4 0.9779 115
+  283.174315 7 f{C12H27O7}/-2.88ppm,p-C6H12O3 0.9820 109
+  327.200367 10 f{C14H31O8}/-2.99ppm,p-C4H8O2 0.9889 117
+  371.227770 13 f{C16H35O9}/0.57ppm,p-C2H4O1 1.0000 122
+PK$NUM_PEAK: 13
+PK$PEAK: m/z int. rel.int.
+  73.064798 11.00 11
+  87.044062 50.00 50
+  89.059692 999.00 999
+  117.090732 6.00 6
+  131.070207 21.00 21
+  133.085968 712.00 712
+  175.096288 9.00 9
+  177.112159 184.00 184
+  221.138066 24.00 24
+  239.148649 7.00 7
+  283.174315 7.00 7
+  327.200367 10.00 10
+  371.227770 13.00 13
+//

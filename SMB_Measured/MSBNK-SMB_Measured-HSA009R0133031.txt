@@ -1,0 +1,77 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0133031
+RECORD_TITLE: Asparagine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 27 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 133.060780; int 8.609; delta(ppm) -0.041460
+COMMENT: PROPOSED_MF SevenGoldenRules 0.136; C4H8N2O3; [M+H]+; delta(ppm) 0.136308; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.930; C4H8N2O3; [M+H]+; delta(ppm) 0.131009; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 42.276; C4H8N2O3; [M+H]+; delta(ppm) 0.131009; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C4H8N2O3; [M+H]+; delta(ppm) 0.131009; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 54.247; C4H8N2O3; [M+H]+; delta(ppm) 0.131009; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C4H8N2O3; [M+H]+; delta(ppm) 0.131009; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.600; DCXYFEDJOCDNAF-REOHCLBHSA-N; [M+H]+; L-Asparagine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.983; DCXYFEDJOCDNAF-REOHCLBHSA-N; [M+H]+; L-Asparagine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.585; DCXYFEDJOCDNAF-REOHCLBHSA-N; [M+H]+; (2S)-2,4-diamino-4-oxobutanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -2.608; DCXYFEDJOCDNAF; [M+H]+; agedoite; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.881; DCXYFEDJOCDNAF; [M+H]+; agedoite; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -38.049; DCXYFEDJOCDNAF; [M+H]+; Hasp; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.946; DCXYFEDJOCDNAF; [M+H]+; Hasp; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000168)
+CH$NAME: Asparagine
+CH$NAME: Hasp
+CH$NAME: 2,4-diamino-4-keto-butyric acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C4H8N2O3
+CH$EXACT_MASS: 132.053492
+CH$SMILES: C(C(C(=O)O)N)C(=O)N
+CH$IUPAC: InChI=1S/C4H8N2O3/c5-2(4(8)9)1-3(6)7/h2H,1,5H2,(H2,6,7)(H,8,9)
+CH$LINK: HMDB HMDB0000168
+CH$LINK: INCHIKEY DCXYFEDJOCDNAF-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:236
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.821
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 133.060786
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-9000000000-4b9c8c2773d195409a9d
+PK$ANNOTATION: m/z int mzPAF cor n
+  70.065259 695 f{C4H8N1}/1.90ppm,p-H1N1O3 0.6233 27
+  74.023700 999 f{C2H4N1O2}/0.61ppm,p-C2H5N1O1 1.0000 27
+  87.055259 285 f{C3H7N2O1}/-0.35ppm,p-C1H2O2 0.6021 26
+  88.039411 477 f{C3H6N1O2}/1.20ppm,p-C1H3N1O1 0.6233 27
+  116.034209 148 f{C4H6N1O3}/-0.09ppm,p-H3N1 0.6316 20
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  70.065259 695.00 695
+  74.023700 999.00 999
+  87.055259 285.00 285
+  88.039411 477.00 477
+  116.034209 148.00 148
+//

@@ -1,0 +1,70 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0302000
+RECORD_TITLE: Nonanoylcarnitine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 76 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 302.232147; int 999.000; delta(ppm) -1.773587
+COMMENT: PROPOSED_MF SevenGoldenRules 0.329; C16H31NO4; [M+H]+; delta(ppm) 0.328658; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 4.288; C16H31NO4; [M+H]+; delta(ppm) 0.324531; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 12.964; C16H31NO4; [M+H]+; delta(ppm) 0.324531; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C16H31NO4; [M+H]+; delta(ppm) 0.324531; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 18.353; C16H31NO4; [M+H]+; delta(ppm) 0.324531; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C16H31NO4; [M+H]+; delta(ppm) 0.324531; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.305; MPSPNFAQQQMFLK; [M+H]+; Nonanoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.759; MPSPNFAQQQMFLK-UHFFFAOYNA-N; [M+H]+; Nonanoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; MPSPNFAQQQMFLK-UHFFFAOYNA-N; [M+H]+; Nonanoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -7.220; MPSPNFAQQQMFLK; [M+H]+; Nonaylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.768; MPSPNFAQQQMFLK; [M+H]+; Nonaylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -104.483; MPSPNFAQQQMFLK; [M+H]+; Nonanoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.948; MPSPNFAQQQMFLK; [M+H]+; Nonanoylcarnitine; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0013288)
+CH$NAME: Nonanoylcarnitine
+CH$NAME: 3-pelargonyloxy-4-(trimethylammonio)butyrate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C16H31NO4
+CH$EXACT_MASS: 301.225308
+CH$SMILES: CCCCCCCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C
+CH$IUPAC: InChI=1S/C16H31NO4/c1-5-6-7-8-9-10-11-16(20)21-14(12-15(18)19)13-17(2,3)4/h14H,5-13H2,1-4H3
+CH$LINK: HMDB HMDB0013288
+CH$LINK: INCHIKEY MPSPNFAQQQMFLK-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:53481660
+CH$LINK: ChemOnt CHEMONTID:0000324; Organic compounds; Lipids and lipid-like molecules; Fatty Acyls; Fatty acid esters
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 10.813
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 302.232683
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-9013000000-aaf867ca642dd39d4943
+PK$ANNOTATION: m/z int mzPAF cor n
+  85.028545 999 f{C4H5O2}/1.63ppm,p-C12H27N1O2 0.9453 72
+  243.158417 147 f{C13H23O4}/-2.75ppm,p-C3H9N1 0.8927 69
+  302.232356 350 f{C16H32N1O4}/-0.76ppm,p 1.0000 69
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  85.028545 999.00 999
+  243.158417 147.00 147
+  302.232356 350.00 350
+//

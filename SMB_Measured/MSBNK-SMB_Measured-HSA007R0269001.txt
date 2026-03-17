@@ -1,0 +1,78 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0269001
+RECORD_TITLE: Inosine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 44 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 269.087579; int 644.658; delta(ppm) -2.991477
+COMMENT: PROPOSED_MF SevenGoldenRules 1.261; C10H12N4O5; [M+H]+; delta(ppm) 1.260812; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 3.987; C10H12N4O5; [M+H]+; delta(ppm) 1.256264; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 18.337; C10H12N4O5; [M+H]+; delta(ppm) 1.256264; Ranking 2;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C10H12N4O5; [M+H]+; delta(ppm) 1.256264; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 27.983; C10H12N4O5; [M+H]+; delta(ppm) 1.256264; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.996; C10H12N4O5; [M+H]+; delta(ppm) 1.256264; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 44.000; UGQMRVRMYYASKQ-KQYNXXCUSA-N; C10H12N4O5; 4687 - 40.0 eV; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 20.000; UGQMRVRMYYASKQ-UHFFFAOYSA-N; C10H12N4O5; inosine CollisionEnergy:205060; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.257; UGQMRVRMYYASKQ; [M+H]+; Inosine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.274; UGQMRVRMYYASKQ-KQYNXXCUSA-N; [M+H]+; Inosine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.915; UGQMRVRMYYASKQ-KQYNXXCUSA-N; [M+H]+; Inosine; Ranking 4;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; UGQMRVRMYYASKQ-KQYNXXCUSA-N; [M+H]+; 9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-1H-purin-6-one; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -5.972; UGQMRVRMYYASKQ; [M+H]+; Inosinum; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.640; UGQMRVRMYYASKQ; [M+H]+; Inosinum; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -13.920; UGQMRVRMYYASKQ; [M+H]+; Inosin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.946; UGQMRVRMYYASKQ; [M+H]+; Inosin; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 64 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 4), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000195)
+CH$NAME: Inosine
+CH$NAME: Inosin
+CH$NAME: 9-[3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-3H-purin-6-one
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C10H12N4O5
+CH$EXACT_MASS: 268.080769
+CH$SMILES: C1=NC(=O)C2=C(N1)N(C=N2)C3C(C(C(O3)CO)O)O
+CH$IUPAC: InChI=1S/C10H12N4O5/c15-1-4-6(16)7(17)10(19-4)14-3-13-5-8(14)11-2-12-9(5)18/h2-4,6-7,10,15-17H,1H2,(H,11,12,18)
+CH$LINK: HMDB HMDB0000195
+CH$LINK: INCHIKEY UGQMRVRMYYASKQ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:804
+CH$LINK: ChemOnt CHEMONTID:0000479; Organic compounds; Nucleosides, nucleotides, and analogues; Purine nucleosides
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.172
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 269.088384
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-0900000000-1f478474ef5f9e01aea8
+PK$ANNOTATION: m/z int mzPAF cor n
+  94.039518 20 f{C4H4N3}/-4.85ppm,p-C6H9N1O5 0.9228 37
+  110.034299 37 f{C4H4N3O1}/-5.36ppm,p-C6H9N1O4 0.9532 37
+  119.035029 44 f{C5H3N4}/-1.62ppm,p-C5H10O5 0.9631 37
+  137.045770 999 f{C5H5N4O1}/-0.12ppm,p-C5H8O4 1.0000 43
+  182.080846 19 f{C9H12N1O3}/-1.78ppm,p-C1H1N3O2 0.4766 32
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  94.039518 20.00 20
+  110.034299 37.00 37
+  119.035029 44.00 44
+  137.045770 999.00 999
+  182.080846 19.00 19
+//

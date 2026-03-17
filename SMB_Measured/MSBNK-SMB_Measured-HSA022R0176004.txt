@@ -1,0 +1,79 @@
+ACCESSION: MSBNK-SMB_Measured-HSA022R0176004
+RECORD_TITLE: Indoleacetic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 197 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 176.070682; int 175.640; delta(ppm) 0.181846
+COMMENT: PROPOSED_MF SevenGoldenRules 0.257; C10H9NO2; [M+H]+; delta(ppm) 0.257050; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.767; C10H9NO2; [M+H]+; delta(ppm) 0.255747; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 23.991; C10H9NO2; [M+H]+; delta(ppm) 0.255747; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C10H9NO2; [M+H]+; delta(ppm) 0.255747; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 30.907; C10H9NO2; [M+H]+; delta(ppm) 0.255747; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.999; C10H9NO2; [M+H]+; delta(ppm) 0.255747; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 73.000; SEOVTRFCIGRIMH-UHFFFAOYSA-N; C10H9NO2; INDOLEACETIC ACID; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.490; SEOVTRFCIGRIMH; [M+H]+; Indoleacetic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.410; SEOVTRFCIGRIMH-UHFFFAOYSA-N; [M+H]+; Indoleacetic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.913; SEOVTRFCIGRIMH-UHFFFAOYSA-N; [M+H]+; Indoleacetic acid; Ranking 5;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.943; SEOVTRFCIGRIMH-UHFFFAOYSA-N; [M+H]+; 2-(1H-indol-3-yl)acetic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -5.643; SEOVTRFCIGRIMH; [M+H]+; beta-IAA; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.942; SEOVTRFCIGRIMH; [M+H]+; beta-IAA; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -16.542; SEOVTRFCIGRIMH; [M+H]+; Heteroauxin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.966; SEOVTRFCIGRIMH; [M+H]+; Heteroauxin; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 73 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 5), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000197)
+CH$NAME: Indoleacetic acid
+CH$NAME: Heteroauxin
+CH$NAME: 2-(1H-indol-3-yl)acetic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C10H9NO2
+CH$EXACT_MASS: 175.063329
+CH$SMILES: C1=CC=C2C(=C1)C(=CN2)CC(=O)O
+CH$IUPAC: InChI=1S/C10H9NO2/c12-10(13)5-7-6-11-9-4-2-1-3-8(7)9/h1-4,6,11H,5H2,(H,12,13)
+CH$LINK: HMDB HMDB0000197
+CH$LINK: INCHIKEY SEOVTRFCIGRIMH-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:802
+CH$LINK: ChemOnt CHEMONTID:0001290; Organic compounds; Organoheterocyclic compounds; Indoles and derivatives; Indolyl carboxylic acids and derivatives
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.151
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 176.070650
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-0900000000-7f4006bb18ee67e2f742
+PK$ANNOTATION: m/z int mzPAF cor n
+  77.038498 4 f{C6H5}/-1.02ppm,p-C4H5N1O2 0.8888 142
+  95.049080 5 f{C6H7O1}/-0.65ppm,p-C4H3N1O1 0.9366 153
+  103.054223 74 f{C8H7}/-0.04ppm,p-C2H3N1O2 0.9820 197
+  128.049414 4 f{C9H6N1}/-0.48ppm,p-C1H4O2 0.9141 140
+  130.065082 999 f{C9H8N1}/-0.33ppm,p-C1H2O2 0.9867 197
+  176.070542 21 f{C10H10N1O2}/-0.36ppm,p 1.0000 195
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  77.038498 4.00 4
+  95.049080 5.00 5
+  103.054223 74.00 74
+  128.049414 4.00 4
+  130.065082 999.00 999
+  176.070542 21.00 21
+//

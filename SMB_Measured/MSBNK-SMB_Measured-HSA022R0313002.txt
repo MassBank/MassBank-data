@@ -1,0 +1,83 @@
+ACCESSION: MSBNK-SMB_Measured-HSA022R0313002
+RECORD_TITLE: Phenylalanylphenylalanine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 664 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 313.154707; int 749.266; delta(ppm) -0.012834
+COMMENT: PROPOSED_MF SevenGoldenRules 0.135; C18H20N2O3; [M+H]+; delta(ppm) 0.134552; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.742; C18H20N2O3; [M+H]+; delta(ppm) 0.134276; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 21.625; C18H20N2O3; [M+H]+; delta(ppm) 0.134276; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C18H20N2O3; [M+H]+; delta(ppm) 0.134276; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 31.404; C18H20N2O3; [M+H]+; delta(ppm) 0.134276; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C18H20N2O3; [M+H]+; delta(ppm) 0.134276; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 4.000; GKZIWHRNKRBEOH-UHFFFAOYSA-N; C18H20N2O3; Spectral Match to Phe-Phe from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.714; GKZIWHRNKRBEOH; [M+H]+; Phenylalanylphenylalanine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.303; GKZIWHRNKRBEOH-UHFFFAOYNA-N; [M+H]+; Phenylalanylphenylalanine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.942; GKZIWHRNKRBEOH-UHFFFAOYNA-N; [M+H]+; Phenylalanylphenylalanine; Ranking 5;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.915; GKZIWHRNKRBEOH-HOTGVXAUSA-N; [M+H]+; (2S)-2-[[(2S)-2-amino-3-phenylpropanoyl]amino]-3-phenylpropanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.512; GKZIWHRNKRBEOH; [M+H]+; Di-L-phenylalanine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.998; GKZIWHRNKRBEOH; [M+H]+; Di-L-phenylalanine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -40.438; GKZIWHRNKRBEOH; [M+H]+; Phe-Phe; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.998; GKZIWHRNKRBEOH; [M+H]+; Phe-Phe; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 4 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 5), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0013302)
+CH$NAME: Phenylalanylphenylalanine
+CH$NAME: Phe-Phe
+CH$NAME: 2-[(2-amino-3-phenylpropanoyl)amino]-3-phenylpropanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C18H20N2O3
+CH$EXACT_MASS: 312.147393
+CH$SMILES: C1=CC=C(C=C1)CC(C(=O)NC(CC2=CC=CC=C2)C(=O)O)N
+CH$IUPAC: InChI=1S/C18H20N2O3/c19-15(11-13-7-3-1-4-8-13)17(21)20-16(18(22)23)12-14-9-5-2-6-10-14/h1-10,15-16H,11-12,19H2,(H,20,21)(H,22,23)
+CH$LINK: HMDB HMDB0013302
+CH$LINK: INCHIKEY GKZIWHRNKRBEOH-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:65104
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.876
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 313.154711
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-0900000000-6ede15313310aea7e360
+PK$ANNOTATION: m/z int mzPAF cor n
+  91.054234 4 f{C7H7}/0.08ppm,p-C11H14N2O3 0.9826 633
+  93.069962 11 f{C7H9}/0.91ppm,p-C11H12N2O3 0.9906 657
+  103.054323 31 f{C8H7}/0.93ppm,p-C10H14N2O3 0.9938 663
+  120.080876 999 f{C8H10N1}/0.84ppm,p-C10H11N1O3 0.9948 664
+  131.049254 2 f{C9H7O1}/0.86ppm,p-C9H14N2O2 0.9864 501
+  166.086363 46 f{C9H12N1O2}/0.65ppm,p-C9H9N1O1 0.9952 663
+  267.149450 4 f{C17H19N2O1}/0.98ppm,p-C1H2O2 0.9918 575
+  313.154964 9 f{C18H21N2O3}/0.94ppm,p 1.0000 634
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  91.054234 4.00 4
+  93.069962 11.00 11
+  103.054323 31.00 31
+  120.080876 999.00 999
+  131.049254 2.00 2
+  166.086363 46.00 46
+  267.149450 4.00 4
+  313.154964 9.00 9
+//

@@ -1,0 +1,82 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0211002
+RECORD_TITLE: Cyclo(leucylprolyl); LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 21 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 211.143539; int 999.000; delta(ppm) -2.288720
+COMMENT: PROPOSED_MF SevenGoldenRules 0.390; C11H18N2O2; [M+H]+; delta(ppm) -0.390222; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.467; C11H18N2O2; [M+H]+; delta(ppm) -0.389615; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 28.459; C11H18N2O2; [M+H]+; delta(ppm) -0.389615; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C11H18N2O2; [M+H]+; delta(ppm) -0.389615; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 42.627; C11H18N2O2; [M+H]+; delta(ppm) -0.389615; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C11H18N2O2; [M+H]+; delta(ppm) -0.389615; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; SZJNCZMRZAUNQT-UHFFFAOYSA-N; C11H18N2O2; NCGC00169428-02!3-(2-methylpropyl)-2,3,6,7,8,8a-hexahydropyrrolo[1,2-a]pyrazine-1,4-dione; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; SZJNCZMRZAUNQT-IUCAKERBSA-N; C11H18N2O2; cyclo(L-Leu-L-Pro); Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.058; SZJNCZMRZAUNQT; [M+H]+; L,L-Cyclo(leucylprolyl); Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.855; SZJNCZMRZAUNQT-UHFFFAOYNA-N; [M+H]+; L,L-Cyclo(leucylprolyl); Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.742; SZJNCZMRZAUNQT-UHFFFAOYNA-N; [M+H]+; L,L-Cyclo(leucylprolyl); Ranking 8;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.047; SZJNCZMRZAUNQT-IUCAKERBSA-N; [M+H]+; (3S,8aS)-3-(2-methylpropyl)-2,3,6,7,8,8a-hexahydropyrrolo[1,2-a]pyrazine-1,4-dione; Ranking 4;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -6.226; SZJNCZMRZAUNQT; [M+H]+; Gancidin W; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.798; SZJNCZMRZAUNQT; [M+H]+; Gancidin W; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -22.842; SZJNCZMRZAUNQT; [M+H]+; Gancidin W; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.992; SZJNCZMRZAUNQT; [M+H]+; Gancidin W; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 2 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 8), MetFrag:PubchemLite (Ranking 4); Biological context by HMDB (HMDB0034276)
+CH$NAME: Cyclo(leucylprolyl)
+CH$NAME: Gancidin W
+CH$NAME: 3-(2-methylpropyl)-2,3,6,7,8,8a-hexahydropyrrolo[1,2-a]pyrazine-1,4-dione
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C11H18N2O2
+CH$EXACT_MASS: 210.136828
+CH$SMILES: CC(C)CC1C(=O)N2CCCC2C(=O)N1
+CH$IUPAC: InChI=1S/C11H18N2O2/c1-7(2)6-8-11(15)13-5-3-4-9(13)10(14)12-8/h7-9H,3-6H2,1-2H3,(H,12,14)
+CH$LINK: HMDB HMDB0034276
+CH$LINK: INCHIKEY SZJNCZMRZAUNQT-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:102892
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.842
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 211.144022
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03ki-9550000000-4a1ffff3d9efa9968b51
+PK$ANNOTATION: m/z int mzPAF cor n
+  70.065630 999 f{C4H8N1}/7.20ppm,p-C7H11N1O2 0.9216 21
+  86.096136 505 f{C5H12N1}/-3.37ppm,p-C6H7N1O2 0.7646 19
+  114.091541 200 f{C6H12N1O1}/1.76ppm,p-C5H7N1O1 0.7455 20
+  138.127621 340 f{C9H16N1}/-0.76ppm,p-C2H3N1O2 0.8089 21
+  183.149200 260 f{C10H19N2O1}/0.06ppm,p-C1O1 0.7019 20
+  194.118838 73 f{C11H16N1O2}/6.61ppm,p-H3N1 0.5894 15
+  211.143947 854 f{C11H19N2O2}/-0.75ppm,p 1.0000 21
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  70.065630 999.00 999
+  86.096136 505.00 505
+  114.091541 200.00 200
+  138.127621 340.00 340
+  183.149200 260.00 260
+  194.118838 73.00 73
+  211.143947 854.00 854
+//

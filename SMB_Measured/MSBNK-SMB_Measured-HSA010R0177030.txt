@@ -1,0 +1,78 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0177030
+RECORD_TITLE: Cotinine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 26 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 177.102254; int 159.703; delta(ppm) -0.008407
+COMMENT: PROPOSED_MF SevenGoldenRules 0.091; C10H12N2O; [M+H]+; delta(ppm) 0.090860; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.667; C10H12N2O; [M+H]+; delta(ppm) 0.087794; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 11.734; C10H12N2O; [M+H]+; delta(ppm) 0.087794; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C10H12N2O; [M+H]+; delta(ppm) 0.087794; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 17.748; C10H12N2O; [M+H]+; delta(ppm) 0.087794; Ranking 2;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.993; C10H12N2O; [M+H]+; delta(ppm) 0.087794; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 18.000; UIKROCXWUNQSPJ-VIFPVBQESA-N; C10H12N2O; Massbank:LU051102 Cotinine(5S)-1-methyl-5-pyridin-3-ylpyrrolidin-2-one; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 10.000; UIKROCXWUNQSPJ-UHFFFAOYSA-N; C10H12N2O; cotinine CollisionEnergy:102040; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.743; UIKROCXWUNQSPJ; [M+H]+; Cotinine; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.834; UIKROCXWUNQSPJ-UHFFFAOYNA-N; [M+H]+; Cotinine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; UIKROCXWUNQSPJ-UHFFFAOYNA-N; [M+H]+; Cotinine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.115; UIKROCXWUNQSPJ-VIFPVBQESA-N; [M+H]+; (5S)-1-methyl-5-pyridin-3-ylpyrrolidin-2-one; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -3.219; UIKROCXWUNQSPJ; [M+H]+; Cotinina; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.994; UIKROCXWUNQSPJ; [M+H]+; Cotinina; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -16.082; UIKROCXWUNQSPJ; [M+H]+; Cotinine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.973; UIKROCXWUNQSPJ; [M+H]+; Cotinine; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 28 spectra); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0001046)
+CH$NAME: Cotinine
+CH$NAME: 1-methyl-5-pyridin-3-ylpyrrolidin-2-one
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C10H12N2O
+CH$EXACT_MASS: 176.094963
+CH$SMILES: CN1C(CCC1=O)C2=CN=CC=C2
+CH$IUPAC: InChI=1S/C10H12N2O/c1-12-9(4-5-10(12)13)8-3-2-6-11-7-8/h2-3,6-7,9H,4-5H2,1H3
+CH$LINK: HMDB HMDB0001046
+CH$LINK: INCHIKEY UIKROCXWUNQSPJ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:408
+CH$LINK: ChemOnt CHEMONTID:0001975; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives; Pyrrolidinylpyridines
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.194
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 177.102255
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-004i-1900000000-299aae6c86f42e02eb85
+PK$ANNOTATION: m/z int mzPAF cor n
+  80.049488 95 f{C5H6N1}/0.16ppm,p-C5H7N1O1 0.9938 26
+  98.060071 48 f{C5H8N1O1}/0.31ppm,p-C5H5N1 0.9891 26
+  118.065268 4 f{C8H8N1}/1.21ppm,p-C2H5N1O1 0.9130 23
+  146.059862 20 f{C9H8N1O1}/-1.22ppm,p-C1H5N1 0.9891 26
+  177.102158 999 f{C10H13N2O1}/-0.46ppm,p 1.0000 26
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  80.049488 95.00 95
+  98.060071 48.00 48
+  118.065268 4.00 4
+  146.059862 20.00 20
+  177.102158 999.00 999
+//

@@ -1,0 +1,79 @@
+ACCESSION: MSBNK-SMB_Measured-HSA022R0204000
+RECORD_TITLE: Acetylcarnitine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 1452 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 204.122977; int 917.944; delta(ppm) 0.024290
+COMMENT: PROPOSED_MF SevenGoldenRules 0.305; C9H17NO4; [M+H]+; delta(ppm) -0.305245; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.896; C9H17NO4; [M+H]+; delta(ppm) -0.306039; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 18.294; C9H17NO4; [M+H]+; delta(ppm) -0.306039; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C9H17NO4; [M+H]+; delta(ppm) -0.306039; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 27.797; C9H17NO4; [M+H]+; delta(ppm) -0.306039; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H17NO4; [M+H]+; delta(ppm) -0.306039; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 22.000; RDHQFKQIGNGIED-MRVPVSSYSA-N; C9H17NO4; Acetylcarnitine - 40.0 eV; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 10.000; RDHQFKQIGNGIED-UHFFFAOYSA-N; C9H17NO4; Spectral Match to Acetyl-DL-carnitine from NIST14; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; RDHQFKQIGNGIED-QMMMGPOBSA-N; C9H17NO4; Massbank:RP025202 Acetyl-L-Carnitineacetyl-d-carnitine(3S)-3-acetyloxy-4-(trimethylazaniumyl)butanoate; Ranking 3;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.098; RDHQFKQIGNGIED; [M+H]+; L-Acetylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.587; RDHQFKQIGNGIED-UHFFFAOYNA-N; [M+H]+; L-Acetylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; RDHQFKQIGNGIED-UHFFFAOYNA-N; [M+H]+; L-Acetylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -5.944; RDHQFKQIGNGIED; [M+H]+; Branigen; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.989; RDHQFKQIGNGIED; [M+H]+; Branigen; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -8.902; RDHQFKQIGNGIED; [M+H]+; Acetylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.990; RDHQFKQIGNGIED; [M+H]+; Acetylcarnitine; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 34 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000201)
+CH$NAME: Acetylcarnitine
+CH$NAME: 3-acetyloxy-4-(trimethylazaniumyl)butanoate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C9H17NO4
+CH$EXACT_MASS: 203.115758
+CH$SMILES: CC(=O)OC(CC(=O)[O-])C[N+](C)(C)C
+CH$IUPAC: InChI=1S/C9H17NO4/c1-7(11)14-8(5-9(12)13)6-10(2,3)4/h8H,5-6H2,1-4H3
+CH$LINK: HMDB HMDB0000201
+CH$LINK: INCHIKEY RDHQFKQIGNGIED-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:1
+CH$LINK: ChemOnt CHEMONTID:0000324; Organic compounds; Lipids and lipid-like molecules; Fatty Acyls; Fatty acid esters
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.075
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 204.122972
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-9000000000-769e0c5306625aa03cef
+PK$ANNOTATION: m/z int mzPAF cor n
+  84.080812 8 f{C5H10N1}/0.44ppm,p-C4H8O4 0.9586 1193
+  85.028441 999 f{C4H5O2}/0.42ppm,p-C5H13N1O2 0.9917 1452
+  129.078410 3 f{C6H11N1O2}/-0.15ppm,p-C3H7O2 0.9281 1122
+  144.101934 24 f{C7H14N1O2}/0.20ppm,p-C2H4O2 0.9884 1309
+  145.049566 53 f{C6H9O4}/0.21ppm,p-C3H9N1 0.9960 1396
+  204.123056 104 f{C9H18N1O4}/0.10ppm,p 1.0000 1436
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  84.080812 8.00 8
+  85.028441 999.00 999
+  129.078410 3.00 3
+  144.101934 24.00 24
+  145.049566 53.00 53
+  204.123056 104.00 104
+//

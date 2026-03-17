@@ -1,0 +1,100 @@
+ACCESSION: MSBNK-SMB_Measured-HSA020R0294001
+RECORD_TITLE: N-(1-Deoxy-1-fructosyl)isoleucine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 303 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 294.154637; int 16.006; delta(ppm) 0.010110
+COMMENT: PROPOSED_MF SevenGoldenRules 0.321; C12H23NO7; [M+H]+; delta(ppm) -0.320658; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.366; C12H23NO7; [M+H]+; delta(ppm) -0.321351; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 69.413; C12H23NO7; [M+H]+; delta(ppm) -0.321351; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C12H23NO7; [M+H]+; delta(ppm) -0.321351; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 109.919; C12H23NO7; [M+H]+; delta(ppm) -0.321351; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C12H23NO7; [M+H]+; delta(ppm) -0.321351; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.810; VYGRYVGDPYFVCA; [M+H]+; N-(1-Deoxy-1-fructosyl)isoleucine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.931; VYGRYVGDPYFVCA-PZIRIOGLNA-N; [M+H]+; N-(1-Deoxy-1-fructosyl)isoleucine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; VYGRYVGDPYFVCA-PZIRIOGLNA-N; [M+H]+; N-(1-Deoxy-1-fructosyl)isoleucine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -33.073; VYGRYVGDPYFVCA; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.517; VYGRYVGDPYFVCA; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -42.832; VYGRYVGDPYFVCA; [M+H]+; 3-methyl-2-({[2,3,4-trihydroxy-5-(hydroxymethyl)oxolan-2-yl]methyl}amino)pentanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.737; VYGRYVGDPYFVCA; [M+H]+; 3-methyl-2-({[2,3,4-trihydroxy-5-(hydroxymethyl)oxolan-2-yl]methyl}amino)pentanoic acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0039780)
+CH$NAME: N-(1-Deoxy-1-fructosyl)isoleucine
+CH$NAME: 3-methyl-2-[[2,3,4-trihydroxy-5-(hydroxymethyl)oxolan-2-yl]methylamino]pentanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C12H23NO7
+CH$EXACT_MASS: 293.147452
+CH$SMILES: CCC(C)C(C(=O)O)NCC1(C(C(C(O1)CO)O)O)O
+CH$IUPAC: InChI=1S/C12H23NO7/c1-3-6(2)8(11(17)18)13-5-12(19)10(16)9(15)7(4-14)20-12/h6-10,13-16,19H,3-5H2,1-2H3,(H,17,18)
+CH$LINK: HMDB HMDB0039780
+CH$LINK: INCHIKEY VYGRYVGDPYFVCA-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:139292115
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 2.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Xbridge BEH HILIC (75 x 2.1mm,2.5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min-85% B, 2 min-10% B, 14 min- 10% B, 14.1 min- 85% B, 16 min- 85%B.
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.282
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 294.154634
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0569-4390000000-c4da4c1b517f4bd660fc
+PK$ANNOTATION: m/z int mzPAF cor n
+  85.028507 158 f{C4H5O2}/1.19ppm,p-C8H19N1O5 0.8125 264
+  86.096656 798 f{C5H12N1}/2.67ppm,p-C7H12O7 0.9207 303
+  87.031600 146 f{C3H5N1O2}/1.38ppm,p-C9H19O5 0.8652 267
+  88.039454 235 f{C3H6N1O2}/1.70ppm,p-C9H18O5 0.8745 296
+  97.028572 226 f{C5H5O2}/1.71ppm,p-C7H19N1O5 0.9227 298
+  98.096536 165 f{C6H12N1}/1.13ppm,p-C6H12O7 0.8594 271
+  112.039533 146 f{C5H6N1O2}/2.03ppm,p-C7H18O5 0.8786 260
+  127.039172 144 f{C6H7O3}/1.59ppm,p-C6H17N1O4 0.8647 249
+  128.107207 332 f{C7H14N1O1}/1.69ppm,p-C5H10O6 0.7126 295
+  132.102200 439 f{C6H14N1O2}/2.23ppm,p-C6H10O5 0.8899 303
+  143.057873 131 f{C6H9N1O3}/1.25ppm,p-C6H15O4 0.8647 249
+  144.102108 113 f{C7H14N1O2}/1.41ppm,p-C5H10O5 0.8908 216
+  161.068563 115 f{C6H11N1O4}/1.88ppm,p-C6H13O3 0.8729 226
+  212.128580 303 f{C11H18N1O3}/2.17ppm,p-C1H6O4 0.9352 303
+  230.139155 999 f{C11H20N1O4}/2.04ppm,p-C1H4O3 1.0000 303
+  248.149663 149 f{C11H22N1O5}/1.67ppm,p-C1H2O2 0.8869 267
+  258.134110 849 f{C12H20N1O5}/1.98ppm,p-H4O2 0.9655 303
+  276.144647 908 f{C12H22N1O6}/1.75ppm,p-H2O1 0.9677 303
+PK$NUM_PEAK: 18
+PK$PEAK: m/z int. rel.int.
+  85.028507 158.00 158
+  86.096656 798.00 798
+  87.031600 146.00 146
+  88.039454 235.00 235
+  97.028572 226.00 226
+  98.096536 165.00 165
+  112.039533 146.00 146
+  127.039172 144.00 144
+  128.107207 332.00 332
+  132.102200 439.00 439
+  143.057873 131.00 131
+  144.102108 113.00 113
+  161.068563 115.00 115
+  212.128580 303.00 303
+  230.139155 999.00 999
+  248.149663 149.00 149
+  258.134110 849.00 849
+  276.144647 908.00 908
+//

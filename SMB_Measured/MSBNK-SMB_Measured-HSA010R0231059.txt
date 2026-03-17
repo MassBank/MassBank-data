@@ -1,0 +1,77 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0231059
+RECORD_TITLE: Valyl-Leucine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 10 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 231.170307; int 22.840; delta(ppm) -0.060640
+COMMENT: PROPOSED_MF SevenGoldenRules 0.009; C11H22N2O3; [M+H]+; delta(ppm) 0.008689; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.946; C11H22N2O3; [M+H]+; delta(ppm) 0.008589; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 22.129; C11H22N2O3; [M+H]+; delta(ppm) 0.008589; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C11H22N2O3; [M+H]+; delta(ppm) 0.008589; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 30.451; C11H22N2O3; [M+H]+; delta(ppm) 0.008589; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C11H22N2O3; [M+H]+; delta(ppm) 0.008589; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; XCTHZFGSVQBHBW-IUCAKERBSA-N; C11H22N2O3; Spectral Match to Val-Leu from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.110; XCTHZFGSVQBHBW; [M+H]+; Valyl-Leucine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.498; XCTHZFGSVQBHBW-UHFFFAOYNA-N; [M+H]+; Valyl-Leucine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.747; XCTHZFGSVQBHBW-UHFFFAOYNA-N; [M+H]+; Valyl-Leucine; Ranking 4;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.152; XCTHZFGSVQBHBW-IUCAKERBSA-N; [M+H]+; (2S)-2-[[(2S)-2-amino-3-methylbutanoyl]amino]-4-methylpentanoic acid; Ranking 4;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -11.478; XCTHZFGSVQBHBW; [M+H]+; Valylleucine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.462; XCTHZFGSVQBHBW; [M+H]+; Valylleucine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -79.779; XCTHZFGSVQBHBW; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.923; XCTHZFGSVQBHBW; [M+H]+; nan; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 2 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 4), MetFrag:PubchemLite (Ranking 4); Biological context by HMDB (HMDB0029131)
+CH$NAME: Valyl-Leucine
+CH$NAME: 2-[(2-amino-3-methyl-butanoyl)amino]-4-methyl-valeric acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C11H22N2O3
+CH$EXACT_MASS: 230.163043
+CH$SMILES: CC(C)CC(C(=O)O)NC(=O)C(C(C)C)N
+CH$IUPAC: InChI=1S/C11H22N2O3/c1-6(2)5-8(11(15)16)13-10(14)9(12)7(3)4/h6-9H,5,12H2,1-4H3,(H,13,14)(H,15,16)
+CH$LINK: HMDB HMDB0029131
+CH$LINK: INCHIKEY XCTHZFGSVQBHBW-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:352039
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.050
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 231.170321
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-9300000000-3656a39fdf4b430173e3
+PK$ANNOTATION: m/z int mzPAF cor n
+  55.054275 44 f{C4H7}/0.88ppm,p-C7H16N2O3 0.7833 9
+  72.080805 999 f{C4H10N1}/0.41ppm,p-C7H13N1O3 0.8061 10
+  132.102183 91 f{C6H14N1O2}/2.11ppm,p-C5H9N1O1 1.0000 10
+  146.994500 312 f{C7H1N1O3}/-4.04ppm,p-C4H22N1 0.7667 9
+  185.164993 51 f{C10H21N2O1}/0.83ppm,p-C1H2O2 0.7939 10
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  55.054275 44.00 44
+  72.080805 999.00 999
+  132.102183 91.00 91
+  146.994500 312.00 312
+  185.164993 51.00 51
+//

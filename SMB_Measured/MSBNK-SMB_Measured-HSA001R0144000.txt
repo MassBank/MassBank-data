@@ -1,0 +1,81 @@
+ACCESSION: MSBNK-SMB_Measured-HSA001R0144000
+RECORD_TITLE: Proline betaine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 91 product ion spectra among 22 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MB-POST
+COMMENT: DATASET_ID MPST000004
+COMMENT: DATASET_TITLE Annotation of various metabolites in SRM 1950 human serum
+COMMENT: DATASET_AUTHORS Masatomo Takahashi, Yoshihiro Izumi, Kyoshu University
+COMMENT: PRECURSOR_IN_MS1 mz 144.101932; int 138.327; delta(ppm) -0.020653
+COMMENT: PROPOSED_MF SevenGoldenRules 0.210; C7H13NO2; [M+H]+; delta(ppm) 0.209651; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.700; C7H13NO2; [M+H]+; delta(ppm) 0.207506; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 17.142; C7H13NO2; [M+H]+; delta(ppm) 0.207506; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C7H13NO2; [M+H]+; delta(ppm) 0.207506; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 30.928; C7H13NO2; [M+H]+; delta(ppm) 0.207506; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C7H13NO2; [M+H]+; delta(ppm) 0.207506; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 11.000; CMUNUTVVOOHQPW-UHFFFAOYSA-N; C7H13NO2; prolinebetaine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.273; CMUNUTVVOOHQPW; [M+H]+; Proline betaine; Ranking 8;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.069; CMUNUTVVOOHQPW-LURJTMIESA-N; [M+H]+; Proline betaine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -24.696; CMUNUTVVOOHQPW; [M+H]+; stachydrine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.626; CMUNUTVVOOHQPW; [M+H]+; stachydrine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -125.167; CMUNUTVVOOHQPW; [M+H]+; 1,1-Dimethylpyrrolidinium-2-carboxylate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.738; CMUNUTVVOOHQPW; [M+H]+; 1,1-Dimethylpyrrolidinium-2-carboxylate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 11 spectra); Supported by CFM-ID:MsfinderDB (Ranking 8), MS-FINDER:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0004827)
+CH$NAME: Proline betaine
+CH$NAME: 1,1-Dimethylpyrrolidinium-2-carboxylate
+CH$NAME: 1,1-dimethylpyrrolidin-1-ium-2-carboxylate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C7H13NO2
+CH$EXACT_MASS: 143.094629
+CH$SMILES: C[N+]1(CCCC1C(=O)[O-])C
+CH$IUPAC: InChI=1S/C7H13NO2/c1-8(2)5-3-4-6(8)7(9)10/h6H,3-5H2,1-2H3
+CH$LINK: HMDB HMDB0004827
+CH$LINK: INCHIKEY CMUNUTVVOOHQPW-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:554
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Nexera X2 UHPLC system, Shimadzu - Q Exactive Orbitrap, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 V
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME GL-HilicAex 2.1 x 150 mm, 5 mm (Resonac)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 15.5 min: 40, 16.5 min: 0, 26.5 min: 0, 27.5 min: 95, 35 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.458
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 144.101935
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0006-0900000000-43d974b37eef74efafe5
+PK$ANNOTATION: m/z int mzPAF cor n
+  58.065054 8 f{C3H8N1}/-1.24ppm,p-C4H6O2 0.9912 91
+  70.065010 1 f{C4H8N1}/-1.64ppm,p-C3H6O2 0.5048 83
+  72.080704 1 f{C4H10N1}/-1.00ppm,p-C3H4O2 0.7435 69
+  84.080639 10 f{C5H10N1}/-1.63ppm,p-C2H4O2 0.9917 91
+  98.096263 1 f{C6H12N1}/-1.66ppm,p-C1H2O2 0.8113 82
+  102.054866 1 f{C4H8N1O2}/-0.87ppm,p-C3H6 0.9290 88
+  144.101888 999 f{C7H14N1O2}/-0.12ppm,p 1.0000 91
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  58.065054 8.00 8
+  70.065010 1.00 1
+  72.080704 1.00 1
+  84.080639 10.00 10
+  98.096263 1.00 1
+  102.054866 1.00 1
+  144.101888 999.00 999
+//

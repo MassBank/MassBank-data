@@ -1,0 +1,86 @@
+ACCESSION: MSBNK-SMB_Measured-HSA022R0342001
+RECORD_TITLE: Histidinyl-Tryptophan; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 414 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 342.155977; int 474.658; delta(ppm) 0.102225
+COMMENT: PROPOSED_MF SevenGoldenRules 0.363; C17H19N5O3; [M+H]+; delta(ppm) -0.363478; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.143; C17H19N5O3; [M+H]+; delta(ppm) -0.362235; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 33.168; C17H19N5O3; [M+H]+; delta(ppm) -0.362235; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C17H19N5O3; [M+H]+; delta(ppm) -0.362235; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 51.648; C17H19N5O3; [M+H]+; delta(ppm) -0.362235; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C17H19N5O3; [M+H]+; delta(ppm) -0.362235; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; FBTYOQIYBULKEH-ZFWWWQNUSA-N; C17H19N5O3; Spectral Match to His-Trp from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.169; FBTYOQIYBULKEH; [M+H]+; Histidinyl-Tryptophan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.330; FBTYOQIYBULKEH-UHFFFAOYNA-N; [M+H]+; Histidinyl-Tryptophan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; FBTYOQIYBULKEH-UHFFFAOYNA-N; [M+H]+; Histidinyl-Tryptophan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.111; FBTYOQIYBULKEH-ZFWWWQNUSA-N; [M+H]+; (2S)-2-[[(2S)-2-amino-3-(1H-imidazol-5-yl)propanoyl]amino]-3-(1H-indol-3-yl)propanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.692; FBTYOQIYBULKEH; [M+H]+; histidyltryptophan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.688; FBTYOQIYBULKEH; [M+H]+; histidyltryptophan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -8.809; FBTYOQIYBULKEH; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.952; FBTYOQIYBULKEH; [M+H]+; nan; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0028896)
+CH$NAME: Histidinyl-Tryptophan
+CH$NAME: 2-[[2-amino-3-(1H-imidazol-5-yl)propanoyl]amino]-3-(1H-indol-3-yl)propionic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C17H19N5O3
+CH$EXACT_MASS: 341.148789
+CH$SMILES: C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)NC(=O)C(CC3=CN=CN3)N
+CH$IUPAC: InChI=1S/C17H19N5O3/c18-13(6-11-8-19-9-21-11)16(23)22-15(17(24)25)5-10-7-20-14-4-2-1-3-12(10)14/h1-4,7-9,13,15,20H,5-6,18H2,(H,19,21)(H,22,23)(H,24,25)
+CH$LINK: HMDB HMDB0028896
+CH$LINK: INCHIKEY FBTYOQIYBULKEH-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:6539217
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.877
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 342.155942
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-0901000000-42303ebf9677e1227a09
+PK$ANNOTATION: m/z int mzPAF cor n
+  83.060364 59 f{C4H7N2}/-0.13ppm,p-C13H13N3O3 0.9838 377
+  93.044722 43 f{C5H5N2}/-0.03ppm,p-C12H15N3O3 0.9765 349
+  110.071308 999 f{C5H8N3}/0.32ppm,p-C12H12N2O3 0.9910 414
+  138.066149 35 f{C6H8N3O1}/-0.29ppm,p-C11H12N2O2 0.9799 339
+  156.076735 61 f{C6H10N3O2}/-0.11ppm,p-C11H10N2O1 0.9840 375
+  159.091634 30 f{C10H11N2}/-0.25ppm,p-C7H9N3O3 0.9729 313
+  188.070572 35 f{C11H10N1O2}/-0.18ppm,p-C6H10N4O1 0.9767 333
+  296.150510 35 f{C16H18N5O1}/-0.26ppm,p-C1H2O2 0.9818 337
+  324.145397 69 f{C17H18N5O2}/-0.32ppm,p-H2O1 0.9865 386
+  342.155987 80 f{C17H20N5O3}/-0.23ppm,p 1.0000 386
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  83.060364 59.00 59
+  93.044722 43.00 43
+  110.071308 999.00 999
+  138.066149 35.00 35
+  156.076735 61.00 61
+  159.091634 30.00 30
+  188.070572 35.00 35
+  296.150510 35.00 35
+  324.145397 69.00 69
+  342.155987 80.00 80
+//

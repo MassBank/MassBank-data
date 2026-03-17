@@ -1,0 +1,93 @@
+ACCESSION: MSBNK-SMB_Measured-HSA014R0179006
+RECORD_TITLE: Glucose; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 11 product ion spectra among 27 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS6402
+COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
+COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
+COMMENT: PRECURSOR_IN_MS1 mz 179.056036; int 34.099; delta(ppm) -0.086962
+COMMENT: PROPOSED_MF SevenGoldenRules 0.339; C6H12O6; [M-H]1; delta(ppm) -0.338770; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.447; C6H12O6; [M-H]-; delta(ppm) -0.338904; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 68.691; C6H12O6; [M-H]-; delta(ppm) -0.338904; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H12O6; [M-H]-; delta(ppm) -0.338904; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 96.783; C6H12O6; [M-H]-; delta(ppm) -0.338904; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H12O6; [M-H]-; delta(ppm) -0.338904; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.648; WQZGKKKJIJFFOK; [M-H]-; D-Glucose; Ranking 9;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.791; WQZGKKKJIJFFOK-GASJEMHNSA-N; [M-H]-; D-Glucose; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.278; WQZGKKKJIJFFOK-GASJEMHNSA-N; [M-H]-; (3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -7.470; WQZGKKKJIJFFOK; [M-H]-; D-allose; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.403; WQZGKKKJIJFFOK; [M-H]-; D-allose; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -12.280; WQZGKKKJIJFFOK; [M-H]-; D-Glc; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.821; WQZGKKKJIJFFOK; [M-H]-; D-Glc; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 9), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000122)
+CH$NAME: Glucose
+CH$NAME: Glc
+CH$NAME: 6-(hydroxymethyl)oxane-2,3,4,5-tetrol
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H12O6
+CH$EXACT_MASS: 180.063388
+CH$SMILES: C(C1C(C(C(C(O1)O)O)O)O)O
+CH$IUPAC: InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2
+CH$LINK: HMDB HMDB0000122
+CH$LINK: INCHIKEY WQZGKKKJIJFFOK-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:206
+CH$LINK: ChemOnt CHEMONTID:0000011; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Carbohydrates and carbohydrate conjugates
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Vanquish Flex UHPLC system, Thermo Fisher Scientific - Orbitrap Q Exactive Plus mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.50; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.791
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 179.056051
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-05g0-9200000000-cb3fe669ba455f18f0f5
+PK$ANNOTATION: m/z int mzPAF cor n
+  57.034460 71 f{C3H5O1}/-2.25ppm,p-C3H6O5 0.7545 11
+  58.005944 45 f{C2H2O2}/-1.45ppm,p-C4H9O4 0.9182 11
+  59.013842 877 f{C2H3O2}/-0.18ppm,p-C4H8O4 0.9727 11
+  71.013912 999 f{C3H3O2}/0.83ppm,p-C3H8O4 0.9364 11
+  72.993120 49 f{C2H1O3}/0.03ppm,p-C4H10O3 0.8364 11
+  73.029590 214 f{C3H5O2}/1.19ppm,p-C3H6O4 0.9818 11
+  83.013959 59 f{C4H3O2}/1.28ppm,p-C2H8O4 0.8545 11
+  85.029601 161 f{C4H5O2}/1.16ppm,p-C2H6O4 0.9273 11
+  89.024506 500 f{C3H5O3}/0.99ppm,p-C3H6O3 0.9909 11
+  97.029657 46 f{C5H5O2}/1.58ppm,p-C1H6O4 0.7939 10
+  101.024482 486 f{C4H5O3}/0.64ppm,p-C2H6O3 0.9909 11
+  113.024346 104 f{C5H5O3}/-0.63ppm,p-C1H6O3 0.8545 11
+  119.034972 64 f{C4H7O4}/-0.09ppm,p-C2H4O2 0.9455 11
+  163.061501 49 f{C6H11O5}/1.86ppm,p-O1 0.7697 10
+PK$NUM_PEAK: 14
+PK$PEAK: m/z int. rel.int.
+  57.034460 71.00 71
+  58.005944 45.00 45
+  59.013842 877.00 877
+  71.013912 999.00 999
+  72.993120 49.00 49
+  73.029590 214.00 214
+  83.013959 59.00 59
+  85.029601 161.00 161
+  89.024506 500.00 500
+  97.029657 46.00 46
+  101.024482 486.00 486
+  113.024346 104.00 104
+  119.034972 64.00 64
+  163.061501 49.00 49
+//

@@ -1,0 +1,81 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0331006
+RECORD_TITLE: MG(16:0/0:0/0:0); LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 12 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 331.283580; int 57.580; delta(ppm) -1.353054
+COMMENT: PROPOSED_MF SevenGoldenRules 0.781; C19H38O4; [M+H]+; delta(ppm) -0.781163; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 4.181; C19H38O4; [M+H]+; delta(ppm) -0.779186; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 44.130; C19H38O4; [M+H]+; delta(ppm) -0.779186; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C19H38O4; [M+H]+; delta(ppm) -0.779186; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 62.689; C19H38O4; [M+H]+; delta(ppm) -0.779186; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C19H38O4; [M+H]+; delta(ppm) -0.779186; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.968; QHZLMUACJMDIAE; [M+H]+; MG(16:0/0:0/0:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.301; QHZLMUACJMDIAE-SFHVURJKSA-N; [M+H]+; MG(16:0/0:0/0:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.936; QHZLMUACJMDIAE-SFHVURJKSA-N; [M+H]+; MG(16:0/0:0/0:0); Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; QHZLMUACJMDIAE-SFHVURJKSA-N; [M+H]+; [(2S)-2,3-dihydroxypropyl] hexadecanoate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -5.199; QHZLMUACJMDIAE; [M+H]+; Monopalmitin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.566; QHZLMUACJMDIAE; [M+H]+; Monopalmitin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -96.732; QHZLMUACJMDIAE; [M+H]+; Glyceryl Palmitate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.870; QHZLMUACJMDIAE; [M+H]+; Glyceryl Palmitate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0011564)
+CH$NAME: MG(16:0/0:0/0:0)
+CH$NAME: 2,3-dihydroxypropyl hexadecanoate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C19H38O4
+CH$EXACT_MASS: 330.277010
+CH$SMILES: CCCCCCCCCCCCCCCC(=O)OCC(CO)O
+CH$IUPAC: InChI=1S/C19H38O4/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-19(22)23-17-18(21)16-20/h18,20-21H,2-17H2,1H3
+CH$LINK: HMDB HMDB0011564
+CH$LINK: INCHIKEY QHZLMUACJMDIAE-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:14900
+CH$LINK: ChemOnt CHEMONTID:0003808; Organic compounds; Lipids and lipid-like molecules; Glycerolipids; Monoradylglycerols
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 17.096
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 331.284028
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-01wb-9013000000-396845eb72e1839a9abd
+PK$ANNOTATION: m/z int mzPAF cor n
+  71.085986 641 f{C5H11}/6.47ppm,p-C14H28O4 0.6890 12
+  81.070511 503 f{C6H9}/7.83ppm,p-C13H30O4 0.7899 11
+  83.086289 411 f{C6H11}/9.17ppm,p-C13H28O4 0.7055 12
+  95.085487 946 f{C7H11}/-0.42ppm,p-C12H28O4 0.9048 10
+  97.101263 226 f{C7H13}/0.89ppm,p-C12H26O4 0.7576 10
+  239.236625 372 f{C16H31O1}/-1.33ppm,p-C3H8O3 0.8795 9
+  257.247250 198 f{C16H33O2}/-1.00ppm,p-C3H6O2 1.0000 10
+  313.273937 999 f{C19H37O3}/0.69ppm,p-H2O1 0.7439 12
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  71.085986 641.00 641
+  81.070511 503.00 503
+  83.086289 411.00 411
+  95.085487 946.00 946
+  97.101263 226.00 226
+  239.236625 372.00 372
+  257.247250 198.00 198
+  313.273937 999.00 999
+//

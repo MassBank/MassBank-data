@@ -1,0 +1,90 @@
+ACCESSION: MSBNK-SMB_Measured-HSA022R0400000
+RECORD_TITLE: Palmitoylcarnitine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 490 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 400.342191; int 535.745; delta(ppm) 0.009887
+COMMENT: PROPOSED_MF SevenGoldenRules 0.130; C23H45NO4; [M+H]+; delta(ppm) 0.130217; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.178; C23H45NO4; [M+H]+; delta(ppm) 0.128983; Ranking 2;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 22.475; C23H45NO4; [M+H]+; delta(ppm) 0.128983; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C23H45NO4; [M+H]+; delta(ppm) 0.128983; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 34.568; C23H45NO4; [M+H]+; delta(ppm) 0.128983; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C23H45NO4; [M+H]+; delta(ppm) 0.128983; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 4.000; XOMRRQXKHMYMOC-UHFFFAOYSA-N; C23H45NO4; PALMITOYLCARNITINE; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; XOMRRQXKHMYMOC-OAQYLSRUSA-N; C23H45NO4; Massbank:RP025003 Palmitoyl-L-CarnitineL-Palmitoylcarnitine(3R)-3-hexadecanoyloxy-4-(trimethylazaniumyl)butanoate; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.077; XOMRRQXKHMYMOC; [M+H]+; L-Palmitoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.771; XOMRRQXKHMYMOC-OAQYLSRUSA-N; [M+H]+; L-Palmitoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; XOMRRQXKHMYMOC-OAQYLSRUSA-N; [M+H]+; L-Palmitoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.599; XOMRRQXKHMYMOC; [M+H]+; Tocris-0609; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.853; XOMRRQXKHMYMOC; [M+H]+; Tocris-0609; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -71.664; XOMRRQXKHMYMOC; [M+H]+; [(2R)-3-carboxy-2-(114C)hexadecanoyloxypropyl]-trimethylazanium; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.679; XOMRRQXKHMYMOC; [M+H]+; [(2R)-3-carboxy-2-(114C)hexadecanoyloxypropyl]-trimethylazanium; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 4 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000222)
+CH$NAME: Palmitoylcarnitine
+CH$NAME: 3-hexadecanoyloxy-4-(trimethylazaniumyl)butanoate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C23H45NO4
+CH$EXACT_MASS: 399.334859
+CH$SMILES: CCCCCCCCCCCCCCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C
+CH$IUPAC: InChI=1S/C23H45NO4/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-23(27)28-21(19-22(25)26)20-24(2,3)4/h21H,5-20H2,1-4H3
+CH$LINK: HMDB HMDB0000222
+CH$LINK: INCHIKEY XOMRRQXKHMYMOC-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:461
+CH$LINK: ChemOnt CHEMONTID:0000324; Organic compounds; Lipids and lipid-like molecules; Fatty Acyls; Fatty acid esters
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 10.133
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 400.342187
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0f79-9000400000-991250713a58a279a7a5
+PK$ANNOTATION: m/z int mzPAF cor n
+  81.069877 11 f{C6H9}/0.00ppm,p-C17H37N1O4 0.9729 475
+  83.085554 8 f{C6H11}/0.33ppm,p-C17H35N1O4 0.9778 454
+  85.028461 999 f{C4H5O2}/0.65ppm,p-C19H41N1O2 0.9957 490
+  85.101031 8 f{C6H13}/-1.71ppm,p-C17H33N1O4 0.9757 449
+  95.085580 16 f{C7H11}/0.56ppm,p-C16H35N1O4 0.9838 487
+  97.101153 5 f{C7H13}/-0.25ppm,p-C16H33N1O4 0.9712 392
+  109.101239 9 f{C8H13}/0.57ppm,p-C15H33N1O4 0.9762 458
+  123.116811 4 f{C9H15}/-0.13ppm,p-C14H31N1O4 0.9708 372
+  144.101934 28 f{C7H14N1O2}/0.20ppm,p-C16H32O2 0.9946 482
+  239.236976 16 f{C16H31O1}/0.14ppm,p-C7H15N1O3 0.9940 454
+  341.268659 57 f{C20H37O4}/0.07ppm,p-C3H9N1 0.9982 488
+  400.342161 515 f{C23H46N1O4}/0.06ppm,p 1.0000 490
+PK$NUM_PEAK: 12
+PK$PEAK: m/z int. rel.int.
+  81.069877 11.00 11
+  83.085554 8.00 8
+  85.028461 999.00 999
+  85.101031 8.00 8
+  95.085580 16.00 16
+  97.101153 5.00 5
+  109.101239 9.00 9
+  123.116811 4.00 4
+  144.101934 28.00 28
+  239.236976 16.00 16
+  341.268659 57.00 57
+  400.342161 515.00 515
+//

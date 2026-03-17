@@ -1,0 +1,74 @@
+ACCESSION: MSBNK-MSSJ-MSJ04298
+RECORD_TITLE: 1,2-Di(naphthalen-2-yl)ethane; GC-EI-TOF; MS; POSITIVE; 70 V
+DATE: 2025.09.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imaia, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: Y.-M. So,. C.T. To, M.M. Guru, T. Shima, and Z. Hou, Hydrodeoxygenative Coupling and Transformation of Aldehydes at a N2‑Derived Tetranuclear Titanium Imide/Hydride Framework, J. Am. Chem. Soc. 2023, 145, 16906−16912. DOI: 10.1021/jacs.3c05525.
+COMMENT: The compound analyzed, CH$NAME, is identical to the product of "3a" in Table 1 of PUBLICATION.
+COMMENT: Original ID of the mass spectral data is A_20221017_shima4MB/BiBz-Naph.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Resolving power (FWHM, nominal) was 7000.
+COMMENT: Typical accuracy level of the m/z value expected was 5 ppm. Postrun m/z was adjusted with the known mass 282.1409.
+COMMENT: EI voltage was 70 V. Temperature of the ion-source and GC-transfer line were 200 C and 250 C, respectively.
+CH$NAME: 1,2-Di(naphthalen-2-yl)ethane
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C22H18
+CH$EXACT_MASS: 282.140850
+CH$SMILES: c1cccc2ccc(CCc3cc4ccccc4cc3)cc12
+CH$IUPAC: InChI=1S/C22H18/c1-3-7-21-15-17(11-13-19(21)5-1)9-10-18-12-14-20-6-2-4-8-22(20)16-18/h1-8,11-16H,9-10H2
+CH$LINK: INCHIKEY JBRUZJYYBDYZSX-UHFFFAOYSA-N
+CH$LINK: ChemOnt CHEMONTID:0000253; Organic compounds; Phenylpropanoids and polyketides; Stilbenes
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.0/min
+AC$CHROMATOGRAPHY: COLUMN_NAME DB-5MS UI 122-5532UI US0462866H (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.25 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temperature for 1.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 13.28 min
+PK$SPLASH: splash10-0006-0910000000-5021d3b63eeac5fcaa69
+PK$NUM_PEAK: 40
+PK$PEAK: m/z int. rel.int.
+  28.006 1.0379 10
+  63.024 0.9285 9
+  73.047 2.7152 27
+  75.024 0.4525 5
+  77.039 0.5313 5
+  89.039 1.0059 10
+  91.055 0.9141 9
+  102.047 0.5193 5
+  113.039 0.5056 5
+  114.047 0.4744 5
+  115.055 21.3146 213
+  116.058 2.0006 20
+  126.047 0.8690 9
+  127.055 0.7311 7
+  128.063 0.8060 8
+  139.055 5.3261 53
+  140.061 1.4882 15
+  141.070 100 999
+  141.300 0.2667 3
+  141.589 0.2982 3
+  141.658 0.3066 3
+  142.074 11.7570 117
+  143.076 0.6513 7
+  147.066 0.8163 8
+  151.054 0.4798 5
+  152.063 1.3964 14
+  153.070 1.0451 10
+  154.078 0.7201 7
+  193.050 0.5164 5
+  207.033 1.0426 10
+  207.102 0.7369 7
+  221.085 0.3732 4
+  265.101 0.7367 7
+  276.094 0.5683 6
+  278.109 0.3964 4
+  279.116 0.3859 4
+  281.052 0.5868 6
+  282.141 17.6663 176
+  283.144 4.1237 41
+  284.148 0.4940 5
+//

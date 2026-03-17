@@ -1,0 +1,80 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0221072
+RECORD_TITLE: 5-Hydroxy-tryptophan; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 24 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 221.092070; int 3.970; delta(ppm) 0.031180
+COMMENT: PROPOSED_MF SevenGoldenRules 0.023; C11H12N2O3; [M+H]+; delta(ppm) -0.022719; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.551; C11H12N2O3; [M+H]+; delta(ppm) -0.025761; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 39.637; C11H12N2O3; [M+H]+; delta(ppm) -0.025761; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C11H12N2O3; [M+H]+; delta(ppm) -0.025761; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 53.803; C11H12N2O3; [M+H]+; delta(ppm) -0.025761; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C11H12N2O3; [M+H]+; delta(ppm) -0.025761; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.756; LDCYZAJDBXYCGN; [M+H]+; 5-Hydroxy-L-tryptophan; Ranking 7;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.534; LDCYZAJDBXYCGN-UHFFFAOYNA-N; [M+H]+; 5-Hydroxy-L-tryptophan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.998; LDCYZAJDBXYCGN-UHFFFAOYNA-N; [M+H]+; 5-Hydroxy-L-tryptophan; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.998; LDCYZAJDBXYCGN-VIFPVBQESA-N; [M+H]+; (2S)-2-amino-3-(5-hydroxy-1H-indol-3-yl)propanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -25.965; LDCYZAJDBXYCGN; [M+H]+; Levothym; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.688; LDCYZAJDBXYCGN; [M+H]+; Levothym; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -65.872; LDCYZAJDBXYCGN; [M+H]+; Tript-Oh; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.972; LDCYZAJDBXYCGN; [M+H]+; Tript-Oh; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 7), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000472)
+CH$NAME: 5-Hydroxy-tryptophan
+CH$NAME: Tript-Oh
+CH$NAME: 2-amino-3-(5-hydroxy-1H-indol-3-yl)propanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C11H12N2O3
+CH$EXACT_MASS: 220.084792
+CH$SMILES: C1=CC2=C(C=C1O)C(=CN2)CC(C(=O)O)N
+CH$IUPAC: InChI=1S/C11H12N2O3/c12-9(11(15)16)3-6-5-13-10-2-1-7(14)4-8(6)10/h1-2,4-5,9,13-14H,3,12H2,(H,15,16)
+CH$LINK: HMDB HMDB0000472
+CH$LINK: INCHIKEY LDCYZAJDBXYCGN-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:144
+CH$LINK: ChemOnt CHEMONTID:0000183; Organic compounds; Organoheterocyclic compounds; Indoles and derivatives; Tryptamines and derivatives
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.748
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 221.092063
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-056r-0900000000-67153f213e920b09ea34
+PK$ANNOTATION: m/z int mzPAF cor n
+  121.064981 44 f{C8H9O1}/1.57ppm,p-C3H4N2O2 0.5144 22
+  130.065488 217 f{C9H8N1}/2.79ppm,p-C2H5N1O3 0.9130 24
+  132.044643 111 f{C8H6N1O1}/1.91ppm,p-C3H7N1O2 1.0000 24
+  157.076329 135 f{C10H9N2}/1.94ppm,p-C1H4O3 0.7252 24
+  158.060167 416 f{C10H8N1O1}/0.80ppm,p-C1H5N1O2 0.9591 24
+  175.086771 999 f{C10H11N2O1}/1.04ppm,p-C1H2O2 0.9548 24
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  121.064981 44.00 44
+  130.065488 217.00 217
+  132.044643 111.00 111
+  157.076329 135.00 135
+  158.060167 416.00 416
+  175.086771 999.00 999
+//

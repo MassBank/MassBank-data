@@ -1,0 +1,88 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0172022
+RECORD_TITLE: Gabapentin; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 36 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 172.133142; int 159.675; delta(ppm) 0.000057
+COMMENT: PROPOSED_MF SevenGoldenRules 0.368; C9H17NO2; [M+H]+; delta(ppm) -0.368150; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.141; C9H17NO2; [M+H]+; delta(ppm) -0.367306; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 77.158; C9H17NO2; [M+H]+; delta(ppm) -0.367306; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C9H17NO2; [M+H]+; delta(ppm) -0.367306; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 97.335; C9H17NO2; [M+H]+; delta(ppm) -0.367306; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H17NO2; [M+H]+; delta(ppm) -0.367306; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.362; UGJMXCAKCUNAIE; [M+H]+; Gabapentin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.581; UGJMXCAKCUNAIE-UHFFFAOYSA-N; [M+H]+; Gabapentin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.989; UGJMXCAKCUNAIE-UHFFFAOYSA-N; [M+H]+; Gabapentin; Ranking 5;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.989; UGJMXCAKCUNAIE-UHFFFAOYSA-N; [M+H]+; 2-[1-(aminomethyl)cyclohexyl]acetic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -9.552; UGJMXCAKCUNAIE; [M+H]+; Aclonium; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.618; UGJMXCAKCUNAIE; [M+H]+; Aclonium; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -14.800; UGJMXCAKCUNAIE; [M+H]+; 2-[1-(aminomethyl)cyclohexyl]acetic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.949; UGJMXCAKCUNAIE; [M+H]+; 2-[1-(aminomethyl)cyclohexyl]acetic acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 5), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0005015)
+CH$NAME: Gabapentin
+CH$NAME: 2-[1-(aminomethyl)cyclohexyl]acetic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C9H17NO2
+CH$EXACT_MASS: 171.125929
+CH$SMILES: C1CCC(CC1)(CC(=O)O)CN
+CH$IUPAC: InChI=1S/C9H17NO2/c10-7-9(6-8(11)12)4-2-1-3-5-9/h1-7,10H2,(H,11,12)
+CH$LINK: HMDB HMDB0005015
+CH$LINK: INCHIKEY UGJMXCAKCUNAIE-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:3446
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.723
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 172.133142
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0uk9-0900000000-1cc8b74a9ebba069ba46
+PK$ANNOTATION: m/z int mzPAF cor n
+  55.017943 22 f{C3H3O1}/1.85ppm,p-C6H15N1O1 0.9270 34
+  67.054327 11 f{C5H7}/1.50ppm,p-C4H11N1O2 0.8772 36
+  91.054223 12 f{C7H7}/-0.04ppm,p-C2H11N1O2 0.9099 36
+  93.069914 15 f{C7H9}/0.40ppm,p-C2H9N1O2 0.9601 36
+  95.085484 52 f{C7H11}/-0.45ppm,p-C2H7N1O2 0.9797 36
+  109.101254 34 f{C8H13}/0.70ppm,p-C1H5N1O2 0.9503 36
+  119.085547 67 f{C9H11}/0.17ppm,p-H7N1O2 0.9758 36
+  136.112169 12 f{C9H14N1}/0.68ppm,p-H4O2 0.8748 35
+  137.096084 354 f{C9H13O1}/-0.05ppm,p-H5N1O1 0.9912 36
+  154.122637 999 f{C9H16N1O1}/-0.02ppm,p-H2O1 0.9964 36
+  172.133016 670 f{C9H18N1O2}/-1.10ppm,p 1.0000 36
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  55.017943 22.00 22
+  67.054327 11.00 11
+  91.054223 12.00 12
+  93.069914 15.00 15
+  95.085484 52.00 52
+  109.101254 34.00 34
+  119.085547 67.00 67
+  136.112169 12.00 12
+  137.096084 354.00 354
+  154.122637 999.00 999
+  172.133016 670.00 670
+//

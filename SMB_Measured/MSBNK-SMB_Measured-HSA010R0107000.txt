@@ -1,0 +1,75 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0107000
+RECORD_TITLE: Benzaldehyde; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 168 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 107.049117; int 6.262; delta(ppm) 0.149260
+COMMENT: PROPOSED_MF SevenGoldenRules 0.377; C7H6O; [M+H]+; delta(ppm) -0.377210; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.725; C7H6O; [M+H]+; delta(ppm) -0.375952; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 20.792; C7H6O; [M+H]+; delta(ppm) -0.375952; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C7H6O; [M+H]+; delta(ppm) -0.375952; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 26.182; C7H6O; [M+H]+; delta(ppm) -0.375952; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C7H6O; [M+H]+; delta(ppm) -0.375952; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.571; HUMNYLRZRPPJDN; [M+H]+; Benzaldehyde; Ranking 7;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.845; HUMNYLRZRPPJDN-UHFFFAOYSA-N; [M+H]+; Benzaldehyde; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; HUMNYLRZRPPJDN-UHFFFAOYSA-N; [M+H]+; Benzaldehyde; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; HUMNYLRZRPPJDN-UHFFFAOYSA-N; [M+H]+; benzaldehyde; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -23.466; HUMNYLRZRPPJDN; [M+H]+; Benzadehyde; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.734; HUMNYLRZRPPJDN; [M+H]+; Benzadehyde; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -36.084; HUMNYLRZRPPJDN; [M+H]+; benzaldehyde; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.505; HUMNYLRZRPPJDN; [M+H]+; benzaldehyde; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS5_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 7), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0006115)
+CH$NAME: Benzaldehyde
+CH$NAME: Benzadehyde
+CH$NAME: benzaldehyde
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C7H6O
+CH$EXACT_MASS: 106.041865
+CH$SMILES: C1=CC=C(C=C1)C=O
+CH$IUPAC: InChI=1S/C7H6O/c8-6-7-4-2-1-3-5-7/h1-6H
+CH$LINK: HMDB HMDB0006115
+CH$LINK: INCHIKEY HUMNYLRZRPPJDN-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:240
+CH$LINK: ChemOnt CHEMONTID:0000321; Organic compounds; Benzenoids; Benzene and substituted derivatives; Benzoyl derivatives
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 3.288
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 107.049101
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-004i-9100000000-f54423a9a8d36d09aefe
+PK$ANNOTATION: m/z int mzPAF cor n
+  53.038581 33 f{C4H5}/0.09ppm,p-C3H2O1 0.9849 167
+  79.054225 999 f{C6H7}/-0.02ppm,p-C1O1 0.9886 168
+  95.049124 12 f{C6H7O1}/-0.18ppm,p-C1 0.9600 159
+  107.049098 217 f{C7H7O1}/-0.40ppm,p 1.0000 168
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  53.038581 33.00 33
+  79.054225 999.00 999
+  95.049124 12.00 12
+  107.049098 217.00 217
+//

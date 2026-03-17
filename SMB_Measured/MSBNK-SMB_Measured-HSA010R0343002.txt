@@ -1,0 +1,95 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0343002
+RECORD_TITLE: cocoamidopropylbetaine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 108 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 343.295503; int 25.727; delta(ppm) -0.003002
+COMMENT: PROPOSED_MF SevenGoldenRules 0.041; C19H38N2O3; [M+H]+; delta(ppm) -0.040901; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.239; C19H38N2O3; [M+H]+; delta(ppm) -0.042310; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 31.806; C19H38N2O3; [M+H]+; delta(ppm) -0.042310; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C19H38N2O3; [M+H]+; delta(ppm) -0.042310; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 34.559; C19H38N2O3; [M+H]+; delta(ppm) -0.042310; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C19H38N2O3; [M+H]+; delta(ppm) -0.042310; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; MRUAUOIMASANKQ-UHFFFAOYSA-N; C19H38N2O3; Cocamidopropyl betaine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.553; MRUAUOIMASANKQ; [M+H]+; cocoamidopropylbetaine; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.190; MRUAUOIMASANKQ-UHFFFAOYSA-N; [M+H]+; cocoamidopropylbetaine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; MRUAUOIMASANKQ-UHFFFAOYSA-N; [M+H]+; cocoamidopropylbetaine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -9.164; MRUAUOIMASANKQ; [M+H]+; Empigen BR; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.632; MRUAUOIMASANKQ; [M+H]+; Empigen BR; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -126.956; MRUAUOIMASANKQ; [M+H]+; 2-[Dimethyl-[3-(2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,12-tricosadeuteriododecanoylamino)propyl]azaniumyl]acetate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.667; MRUAUOIMASANKQ; [M+H]+; 2-[Dimethyl-[3-(2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,12-tricosadeuteriododecanoylamino)propyl]azaniumyl]acetate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3b; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 2 spectra); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 1)
+CH$NAME: cocoamidopropylbetaine
+CH$NAME: 2-[3-(dodecanoylamino)propyl-dimethylazaniumyl]acetate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C19H38N2O3
+CH$EXACT_MASS: 342.288243
+CH$SMILES: CCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC(=O)[O-]
+CH$IUPAC: InChI=1S/C19H38N2O3/c1-4-5-6-7-8-9-10-11-12-14-18(22)20-15-13-16-21(2,3)17-19(23)24/h4-17H2,1-3H3,(H-,20,22,23,24)
+CH$LINK: INCHIKEY MRUAUOIMASANKQ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:20280
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 13.419
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 343.295505
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0006-0090000000-d913218979b76668bc9e
+PK$ANNOTATION: m/z int mzPAF cor n
+  57.069917 9 f{C4H9}/0.71ppm,p-C15H30N2O3 0.9756 107
+  58.065100 4 f{C3H8N1}/-0.44ppm,p-C16H31N1O3 0.9475 99
+  67.054063 3 f{C5H7}/-2.45ppm,p-C14H32N2O3 0.8435 103
+  69.069621 3 f{C5H9}/-3.70ppm,p-C14H30N2O3 0.4094 87
+  71.085512 8 f{C5H11}/-0.21ppm,p-C14H28N2O3 0.9816 108
+  81.069895 7 f{C6H9}/0.23ppm,p-C13H30N2O3 0.9216 108
+  83.085466 7 f{C6H11}/-0.73ppm,p-C13H28N2O3 0.9709 108
+  85.101056 8 f{C6H13}/-1.41ppm,p-C13H26N2O3 0.9837 108
+  95.085464 19 f{C7H11}/-0.66ppm,p-C12H28N2O3 0.9846 108
+  97.100775 3 f{C7H13}/-4.14ppm,p-C12H26N2O3 0.9222 102
+  109.101314 15 f{C8H13}/1.25ppm,p-C11H26N2O3 0.9855 108
+  123.116544 4 f{C9H15}/-2.30ppm,p-C10H24N2O3 0.9598 105
+  165.164273 2 f{C12H21}/3.00ppm,p-C7H18N2O3 0.9021 83
+  183.174482 26 f{C12H23O1}/0.77ppm,p-C7H16N2O2 0.9936 108
+  240.232130 999 f{C15H30N1O1}/-0.25ppm,p-C4H9N1O2 1.0000 108
+PK$NUM_PEAK: 15
+PK$PEAK: m/z int. rel.int.
+  57.069917 9.00 9
+  58.065100 4.00 4
+  67.054063 3.00 3
+  69.069621 3.00 3
+  71.085512 8.00 8
+  81.069895 7.00 7
+  83.085466 7.00 7
+  85.101056 8.00 8
+  95.085464 19.00 19
+  97.100775 3.00 3
+  109.101314 15.00 15
+  123.116544 4.00 4
+  165.164273 2.00 2
+  183.174482 26.00 26
+  240.232130 999.00 999
+//

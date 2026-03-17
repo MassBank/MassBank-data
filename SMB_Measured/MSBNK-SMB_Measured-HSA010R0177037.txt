@@ -1,0 +1,75 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0177037
+RECORD_TITLE: Serotonin; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 23 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 177.102262; int 112.043; delta(ppm) -0.002761
+COMMENT: PROPOSED_MF SevenGoldenRules 0.131; C10H12N2O; [M+H]+; delta(ppm) 0.130611; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.596; C10H12N2O; [M+H]+; delta(ppm) 0.127319; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 33.670; C10H12N2O; [M+H]+; delta(ppm) 0.127319; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C10H12N2O; [M+H]+; delta(ppm) 0.127319; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 37.422; C10H12N2O; [M+H]+; delta(ppm) 0.127319; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C10H12N2O; [M+H]+; delta(ppm) 0.127319; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 60.000; QZAYGJVTTNCVMB-UHFFFAOYSA-N; C10H12N2O; SEROTONIN; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.759; QZAYGJVTTNCVMB; [M+H]+; Serotonin; Ranking 4;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.503; QZAYGJVTTNCVMB-UHFFFAOYSA-N; [M+H]+; Serotonin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.975; QZAYGJVTTNCVMB-UHFFFAOYSA-N; [M+H]+; Serotonin; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.691; QZAYGJVTTNCVMB-UHFFFAOYSA-N; [M+H]+; 3-(2-aminoethyl)-1H-indol-5-ol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -29.095; QZAYGJVTTNCVMB; [M+H]+; Antemoqua; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.611; QZAYGJVTTNCVMB; [M+H]+; Antemoqua; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -19.973; QZAYGJVTTNCVMB; [M+H]+; Serotonin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.974; QZAYGJVTTNCVMB; [M+H]+; Serotonin; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 60 spectra); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000259)
+CH$NAME: Serotonin
+CH$NAME: 3-(2-aminoethyl)-1H-indol-5-ol
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C10H12N2O
+CH$EXACT_MASS: 176.094963
+CH$SMILES: C1=CC2=C(C=C1O)C(=CN2)CCN
+CH$IUPAC: InChI=1S/C10H12N2O/c11-4-3-7-6-12-10-2-1-8(13)5-9(7)10/h1-2,5-6,12-13H,3-4,11H2
+CH$LINK: HMDB HMDB0000259
+CH$LINK: INCHIKEY QZAYGJVTTNCVMB-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:5202
+CH$LINK: ChemOnt CHEMONTID:0000183; Organic compounds; Organoheterocyclic compounds; Indoles and derivatives; Tryptamines and derivatives
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.817
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 177.102262
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-0900000000-01aca2d816975c369d6f
+PK$ANNOTATION: m/z int mzPAF cor n
+  132.080758 51 f{C9H10N1}/-0.13ppm,p-C1H3N1O1 0.7753 23
+  142.065164 12 f{C10H8N1}/0.27ppm,p-H5N1O1 0.8204 19
+  160.075685 999 f{C10H10N1O1}/-0.03ppm,p-H3N1 0.6065 23
+  177.102253 144 f{C10H13N2O1}/0.08ppm,p 1.0000 21
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  132.080758 51.00 51
+  142.065164 12.00 12
+  160.075685 999.00 999
+  177.102253 144.00 144
+//

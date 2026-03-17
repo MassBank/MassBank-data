@@ -1,0 +1,74 @@
+ACCESSION: MSBNK-SMB_Measured-HSA021R0558001
+RECORD_TITLE: LysoPC(18:0); LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 267 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 558.333327; int 70.136; delta(ppm) 0.001848
+COMMENT: PROPOSED_MF SevenGoldenRules 0.260; C26H54NO7P; [M+Cl]1; delta(ppm) 0.259857; Ranking 6;
+COMMENT: PROPOSED_MF MS-FINDER 3.507; C26H54NO7P; [M+Cl]-; delta(ppm) -41213.284953; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 12.927; C26H54NO7P; [M+Cl]-; delta(ppm) -41213.284953; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C26H54NO7P; [M+Cl]-; delta(ppm) -41213.284953; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 13.237; C26H54NO7P; [M+Cl]-; delta(ppm) -41213.284953; Ranking 3;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C26H54NO7P; [M+Cl]-; delta(ppm) -41213.284953; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.558; IHNKQIMGVNPMTC-RUZDIDTESA-N; [M+Cl]-; LysoPC(18:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; IHNKQIMGVNPMTC-RUZDIDTESA-N; [M+Cl]-; LysoPC(18:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.275; IHNKQIMGVNPMTC; [M+Cl]-; 1-18:0-lysoPC; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.586; IHNKQIMGVNPMTC; [M+Cl]-; 1-18:0-lysoPC; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -7.392; IHNKQIMGVNPMTC; [M+Cl]-; 2-Lysophosphatidylcholine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.546; IHNKQIMGVNPMTC; [M+Cl]-; 2-Lysophosphatidylcholine; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS5_CSI (FDR < 0.05); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0010384)
+CH$NAME: LysoPC(18:0)
+CH$NAME: (2-hydroxy-3-stearoyloxy-propyl) 2-(trimethylammonio)ethyl phosphate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C26H54NO7P
+CH$EXACT_MASS: 523.363790
+CH$SMILES: CCCCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)O
+CH$IUPAC: InChI=1S/C26H54NO7P/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-26(29)32-23-25(28)24-34-35(30,31)33-22-21-27(2,3)4/h25,28H,5-24H2,1-4H3
+CH$LINK: HMDB HMDB0010384
+CH$LINK: INCHIKEY IHNKQIMGVNPMTC-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:86556
+CH$LINK: ChemOnt CHEMONTID:0002213; Organic compounds; Lipids and lipid-like molecules; Glycerophospholipids; Glycerophosphocholines
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 2.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 11.757
+MS$FOCUSED_ION: PRECURSOR_M/Z 558.333326
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-0090030000-0363e84dbe4c9840751b
+PK$ANNOTATION: m/z int mzPAF cor n
+  78.958925 5 f{O3P1}/-1.61ppm,p-Cl1C28H54N1O4 0.8910 236
+  168.042925 7 f{C8H8O4}/0.70ppm,p-Cl1C20H46N1O3P1 0.9270 231
+  224.069148 8 f{C11H12O5}/0.56ppm,p-Cl1C17H42N1O2P1 0.9363 244
+  242.079846 19 f{C7H17N1O6P1}/-0.21ppm,p-Cl1C21H37O1 0.9825 265
+  283.264155 999 f{C18H35O2}/-0.35ppm,p-Cl1C10H19N1O5P1 1.0000 267
+  508.340861 455 f{C25H51N1O7P1}/-0.00ppm,p-Cl1C3H3 0.9970 267
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  78.958925 5.00 5
+  168.042925 7.00 7
+  224.069148 8.00 8
+  242.079846 19.00 19
+  283.264155 999.00 999
+  508.340861 455.00 455
+//

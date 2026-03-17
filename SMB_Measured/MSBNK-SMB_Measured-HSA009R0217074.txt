@@ -1,0 +1,84 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0217074
+RECORD_TITLE: Threoninyl-Proline; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 17 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 217.118265; int 16.464; delta(ppm) -0.052069
+COMMENT: PROPOSED_MF SevenGoldenRules 0.028; C9H16N2O4; [M+H]+; delta(ppm) -0.027764; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.033; C9H16N2O4; [M+H]+; delta(ppm) -0.029685; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 27.472; C9H16N2O4; [M+H]+; delta(ppm) -0.029685; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C9H16N2O4; [M+H]+; delta(ppm) -0.029685; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 43.288; C9H16N2O4; [M+H]+; delta(ppm) -0.029685; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H16N2O4; [M+H]+; delta(ppm) -0.029685; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; QOLYAJSZHIJCTO-VQVTYTSYSA-N; C9H16N2O4; Spectral Match to Thr-Pro from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.666; QOLYAJSZHIJCTO; [M+H]+; Threoninyl-Proline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.024; QOLYAJSZHIJCTO-UHFFFAOYNA-N; [M+H]+; Threoninyl-Proline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.994; QOLYAJSZHIJCTO-UHFFFAOYNA-N; [M+H]+; Threoninyl-Proline; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.503; QOLYAJSZHIJCTO-VQVTYTSYSA-N; [M+H]+; (2S)-1-[(2S,3R)-2-amino-3-hydroxybutanoyl]pyrrolidine-2-carboxylic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -3.321; QOLYAJSZHIJCTO; [M+H]+; threonylproline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.994; QOLYAJSZHIJCTO; [M+H]+; threonylproline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -73.420; QOLYAJSZHIJCTO; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.998; QOLYAJSZHIJCTO; [M+H]+; nan; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0029069)
+CH$NAME: Threoninyl-Proline
+CH$NAME: 1-(2-amino-3-hydroxy-butanoyl)proline
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C9H16N2O4
+CH$EXACT_MASS: 216.111007
+CH$SMILES: CC(C(C(=O)N1CCCC1C(=O)O)N)O
+CH$IUPAC: InChI=1S/C9H16N2O4/c1-5(12)7(10)8(13)11-4-2-3-6(11)9(14)15/h5-7,12H,2-4,10H2,1H3,(H,14,15)
+CH$LINK: HMDB HMDB0029069
+CH$LINK: INCHIKEY QOLYAJSZHIJCTO-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:14647614
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.611
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 217.118277
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-014i-3920000000-cb489f87681697bff6fb
+PK$ANNOTATION: m/z int mzPAF cor n
+  56.049464 20 f{C3H6N1}/-0.21ppm,p-C6H11N1O4 0.9670 13
+  70.065235 90 f{C4H8N1}/1.57ppm,p-C5H9N1O4 0.9755 17
+  74.060119 265 f{C3H8N1O1}/1.06ppm,p-C6H9N1O3 0.9951 17
+  84.044293 16 f{C4H6N1O1}/-1.16ppm,p-C5H11N1O3 0.8901 14
+  114.055221 24 f{C5H8N1O2}/2.33ppm,p-C4H9N1O2 0.6824 16
+  116.070694 999 f{C5H10N1O2}/0.77ppm,p-C4H7N1O2 1.0000 17
+  199.108033 79 f{C9H15N2O3}/1.58ppm,p-H2O1 0.9583 17
+  217.117837 334 f{C9H17N2O4}/-2.06ppm,p 1.0000 17
+PK$NUM_PEAK: 8
+PK$PEAK: m/z int. rel.int.
+  56.049464 20.00 20
+  70.065235 90.00 90
+  74.060119 265.00 265
+  84.044293 16.00 16
+  114.055221 24.00 24
+  116.070694 999.00 999
+  199.108033 79.00 79
+  217.117837 334.00 334
+//

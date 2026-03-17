@@ -1,0 +1,108 @@
+ACCESSION: MSBNK-SMB_Measured-HSA032R0176000
+RECORD_TITLE: Citrulline; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Yu et al. Front Cell Infect Microbiol. 2022,11,763507
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 61 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS3233
+COMMENT: DATASET_TITLE The gut microbiome and metabolites are altered and interrelated in patients with rheumatoid arthritis
+COMMENT: DATASET_AUTHORS Die Yu, Juping Du, Xia Pu, Liyuan Zheng, Shuaishuai Chen, Na Wang, Jun Li, Shiyong Chen, Shaobiao Pan, Bo Shen
+COMMENT: PRECURSOR_IN_MS1 mz 176.103235; int 275.295; delta(ppm) 1.453430
+COMMENT: PROPOSED_MF SevenGoldenRules 0.069; C6H13N3O3; [M+H]+; delta(ppm) 0.068534; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.176; C6H13N3O3; [M+H]+; delta(ppm) 0.063969; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 36.072; C6H13N3O3; [M+H]+; delta(ppm) 0.063969; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H13N3O3; [M+H]+; delta(ppm) 0.063969; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 63.409; C6H13N3O3; [M+H]+; delta(ppm) 0.063969; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H13N3O3; [M+H]+; delta(ppm) 0.063969; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 19.000; RHGKLRLOHDJJDR-BYPYZUCNSA-N; C6H13N3O3; CITRULLINE; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 8.000; RHGKLRLOHDJJDR-UHFFFAOYSA-N; C6H13N3O3; Massbank:PB000435 Citrulline2-amino-5-(carbamoylamino)pentanoic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.694; RHGKLRLOHDJJDR; [M+H]+; Citrulline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.787; RHGKLRLOHDJJDR-BYPYZUCNSA-N; [M+H]+; Citrulline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; RHGKLRLOHDJJDR-BYPYZUCNSA-N; [M+H]+; Citrulline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; RHGKLRLOHDJJDR-BYPYZUCNSA-N; [M+H]+; (2S)-2-amino-5-(carbamoylamino)pentanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.077; RHGKLRLOHDJJDR; [M+H]+; citrulina; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.876; RHGKLRLOHDJJDR; [M+H]+; citrulina; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -50.557; RHGKLRLOHDJJDR; [M+H]+; Citrulina; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.812; RHGKLRLOHDJJDR; [M+H]+; Citrulina; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 27 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000904)
+CH$NAME: Citrulline
+CH$NAME: Citrulina
+CH$NAME: 2-amino-5-ureido-valeric acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H13N3O3
+CH$EXACT_MASS: 175.095691
+CH$SMILES: C(CC(C(=O)O)N)CNC(=O)N
+CH$IUPAC: InChI=1S/C6H13N3O3/c7-4(5(10)11)2-1-3-9-6(8)12/h4H,1-3,7H2,(H,10,11)(H3,8,9,12)
+CH$LINK: HMDB HMDB0000904
+CH$LINK: INCHIKEY RHGKLRLOHDJJDR-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:833
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: UPLC system, AB SCIEX - TripleTOF 5600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 5.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 13.00; MS2(ppm) 20.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC T3 column (1.8 µm, 100 mm x 2.1 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-0.5 min, 5% B; 0.5-7.0 min,` 100% B; 7.0-8.0 min, 100% B; 8.0-8.1 min, 5% B; 8.1-10.0 min, 5% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.805
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 176.102979
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-9100000000-ef0816a90a54958edd04
+PK$ANNOTATION: m/z int mzPAF cor n
+  41.038042 5 f{C3H5}/-13.02ppm,p-C3H9N3O3 0.7933 44
+  43.053995 21 f{C3H7}/-5.38ppm,p-C3H7N3O3 0.7959 60
+  44.049342 2 f{C2H6N1}/-3.03ppm,p-C4H8N2O3 0.3824 43
+  68.049262 18 f{C4H6N1}/-3.13ppm,p-C2H8N2O3 0.7928 60
+  69.033444 4 f{C4H5O1}/-0.69ppm,p-C2H9N3O2 0.5636 54
+  70.065130 999 f{C4H8N1}/0.06ppm,p-C2H6N2O3 1.0000 57
+  71.048916 15 f{C4H7O1}/-3.17ppm,p-C2H7N3O2 0.4692 61
+  74.023175 4 f{C2H4N1O2}/-6.48ppm,p-C4H10N2O1 0.4318 54
+  84.044323 4 f{C4H6N1O1}/-0.80ppm,p-C2H8N2O2 0.6721 57
+  86.059794 23 f{C4H8N1O1}/-2.86ppm,p-C2H6N2O2 0.8406 61
+  88.075215 3 f{C4H10N1O1}/-5.39ppm,p-C2H4N2O2 0.4221 43
+  96.044278 8 f{C5H6N1O1}/-1.17ppm,p-C1H8N2O2 0.7951 59
+  97.075743 3 f{C5H9N2}/-2.90ppm,p-C1H5N1O3 0.7203 53
+  98.059938 4 f{C5H8N1O1}/-1.05ppm,p-C1H6N2O2 0.6993 53
+  99.043793 3 f{C5H7O2}/-2.66ppm,p-C1H7N3O1 0.4763 50
+  113.070238 177 f{C5H9N2O1}/-6.21ppm,p-C1H5N1O2 0.9435 61
+  114.054512 29 f{C5H8N1O2}/-3.88ppm,p-C1H6N2O1 0.8761 61
+  115.086696 6 f{C5H11N2O1}/0.93ppm,p-C1H3N1O2 0.7872 59
+  116.070450 14 f{C5H10N1O2}/-1.33ppm,p-C1H4N2O1 0.8595 59
+  159.076612 9 f{C6H11N2O3}/1.22ppm,p-H3N1 0.8196 60
+PK$NUM_PEAK: 20
+PK$PEAK: m/z int. rel.int.
+  41.038042 5.00 5
+  43.053995 21.00 21
+  44.049342 2.00 2
+  68.049262 18.00 18
+  69.033444 4.00 4
+  70.065130 999.00 999
+  71.048916 15.00 15
+  74.023175 4.00 4
+  84.044323 4.00 4
+  86.059794 23.00 23
+  88.075215 3.00 3
+  96.044278 8.00 8
+  97.075743 3.00 3
+  98.059938 4.00 4
+  99.043793 3.00 3
+  113.070238 177.00 177
+  114.054512 29.00 29
+  115.086696 6.00 6
+  116.070450 14.00 14
+  159.076612 9.00 9
+//

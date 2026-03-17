@@ -1,0 +1,80 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0219149
+RECORD_TITLE: gamma-Glutamylalanine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 12 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 219.097511; int 2.572; delta(ppm) 0.139134
+COMMENT: PROPOSED_MF SevenGoldenRules 0.312; C8H14N2O5; [M+H]+; delta(ppm) -0.311798; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.945; C8H14N2O5; [M+H]+; delta(ppm) -0.310379; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 32.234; C8H14N2O5; [M+H]+; delta(ppm) -0.310379; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C8H14N2O5; [M+H]+; delta(ppm) -0.310379; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 44.454; C8H14N2O5; [M+H]+; delta(ppm) -0.310379; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C8H14N2O5; [M+H]+; delta(ppm) -0.310379; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.700; WQXXXVRAFAKQJM; [M+H]+; gamma-Glutamylalanine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.437; WQXXXVRAFAKQJM-LXDRQGDMNA-N; [M+H]+; gamma-Glutamylalanine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.984; WQXXXVRAFAKQJM-LXDRQGDMNA-N; [M+H]+; gamma-Glutamylalanine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.692; WQXXXVRAFAKQJM-WHFBIAKZSA-N; [M+H]+; (2S)-2-amino-5-[[(1S)-1-carboxyethyl]amino]-5-oxopentanoic acid; Ranking 3;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.442; WQXXXVRAFAKQJM; [M+H]+; gamma-Gln-ala; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.904; WQXXXVRAFAKQJM; [M+H]+; gamma-Gln-ala; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -60.147; WQXXXVRAFAKQJM; [M+H]+; Gamma-Glu-Ala(1-); Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.985; WQXXXVRAFAKQJM; [M+H]+; Gamma-Glu-Ala(1-); Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 3); Biological context by HMDB (HMDB0006248)
+CH$NAME: gamma-Glutamylalanine
+CH$NAME: Gamma-Glu-Ala(1-)
+CH$NAME: 2-amino-5-(1-carboxyethylamino)-5-keto-valeric acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C8H14N2O5
+CH$EXACT_MASS: 218.090272
+CH$SMILES: CC(C(=O)O)NC(=O)CCC(C(=O)O)N
+CH$IUPAC: InChI=1S/C8H14N2O5/c1-4(7(12)13)10-6(11)3-2-5(9)8(14)15/h4-5H,2-3,9H2,1H3,(H,10,11)(H,12,13)(H,14,15)
+CH$LINK: HMDB HMDB0006248
+CH$LINK: INCHIKEY WQXXXVRAFAKQJM-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:5154674
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.991
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 219.097480
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001l-9610000000-3bfdf389cee728011fa0
+PK$ANNOTATION: m/z int mzPAF cor n
+  84.044499 573 f{C4H6N1O1}/1.29ppm,p-C4H9N1O4 0.9650 12
+  90.055061 999 f{C3H8N1O2}/1.18ppm,p-C5H7N1O3 0.9580 12
+  128.070915 47 f{C6H10N1O2}/2.42ppm,p-C2H5N1O3 0.7552 12
+  130.050120 504 f{C5H8N1O3}/1.93ppm,p-C3H7N1O2 0.9580 12
+  156.065544 519 f{C7H10N1O3}/0.16ppm,p-C1H5N1O2 0.9161 12
+  219.096482 303 f{C8H15N2O5}/-4.87ppm,p 1.0000 12
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  84.044499 573.00 573
+  90.055061 999.00 999
+  128.070915 47.00 47
+  130.050120 504.00 504
+  156.065544 519.00 519
+  219.096482 303.00 303
+//

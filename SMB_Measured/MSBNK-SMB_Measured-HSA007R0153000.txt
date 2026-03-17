@@ -1,0 +1,77 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0153000
+RECORD_TITLE: Xanthine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 62 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 153.040608; int 857.410; delta(ppm) -1.038624
+COMMENT: PROPOSED_MF SevenGoldenRules 0.434; C5H4N4O2; [M+H]+; delta(ppm) 0.434115; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.323; C5H4N4O2; [M+H]+; delta(ppm) 0.425814; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 21.447; C5H4N4O2; [M+H]+; delta(ppm) 0.425814; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C5H4N4O2; [M+H]+; delta(ppm) 0.425814; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 31.226; C5H4N4O2; [M+H]+; delta(ppm) 0.425814; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C5H4N4O2; [M+H]+; delta(ppm) 0.425814; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 6.000; LRFVTYWOQMYALW-UHFFFAOYSA-N; C5H4N4O2; Spectral Match to Xanthine from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.821; LRFVTYWOQMYALW; [M+H]+; Xanthine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.825; LRFVTYWOQMYALW-UHFFFAOYSA-N; [M+H]+; Xanthine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.704; LRFVTYWOQMYALW-UHFFFAOYSA-N; [M+H]+; Xanthine; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.704; LRFVTYWOQMYALW-UHFFFAOYSA-N; [M+H]+; 3,7-dihydropurine-2,6-dione; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -6.532; LRFVTYWOQMYALW; [M+H]+; xanthine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.585; LRFVTYWOQMYALW; [M+H]+; xanthine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -4.004; LRFVTYWOQMYALW; [M+H]+; Xanthin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.930; LRFVTYWOQMYALW; [M+H]+; Xanthin; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 6 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000292)
+CH$NAME: Xanthine
+CH$NAME: Xanthin
+CH$NAME: 3,7-dihydropurine-2,6-dione
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C5H4N4O2
+CH$EXACT_MASS: 152.033425
+CH$SMILES: C1=NC2=C(N1)C(=O)NC(=O)N2
+CH$IUPAC: InChI=1S/C5H4N4O2/c10-4-2-3(7-1-6-2)8-5(11)9-4/h1H,(H3,6,7,8,9,10,11)
+CH$LINK: HMDB HMDB0000292
+CH$LINK: INCHIKEY LRFVTYWOQMYALW-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:1188
+CH$LINK: ChemOnt CHEMONTID:0000245; Organic compounds; Organoheterocyclic compounds; Imidazopyrimidines; Purines and purine derivatives
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.490
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 153.040767
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03dr-1900000000-8f18bfa7cd8577226f54
+PK$ANNOTATION: m/z int mzPAF cor n
+  82.039923 179 f{C3H4N3}/-0.62ppm,p-C2H1N1O2 0.8790 54
+  83.023527 55 f{C3H3N2O1}/-5.57ppm,p-C2H2N2O1 0.6808 48
+  110.035049 999 f{C4H4N3O1}/1.46ppm,p-C1H1N1O1 0.9150 52
+  136.013961 666 f{C5H2N3O2}/-1.41ppm,p-H3N1 0.9314 61
+  153.040993 370 f{C5H5N4O2}/1.90ppm,p 1.0000 58
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  82.039923 179.00 179
+  83.023527 55.00 55
+  110.035049 999.00 999
+  136.013961 666.00 666
+  153.040993 370.00 370
+//

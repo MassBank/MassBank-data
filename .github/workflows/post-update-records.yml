@@ -16,12 +16,12 @@ jobs:
 
     steps:
       - name: Checkout this repo's code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           path: MassBank-data
 
       - name: Checkout MassBank ClassyFire repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           repository: MassBank/MassBank-ClassyFire
           path: MassBank-ClassyFire

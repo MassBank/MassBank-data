@@ -1,0 +1,78 @@
+ACCESSION: MSBNK-SMB_Measured-HSA032R0263003
+RECORD_TITLE: Phenylalanylproline; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Yu et al. Front Cell Infect Microbiol. 2022,11,763507
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 31 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS3233
+COMMENT: DATASET_TITLE The gut microbiome and metabolites are altered and interrelated in patients with rheumatoid arthritis
+COMMENT: DATASET_AUTHORS Die Yu, Juping Du, Xia Pu, Liyuan Zheng, Shuaishuai Chen, Na Wang, Jun Li, Shiyong Chen, Shaobiao Pan, Bo Shen
+COMMENT: PRECURSOR_IN_MS1 mz 263.140294; int 486.371; delta(ppm) -0.129273
+COMMENT: PROPOSED_MF SevenGoldenRules 4.997; C14H18N2O3; [M+H]+; delta(ppm) 4.997462; Ranking 5;
+COMMENT: PROPOSED_MF MS-FINDER 3.660; C14H18N2O3; [M+H]+; delta(ppm) 4.974987; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 24.625; C14H18N2O3; [M+H]+; delta(ppm) 4.974987; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C14H18N2O3; [M+H]+; delta(ppm) 4.974987; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 38.793; C14H18N2O3; [M+H]+; delta(ppm) 4.974987; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.998; C14H18N2O3; [M+H]+; delta(ppm) 4.974987; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 6.000; WEQJQNWXCSUVMA-RYUDHWBXSA-N; C14H18N2O3; Spectral Match to Phe-Pro from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.182; WEQJQNWXCSUVMA; [M+H]+; Phenylalanylproline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.917; WEQJQNWXCSUVMA-UHFFFAOYNA-N; [M+H]+; Phenylalanylproline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; WEQJQNWXCSUVMA-UHFFFAOYNA-N; [M+H]+; Phenylalanylproline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.358; WEQJQNWXCSUVMA-RYUDHWBXSA-N; [M+H]+; (2S)-1-[(2S)-2-amino-3-phenylpropanoyl]pyrrolidine-2-carboxylic acid; Ranking 7;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.898; WEQJQNWXCSUVMA; [M+H]+; Phenylalanylproline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.998; WEQJQNWXCSUVMA; [M+H]+; Phenylalanylproline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -152.693; WEQJQNWXCSUVMA; [M+H]+; 1-(2-amino-3-phenylpropanoyl)pyrrolidine-2-carboxylic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.998; WEQJQNWXCSUVMA; [M+H]+; 1-(2-amino-3-phenylpropanoyl)pyrrolidine-2-carboxylic acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 6 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 7); Biological context by HMDB (HMDB0011177)
+CH$NAME: Phenylalanylproline
+CH$NAME: 1-phenylalanylproline
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C14H18N2O3
+CH$EXACT_MASS: 262.131742
+CH$SMILES: C1CC(N(C1)C(=O)C(CC2=CC=CC=C2)N)C(=O)O
+CH$IUPAC: InChI=1S/C14H18N2O3/c15-11(9-10-5-2-1-3-6-10)13(17)16-8-4-7-12(16)14(18)19/h1-3,5-6,11-12H,4,7-9,15H2,(H,18,19)
+CH$LINK: HMDB HMDB0011177
+CH$LINK: INCHIKEY WEQJQNWXCSUVMA-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:4069131
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: UPLC system, AB SCIEX - TripleTOF 5600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 V
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 5.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 13.00; MS2(ppm) 20.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC T3 column (1.8 µm, 100 mm x 2.1 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0.0-0.5 min, 5% B; 0.5-7.0 min,` 100% B; 7.0-8.0 min, 100% B; 8.0-8.1 min, 5% B; 8.1-10.0 min, 5% B. 
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.562
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 263.140328
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-3900000000-395684c47ec39dcc8370
+PK$ANNOTATION: m/z int mzPAF cor n
+  56.049649 171 f{C3H6N1}/3.09ppm,p-C11H13N1O3 0.4211 31
+  70.065080 420 f{C4H8N1}/-0.65ppm,p-C10H11N1O3 0.8141 31
+  93.070228 33 f{C7H9}/3.77ppm,p-C7H10N2O3 0.6422 26
+  103.054180 90 f{C8H7}/-0.45ppm,p-C6H12N2O3 0.7661 29
+  116.070740 426 f{C5H10N1O2}/1.17ppm,p-C9H9N1O1 1.0000 31
+  120.080557 999 f{C8H10N1}/-1.82ppm,p-C6H9N1O3 0.8956 31
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  56.049649 171.00 171
+  70.065080 420.00 420
+  93.070228 33.00 33
+  103.054180 90.00 90
+  116.070740 426.00 426
+  120.080557 999.00 999
+//

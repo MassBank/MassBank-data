@@ -1,0 +1,71 @@
+ACCESSION: MSBNK-MSSJ-MSJ04297
+RECORD_TITLE: 1,2-bis(6-Methoxynaphthalen-2-yl)ethane; GC-EI-TOF; MS; POSITIVE; 70 V
+DATE: 2025.09.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imaia, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: Y.-M. So,. C.T. To, M.M. Guru, T. Shima, and Z. Hou, Hydrodeoxygenative Coupling and Transformation of Aldehydes at a N2‑Derived Tetranuclear Titanium Imide/Hydride Framework, J. Am. Chem. Soc. 2023, 145, 16906−16912. DOI: 10.1021/jacs.3c05525.
+COMMENT: The compound analyzed, CH$NAME, is identical to the product of "3t" in Table 1 of PUBLICATION.
+COMMENT: Original ID of the mass spectral data is A_20221017_shima4MB/BiBz-MeO-Naph.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Resolving power (FWHM, nominal) was 7000.
+COMMENT: Typical accuracy level of the m/z value expected was 5 ppm. Postrun m/z was adjusted with the known mass 342.1620.
+COMMENT: EI voltage was 70 V. Temperature of the ion-source and GC-transfer line were 200 C and 250 C, respectively.
+CH$NAME: 1,2-bis(6-Methoxynaphthalen-2-yl)ethane
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C24H22O2
+CH$EXACT_MASS: 342.161980
+CH$SMILES: COc1ccc2cc(ccc2c1)CCc1ccc2cc(ccc2c1)OC
+CH$IUPAC: InChI=1S/C24H22O2/c1-25-23-11-9-19-13-17(5-7-21(19)15-23)3-4-18-6-8-22-16-24(26-2)12-10-20(22)14-18/h5-16H,3-4H2,1-2H3
+CH$LINK: INCHIKEY AIYCGNNTSZGMII-UHFFFAOYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.0/min
+AC$CHROMATOGRAPHY: COLUMN_NAME DB-5MS UI 122-5532UI US0462866H (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.25 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 325 C and held at the final temperature for 5.5 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 15.66 min
+PK$SPLASH: splash10-00di-0901000000-847823e095a2f6a525bc
+PK$NUM_PEAK: 38
+PK$PEAK: m/z int. rel.int.
+  28.006 0.5744 6
+  73.048 0.7713 8
+  77.039 0.4058 4
+  78.047 0.3704 4
+  101.040 0.2834 3
+  102.047 1.1930 12
+  113.040 0.2854 3
+  114.047 0.5304 5
+  115.055 1.2964 13
+  126.047 0.8178 8
+  127.055 2.1525 22
+  128.063 22.7793 228
+  129.066 2.4634 25
+  139.055 1.7776 18
+  140.062 0.7744 8
+  141.070 1.3458 13
+  142.076 0.2742 3
+  147.066 0.2650 3
+  152.062 0.2166 2
+  155.050 0.2590 3
+  156.057 2.7105 27
+  157.062 0.3975 4
+  171.081 100 999
+  171.728 0.3104 3
+  172.084 13.0304 130
+  172.662 0.1994 2
+  173.087 1.0348 10
+  173.650 0.1115 1
+  207.033 0.4482 4
+  207.103 0.2323 2
+  239.087 0.2477 2
+  252.094 0.4002 4
+  253.101 0.2957 3
+  265.101 0.2103 2
+  281.052 0.2207 2
+  342.162 13.7361 137
+  343.165 3.5838 36
+  344.169 0.4977 5
+//

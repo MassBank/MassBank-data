@@ -1,0 +1,37 @@
+ACCESSION: MSBNK-MSSJ-MSJ04280
+RECORD_TITLE: (2S,5S)-4,4,5,8-Tetramethyl-2,3,4,5-tetrahydro-2,5-methanobenzo[b]oxepine-2,7-diol; GC-FI-TOF; MS; POSITIVE; FI 10 kV
+DATE: 2025.09.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: J. Otaka, T. Shimizu, Y. Futamura, D. Hashizume, and H. Osada, Structures and Synthesis of Hitoyopodins: Bioactive Aromatic Sesquiterpenoids Produced by the Mushroom Coprinopsis cinerea. Org. Lett. 2018, 20, 6294−6297. DOI: 10.1021/acs.orglett.8b02788.
+COMMENT: The compound analyzed, CH$NAME, is identical to the substance "1" in Scheme 1. Synthesis of 1 of the PUBLICATION.
+COMMENT: Original ID of the mass spectral data is A_20180419_otaka4MB/HI-031.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Resolving power (FWHM, nominal) was 7000.
+COMMENT: Typical accuracy level of the m/z value expected was 10 ppm. Postrun m/z was adjusted with the known mass 248.1412.
+COMMENT: FI voltage was 10 kV. Temperature of the ion-source and GC-transfer line were 60 C and 200 C, respectively.
+CH$NAME: (2S,5S)-4,4,5,8-Tetramethyl-2,3,4,5-tetrahydro-2,5-methanobenzo[b]oxepine-2,7-diol
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C15H20O3
+CH$EXACT_MASS: 248.141245
+CH$SMILES: Cc1cc2O[C@]3(O)C[C@](C)(c2cc1O)[C@@](C)(C)C3
+CH$IUPAC: InChI=1S/C15H20O3/c1-9-5-12-10(6-11(9)16)14(4)8-15(17,18-12)7-13(14,2)3/h5-6,16-17H,7-8H2,1-4H3/t14-,15+/m1/s1
+CH$LINK: INCHIKEY XOUGEILHFRFJQL-CABCVRRESA-N
+CH$LINK: ChemOnt CHEMONTID:0003410; Organic compounds; Organoheterocyclic compounds; Benzopyrans; 1-benzopyrans
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-FI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION FI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091J-413 USD364547H (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.32 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temperature for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 10.43 min
+PK$SPLASH: splash10-0002-0090000000-a4d875fc599c08c750c4
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  248.141 100 999
+  249.144 17.1462 171
+  250.147 1.7691 18
+//

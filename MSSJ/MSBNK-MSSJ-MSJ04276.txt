@@ -1,0 +1,185 @@
+ACCESSION: MSBNK-MSSJ-MSJ04276
+RECORD_TITLE: (R)-4-(2,5-Dimethoxy-4-methylphenyl)-2-methoxy-4,5,5-trimethylcyclopent-2-enone; GC-EI-TOF; MS; POSITIVE; 70 V
+DATE: 2025.09.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: J. Otaka, T. Shimizu, Y. Futamura, D. Hashizume, and H. Osada, Structures and Synthesis of Hitoyopodins: Bioactive Aromatic Sesquiterpenoids Produced by the Mushroom Coprinopsis cinerea. Org. Lett. 2018, 20, 6294−6297. DOI: 10.1021/acs.orglett.8b02788.
+COMMENT: The compound analyzed, CH$NAME, is identical to the substance "11" in Scheme 1. Synthesis of 1 of the PUBLICATION.
+COMMENT: Original ID of the mass spectral data is A_20180419_otaka4MB/HI-027.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Resolving power (FWHM, nominal) was 7000.
+COMMENT: Typical accuracy level of the m/z value expected was 5 ppm. Postrun m/z was adjusted with the known mass 304.1675.
+COMMENT: EI voltage was 70 V. Temperature of the ion-source and GC-transfer line were 200 C and 250 C, respectively.
+CH$NAME: (R)-4-(2,5-Dimethoxy-4-methylphenyl)-2-methoxy-4,5,5-trimethylcyclopent-2-enone
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C18H24O4
+CH$EXACT_MASS: 304.167460
+CH$SMILES: C[C@@]1(C=C(OC)C(=O)[C@]1(C)C)c1cc(OC)c(C)cc1OC
+CH$IUPAC: InChI=1S/C18H24O4/c1-11-8-14(21-6)12(9-13(11)20-5)18(4)10-15(22-7)16(19)17(18,2)3/h8-10H,1-7H3/t18-/m1/s1
+CH$LINK: INCHIKEY WXPAUFQRDOTTIC-GOSISDBHSA-N
+CH$LINK: ChemOnt CHEMONTID:0001550; Organic compounds; Lipids and lipid-like molecules; Prenol lipids; Sesquiterpenoids
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091J-413 USD364547H (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.32 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temperature for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 11.03 min
+PK$SPLASH: splash10-000i-1391000000-aa18d98bf4cb1e94923b
+PK$NUM_PEAK: 151
+PK$PEAK: m/z int. rel.int.
+  27.024 0.5904 6
+  28.006 0.7221 7
+  29.039 0.6258 6
+  39.024 1.4970 15
+  41.040 4.2549 43
+  42.047 1.0128 10
+  43.019 1.6854 17
+  43.055 0.9246 9
+  45.034 0.6838 7
+  51.024 0.6317 6
+  53.039 0.9512 10
+  55.019 0.6347 6
+  55.055 0.6448 6
+  57.034 0.3309 3
+  65.040 1.7477 17
+  66.047 0.4309 4
+  67.019 0.5636 6
+  67.055 0.9138 9
+  69.034 1.2683 13
+  70.041 0.4754 5
+  71.049 0.4590 5
+  77.040 3.1330 31
+  78.047 1.1206 11
+  79.055 1.7035 17
+  81.070 0.4220 4
+  89.040 0.5695 6
+  91.055 4.4869 45
+  92.060 0.5573 6
+  93.035 0.6946 7
+  93.071 0.5200 5
+  94.042 0.4708 5
+  95.050 0.6963 7
+  97.066 0.5511 6
+  102.045 0.7405 7
+  103.056 1.6294 16
+  104.062 0.7058 7
+  105.071 1.6501 16
+  106.042 0.4115 4
+  107.051 0.6494 6
+  108.057 0.3739 4
+  109.066 0.8447 8
+  109.552 0.6356 6
+  110.073 0.3165 3
+  115.056 3.5694 36
+  115.553 0.3218 3
+  116.062 1.0796 11
+  117.071 1.5138 15
+  119.050 0.4109 4
+  119.087 0.4004 4
+  121.064 0.6497 6
+  122.072 0.3614 4
+  123.063 1.2467 12
+  127.056 0.8018 8
+  128.063 2.0233 20
+  129.070 1.6550 17
+  130.077 0.3968 4
+  130.574 0.5790 6
+  131.051 0.8398 8
+  132.058 0.6003 6
+  133.066 0.9014 9
+  135.081 1.3558 14
+  137.061 3.4924 35
+  137.563 0.4735 5
+  138.069 0.5233 5
+  141.071 0.9207 9
+  142.079 0.5252 5
+  143.086 0.6904 7
+  144.060 0.4879 5
+  144.573 3.7057 37
+  145.069 2.3424 23
+  146.072 0.5849 6
+  147.045 0.6766 7
+  151.076 0.5062 5
+  152.084 2.0816 21
+  153.092 6.7388 67
+  154.094 0.7031 7
+  155.087 0.4751 5
+  157.066 0.5108 5
+  158.074 0.6448 6
+  159.081 1.1753 12
+  160.087 0.8562 9
+  161.061 4.6130 46
+  162.066 0.9764 10
+  163.076 0.5328 5
+  165.091 0.9076 9
+  171.081 0.7687 8
+  172.090 0.9407 9
+  173.061 1.1235 11
+  174.067 0.4902 5
+  175.077 2.4803 25
+  176.084 2.1769 22
+  177.090 0.5980 6
+  179.072 1.6651 17
+  185.096 0.4282 4
+  186.105 0.6927 7
+  187.111 1.1065 11
+  188.084 1.1127 11
+  189.091 1.3899 14
+  190.098 0.7952 8
+  191.108 0.3794 4
+  197.095 0.3185 3
+  199.077 0.7313 7
+  200.083 0.3499 3
+  201.128 0.7294 7
+  202.101 0.5282 5
+  203.107 1.9066 19
+  204.079 1.2336 12
+  205.103 0.3876 4
+  213.106 0.5721 6
+  214.122 0.7559 8
+  215.108 1.8421 18
+  216.113 0.6324 6
+  217.121 0.3827 4
+  218.117 0.3260 3
+  219.103 1.2130 12
+  226.100 0.4135 4
+  227.104 0.4849 5
+  229.123 1.8856 19
+  230.131 4.2372 42
+  231.105 2.1491 21
+  232.109 0.4164 4
+  233.145 0.3408 3
+  241.123 1.9780 20
+  242.112 0.6320 6
+  243.103 0.5763 6
+  244.144 0.5462 5
+  245.154 2.0118 20
+  246.127 1.8797 19
+  247.131 0.3611 4
+  257.119 3.1749 32
+  258.124 0.9525 10
+  259.098 9.0416 90
+  260.101 1.3997 14
+  261.149 2.0468 20
+  262.155 0.3224 3
+  272.142 3.3784 34
+  273.149 7.2893 73
+  274.123 4.9190 49
+  275.129 0.8725 9
+  276.171 0.4797 5
+  287.163 0.5822 6
+  289.144 100 999
+  289.890 0.3526 4
+  290.148 17.8076 178
+  290.510 0.2811 3
+  291.150 2.3729 24
+  303.162 0.3290 3
+  304.167 28.8429 288
+  304.412 0.2562 3
+  305.171 5.4672 55
+  306.173 0.7870 8
+//

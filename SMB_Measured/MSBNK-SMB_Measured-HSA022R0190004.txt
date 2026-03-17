@@ -1,0 +1,77 @@
+ACCESSION: MSBNK-SMB_Measured-HSA022R0190004
+RECORD_TITLE: Homocitrulline; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 87 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 190.118659; int 26.051; delta(ppm) -0.094523
+COMMENT: PROPOSED_MF SevenGoldenRules 0.317; C7H15N3O3; [M+H]+; delta(ppm) 0.317273; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.364; C7H15N3O3; [M+H]+; delta(ppm) 0.311392; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 23.832; C7H15N3O3; [M+H]+; delta(ppm) 0.311392; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C7H15N3O3; [M+H]+; delta(ppm) 0.311392; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 35.806; C7H15N3O3; [M+H]+; delta(ppm) 0.311392; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C7H15N3O3; [M+H]+; delta(ppm) 0.311392; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.822; XIGSAGMEBXLVJJ; [M+H]+; Homocitrulline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.342; XIGSAGMEBXLVJJ-YFKPBYRVSA-N; [M+H]+; Homocitrulline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.892; XIGSAGMEBXLVJJ-YFKPBYRVSA-N; [M+H]+; Homocitrulline; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; XIGSAGMEBXLVJJ-YFKPBYRVSA-N; [M+H]+; (2S)-2-amino-6-(carbamoylamino)hexanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -62.508; XIGSAGMEBXLVJJ; [M+H]+; bmse000442; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.793; XIGSAGMEBXLVJJ; [M+H]+; bmse000442; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -107.241; XIGSAGMEBXLVJJ; [M+H]+; Homocitrulline; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.731; XIGSAGMEBXLVJJ; [M+H]+; Homocitrulline; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000679)
+CH$NAME: Homocitrulline
+CH$NAME: 2-amino-6-ureido-hexanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C7H15N3O3
+CH$EXACT_MASS: 189.111341
+CH$SMILES: C(CCNC(=O)N)CC(C(=O)O)N
+CH$IUPAC: InChI=1S/C7H15N3O3/c8-5(6(11)12)3-1-2-4-10-7(9)13/h5H,1-4,8H2,(H,11,12)(H3,9,10,13)
+CH$LINK: HMDB HMDB0000679
+CH$LINK: INCHIKEY XIGSAGMEBXLVJJ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:231356
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.595
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 190.118677
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0006-5900000000-92977993f44686eb9bf0
+PK$ANNOTATION: m/z int mzPAF cor n
+  84.044253 313 f{C4H6N1O1}/-1.64ppm,p-C3H10N2O2 0.5076 87
+  84.080583 166 f{C5H10N1}/-2.30ppm,p-C2H6N2O3 0.8382 85
+  85.064731 446 f{C5H9O1}/-0.71ppm,p-C2H7N3O2 0.9094 87
+  130.049652 191 f{C5H8N1O3}/-1.67ppm,p-C2H8N2 0.4531 80
+  144.113054 999 f{C6H14N3O1}/-0.59ppm,p-C1H2O2 0.9286 87
+  190.118452 451 f{C7H16N3O3}/-0.87ppm,p 1.0000 87
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  84.044253 313.00 313
+  84.080583 166.00 166
+  85.064731 446.00 446
+  130.049652 191.00 191
+  144.113054 999.00 999
+  190.118452 451.00 451
+//

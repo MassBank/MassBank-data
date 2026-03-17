@@ -1,0 +1,73 @@
+ACCESSION: MSBNK-SMB_Measured-HSA006R0163000
+RECORD_TITLE: 2-(2-butoxyethoxy)ethanol; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 2035 product ion spectra among 31 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001264
+COMMENT: DATASET_TITLE Antibiotics and Dietary Minerals Lipidomics
+COMMENT: DATASET_AUTHORS Jacob Folz, University of California, Davis
+COMMENT: PRECURSOR_IN_MS1 mz 163.132865; int 22.996; delta(ppm) -0.030937
+COMMENT: PROPOSED_MF SevenGoldenRules 0.000; C8H18O3; [M+H]+; delta(ppm) -0.000000; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.330; C8H18O3; [M+H]+; delta(ppm) -0.005346; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 32.352; C8H18O3; [M+H]+; delta(ppm) -0.005346; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C8H18O3; [M+H]+; delta(ppm) -0.005346; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 42.131; C8H18O3; [M+H]+; delta(ppm) -0.005346; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C8H18O3; [M+H]+; delta(ppm) -0.005346; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 11.000; OAYXUHPQHDHDDZ-UHFFFAOYSA-N; C8H18O3; Massbank: Diethylene glycol monobutyl ether2-(2-butoxyethoxy)ethanol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.200; OAYXUHPQHDHDDZ; [M+H]+; 2-(2-butoxyethoxy)ethanol; Ranking 4;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.736; OAYXUHPQHDHDDZ-UHFFFAOYSA-N; [M+H]+; 2-(2-butoxyethoxy)ethanol; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; OAYXUHPQHDHDDZ-UHFFFAOYSA-N; [M+H]+; 2-(2-butoxyethoxy)ethanol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.892; OAYXUHPQHDHDDZ-UHFFFAOYSA-N; [M+H]+; 2-(2-butoxyethoxy)ethanol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -5.583; OAYXUHPQHDHDDZ; [M+H]+; DB Solvent; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.708; OAYXUHPQHDHDDZ; [M+H]+; DB Solvent; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -7.569; OAYXUHPQHDHDDZ; [M+H]+; 2-(2-butoxyethoxy)ethan-1-ol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.918; OAYXUHPQHDHDDZ; [M+H]+; 2-(2-butoxyethoxy)ethan-1-ol; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3b; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 11 spectra); Supported by CFM-ID:MsfinderDB (Ranking 4), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1)
+CH$NAME: 2-(2-butoxyethoxy)ethanol
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C8H18O3
+CH$EXACT_MASS: 162.125594
+CH$SMILES: CCCCOCCOCCO
+CH$IUPAC: InChI=1S/C8H18O3/c1-2-3-5-10-7-8-11-6-4-9/h9H,2-8H2,1H3
+CH$LINK: INCHIKEY OAYXUHPQHDHDDZ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:8177
+CH$LINK: ChemOnt CHEMONTID:0000254; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Ethers
+SP$SCIENTIFIC_NAME: Rattus norvegicus
+SP$LINK: NCBI-TAXONOMY 10116 
+SP$SAMPLE: Blood (plasma)
+AC$INSTRUMENT: Thermo Q Exactive HF hybrid Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY NCE 20.30.40
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity CSH C18 (100 by 2.1mm,1.7um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min 15% (B); 0-2 min 30% (B); 2-2.5 min 48% (B); 2.5-11 min 82% (B); 11-11.5 min 99% (B); 11.5-12 min 99% (B); 12-12.1 min 15% (B); and 12.1-15 min 15% (B)
+AC$CHROMATOGRAPHY: FLOW_RATE 0.6 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.878
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 163.132870
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-9400000000-5906d8b97c94305b7ac5
+PK$ANNOTATION: m/z int mzPAF cor n
+  83.085549 142 f{C6H11}/0.26ppm,p-C2H8O3 0.3348 2034
+  89.059736 999 f{C4H9O2}/0.33ppm,p-C4H10O1 1.0000 2035
+  101.096159 243 f{C6H13O1}/0.67ppm,p-C2H6O2 0.3752 2035
+  107.070296 280 f{C4H11O3}/0.24ppm,p-C4H8 0.3960 2035
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  83.085549 142.00 142
+  89.059736 999.00 999
+  101.096159 243.00 243
+  107.070296 280.00 280
+//

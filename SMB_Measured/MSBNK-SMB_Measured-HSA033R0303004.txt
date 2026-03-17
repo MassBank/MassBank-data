@@ -1,0 +1,77 @@
+ACCESSION: MSBNK-SMB_Measured-HSA033R0303004
+RECORD_TITLE: Uridine; LC-ESI-QTOF; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Liang et al. J Pharm Biomed Anal. 2022, 214, 114718
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 14 product ion spectra among 50 DDA data files in the dataset described below.
+COMMENT: DATASET_ID MTBLS3854
+COMMENT: DATASET_TITLE Long-term low-dose ionizing radiation induced chromosome-aberration-specific metabolic phenotype changes in radiation workers
+COMMENT: DATASET_AUTHORS Xinjun Wang
+COMMENT: PRECURSOR_IN_MS1 mz 303.083535; int 3.327; delta(ppm) 0.365098
+COMMENT: PROPOSED_MF SevenGoldenRules 0.156; C9H12N2O6; [M+Hac-H]1; delta(ppm) 0.155693; Ranking 5;
+COMMENT: PROPOSED_MF MS-FINDER 4.422; C9H12N2O6; [M+Hac-H]-; delta(ppm) 0.118551; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 19.046; C9H12N2O6; [M+C2H4O2-H]-; delta(ppm) 0.118551; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C9H12N2O6; [M+C2H4O2-H]-; delta(ppm) 0.118551; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 32.986; C9H12N2O6; [M+C2H4O2-H]-; delta(ppm) 0.118551; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H12N2O6; [M+C2H4O2-H]-; delta(ppm) 0.118551; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 5.000; DRTQHJPVMGBUCF-XVFCMESISA-N; C9H12N2O6; Uridine - 40.0 eV; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.180; DRTQHJPVMGBUCF-NHBCCFCANA-N; [M+Hac-H]-; Uridine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; DRTQHJPVMGBUCF-NHBCCFCANA-N; [M+Hac-H]-; Uridine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; DRTQHJPVMGBUCF-XVFCMESISA-N; [M+Hac-H]-; 1-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]pyrimidine-2,4-dione; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -2.186; DRTQHJPVMGBUCF; [M+C2H4O2-H]-; b-Uridine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.619; DRTQHJPVMGBUCF; [M+C2H4O2-H]-; b-Uridine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -17.215; DRTQHJPVMGBUCF; [M+C2H4O2-H]-; Uridin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.839; DRTQHJPVMGBUCF; [M+C2H4O2-H]-; Uridin; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 5 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000296)
+CH$NAME: Uridine
+CH$NAME: Uridin
+CH$NAME: 1-[3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]pyrimidine-2,4-dione
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C9H12N2O6
+CH$EXACT_MASS: 244.069536
+CH$SMILES: C1=CN(C(=O)NC1=O)C2C(C(C(O2)CO)O)O
+CH$IUPAC: InChI=1S/C9H12N2O6/c12-3-4-6(14)7(15)8(17-4)11-2-1-5(13)10-9(11)16/h1-2,4,6-8,12,14-15H,3H2,(H,10,13,16)
+CH$LINK: HMDB HMDB0000296
+CH$LINK: INCHIKEY DRTQHJPVMGBUCF-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:1177
+CH$LINK: ChemOnt CHEMONTID:0000480; Organic compounds; Nucleosides, nucleotides, and analogues; Pyrimidine nucleosides
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Plasma
+AC$INSTRUMENT: Agilent 1290 liquid chromatography system, Agilent Technologies - TripleTOF 6600+ mass spectrometer, AB SCIEX
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 30 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE -4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 9.00; MS2(ppm) 18.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC BEH C18 column (1.7 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 7.0 min: 65, 8.0 min: 40, 9.0 min: 40, 9.1 min: 95, 12.0 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.5 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.580
+MS$FOCUSED_ION: PRECURSOR_M/Z 303.083425
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-0900000000-ec477c91ce5ea9f298e2
+PK$ANNOTATION: m/z int mzPAF cor n
+  82.028791 111 f{C4H4N1O1}/-12.76ppm,p-C7H11N1O7 0.6095 14
+  110.023777 786 f{C5H4N1O2}/-8.86ppm,p-C6H11N1O6 1.0000 14
+  111.019167 999 f{C4H3N2O2}/-7.51ppm,p-C7H12O6 0.7582 14
+  122.023368 55 f{C3H6O5}/10.62ppm,p-C8H9N2O3 0.7185 14
+  152.034681 172 f{C7H6N1O3}/-4.18ppm,p-C4H9N1O5 0.7495 14
+  243.061682 129 f{C9H11N2O6}/-2.38ppm,p-C2H4O2 0.6835 14
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  82.028791 111.00 111
+  110.023777 786.00 786
+  111.019167 999.00 999
+  122.023368 55.00 55
+  152.034681 172.00 172
+  243.061682 129.00 129
+//

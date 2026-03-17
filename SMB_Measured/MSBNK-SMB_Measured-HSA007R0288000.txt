@@ -1,0 +1,79 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0288000
+RECORD_TITLE: Octanoylcarnitine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 61 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 288.216879; int 999.000; delta(ppm) -0.652262
+COMMENT: PROPOSED_MF SevenGoldenRules 0.463; C15H29NO4; [M+H]+; delta(ppm) 0.463076; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 3.939; C15H29NO4; [M+H]+; delta(ppm) 0.458500; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 16.463; C15H29NO4; [M+H]+; delta(ppm) 0.458500; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C15H29NO4; [M+H]+; delta(ppm) 0.458500; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 28.993; C15H29NO4; [M+H]+; delta(ppm) 0.458500; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C15H29NO4; [M+H]+; delta(ppm) 0.458500; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 5.000; CXTATJFJDMJMIY-CYBMUJFWSA-N; C15H29NO4; Massbank:RP025302 Octanoyl-L-CarnitineL-Octanoylcarnitine(3R)-3-octanoyloxy-4-(trimethylazaniumyl)butanoate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.727; CXTATJFJDMJMIY; [M+H]+; L-Octanoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.242; CXTATJFJDMJMIY-CYBMUJFWSA-N; [M+H]+; L-Octanoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; CXTATJFJDMJMIY-CYBMUJFWSA-N; [M+H]+; L-Octanoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -5.761; CXTATJFJDMJMIY; [M+H]+; Tocris-0605; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.898; CXTATJFJDMJMIY; [M+H]+; Tocris-0605; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -60.046; CXTATJFJDMJMIY; [M+H]+; Octanoylcarnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.991; CXTATJFJDMJMIY; [M+H]+; Octanoylcarnitine; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 5 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000791)
+CH$NAME: Octanoylcarnitine
+CH$NAME: 3-caprylyloxy-4-(trimethylammonio)butyrate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C15H29NO4
+CH$EXACT_MASS: 287.209658
+CH$SMILES: CCCCCCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C
+CH$IUPAC: InChI=1S/C15H29NO4/c1-5-6-7-8-9-10-15(19)20-13(11-14(17)18)12-16(2,3)4/h13H,5-12H2,1-4H3
+CH$LINK: HMDB HMDB0000791
+CH$LINK: INCHIKEY CXTATJFJDMJMIY-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:123701
+CH$LINK: ChemOnt CHEMONTID:0000324; Organic compounds; Lipids and lipid-like molecules; Fatty Acyls; Fatty acid esters
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 10.375
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 288.217067
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-9020000000-c48616eb1d31feb1d1b9
+PK$ANNOTATION: m/z int mzPAF cor n
+  57.069593 26 f{C4H9}/-4.97ppm,p-C11H21N1O4 0.9104 44
+  60.080681 55 f{C3H10N1}/-1.58ppm,p-C12H20O4 0.9414 48
+  85.028610 999 f{C4H5O2}/2.40ppm,p-C11H25N1O2 0.9824 54
+  127.111819 47 f{C8H15O1}/0.61ppm,p-C7H15N1O3 0.9383 51
+  144.101902 33 f{C7H14N1O2}/-0.02ppm,p-C8H16O2 0.9453 51
+  229.144399 77 f{C12H21O4}/4.20ppm,p-C3H9N1 0.9708 56
+  288.217901 250 f{C15H30N1O4}/3.35ppm,p 1.0000 61
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  57.069593 26.00 26
+  60.080681 55.00 55
+  85.028610 999.00 999
+  127.111819 47.00 47
+  144.101902 33.00 33
+  229.144399 77.00 77
+  288.217901 250.00 250
+//

@@ -1,0 +1,85 @@
+ACCESSION: MSBNK-SMB_Measured-HSA003R0274000
+RECORD_TITLE: 2-[dodecyl(2-hydroxyethyl)amino]ethanol; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 163 product ion spectra among 52 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002338
+COMMENT: DATASET_TITLE Interplay Between Cruciferous Vegetables and the Gut Microbiome: A Multi-Omic Approach
+COMMENT: DATASET_AUTHORS Bouranis John, Oregon State University
+COMMENT: PRECURSOR_IN_MS1 mz 274.274477; int 51.344; delta(ppm) 0.054714
+COMMENT: PROPOSED_MF SevenGoldenRules 1.489; C16H35NO2; [M+H]+; delta(ppm) 1.489385; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 2.831; C16H35NO2; [M+H]+; delta(ppm) 1.481001; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 26.454; C16H35NO2; [M+H]+; delta(ppm) 1.481001; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C16H35NO2; [M+H]+; delta(ppm) 1.481001; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 49.402; C16H35NO2; [M+H]+; delta(ppm) 1.481001; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C16H35NO2; [M+H]+; delta(ppm) 1.481001; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; NKFNBVMJTSYZDV-UHFFFAOYSA-N; C16H35NO2; Massbank:LU030803 Lauryldiethanolamine2-[dodecyl(2-hydroxyethyl)amino]ethanol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.856; NKFNBVMJTSYZDV; [M+H]+; nan; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.043; NKFNBVMJTSYZDV-UHFFFAOYSA-N; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; NKFNBVMJTSYZDV-UHFFFAOYSA-N; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.937; NKFNBVMJTSYZDV-UHFFFAOYSA-N; [M+H]+; 2-[dodecyl(2-hydroxyethyl)amino]ethanol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -41.032; NKFNBVMJTSYZDV; [M+H]+; Lauryldiethanolamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.694; NKFNBVMJTSYZDV; [M+H]+; Lauryldiethanolamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -23.273; NKFNBVMJTSYZDV; [M+H]+; nan; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.769; NKFNBVMJTSYZDV; [M+H]+; nan; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3b; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 3 spectra); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1)
+CH$NAME: 2-[dodecyl(2-hydroxyethyl)amino]ethanol
+CH$COMPOUND_CLASS: Non-Natural Product
+CH$FORMULA: C16H35NO2
+CH$EXACT_MASS: 273.266779
+CH$SMILES: CCCCCCCCCCCCN(CCO)CCO
+CH$IUPAC: InChI=1S/C16H35NO2/c1-2-3-4-5-6-7-8-9-10-11-12-17(13-15-18)14-16-19/h18-19H,2-16H2,1H3
+CH$LINK: INCHIKEY NKFNBVMJTSYZDV-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:352309
+CH$LINK: ChemOnt CHEMONTID:0002449; Organic compounds; Organic nitrogen compounds; Organonitrogen compounds; Amines
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cultured cells
+AC$INSTRUMENT: ABI Sciex 5600 TripleTOF
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME GL Sciences Inertsil1 Phenyl-3 (4.6 x 150mm,5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient started with 5% B and was held for 1 min at 5% B, followed by a 11-min linear gradient from 5% to 30% B. The gradient was increased linearly to 100% B at 23 min, held for 5 min at 100% B and, finally, stepped back to 5% B to equilibrate the column.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 26.832
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 274.274462
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-05fr-8290000000-7dd447e886f4ab3be2d8
+PK$ANNOTATION: m/z int mzPAF cor n
+  41.038806 144 f{C3H5}/5.59ppm,p-C13H31N1O2 0.3660 142
+  42.033946 87 f{C2H4N1}/2.87ppm,p-C14H32O2 0.3075 123
+  44.049481 120 f{C2H6N1}/0.13ppm,p-C14H30O2 0.3356 120
+  57.069985 218 f{C4H9}/1.90ppm,p-C12H27N1O2 0.4955 151
+  70.065285 253 f{C4H8N1}/2.27ppm,p-C12H28O2 0.5100 156
+  71.085723 69 f{C5H11}/2.76ppm,p-C11H25N1O2 0.2963 139
+  88.075805 261 f{C4H10N1O1}/1.31ppm,p-C12H26O1 0.4818 162
+  102.091415 145 f{C5H12N1O1}/0.73ppm,p-C11H24O1 0.4746 160
+  106.086344 203 f{C4H12N1O2}/0.84ppm,p-C12H24 0.5211 163
+  256.263458 217 f{C16H34N1O1}/-0.13ppm,p-H2O1 0.5273 163
+  274.273915 999 f{C16H36N1O2}/-0.51ppm,p 1.0000 163
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  41.038806 144.00 144
+  42.033946 87.00 87
+  44.049481 120.00 120
+  57.069985 218.00 218
+  70.065285 253.00 253
+  71.085723 69.00 69
+  88.075805 261.00 261
+  102.091415 145.00 145
+  106.086344 203.00 203
+  256.263458 217.00 217
+  274.273915 999.00 999
+//

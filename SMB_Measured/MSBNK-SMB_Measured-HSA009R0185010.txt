@@ -1,0 +1,82 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0185010
+RECORD_TITLE: N-(3-acetamidopropyl)pyrrolidin-2-one; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 268 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 185.128490; int 75.185; delta(ppm) -0.146102
+COMMENT: PROPOSED_MF SevenGoldenRules 0.342; C9H16N2O2; [M+H]+; delta(ppm) 0.342166; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.542; C9H16N2O2; [M+H]+; delta(ppm) 0.339218; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 52.522; C9H16N2O2; [M+H]+; delta(ppm) 0.339218; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C9H16N2O2; [M+H]+; delta(ppm) 0.339218; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 63.781; C9H16N2O2; [M+H]+; delta(ppm) 0.339218; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C9H16N2O2; [M+H]+; delta(ppm) 0.339218; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.776; OAUYENAPBFTAQT; [M+H]+; N-(3-acetamidopropyl)pyrrolidin-2-one; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.038; OAUYENAPBFTAQT-UHFFFAOYSA-N; [M+H]+; N-(3-acetamidopropyl)pyrrolidin-2-one; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.987; OAUYENAPBFTAQT-UHFFFAOYSA-N; [M+H]+; N-(3-acetamidopropyl)pyrrolidin-2-one; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 1.856; OAUYENAPBFTAQT-UHFFFAOYSA-N; [M+H]+; N-[3-(2-oxopyrrolidin-1-yl)propyl]acetamide; Ranking 3;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -50.915; OAUYENAPBFTAQT; [M+H]+; Acisoga; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.911; OAUYENAPBFTAQT; [M+H]+; Acisoga; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -143.267; OAUYENAPBFTAQT; [M+H]+; Acisoga; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.504; OAUYENAPBFTAQT; [M+H]+; Acisoga; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS5_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 3); Biological context by HMDB (HMDB0061384)
+CH$NAME: N-(3-acetamidopropyl)pyrrolidin-2-one
+CH$NAME: Acisoga
+CH$NAME: N-[3-(2-oxopyrrolidin-1-yl)propyl]acetamide
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C9H16N2O2
+CH$EXACT_MASS: 184.121178
+CH$SMILES: CC(=O)NCCCN1CCCC1=O
+CH$IUPAC: InChI=1S/C9H16N2O2/c1-8(12)10-5-3-7-11-6-2-4-9(11)13/h2-7H2,1H3,(H,10,12)
+CH$LINK: HMDB HMDB0061384
+CH$LINK: INCHIKEY OAUYENAPBFTAQT-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:129397
+CH$LINK: ChemOnt CHEMONTID:0003449; Organic compounds; Organoheterocyclic compounds; Pyrrolidines; N-alkylpyrrolidines
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 4.571
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 185.128517
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-004i-0900000000-e98a8a78c313b7332227
+PK$ANNOTATION: m/z int mzPAF cor n
+  98.060078 51 f{C5H8N1O1}/0.39ppm,p-C4H9N1O1 0.9924 268
+  100.075730 57 f{C5H10N1O1}/0.40ppm,p-C4H7N1O1 0.9951 268
+  125.107505 250 f{C7H13N2}/1.44ppm,p-C2H4O2 0.9982 268
+  126.091446 999 f{C7H12N1O1}/0.84ppm,p-C2H5N1O1 0.9983 268
+  143.118013 163 f{C7H15N2O1}/0.86ppm,p-C2H2O1 0.9982 268
+  167.118027 13 f{C9H15N2O1}/0.82ppm,p-H2O1 0.9814 249
+  185.128670 296 f{C9H17N2O2}/1.17ppm,p 1.0000 268
+PK$NUM_PEAK: 7
+PK$PEAK: m/z int. rel.int.
+  98.060078 51.00 51
+  100.075730 57.00 57
+  125.107505 250.00 250
+  126.091446 999.00 999
+  143.118013 163.00 163
+  167.118027 13.00 13
+  185.128670 296.00 296
+//

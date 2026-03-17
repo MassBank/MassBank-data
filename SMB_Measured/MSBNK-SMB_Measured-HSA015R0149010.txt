@@ -1,0 +1,75 @@
+ACCESSION: MSBNK-SMB_Measured-HSA015R0149010
+RECORD_TITLE: phthalic anhydride; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 17 product ion spectra among 27 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS6402
+COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
+COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
+COMMENT: PRECURSOR_IN_MS1 mz 149.023387; int 76.246; delta(ppm) -0.007072
+COMMENT: PROPOSED_MF SevenGoldenRules 0.459; C8H4O3; [M+H]+; delta(ppm) 0.459409; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 2.962; C8H4O3; [M+H]+; delta(ppm) 0.453449; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 34.809; C8H4O3; [M+H]+; delta(ppm) 0.453449; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C8H4O3; [M+H]+; delta(ppm) 0.453449; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 41.580; C8H4O3; [M+H]+; delta(ppm) 0.453449; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C8H4O3; [M+H]+; delta(ppm) 0.453449; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 6.000; LGRFSURHDFAFJT-UHFFFAOYSA-N; C8H4O3; Spectral Match to Phthalic anhydride from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.333; LGRFSURHDFAFJT; [M+H]+; phthalic anhydride; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 4.819; LGRFSURHDFAFJT-UHFFFAOYSA-N; [M+H]+; phthalic anhydride; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.840; LGRFSURHDFAFJT-UHFFFAOYSA-N; [M+H]+; phthalic anhydride; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; LGRFSURHDFAFJT-UHFFFAOYSA-N; [M+H]+; 2-benzofuran-1,3-dione; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -6.980; LGRFSURHDFAFJT; [M+H]+; Wiltrol P; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.897; LGRFSURHDFAFJT; [M+H]+; Wiltrol P; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -23.445; LGRFSURHDFAFJT; [M+H]+; Phthalic Anhydride; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.794; LGRFSURHDFAFJT; [M+H]+; Phthalic Anhydride; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3b; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 6 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1)
+CH$NAME: phthalic anhydride
+CH$NAME: 2-benzofuran-1,3-dione
+CH$COMPOUND_CLASS: Non-Natural Product
+CH$FORMULA: C8H4O3
+CH$EXACT_MASS: 148.016044
+CH$SMILES: C1=CC=C2C(=C1)C(=O)OC2=O
+CH$IUPAC: InChI=1S/C8H4O3/c9-7-5-3-1-2-4-6(5)8(10)11-7/h1-4H
+CH$LINK: INCHIKEY LGRFSURHDFAFJT-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:6811
+CH$LINK: ChemOnt CHEMONTID:0001578; Organic compounds; Organoheterocyclic compounds; Benzofurans; Benzofuranones
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Vanquish Flex UHPLC system, Thermo Fisher Scientific - Orbitrap Q Exactive Plus mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.50; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.354
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 149.023388
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0002-2900000000-bb2ee47677bfb486a84f
+PK$ANNOTATION: m/z int mzPAF cor n
+  65.038545 311 f{C5H5}/-0.49ppm,p-C3O3 0.8922 17
+  69.033418 34 f{C4H5O1}/-1.06ppm,p-C4O2 0.7500 16
+  93.033406 84 f{C6H5O1}/-0.92ppm,p-C2O2 0.6103 17
+  121.028330 451 f{C7H5O2}/-0.62ppm,p-C1O1 0.7696 17
+  149.023404 999 f{C8H5O3}/0.56ppm,p 1.0000 17
+PK$NUM_PEAK: 5
+PK$PEAK: m/z int. rel.int.
+  65.038545 311.00 311
+  69.033418 34.00 34
+  93.033406 84.00 84
+  121.028330 451.00 451
+  149.023404 999.00 999
+//

@@ -1,0 +1,148 @@
+ACCESSION: MSBNK-MSSJ-MSJ04234
+RECORD_TITLE: 1-(2-Chloro-2,2-difluoroethyl)-7-fluoro-1,2,3,4-tetrahydronaphthalene; GC-EI-TOF; MS; POSITIVE; 70 V
+DATE: 2025.09.01
+AUTHORS: Eiyu Imai and Takemichi Nakamura, Molecular Structure Characterization Unit, RIKEN, Japan
+LICENSE: CC BY
+COPYRIGHT: Eiyu Imai, Molecular Structure Characterization Unit, RIKEN, Japan
+PUBLICATION: Shintaro Kawamura, et al., Reactivity and properties of bis(chlorodifluoroacetyl) peroxide generated in situ from chlorodifluoroacetic anhydride for chlorodifluoromethylation reactions. Chem. Commun.,2018, 54, 11276. DOI: 10.1039/c8cc05905e.
+COMMENT: The compound analyzed, CH$NAME, is identical to the substance "4r" in Fig 6. of the PUBLICATION.
+COMMENT: Original ID of the mass spectral data is A_20180110_sekine4MB/DS283.
+COMMENT: JMS-T100GCV (JEOL, Akishima, Japan) is a reflectron time-of-flight (reTOF) mass spectrometer. Resolving power (FWHM, nominal) was 7000.
+COMMENT: Typical accuracy level of the m/z value expected was 5 ppm. Postrun m/z was adjusted with the known mass 248.0580.
+COMMENT: EI voltage was 70 V. Temperature of the ion-source and GC-transfer line were 200 C and 250 C, respectively. 
+CH$NAME: 1-(2-Chloro-2,2-difluoroethyl)-7-fluoro-1,2,3,4-tetrahydronaphthalene
+CH$COMPOUND_CLASS: Non-natural compound
+CH$FORMULA: C12H12ClF3
+CH$EXACT_MASS: 248.057962
+CH$SMILES: ClC(F)(F)CC1CCCc2ccc(F)cc21
+CH$IUPAC: InChI=1S/C12H12ClF3/c13-12(15,16)7-9-3-1-2-8-4-5-10(14)6-11(8)9/h4-6,9H,1-3,7H2
+CH$LINK: INCHIKEY YNAZIUHDXVDMGB-UHFFFAOYSA-N
+AC$INSTRUMENT: JMS-T100GCV (JEOL, Akishima, Japan) coupled to Agilent 7890A (Santa Clara, CA, USA) gas chromatograph.
+AC$INSTRUMENT_TYPE: GC-EI-TOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION EI
+AC$CHROMATOGRAPHY: CARRIER_GAS He, flow rate 1.5 ml/min
+AC$CHROMATOGRAPHY: COLUMN_NAME HP-5 19091J-413 USD364547H (Agilent, Wilmington, USA) with the length 30.0 m, I.D. 0.32 mm, and thickness 0.25 micrometer.
+AC$CHROMATOGRAPHY: COLUMN_TEMPERATURE Initial oven temperature at 70 C for 4 min and ramped at the rate of 30 C/min to 320 C and held at the final temperature for 1.67 min.
+AC$CHROMATOGRAPHY: INJECTION_TEMPERATURE 250 C
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.24 min
+PK$SPLASH: splash10-0002-1910000000-65ceb3ef11ff1b220f75
+PK$NUM_PEAK: 115
+PK$PEAK: m/z int. rel.int.
+  27.024 1.0346 10
+  28.006 0.4162 4
+  31.990 0.261 3
+  39.024 1.8106 18
+  41.040 0.5552 6
+  45.015 0.3183 3
+  50.017 0.5802 6
+  51.024 1.71 17
+  52.031 0.2969 3
+  53.040 1.3058 13
+  57.015 1.2025 12
+  59.031 0.3104 3
+  60.019 0.2301 2
+  62.016 0.3871 4
+  63.024 1.4116 14
+  64.014 2.1911 22
+  65.039 0.4002 4
+  69.016 0.3229 3
+  70.023 0.4925 5
+  73.027 0.9375 9
+  73.530 0.5265 5
+  74.026 0.5847 6
+  75.024 1.7886 18
+  76.031 0.3914 4
+  77.039 1.0231 10
+  78.046 0.2122 2
+  79.984 0.2637 3
+  81.015 0.807 8
+  82.022 0.2542 3
+  83.031 1.9355 19
+  84.967 0.6764 7
+  85.028 0.2081 2
+  86.026 0.1528 2
+  86.965 0.2134 2
+  87.025 0.3721 4
+  89.039 0.4532 5
+  93.015 0.2262 2
+  94.022 0.6057 6
+  95.031 0.9177 9
+  96.038 1.4877 15
+  97.045 0.2487 2
+  99.024 0.4847 5
+  100.031 0.2151 2
+  101.040 2.0292 20
+  102.046 0.5016 5
+  103.055 0.4227 4
+  107.031 1.5601 16
+  108.037 0.2592 3
+  109.046 18.5378 185
+  109.190 0.1169 1
+  110.049 1.5004 15
+  115.056 2.5792 26
+  116.061 0.4383 4
+  120.038 1.737 17
+  121.046 2.1656 22
+  122.054 14.091 141
+  123.058 1.6722 17
+  125.039 1.0861 11
+  126.047 0.6553 7
+  127.055 3.4791 35
+  128.063 2.0304 20
+  129.071 2.0887 21
+  130.075 0.2871 3
+  131.031 0.2289 2
+  132.037 0.2651 3
+  133.046 13.1602 131
+  134.053 6.9792 70
+  135.061 5.4866 55
+  136.065 0.5462 5
+  139.055 0.1906 2
+  143.008 0.6358 6
+  144.038 0.4462 4
+  145.045 2.0065 20
+  146.054 9.6634 97
+  147.061 11.151 111
+  148.068 4.1888 42
+  149.077 100 999
+  149.514 0.2168 2
+  149.682 0.2946 3
+  150.081 11.5362 115
+  150.560 0.1712 2
+  151.037 1.1896 12
+  152.043 0.2461 2
+  156.016 0.1793 2
+  157.046 0.3523 4
+  159.062 0.9523 10
+  160.069 0.3622 4
+  161.077 0.5781 6
+  162.084 0.1858 2
+  163.036 0.2425 2
+  163.093 1.1167 11
+  164.045 1.3926 14
+  165.052 1.7129 17
+  166.056 0.2174 2
+  167.066 0.1913 2
+  169.029 0.3769 4
+  170.052 0.2975 3
+  171.049 0.6564 7
+  177.052 0.2798 3
+  182.035 0.4031 4
+  183.042 0.5919 6
+  184.050 1.702 17
+  185.058 3.6744 37
+  186.061 0.413 4
+  188.045 0.2751 3
+  189.051 0.1926 2
+  191.068 0.3293 3
+  195.043 0.1985 2
+  220.027 1.0478 10
+  222.025 0.3118 3
+  247.051 0.2029 2
+  248.058 17.8815 179
+  249.061 2.5312 25
+  250.055 5.6824 57
+  251.058 0.7645 8
+//

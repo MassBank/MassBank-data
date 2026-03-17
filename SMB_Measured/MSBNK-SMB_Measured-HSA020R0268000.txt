@@ -1,0 +1,93 @@
+ACCESSION: MSBNK-SMB_Measured-HSA020R0268000
+RECORD_TITLE: atenolol acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 506 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 268.154384; int 399.394; delta(ppm) 0.167858
+COMMENT: PROPOSED_MF SevenGoldenRules 0.019; C14H21NO4; [M+H]+; delta(ppm) 0.018716; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.673; C14H21NO4; [M+H]+; delta(ppm) 0.016419; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 39.524; C14H21NO4; [M+H]+; delta(ppm) 0.016419; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C14H21NO4; [M+H]+; delta(ppm) 0.016419; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 69.056; C14H21NO4; [M+H]+; delta(ppm) 0.016419; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C14H21NO4; [M+H]+; delta(ppm) 0.016419; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 8.000; PUQIRTNPJRFRCZ-UHFFFAOYSA-N; C14H21NO4; Massbank:AU202506 Atenolol acidMetoprolol acid2-[4-[2-hydroxy-3-(propan-2-ylamino)propoxy]phenyl]acetic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.148; PUQIRTNPJRFRCZ; [M+H]+; atenolol acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.098; PUQIRTNPJRFRCZ-UHFFFAOYNA-N; [M+H]+; atenolol acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; PUQIRTNPJRFRCZ-UHFFFAOYNA-N; [M+H]+; atenolol acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.034; PUQIRTNPJRFRCZ-UHFFFAOYSA-N; [M+H]+; 2-[4-[2-hydroxy-3-(propan-2-ylamino)propoxy]phenyl]acetic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.296; PUQIRTNPJRFRCZ; [M+H]+; Atenolol acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.984; PUQIRTNPJRFRCZ; [M+H]+; Atenolol acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -34.543; PUQIRTNPJRFRCZ; [M+H]+; 2-(4-{2-hydroxy-3-[(propan-2-yl)amino]propoxy}phenyl)acetic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.942; PUQIRTNPJRFRCZ; [M+H]+; 2-(4-{2-hydroxy-3-[(propan-2-yl)amino]propoxy}phenyl)acetic acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3b; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 8 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 2)
+CH$NAME: atenolol acid
+CH$NAME: 2-[4-[2-hydroxy-3-(propan-2-ylamino)propoxy]phenyl]acetic acid
+CH$COMPOUND_CLASS: Non-Natural Product
+CH$FORMULA: C14H21NO4
+CH$EXACT_MASS: 267.147058
+CH$SMILES: CC(C)NCC(COC1=CC=C(C=C1)CC(=O)O)O
+CH$IUPAC: InChI=1S/C14H21NO4/c1-10(2)15-8-12(16)9-19-13-5-3-11(4-6-13)7-14(17)18/h3-6,10,12,15-16H,7-9H2,1-2H3,(H,17,18)
+CH$LINK: INCHIKEY PUQIRTNPJRFRCZ-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:62936
+CH$LINK: ChemOnt CHEMONTID:0002341; Organic compounds; Benzenoids; Phenol ethers
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 2.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Xbridge BEH HILIC (75 x 2.1mm,2.5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min-85% B, 2 min-10% B, 14 min- 10% B, 14.1 min- 85% B, 16 min- 85%B.
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.283
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 268.154339
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-014j-2890000000-aa05928fa908625c7117
+PK$ANNOTATION: m/z int mzPAF cor n
+  72.080874 96 f{C4H10N1}/1.36ppm,p-C10H12O4 0.5041 449
+  74.060151 77 f{C3H8N1O1}/1.50ppm,p-C11H14O3 0.6158 449
+  91.054296 31 f{C7H7}/0.77ppm,p-C7H15N1O4 0.9705 438
+  98.096576 133 f{C6H12N1}/1.53ppm,p-C8H10O4 0.9915 505
+  116.107163 135 f{C6H14N1O1}/1.48ppm,p-C8H8O3 0.9924 505
+  117.069903 20 f{C9H9}/0.22ppm,p-C5H13N1O4 0.9466 360
+  119.049218 21 f{C8H7O1}/0.65ppm,p-C6H15N1O3 0.9517 382
+  137.059830 28 f{C8H9O2}/0.90ppm,p-C6H13N1O2 0.9688 421
+  145.064993 495 f{C10H9O1}/1.39ppm,p-C4H13N1O3 0.9951 506
+  165.054803 87 f{C9H9O3}/1.11ppm,p-C5H13N1O1 0.9895 503
+  191.070536 305 f{C11H11O3}/1.39ppm,p-C3H11N1O1 0.9958 506
+  226.107640 109 f{C11H16N1O4}/1.13ppm,p-C3H6 0.9920 502
+  250.143910 24 f{C14H20N1O3}/0.56ppm,p-H2O1 0.9656 387
+  268.154617 999 f{C14H22N1O4}/1.05ppm,p 1.0000 506
+PK$NUM_PEAK: 14
+PK$PEAK: m/z int. rel.int.
+  72.080874 96.00 96
+  74.060151 77.00 77
+  91.054296 31.00 31
+  98.096576 133.00 133
+  116.107163 135.00 135
+  117.069903 20.00 20
+  119.049218 21.00 21
+  137.059830 28.00 28
+  145.064993 495.00 495
+  165.054803 87.00 87
+  191.070536 305.00 305
+  226.107640 109.00 109
+  250.143910 24.00 24
+  268.154617 999.00 999
+//

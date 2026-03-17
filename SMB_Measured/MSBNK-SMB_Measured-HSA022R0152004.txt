@@ -1,0 +1,78 @@
+ACCESSION: MSBNK-SMB_Measured-HSA022R0152004
+RECORD_TITLE: Acetaminophen; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 61 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 152.070635; int 204.073; delta(ppm) 0.111941
+COMMENT: PROPOSED_MF SevenGoldenRules 0.086; C8H9NO2; [M+H]+; delta(ppm) 0.086057; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.968; C8H9NO2; [M+H]+; delta(ppm) 0.085681; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 32.696; C8H9NO2; [M+H]+; delta(ppm) 0.085681; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C8H9NO2; [M+H]+; delta(ppm) 0.085681; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 44.670; C8H9NO2; [M+H]+; delta(ppm) 0.085681; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.999; C8H9NO2; [M+H]+; delta(ppm) 0.085681; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 40.000; RZVAJINKPMORJF-UHFFFAOYSA-N; C8H9NO2; Massbank:EA024305 ParacetamolAcetaminophenN-(4-hydroxyphenyl)acetamide; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.007; RZVAJINKPMORJF; [M+H]+; Acetaminophen; Ranking 5;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.687; RZVAJINKPMORJF-UHFFFAOYSA-N; [M+H]+; Acetaminophen; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.646; RZVAJINKPMORJF-UHFFFAOYSA-N; [M+H]+; N-(4-hydroxyphenyl)acetamide; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.614; RZVAJINKPMORJF; [M+H]+; Acetamol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.480; RZVAJINKPMORJF; [M+H]+; Acetamol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -12.690; RZVAJINKPMORJF; [M+H]+; Apap; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.935; RZVAJINKPMORJF; [M+H]+; Apap; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 40 spectra); Supported by CFM-ID:MsfinderDB (Ranking 5), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0001859)
+CH$NAME: Acetaminophen
+CH$NAME: Apap
+CH$NAME: N-(4-hydroxyphenyl)acetamide
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C8H9NO2
+CH$EXACT_MASS: 151.063329
+CH$SMILES: CC(=O)NC1=CC=C(C=C1)O
+CH$IUPAC: InChI=1S/C8H9NO2/c1-6(10)9-7-2-4-8(11)5-3-7/h2-5,11H,1H3,(H,9,10)
+CH$LINK: HMDB HMDB0001859
+CH$LINK: INCHIKEY RZVAJINKPMORJF-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:1983
+CH$LINK: ChemOnt CHEMONTID:0004646; Organic compounds; Benzenoids; Phenols; 1-hydroxy-2-unsubstituted benzenoids
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.003
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 152.070618
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-1900000000-44ab12c680fdeef50b28
+PK$ANNOTATION: m/z int mzPAF cor n
+  65.038504 61 f{C5H5}/-1.12ppm,p-C3H5N1O2 0.5760 47
+  92.049403 101 f{C6H6N1}/-0.79ppm,p-C2H4O2 0.7766 59
+  93.033467 103 f{C6H5O1}/-0.26ppm,p-C2H5N1O1 0.7655 56
+  110.060158 999 f{C6H8N1O1}/1.07ppm,p-C2H2O1 0.9433 61
+  111.044038 121 f{C6H7O2}/-0.16ppm,p-C2H3N1 0.8623 56
+  152.070726 370 f{C8H10N1O2}/0.80ppm,p 1.0000 61
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  65.038504 61.00 61
+  92.049403 101.00 101
+  93.033467 103.00 103
+  110.060158 999.00 999
+  111.044038 121.00 121
+  152.070726 370.00 370
+//

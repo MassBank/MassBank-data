@@ -1,0 +1,74 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0177000
+RECORD_TITLE: Serotonin; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 15 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 177.102238; int 116.814; delta(ppm) -0.845007
+COMMENT: PROPOSED_MF SevenGoldenRules 0.840; C10H12N2O; [M+H]+; delta(ppm) 0.840455; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.339; C10H12N2O; [M+H]+; delta(ppm) 0.833126; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 20.334; C10H12N2O; [M+H]+; delta(ppm) 0.833126; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C10H12N2O; [M+H]+; delta(ppm) 0.833126; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 30.113; C10H12N2O; [M+H]+; delta(ppm) 0.833126; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C10H12N2O; [M+H]+; delta(ppm) 0.833126; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 52.000; QZAYGJVTTNCVMB-UHFFFAOYSA-N; C10H12N2O; Serotonin - 40.0 eV; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.750; QZAYGJVTTNCVMB; [M+H]+; Serotonin; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.290; QZAYGJVTTNCVMB-UHFFFAOYSA-N; [M+H]+; Serotonin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.803; QZAYGJVTTNCVMB-UHFFFAOYSA-N; [M+H]+; Serotonin; Ranking 5;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.701; QZAYGJVTTNCVMB-UHFFFAOYSA-N; [M+H]+; 3-(2-aminoethyl)-1H-indol-5-ol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -42.353; QZAYGJVTTNCVMB; [M+H]+; Antemoqua; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.602; QZAYGJVTTNCVMB; [M+H]+; Antemoqua; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -17.284; QZAYGJVTTNCVMB; [M+H]+; Serotonin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.946; QZAYGJVTTNCVMB; [M+H]+; Serotonin; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 52 spectra); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 5), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000259)
+CH$NAME: Serotonin
+CH$NAME: 3-(2-aminoethyl)-1H-indol-5-ol
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C10H12N2O
+CH$EXACT_MASS: 176.094963
+CH$SMILES: C1=CC2=C(C=C1O)C(=CN2)CCN
+CH$IUPAC: InChI=1S/C10H12N2O/c11-4-3-7-6-12-10-2-1-8(13)5-9(7)10/h1-2,5-6,12-13H,3-4,11H2
+CH$LINK: HMDB HMDB0000259
+CH$LINK: INCHIKEY QZAYGJVTTNCVMB-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:5202
+CH$LINK: ChemOnt CHEMONTID:0000183; Organic compounds; Organoheterocyclic compounds; Indoles and derivatives; Tryptamines and derivatives
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.127
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 177.102387
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03xr-0900000000-1c7edbceee9e6b76b687
+PK$ANNOTATION: m/z int mzPAF cor n
+  105.069188 126 f{C8H9}/-6.56ppm,p-C2H4N2O1 0.7488 13
+  115.054061 394 f{C9H7}/-1.44ppm,p-C1H6N2O1 0.7926 13
+  117.057659 271 f{C8H7N1}/3.06ppm,p-C2H6N1O1 1.0000 12
+  160.075743 999 f{C10H10N1O1}/0.33ppm,p-H3N1 0.8678 15
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  105.069188 126.00 126
+  115.054061 394.00 394
+  117.057659 271.00 271
+  160.075743 999.00 999
+//

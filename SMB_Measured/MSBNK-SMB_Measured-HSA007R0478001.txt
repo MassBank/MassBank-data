@@ -1,0 +1,104 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0478001
+RECORD_TITLE: LysoPE(18:2/0:0); LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 35 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 478.292415; int 162.919; delta(ppm) -0.603627
+COMMENT: PROPOSED_MF SevenGoldenRules 0.233; C23H44NO7P; [M+H]+; delta(ppm) -0.232565; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 4.029; C23H44NO7P; [M+H]+; delta(ppm) -0.232487; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 5022.830; C23H44NO7P; [M+H]+; delta(ppm) -0.232487; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C23H44NO7P; [M+H]+; delta(ppm) -0.232487; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 66.224; C23H44NO7P; [M+H]+; delta(ppm) -0.232487; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C23H44NO7P; [M+H]+; delta(ppm) -0.232487; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; DBHKHNGBVGWQJE-UHFFFAOYSA-N; C23H44NO7P; Massbank:PR310835 LPE 18:2; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.074; DBHKHNGBVGWQJE; [M+H]+; LysoPE(18:2(9Z,12Z)/0:0); Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.920; DBHKHNGBVGWQJE-USWSLJGRSA-N; [M+H]+; LysoPE(18:2(9Z,12Z)/0:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; DBHKHNGBVGWQJE-USWSLJGRSA-N; [M+H]+; LysoPE(18:2(9Z,12Z)/0:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; DBHKHNGBVGWQJE-USWSLJGRSA-N; [M+H]+; [(2R)-3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-hydroxypropyl] (9Z,12Z)-octadeca-9,12-dienoate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.005; DBHKHNGBVGWQJE; [M+H]+; Lysophosphatidylethanolamine(18:2/0:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.545; DBHKHNGBVGWQJE; [M+H]+; Lysophosphatidylethanolamine(18:2/0:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -45.638; DBHKHNGBVGWQJE; [M+H]+; 1-Linoleoyl-Sn-Glycero-3-Phosphoethanolamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.586; DBHKHNGBVGWQJE; [M+H]+; 1-Linoleoyl-Sn-Glycero-3-Phosphoethanolamine; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS5_CSI (FDR < 0.05); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0011507)
+CH$NAME: LysoPE(18:2/0:0)
+CH$NAME: [3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-hydroxypropyl] octadeca-9,12-dienoate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C23H44NO7P
+CH$EXACT_MASS: 477.285540
+CH$SMILES: CCCCCC=CCC=CCCCCCCCC(=O)OCC(COP(=O)(O)OCCN)O
+CH$IUPAC: InChI=1S/C23H44NO7P/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-23(26)29-20-22(25)21-31-32(27,28)30-19-18-24/h6-7,9-10,22,25H,2-5,8,11-21,24H2,1H3,(H,27,28)
+CH$LINK: HMDB HMDB0011507
+CH$LINK: INCHIKEY DBHKHNGBVGWQJE-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:75958059
+CH$LINK: ChemOnt CHEMONTID:0002215; Organic compounds; Lipids and lipid-like molecules; Glycerophospholipids; Glycerophosphoethanolamines
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 14.658
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 478.292703
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000i-1109100000-49fb3ad0fff1cd5c0309
+PK$ANNOTATION: m/z int mzPAF cor n
+  81.069783 62 f{C6H9}/-1.16ppm,p-C17H36N1O7P1 0.9050 28
+  83.085894 24 f{C6H11}/4.42ppm,p-C17H34N1O7P1 0.8873 27
+  93.070127 30 f{C7H9}/2.68ppm,p-C16H36N1O7P1 0.8947 28
+  95.085715 58 f{C7H11}/1.98ppm,p-C16H34N1O7P1 0.9193 31
+  105.069948 13 f{C8H9}/0.68ppm,p-C15H36N1O7P1 0.7352 25
+  109.101063 33 f{C8H13}/-1.04ppm,p-C15H32N1O7P1 0.8901 31
+  119.085055 14 f{C9H11}/-3.96ppm,p-C14H34N1O7P1 0.8746 26
+  133.100689 20 f{C10H13}/-3.66ppm,p-C13H32N1O7P1 0.7103 30
+  135.116400 19 f{C10H15}/-3.16ppm,p-C13H30N1O7P1 0.8139 27
+  149.132542 14 f{C11H17}/0.44ppm,p-C12H28N1O7P1 0.7972 25
+  163.148257 13 f{C12H19}/0.80ppm,p-C11H26N1O7P1 0.9291 25
+  175.148397 11 f{C9H22N1P1}/-0.22ppm,p-C14H23O7 0.8709 26
+  216.063676 21 f{C5H15N1O6P1}/2.44ppm,p-C18H30O1 0.9733 25
+  245.226241 21 f{C18H29}/-0.55ppm,p-C5H16N1O7P1 0.9499 26
+  263.236410 37 f{C18H31O1}/-2.02ppm,p-C5H14N1O6P1 0.8651 33
+  306.280095 63 f{C20H36N1O1}/3.12ppm,p-C3H9O6P1 0.9366 30
+  337.273836 999 f{C21H37O3}/0.34ppm,p-C2H8N1O4P1 0.9597 35
+  460.283140 78 f{C23H43N1O6P1}/1.93ppm,p-H2O1 0.9533 27
+  478.292533 150 f{C23H45N1O7P1}/-0.59ppm,p 1.0000 35
+PK$NUM_PEAK: 19
+PK$PEAK: m/z int. rel.int.
+  81.069783 62.00 62
+  83.085894 24.00 24
+  93.070127 30.00 30
+  95.085715 58.00 58
+  105.069948 13.00 13
+  109.101063 33.00 33
+  119.085055 14.00 14
+  133.100689 20.00 20
+  135.116400 19.00 19
+  149.132542 14.00 14
+  163.148257 13.00 13
+  175.148397 11.00 11
+  216.063676 21.00 21
+  245.226241 21.00 21
+  263.236410 37.00 37
+  306.280095 63.00 63
+  337.273836 999.00 999
+  460.283140 78.00 78
+  478.292533 150.00 150
+//

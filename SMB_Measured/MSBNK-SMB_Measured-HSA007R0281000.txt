@@ -1,0 +1,110 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0281000
+RECORD_TITLE: Aspartylphenylalanine; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 53 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 281.112490; int 876.236; delta(ppm) -2.209001
+COMMENT: PROPOSED_MF SevenGoldenRules 0.311; C13H16N2O5; [M+H]+; delta(ppm) -0.310597; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.194; C13H16N2O5; [M+H]+; delta(ppm) -0.309723; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 65.059; C13H16N2O5; [M+H]+; delta(ppm) -0.309723; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C13H16N2O5; [M+H]+; delta(ppm) -0.309723; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 109.955; C13H16N2O5; [M+H]+; delta(ppm) -0.309723; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C13H16N2O5; [M+H]+; delta(ppm) -0.309723; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 5.000; YZQCXOFQZKCETR-UWVGGRQHSA-N; C13H16N2O5; ASP-PHE; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; YZQCXOFQZKCETR-UHFFFAOYSA-N; C13H16N2O5; Spectral Match to .alpha.-L-Asp-L-Phe from NIST14; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.920; YZQCXOFQZKCETR; [M+H]+; Aspartylphenylalanine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.362; YZQCXOFQZKCETR-WSYQHHSTNA-N; [M+H]+; Aspartylphenylalanine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.940; YZQCXOFQZKCETR-WSYQHHSTNA-N; [M+H]+; Aspartylphenylalanine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.440; YZQCXOFQZKCETR-UWVGGRQHSA-N; [M+H]+; (3S)-3-amino-4-[[(1S)-1-carboxy-2-phenylethyl]amino]-4-oxobutanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -2.543; YZQCXOFQZKCETR; [M+H]+; alpha-Asp-Phe; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.926; YZQCXOFQZKCETR; [M+H]+; alpha-Asp-Phe; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -22.630; YZQCXOFQZKCETR; [M+H]+; Asp-Phe; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.997; YZQCXOFQZKCETR; [M+H]+; Asp-Phe; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 8 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000706)
+CH$NAME: Aspartylphenylalanine
+CH$NAME: Asp-Phe
+CH$NAME: 3-amino-4-[(1-carboxy-2-phenylethyl)amino]-4-oxobutanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C13H16N2O5
+CH$EXACT_MASS: 280.105922
+CH$SMILES: C1=CC=C(C=C1)CC(C(=O)O)NC(=O)C(CC(=O)O)N
+CH$IUPAC: InChI=1S/C13H16N2O5/c14-9(7-11(16)17)12(18)15-10(13(19)20)6-8-4-2-1-3-5-8/h1-5,9-10H,6-7,14H2,(H,15,18)(H,16,17)(H,19,20)
+CH$LINK: HMDB HMDB0000706
+CH$LINK: INCHIKEY YZQCXOFQZKCETR-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:3317082
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 5.045
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 281.113111
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-1920000000-cf435ce14d2faf51eca0
+PK$ANNOTATION: m/z int mzPAF cor n
+  70.028627 79 f{C3H4N1O1}/-1.61ppm,p-C10H13N1O4 0.8829 48
+  88.039420 162 f{C3H6N1O2}/1.31ppm,p-C10H11N1O3 0.8605 49
+  91.054255 170 f{C7H7}/0.31ppm,p-C6H10N2O5 0.9107 51
+  103.054019 124 f{C8H7}/-2.02ppm,p-C5H10N2O5 0.8621 49
+  120.080663 999 f{C8H10N1}/-0.94ppm,p-C5H7N1O5 0.9218 51
+  130.065272 80 f{C9H8N1}/1.12ppm,p-C4H9N1O5 0.8862 44
+  131.048406 57 f{C9H7O1}/-5.61ppm,p-C4H10N2O4 0.8082 39
+  144.080512 39 f{C10H10N1}/-1.83ppm,p-C3H7N1O5 0.7737 45
+  157.064766 34 f{C11H9O1}/-0.16ppm,p-C2H8N2O4 0.7690 46
+  166.086397 306 f{C9H12N1O2}/0.86ppm,p-C4H5N1O3 0.9089 50
+  172.075828 72 f{C11H10N1O1}/0.80ppm,p-C2H7N1O4 0.8461 52
+  175.086730 183 f{C10H11N2O1}/0.80ppm,p-C3H6O4 0.9143 53
+  182.059971 61 f{C12H8N1O1}/-0.38ppm,p-C1H9N1O4 0.7894 46
+  190.086666 38 f{C11H12N1O2}/2.16ppm,p-C2H5N1O3 0.7473 44
+  200.070982 201 f{C12H10N1O2}/1.88ppm,p-C1H7N1O3 0.9390 51
+  217.097214 34 f{C12H13N2O2}/0.28ppm,p-C1H4O3 0.8482 42
+  221.092156 77 f{C11H13N2O3}/0.40ppm,p-C2H4O2 0.8923 47
+  235.108154 114 f{C12H15N2O3}/1.85ppm,p-C1H2O2 0.9263 52
+  246.076111 84 f{C13H12N1O4}/0.11ppm,p-H5N1O1 0.9189 47
+  263.102106 30 f{C13H15N2O4}/-2.00ppm,p-H2O1 0.8430 44
+  281.113642 51 f{C13H17N2O5}/1.58ppm,p 1.0000 38
+PK$NUM_PEAK: 21
+PK$PEAK: m/z int. rel.int.
+  70.028627 79.00 79
+  88.039420 162.00 162
+  91.054255 170.00 170
+  103.054019 124.00 124
+  120.080663 999.00 999
+  130.065272 80.00 80
+  131.048406 57.00 57
+  144.080512 39.00 39
+  157.064766 34.00 34
+  166.086397 306.00 306
+  172.075828 72.00 72
+  175.086730 183.00 183
+  182.059971 61.00 61
+  190.086666 38.00 38
+  200.070982 201.00 201
+  217.097214 34.00 34
+  221.092156 77.00 77
+  235.108154 114.00 114
+  246.076111 84.00 84
+  263.102106 30.00 30
+  281.113642 51.00 51
+//

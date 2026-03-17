@@ -1,0 +1,78 @@
+ACCESSION: MSBNK-SMB_Measured-HSA002R0195000
+RECORD_TITLE: Galactonic acid; LC-ESI-QFT; MS2; NEGATIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 157 product ion spectra among 22 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MB-POST
+COMMENT: DATASET_ID In preparaion
+COMMENT: DATASET_TITLE Test DDA dataset obtained from NIST1950 by HILIC/AEX-MS
+COMMENT: DATASET_AUTHORS Takahashi, M, Torigoe, T, Izumi, Y, Bamba, T., Kyoshu University
+COMMENT: PRECURSOR_IN_MS1 mz 195.051013; int 39.581; delta(ppm) 0.015342
+COMMENT: PROPOSED_MF SevenGoldenRules 0.087; C6H12O7; [M-H]1; delta(ppm) -0.086709; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.086; C6H12O7; [M-H]-; delta(ppm) -0.083593; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 14.953; C6H12O7; [M-H]-; delta(ppm) -0.083593; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H12O7; [M-H]-; delta(ppm) -0.083593; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 20.179; C6H12O7; [M-H]-; delta(ppm) -0.083593; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H12O7; [M-H]-; delta(ppm) -0.083593; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 6.000; RGHNJXZEOKUKBD-SQOUGZDYSA-N; C6H12O7; GLUCONIC ACID; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; RGHNJXZEOKUKBD-UHFFFAOYSA-N; C6H12O7; Massbank:PR100708 D-Gluconic acidD-gluconateGlonsenGlucose AcidD-Gluco-hexonic acid2,3,4,5,6-Pentahydroxycaproic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; RGHNJXZEOKUKBD-MGCNEYSASA-N; C6H12O7; 1726059 - 40.0 eV; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.873; RGHNJXZEOKUKBD; [M-H]-; Galactonic acid; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.850; RGHNJXZEOKUKBD-JYSVFQQMNA-N; [M-H]-; Galactonic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.721; RGHNJXZEOKUKBD-JYSVFQQMNA-N; [M-H]-; Galactonic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; RGHNJXZEOKUKBD-SQOUGZDYSA-N; [M-H]-; (2R,3S,4R,5R)-2,3,4,5,6-pentahydroxyhexanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -3.991; RGHNJXZEOKUKBD; [M-H]-; gulonate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.411; RGHNJXZEOKUKBD; [M-H]-; gulonate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -8.379; RGHNJXZEOKUKBD; [M-H]-; Gulonate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.487; RGHNJXZEOKUKBD; [M-H]-; Gulonate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS5_CSI (FDR < 0.05); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 12 spectra); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000565)
+CH$NAME: Galactonic acid
+CH$NAME: 2,3,4,5,6-pentahydroxyhexanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H12O7
+CH$EXACT_MASS: 196.058303
+CH$SMILES: C(C(C(C(C(C(=O)O)O)O)O)O)O
+CH$IUPAC: InChI=1S/C6H12O7/c7-1-2(8)3(9)4(10)5(11)6(12)13/h2-5,7-11H,1H2,(H,12,13)
+CH$LINK: HMDB HMDB0000565
+CH$LINK: INCHIKEY RGHNJXZEOKUKBD-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:604
+CH$LINK: ChemOnt CHEMONTID:0000299; Organic compounds; Organic acids and derivatives; Hydroxy acids and derivatives; Medium-chain hydroxy acids and derivatives
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Nexera X2 UHPLC system, Shimadzu - Q Exactive Orbitrap, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE NEGATIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 V
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME GL-HilicAex 2.1 x 150 mm, 5 mm (Resonac)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 15.5 min: 40, 16.5 min: 0, 26.5 min: 0, 27.5 min: 95, 35 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 12.925
+MS$FOCUSED_ION: ION_TYPE [M-H]-
+MS$FOCUSED_ION: PRECURSOR_M/Z 195.051010
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-002b-2900000000-44ef3a4a8535d026cdd1
+PK$ANNOTATION: m/z int mzPAF cor n
+  75.008761 351 f{C2H3O3}/-0.08ppm,p-C4H8O4 0.8998 157
+  129.019342 281 f{C5H5O4}/0.08ppm,p-C1H6O3 0.5141 157
+  177.040513 112 f{C6H9O6}/0.29ppm,p-H2O1 0.6447 111
+  195.051096 999 f{C6H11O7}/0.36ppm,p 1.0000 157
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  75.008761 351.00 351
+  129.019342 281.00 281
+  177.040513 112.00 112
+  195.051096 999.00 999
+//

@@ -1,0 +1,77 @@
+ACCESSION: MSBNK-SMB_Measured-HSA010R0147003
+RECORD_TITLE: Glutamine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 94 product ion spectra among 101 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001914
+COMMENT: DATASET_TITLE Fecal Metabolomics Reveals Products of Dysregulated Proteolysis and Altered Microbial Metabolism in Obesity-Related Osteoarthritis
+COMMENT: DATASET_AUTHORS Susan Sumner, Metabolomics and Exposome Laboratory, Nutrition Research Institute, UNC Chapel Hill
+COMMENT: PRECURSOR_IN_MS1 mz 147.076403; int 191.115; delta(ppm) -0.040560
+COMMENT: PROPOSED_MF SevenGoldenRules 0.068; C5H10N2O3; [M+H]+; delta(ppm) -0.068461; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.553; C5H10N2O3; [M+H]+; delta(ppm) -0.072287; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 23.458; C5H10N2O3; [M+H]+; delta(ppm) -0.072287; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C5H10N2O3; [M+H]+; delta(ppm) -0.072287; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 28.603; C5H10N2O3; [M+H]+; delta(ppm) -0.072287; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C5H10N2O3; [M+H]+; delta(ppm) -0.072287; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 13.000; ZDXPYRJPNDTMRX-VKHMYHEASA-N; C5H10N2O3; L-(+)-glutamine - 30.0 eV; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 4.000; ZDXPYRJPNDTMRX-UHFFFAOYSA-N; C5H10N2O3; Massbank:MT000103 Glutamine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.889; ZDXPYRJPNDTMRX; [M+H]+; L-Glutamine; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 8.355; ZDXPYRJPNDTMRX-VKHMYHEASA-N; [M+H]+; L-Glutamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; ZDXPYRJPNDTMRX-VKHMYHEASA-N; [M+H]+; L-Glutamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.363; ZDXPYRJPNDTMRX-VKHMYHEASA-N; [M+H]+; (2S)-2,5-diamino-5-oxopentanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -17.710; ZDXPYRJPNDTMRX; [M+H]+; glutamin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.865; ZDXPYRJPNDTMRX; [M+H]+; glutamin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -80.266; ZDXPYRJPNDTMRX; [M+H]+; Hgln; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.965; ZDXPYRJPNDTMRX; [M+H]+; Hgln; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 17 spectra); Supported by CFM-ID:MsfinderDB (Ranking 3), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000641)
+CH$NAME: Glutamine
+CH$NAME: Hgln
+CH$NAME: 2,5-diamino-5-oxopentanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C5H10N2O3
+CH$EXACT_MASS: 146.069142
+CH$SMILES: C(CC(=O)N)C(C(=O)O)N
+CH$IUPAC: InChI=1S/C5H10N2O3/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H2,7,8)(H,9,10)
+CH$LINK: HMDB HMDB0000641
+CH$LINK: INCHIKEY ZDXPYRJPNDTMRX-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:738
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Feces
+AC$INSTRUMENT: Orbitrap Q-Exactive HF-X, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10-35,ramp
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.5 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME ODS
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: RETENTION_TIME 0.611
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 147.076408
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-0900000000-bdb7cb9ad08a56656ec2
+PK$ANNOTATION: m/z int mzPAF cor n
+  84.080891 98 f{C5H10N1}/1.37ppm,p-H1N1O3 0.4735 72
+  101.070966 36 f{C4H9N2O1}/0.26ppm,p-C1H2O2 0.9377 86
+  130.049977 999 f{C5H8N1O3}/0.82ppm,p-H3N1 0.2953 94
+  147.076664 36 f{C5H11N2O3}/1.67ppm,p 1.0000 83
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  84.080891 98.00 98
+  101.070966 36.00 36
+  130.049977 999.00 999
+  147.076664 36.00 36
+//

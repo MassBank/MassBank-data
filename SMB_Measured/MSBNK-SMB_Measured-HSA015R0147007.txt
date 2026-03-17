@@ -1,0 +1,74 @@
+ACCESSION: MSBNK-SMB_Measured-HSA015R0147007
+RECORD_TITLE: Glutamine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 20 product ion spectra among 27 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS6402
+COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
+COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
+COMMENT: PRECURSOR_IN_MS1 mz 147.076330; int 178.165; delta(ppm) 0.071574
+COMMENT: PROPOSED_MF SevenGoldenRules 0.678; C5H10N2O3; [M+H]+; delta(ppm) -0.677762; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.792; C5H10N2O3; [M+H]+; delta(ppm) -0.677415; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 26.857; C5H10N2O3; [M+H]+; delta(ppm) -0.677415; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C5H10N2O3; [M+H]+; delta(ppm) -0.677415; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 34.442; C5H10N2O3; [M+H]+; delta(ppm) -0.677415; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C5H10N2O3; [M+H]+; delta(ppm) -0.677415; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 40.000; ZDXPYRJPNDTMRX-VKHMYHEASA-N; C5H10N2O3; GLUTAMINE - 50.0 eV; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 12.000; ZDXPYRJPNDTMRX-UHFFFAOYSA-N; C5H10N2O3; Massbank:PB000467 Glutamine2,5-diamino-5-oxopentanoic acid; Ranking 4;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; ZDXPYRJPNDTMRX-GSVOUGTGSA-N; C5H10N2O3; Glutamine ; Ranking 6;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.200; ZDXPYRJPNDTMRX; [M+H]+; L-Glutamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.136; ZDXPYRJPNDTMRX-VKHMYHEASA-N; [M+H]+; L-Glutamine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.998; ZDXPYRJPNDTMRX-VKHMYHEASA-N; [M+H]+; L-Glutamine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.474; ZDXPYRJPNDTMRX-VKHMYHEASA-N; [M+H]+; (2S)-2,5-diamino-5-oxopentanoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -2.612; ZDXPYRJPNDTMRX; [M+H]+; glutamin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.878; ZDXPYRJPNDTMRX; [M+H]+; glutamin; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -67.810; ZDXPYRJPNDTMRX; [M+H]+; Hgln; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.921; ZDXPYRJPNDTMRX; [M+H]+; Hgln; Ranking 2;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 52 spectra); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 2), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000641)
+CH$NAME: Glutamine
+CH$NAME: 2,5-diamino-5-oxopentanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C5H10N2O3
+CH$EXACT_MASS: 146.069142
+CH$SMILES: C(CC(=O)N)C(C(=O)O)N
+CH$IUPAC: InChI=1S/C5H10N2O3/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H2,7,8)(H,9,10)
+CH$LINK: HMDB HMDB0000641
+CH$LINK: INCHIKEY ZDXPYRJPNDTMRX-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:738
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Vanquish Flex UHPLC system, Thermo Fisher Scientific - Orbitrap Q Exactive Plus mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.50; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.739
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 147.076319
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-9300000000-d5bf9d36c80992707fda
+PK$ANNOTATION: m/z int mzPAF cor n
+  56.049446 36 f{C3H6N1}/-0.54ppm,p-C2H5N1O3 0.7774 20
+  84.044387 999 f{C4H6N1O1}/-0.03ppm,p-C1H5N1O2 0.9774 20
+  130.049821 354 f{C5H8N1O3}/-0.37ppm,p-H3N1 1.0000 20
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  56.049446 36.00 36
+  84.044387 999.00 999
+  130.049821 354.00 354
+//

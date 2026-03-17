@@ -1,0 +1,76 @@
+ACCESSION: MSBNK-SMB_Measured-HSA020R0162004
+RECORD_TITLE: Carnitine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 69 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 162.112374; int 136.138; delta(ppm) -0.030968
+COMMENT: PROPOSED_MF SevenGoldenRules 0.552; C7H15NO3; [M+H]+; delta(ppm) -0.552434; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.557; C7H15NO3; [M+H]+; delta(ppm) -0.553836; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 29.170; C7H15NO3; [M+H]+; delta(ppm) -0.553836; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C7H15NO3; [M+H]+; delta(ppm) -0.553836; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 38.604; C7H15NO3; [M+H]+; delta(ppm) -0.553836; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C7H15NO3; [M+H]+; delta(ppm) -0.553836; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.857; PHIQHXFUZVPYII; [M+H]+; L-Carnitine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.357; PHIQHXFUZVPYII-ZCFIWIBFSA-N; [M+H]+; L-Carnitine; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -15.261; PHIQHXFUZVPYII; [M+H]+; Carnitin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.984; PHIQHXFUZVPYII; [M+H]+; Carnitin; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -34.975; PHIQHXFUZVPYII; [M+H]+; (3-Carboxy-2-hydroxypropyl)-tris(trideuteriomethyl)azanium; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.963; PHIQHXFUZVPYII; [M+H]+; (3-Carboxy-2-hydroxypropyl)-tris(trideuteriomethyl)azanium; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0000062)
+CH$NAME: Carnitine
+CH$NAME: (3-Carboxy-2-hydroxypropyl)-tris(trideuteriomethyl)azanium
+CH$NAME: 3-hydroxy-4-(trimethylazaniumyl)butanoate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C7H15NO3
+CH$EXACT_MASS: 161.105193
+CH$SMILES: C[N+](C)(C)CC(CC(=O)[O-])O
+CH$IUPAC: InChI=1S/C7H15NO3/c1-8(2,3)5-6(9)4-7(10)11/h6,9H,4-5H2,1-3H3
+CH$LINK: HMDB HMDB0000062
+CH$LINK: INCHIKEY PHIQHXFUZVPYII-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:288
+CH$LINK: ChemOnt CHEMONTID:0000503; Organic compounds; Organic nitrogen compounds; Organonitrogen compounds; Quaternary ammonium salts
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 2.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Xbridge BEH HILIC (75 x 2.1mm,2.5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min-85% B, 2 min-10% B, 14 min- 10% B, 14.1 min- 85% B, 16 min- 85%B.
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.231
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 162.112380
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0ika-5900000000-86447dff9197bf092ef7
+PK$ANNOTATION: m/z int mzPAF cor n
+  85.028262 375 f{C4H5O2}/-1.69ppm,p-C3H11N1O1 0.8513 69
+  98.060017 992 f{C5H8N1O1}/-0.24ppm,p-C2H8O2 0.6381 69
+  102.091184 281 f{C5H12N1O1}/-1.53ppm,p-C2H4O2 0.7274 68
+  103.038899 642 f{C4H7O3}/-0.69ppm,p-C3H9N1 0.9156 69
+  116.070353 218 f{C5H10N1O2}/-2.17ppm,p-C2H6O1 0.6359 61
+  162.112388 999 f{C7H16N1O3}/-0.51ppm,p 1.0000 69
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  85.028262 375.00 375
+  98.060017 992.00 992
+  102.091184 281.00 281
+  103.038899 642.00 642
+  116.070353 218.00 218
+  162.112388 999.00 999
+//

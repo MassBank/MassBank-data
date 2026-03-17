@@ -1,0 +1,73 @@
+ACCESSION: MSBNK-SMB_Measured-HSA007R0371002
+RECORD_TITLE: Octaethylene glycol; LC-ESI-QTOF; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 10 product ion spectra among 60 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS417
+COMMENT: DATASET_TITLE Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+COMMENT: DATASET_AUTHORS Zhou Lei, Hyungwon Choi
+COMMENT: PRECURSOR_IN_MS1 mz 371.228166; int 78.879; delta(ppm) 1.435902
+COMMENT: PROPOSED_MF SevenGoldenRules 0.200; C16H34O9; [M+H]+; delta(ppm) 0.199881; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 4.001; C16H34O9; [M+H]+; delta(ppm) 0.199030; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 14.782; C16H34O9; [M+H]+; delta(ppm) 0.199030; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C16H34O9; [M+H]+; delta(ppm) 0.199030; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 22.366; C16H34O9; [M+H]+; delta(ppm) 0.199030; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C16H34O9; [M+H]+; delta(ppm) 0.199030; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.806; GLZWNFNQMJAZGY; [M+H]+; Octaethylene glycol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.070; GLZWNFNQMJAZGY-UHFFFAOYSA-N; [M+H]+; Octaethylene glycol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; GLZWNFNQMJAZGY-UHFFFAOYSA-N; [M+H]+; Octaethylene glycol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 4.000; GLZWNFNQMJAZGY-UHFFFAOYSA-N; [M+H]+; 2-[2-[2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethanol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -33.136; GLZWNFNQMJAZGY; [M+H]+; PED-diol (n=8); Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.598; GLZWNFNQMJAZGY; [M+H]+; PED-diol (n=8); Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -24.089; GLZWNFNQMJAZGY; [M+H]+; 3,6,9,12,15,18,21-heptaoxatricosane-1,23-diol; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.661; GLZWNFNQMJAZGY; [M+H]+; 3,6,9,12,15,18,21-heptaoxatricosane-1,23-diol; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3c; Proposed by SIRIUS6_Confidence (FDR < 0.1); Supported by CFM-ID:MsfinderDB (Ranking 1), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0094680)
+CH$NAME: Octaethylene glycol
+CH$NAME: 2-[2-[2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethanol
+CH$COMPOUND_CLASS: Non-Natural Product
+CH$FORMULA: C16H34O9
+CH$EXACT_MASS: 370.220283
+CH$SMILES: C(COCCOCCOCCOCCOCCOCCOCCO)O
+CH$IUPAC: InChI=1S/C16H34O9/c17-1-3-19-5-7-21-9-11-23-13-15-25-16-14-24-12-10-22-8-6-20-4-2-18/h17-18H,1-16H2
+CH$LINK: HMDB HMDB0094680
+CH$LINK: INCHIKEY GLZWNFNQMJAZGY-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:78798
+CH$LINK: ChemOnt CHEMONTID:0000254; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Ethers
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: TripleTOF 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 20 to 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 5.00; MS2(ppm) 10.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ACQUITY UPLC HSS T3 (3 µm, 2.1 mm x 100 mm; Waters)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was 2% B from 0 to 1.5 min, 20% B at 7.5 min, 50% B at 12 min, 95% B from 16 to 18 min, and 2% B at 19 to 25 min
+AC$CHROMATOGRAPHY: FLOW_RATE 0.35 ml/mi
+AC$CHROMATOGRAPHY: RETENTION_TIME 10.766
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 371.227633
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001j-4902000000-ed0d2f109f0fd92b3770
+PK$ANNOTATION: m/z int mzPAF cor n
+  45.033884 720 f{C2H5O1}/8.72ppm,p-C14H30O8 0.9244 9
+  133.086123 999 f{C6H13O3}/1.52ppm,p-C10H22O6 0.8404 10
+  177.113401 324 f{C8H17O4}/7.14ppm,p-C8H18O5 0.9572 9
+  371.228293 335 f{C16H35O9}/1.98ppm,p 1.0000 9
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  45.033884 720.00 720
+  133.086123 999.00 999
+  177.113401 324.00 324
+  371.228293 335.00 335
+//

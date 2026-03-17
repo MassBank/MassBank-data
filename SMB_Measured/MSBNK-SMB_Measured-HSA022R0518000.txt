@@ -1,0 +1,84 @@
+ACCESSION: MSBNK-SMB_Measured-HSA022R0518000
+RECORD_TITLE: LysoPC(16:0); LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 718 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 518.321988; int 59.908; delta(ppm) 0.000089
+COMMENT: PROPOSED_MF SevenGoldenRules 0.569; C24H50NO7P; [M+Na]+; delta(ppm) 0.569314; Ranking 2;
+COMMENT: PROPOSED_MF MS-FINDER 3.146; C24H50NO7P; [M+Na]+; delta(ppm) 46413.418593; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 4014.821; C24H50NO7P; [M+Na]+; delta(ppm) 46413.418593; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C24H50NO7P; [M+Na]+; delta(ppm) 46413.418593; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 18.243; C24H50NO7P; [M+Na]+; delta(ppm) 46413.418593; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C24H50NO7P; [M+Na]+; delta(ppm) 46413.418593; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; ASWBNKHCZGQVJV-HSZRJFAPSA-N; C24H50NO7P; Spectral Match to 1-Hexadecanoyl-sn-glycero-3-phosphocholine from NIST14; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 5.539; ASWBNKHCZGQVJV-HSZRJFAPSA-N; [M+Na]+; LysoPC(16:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; ASWBNKHCZGQVJV-HSZRJFAPSA-N; [M+Na]+; LysoPC(16:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.437; ASWBNKHCZGQVJV; [M+Na]+; 1-16:0-lysoPC; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.649; ASWBNKHCZGQVJV; [M+Na]+; 1-16:0-lysoPC; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -171.095; ASWBNKHCZGQVJV; [M+Na]+; 1-Palmitoyl-sn-glycero-3-phosphocholine-d9; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.610; ASWBNKHCZGQVJV; [M+Na]+; 1-Palmitoyl-sn-glycero-3-phosphocholine-d9; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS5_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 3 spectra); Supported by MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0010382)
+CH$NAME: LysoPC(16:0)
+CH$NAME: (3-hexadecanoyloxy-2-hydroxypropyl) 2-(trimethylazaniumyl)ethyl phosphate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C24H50NO7P
+CH$EXACT_MASS: 495.332490
+CH$SMILES: CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)O
+CH$IUPAC: InChI=1S/C24H50NO7P/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-24(27)30-21-23(26)22-32-33(28,29)31-20-19-25(2,3)4/h23,26H,5-22H2,1-4H3
+CH$LINK: HMDB HMDB0010382
+CH$LINK: INCHIKEY ASWBNKHCZGQVJV-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:86554
+CH$LINK: ChemOnt CHEMONTID:0002213; Organic compounds; Lipids and lipid-like molecules; Glycerophospholipids; Glycerophosphocholines
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Acquity BEH HSS T3 (100 x 2.1mm,1.8um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0min-1% B, 1min-15%B, 4min-35% B, 7min-95% B, 9 min- 95% B, 10min-1% B, 14 min- 1% B
+AC$CHROMATOGRAPHY: RETENTION_TIME 11.329
+MS$FOCUSED_ION: ION_TYPE [M+Na]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 518.321988
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-0zfr-1900420000-886aea4b6c77964fdd0f
+PK$ANNOTATION: m/z int mzPAF cor n
+  81.069847 10 f{C6H9}/-0.37ppm,p-C18H41N1O7P1Na1 0.9567 543
+  85.101151 12 f{C6H13}/-0.30ppm,p-C18H37N1O7P1Na1 0.9630 537
+  86.096450 148 f{C5H12N1}/0.28ppm,p-C19H38O7P1Na1 0.9922 716
+  95.085540 16 f{C7H11}/0.14ppm,p-C17H39N1O7P1Na1 0.9726 587
+  104.107072 999 f{C5H14N1O1}/0.78ppm,p-C19H36O6P1Na1 0.9947 718
+  146.981798 191 f{C2H5O4P1Na1}/0.27ppm,p-C22H45N1O3 0.9907 717
+  313.273714 112 f{C20H36N1Na1}/-0.97ppm,p-C4H14O7P1 0.9915 706
+  415.222041 13 f{C19H37O6P1Na1}/0.12ppm,p-C5H13N1O1 0.9849 511
+  459.248106 594 f{C21H41O7P1Na1}/-0.24ppm,p-C3H9N1 0.9978 718
+  518.321723 360 f{C24H50N1O7P1Na1}/0.03ppm,p 1.0000 718
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  81.069847 10.00 10
+  85.101151 12.00 12
+  86.096450 148.00 148
+  95.085540 16.00 16
+  104.107072 999.00 999
+  146.981798 191.00 191
+  313.273714 112.00 112
+  415.222041 13.00 13
+  459.248106 594.00 594
+  518.321723 360.00 360
+//

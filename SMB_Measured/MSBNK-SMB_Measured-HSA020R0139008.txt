@@ -1,0 +1,74 @@
+ACCESSION: MSBNK-SMB_Measured-HSA020R0139008
+RECORD_TITLE: Urocanic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 43 product ion spectra among 286 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST002044
+COMMENT: DATASET_AUTHORS Kumar, Yashwant, NCR Biotech Science Cluster 3rd Milestone, India
+COMMENT: PRECURSOR_IN_MS1 mz 139.050294; int 65.533; delta(ppm) -0.086199
+COMMENT: PROPOSED_MF SevenGoldenRules 0.739; C6H6N2O2; [M+H]+; delta(ppm) 0.738900; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.289; C6H6N2O2; [M+H]+; delta(ppm) 0.727204; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 29.285; C6H6N2O2; [M+H]+; delta(ppm) 0.727204; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H6N2O2; [M+H]+; delta(ppm) 0.727204; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 36.870; C6H6N2O2; [M+H]+; delta(ppm) 0.727204; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H6N2O2; [M+H]+; delta(ppm) 0.727204; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 11.000; LOIYMIARKYCTBW-OWOJBTEDSA-N; C6H6N2O2; UROCANATE; Ranking 1;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.600; LOIYMIARKYCTBW; [M+H]+; Urocanic acid; Ranking 6;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.015; LOIYMIARKYCTBW-OWOJBTEDSA-N; [M+H]+; Urocanic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.997; LOIYMIARKYCTBW-OWOJBTEDSA-N; [M+H]+; Urocanic acid; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.468; LOIYMIARKYCTBW-OWOJBTEDSA-N; [M+H]+; (E)-3-(1H-imidazol-5-yl)prop-2-enoic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -47.114; LOIYMIARKYCTBW; [M+H]+; urocanate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.403; LOIYMIARKYCTBW; [M+H]+; urocanate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -22.394; LOIYMIARKYCTBW; [M+H]+; Urocanic Acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.882; LOIYMIARKYCTBW; [M+H]+; Urocanic Acid; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 11 spectra); Supported by CFM-ID:MsfinderDB (Ranking 6), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 1); Biological context by HMDB (HMDB0000301)
+CH$NAME: Urocanic acid
+CH$NAME: 3-(1H-imidazol-5-yl)prop-2-enoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H6N2O2
+CH$EXACT_MASS: 138.042927
+CH$SMILES: C1=C(NC=N1)C=CC(=O)O
+CH$IUPAC: InChI=1S/C6H6N2O2/c9-6(10)2-1-5-3-7-4-8-5/h1-4H,(H,7,8)(H,9,10)
+CH$LINK: HMDB HMDB0000301
+CH$LINK: INCHIKEY LOIYMIARKYCTBW-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:1178
+CH$LINK: ChemOnt CHEMONTID:0000078; Organic compounds; Organoheterocyclic compounds; Azoles; Imidazoles
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Blood (serum)
+AC$INSTRUMENT: Thermo Fusion Orbitrap
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20-40%
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 2.00; MS2(ppm) 3.00
+AC$CHROMATOGRAPHY: COLUMN_NAME Waters Xbridge BEH HILIC (75 x 2.1mm,2.5um)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 0 min-85% B, 2 min-10% B, 14 min- 10% B, 14.1 min- 85% B, 16 min- 85%B.
+AC$CHROMATOGRAPHY: RETENTION_TIME 1.248
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 139.050305
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-4900000000-98e85aef9fb5db250e8e
+PK$ANNOTATION: m/z int mzPAF cor n
+  66.033860 22 f{C4H4N1}/0.52ppm,p-C2H3N1O2 0.9610 42
+  93.044775 482 f{C5H5N2}/0.54ppm,p-C1H2O2 0.8661 43
+  121.039639 999 f{C6H5N2O1}/0.00ppm,p-H2O1 0.8705 43
+  139.050182 30 f{C6H7N2O2}/-0.16ppm,p 1.0000 42
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  66.033860 22.00 22
+  93.044775 482.00 482
+  121.039639 999.00 999
+  139.050182 30.00 30
+//

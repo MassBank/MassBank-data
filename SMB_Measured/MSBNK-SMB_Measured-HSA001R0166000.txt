@@ -1,0 +1,82 @@
+ACCESSION: MSBNK-SMB_Measured-HSA001R0166000
+RECORD_TITLE: Phenylalanine; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 52 product ion spectra among 22 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MB-POST
+COMMENT: DATASET_ID MPST000004
+COMMENT: DATASET_TITLE Annotation of various metabolites in SRM 1950 human serum
+COMMENT: DATASET_AUTHORS Masatomo Takahashi, Yoshihiro Izumi, Kyoshu University
+COMMENT: PRECURSOR_IN_MS1 mz 166.086332; int 195.017; delta(ppm) 0.005936
+COMMENT: PROPOSED_MF SevenGoldenRules 0.460; C9H11NO2; [M+H]+; delta(ppm) 0.460385; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.096; C9H11NO2; [M+H]+; delta(ppm) 0.457388; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 34.161; C9H11NO2; [M+H]+; delta(ppm) 0.457388; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C9H11NO2; [M+H]+; delta(ppm) 0.457388; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 46.135; C9H11NO2; [M+H]+; delta(ppm) 0.457388; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 0.998; C9H11NO2; [M+H]+; delta(ppm) 0.457388; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 56.000; COLNVLDHVKWLRT-QMMMGPOBSA-N; C9H11NO2; L-PHENYLALANINE; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 43.000; COLNVLDHVKWLRT-UHFFFAOYSA-N; C9H11NO2; Spectral Match to DL-Phenylalanine from NIST14; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.264; COLNVLDHVKWLRT; [M+H]+; L-Phenylalanine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.282; COLNVLDHVKWLRT-QMMMGPOBSA-N; [M+H]+; L-Phenylalanine; Ranking 2;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.978; COLNVLDHVKWLRT-QMMMGPOBSA-N; [M+H]+; L-Phenylalanine; Ranking 3;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.972; COLNVLDHVKWLRT-QMMMGPOBSA-N; [M+H]+; (2S)-2-amino-3-phenylpropanoic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -0.544; COLNVLDHVKWLRT; [M+H]+; Sabiden; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.994; COLNVLDHVKWLRT; [M+H]+; Sabiden; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -41.852; COLNVLDHVKWLRT; [M+H]+; L-Phe; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.995; COLNVLDHVKWLRT; [M+H]+; L-Phe; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 99 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 2), MetFrag:MsfinderDB (Ranking 3), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0000159)
+CH$NAME: Phenylalanine
+CH$NAME: Phe
+CH$NAME: 2-amino-3-phenylpropanoic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C9H11NO2
+CH$EXACT_MASS: 165.078979
+CH$SMILES: C1=CC=C(C=C1)CC(C(=O)O)N
+CH$IUPAC: InChI=1S/C9H11NO2/c10-8(9(11)12)6-7-4-2-1-3-5-7/h1-5,8H,6,10H2,(H,11,12)
+CH$LINK: HMDB HMDB0000159
+CH$LINK: INCHIKEY COLNVLDHVKWLRT-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:994
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Nexera X2 UHPLC system, Shimadzu - Q Exactive Orbitrap, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 V
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME GL-HilicAex 2.1 x 150 mm, 5 mm (Resonac)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 15.5 min: 40, 16.5 min: 0, 26.5 min: 0, 27.5 min: 95, 35 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 8.612
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 166.086331
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-00di-0900000000-f15412b7b563feb36311
+PK$ANNOTATION: m/z int mzPAF cor n
+  103.054205 23 f{C8H7}/-0.21ppm,p-C1H5N1O2 0.9797 52
+  107.049188 12 f{C7H7O1}/0.43ppm,p-C2H5N1O1 0.9600 50
+  120.080781 999 f{C8H10N1}/0.05ppm,p-C1H2O2 0.9915 52
+  131.049177 36 f{C9H7O1}/0.27ppm,p-H5N1O1 0.9838 52
+  149.059707 20 f{C9H9O2}/0.00ppm,p-H3N1 0.9720 52
+  166.086173 84 f{C9H12N1O2}/-0.50ppm,p 1.0000 52
+PK$NUM_PEAK: 6
+PK$PEAK: m/z int. rel.int.
+  103.054205 23.00 23
+  107.049188 12.00 12
+  120.080781 999.00 999
+  131.049177 36.00 36
+  149.059707 20.00 20
+  166.086173 84.00 84
+//

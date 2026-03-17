@@ -1,0 +1,93 @@
+ACCESSION: MSBNK-SMB_Measured-HSA009R0211001
+RECORD_TITLE: Cyclo(leucylprolyl); LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 965 product ion spectra among 248 DDA data files in the dataset described below.
+COMMENT: REPOSITORY Metabolomics Workbench
+COMMENT: DATASET_ID ST001171
+COMMENT: DATASET_TITLE Metabolomics of World Trade Center Exposed New York City Firefighters
+COMMENT: DATASET_AUTHORS Anna Nolan, Laboratory at NYU/Bellevue
+COMMENT: PRECURSOR_IN_MS1 mz 211.144064; int 19.909; delta(ppm) 0.023722
+COMMENT: PROPOSED_MF SevenGoldenRules 0.214; C11H18N2O2; [M+H]+; delta(ppm) -0.214146; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.932; C11H18N2O2; [M+H]+; delta(ppm) -0.214379; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 54.275; C11H18N2O2; [M+H]+; delta(ppm) -0.214379; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C11H18N2O2; [M+H]+; delta(ppm) -0.214379; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 74.032; C11H18N2O2; [M+H]+; delta(ppm) -0.214379; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C11H18N2O2; [M+H]+; delta(ppm) -0.214379; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 10.000; SZJNCZMRZAUNQT-UHFFFAOYSA-N; C11H18N2O2; Massbank:PR300811 Cyclo(proline-leucine); Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 3.000; SZJNCZMRZAUNQT-IUCAKERBSA-N; C11H18N2O2; cyclo(L-Leu-L-Pro); Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 1.000; SZJNCZMRZAUNQT-BDAKNGLRSA-N; C11H18N2O2; Cyclo[D-Leu-L-Pro-]; Ranking 3;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 0.666; SZJNCZMRZAUNQT; [M+H]+; L,L-Cyclo(leucylprolyl); Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.935; SZJNCZMRZAUNQT-UHFFFAOYNA-N; [M+H]+; L,L-Cyclo(leucylprolyl); Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.907; SZJNCZMRZAUNQT-UHFFFAOYNA-N; [M+H]+; L,L-Cyclo(leucylprolyl); Ranking 7;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 2.105; SZJNCZMRZAUNQT-IUCAKERBSA-N; [M+H]+; (3S,8aS)-3-(2-methylpropyl)-2,3,6,7,8,8a-hexahydropyrrolo[1,2-a]pyrazine-1,4-dione; Ranking 3;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -4.281; SZJNCZMRZAUNQT; [M+H]+; Gancidin W; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.755; SZJNCZMRZAUNQT; [M+H]+; Gancidin W; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -21.920; SZJNCZMRZAUNQT; [M+H]+; Gancidin W; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.987; SZJNCZMRZAUNQT; [M+H]+; Gancidin W; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 13 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 7), MetFrag:PubchemLite (Ranking 3); Biological context by HMDB (HMDB0034276)
+CH$NAME: Cyclo(leucylprolyl)
+CH$NAME: Gancidin W
+CH$NAME: 3-(2-methylpropyl)-2,3,6,7,8,8a-hexahydropyrrolo[1,2-a]pyrazine-1,4-dione
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C11H18N2O2
+CH$EXACT_MASS: 210.136828
+CH$SMILES: CC(C)CC1C(=O)N2CCCC2C(=O)N1
+CH$IUPAC: InChI=1S/C11H18N2O2/c1-7(2)6-8-11(15)13-5-3-4-9(13)10(14)12-8/h7-9H,3-6H2,1-2H3,(H,12,14)
+CH$LINK: HMDB HMDB0034276
+CH$LINK: INCHIKEY SZJNCZMRZAUNQT-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:102892
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Vanquish UPHPLC - Q Exactive HF-X Orbitra, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20, 30, 45
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 3.75 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 7.50
+AC$CHROMATOGRAPHY: COLUMN_NAME Acquity UPLC HSS T3 C18 (2.1 X 100 mm, 1.8 microm) Waters
+AC$CHROMATOGRAPHY: FLOW_GRADIENT Time(min) Flow Rate %A %B Curve 1. 0 0.4 99.0 1.0 5 2. 1.00 0.4 99.0 1.0 5 3. 16.00 0.4 1.0 99.0 5 4. 19.00 0.4 1.0 99.0 5 5. 19.50 0.4 99.0 1.0 5
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 7.259
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 211.144059
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-03di-2290000000-5333f30fdf16e33b7888
+PK$ANNOTATION: m/z int mzPAF cor n
+  70.065250 224 f{C4H8N1}/1.78ppm,p-C7H11N1O2 0.9370 965
+  86.096446 34 f{C5H12N1}/0.24ppm,p-C6H7N1O2 0.7048 940
+  114.091454 42 f{C6H12N1O1}/1.00ppm,p-C5H7N1O1 0.9497 964
+  127.086737 8 f{C6H11N2O1}/1.16ppm,p-C5H8O1 0.9233 785
+  138.127828 44 f{C9H16N1}/0.74ppm,p-C2H3N1O2 0.9407 965
+  154.073994 19 f{C7H10N2O2}/2.05ppm,p-C4H9 0.5568 854
+  155.154375 30 f{C9H19N2}/0.65ppm,p-C2O2 0.7559 931
+  166.122736 11 f{C10H16N1O1}/0.58ppm,p-C1H3N1O1 0.6414 871
+  183.149273 115 f{C10H19N2O1}/0.46ppm,p-C1O1 0.9085 965
+  194.117584 18 f{C11H16N1O2}/0.15ppm,p-H3N1 0.8983 943
+  211.143961 999 f{C11H19N2O2}/-0.68ppm,p 1.0000 965
+PK$NUM_PEAK: 11
+PK$PEAK: m/z int. rel.int.
+  70.065250 224.00 224
+  86.096446 34.00 34
+  114.091454 42.00 42
+  127.086737 8.00 8
+  138.127828 44.00 44
+  154.073994 19.00 19
+  155.154375 30.00 30
+  166.122736 11.00 11
+  183.149273 115.00 115
+  194.117584 18.00 18
+  211.143961 999.00 999
+//

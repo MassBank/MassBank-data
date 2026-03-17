@@ -1,0 +1,76 @@
+ACCESSION: MSBNK-SMB_Measured-HSA001R0496000
+RECORD_TITLE: LysoPC(16:0); LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Shin-MassBank project in preparation
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 97 product ion spectra among 22 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MB-POST
+COMMENT: DATASET_ID MPST000004
+COMMENT: DATASET_TITLE Annotation of various metabolites in SRM 1950 human serum
+COMMENT: DATASET_AUTHORS Masatomo Takahashi, Yoshihiro Izumi, Kyoshu University
+COMMENT: PRECURSOR_IN_MS1 mz 496.339997; int 21.121; delta(ppm) 0.000060
+COMMENT: PROPOSED_MF SevenGoldenRules 0.470; C24H50NO7P; [M+H]+; delta(ppm) 0.470391; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 3.776; C24H50NO7P; [M+H]+; delta(ppm) 0.468654; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 3004.393; C24H50NO7P; [M+H]+; delta(ppm) 0.468654; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C24H50NO7P; [M+H]+; delta(ppm) 0.468654; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 11.977; C24H50NO7P; [M+H]+; delta(ppm) 0.468654; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C24H50NO7P; [M+H]+; delta(ppm) 0.468654; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 4.000; ASWBNKHCZGQVJV-UHFFFAOYSA-N; C24H50NO7P; Massbank:PR310839 LPC 16:0; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 2.000; ASWBNKHCZGQVJV-HSZRJFAPSA-N; C24H50NO7P; Spectral Match to Lyso-PC(16:0) from NIST14; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.156; ASWBNKHCZGQVJV; [M+H]+; LysoPC(16:0); Ranking 2;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 7.002; ASWBNKHCZGQVJV-HSZRJFAPSA-N; [M+H]+; LysoPC(16:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 1.000; ASWBNKHCZGQVJV-HSZRJFAPSA-N; [M+H]+; LysoPC(16:0); Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -1.253; ASWBNKHCZGQVJV; [M+H]+; 1-16:0-lysoPC; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.655; ASWBNKHCZGQVJV; [M+H]+; 1-16:0-lysoPC; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -162.888; ASWBNKHCZGQVJV; [M+H]+; 1-Palmitoyl-sn-glycero-3-phosphocholine-d9; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.639; ASWBNKHCZGQVJV; [M+H]+; 1-Palmitoyl-sn-glycero-3-phosphocholine-d9; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS5_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 6 spectra); Supported by CFM-ID:MsfinderDB (Ranking 2), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 1); Biological context by HMDB (HMDB0010382)
+CH$NAME: LysoPC(16:0)
+CH$NAME: (3-hexadecanoyloxy-2-hydroxypropyl) 2-(trimethylazaniumyl)ethyl phosphate
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C24H50NO7P
+CH$EXACT_MASS: 495.332490
+CH$SMILES: CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)O
+CH$IUPAC: InChI=1S/C24H50NO7P/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-24(27)30-21-23(26)22-32-33(28,29)31-20-19-25(2,3)4/h23,26H,5-22H2,1-4H3
+CH$LINK: HMDB HMDB0010382
+CH$LINK: INCHIKEY ASWBNKHCZGQVJV-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:86554
+CH$LINK: ChemOnt CHEMONTID:0002213; Organic compounds; Lipids and lipid-like molecules; Glycerophospholipids; Glycerophosphocholines
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Serum
+AC$INSTRUMENT: Nexera X2 UHPLC system, Shimadzu - Q Exactive Orbitrap, Thermo Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 20 V
+AC$MASS_SPECTROMETRY: COLLISION_GAS N2
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 0.75; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME GL-HilicAex 2.1 x 150 mm, 5 mm (Resonac)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT B conc(%). 0 min: 95, 0.5 min: 95, 15.5 min: 40, 16.5 min: 0, 26.5 min: 0, 27.5 min: 95, 35 min: 95.
+AC$CHROMATOGRAPHY: FLOW_RATE 0.4 mL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.648
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 496.339997
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-000t-0700900000-5c77f3b7c2baa4a821ac
+PK$ANNOTATION: m/z int mzPAF cor n
+  104.107014 460 f{C5H14N1O1}/0.23ppm,p-C19H37O6P1 0.9951 97
+  184.073384 537 f{C5H15N1O4P1}/0.35ppm,p-C19H36O3 0.9549 97
+  478.329314 150 f{C24H49N1O6P1}/0.24ppm,p-H2O1 0.9904 96
+  496.339778 999 f{C24H51N1O7P1}/0.03ppm,p 1.0000 97
+PK$NUM_PEAK: 4
+PK$PEAK: m/z int. rel.int.
+  104.107014 460.00 460
+  184.073384 537.00 537
+  478.329314 150.00 150
+  496.339778 999.00 999
+//

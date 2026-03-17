@@ -1,0 +1,74 @@
+ACCESSION: MSBNK-SMB_Measured-HSA015R0130009
+RECORD_TITLE: Pipecolic acid; LC-ESI-QFT; MS2; POSITIVE; Generated from DDA dataset; Annotation confidence level 3
+DATE: 2026.03.07
+AUTHORS: Ryosuke Hayasaka, Akiyoshi Hirayama (Keio Univ.), and Fumio Matsuda (Univ. Osaka)
+LICENSE: CC BY-NC-SA
+PUBLICATION: Ruggiero et al. Int J Cancer. 2023, 153, 1, 210-223
+PROJECT: Shin-MassBank project supported by JST
+COMMENT: Annotation confidence level 3. Annotated by the Shin-MassBank project (see COMMENT: CONFIDENCE).
+COMMENT: Tentative structure. One of the possible structures is shown. The record should be used with caution.
+COMMENT: This is an averaged mass spectra data created by averaging 10 product ion spectra among 27 DDA data files in the dataset described below.
+COMMENT: REPOSITORY MetaboLights
+COMMENT: DATASET_ID MTBLS6402
+COMMENT: DATASET_TITLE FSCN1 as a new druggable target in adrenocortical carcinoma
+COMMENT: DATASET_AUTHORS Andrei Turtoi, Enzo Lalli
+COMMENT: PRECURSOR_IN_MS1 mz 130.086223; int 94.820; delta(ppm) -0.038073
+COMMENT: PROPOSED_MF SevenGoldenRules 0.209; C6H11NO2; [M+H]+; delta(ppm) -0.209174; Ranking 1;
+COMMENT: PROPOSED_MF MS-FINDER 4.064; C6H11NO2; [M+H]+; delta(ppm) -0.207817; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Sirius 22.805; C6H11NO2; [M+H]+; delta(ppm) -0.207817; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS5_Zodiac 1.000; C6H11NO2; [M+H]+; delta(ppm) -0.207817; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Sirius 25.624; C6H11NO2; [M+H]+; delta(ppm) -0.207817; Ranking 1;
+COMMENT: PROPOSED_MF SIRIUS6_Zodiac 1.000; C6H11NO2; [M+H]+; delta(ppm) -0.207817; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 44.000; HXEACLLIILLPRG-YFKPBYRVSA-N; C6H11NO2; PIPECOLATE - 60.0 eV; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIMILARITY:GNPS 21.000; HXEACLLIILLPRG-UHFFFAOYSA-N; C6H11NO2; Massbank:PR100437 DL-Pipecolinic acidHomoPropipecolinic acidpipecolateHomoprolinepipecolic acid2-piperidinecarboxylic acidpiperidine-2-carboxylic acidHexahydropicolinic aciddihydrobaikiane; Ranking 2;
+COMMENT: PROPOSED_COMPOUND CFM-ID:MsfinderDB 1.190; HXEACLLIILLPRG; [M+H]+; Pipecolic acid; Ranking 9;
+COMMENT: PROPOSED_COMPOUND MS-FINDER:MsfinderDB 6.755; HXEACLLIILLPRG-UHFFFAOYNA-N; [M+H]+; Pipecolic acid; Ranking 1;
+COMMENT: PROPOSED_COMPOUND MetFrag:MsfinderDB 0.947; HXEACLLIILLPRG-UHFFFAOYNA-N; [M+H]+; Pipecolic acid; Ranking 5;
+COMMENT: PROPOSED_COMPOUND MetFrag:PubchemLite 3.185; HXEACLLIILLPRG-UHFFFAOYSA-N; [M+H]+; piperidine-2-carboxylic acid; Ranking 2;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_CSI:biodatabase -11.577; HXEACLLIILLPRG; [M+H]+; l-homopro; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS5_Confidence:biodatabase 0.705; HXEACLLIILLPRG; [M+H]+; l-homopro; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_CSI:biodatabase -54.516; HXEACLLIILLPRG; [M+H]+; Pipecolate; Ranking 1;
+COMMENT: PROPOSED_COMPOUND SIRIUS6_Confidence:biodatabase 0.991; HXEACLLIILLPRG; [M+H]+; Pipecolate; Ranking 1;
+COMMENT: CONFIDENCE Tentative candidate (Level 3); SMB Level 3a; Proposed by SIRIUS6_Confidence (FDR < 0.1); Similarity by SIMILARITY:GNPS (Dot product > 0.7, 65 spectra); Supported by CFM-ID:MsfinderDB (Ranking 9), MS-FINDER:MsfinderDB (Ranking 1), MetFrag:MsfinderDB (Ranking 5), MetFrag:PubchemLite (Ranking 2); Biological context by HMDB (HMDB0000070)
+CH$NAME: Pipecolic acid
+CH$NAME: Pipecolate
+CH$NAME: piperidine-2-carboxylic acid
+CH$COMPOUND_CLASS: Natural product
+CH$FORMULA: C6H11NO2
+CH$EXACT_MASS: 129.078979
+CH$SMILES: C1CCNC(C1)C(=O)O
+CH$IUPAC: InChI=1S/C6H11NO2/c8-6(9)5-3-1-2-4-7-5/h5,7H,1-4H2,(H,8,9)
+CH$LINK: HMDB HMDB0000070
+CH$LINK: INCHIKEY HXEACLLIILLPRG-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:849
+CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
+SP$SCIENTIFIC_NAME: Homo sapiens
+SP$LINK: NCBI-TAXONOMY 9606 
+SP$SAMPLE: Cell
+AC$INSTRUMENT: Vanquish Flex UHPLC system, Thermo Fisher Scientific - Orbitrap Q Exactive Plus mass spectrometer, Thermo Fisher Scientific
+AC$INSTRUMENT_TYPE: LC-ESI-QFT
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY Ramped collision energies of 40 V
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: ION_SPRAY_VOLTAGE 4.0 kV
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: MASS_ACCURACY MS1(ppm) 1.50; MS2(ppm) 4.00
+AC$CHROMATOGRAPHY: COLUMN_NAME ZORBAX Pursuit 3 PFP (3 µm, 2.0 mm x 150 mm; Agilent Technologies)
+AC$CHROMATOGRAPHY: FLOW_GRADIENT The gradient profile was linear decrease from 0-25% B from 0-2 min; fast linear increase from 25-35% B from 2-11 min; 95% B hold from 15-20 min;fast linear decrease from 95-0% B from 20-21 min. 
+AC$CHROMATOGRAPHY: RETENTION_TIME 2.264
+MS$FOCUSED_ION: ION_TYPE [M+H]+
+MS$FOCUSED_ION: PRECURSOR_M/Z 130.086228
+MS$DATA_PROCESSING: COMMENT Product ions not positively corelated with the precursor ion were removed (rank order correlation, alpha = 0.01).
+MS$DATA_PROCESSING: RECALIBRATE Data dependent recalibration using whole DDA dataset
+PK$SPLASH: splash10-001i-9100000000-9a9d072d2e14e57dd9d4
+PK$ANNOTATION: m/z int mzPAF cor n
+  56.049459 50 f{C3H6N1}/-0.29ppm,p-C3H6O2 0.7212 10
+  84.080796 999 f{C5H10N1}/0.24ppm,p-C1H2O2 0.9515 10
+  130.086271 158 f{C6H12N1O2}/0.12ppm,p 1.0000 10
+PK$NUM_PEAK: 3
+PK$PEAK: m/z int. rel.int.
+  56.049459 50.00 50
+  84.080796 999.00 999
+  130.086271 158.00 158
+//
