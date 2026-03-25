@@ -1,14 +1,15 @@
-ACCESSION: MSBNK-Empa_Air_Pollution-EAP__1_1_DICHLORO_2_2_DIFLUOROETHENE
+ACCESSION: MSBNK-Empa_Air_Pollution-EAP__HCFO_1112A
 RECORD_TITLE: Ethene, 1,1-dichloro-2,2-difluoro-; GC-EI-TOF; MS; EI 70 eV
-DATE: 2025.11.25
+DATE: 2026.03.25
 AUTHORS: Begley Alina, Constantin Lionel, Myriam Guillevic, Schlauri Paul, Schneider Livia, Reimann Stefan
 LICENSE: CC BY
 COPYRIGHT: Empa - Air Pollution / Environmental Technology
 PROJECT: HALOHUNTER Discovering halogenated compounds in the atmosphere with non-target screening of preconcentrated air samples
 CH$NAME: Ethene, 1,1-dichloro-2,2-difluoro-
 CH$NAME: 1,1-dichloro-2,2-difluoroethene
-CH$NAME: CFO-1112a
-CH$COMPOUND_CLASS: other
+CH$NAME: HCFO-1112a
+CH$NAME: Mr_Dain
+CH$COMPOUND_CLASS: HCFO
 CH$FORMULA: C2Cl2F2
 CH$EXACT_MASS: 131.93451
 CH$SMILES: C(=C(Cl)Cl)(F)F
@@ -36,6 +37,20 @@ AC$CHROMATOGRAPHY: TRANSFERLINE_TEMPERATURE 200 C
 AC$CHROMATOGRAPHY: KOVATS_RTI 455
 PK$SPLASH: splash10-001i-7900000000-6d9f3d4a782d7b702fe5
 PK$ANNOTATION: m/z formula_count exact_mass error(ppm) tentative_formula intensity_fraction
+  23.00566 1 0.00000 0.00 - 1.00
+  24.01589 1 0.00000 0.00 - 1.00
+  31.01303 1 0.00000 0.00 - 1.00
+  34.98173 1 0.00000 0.00 - 1.00
+  35.99085 1 0.00000 0.00 - 1.00
+  36.97839 1 0.00000 0.00 - 1.00
+  40.97838 1 0.00000 0.00 - 1.00
+  41.97945 1 0.00000 0.00 - 1.00
+  43.00990 1 0.00000 0.00 - 1.00
+  46.97939 1 0.00000 0.00 - 1.00
+  47.98238 1 0.00000 0.00 - 1.00
+  48.97583 1 0.00000 0.00 - 1.00
+  50.00566 1 0.00000 0.00 - 1.00
+  51.00982 1 0.00000 0.00 - 1.00
   58.97569 1 58.96830 -125.24 C2Cl+ 1.00
   59.97917 1 59.97166 -125.23 C[13C]Cl+ 1.00
   60.97256 1 60.96535 -118.18 C2[37Cl]+ 0.98
@@ -69,6 +84,7 @@ PK$ANNOTATION: m/z formula_count exact_mass error(ppm) tentative_formula intensi
   114.93109 1 114.93261 13.22 C2FCl[37Cl]+ 0.99
   115.93371 1 115.93596 19.45 C[13C]FCl[37Cl]+ 1.00
   116.92837 1 116.92966 11.03 C2F[37Cl]2+ 1.00
+  116.98591 1 0.00000 0.00 - 1.00
   131.93210 1 131.93396 14.12 C2F2Cl2+ 1.00
   132.93505 1 132.93732 17.06 C[13C]F2Cl2+ 1.00
   133.92884 1 133.93101 16.23 C2F2Cl[37Cl]+ 1.00

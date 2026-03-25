@@ -1,14 +1,15 @@
-ACCESSION: MSBNK-Empa_Air_Pollution-EAP__1_2_DICHLORO_1_2_DIFLUOROETHENEE
+ACCESSION: MSBNK-Empa_Air_Pollution-EAP__HCFO_1112E
 RECORD_TITLE: (E)-1,2-Dichloro-1,2-difluoroethene; GC-EI-TOF; MS; EI 70 eV
-DATE: 2025.11.25
+DATE: 2026.03.25
 AUTHORS: Begley Alina, Constantin Lionel, Myriam Guillevic, Schlauri Paul, Schneider Livia, Reimann Stefan
 LICENSE: CC BY
 COPYRIGHT: Empa - Air Pollution / Environmental Technology
 PROJECT: HALOHUNTER Discovering halogenated compounds in the atmosphere with non-target screening of preconcentrated air samples
 CH$NAME: (E)-1,2-Dichloro-1,2-difluoroethene
 CH$NAME: 1,2-dichloro-1,2-difluoroetheneE
-CH$NAME: CFO-1112E
-CH$COMPOUND_CLASS: other
+CH$NAME: HCFO-1112E
+CH$NAME: Mr_Dori
+CH$COMPOUND_CLASS: HCFO
 CH$FORMULA: C2Cl2F2
 CH$EXACT_MASS: 131.93451
 CH$SMILES: C(=C(F)Cl)(F)Cl
@@ -43,6 +44,7 @@ PK$ANNOTATION: m/z formula_count exact_mass error(ppm) tentative_formula intensi
   48.96403 1 48.96535 27.04 C[37Cl]+ 1.00
   61.99509 1 61.99626 18.84 C2F2+ 1.00
   65.96547 1 65.96671 18.76 CFCl+ 0.95
+  66.96582 1 0.00000 0.00 - 1.00
   67.96256 1 67.96376 17.62 CF[37Cl]+ 1.00
   77.96539 1 77.96671 16.90 C2FCl+ 1.00
   79.96384 1 79.96376 -1.04 C2F[37Cl]+ 1.00
