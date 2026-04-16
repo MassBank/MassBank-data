@@ -41,7 +41,7 @@ jobs:
           .scripts/MassBank-cli-tools/bin/RecordExporter -f jsonld -o MassBank.json $(ls -d ./*/)
         
       - name: Upload release asset
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: |
             MassBank_RIKENformat.msp
