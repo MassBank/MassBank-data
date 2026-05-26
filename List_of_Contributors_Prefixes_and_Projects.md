@@ -46,6 +46,7 @@
 | RIKEN_NPDepo              | RIKEN Center for Sustainable Resource Science                           | Japan           | NGA, CB        |                            |
 | RIKEN_ReSpect             | RIKEN Plant Science Center                                              | Japan           | PT, PS, PM     |                            |
 | SMB_Measured              | Mass spectra from Shin-MassBank                                         | Japan           | HSA            |                            |
+| Tolmar                    | Tolmar, Inc.                                                            | USA             | TOL            |                            |
 | Tottori_Univ              | Tottori University                                                      | Japan           | TT             |                            |
 | Qingdao_University        | Qingdao University, Qingdao                                             | China           | QDU            |                            |
 | UFZ                       | Helmholtz Centre for Environmental Research  - UFZ                      | Germany         | UF, UA, UN, UP | SOLUTIONS, NATOXAQ, HBM4EU |
