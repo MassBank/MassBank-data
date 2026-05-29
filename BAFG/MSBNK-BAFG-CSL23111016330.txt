@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL23111016330
 RECORD_TITLE: Medroxyprogesterone; LC-ESI-QTOF; MS2; 80 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Medroxyprogesterone
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C22H32O3
@@ -14,7 +15,6 @@ CH$SMILES: CC1CC2C(CCC3(C2CCC3(C(=O)C)O)C)C4(C1=CC(=O)CC4)C
 CH$IUPAC: InChI=1S/C22H32O3/c1-13-11-16-17(20(3)8-5-15(24)12-19(13)20)6-9-21(4)18(16)7-10-22(21,25)14(2)23/h12-13,16-18,25H,5-11H2,1-4H3
 CH$LINK: CAS 520-85-4
 CH$LINK: INCHIKEY FRQMUZJSZHZSGN-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0003569; Organic compounds; Lipids and lipid-like molecules; Steroids and steroid derivatives; Pregnane steroids
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.524 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 345.2424
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-056u-9600000000-68e87ea412092ad410ac
 PK$NUM_PEAK: 87
 PK$PEAK: m/z int. rel.int.

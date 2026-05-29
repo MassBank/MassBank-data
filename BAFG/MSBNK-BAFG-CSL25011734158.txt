@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL25011734158
 RECORD_TITLE: 3,3-Diphenylacrylonitrile; LC-ESI-QTOF; MS2; 120 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 3,3-Diphenylacrylonitrile
 CH$FORMULA: C15H11N
 CH$EXACT_MASS: 205.0891
@@ -13,7 +14,6 @@ CH$SMILES: C1=CC=C(C=C1)C(=CC#N)C2=CC=CC=C2
 CH$IUPAC: InChI=1S/C15H11N/c16-12-11-15(13-7-3-1-4-8-13)14-9-5-2-6-10-14/h1-11H
 CH$LINK: CAS 3531-24-6
 CH$LINK: INCHIKEY RDGWQFSLTSPRBG-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0000369; Organic compounds; Benzenoids; Benzene and substituted derivatives; Diphenylmethanes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,7 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.746 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 206.0964
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0udi-9000000000-ec4aefe9aef703566b50
 PK$NUM_PEAK: 17
 PK$PEAK: m/z int. rel.int.

@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111011016
 RECORD_TITLE: Nitenpyram; LC-ESI-QTOF; MS2; 110 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Nitenpyram
-CH$COMPOUND_CLASS: Pharmaceutical; Insecticide
+CH$COMPOUND_CLASS: Insecticide; Pharmaceutical
 CH$FORMULA: C11H15ClN4O2
 CH$EXACT_MASS: 270.0884
 CH$SMILES: CCN(CC1=CN=C(C=C1)Cl)/C(=C/[N+](=O)[O-])/NC
 CH$IUPAC: InChI=1S/C11H15ClN4O2/c1-3-15(11(13-2)8-16(17)18)7-9-4-5-10(12)14-6-9/h4-6,8,13H,3,7H2,1-2H3/b11-8+
 CH$LINK: CAS 150824-47-8
 CH$LINK: INCHIKEY CFRPSFYHXJZSBI-DHZHZOJOSA-N
-CH$LINK: ChemOnt CHEMONTID:0003970; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives; Halopyridines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.386 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 269.0811
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0002-9000000000-1f2dc97183a15934b743
 PK$NUM_PEAK: 2
 PK$PEAK: m/z int. rel.int.

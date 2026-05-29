@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL2311094575
 RECORD_TITLE: Levetiracetam; LC-ESI-QTOF; MS2; 70 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Levetiracetam
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C8H14N2O2
@@ -14,7 +15,6 @@ CH$SMILES: CC[C@@H](N1CCCC1=O)C(N)=O
 CH$IUPAC: InChI=1S/C8H14N2O2/c1-2-6(8(9)12)10-5-3-4-7(10)11/h6H,2-5H2,1H3,(H2,9,12)/t6-/m1/s1
 CH$LINK: CAS 102767-28-2
 CH$LINK: INCHIKEY HPHUVLMMVZITSG-ZCFIWIBFSA-N
-CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.137 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 171.1128
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-014i-9000000000-118104da8621ed120ed6
 PK$NUM_PEAK: 5
 PK$PEAK: m/z int. rel.int.

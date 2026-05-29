@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL2311107139
 RECORD_TITLE: Chlorpyrifos; LC-ESI-QTOF; MS2; 130 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Chlorpyrifos
 CH$COMPOUND_CLASS: Insecticide
 CH$FORMULA: C9H11Cl3NO3PS
@@ -14,7 +15,6 @@ CH$SMILES: CCO[P](=S)(OCC)Oc1nc(Cl)c(Cl)cc1Cl
 CH$IUPAC: InChI=1S/C9H11Cl3NO3PS/c1-3-14-17(18,15-4-2)16-9-7(11)5-6(10)8(12)13-9/h5H,3-4H2,1-2H3
 CH$LINK: CAS 2921-88-2
 CH$LINK: INCHIKEY SBPBAQFWLVIOKP-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0001572; Organic compounds; Organic acids and derivatives; Organic thiophosphoric acids and derivatives; Thiophosphoric acid esters
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 16.34 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 349.9336
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0a4i-9800000000-510e7ac9bc932478fc9d
 PK$NUM_PEAK: 17
 PK$PEAK: m/z int. rel.int.

@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL2311109842
 RECORD_TITLE: N,N-dimethylbenzylamine; LC-ESI-QTOF; MS2; 70 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: N,N-dimethylbenzylamine
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C9H13N
@@ -14,7 +15,6 @@ CH$SMILES: CN(C)CC1=CC=CC=C1
 CH$IUPAC: InChI=1S/C9H13N/c1-10(2)8-9-6-4-3-5-7-9/h3-7H,8H2,1-2H3
 CH$LINK: CAS 103-83-3
 CH$LINK: INCHIKEY XXBDWLFCJWSEKW-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0000185; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylmethylamines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.419 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 136.1121
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-014r-9000000000-5c96946c408988e9cb21
 PK$NUM_PEAK: 10
 PK$PEAK: m/z int. rel.int.

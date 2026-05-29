@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL231109288
 RECORD_TITLE: Bephenium; LC-ESI-QTOF; MS2; 40 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Bephenium
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: [C17H22NO]+
@@ -14,7 +15,6 @@ CH$SMILES: C[N+](C)(CCOc1ccccc1)Cc2ccccc2
 CH$IUPAC: InChI=1S/C17H22NO/c1-18(2,15-16-9-5-3-6-10-16)13-14-19-17-11-7-4-8-12-17/h3-12H,13-15H2,1-2H3/q+1
 CH$LINK: CAS 7181-73-9
 CH$LINK: INCHIKEY AVWWVJUMXRXPNF-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0000185; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylmethylamines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.137 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 256.1696
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0006-9000000000-b3197283b0fc9075b67f
 PK$NUM_PEAK: 4
 PK$PEAK: m/z int. rel.int.

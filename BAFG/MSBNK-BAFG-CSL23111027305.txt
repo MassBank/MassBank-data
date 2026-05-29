@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL23111027305
 RECORD_TITLE: Nicosulfuron; LC-ESI-QTOF; MS2; 30 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Nicosulfuron
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C15H18N6O6S
@@ -14,7 +15,6 @@ CH$SMILES: CN(C)C(=O)C1=C(N=CC=C1)S(=O)(=O)NC(=O)NC2=NC(=CC(=N2)OC)OC
 CH$IUPAC: InChI=1S/C15H18N6O6S/c1-21(2)13(22)9-6-5-7-16-12(9)28(24,25)20-15(23)19-14-17-10(26-3)8-11(18-14)27-4/h5-8H,1-4H3,(H2,17,18,19,20,23)
 CH$LINK: CAS 111991-09-4
 CH$LINK: INCHIKEY RTCOGUMHFFWOJV-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0001861; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives; Pyridinesulfonamides
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.499 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 411.1081
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-001i-0930000000-d6aee7477435f1ec8671
 PK$NUM_PEAK: 8
 PK$PEAK: m/z int. rel.int.

@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL2311092173
 RECORD_TITLE: Acebutolol; LC-ESI-QTOF; MS2; 80 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Acebutolol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C18H28N2O4
@@ -14,7 +15,6 @@ CH$SMILES: CCCC(=O)Nc1ccc(OCC(O)CNC(C)C)c(c1)C(C)=O
 CH$IUPAC: InChI=1S/C18H28N2O4/c1-5-6-18(23)20-14-7-8-17(16(9-14)13(4)21)24-11-15(22)10-19-12(2)3/h7-9,12,15,19,22H,5-6,10-11H2,1-4H3,(H,20,23)
 CH$LINK: CAS 37517-30-9
 CH$LINK: INCHIKEY GOEMGAFJFRBGGG-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0001831; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Carbonyl compounds
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.965 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 335.1976
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-057i-2900000000-a0ba6994db42b5134c8e
 PK$NUM_PEAK: 5
 PK$PEAK: m/z int. rel.int.

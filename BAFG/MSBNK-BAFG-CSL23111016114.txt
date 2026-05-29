@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL23111016114
 RECORD_TITLE: Clopidogrel carboxylic acid; LC-ESI-QTOF; MS2; 40 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Clopidogrel carboxylic acid
 CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product-Metabolite
 CH$FORMULA: C15H14ClNO2S
@@ -14,7 +15,6 @@ CH$SMILES: C1CN(CC2=C1SC=C2)C(C3=CC=CC=C3Cl)C(=O)O
 CH$IUPAC: InChI=1S/C15H14ClNO2S/c16-12-4-2-1-3-11(12)14(15(18)19)17-7-5-13-10(9-17)6-8-20-13/h1-4,6,8,14H,5,7,9H2,(H,18,19)
 CH$LINK: CAS 144457-28-3
 CH$LINK: INCHIKEY DCASRSISIKYPDD-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0000013; Organic compounds; Organic acids and derivatives; Carboxylic acids and derivatives; Amino acids, peptides, and analogues
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.621 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 308.0507
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0gdl-0900000000-e325c794f7ac684bb632
 PK$NUM_PEAK: 11
 PK$PEAK: m/z int. rel.int.
