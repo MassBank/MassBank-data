@@ -34,6 +34,7 @@
 | mFam                      | mFam Consortium                                                         |                 | MC             |                            |
 | MPI_for_Chemical_Ecology  | Max Planck Institute for Chemical Ecology                               | Germany         | CE             |                            |
 | MSSJ                      | Mass Spectrometry Society of Japan                                      | Japan           | MSJ            |                            |
+| MUI                       | Medical University of Innsbruck                                         | Austria         | NPS            |                            |
 | NAIST                     | Grad Sch Info Sci, NAIST                                                | Japan           | KNA            |                            |
 | NaToxAq                   | NaToxAq, Natural Toxins and Drinking Water Quality - From Source to Tap |                 | NA             | NATOXAQ                    |
 | Nihon_Univ                | College of Humanities and Sciences Nihon University                     | Japan           | NU             |                            |
