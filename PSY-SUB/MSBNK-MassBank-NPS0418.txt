@@ -1,0 +1,49 @@
+ACCESSION: MSBNK-MassBank-NPS0418
+RECORD_TITLE: 4'-Chloro-alpha-pyrrolidinovalerophenone; LC-ESI-QTOF; MS2; CE 10 eV; R=15000; [M+H]+
+DATE: 2026.06.16
+AUTHORS: Serafini D. (La Sapienza University of Rome), Oberacher H.(Medical University of Innsbruck, Institute of Legal Medicine and Core Facility Metabolomics)
+LICENSE: CC BY
+CH$NAME: 4'-Chloro-alpha-pyrrolidinovalerophenone
+CH$NAME: 1-(4-chlorophenyl)-2-pyrrolidin-1-ylpentan-1-one
+CH$NAME: 4-Chloro-alpha-pvp
+CH$NAME: Valerophenone, 4'-chloro-2-(1-pyrrolidinyl)-
+CH$COMPOUND_CLASS: Non-Natural Product; Organic oxygen compounds; Organooxygen compounds
+CH$FORMULA: C15H20ClNO
+CH$EXACT_MASS: 265.12334
+CH$SMILES: CCCC(C(=O)C1=CC=C(C=C1)Cl)N2CCCC2
+CH$IUPAC: InChI=1S/C15H20ClNO/c1-2-5-14(17-10-3-4-11-17)15(18)12-6-8-13(16)9-7-12/h6-9,14H,2-5,10-11H2,1H3
+CH$LINK: CAS 5881-77-6
+CH$LINK: ChemOnt CHEMONTID:0004298; Organic compounds; Organic oxygen compounds; Organooxygen compounds; Carbonyl compounds; Ketones; Aryl ketones; Phenylketones; Alkyl-phenylketones
+CH$LINK: INCHIKEY NIGBFBTVONRYQN-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:69245309
+AC$INSTRUMENT: TripleTof 5600+, AB Sciex
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS2
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: COLLISION_ENERGY 10 eV
+AC$MASS_SPECTROMETRY: FRAGMENTATION_MODE CID
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$MASS_SPECTROMETRY: RESOLUTION 15000
+AC$CHROMATOGRAPHY: COLUMN_NAME Kinetex 2.6 um Biphenyl 100 A, 100 x 2.1 mm, Phenomenex
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 98/2 at 0 min, 2/98 at 15 min, 2/98 at 16 min, 98/2 at 16.1 min, 98/2 at 20 min
+AC$CHROMATOGRAPHY: FLOW_RATE 200 uL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 6.159 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 0.5% acetic acid
+AC$CHROMATOGRAPHY: SOLVENT B acetonitrile
+MS$FOCUSED_ION: BASE_PEAK 266.1306
+MS$FOCUSED_ION: PRECURSOR_M/Z 266.1306
+MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
+PK$SPLASH: splash10-014i-0090000000-a0148248365edc9a4c8c
+PK$NUM_PEAK: 10
+PK$PEAK: m/z int. rel.int.
+  89.0386 52 1
+  110.9996 120 2
+  125.0153 3055 42
+  126.1277 896 12
+  138.9945 505 7
+  153.0102 339 5
+  167.0491 54 1
+  195.0571 2288 31
+  223.0758 158 2
+  266.1306 72859 999
+//
