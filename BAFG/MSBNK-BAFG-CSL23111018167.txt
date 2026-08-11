@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL23111018167
 RECORD_TITLE: Flutriafol; LC-ESI-QTOF; MS2; 130 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Flutriafol
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C16H13F2N3O
@@ -14,7 +15,6 @@ CH$SMILES: C1=CC=C(C(=C1)C(CN2C=NC=N2)(C3=CC=C(C=C3)F)O)F
 CH$IUPAC: InChI=1S/C16H13F2N3O/c17-13-7-5-12(6-8-13)16(22,9-21-11-19-10-20-21)14-3-1-2-4-15(14)18/h1-8,10-11,22H,9H2
 CH$LINK: CAS 76674-21-0
 CH$LINK: INCHIKEY JWUCHKBSVLQQCO-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0000369; Organic compounds; Benzenoids; Benzene and substituted derivatives; Diphenylmethanes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 10.047 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 302.11
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-00di-9000000000-ca28f9a8549ef96b715d
 PK$NUM_PEAK: 28
 PK$PEAK: m/z int. rel.int.

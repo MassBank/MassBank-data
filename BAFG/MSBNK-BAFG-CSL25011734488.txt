@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL25011734488
 RECORD_TITLE: Disperse Yellow 3; LC-ESI-QTOF; MS2; 10 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Disperse Yellow 3
 CH$FORMULA: C15H15N3O2
 CH$EXACT_MASS: 269.1164
@@ -13,7 +14,6 @@ CH$SMILES: CC1=CC(=C(C=C1)O)N=NC2=CC=C(C=C2)NC(=O)C
 CH$IUPAC: InChI=1S/C15H15N3O2/c1-10-3-8-15(20)14(9-10)18-17-13-6-4-12(5-7-13)16-11(2)19/h3-9,20H,1-2H3,(H,16,19)
 CH$LINK: CAS 2832-40-8
 CH$LINK: INCHIKEY PXOZAFXVEWKXED-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0003370; Organic compounds; Organoheterocyclic compounds; Azobenzenes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,7 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.171 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 268.1091
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-014i-0090000000-df92ec5ccf7ef8e13b11
 PK$NUM_PEAK: 2
 PK$PEAK: m/z int. rel.int.

@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL25011734477
 RECORD_TITLE: Disperse brown 1; LC-ESI-QTOF; MS2; 60 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Disperse brown 1
 CH$FORMULA: C16H15Cl3N4O4
 CH$EXACT_MASS: 432.0159
@@ -13,7 +14,6 @@ CH$SMILES: C1=CC(=C(C=C1N(CCO)CCO)Cl)N=NC2=C(C=C(C=C2Cl)[N+](=O)[O-])Cl
 CH$IUPAC: InChI=1S/C16H15Cl3N4O4/c17-12-7-10(22(3-5-24)4-6-25)1-2-15(12)20-21-16-13(18)8-11(23(26)27)9-14(16)19/h1-2,7-9,24-25H,3-6H2
 CH$LINK: CAS 23355-64-8
 CH$LINK: INCHIKEY HXXLWTPFYWMBSC-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0003370; Organic compounds; Organoheterocyclic compounds; Azobenzenes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,7 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.39 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 433.0232
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-114u-0903000000-57d54a63d11007d57741
 PK$NUM_PEAK: 74
 PK$PEAK: m/z int. rel.int.

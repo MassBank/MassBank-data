@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL23111016578
 RECORD_TITLE: Dienogest Impurity G; LC-ESI-QTOF; MS2; 40 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Dienogest Impurity G
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C20H23NO2
@@ -14,7 +15,6 @@ CH$SMILES: CC12CC=C3C(C1CCC2(CC#N)O)CCC4=C3C=CC(=C4)O
 CH$IUPAC: InChI=1S/C20H23NO2/c1-19-8-6-16-15-5-3-14(22)12-13(15)2-4-17(16)18(19)7-9-20(19,23)10-11-21/h3,5-6,12,17-18,22-23H,2,4,7-10H2,1H3
 CH$LINK: CAS 86153-38-0
 CH$LINK: INCHIKEY LPEAVAOTAWKUPC-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0001295; Organic compounds; Lipids and lipid-like molecules; Steroids and steroid derivatives; Hydroxysteroids
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.956 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 310.1802
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0a4i-0910000000-a480881a7735c89a5cd9
 PK$NUM_PEAK: 89
 PK$PEAK: m/z int. rel.int.

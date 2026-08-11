@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL23111011335
 RECORD_TITLE: 2-(3-Pyridyl)-1H-benzimidazole; LC-ESI-QTOF; MS2; 100 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 2-(3-Pyridyl)-1H-benzimidazole
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C12H9N3
@@ -14,7 +15,6 @@ CH$SMILES: C1=CC=C2C(=C1)NC(=N2)C3=CN=CC=C3
 CH$IUPAC: InChI=1S/C12H9N3/c1-2-6-11-10(5-1)14-12(15-11)9-4-3-7-13-8-9/h1-8H,(H,14,15)
 CH$LINK: CAS 1137-67-3
 CH$LINK: INCHIKEY BOUOQESVDURNSB-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0000294; Organic compounds; Organoheterocyclic compounds; Benzimidazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.155 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 194.0724
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0udi-9000000000-31d2f524c06516ce0c2f
 PK$NUM_PEAK: 10
 PK$PEAK: m/z int. rel.int.

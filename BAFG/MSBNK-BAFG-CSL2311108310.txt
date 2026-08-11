@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL2311108310
 RECORD_TITLE: Resveratrol; LC-ESI-QTOF; MS2; 10 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Resveratrol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C14H12O3
@@ -14,7 +15,6 @@ CH$SMILES: c1cc(ccc1/C=C/c2cc(cc(c2)O)O)O
 CH$IUPAC: InChI=1S/C14H12O3/c15-12-5-3-10(4-6-12)1-2-11-7-13(16)9-14(17)8-11/h1-9,15-17H/b2-1+
 CH$LINK: CAS 501-36-0
 CH$LINK: INCHIKEY LUKBXSAWLPMMSZ-OWOJBTEDSA-N
-CH$LINK: ChemOnt CHEMONTID:0000253; Organic compounds; Phenylpropanoids and polyketides; Stilbenes
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.575 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 227.0714
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-004i-0190000000-c553d3e424215bef376b
 PK$NUM_PEAK: 2
 PK$PEAK: m/z int. rel.int.

@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL23111018838
 RECORD_TITLE: Fluquinconazole; LC-ESI-QTOF; MS2; 50 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Fluquinconazole
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C16H8Cl2FN5O
@@ -14,7 +15,6 @@ CH$SMILES: C1=CC2=C(C=C1F)C(=O)N(C(=N2)N3C=NC=N3)C4=C(C=C(C=C4)Cl)Cl
 CH$IUPAC: InChI=1S/C16H8Cl2FN5O/c17-9-1-4-14(12(18)5-9)24-15(25)11-6-10(19)2-3-13(11)22-16(24)23-8-20-7-21-23/h1-8H
 CH$LINK: CAS 136426-54-5
 CH$LINK: INCHIKEY IJJVMEJXYNJXOJ-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0004789; Organic compounds; Organoheterocyclic compounds; Diazanaphthalenes; Benzodiazines
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.549 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 376.0163
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0ab9-0595000000-d24079383c22afb174c1
 PK$NUM_PEAK: 21
 PK$PEAK: m/z int. rel.int.

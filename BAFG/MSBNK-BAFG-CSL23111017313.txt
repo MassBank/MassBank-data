@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL23111017313
 RECORD_TITLE: Tetraconazole; LC-ESI-QTOF; MS2; 120 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Tetraconazole
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C13H11Cl2F4N3O
@@ -14,7 +15,6 @@ CH$SMILES: C1=CC(=C(C=C1Cl)Cl)C(CN2C=NC=N2)COC(C(F)F)(F)F
 CH$IUPAC: InChI=1S/C13H11Cl2F4N3O/c14-9-1-2-10(11(15)3-9)8(4-22-7-20-6-21-22)5-23-13(18,19)12(16)17/h1-3,6-8,12H,4-5H2
 CH$LINK: CAS 112281-77-3
 CH$LINK: INCHIKEY LQDARGUHUSPFNL-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0000035; Organic compounds; Benzenoids; Benzene and substituted derivatives; Halobenzenes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.382 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 372.0288
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0079-9100000000-7b27c15a07e95ab9d110
 PK$NUM_PEAK: 25
 PK$PEAK: m/z int. rel.int.

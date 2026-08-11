@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL25011734130
 RECORD_TITLE: 2,6-Dimethylpyridine; LC-ESI-QTOF; MS2; 40 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 2,6-Dimethylpyridine
 CH$FORMULA: C7H9N
 CH$EXACT_MASS: 107.0735
@@ -13,7 +14,6 @@ CH$SMILES: CC1=NC(=CC=C1)C
 CH$IUPAC: InChI=1S/C7H9N/c1-6-4-3-5-7(2)8-6/h3-5H,1-2H3
 CH$LINK: CAS 108-48-5
 CH$LINK: INCHIKEY OISVCGZHLKNMSJ-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0004152; Organic compounds; Organoheterocyclic compounds; Pyridines and derivatives; Methylpyridines
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,7 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 2.395 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 108.0808
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0aou-9300000000-3ada33befc6deb4c68d0
 PK$NUM_PEAK: 22
 PK$PEAK: m/z int. rel.int.
