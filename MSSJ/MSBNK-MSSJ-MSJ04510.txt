@@ -1,0 +1,33 @@
+ACCESSION: MSBNK-MSSJ-MSJ04510
+RECORD_TITLE: Cyprodinil; LC-ESI-QTOF; MS; POSITIVE
+DATE: 2023.10.23
+AUTHORS: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+LICENSE: CC BY
+COPYRIGHT: Atsushi Yamamoto, Faculty of Environmental Studies, Tottori University of Environmental Studies, 1-1, Wakabadai-kita, Tottori City, Tottori 689-1111, Japan.
+CH$NAME: Cyprodinil
+CH$COMPOUND_CLASS: Non-natural product
+CH$FORMULA: C14H15N3
+CH$EXACT_MASS: 225.126585
+CH$SMILES: Cc1cc(nc(Nc2ccccc2)n1)C1CC1
+CH$IUPAC: InChI=1S/C14H15N3/c1-10-9-13(11-7-8-11)17-14(15-10)16-12-5-3-2-4-6-12/h2-6,9,11H,7-8H2,1H3,(H,15,16,17)
+CH$LINK: CAS 121552-61-2
+CH$LINK: CHEMSPIDER 77885
+CH$LINK: INCHIKEY HAORKNGNJCEJBX-UHFFFAOYSA-N
+CH$LINK: PUBCHEM CID:86367
+AC$INSTRUMENT: X500R QTOF (AB Sciex LLC, MA, USA) coupled to ExionLC AD (AB Sciex LLC, MA, USA).
+AC$INSTRUMENT_TYPE: LC-ESI-QTOF
+AC$MASS_SPECTROMETRY: MS_TYPE MS
+AC$MASS_SPECTROMETRY: ION_MODE POSITIVE
+AC$MASS_SPECTROMETRY: IONIZATION ESI
+AC$CHROMATOGRAPHY: COLUMN_NAME TSKgel ODS-100S 5 microm, 2.1 mm × 250 mm, TOSOH
+AC$CHROMATOGRAPHY: FLOW_GRADIENT 95/5 at 0 min, 95/5 at 3 min, 0/100 at 13 min, 0/100 at 23 min, 95/5 at 23.1 min, 95/5 at 28 min
+AC$CHROMATOGRAPHY: FLOW_RATE 200 microL/min
+AC$CHROMATOGRAPHY: RETENTION_TIME 15 min
+AC$CHROMATOGRAPHY: SOLVENT A water with 20 mM formic acid aquatic solution
+AC$CHROMATOGRAPHY: SOLVENT B methanol with 20 mM formic acid methanolic solution
+PK$SPLASH: splash10-004i-0090000000-f1529bc75397a4badb61
+PK$NUM_PEAK: 2
+PK$PEAK: m/z int. rel.int.
+  226.1335 7281.6 999
+  227.1369 1932.1 265
+//
