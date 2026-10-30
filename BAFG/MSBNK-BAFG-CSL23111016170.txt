@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111016170
 RECORD_TITLE: N-ethyl-4-menthane-3-carboxamide; LC-ESI-QTOF; MS2; 50 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: N-ethyl-4-menthane-3-carboxamide
-CH$COMPOUND_CLASS: Food_additive; Personal_care_product
+CH$COMPOUND_CLASS: Personal_care_product; Food_additive
 CH$FORMULA: C13H25NO
 CH$EXACT_MASS: 211.1936
 CH$SMILES: CCNC(=O)C1CC(CCC1C(C)C)C
 CH$IUPAC: InChI=1S/C13H25NO/c1-5-14-13(15)12-8-10(4)6-7-11(12)9(2)3/h9-12H,5-8H2,1-4H3,(H,14,15)
 CH$LINK: CAS 39711-79-0
 CH$LINK: INCHIKEY VUNOFAIHSALQQH-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0001549; Organic compounds; Lipids and lipid-like molecules; Prenol lipids; Monoterpenoids
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.775 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 212.2009
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-052f-9000000000-69c7a3948883123f2531
 PK$NUM_PEAK: 50
 PK$PEAK: m/z int. rel.int.

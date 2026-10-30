@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL23111010155
 RECORD_TITLE: Aminophenazone; LC-ESI-QTOF; MS2; 70 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Aminophenazone
 CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product-Metabolite
 CH$FORMULA: C13H17N3O
@@ -14,7 +15,6 @@ CH$SMILES: CC1=C(C(=O)N(N1C)C2=CC=CC=C2)N(C)C
 CH$IUPAC: InChI=1S/C13H17N3O/c1-10-12(14(2)3)13(17)16(15(10)4)11-8-6-5-7-9-11/h5-9H,1-4H3
 CH$LINK: CAS 58-15-1
 CH$LINK: INCHIKEY RMMXTBMQSGEXHJ-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0000087; Organic compounds; Organoheterocyclic compounds; Azoles; Pyrazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 4.71 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 232.1444
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0a4j-9000000000-7e0626263b5376578b65
 PK$NUM_PEAK: 26
 PK$PEAK: m/z int. rel.int.

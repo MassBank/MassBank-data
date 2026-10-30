@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL2311093453
 RECORD_TITLE: Opipramol; LC-ESI-QTOF; MS2; 150 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Opipramol
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C23H29N3O
@@ -14,7 +15,6 @@ CH$SMILES: OCCN1CCN(CCCN2c3ccccc3C=Cc4ccccc24)CC1
 CH$IUPAC: InChI=1S/C23H29N3O/c27-19-18-25-16-14-24(15-17-25)12-5-13-26-22-8-3-1-6-20(22)10-11-21-7-2-4-9-23(21)26/h1-4,6-11,27H,5,12-19H2
 CH$LINK: CAS 315-72-0
 CH$LINK: INCHIKEY YNZFUWZUGRBMHL-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0000320; Organic compounds; Organoheterocyclic compounds; Benzazepines; Dibenzazepines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.242 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 364.2383
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0fb9-2910000000-6cb86f5975f9a1455f3e
 PK$NUM_PEAK: 51
 PK$PEAK: m/z int. rel.int.

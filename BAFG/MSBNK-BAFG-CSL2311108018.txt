@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL2311108018
 RECORD_TITLE: Metolachlor; LC-ESI-QTOF; MS2; 70 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Metolachlor
 CH$COMPOUND_CLASS: Herbicide
 CH$FORMULA: C15H22ClNO2
@@ -14,7 +15,6 @@ CH$SMILES: CCc1cccc(C)c1N(C(C)COC)C(=O)CCl
 CH$IUPAC: InChI=1S/C15H22ClNO2/c1-5-13-8-6-7-11(2)15(13)17(14(18)9-16)12(3)10-19-4/h6-8,12H,5,9-10H2,1-4H3
 CH$LINK: CAS 51218-45-2
 CH$LINK: INCHIKEY WVQBLGZPHOPPFO-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0000285; Organic compounds; Benzenoids; Benzene and substituted derivatives; Anilides
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.304 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 284.1412
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-015c-3900000000-61d8d45a1d698853cc3e
 PK$NUM_PEAK: 52
 PK$PEAK: m/z int. rel.int.

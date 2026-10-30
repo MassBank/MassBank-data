@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL23111014981
 RECORD_TITLE: Tributylpentylammonium; LC-ESI-QTOF; MS2; 140 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Tributylpentylammonium
 CH$FORMULA: [C17H38N]+
 CH$EXACT_MASS: 256.2999
@@ -13,7 +14,6 @@ CH$SMILES: CCCCC[N+](CCCC)(CCCC)CCCC
 CH$IUPAC: InChI=1S/C17H38N/c1-5-9-13-17-18(14-10-6-2,15-11-7-3)16-12-8-4/h5-17H2,1-4H3/q+1
 CH$LINK: CAS 37026-92-9
 CH$LINK: INCHIKEY YDZKVIKDXBFPMW-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0000503; Organic compounds; Organic nitrogen compounds; Organonitrogen compounds; Quaternary ammonium salts
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -29,7 +29,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.57 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 256.2999
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-000l-9000000000-61d4bf4d39243529f8cd
 PK$NUM_PEAK: 5
 PK$PEAK: m/z int. rel.int.

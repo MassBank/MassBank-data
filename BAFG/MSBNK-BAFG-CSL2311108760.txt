@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311108760
 RECORD_TITLE: O-desmethyl-naproxen; LC-ESI-QTOF; MS2; 50 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: O-desmethyl-naproxen
-CH$COMPOUND_CLASS: Metabolite; Pharmaceutical; Transformation_product
+CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product-Metabolite
 CH$FORMULA: C13H12O3
 CH$EXACT_MASS: 216.0786
 CH$SMILES: CC(C1=CC2=C(C=C1)C=C(C=C2)O)C(=O)O
 CH$IUPAC: InChI=1S/C13H12O3/c1-8(13(15)16)9-2-3-11-7-12(14)5-4-10(11)6-9/h2-8,14H,1H3,(H,15,16)
 CH$LINK: CAS 52079-10-4
 CH$LINK: INCHIKEY XWJUDDGELKXYNO-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0002441; Organic compounds; Benzenoids; Naphthalenes; Naphthols and derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.5 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 217.0859
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0fb9-0900000000-39484f96e843026597b4
 PK$NUM_PEAK: 18
 PK$PEAK: m/z int. rel.int.

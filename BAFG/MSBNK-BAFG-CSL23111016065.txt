@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL23111016065
 RECORD_TITLE: Penconazol; LC-ESI-QTOF; MS2; 50 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Penconazol
 CH$COMPOUND_CLASS: Fungicide
 CH$FORMULA: C13H15Cl2N3
@@ -14,7 +15,6 @@ CH$SMILES: CCCC(CN1C=NC=N1)C2=C(C=C(C=C2)Cl)Cl
 CH$IUPAC: InChI=1S/C13H15Cl2N3/c1-2-3-10(7-18-9-16-8-17-18)12-5-4-11(14)6-13(12)15/h4-6,8-10H,2-3,7H2,1H3
 CH$LINK: CAS 66246-88-6
 CH$LINK: INCHIKEY WKBPZYKAUNRMKP-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0000035; Organic compounds; Benzenoids; Benzene and substituted derivatives; Halobenzenes
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.845 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 284.0716
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0ab9-4900000000-0a2ce83bdc257a5e1bec
 PK$NUM_PEAK: 12
 PK$PEAK: m/z int. rel.int.

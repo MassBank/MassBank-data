@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL23111014204
 RECORD_TITLE: Rifaximin; LC-ESI-QTOF; MS2; 40 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Rifaximin
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C43H51N3O11
@@ -14,7 +15,6 @@ CH$SMILES: CC1C=CC=C(C(=O)NC2=C(C3=C(C4=C(C(=C3O)C)OC(C4=O)(OC=CC(C(C(C(C(C(C1O)
 CH$IUPAC: InChI=1S/C43H51N3O11/c1-19-14-16-46-28(18-19)44-32-29-30-37(50)25(7)40-31(29)41(52)43(9,57-40)55-17-15-27(54-10)22(4)39(56-26(8)47)24(6)36(49)23(5)35(48)20(2)12-11-13-21(3)42(53)45-33(34(32)46)38(30)51/h11-18,20,22-24,27,35-36,39,48-51H,1-10H3,(H,45,53)
 CH$LINK: CAS 80621-81-4
 CH$LINK: INCHIKEY NZCRJKRKKOLAOJ-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0000064; Organic compounds; Phenylpropanoids and polyketides; Macrolactams
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.765 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 808.3416
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+Na]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0a4i-0000000390-89e15758bf19e548da0c
 PK$NUM_PEAK: 5
 PK$PEAK: m/z int. rel.int.

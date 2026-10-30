@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL2311106865
 RECORD_TITLE: Gemcitabine; LC-ESI-QTOF; MS2; 10 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Gemcitabine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C9H11F2N3O4
@@ -14,7 +15,6 @@ CH$SMILES: C1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)O)(F)F
 CH$IUPAC: InChI=1S/C9H11F2N3O4/c10-9(11)6(16)4(3-15)18-7(9)14-2-1-5(12)13-8(14)17/h1-2,4,6-7,15-16H,3H2,(H2,12,13,17)
 CH$LINK: CAS 95058-81-4
 CH$LINK: INCHIKEY SDUQYLNIPVEERB-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0000075; Organic compounds; Organoheterocyclic compounds; Diazines; Pyrimidines and pyrimidine derivatives
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 2.43 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 264.079
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-03di-0090000000-49d3aae1530e098a0389
 PK$NUM_PEAK: 2
 PK$PEAK: m/z int. rel.int.

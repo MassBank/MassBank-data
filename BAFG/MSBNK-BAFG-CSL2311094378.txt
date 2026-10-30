@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311094378
 RECORD_TITLE: 5,6-Dimethyl-1H-benzotriazol; LC-ESI-QTOF; MS2; 40 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 5,6-Dimethyl-1H-benzotriazol
-CH$COMPOUND_CLASS: Industrial_process; Antimicrobial
+CH$COMPOUND_CLASS: Antimicrobial; Industrial_process
 CH$FORMULA: C8H9N3
 CH$EXACT_MASS: 147.0796
 CH$SMILES: Cc1cc2n[nH]nc2cc1C
 CH$IUPAC: InChI=1S/C8H9N3/c1-5-3-7-8(4-6(5)2)10-11-9-7/h3-4H,1-2H3,(H,9,10,11)
 CH$LINK: CAS 4184-79-6
 CH$LINK: INCHIKEY MVPKIPGHRNIOPT-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0000315; Organic compounds; Organoheterocyclic compounds; Benzotriazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.012 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 148.0869
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-004l-9300000000-b2fdeec0f4cb42fd93c4
 PK$NUM_PEAK: 24
 PK$PEAK: m/z int. rel.int.
