@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL231109158
 RECORD_TITLE: Methylbenzethonium; LC-ESI-QTOF; MS2; 40 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Methylbenzethonium
 CH$COMPOUND_CLASS: Antimicrobial
 CH$FORMULA: [C28H44NO2]+
 CH$EXACT_MASS: 426.3367
-CH$SMILES: Cc1cc(OCCOCC[N+](C)(C)Cc2ccccc2)ccc1C(C)(C)CC(C)(C)C
-CH$IUPAC: InChI=1S/C28H44NO2/c1-23-20-25(14-15-26(23)28(5,6)22-27(2,3)4)31-19-18-30-17-16-29(7,8)21-24-12-10-9-11-13-24/h9-15,20H,16-19,21-22H2,1-8H3/q+1
+CH$SMILES: CC1=C(C=CC(=C1)C(C)(C)CC(C)(C)C)OCCOCC[N+](C)(C)CC2=CC=CC=C2
+CH$IUPAC: InChI=1S/C28H44NO2/c1-23-20-25(28(5,6)22-27(2,3)4)14-15-26(23)31-19-18-30-17-16-29(7,8)21-24-12-10-9-11-13-24/h9-15,20H,16-19,21-22H2,1-8H3/q+1
 CH$LINK: CAS 72013-76-4
-CH$LINK: INCHIKEY ULBZAXDVMDGCJQ-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0002811; Organic compounds; Benzenoids; Benzene and substituted derivatives; Phenylpropanes
+CH$LINK: INCHIKEY UQOOPIMXBSPVJI-UHFFFAOYSA-N
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 12.282 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 426.3367
 MS$FOCUSED_ION: PRECURSOR_TYPE [M]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-005c-9007800000-c5b21dbd7e99c92ebcbb
 PK$NUM_PEAK: 5
 PK$PEAK: m/z int. rel.int.

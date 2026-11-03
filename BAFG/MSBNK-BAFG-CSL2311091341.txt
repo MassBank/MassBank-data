@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL2311091341
 RECORD_TITLE: Azathioprine; LC-ESI-QTOF; MS2; 120 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Azathioprine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C9H7N7O2S
@@ -14,7 +15,6 @@ CH$SMILES: Cn1cnc(c1Sc2ncnc3nc[nH]c23)[N+]([O-])=O
 CH$IUPAC: InChI=1S/C9H7N7O2S/c1-15-4-14-7(16(17)18)9(15)19-8-5-6(11-2-10-5)12-3-13-8/h2-4H,1H3,(H,10,11,12,13)
 CH$LINK: CAS 446-86-6
 CH$LINK: INCHIKEY LMEKQMALGUDUQG-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0004631; Organic compounds; Organosulfur compounds; Thioethers; Aryl thioethers
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.367 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 276.0309
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0007-9000000000-e20aa7cde3a3f9bf2909
 PK$NUM_PEAK: 13
 PK$PEAK: m/z int. rel.int.

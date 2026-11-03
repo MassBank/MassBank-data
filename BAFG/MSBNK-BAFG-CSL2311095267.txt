@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311095267
 RECORD_TITLE: Thiabendazole; LC-ESI-QTOF; MS2; 30 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Thiabendazole
-CH$COMPOUND_CLASS: Fungicide; Pharmaceutical
+CH$COMPOUND_CLASS: Pharmaceutical; Fungicide
 CH$FORMULA: C10H7N3S
 CH$EXACT_MASS: 201.0361
 CH$SMILES: [nH]1c2ccccc2nc1c3cscn3
 CH$IUPAC: InChI=1S/C10H7N3S/c1-2-4-8-7(3-1)12-10(13-8)9-5-14-6-11-9/h1-6H,(H,12,13)
 CH$LINK: CAS 148-79-8
 CH$LINK: INCHIKEY WJCNZQLZVWNLKY-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0000294; Organic compounds; Organoheterocyclic compounds; Benzimidazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.203 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 202.0433
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0ufr-0790000000-9a55e49574b5c0a837ac
 PK$NUM_PEAK: 6
 PK$PEAK: m/z int. rel.int.

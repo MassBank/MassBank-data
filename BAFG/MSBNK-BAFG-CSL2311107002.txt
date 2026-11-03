@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL2311107002
 RECORD_TITLE: Febantel; LC-ESI-QTOF; MS2; 80 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Febantel
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C20H22N4O6S
@@ -14,7 +15,6 @@ CH$SMILES: COCC(=O)Nc1cc(Sc2ccccc2)ccc1NC(NC(=O)OC)=NC(=O)OC
 CH$IUPAC: InChI=1S/C20H22N4O6S/c1-28-12-17(25)21-16-11-14(31-13-7-5-4-6-8-13)9-10-15(16)22-18(23-19(26)29-2)24-20(27)30-3/h4-11H,12H2,1-3H3,(H,21,25)(H2,22,23,24,26,27)
 CH$LINK: CAS 58306-30-2
 CH$LINK: INCHIKEY HMCCXLBXIJMERM-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0004631; Organic compounds; Organosulfur compounds; Thioethers; Aryl thioethers
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 13.085 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 447.1333
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0avi-0950000000-abc00573d57f29317577
 PK$NUM_PEAK: 158
 PK$PEAK: m/z int. rel.int.

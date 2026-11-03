@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL2311107323
 RECORD_TITLE: 5-Methyl-1H-benzotriazole; LC-ESI-QTOF; MS2; 60 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: 5-Methyl-1H-benzotriazole
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C7H7N3
@@ -14,7 +15,6 @@ CH$SMILES: Cc1ccc2n[nH]nc2c1
 CH$IUPAC: InChI=1S/C7H7N3/c1-5-2-3-6-7(4-5)9-10-8-6/h2-4H,1H3,(H,8,9,10)
 CH$LINK: CAS 136-85-6
 CH$LINK: INCHIKEY LRUDIIUSNGCQKF-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0000315; Organic compounds; Organoheterocyclic compounds; Benzotriazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.021 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 134.0713
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-004i-9000000000-db09567b652588fab356
 PK$NUM_PEAK: 15
 PK$PEAK: m/z int. rel.int.

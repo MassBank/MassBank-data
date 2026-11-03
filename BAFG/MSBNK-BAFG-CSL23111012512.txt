@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL23111012512
 RECORD_TITLE: Tadalafil; LC-ESI-QTOF; MS2; 70 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Tadalafil
-CH$COMPOUND_CLASS: Pharmaceutical; Personal_care_product
+CH$COMPOUND_CLASS: Personal_care_product; Pharmaceutical
 CH$FORMULA: C22H19N3O4
 CH$EXACT_MASS: 389.1376
 CH$SMILES: CN1CC(=O)N2C(C1=O)CC3=C(C2C4=CC5=C(C=C4)OCO5)NC6=CC=CC=C36
 CH$IUPAC: InChI=1S/C22H19N3O4/c1-24-10-19(26)25-16(22(24)27)9-14-13-4-2-3-5-15(13)23-20(14)21(25)12-6-7-17-18(8-12)29-11-28-17/h2-8,16,21,23H,9-11H2,1H3
 CH$LINK: CAS 171596-29-5
 CH$LINK: INCHIKEY WOXKDUGGOYFFRN-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0001213; Organic compounds; Organoheterocyclic compounds; Indoles and derivatives; Pyridoindoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 9.801 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 390.1448
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0udi-0590000000-47dd9a34bab3cecc700a
 PK$NUM_PEAK: 44
 PK$PEAK: m/z int. rel.int.

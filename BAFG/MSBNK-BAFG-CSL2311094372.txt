@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL2311094372
 RECORD_TITLE: Sertraline; LC-ESI-QTOF; MS2; 150 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Sertraline
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C17H17Cl2N
@@ -14,7 +15,6 @@ CH$SMILES: CN[C@H]1CC[C@H](c2c1cccc2)c3ccc(c(c3)Cl)Cl
 CH$IUPAC: InChI=1S/C17H17Cl2N/c1-20-17-9-7-12(13-4-2-3-5-14(13)17)11-6-8-15(18)16(19)10-11/h2-6,8,10,12,17,20H,7,9H2,1H3/t12-,17-/m0/s1
 CH$LINK: CAS 79617-96-2
 CH$LINK: INCHIKEY VGKDLMBJGBXTGI-SJCJKPOMSA-N
-CH$LINK: ChemOnt CHEMONTID:0000049; Organic compounds; Benzenoids; Tetralins; Tametralines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 8.925 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 306.0811
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-00g0-9400000000-01817692d4d64961f9f3
 PK$NUM_PEAK: 57
 PK$PEAK: m/z int. rel.int.

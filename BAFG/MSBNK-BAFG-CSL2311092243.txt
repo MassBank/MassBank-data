@@ -1,20 +1,20 @@
 ACCESSION: MSBNK-BAFG-CSL2311092243
 RECORD_TITLE: Atrazine-desisopropyl-2-hydroxy; LC-ESI-QTOF; MS2; 110 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Atrazine-desisopropyl-2-hydroxy
-CH$COMPOUND_CLASS: Herbicide; Transformation_product
+CH$COMPOUND_CLASS: Herbicide; Transformation_product-Metabolite
 CH$FORMULA: C5H9N5O
 CH$EXACT_MASS: 155.0807
 CH$SMILES: CCNC1=NC(=O)N=C(N)N1
 CH$IUPAC: InChI=1S/C5H9N5O/c1-2-7-4-8-3(6)9-5(11)10-4/h2H2,1H3,(H4,6,7,8,9,10,11)
 CH$LINK: CAS 7313-54-4
 CH$LINK: INCHIKEY XRVCXZWINJOORX-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0004105; Organic compounds; Organoheterocyclic compounds; Triazines; 1,3,5-triazines
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 2.315 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 154.0734
 MS$FOCUSED_ION: PRECURSOR_TYPE [M-H]-
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0006-9000000000-74562afb5ad5093f7642
 PK$NUM_PEAK: 6
 PK$PEAK: m/z int. rel.int.

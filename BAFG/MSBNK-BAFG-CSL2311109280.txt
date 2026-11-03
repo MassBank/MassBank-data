@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL2311109280
 RECORD_TITLE: Drometrizole; LC-ESI-QTOF; MS2; 20 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Drometrizole
 CH$COMPOUND_CLASS: Industrial_process
 CH$FORMULA: C13H11N3O
@@ -14,7 +15,6 @@ CH$SMILES: CC1=CC(=C(C=C1)O)N2N=C3C=CC=CC3=N2
 CH$IUPAC: InChI=1S/C13H11N3O/c1-9-6-7-13(17)12(8-9)16-14-10-4-2-3-5-11(10)15-16/h2-8,17H,1H3
 CH$LINK: CAS 2440-22-4
 CH$LINK: INCHIKEY MCPKSFINULVDNX-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0000099; Organic compounds; Organoheterocyclic compounds; Azoles; Triazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 15.201 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 226.0975
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-004i-0290000000-cd12a26d446665c92851
 PK$NUM_PEAK: 5
 PK$PEAK: m/z int. rel.int.

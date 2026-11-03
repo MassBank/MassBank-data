@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL2311108965
 RECORD_TITLE: N-[4-(1H-benzimidazol-2-yl)phenyl]-N,N-dimethylamine; LC-ESI-QTOF; MS2; 120 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: N-[4-(1H-benzimidazol-2-yl)phenyl]-N,N-dimethylamine
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C15H15N3
@@ -14,7 +15,6 @@ CH$SMILES: CN(C)C1=CC=C(C=C1)C2=NC3=CC=CC=C3N2
 CH$IUPAC: InChI=1S/C15H15N3/c1-18(2)12-9-7-11(8-10-12)15-16-13-5-3-4-6-14(13)17-15/h3-10H,1-2H3,(H,16,17)
 CH$LINK: CAS 2562-71-2
 CH$LINK: INCHIKEY ZKBBGUJBGLTNEK-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0000330; Organic compounds; Organoheterocyclic compounds; Benzimidazoles; Phenylbenzimidazoles
 AC$INSTRUMENT: TripleTOF 5600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 6.517 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 238.1339
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-03y3-8900000000-b577d040ad4c1be99525
 PK$NUM_PEAK: 60
 PK$PEAK: m/z int. rel.int.

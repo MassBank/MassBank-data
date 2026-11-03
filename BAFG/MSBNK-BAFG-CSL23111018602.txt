@@ -1,11 +1,12 @@
 ACCESSION: MSBNK-BAFG-CSL23111018602
 RECORD_TITLE: Diazepam; LC-ESI-QTOF; MS2; 130 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Diazepam
 CH$COMPOUND_CLASS: Pharmaceutical
 CH$FORMULA: C16H13ClN2O
@@ -14,7 +15,6 @@ CH$SMILES: CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3
 CH$IUPAC: InChI=1S/C16H13ClN2O/c1-19-14-8-7-12(17)9-13(14)16(18-10-15(19)20)11-5-3-2-4-6-11/h2-9H,10H2,1H3
 CH$LINK: CAS 439-14-5
 CH$LINK: INCHIKEY AAOVKJBEBIDNHE-UHFFFAOYSA-N
-CH$LINK: ChemOnt CHEMONTID:0004097; Organic compounds; Organoheterocyclic compounds; Benzodiazepines; 1,4-benzodiazepines
 AC$INSTRUMENT: TripleTOF 6600 SCIEX
 AC$INSTRUMENT_TYPE: LC-ESI-QTOF
 AC$MASS_SPECTROMETRY: MS_TYPE MS2
@@ -30,7 +30,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 11.181 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 285.0789
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0iki-9600000000-a90686aacf3358540c86
 PK$NUM_PEAK: 96
 PK$PEAK: m/z int. rel.int.
