@@ -33,6 +33,10 @@ jobs:
           distribution: 'temurin'
 
       - name: Prepare release files
+        env:
+          # The JSON-LD exporter keeps all records plus the generated JSON tree
+          # in memory. The default JVM heap on ubuntu-latest is too small.
+          JAVA_TOOL_OPTIONS: -Xmx10g
         run: |
           set -euo pipefail
           shopt -s nullglob
