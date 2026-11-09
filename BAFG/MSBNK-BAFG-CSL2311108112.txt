@@ -1,13 +1,14 @@
 ACCESSION: MSBNK-BAFG-CSL2311108112
 RECORD_TITLE: Voriconazole-N-oxide; LC-ESI-QTOF; MS2; 80 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Voriconazole-N-oxide
-CH$COMPOUND_CLASS: Metabolite; Pharmaceutical
+CH$COMPOUND_CLASS: Pharmaceutical; Transformation_product-Metabolite
 CH$FORMULA: C16H14F3N5O2
 CH$EXACT_MASS: 365.11
 CH$SMILES: CC(C1=NC=[N+](C=C1F)[O-])C(CN2C=NC=N2)(C3=C(C=C(C=C3)F)F)O
@@ -30,7 +31,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.739 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 366.1172
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-004i-1900000000-9d0ad6fb4cc3fd3ac730
 PK$NUM_PEAK: 20
 PK$PEAK: m/z int. rel.int.

@@ -1,13 +1,14 @@
 ACCESSION: MSBNK-BAFG-CSL23111017446
 RECORD_TITLE: Cocaethylene; LC-ESI-QTOF; MS2; 90 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Cocaethylene
-CH$COMPOUND_CLASS: Metabolite
+CH$COMPOUND_CLASS: Transformation_product-Metabolite
 CH$FORMULA: C18H23NO4
 CH$EXACT_MASS: 317.1627
 CH$SMILES: CCOC(=O)C1C2CCC(N2C)CC1OC(=O)C3=CC=CC=C3
@@ -30,7 +31,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 7.013 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 318.17
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-00or-9000000000-1901c58deca771792b0d
 PK$NUM_PEAK: 31
 PK$PEAK: m/z int. rel.int.

@@ -1,13 +1,14 @@
 ACCESSION: MSBNK-BAFG-CSL2311093202
 RECORD_TITLE: Carbendazim; LC-ESI-QTOF; MS2; 80 V
-DATE: 2025.01.17
-AUTHORS: Ole Lessmann; Kevin S. Jewell; Björn Ehlig; Arne Wick
-LICENSE: dl-de/by-2-0
-COPYRIGHT: Copyright 2025 Federal Institute of Hydrology, Koblenz, Germany
+DATE: 2026.05.29
+AUTHORS: Björn Ehlig; Ole Lessmann; Kevin S. Jewell; Arne Wick
+LICENSE: CC BY
+COPYRIGHT: Copyright 2026 Federal Institute of Hydrology (Bundesanstalt für Gewässerkunde), Koblenz, Germany
 COMMENT: CONFIDENCE Reference Standard (Level 1)
-COMMENT: Chromatography method: dx.doi.org/10.1016/j.chroma.2015.11.014
+COMMENT: Chromatography method: bfg_nts_rp1
+COMMENT: Acquisition method: 10.1002/rcm.8541
 CH$NAME: Carbendazim
-CH$COMPOUND_CLASS: Fungicide; Metabolite; Pharmaceutical; Biocide
+CH$COMPOUND_CLASS: Fungicide; Pharmaceutical; Biocide; Transformation_product-Metabolite
 CH$FORMULA: C9H9N3O2
 CH$EXACT_MASS: 191.0695
 CH$SMILES: COC(=O)Nc1[nH]c2ccccc2n1
@@ -30,7 +31,7 @@ AC$CHROMATOGRAPHY: RETENTION_TIME 5.075 min
 AC$CHROMATOGRAPHY: SOLVENT A: Water 0.1% Formic acid, B: Acetonitrile 0.1% Formic acid
 MS$FOCUSED_ION: PRECURSOR_M/Z 192.0768
 MS$FOCUSED_ION: PRECURSOR_TYPE [M+H]+
-MS$DATA_PROCESSING: COMMENT Export with pycsl 0.1.0.dev1 and CSL 25.0
+MS$DATA_PROCESSING: COMMENT Export with csl-tools 1.1.0 and CSL_v26.2
 PK$SPLASH: splash10-0693-9200000000-0152a468787be5cfec63
 PK$NUM_PEAK: 19
 PK$PEAK: m/z int. rel.int.

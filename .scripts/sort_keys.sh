@@ -41,7 +41,7 @@ if [ -e $1 ]; then
   #sort AC$MASS_SPECTROMETRY
   grep -q 'AC$MASS_SPECTROMETRY:' $1
   if [ $? -eq 0 ]; then
-    (csplit -f $$ -q $1 '/AC$MASS_SPECTROMETRY/'; cat $$00; grep 'AC$MASS_SPECTROMETRY: MS_TYPE' $$01; grep 'AC$MASS_SPECTROMETRY: ION_MODE' $$01; grep 'AC$MASS_SPECTROMETRY:' $$01 | grep -v -e 'AC$MASS_SPECTROMETRY: ION_MODE' -e 'AC$MASS_SPECTROMETRY: MS_TYPE'; grep -v 'AC$MASS_SPECTROMETRY:' $$01) > /tmp/$$sorted.txt
+    (csplit -f $$ -q $1 '/AC\$MASS_SPECTROMETRY/'; cat $$00; grep 'AC$MASS_SPECTROMETRY: MS_TYPE' $$01; grep 'AC$MASS_SPECTROMETRY: ION_MODE' $$01; grep 'AC$MASS_SPECTROMETRY:' $$01 | grep -v -e 'AC$MASS_SPECTROMETRY: ION_MODE' -e 'AC$MASS_SPECTROMETRY: MS_TYPE'; grep -v 'AC$MASS_SPECTROMETRY:' $$01) > /tmp/$$sorted.txt
     mv /tmp/$$sorted.txt $1
     rm $$00 $$01
   fi

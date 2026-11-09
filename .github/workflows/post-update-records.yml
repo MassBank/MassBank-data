@@ -16,19 +16,19 @@ jobs:
 
     steps:
       - name: Checkout this repo's code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           path: MassBank-data
 
       - name: Checkout MassBank ClassyFire repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           repository: MassBank/MassBank-ClassyFire
           path: MassBank-ClassyFire
           ref: main
 
       - name: Setup python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7
         with:
           python-version: 3.12
 

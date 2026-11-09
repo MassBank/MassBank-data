@@ -14,6 +14,7 @@
 | Eawag                     | Eawag - Swiss Federal Institute of Aquatic Science and Technology       | Switzerland     | EA, EQ         | SOLUTIONS                  |
 | Eawag_Additional_Specs    | Eawag - Swiss Federal Institute of Aquatic Science and Technology       | Switzerland     | ET, ETS        |                            |
 | Env_Anal_Chem_U_Tuebingen | Environmental Analytical Chemistry, University of Tuebingen             | Germany         | TUE            |                            |
+| Empa_Air_Pollution        | Empa - Air Pollution / Environmental Technology                         | Switzerland     | EAP            |                            |
 | Fac_Eng_Univ_Tokyo        | Faculty of Engineering, The University of Tokyo                         | Japan           | JP             |                            |
 | Fiocruz                   | Oswaldo Cruz Foundation, Minas Gerais                                   | Brazil          | FIO            |                            |
 | Fukuyama_Univ             | Fukuyama University                                                     | Japan           | FU             |                            |
@@ -34,6 +35,7 @@
 | mFam                      | mFam Consortium                                                         |                 | MC             |                            |
 | MPI_for_Chemical_Ecology  | Max Planck Institute for Chemical Ecology                               | Germany         | CE             |                            |
 | MSSJ                      | Mass Spectrometry Society of Japan                                      | Japan           | MSJ            |                            |
+| MUI                       | Medical University of Innsbruck                                         | Austria         | NPS            |                            |
 | NAIST                     | Grad Sch Info Sci, NAIST                                                | Japan           | KNA            |                            |
 | NaToxAq                   | NaToxAq, Natural Toxins and Drinking Water Quality - From Source to Tap |                 | NA             | NATOXAQ                    |
 | Nihon_Univ                | College of Humanities and Sciences Nihon University                     | Japan           | NU             |                            |
@@ -46,6 +48,7 @@
 | RIKEN_NPDepo              | RIKEN Center for Sustainable Resource Science                           | Japan           | NGA, CB        |                            |
 | RIKEN_ReSpect             | RIKEN Plant Science Center                                              | Japan           | PT, PS, PM     |                            |
 | SMB_Measured              | Mass spectra from Shin-MassBank                                         | Japan           | HSA            |                            |
+| Tolmar                    | Tolmar, Inc.                                                            | USA             | TOL            |                            |
 | Tottori_Univ              | Tottori University                                                      | Japan           | TT             |                            |
 | Qingdao_University        | Qingdao University, Qingdao                                             | China           | QDU            |                            |
 | UFZ                       | Helmholtz Centre for Environmental Research  - UFZ                      | Germany         | UF, UA, UN, UP | SOLUTIONS, NATOXAQ, HBM4EU |
